@@ -14,7 +14,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.112.7'
+        hugo-version: '0.115.1'
         extended: true
 
     - name: Build
@@ -25,4 +25,4 @@ jobs:
       with:
         github_token: ${{ secrets.PAGESKEYS }}
         publish_dir: ./public
-        # cname: bitcoin-herald.org
+        cname: 21ideas.org
