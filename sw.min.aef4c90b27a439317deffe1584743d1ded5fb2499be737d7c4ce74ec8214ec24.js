@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/21ideas.org/sw.js",{scope:"/"})
