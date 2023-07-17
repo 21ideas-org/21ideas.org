@@ -1,4 +1,4 @@
-baseURL: 'https://21ideas.org/'
+baseURL: 'https://21ideas-org.github.io/21ideas.org/'
 theme: hugo-book
 title: 21ideas
 defaultContentLanguage: "ru"
