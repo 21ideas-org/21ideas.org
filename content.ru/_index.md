@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Добро пожаловать
 
 {{< columns >}}
 ## Astris ipse furtiva
