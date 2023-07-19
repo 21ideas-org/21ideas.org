@@ -1,41 +1,23 @@
 ---
-title: Introduction
+title: 21ideas - Открытый образовательный ресурс о Биткоине
 type: docs
 ---
 
-# Acerbo datus maxime
+# 21ideas: Открытый образовательный ресурс о Биткоине
 
 {{< columns >}}
-## Astris ipse furtiva
+## Изучайте
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+Цель проекта - предоставить каждому желающему все необходимые знания о Биткоине. 
+Собранные на этом сайте материалы нацелены на то, чтобы вы смогли в полной мере 
+осознать значимость этого открытия и понять как и какие проблемы он решает.
 
 <--->
 
-## Suis quot vota
+## Делитесь знаниями
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+Код проекта 21 идея открыт и является достоянием общественности, а значит, любой желающий может 
+предложить улучшения, новые статьи или книги. Чтобы сделать вклад в развитие русскоязычного биткоин-сообщества 
+переходите на наш [GitHub](https://github.com/21ideas-org/21ideas.org) или пишите лично Тони.
 {{< /columns >}}
 
-
-## Tempora nisi nunc
-
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
