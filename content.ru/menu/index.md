@@ -13,10 +13,10 @@ headless: true
 
 - **Shortcodes**
 - [Economics]({{< relref "/docs/Theory/economics" >}})
-- [Columns]({{< relref "/docs/shortcodes/columns" >}})
-- [Expand]({{< relref "/docs/shortcodes/expand" >}})
-- [Hints]({{< relref "/docs/shortcodes/hints" >}})
-- [KaTex]({{< relref "/docs/shortcodes/katex" >}})
-- [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
-- [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
+- [Columns]({{< relref "/docs/Theory/columns" >}})
+- [Expand]({{< relref "/docs/Theory/expand" >}})
+- [Hints]({{< relref "/docs/Theory/hints" >}})
+- [KaTex]({{< relref "/docs/Theory/katex" >}})
+- [Mermaid]({{< relref "/docs/Theory/mermaid" >}})
+- [Tabs]({{< relref "/docs/Theory/tabs" >}})
 <br />
