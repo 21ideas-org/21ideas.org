@@ -1,8 +1,8 @@
 ---
 weight: 1
 bookFlatSection: true
-bookHidden: true
 title: "Главная"
+bookHidden: true
 ---
 
 # Добро пожаловать
