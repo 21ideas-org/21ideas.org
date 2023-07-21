@@ -2,7 +2,7 @@
 headless: true
 ---
 
-- [**Example Site**]({{< relref "/docs/example" >}})
+- [**Main Page**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
@@ -12,11 +12,10 @@ headless: true
 <br />
 
 - **Shortcodes**
-- [Economics]({{< relref "/docs/Theory/economics" >}})
-- [Columns]({{< relref "/docs/Theory/columns" >}})
-- [Expand]({{< relref "/docs/Theory/expand" >}})
-- [Hints]({{< relref "/docs/Theory/hints" >}})
-- [KaTex]({{< relref "/docs/Theory/katex" >}})
-- [Mermaid]({{< relref "/docs/Theory/mermaid" >}})
-- [Tabs]({{< relref "/docs/Theory/tabs" >}})
+- [economics]({{< relref "/docs/Theory/economics" >}})
+- [history]({{< relref "/docs/Theory/history" >}})
+- [philosophy]({{< relref "/docs/Theory/philosophy" >}})
+- [privacy]({{< relref "/docs/Theory/privacy" >}})
+- [protocol]({{< relref "/docs/Theory/protocol" >}})
+- [security]({{< relref "/docs/Theory/security" >}})
 <br />

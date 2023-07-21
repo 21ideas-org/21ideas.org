@@ -2,6 +2,7 @@
 title: Теория
 type: docs
 bookFlatSection: false
+weight: 1
 ---
 
 # Теория
