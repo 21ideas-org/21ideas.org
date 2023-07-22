@@ -1,6 +1,7 @@
 ---
 title: "Практики безопасности"
 bookCollapseSection: true
+bookHidden: true
 weight: 4
 ---
 

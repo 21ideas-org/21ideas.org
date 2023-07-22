@@ -1,5 +1,6 @@
 ---
-title: "Практика приватности"
+title: "Практики приватности"
+bookHidden: true
 bookCollapseSection: true
 weight: 5
 ---

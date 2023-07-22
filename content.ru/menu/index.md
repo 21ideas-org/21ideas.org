@@ -11,7 +11,8 @@ headless: true
     - [4th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
 <br />
 
-- **Shortcodes**
+- **Sections**
+- [Theory]({{< relref "/docs/Theory/" >}})
 - [economics]({{< relref "/docs/Theory/economics" >}})
 - [history]({{< relref "/docs/Theory/history" >}})
 - [philosophy]({{< relref "/docs/Theory/philosophy" >}})
