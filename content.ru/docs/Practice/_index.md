@@ -2,7 +2,7 @@
 title: Практика
 type: docs
 bookFlatSection: false
-weight: 2
+weight: 3
 ---
 
 # Практика
