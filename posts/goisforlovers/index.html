@@ -1,8 +1,7 @@
 <!doctype html><html lang=ru dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates."><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="(Hu)go Template Primer"><meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates."><meta property="og:type" content="article"><meta property="og:url" content="https://21ideas-org.github.io/21ideas.org/posts/goisforlovers/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-04-02T00:00:00+00:00"><meta property="article:modified_time" content="2023-07-22T10:17:47+03:00"><title>(Hu)go Template Primer | 21ideas</title><link rel=manifest href=/21ideas.org/manifest.json><link rel=icon href=/21ideas.org/favicon.png type=image/x-icon><link rel=stylesheet href=/21ideas.org/book.min.f8de3645fe00591b41524aee174e19edd98a22255a2930a0cdc82a94835ba387.css integrity="sha256-+N42Rf4AWRtBUkruF04Z7dmKIiVaKTCgzcgqlINbo4c=" crossorigin=anonymous><script defer src=/21ideas.org/flexsearch.min.js></script>
-<script defer src=/21ideas.org/ru.search.min.c29483da9f1ad6917e439cbe0be648fc1a9cf29ec97478abeec6afbb30e0b08c.js integrity="sha256-wpSD2p8a1pF+Q5y+C+ZI/Bqc8p7JdHir7savuzDgsIw=" crossorigin=anonymous></script>
-<script defer src=/21ideas.org/sw.min.aef4c90b27a439317deffe1584743d1ded5fb2499be737d7c4ce74ec8214ec24.js integrity="sha256-rvTJCyekOTF97/4VhHQ9He1fskmb5zfXxM507IIU7CQ=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+This document is a brief primer on using Go templates."><meta property="og:type" content="article"><meta property="og:url" content="https://21ideas-org.github.io/21ideas.org/posts/goisforlovers/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-04-02T00:00:00+00:00"><meta property="article:modified_time" content="2023-07-24T16:13:51+03:00"><title>(Hu)go Template Primer | 21ideas</title><link rel=manifest href=/21ideas.org/manifest.json><link rel=icon href=/21ideas.org/favicon.png type=image/x-icon><link rel=stylesheet href=/21ideas.org/book.min.6485345d922fc2a195b4f8bad372dba344830894d1e1a22325fe4942930b7acb.css integrity="sha256-ZIU0XZIvwqGVtPi603Lbo0SDCJTR4aIjJf5JQpMLess=" crossorigin=anonymous><script defer src=/21ideas.org/flexsearch.min.js></script>
+<script defer src=/21ideas.org/ru.search.min.610877282944ae41a846711d87ac7d2b37fd8168419d9a888eaa7cf5ea49a764.js integrity="sha256-YQh3KClErkGoRnEdh6x9Kzf9gWhBnZqIjqp89epJp2Q=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
 <input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/21ideas.org/><span>21ideas</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Поиск aria-label=Поиск maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li><a href=/21ideas.org/docs/Start/>Начало пути</a><ul></ul></li><li><a href=/21ideas.org/docs/Theory/>Теория</a><ul><li><input type=checkbox id=section-c4ddad175f26bb1d35909363eff62296 class=toggle>
 <label for=section-c4ddad175f26bb1d35909363eff62296 class="flex justify-between"><a href=/21ideas.org/docs/Theory/economics/>Экономика</a></label><ul><li><a href=/21ideas.org/docs/Theory/economics/env-harmless/>Биткоин и окружающая среда</a></li></ul></li><li><input type=checkbox id=section-e83ea293497a2ab861101ccfc99a8ecc class=toggle>
 <label for=section-e83ea293497a2ab861101ccfc99a8ecc class="flex justify-between"><a href=/21ideas.org/docs/Theory/security/>Безопасность</a></label><ul><li><a href=/21ideas.org/docs/Theory/security/keys/>Как хранить ключи</a></li></ul></li><li><input type=checkbox id=section-e9552bdc5e196adcf41f88d9180bebda class=toggle>
@@ -22,22 +21,18 @@ This document is a brief primer on using Go templates."><meta property="og:type"
 <a href=/21ideas.org/tags/golang/>golang</a>,
 <a href=/21ideas.org/tags/templates/>templates</a>,
 <a href=/21ideas.org/tags/themes/>themes</a>,
-<a href=/21ideas.org/tags/development/>development</a></div><p>Hugo uses the excellent
-<a href=https://golang.org/>Go</a>
-<a href=https://golang.org/pkg/html/template/>html/template</a> library for
+<a href=/21ideas.org/tags/development/>development</a></div><p>Hugo uses the excellent <a href=https://golang.org/>Go</a> <a href=https://golang.org/pkg/html/template/>html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.</p><p>This document is a brief primer on using Go templates. The
-<a href=https://golang.org/pkg/html/template/>Go docs</a>
+similarities in Go templates.</p><p>This document is a brief primer on using Go templates. The <a href=https://golang.org/pkg/html/template/>Go docs</a>
 provide more details.</p><h2 id=introduction-to-go-templates>Introduction to Go Templates
 <a class=anchor href=#introduction-to-go-templates>#</a></h2><p>Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
 One consequence of this simplicity is that Go templates parse very quickly.</p><p>A unique characteristic of Go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
-details can be found in the
-<a href=https://golang.org/pkg/html/template/>Go docs</a>.</p><h2 id=basic-syntax>Basic Syntax
+details can be found in the <a href=https://golang.org/pkg/html/template/>Go docs</a>.</p><h2 id=basic-syntax>Basic Syntax
 <a class=anchor href=#basic-syntax>#</a></h2><p>Golang templates are HTML files with the addition of variables and
 functions.</p><p><strong>Go variables and functions are accessible within {{ }}</strong></p><p>Accessing a predefined variable &ldquo;foo&rdquo;:</p><pre><code>{{ foo }}
 </code></pre><p><strong>Parameters are separated using spaces</strong></p><p>Calling the add function with input of 1, 2:</p><pre><code>{{ add 1 2 }}
@@ -53,8 +48,7 @@ page you are rendering. More details are available on the
 </code></pre><h2 id=functions>Functions
 <a class=anchor href=#functions>#</a></h2><p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own.
-<a href=/layout/functions>Hugo template
+available functions with their own. <a href=/layout/functions>Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -132,8 +126,7 @@ data of each specific piece of content. You can define any values of any
 type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p><h2 id=using-content-page-parameters>Using Content (page) Parameters
 <a class=anchor href=#using-content-page-parameters>#</a></h2><p>In each piece of content you can provide variables to be used by the
-templates. This happens in the
-<a href=/content/front-matter>front matter</a>.</p><p>An example of this is used in this documentation site. Most of the pages
+templates. This happens in the <a href=/content/front-matter>front matter</a>.</p><p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p><p>Here is the example front matter:</p><pre tabindex=0><code>---
@@ -177,6 +170,4 @@ so, such as in this example:</p><pre tabindex=0><code>&lt;nav class=&#34;recent&
     &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
-</code></pre></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/alex-shpak/hugo-book/commit/27795814b0f2b33c08bf71c16d35254afc724923 title='Последнее изменение от Tony | July 22, 2023' target=_blank rel=noopener><img src=/21ideas.org/svg/calendar.svg class=book-icon alt=Calendar>
-<span>July 22, 2023</span></a></div><div><a class="flex align-center" href=https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/posts/goisforlovers.md target=_blank rel=noopener><img src=/21ideas.org/svg/edit.svg class=book-icon alt=Edit>
-<span>Редактировать эту страницу</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div></main></body></html>
+</code></pre></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div></main></body></html>
