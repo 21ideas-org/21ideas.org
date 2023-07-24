@@ -33,11 +33,8 @@ menu:
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/21ideas-org/21ideas.org"
       weight: 10
-    - name: "Hugo Themes"
-      url: "https://themes.gohugo.io/hugo-book/"
-      weight: 20
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
