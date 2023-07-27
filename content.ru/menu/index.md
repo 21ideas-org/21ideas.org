@@ -19,4 +19,13 @@ headless: true
 - [privacy]({{< relref "/docs/Theory/privacy" >}})
 - [protocol]({{< relref "/docs/Theory/protocol" >}})
 - [security]({{< relref "/docs/Theory/security" >}})
+- [lightning]({{< relref "/docs/Theory/lightning" >}})
+
+- [Practice]({{< relref "/docs/Practice/" >}})
+- [economics]({{< relref "/docs/Practice/economics" >}})
+- [economics]({{< relref "/docs/Practice/economics" >}})
+- [economics]({{< relref "/docs/Practice/economics" >}})
+- [economics]({{< relref "/docs/Practice/economics" >}})
+
+
 <br />
