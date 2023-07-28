@@ -1,10 +1,17 @@
 ---
-title: "Никаких KYC"
+title: "Никаких KYC, берегите персональные данные"
+description: "Статья расскажет о лучших практиках обретения приватности в сети Биткоин. Это - важная составляющая сохранения как вашей безопасности, так и безопасности ваших монет."
+date: 2021-02-18
+bookFlatSection: false
+weight: 2
 ---
 
- # Никаких KYC!
+![cover](no-kyc-cover.jpeg)
+ # Никаких KYC! Избегай крадущейся твари
 
-## Избегай крадущейся твари
+{{< hint warning >}}
+Перевод [статьи](https://bitcoinqna.github.io/noKYConly/) BitcoinQnA подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+{{< /hint >}}
 
 ### Что такое KYC?
 
