@@ -11,7 +11,7 @@ weight: 1
 # Кто контролирует Bitcoin Core?
 
 {{< hint warning >}}
-Перевод [статьи](https://blog.lopp.net/who-controls-bitcoin-core/) Джеймсона Лоппа подготовили [Nikita Kolodin](https://medium.com/@nikitakolodin)  и [RainDogDance](https://twitter.com/RainDogDance?)
+Перевод [статьи](https://blog.lopp.net/who-controls-bitcoin-core/) Джеймсона Лоппа подготовили [Nikita Kolodin](https://medium.com/@nikitakolodin)  и [RainDogDance](https://twitter.com/RainDogDance?). Редактура [Тони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /hint >}}
 
 Вопрос о том, кто контролирует код в репозитории [Bitcoin Core](https://bitcoincore.org/?ref=21ideas.org) на [гитхабе](https://github.com/bitcoin/bitcoin?ref=21ideas.org), продолжает возникать снова и снова. Этот довод часто преподносится как свидетельство наличия центральной точки контроля  над протоколом Биткоина. Я убежден, что сам вопрос обманчив, поскольку подразумевает неминуемое существование авторитарной власти, а эта модель неприменима к Биткоину. Обывателю, конечно, может быть неочевидно, почему это так; поэтому цель этой статьи — объяснить, как работает Bitcoin Core и, на более высоком уровне, как развивается сам протокол биткоина.
