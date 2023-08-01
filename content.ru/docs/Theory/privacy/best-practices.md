@@ -10,7 +10,7 @@ weight: 1
 
  # Лучшие практики по обретению приватности в сети Биткоин
 
-{{< hint warning >}}
+{{< hint btc >}}
 Перевод [статьи](https://www.swanbitcoin.com/bitcoin-privacy-best-practices) ДжиДжи подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /hint >}}
 

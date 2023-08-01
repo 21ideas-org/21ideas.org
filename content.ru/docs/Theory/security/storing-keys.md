@@ -10,7 +10,7 @@ weight: 1
 
 # Биткоин-кошельки: зачем и как хранить свои приватные ключи
 
-{{< hint warning >}}
+{{< hint btc >}}
 Перевод [статьи](https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/) Брендона Квиттема подготовлен Тони⚡️ 
 {{< /hint >}}
 

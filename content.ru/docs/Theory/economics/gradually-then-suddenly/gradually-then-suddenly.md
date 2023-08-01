@@ -11,7 +11,7 @@ weight: 1
 
 # Постепенно, затем внезапно
 
-{{< hint warning>}}
+{{< hint btc >}}
 Перевод [статьи](https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin/?ref=21ideas.org) [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) подготовлен  Тони ⚡️
 {{< /hint>}}
 

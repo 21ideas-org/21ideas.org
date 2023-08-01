@@ -9,7 +9,7 @@ weight: 2
 ![cover](no-kyc-cover.jpeg)
  # Никаких KYC! Избегай крадущейся твари
 
-{{< hint warning >}}
+{{< hint btc >}}
 Перевод [статьи](https://bitcoinqna.github.io/noKYConly/) BitcoinQnA подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /hint >}}
 

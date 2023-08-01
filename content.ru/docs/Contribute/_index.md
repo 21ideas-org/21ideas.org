@@ -24,15 +24,20 @@ weight: 4
 <---> 
 
 # Лайтнинг
-Лайтнинг-адрес:
+Лайтнинг-адрес: _[tony@bitcoin-herald.org](lightning:tony@bitcoin-herald.org)_
 
-![зап](https://cdn.nostr.build/p/nb11243.png)
+![ln-qr](https://cdn.nostr.build/p/5z7K.png)
 
 <---> 
 
 # Другое
-Также можно поддержать проект другими способами. Обращатитесь по одному из этих контактов, чтобы получить необходимые реквизиты:
+Также можно поддержать проект другими способами. Обратитесь по одному из этих контактов, чтобы получить необходимые реквизиты: 
 
+Телеграм: [@Tony_Lightning](https://t.me/Tony_Lightning)
+
+Email: [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
+
+Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{</* /columns */>}}
 
 Вы также можете указать цель, на которую вы бы хотели определить отправленные средства - будь то перевод или написание определенной статьи, либо какие-либо улучшения ресурса.

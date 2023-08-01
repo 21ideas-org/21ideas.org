@@ -11,7 +11,7 @@ weight: 1
 ![cover](not-shitcoin-cover.png)
 # Биткоин, не щиткоин
 
-{{< hint warning >}}
+{{< hint btc >}}
 Перевод [статьи](https://bitcoinmagazine.com/culture/why-bitcoin-not-s-coin?ref=21ideas.org) Алекса Светски подготовлен [Tони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7), редактура – биткоин-энтузиастами.
 {{< /hint >}}
 

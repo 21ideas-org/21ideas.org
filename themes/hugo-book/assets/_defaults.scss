@@ -24,8 +24,9 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 
 $hint-colors: (
   info: #6bf,
-  warning: #FF9500,
+  warning: #fd6,
   danger: #f66,
+  btc: #ff9500
 ) !default;
 
 // Themes
@@ -45,6 +46,7 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+  --hint-color-btc: #ff9500;
 }
 
 @mixin theme-dark {
@@ -63,6 +65,7 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+  --hint-color-btc: #ff9500;
 }
 
 img[src$='#center'] {
