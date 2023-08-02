@@ -4,6 +4,7 @@ tags: ["биткоин", "протокол", "pow", "proof-of-work"]
 description: "Кто управляет разработкой Биткоина? Что если кто-то решит незаметно изменить его правила? Как убедиться, что никто не поломает Bitcoin?"
 date: 2022-06-03
 bookFlatSection: false
+bookToc: true
 weight: 1
 ---
 
