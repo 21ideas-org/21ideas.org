@@ -1,7 +1,7 @@
 ---
 title: "Постепенно, затем внезапно"
 bookCollapseSection: true
-weight: 1
+weight: 3
 ---
 
 # Постепенно, затем внезапно
