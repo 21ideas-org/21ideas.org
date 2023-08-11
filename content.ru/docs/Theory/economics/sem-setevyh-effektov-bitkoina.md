@@ -12,7 +12,7 @@ weight: 2
 # Семь сетевых эффектов Биткоина
 
 {{< hint btc >}}
-Перевод [статьи](https://www.weusecoins.com/the-seven-network-effects-of-bitcoin/?ref=21ideas.org) Трейса Мейера от 29 июня 2015 г. впервые опубликованной на сайте WeUseCoins. Одна из нестареющих [статей](https://nakamotoinstitute.org/mempool/the-seven-network-effects-of-bitcoin/?ref=21ideas.org), опубликованных в [мемпуле](https://nakamotoinstitute.org/mempool/?ref=21ideas.org) [_nakamotoinstitute.org_](http://nakamotoinstitute.org/?ref=21ideas.org)
+Перевод [статьи](https://www.weusecoins.com/the-seven-network-effects-of-bitcoin/?ref=21ideas.org) Трейса Мейера от 29 июня 2015 г. впервые опубликованной на сайте WeUseCoins подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). Одна из нестареющих [статей](https://nakamotoinstitute.org/mempool/the-seven-network-effects-of-bitcoin/?ref=21ideas.org), опубликованных в [мемпуле](https://nakamotoinstitute.org/mempool/?ref=21ideas.org) [_nakamotoinstitute.org_](http://nakamotoinstitute.org/?ref=21ideas.org)
 {{< /hint >}}
 
 Обратите внимание на семь сетевых эффектов Биткоина:
