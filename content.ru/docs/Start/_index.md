@@ -2,6 +2,7 @@
 title: Старт
 type: docs
 bookFlatSection: false
+url: start
 weight: 1
 ---
 

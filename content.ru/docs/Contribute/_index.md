@@ -2,6 +2,7 @@
 title: "Принять участие"
 bookCollapseSection: true
 type: docs
+url: contribute
 weight: 5
 ---
 

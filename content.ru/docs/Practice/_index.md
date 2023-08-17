@@ -2,6 +2,8 @@
 title: Практика
 type: docs
 bookFlatSection: false
+bookCollapseSection: true
+url: practice
 weight: 3
 ---
 
