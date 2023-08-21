@@ -1,2 +1,15 @@
-<!-- This partial can be replaced to support other commenting engines -->
-{{ template "_internal/disqus.html" . }}
+<style>
+  :root {
+    --ztr-text-color: #dedede;
+    --ztr-icon-color: #656565;
+    --ztr-link-color: #e4b144;
+    --ztr-login-button-color: #5e584b;
+    --ztr-background-color: rgba(255, 255, 255, 0.05);
+  }
+</style>
+<zap-threads
+      anchor="{{.Permalink}}"
+      relays="wss://relay.damus.io,wss://eden.nostr.land"
+      disable-zaps="true"
+      disable-likes="true"
+      />
