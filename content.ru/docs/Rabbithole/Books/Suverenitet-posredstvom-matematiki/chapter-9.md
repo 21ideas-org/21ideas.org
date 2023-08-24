@@ -4,7 +4,7 @@ tags: ["книга", "новичкам", "основы"]
 description: "Девятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 10
 ---
 
 ![cover](../../covers/stm.png)

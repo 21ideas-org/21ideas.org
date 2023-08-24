@@ -4,7 +4,7 @@ tags: ["книга", "новичкам", "основы"]
 description: "Вторая глава книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 3
 ---
 
 ![cover](../../covers/stm.png)

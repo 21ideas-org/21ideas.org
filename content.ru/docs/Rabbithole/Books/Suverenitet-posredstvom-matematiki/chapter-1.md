@@ -4,7 +4,7 @@ tags: ["книга", "новичкам", "основы"]
 description: "Первая глава книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 2
 ---
 
 ![cover](../../covers/stm.png)

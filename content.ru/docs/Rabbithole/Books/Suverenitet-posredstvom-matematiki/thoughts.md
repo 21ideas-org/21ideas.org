@@ -4,7 +4,7 @@ tags: ["книга", "послесловие", "новичкам", "основы
 description: "Послесловие книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 14
 ---
 
 ![cover](../../covers/stm.png)

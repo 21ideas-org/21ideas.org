@@ -4,7 +4,7 @@ tags: ["книга", "новичкам", "основы"]
 description: "Одиннадцатая глава книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 12
 ---
 
 ![cover](../../covers/stm.png)

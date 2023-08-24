@@ -4,7 +4,7 @@ tags: ["книга", "новичкам", "основы"]
 description: "Восьмая глава книги Кнута Сванхольма Суверенитет посредством математики."
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 9
 ---
 
 ![cover](../../covers/stm.png)
