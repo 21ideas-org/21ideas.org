@@ -7,7 +7,7 @@ bookToc: true
 weight: 1
 ---
 
-![cover](../covers/stm.png)
+![cover](../../covers/stm.png)
 
 # Глава 10: ОКРУЖАЮЩАЯ СРЕДА
 
