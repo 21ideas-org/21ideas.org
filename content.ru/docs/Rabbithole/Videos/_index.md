@@ -2,7 +2,6 @@
 title: "Видео"
 tags: ["markdown", "оформление", "статьи", "github"]
 description: "Видеоматериалы"
-bookCollapseSection: true
 bookFlatSection: false
 bookToc: true
 weight: 2
