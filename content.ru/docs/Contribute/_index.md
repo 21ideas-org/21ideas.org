@@ -57,6 +57,8 @@ Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr534
 - [Как добавить статью?](github)
 - [Оформление статей](syntax)
 
+Остались вопросы? Заходите в [Телеграм-чат](https://t.me/+9TduwjvHoollODY0) контрибьюторов проекта.
+
 {{< /tab >}}
 
 {{< tab "Правки" >}} 
