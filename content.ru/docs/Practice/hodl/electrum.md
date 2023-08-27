@@ -8,7 +8,7 @@ weight: 1
 ---
 
 ![cover](cover.png)
-# **Не твои ключи — не твои биткоины — настройка кошелька Electrum**
+# Не твои ключи — не твои биткоины — настройка кошелька Electrum
 
 {{< hint btc >}}
 Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
