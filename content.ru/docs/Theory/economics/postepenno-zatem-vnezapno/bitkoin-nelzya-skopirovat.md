@@ -4,6 +4,7 @@ tags: ["биткоин", "экономика", "pow", "proof-of-work", "токе
 description: "Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему."
 date: 2019-08-02
 bookFlatSection: false
+url: bitkoin-nelzya-skopirovat
 weight: 2
 ---
 

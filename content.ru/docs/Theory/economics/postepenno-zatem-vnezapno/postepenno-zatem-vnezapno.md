@@ -4,16 +4,17 @@ tags: ["биткоин", "экономика"]
 description: "Введение в серию 'Постепенно, затем внезапно', посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое"
 date: 2019-07-26
 bookFlatSection: false
+url: postepenno-zatem-vnezapno
 weight: 1
 ---
 
-![hamingway](cover.jpeg#center)
+![cover](cover.jpeg#center)
 
 {{< expand "Оглавление" "..." >}}
 
-[Введение](../postepenno-zatem-vnezapno)
+[Введение](/postepenno-zatem-vnezapno)
 
-[Биткоин нельзя скопировать](../bitkoin-nelzya-skopirovat)
+[Биткоин нельзя скопировать](/bitkoin-nelzya-skopirovat)
 
 {{< /expand >}}
 
