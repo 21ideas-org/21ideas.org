@@ -4,6 +4,12 @@ title: 21 ideas
 
 ![cover](./posts/main/21ideas.png)
 
+[relatively test links](docs/Practice/buy/hodl-hodl)
+
+[relatively test links](docs/Practice/interactions)
+
+[relatively test links](docs/Practice/lightning/phoenix/)
+
 # Образовательный ресурс о Биткоине
 
 21 идея - это проект с открытым исходным кодом, курирующийся энтузиастами и предоставляющий
