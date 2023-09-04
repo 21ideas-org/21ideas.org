@@ -3,6 +3,8 @@ theme: hugo-book
 title: 21ideas
 defaultContentLanguage: "ru"
 
+ignoreErrors: ["error-remote-getjson"]
+
 # Book configuration
 disablePathToLower: true
 enableGitInfo: true
