@@ -37,3 +37,11 @@
 - **Подкасты**: https://podcasters.spotify.com/pod/show/tony-lightning
 - **RSS**: https://anchor.fm/s/69c8de58/podcast/rss
 - **Все о Ностр**: https://nostr.21ideas.org
+
+---
+
+## Проекты энтузиастов, достойные вашего внимания
+
+- **HCN**: https://t.me/hypecoinnews
+- **BitKorn**: https://www.youtube.com/@BitKorn/
+- **Биткоин Абстракцион**:  https://t.me/bitraction
