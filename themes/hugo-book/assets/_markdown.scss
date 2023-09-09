@@ -14,7 +14,6 @@
   h4,
   h5,
   h6 {
-    font-weight: normal;
     line-height: 1;
     margin-top: 1.5em;
     margin-bottom: $padding-16;
@@ -30,12 +29,6 @@
     a.anchor:focus {
       opacity: initial;
     }
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-weight: bolder;
   }
 
   h5 {

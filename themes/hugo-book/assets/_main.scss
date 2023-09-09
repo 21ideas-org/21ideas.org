@@ -9,7 +9,6 @@ body {
   color: var(--body-font-color);
   background: var(--body-background);
 
-  letter-spacing: 0.33px;
   font-weight: $body-font-weight;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -19,14 +18,6 @@ body {
   * {
     box-sizing: inherit;
   }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: $body-font-weight;
 }
 
 a {
@@ -163,6 +154,7 @@ body[dir="rtl"] .book-menu {
 
 .book-page {
   min-width: $body-min-width;
+  max-width: $body-max-width;
   flex-grow: 1;
   padding: $padding-16;
 }
