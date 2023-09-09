@@ -1,6 +1,7 @@
 ---
 title: "Кроличья нора"
 bookCollapseSection: true
+url: rabbithole
 type: docs
 weight: 4
 ---
