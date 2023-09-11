@@ -1,6 +1,7 @@
 ---
 title: "Протокол"
 bookCollapseSection: true
+url: protocol
 weight: 4
 ---
 

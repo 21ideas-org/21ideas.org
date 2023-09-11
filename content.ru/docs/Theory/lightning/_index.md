@@ -1,6 +1,7 @@
 ---
 title: "Лайтнинг"
 bookCollapseSection: true
+url: lightning
 weight: 8
 ---
 

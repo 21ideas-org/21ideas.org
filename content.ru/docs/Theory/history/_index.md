@@ -1,6 +1,7 @@
 ---
 title: "История"
 bookCollapseSection: true
+url: history
 weight: 5
 ---
 

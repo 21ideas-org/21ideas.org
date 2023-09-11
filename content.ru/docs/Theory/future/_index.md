@@ -1,6 +1,7 @@
 ---
 title: "Будущее"
 bookCollapseSection: true
+url: future
 weight: 7
 ---
 

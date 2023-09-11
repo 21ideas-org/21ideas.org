@@ -1,6 +1,7 @@
 ---
 title: "Философия"
 bookCollapseSection: true
+url: philosophy
 weight: 6
 ---
 
