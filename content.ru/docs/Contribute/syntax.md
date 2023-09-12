@@ -9,7 +9,7 @@ bookToc: true
 weight: 1
 ---
 
-![cover](/cover.png)
+![cover](cover.png)
 # Стандарт оформления статей на 21 идее
 
 {{< hint btc >}}
