@@ -5,3 +5,5 @@ menu:
     weight: 6
 title: Блог
 ---
+
+Test

@@ -22,10 +22,8 @@ headless: true
 - [lightning]({{< relref "/docs/Theory/lightning" >}})
 
 - [Practice]({{< relref "/docs/Practice/" >}})
-- [economics]({{< relref "/docs/Practice/economics" >}})
-- [economics]({{< relref "/docs/Practice/economics" >}})
-- [economics]({{< relref "/docs/Practice/economics" >}})
-- [economics]({{< relref "/docs/Practice/economics" >}})
-
+- [buy]({{< relref "/docs/Practice/buy" >}})
+- [hodl]({{< relref "/docs/Practice/hodl" >}})
+- [lightning]({{< relref "/docs/Practice/lightning" >}})
 
 <br />
