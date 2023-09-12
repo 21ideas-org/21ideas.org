@@ -22,7 +22,7 @@ weight: 5
 ## Биткоин
 Биткоин-адрес: `bc1q805dq3u6t76nd5av3jdln0vy6zxt4y5djem4s5`
 
-![onchain](https://cdn.nostr.build/p/DGJl.jpg)
+![onchain](/img/0.jpeg)
 
 <---> 
 
@@ -31,7 +31,7 @@ weight: 5
 
 _[tony@bitcoin-herald.org](lightning:tony@bitcoin-herald.org)_
   
-![ln-qr](https://cdn.nostr.build/p/5z7K.png)
+![ln-qr](/img/1.png)
 
 <---> 
 

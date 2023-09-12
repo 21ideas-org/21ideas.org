@@ -1,6 +1,7 @@
 ---
 title: "Приватность"
 bookCollapseSection: true
+url: privacy
 weight: 3
 ---
 
