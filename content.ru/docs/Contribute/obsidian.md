@@ -7,6 +7,7 @@ tags:
   - вклад
   - новичкам
 description: Наиболее простой и наглядный способ публикации статей на 21 идею с помощью open source программы Obsidian.
+url: obsidian
 date: 2023-09-07
 bookFlatSection: false
 bookToc: true

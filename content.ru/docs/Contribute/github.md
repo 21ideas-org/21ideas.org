@@ -2,13 +2,14 @@
 title: "Как добавить статью?"
 tags: ["github", "добавление статей", "статьи", "вклад"]
 description: "Как стать автором на проекте 21 идея? Как добавить статью? Этот материал расскажет об основах взаимодействия с GitHub."
+url: github
 date: 2023-08-12
 bookFlatSection: false
 bookToc: true
 weight: 2
 ---
 
-![cover](cover.png)
+![cover](/github/cover.png)
 
 {{< hint btc >}}
 Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). Поддержать проект можно, перейдя по этой [ссылке](./).
@@ -54,11 +55,11 @@ weight: 2
 2. Заходим на [страничку](https://github.com/21ideas-org/21ideas.org) репозитория проекта 21 идея.
 3. Нажимаем на кнопку Fork (в правой верхней части странички).
 
-![fork](img-01.png)
+![fork](/github/img-01.png)
 
 4. На следующей страничке нажимаем "Create Fork" и под вашим аккаунтом появляется копия основного репозитория 21ideas.
 
-![create](img-02.png)
+![create](/github/img-02.png)
 
 5. Переходим в интересующую сабкатегорию (папку). В качестве примера возьмем категорию "Экономика".
 
