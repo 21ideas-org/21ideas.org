@@ -1,57 +1,52 @@
 ---
 title: "Суверенитет посредством математики"
-tags: ["markdown", "оформление", "статьи", "github"]
-description: "Книги."
+tags: ["книга", "новичкам", "основы"]
+description: "Книга о Биткоине, которая отлично подойдет для новичков."
+url: suverenitet-posredstvom-matematiki
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
 weight: 2
 ---
 
-![cover](../covers/stm.png)
+![cover](/img/149.png)
 
 ## Суверенитет посредством математики
 
 Эта книга Кнута Сванхольма — пожалуй моя любимая работа, призванная познакомить новичка с Биткоином. Автор затрагивает самые острые проблемы современного общества — как экономические, так и социальные. Делитесь этой работой с родными и близкими; это — лучший способ заинтересовать их в путешествии сквозь кроличью нору Биткоина.
 
----
+{{< expand "Содержание" "..." >}}
 
-Содержание:
+[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
 
-[ПРЕДИСЛОВИЕ](./intro)
+[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](./chapter-1)
+[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](./chapter-2)
+[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](./chapter-3)
+[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](./chapter-4)
+[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 5: PROOF OF WORK](./chapter-5)
+[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 6: РЕДКОСТЬ](./chapter-6)
+[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 7: ХОДЛ ОН](./chapter-7)
+[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](./chapter-8)
+[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](./chapter-9)
+[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](./chapter-10)
+[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](./chapter-11)
+[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
 
-[Глава 12: БУДУЩЕЕ](./chapter-12)
+[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
 
-[РАЗМЫШЛЕНИЯ](./thoughts)
-
-{{< hint btc >}}
-Книга также доступна для [скачивания](../epubs/stm.epub) в формате epub.
-{{< /hint >}}
-
----
+{{< /expand >}}
 
 {{< hint btc >}}
-Информация оказалась полезной? Все представленные материалы распространяются безвозмездно, готовятся и курируются сообществом, и проект нуждается в вашей поддержке. Вы можете поддержать проект финансово, либо внести вклад в его развитие через добавление полезных материалов о Биткоине. Подробнее о возможности участия в улучшении самой обширной русскоязычной биткоин-библиотеки и развитии русскоязычного сообщества биткоинеров можно узнать [здесь]({{< ref "/Contribute" >}}).
+Книга также доступна для [скачивания](/epubs/stm.epub) в формате epub.
 {{< /hint >}}

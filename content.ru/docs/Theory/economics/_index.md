@@ -15,12 +15,13 @@ weight: 1
 ## Серия статей Паркера Льюиса "Постепенно, затем внезапно"
 Серия расскажет обо всех основных экономических, социальных и технологических составляющих Биткоина, а также развеет основные связанные с ним заблуждения.
 
-1. [Введение](postepenno-zatem-vnezapno)
+1. [Введение](/postepenno-zatem-vnezapno)
 
-2. [Биткоин нельзя скопировать](../bitkoin-nelzya-skopirovat)
+2. [Биткоин нельзя скопировать](/bitkoin-nelzya-skopirovat)
 
 {{< /expand >}}
 
 ## Статьи
 
-- [Биткоин не вредит окружающей среде](./bitkoin-ne-vredit-okruzhayushej-srede)
+- [Биткоин не вредит окружающей среде](/bitkoin-ne-vredit-okruzhayushej-srede)
+- [Семь сетевых эффектов Биткоина](/sem-setevyh-effektov-bitkoina)

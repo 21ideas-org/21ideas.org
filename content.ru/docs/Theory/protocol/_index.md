@@ -9,4 +9,4 @@ weight: 4
 
 Подраздел, посвященный основам функционирования протокола Биткоин.
 
-1. [Кто контролирует Bitcoin Core?](./who-controls-bitcoin-core)
+1. [Кто контролирует Bitcoin Core?](/kto-kontroliruet-bitkoin-kor)

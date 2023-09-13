@@ -2,43 +2,43 @@
 title: "РАЗМЫШЛЕНИЯ"
 tags: ["книга", "послесловие", "новичкам", "основы"]
 description: "Послесловие книги Кнута Сванхольма Суверенитет посредством математики."
+url: suverenitet-posredstvom-matematiki/mysli
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 14
 ---
 
-![cover](../../covers/stm.png)
-
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](../intro)
+[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](../chapter-1)
+[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](../chapter-2)
+[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](../chapter-3)
+[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](../chapter-4)
+[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 5: PROOF OF WORK](../chapter-5)
+[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 6: РЕДКОСТЬ](../chapter-6)
+[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 7: ХОДЛ ОН](../chapter-7)
+[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](../chapter-8)
+[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](../chapter-9)
+[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](../chapter-10)
+[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](../chapter-11)
+[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
 
-[Глава 12: БУДУЩЕЕ](../chapter-12)
+[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
 
-[РАЗМЫШЛЕНИЯ](../thoughts)
+[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+
 {{< /expand >}}
 
 # РАЗМЫШЛЕНИЯ
@@ -49,32 +49,33 @@ weight: 14
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](../intro)
+[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](../chapter-1)
+[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](../chapter-2)
+[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](../chapter-3)
+[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](../chapter-4)
+[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 5: PROOF OF WORK](../chapter-5)
+[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 6: РЕДКОСТЬ](../chapter-6)
+[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 7: ХОДЛ ОН](../chapter-7)
+[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](../chapter-8)
+[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](../chapter-9)
+[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](../chapter-10)
+[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](../chapter-11)
+[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
 
-[Глава 12: БУДУЩЕЕ](../chapter-12)
+[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
 
-[РАЗМЫШЛЕНИЯ](../thoughts)
+[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+
 {{< /expand >}}
 

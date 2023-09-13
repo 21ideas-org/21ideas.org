@@ -1,14 +1,15 @@
 ---
 title: "Изобретаем Биткоин"
-tags: ["markdown", "оформление", "статьи", "github"]
-description: "Книги."
+tags: ["книга", "новичкам", "основы"]
+description: "Книга о Биткоине, которая отлично подойдет для новичков."
+url: izobretaem-bitkoin
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
 weight: 1
 ---
 
-![cover](../covers/inventing-bitcoin.jpg)
+![cover](/img/148.png)
 
 # Изобретаем Биткоин
 
@@ -22,9 +23,9 @@ weight: 1
 
 ---
 
-## Содержание: 
+{{< expand "Содержание" "..." >}} 
 
-[ВСТУПЛЕНИЕ](./vstuplenie)  
+[ВСТУПЛЕНИЕ](izobretaem-bitkoin/vstuplenie)  
 
 Глава 1: ЧТО ТАКОЕ БИТКОИН  
 
@@ -44,7 +45,8 @@ weight: 1
 
 Глава 9: ЧТО ДАЛЬШЕ?
 
+{{< /expand >}}
 
 {{< hint btc >}}
-Книга также доступна для [скачивания](../epubs/inventing-bitcoin.epub) в формате epub.
+Книга также доступна для [скачивания](/epubs/inventing-bitcoin.epub) в формате epub.
 {{< /hint >}}

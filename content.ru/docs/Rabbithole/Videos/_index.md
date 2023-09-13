@@ -1,7 +1,8 @@
 ---
 title: "Видео"
-tags: ["markdown", "оформление", "статьи", "github"]
-description: "Видеоматериалы"
+tags: ["биткоин", "видео", "теория", "экономика", "видеоматериалы"]
+description: "Видеоматериалы, посвященные Биткоину, экономике и личностному суверенитету"
+url: videos
 bookFlatSection: false
 bookToc: true
 weight: 2
@@ -42,7 +43,7 @@ weight: 2
 
 [Плейлист на YouTube](https://www.youtube.com/playlist?list=PLfCndTr__6Hf2vtpCDdLM-ifp9nWRzzW8)
 
-[Слайды на русском языке](./files/Bitcoin_4_newbies_Andreas_Antonopulos.pdf)
+[Слайды на русском языке](/epubs/Bitcoin_4_newbies_Andreas_Antonopulos.pdf)
 
 {{< expand "Часть I" "...">}}
 {{< youtube j9-4OnxOto8 >}}
