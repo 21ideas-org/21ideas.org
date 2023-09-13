@@ -25,7 +25,7 @@ weight: 1
 
 {{< expand "Содержание" "..." >}} 
 
-[ВСТУПЛЕНИЕ](izobretaem-bitkoin/vstuplenie)  
+[ВСТУПЛЕНИЕ](/izobretaem-bitkoin/vstuplenie)  
 
 Глава 1: ЧТО ТАКОЕ БИТКОИН  
 

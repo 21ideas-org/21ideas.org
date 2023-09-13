@@ -67,5 +67,7 @@ Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr534
 
 Нашли опечатки, неточности или устаревшую информацию? Подготовьте пул-реквест с правками. Один из участников проекта обязательно рассмотрит ваше предложение и либо примет правки, либо откомментирует ваше предложение в GitGub.
 
+{{< button href="https://github.com/21ideas-org/21ideas.org" >}}GitHub{{< /button >}}
+
 {{< /tab >}}
 {{< /tabs >}}
