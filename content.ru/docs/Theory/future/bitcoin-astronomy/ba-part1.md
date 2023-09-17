@@ -19,10 +19,12 @@ weight: 1
 
 # Биткоин-астрономия. Часть 1 - Постгипербиткоинизация
 
-{{< hint btc >}}
-Это эссе - перевод [первой части](https://unchained.com/blog/law-of-hash-horizons/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Как будет выглядеть Биткоин через сотню лет?
 
-_Эта трилогия также доступна для скачивания в формате PDF: [https://t.me/bitcoin21ideas/1447](https://t.me/bitcoin21ideas/1447?ref=21ideas.org)_
+{{< hint btc >}}
+Это эссе - перевод [первой части](https://unchained.com/blog/law-of-hash-horizons/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+
+_Эта трилогия также [доступна в формате PDF](/epubs/bitcoin-astronomy.pdf)_
 {{< /hint >}}
 
 > Тяга к дальним путешествиям и созданию новой валюты станет мощным драйвером экспансии человека в космос.

@@ -3,17 +3,20 @@ title: "Биткоин, не щиткоин"
 tags: ["биткоин", "не щиткоины", "максимализм", "proof-of-work", "альткоин"]
 description: "Почему не стоит тратить свое время и деньги на альтернативные криптопроекты. Почему биткоин - это единственный правильный выбор?"
 url: ne-shitcoin
-date: 2011-06-11
+date: 2021-06-11
 bookToc: true
 bookFlatSection: false
 weight: 1
 ---
 
 ![cover](/img/178.png)
+
 # Биткоин, не щиткоин
 
+Почему не стоит тратить свое время и деньги на альтернативные криптопроекты. Почему биткоин - это единственный правильный выбор?
+
 {{< hint btc >}}
-Перевод [статьи](https://bitcoinmagazine.com/culture/why-bitcoin-not-s-coin?ref=21ideas.org) Алекса Светски подготовлен [Tони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7), редактура – биткоин-энтузиастами.
+Перевод [статьи](https://bitcoinmagazine.com/culture/why-bitcoin-not-s-coin) Алекса Светски подготовлен [Tони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7), редактура – биткоин-энтузиастами. [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 Меня часто спрашивают о том, в какую криптовалюту лучше всего инвестировать.

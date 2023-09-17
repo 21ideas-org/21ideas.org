@@ -3,17 +3,20 @@ title: "Кто контролирует Bitcoin Core?"
 tags: ["биткоин", "протокол", "pow", "proof-of-work"]
 description: "Кто управляет разработкой Биткоина? Что если кто-то решит незаметно изменить его правила? Как убедиться, что никто не поломает Bitcoin?"
 url: kto-kontroliruet-bitkoin-kor
-date: 2022-06-03
+date: 2018-12-15
 bookFlatSection: false
 bookToc: true
 weight: 1
 ---
 
 ![cover](/img/194.jpeg)
+
 # Кто контролирует Bitcoin Core?
 
+Кто управляет разработкой Биткоина? Что если кто-то решит незаметно изменить его правила? Как убедиться, что никто не поломает Биткоин?
+
 {{< hint btc >}}
-Перевод [статьи](https://blog.lopp.net/who-controls-bitcoin-core/) Джеймсона Лоппа подготовили [Nikita Kolodin](https://medium.com/@nikitakolodin)  и [RainDogDance](https://twitter.com/RainDogDance?). Редактура [Тони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Перевод [статьи](https://blog.lopp.net/who-controls-bitcoin-core/) Джеймсона Лоппа подготовили [Nikita Kolodin](https://medium.com/@nikitakolodin)  и [RainDogDance](https://twitter.com/RainDogDance?). Редактура [Тони ⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).[Поддержать проект](/contribute/).
 {{< /hint >}}
 
 Вопрос о том, кто контролирует код в репозитории [Bitcoin Core](https://bitcoincore.org/?ref=21ideas.org) на [гитхабе](https://github.com/bitcoin/bitcoin?ref=21ideas.org), продолжает возникать снова и снова. Этот довод часто преподносится как свидетельство наличия центральной точки контроля  над протоколом Биткоина. Я убежден, что сам вопрос обманчив, поскольку подразумевает неминуемое существование авторитарной власти, а эта модель неприменима к Биткоину. Обывателю, конечно, может быть неочевидно, почему это так; поэтому цель этой статьи — объяснить, как работает Bitcoin Core и, на более высоком уровне, как развивается сам протокол биткоина.

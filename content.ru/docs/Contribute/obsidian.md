@@ -6,7 +6,7 @@ tags:
   - публикация
   - вклад
   - новичкам
-description: Наиболее простой и наглядный способ публикации статей на 21 идею с помощью open source программы Obsidian.
+description: Наиболее простой и наглядный способ публикации статей на ресурсе 21 идя с помощью программы Obsidian с открытм исходным кодом.
 url: obsidian
 date: 2023-09-07
 bookFlatSection: false
@@ -18,8 +18,10 @@ weight: 3
 
 # Публикация статей через Obsidian
 
+Наиболее простой и наглядный способ публикации статей на ресурсе 21 идя с помощью программы Obsidian с открытм исходным кодом
+
 {{< hint btc >}}
-Гид подготовил [almoo](https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w)
+Гид подготовил [almoo](https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 В этом материале разберем простой способ публикации статей на сайт 21ideas с использованием программы Obsidian. Для данного способа потребуется: 

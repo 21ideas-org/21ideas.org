@@ -11,8 +11,12 @@ weight: 2
 
 ![cover](/img/2.png)
 
+# Добавление материалов с помощью GitHub
+
+Как стать автором на проекте 21 идея? Как добавить статью? Этот материал расскажет об основах взаимодействия с GitHub.
+
 {{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). Поддержать проект можно, перейдя по этой [ссылке](/contribute).
+Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 ## Проект, принадлежащий сообществу
