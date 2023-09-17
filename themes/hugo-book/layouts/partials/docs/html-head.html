@@ -3,6 +3,7 @@
 <meta name="description" content="{{ default .Summary .Description }}">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark">
+<meta name="lightning" content="{{ .Site.Params.LightningAddress }}">
 
 {{- with .Page.Params.BookHref -}}
   <meta http-equiv="Refresh" content="0; url='{{ . }}'" />
