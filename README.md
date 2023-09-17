@@ -6,7 +6,7 @@
 
 ## Пополнение библиотеки
 
-Хотите предложить материал, но не знаете как? Обратитесь к [этому гиду](https://new.21ideas.org/docs/Contribute/github/), чтобы узнать о процессе добавления статей на GitHub, и к [этому](https://new.21ideas.org/docs/Contribute/syntax/) - чтобы ознакомиться со стандартами оформления материалов. Обо всех способах поддержать проект можно узнать на [этой страничке](https://new.21ideas.org/contribute/). 
+Хотите предложить материал, но не знаете как? Обратитесь к [этому гиду](https://new.21ideas.org/docs/Contribute/github/), чтобы узнать о процессе добавления статей на GitHub, и к [этому](https://new.21ideas.org/docs/Contribute/syntax/) - чтобы ознакомиться со стандартами оформления материалов. Также рекомендуется обратить внимание на [этот гид по добавлению статей в библиотеку, используя Obsidian](https://new.21ideas.org/obsidian/). Обо всех способах поддержать проект можно узнать на [этой страничке](https://new.21ideas.org/contribute/). 
 
 ## Поддержка авторов и фонд 21 идеи
 
@@ -22,7 +22,7 @@
 | --------           | -------                | --------       | -------      |
 | 1,000,000          | [Tony](https://github.com/bitcoin21ideas) | в общий фонд   | 1,000,000    |
 | -71,000            | [Radiokot](https://github.com/Radiokot) | [25 коммитов](https://github.com/21ideas-org/21ideas.org/commits?author=Radiokot) | 929,000     |
-|    |  |     |     |
+| -21,000 | [heyalmoo](https://github.com/heyalmoo) | [Гид по Obsidianъ(https://github.com/21ideas-org/21ideas.org/commit/b8b79b4a66a882c9d385653a030cf1f860abeeb2) | 908,000 |
 
 ## Бенефиты участников проекта
 
