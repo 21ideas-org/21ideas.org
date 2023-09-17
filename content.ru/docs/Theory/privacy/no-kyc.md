@@ -2,16 +2,19 @@
 title: "Никаких KYC, берегите персональные данные"
 description: "Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?"
 url: privacy/no-kyc
-date: 2021-02-18
+date: 2020-02-18
 bookFlatSection: false
 weight: 2
 ---
 
 ![cover](/img/188.jpeg)
+
  # Никаких KYC! Избегай крадущейся твари
 
+ Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?
+
 {{< hint btc >}}
-Перевод [статьи](https://bitcoinqna.github.io/noKYConly/) BitcoinQnA подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Перевод [статьи](https://bitcoinqna.github.io/noKYConly/) BitcoinQnA подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 ### Что такое KYC?
