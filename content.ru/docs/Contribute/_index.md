@@ -18,7 +18,7 @@ weight: 5
 
 Проект 21ideas является некоммерческим и годами существует благодаря упорству и средствам его основателя, а также поддерке участников сообщества. Поддержание проекта - от написания и перевода статей до модерации библиотеки - требует ресурсов. Вы можете поддержать проект несколькими способами:
 
-{{</* columns */>}} 
+{{< columns >}} 
 ## Биткоин
 Биткоин-адрес: `bc1q805dq3u6t76nd5av3jdln0vy6zxt4y5djem4s5`
 
@@ -43,9 +43,11 @@ _[tony@bitcoin-herald.org](lightning:tony@bitcoin-herald.org)_
 Email: [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
 
 Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
-{{</* /columns */>}}
+{{< /columns >}}
 
 Вы также можете указать цель, на которую вы бы хотели определить отправленные средства - будь то перевод или написание определенной статьи, либо какие-либо улучшения ресурса. Подробнее об этом - в [README](https://github.com/21ideas-org/21ideas.org#readme) файле на нашем GitHub.
+
+{{< lightningwidget >}}
 
 {{< /tab >}}
 

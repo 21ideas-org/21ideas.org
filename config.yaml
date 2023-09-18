@@ -40,7 +40,7 @@ menu:
 
 params:
   # Site Lightning address to receive donations.
-  LightningAddress: "21ideas@getalby.com"
+  LightningAddress: "tony@bitcoin-herald.org"
 
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
