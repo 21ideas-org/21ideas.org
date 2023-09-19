@@ -12,9 +12,9 @@ weight: 1
 
 {{< expand "Оглавление" "..." >}}
 
-[Введение](./postepenno-zatem-vnezapno)
-
-[Биткоин нельзя скопировать](./bitkoin-nelzya-skopirovat)
+1. [Введение](/pzv/postepenno-zatem-vnezapno)
+2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
 
 {{< /expand >}}
 
@@ -64,9 +64,8 @@ weight: 1
 
 {{< expand "Оглавление" "..." >}}
 
-[Введение](../postepenno-zatem-vnezapno)
-
-[Биткоин нельзя скопировать](../bitkoin-nelzya-skopirovat)
+1. [Введение](/pzv/postepenno-zatem-vnezapno)
+2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
 
 {{< /expand >}}
-

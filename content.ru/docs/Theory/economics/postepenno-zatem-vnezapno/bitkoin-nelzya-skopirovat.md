@@ -5,6 +5,7 @@ description: "Свойства Биткоина уникальны и он не 
 url: pzv/bitkoin-nelzya-skopirovat
 date: 2019-08-02
 bookFlatSection: false
+bookToc: true
 weight: 2
 ---
 
@@ -12,9 +13,9 @@ weight: 2
 
 {{< expand "Оглавление" "..." >}}
 
-1. [Введение](../postepenno-zatem-vnezapno)
-
-2. [Биткоин нельзя скопировать](../bitkoin-nelzya-skopirovat)
+1. [Введение](/pzv/postepenno-zatem-vnezapno)
+2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
 
 {{< /expand >}}
 
@@ -90,9 +91,9 @@ weight: 2
 
 {{< expand "Оглавление" "..." >}}
 
-[Введение](../postepenno-zatem-vnezapno)
-
-[Биткоин нельзя скопировать](../bitkoin-nelzya-skopirovat)
+1. [Введение](/pzv/postepenno-zatem-vnezapno)
+2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
 
 {{< /expand >}}
 

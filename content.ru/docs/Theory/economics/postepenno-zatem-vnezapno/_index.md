@@ -11,3 +11,4 @@ weight: 3
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
