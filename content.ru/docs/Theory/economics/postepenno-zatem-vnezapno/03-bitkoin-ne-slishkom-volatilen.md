@@ -23,7 +23,7 @@ weight: 3
 
 Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков.
 
-{{< hint warning >}}
+{{< hint btc >}}
 Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
