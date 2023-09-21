@@ -9,7 +9,7 @@ bookToc: true
 weight: 5
 ---
 
-![cover](/img/216.jpg)
+![cover](/img/bitcoin-circles.jpg)
 
 {{< expand "Оглавление" "..." >}}
 
