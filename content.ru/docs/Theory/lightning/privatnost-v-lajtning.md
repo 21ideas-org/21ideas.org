@@ -1,7 +1,7 @@
 ---
 title: "Приватность в сети Lightning"
 description: "Помимо преимущества практически мгновенных платежей, Lightning также может улучшить приватность финансовых взаимодействий. К сожалению, есть сценарии, в которых Lightning не так хорош для обеспечения приватности, как может показаться на первый взгляд."
-url: privacy/theory-ln-current-state-of-lightning-network-privacy
+url: privatnost-v-lajtning
 date: 2022-06-17
 bookFlatSection: false
 weight: 3

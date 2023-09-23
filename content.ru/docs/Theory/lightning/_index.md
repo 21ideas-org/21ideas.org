@@ -9,4 +9,4 @@ weight: 8
 
 1. [Что такое сеть Лайтнинг?](/chto-takoe-laitning)
 2. [Лайтнинг-адреса](/lajtning-adresa)
-3. [Приватность в сети Lightning](/theory-ln-current-state-of-lightning-network-privacy)
+3. [Приватность в сети Lightning](/privatnost-v-lajtning)
