@@ -6,7 +6,7 @@ url: lajtning-adresa
 date: 2022-09-12
 bookToc: true
 bookFlatSection: false
-weight: 1
+weight: 2
 ---
 
 ![cover](/img/215.png)
