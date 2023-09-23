@@ -23,6 +23,7 @@
 | 1,000,000          | [Tony](https://github.com/bitcoin21ideas) | в общий фонд   | 1,000,000    |
 | -71,000            | [Radiokot](https://github.com/Radiokot) | [25 коммитов](https://github.com/21ideas-org/21ideas.org/commits?author=Radiokot) | 929,000     |
 | -21,000 | [heyalmoo](https://github.com/heyalmoo) | [Гид по Obsidian](https://github.com/21ideas-org/21ideas.org/commit/b8b79b4a66a882c9d385653a030cf1f860abeeb2) | 908,000 |
+| -2,100 | [btclinux](https://github.com/btclinux) | [Приватность в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/commit/dc1ad7cdba6e4c690279a5fb14b98cfea4236bc6) | 905,900 |
 
 ## Бенефиты участников проекта
 
