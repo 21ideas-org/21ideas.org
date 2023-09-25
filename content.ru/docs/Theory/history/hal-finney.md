@@ -131,10 +131,4 @@ weight: 1
 
 _Оригинальный твит-шторм:_
 
-> 1/ I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney.  
->   
-> It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.  
->   
-> A must read👇 [pic.twitter.com/yNM6ccR7lw](https://t.co/yNM6ccR7lw)
-> 
-> — Dan Held (@danheld) [March 30, 2020](https://twitter.com/danheld/status/1244655439024779265?ref_src=twsrc%5Etfw)
+{{< tweet user="danheld" id="1244655439024779265" >}}
