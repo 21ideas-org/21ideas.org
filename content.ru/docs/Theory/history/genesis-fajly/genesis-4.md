@@ -3,7 +3,7 @@ title: "Генезис-файлы. Часть IV: Создавая Bit Gold, С�
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Цифровая валюта, деньги для интернета, всегда была главной целью шифропанков. Но мало кто погружался в эту тему так глубоко, как Ник Сабо."
 url: gf/genesis-4
-date: 2022-02-14
+date: 2018-07-12
 bookFlatSection: false
 bookToc: true
 weight: 5
@@ -120,4 +120,4 @@ _[Белая книга Биткоина на русском](/epubs/bitcoin_ru.
 
 ![genesis-4-orig](/img/gf-244.png)
 |:--:|
-_[# The Genesis Files: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin)_
+_[The Genesis Files: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin)_

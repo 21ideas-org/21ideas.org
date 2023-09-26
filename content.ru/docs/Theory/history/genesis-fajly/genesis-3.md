@@ -3,7 +3,7 @@ title: "Генезис-файлы. Часть III: Если у Биткоина 
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "В отличие от сообществ, традиционно ассоциирующихся со словом &quot;анархия&quot;, в криптоанархии правительство не временно уничтожено, а навсегда запрещено и навсегда ненужно. Это сообщество, где угроза насилия бессильна, потому что насилие невозможно..."
 url: gf/genesis-3
-date: 2022-02-08
+date: 2018-06-14
 bookFlatSection: false
 bookToc: true
 weight: 4
@@ -127,4 +127,4 @@ _[Белая книга Биткоина на русском](/epubs/bitcoin_ru.
 
 ![genesis-3-orig](/img/gf-242.png)
 |:--:|
-_[# The Genesis Files: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it)_
+_[The Genesis Files: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it)_
