@@ -5,6 +5,8 @@ bookCollapseSection: true
 weight: 1
 ---
 
+![cover](/img/gf-231.jpeg#center)
+
 # Генезис-файлы
 
 Генезис-файлы - Статьи, посвященные предыстории Биткоина.
