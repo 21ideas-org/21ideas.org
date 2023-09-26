@@ -28,6 +28,8 @@
 | -21,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) статьи "Неотъемлемые права собственности" | 905,900 |
 | -12,100 | [btclinux](https://github.com/btclinux) | [Генезис-файлы, биография Хэла, вайтпейпер Биткоина](https://github.com/21ideas-org/21ideas.org/pull/58) | 893,800 |
 | -1,000 | [vjik](https://github.com/vjik) | "[Об удобстве взаимодействия с Биткоином](https://github.com/21ideas-org/21ideas.org/pull/60)" | 892,800 |
+| -2,100 | [btclinux](https://github.com/btclinux) | "[Управление ликвидностью в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/pull/63)" | 890,600 |
+| -2,100 | [btclinux](https://github.com/btclinux) | "[Гид по LNbits](https://github.com/21ideas-org/21ideas.org/pull/64)" | 888,500 |
 
 ## Бенефиты участников проекта
 
