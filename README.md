@@ -25,6 +25,8 @@
 | -21,000 | [heyalmoo](https://github.com/heyalmoo) | [Гид по Obsidian](https://github.com/21ideas-org/21ideas.org/commit/b8b79b4a66a882c9d385653a030cf1f860abeeb2) | 908,000 |
 | -2,100 | [btclinux](https://github.com/btclinux) | [Приватность в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/commit/dc1ad7cdba6e4c690279a5fb14b98cfea4236bc6) | 905,900 |
 | +21,000 | Orlov | в общий фонд | 926,900 |
+| -21,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) статьи "Неотъемлемые права собственности" | 905,900 |
+| -12,100 | [btclinux](https://github.com/btclinux) | [Генезис-файлы, биография Хэла, вайтпейпер Биткоина](https://github.com/21ideas-org/21ideas.org/pull/58) | 893,800 |
 
 ## Бенефиты участников проекта
 
