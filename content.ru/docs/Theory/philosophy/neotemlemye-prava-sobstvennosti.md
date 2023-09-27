@@ -4,6 +4,7 @@ tags: ["биткоин", "деньги", "свобода", "proof-of-work"]
 description: "Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе."
 url: neotemlemye-prava-sobstvennosti
 date: ‎2022-04-03
+bookToc: true
 bookFlatSection: false
 weight: 2
 ---
