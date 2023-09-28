@@ -5,7 +5,7 @@ url: hal-finney
 date: 2020-04-30
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 51
 ---
 
 ![cover](/img/hal-247.png#center)

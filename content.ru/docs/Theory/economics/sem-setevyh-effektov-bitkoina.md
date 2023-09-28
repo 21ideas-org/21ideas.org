@@ -5,7 +5,7 @@ description: "Перечисленные сетевые эффекты могу�
 url: sem-setevyh-effektov-bitkoina
 date: 2015-06-29
 bookFlatSection: false
-weight: 2
+weight: 52
 ---
 
 ![cover](/img/159.jpeg)
