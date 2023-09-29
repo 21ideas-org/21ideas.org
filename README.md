@@ -30,6 +30,8 @@
 | -1,000 | [vjik](https://github.com/vjik) | "[Об удобстве взаимодействия с Биткоином](https://github.com/21ideas-org/21ideas.org/pull/60)" | 892,800 |
 | -2,100 | [btclinux](https://github.com/btclinux) | "[Управление ликвидностью в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/pull/63)" | 890,600 |
 | -2,100 | [btclinux](https://github.com/btclinux) | "[Гид по LNbits](https://github.com/21ideas-org/21ideas.org/pull/64)" | 888,500 |
+| -21,500 | [btclinux](https://github.com/btclinux) | ["Становление Биткоина", "Алби"](https://github.com/21ideas-org/21ideas.org/pull/67), ["Структурная перестройка", "Хозяева и рабы денег"](https://github.com/21ideas-org/21ideas.org/pull/68) | 867,000 |
+| -6,969 | [Radiokot](https://github.com/Radiokot) | [Исправление бага широких видео эмбедов](https://github.com/21ideas-org/21ideas.org/pull/69) | 860,031 |
 
 ## Бенефиты участников проекта
 
