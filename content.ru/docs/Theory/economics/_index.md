@@ -47,3 +47,5 @@ weight: 1
 
 - [Биткоин не вредит окружающей среде](/bitkoin-ne-vredit-okruzhayushej-srede)
 - [Семь сетевых эффектов Биткоина](/sem-setevyh-effektov-bitkoina)
+- [Хозяева и рабы денег](/hozyaeva-i-raby-deneg)
+- [Структурная перестройка: как МВФ и Всемирный банк подавляют бедные страны и направляют их ресурсы в богатые](/strukturnaya-perestrojka)

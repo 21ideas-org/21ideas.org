@@ -2,7 +2,7 @@
 title: "Постепенно, затем внезапно"
 url: pzv
 bookCollapseSection: true
-weight: 3
+weight: 1
 ---
 
 # Постепенно, затем внезапно

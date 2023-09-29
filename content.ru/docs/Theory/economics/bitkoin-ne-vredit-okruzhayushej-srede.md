@@ -5,7 +5,7 @@ description: "Биткоин не вредит окружающей среде. 
 url: bitkoin-ne-vredit-okruzhayushej-srede
 date: 2021-04-12
 bookFlatSection: false
-weight: 1
+weight: 51
 ---
 
 ![cover](/img/155.png#center)
