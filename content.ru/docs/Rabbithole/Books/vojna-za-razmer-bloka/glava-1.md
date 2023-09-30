@@ -10,9 +10,7 @@ weight: 1
 |:--:|
 _Фото [Dan Freeman](https://unsplash.com/@danfreemanphoto?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 1: Первый удар
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Dan Freeman](https://unsplash.com/@danfreemanphoto?utm_source=ghost&u
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 1: Первый удар
 
 {{< youtube _N5Ehj32FMk >}}
 |:--:|
@@ -146,7 +146,7 @@ BitcoinTalk и /r/Bitcoin контролировались одним и тем 
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-1-first-strike/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

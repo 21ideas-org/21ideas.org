@@ -10,9 +10,7 @@ weight: 13
 |:--:|
 _Фото [Julius Jansson](https://unsplash.com/@juliusjansson?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 13: Биржи
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -60,6 +58,8 @@ _Фото [Julius Jansson](https://unsplash.com/@juliusjansson?utm_source=ghost&
 
 {{< /expand >}}
 
+# Глава 13: Биржи
+
 {{< youtube vI-Y38lyOaY >}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -94,7 +94,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-13-exchanges/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

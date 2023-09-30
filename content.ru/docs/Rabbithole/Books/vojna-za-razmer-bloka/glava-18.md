@@ -10,9 +10,7 @@ weight: 18
 |:--:|
 _Фото [Andre Benz](https://unsplash.com/@trapnation?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 18: Нью-Йоркское соглашение
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Andre Benz](https://unsplash.com/@trapnation?utm_source=ghost&utm_med
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 18: Нью-Йоркское соглашение
 
 {{< youtube MyTWN3gA7Ic >}}
 |:--:|
@@ -163,7 +163,7 @@ BIP 91 активировался непосредственно перед кр
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-18-new-york-agreement/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

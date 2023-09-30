@@ -10,9 +10,7 @@ weight: 9
 |:--:|
 _Фото [Veliko Karachiviev](https://unsplash.com/@ikoveliko?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 9: Фейковый Сатоши
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Veliko Karachiviev](https://unsplash.com/@ikoveliko?utm_source=ghost&
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 9: Фейковый Сатоши
 
 {{< youtube sLOkB5rz1gI >}}
 |:--:|
@@ -107,7 +107,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-9-faketoshi/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

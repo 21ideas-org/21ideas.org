@@ -4,31 +4,32 @@ tags: ["книга", "вступление", "новичкам", "основы"]
 description: "Вступление к книге Яна Прицкера Изобретаем Биткоин."
 url: izobretaem-bitkoin/vstuplenie
 bookFlatSection: false
-bookToc: true
 weight: 1
 ---
 
 {{< expand "Оглавление" "..." >}}
 
-[ВСТУПЛЕНИЕ](/izobretaem-bitkoin/vstuplenie)  
+[Главная страница](/izobretaem-bitkoin)
 
-Глава 1: ЧТО ТАКОЕ БИТКОИН  
+[Вступление](/izobretaem-bitkoin/vstuplenie)  
 
-Глава 2: ОТКАЗЫВАЕМСЯ ОТ ПОСРЕДНИКА  
+[Глава 1: Что такое Биткоин](/izobretaem-bitkoin/glava-1)
 
-Глава 3: PROOF OF WORK  
+[Глава 2: Отказываемся от посредника](/izobretaem-bitkoin/glava-2)
 
-Глава 4: МАЙНИНГ  
+[Глава 3: Proof of Work](/izobretaem-bitkoin/glava-3)
 
-Глава 5: ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ РЕЕСТРА  
+[Глава 4: Майнинг](/izobretaem-bitkoin/glava-4)
 
-Глава 6: ФОРКИ И АТАКИ 51  
+[Глава 5: Обеспечение безопасности реестра](/izobretaem-bitkoin/glava-5)
 
-Глава 7: УЧЕТНЫЕ ЗАПИСИ, НЕ ИДЕНТИФИЦИРУЮЩИЕ ЛИЧНОСТЬ  
+[Глава 6: Форки и атаки 51%](/izobretaem-bitkoin/glava-6)
 
-Глава 8: КТО УСТАНАВЛИВАЕТ ПРАВИЛА?  
+[Глава 7: Учетные записи, не идентифицирующие личность](/izobretaem-bitkoin/glava-7)
 
-Глава 9: ЧТО ДАЛЬШЕ?
+[Глава 8: Кто устанавливает правила?](/izobretaem-bitkoin/glava-8)
+
+[Глава 9: Что дальше?](/izobretaem-bitkoin/glava-9)
 
 {{< /expand >}}
 
@@ -64,24 +65,26 @@ weight: 1
 
 {{< expand "Оглавление" "..." >}}
 
-[ВСТУПЛЕНИЕ](/izobretaem-bitkoin/vstuplenie)  
+[Главная страница](/izobretaem-bitkoin)
 
-Глава 1: ЧТО ТАКОЕ БИТКОИН  
+[Вступление](/izobretaem-bitkoin/vstuplenie)  
 
-Глава 2: ОТКАЗЫВАЕМСЯ ОТ ПОСРЕДНИКА  
+[Глава 1: Что такое Биткоин](/izobretaem-bitkoin/glava-1)
 
-Глава 3: PROOF OF WORK  
+[Глава 2: Отказываемся от посредника](/izobretaem-bitkoin/glava-2)
 
-Глава 4: МАЙНИНГ  
+[Глава 3: Proof of Work](/izobretaem-bitkoin/glava-3)
 
-Глава 5: ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ РЕЕСТРА  
+[Глава 4: Майнинг](/izobretaem-bitkoin/glava-4)
 
-Глава 6: ФОРКИ И АТАКИ 51  
+[Глава 5: Обеспечение безопасности реестра](/izobretaem-bitkoin/glava-5)
 
-Глава 7: УЧЕТНЫЕ ЗАПИСИ, НЕ ИДЕНТИФИЦИРУЮЩИЕ ЛИЧНОСТЬ  
+[Глава 6: Форки и атаки 51%](/izobretaem-bitkoin/glava-6)
 
-Глава 8: КТО УСТАНАВЛИВАЕТ ПРАВИЛА?  
+[Глава 7: Учетные записи, не идентифицирующие личность](/izobretaem-bitkoin/glava-7)
 
-Глава 9: ЧТО ДАЛЬШЕ?
+[Глава 8: Кто устанавливает правила?](/izobretaem-bitkoin/glava-8)
+
+[Глава 9: Что дальше?](/izobretaem-bitkoin/glava-9)
 
 {{< /expand >}}

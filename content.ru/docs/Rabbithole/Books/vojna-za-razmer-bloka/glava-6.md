@@ -10,9 +10,7 @@ weight: 6
 |:--:|
 _Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 6: Сеть Lightning
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -60,6 +58,8 @@ _Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_med
 
 {{< /expand >}}
 
+# Глава 6: Сеть Lightning
+
 {{< youtube I8YsSMsJsvw >}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -86,7 +86,7 @@ SegWit предоставил пользователям возможность 
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-6-lightning-network/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

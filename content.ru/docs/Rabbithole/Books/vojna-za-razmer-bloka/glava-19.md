@@ -10,9 +10,7 @@ weight: 19
 |:--:|
 _Фото [Bart Ros](https://unsplash.com/@bartros?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 19: Bitcoin Cash
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Bart Ros](https://unsplash.com/@bartros?utm_source=ghost&utm_medium=r
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 19: Bitcoin Cash
 
 {{< youtube _8cCN0Z63JE >}}
 |:--:|
@@ -110,7 +110,7 @@ Bitcoin Cash запустился так быстро, всего за меся�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-19-bitcoin-cash/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

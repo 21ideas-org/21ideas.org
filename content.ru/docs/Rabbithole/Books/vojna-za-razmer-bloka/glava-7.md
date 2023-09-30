@@ -10,9 +10,7 @@ weight: 7
 |:--:|
 _Фото [Devin Avery](https://unsplash.com/@devintavery?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 7: Bitcoin Classic
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Devin Avery](https://unsplash.com/@devintavery?utm_source=ghost&utm_m
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 7: Bitcoin Classic
 
 {{< youtube gD-wWGPvfQI >}}
 |:--:|
@@ -166,7 +166,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-7-bitcoin-classic/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

@@ -37,7 +37,7 @@ _Фото [Serey Kim](https://unsplash.com/@shuttergenic?utm_source=ghost&utm_me
 
 ---
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
