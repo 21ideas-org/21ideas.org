@@ -10,9 +10,7 @@ weight: 3
 |:--:|
 _Фото [Olivier Beaulieu](https://unsplash.com/@olivierbeaulieu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 3: Масштабирование I Монреаль
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Olivier Beaulieu](https://unsplash.com/@olivierbeaulieu?utm_source=gh
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 3: Масштабирование I Монреаль
 
 {{< youtube lVJQ-QCL2B4 >}}
 |:--:|
@@ -112,7 +112,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-3-scaling-i-montreal/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

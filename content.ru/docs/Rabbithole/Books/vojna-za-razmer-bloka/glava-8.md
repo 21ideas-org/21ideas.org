@@ -10,9 +10,7 @@ weight: 8
 |:--:|
 _Фото [Florian Wehde](https://unsplash.com/@florianwehde?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 8: Круглый стол в Гонконге
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Florian Wehde](https://unsplash.com/@florianwehde?utm_source=ghost&ut
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 8: Круглый стол в Гонконге
 
 {{< youtube dYbEzKUwgCA >}}
 |:--:|
@@ -116,7 +116,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-8-hong-kong-roundtable/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

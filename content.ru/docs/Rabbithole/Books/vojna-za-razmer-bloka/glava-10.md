@@ -10,9 +10,7 @@ weight: 10
 |:--:|
 _Фото [Hardik Pandya](https://unsplash.com/@hvpandya?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 10: DAO
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Hardik Pandya](https://unsplash.com/@hvpandya?utm_source=ghost&utm_me
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 10: DAO
 
 {{< youtube 6_1HR0HPosw >}}
 |:--:|
@@ -136,7 +136,7 @@ Ethereum – это криптовалюта, впервые задуманна�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-10-the-dao/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

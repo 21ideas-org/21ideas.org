@@ -10,9 +10,7 @@ weight: 5
 |:--:|
 _Фото [Everaldo Coelho](https://unsplash.com/@_everaldo?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 5: SegWit
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -60,6 +58,8 @@ _Фото [Everaldo Coelho](https://unsplash.com/@_everaldo?utm_source=ghost&utm
 
 {{< /expand >}}
 
+# Глава 5: SegWit
+
 {{< youtube LBTYgMbsTME >}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -106,7 +106,7 @@ SegWit оказался настолько сложным, что даже Дж�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-5-scaling-ii-segwit/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

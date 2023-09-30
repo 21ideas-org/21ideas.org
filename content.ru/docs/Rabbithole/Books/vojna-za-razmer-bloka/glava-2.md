@@ -10,9 +10,7 @@ weight: 2
 |:--:|
 _Фото [Ryan Mac](https://unsplash.com/@ryanmc?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 2: Начало
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Ryan Mac](https://unsplash.com/@ryanmc?utm_source=ghost&utm_medium=re
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 2: Начало
 
 {{< youtube hbMOd_qAYdE >}}
 |:--:|
@@ -207,7 +207,7 @@ Bitcoin Core было названием эталонной реализации
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-2-march-to-war/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

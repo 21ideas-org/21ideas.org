@@ -10,9 +10,7 @@ weight: 12
 |:--:|
 _Фото [Vincent Lin](https://unsplash.com/@darth_u?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 12: Bitcoin Unlimited
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Vincent Lin](https://unsplash.com/@darth_u?utm_source=ghost&utm_mediu
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 12: Bitcoin Unlimited
 
 {{< youtube 2gMI8mLmPwI >}}
 |:--:|
@@ -145,7 +145,7 @@ Bitcoin Unlimited так и не смог полностью восстанов�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-12-bitcoin-unlimited/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
