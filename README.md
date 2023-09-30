@@ -69,3 +69,5 @@
 | -6,969 | [Radiokot](https://github.com/Radiokot) | [Исправление бага широких видео эмбедов](https://github.com/21ideas-org/21ideas.org/pull/69) | 860,031 |
 | -21,000 | [btclinux](https://github.com/btclinux) | [Война за размер блока](https://github.com/21ideas-org/21ideas.org/pull/70) | 839,031 |
 | - 12,000 | [btclinux](https://github.com/btclinux) | [Изобретаем Биткоин](https://github.com/21ideas-org/21ideas.org/pull/74) | 827,031 |
+| -21,000 | [Radiokot](https://github.com/Radiokot) | [Серия статей "Постепенно, затем внезапно"](https://github.com/21ideas-org/21ideas.org/pull/76) | 806,000 |
+| - 15,000 | [btclinux](https://github.com/btclinux) | [Бычий кейс для Биткоина, Манифест криптоанархиста, Тюльпаномания](https://github.com/21ideas-org/21ideas.org/pull/75) | 791,000 |
