@@ -21,7 +21,7 @@ _Фото [Serey Kim](https://unsplash.com/@shuttergenic?utm_source=ghost&utm_me
 Перевод книги организован проектом [Hype Coin News (ссылка-приглашение)](https://t.me/joinchat/CANCJNTyueo1M2Uy). Поддержать проект HCN:
 
 - BTC: 32vdcL8PwsAno5zQm3wwbdfNXLRdGxDhTF
-- Lightning: LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF0D3H82UNV9ACXZ7FLW4EK2UNWV9KK20TWDA6XWETVVSMHV8MV
+- Lightning: LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKXETWW3EXZMRKD9HKCCF4XYK4YTL3
 
 Особая благодарность меценатам! Без них перевод книги бы вовсе не начался:
 
