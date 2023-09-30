@@ -37,7 +37,7 @@ weight: 11
 # Биткоин не для преступников
 
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) от 29 Ноября 2019 г. подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) [от 29 Ноября 2019 г.](https://unchained.com/blog/bitcoin-is-not-for-criminals/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 Если вы когда-либо слышали (или по какой-то причине считаете), что Биткоин — это, прежде всего, инструмент, используемый преступниками, задумайтесь на секунду о своих друзьях и семье, у которых, возможно, есть немного биткоинов, а затем спросите себя, кто из них относится к рядам известных преступников.

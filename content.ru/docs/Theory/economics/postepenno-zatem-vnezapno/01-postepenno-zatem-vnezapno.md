@@ -37,7 +37,7 @@ weight: 1
 Введение в серию "Постепенно, затем внезапно", посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое.
 
 {{< hint btc >}}
-Перевод [статьи](https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin/?ref=21ideas.org) [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) подготовлен  [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis?ref=21ideas.org) [от 16 Июля 2019 г.](https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin/?ref=21ideas.org) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint>}}
 
 ## Вступление
