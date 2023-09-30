@@ -20,8 +20,10 @@ _Фото [Serey Kim](https://unsplash.com/@shuttergenic?utm_source=ghost&utm_me
 
 Перевод книги организован проектом [Hype Coin News (ссылка-приглашение)](https://t.me/joinchat/CANCJNTyueo1M2Uy). Поддержать проект HCN:
 
-- BTC: 32vdcL8PwsAno5zQm3wwbdfNXLRdGxDhTF
+- BTC: 328JLeuHeHbwxFPwENF4MYHZBkuie2pQvk
 - Lightning: LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKXETWW3EXZMRKD9HKCCF4XYK4YTL3
+
+Перевод и редактура: @alexeynefedov, @notgeld, @Tony_Crusoe
 
 Особая благодарность меценатам! Без них перевод книги бы вовсе не начался:
 
@@ -35,7 +37,9 @@ _Фото [Serey Kim](https://unsplash.com/@shuttergenic?utm_source=ghost&utm_me
 
 ---
 
-{{< expand "Содержание" "..." >}} 
+{{< expand "Содержание" "..." >}}
+
+[Главная страница](/vojna-za-razmer-bloka)
 
 [Глава 1: Первый удар](/vojna-za-razmer-bloka/glava-1)
 
