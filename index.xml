@@ -53,17 +53,18 @@
 РАЗМЫШЛЕНИЯ
 Предисловие # На момент написания этих строк 2019 год только начался. И в первый день нового года я решил поставить себе цель — написать эту книгу.</description></item><item><title>Кто контролирует Bitcoin Core?</title><link>https://new.21ideas.org/kto-kontroliruet-bitkoin-kor/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/kto-kontroliruet-bitkoin-kor/</guid><description>Кто контролирует Bitcoin Core? # Кто управляет разработкой Биткоина? Что если кто-то решит незаметно изменить его правила? Как убедиться, что никто не поломает Биткоин?
 Перевод статьи Джеймсона Лоппа подготовили Nikita Kolodin и RainDogDance. Редактура Тони ⚡️.Поддержать проект. Вопрос о том, кто контролирует код в репозитории Bitcoin Core на гитхабе, продолжает возникать снова и снова. Этот довод часто преподносится как свидетельство наличия центральной точки контроля над протоколом Биткоина. Я убежден, что сам вопрос обманчив, поскольку подразумевает неминуемое существование авторитарной власти, а эта модель неприменима к Биткоину.</description></item><item><title>With ToC</title><link>https://new.21ideas.org/docs/example/table-of-contents/with-toc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/docs/example/table-of-contents/with-toc/</guid><description>Caput vino delphine in tamen vias # Cognita laeva illo fracta # Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter, per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum.
-Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit Natus quaerere # Pectora et sine mulcere, coniuge dum tincta incurvae.</description></item><item><title>Вступление</title><link>https://new.21ideas.org/izobretaem-bitkoin/vstuplenie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/vstuplenie/</guid><description>Оглавление ... ВСТУПЛЕНИЕ
-Глава 1: ЧТО ТАКОЕ БИТКОИН
-Глава 2: ОТКАЗЫВАЕМСЯ ОТ ПОСРЕДНИКА
-Глава 3: PROOF OF WORK
-Глава 4: МАЙНИНГ
-Глава 5: ОБЕСПЕЧЕНИЕ БЕЗОПАСНОСТИ РЕЕСТРА
-Глава 6: ФОРКИ И АТАКИ 51
-Глава 7: УЧЕТНЫЕ ЗАПИСИ, НЕ ИДЕНТИФИЦИРУЮЩИЕ ЛИЧНОСТЬ
-Глава 8: КТО УСТАНАВЛИВАЕТ ПРАВИЛА?
-Глава 9: ЧТО ДАЛЬШЕ?
-Вступление # Многие, когда слышат о Биткоине, зачастую формируют о нем собственное мнение, даже не пытаясь понять, чем он является на самом деле.</description></item><item><title>Глава 1: Первый удар</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-1/</guid><description>Фото Dan Freeman / Unsplash Глава 1: Первый удар # Содержание ... Главная страница
+Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit Natus quaerere # Pectora et sine mulcere, coniuge dum tincta incurvae.</description></item><item><title>Вступление</title><link>https://new.21ideas.org/izobretaem-bitkoin/vstuplenie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/vstuplenie/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Вступление # Многие, когда слышат о Биткоине, зачастую формируют о нем собственное мнение, даже не пытаясь понять, чем он является на самом деле.</description></item><item><title>Глава 1: Первый удар</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-1/</guid><description>Фото Dan Freeman / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -77,7 +78,8 @@ Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara po
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Как добавить статью?</title><link>https://new.21ideas.org/github/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/github/</guid><description>Добавление материалов с помощью GitHub # Как стать автором на проекте 21 идея? Как добавить статью? Этот материал расскажет об основах взаимодействия с GitHub.
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Как добавить статью?</title><link>https://new.21ideas.org/github/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/github/</guid><description>Добавление материалов с помощью GitHub # Как стать автором на проекте 21 идея? Как добавить статью? Этот материал расскажет об основах взаимодействия с GitHub.
 Гид подготовлен Тони⚡️. Поддержать проект. Проект, принадлежащий сообществу # 21 идея - проект, принадлежащий и управляемый сообществом. Идея заключается в том, что за репозиторием следят самые активные биткоинеры в русскоязычном пространстве, и список модераторов гибок, точно так же, как и ключи от царства Биткоина переходят от одних мейнтейнеров к другим по мере того, как проект развивается.</description></item><item><title>LNbits</title><link>https://new.21ideas.org/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/lnbits/</guid><description>LNbits – швейцарский нож среди лайтнинг-приложений | Инвойсы, чаевые, пейволлы, мониторинг ончейн-кошелька, продажа билетов на события… # Привет, с вами Тони и проект 21 идея и я продолжаю рубрику практических гидов по взаимодействию с сетью Молния. В этой серии материалов я рассказываю о самых интересных приложениях, взаимодействующих с Биткоином и сетью Лайтнинг, чтобы вы могли выбрать то, что вам нужно для улучшения опыта взаимодействия с самыми твердыми деньгами.
 Почему я это делаю?</description></item><item><title>Лайтнинг-адреса</title><link>https://new.21ideas.org/lajtning-adresa/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/lajtning-adresa/</guid><description>Лайтнинг-адреса # Некоторые уже знают, что сатоши можно отправлять прямо на лайтнинг-адрес в формате username@domain. Но как это работает? В этом посте мы разберем как работает лайтнинг-адрес, а также ознакомимся с основами инвойсов в сети Молния и протоколом LNURL-pay.
 Статья подготовлена Тони⚡️. Поддержать проект. Основы лайтнинг-инвойсов # Лайтнинг-инвойс – это стандарт для отправки и получения средств в сети Молния. Если вы хотите получить несколько сатоши, вы должны создать инвойс, используя свой лайтнинг-кошелек.</description></item><item><title>Кошелек Blue</title><link>https://new.21ideas.org/blue/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/blue/</guid><description>Lightning-кошелек BlueWallet: мультисиг, холодные хранилища, поддержка кошельков watch-only и многое другое # Как хранить свои биткоины на мобильном устройстве? Безопасное горячее и холодное хранение биткоина.
@@ -116,7 +118,18 @@ Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara po
 Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина
 Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)
 Генезис-файлы. Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков # Это – первая публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Without ToC</title><link>https://new.21ideas.org/docs/example/table-of-contents/without-toc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/docs/example/table-of-contents/without-toc/</guid><description>At me ipso nepotibus nunc celebratior genus # Tanto oblite # Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
-Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description></item><item><title>Глава 2: Начало</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-2/</guid><description>Фото Ryan Mac / Unsplash Глава 2: Начало # Содержание ... Главная страница
+Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description></item><item><title>Глава 1: Что такое Биткоин</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-1/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 1: Что такое Биткоин # Биткоин — это одноранговая электронная валюта, новая форма цифровых денег, которой люди или компьютеры могут обмениваться без какого-либо доверенного посредника (например банка), выпуск которой не контролируется ни одной определенной стороной.</description></item><item><title>Глава 2: Начало</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-2/</guid><description>Фото Ryan Mac / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -130,7 +143,8 @@ Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt d
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина</title><link>https://new.21ideas.org/neotemlemye-prava-sobstvennosti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/neotemlemye-prava-sobstvennosti/</guid><description>Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина # Перевод статьи Dergigi подготовлен пабликом ∞/21M. Редактура Tony⚡️ Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина</title><link>https://new.21ideas.org/neotemlemye-prava-sobstvennosti/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/neotemlemye-prava-sobstvennosti/</guid><description>Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина # Перевод статьи Dergigi подготовлен пабликом ∞/21M. Редактура Tony⚡️ Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:
 Кому должно быть позволено говорить?
 Кому разрешат публиковаться?
 Кому должно быть разрешено иметь собственность?
@@ -170,7 +184,18 @@ Obsidian Hugo Плагин &amp;ldquo;Obsidian Git&amp;rdquo; Плагин &amp;
 Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая
 Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина
 Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)
-Генезис-файлы. Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина # Это – вторая публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 3: Масштабирование I Монреаль</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-3/</guid><description>Фото Olivier Beaulieu / Unsplash Глава 3: Масштабирование I Монреаль # Содержание ... Главная страница
+Генезис-файлы. Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина # Это – вторая публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 2: Отказываемся от посредника</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-2/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 2: Отказываемся от посредника # В предыдущей главе мы обсуждали, что Биткоин представляет собой одноранговую систему для передачи ценности.</description></item><item><title>Глава 3: Масштабирование I Монреаль</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-3/</guid><description>Фото Olivier Beaulieu / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -184,7 +209,8 @@ Obsidian Hugo Плагин &amp;ldquo;Obsidian Git&amp;rdquo; Плагин &amp;
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Руководство по управлению ликвидностью в сети Lightning</title><link>https://new.21ideas.org/likvidnost-v-lajtning/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/likvidnost-v-lajtning/</guid><description>Руководство по управлению ликвидностью в сети Lightning # Джейсон Лопп: уроки, полученные при управлении узлом маршрутизации в сети Lightning.
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Руководство по управлению ликвидностью в сети Lightning</title><link>https://new.21ideas.org/likvidnost-v-lajtning/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/likvidnost-v-lajtning/</guid><description>Руководство по управлению ликвидностью в сети Lightning # Джейсон Лопп: уроки, полученные при управлении узлом маршрутизации в сети Lightning.
 Перевод статьи Джемесона Лоппа подготовлен Тони⚡️. Поддержать проект. С тех пор как люди начали запускать узлы Lightning в mainnet в начале 2018 года, некоторые задавались вопросом: какую реальную прибыль можно ожидать от размещения капитала в маршрутизационной ноде? Ник Бхатия подробно описал свою теорию возможных вариантов развития событий:
 The Time Value of Bitcoin and LNRR Но, как мы узнали за эти годы, ROI (возврат инвестиций/прибыль от инвестиций) включает в себя гораздо больше, чем просто вложение капитала в каналы Lightning.</description></item><item><title>Становление Биткоина Часть 3. Знакомьтесь: деньги</title><link>https://new.21ideas.org/sb/stanovlenie-3/</link><pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-3/</guid><description>Становление Биткоина Часть 3. Знакомьтесь: деньги # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
 Часть 1. О времени
@@ -214,7 +240,19 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая
 Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина
 Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)
-Генезис-файлы. Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая # Это – третья публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 4: Масштабирование II Гонконг</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-4/</guid><description>Фото Simon Zhu / Unsplash Глава 4: Масштабирование II Гонконг # Содержание ... Главная страница
+Генезис-файлы. Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая # Это – третья публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 3: Proof of Work</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-3/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 3: Proof of Work # Система лотереи, разработанная нами на данный момент, имеет две основные проблемы:
+Кто будет продавать лотерейные билеты и выбирать выигрышные номера, если мы уже определили, что у нас не может быть какого-либо центрального доверенного органа?</description></item><item><title>Глава 4: Масштабирование II Гонконг</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-4/</guid><description>Фото Simon Zhu / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -228,7 +266,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Становление Биткоина Часть 4. Поворот не туда (в поисках нового плана)!</title><link>https://new.21ideas.org/sb/stanovlenie-4/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-4/</guid><description>Становление Биткоина Часть 4. Поворот не туда (в поисках нового плана)! # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Становление Биткоина Часть 4. Поворот не туда (в поисках нового плана)!</title><link>https://new.21ideas.org/sb/stanovlenie-4/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-4/</guid><description>Становление Биткоина Часть 4. Поворот не туда (в поисках нового плана)! # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
 Часть 1. О времени
 Часть 2. О людях
 Часть 3. Знакомьтесь: деньги
@@ -256,7 +295,18 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая
 Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина
 Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)
-Генезис-файлы. Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина # Это – четвертая публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 5: SegWit</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-5/</guid><description>Фото Everaldo Coelho / Unsplash Глава 5: SegWit # Содержание ... Главная страница
+Генезис-файлы. Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина # Это – четвертая публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 4: Майнинг</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-4/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 4: Майнинг # Майнинг — это процесс розыгрыша лотереи Proof of Work. “Джек-пот” в каждом раунде — право добавить свой блок в реестр сети Биткоин.</description></item><item><title>Глава 5: SegWit</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-5/</guid><description>Фото Everaldo Coelho / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -270,7 +320,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Становление Биткоина Часть 5. Цифровая редкость</title><link>https://new.21ideas.org/sb/stanovlenie-5/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-5/</guid><description>Становление Биткоина Часть 5. Цифровая редкость # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Становление Биткоина Часть 5. Цифровая редкость</title><link>https://new.21ideas.org/sb/stanovlenie-5/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-5/</guid><description>Становление Биткоина Часть 5. Цифровая редкость # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
 Часть 1. О времени
 Часть 2. О людях
 Часть 3. Знакомьтесь: деньги
@@ -298,7 +349,18 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая
 Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина
 Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)
-Генезис-файлы. Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только) # Это – пятая и заключительная публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 6: Сеть Lightning</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-6/</guid><description>Фото Dominik QN / Unsplash Глава 6: Сеть Lightning # Содержание ... Главная страница
+Генезис-файлы. Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только) # Это – пятая и заключительная публикация в серии материалов, посвященных становлению движения шифропанков.</description></item><item><title>Глава 5: Обеспечение безопасности реестра</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-5/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 5: Обеспечение безопасности реестра # До сих пор мы говорили о том, как нам удается хранить копии и обновлять записи в распределенном реестре, не допуская принуждения или коррупции, используя систему лотереи и проверку на основе консенсуса.</description></item><item><title>Глава 6: Сеть Lightning</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-6/</guid><description>Фото Dominik QN / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -312,7 +374,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Становление Биткоина Часть 6. Цифровые контракты</title><link>https://new.21ideas.org/sb/stanovlenie-6/</link><pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-6/</guid><description>Становление Биткоина Часть 6. Цифровые контракты # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Становление Биткоина Часть 6. Цифровые контракты</title><link>https://new.21ideas.org/sb/stanovlenie-6/</link><pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-6/</guid><description>Становление Биткоина Часть 6. Цифровые контракты # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
 Часть 1. О времени
 Часть 2. О людях
 Часть 3. Знакомьтесь: деньги
@@ -334,7 +397,18 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 6: РЕДКОСТЬ # Что делает товар редким? Что вообще такое редкость? Какие еще свойства можно извлечь из редкости того или объекта?</description></item><item><title>Глава 7: Bitcoin Classic</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-7/</guid><description>Фото Devin Avery / Unsplash Глава 7: Bitcoin Classic # Содержание ... Главная страница
+Глава 6: РЕДКОСТЬ # Что делает товар редким? Что вообще такое редкость? Какие еще свойства можно извлечь из редкости того или объекта?</description></item><item><title>Глава 6: Форки и атаки 51%</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-6/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 6: Форки и атаки 51% # Сатоши майнил первые биткоины, используя центральный процессор своего компьютера (CPU). Поскольку начальная сложность майнинга в системе была установлена ​​на низком уровне, генерирование этих монет не требовало от его компьютера большой вычислительной мощности.</description></item><item><title>Глава 7: Bitcoin Classic</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-7/</guid><description>Фото Devin Avery / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -348,7 +422,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Становление Биткоина Часть 7: Недостающие части головоломки</title><link>https://new.21ideas.org/sb/stanovlenie-7/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-7/</guid><description>Становление Биткоина Часть 7: Недостающие части головоломки # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Становление Биткоина Часть 7: Недостающие части головоломки</title><link>https://new.21ideas.org/sb/stanovlenie-7/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/sb/stanovlenie-7/</guid><description>Становление Биткоина Часть 7: Недостающие части головоломки # Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
 Часть 1. О времени
 Часть 2. О людях
 Часть 3. Знакомьтесь: деньги
@@ -370,34 +445,18 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 7: ХОДЛ ОН # В былые времена нам, скандинавам, приходилось делать запасы, чтобы подготовиться к долгой зиме.</description></item><item><title>Глава 8: Круглый стол в Гонконге</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-8/</guid><description>Фото Florian Wehde / Unsplash Глава 8: Круглый стол в Гонконге # Содержание ... Главная страница
-Глава 1: Первый удар
-Глава 2: Начало
-Глава 3: Масштабирование I Монреаль
-Глава 4: Масштабирование II Гонконг
-Глава 5: SegWit
-Глава 6: Сеть Lightning
-Глава 7: Bitcoin Classic
-Глава 8: Круглый стол в Гонконге
-Глава 9: Фейковый Сатоши
-Глава 10: DAO
-Глава 11: Масштабирование III Милан
-Глава 12: Bitcoin Unlimited
-Глава 13: Биржи</description></item><item><title>Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-8/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-8/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
-Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
-Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
-Глава 3: ДОВЕРЧИВОСТЬ
-Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ
-Глава 5: PROOF OF WORK
-Глава 6: РЕДКОСТЬ
-Глава 7: ХОДЛ ОН
-Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ
-Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР
-Глава 10: ОКРУЖАЮЩАЯ СРЕДА
-Глава 11: НОВАЯ ФОРМА ЖИЗНИ
-Глава 12: БУДУЩЕЕ
-РАЗМЫШЛЕНИЯ
-Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ # Изменить протокол Биткоина очень просто. Исходный код является открытым. Это означает, что любой может загрузить копию кода и внести в него любые изменения.</description></item><item><title>Глава 9: Фейковый Сатоши</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-9/</guid><description>Фото Veliko Karachiviev / Unsplash Глава 9: Фейковый Сатоши # Содержание ... Главная страница
+Глава 7: ХОДЛ ОН # В былые времена нам, скандинавам, приходилось делать запасы, чтобы подготовиться к долгой зиме.</description></item><item><title>Глава 7: Учетные записи, не идентифицирующие личность</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-7/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 7: Учетные записи, не идентифицирующие личность # Мы создали распределенный реестр, не зависящий от центрального органа, систему лотереи майнинга для выбора тех, кто производит записи в систему, систему вознаграждения честных майнеров и наказания недобросовестных, способ корректировки сложности майнинга для обеспечения согласованного графика выпуска и уменьшения количества конфликтов, а также систему проверки достоверности цепочки путем рассмотрения совокупного Proof of Work и истории транзакций.</description></item><item><title>Глава 8: Круглый стол в Гонконге</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-8/</guid><description>Фото Florian Wehde / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -411,7 +470,48 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Blast from the past. Драйвчейны</title><link>https://new.21ideas.org/posts/drivechains/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/posts/drivechains/</guid><description>Блогпост подготовлен проектом Hype Coin News и изначально опубликован в их блоге на Teletype. 2 сентября 2023 года Джимми Сонг в своём твиттере призвал к разделению цепочки на форе дискуссии о &amp;ldquo;драйвчейнах&amp;rdquo;:
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-8/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-8/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
+Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
+Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
+Глава 3: ДОВЕРЧИВОСТЬ
+Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ
+Глава 5: PROOF OF WORK
+Глава 6: РЕДКОСТЬ
+Глава 7: ХОДЛ ОН
+Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ
+Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР
+Глава 10: ОКРУЖАЮЩАЯ СРЕДА
+Глава 11: НОВАЯ ФОРМА ЖИЗНИ
+Глава 12: БУДУЩЕЕ
+РАЗМЫШЛЕНИЯ
+Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ # Изменить протокол Биткоина очень просто. Исходный код является открытым. Это означает, что любой может загрузить копию кода и внести в него любые изменения.</description></item><item><title>Глава 8: Кто устанавливает правила?</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-8/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 8: Кто устанавливает правила? # Теперь у нас есть функциональная распределенная система для отслеживания и передачи стоимости. Давайте рассмотрим, что мы создали на данный момент:</description></item><item><title>Глава 9: Фейковый Сатоши</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-9/</guid><description>Фото Veliko Karachiviev / Unsplash Оглавление ... Главная страница
+Глава 1: Первый удар
+Глава 2: Начало
+Глава 3: Масштабирование I Монреаль
+Глава 4: Масштабирование II Гонконг
+Глава 5: SegWit
+Глава 6: Сеть Lightning
+Глава 7: Bitcoin Classic
+Глава 8: Круглый стол в Гонконге
+Глава 9: Фейковый Сатоши
+Глава 10: DAO
+Глава 11: Масштабирование III Милан
+Глава 12: Bitcoin Unlimited
+Глава 13: Биржи
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Blast from the past. Драйвчейны</title><link>https://new.21ideas.org/posts/drivechains/</link><pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/posts/drivechains/</guid><description>Блогпост подготовлен проектом Hype Coin News и изначально опубликован в их блоге на Teletype. 2 сентября 2023 года Джимми Сонг в своём твиттере призвал к разделению цепочки на форе дискуссии о &amp;ldquo;драйвчейнах&amp;rdquo;:
 Дискуссия вокруг драйвчейнов разгорается все сильнее, причем сторонники используют различные тактики, чтобы заручиться поддержкой. Этот спорный вопрос перекликается с предыдущими спорами в биткоин-сообществе, например, со спором о размере блока в 2017 году. В связи с этим следует рассмотреть окончательный вариант решения проблемы - разделение цепи.</description></item><item><title>Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-9/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-9/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
 Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
@@ -426,7 +526,7 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР # Деньги можно рассматривать с разных точек зрения. Их часто описывают как средство обмена, средство сбережения и единицу учета.</description></item><item><title>Глава 10: DAO</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-10/</guid><description>Фото Hardik Pandya / Unsplash Глава 10: DAO # Содержание ... Главная страница
+Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР # Деньги можно рассматривать с разных точек зрения. Их часто описывают как средство обмена, средство сбережения и единицу учета.</description></item><item><title>Глава 10: DAO</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-10/</guid><description>Фото Hardik Pandya / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -440,7 +540,19 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 10: ОКРУЖАЮЩАЯ СРЕДА</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-10/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-10/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 9: Что дальше?</title><link>https://new.21ideas.org/izobretaem-bitkoin/glava-9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/izobretaem-bitkoin/glava-9/</guid><description>Оглавление ... Главная страница
+Вступление
+Глава 1: Что такое Биткоин
+Глава 2: Отказываемся от посредника
+Глава 3: Proof of Work
+Глава 4: Майнинг
+Глава 5: Обеспечение безопасности реестра
+Глава 6: Форки и атаки 51%
+Глава 7: Учетные записи, не идентифицирующие личность
+Глава 8: Кто устанавливает правила?
+Глава 9: Что дальше?
+Глава 9: Что дальше? # Биткоин — MySpace криптовалют? # Почему я написал книгу о Биткоине, когда мог бы написать об экосистеме криптовалют в целом?</description></item><item><title>Глава 10: ОКРУЖАЮЩАЯ СРЕДА</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-10/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-10/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
 Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
 Глава 3: ДОВЕРЧИВОСТЬ
@@ -454,7 +566,7 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 10: ОКРУЖАЮЩАЯ СРЕДА # Бесплатный сыр — только в мышеловке. Нет такого понятия, как игра с нулевой суммой.</description></item><item><title>Глава 11: Масштабирование III Милан</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-11/</guid><description>Фото Benjamin Voros / Unsplash Глава 11: Масштабирование III Милан # Содержание ... Главная страница
+Глава 10: ОКРУЖАЮЩАЯ СРЕДА # Бесплатный сыр — только в мышеловке. Нет такого понятия, как игра с нулевой суммой.</description></item><item><title>Глава 11: Масштабирование III Милан</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-11/</guid><description>Фото Benjamin Voros / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -468,7 +580,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 11: НОВАЯ ФОРМА ЖИЗНИ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-11/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-11/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 11: НОВАЯ ФОРМА ЖИЗНИ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-11/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-11/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
 Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
 Глава 3: ДОВЕРЧИВОСТЬ
@@ -482,7 +595,7 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 11: НОВАЯ ФОРМА ЖИЗНИ # Нелегко определить свойства, на которых следует основывать решение о принятии сущности в качестве новой формы жизни.</description></item><item><title>Глава 12: Bitcoin Unlimited</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-12/</guid><description>Фото Vincent Lin / Unsplash Глава 12: Bitcoin Unlimited # Содержание ... Главная страница
+Глава 11: НОВАЯ ФОРМА ЖИЗНИ # Нелегко определить свойства, на которых следует основывать решение о принятии сущности в качестве новой формы жизни.</description></item><item><title>Глава 12: Bitcoin Unlimited</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-12/</guid><description>Фото Vincent Lin / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -496,7 +609,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 12: БУДУЩЕЕ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-12/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-12/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 12: БУДУЩЕЕ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-12/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/glava-12/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
 Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
 Глава 3: ДОВЕРЧИВОСТЬ
@@ -510,7 +624,7 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-Глава 12: БУДУЩЕЕ # Эффект Линди — это теория, прогнозирующая продолжительность существования тех или иных технологий и идей в будущем.</description></item><item><title>Глава 13: Биржи</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-13/</guid><description>Фото Julius Jansson / Unsplash Глава 13: Биржи # Содержание ... Главная страница
+Глава 12: БУДУЩЕЕ # Эффект Линди — это теория, прогнозирующая продолжительность существования тех или иных технологий и идей в будущем.</description></item><item><title>Глава 13: Биржи</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-13/</guid><description>Фото Julius Jansson / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -524,7 +638,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>РАЗМЫШЛЕНИЯ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/mysli/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/mysli/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>РАЗМЫШЛЕНИЯ</title><link>https://new.21ideas.org/suverenitet-posredstvom-matematiki/mysli/</link><pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/suverenitet-posredstvom-matematiki/mysli/</guid><description>Оглавление ... ПРЕДИСЛОВИЕ
 Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 Глава 2: ФИНАНСОВЫЙ АТЕИЗМ
 Глава 3: ДОВЕРЧИВОСТЬ
@@ -538,7 +653,7 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: НОВАЯ ФОРМА ЖИЗНИ
 Глава 12: БУДУЩЕЕ
 РАЗМЫШЛЕНИЯ
-РАЗМЫШЛЕНИЯ # Я надеюсь, что эта книга помогла вам чему-то научиться. Я призываю каждого читателя проверить мои утверждения и оспорить мое мнение.</description></item><item><title>Глава 14: ASICBoost</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-14/</guid><description>Фото Mike Enerio / Unsplash Глава 14: ASICBoost # Содержание ... Главная страница
+РАЗМЫШЛЕНИЯ # Я надеюсь, что эта книга помогла вам чему-то научиться. Я призываю каждого читателя проверить мои утверждения и оспорить мое мнение.</description></item><item><title>Глава 14: ASICBoost</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-14/</guid><description>Фото Mike Enerio / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -552,7 +667,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 15: Логово драконов</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-15/</guid><description>Фото Mr.Autthaporn Pradidpong / Unsplash Глава 15: Логово драконов # Содержание ... Главная страница
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 15: Логово драконов</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-15/</guid><description>Фото Mr.Autthaporn Pradidpong / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -566,7 +682,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 16: Litecoin</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-16/</guid><description>Фото Christopher Czermak / Unsplash Глава 16: Litecoin # Содержание ... Главная страница
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 16: Litecoin</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-16/</guid><description>Фото Christopher Czermak / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -580,34 +697,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 17: UASF – Активируемый пользователями софтфорк</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-17/</guid><description>Фото Bagus Ghufron / Unsplash Глава 17: UASF – Активируемый пользователями софтфорк # Содержание ... Главная страница
-Глава 1: Первый удар
-Глава 2: Начало
-Глава 3: Масштабирование I Монреаль
-Глава 4: Масштабирование II Гонконг
-Глава 5: SegWit
-Глава 6: Сеть Lightning
-Глава 7: Bitcoin Classic
-Глава 8: Круглый стол в Гонконге
-Глава 9: Фейковый Сатоши
-Глава 10: DAO
-Глава 11: Масштабирование III Милан
-Глава 12: Bitcoin Unlimited
-Глава 13: Биржи</description></item><item><title>Глава 18: Нью-Йоркское соглашение</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-18/</guid><description>Фото Andre Benz / Unsplash Глава 18: Нью-Йоркское соглашение # Содержание ... Главная страница
-Глава 1: Первый удар
-Глава 2: Начало
-Глава 3: Масштабирование I Монреаль
-Глава 4: Масштабирование II Гонконг
-Глава 5: SegWit
-Глава 6: Сеть Lightning
-Глава 7: Bitcoin Classic
-Глава 8: Круглый стол в Гонконге
-Глава 9: Фейковый Сатоши
-Глава 10: DAO
-Глава 11: Масштабирование III Милан
-Глава 12: Bitcoin Unlimited
-Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 19: Bitcoin Cash</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-19/</guid><description>Фото Bart Ros / Unsplash Глава 19: Bitcoin Cash # Содержание ... Главная страница
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 17: UASF – Активируемый пользователями софтфорк</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-17/</guid><description>Фото Bagus Ghufron / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -621,7 +712,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 20: SegWit2x</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-20/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-20/</guid><description>Фото Emma Harrisova / Unsplash Глава 20: SegWit2x # Содержание ... Главная страница
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 18: Нью-Йоркское соглашение</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-18/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-18/</guid><description>Фото Andre Benz / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -635,7 +727,8 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Глава 21: Победа</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-21/</guid><description>Фото Josh Rose / Unsplash Глава 21: Победа # Содержание ... Главная страница
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 19: Bitcoin Cash</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-19/</guid><description>Фото Bart Ros / Unsplash Оглавление ... Главная страница
 Глава 1: Первый удар
 Глава 2: Начало
 Глава 3: Масштабирование I Монреаль
@@ -649,7 +742,38 @@ The Time Value of Bitcoin and LNRR Но, как мы узнали за эти г
 Глава 11: Масштабирование III Милан
 Глава 12: Bitcoin Unlimited
 Глава 13: Биржи
-Глава 14: ASICBoost</description></item><item><title>Биткоин и окружающая среда</title><link>https://new.21ideas.org/bitkoin-ne-vredit-okruzhayushej-srede/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/bitkoin-ne-vredit-okruzhayushej-srede/</guid><description>Биткоин не вредит окружающей среде # Критики утверждают, что Биткоин представляет собой угрозу для окружающей среды. Эта статья пояснит в чем они ошибаются.
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 20: SegWit2x</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-20/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-20/</guid><description>Фото Emma Harrisova / Unsplash Оглавление ... Главная страница
+Глава 1: Первый удар
+Глава 2: Начало
+Глава 3: Масштабирование I Монреаль
+Глава 4: Масштабирование II Гонконг
+Глава 5: SegWit
+Глава 6: Сеть Lightning
+Глава 7: Bitcoin Classic
+Глава 8: Круглый стол в Гонконге
+Глава 9: Фейковый Сатоши
+Глава 10: DAO
+Глава 11: Масштабирование III Милан
+Глава 12: Bitcoin Unlimited
+Глава 13: Биржи
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Глава 21: Победа</title><link>https://new.21ideas.org/vojna-za-razmer-bloka/glava-21/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/vojna-za-razmer-bloka/glava-21/</guid><description>Фото Josh Rose / Unsplash Оглавление ... Главная страница
+Глава 1: Первый удар
+Глава 2: Начало
+Глава 3: Масштабирование I Монреаль
+Глава 4: Масштабирование II Гонконг
+Глава 5: SegWit
+Глава 6: Сеть Lightning
+Глава 7: Bitcoin Classic
+Глава 8: Круглый стол в Гонконге
+Глава 9: Фейковый Сатоши
+Глава 10: DAO
+Глава 11: Масштабирование III Милан
+Глава 12: Bitcoin Unlimited
+Глава 13: Биржи
+Глава 14: ASICBoost
+Глава 15: Логово драконов</description></item><item><title>Биткоин и окружающая среда</title><link>https://new.21ideas.org/bitkoin-ne-vredit-okruzhayushej-srede/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/bitkoin-ne-vredit-okruzhayushej-srede/</guid><description>Биткоин не вредит окружающей среде # Критики утверждают, что Биткоин представляет собой угрозу для окружающей среды. Эта статья пояснит в чем они ошибаются.
 Перевод статьи профессора Питера Сейнт-Онжа подготовлен Тони⚡️. Поддержать проект. В качестве одной из популярных критик в адрес Биткоина выступают энергозатраты на транзакцию. Но данный взгляд не отражает необъятности энергетической экономии Биткоина относительно фиатных валют.
 Стоимость биткоин-транзакции хорошо известна многим и часто критикуется; в одной из своих статей журнал Wired назвал Биткоин &amp;ldquo;гигантским средним пальцем, показанным климату планеты Земля&amp;rdquo;.</description></item><item><title>Хэл Финни — жизнь и смерть легенды движения шифропанков</title><link>https://new.21ideas.org/hal-finney/</link><pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate><guid>https://new.21ideas.org/hal-finney/</guid><description>Перед вами перевод эссе о Хэле Финни, подготовленного компанией криоконсервации Alcor. Это — новый взгляд на его личную жизнь, идеалы и вечный оптимизм даже перед лицом необратимой смерти.
 Хотя Хэл широко известен своими новаторскими профессиональными достижениями в киберпространстве и технических кругах, его повседневная жизнь рисует гораздо более детальную картину о его яркой личности. Он был преданным мужем, отцом и неравнодушным человеком с большим жизненным опытом, достигнувшим многого.
