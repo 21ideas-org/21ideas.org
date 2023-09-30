@@ -6,7 +6,7 @@ url: ne-shitcoin
 date: 2021-06-11
 bookToc: true
 bookFlatSection: false
-weight: 1
+weight: 51
 ---
 
 ![cover](/img/178.png)
