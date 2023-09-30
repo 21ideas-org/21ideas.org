@@ -10,9 +10,7 @@ weight: 17
 |:--:|
 _Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 17: UASF – Активируемый пользователями софтфорк
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&ut
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 17: UASF – Активируемый пользователями софтфорк
 
 {{< youtube XENl75GrBWU >}}
 |:--:|
@@ -148,7 +148,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-17-user-activated-softfork/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

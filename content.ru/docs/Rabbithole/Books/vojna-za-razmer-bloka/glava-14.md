@@ -10,9 +10,7 @@ weight: 14
 |:--:|
 _Фото [Mike Enerio](https://unsplash.com/@mikeenerio?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 14: ASICBoost
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Mike Enerio](https://unsplash.com/@mikeenerio?utm_source=ghost&utm_me
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 14: ASICBoost
 
 {{< youtube F9D2x1aqP8I >}}
 |:--:|
@@ -119,7 +119,7 @@ ASICBoost – это способ уменьшить объем работы, к
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-14-asicboost/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

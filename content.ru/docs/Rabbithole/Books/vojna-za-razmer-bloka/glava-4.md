@@ -10,9 +10,7 @@ weight: 4
 |:--:|
 _Фото [Simon Zhu](https://unsplash.com/@smnzhu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 4: Масштабирование II Гонконг
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -59,6 +57,8 @@ _Фото [Simon Zhu](https://unsplash.com/@smnzhu?utm_source=ghost&utm_medium=r
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
+
+# Глава 4: Масштабирование II Гонконг
 
 {{< youtube 8c3tcvkKpdA >}}
 |:--:|
@@ -108,7 +108,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-4-scaling-ii-hong-kong/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 

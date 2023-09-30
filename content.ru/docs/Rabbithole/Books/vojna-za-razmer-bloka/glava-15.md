@@ -10,9 +10,7 @@ weight: 15
 |:--:|
 _Фото [Mr.Autthaporn Pradidpong](https://unsplash.com/@autthaporn?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
-# Глава 15: Логово драконов
-
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -60,6 +58,8 @@ _Фото [Mr.Autthaporn Pradidpong](https://unsplash.com/@autthaporn?utm_source
 
 {{< /expand >}}
 
+# Глава 15: Логово драконов
+
 {{< youtube XloVxgA_AfA >}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -82,7 +82,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-15-dragons-den/)
 
-{{< expand "Содержание" "..." >}}
+{{< expand "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
