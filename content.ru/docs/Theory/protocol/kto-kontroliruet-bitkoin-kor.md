@@ -6,7 +6,7 @@ url: kto-kontroliruet-bitkoin-kor
 date: 2018-12-15
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 51
 ---
 
 ![cover](/img/194.jpeg)
