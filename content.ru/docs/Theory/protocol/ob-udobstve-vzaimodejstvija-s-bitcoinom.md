@@ -6,7 +6,7 @@ url: ob-udobstve-vzaimodejstvija-s-bitcoinom
 date: 2020-09-20
 bookFlatSection: false
 bookToc: false
-weight: 3
+weight: 53
 ---
 
 ![cover](/img/216.png)

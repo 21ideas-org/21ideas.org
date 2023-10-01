@@ -29,11 +29,11 @@ weight: 55
 Твиттер Стефана: [https://twitter.com/stephanlivera](https://twitter.com/stephanlivera)
 
 Слушаем беседу на русском: [https://fountain.fm/episode/7931454442](https://fountain.fm/episode/7931454442)
+{{< /hint >}}
 
 {{< youtube 5TBslCsdXTM >}}
 |:--:|
 _Аудиозапись на YouTube_
-{{< /hint >}}
 
 ### Транскрипт беседы
 

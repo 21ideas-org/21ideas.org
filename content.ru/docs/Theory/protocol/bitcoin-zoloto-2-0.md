@@ -4,7 +4,8 @@ description: "Споры о предназначении Биткоина не �
 url: bitcoin-zoloto-2-0
 date: 2021-11-19
 bookFlatSection: false
-weight: 56
+bookToc: true
+weight: 54
 ---
 
 ![cover](/img/bz-509.jpeg#center)

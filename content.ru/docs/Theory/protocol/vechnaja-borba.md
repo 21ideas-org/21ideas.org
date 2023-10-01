@@ -6,7 +6,7 @@ url: vechnaja-borba
 date: 2019-12-19
 bookFlatSection: false
 bookToc: true
-weight: 2
+weight: 52
 ---
 
 ![cover](/img/202.jpg)
