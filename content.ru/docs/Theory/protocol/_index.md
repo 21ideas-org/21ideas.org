@@ -13,3 +13,4 @@ weight: 4
 2. [Вечная борьба Биткоина](/vechnaja-borba)
 3. [Об удобстве взаимодействия с Биткоином](/ob-udobstve-vzaimodejstvija-s-bitcoinom)
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
+5. [Управление Биткоином](/upravlenie-bitcoin)

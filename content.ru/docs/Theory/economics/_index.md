@@ -65,3 +65,4 @@ weight: 1
 - [Структурная перестройка: как МВФ и Всемирный банк подавляют бедные страны и направляют их ресурсы в богатые](/strukturnaya-perestrojka)
 - [В защиту дефляции](/v-zashchitu-deflyacii)
 - [Сравнение монетарных стандартов](/sravnenie-monetarnyh-standartov)
+- [Негативные внешние эффекты нефтедоллара](/negativnye-effekty-neftedollara)
