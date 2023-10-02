@@ -14,3 +14,4 @@ weight: 6
 3. [Манифест криптоанархиста](/manifest-kriptoanarhista)
 4. [Манифест шифропанка](/manifest-shifropanka)
 5. [Биткоин — современная голландская тюльпанная лихорадка?](/tyulpannaya-lihoradka)
+6. [Все — мошенники](/vse-moshenniki)

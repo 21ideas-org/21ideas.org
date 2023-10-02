@@ -66,3 +66,4 @@ weight: 1
 - [В защиту дефляции](/v-zashchitu-deflyacii)
 - [Сравнение монетарных стандартов](/sravnenie-monetarnyh-standartov)
 - [Негативные внешние эффекты нефтедоллара](/negativnye-effekty-neftedollara)
+- [Раскошеливаемся (Shelling Out): Происхождение денег](/raskoshelivaemsya)

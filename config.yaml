@@ -1,7 +1,7 @@
 baseURL: 'https://new.21ideas.org/'
 theme: hugo-book
 title: 21ideas
-defaultContentLanguage: "ru"
+defaultContentLanguage: ru
 
 ignoreErrors: ["error-remote-getjson"]
 
@@ -28,6 +28,7 @@ languages:
   #   weight: 2
   ru:
     languageName: Russian
+    languageCode: ru-RU
     contentDir: content.ru
     weight: 1
 
@@ -84,8 +85,8 @@ params:
 
   # Configure the date format used on the pages
   # - In git information
-  # - In blog posts
-  BookDateFormat: "January 2, 2006"
+  # To configure format in blog posts with multilang support, see "post-meta.html"
+  BookDateFormat: "2 January 2006"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
