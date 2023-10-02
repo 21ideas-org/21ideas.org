@@ -73,4 +73,6 @@
 | - 15,000 | [btclinux](https://github.com/btclinux) | [Бычий кейс для Биткоина, Манифест криптоанархиста, Тюльпаномания](https://github.com/21ideas-org/21ideas.org/pull/75) | 791,000 |
 | +200,000 | [Standard Sats](https://standardsats.github.io) | в общий фонд | 991,000 |
 | - 5,000 | [btclinux](https://github.com/btclinux) | [Манифест шифропанка, Биткоин - наличность или золото, Транскрипт "В защиту дефляции", Сравнение монетарных стандартов](https://github.com/21ideas-org/21ideas.org/pull/82) | 986,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | [Нефтедоллар, Нода, Управление Биткоином, Coldcard](https://github.com/21ideas-org/21ideas.org/pull/83) | 981,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | [Биткоин-реформация, Сможет ли Биткоин пережить апокалипсис?](https://github.com/21ideas-org/21ideas.org/pull/84) | 976,000 |
 
