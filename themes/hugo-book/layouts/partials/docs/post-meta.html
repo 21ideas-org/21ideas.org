@@ -1,6 +1,4 @@
-{{ with .Date }}
-  <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
-{{ end }}
+<h5>{{ .Date | time.Format ":date_long" }}</h5>
 
 {{ range $taxonomy, $_ := .Site.Taxonomies }}
   {{ with $terms := $.GetTerms $taxonomy }}
