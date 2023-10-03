@@ -60,7 +60,7 @@ _Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&ut
 
 # Глава 17: UASF – Активируемый пользователями софтфорк
 
-{{< youtube XENl75GrBWU >}}
+{{< youtube XENl75GrBWU />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

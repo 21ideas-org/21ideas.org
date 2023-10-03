@@ -60,7 +60,7 @@ _Фото [Julius Jansson](https://unsplash.com/@juliusjansson?utm_source=ghost&
 
 # Глава 13: Биржи
 
-{{< youtube vI-Y38lyOaY >}}
+{{< youtube vI-Y38lyOaY />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

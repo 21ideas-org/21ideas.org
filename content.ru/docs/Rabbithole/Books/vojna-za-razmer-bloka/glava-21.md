@@ -60,7 +60,7 @@ _Фото [Josh Rose](https://unsplash.com/@joshsrose?utm_source=ghost&utm_mediu
 
 # Глава 21: Победа
 
-{{< youtube myI1hubNAlU >}}
+{{< youtube myI1hubNAlU />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

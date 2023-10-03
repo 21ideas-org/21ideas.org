@@ -60,7 +60,7 @@ _Фото [Christopher Czermak](https://unsplash.com/@czermak_photography?utm_so
 
 # Глава 16: Litecoin
 
-{{< youtube 2PYiIGJGwEA >}}
+{{< youtube 2PYiIGJGwEA />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

@@ -18,7 +18,7 @@ _Деньги — это инструмент для торговли челов
 Перевод [статьи](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f) Роберта Бридлава подготовлен проектом [bitnovosti](https://bitnovosti.com/2020/07/27/hozyaeva-i-raby-deneg/)
 {{< /hint >}}
 
-{{< youtube GjkFVD-R1Dk >}}
+{{< youtube GjkFVD-R1Dk />}}
 |:--:|
 _Укороченная версия доступна в видеоформате_
 

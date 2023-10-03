@@ -33,7 +33,7 @@ weight: 6
 Перевод серии статей [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоин-энтузиастом [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube 8v-CzdS8U-A >}}
+{{< youtube 8v-CzdS8U-A />}}
 
 Далее в серии “Становление Биткоина” мы будем опираться на виртуализацию денег, создание опасных монополий и возникающую потребность в децентрализации, описанные ранее.  Это поможет нам исследовать такие концепции, как:
 

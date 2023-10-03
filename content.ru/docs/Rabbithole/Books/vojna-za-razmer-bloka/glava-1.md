@@ -60,7 +60,7 @@ _Фото [Dan Freeman](https://unsplash.com/@danfreemanphoto?utm_source=ghost&u
 
 # Глава 1: Первый удар
 
-{{< youtube _N5Ehj32FMk >}}
+{{< youtube _N5Ehj32FMk />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

@@ -60,7 +60,7 @@ _Фото [Everaldo Coelho](https://unsplash.com/@_everaldo?utm_source=ghost&utm
 
 # Глава 5: SegWit
 
-{{< youtube LBTYgMbsTME >}}
+{{< youtube LBTYgMbsTME />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

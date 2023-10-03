@@ -60,7 +60,7 @@ _Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_med
 
 # Глава 6: Сеть Lightning
 
-{{< youtube I8YsSMsJsvw >}}
+{{< youtube I8YsSMsJsvw />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

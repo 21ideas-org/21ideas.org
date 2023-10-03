@@ -31,7 +31,7 @@ weight: 55
 Слушаем беседу на русском: [https://fountain.fm/episode/7931454442](https://fountain.fm/episode/7931454442)
 {{< /hint >}}
 
-{{< youtube 5TBslCsdXTM >}}
+{{< youtube 5TBslCsdXTM />}}
 |:--:|
 _Аудиозапись на YouTube_
 
