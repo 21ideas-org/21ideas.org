@@ -78,6 +78,14 @@
 | - 5,000 | [Radiokot](https://github.com/Radiokot) | [Локализация дат блогпостов](https://github.com/21ideas-org/21ideas.org/pull/87) | 971,000 |
 | - 6,500 | [btclinux](https://github.com/btclinux) | [Раскошеливаемся, Все - мошенники](https://github.com/21ideas-org/21ideas.org/pull/88) | 964,500 |
 | - 21,000 | [btclinux](https://github.com/btclinux) | [Курс "Биткоин от А до Я"](https://new.21ideas.org/kurs/) | 943,500 |
+| -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для YouTube видео](https://github.com/21ideas-org/21ideas.org/pull/92)" | 937,500 |
+| -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для изображений](https://github.com/21ideas-org/21ideas.org/pull/93)" | 931,500 |
+| -2,100 | [vjik](https://github.com/vjik) | "[Починка шорткода для ностр](https://github.com/21ideas-org/21ideas.org/pull/94)" | 929,400 |
+| - 6,000 | [btclinux](https://github.com/btclinux) | ["Биткоин и ритмы истории", "Интернет-циклы Хопфа"](https://github.com/21ideas-org/21ideas.org/pull/89), ["Исправление шорткодов](https://github.com/21ideas-org/21ideas.org/pull/91) | 923,400 |
+
+
+
+
 
 
 

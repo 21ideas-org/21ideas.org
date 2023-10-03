@@ -103,6 +103,7 @@
   }
 
   .youtubeWrapper {
+    margin: 1.5em 0;
     text-align: center;
     &_hint {
       padding-top: 4px;
@@ -110,4 +111,18 @@
       color: var(--gray-500);
     }
   }
+
+  .imageWrapper {
+    margin: 1.5em 0;
+    text-align: center;
+    &_hint {
+      padding-top: 4px;
+      text-align: center;
+      color: var(--gray-500);
+    }
+  }
+}
+
+.book-expand-content .youtubeWrapper:first-child {
+  margin-top: 0;
 }
