@@ -22,9 +22,9 @@ weight: 5
    
  - 21 способ взглянуть на Биткоин:
    
- [Глава 1: Биткоин – это идея](/21-sposob/glava-1-bitkoin-eto-ideya)
+ [Глава 1: Биткоин – это идея](/21-sposob/glava-1-bitcoin-eto-ideya)
  
- [Глава 2: Биткоин – это время](/21-sposob/glava-2-bitkoin-eto-vremya)
+ [Глава 2: Биткоин – это время](/21-sposob/glava-2-bitcoin-eto-vremya)
   
  Глава 3: Биткоин – волшебные интернет–деньги
   
