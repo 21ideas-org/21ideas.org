@@ -60,7 +60,7 @@ _Фото [Veliko Karachiviev](https://unsplash.com/@ikoveliko?utm_source=ghost&
 
 # Глава 9: Фейковый Сатоши
 
-{{< youtube sLOkB5rz1gI >}}
+{{< youtube sLOkB5rz1gI />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

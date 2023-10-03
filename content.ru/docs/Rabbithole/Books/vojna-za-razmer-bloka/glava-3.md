@@ -60,7 +60,7 @@ _Фото [Olivier Beaulieu](https://unsplash.com/@olivierbeaulieu?utm_source=gh
 
 # Глава 3: Масштабирование I Монреаль
 
-{{< youtube lVJQ-QCL2B4 >}}
+{{< youtube lVJQ-QCL2B4 />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

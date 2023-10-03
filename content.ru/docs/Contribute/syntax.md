@@ -278,7 +278,7 @@ https://youtu.be/nSRoEeqYtJA
 
 Вот как это выглядит для читателя:
 
-{{< youtube nSRoEeqYtJA >}}
+{{< youtube nSRoEeqYtJA />}}
 
 
 ### Другое

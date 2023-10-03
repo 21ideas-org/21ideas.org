@@ -60,7 +60,7 @@ _Фото [Emma Harrisova](https://unsplash.com/@emm_harri?utm_source=ghost&utm_
 
 # Глава 20: SegWit2x
 
-{{< youtube RhauQBxn_6k >}}
+{{< youtube RhauQBxn_6k />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

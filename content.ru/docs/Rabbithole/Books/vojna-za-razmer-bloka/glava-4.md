@@ -60,7 +60,7 @@ _Фото [Simon Zhu](https://unsplash.com/@smnzhu?utm_source=ghost&utm_medium=r
 
 # Глава 4: Масштабирование II Гонконг
 
-{{< youtube 8c3tcvkKpdA >}}
+{{< youtube 8c3tcvkKpdA />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 
