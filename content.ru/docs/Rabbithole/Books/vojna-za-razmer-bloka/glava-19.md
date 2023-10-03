@@ -60,7 +60,7 @@ _Фото [Bart Ros](https://unsplash.com/@bartros?utm_source=ghost&utm_medium=r
 
 # Глава 19: Bitcoin Cash
 
-{{< youtube _8cCN0Z63JE >}}
+{{< youtube _8cCN0Z63JE />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

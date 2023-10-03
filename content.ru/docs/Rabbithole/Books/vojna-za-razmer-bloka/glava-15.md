@@ -60,7 +60,7 @@ _Фото [Mr.Autthaporn Pradidpong](https://unsplash.com/@autthaporn?utm_source
 
 # Глава 15: Логово драконов
 
-{{< youtube XloVxgA_AfA >}}
+{{< youtube XloVxgA_AfA />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

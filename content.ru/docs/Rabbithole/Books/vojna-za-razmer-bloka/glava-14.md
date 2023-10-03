@@ -60,7 +60,7 @@ _Фото [Mike Enerio](https://unsplash.com/@mikeenerio?utm_source=ghost&utm_me
 
 # Глава 14: ASICBoost
 
-{{< youtube F9D2x1aqP8I >}}
+{{< youtube F9D2x1aqP8I />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

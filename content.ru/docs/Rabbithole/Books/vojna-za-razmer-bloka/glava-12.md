@@ -60,7 +60,7 @@ _Фото [Vincent Lin](https://unsplash.com/@darth_u?utm_source=ghost&utm_mediu
 
 # Глава 12: Bitcoin Unlimited
 
-{{< youtube 2gMI8mLmPwI >}}
+{{< youtube 2gMI8mLmPwI />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

@@ -60,7 +60,7 @@ _Фото [Ryan Mac](https://unsplash.com/@ryanmc?utm_source=ghost&utm_medium=re
 
 # Глава 2: Начало
 
-{{< youtube hbMOd_qAYdE >}}
+{{< youtube hbMOd_qAYdE />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

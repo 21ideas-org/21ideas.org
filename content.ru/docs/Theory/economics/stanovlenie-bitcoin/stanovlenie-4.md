@@ -33,7 +33,7 @@ weight: 5
 Перевод серии статей [Джиакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube LVhUOs6FsRk >}}
+{{< youtube LVhUOs6FsRk />}}
 
 В данном выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях оптимизации “твердости”, “масштабности” и “секретности” для изучения концепций виртуализации и децентрализации денег.
 

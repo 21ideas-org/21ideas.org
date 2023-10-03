@@ -60,7 +60,7 @@ _Фото [Hardik Pandya](https://unsplash.com/@hvpandya?utm_source=ghost&utm_me
 
 # Глава 10: DAO
 
-{{< youtube 6_1HR0HPosw >}}
+{{< youtube 6_1HR0HPosw />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

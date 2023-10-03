@@ -60,7 +60,7 @@ _Фото [Andre Benz](https://unsplash.com/@trapnation?utm_source=ghost&utm_med
 
 # Глава 18: Нью-Йоркское соглашение
 
-{{< youtube MyTWN3gA7Ic >}}
+{{< youtube MyTWN3gA7Ic />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

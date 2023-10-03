@@ -60,7 +60,7 @@ _Фото [Benjamin Voros](https://unsplash.com/@vorosbenisop?utm_source=ghost&u
 
 # Глава 11: Масштабирование III Милан
 
-{{< youtube 3tvCCFAYON4 >}}
+{{< youtube 3tvCCFAYON4 />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 

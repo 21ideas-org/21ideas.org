@@ -60,7 +60,7 @@ _Фото [Florian Wehde](https://unsplash.com/@florianwehde?utm_source=ghost&ut
 
 # Глава 8: Круглый стол в Гонконге
 
-{{< youtube dYbEzKUwgCA >}}
+{{< youtube dYbEzKUwgCA />}}
 |:--:|
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
 
