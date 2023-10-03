@@ -60,9 +60,9 @@ _Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&ut
 
 # Глава 17: UASF – Активируемый пользователями софтфорк
 
-{{< youtube XENl75GrBWU />}}
-|:--:|
+{{< youtube XENl75GrBWU >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
+{{< /youtube >}}
 
 Идея о том, что _Активируемый пользователями софтфорк_ (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года:
 

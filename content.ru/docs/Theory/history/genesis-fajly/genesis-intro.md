@@ -34,9 +34,9 @@ weight: 1
 Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
-{{< youtube 4KNuG-hxZPg />}}
-|:--:|
+{{< youtube 4KNuG-hxZPg >}}
 _Эта серия документальных видео о становлении движения шифропанков послужит отличным дополнением к данной текстовой серии. [Ссылка на плейлист](https://youtube.com/playlist?list=PLfCndTr__6HfnWzqQxso2Jh8AtlhCy3wf)_
+{{< /youtube >}}
 
 {{< hint btc >}}
 Перевод [статьи](https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
