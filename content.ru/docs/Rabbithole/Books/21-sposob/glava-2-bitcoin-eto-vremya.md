@@ -2,7 +2,7 @@
 title: "Биткоин — это время"
 tags: ["биткоин", "время", "bitcoin", "proof-of-work"]
 description: "Время — деньги; по крайней мере так гласит поговорка."
-url: bitkoin-eto-vremya
+url: bitcoin-eto-vremya
 bookToc: true
 bookFlatSection: false
 weight: 6
