@@ -2,6 +2,18 @@
 
 // @import "plugins/numbered";
 
+.pageCover {
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+}
+
+.pageDate {
+  color: var(--gray-500);
+  margin-bottom: 2em;
+}
+
 @media screen and (max-width: 1050px) {
   .nostrEmbedCard .nostrichLink {
     display: none;
