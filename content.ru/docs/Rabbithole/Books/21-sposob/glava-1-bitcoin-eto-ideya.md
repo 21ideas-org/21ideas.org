@@ -2,7 +2,7 @@
 title: "Биткоин — это идея"
 tags: ["биткоин", "идея", "bitcoin", "proof-of-work"]
 description: "Биткоин – это идея, время которой пришло."
-url: bitkoin-eto-ideya
+url: bitcoin-eto-ideya
 bookToc: true
 bookFlatSection: false
 weight: 5
