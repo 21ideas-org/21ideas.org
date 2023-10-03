@@ -60,9 +60,9 @@ _Фото [Devin Avery](https://unsplash.com/@devintavery?utm_source=ghost&utm_m
 
 # Глава 7: Bitcoin Classic
 
-{{< youtube gD-wWGPvfQI />}}
-|:--:|
+{{< youtube gD-wWGPvfQI >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
+{{< /youtube >}}
 
 К концу 2015 года война стала заметно интенсивнее. Были даже волны распределенных атак типа “отказ в обслуживании” (DDoS) на узлы Bitcoin XT. 28 декабря 2015 г. пользователь Reddit /u/tl212 прокомментировал:
 

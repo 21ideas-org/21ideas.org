@@ -60,9 +60,9 @@ _Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_med
 
 # Глава 6: Сеть Lightning
 
-{{< youtube I8YsSMsJsvw />}}
-|:--:|
+{{< youtube I8YsSMsJsvw >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
+{{< /youtube >}}
 
 SegWit предоставил пользователям возможность создавать транзакции, которые не могли быть изменены злонамеренными третьими сторонами (решена проблема уязвимости транзакций для третьих лиц, transaction malleability). Это считалось важнейшим компонентом так называемой Lightning Network — технологии масштабирования второго уровня для Биткоина. Без этого исправления реализовать Lightning было бы слишком сложно.
 
