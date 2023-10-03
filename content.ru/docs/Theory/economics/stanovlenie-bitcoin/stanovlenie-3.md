@@ -33,7 +33,7 @@ weight: 4
 Перевод серии статей [Джиакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube nEmaEfd4QX8 >}}
+{{< youtube nEmaEfd4QX8 />}}
 
 В этом выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях обмена. С целью изучения концепции редкости, ликвидности и _социальной_ _твердости_ товара мы сконцентрируемся на производственном разделении труда и на товарах с приемлемой _физической_ _твердостью_, _масштабностью_ и _секретностью_.
 

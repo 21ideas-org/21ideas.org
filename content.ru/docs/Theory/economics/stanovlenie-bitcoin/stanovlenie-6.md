@@ -33,7 +33,7 @@ weight: 7
 Перевод серии статей [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоин-энтузиастом [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube JLB780fLbJg >}}
+{{< youtube JLB780fLbJg />}}
 
 В шестой части серии статей “Становление Биткоина” мы будем опираться на идею использования цифровых головоломок как способа воспроизведения редкости и на важность механизма контроля потока. Это позволит нам придать цифровым деньгам некоторую жесткость и изучить концепции доказательства права собственности с помощью подписей, скриптов, а также, так называемой, техники “CoinJoin”.
 

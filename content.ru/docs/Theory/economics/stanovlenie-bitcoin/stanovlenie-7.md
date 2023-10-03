@@ -33,7 +33,7 @@ weight: 8
 Перевод серии статей [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube 4GIQhEqp2xk >}}
+{{< youtube 4GIQhEqp2xk />}}
 
 В завершение серии “Становление Биткоина”, мы будем опираться на использование цифровых подписей и парадигмы CoinJoin для изучения концепций уникальной хронологии, комиссий за майнинг и _оффчейн_ транзакций (транзакций вне сети).
 

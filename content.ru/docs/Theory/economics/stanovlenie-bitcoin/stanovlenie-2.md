@@ -33,7 +33,7 @@ weight: 3
 Перевод серии статей [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
 {{< /hint >}}
 
-{{< youtube Lzo1J3g4Kd0 >}}
+{{< youtube Lzo1J3g4Kd0 />}}
 
 В этой части мы будем опираться на ранее приобретенные стратегии хранения сбережений, их инвестирования и повышения производительности; мы также не оставим без внимания товары с приемлемой физической “твердостью” и “масштабностью”, что поможет нам изучить концепции обмена, специализации и “секретности”.
 
