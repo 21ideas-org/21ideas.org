@@ -1,0 +1,12 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $alt := .Get "alt" | default (.Get 1) -}}
+{{- if $src -}}
+<div class="imageWrapper">
+    <img src="{{ $src }}"{{ with $alt }}alt="{{ . }}"{{ end }}>
+    {{- with .Inner }}
+    <div class="imageWrapper_hint">
+        {{ . | markdownify }}
+    </div>
+    {{- end }}
+</div>
+{{- end -}}
