@@ -78,9 +78,9 @@ weight: 1
 4. Книга Филипа Багуса "[В защиту дефляции](/epubs/v-zashchitu-deflyacii.pdf)"
 5. Видео "[Величайший в мире обман](https://youtu.be/GSzD0HXRFKE)"
 
-{{< youtube XBiSjHSW-8k />}}
-|:--:|
+{{< youtube XBiSjHSW-8k >}}
 Итоговая лекция по материалам раздела "Экономика"
+{{< /youtube >}}
 
 ## Часть 2.
 
@@ -109,9 +109,9 @@ weight: 1
 2. [Абсолютно все, разделенное на 21 млн](https://youtu.be/apWeaKADnlY) (видео)
 3. [Развенчиваем мифы о Биткоине](https://youtu.be/I6ef0p5JfBI) (видео)
 
-{{< youtube urBuMMF6N-8 />}}
-|:--:|
+{{< youtube urBuMMF6N-8 >}}
 Итоговая лекция по материалам раздела "Инвестиции"
+{{< /youtube >}}
 
 ## Часть 3.
 
@@ -138,9 +138,9 @@ weight: 1
 1. Книга [Война за размер блока](/vojna-za-razmer-bloka)
 2. [Видео про тапрут](https://youtu.be/gPinsWRUxQQ)
 
-{{< youtube 73rzaoH0s_E />}}
-|:--:|
+{{< youtube 73rzaoH0s_E >}}
 Итоговая лекция по материалам раздела "История и философия"
+{{< /youtube >}}
 
 ## Часть 4.
 
@@ -172,9 +172,9 @@ weight: 1
 1. [Серия видео](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC) от команды кошелька Samourai
 2. [Proof-of-Work](https://youtu.be/o7CwrxMFsG0) Антонопулос
 
-{{< youtube UV_qj-MLBes />}}
-|:--:|
+{{< youtube UV_qj-MLBes >}}
 Итоговая лекция по материалам раздела "Технология"
+{{< /youtube >}}
 
 ## Часть 5.
 
@@ -207,9 +207,9 @@ weight: 1
 1. [Подключаем собственную ноду](/practice/bitcoin-noda)
 2. Раздел [Lightning](/lightning)
 
-{{< youtube NotXjbTbG_Q />}}
-|:--:|
+{{< youtube NotXjbTbG_Q >}}
 Итоговая беседа по материалам раздела "Практика"
+{{< /youtube >}}
 
 ---
 
