@@ -5,7 +5,7 @@ description: "Биткоин выходит не только за рамки в
 url: bitcoin-eto-cifrovaya-redkost
 bookToc: true
 bookFlatSection: false
-weight: 6
+weight: 9
 ---
 
 ![cover](/img/00001.jpg#center)
