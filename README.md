@@ -61,33 +61,29 @@
 | -2,100 | [btclinux](https://github.com/btclinux) | [Приватность в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/commit/dc1ad7cdba6e4c690279a5fb14b98cfea4236bc6) | 905,900 |
 | +21,000 | Orlov | в общий фонд | 926,900 |
 | -21,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) статьи "Неотъемлемые права собственности" | 905,900 |
-| -12,100 | [btclinux](https://github.com/btclinux) | [Генезис-файлы, биография Хэла, вайтпейпер Биткоина](https://github.com/21ideas-org/21ideas.org/pull/58) | 893,800 |
+| -12,100 | [btclinux](https://github.com/btclinux) | ["Генезис-файлы", биография Хэла, вайтпейпер Биткоина](https://github.com/21ideas-org/21ideas.org/pull/58) | 893,800 |
 | -1,000 | [vjik](https://github.com/vjik) | "[Об удобстве взаимодействия с Биткоином](https://github.com/21ideas-org/21ideas.org/pull/60)" | 892,800 |
 | -2,100 | [btclinux](https://github.com/btclinux) | "[Управление ликвидностью в сети Лайтнинг](https://github.com/21ideas-org/21ideas.org/pull/63)" | 890,600 |
 | -2,100 | [btclinux](https://github.com/btclinux) | "[Гид по LNbits](https://github.com/21ideas-org/21ideas.org/pull/64)" | 888,500 |
 | -21,500 | [btclinux](https://github.com/btclinux) | ["Становление Биткоина", "Алби"](https://github.com/21ideas-org/21ideas.org/pull/67), ["Структурная перестройка", "Хозяева и рабы денег"](https://github.com/21ideas-org/21ideas.org/pull/68) | 867,000 |
 | -6,969 | [Radiokot](https://github.com/Radiokot) | [Исправление бага широких видео эмбедов](https://github.com/21ideas-org/21ideas.org/pull/69) | 860,031 |
-| -21,000 | [btclinux](https://github.com/btclinux) | [Война за размер блока](https://github.com/21ideas-org/21ideas.org/pull/70) | 839,031 |
-| - 12,000 | [btclinux](https://github.com/btclinux) | [Изобретаем Биткоин](https://github.com/21ideas-org/21ideas.org/pull/74) | 827,031 |
+| -21,000 | [btclinux](https://github.com/btclinux) | [Книга "Война за размер блока"](https://github.com/21ideas-org/21ideas.org/pull/70) | 839,031 |
+| - 12,000 | [btclinux](https://github.com/btclinux) | [Книга "Изобретаем Биткоин"](https://github.com/21ideas-org/21ideas.org/pull/74) | 827,031 |
 | -21,000 | [Radiokot](https://github.com/Radiokot) | [Серия статей "Постепенно, затем внезапно"](https://github.com/21ideas-org/21ideas.org/pull/76) | 806,000 |
-| - 15,000 | [btclinux](https://github.com/btclinux) | [Бычий кейс для Биткоина, Манифест криптоанархиста, Тюльпаномания](https://github.com/21ideas-org/21ideas.org/pull/75) | 791,000 |
+| - 15,000 | [btclinux](https://github.com/btclinux) | ["Бычий кейс для Биткоина", "Манифест криптоанархиста", "Тюльпаномания"](https://github.com/21ideas-org/21ideas.org/pull/75) | 791,000 |
 | +200,000 | [Standard Sats](https://standardsats.github.io) | в общий фонд | 991,000 |
-| - 5,000 | [btclinux](https://github.com/btclinux) | [Манифест шифропанка, Биткоин - наличность или золото, Транскрипт "В защиту дефляции", Сравнение монетарных стандартов](https://github.com/21ideas-org/21ideas.org/pull/82) | 986,000 |
-| - 5,000 | [btclinux](https://github.com/btclinux) | [Нефтедоллар, Нода, Управление Биткоином, Coldcard](https://github.com/21ideas-org/21ideas.org/pull/83) | 981,000 |
-| - 5,000 | [btclinux](https://github.com/btclinux) | [Биткоин-реформация, Сможет ли Биткоин пережить апокалипсис?](https://github.com/21ideas-org/21ideas.org/pull/84) | 976,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | ["Манифест шифропанка", "Биткоин - наличность или золото?", Транскрипт "В защиту дефляции", Сравнение монетарных стандартов](https://github.com/21ideas-org/21ideas.org/pull/82) | 986,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | ["Нефтедоллар", "Нода", "Управление Биткоином", "Coldcard"](https://github.com/21ideas-org/21ideas.org/pull/83) | 981,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | ["Биткоин-реформация", "Сможет ли Биткоин пережить апокалипсис?"](https://github.com/21ideas-org/21ideas.org/pull/84) | 976,000 |
 | - 5,000 | [Radiokot](https://github.com/Radiokot) | [Локализация дат блогпостов](https://github.com/21ideas-org/21ideas.org/pull/87) | 971,000 |
-| - 6,500 | [btclinux](https://github.com/btclinux) | [Раскошеливаемся, Все - мошенники](https://github.com/21ideas-org/21ideas.org/pull/88) | 964,500 |
+| - 6,500 | [btclinux](https://github.com/btclinux) | ["Раскошеливаемся", "Все - мошенники"](https://github.com/21ideas-org/21ideas.org/pull/88) | 964,500 |
 | - 21,000 | [btclinux](https://github.com/btclinux) | [Курс "Биткоин от А до Я"](https://new.21ideas.org/kurs/) | 943,500 |
 | -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для YouTube видео](https://github.com/21ideas-org/21ideas.org/pull/92)" | 937,500 |
 | -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для изображений](https://github.com/21ideas-org/21ideas.org/pull/93)" | 931,500 |
 | -2,100 | [vjik](https://github.com/vjik) | "[Починка шорткода для ностр](https://github.com/21ideas-org/21ideas.org/pull/94)" | 929,400 |
 | - 6,000 | [btclinux](https://github.com/btclinux) | ["Биткоин и ритмы истории", "Интернет-циклы Хопфа"](https://github.com/21ideas-org/21ideas.org/pull/89), ["Исправление шорткодов](https://github.com/21ideas-org/21ideas.org/pull/91) | 923,400 |
 | - 21,400 | [btclinux](https://github.com/btclinux) | [7 статей](https://github.com/21ideas-org/21ideas.org/pull/104) | 902,000 |
-
-
-
-
-
+| - 1,500 | [btclinux](https://github.com/btclinux) | ["Что такое деньги?"](https://github.com/21ideas-org/21ideas.org/pull/105) | 902,000 |
 
 
 
