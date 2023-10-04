@@ -8,7 +8,7 @@ cover: /img/08.png
 date: 2022-01-02
 bookToc: true
 bookFlatSection: false
-weight: 2
+weight: 1
 ---
 
 {{< expand "Оглавление" "..." >}}
