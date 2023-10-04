@@ -5,11 +5,11 @@
       <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
     </h2>
     {{ partial "docs/post-meta" . }}
+    {{- with .Params.list_description }}
+      <p>{{ . }}</p>
+    {{- end }}
     <p>
-      {{- .Summary -}}
-      {{ if .Truncated }}
-        <a href="{{ .RelPermalink }}">...</a>
-      {{ end }}
+      <a href="{{ .RelPermalink }}">Читать далее →</a>
     </p>
   </article>
   {{ end }}
