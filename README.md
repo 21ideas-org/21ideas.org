@@ -82,6 +82,7 @@
 | -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для изображений](https://github.com/21ideas-org/21ideas.org/pull/93)" | 931,500 |
 | -2,100 | [vjik](https://github.com/vjik) | "[Починка шорткода для ностр](https://github.com/21ideas-org/21ideas.org/pull/94)" | 929,400 |
 | - 6,000 | [btclinux](https://github.com/btclinux) | ["Биткоин и ритмы истории", "Интернет-циклы Хопфа"](https://github.com/21ideas-org/21ideas.org/pull/89), ["Исправление шорткодов](https://github.com/21ideas-org/21ideas.org/pull/91) | 923,400 |
+| - 21,400 | [btclinux](https://github.com/btclinux) | [7 статей](https://github.com/21ideas-org/21ideas.org/pull/104) | 902,000 |
 
 
 
