@@ -17,3 +17,4 @@ weight: 4
 6. [Доверенные третьи стороны — это бреши в системе безопасности](/doverennye-tretyi-storony)
 7. [21 миллион не подлежит обсуждению](/21-million-ne-podlezhit-obsuzhdeniyu)
 8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
+9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
