@@ -3,7 +3,7 @@ title: "Глава 0.1"
 h1: "Глава 0.1"
 tags: ["биткоин", "bitcoin", "proof-of-work"]
 description: "Глава 0.1"
-url: /21-sposob/glava-01
+url: 21-sposob/glava-01
 cover: /img/08.png
 date: 2022-02-01
 bookToc: true
