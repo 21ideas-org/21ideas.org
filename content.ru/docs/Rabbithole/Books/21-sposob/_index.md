@@ -3,7 +3,7 @@ title: "21 способ"
 h1: "21 способ"
 tags: ["книга", "новичкам", "биткоин"]
 description: "Книга, которая покажет вам 21 способ взглянуть на Биткоин"
-url: /21-sposob
+url: 21-sposob
 cover: /img/08.png
 bookCollapseSection: true
 bookFlatSection: false
