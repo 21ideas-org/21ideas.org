@@ -1,14 +1,13 @@
 ---
 title: "Глава 9: Фейковый Сатоши"
+h1: "Глава 9: Фейковый Сатоши"
+cover: /img/vrb-441.jpeg
 description: "Понедельник 2 мая 2016 года стал одним из самых безумных дней в Биткоин-пространстве..."
 url: vojna-za-razmer-bloka/glava-9
+date: 2021-03-11
 bookFlatSection: false
 weight: 9
 ---
-
-![cover](/img/vrb-441.jpeg#center)
-|:--:|
-_Фото [Veliko Karachiviev](https://unsplash.com/@ikoveliko?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Veliko Karachiviev](https://unsplash.com/@ikoveliko?utm_source=ghost&
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 9: Фейковый Сатоши
 
 {{< youtube sLOkB5rz1gI >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

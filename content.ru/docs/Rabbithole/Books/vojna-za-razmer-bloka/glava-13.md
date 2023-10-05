@@ -1,14 +1,13 @@
 ---
 title: "Глава 13: Биржи"
+h1: "Глава 13: Биржи"
+cover: /img/vrb-445.jpeg
 description: "В то время пока бушевала война, ландшафт криптовалютной экосистемы значительно изменился. Наиболее значительным изменением стало появление и рост нескольких бизнесов по обмену криптовалют, успех которых был обусловлен значительным спросом со стороны розничного рынка в Азиатско-Тихоокеанском регионе."
 url: vojna-za-razmer-bloka/glava-13
+date: 2021-03-11
 bookFlatSection: false
 weight: 13
 ---
-
-![cover](/img/vrb-445.jpeg#center)
-|:--:|
-_Фото [Julius Jansson](https://unsplash.com/@juliusjansson?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Julius Jansson](https://unsplash.com/@juliusjansson?utm_source=ghost&
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 13: Биржи
 
 {{< youtube vI-Y38lyOaY >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

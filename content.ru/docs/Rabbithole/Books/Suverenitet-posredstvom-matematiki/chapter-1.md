@@ -1,5 +1,6 @@
 ---
-title: "Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ"
+title: "Глава 1: Вся наша жизнь — торговля"
+h1: "Глава 1: Вся наша жизнь — торговля"
 tags: ["книга", "новичкам", "основы"]
 description: "Первая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-1
@@ -11,37 +12,37 @@ weight: 2
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
-
-# Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ
 
 Все взаимодействия между людьми могут быть определены как торговля. Да, вы не ослышались, *все* взаимодействия между людьми. Каждый раз, когда один человек контактирует с другим, происходит обмен. Каждый раз, когда мы общаемся, мы обмениваемся информацией. Любая, даже самая тривиальная информация имеет определенную ценность. Если бы информация не представляла для нас никакой ценности, мы бы не общались друг с другом. Нам непременно полезно либо получать, либо предоставлять информацию. Часто и то, и другое. В основе всех ненасильственных человеческих взаимодействий лежит ощущение некой выгоды, иначе никакого взаимодействия и вовсе бы не происходило. Это — основа формирования цивилизаций. Ничего, кроме уверенности двух человек в ценности их взаимодействия не требуется. Так что же такое “ценность”? Ценность — это субъективное понятие. Объятия для двухлетнего ребенка, например, имеют абсолютно другое значение, чем для прожженного армейского генерала. Даже самые простые действия, такие как дыхание, могут отражать весь спектр ценности. Мы склонны забывать, что даже глоток воздуха может представлять для нас огромную ценность при определенных обстоятельствах. Один вздох для отчаянного ныряльщика, попавшего в ледяную ловушку, ценнее всего на свете, однако он ничего не стоит для человека, жаждущего смерти, будь он даже окружен чистейшим лесным воздухом в солнечный летний день. Ценность определяется спросом и предложением, а спрос, в отличие от предложения, всегда субъективен. Самым важным ограниченным ресурсом в нашей жизни является время. Именно время является лучшим примером редкого, пригодного для обмена ресурса. Мы все продаем свое время. Мы продаем свое время как другим, так и самим себе. Каждый продает свое время либо в форме продукта, на производство которого уходит определенное количество времени, либо посредством предоставления услуг, что, в свою очередь, также всегда требует определенного времени. Если вы получаете фиксированную заработную плату, вы, как правило, каждый день продаете восемь часов собственного времени своему работодателю. Если вы занимаетесь любимым делом, этот восьмичасовой рабочий день по-прежнему принадлежит вам, поскольку вы делаете то, что, вероятно, делали бы в любом случае, даже если бы были вынуждены заниматься этим бесплатно. Иногда мы жертвуем собственным временем, чтобы приобрести нечто значимое для себя в будущем. Например, образование не дает немедленного вознаграждения, но оно необходимо для более высокооплачиваемой работы, которая приносила бы вам больше удовольствия. Инвестиции — это, по сути, покупка чего-то “Вами будущим” у “Вас сегодняшнего”, только со скидкой. Опять же, каждое человеческое взаимодействие рассматривается как торговля. Это основано на законах физики. Действие всегда предполагает равносильное противодействие. Торговля — это неотъемлемая часть нашей сущности, и результат каждой сделки зависит от инструментов, используемых для осуществления торговли. Деньги — наш основной инструмент выражения ценности, и если создание денег, хоть в какой-то степени коррумпировано или неэтично, этой порче подвергается все общество от верхушки до самого дна. Как говорится, рыба начинает гнить с головы. Так что же такое деньги, а точнее, какими они должны быть? Для того, чтобы два человека могли взаимодействовать в случае несовпадения потребностей, для выполнения сделки требуется *средство обмена*. 
 
@@ -53,32 +54,34 @@ weight: 2
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}

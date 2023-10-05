@@ -1,5 +1,6 @@
 ---
-title: "Глава 5: PROOF OF WORK"
+title: "Глава 5: Proof of Work"
+h1: "Глава 5: Proof of Work"
 tags: ["книга", "новичкам", "основы"]
 description: "Пятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-5
@@ -11,37 +12,37 @@ weight: 6
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
-
-# Глава 5: PROOF OF WORK
 
 Сделайте небольшую паузу и представьте, как появились рога великолепного лося. Считается, что основным назначением больших рогов в природе является способ произвести впечатление на потенциальную партнершу. Они в некотором роде схожи с перьями павлина или убранством любой мужской птицы. Животное пытается показать, что оно может процветать в окружающей среде, несмотря на подобное неудобство. Это сигнализирует потенциальной партнерше о том, что именно он способен принести ей сильное, здоровое потомство. Все  это — эволюционные метафоры, и само животное, вероятно, ничего не знает о каких-либо сигналах. Чтобы такие рога стали реальностью, целому ряду лосей придется умереть рано или, по крайней мере, не получить возможность размножаться на протяжении тысяч поколений. Другими словами, много ресурсов должно тратиться “впустую”. Все это происходит, чтобы животное могло доказать свою ценность для потенциальной супруги. Таким образом, с точки зрения выживших лосей, вышеупомянутые ресурсы были принесены в жертву, а не потрачены впустую.
 
@@ -55,32 +56,34 @@ weight: 6
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}

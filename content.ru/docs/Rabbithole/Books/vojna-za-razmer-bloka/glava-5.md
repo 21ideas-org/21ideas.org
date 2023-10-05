@@ -1,14 +1,13 @@
 ---
 title: "Глава 5: SegWit"
+h1: "Глава 5: SegWit"
+cover: /img/vrb-437.jpeg
 description: "SegWit - это способ увеличения размера биткоин-блока с сохранением обратной совместимости (то есть это был софтфорк, а не хардфорк)"
 url: vojna-za-razmer-bloka/glava-5
+date: 2021-03-11
 bookFlatSection: false
 weight: 5
 ---
-
-![cover](/img/vrb-437.jpeg#center)
-|:--:|
-_Фото [Everaldo Coelho](https://unsplash.com/@_everaldo?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Everaldo Coelho](https://unsplash.com/@_everaldo?utm_source=ghost&utm
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 5: SegWit
 
 {{< youtube LBTYgMbsTME >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

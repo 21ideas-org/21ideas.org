@@ -1,14 +1,13 @@
 ---
 title: "Глава 6: Сеть Lightning"
+h1: "Глава 6: Сеть Lightning"
+cover: /img/vrb-438.jpeg
 description: "SegWit предоставил пользователям возможность создавать транзакции, которые не могли быть изменены злонамеренными третьими сторонами. Это считалось важнейшим компонентом так называемой Lightning Network — технологии масштабирования второго уровня для Биткоина."
 url: vojna-za-razmer-bloka/glava-6
+date: 2021-03-11
 bookFlatSection: false
 weight: 6
 ---
-
-![cover](/img/vrb-438.jpeg#center)
-|:--:|
-_Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Dominik QN](https://unsplash.com/@dominik_qn?utm_source=ghost&utm_med
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 6: Сеть Lightning
 
 {{< youtube I8YsSMsJsvw >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

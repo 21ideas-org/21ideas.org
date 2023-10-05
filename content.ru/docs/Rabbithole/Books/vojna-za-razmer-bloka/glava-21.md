@@ -1,14 +1,13 @@
 ---
 title: "Глава 21: Победа"
+h1: "Глава 21: Победа"
+cover: /img/vrb-453.jpeg
 description: "Эта война может быть лишь пробным шагом к грядущим испытаниям, когда основные бенефициары централизованно контролируемых денежных систем наконец-то осознают потенциал таких денег и это может им не понравиться..."
 url: vojna-za-razmer-bloka/glava-21
+date: 2021-03-11
 bookFlatSection: false
 weight: 21
 ---
-
-![cover](/img/vrb-453.jpeg#center)
-|:--:|
-_Фото [Josh Rose](https://unsplash.com/@joshsrose?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Josh Rose](https://unsplash.com/@joshsrose?utm_source=ghost&utm_mediu
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 21: Победа
 
 {{< youtube myI1hubNAlU >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

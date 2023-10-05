@@ -1,14 +1,13 @@
 ---
 title: "Глава 18: Нью-Йоркское соглашение"
+h1: "Глава 18: Нью-Йоркское соглашение"
+cover: /img/vrb-450.jpeg
 description: "22 мая 2017 года в Нью-Йорке состоялась встреча, организованная Барри Силбертом из Digital Currency Group (DCG), направленная на разрешение конфликта. В результате было достигнуто еще одно соглашение. Был опубликован документ, названный Нью-Йоркским соглашением (NYA)..."
 url: vojna-za-razmer-bloka/glava-18
+date: 2021-03-11
 bookFlatSection: false
 weight: 18
 ---
-
-![cover](/img/vrb-450.jpeg#center)
-|:--:|
-_Фото [Andre Benz](https://unsplash.com/@trapnation?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Andre Benz](https://unsplash.com/@trapnation?utm_source=ghost&utm_med
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 18: Нью-Йоркское соглашение
 
 {{< youtube MyTWN3gA7Ic >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

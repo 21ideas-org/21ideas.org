@@ -1,14 +1,13 @@
 ---
 title: "Глава 2: Начало"
+h1: "Глава 2: Начало"
+cover: /img/vrb-434.jpeg
 description: "На заре Биткоина не было ни мобильных приложений, ни мерчантов, ни игорных сайтов, ни даркнет-рынков, ни биржевых инструментов, ни самих бирж, ни институциональных инвесторов; только одно-единственное примитивное и базовое приложение."
 url: vojna-za-razmer-bloka/glava-2
+date: 2021-03-11
 bookFlatSection: false
 weight: 2
 ---
-
-![cover](/img/vrb-434.jpeg#center)
-|:--:|
-_Фото [Ryan Mac](https://unsplash.com/@ryanmc?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Ryan Mac](https://unsplash.com/@ryanmc?utm_source=ghost&utm_medium=re
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 2: Начало
 
 {{< youtube hbMOd_qAYdE >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

@@ -1,5 +1,6 @@
 ---
 title: "Предисловие"
+h1: "Предисловие"
 tags: ["книга", "предисловие", "новичкам", "основы"]
 description: "Предисловие к книге Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/intro
@@ -11,37 +12,37 @@ weight: 1
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
-
-# Предисловие
 
 На момент написания этих строк 2019 год только начался. И в первый день нового года я решил поставить себе цель — написать эту книгу. Я дал себе слово, что в этом году буду писать по странице в день, пока из этого не выйдет что-нибудь существенное. В июне 2018 года я опубликовал свою первую книгу "Короткие рассказы о Биткоине". Книга состояла из статей, которые я публиковал онлайн с мая 2017 года. На сей раз все обстоит иначе. Вместо обыкновенного сборника статей я намерен написать “настоящую” книгу. Книгу, которая объясняла бы, почему Биткоин — самое важное изобретение нашего времени. Я не выбирал Биткоин; он выбрал меня. Я всю жизнь пытался выяснить, как устроен мир, пока не наткнулся на эту идею абсолютной редкости. Это оказало существенное влияние на то, как я отношусь к взаимодействию людей. Мое любопытство привело к тому, что я мгновенно провалился глубоко в кроличью нору. Я решил разобраться в том, как работает эта таинственная технология, и это привело меня в австрийскую экономику, которая очень четко выражала то, о чем я всегда догадывался — ничего ценного создать из ничего невозможно. В этой книге я постараюсь объяснить каждый аспект того, что делает эту технологию такой особенной, что отличает ее от множества наглых копий, что не так с нашей нынешней системой и каким может предстать перед нами будущее. Всего лишь спустя два дня после написания этих строк мы будем отмечать десятилетнюю годовщину генезис-блока, послужившего отправной точкой Биткоин-блокчейна. Этот блок содержал сообщение, заголовок газеты, который гласил: “03 января 2009 года: Канцлер на грани повторного спасения банков”. Никто не знает, почему таинственный создатель Биткоина, Сатоши Накамото, решил включить это послание в генезис-блок. Также продолжаются споры о том, был ли генезис-блок фактически добыт 3 января, поскольку следующий блок был добыт лишь спустя шесть дней. Каким-то образом Сатоши удалось остаться в тени и вплести некую загадочность в “ткань” Биткоина. Именно это и является составной частью того, что делает Биткоин столь безупречной концепцией. Задача моей книги — сбросить с Биткоина завесу, вызывающую у многих подозрения, и осветить его истинную природу. В конце концов, единственное, что кто-либо может сделать в отношении блокчейна — это изучить его. 
 
@@ -49,32 +50,34 @@ weight: 1
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}

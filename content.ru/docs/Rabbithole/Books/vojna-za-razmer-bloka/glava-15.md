@@ -1,14 +1,13 @@
 ---
 title: "Глава 15: Логово драконов"
+h1: "Глава 15: Логово драконов"
+cover: /img/vrb-447.jpeg
 description: "6 апреля 2017 года соавтор белой книги сети Лайтнинг Джозеф Пун упомянул о секретном канале мелкоблочников, в котором принимаются многие решения по связям с общественностью..."
 url: vojna-za-razmer-bloka/glava-15
+date: 2021-03-11
 bookFlatSection: false
 weight: 15
 ---
-
-![cover](/img/vrb-447.jpeg#center)
-|:--:|
-_Фото [Mr.Autthaporn Pradidpong](https://unsplash.com/@autthaporn?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Mr.Autthaporn Pradidpong](https://unsplash.com/@autthaporn?utm_source
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 15: Логово драконов
 
 {{< youtube XloVxgA_AfA >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
