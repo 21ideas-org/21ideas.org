@@ -3,7 +3,7 @@ title: "Глава 3. Биткоин — волшебные интернет-д�
 h1: "Глава 3. Биткоин — волшебные интернет-деньги"
 tags: ["биткоин", "деньги", "bitcoin", "proof-of-work"]
 description: "Волшебное происхождение Биткоина."
-url: /21-sposob/glava-3-bitcoin-volshebnye-internet-dengi
+url: 21-sposob/glava-3-bitcoin-volshebnye-internet-dengi
 cover: /img/0001.jpg
 date: 2021-11-02
 bookToc: true
