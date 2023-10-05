@@ -15,3 +15,5 @@ weight: 6
 3. [Браузерное расширение Alby: оптимизируйте свое взаимодействие с интернетом](/alby-i-nostr)
 4. [Подписки с помощью Лайтнинг](/zapplanner)
 5. [Телеграм-бот @LightningTipBot с поддержкой Nostr и сети Молния](/lntips)
+6. [Очищаем биткоины через сеть Лайтнинг](/ochishchaem-bitcoin-cherez-lajtning)
+7. [Централизованна ли сеть Lightning?](/centralizovanna-li-set-lightning)

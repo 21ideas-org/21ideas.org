@@ -15,3 +15,5 @@ weight: 6
 4. [Манифест шифропанка](/manifest-shifropanka)
 5. [Биткоин — современная голландская тюльпанная лихорадка?](/tyulpannaya-lihoradka)
 6. [Все — мошенники](/vse-moshenniki)
+7. [Свобода ценности](/svoboda-cennosti)
+8. [Биткоин — единственный реальный мем](/bitcoin-meme)

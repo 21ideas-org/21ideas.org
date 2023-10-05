@@ -6,7 +6,7 @@ description: "Lightning Tip Bot – удобный робот, который в
 url: lntips
 date: 2023-03-03
 bookFlatSection: false
-weight: 4
+weight: 5
 ---
 
 {{< hint btc >}}
