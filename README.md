@@ -83,7 +83,11 @@
 | -2,100 | [vjik](https://github.com/vjik) | "[Починка шорткода для ностр](https://github.com/21ideas-org/21ideas.org/pull/94)" | 929,400 |
 | - 6,000 | [btclinux](https://github.com/btclinux) | ["Биткоин и ритмы истории", "Интернет-циклы Хопфа"](https://github.com/21ideas-org/21ideas.org/pull/89), ["Исправление шорткодов](https://github.com/21ideas-org/21ideas.org/pull/91) | 923,400 |
 | - 21,400 | [btclinux](https://github.com/btclinux) | [7 статей](https://github.com/21ideas-org/21ideas.org/pull/104) | 902,000 |
-| - 1,500 | [btclinux](https://github.com/btclinux) | ["Что такое деньги?"](https://github.com/21ideas-org/21ideas.org/pull/105) | 902,000 |
+| - 1,500 | [btclinux](https://github.com/btclinux) | ["Что такое деньги?"](https://github.com/21ideas-org/21ideas.org/pull/105) | 900,500 |
+| -2,100 | [vjik](https://github.com/vjik) | "[Починка краткого содержания/предпросмотра материалов в блоге](https://github.com/21ideas-org/21ideas.org/pull/108)" | 898,400 |
+| - 4,400 | [btclinux](https://github.com/btclinux) | ["3 статьи"](https://github.com/21ideas-org/21ideas.org/pull/109) | 894,000 |
+| - 10,000 | [btclinux](https://github.com/btclinux) | [Исправление заголовков, изображений и ссылок в разделе "Практика](https://github.com/21ideas-org/21ideas.org/pull/111) | 884,000 |
+| -50,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) доступных глав книги "21 способ" | 934,000 |
 
 
 
