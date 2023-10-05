@@ -3,7 +3,7 @@ title: "Введение"
 h1: "Введение"
 tags: ["биткоин", "vvedenie", "bitcoin", "proof-of-work"]
 description: "Введение"
-url: vvedenie
+url: /21-sposob/vvedenie
 cover: /img/08.png
 date: 2022-01-02
 bookToc: true
