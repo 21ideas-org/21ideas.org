@@ -1,5 +1,6 @@
 ---
-title: "Глава 10: ОКРУЖАЮЩАЯ СРЕДА"
+title: "Глава 10: Окружающая среда"
+h1: "Глава 10: Окружающая среда"
 tags: ["книга", "новичкам", "основы"]
 description: "Десятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-10
@@ -11,37 +12,37 @@ weight: 11
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
-
-# Глава 10: ОКРУЖАЮЩАЯ СРЕДА
 
 Бесплатный сыр — только в мышеловке. Нет такого понятия, как игра с нулевой суммой. Так гласит второй закон термодинамики. Ну, знаете, тот самый закон об энтропии и о том, как через пару триллионов лет все будет по-настоящему искалечено. Нет действия без противодействия. Это также верно для Биткоин-майнинга биткоинов. Время от времени какой-то неосведомленный голодный на кликбейт журналист пишет статью об энергопотреблении Биткоина и о том, как это связано с глобальным потеплением или как широкое использование Биткоина и “расточительность” его производственного процесса рано или поздно сведет всех нас в могилу. Но они все упускают из виду альтернативные затраты. Как упоминалось ранее, биткоин ценен потому, что он редкий, а он редкий, поскольку его производство является дорогостоящим. То же самое можно сказать о золоте, бриллиантах, либо обо все том, что имеется лишь в ограниченном количестве и что не так легко раздобыть. Как обсуждалось в предыдущих главах, алгоритм майнинга никогда не может быть более энергоэффективным, поскольку затраченное электричество напрямую связано с ценностью токена.
 
@@ -63,32 +64,34 @@ weight: 11
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}

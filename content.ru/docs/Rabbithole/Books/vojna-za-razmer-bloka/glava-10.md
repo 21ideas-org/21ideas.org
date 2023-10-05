@@ -1,14 +1,13 @@
 ---
 title: "Глава 10: DAO"
+h1: "Глава 10: DAO"
+cover: /img/vrb-442.jpeg
 description: "Летом 2016 года внимание многих участников криптовалютного сообщества начал привлекать проект под названием &quot;DAO&quot;..."
 url: vojna-za-razmer-bloka/glava-10
+date: 2021-03-11
 bookFlatSection: false
 weight: 10
 ---
-
-![cover](/img/vrb-442.jpeg#center)
-|:--:|
-_Фото [Hardik Pandya](https://unsplash.com/@hvpandya?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Hardik Pandya](https://unsplash.com/@hvpandya?utm_source=ghost&utm_me
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 10: DAO
 
 {{< youtube 6_1HR0HPosw >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

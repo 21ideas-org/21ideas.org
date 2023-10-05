@@ -1,14 +1,13 @@
 ---
 title: "Глава 14: ASICBoost"
+h1: "Глава 14: ASICBoost"
+cover: /img/vrb-446.jpeg
 description: "В среду, 5 апреля 2017 года, случилась очередная сенсация, на сей раз из лагеря малых блоков. Это было электронное письмо Грегори Максвелла, адресованное списку рассылки биткоин-разработчиков."
 url: vojna-za-razmer-bloka/glava-14
+date: 2021-03-11
 bookFlatSection: false
 weight: 14
 ---
-
-![cover](/img/vrb-446.jpeg#center)
-|:--:|
-_Фото [Mike Enerio](https://unsplash.com/@mikeenerio?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Mike Enerio](https://unsplash.com/@mikeenerio?utm_source=ghost&utm_me
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 14: ASICBoost
 
 {{< youtube F9D2x1aqP8I >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

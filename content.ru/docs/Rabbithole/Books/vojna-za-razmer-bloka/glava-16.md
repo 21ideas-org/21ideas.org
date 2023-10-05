@@ -1,14 +1,13 @@
 ---
 title: "Глава 16: Litecoin"
+h1: "Глава 16: Litecoin"
+cover: /img/vrb-448.jpeg
 description: "Одной из стратегий, обсуждавшихся в &quot;Логове драконов&quot; в этот период, была активация SegWit на Litecoin — альтернативной монете, часто рассматриваемой в качестве близкого родственника Биткоина..."
 url: vojna-za-razmer-bloka/glava-16
+date: 2021-03-11
 bookFlatSection: false
 weight: 16
 ---
-
-![cover](/img/vrb-448.jpeg#center)
-|:--:|
-_Фото [Christopher Czermak](https://unsplash.com/@czermak_photography?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Christopher Czermak](https://unsplash.com/@czermak_photography?utm_so
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 16: Litecoin
 
 {{< youtube 2PYiIGJGwEA >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

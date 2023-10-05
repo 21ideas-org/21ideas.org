@@ -1,14 +1,13 @@
 ---
 title: "Глава 12: Bitcoin Unlimited"
+h1: "Глава 12: Bitcoin Unlimited"
+cover: /img/vrb-444.jpeg
 description: "Поскольку Bitcoin Classic не смог набрать должную поддержку, в конце лета 2016 года сторонники крупных блоков сошлись на новом клиенте, увеличивающем лимит размера блока при помощи хардфорка, под названием Bitcoin Unlimited."
 url: vojna-za-razmer-bloka/glava-12
+date: 2021-03-11
 bookFlatSection: false
 weight: 12
 ---
-
-![cover](/img/vrb-444.jpeg#center)
-|:--:|
-_Фото [Vincent Lin](https://unsplash.com/@darth_u?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Vincent Lin](https://unsplash.com/@darth_u?utm_source=ghost&utm_mediu
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 12: Bitcoin Unlimited
 
 {{< youtube 2gMI8mLmPwI >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

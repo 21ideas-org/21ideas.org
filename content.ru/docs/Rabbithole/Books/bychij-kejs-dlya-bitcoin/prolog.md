@@ -1,14 +1,15 @@
 ---
 title: "Пролог"
+h1: "Пролог"
+cover: /img/bkb-471.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Биткоин был значительным техническим прорывом, и хотя он не был очевиден 31 октября 2008 года, изобретение Сатоши Накамото в итоге изменило мир."
 url: bychij-kejs-dlya-bitcoin/prolog
+date: 2021-05-08
 bookToc: true
 bookFlatSection: false
 weight: 2
 ---
-
-![cover](/img/bkb-471.jpg)
 
 {{< expand "Оглавление" "..." >}}
 
@@ -31,8 +32,6 @@ weight: 2
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
 {{< /expand >}}
-
-# Пролог
 
 ## Прометей
 

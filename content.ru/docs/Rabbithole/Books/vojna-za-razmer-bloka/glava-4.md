@@ -1,14 +1,13 @@
 ---
 title: "Глава 4: Масштабирование II Гонконг"
+h1: "Глава 4: Масштабирование II Гонконг"
+cover: /img/vrb-436.jpeg
 description: "Через несколько месяцев после &quot;Масштабирования I&quot;, 6-7 декабря 2015 года в Гонконге прошла вторая фаза серии конференций &quot;Масштабирование&quot;. Гонконг был выбран из-за его непосредственной близости к Китаю, где располагались многие биткоин-майнеры."
 url: vojna-za-razmer-bloka/glava-4
+date: 2021-03-11
 bookFlatSection: false
 weight: 4
 ---
-
-![cover](/img/vrb-436.jpeg#center)
-|:--:|
-_Фото [Simon Zhu](https://unsplash.com/@smnzhu?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Simon Zhu](https://unsplash.com/@smnzhu?utm_source=ghost&utm_medium=r
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 4: Масштабирование II Гонконг
 
 {{< youtube 8c3tcvkKpdA >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

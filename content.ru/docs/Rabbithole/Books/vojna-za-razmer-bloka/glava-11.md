@@ -1,14 +1,13 @@
 ---
 title: "Глава 11: Масштабирование III Милан"
+h1: "Глава 11: Масштабирование III Милан"
+cover: /img/vrb-443.jpeg
 description: "Третья конференция по масштабированию проходила в Милане с 8 по 9 октября 2016 года. Мелкоблочники стремились оставить дискуссию о размерах блоков позади и двигаться дальше; они хотели положить конец непродуктивному изобретению велосипедов и идти вперед..."
 url: vojna-za-razmer-bloka/glava-11
+date: 2021-03-11
 bookFlatSection: false
 weight: 11
 ---
-
-![cover](/img/vrb-443.jpeg#center)
-|:--:|
-_Фото [Benjamin Voros](https://unsplash.com/@vorosbenisop?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Benjamin Voros](https://unsplash.com/@vorosbenisop?utm_source=ghost&u
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 11: Масштабирование III Милан
 
 {{< youtube 3tvCCFAYON4 >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
