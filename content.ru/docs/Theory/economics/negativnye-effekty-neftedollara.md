@@ -1,15 +1,13 @@
 ---
 title: "Негативные внешние эффекты нефтедоллара"
+h1: "Негативные внешние эффекты нефтедоллара"
+cover: /img/nen-502.jpeg
 description: "Вся правда о нефтедолларе (petrodollar), которая тебя удивит."
 url: negativnye-effekty-neftedollara
 date: 2021-04-28
 bookFlatSection: false
 weight: 57
 ---
-
-![cover](/img/nen-502.jpeg#center)
-
-# Негативные внешние эффекты нефтедоллара
 
 {{< hint btc>}}
 _Этот пост — краткий пересказ эссе директора стратегического развития Фонда по правам человека_ [_Алекса Глэдстайна_](https://twitter.com/gladstein)_. Полноценная статья (на английском) опубликована в журнале_ [_Bitcoin Magazine_](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar)_._

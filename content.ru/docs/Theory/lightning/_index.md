@@ -11,3 +11,4 @@ weight: 8
 2. [Лайтнинг-адреса](/lajtning-adresa)
 3. [Приватность в сети Lightning](/privatnost-v-lajtning)
 4. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)
+5. [Централизованна ли сеть Lightning?](/centralizovanna-li-set-lightning)
