@@ -3,10 +3,6 @@
 {{- if $src -}}
 <div class="imageWrapper">
     <img src="{{ $src }}"{{ with $alt }}alt="{{ . }}"{{ end }}>
-    {{- with .Inner }}
-    <div class="imageWrapper_hint">
-        {{ . | markdownify }}
-    </div>
-    {{- end }}
+    {{ .Inner }}
 </div>
 {{- end -}}

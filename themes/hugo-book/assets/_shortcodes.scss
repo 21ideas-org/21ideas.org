@@ -115,9 +115,9 @@
   .imageWrapper {
     margin: 1.5em 0;
     text-align: center;
-    &_hint {
+    p {
+      margin: 0;
       padding-top: 4px;
-      text-align: center;
       color: var(--gray-500);
     }
   }
