@@ -1,4 +1,5 @@
 baseURL: 'https://new.21ideas.org/'
+timeout: 300s
 theme: hugo-book
 title: 21ideas
 defaultContentLanguage: ru

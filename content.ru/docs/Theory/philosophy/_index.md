@@ -17,3 +17,4 @@ weight: 6
 6. [Все — мошенники](/vse-moshenniki)
 7. [Свобода ценности](/svoboda-cennosti)
 8. [Биткоин — единственный реальный мем](/bitcoin-meme)
+9. [Биткоин и ритмы истории](/bitcoin-i-ritmy-istorii)
