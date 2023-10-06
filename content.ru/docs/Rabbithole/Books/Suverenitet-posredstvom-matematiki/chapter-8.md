@@ -1,5 +1,6 @@
 ---
-title: "Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ"
+title: "Глава 8: Изменение правил"
+h1: "Глава 8: Изменение правил"
 tags: ["книга", "новичкам", "основы"]
 description: "Восьмая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-8
@@ -11,37 +12,37 @@ weight: 9
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
-
-# Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ
 
 Изменить протокол Биткоина очень просто. Исходный код является открытым. Это означает, что любой может загрузить копию кода и внести в него любые изменения. Однако изменить то, что участники сети Биткоин считают истинным биткоином, трудно. Очень трудно. Чтобы получить их признание, требуется, чтобы предложенное обновление было действительно эффективным и даже пуленепробиваемым, не изменяя при этом теоретико-игровые основы, которые делают соблюдение правил выгодным для майнеров. Обновления протокола могут быть реализованы с помощью так называемых софт-форков и хард-форков. *Софт-форк* — это добровольное, обратно совместимое обновление. *Хард-форк* требует, чтобы каждый узел в сети, который хочет оставаться активным, обновил свое программное обеспечение. На данный момент маловероятно, что Биткоин снова подвергнется хард-форку. Даже софт-форк может оказаться очень спорным, и большие споры между сторонниками разных путей расширения сети Биткоин в 2017 году привели к тому, что часть сети [раскололась](https://t.me/bitcoin_translated/1513) и породила новую цепочку через хард-форк. Несмотря на то, что предложенное обновление было реализовано в соответствии с правилами консенсуса, некоторые участники не одобрили его.
 
@@ -63,33 +64,35 @@ weight: 9
 
 {{< expand "Оглавление" "..." >}}
 
-[ПРЕДИСЛОВИЕ](/suverenitet-posredstvom-matematiki/intro)
+[Главная страница](/suverenitet-posredstvom-matematiki)
 
-[Глава 1: ВСЯ НАША ЖИЗНЬ — ТОРГОВЛЯ](/suverenitet-posredstvom-matematiki/glava-1)
+[Предисловие](/suverenitet-posredstvom-matematiki/intro)
 
-[Глава 2: ФИНАНСОВЫЙ АТЕИЗМ](/suverenitet-posredstvom-matematiki/glava-2)
+[Глава 1: Вся наша жизнь — торговля](/suverenitet-posredstvom-matematiki/glava-1)
 
-[Глава 3: ДОВЕРЧИВОСТЬ](/suverenitet-posredstvom-matematiki/glava-3)
+[Глава 2: Финансовый атеизм](/suverenitet-posredstvom-matematiki/glava-2)
 
-[Глава 4: НЕПОРОЧНОЕ ЗАЧАТИЕ](/suverenitet-posredstvom-matematiki/glava-4)
+[Глава 3: Доверчивость](/suverenitet-posredstvom-matematiki/glava-3)
 
-[Глава 5: PROOF OF WORK](/suverenitet-posredstvom-matematiki/glava-5)
+[Глава 4: Непорочное зачатие](/suverenitet-posredstvom-matematiki/glava-4)
 
-[Глава 6: РЕДКОСТЬ](/suverenitet-posredstvom-matematiki/glava-6)
+[Глава 5: Proof of Work](/suverenitet-posredstvom-matematiki/glava-5)
 
-[Глава 7: ХОДЛ ОН](/suverenitet-posredstvom-matematiki/glava-7)
+[Глава 6: Редкость](/suverenitet-posredstvom-matematiki/glava-6)
 
-[Глава 8: ИЗМЕНЕНИЕ ПРАВИЛ](/suverenitet-posredstvom-matematiki/glava-8)
+[Глава 7: Ходл Он](/suverenitet-posredstvom-matematiki/glava-7)
 
-[Глава 9: ДЕНЬГИ КАК АКСЕЛЕРАТОР](/suverenitet-posredstvom-matematiki/glava-9)
+[Глава 8: Изменение правил](/suverenitet-posredstvom-matematiki/glava-8)
 
-[Глава 10: ОКРУЖАЮЩАЯ СРЕДА](/suverenitet-posredstvom-matematiki/glava-10)
+[Глава 9: Деньги как акселератор](/suverenitet-posredstvom-matematiki/glava-9)
 
-[Глава 11: НОВАЯ ФОРМА ЖИЗНИ](/suverenitet-posredstvom-matematiki/glava-11)
+[Глава 10: Окружающая среда](/suverenitet-posredstvom-matematiki/glava-10)
 
-[Глава 12: БУДУЩЕЕ](/suverenitet-posredstvom-matematiki/glava-12)
+[Глава 11: Новая форма жизни](/suverenitet-posredstvom-matematiki/glava-11)
 
-[РАЗМЫШЛЕНИЯ](/suverenitet-posredstvom-matematiki/mysli)
+[Глава 12: Будущее](/suverenitet-posredstvom-matematiki/glava-12)
+
+[Размышления](/suverenitet-posredstvom-matematiki/mysli)
 
 {{< /expand >}}
 

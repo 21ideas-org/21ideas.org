@@ -1,14 +1,13 @@
 ---
 title: "Глава 7: Bitcoin Classic"
+h1: "Глава 7: Bitcoin Classic"
+cover: /img/vrb-439.jpeg
 description: "К концу 2015 года война стала заметно интенсивнее..."
 url: vojna-za-razmer-bloka/glava-7
+date: 2021-03-11
 bookFlatSection: false
 weight: 7
 ---
-
-![cover](/img/vrb-439.jpeg#center)
-|:--:|
-_Фото [Devin Avery](https://unsplash.com/@devintavery?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Devin Avery](https://unsplash.com/@devintavery?utm_source=ghost&utm_m
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 7: Bitcoin Classic
 
 {{< youtube gD-wWGPvfQI >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

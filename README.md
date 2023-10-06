@@ -87,7 +87,9 @@
 | -2,100 | [vjik](https://github.com/vjik) | "[Починка краткого содержания/предпросмотра материалов в блоге](https://github.com/21ideas-org/21ideas.org/pull/108)" | 898,400 |
 | - 4,400 | [btclinux](https://github.com/btclinux) | ["3 статьи"](https://github.com/21ideas-org/21ideas.org/pull/109) | 894,000 |
 | - 10,000 | [btclinux](https://github.com/btclinux) | [Исправление заголовков, изображений и ссылок в разделе "Практика](https://github.com/21ideas-org/21ideas.org/pull/111) | 884,000 |
-| -50,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) доступных глав книги "21 способ" | 934,000 |
+| -50,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) доступных глав книги "21 способ" | 834,000 |
+| - 50,000 | [btclinux](https://github.com/btclinux) | [7 статей, множество исправлений (ссылки, шорткоды...](https://github.com/21ideas-org/21ideas.org/pull/112) | 784,000 |
+| -2,100 | [vjik](https://github.com/vjik) | "[Добавление раздела статьи про Докер](https://github.com/21ideas-org/21ideas.org/pull/113)" | 781,900 |
 
 
 

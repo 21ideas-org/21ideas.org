@@ -1,14 +1,13 @@
 ---
 title: "Глава 19: Bitcoin Cash"
+h1: "Глава 19: Bitcoin Cash"
+cover: /img/vrb-451.jpeg
 description: "Всего за несколько недель до дедлайна UASF, назначенного на 1 августа 2017 года, был выпущен новый клиент Bitcoin ABC. В отличие от предыдущих хардфорк-клиентов в нем был установлен фиксированный день активации 1 августа 2017 года, а сигнализация майнеров не предполагалась..."
 url: vojna-za-razmer-bloka/glava-19
+date: 2021-03-11
 bookFlatSection: false
 weight: 19
 ---
-
-![cover](/img/vrb-451.jpeg#center)
-|:--:|
-_Фото [Bart Ros](https://unsplash.com/@bartros?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Bart Ros](https://unsplash.com/@bartros?utm_source=ghost&utm_medium=r
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 19: Bitcoin Cash
 
 {{< youtube _8cCN0Z63JE >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

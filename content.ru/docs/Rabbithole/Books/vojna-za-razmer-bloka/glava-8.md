@@ -1,14 +1,13 @@
 ---
 title: "Глава 8: Круглый стол в Гонконге"
+h1: "Глава 8: Круглый стол в Гонконге"
+cover: /img/vrb-440.jpeg
 description: "...я проверил свой телефон, просмотрел сабреддит /r/btc и наткнулся на сообщение о встрече майнеров и разработчиков в Гонконге для обсуждения масштабирования Биткоина."
 url: vojna-za-razmer-bloka/glava-8
+date: 2021-03-11
 bookFlatSection: false
 weight: 8
 ---
-
-![cover](/img/vrb-440.jpeg#center)
-|:--:|
-_Фото [Florian Wehde](https://unsplash.com/@florianwehde?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Florian Wehde](https://unsplash.com/@florianwehde?utm_source=ghost&ut
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 8: Круглый стол в Гонконге
 
 {{< youtube dYbEzKUwgCA >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

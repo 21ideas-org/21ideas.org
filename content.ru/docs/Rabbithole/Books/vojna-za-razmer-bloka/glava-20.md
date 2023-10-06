@@ -1,14 +1,13 @@
 ---
 title: "Глава 20: SegWit2x"
+h1: "Глава 20: SegWit2x"
+cover: /img/vrb-452.jpeg
 description: "В августе 2017 года, когда внедрение SegWit было уже необратимым, пришло время активизировать кампанию против второго этапа. На тот момент, в отличие от начала войны, на стороне малых блоков было явное и сильное большинство пользователей..."
 url: vojna-za-razmer-bloka/glava-20
+date: 2021-03-11
 bookFlatSection: false
 weight: 20
 ---
-
-![cover](/img/vrb-452.jpeg#center)
-|:--:|
-_Фото [Emma Harrisova](https://unsplash.com/@emm_harri?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Emma Harrisova](https://unsplash.com/@emm_harri?utm_source=ghost&utm_
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 20: SegWit2x
 
 {{< youtube RhauQBxn_6k >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_

@@ -1,14 +1,13 @@
 ---
 title: "Глава 17: UASF – Активируемый пользователями софтфорк"
+h1: "Глава 17: UASF – Активируемый пользователями софтфорк"
+cover: /img/vrb-449.jpeg
 description: "Идея о том, что Активируемый пользователями софтфорк (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года..."
 url: vojna-za-razmer-bloka/glava-17
+date: 2021-03-11
 bookFlatSection: false
 weight: 17
 ---
-
-![cover](/img/vrb-449.jpeg#center)
-|:--:|
-_Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit) / [Unsplash](https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit)_
 
 {{< expand "Оглавление" "..." >}}
 
@@ -57,8 +56,6 @@ _Фото [Bagus Ghufron](https://unsplash.com/@bagusghufron?utm_source=ghost&ut
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
 {{< /expand >}}
-
-# Глава 17: UASF – Активируемый пользователями софтфорк
 
 {{< youtube XENl75GrBWU >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
