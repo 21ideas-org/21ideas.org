@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 57
 ---
 
+В лучшем из миров создатели заинтересованы только в том, чтобы творить. Угождая только себе и тем, кто заинтересован в их творчестве. Никаких посредников. Напрямую от человека к человеку; ценность-за-ценность.
+
 {{< hint btc >}}
-Перевод [статьи](https://dergigi.com/2021/12/30/the-freedom-of-value/) Gigi [подготовил](https://arnitel.medium.com/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0-%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-9aeb4aa1d041) Ivan Teila, редактура Tony⚡️
+Перевод [статьи](https://dergigi.com/2021/12/30/the-freedom-of-value/) Gigi [подготовил](https://arnitel.medium.com/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0-%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8-9aeb4aa1d041) Ivan Teila, редактура [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
 
 [Поддержать проект](/contribute)
 {{< /hint >}}

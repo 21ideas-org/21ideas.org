@@ -10,11 +10,13 @@ bookToc: true
 weight: 52
 ---
 
-{{< hint btc >}}
-_Оригинал статьи опубликован в журнале [Bitcoin Magazine](https://bitcoinmagazine.com/technical/can-bitcoin-survive-an-apocalypse)_
-{{< /hint >}}
+Может ли Биткоин выжить, подобно таракану, или всемирный коллапс приведет к неизбежной его гибели?
 
-_Может ли Биткоин выжить, подобно таракану, или всемирный коллапс приведет к неизбежной его гибели?_
+{{< hint btc >}}
+Оригинал статьи опубликован в журнале [Bitcoin Magazine](https://bitcoinmagazine.com/technical/can-bitcoin-survive-an-apocalypse). Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+
+[Поддержать проект](/contribute/).
+{{< /hint >}}
 
 Мы часто используем термин "антихрупкий" или "цензуроустойчивый" для описания Биткоина. Но применимы ли эти термины, если интернет будет намеренно отключен или произойдет какое-то ужасное, катастрофическое событие?
 

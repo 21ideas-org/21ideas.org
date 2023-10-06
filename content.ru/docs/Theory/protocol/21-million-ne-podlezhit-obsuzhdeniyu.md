@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 57
 ---
 
+Сохранит ли Биткоин необходимый уровень безопасности, когда вознаграждение майнерам за добытый блок сойдет на нет?
+
 {{< hint btc>}}
-[Оригинал](https://unchained.com/blog/21-million-is-non-negotiable/?ref=21ideas.org)
+Перевод [статьи](https://unchained.com/blog/21-million-is-non-negotiable/?ref=21ideas.org) Фила Гигера подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
 
 [Поддержать проект](/contribute/)
 {{</hint >}}

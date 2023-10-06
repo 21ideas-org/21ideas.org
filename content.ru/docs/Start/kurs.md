@@ -7,7 +7,7 @@ url: kurs
 date: 2022-09-14
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 3
 ---
 
 {{< hint btc >}}

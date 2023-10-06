@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 60
 ---
 
+Текущие реликвии "Мышления хороших времен" затрудняют понимание компромисса, но "Трудные времена" снова приходят, чтобы напомнить нам о цене, которую мы можем заплатить в долгосрочной перспективе во имя удобства в краткосрочной.
+
 {{< hint btc>}}
-Перевод [эссе](https://medium.com/the-bitcoin-times/bitcoin-and-the-hopf-cycle-of-the-internet-f351f1b7c1e3) [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ฿](https://twitter.com/TonyCrusoe)
+Перевод [эссе](https://medium.com/the-bitcoin-times/bitcoin-and-the-hopf-cycle-of-the-internet-f351f1b7c1e3) [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
 
 [Поддержать проект](/contribute/)
 {{</hint >}}

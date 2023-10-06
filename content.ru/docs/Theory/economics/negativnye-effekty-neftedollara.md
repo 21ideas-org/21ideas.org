@@ -9,8 +9,12 @@ bookFlatSection: false
 weight: 57
 ---
 
+Вся правда о нефтедолларе (petrodollar), которая тебя удивит.
+
 {{< hint btc>}}
 _Этот пост — краткий пересказ эссе директора стратегического развития Фонда по правам человека_ [_Алекса Глэдстайна_](https://twitter.com/gladstein)_. Полноценная статья (на английском) опубликована в журнале_ [_Bitcoin Magazine_](https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar)_._
+
+[Поддержать проект](/contribute/).
 {{</hint >}}
 
 _Вся правда о нефтедолларе (petrodollar), которая тебя удивит. Краткий пересказ, кишащий ссылками (eng) на более подробные материалы._  
