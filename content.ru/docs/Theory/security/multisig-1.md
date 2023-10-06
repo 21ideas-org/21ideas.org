@@ -1,15 +1,13 @@
 ---
 title: "Мультисиг. Часть I"
+h1: "Мультисиг. Часть I"
+cover: /img/msig-683.png
 description: "Основным преимуществом мультисиг является то, что эта схема создает дополнительные ступени в управлении ключами."
 url: multisig-1
 date: 2021-09-25
 bookFlatSection: false
 weight: 2
 ---
-
-{{< image "/img/msig-683.png"  "cover"/>}}
-
-# Мультисиг. Часть I
 
 {{< hint btc>}}
 [Поддержать проект](/contribute/)

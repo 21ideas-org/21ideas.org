@@ -1,15 +1,13 @@
 ---
 title: "Управление Биткоином"
+h1: "Управление Биткоином"
+cover: /img/ub-503.gif
 description: "Система управления Биткоином важна, потому что Биткоин является первой успешной, наиболее ликвидной и самой известной криптовалютой."
 url: upravlenie-bitcoin
 date: 2018-07-09
 bookFlatSection: false
 weight: 55
 ---
-
-![cover](/img/ub-503.gif#center)
-
-# Управление Биткоином
 
 {{< hint btc >}}
 Перевод [статьи](https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f) [Пьера Рошара](https://twitter.com/pierre_rochard), впервые опубликованной в его [блоге](https://medium.com/@pierre_rochard) на площадке Medium. Одна из нестареющих [статей](https://nakamotoinstitute.org/mempool/bitcoin-governance/), опубликованных в [мемпуле](https://nakamotoinstitute.org/mempool/) [_nakamotoinstitute.org_](http://nakamotoinstitute.org/)

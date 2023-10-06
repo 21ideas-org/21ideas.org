@@ -1,5 +1,7 @@
 ---
 title: "Деньги, блокчейны и социальная масштабируемость"
+h1: "Деньги, блокчейны и социальная масштабируемость"
+cover: /img/dbm-657.png
 description: "Успех Биткоина заключается в том, что ценой активного потребления ресурсов и низкой вычислительной производительности приобретается нечто еще более ценное: социальная масштабируемость."
 url: dengi-blokchejny-i-socialnaya-masshtabiruemost
 date: 2017-02-09
@@ -7,10 +9,6 @@ bookFlatSection: false
 bookToc: true
 weight: 61
 ---
-
-{{< image "/img/dbm-657.png"  "cover"/>}}
-
-# Деньги, блокчейны и социальная масштабируемость
 
 {{< hint btc>}}
 Перевод фундаментального [эссе](https://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) Ника Сабо, написанного в феврале 2017 года.

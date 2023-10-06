@@ -6,7 +6,7 @@ description: "По “криптосообществу” начинает гу�
 url: centralizovanna-li-set-lightning
 date: 2022-12-26
 bookFlatSection: false
-weight: 7
+weight: 5
 ---
 
 {{< hint btc >}}

@@ -1,5 +1,7 @@
 ---
 title: "Миллион крошечных миров"
+h1: "Биткоин-астрономия. Часть 2 - Миллион крошечных миров"
+cover: /img/ba-625.jpg
 tags: ["биткоин", "лайтнинг", "масштабирование", "будущее", "блокчейн"]
 description: "Это вторая часть из серии моих спекуляций о гипербиткоинизированном будущем."
 url: ba/2
@@ -8,8 +10,6 @@ bookToc: true
 bookFlatSection: false
 weight: 2
 ---
-
-{{< image "/img/ba-625.jpg"  "cover"/>}}
 
 {{< expand "Оглавление" "..." >}}
 
@@ -20,8 +20,6 @@ weight: 2
 [Часть 3: Первый контакт](/ba/3)
 
 {{< /expand >}}
-
-# Биткоин-астрономия. Часть 2 - Миллион крошечных миров
 
 {{< hint btc >}}
 Это эссе - перевод [второй части](https://unchained.com/blog/bitcoin-astronomy-part-ii/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).

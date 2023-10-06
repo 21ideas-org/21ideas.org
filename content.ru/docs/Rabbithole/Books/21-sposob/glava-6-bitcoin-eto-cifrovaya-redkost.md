@@ -70,7 +70,7 @@ weight: 9
 {{< /expand >}}
 
 {{< hint btc >}}
-Перевод и распространение книги "21 способ" проводится командой биткоин-энтузиастов. Поддержать инициативу можно, перейдя [на страничку фандрейза](https://tallycoin.app/@21ideas/21-zho0IO4x/?ref=21ideas.org).
+Перевод и распространение книги "21 способ" проводится командой биткоин-энтузиастов. Поддержать инициативу можно, перейдя [на страничку фандрейза](https://tallycoin.app/@21ideas/21-zho0IO4x/).
 {{< /hint >}}
 
 {{< youtube vn6i4IvFahU />}}
@@ -480,7 +480,7 @@ _Виртуальные миры, поддерживаемые третьими 
 
 ## Примечания
 
-[^1]: Кори Доктороу (2012), [Восторг ботанов](https://en.wikipedia.org/w/index.php?title=The_Rapture_of_the_Nerds&oldid=1082818012&ref=21ideas.org)
+[^1]: Кори Доктороу (2012), [Восторг ботанов](https://en.wikipedia.org/w/index.php?title=The_Rapture_of_the_Nerds&oldid=1082818012)
 
 [^2]: Марк Андриссен (2011), [Почему программное обеспечение пожирает мир](https://archive.ph/8biiK)
 
@@ -520,11 +520,11 @@ _Виртуальные миры, поддерживаемые третьими 
 
 [^20]: Никола Савич (2020), [Кто-то заплатил более $100000 за скин CS:GO, самая дорогая покупка скина в истории](https://web.archive.org/web/20221002105859/https://www.ginx.tv/en/cs-go/the-most-expensive-csgo-skin-purchase-in-history)
 
-[^21]: Википедия, [Битва за B-R5RB](https://en.wikipedia.org/w/index.php?title=Battle_of_B-R5RB&oldid=1107214681&ref=21ideas.org)
+[^21]: Википедия, [Битва за B-R5RB](https://en.wikipedia.org/w/index.php?title=Battle_of_B-R5RB&oldid=1107214681)
 
 [^22]: Маркус Картер, Келли Бергстром и Дэррил Вудфорд (2016 г.), [Интернет-космические корабли - это серьезный бизнес](https://web.archive.org/web/20221002105611/https://www.upress.umn.edu/book-division/books/internet-spaceships-are-serious-business), University of Minnesota Press
 
-[^23]: [Фарминг золота](https://en.wikipedia.org/w/index.php?title=Gold_farming&oldid=1110810665&ref=21ideas.org), Википедия
+[^23]: [Фарминг золота](https://en.wikipedia.org/w/index.php?title=Gold_farming&oldid=1110810665), Википедия
 
 [^24]: Дэнни Винсент (2011), [Китай использовал заключенных в прибыльных интернет-играх](https://web.archive.org/web/20220000000000*/https://www.theguardian.com/world/2011/may/25/china-prisoners-internet-gaming-scam), The Guardian
 
@@ -534,6 +534,6 @@ _Виртуальные миры, поддерживаемые третьими 
 
 [^27]: Алмазы являются одним из примеров реального товара, который раньше был редким, но сейчас может быть произведен искусственно. Благодаря человеческой изобретательности алмазы можно производить искусственно. Цитата из [U.S. National Minerals Information Center](https://web.archive.org/web/20221002111535/https://www.usgs.gov/centers/national-minerals-information-center/industrial-diamond-statistics-and-information): "Синтетический промышленный алмаз превосходит природный алмаз, потому что его можно производить в неограниченных количествах, и во многих случаях его свойства можно адаптировать под конкретные применения. В результате, искусственные алмазы составляют более 90%, используемые в Соединенных Штатах"
 
-[^28]: [История интернета](https://en.wikipedia.org/w/index.php?title=History_of_the_Internet&oldid=1112948487&ref=21ideas.org) ясно показывает, что раньше у нас было множество различных сетей. Сегодня у нас есть одна сеть, потому что, как и большинство открытых и глобальных сетей, интернет является феноменом "победитель получает все"
+[^28]: [История интернета](https://en.wikipedia.org/w/index.php?title=History_of_the_Internet&oldid=1112948487) ясно показывает, что раньше у нас было множество различных сетей. Сегодня у нас есть одна сеть, потому что, как и большинство открытых и глобальных сетей, интернет является феноменом "победитель получает все"
 
 [^29]: Мы подробно обсудим софт- и хард-форки в 16 главе.

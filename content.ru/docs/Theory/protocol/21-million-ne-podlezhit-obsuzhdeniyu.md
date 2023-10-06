@@ -1,15 +1,13 @@
 ---
 title: "21 миллион не подлежит обсуждению"
+h1: "21 миллион не подлежит обсуждению"
+cover: /img/21m-603.jpg
 description: "Сохранит ли Биткоин необходимый уровень безопасности, когда вознаграждение майнерам за добытый блок сойдет на нет?"
 url: 21-million-ne-podlezhit-obsuzhdeniyu
 date: 2020-04-09
 bookFlatSection: false
 weight: 57
 ---
-
-{{< image "/img/21m-603.jpg"  "cover"/>}}
-
-# 21 миллион не подлежит обсуждению
 
 {{< hint btc>}}
 [Оригинал](https://unchained.com/blog/21-million-is-non-negotiable/?ref=21ideas.org)

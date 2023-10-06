@@ -1,5 +1,7 @@
 ---
 title: "Первый контакт"
+h1: "Биткоин-астрономия. Часть 3 - Первый контакт"
+cover: /img/ba-638.jpg
 tags: ["биткоин", "лайтнинг", "масштабирование", "будущее", "блокчейн"]
 description: "Это третья часть из серии спекуляций о гипербиткоинизированном будущем."
 url: ba/3
@@ -8,8 +10,6 @@ bookToc: true
 bookFlatSection: false
 weight: 3
 ---
-
-{{< image "/img/ba-638.jpg"  "cover"/>}}
 
 {{< expand "Оглавление" "..." >}}
 
@@ -20,8 +20,6 @@ weight: 3
 [Часть 3: Первый контакт](/ba/3)
 
 {{< /expand >}}
-
-# Биткоин-астрономия. Часть 3 - Первый контакт
 
 {{< hint btc >}}
 Это эссе - перевод [третьей части](https://unchained.com/blog/bitcoin-astronomy-part-iii/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).

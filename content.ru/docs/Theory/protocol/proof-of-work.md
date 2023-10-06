@@ -1,5 +1,7 @@
 ---
 title: "Proof of Work: доказательство проделанной работы"
+h1: "Proof of Work: доказательство проделанной работы"
+cover: /img/pow-608.png
 description: "Алгоритм Proof of Work — это то, что связывает мир цифровых денег с физическим миром, не требуя при этом доверия третьей стороне."
 url: proof-of-work
 date: 2020-12-07
@@ -7,10 +9,6 @@ bookFlatSection: false
 bookToc: true
 weight: 58
 ---
-
-{{< image "/img/pow-608.png"  "cover"/>}}
-
-# Proof of Work: доказательство проделанной работы
 
 {{< hint btc>}}
 _Перевод_  [_статьи_](https://joinmarket.me/blog/blog/pow-a-pictorial-essay/) [_Адама Гибсона_](https://x0f.org/@waxwing) _от 07 декабря 2020 г. подготовлен биткоинером_ [_Tony ฿_](https://twitter.com/TonyCrusoe)

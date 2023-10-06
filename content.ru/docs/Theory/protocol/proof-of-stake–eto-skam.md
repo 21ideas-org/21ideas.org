@@ -1,5 +1,7 @@
 ---
 title: "Proof of Stake – это скам"
+h1: "Proof of Stake – это скам"
+cover: /img/pos-655.jpg
 description: "Proof of Stake (PoS) – это мошенничество. Когда я говорю это, я имею в виду, что PoS 1) заявлен как система консенсуса, и 2) фактически неспособен на самом деле обеспечить консенсус."
 url: proof-of-stake–eto-skam
 date: 2021-11-09
@@ -7,10 +9,6 @@ bookFlatSection: false
 bookToc: true
 weight: 59
 ---
-
-{{< image "/img/pos-655.jpg"  "cover"/>}}
-
-# Proof of Stake – это скам
 
 {{< hint btc>}}
 Перевод [статьи](https://yanmaani.github.io/proof-of-stake-is-a-scam-and-the-people-promoting-it-are-scammers/) yanmaani _Proof of stake is a scam and the people promoting it are scammers_ подготовлен проектом _21идея_
