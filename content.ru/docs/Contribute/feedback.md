@@ -12,5 +12,5 @@ weight: 9
 
 
 {{< button href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7" >}}Nostr{{< /button >}}
-{{< button href="https://github.com/alex-shpak/hugo-book" >}}Email{{< /button >}}
+{{< button href="mailto:lightning_tony@protonmail.com" >}}Email{{< /button >}}
 {{< button href="https://t.me/Tony_Crusoe" >}}Telegram{{< /button >}}
