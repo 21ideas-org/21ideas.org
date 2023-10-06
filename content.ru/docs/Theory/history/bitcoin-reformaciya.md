@@ -10,6 +10,8 @@ bookToc: true
 weight: 52
 ---
 
+В этом докладе мы попытаемся показать, что Биткоин, шифрование, интернет и поколение миллениалов — это не просто тренды XXI века, а предвестники волны перемен, схожей с революционной европейской эпохой XVI–XVII веков.
+
 {{< hint btc >}}
 [Доклад Adamant Research](https://bitcoinwords.github.io/assets/papers/investment/Tuur%20Demeester%20-%20The%20Bitcoin%20Reformation.pdf)
 

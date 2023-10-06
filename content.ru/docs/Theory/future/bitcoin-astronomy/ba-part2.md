@@ -21,6 +21,8 @@ weight: 2
 
 {{< /expand >}}
 
+Вторая часть из серии спекуляций о гипербиткоинизированном будущем.
+
 {{< hint btc >}}
 Это эссе - перевод [второй части](https://unchained.com/blog/bitcoin-astronomy-part-ii/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 

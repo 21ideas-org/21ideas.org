@@ -7,7 +7,7 @@ url: razrushaem-mify-o-bitcoin
 date: 2021-11-19
 bookFlatSection: false
 bookToc: true
-weight: 2
+weight: 4
 ---
 
 {{< hint btc>}}

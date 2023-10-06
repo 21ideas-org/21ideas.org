@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 56
 ---
 
+Мы живем в состоянии тотальной войны. Каждый  биткоин-холдер пытается заполучить больше монет путем обмана или убеждения остальных в том, что не стоит в этом участвовать. Всех, у кого нет биткоинов, надули либо таким образом, что они с ними расстались, либо облапошили так, что они даже их не купили.
+
 {{< hint btc>}}
-_Перевод статьи [Майкла Голдстейна](https://twitter.com/bitstein) от 11 сентября 2014 г., [оригинал](https://nakamotoinstitute.org/mempool/everyones-a-scammer/) которой можно найти в [мемпуле](https://nakamotoinstitute.org/mempool/) Института Накамото_
+Перевод статьи [Майкла Голдстейна](https://twitter.com/bitstein) от 11 сентября 2014 г. подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7), [оригинал](https://nakamotoinstitute.org/mempool/everyones-a-scammer/) которой можно найти в [мемпуле](https://nakamotoinstitute.org/mempool/) Института Накамото
 
 [Поддержать проект](/contribute/)
 {{< /hint >}}

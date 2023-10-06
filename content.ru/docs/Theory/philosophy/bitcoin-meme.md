@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 58
 ---
 
+Рассказ о разнице между мемами и реальным миром.
+
 {{< hint btc >}}
-Эта презентация основана на [твит-шторме](https://twitter.com/dergigi/status/1425202084782264326?s=20) Gigi
+Эта презентация основана на [твит-шторме](https://twitter.com/dergigi/status/1425202084782264326?s=20) Gigi. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
 
 [Поддержать проект](/contribute)
 {{< /hint >}}

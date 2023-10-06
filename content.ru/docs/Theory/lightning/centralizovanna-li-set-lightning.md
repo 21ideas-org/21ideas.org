@@ -9,8 +9,10 @@ bookFlatSection: false
 weight: 5
 ---
 
+По “криптосообществу” начинает гулять миф, согласно которому сеть Молния (Lightning Network) является централизованной. Предлагаю разобраться, так ли это.
+
 {{< hint btc >}}
-В основе этого материала лежит [статья](https://darthcoin.substack.com/p/omg-ln-nodes-are-running-on-amazon?r=mu07o&utm_medium=ios&utm_campaign=post) DarthCoin
+В основе этого материала лежит [статья](https://darthcoin.substack.com/p/omg-ln-nodes-are-running-on-amazon?r=mu07o&utm_medium=ios&utm_campaign=post) DarthCoin. Русскоязычная версия подготовлена [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
 
 [Поддержать проект](/contribute).
 {{< /hint >}}

@@ -5,14 +5,14 @@ cover: /img/1111.jpeg
 tags: ["биткоин", "деньги", "свобода", "proof-of-work"]
 description: "Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе."
 url: neotemlemye-prava-sobstvennosti
-date: ‎2022-04-03
+date: 2022-04-03
 bookToc: true
 bookFlatSection: false
 weight: 52
 ---
 
 {{< hint btc >}}
-Перевод [статьи](https://dergigi.com/2022/04/03/inalienable-property-rights/) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура Tony⚡️
+Перевод [статьи](https://dergigi.com/2022/04/03/inalienable-property-rights/) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:
