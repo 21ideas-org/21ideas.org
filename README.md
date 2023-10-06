@@ -90,7 +90,7 @@
 | -50,000 | [byzgeneral](https://github.com/byzgeneral) | перевод и [добавление](https://github.com/21ideas-org/21ideas.org/pull/57) доступных глав книги "21 способ" | 834,000 |
 | - 50,000 | [btclinux](https://github.com/btclinux) | [7 статей, множество исправлений (ссылки, шорткоды...](https://github.com/21ideas-org/21ideas.org/pull/112) | 784,000 |
 | -2,100 | [vjik](https://github.com/vjik) | "[Добавление раздела статьи про Докер](https://github.com/21ideas-org/21ideas.org/pull/113)" | 781,900 |
-| - 21,000 | [btclinux](https://github.com/btclinux) | [7 статей, множество исправлений (ссылки, шорткоды...](https://github.com/21ideas-org/21ideas.org/pull/115) | 763,000 |
+| - 21,000 | [btclinux](https://github.com/btclinux) | [Исправления ссылок, шорткодов, заголовков, обложек в разделе Теория](https://github.com/21ideas-org/21ideas.org/pull/115) | 763,000 |
 
 
 
