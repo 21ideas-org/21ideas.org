@@ -11,10 +11,12 @@ weight: 4
 ---
 
 {{< hint btc>}}
+Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+
 [Поддержать проект](/contribute/)
 {{</hint >}}
 
-<iframe src="https://podcasters.spotify.com/pod/show/tony-lightning/embed/episodes/ep-e1c56ms/a-a7588oa" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://podcasters.spotify.com/pod/show/tony-lightning/embed/episodes/ep-e1c56ms/a-a7588oa" height="110px" width="600px" frameborder="0" scrolling="no"></iframe>
 
 _Аудиоверсия основана на оригинальном [видео](https://youtu.be/Fws8T_cmgcE)_
 
