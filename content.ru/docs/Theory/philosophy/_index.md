@@ -17,3 +17,6 @@ weight: 6
 6. [Все — мошенники](/vse-moshenniki)
 7. [Свобода ценности](/svoboda-cennosti)
 8. [Биткоин — единственный реальный мем](/bitcoin-meme)
+9. [Ноль и Биткоин](/nol-i-bitcoin)
+10. [Дорогие крипто- и фиат-бро](/crypto-bro)
+11. [Боремся с поддельными биткоинами](/boremsya-s-poddelnymi-bitcoin)
