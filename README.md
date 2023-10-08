@@ -92,8 +92,6 @@
 | -2,100 | [vjik](https://github.com/vjik) | "[Добавление раздела статьи про Докер](https://github.com/21ideas-org/21ideas.org/pull/113)" | 781,900 |
 | - 21,000 | [btclinux](https://github.com/btclinux) | [Исправления ссылок, шорткодов, заголовков, обложек в разделе Теория](https://github.com/21ideas-org/21ideas.org/pull/115) | 763,000 |
 | -5,000 | [byzgeneral](https://github.com/byzgeneral) | [Правки для 21 способ и добавление статьи "Был ли Сатоши жадным майнером"](https://github.com/21ideas-org/21ideas.org/pull/121) | 758,000 |
-| - 42,000 | [btclinux](https://github.com/btclinux) | [Добавление 7 сатаей, правки большинства оставшихся ссылок](https://github.com/21ideas-org/21ideas.org/pull/115) | 716,000 |
-
-
-
+| - 42,000 | [btclinux](https://github.com/btclinux) | [Добавление 7 сатаей, правки большинства оставшихся ссылок](https://github.com/21ideas-org/21ideas.org/pull/122) | 716,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | [Добавление 4 сатаей](https://github.com/21ideas-org/21ideas.org/pull/123) | 711,000 |
 
