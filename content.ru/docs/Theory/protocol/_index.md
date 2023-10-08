@@ -18,3 +18,4 @@ weight: 4
 7. [21 миллион не подлежит обсуждению](/21-million-ne-podlezhit-obsuzhdeniyu)
 8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
 9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
+10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
