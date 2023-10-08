@@ -140,7 +140,29 @@ _Тревор Джонс. Портрет Дориана Накамото_
 
 {{% image src="/img/0004.png" /%}}
 
-{{% image src="/img/0005.jpg" /%}}
+|     Дата                   |     Блок    |   Событие   |
+| -------------------------- | ----------- | ----------- |
+| 18.08.08                 |             | Сатоши зарегистрировал [Bitcoin.org](https://bitcoin.org/ru/?ref=21ideas.org) |
+| 31.10.08                 |             | Публикация [whitepaper](https://bitcoin.org/files/bitcoin-paper/bitcoin_ru.pdf?ref=21ideas.org) Биткоина |
+| 09.11.08                 |             | Проект Bitcoin зарегистрирован на [SourceForge](https://sourceforge.net/projects/bitcoin/?ref=21ideas.org) |
+| 03.01.09                 |    [0](https://www.blockstream.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f?ref=21ideas.org)    | Добыт [Genesis блок](https://en.bitcoin.it/wiki/Genesis_block?ref=21ideas.org) |
+| 08.01.09                 |             | [Анонсирована](https://satoshi.nakamotoinstitute.org/emails/cryptography/16/?ref=21ideas.org) и выпущена [версия 0.1](https://github.com/Maguines/Bitcoin-v0.1?ref=21ideas.org) |
+| 11.01.09                 |             | Хэл Финни твитит ["running bitcoin"](https://twitter.com/halfin/status/1110302988?ref=21ideas.org) |
+| 12.01.09                 |    [170](https://www.blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16?ref=21ideas.org)      | Самая первая биткоин-транзакция. Сатоши отправил [10 BTC](https://www.blockstream.info/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16?ref=21ideas.org) Хэлу Финни |
+| 27.01.09                 |    [2016](https://www.blockstream.info/block/00000000a141216a896c54f211301c436e557a8d55900637bbdce14c6c7bddef?ref=21ideas.org)     | Первая корректировка сложности |
+| 05.10.09                 |             | Первый обменный курс на бирже [New Liberty Standart](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate) |
+| 12.10.09                 |    [24835](https://www.blockstream.info/tx/7dff938918f07619abd38e4510890396b1cef4fbeca154fb7aafba8843295ea2?ref=21ideas.org)    | Первый [обмен](https://twitter.com/marttimalmi/status/423455561703624704?ref=21ideas.org) Биткоина на фиатную валюту |
+| 12.10.09                 |             | Создание канала [#bitcoin-dev](https://en.bitcoin.it/wiki/Bitcoin-dev?ref=21ideas.org) на freenode |
+| 16.12.09                 |             | Выпущена [версия 0.2](https://github.com/bitcoin/bitcoin/releases/tag/v0.2.0?ref=21ideas.org) |
+| 22.05.10                 |    [57043](https://www.blockstream.info/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d?ref=21ideas.org)    | [Первая транзакция](https://www.blockstream.info/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d?ref=21ideas.org) для покупки реального товара |
+| 07.07.10                 |             | Выпущена [версия 0.3](https://github.com/bitcoin/bitcoin/releases/tag/v0.3.0?ref=21ideas.org) |
+| 11.07.10                 |             | Статья о Биткоине на [Slashdot](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03?ref=21ideas.org) |
+| 17.07.10                 |             | Запуск [MtGox](https://en.bitcoin.it/wiki/Mt._Gox?ref=21ideas.org) |
+| 28.08.10                 |             | Последний коммит Сатоши ( [343328c](https://github.com/bitcoin/bitcoin/commit/343328c6b8db85e58a1feea85f0d10e62967fa19?ref=21ideas.org) ) |
+| 14.07.10                 |             | Первый коммит Гэвина Андресена ( [8bd6620](https://github.com/bitcoin/bitcoin/commit/8bd66202c324a6c7a79abc0f1f0558dacbc59460?ref=21ideas.org) ) |
+| 19.07.10                 |             | Гэвином Андресеном выпущена [версия 0.3.1](https://github.com/bitcoin/bitcoin/releases/tag/v0.3.1?ref=21ideas.org) |
+| 10.12.10                 |             | Первая статья в популярном журнале [PC World](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html?ref=21ideas.org) |
+| 12.12.10                 |    ~[97230](https://www.blockstream.info/block/00000000000481918fda8902eb7461bb46a69d041795ad565e4c447109f49eb8?ref=21ideas.org)   | [Последнее опубликованное сообщение](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/543/?ref=21ideas.org) [^2] Сатоши |
 
 {{< hint btc >}}
 С важнейшими историческими вехами Биткоина можно ознакомиться, установив [Биткоин-календарь](https://www.21ideas.org/bitcoin-calendar/).
@@ -148,7 +170,17 @@ _Тревор Джонс. Портрет Дориана Накамото_
 
 Так сложилось, что спустя чуть более двух лет, 12 декабря 2010 года, Сатоши исчез. Некоторыми из его последних замечаний были следующие: "проект находится в надежных руках" и "я переключился на другие дела". Накануне исчезновения Сатоши были запущены два из наиболее известных проекта в ранней истории Биткоина: Mt. Gox и Silk Road. Происхождение обоих иначе как волшебным не назвать: один имел дело с магическими картами, другой – с магическими грибами.
 
-{{% image src="/img/0006.jpg" /%}}
+|     Дата    |     Блок    |   Событие   |
+| ----------- | ----------- | ----------- |
+| 27.02.11  |             | Запуск [Silk Road](https://gwern.net/silk-road?ref=21ideas.org) |
+| 26.04.11  |             | Последняя [личная переписка](https://web.archive.org/web/20190822205354/https://nakamotostudies.org/emails/satoshis-final-email-to-gavin-andresen/) Сатоши |
+| 01.06.11  |             | [Gawker](https://archive.is/JhVAw?ref=21ideas.org) опубликовал статью о Silk Road |
+| 15.01.12  |             | Первое появление биткоина на [телевидении](https://archive.is/EeRNM?ref=21ideas.org) (сериал ["Хорошая жена"](https://www.imdb.com/title/tt2148561/?ref=21ideas.org)) |
+| 28.11.12  |    [210000](https://www.blockstream.info/block/000000000000048b95347e83192f69cf0366076336c639f9b7228e9ba171342e?ref=21ideas.org)         | Первый [халвинг](https://en.bitcoin.it/wiki/Controlled_supply?ref=21ideas.org) |
+| 02.10.13  |   ~[261348](https://www.blockstream.info/block/000000000000000fc8e83356e4e494cb21cd412721d336725c94dccd6d7cac4b?ref=21ideas.org)         | Арест [Росса Ульбрихта](https://freeross.org/?ref=21ideas.org) и последующее закрытие Silk Road |
+| 18.11.13  |             | [Первое слушание](https://archive.is/xW8gw?ref=21ideas.org) в Сенате США по поводу биткоина |
+| 05.12.13  |             | Первый ["бан"](https://archive.is/t4wX5?ref=21ideas.org) Биткоина в [Китае](https://archive.is/qDFCX?ref=21ideas.org) |
+| 24.02.14  |             | MtGox объявила о банкротстве |
 
 
 ## Магические карты: Эпоха Mt.Gox
