@@ -19,3 +19,4 @@ weight: 4
 8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
 9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
 10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
+11. [Что такое Taproot и какую пользу он принесет Биткоину?](/taproot)

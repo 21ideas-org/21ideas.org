@@ -70,3 +70,4 @@ weight: 1
 - [Биткоин и интернет-циклы Хопфа](/bitcoin-i-internet-cikly-hopfa)
 - [Деньги, блокчейны и социальная масштабируемость](/dengi-blokchejny-i-socialnaya-masshtabiruemost)
 - [Что такое деньги](/chto-takoe-dengi)
+- [Выживает сильнейший](/vyzhivaet-silnejshij)
