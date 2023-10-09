@@ -18,7 +18,7 @@ weight: 1
 {{< /expand >}}
 
 {{< hint btc >}}
-Перевод [статьи]([https://dergigi.com/2022/04/03/inalienable-property-rights/](https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin/)) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод [статьи](https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin/) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 На некоторые вопросы есть простые ответы. "Чему вы научились у Биткоина?" к ним не относится. Попытавшись ответить на этот вопрос в коротком твите и потерпев неудачу, я понял, что узнал слишком многое, чтобы ответить кратко, если это вообще возможно. Я также осознал, что набор ответов на этот вопрос у каждого будет разный - это отражение очень личного пути по чудесному миру криптографии. Отсюда и заголовок этой серии  "Чему я научился у Биткоина". Таким образом я хочу подчеркнуть присущую мне личную предвзятость при ответе на подобный вопрос.
