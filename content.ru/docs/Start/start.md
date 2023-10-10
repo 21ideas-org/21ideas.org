@@ -5,6 +5,7 @@ cover: /img/start/01.svg
 tags: ["биткоин", "основы"]
 description: "Базовый гид по Биткоину."
 url: /start/start
+aliases: ['/basics-bitcoin-guide-theory']
 date: 2022-12-06
 bookFlatSection: false
 bookToc: true
