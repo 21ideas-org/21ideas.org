@@ -24,6 +24,9 @@ weight: 5
 
 ![onchain](/img/0.jpeg)
 
+---
+
+Вы также можете поддержать проект ончейн, перейдя на нашу [страничку](https://tallycoin.app/@21ideas/) на Tallycoin.
 <---> 
 
 ## Лайтнинг
@@ -33,10 +36,17 @@ _[tony@bitcoin-herald.org](lightning:tony@bitcoin-herald.org)_
   
 ![ln-qr](/img/1.png)
 
+---
+
+[Этот гид](/zapplanner) поможет настроить регулярные платежи в фонд проекта.
+
+---
+
+У проекта также есть [страничка](https://geyser.fund/project/21ideas) на Geyser.
 <---> 
 
 ## Другое
-Также можно поддержать проект другими способами. Обратитесь по одному из этих контактов, чтобы получить необходимые реквизиты: 
+Поддержать проект можно и другими способами. Обратитесь по одному из следующих контактов, чтобы получить необходимые реквизиты: 
 
 Телеграм: [@Tony_Lightning](https://t.me/Tony_Lightning)
 
@@ -44,6 +54,8 @@ Email: [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
 
 Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /columns >}}
+
+---
 
 Вы также можете указать цель, на которую вы бы хотели определить отправленные средства - будь то перевод или написание определенной статьи, либо какие-либо улучшения ресурса. Подробнее об этом - в [README](https://github.com/21ideas-org/21ideas.org#readme) файле на нашем GitHub.
 
