@@ -1,7 +1,6 @@
 ---
 author: "Тони"
 date: 2023-10-11
-linktitle: "Квартальный отчет 21ideas"
 list_description: "Квартальный отчет об открытии искходного кода образовательного биткоин-проекта 21ideas."
 menu:
   main:
@@ -9,11 +8,11 @@ menu:
 next: /blog/
 prev: /blog/drivechains
 title: "Квартальный отчет 21ideas"
+h1: "Квартальный отчет 21ideas"
+cover: https://i.nostr.build/az7q.jpg
 description: "Квартальный отчет об открытии искходного кода образовательного биткоин-проекта 21ideas."
 weight: 10
 ---
-
-![cover](https://i.nostr.build/az7q.jpg)
 
 Квартальный отчет об открытии исходного кода образовательного биткоин-проекта 21ideas.
 
