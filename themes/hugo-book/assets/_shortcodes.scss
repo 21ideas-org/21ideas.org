@@ -94,6 +94,8 @@
 
   // {{< hint >}}
   .book-hint {
+    overflow-wrap: break-word;
+    
     @each $name, $color in $hint-colors {
       &.#{$name} {
         border-color: $color;
