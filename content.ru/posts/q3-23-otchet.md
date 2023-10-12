@@ -7,6 +7,7 @@ menu:
     parent: blog
 next: /blog/
 prev: /blog/drivechains
+cover: /img/q3-23-cover.jpeg
 title: "Квартальный отчет 21ideas"
 h1: "Квартальный отчет 21ideas"
 cover: https://i.nostr.build/az7q.jpg
