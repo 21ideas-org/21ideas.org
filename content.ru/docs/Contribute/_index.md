@@ -4,6 +4,12 @@ bookCollapseSection: true
 type: docs
 url: contribute
 weight: 5
+bookhidden: true
+menu:
+  after:
+    weight: 2
+    params:
+      children: true
 ---
 
 # Делитесь знаниями

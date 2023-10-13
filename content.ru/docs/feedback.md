@@ -6,6 +6,10 @@ bookCollapseSection: false
 type: docs
 url: feedback
 weight: 9
+bookhidden: true
+menu:
+  after:
+    weight: 6
 ---
 
 Есть предложения по улучшению контента и сотрудничеству? Хотите оставить фидбэк? Не можете найти ответ на интересующий вас вопрос? Пишите:
