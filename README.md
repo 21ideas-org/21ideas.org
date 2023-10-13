@@ -94,4 +94,7 @@
 | -5,000 | [byzgeneral](https://github.com/byzgeneral) | [Правки для 21 способ и добавление статьи "Был ли Сатоши жадным майнером"](https://github.com/21ideas-org/21ideas.org/pull/121) | 758,000 |
 | - 42,000 | [btclinux](https://github.com/btclinux) | [Добавление 7 сатаей, правки большинства оставшихся ссылок](https://github.com/21ideas-org/21ideas.org/pull/122) | 716,000 |
 | - 5,000 | [btclinux](https://github.com/btclinux) | [Добавление 4 сатаей](https://github.com/21ideas-org/21ideas.org/pull/123) | 711,000 |
+| - 210,000 | [fr4nzap](https://github.com/fr4nzap) | Работа над [Zapthreads](https://github.com/fr4nzap/zapthreads), который позволит добавить комментарии к библиотеке. | 501,000 |
+| - 2,100 | [Radiokot](https://github.com/Radiokot) | [Фикс горизонтального скроллинга в случае длинных записей в подсказках (hints)](https://github.com/21ideas-org/21ideas.org/pull/135) | 498,900 |
+
 
