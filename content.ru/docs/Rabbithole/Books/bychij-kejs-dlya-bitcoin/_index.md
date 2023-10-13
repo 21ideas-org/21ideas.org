@@ -5,6 +5,7 @@ cover: /img/bkb-469.png
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Эта книга будет очень полезна новичкам для понимания значимости Биткоина и основных механизмов его работы."
 url: bychij-kejs-dlya-bitcoin
+aliases: ['/books-bc4b']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

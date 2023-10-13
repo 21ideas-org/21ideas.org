@@ -4,6 +4,7 @@ h1: "Глава 17: UASF – Активируемый пользователям
 cover: /img/vrb-449.jpeg
 description: "Идея о том, что Активируемый пользователями софтфорк (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года..."
 url: vojna-za-razmer-bloka/glava-17
+aliases: ['/book-the-blocksize-war-chapter-17']
 date: 2021-03-11
 bookFlatSection: false
 weight: 17

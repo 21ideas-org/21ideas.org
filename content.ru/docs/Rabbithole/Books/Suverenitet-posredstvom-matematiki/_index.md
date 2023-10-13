@@ -5,6 +5,7 @@ cover: /img/149.png
 tags: ["книга", "новичкам", "основы"]
 description: "Книга о Биткоине, которая отлично подойдет для новичков."
 url: suverenitet-posredstvom-matematiki
+aliases: ['/book-stm']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

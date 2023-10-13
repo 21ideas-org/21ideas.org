@@ -4,6 +4,7 @@ h1: "Выживает сильнейший"
 cover: /img/vs-795.png
 description: "В этой работе мы обсуждаем наши опасения по поводу более широкого пространства &quot;криптовалют&quot; за пределами Биткоина. Наши аргументы вращаются вокруг трех основных аспектов: Философского, Технического и Экономического."
 url: vyzhivaet-silnejshij
+aliases: ['/theory-finance-only-the-strong-survive']
 date: 2021-09-19
 bookFlatSection: false
 bookToc: true

@@ -4,6 +4,7 @@ h1: "Браузерное расширение Alby: оптимизируйте 
 cover: /img/alb-363.png
 description: "Cегодня я бы хотел поделиться с вами гидом по двум очень интересным и полезным приложениям. Это универсальное браузерное расширение Alby и клиент для взаимодействия с протоколом Nostr под названием Nostrgram."
 url: alby-i-nostr
+aliases: ['/practical-alby-and-nostr']
 date: 2023-02-17
 bookFlatSection: false
 bookToc: true

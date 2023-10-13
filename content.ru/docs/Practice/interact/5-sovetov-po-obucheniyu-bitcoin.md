@@ -5,6 +5,7 @@ cover: /img/5sov-807.jpg
 tags: ["биткоин"]
 description: "Принять Биткоин и осознать его значимость для себя несложно, но поделиться своими знаниями с другими – не такое уж и простое задание. Предлагаю ознакомиться с инструкцией, как поделиться своим энтузиазмом к Биткоину с теми, кто вам дорог."
 url: 5-sovetov-po-obucheniyu-bitcoin
+aliases: ['/theory-philosophy-how-to-orangepill']
 date: 2022-09-23
 bookFlatSection: false
 weight: 4

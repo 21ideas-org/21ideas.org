@@ -4,6 +4,7 @@ h1: "Глава 4: Непорочное зачатие"
 tags: ["книга", "новичкам", "основы"]
 description: "Четвертая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-4
+aliases: ['/book-stm-chapter-4']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

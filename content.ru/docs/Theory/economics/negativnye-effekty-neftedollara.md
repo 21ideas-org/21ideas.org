@@ -4,6 +4,7 @@ h1: "Негативные внешние эффекты нефтедоллара
 cover: /img/nen-502.jpeg
 description: "Вся правда о нефтедолларе (petrodollar), которая тебя удивит."
 url: negativnye-effekty-neftedollara
+aliases: ['/theory-economics-petrodollar-negative-effects']
 date: 2021-04-28
 bookFlatSection: false
 weight: 57

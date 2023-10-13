@@ -5,6 +5,7 @@ cover: /img/31.png
 tags: ["биткоин", "покупка", "no-kyc", "приватность", "безопасность"]
 description: "Лучший способ покупки биткоинов, не требующий документов."
 url: hodl-hodl
+aliases: ['/practical-hodl-hodl-guide']
 date: 2022-02-21
 bookFlatSection: false
 bookToc: true

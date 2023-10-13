@@ -5,6 +5,7 @@ cover: /img/125.svg
 tags: ["биткоин", "хранение", "покупка", "ключи", "безопасность"]
 description: "Базовый гид по взаимодействию с биткоином."
 url: start/guide
+aliases: ['/basics-bitcoin-guide-practical']
 date: 2022-12-06
 bookFlatSection: false
 bookToc: true

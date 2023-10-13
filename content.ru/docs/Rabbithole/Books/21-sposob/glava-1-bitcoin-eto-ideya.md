@@ -4,6 +4,7 @@ h1: "Глава 1. Биткоин – это идея"
 tags: ["биткоин", "идея", "bitcoin", "proof-of-work"]
 description: "Биткоин – это идея, время которой пришло."
 url: 21-sposob/glava-1-bitcoin-eto-ideya
+aliases: ['/books-21-ways-chapter-1']
 cover: /img/01.jpeg
 date: 2021-06-14
 bookToc: true

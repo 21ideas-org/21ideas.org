@@ -4,6 +4,7 @@ h1: "Proof of Work: доказательство проделанной рабо
 cover: /img/pow-608.png
 description: "Алгоритм Proof of Work — это то, что связывает мир цифровых денег с физическим миром, не требуя при этом доверия третьей стороне."
 url: proof-of-work
+aliases: ['/theory-protocol-pow']
 date: 2020-12-07
 bookFlatSection: false
 bookToc: true

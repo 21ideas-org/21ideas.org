@@ -5,6 +5,7 @@ cover: /img/148.png
 tags: ["книга", "новичкам", "основы"]
 description: "Книга о Биткоине, которая отлично подойдет для новичков."
 url: izobretaem-bitkoin
+aliases: ['/book-inventing-bitcoin']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

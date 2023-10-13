@@ -4,6 +4,7 @@ h1: "Никаких KYC! Избегай крадущейся твари"
 cover: /img/188.jpeg
 description: "Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?"
 url: privacy/no-kyc
+aliases: ['/privacy-no-kyc']
 date: 2020-02-18
 bookFlatSection: false
 weight: 2

@@ -4,6 +4,7 @@ h1: "Полноценный курс “Биткоин от А до Я”"
 cover: /img/kurs-508.jpg
 description: "Полноценный курс, который поможет разобраться в основах Биткоина."
 url: kurs
+aliases: ['/basics-bitcoin-course']
 date: 2022-09-14
 bookFlatSection: false
 bookToc: true

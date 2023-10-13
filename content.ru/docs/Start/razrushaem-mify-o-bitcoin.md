@@ -4,6 +4,7 @@ h1: "Разрушаем мифы о Биткоине"
 cover: /img/rmb-675.jpg
 description: "Целью данного материала является краткий пошаговый ответ на каждое из данных заблуждений с предоставлением ссылок на более детальные исследования по актуальным на сегодняшний день темам."
 url: razrushaem-mify-o-bitcoin
+aliases: ['/basics-bitcoin-mythbusters']
 date: 2021-11-19
 bookFlatSection: false
 bookToc: true

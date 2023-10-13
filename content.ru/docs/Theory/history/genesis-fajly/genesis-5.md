@@ -5,6 +5,7 @@ cover: /img/gf-245.png
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Криптограф-новатор Хэл Финни увидел необходимость в неотслеживаемой форме цифровых денег, и его работа в конечном итоге способствовала созданию Биткоина."
 url: gf/genesis-5
+aliases: ['/theory-hyperbitcoinization-genesis-files-5-hal-finney']
 date: 2018-08-28
 bookFlatSection: false
 bookToc: true

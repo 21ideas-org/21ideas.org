@@ -4,6 +4,7 @@ h1: "Глава 3: Proof of Work"
 tags: ["книга", "новичкам", "основы"]
 description: "Система лотереи, разработанная нами на данный момент, имеет две основные проблемы..."
 url: izobretaem-bitkoin/glava-3
+aliases: ['/book-inventing-bitcoin-chapter-3']
 date: 2019-06-17
 bookFlatSection: false
 bookToc: true

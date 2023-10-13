@@ -4,6 +4,7 @@ h1: "Глава 21: Победа"
 cover: /img/vrb-453.jpeg
 description: "Эта война может быть лишь пробным шагом к грядущим испытаниям, когда основные бенефициары централизованно контролируемых денежных систем наконец-то осознают потенциал таких денег и это может им не понравиться..."
 url: vojna-za-razmer-bloka/glava-21
+aliases: ['/book-the-blocksize-war-chapter-21']
 date: 2021-03-11
 bookFlatSection: false
 weight: 21

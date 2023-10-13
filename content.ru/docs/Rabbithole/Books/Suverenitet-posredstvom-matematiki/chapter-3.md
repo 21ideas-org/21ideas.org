@@ -4,6 +4,7 @@ h1: "Глава 3: Доверчивость"
 tags: ["книга", "новичкам", "основы"]
 description: "Третья глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-3
+aliases: ['/book-stm-chapter-3']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

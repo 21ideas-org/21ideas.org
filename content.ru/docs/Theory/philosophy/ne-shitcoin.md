@@ -5,6 +5,7 @@ cover: /img/178.png
 tags: ["биткоин", "не щиткоины", "максимализм", "proof-of-work", "альткоин"]
 description: "Почему не стоит тратить свое время и деньги на альтернативные криптопроекты. Почему биткоин - это единственный правильный выбор?"
 url: ne-shitcoin
+aliases: ['/theory-philosophy-bitcoin-not-shitcoin']
 date: 2021-06-11
 bookToc: true
 bookFlatSection: false

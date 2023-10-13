@@ -5,6 +5,7 @@ cover: /img/bkb-480.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Как формируются и монетизируются деньги. Почему инвестировать в биткоин еще не поздно? Как избежать покупки биткоина по завышенной цене?"
 url: bychij-kejs-dlya-bitcoin/glava-4
+aliases: ['/books-bc4b-chapter-4']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

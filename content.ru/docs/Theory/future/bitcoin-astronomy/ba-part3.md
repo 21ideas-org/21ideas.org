@@ -5,6 +5,7 @@ cover: /img/ba-638.jpg
 tags: ["биткоин", "лайтнинг", "масштабирование", "будущее", "блокчейн"]
 description: "Это третья часть из серии спекуляций о гипербиткоинизированном будущем."
 url: ba/3
+aliases: ['/theory-hyperbitcoinization-bitcoin-astronomy-pt3']
 date: 2021-03-08
 bookToc: true
 bookFlatSection: false

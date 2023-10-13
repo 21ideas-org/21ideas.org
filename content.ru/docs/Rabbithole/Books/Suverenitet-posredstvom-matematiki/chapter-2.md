@@ -4,6 +4,7 @@ h1: "Глава 2: Финансовый атеизм"
 tags: ["книга", "новичкам", "основы"]
 description: "Вторая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-2
+aliases: ['/book-stm-chapter-2']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

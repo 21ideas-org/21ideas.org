@@ -4,6 +4,7 @@ h1: "Манифест криптоанархиста"
 cover: /img/mk-498.jpg
 description: "В 1988 году Тимоти Мэй выступил на конференции “Crypto 88” с “Манифестом криптоанархиста”, поясняющим его видение проблем, решаемых криптографией, и целей, стоящих перед сообществом шифропанков..."
 url: manifest-kriptoanarhista
+aliases: ['/theory-philosophy-the-crypto-anarchist-manifesto']
 date: 1992-11-22
 bookFlatSection: false
 weight: 53

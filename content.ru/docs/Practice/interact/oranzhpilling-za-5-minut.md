@@ -5,6 +5,7 @@ cover: /img/op-709.png
 tags: ["биткоин"]
 description: "Что делать, если на вечеринке или в кругу друзей вам задали краткий вопрос: “Что такое Биткоин?” – подразумевающий *очень* объемный ответ?"
 url: oranzhpilling-za-5-minut
+aliases: ['/philosophy-orangepilling-in-5-min']
 date: 2023-01-21
 bookFlatSection: false
 weight: 3

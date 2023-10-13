@@ -4,6 +4,7 @@ h1: "Все — мошенники"
 cover: /img/scam-576.gif
 description: "Бонни и Клайд не могут просто взять и ограбить первый национальный блокчейн. Они могут взломать серверы и незашифрованные файлы кошельков, или сканировать “brain wallet” кошельки с низкой энтропией."
 url: vse-moshenniki
+aliases: ['/theory-philosophy-everyone-is-a-scammer']
 date: 2014-09-11
 bookFlatSection: false
 weight: 56

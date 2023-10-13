@@ -4,6 +4,7 @@ h1: "Глава 1: Вся наша жизнь — торговля"
 tags: ["книга", "новичкам", "основы"]
 description: "Первая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-1
+aliases: ['/book-stm-chapter-1']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

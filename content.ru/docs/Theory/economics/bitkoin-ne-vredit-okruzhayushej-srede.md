@@ -5,6 +5,7 @@ cover: /img/155.png
 tags: ["биткоин", "окружающая среда", "pow", "proof-of-work"]
 description: "Биткоин не вредит окружающей среде. Фиатные же валюты пагубно влияют на использование энергоресурсов."
 url: bitkoin-ne-vredit-okruzhayushej-srede
+aliases: ['/theory-bitcoin-is-not-harmful-for-the-environment']
 date: 2021-04-12
 bookFlatSection: false
 weight: 51

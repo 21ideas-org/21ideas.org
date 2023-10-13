@@ -4,6 +4,7 @@ h1: "Глава 20: SegWit2x"
 cover: /img/vrb-452.jpeg
 description: "В августе 2017 года, когда внедрение SegWit было уже необратимым, пришло время активизировать кампанию против второго этапа. На тот момент, в отличие от начала войны, на стороне малых блоков было явное и сильное большинство пользователей..."
 url: vojna-za-razmer-bloka/glava-20
+aliases: ['/book-the-blocksize-war-chapter-20']
 date: 2021-03-11
 bookFlatSection: false
 weight: 20
