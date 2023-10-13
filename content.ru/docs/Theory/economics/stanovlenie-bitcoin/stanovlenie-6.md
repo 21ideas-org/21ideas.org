@@ -4,6 +4,7 @@ h1: "Становление Биткоина Часть 6. Цифровые ко
 cover: /img/sb-346.jpg
 description: "В шестой части серии статей “Становление Биткоина” мы будем опираться на идею использования цифровых головоломок как способа воспроизведения редкости и на важность механизма контроля потока."
 url: sb/stanovlenie-6
+aliases: ['/theory-economics-discovering-bitcoin-pt6']
 date: 2019-09-21
 bookFlatSection: false
 weight: 7

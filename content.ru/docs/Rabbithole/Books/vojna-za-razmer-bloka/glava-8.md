@@ -4,6 +4,7 @@ h1: "Глава 8: Круглый стол в Гонконге"
 cover: /img/vrb-440.jpeg
 description: "...я проверил свой телефон, просмотрел сабреддит /r/btc и наткнулся на сообщение о встрече майнеров и разработчиков в Гонконге для обсуждения масштабирования Биткоина."
 url: vojna-za-razmer-bloka/glava-8
+aliases: ['/book-the-blocksize-war-chapter-8']
 date: 2021-03-11
 bookFlatSection: false
 weight: 8

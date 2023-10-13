@@ -4,6 +4,7 @@ h1: "Глава 10: Окружающая среда"
 tags: ["книга", "новичкам", "основы"]
 description: "Десятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-10
+aliases: ['/book-stm-chapter-10']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

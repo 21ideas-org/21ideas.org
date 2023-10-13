@@ -5,6 +5,7 @@ cover: /img/come-and-take-it-2.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "инфляция"]
 description: "Бананы растут на деревьях. Деньги — нет, а биткоин — это сила, которая пробуждает всех к той реальности, которая всегда была реальностью."
 url: pzv/bitkoin-eto-zdravyj-smysl
+aliases: ['/theory-economics-bitcoin-is-common-sense']
 date: 2020-05-01
 bookFlatSection: false
 bookToc: true

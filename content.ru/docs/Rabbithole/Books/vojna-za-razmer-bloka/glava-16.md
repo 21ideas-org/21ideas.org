@@ -4,6 +4,7 @@ h1: "Глава 16: Litecoin"
 cover: /img/vrb-448.jpeg
 description: "Одной из стратегий, обсуждавшихся в &quot;Логове драконов&quot; в этот период, была активация SegWit на Litecoin — альтернативной монете, часто рассматриваемой в качестве близкого родственника Биткоина..."
 url: vojna-za-razmer-bloka/glava-16
+aliases: ['/book-the-blocksize-war-chapter-16']
 date: 2021-03-11
 bookFlatSection: false
 weight: 16

@@ -5,6 +5,7 @@ cover: /img/221.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "волатильность"]
 description: "Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков."
 url: pzv/bitkoin-ne-slishkom-volatilen
+aliases: ['/theory-economics-bitcoin-is-not-too-volatile']
 date: 2019-08-09
 bookFlatSection: false
 bookToc: true

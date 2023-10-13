@@ -5,6 +5,7 @@ cover: /img/bitcoin-arrest.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "блокировка", "запрет"]
 description: "Любая попытка запретить Биткоин или жестко регулировать его использование в любой юрисдикции принесет непосредственную пользу конкурирующей юрисдикции"
 url: pzv/bitkoin-ne-mozhet-byt-zabanen
+aliases: ['/theory-economics-bitcoin-cant-be-banned']
 date: 2019-11-08
 bookFlatSection: false
 bookToc: true

@@ -4,6 +4,7 @@ h1: "Биткоин — современная голландская тюльп
 cover: /img/th-499.png
 description: "Если бы вы могли использовать тюльпаны, чтобы мгновенно передать ценность кому угодно в любую точку мира, вне зависимости от того, функционирует ли их правительство или банковская система..."
 url: tyulpannaya-lihoradka
+aliases: ['/theory-philosophy-is-bitcoin-like-dutch-tulip-mania']
 date: 2020-02-27
 bookFlatSection: false
 weight: 55

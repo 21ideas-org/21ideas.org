@@ -4,6 +4,7 @@ h1: "Глава 8: Изменение правил"
 tags: ["книга", "новичкам", "основы"]
 description: "Восьмая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-8
+aliases: ['/book-stm-chapter-8']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

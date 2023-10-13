@@ -4,6 +4,7 @@ h1: "Хозяева и рабы денег"
 cover: /img/hrd-406.jpg
 description: "Деньги — это инструмент для торговли человеческим временем. Центральные банки, современные хозяева денег, используют его как оружие, чтобы красть время своих граждан и навязывать им неравное распределение богатств."
 url: hozyaeva-i-raby-deneg
+aliases: ['/theory-economics-masters-and-slaves-of-money']
 date: 2020-07-05
 bookFlatSection: false
 bookToc: true

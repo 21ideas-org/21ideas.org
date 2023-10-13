@@ -8,6 +8,7 @@ description: "Будет логичным осознанно искать бол
 2) деньги не являются коллективной галлюцинацией,
 3) экономические системы стремятся к единой денежной среде."
 url: pzv/bitkoin-obescenivaet-ostalnye-dengi
+aliases: ['/theory-economics-bitcoin-obsoletes-all-other-money']
 date: 2020-01-24
 bookFlatSection: false
 bookToc: true

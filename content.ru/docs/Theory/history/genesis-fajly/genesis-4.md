@@ -5,6 +5,7 @@ cover: /img/gf-243.png
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Цифровая валюта, деньги для интернета, всегда была главной целью шифропанков. Но мало кто погружался в эту тему так глубоко, как Ник Сабо."
 url: gf/genesis-4
+aliases: ['/theory-hyperbitcoinization-genesis-files-4-nic-sabo']
 date: 2018-07-12
 bookFlatSection: false
 bookToc: true

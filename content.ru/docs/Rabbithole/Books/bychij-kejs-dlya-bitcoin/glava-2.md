@@ -5,6 +5,7 @@ cover: /img/bkb-475.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Когда различные средства сбережения  конкурируют друг с другом, ряд атрибутов определяет победителя, спрос на которого будет увеличиваться."
 url: bychij-kejs-dlya-bitcoin/glava-2
+aliases: ['/books-bc4b-chapter-2']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

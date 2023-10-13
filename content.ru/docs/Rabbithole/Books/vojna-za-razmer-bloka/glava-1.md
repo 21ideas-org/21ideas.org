@@ -4,6 +4,7 @@ h1: "Глава 1: Первый удар"
 cover: /img/vrb-433.jpeg
 description: "Cобытие, заставшее многих в Биткоин-пространстве врасплох и потрясшее сообщество, произошло в субботу, 15 августа 2015 года."
 url: vojna-za-razmer-bloka/glava-1
+aliases: ['/book-the-blocksize-war-chapter-1']
 date: 2021-03-11
 bookFlatSection: false
 weight: 1

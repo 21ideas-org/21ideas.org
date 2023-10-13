@@ -5,6 +5,7 @@ cover: /img/bitcoin-pyramid.png
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "пирамида"]
 description: "Биткоин — это не пирамида. Это не продукт подозрительной компании, продвигающей тактику агрессивных продаж. Он не торгует никаким бесполезным потребительским товаром с огромным предложением. Биткоин — это деньги, и его предложение ограничено"
 url: pzv/bitkoin-ne-finansovaya-piramida
+aliases: ['/theory-economics-bitcoin-is-not-a-pyramid-scheme']
 date: 2019-10-18
 bookFlatSection: false
 bookToc: true

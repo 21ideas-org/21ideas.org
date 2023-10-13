@@ -4,6 +4,7 @@ h1: "Proof of Stake – это скам"
 cover: /img/pos-655.jpg
 description: "Proof of Stake (PoS) – это мошенничество. Когда я говорю это, я имею в виду, что PoS 1) заявлен как система консенсуса, и 2) фактически неспособен на самом деле обеспечить консенсус."
 url: proof-of-stake–eto-skam
+aliases: ['/theory-protocol-pos-is-a-scam']
 date: 2021-11-09
 bookFlatSection: false
 bookToc: true

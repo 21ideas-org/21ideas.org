@@ -5,6 +5,7 @@ cover: /img/gf-234.jpg
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Взгляд на то, как технология, лежащая в основе Hashcash – Proof of Work – будет задавать направление исследованиям в области цифровых денег на протяжении более чем десятилетия."
 url: gf/genesis-2
+aliases: ['/theory-hyperbitcoinization-genesis-files-2-adam-back']
 date: 2018-06-04
 bookFlatSection: false
 bookToc: true

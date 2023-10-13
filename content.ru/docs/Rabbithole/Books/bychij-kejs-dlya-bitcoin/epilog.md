@@ -5,6 +5,7 @@ cover: /img/bkb-494.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Что такое Биткоин? Этот, казалось бы, простой вопрос в течение нескольких лет волновал сообщество разработчиков и инвесторов."
 url: bychij-kejs-dlya-bitcoin/epilog
+aliases: ['/books-bc4b-epilogue']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

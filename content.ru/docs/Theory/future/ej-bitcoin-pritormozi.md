@@ -4,6 +4,7 @@ h1: "Эй, Биткоин, притормози"
 cover: /img/hey-846.jpeg
 description: "Сегодня предлагаю заглянуть в будущее и обратить внимание на то, насколько редким является биткоин."
 url: ej-bitcoin-pritormozi
+aliases: ['/theory-hyperbitcoinization-hey-bitcoin-slow-down']
 date: 2020-04-25
 bookFlatSection: false
 weight: 51

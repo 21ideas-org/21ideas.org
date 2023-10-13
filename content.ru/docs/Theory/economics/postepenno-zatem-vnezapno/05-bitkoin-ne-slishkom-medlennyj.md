@@ -5,6 +5,7 @@ cover: /img/bitcoin-circles.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "скорость", "масштабируемость", "платежная система"]
 description: "Немного смешно созерцать проблему, которую Биткоин уже решил, а затем сразу обращаться к мысли “но почему не массовые платежи прямо сегодня?”"
 url: pzv/bitkoin-ne-slishkom-medlennyj
+aliases: ['/theory-economics-bitcoin-is-not-too-slow']
 date: 2019-08-23
 bookFlatSection: false
 bookToc: true

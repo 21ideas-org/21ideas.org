@@ -5,6 +5,7 @@ cover: /img/bkb-470.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Многие, когда слышат о Биткоине, зачастую формируют о нем собственное мнение, даже не пытаясь понять, чем он является на самом деле..."
 url: bychij-kejs-dlya-bitcoin/predislovie
+aliases: ['/books-bc4b-foreword']
 date: 2021-05-08
 bookFlatSection: false
 weight: 1

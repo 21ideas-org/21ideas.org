@@ -4,6 +4,7 @@ h1: "Сможет ли Биткоин пережить апокалипсис?"
 cover: /img/apo-555.png
 description: "Может ли Биткоин выжить, подобно таракану, или всемирный коллапс приведет к неизбежной его гибели?"
 url: apokalipsis
+aliases: ['/theory-hyperbitcoinization-can-bitcoin-survive-an-apocalypse']
 date: 2021-12-25
 bookFlatSection: false
 bookToc: true

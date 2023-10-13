@@ -5,6 +5,7 @@ cover: /img/173.jpeg
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Биткоин не возник в одночасье из ниоткуда. Первая статья из серии, посвященной предыстории Биткоина."
 url: gf/genesis-intro
+aliases: ['/theory-hyperbitcoinization-the-day-cryptography-changed-forever']
 date: 2020-01-06
 bookFlatSection: false
 weight: 1

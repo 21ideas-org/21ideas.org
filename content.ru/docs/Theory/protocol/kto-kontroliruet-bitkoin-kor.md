@@ -5,6 +5,7 @@ cover: /img/194.jpeg
 tags: ["биткоин", "протокол", "pow", "proof-of-work"]
 description: "Кто управляет разработкой Биткоина? Что если кто-то решит незаметно изменить его правила? Как убедиться, что никто не поломает Bitcoin?"
 url: kto-kontroliruet-bitkoin-kor
+aliases: ['/theory-protocol-who-controls-bitcoin-core']
 date: 2018-12-15
 bookFlatSection: false
 bookToc: true

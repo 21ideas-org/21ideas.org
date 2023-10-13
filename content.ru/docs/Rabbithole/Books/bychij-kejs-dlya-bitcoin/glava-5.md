@@ -5,6 +5,7 @@ cover: /img/bkb-486.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Глава сосредотачивается на на наиболее распространенных заблуждениях относительно биткоина как революционного денежного товара."
 url: bychij-kejs-dlya-bitcoin/glava-5
+aliases: ['/books-bc4b-chapter-5']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

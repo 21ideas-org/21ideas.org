@@ -4,6 +4,7 @@ h1: "Глава 7: Bitcoin Classic"
 cover: /img/vrb-439.jpeg
 description: "К концу 2015 года война стала заметно интенсивнее..."
 url: vojna-za-razmer-bloka/glava-7
+aliases: ['/book-the-blocksize-war-chapter-7']
 date: 2021-03-11
 bookFlatSection: false
 weight: 7

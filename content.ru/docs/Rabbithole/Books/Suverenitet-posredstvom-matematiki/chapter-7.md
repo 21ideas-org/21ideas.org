@@ -4,6 +4,7 @@ h1: "Глава 7: Ходл Он"
 tags: ["книга", "новичкам", "основы"]
 description: "Седьмая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-7
+aliases: ['/book-stm-chapter-7']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

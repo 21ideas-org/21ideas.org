@@ -5,6 +5,7 @@ cover: /img/bitcoin-blue.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "блокчейн", "теория"]
 description: "В конечном счете, блокчейн полезен только в качестве денежного протокола, потому что он зависит от привязанной валюты для обеспечения безопасности. Биткоин представляет собой блокчейн на порядок безопаснее остальных"
 url: pzv/bitkoin-ne-blokchejn
+aliases: ['/theory-economics-bitcoin-not-blockchain']
 date: 2019-09-06
 bookFlatSection: false
 bookToc: true
