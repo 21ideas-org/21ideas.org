@@ -5,6 +5,7 @@ cover: /img/gts-17-1.png
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "инфляция", "акции", "сбережения"]
 description: "Представьте себе мир, в котором миллиарды людей, использующие общую валюту, могут сосредоточиться на создании ценности для окружающих, а не беспокоиться о финансовых вкладах и заработке все большего количества денег."
 url: pzv/bitkoin-velikaya-definancializaciya
+aliases: ['/theory-economics-bitcoin-is-definancialization']
 date: 2020-12-23
 bookFlatSection: false
 bookToc: true

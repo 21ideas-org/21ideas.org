@@ -5,6 +5,7 @@ cover: /img/bkb-472.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "До 2008 года не было возможности передать ценность на расстоянии, не полагаясь на доверенного посредника. Сатоши Накамото решил эту проблему."
 url: bychij-kejs-dlya-bitcoin/glava-1
+aliases: ['/books-bc4b-chapter-1']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

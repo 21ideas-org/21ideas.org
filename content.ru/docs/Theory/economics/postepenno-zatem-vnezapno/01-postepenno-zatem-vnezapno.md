@@ -5,6 +5,7 @@ cover: /img/153.jpeg
 tags: ["биткоин", "экономика"]
 description: "Введение в серию 'Постепенно, затем внезапно', посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое."
 url: pzv/postepenno-zatem-vnezapno
+aliases: ['/theory-economics-gradually-then-suddenly']
 date: 2019-07-26
 bookFlatSection: false
 weight: 1

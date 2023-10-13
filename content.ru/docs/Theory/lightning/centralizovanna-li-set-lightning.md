@@ -4,6 +4,7 @@ h1: "Централизованна ли сеть Lightning?"
 cover: /img/csl-716.png
 description: "По “криптосообществу” начинает гулять миф, согласно которому сеть Молния (Lightning Network) является централизованной. Предлагаю разобраться, так ли это."
 url: centralizovanna-li-set-lightning
+aliases: ['/theory-lightning-is-ln-centralized']
 date: 2022-12-26
 bookFlatSection: false
 weight: 5

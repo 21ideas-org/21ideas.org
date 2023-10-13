@@ -4,6 +4,7 @@ h1: "Глава 19: Bitcoin Cash"
 cover: /img/vrb-451.jpeg
 description: "Всего за несколько недель до дедлайна UASF, назначенного на 1 августа 2017 года, был выпущен новый клиент Bitcoin ABC. В отличие от предыдущих хардфорк-клиентов в нем был установлен фиксированный день активации 1 августа 2017 года, а сигнализация майнеров не предполагалась..."
 url: vojna-za-razmer-bloka/glava-19
+aliases: ['/book-the-blocksize-war-chapter-19']
 date: 2021-03-11
 bookFlatSection: false
 weight: 19

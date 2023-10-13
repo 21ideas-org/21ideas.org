@@ -5,6 +5,7 @@ cover: /img/ba-625.jpg
 tags: ["биткоин", "лайтнинг", "масштабирование", "будущее", "блокчейн"]
 description: "Это вторая часть из серии моих спекуляций о гипербиткоинизированном будущем."
 url: ba/2
+aliases: ['/theory-hyperbitcoinization-bitcoin-astronomy-pt2']
 date: 2020-12-09
 bookToc: true
 bookFlatSection: false

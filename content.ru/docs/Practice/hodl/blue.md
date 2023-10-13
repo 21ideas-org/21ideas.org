@@ -5,6 +5,7 @@ cover: /img/111.png
 tags: ["биткоин", "хранение", "ключи", "безопасность", "кошелек", "мобильный кошелек"]
 description: "Как хранить свои биткоины на мобильном устройстве? Безопасное горячее и холодное хранение биткоина."
 url: blue
+aliases: ['/theory-ln-bluewallet']
 date: 2022-09-06
 bookToc: true
 bookFlatSection: false

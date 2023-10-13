@@ -4,6 +4,7 @@ h1: "Глава 12: Будущее"
 tags: ["книга", "новичкам", "основы"]
 description: "Двенадцатая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-12
+aliases: ['/book-stm-chapter-12']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

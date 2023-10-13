@@ -4,6 +4,7 @@ h1: "Глава 0"
 tags: ["биткоин", "bitcoin", "proof-of-work"]
 description: "Глава 0"
 url: 21-sposob/glava-0
+aliases: ['/books-21-ways-chapter-0']
 cover: /img/08.png
 date: 2022-01-15
 bookToc: true

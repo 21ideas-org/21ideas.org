@@ -5,6 +5,7 @@ cover: /img/bitcoin-fixes-this.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "количественное смягчение", "инфляция", "qe"]
 description: "Биткоин может оказаться хитрым окольным путем обхода экономической системы ФРС, но это может произойти исключительно за счет традиционной системы."
 url: pzv/bitkoin-eto-ispravit
+aliases: ['/theory-economics-bitcoin-fixes-this']
 date: 2019-08-30
 bookFlatSection: false
 bookToc: true

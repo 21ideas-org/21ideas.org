@@ -5,6 +5,7 @@ cover: /img/gf-231.jpeg
 tags: ["биткоин", "история", "шифропанки", "генезис"]
 description: "Корни Биткоина и других криптовалют лежат в этой более ранней и ориентированной на приватность платежной системе для интернета."
 url: gf/genesis-1
+aliases: ['/theory-hyperbitcoinization-genesis-files-1-david-chaum']
 date: 2018-04-24
 bookFlatSection: false
 bookToc: true

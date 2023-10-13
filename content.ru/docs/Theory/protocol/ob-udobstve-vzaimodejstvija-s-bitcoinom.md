@@ -5,6 +5,7 @@ cover: /img/216.png
 tags: ["протокол", "теория", "практика"]
 description: "В Биткоин-пространстве продолжается дискуссия на тему пользовательского опыта (UX). Биткоин до сих пор выглядит странно, неуклюже и порой сложно. Таким же был и, возможно, до сих пор остается интернет"
 url: ob-udobstve-vzaimodejstvija-s-bitcoinom
+aliases: ['/theory-protocol-bitcoin-interaction']
 date: 2020-09-20
 bookFlatSection: false
 bookToc: false

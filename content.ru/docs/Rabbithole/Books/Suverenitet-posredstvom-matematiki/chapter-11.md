@@ -4,6 +4,7 @@ h1: "Глава 11: Новая форма жизни"
 tags: ["книга", "новичкам", "основы"]
 description: "Одиннадцатая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-11
+aliases: ['/book-stm-chapter-11']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

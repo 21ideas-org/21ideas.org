@@ -4,6 +4,7 @@ h1: "Биткоин и ритмы истории"
 cover: /img/brh-583.png
 description: "Вы переживаете особенно мощный период в истории. После глобального финансового кризиса 2008 года мы переживаем то, что Нил Хоу и Уильям Штраус называют «Четвертым Превращением». Заключительный акт драмы, начавшейся сразу после Второй мировой войны."
 url: bitcoin-i-ritmy-istorii
+aliases: ['/theory-philosophy-bitcoin-rhythms-of-history']
 date: 2020-10-29
 bookFlatSection: false
 bookToc: true

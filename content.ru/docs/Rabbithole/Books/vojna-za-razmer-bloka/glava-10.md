@@ -4,6 +4,7 @@ h1: "Глава 10: DAO"
 cover: /img/vrb-442.jpeg
 description: "Летом 2016 года внимание многих участников криптовалютного сообщества начал привлекать проект под названием &quot;DAO&quot;..."
 url: vojna-za-razmer-bloka/glava-10
+aliases: ['/book-the-blocksize-war-chapter-10']
 date: 2021-03-11
 bookFlatSection: false
 weight: 10

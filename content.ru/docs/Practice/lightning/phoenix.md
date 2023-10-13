@@ -5,6 +5,7 @@ cover: /img/134.jpg
 tags: ["биткоин", "хранение", "ключи", "безопасность", "мобильный кошелек", "лайтнинг"]
 description: "Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг."
 url: phoenix
+aliases: ['/practical-phoenix']
 date: 2023-03-02
 bookFlatSection: false
 bookToc: true

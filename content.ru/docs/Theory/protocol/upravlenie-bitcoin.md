@@ -4,6 +4,7 @@ h1: "Управление Биткоином"
 cover: /img/ub-503.gif
 description: "Система управления Биткоином важна, потому что Биткоин является первой успешной, наиболее ликвидной и самой известной криптовалютой."
 url: upravlenie-bitcoin
+aliases: ['/theory-protocol-bitcoin-governance']
 date: 2018-07-09
 bookFlatSection: false
 weight: 55

@@ -4,6 +4,7 @@ h1: "Дорога к рабству"
 cover: /img/dkr-834.png
 description: "Иллюстрированная версия бессмертной работы Фридриха Хайека."
 url: doroga-k-rabstvu
+aliases: ['/book-road-to-serfdom']
 date: 2015-08-07
 bookFlatSection: false
 weight: 51

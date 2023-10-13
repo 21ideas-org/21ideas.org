@@ -4,6 +4,7 @@ h1: "Руководство по управлению ликвидностью �
 cover: /img/lln-263.jpg
 description: "Джейсон Лопп: уроки, полученные при управлении узлом маршрутизации в сети Lightning."
 url: likvidnost-v-lajtning
+aliases: ['/theory-ln-lightning-liquidity-management-guide']
 date: 2021-08-07
 bookToc: true
 bookFlatSection: false

@@ -4,6 +4,7 @@ h1: "Вступление"
 tags: ["книга", "вступление", "новичкам", "основы"]
 description: "Вступление к книге Яна Прицкера Изобретаем Биткоин."
 url: izobretaem-bitkoin/vstuplenie
+aliases: ['/book-inventing-bitcoin-introduction']
 date: 2019-06-17
 bookFlatSection: false
 weight: 1

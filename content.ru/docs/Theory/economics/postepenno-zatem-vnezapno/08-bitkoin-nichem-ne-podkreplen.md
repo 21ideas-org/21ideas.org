@@ -5,6 +5,7 @@ cover: /img/bitcoin-wings.png
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "теория", "количественное смягчение", "qe", "редкость"]
 description: "В конечном счете, Биткоин кое-чем подкреплен, и это именно то, что поддерживает любые деньги. Подробности в статье"
 url: pzv/bitkoin-nichem-ne-podkreplen
+aliases: ['/theory-economics-bicoin-is-not-backed-by-anything']
 date: 2019-09-28
 bookFlatSection: false
 bookToc: true

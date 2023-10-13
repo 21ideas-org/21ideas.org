@@ -4,6 +4,7 @@ h1: "Глава 6: Редкость"
 tags: ["книга", "новичкам", "основы"]
 description: "Шестая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-6
+aliases: ['/book-stm-chapter-6']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

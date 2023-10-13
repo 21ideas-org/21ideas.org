@@ -5,6 +5,7 @@ cover: /img/165.webp
 tags: ["биткоин", "лайтнинг", "масштабирование", "будущее", "блокчейн"]
 description: "Как будет выглядеть Биткоин через сотню лет?"
 url: ba/1
+aliases: ['/theory-hyperbitcoinization-bitcoin-astronomy-pt1']
 date: 2019-09-13
 bookToc: true
 bookFlatSection: false

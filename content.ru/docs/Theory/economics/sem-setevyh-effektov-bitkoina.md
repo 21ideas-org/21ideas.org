@@ -5,6 +5,7 @@ cover: /img/159.jpeg
 tags: ["биткоин", "сетевой эффект", "первая криптовалюта"]
 description: "Перечисленные сетевые эффекты могут сделать Биткоин только сильнее. Конкурентам стоить быть начеку."
 url: sem-setevyh-effektov-bitkoina
+aliases: ['/theory-philosophy-seven-network-effects']
 date: 2015-06-29
 bookFlatSection: false
 weight: 52

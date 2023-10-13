@@ -5,6 +5,7 @@ cover: /img/00000001.png
 tags: ["биткоин", "сатоши", "proof-of-work"]
 description: "Технический анализ поведения майнера, демонстрируемого неким субъектом, который скорее всего и является Сатоши Накамото."
 url: byl-li-satoshi-zhadnym-majnerom
+aliases: ['/theory-protocol-was-satoshi-a-greedy-miner']
 date: 2022-09-16
 bookToc: true
 bookFlatSection: false

@@ -4,6 +4,7 @@ h1: "Глава 18: Нью-Йоркское соглашение"
 cover: /img/vrb-450.jpeg
 description: "22 мая 2017 года в Нью-Йорке состоялась встреча, организованная Барри Силбертом из Digital Currency Group (DCG), направленная на разрешение конфликта. В результате было достигнуто еще одно соглашение. Был опубликован документ, названный Нью-Йоркским соглашением (NYA)..."
 url: vojna-za-razmer-bloka/glava-18
+aliases: ['/book-the-blocksize-war-chapter-18']
 date: 2021-03-11
 bookFlatSection: false
 weight: 18

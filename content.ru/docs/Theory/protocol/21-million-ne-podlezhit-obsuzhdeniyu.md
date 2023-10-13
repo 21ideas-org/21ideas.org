@@ -4,6 +4,7 @@ h1: "21 миллион не подлежит обсуждению"
 cover: /img/21m-603.jpg
 description: "Сохранит ли Биткоин необходимый уровень безопасности, когда вознаграждение майнерам за добытый блок сойдет на нет?"
 url: 21-million-ne-podlezhit-obsuzhdeniyu
+aliases: ['/theory-protocol-21-million']
 date: 2020-04-09
 bookFlatSection: false
 weight: 57
