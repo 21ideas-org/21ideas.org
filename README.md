@@ -96,7 +96,10 @@
 | - 5,000 | [btclinux](https://github.com/btclinux) | [Добавление 4 сатаей](https://github.com/21ideas-org/21ideas.org/pull/123) | 711,000 |
 | - 210,000 | [fr4nzap](https://github.com/fr4nzap) | Работа над [Zapthreads](https://github.com/fr4nzap/zapthreads), который позволит добавить комментарии к библиотеке. | 501,000 |
 | - 2,100 | [Radiokot](https://github.com/Radiokot) | [Фикс горизонтального скроллинга в случае длинных записей в подсказках (hints)](https://github.com/21ideas-org/21ideas.org/pull/135) | 498,900 |
-| -10,000 | [vjik](https://github.com/vjik) | [Улучшение раздела меню](https://github.com/21ideas-org/21ideas.org/pull/143)" | 488,900 |
+| -10,000 | [vjik](https://github.com/vjik) | [Улучшение раздела меню](https://github.com/21ideas-org/21ideas.org/pull/143) | 488,900 |
+| - 42,000 | [btclinux](https://github.com/btclinux) | [Добавление альтернативных ссылок на все статьи](https://github.com/21ideas-org/21ideas.org/pull/146) | 426,900 |
+| - 5,000 | [btclinux](https://github.com/btclinux) | [2 статьи, замена нескольких ссылок](https://github.com/21ideas-org/21ideas.org/pull/147) | 426,900 |
+| +50,000 | [heyalmoo](https://github.com/heyalmoo) | В общий фонд | 958,000 |
 
 
 
