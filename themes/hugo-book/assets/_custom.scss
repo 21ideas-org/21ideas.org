@@ -24,3 +24,17 @@
     display: none;
   }
 }
+
+.book-post {
+  &_cover + h2 {
+    margin-top: 0.8rem;
+  }
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  &_date {
+    color: var(--gray-500);
+    font-size: 0.8em;
+  }
+}
+
