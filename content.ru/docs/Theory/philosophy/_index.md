@@ -32,3 +32,4 @@ weight: 6
 10. [Дорогие крипто- и фиат-бро](/crypto-bro)
 11. [Боремся с поддельными биткоинами и обеспечиваем редкость монет](/boremsya-s-poddelnymi-bitcoin)
 12. [Биткоин — децентрализованный организм](/bitсoin-decentralizovannyj-organizm)
+13. [Доказательство жизни. Почему Биткоин — живой организм](/pochemu-bitcoin-zhivoj-organizm)
