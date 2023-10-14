@@ -5,6 +5,7 @@ cover: /img/mining.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "энергоэффективность", "pow", "proof-of-work"]
 description: "Назовите цену экономической стабильности и экономической свободы, которую обеспечивает стабильная валютная система; это — истинное обоснование количества энергии, которую Биткоин должен и будет потреблять."
 url: pzv/bitkoin-ne-tratit-energiyu-zrya
+aliases: ['/theory-economics-bitcoin-does-not-waste-energy']
 date: 2019-08-16
 bookFlatSection: false
 bookToc: true

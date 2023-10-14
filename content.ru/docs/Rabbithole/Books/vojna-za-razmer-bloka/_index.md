@@ -4,6 +4,7 @@ h1: "Война за размер блока"
 cover: /img/vrb-432.jpeg
 description: "Перевод книги Джонатана Бира The Blocksize War о том как Биткоин-коммьюнити отстояло свое видение протокола."
 url: vojna-za-razmer-bloka
+aliases: ['/book-the-blocksize-war']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

@@ -4,6 +4,7 @@ h1: "Обзор процесса CoinJoin"
 cover: /img/cj-810.jpg
 description: "Транзакции в сети Биткоин являются публичными по своей природе, в данной статье мы рассмотрим варианты сокрытия своих экономических взаимодействий."
 url: privacy/coinjoin
+aliases: ['/privacy-coinjoin']
 date: 2020-03-15
 bookFlatSection: false
 weight: 3

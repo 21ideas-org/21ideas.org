@@ -4,6 +4,7 @@ h1: "Деньги, блокчейны и социальная масштабир
 cover: /img/dbm-657.png
 description: "Успех Биткоина заключается в том, что ценой активного потребления ресурсов и низкой вычислительной производительности приобретается нечто еще более ценное: социальная масштабируемость."
 url: dengi-blokchejny-i-socialnaya-masshtabiruemost
+aliases: ['/theory-economics-money-blockchains-and-social-scalability']
 date: 2017-02-09
 bookFlatSection: false
 bookToc: true

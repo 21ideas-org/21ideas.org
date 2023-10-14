@@ -5,6 +5,7 @@ cover: /img/bkb-471.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Биткоин был значительным техническим прорывом, и хотя он не был очевиден 31 октября 2008 года, изобретение Сатоши Накамото в итоге изменило мир."
 url: bychij-kejs-dlya-bitcoin/prolog
+aliases: ['/books-bc4b-prologue']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

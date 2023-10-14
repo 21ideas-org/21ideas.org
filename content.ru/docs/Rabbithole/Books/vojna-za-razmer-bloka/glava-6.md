@@ -4,6 +4,7 @@ h1: "Глава 6: Сеть Lightning"
 cover: /img/vrb-438.jpeg
 description: "SegWit предоставил пользователям возможность создавать транзакции, которые не могли быть изменены злонамеренными третьими сторонами. Это считалось важнейшим компонентом так называемой Lightning Network — технологии масштабирования второго уровня для Биткоина."
 url: vojna-za-razmer-bloka/glava-6
+aliases: ['/book-the-blocksize-war-chapter-6']
 date: 2021-03-11
 bookFlatSection: false
 weight: 6

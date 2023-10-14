@@ -4,6 +4,7 @@ h1: "Сравнение монетарных стандартов"
 cover: /img/sms-501.jpg
 description: "При сравнении денежных стандартов необходимо учитывать дополнительные расходы, которые несет общество при использовании государственных фиатных денег, и вызванную этим инфляцию."
 url: sravnenie-monetarnyh-standartov
+aliases: ['/theory-economics-comparison-of-monetary-standards']
 date: 2021-02-05
 bookFlatSection: false
 weight: 56

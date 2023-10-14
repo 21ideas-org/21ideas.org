@@ -4,6 +4,7 @@ h1: "Глава 6. Биткоин – это цифровая редкость"
 tags: ["биткоин", "редкость", "bitcoin", "proof-of-work"]
 description: "Биткоин выходит не только за рамки виртуального. Он также превосходит все предшествующие ему виды денег."
 url: 21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost
+aliases: ['/books-21-ways-chapter-6']
 cover: /img/00001.jpg
 date: 2022-10-02
 bookToc: true

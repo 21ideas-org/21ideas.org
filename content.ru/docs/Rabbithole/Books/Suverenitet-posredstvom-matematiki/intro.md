@@ -4,6 +4,7 @@ h1: "Предисловие"
 tags: ["книга", "предисловие", "новичкам", "основы"]
 description: "Предисловие к книге Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/intro
+aliases: ['/book-stm-intro']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

@@ -5,6 +5,7 @@ cover: /img/cc-521.jpg
 tags: ["биткоин", "хранение", "холодное хранение", "аппаратный кошелек", "безопасность"]
 description: "О безопасном хранении биткоинов с помощью аппаратного кошелька."
 url: coldcard
+aliases: ['/practice-what-is-coldcard']
 date: 2021-09-18
 bookFlatSection: false
 bookToc: true

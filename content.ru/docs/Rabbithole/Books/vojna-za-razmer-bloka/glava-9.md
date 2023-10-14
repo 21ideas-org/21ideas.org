@@ -4,6 +4,7 @@ h1: "Глава 9: Фейковый Сатоши"
 cover: /img/vrb-441.jpeg
 description: "Понедельник 2 мая 2016 года стал одним из самых безумных дней в Биткоин-пространстве..."
 url: vojna-za-razmer-bloka/glava-9
+aliases: ['/book-the-blocksize-war-chapter-9']
 date: 2021-03-11
 bookFlatSection: false
 weight: 9

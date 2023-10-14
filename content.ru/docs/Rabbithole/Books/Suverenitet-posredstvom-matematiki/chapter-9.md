@@ -4,6 +4,7 @@ h1: "Глава 9: Деньги как акселератор"
 tags: ["книга", "новичкам", "основы"]
 description: "Девятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-9
+aliases: ['/book-stm-chapter-9']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

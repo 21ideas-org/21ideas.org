@@ -4,6 +4,7 @@ h1: "Манифест шифропанка"
 cover: /img/ms-520.jpg
 description: "Приватность необходима открытому обществу цифрового века."
 url: manifest-shifropanka
+aliases: ['/theory-philosophy-cypherpunks-manifesto']
 date: 1993-03-09
 bookFlatSection: false
 weight: 54

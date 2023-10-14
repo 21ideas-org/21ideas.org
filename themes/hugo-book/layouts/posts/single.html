@@ -1,9 +1,24 @@
 {{ define "main" }}
+{{- with .Params.Cover }}
+<div class="pageCover">
+  <img src="{{ . }}">
+</div>
+{{- end }}
+<h1>
+{{ if .Params.H1 }}
+  {{ .Params.H1 }}
+{{ else if .Title }}
+  {{ .Title }}
+{{ else }}
+  ???
+{{ end }}
+</h1>
+{{- with .Date }}
+<div class="pageDate">
+  {{ . | time.Format ":date_long" }}
+</div>
+{{- end }}
 <article class="markdown">
-  <h1>
-    <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
-  </h1>
-  {{ partial "docs/post-meta" . }}
   {{- .Content -}}
 </article>
 {{ end }}

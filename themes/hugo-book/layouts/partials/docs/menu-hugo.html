@@ -8,20 +8,20 @@
 
 {{ define "book-menu-hugo" }}
 <ul>
-  {{ range . }}
+  {{ range .Site.Menus.after }}
   <li>
-    <a href="{{ .URL }}" {{ with .Params.class }}class="{{ . }}"{{ end }} {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
-      {{- .Pre -}}
-      {{ with .Page }}
-        {{ partial "docs/title" .Page }}
-      {{ else }}
-        {{ .Name }}
-      {{ end }}
-      {{- .Post -}}
-    </a>
-    {{- with .Children }}
-      {{ template "book-menu-hugo" . }}
-    {{- end }}
+    {{ if .Page }}
+        {{ template "book-page-link" (dict "Page" .Page "CurrentPage" $) }}
+        {{ if .Params.Children }}
+          {{ template "book-section-children" (dict "Section" .Page "CurrentPage" $) }}
+        {{ end }}
+    {{ else }}
+      <a href="{{ .URL }}" {{ with .Params.class }}class="{{ . }}"{{ end }} {{ if not .Page }}target="_blank" rel="noopener"{{ end }}>
+          {{- .Pre -}}
+          {{ .Name }}
+          {{- .Post -}}
+      </a>
+    {{ end }}
   </li>
   {{ end }}
 </ul>

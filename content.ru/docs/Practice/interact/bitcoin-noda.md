@@ -5,6 +5,7 @@ cover: /img/bn-504.jpeg
 tags: ["биткоин", "безопасность"]
 description: "Не обязательно запускать биткоин-узел, чтобы пользоваться биткоином, но такой запуск дает ряд преимуществ. О них и пойдет речь в этой статье."
 url: practice/bitcoin-noda
+aliases: ['/practical-why-run-own-node-part-1']
 date: 2022-03-01
 bookFlatSection: false
 bookToc: true

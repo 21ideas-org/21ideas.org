@@ -5,6 +5,7 @@ cover: /img/bitcoin-criminal.jpg
 tags: ["биткоин", "экономика", "постепенно затем внезапно", "преступность", "наркотики"]
 description: "Если биткоин играет важную роль в содействии торговле, связанной с незаконной деятельностью, и, несмотря на все усилия влиятельного регулирующего органа, ipso facto, он также может быть полезен для любой другой формы торговли, в том числе с участием законопослушных граждан"
 url: pzv/bitkoin-ne-dlya-prestupnikov
+aliases: ['/theory-economics-bitcoin-is-not-for-criminals']
 date: 2019-11-29
 bookFlatSection: false
 bookToc: true

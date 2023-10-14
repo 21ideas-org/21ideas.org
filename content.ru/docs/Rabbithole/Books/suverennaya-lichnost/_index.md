@@ -4,6 +4,7 @@ h1: "Джеймс Дейл Дэвидсон, Лорд Уилльям Рис-Мо
 cover: /img/sl-752.png
 description: "Один из величайших трудов ушедшего столетия — книга, написанная в 1997 году  Джеймсом Дейлом Дэвидсоном и лордом Уильямом Рис-Моггом, поясняющая чем чреват перехода от индустриальной эпохи к информационной."
 url: suverennaya-lichnost
+aliases: ['/books-sovereign-individual']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

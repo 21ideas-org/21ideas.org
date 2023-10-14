@@ -4,6 +4,7 @@ h1: "Глава 2. Биткоин – это время"
 tags: ["биткоин", "время", "bitcoin", "proof-of-work"]
 description: "Время — деньги; по крайней мере так гласит поговорка."
 url: 21-sposob/glava-2-bitcoin-eto-vremya
+aliases: ['/books-21-ways-chapter-2']
 cover: /img/001.jpeg
 date: 2021-01-14
 bookToc: true

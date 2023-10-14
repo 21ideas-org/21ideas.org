@@ -4,6 +4,7 @@ h1: "Глава 15: Логово драконов"
 cover: /img/vrb-447.jpeg
 description: "6 апреля 2017 года соавтор белой книги сети Лайтнинг Джозеф Пун упомянул о секретном канале мелкоблочников, в котором принимаются многие решения по связям с общественностью..."
 url: vojna-za-razmer-bloka/glava-15
+aliases: ['/book-the-blocksize-war-chapter-15']
 date: 2021-03-11
 bookFlatSection: false
 weight: 15

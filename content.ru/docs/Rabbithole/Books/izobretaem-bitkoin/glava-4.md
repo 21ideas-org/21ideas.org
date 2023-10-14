@@ -4,6 +4,7 @@ h1: "Глава 4: Майнинг"
 tags: ["книга", "новичкам", "основы"]
 description: "Майнинг — это процесс розыгрыша лотереи Proof of Work. “Джек-пот” в каждом раунде — право добавить свой блок в реестр сети Биткоин"
 url: izobretaem-bitkoin/glava-4
+aliases: ['/book-inventing-bitcoin-chapter-4']
 date: 2019-06-17
 bookFlatSection: false
 bookToc: true

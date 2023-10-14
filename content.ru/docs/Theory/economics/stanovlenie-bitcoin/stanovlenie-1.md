@@ -4,6 +4,7 @@ h1: "Становление Биткоина Часть 1. О времени"
 cover: /img/sb-307.jpg
 description: "Как я и обещал во введении к данной серии статей, мы начнем исследовать период (псевдо)истории  денег, когда мир и понятия не имел о фиатных деньгах."
 url: sb/stanovlenie-1
+aliases: ['/theory-economics-discovering-bitcoin-pt1']
 date: 2019-09-16
 bookFlatSection: false
 weight: 2

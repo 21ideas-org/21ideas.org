@@ -4,6 +4,7 @@ h1: "Становление Биткоина: Краткий обзор исто
 cover: /img/sb-303.jpg
 description: "Добро пожаловать в серию из семи статей под названием “Знакомство с Биткоином: краткий обзор истории от пещерных людей до сети lightning”."
 url: sb/stanovlenie-intro
+aliases: ['/theory-economics-discovering-bitcoin-intro']
 date: 2019-09-16
 bookFlatSection: false
 weight: 1

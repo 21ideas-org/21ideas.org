@@ -4,6 +4,7 @@ h1: "Глава 5: SegWit"
 cover: /img/vrb-437.jpeg
 description: "SegWit - это способ увеличения размера биткоин-блока с сохранением обратной совместимости (то есть это был софтфорк, а не хардфорк)"
 url: vojna-za-razmer-bloka/glava-5
+aliases: ['/book-the-blocksize-war-chapter-5']
 date: 2021-03-11
 bookFlatSection: false
 weight: 5

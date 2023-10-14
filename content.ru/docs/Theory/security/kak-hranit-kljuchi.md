@@ -5,6 +5,7 @@ cover: /img/197.png
 tags: ["биткоин", "хранение", "ключи", "безопасность", "кошельки"]
 description: "Статья расскажет о лучших практиках хранения своих биткоин ключей. Это важнейшая информация, необходимая для обеспечения безопасности своих монет."
 url: kak-hranit-kljuchi
+aliases: ['/theory-security-bitcoin-wallets']
 bookToc: true
 bookFlatSection: false
 date: 2022-06-03

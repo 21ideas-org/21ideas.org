@@ -4,6 +4,7 @@ h1: "Глава 5: Proof of Work"
 tags: ["книга", "новичкам", "основы"]
 description: "Пятая глава книги Кнута Сванхольма Суверенитет посредством математики."
 url: suverenitet-posredstvom-matematiki/glava-5
+aliases: ['/book-stm-chapter-5']
 bookFlatSection: false
 bookToc: true
 date: 2019-05-18

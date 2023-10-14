@@ -4,6 +4,7 @@ h1: "Глава 4: Масштабирование II Гонконг"
 cover: /img/vrb-436.jpeg
 description: "Через несколько месяцев после &quot;Масштабирования I&quot;, 6-7 декабря 2015 года в Гонконге прошла вторая фаза серии конференций &quot;Масштабирование&quot;. Гонконг был выбран из-за его непосредственной близости к Китаю, где располагались многие биткоин-майнеры."
 url: vojna-za-razmer-bloka/glava-4
+aliases: ['/book-the-blocksize-war-chapter-4']
 date: 2021-03-11
 bookFlatSection: false
 weight: 4

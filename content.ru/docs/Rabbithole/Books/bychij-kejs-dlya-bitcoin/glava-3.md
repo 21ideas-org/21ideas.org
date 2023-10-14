@@ -5,6 +5,7 @@ cover: /img/bkb-478.jpg
 tags: ["книга", "bitcoin", "новичкам"]
 description: "Государства монополизировали выпуск денег и постоянно препятствовали их использованию в качестве средства сбережения. Биткоин это исправляет."
 url: bychij-kejs-dlya-bitcoin/glava-3
+aliases: ['/books-bc4b-chapter-3']
 date: 2021-05-08
 bookToc: true
 bookFlatSection: false

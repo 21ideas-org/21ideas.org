@@ -4,6 +4,7 @@ h1: "Биткоин — единственный реальный мем"
 cover: /img/meme-722.png
 description: "Это рассказ о разнице между мемами и реальным миром."
 url: bitcoin-meme
+aliases: ['/theory-philosophy-bitcoin-meme']
 date: 2021-12-29
 bookFlatSection: false
 weight: 58
