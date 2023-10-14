@@ -12,3 +12,5 @@ weight: 8
 3. [Приватность в сети Lightning](/privatnost-v-lajtning)
 4. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)
 5. [Централизованна ли сеть Lightning?](/centralizovanna-li-set-lightning)
+6. [Механизм работы Lightning Network](/mekhanizm-raboty-lightning)
+7. [Решение проблемы входящей пропускной способности в сети lightning](/problema-vhodyashchej-likvidnosti)
