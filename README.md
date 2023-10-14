@@ -99,7 +99,7 @@
 | -10,000 | [vjik](https://github.com/vjik) | [Улучшение раздела меню](https://github.com/21ideas-org/21ideas.org/pull/143) | 488,900 |
 | - 42,000 | [btclinux](https://github.com/btclinux) | [Добавление альтернативных ссылок на все статьи](https://github.com/21ideas-org/21ideas.org/pull/146) | 426,900 |
 | - 5,000 | [btclinux](https://github.com/btclinux) | [2 статьи, замена нескольких ссылок](https://github.com/21ideas-org/21ideas.org/pull/147) | 426,900 |
-| +50,000 | [heyalmoo](https://github.com/heyalmoo) | В общий фонд | 958,000 |
+| +50,000 | [heyalmoo](https://github.com/heyalmoo) | В общий фонд | 476,900 |
 
 
 
