@@ -36,3 +36,4 @@ weight: 6
 14. [Самая мирная революция](/samaya-mirnaya-revolyuciya)
 15. [О Биткоин-вселенной](/o-bitcoin-vselennoj)
 16. [Биткоин-диссиденты: кому Биткоин нужен как воздух](/bitcoin-dissidenty)
+17. [Биткоин = свобода](/bitcoin-svoboda)
