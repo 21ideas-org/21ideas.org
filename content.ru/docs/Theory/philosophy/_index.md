@@ -33,3 +33,7 @@ weight: 6
 11. [Боремся с поддельными биткоинами и обеспечиваем редкость монет](/boremsya-s-poddelnymi-bitcoin)
 12. [Биткоин — это мицелий](/bitсoin-eto-micelij)
 13. [Доказательство жизни. Почему Биткоин — живой организм](/pochemu-bitcoin-zhivoj-organizm)
+14. [Самая мирная революция](/samaya-mirnaya-revolyuciya)
+15. [О Биткоин-вселенной](/o-bitcoin-vselennoj)
+16. [Биткоин-диссиденты: кому Биткоин нужен как воздух](/bitcoin-dissidenty)
+17. [Биткоин = свобода](/bitcoin-svoboda)
