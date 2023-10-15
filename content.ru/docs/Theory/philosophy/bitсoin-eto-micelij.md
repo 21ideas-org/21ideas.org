@@ -1,10 +1,10 @@
 ---
-title: "Биткоин — децентрализованный организм"
-h1: "Биткоин — децентрализованный организм (мицелий)"
+title: "Биткоин — это мицелий"
+h1: "Биткоин — это мицелий"
 cover: /img/0000000001.png
 tags: ["биткоин", "мицелий", "децентрализация", "proof-of-work"]
 description: "Перед вами исследование грибов и Биткоина – вам предстанут поразительные параллели."
-url: bitсoin-decentralizovannyj-organizm
+url: bitсoin-eto-micelij
 date: 2020-05-01
 bookToc: true
 bookFlatSection: false
