@@ -35,3 +35,4 @@ weight: 6
 13. [Доказательство жизни. Почему Биткоин — живой организм](/pochemu-bitcoin-zhivoj-organizm)
 14. [Самая мирная революция](/samaya-mirnaya-revolyuciya)
 15. [О Биткоин-вселенной](/o-bitcoin-vselennoj)
+16. [Биткоин-диссиденты: кому Биткоин нужен как воздух](/bitcoin-dissidenty)

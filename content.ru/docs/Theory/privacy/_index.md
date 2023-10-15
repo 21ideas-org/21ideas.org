@@ -13,3 +13,4 @@ weight: 3
 2. [Никаких KYC](/privacy/no-kyc)
 3. [Обзор процесса CoinJoin](/privacy/coinjoin)
 4. [Приватность в сети Биткоин](/privatnost-v-seti-bitcoin)
+5. [Биткоин становится критически важным](/bitcoin-stanovitsya-kriticheski-vazhnym)
