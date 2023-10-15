@@ -21,3 +21,4 @@ weight: 4
 10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
 11. [Что такое Taproot и какую пользу он принесет Биткоину?](/taproot)
 12. [Бомбы сложности Ethereum как принудительный механизм](/bomby-slozhnosti-ethereum)
+13. [Разбирая протокол RGB](/rgb)
