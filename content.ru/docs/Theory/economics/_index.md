@@ -71,3 +71,4 @@ weight: 1
 - [Деньги, блокчейны и социальная масштабируемость](/dengi-blokchejny-i-socialnaya-masshtabiruemost)
 - [Что такое деньги](/chto-takoe-dengi)
 - [Выживает сильнейший](/vyzhivaet-silnejshij)
+- [Стратегия DCA и Биткоин](/strategiya-dca)

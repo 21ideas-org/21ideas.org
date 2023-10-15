@@ -12,3 +12,4 @@ weight: 3
 1. [Лучшие практики по обретению приватности в сети Биткоин](/privacy/luchshie-praktiki)
 2. [Никаких KYC](/privacy/no-kyc)
 3. [Обзор процесса CoinJoin](/privacy/coinjoin)
+4. [Приватность в сети Биткоин](/privatnost-v-seti-bitcoin)
