@@ -72,3 +72,4 @@ weight: 1
 - [Что такое деньги](/chto-takoe-dengi)
 - [Выживает сильнейший](/vyzhivaet-silnejshij)
 - [Стратегия DCA и Биткоин](/strategiya-dca)
+- [Почему 21 миллион?](/pochemu-21-million)
