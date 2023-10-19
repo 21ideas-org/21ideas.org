@@ -104,7 +104,6 @@
 | - 42,000 | [btclinux](https://github.com/btclinux) | [14 статей](https://github.com/21ideas-org/21ideas.org/pull/153) | 429,900 |
 | -21,000 | [byzgeneral](https://github.com/byzgeneral) | [Биткоин-это мицелий, Доказательство жизни](https://github.com/21ideas-org/21ideas.org/pull/154) | 408,900 |
 | - 21,000 | [btclinux](https://github.com/btclinux) | [6 статей, правки](https://github.com/21ideas-org/21ideas.org/pull/155) | 387,900 |
-
-
+| - 21,000 | [btclinux](https://github.com/btclinux) | "[BIP47 или гадкий утенок](https://github.com/21ideas-org/21ideas.org/pull/157)" | 366,900 |
 
 
