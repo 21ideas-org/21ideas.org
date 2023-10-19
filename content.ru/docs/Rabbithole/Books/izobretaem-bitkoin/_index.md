@@ -9,7 +9,7 @@ aliases: ['/book-inventing-bitcoin']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
-weight: 1
+weight: 2
 ---
 
 "Изобретаем Биткоин" - книга-вступление к Биткоину. Прочитав ее вы познаете причины появления Биткоина, основы работы протокола и основные свойства и функции сети.
