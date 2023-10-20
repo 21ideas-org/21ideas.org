@@ -1,2 +1,4 @@
-<!-- This partial can be replaced to support other commenting engines -->
-{{ template "_internal/disqus.html" . }}
+<zap-threads
+      anchor="{{.Permalink}}"
+      relays="wss://relay.damus.io,wss://eden.nostr.land"
+      />

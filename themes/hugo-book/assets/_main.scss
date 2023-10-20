@@ -354,3 +354,21 @@ body[dir="rtl"] .book-menu {
     padding: $padding-16 * 2 $padding-16;
   }
 }
+
+zap-threads {
+  --ztr-icon-color: #333;
+  --ztr-text-color: #333;
+  --ztr-link-color: var(--color-link);
+  --ztr-login-button-color: var(--color-link);
+}
+
+zap-threads:focus {
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  zap-threads {
+    --ztr-icon-color: var(--body-font-color);
+    --ztr-text-color: var(--body-font-color);
+  }
+}
