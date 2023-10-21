@@ -5,6 +5,8 @@ defaultContentLanguage: ru
 
 ignoreErrors: ["error-remote-getjson"]
 
+include: [".well-known"]
+
 # Book configuration
 disablePathToLower: true
 enableGitInfo: true

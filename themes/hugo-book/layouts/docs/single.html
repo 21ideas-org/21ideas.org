@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <article class="markdown">
+    {{- .Content -}}
+  </article>
+  {{ partial "docs/comments.html" . }}
+{{ end }}

@@ -1,2 +1,5 @@
-<!-- This partial can be replaced to support other commenting engines -->
-{{ template "_internal/disqus.html" . }}
+<zap-threads
+      anchor="{{.Permalink}}"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      />
