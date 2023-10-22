@@ -1,7 +1,7 @@
 ---
 author: "NCrashed"
 date: 2023-10-22
-list_description: ""
+list_description: "16 Октября 2023 года разработчик Antoine Riard опубликовал описание атаки на каналы в сети Lightning. В этой публикации мы рассмотрим механизм атаки и её оставшиеся нерешённые аспекты."
 menu:
   main:
     parent: blog
