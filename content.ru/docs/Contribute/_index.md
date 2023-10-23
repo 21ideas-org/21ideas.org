@@ -38,7 +38,7 @@ menu:
 ## Лайтнинг
 Лайтнинг-адрес: 
 
-_[tony@bitcoin-herald.org](lightning:tony@bitcoin-herald.org)_
+_[21ideas@getalby.com](lightning:21ideas@getalby.com)_
   
 ![ln-qr](/img/1.png)
 
