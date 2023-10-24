@@ -1,0 +1,7 @@
+<meta property="og:title" content="{{- with .Params.OGTitle }}{{ . }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:description" content="{{ with .Params.OGDescription }}{{ . }}{{ else }}{{ with .Description }}{{ . }}{{ else }}{{ with .Params.list_description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ if .Params.Cover -}}
+<meta property="og:image" content="{{ trim .Site.BaseURL "/" }}{{ .Params.Cover }}"/>
+{{- end -}}
