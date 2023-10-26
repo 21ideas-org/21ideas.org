@@ -1,17 +1,5 @@
 {{ define "main" }}
-  {{- with .Params.Cover }}
-  <div class="pageCover">
-    <img src="{{ . }}">
-  </div>
-  {{- end }}
-  {{- with .Params.H1 }}
-  <h1>{{ . }}</h1>
-  {{- end }}
-  {{- with .Date }}
-  <div class="pageDate">
-    {{ . | time.Format ":date_long" }}
-  </div>
-  {{- end }}
+  {{ partial "page-header.html" . }}
   <article class="markdown">
     {{- .Content -}}
   </article>
