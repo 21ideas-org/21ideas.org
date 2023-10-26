@@ -1,0 +1,19 @@
+{{- with .Params.Cover }}
+<div class="pageCover">
+    <img src="{{ . }}">
+</div>
+{{- end }}
+<h1>
+    {{ if .Params.H1 }}
+    {{ .Params.H1 }}
+    {{ else if .Title }}
+    {{ .Title }}
+    {{ else }}
+    ???
+    {{ end }}
+</h1>
+{{- with .Date }}
+<div class="pageDate">
+    {{ . | time.Format ":date_long" }}
+</div>
+{{- end }}
