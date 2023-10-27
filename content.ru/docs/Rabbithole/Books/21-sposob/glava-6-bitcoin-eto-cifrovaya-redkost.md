@@ -5,7 +5,7 @@ tags: ["биткоин", "редкость", "bitcoin", "proof-of-work"]
 description: "Биткоин выходит не только за рамки виртуального. Он также превосходит все предшествующие ему виды денег."
 url: 21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost
 aliases: ['/books-21-ways-chapter-6']
-cover: /img/00001.jpg
+cover: /img/00001.png
 date: 2022-10-02
 bookToc: true
 bookFlatSection: false
