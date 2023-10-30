@@ -5,7 +5,7 @@ tags: ["whitepaper", "сатоши", "биткоин", "основы", "крип
 description: "Книги."
 url: whitepaper
 cover: /img/wp-01.png
-bookCollapseSection: true
+bookCollapseSection: false
 bookFlatSection: false
 bookToc: false
 weight: 1
