@@ -6,7 +6,7 @@ menu:
   main:
     parent: blog
 next: /blog/
-prev: /blog/
+prev: /posts/q3-23-otchet/
 title: Атака циклической заменой на Lightning Network
 description: ""
 cover: /img/replacement-cycling/header.jpeg
