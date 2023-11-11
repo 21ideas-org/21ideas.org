@@ -5,8 +5,8 @@ list_description: "Квартальный отчет об открытии ис�
 menu:
   main:
     parent: blog
-next: /blog/
-prev: /blog/drivechains
+next: /posts/replacement-cycling/
+prev: /posts/drivechains
 cover: /img/q3-23-cover.jpeg
 title: "Квартальный отчет 21ideas"
 h1: "Квартальный отчет 21ideas"
