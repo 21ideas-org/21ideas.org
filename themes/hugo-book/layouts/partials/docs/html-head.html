@@ -6,7 +6,7 @@
 <meta name="lightning" content="{{ .Site.Params.LightningAddress }}">
 
 {{- with .Page.Params.BookHref -}}
-  <meta http-equiv="Refresh" content="0; url='{{ . }}'" />
+<meta http-equiv="Refresh" content="0; url='{{ . }}'" />
 {{- end -}}
 
 {{ partial "docs/open-graph" . }}
@@ -15,38 +15,46 @@
 
 {{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" . }}
 <link rel="manifest" href="{{ $manifest.RelPermalink }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
-<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="{{ "apple-touch-icon-dark.png" | relURL }}">
-<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="{{ "favicon-32x32-dark.png" | relURL }}">
-<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="{{ "favicon-16x16-dark.png" | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ " apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ " favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ " favicon-16x16.png" | relURL }}">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="{{ " apple-touch-icon-dark.png"
+  | relURL }}">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="{{ " favicon-32x32-dark.png"
+  | relURL }}">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="{{ " favicon-16x16-dark.png"
+  | relURL }}">
 
 {{- range .Translations }}
-  <link rel="alternate" hreflang="{{ default .Language.Lang .Site.LanguageCode }}" href="{{ .Permalink }}" title="{{ partial "docs/title" . }}">
+<link rel="alternate" hreflang="{{ default .Language.Lang .Site.LanguageCode }}" href="{{ .Permalink }}"
+  title="{{ partial " docs/title" . }}">
 {{- end -}}
 
 <!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
-{{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS |
+resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" {{ template "integrity" $styles }}>
 
 {{- if default true .Site.Params.BookSearch -}}
-  {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
-  {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
-  <script defer src="{{ "flexsearch.min.js" | relURL }}"></script>
-  <script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity" $searchJS }}></script>
+{{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
+{{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify |
+resources.Fingerprint }}
+<script defer src="{{ " flexsearch.min.js" | relURL }}"></script>
+<script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity" $searchJS }}></script>
 {{ end -}}
 
 {{- if .Site.Params.BookServiceWorker -}}
-  {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
-  <script defer src="{{ $swJS.RelPermalink }}" {{ template "integrity" $swJS }}></script>
+{{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify |
+resources.Fingerprint }}
+<script defer src="{{ $swJS.RelPermalink }}" {{ template "integrity" $swJS }}></script>
 {{ end -}}
 
 {{- template "_internal/google_analytics.html" . -}}
 
 <!-- RSS -->
 {{- with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ printf `
+<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 
 {{ "<!--" | safeHTML }}
@@ -55,9 +63,9 @@ https://github.com/alex-shpak/hugo-book
 {{ "-->" | safeHTML }}
 
 {{- define "integrity" -}}
-  {{- if (urls.Parse .Permalink).Host -}}
-    integrity="{{ .Data.Integrity }}" crossorigin="anonymous"
-  {{- end -}}
+{{- if (urls.Parse .Permalink).Host -}}
+integrity="{{ .Data.Integrity }}" crossorigin="anonymous"
+{{- end -}}
 {{- end -}}
 
-<script type="text/javascript" src="https://unpkg.com/zapthreads@0.3.2/dist/zapthreads.iife.js"></script>
+<script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.0/dist/zapthreads.iife.js"></script>
