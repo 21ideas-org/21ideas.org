@@ -13,3 +13,4 @@ weight: 3
 4. [Приватность в сети Биткоин](/privatnost-v-seti-bitcoin)
 5. [Биткоин становится критически важным](/bitcoin-stanovitsya-kriticheski-vazhnym)
 6. [BIP47, или гадкий утенок](/bip47-ili-gadkij-utenok)
+7. [Понимание приватности в сети Биткоин с помощью OXT](/privacy/oxt)
