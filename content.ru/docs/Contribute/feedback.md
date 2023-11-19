@@ -1,7 +1,7 @@
 ---
 title: "Обратная связь"
 h1: Обратная связь
-cover: /img/honeybadger-dont-care.png
+cover: /img/main-section/feedback.png
 bookCollapseSection: false
 type: docs
 url: feedback
