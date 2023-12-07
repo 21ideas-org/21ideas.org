@@ -234,6 +234,14 @@ _[Пример](https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e76cd52b45f6c17
 
 _— Исследовательская команда OXT_
 
+### Поддержите переводчика
+
+Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
+
+{{% image "/img/btclinux-ln-qr.jpg" %}}
+_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
+{{% /image %}}
+
 {{< expand "Оглавление" "..." >}}
 
 ## Понимание приватности в сети Биткоин с помощью OXT
