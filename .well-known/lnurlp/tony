@@ -1,0 +1,14 @@
+{
+  "status":"OK",
+  "tag":"payRequest",
+  "commentAllowed":255,
+  "callback":"https://getalby.com/lnurlp/21ideas/callback",
+  "metadata":"[[\"text/identifier\",\"21ideas@getalby.com\"],[\"text/plain\",\"Sats for Tony\"]]",
+  "minSendable":1000,
+  "maxSendable":500000000,
+  "payerData":{"name":{"mandatory":false},
+  "email":{"mandatory":false},
+  "pubkey":{"mandatory":false}},
+  "nostrPubkey":"7f5c2b4e48a0e9feca63a46b13cdb82489f4020398d60a2070a968caa818d75d",
+  "allowsNostr":true
+}
