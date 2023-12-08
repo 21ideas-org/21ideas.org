@@ -1,14 +1,12 @@
 {
-  "status":"OK",
-  "tag":"payRequest",
-  "commentAllowed":255,
-  "callback":"https://getalby.com/lnurlp/21ideas/callback",
-  "metadata":"[[\"text/identifier\",\"21ideas@getalby.com\"],[\"text/plain\",\"Sats for Tony\"]]",
-  "minSendable":1000,
-  "maxSendable":500000000,
-  "payerData":{"name":{"mandatory":false},
-  "email":{"mandatory":false},
-  "pubkey":{"mandatory":false}},
-  "nostrPubkey":"7f5c2b4e48a0e9feca63a46b13cdb82489f4020398d60a2070a968caa818d75d",
-  "allowsNostr":true
+
+"callback":"https://livingroomofsatoshi.com/api/v1/lnurl/payreq/97387b80-e37a-4e0a-bbc1-4b16c525c730",
+"maxSendable":100000000000,
+"minSendable":1000,
+"metadata":"[[\"text/plain\",\"Pay to Wallet of Satoshi user: tony\"],[\"text/identifier\",\"tony@walletofsatoshi.com\"]]",
+"commentAllowed":255,
+"tag":"payRequest",
+"allowsNostr":true,
+"nostrPubkey":"be1d89794bf92de5dd64c1e60f6a2c70c140abac9932418fee30c5c637fe9479"
+
 }
