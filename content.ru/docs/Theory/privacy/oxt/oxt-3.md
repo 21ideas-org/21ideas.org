@@ -3,11 +3,16 @@ title: "Часть 3: Защита от анализа цепочки"
 h1: "Часть 3: Защита от анализа цепочки"
 description: "В части 3 рассматриваются основные концепции повышения приватности в сети Биткоин."
 url: privacy/oxt-3
+cover: /img/oxt/oxt-3-cover.webp
 date: 2021-08-09
 bookFlatSection: false
 bookToc: true
 weight: 3
 ---
+
+{{< hint info >}}
+_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+{{< /hint >}}
 
 {{< expand "Оглавление" "..." >}}
 
