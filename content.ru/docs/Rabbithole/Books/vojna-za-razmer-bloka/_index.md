@@ -8,7 +8,7 @@ aliases: ['/book-the-blocksize-war']
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
-weight: 3
+weight: 7
 ---
 
 Перевод книги Джонатана Бира **The Blocksize War** о том как Биткоин-коммьюнити отстояло свое видение протокола.
