@@ -37,7 +37,7 @@ menu:
 ## Лайтнинг
 Лайтнинг-адрес: 
 
-_[21ideas@getalby.com](lightning:21ideas@getalby.com)_
+_[zap@21ideas.org](lightning:21ideas@getalby.com)_
   
 ![ln-qr](/img/1.png)
 
@@ -57,7 +57,7 @@ _[21ideas@getalby.com](lightning:21ideas@getalby.com)_
 
 Email: [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
 
-Nostr: [Tony@bitcoin-herald.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Nostr: [Tony@21ideas.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /columns >}}
 
 ---
