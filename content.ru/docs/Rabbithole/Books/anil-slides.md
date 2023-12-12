@@ -8,7 +8,7 @@ cover: /img/anil-slides/anil_slides.png
 bookCollapseSection: false
 bookFlatSection: false
 bookToc: false
-weight: 7
+weight: 50
 ---
 
 Анил ([@anilsaidso](https://twitter.com/anilsaidso)) — независимый биткоин-преподаватель, создающий наглядные визуальные слайды, объясняющие принципы работы биткоина. Идеально подходит для новичков!

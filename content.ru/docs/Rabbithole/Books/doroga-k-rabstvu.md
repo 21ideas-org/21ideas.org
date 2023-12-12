@@ -7,7 +7,7 @@ url: doroga-k-rabstvu
 aliases: ['/book-road-to-serfdom']
 date: 2015-08-07
 bookFlatSection: false
-weight: 51
+weight: 52
 ---
 
 Иллюстрированная версия бессмертной работы Фридриха Хайека.
