@@ -20,7 +20,7 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    - name: Copy .well-known folder
+    - name: Copy .well-known folder 
       run: |
           mkdir -p public/.well-known
           cp -r .well-known/* public/.well-known/
