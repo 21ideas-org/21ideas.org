@@ -9,7 +9,7 @@ next: /blog/
 prev: /blog/demonetization
 title: "Очередной инцидент с Ledger: Атака на цепочку поставок"
 description: "В этом посте мы объясним, что произошло, почему это важно и как вы можете обезопасить свои активы."
-cover: /img/ledger-blogpost/supply-chain.jpeg
+cover: /img/ledger-blogpost/supply-chain.webp
 weight: 10
 ---
 
