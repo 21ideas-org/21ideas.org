@@ -7,7 +7,7 @@ url: multisig-2
 aliases: ['/theory-security-multisig-2']
 date: 2022-01-06
 bookFlatSection: false
-weight: 3
+weight: 11
 ---
 
 {{< hint btc>}}
