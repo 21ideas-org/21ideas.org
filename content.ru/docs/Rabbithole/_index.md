@@ -12,28 +12,28 @@ weight: 4
 {{< tabs "Rabbithole" >}}
 {{< tab "Книги" >}}
 
-{{% image src="/img/147.png#center" /%}}
+{{% image src="/img/main-section/books.png#center" /%}}
 
 С фундаментальными книгами, посвященными Биткоину и экономике можно ознакомиться в разделе "[Книги](/books)"
 
 {{< /tab >}}
 
 {{< tab "Видео" >}}
-{{% image src="/img/bitcoin-videos.png#center" /%}}
+{{% image src="/img/main-section/videos.png#center" /%}}
 
 Самые важные видеоматериалы собраны в разделе "[Видео](/videos/)"
 
 {{< /tab >}}
 
 {{< tab "Подкасты" >}}
-{{% image src="/img/bitcoin-headphones.png#center" /%}}
+{{% image src="/img/main-section/podcasts.png#center" /%}}
 
-Самые важные подкасты о Биткоине и Ностре собраны в разделе "[Подкасты]()"
+Самые важные подкасты о Биткоине и Ностре собраны в разделе "[Подкасты](/pods/)"
 
 {{< /tab >}}
 
 {{< tab "Аудиокниги" >}}
-{{% image src="/img/audiobooks.png#center" /%}}
+{{% image src="/img/main-section/audiobooks.png#center" /%}}
 
 Самые важные аудиокниги и статьи в аудиоформате собраны в разделе "[Аудиокниги]()"
 
