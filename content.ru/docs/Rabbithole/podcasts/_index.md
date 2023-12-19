@@ -15,8 +15,6 @@ weight: 4
 *Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. [Ссылка на RSS](https://anchor.fm/s/69c8de58/podcast/rss)*
 {{< /hint >}}
 
-## Биткоин
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3WkPIdTsWn28oSJqcaT7na?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ---
@@ -31,4 +29,5 @@ weight: 4
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6m07nJ9qyseV2tN3bQ9YmP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+---
 
