@@ -51,13 +51,15 @@ _[zap@21ideas.org](lightning:21ideas@getalby.com)_
 <---> 
 
 ## Другое
-Поддержать проект можно и другими способами. Обратитесь по одному из следующих контактов, чтобы получить необходимые реквизиты: 
+Подпишитесь на проект на [boosty](https://boosty.to/21ideas) или обратитесь по одному из следующих контактов, чтобы получить необходимые реквизиты: 
 
-Телеграм: [@Tony_Lightning](https://t.me/Tony_Lightning)
+**Телеграм:** [@Tony_Lightning](https://t.me/Tony_Lightning)
 
-Email: [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
+**Email:** [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
 
-Nostr: [Tony@21ideas.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+**Nostr:** [Tony@21ideas.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+
+[almoo@21ideas.org](https://snort.social/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w)
 {{< /columns >}}
 
 ---
