@@ -1,10 +1,9 @@
 ---
 title: "Книги"
-h1: "Книги"
-tags: ["markdown", "оформление", "статьи", "github"]
+tags: ["книги", "биткоин", "чтение", "биткоин-книги"]
 description: "Библиотека обязательных к прочтению книг о Биткоине, экономике и суверенитете."
 url: books
-cover: /img/147.png
+cover: /img/main-section/books.png
 bookCollapseSection: true
 bookFlatSection: false
 weight: 1

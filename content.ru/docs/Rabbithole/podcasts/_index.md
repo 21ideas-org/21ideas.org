@@ -1,10 +1,9 @@
 ---
 title: "Подкасты"
-h1: "Подкасты"
-tags: ["подкасты", "биткоин", "экономика'", "ностр"]
+tags: ["подкасты", "биткоин", "экономика'", "ностр", "биткоин-подкасты"]
 description: "Сборник лучших подкастов о Биткоине, распределенных протоколах, информационной безопасности, экономике и личностном суверенитете."
 url: pods
-cover: /img/bitcoin-headphones.png
+cover: /img/main-section/podcasts.png
 bookCollapseSection: false
 bookFlatSection: false
 weight: 4
