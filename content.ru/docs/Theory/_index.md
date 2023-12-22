@@ -2,6 +2,7 @@
 title: Теория
 cover: /img/main-section/theory.png
 type: docs
+h1: " "
 bookFlatSection: false
 bookCollapseSection: true
 url: theory
