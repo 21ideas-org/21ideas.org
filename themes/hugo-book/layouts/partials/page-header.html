@@ -1,8 +1,13 @@
-{{- with .Params.Cover }}
+{{ if .Params.Cover }}
 <div class="pageCover">
-    <img src="{{ . }}">
+    <picture>
+        {{ if .Params.CoverDark }}
+        <source srcset="{{ .Params.CoverDark }}" media="(prefers-color-scheme: dark)">
+        {{ end }}
+        <img src="{{ .Params.Cover }}" alt="Cover" />
+    </picture>
 </div>
-{{- end }}
+{{ end }}
 <h1>
     {{ if .Params.H1 }}
     {{ .Params.H1 }}
