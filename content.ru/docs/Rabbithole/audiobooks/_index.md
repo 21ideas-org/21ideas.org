@@ -20,3 +20,7 @@ weight: 3
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0C5vGXMxonE0DDzUaAgyIO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MzfgCM2U0gxylOgAtr7m7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

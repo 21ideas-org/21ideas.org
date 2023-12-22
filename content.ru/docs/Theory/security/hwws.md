@@ -15,7 +15,7 @@ weight: 6
 Этот обзор познакомит вас с различными аппаратными кошельками и поможет в дальнейшем выборе устройства для холодного хранения монет.
 
 {{< hint btc >}}
-Перевод [статьи](https://unchained.com/blog/best-bitcoin-hardware-wallets/) Unchained подготовлен Тони⚡️
+Перевод [статьи](https://unchained.com/blog/best-bitcoin-hardware-wallets/) Unchained подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /hint >}}
 
 Как уже не раз показывала история, нет ничего важнее, чем взять на себя ответственность за хранение своих биткоинов и избавиться от рисков контрагента.
