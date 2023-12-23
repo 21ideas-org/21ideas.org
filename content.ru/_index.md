@@ -1,7 +1,7 @@
 ---
 title: 21 ideas
-cover: /img/main-section/main.png
-coverDark: /img/main-section/main.png#change-me-alex
+cover: /img/main-section/main_light.png
+coverDark: /img/main-section/main_dark.png
 h1: "Образовательный ресурс о Биткоине"
 description: "Образовательный ресурс о Биткоине"
 ---
