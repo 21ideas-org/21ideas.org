@@ -6,6 +6,7 @@ description: "Вопрос 21 миллиона биткоинов: почему 
 url: pochemu-21-million
 aliases: ['/why-21-million']
 date: 2018-04-16
+bookHidden: true
 bookFlatSection: false
 weight: 65
 ---
