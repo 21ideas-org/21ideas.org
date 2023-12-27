@@ -29,7 +29,7 @@ weight: 7
 - Sergei Orlov
 
 {{< hint btc >}}
-Книга также доступна в аудиоформате: [https://www.21ideas.org/audio-audiobooks-the-blocksize-war/](https://www.21ideas.org/audio-audiobooks-the-blocksize-war/)
+Книга также доступна в аудиоформате в разделе [Аудиокниги](audiobooks)
 {{< /hint >}}
 
 ---
