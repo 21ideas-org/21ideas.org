@@ -5,7 +5,7 @@ description: "Если технологии должны все удешевля
 url: cena-vvedenie
 date: 2023-12-20
 bookFlatSection: false
-bookHidden: true
+bookHidden: false
 weight: 2
 ---
 
