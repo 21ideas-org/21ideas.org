@@ -3,7 +3,7 @@ title: "Глава 1: Печать денег"
 h1: "Глава 1: Печать денег"
 description: "Если технологии должны все удешевлять, почему жизнь становится все более дорогой?"
 url: cena-glava-1
-date: 2023-12-29
+date: 2020-01-14
 bookFlatSection: false
 bookHidden: true
 weight: 2

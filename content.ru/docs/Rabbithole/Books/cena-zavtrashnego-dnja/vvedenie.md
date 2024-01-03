@@ -3,7 +3,7 @@ title: "ВВЕДЕНИЕ - КОНЕЦ ИНФЛЯЦИИ"
 h1: "ВВЕДЕНИЕ - КОНЕЦ ИНФЛЯЦИИ"
 description: "Если технологии должны все удешевлять, почему жизнь становится все более дорогой?"
 url: cena-vvedenie
-date: 2023-12-20
+date: 2020-01-14
 bookFlatSection: false
 bookHidden: false
 weight: 2
@@ -129,3 +129,5 @@ weight: 2
 Далее в этой книги я более подробно рассмотрю ситуацию: как мы здесь оказались, куда мы будем двигаться дальше и что мы можем с этим сделать. Готовьтесь к вызову.
 
 [^1]: Институт политических исследований, "Неравенство доходов", [inequality.org](https://inequality.org/facts/income-inequality/). 
+[^2]: Рэй Далио, "[Большие долговые кризисы. Принципы преодоления](https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf)" (Bridgewater Associates, 2018), страница 12. 
+[^3]: Рэй Далио, "[Большие долговые кризисы. Принципы преодоления](https://www.bridgewater.com/big-debt-crises/principles-for-navigating-big-debt-crises-by-ray-dalio.pdf)" (Bridgewater Associates, 2018), страница 12.
