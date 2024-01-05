@@ -9,7 +9,7 @@ aliases: ['/practical-hodl-hodl-guide']
 date: 2022-02-21
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 2
 ---
 
 Один из лучших способов покупки биткоинов, не требующий документов.
