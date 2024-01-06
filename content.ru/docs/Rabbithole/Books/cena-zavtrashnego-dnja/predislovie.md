@@ -3,7 +3,7 @@ title: "Предисловие"
 h1: "Предисловие"
 description: "Мы живем в удивительное время, когда глобальное процветание вполне достижимо."
 url: cena-predislovie
-date: 2023-12-12
+date: 2020-01-14
 bookFlatSection: false
 bookHidden: false
 weight: 2

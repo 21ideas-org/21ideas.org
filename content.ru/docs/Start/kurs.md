@@ -75,7 +75,7 @@ weight: 3
 
 1. Видео интервью со Стефаном Ливерой "[Биткоин-экономика](https://www.youtube.com/watch?v=g5k72giLpng&t=3s)"
 2. Статья Tony Lightning "[Биткоин – золото 2.0?](/bitcoin-zoloto-2-0)"
-3. Детская книга [Биткоин-деньги](https://t.me/bitcoin21ideas/2239)
+3. Детская книга [Биткоин-деньги](/bitcoin-money/)
 4. Книга Филипа Багуса "[В защиту дефляции](/epubs/v-zashchitu-deflyacii.pdf)"
 5. Видео "[Величайший в мире обман](https://youtu.be/GSzD0HXRFKE)"
 
@@ -171,7 +171,8 @@ weight: 3
 **Дополнительные материалы:**
 
 1. [Серия видео](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC) от команды кошелька Samourai
-2. [Proof-of-Work](https://youtu.be/o7CwrxMFsG0) Антонопулос
+2. [Серия статей](privacy/oxt/) от команды кошелька Samourai
+3. [Proof-of-Work](https://youtu.be/o7CwrxMFsG0) Антонопулос
 
 {{< youtube UV_qj-MLBes >}}
 Итоговая лекция по материалам раздела "Технология"
@@ -193,7 +194,7 @@ weight: 3
 
 **Материалы к изучению:**
 
-- [Практический гид](/practice/guide) по взаимодействию с биткоином.
+- [Практический гид](/start/guide) по взаимодействию с биткоином.
 - [Статья](/kak-hranit-kljuchi), посвященная разным видам биткоин-кошельков.
 - Видео о настройке десктопного кошелька [Electrum](https://youtu.be/-wya0DhbV0g)
 - [Статья](/coldcard), посвященная настройке аппаратного кошелька Coldcard.
