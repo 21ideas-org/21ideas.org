@@ -42,4 +42,4 @@ weight: 5
 
 Предложить пропущенные мною или новые события можно в разделе сайта "[обратная связь](/feedback)".
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMoscow&showNav=1&showCalendars=0&showTabs=1&src=OTAxYmU1NjNjZmE4ZGQwYWIyM2IyZDNlMGIwNjJhMmU3ZDU0ZDg3MGI0ZjM0OTMzMDgyMTU0OGRjMmU4ZjMzNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMoscow&showNav=1&showCalendars=0&showTabs=1&src=OTAxYmU1NjNjZmE4ZGQwYWIyM2IyZDNlMGIwNjJhMmU3ZDU0ZDg3MGI0ZjM0OTMzMDgyMTU0OGRjMmU4ZjMzNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe> 
