@@ -37,7 +37,7 @@
 
 - **Телеграм-канал**: https://t.me/bitcoin21ideas
 - **YouTube**: https://www.youtube.com/@21ideas
-- **Подкасты**: https://podcasters.spotify.com/pod/show/tony-lightning
+- **Подкасты**: https://podcasters.spotify.com/pod/show/tony-lightning 
 - **RSS**: https://anchor.fm/s/69c8de58/podcast/rss
 - **Все о Ностр**: https://nostr.21ideas.org
 
