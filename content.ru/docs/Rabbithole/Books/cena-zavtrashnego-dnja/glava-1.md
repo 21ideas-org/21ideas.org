@@ -5,6 +5,7 @@ description: "Если технологии должны все удешевля
 url: /cena/1
 date: 2020-01-14
 bookFlatSection: false
+bookToc: true
 weight: 3
 ---
 
