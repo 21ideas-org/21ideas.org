@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+<article class="markdown">
+  {{- .Content -}}
+</article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}
