@@ -21,7 +21,7 @@ weight: 55
 {{< hint btc>}}
 Оригинал подкаста (на английском): [https://stephanlivera.com/episode/153/](https://stephanlivera.com/episode/153/)
 
-[PDF](/epubs/v-zashchitu-deflyacii.pdf) книги Филиппа Багуса “В защиту дефляции”
+Книга Филиппа Багуса “В защиту дефляции”: https://21ideas.org/v-zaschitu-defliazii-book/
 
 Твиттер Филиппа: [https://twitter.com/PhilippBagus](https://twitter.com/PhilippBagus)
 
