@@ -3,7 +3,7 @@ title: "В защиту дефляции"
 h1: "В защиту дефляции"
 cover: /img/books/bagus.png
 description: "Эта книга Филипа Багуса поясняет почему дефляция сама по себе не страшна."
-url: v-zaschitu-defliazii
+url: v-zaschitu-defliazii-book
 date: 2019-05-01
 bookFlatSection: false
 weight: 52
