@@ -933,3 +933,11 @@ _Источник: [Многоразовые платежные коды для 
 - [https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060](https://commandlinefanatic.com/cgi-bin/showarticle.cgi?article=art060)
 - [https://ee.stanford.edu/~hellman/publications/24.pdf](https://ee.stanford.edu/~hellman/publications/24.pdf)
 - [https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols](https://www.researchgate.net/publication/317339928_A_study_on_diffie-hellman_key_exchange_protocols)
+
+### Поддержите переводчика
+
+Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
+
+{{% image "/img/btclinux-ln-qr.jpg" %}}
+_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
+{{% /image %}}

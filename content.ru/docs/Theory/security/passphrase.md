@@ -136,3 +136,11 @@ _Совет: Знаете ли вы, что если провести пальц
 [^Len05]: Arjen K. Lenstra: Key Lengths. In: The Handbook of Information Security, ch. 114. Wiley (2005).
 [^Mon11]: Montemurro MA, Zanette DH (2011) Universal Entropy of Word Ordering Across Linguistic Families. PLoS ONE 6(5): e19875. [https://doi.org/10.1371/journal.pone.0019875](https://doi.org/10.1371/journal.pone.0019875).
 [^Rei95]: Arnold G. Reinhold: The Diceware Passphrase Home Page, [http://world.std.com/~reinhold/diceware.html](http://world.std.com/~reinhold/diceware.html).
+
+### Поддержите переводчика
+
+Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
+
+{{% image "/img/btclinux-ln-qr.jpg" %}}
+_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
+{{% /image %}}
