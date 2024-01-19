@@ -6,6 +6,7 @@ description: "Транзакции в сети Биткоин являются �
 url: privacy/coinjoin
 aliases: ['/privacy-coinjoin']
 date: 2020-03-15
+bookHidden: true 
 bookFlatSection: false
 weight: 3
 ---
