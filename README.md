@@ -107,6 +107,8 @@
 | - 21,000 | [btclinux](https://github.com/btclinux) | "[BIP47 или гадкий утенок](https://github.com/21ideas-org/21ideas.org/pull/157)" | 366,900 |
 | - 50,000 | [btclinux](https://github.com/btclinux) | "[Серия про анализ цепочки и приватность.](https://github.com/21ideas-org/21ideas.org/pull/190)" | 316,900 |
 | - 21,900 | [Radiokot](https://github.com/Radiokot) | "[поддержка альтернативных обложек для темной/светлой тем.](https://github.com/21ideas-org/21ideas.org/pull/222)" | 295,000 |
+| - 50,000 | [btclinux](https://github.com/btclinux) | "[Все, что нужно знать о CoinJoin](https://github.com/21ideas-org/21ideas.org/pull/250)" | 245,000 |
+
 
 
 
