@@ -552,6 +552,10 @@ python3 ludwig.py --help
 
 ```
 export BOLTZMANN_RPC_USERNAME=myusername
+export BOLTZMANN_RPC_PASSWORD=mysecretpassword
+#Используйте значение "127.0.0.1", если запускаете калькулятор непосредственно на машине с Биткоин-нодой
+export BOLTZMANN_RPC_HOST=127.0.0.1
+export BOLTZMANN_RPC_PORT=8332
 ```
 
 В вашем bitcoin.conf должны быть указаны следующие параметры:
