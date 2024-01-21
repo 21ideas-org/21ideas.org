@@ -30,9 +30,9 @@ weight: 6
 
 {{< /expand >}}
 
-## Необходимые требования
-
-- Завершены все действия из части [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3), [4](/privacy/dojo-4).
+{{% hint btc %}}
+Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3), [4](/privacy/dojo-4).
+{{% /hint %}}
 
 ## Введение
 
