@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="pageCover">
+  <picture>
+    <source srcset="/img/herald/main/banner-grey.png" media="(prefers-color-scheme: dark)">
+    <img src="/img/herald/main/banner-white.png" alt="Cover" />
+  </picture>
+</div>
+<center>
+  Еженедельний дайджест новостей о Биткоине, деньгах и свободе.
+</center>
+<br>
+<hr>
+<br>
+
+{{ range sort .Paginator.Pages }}
+<article class="markdown book-post">
+  {{- with .Params.Cover }}
+  <div class="book-post_cover">
+    <img src="{{ . }}">
+  </div>
+  {{- end }}
+  <h2>
+    <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+  </h2>
+  <div class="book-post_date">
+    {{ .Date | time.Format ":date_long" }}
+  </div>
+  {{- with .Params.list_description }}
+  <p>{{ . }}</p>
+  {{- end }}
+  <p>
+    <a href="{{ .RelPermalink }}">Читать выпуск →</a>
+  </p>
+</article>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ define "toc" }}
+{{ partial "docs/taxonomy" . }}
+{{ end }}

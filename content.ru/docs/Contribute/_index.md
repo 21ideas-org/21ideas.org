@@ -8,7 +8,7 @@ weight: 5
 bookhidden: true
 menu:
   after:
-    weight: 2
+    weight: 3
     params:
       children: true
 ---
