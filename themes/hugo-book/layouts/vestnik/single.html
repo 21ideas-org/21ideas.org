@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "page-header.html" . }}
+<article class="markdown">
+  {{- .Content -}}
+</article>
+{{ partial "docs/comments.html" . }}
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}
