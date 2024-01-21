@@ -2,7 +2,7 @@
 menu:
   after:
     weight: 2
-title: Биткоин-вестник
+title: Вестник
 description: "Еженедельний дайджест новостей о Биткоине, деньгах и свободе."
 cover: "/img/herald/main/banner-grey.png"
 
