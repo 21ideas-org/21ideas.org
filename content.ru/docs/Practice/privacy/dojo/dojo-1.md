@@ -3,7 +3,7 @@ title: "Часть 1. Установка Bitcoin Core"
 h1: "Часть 1. Установка Bitcoin Core"
 description: ""
 cover: /img/dojo-04.jpg
-url: privacy/dojo-1
+url: practice-privacy/dojo-1
 date: 2023-12-20
 bookFlatSection: false
 bookToc: true
@@ -14,19 +14,19 @@ weight: 2
 
 ## Установка Биткоин-узла Dojo на x86
 
-[Введение](/privacy/dojo-0)
+[Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/privacy/dojo-2)
+[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/privacy/dojo-3)
+[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/privacy/dojo-4)
+[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/privacy/dojo-5)
+[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/privacy/dojo-6)
+[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
@@ -479,19 +479,19 @@ tail -f .bitcoin/debug.log
 
 ## Установка Биткоин-узла Dojo на x86
 
-[Введение](/privacy/dojo-0)
+[Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/privacy/dojo-2)
+[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/privacy/dojo-3)
+[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/privacy/dojo-4)
+[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/privacy/dojo-5)
+[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/privacy/dojo-6)
+[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
 {{< /expand >}}
 

@@ -3,7 +3,7 @@ title: "Как установить RoninDojo на ПК (Intel/AMD-x86_64)"
 h1: "Как установить RoninDojo на ПК (Intel/AMD-x86_64)"
 description: ""
 cover: /img/dojo-11.jpg
-url: privacy/dojo-7
+url: practice-privacy/dojo-7
 date: 2023-11-27
 bookFlatSection: false
 bookToc: true

@@ -1,7 +1,7 @@
 ---
 title: "Установка Биткоин-узла Dojo на x86"
 description: "Руководство по установке и настройке Биткоин-узла Dojo на ПК (Intel/AMD-x86_64)"
-url: privacy/dojo
+url: practice-privacy/dojo
 cover: /img/dojo-01.png
 bookCollapseSection: true
 bookFlatSection: false
@@ -15,19 +15,19 @@ weight: 1
 [Поддержать проект](/contribute/)
 {{< /hint >}}
 
-[Введение](/privacy/dojo-0)
+[Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/privacy/dojo-2)
+[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/privacy/dojo-3)
+[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/privacy/dojo-4)
+[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/privacy/dojo-5)
+[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/privacy/dojo-6)
+[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
 {{< hint btc>}}
 Перевод [руководства](https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64/) по установке RoninDojo на x86, опубликованного на [Estudio Bitcoin](https://twitter.com/estudiobitcoin)
