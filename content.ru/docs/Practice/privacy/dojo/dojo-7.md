@@ -7,6 +7,7 @@ url: practice-privacy/dojo-7
 date: 2023-11-27
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 8
 ---
 
