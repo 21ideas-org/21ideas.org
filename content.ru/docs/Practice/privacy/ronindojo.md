@@ -678,7 +678,7 @@ cd ~/dojo/docker/my-dojo/
 ```
 
 {{% hint info %}}
-Делаем необходимые изменения для Testnet из [этого раздела](http://localhost:1313/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-samourai-dojo).
+Делаем необходимые изменения для Testnet из [этого раздела](/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-samourai-dojo).
 {{% /hint %}}
 
 ```bash
