@@ -3,3 +3,4 @@ hugo/.DS_Store
 .hugo_build.lock
 .trash
 .obsidian
+hugo.*

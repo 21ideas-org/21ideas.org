@@ -38,3 +38,20 @@
   }
 }
 
+.book-menu-content {
+  // This rule enables the footer.
+  display: flex;
+  flex-direction: column;
+
+  nav {
+    flex: 1;
+  }
+}
+
+.menuSocialButton {
+  display: inline-block;
+  fill: currentColor;
+  width: 1.4rem;
+  height: 1.4rem;
+  opacity: 0.4;
+}

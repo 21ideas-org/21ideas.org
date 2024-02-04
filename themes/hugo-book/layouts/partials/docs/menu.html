@@ -20,6 +20,10 @@
 {{ partial "docs/inject/menu-after" . }}
 </nav>
 
+<footer>
+{{ partial "docs/inject/menu-footer" . }}
+</footer>
+
 <!-- Restore menu position as soon as possible to avoid flickering -->
 {{ $script := resources.Get "menu-reset.js" | resources.Minify }}
 {{ with $script.Content }}
