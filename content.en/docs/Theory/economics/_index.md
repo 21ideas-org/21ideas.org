@@ -6,16 +6,17 @@ url: economics
 weight: 1
 ---
 
-Раздел, посвященный экономическим аспектам Биткоина.
+A section devoted to the economic aspects of Bitcoin.
 
-## Cерии статей 
+## Series 
 
-{{< expand "Постепенно, затем внезапно" "..." >}}
-## Серия статей Паркера Льюиса "Постепенно, затем внезапно"
-Серия расскажет обо всех основных экономических, социальных и технологических составляющих Биткоина, а также развеет основные связанные с ним заблуждения.
+{{< expand "Gradually, Then Suddenly" "..." >}}
+## Series of articles by Parker Lewis 
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
+The series will cover all the major economic, social and technological components of Bitcoin, as well as dispel the major misconceptions associated with it.
+
+1. [Introduction](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can't Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied/)
 3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
 4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
 5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
@@ -34,29 +35,29 @@ weight: 1
 
 {{< /expand >}}
 
-{{< expand "Становление Биткоина" "..." >}}
-## Серия статей Джакомо Зукко "Становление Биткоина"
-Добро пожаловать в серию, состоящую из семи статей под названием “Становление Биткоина: Краткий обзор истории от пещерных людей до сети _lightning_”.
+{{< expand "Discovering Bitcoin" "..." >}}
+## Series of articles by Giacomo Zucco
+Welcome to the introduction to a series of seven articles, entitled “Discovering Bitcoin: A Brief Overview From Cavemen to the Lightning Network.”
 
-1. [Вступление: Краткий обзор истории от пещерных людей до сети lightning](/sb/stanovlenie-intro)
+1. [Вступление: Краткий обзор истории от пещерных людей до сети lightning](/en/discovering-bitcoin-intro)
 
-2. [Часть 1. О времени](/sb/stanovlenie-1)
+2. [Часть 1. О времени](/en/discovering-bitcoin-1)
 
-3. [Часть 2. О людях](/sb/stanovlenie-2)
+3. [Часть 2. О людях](/en/discovering-bitcoin-2)
 
-4. [Часть 3. Знакомьтесь: деньги](/sb/stanovlenie-3)
+4. [Часть 3. Знакомьтесь: деньги](/en/discovering-bitcoin-3)
 
-5. [Часть 4. Поворот не туда (в поисках нового плана)!](/sb/stanovlenie-4)
+5. [Часть 4. Поворот не туда (в поисках нового плана)!](/en/discovering-bitcoin-4)
 
-6. [Часть 5. Цифровая редкость](/sb/stanovlenie-5)
+6. [Часть 5. Цифровая редкость](/en/discovering-bitcoin-5)
 
-7. [Часть 6. Цифровые контракты](/sb/stanovlenie-6)
+7. [Часть 6. Цифровые контракты](/en/discovering-bitcoin-6)
 
-8. [Часть 7: Недостающие части головоломки](/sb/stanovlenie-7)
+8. [Часть 7: Недостающие части головоломки](/en/discovering-bitcoin-7)
 
 {{< /expand >}}
 
-## Статьи
+## Articles
 
 - [Биткоин не вредит окружающей среде](/bitkoin-ne-vredit-okruzhayushej-srede)
 - [Семь сетевых эффектов Биткоина](/sem-setevyh-effektov-bitkoina)

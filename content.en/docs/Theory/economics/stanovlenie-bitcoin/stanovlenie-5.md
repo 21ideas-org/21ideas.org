@@ -1,10 +1,9 @@
 ---
-title: "Становление Биткоина Часть 5. Цифровая редкость"
-h1: "Становление Биткоина Часть 5. Цифровая редкость"
+title: "Part 5. Digital Scarcity"
+h1: "Part 5. Digital Scarcity"
 cover: /img/sb-340.jpg
 description: "Далее в серии “Становление Биткоина” мы будем опираться на виртуализацию денег, создание опасных монополий и возникающую потребность в децентрализации, описанные ранее."
-url: sb/stanovlenie-5
-aliases: ['/theory-economics-discovering-bitcoin-pt5']
+url: discovering-bitcoin-5
 date: 2019-09-20
 bookFlatSection: false
 weight: 6
