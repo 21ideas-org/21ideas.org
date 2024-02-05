@@ -1,10 +1,9 @@
 ---
-title: "Становление Биткоина Часть 7: Недостающие части головоломки"
-h1: "Становление Биткоина Часть 7: Недостающие части головоломки"
+title: "Part 7: The Missing Pieces"
+h1: "Part 7: The Missing Pieces"
 cover: /img/sb-353.jpg
 description: "В завершение серии “Становление Биткоина”, мы будем опираться на использование цифровых подписей и парадигмы CoinJoin для изучения концепций уникальной хронологии, комиссий за майнинг и оффчейн транзакций (транзакций вне сети)."
-url: sb/stanovlenie-7
-aliases: ['/theory-economics-discovering-bitcoin-pt7']
+url: discovering-bitcoin-7
 date: 2019-09-22
 bookFlatSection: false
 weight: 8

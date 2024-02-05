@@ -29,7 +29,7 @@ languages:
     contentDir: content.en
     weight: 2
   ru:
-    languageName: Russian
+    languageName: Русский
     languageCode: ru-RU
     contentDir: content.ru
     weight: 1

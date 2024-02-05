@@ -1,9 +1,9 @@
 ---
-title: "Биткоин и интернет-циклы Хопфа"
-h1: "Биткоин и интернет-циклы Хопфа"
+title: "Bitcoin & the HOPF Cycle of the Internet"
+h1: "Bitcoin & the HOPF Cycle of the Internet"
 cover: /img/hopf-597.jpg
 description: "Текущие реликвии &quot;Мышления хороших времен&quot; затрудняют понимание компромисса, но &quot;Трудные времена&quot; снова приходят, чтобы напомнить нам о цене, которую мы можем заплатить в долгосрочной перспективе во имя удобства в краткосрочной."
-url: bitcoin-i-internet-cikly-hopfa
+url: bitcoin-and-the-hopf-cycle-of-the-internet
 aliases: ['/theory-philosophy-hopf-internet-cycles']
 date: 2020-12-30
 bookFlatSection: false

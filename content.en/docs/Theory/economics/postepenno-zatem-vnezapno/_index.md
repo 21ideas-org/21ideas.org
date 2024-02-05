@@ -1,7 +1,7 @@
 ---
-title: "Постепенно, затем внезапно"
-h1: "Постепенно, затем внезапно"
-url: pzv
+title: "Gradually, Then Suddenly"
+h1: "Gradually, Then Suddenly"
+url: gradually-then-suddenly
 bookCollapseSection: true
 weight: 1
 ---

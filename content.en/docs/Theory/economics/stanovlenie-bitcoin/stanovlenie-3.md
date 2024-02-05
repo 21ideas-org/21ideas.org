@@ -3,8 +3,7 @@ title: "Становление Биткоина Часть 3. Знакомьте
 h1: "Становление Биткоина Часть 3. Знакомьтесь: деньги"
 cover: /img/sb-324.jpg
 description: "В этом выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях обмена."
-url: sb/stanovlenie-3
-aliases: ['/theory-economics-discovering-bitcoin-pt3']
+url: discovering-bitcoin-3
 date: 2019-09-18
 bookFlatSection: false
 weight: 4

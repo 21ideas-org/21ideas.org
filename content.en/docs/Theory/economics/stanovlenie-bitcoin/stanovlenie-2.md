@@ -1,10 +1,9 @@
 ---
-title: "Становление Биткоина Часть 2. О людях"
-h1: "Становление Биткоина Часть 2. О людях"
+title: "Part 2. About People"
+h1: "Part 2. About People"
 cover: /img/sb-316.jpg
 description: "В этой части мы будем опираться на ранее приобретенные стратегии хранения сбережений, их инвестирования и повышения производительности."
-url: sb/stanovlenie-2
-aliases: ['/theory-economics-discovering-bitcoin-pt2']
+url: discovering-bitcoin-2
 date: 2019-09-17
 bookFlatSection: false
 weight: 3

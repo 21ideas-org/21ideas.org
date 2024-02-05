@@ -1,11 +1,10 @@
 ---
-title: "Биткоин нельзя скопировать"
-h1: "Биткоин нельзя скопировать"
+title: "Bitcoin Can’t Be Copied"
+h1: "Bitcoin Can’t Be Copied"
 cover: /img/150.png
 tags: ["биткоин", "экономика", "pow", "proof-of-work", "токеномика", "альткоин"]
 description: "Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему."
-url: pzv/bitkoin-nelzya-skopirovat
-aliases: ['/theory-economics-bitcoin-cant-be-copied']
+url: gradually-then-suddenly/bitcoin-cant-be-copied
 date: 2019-08-02
 bookFlatSection: false
 bookToc: true

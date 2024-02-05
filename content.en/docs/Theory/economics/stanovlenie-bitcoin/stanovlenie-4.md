@@ -1,10 +1,9 @@
 ---
-title: "Становление Биткоина Часть 4. Поворот не туда"
-h1: "Становление Биткоина Часть 4. Поворот не туда (в поисках нового плана)!"
+title: "Part 4. A Wrong Turn (New Plan Needed)!"
+h1: "Part 4. A Wrong Turn (New Plan Needed)!"
 cover: /img/sb-330.jpg
 description: "В данном выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях оптимизации “твердости”, “масштабности” и “секретности” для изучения концепций виртуализации и децентрализации денег."
-url: sb/stanovlenie-4
-aliases: ['/theory-economics-discovering-bitcoin-pt4']
+url: discovering-bitcoin-4
 date: 2019-09-19
 bookFlatSection: false
 weight: 5

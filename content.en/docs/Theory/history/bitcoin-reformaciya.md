@@ -1,9 +1,9 @@
 ---
-title: "Биткоин-Реформация"
-h1: "Биткоин-Реформация"
+title: "Bitcoin Reformation"
+h1: "Bitcoin Reformation"
 cover: /img/br-534.jpg
 description: "В этом докладе мы попытаемся показать, что Биткоин, шифрование, интернет и поколение миллениалов — это не просто тренды XXI века, а предвестники волны перемен, схожей с революционной европейской эпохой XVI–XVII веков."
-url: bitcoin-reformaciya
+url: bitcoin-reformation
 aliases: ['/theory-philosophy-bitcoin-reformation']
 date: 2019-11-07
 bookFlatSection: false
