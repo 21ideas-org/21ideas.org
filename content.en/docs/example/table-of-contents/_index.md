@@ -1,10 +1,9 @@
 ---
 weight: 10
+bookHidden: true
 ---
 
 # Ubi loqui
-
-ТЕст
 
 ## Mentem genus facietque salire tempus bracchia
 

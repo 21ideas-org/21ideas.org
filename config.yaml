@@ -24,10 +24,10 @@ markup:
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 languages:
-  # en:
-  #   languageName: English
-  #   contentDir: content.en
-  #   weight: 2
+  en:
+    languageName: English
+    contentDir: content.en
+    weight: 2
   ru:
     languageName: Russian
     languageCode: ru-RU
