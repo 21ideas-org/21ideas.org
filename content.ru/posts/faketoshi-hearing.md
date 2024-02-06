@@ -7,7 +7,7 @@ menu:
     parent: blog
 next: /blog/
 prev: /blog/hal-finney-ne-byl-satoshi-nakamoto
-title: "Началось судебное разбирательство, которое может положить конец клоунаде Крейга Райта"
+title: "Начался судебный процесс, который может положить конец клоунаде Крейга Райта"
 description: "В Лондоне начался судебный процесс COPA против Крейга Райта, в ходе которого COPA представила свои вступительные аргументы."
 cover: https://news.bitcoin.com/wp-content/uploads/2019/08/craigcover-1024x674.jpg
 weight: 10
@@ -45,4 +45,7 @@ weight: 10
 
 Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
 
-{{% image "/img/main-section/arbitrica-ln.png" /%}}
+{{% image "/img/main-section/arbitrica-ln.png" %}}
+`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhh2mnrda6hg6rsv9e8ymm5xqmqk60323`
+{{% /image %}}
+
