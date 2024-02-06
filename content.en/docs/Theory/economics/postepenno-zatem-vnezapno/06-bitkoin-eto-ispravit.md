@@ -1,10 +1,10 @@
 ---
-title: "Биткоин это исправит"
-h1: "Биткоин это исправит"
+title: "Bitcoin Fixes This"
+h1: "Bitcoin Fixes This"
 cover: /img/bitcoin-fixes-this.jpg
-tags: ["биткоин", "экономика", "постепенно затем внезапно", "количественное смягчение", "инфляция", "qe"]
-description: "Биткоин может оказаться хитрым окольным путем обхода экономической системы ФРС, но это может произойти исключительно за счет традиционной системы."
-url: pzv/bitkoin-eto-ispravit
+tags: ["bitcoin", "economics", "gradually then suddenly", "inflation", "qe"]
+description: ""
+url: gradually-then-suddenly/bitcoin-fixes-this
 aliases: ['/theory-economics-bitcoin-fixes-this']
 date: 2019-08-30
 bookFlatSection: false
@@ -12,130 +12,130 @@ bookToc: true
 weight: 6
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}
 
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 30 Августа 2019 г.](https://unchained.com/blog/bitcoin-fixes-this/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
-{{< /hint >}}
+This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-fixes-this).
 
-Прошедшая неделя ознаменовала то время года, когда банкиры центральных банков, экономисты эстеблишмента, CNBC и остальные отправились в Джексон Хоул, штат Вайоминг, чтобы обсудить системные проблемы, от которых страдает экономика США. Несмотря на то, что они постоянно находятся в поисках решения, оно, похоже, так и не найдено; это постоянная дилемма Джексон Хоул. Традиционно мероприятие всегда сопровождалось фанфарами, и этот год ничем не отличался. Весь спектакль был освещен Лоуренсом Саммерсом, бывшим министром финансов США и бывшим президентом Гарвардского университета. В Твиттер ленте, состоящей из 28 частей, Саммерс поставил под сомнение ряд основополагающих предположений, представленных экономическим мейнстримом учреждения, членом которого он является сам. В игре в Марко Поло Саммерс немного ближе к успеху, но он все еще не на той стороне бассейна. Возможно, он и выявляет симптомы проблемы, но, как и в случае с большинством экономистов, так и не задает очевидного вопроса: “Может ли само устройство политики центрального банка быть причиной проблемы, а не ее решением?”
+[Contribute](/contribute/).
+{{< /hint>}}
+
+This past week marked that time of year when global central bankers, establishment economists and CNBC, et al. descend on Jackson Hole, Wyoming to discuss the systemic issues that plague our economy. Never seeming to find an answer but constantly in search of it; it is the perennial Jackson Hole dilemma. There is always much fanfare and this year was no different. The whole spectacle may have been highlighted by Lawrence Summers, former U.S. Treasury Secretary and former President of Harvard University. In a 28-part [twitter thread](https://twitter.com/LHSummers/status/1164490326549118976), Summers questioned a number of foundational assumptions made by the establishment economic mainstream, of which he is a resident member. In the game of Marco Polo, Summers is getting warmer but he’s still on the wrong side of the pool. Identifying symptoms of the problem maybe, but as with most mainstream economists, the obvious question is never asked. Could the whole apparatus of central bank policy be the root cause of the problem rather than the ever-elusive solution?
 
 {{% image "/img/gts-6-1.png" /%}}
 
-Иными словами: “Может ли центральный банкинг в том виде, в котором мы его знаем, быть основным инструментом стабилизации макроэкономики в течение следующего десятилетия?” Саммерс сомневается, что это возможно, но что, если сформулировать вопрос таким образом: является ли центральный банкинг основной причиной макроэкономической нестабильности? После финансового кризиса количественное смягчение стало основным инструментом, который использовался центральными банками в попытке стабилизировать экономику и вызвать инфляцию. Сценарий таков: увеличить денежную массу, снизить процентные ставки и пересчитать стоимость активов, чтобы можно было поддерживать существующий уровень долга и увеличить его.
+The baseline question from Summers: can central banking as we know it be the primary tool of macroeconomic stabilization in the industrial world over the next decade? Summers doubts that it can, but what if the better question were: is central banking the primary cause of macroeconomic instability? Since the financial crisis, quantitative easing has been the primary tool central banks have used in an attempt to stabilize the economy and to manufacture inflation. The playbook is as follows: increase the money supply, reduce interest rates and reflate asset values such that existing debt levels can be sustained and more debt can be created. 
 
-Однако, несмотря на рекордно низкие процентные ставки, мировая экономика вновь начала ухудшаться, и эффективность количественного смягчения теперь естественным образом ставится под сомнение многими. Как отмечает Саммерс, то, что долгое время преподносилось как аксиома, сейчас вызывает большие сомнения. Вопреки распространенному мнению, функция количественного смягчения фактически создает дисбаланс, который сама стремится избежать. Когда понимаешь основы функционирования количественного смягчения, становится ясно, что оно изначально являлось дурацкой затеей. Как пишет Нассим Талеб в предисловии к книге [“Биткоин-стандарт”](https://saifedean.com/book/russian), эксперты по макроэкономике не только не являются экспертами, но еще и не осознают этого.
+However, despite record low interest rates, the global economy has once again begun to deteriorate and the effectiveness of quantitative easing is naturally being questioned by many. As Summers notes, what has long been taught as axiomatic is now very much in doubt. Contrary to popular belief, the function of quantitative easing actually creates the instability it seeks to avoid. When understanding its base operation, it becomes clear that quantitative easing has always been a fool’s errand.  As Nassim Taleb writes in the foreword to [The Bitcoin Standard](https://saifedean.com/the-book/), the macroeconomic experts are not only not experts, they don’t know it either.
 
-{{% image "/img/gts-6-2.png" /%}}
+{{% image "/img/gts-6-2-en.png" /%}}
 
-{{< hint info >}}
-Книга “Биткоин-стандарт”, названная в переводе “Краткая история денег”, [доступна в формате epub](/epubs/the-bitcoin-standard-ru.epub).
-{{< /hint >}}
-
-> “Риск наступления экономического спада, похоже, уменьшился за последний месяц или около того”.
+> _“The risk that the economy has entered a substantial downturn appears to have diminished over the past month or so.”_
 > 
-> – Бывший председатель ФРС Бен Бернанке, июнь 2008 г.
+> – _Former Fed Chair Ben Bernanke, June 2008_
 
-{{% image "/img/gts-6-3.png" /%}}
+{{% image "/img/gts-6-3-en.png" /%}}
 
-История неизменно подтверждала, что эксперты ограничены в своих собственных экспертных знаниях, но такие решения, как количественное смягчение, продолжают выполняться в основном потому, что макроэкономика и центральный банкинг — это монокультура, по словам Талеба. Основная политическая позиция основывается на предположении, что центральный банкинг является ключевым для функции экономики; затем обсуждаются вопросы о том, какие рычаги можно использовать и как лучше управлять экономикой с помощью планирования центрального банка. Активное управление денежной массой посредством количественного смягчения принимается как данность; вопрос скорее в том, в каком объеме и когда это произойдет, а не произойдет ли это.
+History has consistently established that the experts are limited in the field of their own expertise, yet policies such as quantitative easing continue to be pursued, largely because macroeconomics and central banking is a monoculture, as Taleb describes. The mainstream policy position starts with the assumption that central banking is core to the function of an economy; then debate centers on what levers to pull and how best to manage the economy via central bank planning. Active management of the money supply via quantitative easing is taken as a given; it’s a question of how much and when, rather than if. 
 
-Тем не менее, существует противоположное экономическое мнение, согласно которому сама функция центрального банкинга и активное управление денежной массой вредны для экономики. Противоположная точка зрения практически не может сосуществовать с центральным банком, потому что она противоречит самой его функции, благодаря которой существует монокультура и вследствие чего курс никогда не меняется. В конечном счете, экономические дебаты проходили в течение всего 20-го века и закончились тем, что переросли в нынешнюю основную позицию. Следствием этого стала экономическая система, которая в значительной степени опирается на обесценивание денег и создание кредитов, которые достигаются путем количественного смягчения.
+However, there remains an opposing economic view which argues that the very function of a central bank and the active management of the money supply is harmful to the economy. The opposing viewpoint cannot practically co-exist within a central bank because it is antithetical to the very function, which is why the monoculture exists and why a different course is never charted. Ultimately, the economic debate played out over the course of the 20th century and ended with what has become the current mainstream position. The consequence has been an economic system that relies heavily on monetary debasement and credit creation, both of which are achieved through quantitative easing.
 
-Теперь, когда Биткоин существует, он уже — не просто предмет интеллектуальной дискуссии. Мы теперь имеем две конкурирующие кардинально различные валютные системы: одна пытается создать стабильность посредством активного управления денежной массой, в то время как другая допускает временную волатильность с целью поддержания фиксированного предложения. В течение последних десяти лет рост действующей системы набирает обороты, о чем свидетельствует ее распространение и неуклонно растущее по сравнению с другими валютами значение. Выбор в пользу Биткоина означает отказ от количественного смягчения. И поскольку центральные банки продолжают использовать тот самый инструмент политики, с которым Биткоин борется, долгосрочная тенденция сохранится, несмотря на то, что решение может быть волатильным.
+Now that bitcoin exists, it is no longer merely the subject of an intellectual debate. Instead, we now have two competing monetary systems that present great contrasts: one attempts to create stability through active management of the money supply, while the other tolerates interim volatility in the interest of maintaining a fixed supply. For the last ten years, the bootstrapping upstart has been gaining ground on the incumbent system, as demonstrated by its adoption and steadily increasing value relative to other currencies. Opting in to bitcoin means opting out of quantitative easing, and while it may be a volatile path, the long-term trend will continue because central banks continue to pursue the very policy tool which bitcoin prevents.
 
-Пытаясь стабилизировать макроэкономику, центральные банкиры непреднамеренно создают нестабильность посредством манипулирования денежной массой. Манипулируя предложением денег, они искажают все глобальные механизмы ценообразования. Как описывает Хайек в книге [“Использование знания в обществе”](https://gtmarket.ru/library/basis/6143/6148), ценовой механизм является самой большой системой распространения знаний в мире. Когда механизм цен искажается, ложные сигналы распределяются по всей экономической системе, и в результате возникает дисбаланс между спросом и предложением, что в конечном итоге приводит к нестабильности и неустойчивости. Сегодня эта нестабильность в первую очередь появляется и поддерживается как функция количественного смягчения. Финансовый кризис дал понять, что размер кредитной системы был как нестабильным, так и неустойчивым; вместо того, чтобы позволить системе естественным образом сократить долговую нагрузку, ФРС пересмотрела цены активов и вызвала дальнейшее расширение кредита с целью дальнейшего поддержания существующих уровней долга. С практической точки зрения, подход центральных банков к решению проблемы слишком высокого долга состоял в том, чтобы стимулировать создание еще большего долга, который изначально являлся причиной отсутствия стабильности. К счастью, Биткоин это исправляет.
+While attempting to be a source of macroeconomic stabilization, central bankers inadvertently create instability through the manipulation of the money supply. By manipulating the supply of money, all global pricing mechanisms become distorted. As Hayek describes in The Use of Knowledge in Society, the price mechanism is the greatest distribution system of knowledge in the world. When the price mechanism becomes distorted, false signals are distributed throughout the economic system and the result is an imbalance between supply and demand which ultimately creates instability and fragility. Today, this instability has primarily been created and sustained as a function of quantitative easing. The financial crisis made it clear that the size of the credit system was both unstable and unsustainable; rather than allow the system to naturally deleverage, the Fed reflated asset prices and induced further credit expansion, such that existing debt levels could be sustained. Practically speaking, the central banking approach to solving a problem of too much debt was to induce the creation of even more debt, which was the original source of instability. Fortunately, _bitcoin fixes this_.
 
-## Что такое “Количественное смягчение”?
+## What is quantitative easing?
 
-В самых упрощенных терминах “Количественное смягчение” (QE) — это технический термин, который описывает, как Федеральный резерв создает новые доллары. Технически это  — не “печатание денег”, но функционально это — то же самое. ФРС в цифровой форме создает новые доллары в бухгалтерской книге (буквально из воздуха) и использует эти доллары для покупки финансовых активов, таких как казначейские обязательства США (государственный долг) или ипотечные ценные бумаги. После финансового кризиса ФРС ввела в банковскую систему посредством QE 3,6 триллиона долларов, увеличив размер своего баланса в пять раз. В результате этого в банковской системе существует больше долларов в форме банковских резервов, и эти резервы можно затем использовать для кредитования или покупки других активов. Проще говоря, увеличение количества долларов приводит к снижению стоимости каждого отдельного доллара.
+In the most simplistic terms, quantitative easing is a technical term that describes how the Federal Reserve creates new dollars. It isn’t technically “printing money,” but it is functionally the same. The Fed digitally creates new digital dollars on a ledger (literally out of thin air) and uses those dollars to purchase financial assets, such as U.S. treasuries (government debt) or mortgage-backed securities. Following the financial crisis, the Fed introduced $3.6 trillion new dollars into the banking system via QE, quintupling the size of its balance sheet. As a net effect, more dollars exist within the banking system in the form of bank reserves and those reserves can then be used to lend or to purchase other assets. In simple terms, more dollars exist, which causes the value of each individual dollar to decrease.
 
-{{% image "/img/gts-4-4.png" /%}}
+{{% image "/img/gts-4-4-en.png" /%}}
 
-{{% image "/img/gts-3-1.png" /%}}
+{{% image "/img/gts-3-1-en.png" /%}}
 
-Количественное смягчение является основной причиной, по которой ваш доллар с каждым днем обладает все меньшей покупательной способностью; однако эффекты количественного смягчения постепенно передаются через экономику посредством расширения кредитной системы. Иными словами, количественное смягчение призвано позволить банкам расширять кредитование; за счет каждого доллара, который создается путем количественного смягчения, кредитная система может увеличиваться в несколько раз. Этот дополнительный кредит (например, автокредиты, ипотечные кредиты, кредиты на образование и т. д.) затем используется для покупки товаров в реальной экономике, что приводит к росту цен на товары и к относительному снижению стоимости доллара.
+Quantitative easing is the root cause of why your dollar purchases less tomorrow; however, the effects of quantitative easing are transmitted gradually through the economy via the expansion of the credit system. Said another way, quantitative easing is designed to allow banks to expand credit; for every dollar that is created through quantitative easing, the credit system can expand by multiples of each dollar added. This incremental credit (think auto loans, mortgages, student loans, etc.) is then used to purchase goods in the real economy, which causes the prices of goods to rise and the value of the dollar to decline on a relative basis.
 
-## Работает ли количественное смягчение?
+## Does quantitative easing work?
 
-Краткий ответ: “Нет”. Хотя многие считают, что количественное смягчение было необходимо, оно просто отложило проблему “в долгий ящик” и гарантировало, что в будущем потребуется больше QE. Основной причиной кризиса была финансовая система, которая стала слишком зависимой от долга. Во время финансового кризиса каждый доллар в банковской системе был подвержен [левереджу](https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D1%8B%D0%B9_%D1%80%D1%8B%D1%87%D0%B0%D0%B3) и одолжен в соотношении 150:1 (см. Отчеты ФРС [Z.1](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf) и [H.8](https://www.federalreserve.gov/releases/h8/current/default.htm)). Долг был слишком большим, а долларов было слишком мало, и левередж оказался возможным только в качестве косвенной функции уравновешивания экономического дисбаланса Федеральным Резервом. С каждым рецессивным циклом деловой активности в течение десятилетий, предшествовавших кризису, ФРС увеличивала предложение долларов, чтобы снизить процентные ставки и стимулировать кредитную экспансию. Вместо того, чтобы позволить системе корректироваться с помощью естественной рыночной функции, постоянный ответ ФРС состоял в том, чтобы пересмотреть стоимость активов путем увеличения денежной массы, с целью поддержания существующего долга и увеличения количества и объема кредитов.
+The short answer is no. While many believe that quantitative easing was necessary, it merely kicked the can down the road and guaranteed more QE would be necessary in the future. The root cause of the crisis was a financial system that had become far too leveraged. At the time of the financial crisis, every dollar in the banking system had been leveraged and lent 150:1 (see Fed [Z.1](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf) & [H.8](https://www.federalreserve.gov/releases/h8/20080829/) reports). There was too much debt and too few dollars, and the degree of leverage was only made possible as an indirect function of the Fed sustaining economic imbalances. With every recessionary business cycle in the decades leading up to the crisis, the Fed increased the supply of dollars to lower interest rates and to induce credit expansion. Rather than allow the system to course correct as a natural market function, the Fed’s continual response was to reflate asset values by increasing the money supply such that existing debt levels could be sustained and more credit could be created.
 
-Посредством этой функции ФРС непреднамеренно добилась нестабильности, присущей финансовой системе в 2008 году, поскольку она создала среду, позволяющую накопление неустойчивого уровня системного левереджа в течение десятилетий. Хотя ФРС реализовывала аналогичную стратегию в течение десятилетий, финансовый кризис создал ситуацию, которая вызвала более решительный отклик со стороны ФРС. Практически, ФРС нуждалась в лодке покрупнее и в ответ на рыночные потрясения она увеличила предложение долларов на сумму в 3,6 триллиона долларов с целью предотвратить надвигающийся финансовый крах. На этот раз все иначе: в то время, как кризис субстандартного кредитования получал пристальное внимание прессы, реальная проблема заключалась в кумулятивном эффекте продолжающихся дисбалансов в кредитной системе, накопившихся в течение многих циклов и общей степени левереджа системы.
+Through this function, the Fed inadvertently created the instability that existed in the financial system in 2008 because it created the environment which allowed for an unsustainable degree of system leverage to accumulate over the course of decades. While it has pursued similar policies for decades, the financial crisis created an environment that triggered a more drastic response from the Fed. Practically speaking, the Fed needed a bigger boat and in response to the market turmoil, it increased the supply of dollars by $3.6 trillion in order to stave off an impending financial collapse. This time was different; while the subprime crisis steals the headlines, the real issue was the cumulative effect of sustained imbalances in the credit system which had accumulated over many cycles and the overall degree of system leverage.
 
-{{% image "/img/gts-6-4.png" /%}}
+{{% image "/img/gts-6-4-en.png" /%}}
 
-В экономике ФРС кредитная система стала механизмом предельных цен. А поскольку ФРС обладает мандатом на поддержание стабильности цен, он должен косвенно поддерживать размер кредитной системы с целью поддержания общего уровня цен. Во время финансового кризиса кредитная система начала сокращаться, и уровни цен на активы стали быстро и беспорядочно снижаться. Чтобы повернуть воздействие вспять, ФРС была вынуждена резко увеличить предложение денег (количественное смягчение) с целью сохранения размера кредитной системы. Даже по прошествии сáмого разгара кризиса ФРС определила, что для поддержания ослабевающей системы необходимо добавить еще триллионы новых долларов, несмотря на признание ограничений своих инструментов денежно-кредитной политики. Это — так называемая “уловка-22” Федерального Резерва; даже когда ФРС, казалось бы, разбирается, ее позиция по умолчанию заключается в том, чтобы ошибаться в сторону большего количественного смягчения, а не меньшего.
+In the Fed’s economy, the credit system has become the marginal price mechanism. And because the Fed has a mandate to maintain price stability, it must implicitly maintain the size of the credit system in order to sustain general price levels. During the financial crisis, the credit system began to contract and asset price levels rapidly declined in a disorderly fashion. In order to reverse the impact, the Fed was forced to drastically increase the money supply (quantitative easing) in an effort to maintain the size of the credit system. Even after the height of the crisis, the Fed determined it was necessary to add trillions more in new dollars to continue to support a languishing system, despite acknowledging the limitations of its monetary policy tools. This is the Fed’s catch-22; even when it seemingly knows betters, the Fed’s default position is to err on the side of more quantitative easing, not less.
 
-> “Я согласен принять аргумент, что денежно-кредитная политика не является основным инструментом, что это — не самая большая ошибка в экономике, но мы обязаны делать все возможное, быть паллиативными, помогать, где это возможно, даже если мы не в состоянии решить финансовые, структурные и другие проблемы”.
+> _“I’m perfectly willing to accept the argument that monetary policy is not the main tool, that this is not the main thing wrong with the economy, but it’s our duty to do what we can, to be palliative, to help where we can, even if we can’t solve fiscal, structural, and other problems.”_
 > 
-> – Бен Бернанке, бывший председатель ФРС, август 2011
+> – _Ben Bernanke, Former Fed Chair – August 2011_
 
-> “Я не думаю, что дело буквально в том, что денежно-кредитная политика полностью неэффективна. Я думаю, что мы можем видеть влияние на финансовые рынки, которые, в свою очередь, должны влиять на благосостояние, доверие и некоторые другие факторы, определяющие расходы и производство. Там, где влияние слабее, это можно использовать для аргументации в пользу большего, а не меньшего стимулирования”.
+> _“I don’t think it is literally the case that monetary policy is completely ineffective. I think we can see the effects on financial markets, which in turn must be affecting wealth, confidence, and some other determinants of spending and production. To the extent that transmission is weaker, that could be used to argue for more stimulus rather than less stimulus.”_
 > 
-> – Бен Бернанке, бывший председатель ФРС, сентябрь 2011
+> – _Ben Bernanke, Former Fed Chair – September 2011_
 
-Отвечая количественным смягчением, ФРС вынудила уже обремененную чрезмерным долгом кредитную систему расширяться. Сегодня кредитная система США поддерживает приблизительно 73 триллиона долларов США долговых обязательств с фиксированным сроком погашения (для всей системы), что на 20 триллионов долларов США (+40%) выше докризисного уровня ([отчет ФРС Z.1](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf), стр. 7). Этот долг образовался против всего лишь 1,7 триллиона реальных долларов, существующих в банковской системе ([отчет ФРС H.8](https://www.federalreserve.gov/releases/h8/current/default.htm)). В результате — слишком много долгов и слишком мало долларов. Поскольку количественное смягчение приводит к триллионам долларов долга, оно больше похоже на героин, чем на антибиотик; чем больше оно применяется в финансовой системе, тем больше система зависит от него и тем сложнее ей от него отказаться.
+By responding with quantitative easing, the Fed induced a credit system already saddled with too much debt to expand massively. Today, the U.S. credit system supports approximately $73 trillion of fixed maturity debt (system wide), which represents an increase of $20 trillion (+40%) above pre-crisis levels ([Fed Z.1 report, pg. 7](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf)). This debt is stacked against only $1.7 trillion of actual dollars that exist within the banking system ([Fed H.8 report](https://www.federalreserve.gov/releases/h8/current/default.htm)). As a consequence, there remains far too much debt and too few dollars. Because QE induces the creation of trillions more in debt, it is more like heroin than an antibiotic; the more that is applied to a financial system, the more dependent on it that system becomes and the worse off when it is removed.
 
-## Биткоин это исправит
+## Bitcoin Fixes This
 
-До 2009 года все были вынуждены принять эту систему, не видя реального способа выхода из нее. В конечном счете, это — вариант, который предоставляет Биткоин, и он существует, в основном, в роли механизма реагирования на глобальное QE. Нет более простого объяснения возникновения и существования Биткоина. В то время, как Биткоин представлял бы превосходную альтернативу даже в отсутствие количественного смягчения, контраст обостряется глобальным обесцениванием денег, которое произошло в ответ на кризис. Именно этот контраст делает существование Биткоина гораздо более интуитивным, чем могло бы быть в противном случае. Биткоин существует буквально потому, что некие очень умные люди определили проблему и запустили механизм, призванный найти решение. Тем не менее, Биткоин существует, потому что он представляет собой принципиально лучшее решение проблемы денег.
+Prior to 2009, everyone was forced to opt-in to this system, and there was not a viable off-ramp. This is ultimately the option that bitcoin provides, and it exists largely as a response mechanism to global QE. There is no more simple explanation to the question of why bitcoin exists. While bitcoin would have presented a superior alternative even in the absence of quantitative easing, the global monetary debasement which occurred in response to the crisis sharpens the contrast. It is this contrast that makes the mere existence of bitcoin far more intuitive than it otherwise may be. Bitcoin literally exists because some highly intelligent individuals identified a problem and set the wheels in motion to create a solution. However, bitcoin practically exists because it presents a fundamentally better solution to the problem of money.
 
-В силу левереджа, который остается присущим существующей финансовой системе, будущее QE — не просто возможность; это — факт. Будущее QE от ФРС и центральных банков всего мира — лишь вопрос времени. Кредитная система была нестабильной и неустойчивой в 2008 году. Как функция QE, она значительно расширилась и теперь поддерживает еще 20 триллионов долларов долга только в США. Каждый раз, когда ФРС, или любой центральный банк объявляет о последующих раундах количественного смягчения, это усиливает рыночный сигнал, поясняющий причину существования Биткоина. Это выбор между владением формой валюты, которая постоянно и систематически обесценивается центральными банками и формой валюты с фиксированным предложением, которая не поддается манипулированию. Биткоин — это система сдержек и противовесов, окончательный отказ от проблемы, которую представляет QE.
+Because of the leverage that remains inherent in the existing financial system, future QE is not merely a possibility; it is a certainty. Future QE from the Fed, and central banks all over the world, is a “when” not “if” question. The credit system was unstable and unsustainable in 2008. As a function of QE, it has expanded massively and now supports $20 trillion more debt in the U.S. alone. Every time the Fed, or any central bank, announces subsequent rounds of QE, that is the reinforcing market signal of why bitcoin exists. It is the choice between holding a form of currency that is continually and systematically debased by central banks or a form of currency with a fixed supply that is unmanipulable. Bitcoin is the check, balance and ultimate opt out path to the problem QE presents.
 
-В [“Претензии знания”](http://hayek.ru/hayek2.html), речи Фридриха Хайека на церемонии вручения ему Нобелевской премии по экономике в 1974 году, он формулирует первые принципы того, почему разрозненные знания всех участников рынка превосходят знания, которыми обладает какой-либо отдельный разум. Именно таким образом он объясняет, почему доминирующая макроэкономическая теория и денежно-кредитная политика, которыми руководствуются центральные банки, изначально несовершенны. И почему инструменты политики, используемые центральными банками, особенно количественное смягчение, создают больше вреда, чем пользы. Я настоятельно рекомендую прочитать полную речь, поскольку она предоставляет контр-нарратив монокультуре современной экономической политики. Наша нынешняя система поручает выделение триллионов долларов всего нескольким лицам. Дело не в том, что эти люди не имеют достаточного количества знаний; наоборот, любая небольшая группа людей обязательно обладает гораздо меньшими знаниями, чем сотни миллионов людей, которые на самом деле составляют экономику.
+In [The Pretense of Knowledge](https://mises.org/library/pretense-knowledge), a speech delivered by Friedrich Hayek at the ceremony awarding him the Nobel Prize in economics in 1974, he articulates the first principles of why the disparate knowledge of all market participants is greater than that which any single mind possesses. It is through this reasoning that he explains why the dominant macroeconomic theory and monetary policy which guides central banks is inherently flawed. And, why the policy tools used by central banks, particularly quantitative easing, create more harm than good. I highly recommend reading the full speech as it provides the counter-narrative to the monoculture of today’s economic policy making. Our current system entrusts the allocation of trillions of dollars to just a few individuals. It is not that these individuals lack a significant amount of knowledge; instead, it is that any small group of individuals necessarily possesses far less knowledge than the hundreds of millions of individuals that actually make up an economy.
 
-{{% image "/img/gts-6-5.png" %}}
-_[“Претензии знания”](http://hayek.ru/hayek2.html), Хайек (Лекция с вручения Нобелевской Премии, 1974)_
+{{% image "/img/gts-6-5-en.png" %}}
+_The Pretense of Knowledge, Hayek ([Nobel Prize Lecture, 1974](https://mises.org/library/pretense-knowledge))_
 {{% /image %}}
 
-Пытаясь управлять экономикой посредством манипулирования денежной массой, знания многих заменяются не только знаниями нескольких; вместе с этим, искажается коллективная база знаний в целом. Механизмы, которые управляют спросом и предложением, больше не могут функционировать эффективно, что создает дисбаланс, который может поддерживаться только до тех пор, пока рынок остается управляемым. В конце концов, окончательное негативное влияние на экономику гораздо больше, чем оно было бы в отсутствие вмешательства центрального банка. Финансовый кризис — нулевой пациент, и его реакция на количественное смягчение привела лишь к более опасной ситуации. Первые признаки — это девальвация валюты, но в конечном итоге, это — ухудшение базовой экономической структуры. Биткоин создан, чтобы исправить это, но никто не должен ожидать плавного или безболезненного перехода от системы, обремененной десятилетиями копившимся дисбалансом.
+By attempting to manage an economy through the manipulation of the money supply, the knowledge of many is not only replaced by that of a few; instead, the collective knowledge base as a whole becomes distorted. The mechanisms that govern supply and demand can no longer function efficiently, which creates imbalances that can only be sustained so long as the market remains manipulated. In the end, the ultimate negative impact to the economy is far greater than it otherwise would have been in the absence of central bank intervention. The financial crisis is patient zero and the quantitative easing response has only left us in a more precarious situation today. The first order impact is the devaluation of the currency, but the ultimate impact is the deterioration of the underlying economic structure. Bitcoin is designed to fix this but no one should expect a seamless or painless transition away from a system saddled with decades of accumulated imbalances.
 
-Биткоин создает систему, которая допускает неискаженную экономическую активность, и это достигается за счет фиксированной денежной массы, которая в конечном итоге регулируется механизмом рыночного консенсуса. Именно благодаря такому механизму консенсуса Биткоин избавляется от необходимости сознательного контроля со стороны центральных банков, вместо этого полагаясь на распределенные знания всех участников рынка. Это также совершенно добровольно. Если вам нравится ваша финансовая система, вы можете ее оставить (по крайней мере пока). Тем не менее, [денежные системы стремятся к одному медиуму](/pzv/bitkoin-nelzya-skopirovat), поэтому, если критическая масса окажется на стороне Биткоина как наиболее вероятного долгосрочного средства сбережения, в будущем у вас может не оказаться выбора. Поскольку люди все чаще выбирают Биткоин, это только делает проблемы существующей системы более очевидными, что, вероятно, ускоряет необходимость количественного смягчения. Чем выше склонность хранить сбережения в Биткоине, тем ниже потребность хранить сбережения в активах, поддерживающих существующую кредитную систему. По сути, растущее распространение Биткоина напрямую повлияет на общесистемный кредитный импульс, что ускорит необходимость опоры традиционной финансовой системы на количественное смягчение с целью самообеспечения.
+Bitcoin creates a system that allows for undistorted economic activity, and it achieves this through a fixed monetary supply, which is ultimately governed by a market consensus mechanism. It is through this consensus mechanism that bitcoin dispenses with the need for conscious control of central bankers, instead relying on the distributed knowledge of all market participants. It is also completely voluntary. If you like your financial system, you can keep it (for now at least). However, [monetary systems tend to one medium](/gradually-then-suddenly/bitcoin-cant-be-copied) so if a critical mass converge on bitcoin as the most credible long-term store of value, it may become less of a choice in the future. As individuals increasingly opt in to bitcoin, it will only make the issues present in the existing system more evident, which likely accelerates the need for quantitative easing. The greater the inclination to store wealth in bitcoin, the lower the demand to store wealth in the assets that support the existing credit system. In essence, an increasing shift to bitcoin will directly impact the system-wide credit impulse, which will accelerate the need for the legacy financial system to rely on quantitative easing to sustain itself. 
 
-Биткоин может оказаться хитрым окольным путем обхода экономической системы ФРС, но это может произойти исключительно за счет традиционной системы. И временным следствием перехода на Биткоин может быть макроэкономическая волатильность. Биткоин может быть ошибочно обвинен в бедах нынешней системы, но на самом деле переход — не более, чем болезненный и необходимый процесс. Толпе Джексон Хоула это может не понравиться; однако, с другой стороны будут ожидать положительные внешние эффекты. И, кроме того, теперь это — в руках свободного рынка.
+Bitcoin may be the sly round about way around the Fed’s economic system, but it comes at the direct expense of the legacy system. And, the interim consequence of the shift to bitcoin may very well be macroeconomic volatility. Bitcoin may be mistakenly blamed for the ills of the legacy system but really, withdrawal is just a painful and necessary process. The Jackson Hole crowd may not like this; however, positive externalities will be waiting on the other side. And besides, it’s in the hands of the free market now.
 
-> “Я не верю, что у нас когда-нибудь будут годные деньги, прежде чем мы заберем их из рук правительства. Учитывая, что насильно отобрать возможность управления деньгами у правительства мы не можем, все, что нам остается — это каким-то хитрым окольным путем ввести то, что они не смогут остановить”.
+> “I don’t believe we shall ever have a good money again before we take the thing out of the hands of government, that is, we can’t take them violently out of the hands of government, all we can do is by some sly roundabout way introduce something that they can’t stop.”
 > 
-> — Ф. А. Хайек
+> _— F. A. Hayek_
 
-{{< expand "Оглавление" "..." >}}
+Special thanks to Phil Geiger, Adam Tzagournis and Will Cole for reviewing and for providing valuable feedback. If interested in reading more about quantitative easing and the financial crisis, I wrote a longer research piece in 2017 on the subject ([see here](https://www.unchained.com/blog/enders-game/)).
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+{{< expand "Contents" "..." >}}
+
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}

@@ -1,10 +1,10 @@
 ---
-title: "Биткоин не тратит энергию зря"
-h1: "Биткоин не тратит энергию зря"
+title: "Bitcoin Does Not Waste Energy"
+h1: "Bitcoin Does Not Waste Energy"
 cover: /img/mining.jpg
-tags: ["биткоин", "экономика", "постепенно затем внезапно", "энергоэффективность", "pow", "proof-of-work"]
-description: "Назовите цену экономической стабильности и экономической свободы, которую обеспечивает стабильная валютная система; это — истинное обоснование количества энергии, которую Биткоин должен и будет потреблять."
-url: pzv/bitkoin-ne-tratit-energiyu-zrya
+tags: ["bitcoin", "economics", "gradually then suddenly", pow", "proof-of-work"]
+description: ""
+url: gradually-then-suddenly/bitcoin-does-not-waste-energy
 aliases: ['/theory-economics-bitcoin-does-not-waste-energy']
 date: 2019-08-16
 bookFlatSection: false
@@ -12,157 +12,151 @@ bookToc: true
 weight: 4
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}
 
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 16 Августа 2019 г.](https://unchained.com/blog/bitcoin-does-not-waste-energy/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
-{{< /hint >}}
+This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-does-not-waste-energy).
 
-Сколько раз вы слышали инструкции по технике безопасности перед стандартным коммерческим рейсом? Вы, вероятно, знаете их наизусть, но каждый раз перед взлетом стюардессы инструктируют пассажиров, путешествующих с детьми, сначала надевать кислородную маску себе, а затем детям. На инстинктивном уровне это нелогично. С логической точки зрения в этом — весь смысл. Убедитесь, что вы можете дышать, чтобы ребенок, зависящий от вас, тоже мог дышать. Тот же принцип применяется к функции координации денег в экономике, и к ресурсам, необходимым для подкрепления этой функции. В более философском предупреждении по технике безопасности, стюардесса может сказать: “Пожалуйста, убедитесь, что денежная масса — в безопасности, чтобы мы могли продолжать координировать деятельность миллионов людей по созданию этих сверхсложных самолетов, без чего у вас не было бы даже возможности узнать о проблеме, решение которой я собираюсь озвучить”.
+[Contribute](/contribute/).
+{{< /hint>}}
 
-Мы вернемся к этому, но не стоить даже надеяться понять резонность количества энергии, потребляемой Биткоином, предварительно не обладая пониманием фундаментальной роли, которую деньги играют в координации экономической деятельности и всего того, что мы коллективно считаем само собой разумеющимся. Что такое деньги? Как они работают? Как они должны работать? Какова их функция в обществе? Если вы никогда не задавали этих вопросов, вы не можете соизмерить актуальности проблемы, которую Биткоин намеревается решить. А без понимания проблемы, цена ее решения никогда не будет оправданной.
+How many times have you heard the safety instructions before a standard commercial flight? You probably know them by heart, but every time, prior to takeoff, flight attendants instruct passengers traveling with children to put their oxygen mask on first and then tend to the children. Instinctively, it’s counterintuitive. Logically, it makes all the sense in the world. Make sure you can breathe, so that the child dependent on you can breathe too. The same principle applies to the coordination function of money in an economy and the resources required to protect that function.  In a more philosophical safety warning, the flight attendant may say, “please make sure the money supply is secure so that we can continue to coordinate the activity of millions of people to build these hyper complex planes that afford you the opportunity to even contemplate the problem I’m about to explain.”
 
-Практически каждая заинтересованная сторона ставит под вопрос количество энергии, потребляемой сетью Биткоин. Это беспокойство основывается на идее, что энергия, потребляемая сетью Биткоин альтернативно может быть использована для более продуктивных функций или на том, что это просто вредно для окружающей среды. Оба этих мнения игнорируют масштабы того, насколько критичным является потребление энергии Биткоином. В долгосрочной перспективе, возможно, нет ничего более фундаментального, никакого более важного способа использования энергии, чем направленного на обеспечение целостности финансовой сети, в данном случае, сети Биткоин. Но это не мешает некомпетентным в этой проблеме задавать вопросы.
+We will come back to this, but you will never hope to understand the justification for the amount of energy bitcoin consumes without first developing an appreciation for the fundamental role money plays in coordinating economic activity. What is money? How does it work? How should it work? What is its function in society? If you haven’t stopped to ask these questions, you can’t begin to grasp the weight of the problem bitcoin intends to solve. And without an appreciation for the problem, the cost to secure the solution will never seem justified.
 
-> “Принципиально расточительный характер биткоин-майнинга означает, что простого технологического решения не существует”.
+Any number of concerned onlookers raise the red flag about the amount of energy consumed by the bitcoin network. This concern stems from the idea that the energy consumed by the bitcoin network could otherwise be utilized for more productive functions, or that it is just plain bad for the environment. Both ignore the fundamental magnitude of how critical bitcoin’s energy consumption actually is. In the long-game, there may be no greater, more important use of energy than that which is deployed to secure the integrity of a monetary network and constructively, in this case, the bitcoin network. But, that doesn’t stop those that do not understand the problem statement from raising concerns.
+
+> _“The fundamentally wasteful nature of bitcoin mining means there’s no easy technological solution coming.”_
 > 
-> — [The Guardian](https://www.theguardian.com/technology/2018/jan/17/bitcoin-electricity-usage-huge-climate-cryptocurrency)
+> _— [The Guardian](https://www.theguardian.com/technology/2018/jan/17/bitcoin-electricity-usage-huge-climate-cryptocurrency)_
 
-> “В связи с изменением климата, бушующими лесными пожарами и ураганами, бьющими все рекорды, стоит задать себе непростые вопросы о воздействии Биткоина на окружающую среду”.
+> _“In the context of climate change, raging wildfires, and record-breaking hurricanes, it’s worth asking ourselves hard questions about Bitcoin’s environmental impact.”_
 > 
-> — [Vice Media](https://www.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change)
+> _— [Vice Media](https://www.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change)_
 
-## Потребление энергии Биткоином
+## Bitcoin Energy Consumption
 
-*Для справки:* Биткоин защищен децентрализованной сетью нод (компьютеры, работающие в соответствии с протоколом Биткоин). Экономические ноды в сети генерируют, проверяют и ретранслируют транзакции, а также проверяют и ретранслируют Биткоин блоки (группы транзакций, соблюдающие временнýю последовательность). Майнинг ноды выполняют аналогичные функции, выполняя помимо этого функцию Биткоина [Proof of Work](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B) для генерирования и передачи блоков остальной сети. Выполняя эту работу, майнеры проверяют историю и предоставляют функцию “расчета” текущих транзакций, которую затем проверяют на достоверность все остальные ноды. Представьте себе функцию безналичного расчета ФРС Нью-Йорка, но на полностью децентрализованной основе каждые (в среднем) десять минут.
+For background, bitcoin is secured by a decentralized network of nodes (computers running the bitcoin protocol). Economic nodes within the network generate, validate and relay transactions as well as validate and relay bitcoin blocks (time sequenced groups of transactions). Mining nodes perform similar functions but also perform bitcoin’s proof of work function to generate, solve and transmit blocks to the rest of the network. By performing this work, miners validate history and provide a “clearing” function for current transactions, which all other nodes then check for validity. Think the clearing function of the New York Fed but on a completely decentralized basis every ten minutes (on average).
 
-Проделываемая работа требует огромный объем вычислительной мощности, предоставляемой майнерами по всему миру, работающими в режиме 24/7. Эта вычислительная мощность требует энергии. По приблизительным оценкам в настоящее время при скорости 75 экзахешей в секунду сеть Биткоин потребляет приблизительно 7–8 гигаватт электроэнергии, что соответствует ~ 9 миллионам долларов в день (или 3,3 миллиардам долларов в год) энергии при предельных затратах в 5 центов за кВтч. Основываясь на средних национальных показателях в США, сеть Биткоин потребляет столько же энергии, сколько приблизительно 6 миллионов домов. Да, это немало энергии, но именно это защищает и поддерживает сеть Биткоин.
+The work performed requires massive amounts of processing power contributed by miners all over the world, running 24 hours a day, 7 days a week. This processing power requires energy. For context, at 75 exahashes per second, the bitcoin network currently consumes approximately 7-8 gigawatts of power, which translates to ~$9 million per day (or ~$3.3 billion per year) of energy at a marginal cost of 5 cents per kWh (rough estimates). Based on national averages in the U.S., the bitcoin network consumes as much power as approximately 6 million homes. Yeah, it is definitely a lot of power, but it is also what secures and backs the bitcoin network.
 
-{{% image src="/img/gts-4-1.png" alt="Хэшрейт Биткоина" /%}}
+{{% image "/img/gts-4-1.png" /%}}
 
-Как можно оправдать такое количество энергии? И сколько энергии будет потреблять Биткоин при использовании его миллиардом человек? Доллар отлично справляется, не так ли? Ну, в том-то и дело, что он не справляется. Эти ресурсы выделяются для решения проблемы, о которой большинство даже не подозревает, что и затрудняет обоснование производных затрат. С целью прийти к консенсусу с защитниками окружающей среды и борцами за социальную справедливость, часто приводится следующий ряд уравновешивающих фактов, которые делают энергопотребление Биткоина более приемлемым:
+How could this much energy be justified? And what will bitcoin consume when a billion people are using it?  The dollar works just fine, right? Well that’s just the thing, it doesn’t. These resources are being devoted to fix a problem most don’t understand exists, which makes justifying a derivative cost challenging. To help ease the pain of environmentalists and social justice warriors, we often point out a number of countervailing narratives to make it seem more palatable:
 
-- Значительная часть энергопотребления Биткоина обеспечивается возобновляемыми источниками.
-- Биткоин будет стимулировать инновации в развитии технологий и ресурсов возобновляемой энергии.
-- Биткоин потребляет энергию, которая в противном случае тратится неэффективным образом, если вовсе не выгорает в атмосферу.
-- Биткоин потребляет только ту энергию, которую свободный рынок готов покупать по цене, заданной этим же рынком.
-- Биткоин потребляет энергетические ресурсы, которые в противном случае были бы экономически невыгодными для развития.
-- Характер спроса Биткоина на электричество повысит эффективность энергосетей.
+- A significant portion of bitcoin’s energy consumption is generated from renewable resources.
+- Bitcoin will spur innovation in the development of renewable energy technology & resources.
+- Bitcoin consumes energy that is otherwise wasted, if not, [flared into the atmosphere](https://www.upstreamdata.ca/).
+- Bitcoin consumes only the energy that the free market will bear at a free market rate.
+- Bitcoin consumes energy resources that would otherwise not be economic to develop.
+- The nature of bitcoin energy demand will improve the efficiency of energy grids.
 
-Эти соображения помогают перечислить причины, по которым простое представление о том, что потребление Биткоина является непременно расточительным или непременно вредным для окружающей среды, не соответствует общепринятому критерию. Однако предельные издержки не могут быть оправданы без учета глобальности денежной проблемы, которую намеревается решить Биткоин. Биткоин представляет собой решение системных проблем, существующих в нашем устаревшем денежно-кредитном механизме, и его функционирование зависит от потребления энергии. Экономическая стабильность зависит от функции денег. И поскольку Биткоин обеспечивает более надежную денежную основу, в долгосрочной перспективе нет более важного способа использования энергии, чем обеспечение безопасности сети Биткоин. Таким образом, вместо того, чтобы развивать многочисленные отдельные контраргументы общепринятой позиции, необходимо сосредоточиться на проблеме денег или глобальной проблеме “количественного смягчения” (см. [здесь](https://www.unchained-capital.com/blog/enders-game/)).
+These considerations help enumerate why a simple view that bitcoin’s energy consumption is necessarily wasteful or necessarily bad for the environment fails the proverbial test. However, without an appreciation for the enormity of the monetary problem bitcoin intends to solve, the marginal cost could never be justified. Bitcoin represents a solution to the systemic issues that exist within our legacy monetary framework and it relies on energy consumption to function. Economic stability depends on the function of money and bitcoin provides a more sound monetary framework which is why there is no more important long-term use of energy than securing the bitcoin network. So rather than expand on the many individual counterpoints to the mainstream narrative, there is no better place to focus than the first principle problem itself: the money problem or the global QE (quantitative easing) problem, [see here](https://www.unchained.com/blog/enders-game/).
 
-## Функция денег
+## The Function of Money
 
-Проблема денег является глобальной, хотя и не признается большинством. Большинство может чувствовать это в своей повседневной жизни, не осознавая первопричины. Почему, работая усерднее, дольше, влезая в долги, все равно приходится с трудом сводить концы с концами Очевидно, что выход из подобной ситуации существует. Но чтобы найти решение, нужно сначала распознать проблему и понять ее. Проблема заключается в наших деньгах, и влияние, которое они оказывают на общество, широко распространено.
+The problem of money is enormous, though most people do not recognize it. Most can feel it in their daily lives but cannot identify the root cause. Working harder, longer hours, going into debt and still barely getting by. There has to be a better way, but in order to identify a solution, one has to first see and understand the problem. The problem that exists is with our money and the impact it has on society is pervasive.
 
-Не вдаваясь в подробности о том, что такое деньги (читайте [“Биткоин-стандарт”](https://saifedean.com/book/russian) Сейфедина Аммуса или [“История происхождения денег”](https://bitnovosti.com/2014/03/09/vsego-lish-obyekt-kollekcionirovaniya/) Ника Сзабо), нам легче описать их функцию в обществе.
+Without getting into the details of what money is (read [the Bitcoin Standard](https://saifedean.com/the-book/) or Nick Szabo’s [Shelling Out](https://nakamotoinstitute.org/shelling-out/)), we can more easily describe its function in society. Money is the good that facilitates economic coordination between parties that otherwise would not have a basis to cooperate. Put simply, it is the good that allows society to function, and it allows us to accumulate the capital that makes our lives better, which takes different forms for different people. There is a saying that money is the root of all evil, but as Hayek more appropriately describes it in the Road to Serfdom, money is an agent of freedom.
 
-{{< hint info >}}
-Книга “Биткоин-стандарт”, названная в переводе “Краткая история денег”, [доступна в формате epub](/epubs/the-bitcoin-standard-ru.epub).
-{{< /hint >}}
-
-Деньги — это товар, который способствует экономической координации между сторонами, у которых иначе не было бы оснований для сотрудничества. Проще говоря, это — благо, которое позволяет обществу функционировать, и оно позволяет нам накапливать капитал, который делает нашу жизнь лучше, что, в свою очередь, для разных людей принимает разные формы. Существует поговорка, что деньги являются корнем всех зол, но, как Хайек более подходящим образом описывает это в своей книге [“Дорога к рабству”](/doroga-k-rabstvu), деньги являются “агентом свободы”.
-
-> “Деньги — один из величайших инструментов свободы, когда-либо изобретенных человеком”.
+> “Money is one of the greatest instruments of freedom ever invented by man.”
 > 
-> — Ф. А. Хайек, “Дорога к рабству”
+> _— F.A. Hayek, The Road to Serfdom ([Reader’s Digest Condensed Version](https://mises.org/sites/default/files/Road%20to%20serfdom.pdf))_
 
-{{% image src="/img/gts-4-2.png" alt="Отрывок из книги “Дорога к рабству”" %}}
-_“Потому что деньги предлагают нам самый широкий выбор, когда мы пожинаем плоды своего труда […] На самом деле, деньги — один из величайших инструментов свободы, когда-либо изобретенных человеком. Именно деньги в современном обществе предлагают поразительный диапазон выбора […]”_
-{{% /image %}}
+{{% image "/img/gts-4-2.png" /%}}
 
-{{< hint info >}}
-Книга “Дорога к рабству” [доступна в формате PDF](/epubs/road-to-serfdom-ru.pdf).
-{{< /hint >}}
+More specifically, money is the good that allows for specialization and the division of labor. It allows individuals to pursue their own interests; it is how individuals communicate their preferences to the world, whether in work or in leisure, and it is what creates the “range of choice” we all take for granted. Our modern economy is built on the foundation of freedom that money provides, but the end result is a highly complex and specialized system.
 
-В частности, деньги — это товар, который учитывает специализацию и разделение труда. Это то, что позволяет людям преследовать свои собственные интересы; это то, как люди сообщают свои предпочтения миру, будь то на работе или на отдыхе, и то, что создает “диапазон выбора”, который мы все считаем само собой разумеющимся. Наша современная экономика основывается на свободе, которую предоставляют деньги, но конечный результат — очень сложная и специализированная система.
+To simplify the concept, Milton Friedman explains the complexity of a pencil ([see here](https://www.youtube.com/watch?v=67tHtpac5ws)), detailing how no one individual is capable of producing a standard lead pencil. He details the wood required, the saw to cut the wood, the steel to make the saw, the iron ore to make the steel, the lead, the rubber for the eraser, the brass ring, the yellow paint, the glue, etc. He explains how making a single pencil requires the coordination and cooperation of thousands of people, including people who don’t speak the same language, who likely practice different religions and who may even hate each other if they were ever to meet in person. And he explains that the ability to cooperate is a function of the price system and the economic good we call money.
 
-Чтобы упростить концепцию, Милтон Фридман объясняет сложность производства обыкновенного карандаша (см. [здесь](https://www.youtube.com/watch?v=67tHtpac5ws)), подробно описывая, как ни один человек не может в одиночку изготовить обыкновенный карандаш с графитовым грифелем. Он подробно описывает дерево необходимое для производства, пилу для резки дерева, сталь для производства пилы, железную руду для производства стали, свинец, резину для ластика, медное кольцо, желтую краску, клей и т. д. Он объясняет, как изготовление одного карандаша требует координации и сотрудничества тысяч людей, в том числе людей, которые не говорят на одном языке, которые, вероятно, исповедуют разные религии и могут даже ненавидеть друг друга, если им когда-либо представилась бы возможность встретиться лично. Он объясняет, что способность к сотрудничеству является функцией системы цен и экономического блага, которое мы называем деньгами.
+Abstracting from the pencil, now consider the complexity of our modern economy. From cars to airplanes to the internet to mobile phones, even to your local grocery store. Modern supply chains are so complex and so specialized that they require the coordination of millions of people to deliver any of these basic functions. The orchestration of all this activity which fuels global trade is only made possible by the function of money.
 
-Абстрагируясь от карандаша, рассмотрим теперь сложность нашей современной экономики. От автомобилей до самолетов, интернета и мобильных телефонов, вплоть до местного продуктового магазина. Современные цепочки поставок являются настолько сложными и настолько специализированными, что требуют координации миллионов людей для выполнения любой из этих основных функций. И управление всей этой деятельностью, которая подпитывает мировую торговлю, возможно только благодаря функции денег.
+## A Living Example: Venezuela
 
-## Живой пример: Венесуэла
+Venezuela provides a tangible macro and micro example of the vital role money plays in economic coordination and the dysfunction that follows when a monetary good fails. Venezuela is one of the most oil rich countries in the world, but as an end game function of monetary debasement, Venezuela’s currency has recently hyperinflated. As its currency has deteriorated, basic economic functions have broken down to the point where getting food at grocery stores or basic healthcare is no longer the baseline. It is a full-on humanitarian crisis, and at the root level, it is a function of Venezuela no longer having a stable currency to coordinate economic activity and to facilitate the production of the goods it needs to trade within the global economy.
 
-Венесуэла представляет собой реальный макро- и микро- пример жизненно важной роли, которую в экономической координации играют деньги, и дисфункции, которая возникает, когда денежный товар терпит неудачу. Являясь одной из самых богатых нефтью стран в мире, Венесуэла охвачена гиперинфляцией вследствие обесценивания национальной валюты. По мере обесценивания национальной валюты, основные экономические функции были нарушены до такой степени, что расходы на приобретение продуктов питания или услуги здравоохранения больше не соответствуют даже базовому уровню мировых стандартов. Это — пример самого настоящего гуманитарного кризиса, и корнем проблемы является потеря Венесуэлой возможности иметь стабильную валюту для координации экономической деятельности и производства товаров, необходимых для торговли в рамках глобальной экономики.
+How does this relate to bitcoin and energy consumption? Being an energy rich country, oil was (and is) Venezuela’s primary export; or rather, the good it needs to produce in order to trade. Despite being one of the most energy rich countries in the world, Venezuela’s oil production is plummeting.
 
-Как это связано с Биткоином и энергопотреблением? Будучи страной, богатой энергоресурсами, нефть была (и остается) основным продуктом экспорта Венесуэлы; или, скорее, товар для внешней торговли. Несмотря на то, что Венесуэла является одной из самых богатых энергоресурсами стран в мире, добыча нефти резко падает.
+{{% image "/img/gts-4-3-en.png" /%}}
 
-{{% image src="/img/gts-4-3.png" alt="Месячные показатели производства нефти Венесуэллой" /%}}
+Venezuela can no longer import the technology or coordinate the resources it needs to extract its primary trading currency (oil). This has caused significant deterioration in its local economy, impairing its ability to produce the electricity needed to power its own energy grids, causing extended blackouts and preventing the delivery of basic services such as power, clean water or healthcare.
 
-Венесуэла больше не может привлекать технологии, или координировать ресурсы, необходимые для извлечения своей основной торговой валюты (нефти). Это привело к значительному ухудшению местной экономики, повлияв на ее способность производить электроэнергию, необходимую для подпитки собственных энергосистем. Это становится причиной длительных отключений электроэнергии и препятствует предоставлению базовых услуг в таких жизненно необходимых сферах, как энергетика или здравоохранение.
+What is occurring in Venezuela is devastating, and it is a function of the economic deterioration caused by hyperinflation. Monetary debasement distorts the price mechanism of a currency, which then creates economic imbalances. As economic coordination deteriorates, complex supply chains become disrupted resulting in a decline in the supply of real goods (e.g. food on shelves, oil production, etc.) and an imbalance between supply and demand. As more money is created, real goods become relatively scarce compared to the supply of money, which causes the very function of money to breakdown. Individuals have a disincentive to hold currency as real goods become more and more scarce, instead choosing to sell currency as quickly possible, creating a run on basic necessities and causing the currency to hyperinflate. Economic deterioration by monetary manipulation 101.
 
-То, что происходит в Венесуэле — разрушительно, и причина этому — ухудшение экономической ситуации, вызванное гиперинфляцией нестабильной валюты. Обесценивание валюты искажает ее ценовой механизм, что, в свою очередь, создает экономический дисбаланс. По мере ухудшения экономической координации сложные цепочки поставок нарушаются, что приводит к сокращению предложения реальных товаров (например, продуктов питания, добычи нефти и т. д.) и создает дисбаланс между спросом и предложением. По мере того, как создается больше денег, реальные товары становятся относительно редкими по отношению к имеющемуся предложению денег, что приводит к разрушению самой функции денег. У населения появляется сдерживающий фактор, отталкивающий их от хранения валюты, поскольку реальные товары становятся все более дефицитными; вместо этого они предпочитают как можно скорее избавляться от валюты, создавая тем самым повышенную потребность в предметах первой необходимости и вызывая гиперинфляцию валюты. Перед вами — классический пример падения экономики под воздействием денежных манипуляций для учебника экономики первого курса.
+## The Developed World Application
 
-## Добро пожаловать в развитый мир
+Now, many sitting comfortably in the developed world will look at Venezuela and think, “it could never happen here,” but that ignores all first principles. Whether it is well understood or not, the market structure of the Venezuelan bolivar or the Argentine peso is identical to that of the dollar, the euro or the yen. The Fed, the European Central Bank or the Bank of Japan may be better at managing stability (for now), but it does not change the fact that the underpinnings of all fiat currency systems are the same.
 
-Сейчас, глядя на Венесуэлу многие представители стран, комфортно устроившиеся в “высокоразвитом” мире, подумают: “У нас подобного никогда не произойдет”, но подобное убеждение игнорирует все [первые принципы](https://zamesin.ru/first-principles/). Вне зависимости от понимания населения, рыночная структура Венесуэльского боливара, или Аргентинского песо идентична структуре доллара, евро или йены. Возможно, ФРС, Европейский центральный банк или Банк Японии и лучше управляют экономическими процессами (пока что), но это не отменяет того факта, что основы всех систем фиатных валют одинаковы.
+{{% image "/img/gts-4-4-en.png" /%}}
 
-{{% image src="/img/gts-4-4.png" alt="Скорректированная денежная база США" /%}}
+To highlight the U.S. as an example, the Federal Reserve expanded the monetary base from $180 billion in 1984 to a peak of $4.2 trillion following QE3, an increase of 23x. Because of the nature of the Fed’s credit-based economy, the economic distortion of this debasement occurred gradually ([see here](https://www.unchained.com/blog/enders-game/)) until the financial crisis which occurred suddenly, and as a function of quantitative easing, we presently sit further out on the same ledge. If you believe the developed world is not in a precarious situation or not subject to a similar monetary foundation as Venezuela, I would respectfully point to patients zero: the Fed, the ECB and the Bank of Japan. Often, faith placed in these institutions is blind to both first principles and common sense, but consider the quote below from a resident Fed economist during the aftermath of the financial crisis and  as the Fed was in the middle innings of creating $3.6 trillion new dollars as part of quantitative easing:
 
-Например, в 1984 году Федеральный резерв увеличил денежную массу с 180 миллиардов долларов до пика в 4,2 триллиона долларов после QE3 (количественное смягчение #3), то есть в 23 раза. Из-за характера экономики ФРС, основанной на кредите, экономическое искажение этого обесценивания происходило *постепенно* (см. [здесь](https://unchained.com/blog/enders-game/)) вплоть до *внезапно* наступившего финансового кризиса; и в настоящее время мы находимся еще ближе к краю пропасти, на выступе под названием крупномасштабное QE, необходимое для “смягчения” кризиса. Если вы считаете, что развитый мир не находится в опасной ситуации, или не подпадает под аналогичную денежную основу, как Венесуэла, я бы с уважением указал на нулевых пациентов: ФРС, ЕЦБ и Банк Японии. Зачастую вера в эти институты слепа относительно как первых принципов, так и здравого смысла, но учтите приведенную ниже цитату экономиста, сотрудника ФРС в период после финансового кризиса, когда ФРС была в процессе создания 3,6 трлн. долларов в качестве составной части количественного смягчения:
-
-> “Кроме того, я считаю и хочу просто подчеркнуть, что у нас большие пробелы в понимании взаимодействия между финансовым сектором и реальным сектором”.
+> _“Also, I want to just emphasize that I think the gaps in our understanding  
+of the interactions between the financial sector and the real sector are profound.”_
 > 
-> — Дэвид Уилкокс — экономист ФРС (август 2011)
+> — _David Wilcox – Fed Economist (August 2011)_
 
-Честный обзор истории демонстрирует “дурной характер” тех представителей центрального командования, которые отвечают за управление нашей экономикой. Они признали наличие больших пробелов в собственной способности понять последствия действий, предпринятых в отношении реальной экономики. Реакцией стало продолжение движения по тому же пути, но более широким шагом, в ожидании другого результата. Самое настоящее безумие. Наш нынешний выбор — одна из двух абсолютных противоположностей: а) централизованная форма валюты, предназначенная лишь для потери собственной стоимости; или б) децентрализованная валюта с фиксированным предложением. Второй вариант неосуществим без затрат в виде потребления энергии, но положительным эффектом станет долгосрочная экономическая стабильность.
+An honest review of history demonstrates the ill-temperament of those put in charge of managing our economies from central command. While admitting profound gaps in their ability to understand the implications of actions taken on the real economy, the response was to continue down the same path (but in a bigger way) while expecting a different result, the definition of insanity. Now, as we face the consequences of the response to the crisis, we have a choice between two great contrasts. A) a centrally-planned form of currency that is designed to lose its value; or B) a decentralized currency with a fixed supply. The latter comes with cost in the form of energy consumption, but the positive externality will be long-term economic stability.
 
-## Экономическая стабильность за счет потребления энергии
+## Economic Stability via Energy Consumption
 
-Долгосрочная экономическая стабильность является фундаментальной причиной, по которой не может быть более важного источника спроса на потребление энергии, чем безопасность денежной системы Биткоина, особенно когда альтернативы (фиат и золото) структурно несовершенны. Если мы собираемся ждать первых признаков гиперинфляции, это означает что мы уже потерпели неудачу. Но Венесуэла — это не просто пример того, что происходит в результате гиперинфляции, это — живой пример значимости производства энергии на благо функционирования общества. Определенное количество энергии требуется для всего, что мы потребляем в повседневной жизни. Координация этих энергозатрат зависит от надежности и стабильности используемых нами денег.
+Future economic stability is fundamentally why there can be no more important source of demand for the consumption of energy than the security of bitcoin’s monetary system, especially when the alternatives (fiat and gold) are structurally flawed. If we wait to see the signs of hyperinflation, we’re already lost. But Venezuela is not just an example of what transpires as a result of hyperinflation, it is a living example of the importance of energy production to the functioning of society. Some energy input is required for everything that we consume in our daily lives. The coordination of those energy inputs is dependent on the reliability and stability of the money we use. 
 
-Забудьте на минуту о вашем утреннем кофе и ​​подумайте об основах: чистая вода, санитария, еда, лекарства, базовое здравоохранение и т. д. Координация ресурсов для предоставления этих самых необходимых вещей зависит от функционирующей денежной системы. Разрушение денежной системы влечет за собой разрушение социальной координации и социальной структуры. Если основой торговли является энергия, и для координации торговли нужны деньги, то самым важным и лучшим способом использования этой энергии должна быть прежде всего защита денежной системы. Сначала наденьте сами свою пресловутую “кислородную маску”, а затем занимайтесь теми, кто от вас зависит. Обеспечьте основу для торговли, а затем концентрируйтесь на производных.
+Ignore your morning coffee for a minute and think basics: clean water, sanitation, food, medicine, basic healthcare, etc. The coordination of resources to deliver these basic services is dependent on a functioning monetary system. When a monetary system breaks down, social coordination and even the social fabric begins to go with it. If the basis of all trade is energy, and if we need money to coordinate trade, the highest and best use of that energy should first be to protect the monetary system. Put your proverbial “oxygen mask” on first and then shift to dependents. Secure the foundation of trade and then focus on all of the derivatives.
 
-Любое беспокойство по поводу количества энергии, которую Биткоин потребляет или будет потреблять — заблуждение. Суть не в том, что мы должны жертвовать электричеством, которое могло бы питать дома; напротив, у нас никогда не будет электричества для питания этих домов, если у нас нет надежной денежной системы для координации экономической деятельности и распределения ресурсов. На практике Биткоин практически не будет конкурировать за те же энергетические ресурсы, которые обеспечивают основные функции производства и потребления в экономике (это не соперничество); вместо этого, функция Биткоина как валютной системы предоставит возможность удовлетворения этих самых энергетических потребностей.
+Any and all concerns about the amount of energy bitcoin consumes or will consume is a red-herring. It is not that we should sacrifice electricity that could otherwise power homes; instead, it’s that we will never have the electricity to power those homes if we do not have a reliable monetary system to coordinate economic activity and marshal resources. In practice, bitcoin will not practically compete for the same energy resources that fuel the basic productive and consumptive functions of our economy (not zero sum); instead, bitcoin’s function as a currency system will ensure that those very energy needs can continue to be fulfilled.
 
-Что было бы действительно плохо для общества, так это если бы экономическая и гуманитарная катастрофа, которая настигла Венесуэлу, обрушилась на большее число стран. Я говорю это не с целью представить драконовское видение, или антиутопическое будущее; моя цель, напротив, состоит в том, чтобы сформулировать важность и взаимосвязь денежной и энергетической функций в сложных, высоко-специализированных экономиках.
+What would be bad for society is if more countries deteriorated into the economic and humanitarian disaster that is Venezuela, where basic health and human services cannot be reliably provided. And this is not to present a draconian vision or a dystopian future; instead, it is to articulate the importance and interconnectedness of both the money function and the energy function in complex, highly specialized economies.
 
-> “Если это предотвратит один случай гиперинфляции, такой как Венесуэла, […] потребление энергии Биткоином станет лучшей сделкой, которую когда-либо заключало человечество”.
+> _“If it prevents one instance of hyperinflation such as Venezuela from  
+happening […], bitcoin’s energy consumption would be the best bargain humanity ever got.”_
 > 
-> — Сейфедин Аммус, [“Биткоин стандарт”](https://saifedean.com/tbs) исследование
+> — _Saifedean Ammous, [The Bitcoin Standard Research Bulletin](https://saifedean.com/the-research/)_
 
-Биткоин представляет собой резервную копию текущей архитектуры глобальной финансовой системы и вскоре станет ее основным двигателем. Если оставить в стороне системные риски, которые в настоящее время поражают нашу финансовую систему, Биткоин является фундаментально более надежной валютной системой. Его безопасность обеспечивают производство и потребление энергии. Чтобы признать значимость и взаимодействие между стабильностью денежной функции и производством энергетических ресурсов, которые обеспечивают основные экономические потребности вам не нужно верить, что доллар США постигнет судьба венесуэльского боливара. И риск, присущий даже малейшей возможности гиперинфляции, настолько отрицательно асимметричен, что совокупная стоимость энергопотребления Биткоина представляет собой относительно небольшие затраты.
+Bitcoin represents a backup switch to the current architecture of the global financial system and is soon to be its primary engine. Setting aside the systemic risks that currently plague our financial system, bitcoin is a fundamentally more sound monetary system from the ground up. And, it is one secured by the production and consumption of energy. You do not have to believe that the dollar’s fate will be that of the Venezuelan bolivar to recognize the importance and interplay between the stability of a monetary function and the production of energy resources that provide basic economic necessities. And the risk inherent in even the possibility of hyperinflation is so negatively asymmetric that the price of bitcoin energy consumption is of small relative cost.
 
-Биткоин будет потреблять все энергоресурсы, необходимые для обеспечения безопасности своей денежной системы без исключения, что по своей сути обусловлено базовым спросом на хранение его в качестве валюты. Чем больше людей ценит долгосрочную стабильность, тем больше энергии он будет потреблять. В конце концов, это потребление обеспечит дальнейшее выполнение всех других производных энергопотребления, поэтому не существует более важного долгосрочного способа использования энергии, чем защита сети Биткоин. Назовите цену экономической стабильности и экономической свободы, которую обеспечивает стабильная валютная система; это — истинное обоснование количества энергии, которую Биткоин должен и будет потреблять. Все остальное — шум.
+Bitcoin will consume any and all energy resources necessary to secure its monetary network, which is inherently driven by the base demand to hold it as a currency. The more people that value the long-term stability it provides, the more energy it will consume. In the end, this consumption will ensure all other derivatives of energy consumption will continue to be fulfilled, which is why there is no more important long-term use of energy than securing the bitcoin network. Put a price on economic stability and the economic freedom a stable monetary system provides; that is the true justification for the amount of energy bitcoin should and will consume. Everything else is a distraction.
 
-{{< expand "Оглавление" "..." >}}
+Thanks for Will Cole and Phil Geiger for reviewing this version of _Gradually, Then Suddenly_ and providing valuable feedback.
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+{{< expand "Contents" "..." >}}
+
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}

@@ -1,10 +1,10 @@
 ---
-title: "Биткоин не слишком волатилен"
-h1: "Биткоин не слишком волатилен"
+title: "Bitcoin Is Not Too Volatile"
+h1: "Bitcoin Is Not Too Volatile"
 cover: /img/221.jpg
-tags: ["биткоин", "экономика", "постепенно затем внезапно", "волатильность"]
-description: "Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков."
-url: pzv/bitkoin-ne-slishkom-volatilen
+tags: ["bitcoin", "economics", "gradually then suddenly", "volatility"]
+description: ""
+url: gradually-then-suddenly/bitcoin-is-not-too-volatile
 aliases: ['/theory-economics-bitcoin-is-not-too-volatile']
 date: 2019-08-09
 bookFlatSection: false
@@ -12,150 +12,146 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}
 
-Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков.
-
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 9 Августа 2019 г.](https://unchained.com/blog/bitcoin-is-not-too-volatile/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
-{{< /hint >}}
+This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-not-too-volatile).
 
-Вы когда-либо сталкивались с тем, что те, кого вы уважаете, говорили, что Биткоин лишен всякого смысла? Может быть, вы видели, как цена Биткоина росла в геометрической прогрессии, а затем резко падала. Вы списываете его со счетов, верите в правоту своего друга, не слышите о Биткоине некоторое время и думаете, что ему, должно быть, пришел конец. Но однажды несколько лет спустя вы просыпаетесь, а Биткоин все еще здесь, и почему-то его цена снова намного выше. И вы приходите к мысли, что, может быть, ваш друг-скептик был неправ?
+[Contribute](/contribute/).
+{{< /hint>}}
 
-Список Биткоин-скептиков длинный и выдающийся (см. [здесь](https://nakamotoinstitute.org/the-skeptics/)), но обилие ложной информации вносит непосредственный вклад в антихрупкую природу Биткоина. Люди, которые хранят сбережения в Биткоине, вынуждены обдумывать первые принципы, чтобы понять характеристики Биткоина, которые, на первый взгляд, кажутся противоречащими авторитетным взглядам на деньги. В конечном итоге, сознательный подход укрепляет их убеждения. Волатильность Биткоина является одной из часто критикуемых характеристик. Обычная мантра среди скептиков, в том числе и среди центральных банков, заключается в том, что Биткоин слишком нестабилен, чтобы являться средством сбережения, обмена или расчетной единицей. С чего бы кто-то посчитал Биткоин средством сбережения, учитывая его волатильность? И как Биткоин может быть эффективен в качестве платежного инструмента, если его стоимость может завтра существенно понизиться?
+Has anyone you respect ever told you that bitcoin doesn’t make any sense? Maybe you’ve seen the price of bitcoin rise exponentially and then seen it crash. You write it off, believe your friend was right, don’t hear about it for a while and think bitcoin must have died. But then you wake up a few years later, bitcoin hasn’t died and somehow its value is a lot higher again. And you start thinking maybe your skeptical friend wasn’t right?
 
-На сегодняшний день Биткоин используется не в качестве платежной системы, а как средство сбережения, а временной интервал для тех, кто хранит сбережения в биткоинах — не день, не неделя, не квартал и даже не год. Биткоин — это долгосрочный механизм сбережений, и стабильность стоимости Биткоина будет реализована только с течением времени, когда он будет широко распространен. Тем временем волатильность является естественной функцией ценообразования, в то время, как Биткоин продвигается по пути монетизации, и движется к своей цели массового распространения. Кроме того, Биткоин не существует в вакууме; большинство частных лиц или компаний не имеют дело исключительно с Биткоином, а диверсификация во множество активов заглушает волатильность любого отдельного актива.
+The list of bitcoin skeptics is long and distinguished ([see here](https://nakamotoinstitute.org/the-skeptics/)), but the noise contributes directly to the antifragile nature of bitcoin. People that store wealth in bitcoin are forced to think through first principles in order to understand characteristics of bitcoin which otherwise seem, on the surface, to contradict an establishment view of money, which ultimately hardens convictions. Bitcoin volatility is one of these oft-criticized characteristics. A common refrain among skeptics, including central bankers, is that bitcoin is too volatile to be a store of value, medium of exchange or unit of account. Given its volatility, why would anyone hold bitcoin as a savings mechanism? And, how could bitcoin be effective as a transactional currency for payments if its value could reasonably drop tomorrow?
 
-## Отсутствие Волатильности ≠ Средство Сбережения
+The principal use case for bitcoin today is not as a payments rail but instead as a store of value, and the time horizon for those that store wealth in bitcoin is not a day, week, quarter or even a year. Bitcoin is a long-term savings mechanism and stability in the value of bitcoin will only be realized over time as mass adoption occurs. In the interim, volatility is the natural function of price discovery as bitcoin advances down the path of its monetization event and toward full adoption. Separately, bitcoin does not exist in a vacuum; most individuals or businesses are not singularly exposed to bitcoin and exposure to multiple assets, like any portfolio, mutes volatility of any single asset.
 
-Справедливо сказать, что волатильность и средство сбережения часто ошибочно считают взаимоисключающими. Тем не менее, они, безусловно, такими не являются. Если актив нестабилен, это не означает, что актив не будет эффективным средством сбережения. Обратное тоже верно; если актив не является волатильным, он не обязательно будет эффективным средством сбережения. Ярким примером является доллар: отсутствие волатильности (по крайней мере, сегодня), плохое средство сбережения.
+## Not Volatile ≠ Store of Value
 
-> “Нестабильные вещи не обязательно рискованны, обратное также верно”.
+It is fair to say that volatility and store of value are often confused as mutually exclusive. However, they most certainly are not. If an asset is volatile, it does not mean that asset will be an ineffective store of value.  The opposite is also true; if an asset is not volatile, it will not necessarily be an effective store of value. The dollar is a prime example: not volatile (today at least), bad store of value.
+
+> _“Volatile things are not necessarily risky, and the reverse is also true.”_
 > 
-> — [Нассим Талеб](https://twitter.com/nntaleb) ([Рискуя собственной шкурой](https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D1%81%D0%BA%D1%83%D1%8F_%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D1%88%D0%BA%D1%83%D1%80%D0%BE%D0%B9))
+> — [Nassim Taleb (](https://twitter.com/nntaleb)[Skin in the Game)](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/B077BSK9LC/ref=sr_1_1?gclid=EAIaIQobChMIlIK19ID04wIVeCCtBh3npws-EAAYASAAEgKzVfD_BwE&hvadid=241620020633&hvdev=c&hvlocphy=9029230&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=5219319705553643144&hvtargid=kwd-377204685969&hydadcr=20592_10165722&keywords=skin+in+the+game+nassim+taleb&qid=1565292541&s=gateway&sr=8-1)
 
-{{% image "/img/gts-3-1.png" /%}}
+{{% image "/img/gts-3-1-en.png" /%}}
 
-Федеральный Резерв был очень эффективен в медленной девальвации доллара, но не забывайте, *постепенно, затем внезапно*. И отсутствие волатильности ≠ средство сбережения. Это — критический ментальный блок, который многие испытывают, думая о Биткоине как о валюте, и это в значительной степени зависит от временнóго горизонта. В то время, как сотрудники центральных банков по всему миру указывают на то, что Биткоин является плохим средством сбережения и не может функционировать как валюта в силу своей волатильности, они думают о днях, неделях, месяцах и кварталах, в то время как остальные рассчитывают на долгосрочную перспективу: годы, десятилетия и поколения.
+The Fed has been highly effective in very slowly devaluing the dollar, but always remember, _gradually, then suddenly._ And, not volatile ≠ store of value.  This is a critical mental block that many people experience when thinking about bitcoin as a currency, and it is largely a function of time horizon. While central bankers all over the world point to bitcoin as a poor store of value and not functional as a currency because of volatility, they think in days, weeks, months and quarters while the rest of us plan for the long-term: years, decades and generations.
 
-Несмотря на логические объяснения, волатильность является одной из областей, которая особенно смущает экспертов. Управляющий Банка Англии Марк Карни недавно прокомментировал, что Биткоин “до сих пор в значительной степени безуспешен […] в рамках традиционных аспектов денег. Это не средство сбережения, потому что он *волатилен*. Никто не использует его как средство обмена” (см. [здесь](https://www.reuters.com/article/us-britain-boe-carney-currencies/boes-carney-says-bitcoin-has-pretty-much-failed-as-currency-idUSKCN1G320Z)). Европейский Центральный Банк (ЕЦБ) также размышляет в Твиттере о том, что Биткоин — “не валюта”, отмечая, что он “очень волатильный”, и в то же время уверяет всех, что он может “создавать” деньги для покупки активов, что на самом деле является самóй функцией, посредством которой его валюта фактически теряет ценность и, вследствие чего, она является плохим средством сбережения.
+Despite the logical explanations, volatility is one area that particularly confounds the experts. Bank of England Governor, Mark Carney recently commented that bitcoin “has pretty much failed thus far on […] the traditional aspects of money. It is not a store of value because it is all over the map. Nobody uses it as a medium of exchange,” ([see here](https://www.reuters.com/article/us-britain-boe-carney-currencies/boes-carney-says-bitcoin-has-pretty-much-failed-as-currency-idUSKCN1G320Z)).  The European Central Bank (ECB) has also mused on Twitter that bitcoin is “not a currency”, noting that it is “very volatile” while at the same time reassuring everyone that it can “create” money to buy assets, the very function by which its currency actually loses value and why it’s a poor store of value.
 
-{{% image "/img/gts-3-2.png" /%}}
+{{% image "/img/gts-3-2-en.png" /%}}
 
-Не похоже, что отсутствие самосознания кого-либо волнует, но Марк Карни и ЕЦБ не одиноки: от бывших председателей Федерального Резерва США Бернанке и Йеллен, до нынешнего министра финансов Мнучина и самого президента. Все они в какой-либо отрезок времени заявляли о том, что Биткоин — неудачная валюта (или средство сбережения) в силу своей волатильности. Никто, похоже, в полной мере не осознает или, по крайней мере, не признает, что Биткоин является прямым ответом на системную проблему правительств, создающих деньги через центральные банки, или что волатильность Биткоина является необходимой и полезной функцией ценообразования.
+The lack of self-awareness is not lost on anyone here but Mark Carney and the ECB are not alone. From former Fed Chairs, Bernanke and Yellen, to current Treasury Secretary Mnuchin to the President himself. All have, at times, trumpeted the idea that bitcoin is flawed as a currency (or as a store of value) because of its volatility. None seem to fully appreciate, or at least admit, that bitcoin is a direct response to the systemic problem of governments creating money via central banks or that bitcoin volatility is a necessary and healthy function of price discovery.
 
-Но, к нашей всеобщей радости, Биткоин не слишком волатилен для того, чтобы быть валютой, и часто эксперты вообще не являются экспертами. Если оставить логику в стороне, эмпирические данные показывают, что Биткоин оказался исключительным средством сбережения в течение любого длительного периода времени, несмотря на его волатильность. Так как же такой актив, как Биткоин, может оставаться эффективным средством сбережения, будучи крайне волатильным?
+But luckily for all of us, bitcoin is not too volatile to be a currency and often the experts are not experts at all. Setting logic aside, the empirical evidence shows that bitcoin has proven to be an exceptional store of value over any extended time horizon despite its volatility. So how could an asset such as bitcoin be both highly volatile and an effective store of value?
 
-## Пересмотренная функция ценности Биткоина
+## Bitcoin Value Function Revisited
 
-Подумайте, какова причина фундаментального спроса на Биткоин и почему Биткоин волатилен. Биткоин является ценным, потому что он имеет фиксированное предложение, и нестабилен он по той же причине. Основной драйвер спроса на Биткоин заключается в его дефиците. Возвращаясь к функции стоимости Биткоина из [предыдущей статьи](/pzv/bitkoin-nelzya-skopirovat), децентрализация и устойчивость к цензуре повышают уверенность в редкости Биткоина (и графику фиксированных поставок), которая является основой ценности Биткоина:
+Consider why there is fundamental demand for bitcoin and why bitcoin is naturally volatile. Bitcoin is valuable because it has a fixed supply and it is also volatile for the same reason. The fundamental demand driver for bitcoin is in its scarcity. To revisit bitcoin’s value function from a [previous edition](gradually-then-suddenly/bitcoin-cant-be-copied), decentralization and censorship-resistance reinforce the credibility of bitcoin’s scarcity (and fixed supply schedule) which is the basis of bitcoin’s store of value property:
 
-{{% image "/img/151.png" /%}}
+{{% image "/img/151-en.png" /%}}
 
-Несмотря на то, что спрос в разы увеличивается, реакции со стороны предложения не следует, поскольку график поставок Биткоина фиксирован. Несоответствие темпов роста спроса (переменный) и предложения (фиксированный) в сочетании с несовершенными знаниями участников рынка вызывает волатильность как функцию ценообразования . Как пишет Нассим Талеб в [Черном лебеде из Каира](https://pdfs.semanticscholar.org/6fc4/ed36e247194c9c0b7adfec8d92abebea289a.pdf): “Вариация — это информация. Когда нет изменений, нет информации”. По мере того, как ценность Биткоина растет, он, несмотря на волатильность, передает информацию; вариация — это и есть информация. Повышенная стоимость (зависящая от вариации) приводит к тому, что Биткоин становится актуальным для новых пулов капитала и новых участников, что затем вызывает новую волну распространения.
+While demand is increasing by orders of magnitude, there is no supply response because bitcoin’s supply schedule is fixed. The disparity in the rate of increase in demand (variable) vs. supply (fixed) combined with imperfect knowledge amongst market participants causes volatility as a function of price discovery. As Nassim Taleb writes in [The Black Swan of Cairo](https://pdfs.semanticscholar.org/6fc4/ed36e247194c9c0b7adfec8d92abebea289a.pdf): _“Variation is information. When there is no variation, there is no information.”_ As bitcoin’s value increases, it communicates information despite the volatility; the variation is the information. Higher value (dependent on variation) causes bitcoin to become relevant to new pools of capital and new entrants which then stokes an adoption wave.
 
-## Волны распространения и волатильность
+## Adoption Waves & Volatility
 
-Распределение знаний и инфраструктура подпитывают волны распространения, и наоборот. Это — благоприятный цикл обратной связи и функция как времени, так и стоимости. По мере роста стоимости Биткоин привлекает внимание и осведомленность гораздо более широкой аудитории потенциальных пользователей, которые затем начинают изучать основы Биткоина. Аналогичным образом, база активов, растущая в цене, привлекает дополнительный капитал не только в качестве средства сбережения, но также и с целью создания дополнительной инфраструктуры (например, больше решений по входу и выходу с рынка, кастодиальных решений, платежных уровней, аппаратных средств, майнинга и т. д.). Развитие понимания Биткоина так же, как и создание инфраструктуры — это постепенный процесс, но он способствует внедрению технологий, которые, в свою очередь, распространяют знания и оправдывают создание дополнительной инфраструктуры.
+Knowledge distribution and infrastructure fuel adoption waves and vice versa. It is a virtuous feedback loop and a function of both time and value. As value rises, bitcoin captures the attention and mindshare of a much wider audience of potential adopters, which then begin to learn about the fundamentals of bitcoin. Similarly, an appreciating asset base attracts additional capital not only as a store of wealth but also to build incremental infrastructure (e.g. more on-ramps & off-ramps, custody solutions, payments layers, hardware, mining, etc.). Developing an understanding of bitcoin is a slow process, as is building infrastructure, but both fuel adoption which then further distributes knowledge and justifies additional infrastructure.
 
-*Знание → Инфраструктура → Распространение → Ценность → Знание → Инфраструктура*
+*Knowledge  →  Infrastructure  →  Adoption  →  Value  →  Knowledge  →  Infrastructure*
 
-{{% image "/img/gts-3-3.png" /%}}
+{{% image "/img/gts-3-3-en.png" /%}}
 
-Сегодня Биткоин все еще находится на стадии становления, и текущее распространение, вероятно, составляет <1% от окончательного. Когда Биткоин будет признан миллиардом человек, новый уровень распространения будет в разы больше для любого обозримого периода в будущем, что будет продолжать вызывать значительную волатильность; однако с каждой новой волной распространения стоимость Биткоина также будет расти из-за более высокого базового спроса. Волатильность биткоина будет снижаться только по мере совершенствования базы держателей и стабилизации темпов появления новых участников. Иными словами, для того, чтобы миллиард человек использовал Биткоин, распространение пришлось бы увеличить в ~ 20 раз, но последующие 100 миллионов пользователей будут представлять собой только дополнительные 10% от базы. Все время предложение Биткоина придерживается фиксированного графика. Пока распространение представляет собой порядки величин, волатильность неизбежна, но в процессе волатильность будет естественным образом постепенно понижаться.
+Today, bitcoin is still nascent and current adoption likely represents <1% of terminal adoption. As a billion people adopt bitcoin, new adoption will represent orders of magnitude for any foreseeable future period which will continue to drive significant volatility; however, with each new adoption wave, the value of bitcoin will also reset higher because of higher base demand. Bitcoin volatility will only decline as the holder base reaches maturity and as the rate of new adoption stabilizes. Said another way, for a billion people to be using bitcoin, adoption will have had to increase by ~20x, but the subsequent 100 million adopters will only represent an additional 10% of the base. All while the supply of bitcoin remains on a fixed schedule. So long as adoption represents orders of magnitude, volatility is unavoidable, but on that path, volatility will naturally and gradually decline.
 
-Как объяснил [Виджай Бояпати](https://twitter.com/real_vijay) в [подкасте Стефана Ливеры](https://stephanlivera.com/episode/2/),
+As [Vijay Boyapati](https://twitter.com/real_vijay) explained on [Stephan Livera’s](https://stephanlivera.com/episode/2/) podcast, “establishment economists deride the fact that bitcoin is volatile, as if you can go from something that didn’t exist to a stable form of money overnight; it’s completely ludicrous.” What happens between adoption waves is the natural function of price discovery as the market converges on a new equilibrium, which is never static. In bitcoin hype cycles, the rise, fall, stabilization and rise again is almost rhythmic. It is also naturally explained by speculative fear, followed by accumulation of fundamental knowledge and the addition of incremental infrastructure. Rome wasn’t built in a day; in bitcoin, volatility and price discovery are core to the process.
 
-> Экономисты эстеблишмента высмеивают тот факт, что Биткоин нестабилен, как если бы вы могли перейти от чего-то, чего не существовало вчера к стабильной форме денег сегодня; это совершенно нелепо.
+## Historical Adoption Wave
 
-Явления, происходящие между волнами распространения — естественная функция ценообразования в процессе приближения рынка к новой точке равновесия, этот процесс не бывает статичным. Во время циклов Биткоин хайпа, подъем, падение, стабилизация и повторный рост — почти ритмичны. Это также, естественным образом, объясняется спекулятивным страхом, за которым следует накопление фундаментальных знаний и создание дополнительной инфраструктуры. “Москва не сразу строилась”; волатильность и ценообразование являются ключевыми для процесса распространения Биткоина.
+For a more tangible explanation of the relationship between volatility and value, it is helpful to think about the most recent adoption wave from the end of 2016 to present (2019).
 
-## Историческая волна распространения
+{{% image "/img/gts-3-4-en.png" /%}}
 
-Для более осмысленного объяснения взаимосвязи между волатильностью и ценностью полезно подумать о самой последней волне распространения с конца 2016 года по 2019 год.
+While adoption can never really be quantified, a rough but fair estimate would be that bitcoin adoption increased from ~5 million people to ~60 million (an increase in demand of ~12 times) from 2016 to present, yet the supply of bitcoin only increased by approximately 10% over the same period. And naturally, the information and capital possessed by market participants varies significantly. As a massive adoption wave occurred, it was met by bitcoin’s fixed supply schedule.  What would one expect to happen when demand increases by an order of magnitude but supply only increases by 10%? And what would happen if the knowledge and capital of the new entrants naturally varies greatly?
 
-{{% image "/img/gts-3-4.png" /%}}
+The very logical end result is higher volatility and a higher terminal value, if even a small percentage of new entrants convert to long-term holders (which is exactly what happened). New adopters who initially purchased bitcoin in its astronomical rise, slowly accumulate knowledge and convert to long-term holders, stabilizing base demand at a far higher terminal value compared to the prior adoption cycle.
 
-В то время как распространение не может быть количественно определено, приблизительная, но справедливая оценка будет заключаться в том, что распространение Биткоина увеличилось с ~ 5 миллионов человек до ~ 60 миллионов (рост спроса в ~ 12 раз) с 2016 года по настоящее время, однако количество биткоинов в циркуляции увеличилось лишь (примерно) на 10% за тот же период. И, естественно, осведомленность и капитал участников рынка сильно отличаются. Массовая волна распространения врезалась в график фиксированных поставок биткоинов. Что можно ожидать, когда спрос увеличивается в разы, а предложение увеличивается только на 10%? И что произойдет, если осведомленность и капитал новых участников естественным образом сильно различаются?
+Because bitcoin is nascent, the aggregate wealth stored in bitcoin on a relative basis is still very small (~$200 billion) which allows for the rate of change between marginal buyers and sellers (price discovery) to represent a significant percentage of the base demand (volatility). As base demand increases, the rate of change will begin to represent a smaller and smaller percentage of the base, reducing volatility over time and only after several more adoption cycles.
 
-Весьма логичным конечным результатом является более высокая волатильность и более высокая конечная стоимость, даже при условии, что лишь небольшой процент новых участников становится долгосрочными держателями (что именно и произошло). Новые пользователи, которые изначально приобрели Биткоин в момент его астрономического роста, постепенно накапливают знания и становятся долгосрочными держателями, стабилизируя базовый спрос при гораздо более высокой конечной стоимости по сравнению с предыдущим циклом распространения.
+## Managing Volatility
 
-Поскольку Биткоин находится в зачаточном состоянии, совокупность сбережений, хранящихся в биткоинах — относительно мала (~ $200 млрд.), что повышает скорость изменения между предложениями покупателей и продавцов (выявление цен), которые составляют значительный процент от базового спроса (волатильность). По мере увеличения базового спроса скорость изменения будет составлять все меньший процент от базы, уменьшая волатильность с течением времени, но только после нескольких дополнительных циклов распространения.
+If we can accept that bitcoin volatility is both natural and healthy, why doesn’t current volatility prevent the adoption required to transition bitcoin to a stable form of money? Very simply: diversification, portfolio allocation theory and time horizon. There exists a global network (bitcoin) through which you can transfer value over a communication channel to anyone in the world, and it is currently valued, in total, at less than $200 billion. Facebook alone, on the other hand, is worth in excess of $500 billion. For further frame of reference, U.S. household assets are estimated to be valued at $125 trillion ([see here](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf), page 138).
 
-## Управление волатильностью
+In a theoretical world, bitcoin volatility would be an issue if it existed in a vacuum. In the real world, it doesn’t. Diversification comes in the form of real productive assets as well as other monetary and financial assets, which mutes the impact of bitcoin’s present volatility. Separately, information asymmetry exists and those that understand bitcoin also understand that, in time, the cavalry is coming. These concepts are obvious to those that have exposure to bitcoin and actively account for its volatility in short and long-term planning, but it’s apparently less obvious to the skeptics, who struggle to grasp that bitcoin adoption is not an all or nothing proposition.
 
-Если мы можем согласиться с тем, что волатильность Биткоина является как естественным, так и здоровым качеством, почему нынешняя волатильность не препятствует распространению, необходимому для превращения Биткоина в стабильную форму денег? Все очень просто: диверсификация, теория распределения портфеля и временной горизонт. Существует глобальная сеть (Биткоин), благодаря которой вы можете передавать стоимость по каналу связи любому человеку в мире, и в настоящее время она оценивается, в общей сложности, менее, чем в 200 миллиардов долларов. С другой стороны, один только Facebook стоит более 500 миллиардов долларов. Для дальнейшей оценки, активы домохозяйств США оцениваются в 125 триллионов долларов (см. [здесь](https://www.federalreserve.gov/releases/z1/20190606/z1.pdf), стр. 138).
+{{% image "/img/gts-3-5-en.png" /%}}
 
-Теоретически, волатильность биткоина была бы проблемой, если бы он существовал в вакууме. В реальном мире это не так. Диверсификация проявляется в форме реальных производственных, а также других денежных и финансовых активов, что снижает влияние нынешней волатильности Биткоина. Отдельно существует информационная асимметрия, и те, кто понимает суть Биткоина, также понимают, что со временем придет кавалерия. Эти концепции очевидны для тех, кто понимает Биткоин и активно учитывает его волатильность как в краткосрочном, так и в долгосрочном плане, но они, явно, менее очевидны для скептиков, которые изо всех сил пытаются понять, что распространение Биткоина не является предложением “все или ничего”.
+While bitcoin will continue to steal share in the global competition for store of value because of its superior monetary properties, the function of an economy is to **accumulate capital** that actually makes our lives better, **not money**. Money is merely the economic good that allows for coordination to accumulate that capital. Because bitcoin is a fundamentally better form of money, it will gain purchasing power relative to inferior monetary assets (and monetary substitutes) and increasingly take market share in the economic coordination function, despite being less functional as a transactional currency today.
 
-{{% image "/img/gts-3-5.png" /%}}
+Bitcoin will also likely induce the de-financialization of the global economy, but it will neither eliminate financial assets nor real assets. During its monetization, these assets will continue to represent the diversification which will mute the impact of bitcoin’s day-to-day volatility. See example [here](https://twitter.com/100trillionUSD/status/1138457543741714432?s=20) which highlights the risk/return of a 1% bitcoin + 99% dollar portfolio compared to gold, U.S. treasuries and the S&P 500 ([@100trillionUSD](https://twitter.com/100trillionUSD)). Also see [The Case for a Small Allocation to Bitcoin](https://www.kanaandkatana.com/valuation-depot-contents/2019/4/11/the-case-for-a-small-allocation-to-bitcoin) by Xapo CEO [Wences Casares](https://twitter.com/wences). Both provide a look through into how volatility and risk can be managed should bitcoin experience a significant drawdown or even fail (which is still a possibility).
 
-В то время как Биткоин (благодаря своим превосходным денежным свойствам) будет продолжать брать свое в глобальной конкуренции за первое место в качестве средства сбережения, функция экономики по-прежнему будет заключаться не в накоплении денег, а в накоплении капитала, что, фактически, делает нашу жизнь лучше. Деньги — это просто экономическое благо, которое позволяет координировать накопление этого капитала. Поскольку Биткоин является принципиально лучшей формой денег, он будет приобретать покупательную способность по сравнению с инфериорными денежными активами (и денежными альтернативами) и занимать все бóльшую рыночную долю в функции экономической координации, несмотря на то, что сегодня он является менее функциональным в качестве транзакционной валюты.
+While failure is a possibility and significant drawdowns are an inevitability, each day that bitcoin doesn’t fail, its survival becomes more and more likely (Lindy Effect). And over time, as bitcoin’s value and liquidity increase due to its fundamental strengths, its purchasing power will also increase in terms of real goods, but as its purchasing power represents a larger and larger share of the economy, its volatility relative to other assets will proportionally decrease.
 
-Биткоин также, вероятно, вызовет де-финансиализацию мировой экономики, но не уничтожит ни финансовые активы, ни реальные активы. Во время монетизации эти активы будут по-прежнему выполнять функцию диверсификации, которая приглушит влияние повседневной волатильности Биткоина. Обратите внимание на пример, который подчеркивает риск/прибыль портфеля, состоящего на 1% из Биткоина и на 99% из долларов США по сравнению с золотом, ценными бумагами казначейства США и S&P 500 ([@100trillionUSD](https://twitter.com/100trillionUSD)) [здесь](https://twitter.com/100trillionUSD/status/1138457543741714432?s=20). Также прочитайте [“Значимость отчисления небольшой части прибыли в Биткоин”](https://www.kanaandkatana.com/valuation-depot-contents/2019/4/11/the-case-for-a-small-allocation-to-bitcoin) генерального директора [*Xapo*](https://en.wikipedia.org/wiki/Xapo) [Венсеса Касареса](https://twitter.com/wences). Оба исследования дают представление о том, как можно управлять волатильностью и риском, если Биткоин столкнется со значительным спадом или даже потерпит неудачу (что все еще вероятно).
+## The End Game
 
-В то время, как провал все еще возможен, а существенные спады неизбежны, каждый день, когда Биткоин не терпит неудачу, его выживание становится все более и более вероятным (эффект Линди). И с течением времени, по мере того, как ценность и ликвидность Биткоина возрастают благодаря его фундаментальным преимуществам, его покупательная способность также будет расти по отношению к реальным товарам, но, поскольку его покупательная способность представляет все бóльшую долю в экономике, его волатильность по сравнению с другими активами будет пропорционально уменьшаться.
+Bitcoin will become a transactional currency over time but in the interim, it would be far more logical to spend a depreciating asset (dollars, euro, yen, gold) and save an appreciating asset (bitcoin). Establishment economists and central bankers really struggle with this one; but I digress. On bitcoin’s path to full monetization, store of value must come as a logical first order and bitcoin has proven to be an incredible store of value despite its volatility. As adoption matures, volatility will naturally fall, and bitcoin will increasingly become a medium of direct exchange.
 
-## Финал
+Consider the person or business that would demand bitcoin in direct exchange for goods and services. This person or business collectively represent those that have first determined that bitcoin will hold its value over a particular time horizon. If one did not believe in the fundamental demand case for bitcoin as a store of value, why would they trade real-world goods and services in return? Bitcoin will transition to a transactional currency only as its liquidity gradually shifts from other monetary asset to goods and services which will occur along the path to mass adoption. It will not be a flash cut or a binary process. On a more standard path, adoption fuels infrastructure and infrastructure fuels adoption. Transactional infrastructure is already being built but more material investment will only be prioritized as a sufficient number of individuals first adopt bitcoin as a store of wealth.
 
-Со временем Биткоин станет транзакционной валютой, но тем временем было бы гораздо логичнее тратить обесценивающийся актив (доллар, евро, йена, золото) и сохранять ценный актив (Биткоин). Экономисты и работники центральных банков упорно этого не понимают; но я отклонился от темы. На пути к полной монетизации Биткоина сохранение стоимости должно быть первоочередным, и, несмотря на свою волатильность, Биткоин оказался невероятным средством сбережения. По мере того, как распространение растет, волатильность, естественным образом, падает, и Биткоин все чаще становится средством прямого обмена.
+Ultimately, bitcoin’s lack of a price stability mandate and fixed supply will continue to result in near-term volatility but will drive long-term price stability. It is the literal opposite model pursued by Mark Carney of the BOE, the ECB (and its twitter account), the Federal Reserve and the Bank of Japan. And, it is why bitcoin is antifragile; there are no bailouts and it’s a market devoid of moral hazard, which drives maximum accountability and long-term efficiency. Central banks manage currencies to mute short-term volatility, which creates the instability that leads to long-term volatility. Volatility in bitcoin is the natural function of monetary adoption and this volatility ultimately strengthens the resilience of the bitcoin network, driving long-term stability. Variation is information.
 
-Рассмотрим индивида, или бизнес, которые потребуют биткоины в прямом обмене на товары и услуги. Этот человек, или бизнес коллективно представляют тех, кто первым определил, что Биткоин будет сохранять свою ценность в течение определенного периода времени. Если кто-то не верит в основополагающий спрос на Биткоин, как средства сбережения, то зачем им предлагать реальные товары и услуги взамен? Биткоин станет транзакционной валютой только тогда, когда его ликвидность постепенно сместится с другого денежного актива на товары и услуги, что произойдет на пути к массовому распространению. Это не будет внезапным смещением, или бинарным процессом. При обычных условиях, распространение подпитывает инфраструктуру, а инфраструктура подпитывает распространение. Инфраструктура для Биткоина как средства обмена, уже строится, и приток инвестиций будет только расти. При этом многие сначала примут Биткоин в качестве средства сбережения.
+**Nassim Taleb & Mark Blyth (Black Swan of Cairo):**
 
-В конечном счете, отсутствие мандата на стабильность цен Биткоина и его фиксированное предложение будет по-прежнему приводить к краткосрочной волатильности, но вместе с тем будет способствовать долгосрочной стабильности цен. Эта модель буквально противоположна той, которую преследуют Марк Карни из Банка Англии, Европейский Центральный Банк (и его аккаунт в Твиттере), Федеральный Резерв США и Банк Японии. И именно поэтому Биткоин является антихрупким; нет никаких спасательных мер, и это — рынок, лишенный морального риска, который обеспечивает долгосрочную эффективность и является максимально ответственным. Центральные банки управляют валютами, чтобы заглушить краткосрочную волатильность, что приводит к отсутствию стабильности и, в свою очередь, ведет к долгосрочной волатильности. Волатильность Биткоина является естественной функцией роста денежной системы, и эта волатильность, в конечном итоге, повышает устойчивость сети Биткоин, обеспечивая долгосрочную стабильность. Вариация — это информация.
+> _Complex systems that have artificially suppressed volatility tend to become extremely fragile, while at the same time exhibiting no visible risks.”_
+>
+> _“This is one of life’s packages: there is no freedom without noise — and no stability without volatility.”_
 
-**Нассим Талеб и Марк Блит (Черный лебедь из Каира):**
+**Ben Bernanke, Chairman of the Federal Reserve (during the Great Financial Crisis):**
 
-> “Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков”.
+> _“The Federal Reserve is not currently forecasting a recession.” – January 10, 2008_
+>
+> _“The risk that the economy has entered a substantial downturn appears to have diminished over the past month or so.” – June 9, 2008_
 
-> “Это — одно из жизненных предложений: без шума нет свободы, и нет стабильности без волатильности”.
+Thanks to Will Cole, Phil Geiger, Adam Tzagournis and Ethan Packard who have reviewed past and present releases of _Gradually, Then Suddenly_ and provided valuable feedback.
 
-**Бен Бернанке, председатель Федерального Резерва (во время финансового кризиса 2007–2008):**
+{{< expand "Contents" "..." >}}
 
-> “Федеральный резерв в настоящее время не прогнозирует рецессию”. — 10 января 2008 г.
-
-> “Риск наступления экономического спада, похоже, уменьшился за последний месяц, или около того”. — 9 июня 2008 г.
-
-Благодарю Уилла Коула, Фила Гейгера, Адама Цагурниса и Итана Паккарда, которые проанализировали прошлые и настоящие выпуски “Постепенно, затем внезапно” и поделились ценными отзывами.
-
-{{< expand "Оглавление" "..." >}}
-
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}

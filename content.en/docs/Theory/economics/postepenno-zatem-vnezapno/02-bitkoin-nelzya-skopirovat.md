@@ -2,8 +2,8 @@
 title: "Bitcoin Can’t Be Copied"
 h1: "Bitcoin Can’t Be Copied"
 cover: /img/150.png
-tags: ["биткоин", "экономика", "pow", "proof-of-work", "токеномика", "альткоин"]
-description: "Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему."
+tags: ["bitcoin", "economics", "pow", "proof-of-work", "tokenomics", "altcoins"]
+description: ""
 url: gradually-then-suddenly/bitcoin-cant-be-copied
 date: 2019-08-02
 bookFlatSection: false
@@ -11,113 +11,111 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}
-
-Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему.
 
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 2 Августа 2019 г.](https://unchained.com/blog/bitcoin-cant-be-copied/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
-{{< /hint >}}
+This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-cant-be-copied).
 
-Всем нам в детстве объясняют, что деньги не растут на деревьях. С другой стороны, как общество, мы привыкли полагать, что это не только возможно, но и является нормальной, необходимой и продуктивной функцией экономики. До появления Биткоина эта привилегия была зарезервирована за глобальными центральными банками (пример [здесь](https://fred.stlouisfed.org/series/BASE)). После появления Биткоина, каждый Том, Дик и Гарри могут подумать, что они тоже могут создавать деньги. Это — не что иное, как дерзость со стороны каждого, кто пытается создать копию Биткоина. Будь то хард-форк[^1] из консенсуса (Bitcoin Cash), клонирование Биткоина (Litecoin), или создание нового протокола с “улучшенными” функциями (Ethereum); каждый из них пытается создать новую форму денег. Если Биткоин может это сделать, чем мы хуже?
+[Contribute](/contribute/).
+{{< /hint>}}
 
-И в 2019 году впервые за тысячи лет (снимаю шляпу перед золотом!) мы являемся свидетелями процесса монетизации экономического блага (Биткоин) на свободном рынке. Вместо того, чтобы остановиться и поразмышлять над значимостью этого события или понять, как или почему это возможно, многие игнорируют его, чтобы сосредоточиться на поиске возможностей улучшить решение проблемы, неочевидной на первый взгляд. Каждый хочет быстро разбогатеть, и пока есть деньги, будут и алхимики. Те, кто пытается копировать Биткоин, являются алхимиками нашего времени.
+As kids, we all learn that money doesn’t grow on trees. As a society on the other hand, we have become conditioned to believe that it’s not only possible but that it’s a normal, necessary and productive function of our economy. Before bitcoin, this privilege was reserved to global central banks (see [here](https://fred.stlouisfed.org/series/BASE) for example). Post bitcoin, every Tom, Dick & Harry seems to think that they can create money too. At a root level, this is the audacity of everyone that attempts to create a copy of bitcoin. Whether by hard-forking out of consensus (bitcoin cash), cloning bitcoin (litecoin) or creating a new protocol with “better” features (ethereum), each is an attempt to create a new form of money. If bitcoin could do it, why can’t we?
 
-> “Каждый хочет быстро разбогатеть, и пока есть деньги, будут и алхимики”.
+We sit here, in 2019, witnessing the monetization event of an economic good (bitcoin) on the free market for the first time in thousands of years (h/t gold). Rather than stopping to contemplate the weight of that reality or to understand how or why that is possible, many people skip right past it to focus on some derivative or some way to improve upon a problem they didn’t see in the first place. Everyone wants to get rich quick, and so long as there is money, there will also be alchemists. Those that attempt to copy bitcoin are our modern day alchemists.
 
-Они утверждают, что Биткоин слишком медленный и создают “более быструю” копию. Они также заявляют, что Биткоин не способен обрабатывать количество транзакций, необходимое для функционирования мировой экономики, поэтому они создают “более масштабируемую” копию. Затем они сообщают, что Биткоин слишком нестабилен в качестве валюты и создают “более стабильную” версию. Этому нет конца. Следующим аргументом становится то, что Биткоин слишком жесткий и должен быть более программируемым, и они создают “более гибкую” копию. Они часто даже пытаются выдать свое изобретение за средство для “платежей”, “утилита” или даже “глобальный компьютер, работающий на газу”. Они также пытаются убедить нас в существовании мира, с сотнями, если не тысячами валют. Но не заблуждайтесь в том, что каждый из этих случаев — это всего-навсего их попытка создать собственные деньги.
+> _“Everyone wants to get rich quick, and so long as there is money, there will also be alchemists.”_
 
-## Функция ценности Биткоина
+They tell us that bitcoin is too slow so they create a copy that is “faster”. Or they tell us that bitcoin does not have the capacity to handle the number of transactions required by the global economy so they create a copy that has “greater” scale. Then they tell us that bitcoin is too volatile to be a currency so they create a “more stable” version. It goes on and on. Next its that bitcoin is too rigid and that it needs to be more programmable so they create a copy that is “more flexible”.  They often even tell us that their creation is not money but instead, it’s a vehicle for “payments” or a “utility” or maybe a “global computer fueled by gas”. They also try to convince us of a world that has hundreds, if not thousands, of currencies. But make no mistake, in each case, it is their own attempt to create money.
 
-В том случае, если основной (или единственной) полезной функцией актива является обмен на другие товары и услуги, и если он не претендует на приток поступлений от продаж производственного актива (как акции или облигации), он должен конкурировать в качестве формы денег и будет способен хранить ценность, только в случае, что он обладает надежными денежными свойствами._Каждая попытка изменения одной из “особенностей” Биткоина сигнализирует о неспособности “копировальщиков” понять те свойства, которые делают его ценным и надежным в качестве денег. Биткоин не являлся деньгами в момент выпуска его кода. Его программный код и на сегодняшний день не является деньгами. Вы можете хоть завтра скопировать его код, или создать свой собственный вариант с новыми свойствами, но никто из приверженцев Биткоина не будет воспринимать вашу версию в качестве денег. Биткоину понадобилось время, чтобы стать деньгами. Это произошло только когда сеть Биткоин сформировала новые свойства, которые практически невозможно воспроизвести сейчас, когда Биткоин уже существует.
+## Bitcoin’s Value Function
 
-> “Те, кто пытается копировать Биткоин, сигнализируют о собственной неспособности понять фундаментальные свойства, которые делают его ценным и надежным в качестве денег”.
+If an asset’s primary (if not sole) utility is the exchange for other goods and services and if it does not have a claim on the income stream of a productive asset (such as a stock or bond), it must compete as a form of money and will only store value if it possesses credible monetary properties. With each “feature” change, those that attempt to copy bitcoin signal a failure to understand the properties that make bitcoin valuable or viable as money. When bitcoin’s software code was released, it wasn’t money. To this day, bitcoin’s software code is not money. You can copy the code tomorrow or create your own variant with a new feature and no one that has adopted bitcoin as money will treat it as such. Bitcoin has become money over time only as the bitcoin network developed emergent properties that did not exist at inception and which are next to impossible to replicate now that bitcoin exists.
 
-Эти свойства возникли органично и спонтанно, так как отдельные субъекты экономики по всему миру оценили Биткоин и решили хранить в нем часть своих сбережений. По мере того, как ценность Биткоина увеличивалась, он становился более децентрализованным, и по мере его децентрализации также усиливалась его устойчивость к цензуре, то есть, становилось все труднее изменять согласованные правила сети либо аннулировать, либо предотвращать подтвержденные транзакции. Не беспричинными являются споры относительно того, достаточно ли Биткоин децентрализован или достаточно ли он устойчив к цензуре. Помимо этого существуют и другие, гораздо более однозначные доводы:
+> _“Those that attempt to copy bitcoin signal a failure to understand the properties that make bitcoin valuable or viable as money.”_
 
-1. На сегодняшний день Биткоин, безусловно, представляет собой самую децентрализованную и наиболее устойчивую к цензуре денежную систему в мире по сравнению с традиционными валютами, другими цифровыми валютами или “сырьевыми” деньгами, такими, как золото.
-2. Ценность Биткоина в том, что он децентрализован и устойчив к цензуре; именно эти свойства обеспечивают и укрепляют доверие к фиксированному предложению биткоина в 21 миллион (то есть, причина, по которой он и является эффективным средством сбережения).
-3. Биткоин становится все более децентрализованным и устойчивым к цензуре по мере увеличения его стоимости и масштабирования на всех уровнях сети.
-4. Круг замыкается.
+These properties emerged organically and spontaneously as individual economic actors all over the world evaluated bitcoin and determined to store a portion of their wealth in it. As bitcoin’s value increased, it became decentralized and as it became decentralized, it also became increasingly difficult to alter the network’s consensus rules or to invalidate, or prevent, otherwise valid transactions (often referred to as censorship-resistance).  There remains reasonable debate as to whether bitcoin is sufficiently decentralized or sufficiently censorship-resistant, but while this may be the case, there are other considerations less subject to debate:
 
-{{% image "/img/151.png" /%}}
+1. Bitcoin represents, by far, the most decentralized and most censorship-resistant monetary system in the world today, whether compared to traditional currencies, other digital currencies or commodity monies like gold.
+2. Bitcoin derives its value because it is decentralized and because it is censorship-resistant; it is these properties which secure and reinforce the credibility of bitcoin’s fixed 21 million supply (i.e. why it is an effective store of value).
+3. Bitcoin becomes increasingly decentralized and increasingly censorship-resistant as its value increases and as it scales at all levels of the network.
+4. Repeat.
 
-## Денежные системы стремятся к единой форме
+{{% image "/img/151-en.png" /%}}
 
-Любая бумажная валюта, товарные деньги или криптовалюта конкурируют за тот же вариант использования, что и Биткоин, вне зависимости от того, осознают они это или нет. И денежные системы стремятся к одному медиуму, потому что их полезность — это скорее ликвидность, чем потребление или производство. При выборе денежных сетей было бы нерационально хранить стоимость в меньшей, менее ликвидной и менее защищенной сети, если бы в качестве доступной альтернативы существовала более крупная, более ликвидная и более безопасная сеть.
+## Monetary Systems Tend to One
 
-Рассудите сами. Если бы вы работали в течение двух недель, и ваш работодатель предложил заплатить вам валютой, которой пользуется 1 миллиард человек во всем мире, или той, которую принимает 1 миллион человек, какой выбор вы бы сделали? Вы бы запросили 99,9% одной и 0,1% другой, или рискнули бы с миллиардами своих друзей? Если вы являетесь резидентом США, но проводите в Европе одну неделю в году, просите ли вы, чтобы работодатель платил вам 1/52 часть зарплаты в евро каждую неделю, или вы идете на риск, принимая зарплату в долларах? Практическая реальность такова, что почти все люди хранят стоимость в едином денежном активе не потому, что другие не существуют, а потому, что это самый ликвидный актив в их рыночной экономике.
+Every other fiat currency, commodity money or cryptocurrency is competing for the exact same use case as bitcoin whether it is understood or not and monetary systems tend to a single medium because their utility is liquidity rather than consumption or production. When evaluating monetary networks, it would be irrational to store value in a smaller, less liquid and less secure network if a larger, more liquid and more secure network existed as an attainable option.
 
-Любой, у кого есть венесуэльские боливары или аргентинские песо, при возможности выбрал бы долларовую систему. И точно так же любой, решивший спекулировать Биткоином, принимает иррациональное решение добровольно присоединиться к менее ликвидной и менее защищенной денежной сети. Несмотря на то, что некоторые денежные сети сегодня и крупнее, и более ликвидны, чем Биткоин (например, доллар, евро, иена), физические лица, предпочитающие хранить процент своих накоплений в Биткоине, делают это в основном из-за убеждения, что он более безопасен (децентрализован → устойчив к цензуре → фиксированный запас → средство сбережения). Помимо этого, приверженцы Биткоина убеждены в том, что впоследствии их ряды пополнятся (например, миллиардами будущих приверженцев), увеличивая тем самым ликвидность и объемы сети.
+Apply a common sense test. If you worked for two weeks and your employer offered to pay you in a form of currency accepted by 1 billion people all over the world or a currency accepted by 1 million people, which would you take?  Would you request 99.9% of one and 0.1% of the other, or would you take your chances with your billion friends? If you are a U.S. resident but travel to Europe one week a year, do you request your employer pay you 1/52nd in euros each week or do you take your chances with dollars? The practical reality is that almost all individuals store value in a single monetary asset, not because others do not exist but rather because it is the most liquid asset within their market economy.  
 
-> “Любой, решивший спекулировать Биткоином, принимает иррациональное решение добровольно присоединиться к менее ликвидной и менее защищенной денежной сети”.
+Anyone with Venezuelan bolivars or Argentine pesos would opt into the dollar system if they could. And similarly, anyone choosing to speculate in a copy of bitcoin is making the irrational decision to voluntarily opt-in to a less liquid, less secure monetary network. While certain monetary networks are larger and more liquid than bitcoin today (e.g. the dollar, euro, yen), individuals choosing to store a percentage of their wealth in bitcoin are doing so, on average, because of the belief that it is more secure (decentralized → censorship-resistant → fixed supply → store of value). And, because of the expectation that others (e.g. a billion soon-to-be friends) will also opt-in, increasing liquidity and trading partners.
 
-## Почему Биткоин не может быть скопирован
+> _“Anyone choosing to speculate in a copy of bitcoin is making the irrational decision to voluntarily opt-in to a less liquid, less secure monetary network.”_
 
-Многие разработчики цифровых валют не принимают и не признают тот факт, что их изобретение должно выполнять функции денег для того, чтобы стать успешным. Те, кто спекулируют подобными активами, либо не понимают, что денежные системы стремятся к единой форме, либо наивно полагают, что выбранная ими валюта может превзойти Биткоин. Никто из них не может объяснить, как их цифровая валюта становится более децентрализованной, более устойчивой к цензуре или достигает большей ликвидности, чем Биткоин. Кроме того, ни одна другая цифровая валюта, вероятно, никогда не достигнет минимального уровня децентрализации или устойчивости к цензуре, необходимого для поддержания надежной денежно-кредитной политики. В качестве подтверждения предлагаю ссылку на аутентичный источник, а именно — на страницу из книги страницу из книги [“Краткая история денег”](https://saifedean.com/book/russian):
+## Why Bitcoin Can’t Be Copied
 
-{{% image "/img/152.png" /%}}
+Many individuals creating digital currencies neither accept or admit that what they are creating has to be money to succeed; others that are speculating in these assets fail to understand that monetary systems tend to one medium or naively believe that their currency can out-compete bitcoin. None of them can explain how their digital currency of choice becomes more decentralized, more censorship-resistant or develops more liquidity than bitcoin. To take that further, no other digital currency will likely ever achieve the minimum level of decentralization or censorship-resistance required to have a credibly enforced monetary policy. And to literally steal a page from [The Bitcoin Standard](https://saifedean.com/the-book/):
 
-Биткоин является ценным не из-за определенной особенности, а из-за того, что он достиг исчисляемой цифровой ценности, благодаря которой он приобрел качества эффективного средства сбережения. Достоверность редкости Биткоина (и денежной политики) существует только потому, что он децентрализован и устойчив к цензуре, что само по себе имеет мало общего с программным обеспечением. В совокупности это способствует постепенному распространению и ликвидности, что усиливает и укрепляет ценность сети Биткоин. Как часть этого процесса, люди параллельно отказываются от инфериорных денежных сетей. Непосредственной причиной того, что производные свойства Биткоина практически невозможно воспроизвести, и почему Биткоин невозможно скопировать или превзойти в конкурентной борьбе является то, что Биткоин уже существует помимо всего прочего за счет инфериорных денежных сетей как альтернатива, и его денежные свойства становятся сильнее с течением времени.
+{{% image "/img/152-en.png" /%}}
 
-Скорее всего, никто бы никогда не пришел к такому выводу, если бы сначала не выработал понимание следующего:  
+Bitcoin is valuable, not because of a particular feature, but instead, because it achieved finite, digital scarcity, through which it derives its store of value property. The credibility of bitcoin’s scarcity (and monetary policy) only exists because it is decentralized and censorship-resistant, which in itself has very little to do with software. In aggregate, this drives incremental adoption and liquidity which reinforces and strengthens the value of the bitcoin network. As part of this process, individuals are, at the same time, opting out of inferior monetary networks. This is fundamentally why the emergent properties in bitcoin are next to impossible to replicate and why bitcoin cannot be copied or out-competed: because bitcoin already exists as an option and its monetary properties become stronger over time (and with greater scale), while also at the direct expense of inferior monetary networks.
 
-1. что Биткоин является редким активом (как/почему); 
-2. что Биткоин является ценным, потому что его количество ограниченно; и 
-3. что денежные сети стремятся к единой форме. 
+One would likely never come to this conclusion without first developing their own understanding of the following: 
 
-Вы можете прийти к другим выводам, но это — наиболее приемлемая основа, которую следует учитывать при рассмотрении вопроса, возможно ли скопировать (или превзойти) Биткоин. В отличие от той, которая базируется на каком-либо конкретном наборе функций. Также важно признать, что выводы любого человека, включая ваши, или мои собственные, имеют незначительное влияние на уравнение. Намного важнее — решить проблемы консенсуса рынка и его предпочтения в плане наиболее надежного долгосрочного средства сбережения.
+1. that bitcoin is finitely scarce (how/why); 
+2. that bitcoin is valuable because it is scarce; and 
+3. that monetary networks tend to one medium. 
+ 
+You may come to different conclusions, but this is the appropriate framework to consider when contemplating whether it is possible to copy (or out-compete) bitcoin rather than a framework based on any particular feature set. It’s also important to recognize that any individual’s conclusions, including your own or my own, has very little bearing in the equation. Instead, what matters is what the market consensus believes and what it converges on as the most credible long-term store of value.
 
-Эмпирические данные (ценовой механизм и стоимость) показывают, что, несмотря на значительное количество шума, рынок продолжает формулировать отличия Биткоина, обуславливающие его превосходство. Прежде, чем спекулировать, попытайтесь понять, почему Биткоин работает и почему он уникален. Когда кто-то говорит вам о новом, лучшем Биткоине или какой-либо отличительной особенности, помните, что рынок, который пришел к этой же развилке в какой-то момент за последние десять лет, еще до вас рассмотрел эти компромиссы и выбрал Биткоин по очень разумным причинам.
+The empirical evidence (price mechanism & value) demonstrates that the market continues to determine why bitcoin is different, despite a significant amount of noise. Before speculating, try to understand why bitcoin works and why it’s unique. When someone inevitably tells you about a better bitcoin or some differentiating feature, remember that the market, which has come to this same crossroad over the last decade before you, has considered those trade-offs and chosen bitcoin over the field for very rational reasons.
 
-# Правило меньшинства
+## The Minority Rule
 
-[Нассим Талеб](https://twitter.com/nntaleb) пишет о том, как очень небольшое непримиримое меньшинство может навязать свое предпочтение большинству, ссылаясь на него как на правило меньшинства и объясняя, почему [“Побеждает самый нетолерантный”](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15). Биткоин (и денежные системы) являются прекрасным примером этого явления. Если очень небольшое меньшинство сойдется во мнении, что Биткоин обладает превосходными денежными свойствами и не примет вашу форму цифровой (или традиционной) валюты в качестве денег, в то время как менее убежденные участники рынка принимают как Биткоин, так и другие валюты, выигрывает нетолерантное меньшинство. Это именно то, что происходит в условиях глобальной конкуренции за господство в качестве цифровой валюты. Незначительное меньшинство участников рынка определило, что жизнеспособен _только Биткоин_, отвергая денежные свойства всех других цифровых валют, в то время как большинство готово принять как Биткоин, так и все остальные валюты. В силу своей непримиримости, меньшинство постепенно навязывает свое предпочтение большинству. В мире цифровых валют диверсификация путем выбора системы является эквивалентом предоставления возможности толпе (или нетерпимому меньшинству) выбрать, что станет вашими деньгами в будущем , при этом отказываясь лишь от части того, что вы иначе бы сохранили. Оцените компромиссы и примите во внимание правило меньшинства, прежде чем обменять собственным трудом заработанную ценность на фантик. Деньги не растут на деревьях.
+[Nassim Taleb](https://twitter.com/nntaleb) writes about how a very small intransigent minority can force its preference on the majority, referring to it as the minority rule and explaining why [The Most Intolerant Wins](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15). Bitcoin (and monetary systems) are a perfect example of this phenomenon. If a very small minority converges on the belief that bitcoin has superior monetary properties and will not accept your form of digital (or traditional) currency as money, while less convicted market participants accept both bitcoin and other currencies, the intolerant minority wins. This is exactly what is happening in the global competition for digital currency supremacy. A small minority of market participants has determined that only bitcoin is viable, rejecting the monetary properties of all other digital currencies, while the majority is willing to accept bitcoin along with the field. Because of its intransigence, the minority is slowly forcing its preference on the majority. In the world of digital currencies, diversifying by picking the field is the equivalent of letting the crowd (or the intolerant minority) choose what your future money will be, while resigning yourself to only a fraction of what you otherwise would have saved. Evaluate the trade-offs and consider the minority rule before trading in your hard-earned value for a flyer. Money doesn’t grow on trees.
 
-> “Биткоин — выдающееся криптографическое достижение и способность создавать что-то, что не может быть продублировано в цифровом мире, имеет невероятную ценность”.
+> _“Bitcoin is a remarkable cryptographic achievement, and the ability to create something that is not duplicable in the digital world has enormous value.”_
 > 
-> — Эрик Шмидт (бывший генеральный директор Google)
+> — _Eric Schmidt (Former Google CEO)._
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
-2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
-3. [Биткоин не слишком волатилен](/pzv/bitkoin-ne-slishkom-volatilen)
-4. [Биткоин не тратит энергию зря](/pzv/bitkoin-ne-tratit-energiyu-zrya)
-5. [Биткоин не слишком медленный](/pzv/bitkoin-ne-slishkom-medlennyj)
-6. [Биткоин это исправит](/pzv/bitkoin-eto-ispravit)
-7. [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn)
-8. [Биткоин ничем не подкреплен?](/pzv/bitkoin-nichem-ne-podkreplen)
-9. [Биткоин — не финансовая пирамида](/pzv/bitkoin-ne-finansovaya-piramida)
-10. [Биткоин не может быть забанен](/pzv/bitkoin-ne-mozhet-byt-zabanen)
-11. [Биткоин не для преступников](/pzv/bitkoin-ne-dlya-prestupnikov)
-12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
-13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
-14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
-17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
+1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
+2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
+3. [Bitcoin Is Not Too Volatile](/en/gradually-then-suddenly/bitcoin-is-not-too-volatile)
+4. [Bitcoin Does Not Waste Energy](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)
+5. [Bitcoin is Not Too Slow](/en/gradually-then-suddenly/bitcoin-is-not-too-slow)
+6. [Bitcoin Fixes This](/en/gradually-then-suddenly/bitcoin-fixes-this)
+7. [Bitcoin, Not Blockchain](/en/gradually-then-suddenly/bitcoin-not-blockchain)
+8. [Bitcoin is Not Backed by Nothing](/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing)
+9. [Bitcoin is Not a Pyramid Scheme](/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme)
+10. [Bitcoin Cannot be Banned](/en/gradually-then-suddenly/bitcoin-cannot-be-banned)
+11. [Bitcoin is Not for Criminals](/en/gradually-then-suddenly/bitcoin-is-not-for-criminals)
+12. [Bitcoin Obsoletes All Other Money](/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money)
+13. [Bitcoin is a Rally Cry](/en/gradually-then-suddenly/bitcoin-is-a-rally-cry)
+14. [Bitcoin is Common Sense](/en/gradually-then-suddenly/bitcoin-is-common-sense)
+15. [Bitcoin is Antifragile](/en/gradually-then-suddenly/bitcoin-is-antifragile)
+16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
+17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
 {{< /expand >}}
-
-[^1]: Хард-форк — разделение пути цепочки блоков посредством аннулирования транзакций, подтвержденных нодами, которые не были обновлены до новой версии программного обеспечения протокола
