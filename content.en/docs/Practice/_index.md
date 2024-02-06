@@ -1,5 +1,5 @@
 ---
-title: Practical
+title: Practice
 type: docs
 cover: /img/main-section/practice.png
 bookFlatSection: false

@@ -6,7 +6,7 @@ menu:
   main:
     parent: blog
 next: /blog/
-prev: /blog/hal-finney-ne-byl-satoshi-nakamoto
+prev: /posts/ledger-attack/
 title: "Хэл Финни не был Сатоши Накамото"
 description: "Подборка доказательств того, что Хэл Финни и Сатоши Накамото – разные люди."
 cover: /img/hal-not-satoshi/cover.png
