@@ -28,8 +28,8 @@ weight: 4
 12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
 13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
 14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
+15. Биткоин антихрупок ([оригинал](/en/gradually-then-suddenly/bitcoin-is-antifragile))
+16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
 {{< /expand >}}
@@ -161,8 +161,8 @@ _“Потому что деньги предлагают нам самый ши
 12. [Биткоин обесценивает остальные деньги](/pzv/bitkoin-obescenivaet-ostalnye-dengi)
 13. [Биткоин — зов к единению](/pzv/bitkoin-zov-k-edineniyu)
 14. [Биткоин — это здравый смысл](/pzv/bitkoin-eto-zdravyj-smysl)
-15. Биткоин антихрупок ([оригинал](https://unchained.com/blog/bitcoin-is-antifragile/))
-16. Биткоин — один для всех ([оригинал](https://unchained.com/blog/bitcoin-is-one-for-all/))
+15. Биткоин антихрупок ([оригинал](/en/gradually-then-suddenly/bitcoin-is-antifragile))
+16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
 {{< /expand >}}
