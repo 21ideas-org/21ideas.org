@@ -5,7 +5,6 @@ cover: /img/221.jpg
 tags: ["bitcoin", "economics", "gradually then suddenly", "volatility"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-not-too-volatile
-aliases: ['/theory-economics-bitcoin-is-not-too-volatile']
 date: 2019-08-09
 bookFlatSection: false
 bookToc: true
@@ -68,7 +67,7 @@ But luckily for all of us, bitcoin is not too volatile to be a currency and ofte
 
 ## Bitcoin Value Function Revisited
 
-Consider why there is fundamental demand for bitcoin and why bitcoin is naturally volatile. Bitcoin is valuable because it has a fixed supply and it is also volatile for the same reason. The fundamental demand driver for bitcoin is in its scarcity. To revisit bitcoin’s value function from a [previous edition](gradually-then-suddenly/bitcoin-cant-be-copied), decentralization and censorship-resistance reinforce the credibility of bitcoin’s scarcity (and fixed supply schedule) which is the basis of bitcoin’s store of value property:
+Consider why there is fundamental demand for bitcoin and why bitcoin is naturally volatile. Bitcoin is valuable because it has a fixed supply and it is also volatile for the same reason. The fundamental demand driver for bitcoin is in its scarcity. To revisit bitcoin’s value function from a [previous edition](/en/gradually-then-suddenly/bitcoin-cant-be-copied), decentralization and censorship-resistance reinforce the credibility of bitcoin’s scarcity (and fixed supply schedule) which is the basis of bitcoin’s store of value property:
 
 {{% image "/img/151-en.png" /%}}
 

@@ -5,7 +5,6 @@ cover: /img/153.jpeg
 tags: ["bitcoin", "economics"]
 description: ""
 url: gradually-then-suddenly/intro
-aliases: ['/theory-economics-gradually-then-suddenly']
 date: 2019-07-26
 bookFlatSection: false
 weight: 1

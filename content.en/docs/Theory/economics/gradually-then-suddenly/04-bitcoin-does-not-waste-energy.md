@@ -5,7 +5,6 @@ cover: /img/mining.jpg
 tags: ["bitcoin", "economics", "gradually then suddenly", pow", "proof-of-work"]
 description: ""
 url: gradually-then-suddenly/bitcoin-does-not-waste-energy
-aliases: ['/theory-economics-bitcoin-does-not-waste-energy']
 date: 2019-08-16
 bookFlatSection: false
 bookToc: true
