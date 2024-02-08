@@ -39,21 +39,14 @@ The series will cover all the major economic, social and technological component
 ## Series of articles by Giacomo Zucco
 Welcome to the introduction to a series of seven articles, entitled “Discovering Bitcoin: A Brief Overview From Cavemen to the Lightning Network.”
 
-1. [Вступление: Краткий обзор истории от пещерных людей до сети lightning](/en/discovering-bitcoin-intro)
-
-2. [Часть 1. О времени](/en/discovering-bitcoin-1)
-
-3. [Часть 2. О людях](/en/discovering-bitcoin-2)
-
-4. [Часть 3. Знакомьтесь: деньги](/en/discovering-bitcoin-3)
-
-5. [Часть 4. Поворот не туда (в поисках нового плана)!](/en/discovering-bitcoin-4)
-
-6. [Часть 5. Цифровая редкость](/en/discovering-bitcoin-5)
-
-7. [Часть 6. Цифровые контракты](/en/discovering-bitcoin-6)
-
-8. [Часть 7: Недостающие части головоломки](/en/discovering-bitcoin-7)
+1. [Introduction](/en/discovering-bitcoin/intro)
+2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
+3. [Part 2: About People](/en/discovering-bitcoin/about-people)
+4. [Part 3: Introducing Money](/en/discovering-bitcoin/introducing-money)
+5. [Part 4: A Wrong Turn (New Plan Needed)!](/en/discovering-bitcoin/a-wrong-turn-new-plan-needed)
+6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
+7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
+8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
 
 {{< /expand >}}
 
