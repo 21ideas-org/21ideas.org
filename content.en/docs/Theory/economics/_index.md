@@ -53,8 +53,8 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 ## Articles
 
 - [Critics Claim Bitcoin Is a Threat to the Environment. They're Wrong](/en/bitcoin-is-not-harmful-for-the-environment)
-- [Семь сетевых эффектов Биткоина](/sem-setevyh-effektov-bitkoina)
-- [Хозяева и рабы денег](/hozyaeva-i-raby-deneg)
+- [The Seven Network Effects of Bitcoin](/en/seven-network-effects-of-bitcoin)
+- [Masters and Slaves of Money](/en/masters-and-slaves-of-money)
 - [Структурная перестройка: как МВФ и Всемирный банк подавляют бедные страны и направляют их ресурсы в богатые](/strukturnaya-perestrojka)
 - [В защиту дефляции](/v-zashchitu-deflyacii)
 - [Сравнение монетарных стандартов](/sravnenie-monetarnyh-standartov)
