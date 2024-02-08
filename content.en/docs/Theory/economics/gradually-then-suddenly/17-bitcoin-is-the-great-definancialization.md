@@ -5,7 +5,6 @@ cover: /img/gts-17-1.png
 tags: ["bitcoin", "economics", "gradually then suddenly"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-the-great-definancialization
-aliases: ['/theory-economics-bitcoin-is-definancialization']
 date: 2020-12-23
 bookFlatSection: false
 bookToc: true
@@ -203,7 +202,7 @@ The difference between saving in bitcoin (not taking risk) and financial investi
 
 ---
 
-This version of Gradually, then Suddenly is the 17th essay in the series and was first published as part of the Bitcoin Times (Ed. 3). I want to thank Aleks Svetski (CEO of [Amber Labs](https://amber.app/)) for organizing and inviting me to participate in the Bitcoin Times. I also want to thank Aleks in addition to Phil Geiger, Robert Breedlove and Will Cole for providing valuable feedback on this edition of the [Gradually, Then Suddenly](https://unchained.com/blog/category/gradually-then-suddenly/) series. Lastly, I’d like to recognize the other contributors to the Bitcoin Times: Jimmy Song, Erik Cason, Jeff Booth, Giacomo Zucco and Aleks, himself (as well as Makena Rhodes for editing and design). I’m lucky to call these brave men friends, teammates, clients, twitter friends, fellow bitcoiners or a combination in certain cases. It’s an honor just to be included.
+This version of Gradually, then Suddenly is the 17th essay in the series and was first published as part of the Bitcoin Times (Ed. 3). I want to thank Aleks Svetski (CEO of [Amber Labs](https://amber.app/)) for organizing and inviting me to participate in the Bitcoin Times. I also want to thank Aleks in addition to Phil Geiger, Robert Breedlove and Will Cole for providing valuable feedback on this edition of the [Gradually, Then Suddenly](/en/gradually-then-suddenly) series. Lastly, I’d like to recognize the other contributors to the Bitcoin Times: Jimmy Song, Erik Cason, Jeff Booth, Giacomo Zucco and Aleks, himself (as well as Makena Rhodes for editing and design). I’m lucky to call these brave men friends, teammates, clients, twitter friends, fellow bitcoiners or a combination in certain cases. It’s an honor just to be included.
 
 {{< expand "Contents" "..." >}}
 

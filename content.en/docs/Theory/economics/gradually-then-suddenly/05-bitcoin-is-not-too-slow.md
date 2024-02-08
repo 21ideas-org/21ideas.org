@@ -5,7 +5,6 @@ cover: /img/bitcoin-circles.jpg
 tags: ["bitcoin", "economics", "gradually then suddenly", "scalability", "payments"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-not-too-slow
-aliases: ['/theory-economics-bitcoin-is-not-too-slow']
 date: 2019-08-23
 bookFlatSection: false
 bookToc: true
@@ -82,7 +81,7 @@ In bitcoin’s free market, the highest value and most profitable transactions a
 
 {{% image "/img/gts-5-3-en.png" /%}}
 
-As discussed in a prior edition ([see here](/gradually-then-suddenly/bitcoin-does-not-waste-energy)), miners secure the bitcoin network by devoting real world energy resources to run cryptographic hashing functions and to solve bitcoin blocks. By solving blocks, miners validate history and clear current transactions which are then checked and validated by the rest of the network. In return, miners are paid in bitcoin. Devote resources to secure the network and get paid in the network’s native currency (bitcoin). The actual compensation paid to miners comes in two forms: newly issued bitcoin and transaction fees. In order to devote resources today to secure the network, miners have to reliably expect that aggregate compensation will hold its value into the future.
+As discussed in a prior edition ([see here](/en/gradually-then-suddenly/bitcoin-does-not-waste-energy)), miners secure the bitcoin network by devoting real world energy resources to run cryptographic hashing functions and to solve bitcoin blocks. By solving blocks, miners validate history and clear current transactions which are then checked and validated by the rest of the network. In return, miners are paid in bitcoin. Devote resources to secure the network and get paid in the network’s native currency (bitcoin). The actual compensation paid to miners comes in two forms: newly issued bitcoin and transaction fees. In order to devote resources today to secure the network, miners have to reliably expect that aggregate compensation will hold its value into the future.
 
 Approximately every four years, the newly issued bitcoin paid to miners gets cut in half (the bitcoin “halvening”).  Today, with each block, 12.5 new bitcoin are issued. In approximately eight months, when the next halvening event occurs ([see here](https://www.buybitcoinworldwide.com/volatility-index/)), that amount will be reduced to 6.25 new bitcoin per block. Approximately four years after that, 3.125 new bitcoin per block will be issued. This process will continue until we reach the smallest unit of bitcoin (1/100,000,000th) and thereafter no new bitcoin will be issued. This is the issuance function that governs bitcoin’s fixed supply (21 million), and as a derivative function, it also shifts compensation to secure the network from (mostly) new bitcoin today to ultimately a system relying completely on transaction fees.
 

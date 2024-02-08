@@ -5,7 +5,6 @@ cover: /img/come-and-take-it.png
 tags: ["bitcoin", "economics", "gradually then suddenly"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-a-rally-cry
-aliases: ['/theory-economics-bitcoin-is-a-rally-cry']
 date: 2020-03-26
 bookFlatSection: false
 bookToc: true
