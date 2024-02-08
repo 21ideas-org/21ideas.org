@@ -52,7 +52,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 
 ## Articles
 
-- [Биткоин не вредит окружающей среде](/bitkoin-ne-vredit-okruzhayushej-srede)
+- [Critics Claim Bitcoin Is a Threat to the Environment. They're Wrong](/en/bitcoin-is-not-harmful-for-the-environment)
 - [Семь сетевых эффектов Биткоина](/sem-setevyh-effektov-bitkoina)
 - [Хозяева и рабы денег](/hozyaeva-i-raby-deneg)
 - [Структурная перестройка: как МВФ и Всемирный банк подавляют бедные страны и направляют их ресурсы в богатые](/strukturnaya-perestrojka)
