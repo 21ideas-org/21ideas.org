@@ -1,6 +1,6 @@
 ---
-title: "Часть 4. Установка Samourai Dojo"
-h1: "Часть 4. Установка Samourai Dojo"
+title: "Installing Samourai Dojo"
+h1: "Part 4. Installing Samourai Dojo"
 description: ""
 cover: /img/dojo-07.jpg
 url: practice-privacy/dojo-4
@@ -10,336 +10,328 @@ bookToc: true
 weight: 5
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Введение](/practice-privacy/dojo-0)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
-
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
 {{% hint btc %}}
-Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3).
+Prerequisites.
+
+Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3).
 {{% /hint %}}
 
-## Введение
+## Introduction
 
-Dojo - это программное обеспечение, которое повышает конфиденциальность и безопасность пользователей [Samourai Wallet](https://samouraiwallet.com/). Программное обеспечение Dojo представляет собой ваш личный бэкэнд-сервер с полным узлом, к которому могут подключаться пользователи Samourai Wallet, что повышает приватность, устраняя необходимость подключения к публичному серверу/узлу.
+Dojo is a software tool that enhances the privacy and security of [Samourai Wallet](https://samouraiwallet.com/) users. The Dojo software is a personally hosted full-node server backend that Samourai Wallet users can connect to, enhancing privacy by eliminating the need to connect with a public server/node.
 
-Запуск сервера Dojo необходим для тех, кто хочет использовать преимущества приватности, достигаемые благодаря инструментам траты средств после смешивания в Samourai Wallet и мощной реализации [CoinJoin](/coinjoin-pandul) - Whirlpool.
+Running a Dojo server is essential for those wanting to utilize the privacy benefits achieved through Samourai Wallet's post-mix spending tools and powerful Whirlpool CoinJoin implementation.
 
-## Создание пользователя Dojo
+## Create Dojo User
 
-Создание отдельной учетной записи пользователя для Dojo полезно для безопасности.
+Creating a segregated user account for Dojo is beneficial for security.
 
 ```bash
 sudo useradd -s /bin/bash -d /home/dojo -m -G sudo dojo
 ```
 
-Задайте пароль для нового пользователя.
+Set a password for your new user.
 
 ```bash
 sudo passwd dojo
 ```
 
-Предоставьте пользователю "dojo" необходимые разрешения.
+Provide the user "dojo" with the required permissions.
 
 ```bash
 sudo usermod -aG docker dojo
 ```
 
-Перезагрузите устройство.
+Restart the device.
 
 ```bash
 sudo reboot
 ```
 
-После успешной перезагрузки системы снова войдите в систему по SSH под именем пользователя "dojo".
+Once the system has successfully rebooted, SSH back in as user "dojo."
 
-## Загрузка Dojo
+## Download Dojo
 
-Загрузите последнюю версию Dojo из официального репозитория [Samourai](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+Download the latest version of Dojo from the official [Samourai repository](https://code.samourai.io/dojo/samourai-dojo/-/releases).
 
 ```bash
 torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
 ```
 
-Распакуйте скачанный архив.
+Unzip the downloaded archive.
 
 ```bash
 unzip samourai-dojo-master.zip
 ```
 
-Создайте директорию для Dojo.
+Create a directory for Dojo.
 
 ```bash
 mkdir ~/dojo-app
 ```
 
-Переместите распакованные файлы в новый каталог.
+Move the unpackaged files to the new directory.
 
 ```bash
 mv ~/samourai-dojo-master/* ~/dojo-app/
 ```
 
-Удалите пустой архив и папку.
+Remove the empty archive & folder.
 
 ```bash
 rm -r samourai-dojo-master && rm samourai-dojo-master.zip
 ```
 
-## Конфигурирование Dojo
+## Configure Dojo
 
-Перед инициализацией Dojo необходимо изменить несколько конфигурационных файлов.
+Multiple configuration files need to be modified before initializing Dojo.
 
 ```bash
 cd ~/dojo-app/docker/my-dojo/conf/
 ```
 
-Откройте "bitcoind.conf".
+Open "bitcoind.conf".
 
 ```bash
 nano docker-bitcoind.conf.tpl
 ```
 
-Отредактируйте следующим образом.
+Edit as follows.
 
 ```
-####замените значения на ваши имя пользователя и пароль для RPC Bitcoin Core
+####edit to your core rpc username & password
 BITCOIND_RPC_USER=dojorpc
 BITCOIND_RPC_PASSWORD=dojorpcpassword
 ```
 
 ```
-####замените
+####change
 BITCOIND_INSTALL=on
 
-##на
+##to
 BITCOIND_INSTALL=off
 ```
 
 ```
-####замените значение на ваш локальный IP
+####edit to your nodes IP
 BITCOIND_IP=172.28.1.5
 ```
 
 ```
-####замените
+####change
 BITCOIND_RPC_PORT=28256
 
-##на
+##to
 BITCOIND_RPC_PORT=8332
 ```
 
 ```
-####замените
+####change
 BITCOIND_ZMQ_RAWTXS=9501
 
-##на
+##to
 BITCOIND_ZMQ_RAWTXS=28333
 ```
 
 ```
-####замените
+####change
 BITCOIND_ZMQ_BLK_HASH=9502
 
-##на
+##to
 BITCOIND_ZMQ_BLK_HASH=28334
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Откройте "indexer.conf".
+Open "indexer.conf".
 
 ```bash
 nano docker-indexer.conf.tpl
 ```
 
-Отредактируйте следующим образом.
+Edit as follows.
 
 ```
-####замените
+####change
 INDEXER_TYPE=addrindexrs
 
-##на
+##to
 INDEXER_TYPE=fulcrum
 ```
 
 ```
-####замените значение на ваш локальный IP
+####edit to your nodes IP
 INDEXER_IP=172.28.1.6
 ```
 
 ```
-####замените
+####change
 INDEXER_RPC_PORT=50001
 
-##на
+##to
 INDEXER_RPC_PORT=50002
 ```
 
 ```
-####замените
+####change
 INDEXER_BATCH_SUPPORT=inactive
 
-##на
+##to
 INDEXER_BATCH_SUPPORT=active
 ```
 
 ```
-####замените
+####change
 INDEXER_PROTOCOL=tcp
 
-##на
+##to
 INDEXER_PROTOCOL=tls
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Откройте "mysql.conf."
+Open "mysql.conf."
 
 ```bash
 nano docker-mysql.conf.tpl
 ```
 
-Создайте надежные пароли администратора (root) и пользователя для MySQL, а затем отредактируйте файл.
+Create root and user passwords for MySQL, then edit the file.
 
 ```
-####замените пароли на свои
+####edit lines with passwords
 MYSQL_ROOT_PASSWORD=rootpassword
 MYSQL_PASSWORD=password
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Откройте "node.conf."
+Open "node.conf."
 
 ```bash
 nano docker-node.conf.tpl
 ```
 
-Создайте надежные пароли "API", "admin" и "JWT", а затем отредактируйте файл следующим образом.
+Create "API," "admin," and "JWT" passwords, then edit the file as follows.
 
 ```
-####замените пароли на свои
+####add passwords here
 NODE_API_KEY=myApiKey
 NODE_ADMIN_KEY=myAdminKey
 NODE_JWT_SECRET=myJwtSecret
 ```
 
 ```
-####замените
+####change
 NODE_ACTIVE_INDEXER=local_bitcoind
 
-##на
+##to
 NODE_ACTIVE_INDEXER=local_indexer
 ```
 
 ```
-####опционально - добавьте PayNym-адрес для активации Auth47
+####optional - add paynym address if enabaling auth47
 NODE_PAYMENT_CODE=
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Также есть возможность отключить устанавливаемый по умолчанию Bitcoin RPC Explorer. Это необязательная опция, при уже установленном Mempool он может не пригодиться.
+There's also the option to disable the default Bitcoin RPC Explorer. This is optional, but with an already active Mempool installation, it may not have a use case for some.
 
-Пропустите этот шаг, если хотите оставить RPC Explorer включенным.
+Skip this next step if wanting to leave RPC Explorer enabled.
 
-Откройте "explorer.conf."
+Open "explorer.conf."
 
 ```bash
 nano docker-explorer.conf.tpl
 ```
 
-Отредактируйте файл следующим образом, чтобы отключить RPC Explorer.
+Edit the file as follows to disable RPC Explorer.
 
 ```
-####замените
+####change
 EXPLORER_INSTALL=on
 
-##на
+##to
 EXPLORER_INSTALL=off
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-## Установка Dojo
+## Dojo Initialisation
 
-Перейдите в директорию со скриптом установки Dojo.
+Enter the Dojo install script directory.
 
 ```bash
 cd ~/dojo-app/docker/my-dojo
 ```
 
-Запустите скрипт.
+Run the script.
 
 ```bash
 ./dojo.sh install
 ```
 
- Начнется процесс установки Dojo.
+Dojo will begin the installation process.
 
-Установка будет завершена, когда появится постоянный поток логов "node.js". Выйдите из логов с помощью "control+c ".
+The installation is complete once a constant stream of "node.js" logs appears. Exit the logs with "control+c ".
 
 ## Dojo Maintenance Tool
 
-Dojo Maintenance Tool, или "DMT", доступен только через Tor. Выделенный onion-адрес сервера можно запросить с помощью следующей команды.
+The Dojo Maintenance Tool, or "DMT," is accessible only via Tor. The server's dedicated onion address can be requested with the following command.
 
 ```bash
 ./dojo.sh onion
 ```
 
-Доступ к DMT можно получить через этот onion-адрес и войти в систему, используя ранее созданный "admin key" или "Auth47", если он был настроен ранее.
+The DMT can be accessed via this onion address and logged into using either the "admin key" previously created or "Auth47" if previously configured.
 
-Как только панель управления DMT заполнится зелеными галочками, Dojo синхронизирован и готов к сопряжению с кошельком Samourai.
+Once a full house of green ticks shows on the dashboard, Dojo is synched and ready to pair with a Samourai Wallet.
 
 {{% image "/img/dojo-08.jpg" %}}
-*Панель управления DMT, используется Testnet*
+*DMT in Testnet*
 {{% /image %}}
 
-Выберите "Pairing" в меню DMT, чтобы отобразить QR-код сопряжения, который можно отсканировать во время [процесса создания](/coinjoin-pandul/#%d1%88%d0%b0%d0%b3-2-%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0-%d0%ba%d0%be%d1%88%d0%b5%d0%bb%d1%8c%d0%ba%d0%b0) или восстановления кошелька Samourai.
+Select "pairing" from the DMT's menu to display the pairing QR code that can be scanned during the [setup process](https://docs.samourai.io/wallet/new-wallet#dojo) of creating or restoring a Samourai Wallet.
 
-Если проводник RPC не отключен, будут отображены два QR-кода. QR-код сопряжения Dojo находится слева.
+If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pairing QR is the one to the left.
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}

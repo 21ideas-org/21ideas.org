@@ -1,5 +1,5 @@
 ---
-title: "Часть 4. Установка Samourai Dojo"
+title: "Установка Samourai Dojo"
 h1: "Часть 4. Установка Samourai Dojo"
 description: ""
 cover: /img/dojo-07.jpg

@@ -575,7 +575,9 @@ Samourai Toolkit
 
 {{% image "/img/ronin-14.jpg" /%}}
 
-Нажмите "Pair now" в разделе "Samourai Dojo", отсканируйте QR-код сопряжения Dojo в вашем Samourai Wallet. Перейдите в меню настроек кошелька.
+Нажмите "Pair now" в разделе "Samourai Dojo", отсканируйте QR-код сопряжения Dojo в вашем Samourai Wallet.
+
+Перейдите в меню настроек кошелька:
 
 ```
 Транзакции > Связать с Whirlpool GUI

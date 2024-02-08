@@ -1,6 +1,6 @@
 ---
-title: "Установка RoninDojo на x86"
-h1: "Установка RoninDojo на x86"
+title: "RoninDojo x86 Installation Guide"
+h1: "RoninDojo x86 Installation Guide"
 description: ""
 cover: /img/ronin-11.jpg
 url: practice-privacy/ronindojo
@@ -11,90 +11,90 @@ weight: 2
 ---
 
 {{% hint btc %}}
-Автор выражает благодарность [Estudio Bitcoin](https://twitter.com/estudiobitcoin), и лично [Albercoin](https://twitter.com/Albercoin) и [Arkad](https://twitter.com/Multicripto), за их [работу](https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) по установке RoninDojo на x86.
+The author would like to thank [Estudio Bitcoin](https://twitter.com/estudiobitcoin), and personally [Albercoin](https://twitter.com/Albercoin) and [Arkad](https://twitter.com/Multicripto), for their [work](https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) on installing RoninDojo on x86.
 {{% /hint %}}
 
 {{% hint info %}}
-С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/coinjoin-pandul). Установка "ванильного" Dojo описана в [официальной документации](https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
+Installation of "vanilla" Dojo is described in [official documentation](https://docs.samourai.io/en/dojo) by [Samourai](https://twitter.com/SamouraiWallet) and in [guide](/en/practice-privacy/dojo) by [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
 {{% /hint %}}
 
-## Отличия Dojo и RoninDojo
+## Dojo and RoninDojo differences
 
-В состав классического Dojo-сервера входят:
+Classic Dojo server includes:
 
 - Bitcoin Core.
-- Обозреватель блокчейна [BTC RPC Explorer](https://github.com/janoside/btc-rpc-explorer).
-- Индексатор блокчейна Fulcrum (совместим с ElectrumX) или Addrindexrs.
-- Панель управления Dojo Maintenance Tool (DMT).
+- [BTC RPC Explorer](https://github.com/janoside/btc-rpc-explorer).
+- Fulcrum Indexer (ElectrumX compatible) or Addrindexrs.
+- Dojo Maintenance Tool (DMT).
 - Whirlpool CLI.
-- Поддержка Testnet (в RoninDojo отсутствует).
+- Testnet support (not available in RoninDojo).
 
-В RoninDojo добавлены:
+RoninDojo adds:
 
-- Индексатор блокчейна Electrum Rust Server (electrs). Таким образом, пользователь может выбирать из трех вариантов.
-- Опционально устанавливаемый обозреватель блокчейна [Mempool](https://github.com/mempool/mempool).
-- Веб-интерфейс Ronin UI.
-- Whirlpool GUI непосредственно в веб-интерфейсе.
-- Консольная панель управления Ronin CLI.
-- [Whirlpool Stats Tool (WST)](/coinjoin-pandul/#whirlpool-stats-tool-wst).
-- [Boltzmann Calculator](/coinjoin-pandul/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
-- Резервное копирование блокчейна на отдельный диск после IBD.
+- Electrum Rust Server (electrs). Thus, the user can choose from three options.
+- Optional [Mempool](https://github.com/mempool/mempool) blockchain explorer.
+- Ronin UI web interface.
+- Whirlpool GUI directly in the web interface.
+- Ronin CLI (command line interface).
+- Whirlpool Stats Tool (WST).
+- Boltzmann Calculator.
+- Backing up the blockchain data to a separate disk after IBD.
 
-В данном руководстве будет описана ручная установка всех компонентов в операционной системе на базе Debian. Я использовал Ubuntu 22.04. Данный способ позволит:
+This tutorial will describe how to manually install all components in a Debian based operating system. I used Ubuntu 22.04. This method will allow you to:
 
-- Использовать любое оборудование, соответствующее минимальным требованиям. Два SSD-диска являются рекомендуемой конфигурацией, но совсем не обязательной.
-- Выбирать базовую операционную систему.
-- Настроить необходимые компоненты до установки системы:
-    - Выбрать индексатор (Electrs, Fulcrum или Addrindexrs).
-    - Установить обозреватель Mempool.
-    - Включить Auth47 для аутентификации в DMT с помощью PayNym.
-    - Сконфигурировать мосты для Tor.
-    - Включить поддержку Testnet.
+- Use any hardware that meets the minimum requirements. Two SSD are recommended, but not required.
+- Choose a basic operating system.
+- Configure the necessary components before installing the system:
+    - Select a blockchain indexer (Electrs, Fulcrum or Addrindexrs).
+    - Install Mempool explorer.
+    - Enable Auth47 for authentication to DMT using PayNym.
+    - Configure Tor bridges.
+    - Enable Testnet support.
 
 {{% hint btc %}}
-Если вы только изучаете возможности кошелька Samourai, то я рекомендую попробовать все возможности именно в Testnet. Для этого вам достаточно [виртуальной машины](https://www.virtualbox.org) и 100 ГБ выделенного пространства.
+If you are only learning the features of Samourai wallet, I recommend you to try all the functions in Testnet. All you need is a [virtual machine](https://www.virtualbox.org) and 100 GB of free disk space.
 {{% /hint %}}
 
-## Системные требования
+## System Requirements
 
-- 64-разрядный компьютер с процессором Intel/AMD. Рекомендуется Intel Core i5 6500 или аналогичный.
-- Минимум 8 ГБ оперативной памяти.
-- SSD-накопитель объемом 1 ТБ, настоятельно рекомендуется 2 ТБ. Так же хорошей практикой будет использование небольшого по объему SSD от 100 ГБ для функционирования операционной системы, в то время, как данные блокчейна будут находиться на отдельном большом диске.
-- Рекомендуется подключаемый HDD/SSD-накопитель объемом 1 ТБ для создания резервной копии данных блокчейна из Bitcoin Core.
+- 64-bit computer with Intel/AMD processor. Intel Core i5 6500 or similar is recommended.
+- Minimum 8GB of RAM.
+- 1TB SSD, 2TB is highly recommended. It is also a good practice to use a small SSD of 100 GB or more to run the operating system while the blockchain data is stored on a separate large disk.
+- An external 1TB HDD/SSD drive is recommended for backing up blockchain data from Bitcoin Core.
 
-## Установка операционной системы
+## OS installation
 
-Вам необходимо установить базовую операционную систему. Я использовал серверную версию Ubuntu 22.04. [Скачать](https://ubuntu.com/download/server) ее можно на официально сайте Ubuntu. Подробную инструкцию по установке можно найти [здесь](https://losst.pro/ustanovka-ubuntu-server-20-04).
+You need to install the base operating system. I used Ubuntu 22.04 Server. It can be [downloaded](https://ubuntu.com/download/server) from Ubuntu website.
 
-В процессе установки необходимо выключить опцию "Set up this disk as an LVM group".
+During the installation process, the "Set up this disk as an LVM group" option must be turned off.
 
 {{% hint info %}}
-Если вы используете два SSD, то выберите диск меньшего размера.
+If you are using two SSDs, choose the smaller drive.
 {{% /hint %}}
 
 {{% image "/img/ronin-02.png" /%}}
 
-Не забудьте включить опцию "Install OpenSSH server".
+Don't forget to enable the "Install OpenSSH server" option.
 
 {{% image "/img/ronin-01.png" /%}}
 
-После успешной установки зайдите на ваш сервер из локальной сети с помощью [SSH-клиента](https://losst.pro/kak-podklyuchitsya-po-ssh), используя имя пользователя, заданное при установке, внутренний IP-адрес вашей машины для RoninDojo и порт 22. Узнать адрес в вашей сети можно с помощью команды на сервере:
+After successful installation, log into your server from local network using an SSH client with the username you set during installation, your RoninDojo machine's internal IP address, and port 22. You can find out the address in local network by using the command on the server:
 
 ```bash
 hostname -I
 ```
 
-Мой внутренний IP-адрес 10.0.2.15, соответственно адрес подсети в моем случае 10.0.2.0/24, по аналогии определите свой и запишите.
+My internal IP address is 10.0.2.15, respectively the subnet address in my case is 10.0.2.0/24, by analogy define yours and write it down.
 
-## Определение конфигурации
+## Defining the configuration
 
-Получаем имя вашего сетевого интерфейса. Запишите его, например "*eno1*".
+Find the name of your network interface. Write it down, for example "*eno1*".
 
 ```bash
 ip -o -4 route show to default | awk '{print $5}'
 ```
 
-Введите следующую команду и запишите название раздела диска (из столбца "NAME"), в котором находится корень "/" файловой системы (столбец "MOUNTPOINTS"). Добавьте "*/dev/*" перед именем раздела - у меня это "*/dev/sda2*".
+Enter the following command and write down the name of partition (from the "NAME" column), where the root "/" of the file system is located ("MOUNTPOINTS" column). Add "*/dev/*" before the partition name. Mine is "*/dev/sda2*".
 
 ```bash
 lsblk
@@ -103,11 +103,11 @@ lsblk
 {{% image "/img/ronin-03.png" /%}}
 
 {{% hint info %}}
-Если вы используете два SSD, то определите из вывода предыдущей команды имя диска, который будет использоваться под данные блокчейна. Его объем будет 1 или 2 ТБ. В примере ниже системный раздел - это /dev/sdb2, а большой диск - это /dev/sda.
+If you are using two SSDs, determine from the output of the previous command the name of the disk that will be used for blockchain data. Its capacity will be either 1 or 2 TB. In the example below, the system partition is /dev/sdb2 and the large disk is /dev/sda.
 
 {{% image "/img/ronin-04.png" /%}}
 
-Форматируем большой диск. Замените значение /dev/sda на свое. Не забудьте про "1" в конце третьей команды.
+Format the large disk. Replace the value of /dev/sda with your own. Don't forget the "1" at the end of the third command.
 
 ```bash
 sudo wipefs -a --force /dev/sda
@@ -116,11 +116,11 @@ sudo mkfs.ext4 -q -F -L "main" /dev/sda1
 lsblk
 ```
 
-Теперь у меня появился большой раздел /dev/sda1, единственный на этом диске. Запишите название своего раздела для данных блокчейна.
+Now I have a large partition /dev/sda1, the only one on this disk. Write down the name of your partition for the blockchain data.
 
 {{% image "/img/ronin-05.png" /%}}
 
-Монтируем раздел в системе. Замените /dev/sda1 на ваше значение.
+Mount the partition. Replace /dev/sda1 with your value.
 
 ```bash
 sudo tee "/etc/systemd/system/mnt-usb.mount" <<EOF
@@ -146,7 +146,7 @@ sudo systemctl enable mnt-usb.mount
 
 {{% /hint %}}
 
-Подключите внешний HDD/SSD, который вы планируете использовать для бэкапа данных блокчейна. Этот шаг можно пропустить. Подключите диск и снова выполните команду:
+Plug in the external HDD/SSD that you plan to use for backup of the blockchain data. You can skip this step. Connect the drive and run the following command again:
 
 ```bash
 lsblk
@@ -154,11 +154,11 @@ lsblk
 
 {{% image "/img/ronin-07.png" /%}}
 
-Вы увидите только что подключенный диск в таблице. Запишите название диска для резервной копии, добавив "*/dev/*" в начале и "*1*" в конце, в моем случае  - */dev/sdb1*.
+You will see the newly connected disk in the table. Write down the name of the disk for backups by adding "*/dev/*" at the beginning and "*1*" at the end, in my case it is */dev/sdb1*.
 
-## Предварительный этап
+## Pre-installation
 
-Добавим пользователя ronindojo в нашу систему, зададим пароль и выполним вход от нового пользователя.
+Let's add user *ronindojo* to our system, set a password and log in as the new user.
 
 ```bash
 sudo useradd -s /bin/bash -d /home/ronindojo -m -G sudo ronindojo
@@ -168,7 +168,7 @@ echo "ronindojo    ALL=(ALL) ALL" >> /etc/sudoers
 su - ronindojo
 ```
 
-Устанавливаем необходимые программы.
+Install the required programs.
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -176,7 +176,7 @@ sudo apt install bash-completion nano tor obfs4proxy net-tools apt-transport-htt
 pip3 install pipenv
 ```
 
-Устанавливаем Docker.
+Docker installation.
 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -209,7 +209,7 @@ sudo systemctl start docker
 sudo usermod -a -G docker ronindojo
 ```
 
-Устанавливаем NodeJS.
+NodeJS installation.
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash
@@ -217,7 +217,7 @@ sudo apt install nodejs
 exit
 ```
 
-## Установка Samourai Dojo
+## Samourai Dojo installation
 
 ```bash
 su - ronindojo
@@ -225,7 +225,7 @@ git clone https://code.samourai.io/ronindojo/samourai-dojo -b master ~/dojo
 cd ~/dojo/docker/my-dojo/
 ```
 
-Генерируем случайный пароль.
+Generate random password.
 
 ```bash
 tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
@@ -235,15 +235,15 @@ tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
 nano conf/docker-bitcoind.conf.tpl
 ```
 
-Вставьте пароль после *BITCOIND_RPC_PASSWORD=*
+Insert generated password after *BITCOIND_RPC_PASSWORD=*
 
-Сохранить файл и выйти из редактора можно последовательным нажатием клавиш Ctrl+X, y, Enter.
+You can save the file and exit the editor by pressing Ctrl+X, y, Enter.
 
 ```bash
 nano conf/docker-indexer.conf.tpl
 ```
 
-Здесь можно заменить electrs (по умолчанию) на fulcrum или addrindexrs после *INDEXER_TYPE=*. Fulcrum гораздо дольше синхронизируется, чем Electrs, и рекомендован для "тяжелых" кошельков с большим количеством транзакций. Addrindexrs поддерживает только Samourai Wallet, в то время как два других можно использовать для подключения таких кошельков, как Electrum и Sparrow Wallet.
+Here you can replace *electrs* (default) with *fulcrum* or *addrindexrs* in *INDEXER_TYPE=*. Fulcrum takes much longer to synchronize than Electrs and is recommended for "heavy" wallets with a large number of transactions. Addrindexrs only supports Samourai Wallet, while the other two can be used to connect wallets such as Electrum and Sparrow Wallet.
 
 ```bash
 tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
@@ -251,7 +251,7 @@ tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
 nano conf/docker-mempool.conf.tpl
 ```
 
-Установка обозревателя Mempool включается опцией *MEMPOOL_INSTALL=on*. Пароли необходимо вставить после *MEMPOOL_MYSQL_PASS=* и *MEMPOOL_MYSQL_ROOT_PASSWORD=*.
+Mempool browser installation can be enabled by the *MEMPOOL_INSTALL=on* option. Passwords must be inserted after *MEMPOOL_MYSQL_PASS=* and *MEMPOOL_MYSQL_ROOT_PASSWORD=*.
 
 ```bash
 tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
@@ -259,7 +259,7 @@ tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
 nano conf/docker-mysql.conf.tpl
 ```
 
-Добавьте сгенерированные пароли после *MYSQL_ROOT_PASSWORD=* и *MYSQL_PASSWORD=*.
+Add the generated passwords after *MYSQL_ROOT_PASSWORD=* and *MYSQL_PASSWORD=*.
 
 ```bash
 tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
@@ -268,27 +268,27 @@ tr -dc 'a-zA-Z0-9' </dev/urandom | head -c'32'
 nano conf/docker-node.conf.tpl
 ```
 
-Вставьте пароли следом за *NODE_API_KEY=*, *NODE_ADMIN_KEY=* и *NODE_JWT_SECRET=*. Опционально добавьте ваш платежный код BIP47 (PM8T...) после *NODE_PAYMENT_CODE=*. Включив эту возможность, вы сможете аутентифицироваться в Dojo Maintenance Tool при помощи опции "Authenticate using PayNym" из меню Tools в кошельке Samourai, просто отсканировав QR-код на экране логина.
+Insert passwords after *NODE_API_KEY=*, *NODE_ADMIN_KEY=* and *NODE_JWT_SECRET=*. Optionally add your BIP47 payment code (PM8T...) after *NODE_PAYMENT_CODE=*. By enabling this feature, you will be able to authenticate to the Dojo Maintenance Tool using the "Authenticate using PayNym" option from the Tools menu in Samourai Wallet by simply scanning the QR code on the login screen.
 
 ```bash
 nano conf/docker-tor.conf.tpl
 ```
 
-Если у вас есть проблемы с подключением к Tor, установите *TOR_USE_BRIDGES=on* и пропишите [мосты](https://bridges.torproject.org) следующим образом: *TOR_BRIDGE_1="obfs4 ... iat-mode=0"*.
+If you have trouble connecting to Tor, set *TOR_USE_BRIDGES=on* and add [bridges](https://bridges.torproject.org) as follows: *TOR_BRIDGE_1="obfs4 ... iat-mode=0"*.
 
 {{% hint info %}}
-**Только для Testnet**
+**For Testnet only**
 
 ```bash
 nano conf/docker-common.conf.tpl
 ```
-Укажите *COMMON_BTC_NETWORK=testnet*.
+Set *COMMON_BTC_NETWORK=testnet*.
 
 ```bash
 nano nginx/testnet.conf
 ```
 
-Добавьте следующие строки в раздел # Site Configuration:
+Add the following lines to the section *# Site Configuration*:
 
 ```
     # Proxy WebSocket connections first
@@ -317,22 +317,22 @@ nano nginx/testnet.conf
 ./dojo.sh install
 ```
 
-Дождитесь окончания установки Dojo. Она занимает от 10 до 30 минут, в зависимости от производительности вашего компьютера и сетевого подключения.
+Wait for the Dojo installation to complete. It takes 10 to 30 minutes, depending on the performance of your computer and network connection.
 
 {{% image "/img/ronin-06.png" /%}}
 
-При возникновении ошибок, обычно связанных с сетевым соединением, вы можете остановить скрипт установки с помощью нескольких нажатий сочетания Ctrl+C и повторить последнюю команду. Если установка все же не удается, то вам придется настроить VPN на вашем маршрутизаторе. К сожалению данная процедура выходит за рамки данного руководства.
+If errors occur, usually related to network connectivity, you can stop the installation script with a few presses of the Ctrl+C and repeat the last command. If the installation still fails, you will have to configure a VPN on your router. Unfortunately, this procedure is beyond the scope of this guide.
 
 ## RoninOS
 
-RoninOS - это по сути скрипт, изменяющий базовую операционную систему для правильного функционирования RoninDojo. Так как он написан для определенной ОС и конкретной конфигурации оборудования, я произвел все необходимые изменения вручную.
+RoninOS is essentially a script that modifies the base operating system for RoninDojo to function properly. Since it is written for a specific OS and a specific hardware configuration, I made all the necessary changes manually.
 
 ```bash
 cd
 git clone https://code.samourai.io/ronindojo/RoninOS
 ```
 
-### Установка и настройка службы Tor
+### Installing and configuring the Tor service
 
 ```bash
 sudo useradd -c "tor" tor
@@ -347,7 +347,7 @@ sudo chown -R tor:tor /mnt/usb/tor/
 sudo nano /etc/tor/torrc
 ```
 
-Вставляем следующие строки в конец файла и добавляем мосты. Обратите внимание, что в отличие от настроек Tor в Samourai Dojo, мосты здесь прописываются без кавычек:
+Paste the following lines to the end of the file and add bridges. Note that unlike the Tor settings in Samourai Dojo, the bridges here are without quotes:
 
 ```
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
@@ -369,11 +369,11 @@ sudo systemctl restart tor
 sudo journalctl -f -u tor
 ```
 
-Дождитесь сообщений в логе Tor "Bootstrapped 100% (done)", после чего его можно закрыть с помощью Ctrl+C.
+Wait for messages in the Tor log "Bootstrapped 100% (done)", and you can close it with Ctrl+C.
 
-### Настройка plymouth
+### Customizing plymouth
 
-После этого при загрузке системы будет отображаться логотип RoninDojo, мелочь, а приятно.
+After that, the RoninDojo logo will be displayed when the system boots, nothing special but nice.
 
 {{% image "/img/ronin-09.png" /%}}
 
@@ -387,7 +387,7 @@ sudo cp -r ~/RoninOS/overlays/RoninOS/usr/share/plymouth/themes/ronindojo/ /usr/
 sudo nano /etc/default/grub
 ```
 
-Преобразуйте строку *GRUB_CMDLINE_LINUX_DEFAULT* следующим образом:
+Change the *GRUB_CMDLINE_LINUX_DEFAULT* line as follows:
 
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
@@ -399,14 +399,14 @@ sudo update-grub
 sudo update-initramfs -u
 ```
 
-### Настройка межсетевого экрана
+### Configuring the firewall
 
 ```bash
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 
-В следующих командах используйте ваш адрес подсети, который мы определили в конце [установки операционной системы](/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d0%be%d0%b9-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b).
+In the following commands, use your subnet address that we defined at the end of [OS installation](/en/practice-privacy/ronindojo/#os-installation).
 
 ```bash
 sudo ufw allow from 10.0.2.0/24 to any port "80"
@@ -415,30 +415,30 @@ sudo ufw allow from 10.0.2.0/24 to any port "50002"
 sudo ufw enable
 ```
 
-### Настройка дисков
+### Disk configuration
 
 ```bash
 mkdir -p ~/.config/RoninDojo/data/
 touch ~/.config/RoninDojo/data/system-install
 ```
 
-В следующей команде используйте свое имя основного раздела системы или имя раздела для данных блокчейна, если вы используете конфигурацию с двумя SSD, который вы записали при [определении конфигурации](/practice-privacy/ronindojo/#%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d0%b8). Напоминаю, что у меня один диск и основной раздел */dev/sda2*.
+In the following command, use your system primary partition name or the name of the blockchain data partition if you are using a two SSDs configuration, which you wrote down when [defining the configuration](/en/practice-privacy/ronindojo/#defining-the-configuration). As a reminder, I have one disk and a primary partition */dev/sda2*.
 
 ```bash
 echo "blockdata_storage_partition=/dev/sda2" > ~/.config/RoninDojo/data/blockdata_storage_partition
 ```
 
-В следующей команде используйте свое имя раздела для резервной копии блокчейна, если вы собираетесь использовать эту функцию. У меня - */dev/sdb1*.
+In the following command, use your partition name for the blockchain backup if you are going to use this feature. Mine is */dev/sdb1*.
 
 ```bash
 echo "backup_storage_partition=/dev/sdb1" > ~/.config/RoninDojo/data/backup_storage_partition
 ```
 
-## Ronin UI и Ronin CLI
+## Ronin UI and Ronin CLI
 
-Ronin UI - это великолепный веб-интерфейс для мониторинга и администрирования вашего узла со встроенным интерфейсом Whirlpool GUI. Используя его, вам не нужно делать сопряжение с помощью приложения Whirlpool GUI на другом компьютере.
+Ronin UI is a great web interface for monitoring and administering your node with a built-in Whirlpool GUI. Using it, you do not need to pair with a Whirlpool GUI application on another computer.
 
-Ronin CLI - консольный интерфейс, доступный по SSH или непосредственно на сервере, с расширенными функциями управления вашей нодой, параметрами безопасности, а так же дополнительными утилитами.
+Ronin CLI is a console interface accessible via SSH or directly on the server, with advanced features for managing your node, security settings, and additional utilities.
 
 ```bash
 mkdir ~/Ronin-UI
@@ -453,7 +453,7 @@ cp ~/RoninDojo/user.conf.example ~/.config/RoninDojo/user.conf
 nano ~/.bashrc
 ```
 
-Добавляем в конец файла две строки:
+Add two lines to the end of the file:
 
 ```
 /home/ronindojo/RoninDojo/Scripts/.logo
@@ -464,41 +464,41 @@ ronin
 source ~/.bashrc
 ```
 
-Поздравляю, вы оказались в интерфейсе Ronin CLI.
+Congratulations, you're now in the Ronin CLI.
 
 {{% image "/img/ronin-08.png" /%}}
 
-Перейдите в меню:
+Go to the menu:
 
 ```
 Ronin UI > Re-install
 ```
 
-По окончании установки нажмите любую клавишу и выйдите из Ronin UI:
+When the installation is complete, press any key and exit Ronin UI:
 
 ```
 Go Back > Exit RoninDojo
 ```
 
-Попасть снова в Ronin CLI можно с помощью команды:
+To enter the Ronin CLI again, you can use the command:
 
 ```bash
 ronin
 ```
 
-Кроме того, вы будете автоматически перенаправлены в Ronin CLI при логине под пользователем *ronindojo*.
+Additionally, you will be automatically redirected to the Ronin CLI when logging in as *ronindojo* user.
 
-Ronin UI теперь доступен из вашей локальной сети, в которой находится машина с RoninDojo, через веб-браузер по адресу http://ronindojo.local или по IP-адресу сервера, в моем случае http://10.0.2.15.
+Ronin UI is now accessible from your local network where the RoninDojo machine is located, via a web browser at http://ronindojo.local or by IP address of the server, in my case http://10.0.2.15.
 
-Пароль для входа - это ваш пароль пользователя *ronindojo*.
+The login password is your *ronindojo* user password.
 
 {{% image "/img/ronin-10.jpg" /%}}
 
-## Патчи для Ronin CLI
+## Ronin CLI patches
 
-Установка завершена, но требуется немного исправить скрипты Ronin CLI для корректной работы.
+The installation is complete, but requires some fixing of the Ronin CLI scripts to work correctly.
 
-В следующей команде используйте имя вашего сетевого интерфейса, которое мы [определили](/practice-privacy/ronindojo/#%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d0%b8) ранее. У меня - *enp0s3*.
+In the following command, use the name of your network interface that we [defined](/en/practice-privacy/ronindojo/#defining-the-configuration) earlier. Mine is *enp0s3*.
 
 ```bash
 sed -i 's/eth0/enp0s3/g' ~/RoninDojo/Scripts/Menu/menu-system-monitoring.sh
@@ -510,7 +510,7 @@ sed -i 's/findmnt \"\${install_dir}\"/findmnt -n -o SOURCE --target \"\${install
 ```
 
 {{% hint info %}}
-**Только для Testnet**
+**For Testnet only**
 
 ```bash
 sed -i 's/_data/_data\/testnet3/g' ~/RoninDojo/Scripts/Install/install-send-block-data.sh
@@ -519,41 +519,35 @@ sed -i 's/ludwig.py --rpc/ludwig.py --testnet --rpc/g' ~/RoninDojo/Scripts/Menu/
 ```
 {{% /hint %}}
 
-##  Инструменты RoninDojo
+##  RoninDojo tools
 
-### Резервное копирование блокчейна
+### Blockchain data backup
 
 {{% hint btc %}}
-Я рекомендую протестировать эту процедуру до полного скачивания блокчейна, так как неправильная настройка дисков может привести к потере данных, и все придется начинать с нуля. Произведите тест, когда в веб-интерфейсе появятся доли процентов синхронизации Bitcoin Core.
+I recommend testing this before fully downloading the blockchain, as misconfiguring the disks can lead to data loss and you will have to start from the beginning. Perform the test when the first Bitcoin Core synchronization percentages appear in the web interface.
 {{% /hint %}}
 
-Подключите внешний диск для резервной копии. В Ronin CLI перейдите в меню:
+Plug in an external disk for backup. In the Ronin CLI, go to the menu:
 
 ```
 System > Disk Storage > Format & Mount New Backup Drive
 ```
 
-После форматирования диска, перейдите из основного меню:
+After formatting the disk, go from the main menu:
 
 ```
 Dojo > Next Page > Send Block Data to Backup
 ```
 
-После копирования, восстановите бэкап из меню:
+After copying, restore the backup from the menu:
 
 ```
 Dojo > Next Page > Receive Block Data from Backup
 ```
 
-### Установка WST и калькулятора Больцмана
+### Installing WST and Boltzmann Calculator
 
-{{% hint info %}}
-Руководство по использованию [Whirlpool Stats Tool (WST)](/coinjoin-pandul/#whirlpool-stats-tool-wst).
-
-Руководство по [калькулятору Больцмана](/coinjoin-pandul/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
-{{% /hint %}}
-
-Для установки и использования этих утилит просто выберите соответствующий пункт из меню:
+To install and use these utilities, simply select the appropriate item from the menu:
 
 ```
 Samourai Toolkit
@@ -562,60 +556,61 @@ Samourai Toolkit
 {{% image "/img/ronin-12.png" /%}}
 
 {{% hint info %}}
-Утилита WST недоступна для Testnet.
+The WST utility is not available for Testnet.
 {{% /hint %}}
 
 ### Whirlpool
 
-Дождитесь полной синхронизации Bitcoin Core, Dojo и Indexer.
+Wait for full synchronization of Bitcoin Core, Dojo and Indexer.
 
 {{% image "/img/ronin-13.jpg" /%}}
 
-Перейдите в меню "Pairing" и выполните сопряжение Samourai Wallet с Samourai Dojo. Подключиться к Dojo можно только при новой установке кошелька.
+Go to the "Pairing" menu and pair Samourai Wallet with Samourai Dojo. You can only connect to Dojo when the wallet is newly installed.
 
 {{% image "/img/ronin-14.jpg" /%}}
 
-Нажмите "Pair now" в разделе "Samourai Dojo", отсканируйте QR-код сопряжения Dojo в вашем Samourai Wallet. Перейдите в меню настроек кошелька.
+Click "Pair now" under "Samourai Dojo", scan the Dojo pairing QR code in your Samourai Wallet.
+
+Go to the wallet Settings menu and:
 
 ```
-Транзакции > Связать с Whirlpool GUI
+Transactions > Pair to Whirlpool GUI
 ```
 
-Перенесите полученный код сопряжения с Whirlpool GUI на компьютер.
+Transfer the resulting Whirlpool GUI pairing code to your computer.
 
-В разделе Whirlpool CLI нажмите "Initialize" и используйте ваш код сопряжения.
+Under Whirlpool CLI, click "Initialize" and use your pairing code.
 
-После успешного сопряжения, вам нужно нажать кнопку "Log in" и ввести [парольную фразу](/passphrase), которую вы использовали при создании кошелька.
+After successful pairing, you need to click the "Log in" button and enter the [passphrase](/en/passphrase) you used during creation the wallet.
 
 {{% image "/img/ronin-15.jpg" /%}}
 
-Наконец, вы попадаете в интерфейс Whirlpool и можете ремикшировать UTXO 24/7, пока работает ваш узел.
+Finally, you enter the Whirlpool interface and can remix UTXO 24/7 while your node is running.
 
 {{% image "/img/ronin-16.jpg" /%}}
 
-### Обозреватели блокчейна
+### Blockchain explorers
 
-Для доступа к BTC RPC Explorer перейдите в "Dashboard" и нажмите "Manage" в разделе "Dojo".
+To access the BTC RPC Explorer, go to "Dashboard" and click "Manage" under "Dojo".
 
 {{% image "/img/ronin-17.jpg" /%}}
 
-Здесь находятся ссылки для доступа к обозревателю и Dojo Maintenance Tool (DMT) через Tor-браузер.
+Here are links to access the explorer and the Dojo Maintenance Tool (DMT) through a Tor browser.
 
-Ссылка для доступа к обозревателю Mempool также доступна из меню "Manage" в соответствующем разделе панели управления. Там же вы можете установить или удалить Mempool.
-
+A link to access the Mempool explorer is also available from the "Manage" menu in the corresponding section of the Dashboard. There you can also install or uninstall Mempool.
 
 ### Dojo Maintenance Tool (DMT)
 
-DMT представляет собой упрощенную панель для мониторинга ноды с базовыми функциями отслеживания ваших XPUB, адресов и транзакций - аналогичными меню "Maintenance" в Ronin UI. В условиях плохого качества связи с Tor, может оказаться полезным инструментом. Если вы добавили ваш PayNym в файле docker-node.conf.tpl при установке Samourai Dojo, то вам будет доступен QR-код. Просто выберите в кошельке Samourai "Authenticate using PayNym" из меню "Tools" и отсканируйте его для доступа в DMT.
+DMT is a simplified node monitoring dashboard with basic features for tracking your XPUBs, addresses and transactions - similar to the "Maintenance" menu in Ronin UI. In the face of poor Tor connection quality, it can be a useful tool. If you added your PayNym in the docker-node.conf.tpl file when installing Samourai Dojo, a QR code will be available to you. Simply select "Authenticate using PayNym" from the "Tools" menu in Samourai Wallet and scan it to access DMT.
 
 {{% hint info %}}
-Если вы не включили функцию аутентификации с использованием PayNym (Auth47) при установке, то просто добавьте паш платежный код BIP47 после *NODE_PAYMENT_CODE=* в файл:
+If you didn't enable PayNym authentication (Auth47) during installation, then just add the BIP47 payment code after *NODE_PAYMENT_CODE=* to the file:
 
 ```bash
 nano ~/dojo/docker/my-dojo/conf/docker-node.conf
 ```
 
-После этого перезапустите Dojo из меню "Manage" в соответствующем разделе Ronin UI с помощью кнопки "Restart".
+After that, restart Dojo from the "Manage" menu in the appropriate section of the Ronin UI using the "Restart" button.
 
 {{% /hint %}}
 
@@ -623,25 +618,25 @@ nano ~/dojo/docker/my-dojo/conf/docker-node.conf
 
 {{% image "/img/ronin-19.jpg" /%}}
 
-### Индексаторы блокчейна
+### Blockchain Indexers
 
-Как уже упоминалось выше, вы можете выбирать между Electrs, Fulcrum или Addrindexrs. Вы можете установить другой индексатор из "Dashboard" через меню "Manage" в разделе "Indexer".
+As mentioned above, you can choose between Electrs, Fulcrum or Addrindexrs. You can install another indexer from the "Dashboard" via the "Manage" menu under "Indexer".
 
 {{% image "/img/ronin-20.jpg" /%}}
 
 {{% hint info %}}
-Обратите внимание, что при выборе другого индексатора, данные предыдущего не сохраняются. Если вы решите переключиться обратно, синхронизация индексатора начнется с нуля.
+Note that if you select a different indexer, the data of the previous one is not saved. If you decide to switch back, the indexer synchronization will start from scratch.
 {{% /hint %}}
 
-Ссылка для подключения кошельков Sparrow или Electrum к вашему индексатору через Tor находится в меню "Pair" в разделе "Electrum server".
+The link to connect Sparrow or Electrum wallets to your indexer via Tor is in the "Pair" menu under "Electrum server".
 
-### Прочие инструменты
+### Further tools
 
-**Push TX** в Ronin UI позволит вам транслировать подписанную транзакцию в блокчейн с помощью вашей ноды.
+**Push TX** in Ronin UI will allow you to broadcast a signed transaction to the blockchain using your node.
 
-**Credentials** в Ronin CLI выведет на экран ссылки на все сервисы вашего узла, доступные через Tor.
+**Credentials** in the Ronin CLI will display links to all the services on your node that are accessible via Tor.
 
-**Настройки безопасности** находятся в меню Ronin CLI:
+**Security settings** can be found in the Ronin CLI menu:
 
 ```
 System > Next Page
@@ -649,15 +644,15 @@ System > Next Page
 
 {{% image "/img/ronin-21.png" /%}}
 
-Здесь вы можете управлять настройками межсетевого экрана, SSH, изменить пароль пользователя ronindojo, а также root.
+Here you can manage firewall settings, SSH settings, change the password of the *ronindojo* user as well as *root*.
 
-## Обновление RoninDojo
+## RoninDojo update
 
-Ronin UI обновляется в один клик. При наличии обновления вы увидите в веб-интерфейсе уведомление о новой версии.
+Ronin UI is updated in one click. If update is available, you will see a notification about the new version in the web interface.
 
-### Обновление Ronin CLI
+### Ronin CLI update
 
-Стандартный скрипт обновления RoninDojo может сломать систему, поэтому апгрейд производим вручную.
+The standard RoninDojo update script can break the system, so update it manually.
 
 ```bash
 cd
@@ -665,9 +660,9 @@ rm -rf ~/RoninDojo/
 git clone https://code.samourai.io/ronindojo/RoninDojo -b master
 ```
 
-Применяем патчи из [этого раздела](/practice-privacy/ronindojo/#%d0%bf%d0%b0%d1%82%d1%87%d0%b8-%d0%b4%d0%bb%d1%8f-ronin-cli).
+Apply patches from [this section](/en/practice-privacy/ronindojo/#ronin-cli-patches).
 
-### Обновление Samourai Dojo
+### Samourai Dojo update
 
 ```bash
 cd
@@ -678,16 +673,16 @@ cd ~/dojo/docker/my-dojo/
 ```
 
 {{% hint info %}}
-Делаем необходимые изменения для Testnet из [этого раздела](/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-samourai-dojo).
+Making the necessary changes for Testnet from [this section](/en/practice-privacy/ronindojo/#samourai-dojo-installation).
 {{% /hint %}}
 
 ```bash
 ./dojo.sh upgrade
 ```
 
-## Поддержите автора
+## Support the author
 
-Поддержать автора можно, отправив немного сат в сети Лайтнинг:
+You can support the author by sending some sats in the Lightning Network:
 
 {{% image "/img/btclinux-ln-qr.jpg" %}}
 `LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`

@@ -1,5 +1,5 @@
 ---
-title: "Часть 6. Установка обновлений пакетов"
+title: "Установка обновлений пакетов"
 h1: "Часть 6. Установка обновлений пакетов"
 description: ""
 cover: /img/dojo-10.jpg
@@ -380,22 +380,16 @@ cd ~/dojo-app/docker/my-dojo
 sudo systemctl stop whirlpool
 ```
 
-Удалите директорию Whirlpool.
-
-```bash
-rm -rf whirlpool
-```
-
-Создайте новую директорию Whirlpool.
-
-```bash
-mkdir ~/whirlpool
-```
-
-Перейдите в директорию Whirlpool.
+Перейдите в директорию whirlpool.
 
 ```bash
 cd ~/whirlpool
+```
+
+Удалите старый jar-файл.
+
+```bash
+rm whirlpool-client-cli-*-run.jar
 ```
 
 Посетите страницу релизов [Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) и скопируйте ссылку на последний файл Whirlpool CLI "run.jar".
@@ -406,13 +400,19 @@ cd ~/whirlpool
 torsocks wget ВСТАВЬТЕ_URL_ЗДЕСЬ
 ```
 
-Например, команда для Whirlpool CLI версии 0.10.16 будет выглядеть следующим образом.
+Например, команда для Whirlpool CLI версии 0.10.17 будет выглядеть следующим образом.
 
-```
-torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/63621e145967f536a562851853bd0990/whirlpool-client-cli-0.10.16-run.jar
+```bash
+torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/18b7a87106e9810471aed5aead2d92e8/whirlpool-client-cli-0.10.17-run.jar
 ```
 
-Перезагрузите systemd.
+Далее отредактируйте строку ExecStart в файле системной службы, указав новую версию запускаемого jar-файла.
+
+```bash
+sudo nano /etc/systemd/system/whirlpool.service
+```
+
+Сохраните файл и выйдите из редактора, после чего перезагрузите systemd.
 
 ```bash
 sudo systemctl daemon-reload

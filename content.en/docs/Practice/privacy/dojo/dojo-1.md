@@ -1,6 +1,6 @@
 ---
-title: "Часть 1. Установка Bitcoin Core"
-h1: "Часть 1. Установка Bitcoin Core"
+title: "Installing Bitcoin Core"
+h1: "Part 1. Installing Bitcoin Core"
 description: ""
 cover: /img/dojo-04.jpg
 url: practice-privacy/dojo-1
@@ -10,110 +10,110 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
-## Введение
+## Introduction
 
-Bitcoin Core возник из первого программного Биткоин-клиента, выпущенного Сатоши Накамото, псевдонимным создателем (создателями) Биткоин, в 2009 году. Изначально он назывался "Bitcoin", но позже был переименован в "Bitcoin Core", чтобы отличить его от более широко известной сети и валюты Биткоин.
+Bitcoin Core originated from the first Bitcoin software client released by Satoshi Nakamoto, the pseudonymous creator(s) of Bitcoin, in 2009. It was initially called "Bitcoin" but later renamed "Bitcoin Core" to differentiate it from the broader Bitcoin network and currency.
 
-Запуская Bitcoin Core, участники вносят свой вклад в децентрализованную и управляемую консенсусом природу сети Биткоин. Каждый узел самостоятельно проверяет транзакции и блоки, обеспечивая соблюдение правил сети без опоры на центральный орган.
+By running Bitcoin Core, participants contribute to the decentralized and consensus-driven nature of the Bitcoin network. Each full node independently validates transactions and blocks, ensuring adherence to the network's rules without reliance on a central authority.
 
-## Создание пользователя в системе
+## System User
 
-Создайте пользователя "satoshi" во время начальной установки Ubuntu. Вы можете создать "satoshi" с помощью следующей команды, если был создан другой пользователь.
+Create the user "satoshi" during the initial Ubuntu install. You can create "satoshi" with the following command if a different user was created.
 
 ```bash
 sudo adduser --gecos "" satoshi
 ```
 
-Создайте сложный пароль для пользователя, избегая специальных символов.
+Create a strong password for the user, avoiding special characters.
 
-Предоставьте "satoshi" права sudo.
+Provide "satoshi" with sudo permission.
 
 ```bash
 sudo usermod -aG sudo satoshi
 ```
 
-Войдите в систему под именем нового пользователя.
+Login as the new system user.
 
 ```bash
 su - satoshi
 ```
 
-Запустите обновление системы. Используйте созданный ранее пароль sudo.
+Run a system upgrade. Use the sudo password created previously.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Установите необходимые зависимости.
+Install required dependencies.
 
 ```bash
 sudo apt install curl gpg unzip apt-transport-https -y
 ```
 
-## Локальный IP
+## Local IP
 
-На протяжении всего руководства вам нужно будет знать локальный IP-адрес вашего узла, чтобы внести необходимые изменения в различные конфигурационные файлы.
+Throughout the guide, you will need to know the local IP address of your node to make the required modifications to the various configuration files.
 
-Если вы не знаете локальный IP-адрес своего узла, выполните следующую команду. Запишите его для дальнейшего использования.
+Run the following command if you do not know your node's local IP. Note it for future reference.
 
 ```bash
 hostname -I
 ```
 
-## Настройка Tor
+## Configure Tor
 
-Создайте новый файл источников приложений для Tor.
+Create a new sources file for Tor.
 
 ```bash
 sudo nano /etc/apt/sources.list.d/tor.list
 ```
 
-Вставьте следующие строки, затем сохраните файл и выйдите из редактора с помощью "control+x", подтвердите "y", затем "enter".
+Paste the following lines, then save and exit the file with "control+x," confirm with "y," then "enter."
 
 ```bash
 deb [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org jammy main
 deb-src [signed-by=/usr/share/keyrings/tor-archive-keyring.gpg] https://deb.torproject.org/torproject.org jammy main
 ```
 
-Импортируйте gpg-ключ Tor Project.
+Import the Tor project's gpg key.
 
 ```bash
 sudo wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | sudo tee /usr/share/keyrings/tor-archive-keyring.gpg >/dev/null
 ```
 
-Установите Tor и Tor Debian keyring.
+Install Tor and Tor Debian keyring.
 
 ```bash
 sudo apt update && sudo apt install tor deb.torproject.org-keyring -y
 ```
 
-Откройте файл "torrc".
+Open the "torrc" file.
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
 
-Вставьте следующие строки в начало файла, затем сохраните и выйдите.
+Paste the following at the top of the file, then save and exit.
 
 ```bash
 # Hidden Service Bitcoind
@@ -122,61 +122,61 @@ CookieAuthentication 1
 CookieAuthFileGroupReadable 1
 ```
 
-Добавьте пользователя "satoshi" в группу Tor.
+Add "satoshi" to the Tor group.
 
 ```bash
 sudo usermod -aG debian-tor satoshi
 ```
 
-## Настройка демона Bitcoin
+## Configure Bitcoin Daemon
 
-### Загрузка и проверка Bitcoin Core
+### Download & Verify Core
 
-Создайте директорию для загрузок.
+Create a downloads directory.
 
 ```bash
 mkdir ~/downloads
 ```
 
-Перейдите в созданную директорию.
+Enter the directory.
 
 ```bash
 cd ~/downloads
 ```
 
-Посетите сайт [bitcoincore.org](https://bitcoincore.org/bin/) и найдите страницу самой последней версии Bitcoin Core, избегая релизов с пометкой "test". На момент написания статьи последней версией является v26.0.
+Visit [bitcoincore.org](https://bitcoincore.org/bin/) and locate the page for the most current Bitcoin version, avoiding releases marked "test." At the time of writing, v26.0 is the most recent release.
 
-Скопируйте URL-адрес пакета "x86_64-linux-gnu.tar.gz" и загрузите его с помощью "wget".
+Copy the URL for the latest "x86_64-linux-gnu.tar.gz" package and download using "wget."
 
 ```bash
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/bitcoin-26.0-x86_64-linux-gnu.tar.gz
 ```
 
-На этой же странице загрузите файл "SHA256SUMS".
+On the same page, download the "SHA256SUMS" file.
 
 ```bash
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS
 ```
 
-Затем скачайте "SHA256SUMS.asc".
+Then download "SHA256SUMS.asc".
 
 ```bash
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS.asc
 ```
 
-Проверьте контрольную сумму скачанного файла.
+Verify the checksum of the download.
 
 ```bash
 sha256sum --ignore-missing --check SHA256SUMS
 ```
 
 {{% hint info %}}
-В выводе команды должно появиться сообщение "OK" (*"ЦЕЛ"*), например: "bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK."
+The output should show an "ok" message, for example:- "bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK.
 {{% /hint %}}
 
-Проверьте валидность файла релиза, сверив подписи с известными [ключами разработчиков](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) из официального репозитория Bitcoin Core.
+Verify the validity of the release by checking the signatures against the known [developer keys](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) from the official Core repository.
 
-Импортируйте ключи разработчиков в связку ключей GPG.
+Import developer keys to GPG keyring.
 
 ```bash
 torsocks curl -s https://api.github.com/repos/bitcoin-core/guix.sigs/contents/builder-keys | \
@@ -186,61 +186,61 @@ ls *.gpg | xargs -n 1 gpg --import && \
 rm *.gpg
 ```
 
-Проверьте подписи.
+Verify the signatures.
 
 ```bash
 gpg --verify SHA256SUMS.asc
 ```
 
-Это выведет серию проверок подписи для каждого открытого ключа, подписавшего файл с контрольными суммами.
+This will output a series of signature checks for each public key that signed the checksums.
 
 {{% hint info %}}
-На ключах, ранее импортированных в вашу связку ключей, должно появиться сообщение "gpg: Good signature" (*"gpg: Действительная подпись пользователя"*).
+The keys previously imported into your keyring should show a "gpg: Good signature" message.
 {{% /hint %}}
 
 {{% hint info %}}
-Не беспокойтесь о предупреждениях "This key is not certified with a trusted signature!" (*"Внимание: Данный ключ не заверен доверенной подписью!"*). Повышенные уровни доверия не были установлены вручную для импортируемых ключей.
+Don't worry about "This key is not certified with a trusted signature!" warnings. Enhanced trust levels have not been manually set for the imported keys.
 {{% /hint %}}
 
-Удалите загруженные проверочные файлы.
+Remove the downloaded verification files.
 
 ```bash
 rm SHA256SUMS && rm SHA256SUMS.asc
 ```
 
-Распакуйте Bitcoin Core.
+Unpackage Bitcoin Core.
 
 ```bash
 tar xzf bitcoin-*-x86_64-linux-gnu.tar.gz
 ```
 
-Удалите архив.
+Remove the archive.
 
 ```bash
 rm -r bitcoin-*-x86_64-linux-gnu.tar.gz
 ```
 
-### Установка Bitcoin Core
+### Installing Core
 
-Выполните следующую команду для установки Bitcoin Core.
+Run the following command to install Bitcoin Core.
 
 ```bash
 sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-*/bin/*
 ```
 
-Удалите оставшуюся папку.
+Remove the leftover folder.
 
 ```bash
 rm -r bitcoin-*/
 ```
 
-Перезапустите демон Tor.
+Restart the Tor daemon.
 
 ```bash
 sudo systemctl restart tor
 ```
 
-Запустите демон Bitcoin, а затем остановите его через несколько секунд.
+Start the Bitcoin daemon, then stop it again after a few seconds.
 
 ```bash
 bitcoind -daemon
@@ -250,15 +250,15 @@ bitcoind -daemon
 bitcoin-cli stop
 ```
 
-### Конфигурирование
+### Configuration
 
-Создайте конфигурационный файл Bitcoin Core.
+Create a Bitcoin configuration file.
 
 ```bash
 nano ~/.bitcoin/bitcoin.conf
 ```
 
-Вставьте в файл следующие строки.
+Paste the following lines into the file.
 
 ```bash
 proxy=127.0.0.1:9050
@@ -283,73 +283,77 @@ zmqpubhashblock=tcp://0.0.0.0:28334
 whitelist=127.0.0.1
 ```
 
-У вас также есть возможность включить или отключить опцию "Mempool Full-RBF". Если вы хотите, чтобы ваш выбор сохранялся при обновлениях Bitcoin Core, независимо от того, какие значения по умолчанию будут выбраны в будущих релизах, рекомендуется отметить это в вашем conf-файле, используя аргумент enable (1) или disable (0).
+{{% hint info %}}
+To sync the blockchain via Clearnet instead of Tor, remove the proxy, listen, bind, and onlynet lines, then add again after IBD completes. Bitcoind will need to be restarted to load the modifications. Whilst this accelerates sync performance, it is detrimental to privacy and not recommended.
+{{% /hint %}}
 
-Вы можете проигнорировать эту строку, если вас устраивает любое значение по умолчанию, выбранное для вас в будущих обновлениях.
+You also have the option of enabling or disabling "Mempool Full-RBF." If you want to ensure your choice persists throughout Core updates, regardless of what defaults future releases settle on, It's recommended to flag this in your conf file using either the enable (1) or disable (0) argument.
+
+You can ignore this line if you are happy to flow with any defaults chosen for you in future updates.
 
 ```bash
 mempoolfullrbf=0
 ```
 
-Оставьте файл открытым и запустите новую сессию терминала. Войдите по SSH и загрузите файл [rpcauth.py](https://github.com/bitcoin/bitcoin/blob/master/share/rpcauth/rpcauth.py)" из репозитория Bitcoin Core.
+Leave the file open and start a new terminal session. SSH in and download the raw "[rpcauth.py file](https://github.com/bitcoin/bitcoin/blob/master/share/rpcauth/rpcauth.py)" from the Bitcoin repository.
 
 ```bash
 torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py
 ```
 
-Установите правильные разрешения для файла.
+Set the correct file permissions.
 
 ```bash
 chmod +x rpcauth.py
 ```
 
-Выполните следующую команду, заменив "PASSWORDHERE" на надежный пароль RPC для Bitcoin Core. Избегайте использования специальных символов.
+Run the following command, replacing "PASSWORDHERE" with a strong RPC password for Bitcoin Core. Avoid the use of special characters.
 
 ```bash
 ./rpcauth.py bitcoin PASSWORDHERE
 ```
 
-Скопируйте длинную строку RPC, начинающуюся с "rpcauth=bitcoin", и вставьте ее в конце файла "bitcoin.conf", открытого в первом окне терминала.
+Copy the RPC string, starting "rpcauth=bitcoin," and paste it, including the long string of numbers that follow, to the bottom of the "bitcoin.conf" file, open in your first terminal window.
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Удалите файл "rpcauth.py".
+Remove the "rpcauth.py" file.
 
 ```bash
 rm rpcauth.py
 ```
 
-### Файл системной службы
+### Service File
 
-Создайте файл системной службы для автоматического запуска Bitcoin Core при загрузке системы.
+Create a service file to start Bitcoin automatically on system boot.
 
 ```bash
 cd /etc/systemd/system/
 ```
 
-Скопируйте ссылку на файл "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/26.x/contrib/init/bitcoind.service)" из репозитория Bitcoin Core и скачайте его.
+Copy the link to the raw "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/26.x/contrib/init/bitcoind.service)" file from the Bitcoin repo and download.
 
 ```bash
 sudo torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/26.x/contrib/init/bitcoind.service
 ```
 
-Откройте загруженный файл.
+Open the downloaded file.
 
 ```bash
 sudo nano bitcoind.service
 ```
 
-Внесите следующие изменения.
+Make the following edits.
 
 ```
-####замените
+####change
 ExecStart=/usr/bin/bitcoind -pid=/run/bitcoind/bitcoind.pid \
                             -conf=/etc/bitcoin/bitcoin.conf \
                             -datadir=/var/lib/bitcoind \
                             -startupnotify='systemd-notify --ready' \
                             -shutdownnotify='systemd-notify --stopping'
 
-##на
+##to
 ExecStart=/usr/local/bin/bitcoind -pid=/run/bitcoind/bitcoind.pid \
                             -conf=/home/satoshi/.bitcoin/bitcoin.conf \
                             -datadir=/home/satoshi/.bitcoin \
@@ -358,147 +362,139 @@ ExecStart=/usr/local/bin/bitcoind -pid=/run/bitcoind/bitcoind.pid \
 ```
 
 ```
-####закомментируйте строку
+####comment out
 ExecStartPre=/bin/chgrp bitcoin /etc/bitcoin
 
-##следующим образом
+##like this
 #ExecStartPre=/bin/chgrp bitcoin /etc/bitcoin
 ```
 
 ```
-####замените
+####edit
 User=bitcoin
 Group=bitcoin
 
-##на
+##to
 User=satoshi
 Group=satoshi
 ```
 
 ```
-####закомментируйте строку
+####comment out
 ProtectHome=true
 
-##следующим образом
+##like this
 #ProtectHome=true
 ```
 
-Сохраните файл и выйдите.
+Save the file & exit.
 
-Включите системную службу.
+Enable the service file.
 
 ```bash
 sudo systemctl enable bitcoind
 ```
 
-### Пиры в сети Tor
+### Tor Peers
 
-Первый пир в Tor необходимо добавить вручную. Откройте файл "bitcoin.conf", затем посетите страницу с узлами в сети Tor по адресу [Bitnodes.io](https://bitnodes.io/nodes/?q=tor).
+The first Tor peer needs to be added manually. Open "bitcoin.conf," then visit the Tor node page at [Bitnodes.io](https://bitnodes.io/nodes/?q=tor) in a web browser.
 
 ```bash
 nano ~/.bitcoin/bitcoin.conf
 ```
 
-Выберите активный узел из списка и скопируйте адрес Tor и номер порта.
+Select an active node from the list and copy the Tor address and port number.
 
-Вернитесь в терминал и вставьте адрес в конец файла "bitcoin.conf".
+Return to the terminal and paste the address at the bottom of the "bitcoin.conf" file.
 
-Как показано в примере ниже, добавьте префикс "addnode=".
+As shown in the example below, include the "addnode=" prefix.
 
 ```
 addnode=ufi6x4yympldoxmzgszvq5pb3pzixxjicvrhssrmky23f5bgxfxlfqd.onion:8333
 ```
 
 {{% hint info %}}
-Внимание: В этом примере не используется активный узел, не копируйте его.
+Warning: This example is not an active node and should not be used.
 {{% /hint %}}
 
-Сохраните файл и выйдите из редактора, затем перезагрузите компьютер.
+Save and exit the file, then reboot the node.
 
 ```bash
 sudo reboot
 ```
 
-Подождите несколько минут, затем подключитесь к узлу по SSH под именем "satoshi".
+Wait a few minutes, then SSH into the node as "satoshi."
 
-Проверьте, что узел успешно подключается к пирам в Tor. В зависимости от времени ожидания вам может потребоваться выполнить эту команду несколько раз.
+Check that the node is successfully connecting to Tor peers. Depending on your waiting time, you may need to run this command several times.
 
 ```bash
 bitcoin-cli getconnectioncount
 ```
 
-Если вывод показывает несколько пиров, вы можете вернуться в "bitcoin.conf" и удалить всю строку "addnode", затем сохранить и выйти.
+If the output shows several peers, you can return to "bitcoin.conf" and remove the entire "addnode" line, then save and exit.
 
 ```bash
 nano .bitcoin/bitcoin.conf
 ```
 
-Перезапустите демон Bitcoin.
+Restart Bitcoin CLI.
 
 ```bash
 sudo systemctl restart bitcoind
 ```
 
-Подождите несколько минут, а затем проверьте, что вы по-прежнему подключаетесь к узлам Tor.
+Wait a few minutes, then check that you are still connecting to Tor nodes.
 
 ```bash
 bitcoin-cli getconnectioncount
 ```
 
-### Настройка сети
+### Networking
 
-Убедитесь, что сетевой трафик проходит только через Tor.
+Confirm that network traffic is only passing through Tor.
 
-В выводе должно быть показано состояние "reachable false" как для "IPV4", так и для "IPV6".
+The output should show a "reachable false" status for both "IPV4" and "IPV6".
 
-Также убедитесь, что "onion" показывает статус "reachable true".
+Also, confirm that "onion" shows a "reachable true" status.
 
 ```bash
 bitcoin-cli getnetworkinfo
 ```
 
-В выводе команды также отображается ваш onion-адрес Bitcoin Core. Это полезно для сервисов, требующих прямого подключения к Bitcoin Core.
+The output also displays your Bitcoin Core onion address. This is useful for services requiring a direct connection to Core.
 
-Вы также можете делать прямые запросы на ваш onion-адрес.
+You can also make direct requests for your Bitcoin onion address.
 
 ```bash
 bitcoin-cli getnetworkinfo | grep address.*onion
 ```
 
-Tor ограничивает скорость IBD (*Initial Block Download - Первоначальная загрузка блоков*), но преимущества приватности весьма существенны, в отличие от использования [клирнета](https://www.getmonero.org/ru/resources/moneropedia/clearnet.html).
+Tor limits IBD speeds; however, the privacy benefits of avoiding clearnet are substantial.
 
-Следите за прогрессом, выполняя следующую команду из домашней директории.
+Monitor progress by running the following command from the home directory.
 
 ```bash
 tail -f .bitcoin/debug.log
 ```
 
-Прежде чем продолжить, дождитесь окончания синхронизации Bitcoin Core. Как только в журналах появится сообщение "progress=1.000000", процесс IBD будет завершен.
+Wait until Core sync is finished before continuing. Once logs show "progress=1.000000", IBD is complete.
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}
