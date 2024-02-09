@@ -61,7 +61,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 - [Petrodollar Negative Effects](/en/petrodollar-negative-effects)
 - [Shelling Out: The Origins of Money](/en/shelling-out)
 - [Bitcoin and the Rhythms of History](/en/bitcoin-rhythms-of-history)
-- [Биткоин и интернет-циклы Хопфа](/bitcoin-i-internet-cikly-hopfa)
+- [Bitcoin & the HOPF Cycle of the Internet](/en/bitcoin-and-the-hopf-cycle-of-the-internet)
 - [Деньги, блокчейны и социальная масштабируемость](/dengi-blokchejny-i-socialnaya-masshtabiruemost)
 - [Что такое деньги](/chto-takoe-dengi)
 - [Выживает сильнейший](/vyzhivaet-silnejshij)
