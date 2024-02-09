@@ -1,6 +1,6 @@
 ---
-title: "Часть 6. Установка обновлений пакетов"
-h1: "Часть 6. Установка обновлений пакетов"
+title: "Installing Package Updates"
+h1: "Part 6. Installing Package Updates"
 description: ""
 cover: /img/dojo-10.jpg
 url: practice-privacy/dojo-6
@@ -10,67 +10,67 @@ bookToc: true
 weight: 7
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
-## Введение
+## Introduction
 
-Возможность самостоятельно обновлять пакеты своего узла обеспечивает операторам ноды гораздо более высокий уровень суверенитета. Вы можете сами выбирать, какие обновления запускать и как их настраивать, а не полагаться на предпочтения и расписание разработчиков узлов "plug-and-play".
+The ability to update your node's packages independently provides node operators with a much higher level of sovereignty. You can choose which updates you want to run and how you want them configured rather than relying on the preferences and timescales of plug-and-play node developers.
 
-Здесь мы рассмотрим отдельные шаги по обновлению бинарных файлов, из которых состоит ваш узел.
+Here, we will cover the individual upgrade steps of the binaries that make up your node.
 
-## Обновление Bitcoin Core
+## Updating Core
 
-За обновлениями пакетов можно следить в официальном [репозитории Bitcoin Core](https://github.com/bitcoin/bitcoin/releases).
+Package updates can be monitored on the official Bitcoin Core [repository](https://github.com/bitcoin/bitcoin/releases).
 
-Проверьте, какая версия Core установлена в данный момент, с помощью следующей команды.
+Check what version of Core is currently installed with the following command.
 
 ```bash
 bitcoin-cli --version
 ```
 
-Если доступна более новая версия, остановите ноду с помощью Bitcoin CLI.
+If a newer version is available, stop Bitcoin CLI.
 
 ```bash
 bitcoin-cli stop
 ```
 
-Посетите сайт [bitcoincore.org](https://bitcoincore.org/bin/) и найдите страницу с самой актуальной версией Bitcoin Core, избегая релизов с пометкой "test".
+Visit [bitcoincore.org](https://bitcoincore.org/bin/) and locate the page for the most current Bitcoin version, avoiding any releases marked "test."
 
-Перейдите в директорию для загрузок.
+Enter the downloads directory.
 
 ```bash
 cd ~/downloads
 ```
 
-Скопируйте URL-адрес последнего пакета "x86_64-linux-gnu.tar.gz" и загрузите его с помощью команды "wget".
+Copy the URL for the latest "x86_64-linux-gnu.tar.gz" package and download it using "wget."
 
-Следующую команду необходимо отредактировать, указав нужный номер версии.
+The following command can be edited to include the required version number.
 
 ```bash
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-0.0/bitcoin-0.0-x86_64-linux-gnu.tar.gz
 ```
 
-Загрузите проверочные файлы, соответствующие релизу.
+Download the releases matching verification files.
 
-Следующие команды необходимо отредактировать, указав нужный номер версии.
+The following commands can be edited to include the required version number.
 
 ```bash
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-0.0/SHA256SUMS
@@ -80,33 +80,33 @@ torsocks wget https://bitcoincore.org/bin/bitcoin-core-0.0/SHA256SUMS
 torsocks wget https://bitcoincore.org/bin/bitcoin-core-0.0/SHA256SUMS.asc
 ```
 
-Проверьте контрольную сумму загруженного файла.
+Verify the checksum of the download.
 
 ```bash
 sha256sum --ignore-missing --check SHA256SUMS
 ```
 
 {{% hint info %}}
-В выводе команды должно появиться сообщение “OK” (_“ЦЕЛ”_), например: “bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK.”
+The output should show an "ok" message, for example: "bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK."
 {{% /hint %}}
 
-Проверьте подписи.
+Verify the signatures.
 
 ```bash
 gpg --verify SHA256SUMS.asc
 ```
 
 {{% hint info %}}
-На импортированных ранее ключах разработчиков должно появиться сообщение “gpg: Good signature” (_“gpg: Действительная подпись пользователя”_).
+The developer keys previously imported should show a "gpg: Good signature" message.
 {{% /hint %}}
 
-Распакуйте скачанный архив.
+Unpack the downloaded archive.
 
 ```bash
 tar xzf bitcoin-*-x86_64-linux-gnu.tar.gz
 ```
 
-Удалите файлы проверки и архив.
+Remove the verification files and empty archive.
 
 ```bash
 rm SHA256SUMS && rm SHA256SUMS.asc
@@ -116,59 +116,59 @@ rm SHA256SUMS && rm SHA256SUMS.asc
 rm -r bitcoin-*-x86_64-linux-gnu.tar.gz
 ```
 
-Установите новый пакет Bitcoin Core.
+Install the new Core package.
 
 ```bash
 sudo install -m 0755 -o root -g root -t /usr/local/bin bitcoin-*/bin/*
 ```
 
-Запустите Bitcoin Core.
+Start Bitcoin Core.
 
 ```bash
 sudo systemctl start bitcoind
 ```
 
-Удалите оставшуюся папку.
+Remove the remaining folder.
 
 ```bash
 rm -r bitcoin-*/
 ```
 
-Убедитесь, что установлена последняя версия Bitcoin Core.
+Check that the latest version of Bitcoin Core is installed.
 
 ```bash
 bitcoin-cli --version
 ```
 
-Чтобы убедиться, что все работает как надо, проверьте логи из домашнего каталога.
+To confirm that everything is operating as expected, check the logs from the home directory.
 
 ```bash
 tail -f .bitcoin/debug.log
 ```
 
-Готово.
+Complete.
 
-## Обновление Fulcrum
+## Updating Fulcrum
 
-За обновлениями пакетов можно следить в официальном [репозитории Fulcrum](https://github.com/cculianu/Fulcrum/releases).
+Package updates can be monitored on the official Fulcrum [repository](https://github.com/cculianu/Fulcrum/releases).
 
-Перейдите в директорию для загрузок.
+Enter the downloads directory.
 
 ```bash
 cd ~/downloads
 ```
 
-Скопируйте URL-адрес последнего пакета "x86_64-linux-gnu.tar.gz" и загрузите его с помощью команды "wget".
+Copy the URL for the latest "x86_64-linux-gnu.tar.gz" package and download it using "get."
 
-Следующую команду необходимо отредактировать, указав нужный номер версии.
+The following command can be edited to include the required version number.
 
 ```bash
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v0.0.0/Fulcrum-0.0.0-x86_64-linux.tar.gz
 ```
 
-Загрузите проверочные файлы, соответствующие релизу.
+Download the releases matching verification files.
 
-Следующие команды необходимо отредактировать, указав нужный номер версии.
+The following commands can be edited to include the required version number.
 
 ```bash
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v0.0.0/Fulcrum-0.0.0-shasums.txt.asc
@@ -178,173 +178,173 @@ torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v0.0.0/Fulcr
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v0.0.0/Fulcrum-0.0.0-shasums.txt
 ```
 
-Проверьте контрольную сумму загруженного файла.
+Verify the checksum of the download.
 
 ```bash
 sha256sum --ignore-missing --check Fulcrum-*-shasums.txt
 ```
 
 {{% hint info %}}
-В выводе команды должно появиться сообщение “OK” (_“ЦЕЛ”_), например: “Fulcrum-0.0.0-x86_64-linux.tar.gz: OK.”
+The output should show an "ok" message, for example: "Fulcrum-0.0.0-x86_64-linux.tar.gz: OK."
 {{% /hint %}}
 
-Проверьте подпись.
+Verify the signature.
 
 ```bash
 gpg --verify Fulcrum-*-shasums.txt.asc
 ```
 
 {{% hint info %}}
-На ранее импортированном ключе Cculianu должно появиться сообщение "gpg: Good signature” (_“gpg: Действительная подпись пользователя”_).
+Cculianu's previously imported key should show a "gpg: Good signature" message.
 {{% /hint %}}
 
-Распакуйте скачанный архив.
+Unpack the downloaded archive.
 
 ```bash
 tar xvf Fulcrum-*-x86_64-linux.tar.gz
 ```
 
-Удалите архив.
+Remove the archive.
 
 ```bash
 rm Fulcrum-*-x86_64-linux.tar.gz
 ```
 
-Удалите файлы проверки.
+Remove the verification files.
 
 ```bash
 rm Fulcrum-*-shasums.txt.asc && rm Fulcrum-*-shasums.txt
 ```
 
-Остановите Fulcrum.
+Stop Fulcrum.
 
 ```bash
 sudo systemctl stop fulcrum
 ```
 
-Перейдите в директорию Fulcrum.
+Enter the Fulcrum directory.
 
 ```bash
 cd ~/fulcrum
 ```
 
-Скопируйте существующие "fulcrum.conf" и SSL-файлы ".pem" в каталог для загрузок.
+Copy existing "fulcrum.conf" and SSL ".pem" files to the downloads directory.
 
 ```bash
 cp key.pem cert.pem fulcrum.conf ~/downloads
 ```
 
-Удалите оставшиеся файлы Fulcrum.
+Delete the remaining Fulcrum files.
 
 ```bash
 rm -rf ./*
 ```
 
-Скопируйте содержимое только что распакованного архива в папку Fulcrum.
+Copy the contents of your newly unpacked archive to the Fulcrum folder.
 
 ```bash
 cp -r ~/downloads/Fulcrum-*-x86_64-linux/* ~/fulcrum
 ```
 
-Переместите "fulcrum.conf" и SSL-файлы ".pem" в каталог Fulcrum.
+Move the "fulcrum.conf" and SSL ".pem" files to the Fulcrum directory.
 
 ```bash
 mv ~/downloads/{key.pem,cert.pem,fulcrum.conf} ~/fulcrum
 ```
 
-Удалите оставшуюся папку.
+Remove the remaining folder.
 
 ```bash
 rm -rf ~/downloads/Fulcrum-*-x86_64-linux
 ```
 
-Запустите Fulcrum.
+Start Fulcrum.
 
 ```bash
 sudo systemctl start fulcrum.service
 ```
 
-Перезапустите Tor.
+Restart Tor.
 
 ```bash
 sudo systemctl restart tor
 ```
 
-Проверьте логи с помощью следующей команды, чтобы убедиться, что все работает как надо.
+Check the logs with the following command to confirm that everything is operating as expected.
 
 ```bash
 journalctl -fu fulcrum.service
 ```
 
-Готово.
+Complete.
 
-## Обновление Mempool
+## Updating Mempool
 
-За обновлениями пакетов можно следить в официальном [репозитории Mempool](https://github.com/mempool/mempool/releases).
+Package updates can be monitored from the official Mempool [repository](https://github.com/mempool/mempool/releases).
 
-Перейдите в директорию Mempool.
+Enter the Mempool directory.
 
 ```bash
 cd ~/mempool/docker
 ```
 
-Получите последний Docker-пакет Mempool.
+Pull the latest Mempool Docker package.
 
 ```bash
 docker compose down --rmi all
 ```
 
-Соберите и запустите новый Docker-пакет Mempool.
+Build and start the new Mempool Docker package.
 
 ```bash
 docker compose up -d
 ```
 
-Готово.
+Complete.
 
-## Обновление Dojo
+## Updating Dojo
 
-За обновлениями пакетов можно следить в официальном [репозитории Dojo](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+Package updates can be monitored from the official Dojo [repository](https://code.samourai.io/dojo/samourai-dojo/-/releases).
 
-Зайдите на узел по SSH под пользователем "dojo".
+SSH into the node as user "dojo."
 
-Перейдите в директорию Dojo.
+Enter the Dojo directory.
 
 ```bash
 cd ~/dojo-app/docker/my-dojo
 ```
 
-Остановите Dojo.
+Stop Dojo.
 
 ```bash
 ./dojo.sh stop
 ```
 
-Перейдите в домашнюю директорию.
+Go to the home directory.
 
 ```bash
 cd
 ```
 
-Загрузите последнюю версию Dojo.
+Download the latest Dojo release.
 
 ```bash
 torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
 ```
 
-Распакуйте архив с Dojo.
+Unpack the Dojo archive.
 
 ```bash
 unzip samourai-dojo-master.zip -d .
 ```
 
-Скопируйте содержимое в каталог "dojo-app".
+Copy the contents to the "dojo-app" directory.
 
 ```bash
 cp -a samourai-dojo-master/. dojo-app/
 ```
 
-Удалите архив и оставшуюся папку.
+Remove the archive and remaining folder.
 
 ```bash
 rm samourai-dojo-master.zip
@@ -354,112 +354,104 @@ rm samourai-dojo-master.zip
 rm -rf samourai-dojo-master
 ```
 
-Вернитесь в директорию "my-dojo".
+Return to the "my-dojo" directory.
 
 ```bash
 cd ~/dojo-app/docker/my-dojo
 ```
 
-Запустите скрипт обновления Dojo.
+Run the Dojo upgrade script.
 
 ```bash
 ./dojo.sh upgrade -y
 ```
 
-Как только в журнале появится постоянный поток логов "node.js", обновление завершено, и вы можете смело выходить из журнала с помощью "control + c".
+Once the logs show a constant stream of "node.js" logs, the upgrade is complete, and you can safely exit the logs with "control + c."
 
-Готово.
+Complete.
 
-## Обновление Whirlpool CLI
+## Updating Whirlpool CLI
 
-За обновлениями пакетов можно следить в официальном [репозитории Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-gui/-/releases).
+Package updates can be monitored from the official Whirlpool CLI [repository](https://code.samourai.io/whirlpool/whirlpool-gui/-/releases).
 
-Остановите Whirlpool CLI.
+Stop the Whirlpool CLI.
 
 ```bash
 sudo systemctl stop whirlpool
 ```
 
-Удалите директорию Whirlpool.
-
-```bash
-rm -rf whirlpool
-```
-
-Создайте новую директорию Whirlpool.
-
-```bash
-mkdir ~/whirlpool
-```
-
-Перейдите в директорию Whirlpool.
+Enter the Whirlpool directory.
 
 ```bash
 cd ~/whirlpool
 ```
 
-Посетите страницу релизов [Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) и скопируйте ссылку на последний файл Whirlpool CLI "run.jar".
-
-Вставьте URL-адрес в терминал после префикса команды "torsocks wget".
+Remove the old CLI jar file.
 
 ```bash
-torsocks wget ВСТАВЬТЕ_URL_ЗДЕСЬ
+rm whirlpool-client-cli-*-run.jar
 ```
 
-Например, команда для Whirlpool CLI версии 0.10.16 будет выглядеть следующим образом.
+Visit the Whirlpool CLI [release](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) page and copy the link to the latest Whirlpool CLI "run.jar" file.
 
-```
-torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/63621e145967f536a562851853bd0990/whirlpool-client-cli-0.10.16-run.jar
+Paste the URL into the terminal, prefixed with the "torsocks wget" command.
+
+```bash
+torsocks wget ENTERURLHERE
 ```
 
-Перезагрузите systemd.
+For example, the command for CLI version 0.10.17 would be as follows.
+
+```bash
+torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/18b7a87106e9810471aed5aead2d92e8/whirlpool-client-cli-0.10.17-run.jar
+```
+
+Next, edit the '**ExecStart**' line of your systemd file to correctly reflect the new CLI file version number.
+
+```bash
+sudo nano /etc/systemd/system/whirlpool.service
+```
+
+Save and exit, then reload systemd.
 
 ```bash
 sudo systemctl daemon-reload
 ```
 
-Запустите Whirlpool CLI.
+Start Whirlpool CLI.
 
 ```bash
 sudo systemctl start whirlpool
 ```
 
-Готово.
+Complete.
 
-## Обновление системы
+## Updating System
 
-Систему на базе Debian можно обновить в любое время, чтобы быть уверенным, что установлены последние исправления безопасности, с помощью следующей команды.
+The Debian base system can be upgraded anytime to ensure it's updated with the latest security patches with the following command.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Готово.
+Complete.
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}

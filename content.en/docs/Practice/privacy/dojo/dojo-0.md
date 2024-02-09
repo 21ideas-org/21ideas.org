@@ -1,6 +1,6 @@
 ---
-title: "Введение"
-h1: "Введение"
+title: "Introduction"
+h1: "Introduction"
 description: ""
 cover: /img/dojo-02.jpg
 url: practice-privacy/dojo-0
@@ -10,69 +10,61 @@ bookToc: false
 weight: 1
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
-Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Whirlpool, Fulcrum и Mempool Explorer.
+This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Whirlpool, Fulcrum, and Mempool Explorer packages.
 
-Ручная настройка узла - это отличный способ узнать о внутреннем устройстве ноды Биткоина. Еще одним преимуществом является возможность индивидуально управлять обновлениями пакетов, когда это необходимо, вместо того чтобы ждать, пока разработчики узла "все в одном" вышлют обновления, что дает вам повышенный уровень суверенитета ноды.
+Manually configuring your node is a great way to learn about the inner workings of a Bitcoin node. Another benefit is the ability to individually manage package updates whenever desired instead of waiting for all-in-one node devs to push updates, giving you a heightened level of node sovereignty.
 
-Однако этот суверенитет влечет за собой ответственность, поскольку у вас не будет каналов поддержки, на которые можно опереться в случае возникновения проблем. Однако у всех пакетов, о которых мы рассказываем в этом руководстве, есть отличная документация, так что помощь не заставит себя ждать.
+However, this sovereignty comes with responsibility since you will have no support channels to lean on should you encounter issues. The packages we cover in the guide do; however, all have excellent documentation, so help is never far away.
 
-Стоит проверить настройки питания в BIOS и включить все режимы автоматического включения, если таковые имеются. Это сократит время простоя после отключения питания за счет автоматической загрузки устройства после возобновления подачи электроэнергии.
+It's worthwhile checking your system's BIOS power settings and enabling any automatic power-on modes if one is available. This reduces downtime after a power loss by automatically booting the device once power returns.
 
-Тем, кто хочет приобрести устройство, по размерам схожее с готовой аппаратной нодой, стоит обратить внимание на серию Lenovo ThinkCentre M или, как мне больше нравится, на микрокомпьютеры Dell Optiplex M. И те, и другие можно легко найти на рынке подержанных машин, бывших в эксплуатации.
+Those wanting a device with a footprint similar in size to a traditional node may want to check out the Lenovo ThinkCentre M series or, my favorite, the Dell Optiplex M range of microcomputers. Both are readily available on the used market as ex-office machines.
 
 {{% image "/img/dojo-03.jpg" /%}}
 
-## Необходимые требования
+## Prerequisites
 
-- 64-разрядный компьютер Intel/AMD с установленной Ubuntu Server LTS.
-- NVMe/SSD-накопитель минимум на 1 терабайт (рекомендуется 2 терабайта).
-- Минимум 8 гигабайт оперативной памяти.
-- Надежное интернет-соединение и источник питания.
+- Intel/AMD 64-bit computer with [Ubuntu Server LTS](https://ubuntu.com/download/server) installed.
+- Minimum 1 Terabyte NVMe/SSD storage (2 terabytes recommended).
+- Minimum 8 Gigabytes RAM.
+- Reliable internet connection & power supply.
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}

@@ -1,6 +1,6 @@
 ---
-title: "Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана"
-h1: "Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана"
+title: "Installing Whirlpool CLI & Firewall Config"
+h1: "Part 5. Installing Whirlpool CLI & Firewall Config"
 description: ""
 cover: /img/dojo-09.jpg
 url: practice-privacy/dojo-5
@@ -10,87 +10,89 @@ bookToc: true
 weight: 6
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
 {{% hint btc %}}
-Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3), [4](/privacy/dojo-4).
+Prerequisites.
+
+Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3), [4](/privacy/dojo-4).
 {{% /hint %}}
 
-## Введение
+## Introduction
 
-Whirlpool CLI - это инструмент командной строки, который работает в фоновом режиме на персональных Dojo-узлах Биткоина. Этот инструмент автоматизирует процесс ремикширования UTXO после начального смешивания 24/7, гарантируя, что вы никогда не пропустите ремикс, пока узел активен.
+Whirlpool CLI is a command-line tool that operates silently in the background of personal Dojo-backed Bitcoin nodes. This CLI tool automates the remixing process of postmix UTXOs 24/7, ensuring you never miss a remix so long as the node is active.
 
-## Загрузите Whirlpool
+## Download Whirlpool
 
-Подключитесь к узлу по SSH под пользователем "dojo".
+If not already, SSH into the node as the user "dojo."
 
-Создайте каталог для Whirlpool.
+Create a directory for Whirlpool.
 
 ```bash
 mkdir ~/whirlpool
 ```
 
-Перейдите в директорию.
+Enter the directory.
 
 ```bash
 cd ~/whirlpool
 ```
 
-Зайдите на страницу релизов [Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) и скопируйте ссылку на последний файл "run.jar", загрузив его с помощью "wget". На момент написания статьи последней версией является 0.10.16, поэтому измените команды соответствующим образом.
+Visit the Whirlpool CLI [release page](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) and copy the link for the latest "run.jar" file, downloading it with "wget." At the time of writing, the latest version is 0.10.17, so modify commands accordingly.
 
 ```bash
 torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/63621e145967f536a562851853bd0990/whirlpool-client-cli-0.10.16-run.jar
 ```
 
-Установите Java.
+Install Java.
 
 ```bash
 sudo apt install openjdk-19-jre-headless -y
 ```
 
-Перед инициализацией Whirlpool подготовьте парольную фразу и код сопряжения кошелька Samourai Wallet, чтобы вставить их в терминал.
+Before initializing Whirlpool, have the Samourai Wallet's passphrase and pairing code ready for pasting into the terminal.
 
-Код сопряжения находится в кошельке Samourai Wallet в разделе **Настройки** > **Транзакции** > **Связать с Whirlpool GUI**.
+The pairing code is in Samourai Wallet under **Settings** > **Transaction** > **Pair** **to Whirlpool GUI**.
 
-## Сопряжение с Samourai Wallet
+## Pair Samourai Wallet
 
-Запустите Whirlpool, введя код сопряжения и кодовую фразу при появлении запроса.
+Initiate Whirlpool, entering the pairing code and passphrase when prompted.
 
 ```bash
 java -jar whirlpool-client-cli-*-run.jar --init
 ```
 
-Подключение может занять минуту, сопряжение будет успешным, как только начнут появляться логи для аккаунта Postmix вашего кошелька. Если вы вернулись в командную строку, значит, сопряжение было неудачным и его нужно повторить, пока оно не завершится успехом.
+Connecting may take a minute, but the pairing is successful once logs start printing for the wallet's Postmix account. If returned to the command prompt, the pairing has failed and must be rerun until successful.
 
-После сопряжения выйдите из логов с помощью "control+c".
+Once paired, exit the logs with "control+c."
 
-## Файл системной службы
+## System File
 
-Создайте файл системной службы для автоматического запуска Whirlpool при загрузке системы.
+Create a system file to start Whirlpool on boot.
 
 ```bash
 sudo nano /etc/systemd/system/whirlpool.service
 ```
 
-Вставьте следующие строки, обязательно отредактировав их, если версия Whirlpool отличается.
+Paste the following lines, ensuring to edit if the Whirlpool version differs.
 
 ```bash
 [Unit]
@@ -110,9 +112,9 @@ RestartSec=60
 WantedBy=multi-user.target
 ```
 
-Сохраните файл и выйдите.
+Save and exit the file.
 
-Перезагрузите "systemctl".
+Reload "systemctl."
 
 ```bash
 sudo systemctl daemon-reload
@@ -124,51 +126,51 @@ Enable the Whirlpool service.
 sudo systemctl enable whirlpool
 ```
 
-Включите системную службу.
+Start the Whirlpool service.
 
 ```bash
 sudo systemctl start whirlpool
 ```
 
-Whirlpool CLI теперь функционирует.
+Whirlpool CLI is now operational.
 
 ## Whirlpool GUI
 
-[Whirlpool GUI](/coinjoin-pandul/#%d1%88%d0%b0%d0%b3-3-%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0-whirlpool-gui) - это простой в использовании графический интерфейс для Whirlpool CLI, который позволяет вам контролировать и взаимодействовать с сервисом Whirlpool в удобной для пользователя форме.
+Whirlpool GUI is a simple-to-use graphical user interface for Whirlpool CLI, which allows you to monitor and interact with the Whirlpool service in a user-friendly manner.
 
-Whirlpool GUI можно [скачать](https://samouraiwallet.com/download) непосредственно с сайта Samourai Wallet.
+Whirlpool GUI can be [downloaded](https://samouraiwallet.com/download) directly from the Samourai Wallet website.
 
-## Сопряжение с Whirlpool GUI
+## Pair Whirlpool GUI
 
-При первом запуске Whirlpool GUI следует выбрать "Remote CLI".
+Upon opening the GUI for the first time, "Remote CLI" should be selected.
 
-В поле "CLI address" замените "my-cli-host" на IP-адрес вашего узла.
+In the CLI Address field, replace "my-cli-host" with your node's IP.
 
-Далее выберите "Configure API Key", после чего появится окно. Вернитесь в терминал вашего узла по SSH и выполните следующую команду, чтобы получить ключ.
+Next, select "Configure API Key," and a box will appear. Return to your node's terminal via SSH and run the following command to find the key.
 
 ```bash
 nano ~/whirlpool/whirlpool-cli-config.properties
 ```
 
-Ключ API - это строка цифр, которая следует за "cli.apiKey=" в верхней части файла.
+The API key is the string of numbers that follows "cli.apiKey=" at the top of the file.
 
-После того как адрес CLI и API-ключ введены, нажмите "Connect".
+Once the CLI and API addresses are entered, select "Connect."
 
-Через несколько секунд появится запрос на ввод парольной фразы кошелька. После ее ввода сопряжение будет завершено.
+After a few seconds, a prompt will appear requesting the wallet's passphrase. Once entered, the pairing is complete.
 
 ## Uncomplicated Firewall (UFW)
 
-Uncomplicated Firewall, или UFW, - это простое в использовании приложение командной строки для работы с межсетевым экраном в Linux.
+The Uncomplicated Firewall, or UFW, is a simple-to-use, command-line application for working with a Linux firewall.
 
-Установите UFW.
+Install UFW.
 
 ```bash
 sudo apt install ufw -y
 ```
 
-Чтобы быть уверенным в том, что открыты только те порты, которые необходимы для нормальной работы узла, в терминале должны быть применены следующие правила UFW.
+To ensure that the only ports open are those essential to the node's regular operation, the following UFW rules should be applied in the terminal.
 
-### Параметры по умолчанию
+### Default Settings
 
 ```bash
 sudo ufw default deny incoming
@@ -178,80 +180,72 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 
-### Разрешить SSH
+### Allow SSH
 
 ```bash
 sudo ufw allow ssh
 ```
 
-### Разрешить Whirlpool GUI
+### Allow Whirlpool GUI
 
 ```bash
 sudo ufw allow 8899/tcp
 ```
 
-### Разрешить BITCOIND_ZMQ_BLK_HASH
+### Allow BITCOIND_ZMQ_BLK_HASH
 
 ```bash
 sudo ufw allow 28334/tcp
 ```
 
-### Разрешить BITCOIND_ZMQ_RAWTXS
+### Allow BITCOIND_ZMQ_RAWTXS
 
 ```bash
 sudo ufw allow 28333/tcp
 ```
 
-### Разрешить BITCOIND_RPC_PORT
+### Allow BITCOIND_RPC_PORT
 
 ```bash
 sudo ufw allow 8332/tcp
 ```
 
-### Разрешить SSL-порт Fulcrum
+### Allow Fulcrum SSL
 
 ```bash
 sudo ufw allow 50002/tcp
 ```
 
-### Разрешить Mempool GUI
+### Allow Mempool GUI
 
 ```bash
 sudo ufw allow 4080/tcp
 ```
 
-### Включить UFW
+### Enable UFW
 
 ```bash
 sudo ufw enable
 ```
 
-При включении UFW может появиться предупреждение о том, что включение UFW может вызвать проблемы с подключением к сессии. Поскольку правило, разрешающее SSH, уже было применено, подтвердите нажатием клавиши "y".
+When enabling UFW, a warning may appear informing that enabling UFW may cause connection issues with the session. Since a rule allowing SSH was already applied, confirming with "y is safe."
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}

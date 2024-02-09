@@ -1,5 +1,5 @@
 ---
-title: "Часть 2. Установка индексатора Fulcrum"
+title: "Установка индексатора Fulcrum"
 h1: "Часть 2. Установка индексатора Fulcrum"
 description: ""
 cover: /img/dojo-05.jpg

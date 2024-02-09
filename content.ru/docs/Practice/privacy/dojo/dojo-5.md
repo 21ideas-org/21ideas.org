@@ -1,5 +1,5 @@
 ---
-title: "Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана"
+title: "Установка Whirlpool CLI и конфигурация межсетевого экрана"
 h1: "Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана"
 description: ""
 cover: /img/dojo-09.jpg
@@ -118,13 +118,13 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload
 ```
 
-Enable the Whirlpool service.
+Включите системную службу.
 
 ```bash
 sudo systemctl enable whirlpool
 ```
 
-Включите системную службу.
+Запустите службу Whirlpool.
 
 ```bash
 sudo systemctl start whirlpool
