@@ -62,7 +62,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 - [Shelling Out: The Origins of Money](/en/shelling-out)
 - [Bitcoin and the Rhythms of History](/en/bitcoin-rhythms-of-history)
 - [Bitcoin & the HOPF Cycle of the Internet](/en/bitcoin-and-the-hopf-cycle-of-the-internet)
-- [Деньги, блокчейны и социальная масштабируемость](/dengi-blokchejny-i-socialnaya-masshtabiruemost)
+- [Money, blockchains, and social scalability](/en/money-blockchains-and-social-scalability)
 - [Что такое деньги](/chto-takoe-dengi)
 - [Выживает сильнейший](/vyzhivaet-silnejshij)
 - [Стратегия DCA и Биткоин](/strategiya-dca)
