@@ -60,7 +60,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 - [Comparison of Monetary Standards](/en/comparison-of-monetary-standards)
 - [Petrodollar Negative Effects](/en/petrodollar-negative-effects)
 - [Shelling Out: The Origins of Money](/en/shelling-out)
-- [Биткоин и ритмы истории](/bitcoin-i-ritmy-istorii)
+- [Bitcoin and the Rhythms of History](/en/bitcoin-rhythms-of-history)
 - [Биткоин и интернет-циклы Хопфа](/bitcoin-i-internet-cikly-hopfa)
 - [Деньги, блокчейны и социальная масштабируемость](/dengi-blokchejny-i-socialnaya-masshtabiruemost)
 - [Что такое деньги](/chto-takoe-dengi)
