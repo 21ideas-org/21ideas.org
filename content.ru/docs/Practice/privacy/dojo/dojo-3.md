@@ -1,5 +1,5 @@
 ---
-title: "Часть 3. Установка блокчейн-обозревателя Mempool"
+title: "Установка блокчейн-обозревателя Mempool"
 h1: "Часть 3. Установка блокчейн-обозревателя Mempool"
 description: ""
 cover: /img/dojo-06.jpg
@@ -162,7 +162,7 @@ restart: always
 
 Добавьте следующие строки ниже "STATISTICS_ENABLED", отредактировав "ELECTRUM_HOST" с использованием локального IP вашего узла.
 
-```bash
+```
 ELECTRUM_HOST: "192.xxx.x.xx"
 ELECTRUM_PORT: "50002"
 ELECTRUM_TLS_ENABLED: "true"
@@ -170,7 +170,7 @@ ELECTRUM_TLS_ENABLED: "true"
 
 Вставьте следующий блок в конце файла на следующей свободной строке. Убедитесь, что отступы в начале строк точно соответствуют указанным.
 
-```bash
+```
 networks:
   default:
     driver: bridge
@@ -203,7 +203,7 @@ sudo nano /etc/tor/torrc
 
 Добавьте следующие строки в конец файла, затем сохраните и выйдите.
 
-```bash
+```
 # Hidden Service Mempool
 HiddenServiceDir /var/lib/tor/mempool/
 HiddenServiceVersion 3

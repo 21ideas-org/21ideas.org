@@ -1,6 +1,6 @@
 ---
-title: "Часть 2. Установка индексатора Fulcrum"
-h1: "Часть 2. Установка индексатора Fulcrum"
+title: "Installing Fulcrum Indexer"
+h1: "Part 2. Installing Fulcrum Indexer"
 description: ""
 cover: /img/dojo-05.jpg
 url: practice-privacy/dojo-2
@@ -10,145 +10,144 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Введение](/practice-privacy/dojo-0)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
-
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
 {{% hint btc %}}
-Перед выполнением дальнейших шагов убедитесь, что:
-- Завершены все действия из [части 1](/privacy/dojo-1).
-- Завершен процесс IBD в Bitoin Core.
+Prerequisites.
+
+- Completed "Dojo Node Guide," [Part 1](/privacy/dojo-1).
+- Bitcoin Core IBD Complete.
 {{% /hint %}}
 
-## Введение
+## Introduction
 
-После полной синхронизации Bitcoin Core следующим шагом будет установка индексатора Electrum, который обеспечивает совместимость со всеми биткоин-кошельками на базе Electrum.
+After fully synchronizing Bitcoin Core, installing an Electrum indexer, which ensures compatibility with all Electrum-based Bitcoin wallets, is the next step.
 
-Подключение кошельков непосредственно к персональному серверу Electrum, а не к Bitcoin Core, значительно повышает безопасность, поскольку Bitcoin Core хранит балансы и открытые ключи в незашифрованном виде на локальном компьютере.
+Connecting wallets directly to a personal Electrum server, rather than Core, provides vast security improvements since Core stores balances and public keys unencrypted on the local device.
 
-Индексатор Fulcrum, совместимый с протоколом Electrum, занимает больше места, чем другие индексаторы, однако после полной синхронизации его производительность не имеет себе равных.
+The Fulcrum Electrum indexer has a larger footprint than other indexers; however, its performance is unmatched once fully synchronized.
 
-## Загрузка и проверка Fulcrum
+## Download & Verify Fulcrum
 
-Перейдите в директорию для загрузок.
+Go to the downloads directory.
 
 ```bash
 cd ~/downloads
 ```
 
-Зайдите на [Github](https://github.com/cculianu/Fulcrum/releases) Fulcrum в браузере и скопируйте ссылку на последний файл "x86_64-linux.tar.gz". На момент написания статьи последней версией является 1.9.8.
+Visit Fulcrum's [Github page](https://github.com/cculianu/Fulcrum/releases) in a browser and copy the link for the latest "x86_64-linux.tar.gz" file. At the time of writing, the most recent version is 1.9.8.
 
-Скачайте Fulcrum.
+Download Fulcrum.
 
 ```bash
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-x86_64-linux.tar.gz
 ```
 
-Скачайте файл "asc" для релиза.
+Download the releases "asc" file.
 
 ```bash
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt.asc
 ```
 
-Загрузите файл sha256sum для релиза.
+Download the release's sha256sum file.
 
 ```bash
 torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt
 ```
 
-Проверьте контрольную сумму Fulcrum.
+Verify Fulcrum's checksum.
 
 ```bash
 sha256sum -c --ignore-missing Fulcrum-*-shasums.txt
 ```
 
 {{% hint info %}}
-В выводе команды должно появиться сообщение "OK" (*"ЦЕЛ"*), например: "Fulcrum-0.0.0-x86_64-linux.tar.gz: OK."
+The output should provide an “OK” message, for example:- "Fulcrum-0.0.0-x86_64-linux.tar.gz: OK."
 {{% /hint %}}
 
-Импортируйте [открытый ключ](https://github.com/Electron-Cash/keys-n-hashes/blob/master/pubkeys/calinkey.txt) разработчика Fulcrum из официального репозитория на GitHub.
+Import Fulcrum's developer's [public key](https://github.com/Electron-Cash/keys-n-hashes/blob/master/pubkeys/calinkey.txt) from the official GitHub repository.
 
 ```bash
 torsocks curl https://raw.githubusercontent.com/Electron-Cash/keys-n-hashes/master/pubkeys/calinkey.txt | gpg --import
 ```
 
-Убедитесь, что подписи совпадают.
+Verify the signatures match.
 
 ```bash
 gpg --verify Fulcrum-*-shasums.txt.asc
 ```
 
 {{% hint info %}}
-В выводе должно быть написано "Good signature from Calin Culianu" (*"gpg: Действительная подпись пользователя Calin Culianu"*).
+The output should read "Good signature from Calin Culianu."
 {{% /hint %}}
 
 {{% hint info %}}
-Не беспокойтесь о предупреждении "This key is not certified with a trusted signature!" (*"Внимание: Данный ключ не заверен доверенной подписью!"*). Повышенные уровни доверия не были установлены вручную для импортированного ключа.
+Do not worry about the "This key is not certified with a trusted signature!" warning. Enhanced trust levels have not been manually set for the imported key.
 {{% /hint %}}
 
-Удалите проверочные файлы.
+Remove the verification files.
 
 ```bash
 rm Fulcrum-*-shasums.txt && rm Fulcrum-*-shasums.txt.asc
 ```
 
-## Подготовка директории
+## Folder Preparation
 
-Создайте директорию "fulcrum".
+Create a "fulcrum" directory.
 
 ```bash
 mkdir ~/fulcrum
 ```
 
-Создайте директорию "fulcrum_db".
+Create a "fulcrum_db" directory.
 
 ```bash
 mkdir ~/fulcrum_db
 ```
 
-Распакуйте архив.
+Unpackage the archive.
 
 ```bash
 tar xvf Fulcrum-*-x86_64-linux.tar.gz
 ```
 
-Перенесите содержимое архива в директорию "fulcrum".
+Move the contents to the "fulcrum" directory.
 
 ```bash
 mv Fulcrum-*-x86_64-linux/* /home/satoshi/fulcrum
 ```
 
-Удалите оставшуюся папку.
+Remove the leftover folder.
 
 ```bash
 rm -r Fulcrum-*-x86_64-linux
 ```
 
-Удалите архив.
+Remove the archive.
 
 ```bash
 rm Fulcrum-*-x86_64-linux.tar.gz
 ```
 
-Войдите в директорию "fulcrum".
+Enter the "fulcrum" directory.
 
 ```bash
 cd ~/fulcrum
@@ -156,81 +155,81 @@ cd ~/fulcrum
 
 ## SSL
 
-Сгенерируйте новый ключ SSL. Нажимайте Enter в подсказках, оставляя все значения по умолчанию.
+Generate a new SSL key. Hit enter on the prompts, leaving all at default.
 
 ```bash
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
 ```
 
-## Конфигурирование
+## Configuration
 
-Переименуйте файл конфигурации fulcrum по умолчанию.
+Rename the default fulcrum configuration file.
 
 ```bash
 mv fulcrum-example-config.conf fulcrum.conf
 ```
 
-Откройте файл "fulcrum.conf".
+Open the "fulcrum.conf" file.
 
 ```bash
 nano fulcrum.conf
 ```
 
-Отредактируйте следующие строки.
+Edit the following lines as shown.
 
 ```
-####замените
+####change
 datadir = /path/to/a/dir  # Windows: datadir = D:\FulcrumData\mainnet
 
-##на
+##to
 datadir = /home/satoshi/fulcrum_db  # Windows: datadir = D:\FulcrumData\mainnet
 ```
 
 ```
-####замените значения на ваши имя пользователя и пароль для RPC Bitcoin Core
+####edit to your core rpc username & password
 rpcuser = Bob_The_Banker
 rpcpassword = hunter1
 ```
 
 ```
-####раскомментируйте строку
+####uncomment the following line
 #ssl = 0.0.0.0:50002
 
-##следующим образом
+##like so
 ssl = 0.0.0.0:50002
 ```
 
 ```
-####раскомментируйте и отредактируйте строки
+####uncomment & edit the following lines
 #cert = /path/to/server-cert.pem
 #key = /path/to/server-key.pem
 #peering = true
 
-##следующим образом
+##like so
 cert = /home/satoshi/fulcrum/cert.pem
 key = /home/satoshi/fulcrum/key.pem
 peering = false
 ```
 
 ```
-###раскомментируйте и отредактируйте строку
+###uncomment & edit the following line
 #fast-sync = 0
 
-##следующим образом
+##like so
 fast-sync = 2000
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-## Файл системной службы
+## Service File
 
-Создайте файл системной службы для автоматического запуска Fulcrum при загрузке системы.
+Create a service file to start Fulcrum on system boot.
 
 ```bash
 sudo nano /etc/systemd/system/fulcrum.service
 ```
 
-Вставьте следующие строки, затем сохраните файл и выйдите из редактора.
+Paste the following lines, then save and exit the service file.
 
 ```bash
 [Unit]
@@ -245,41 +244,41 @@ TimeoutStopSec=30min
 WantedBy=multi-user.target
 ```
 
-Включите системную службу.
+Enable the service file.
 
 ```bash
 sudo systemctl enable fulcrum.service
 ```
 
-Запустите Fulcrum.
+Start Fulcrum.
 
 ```bash
 sudo systemctl start fulcrum.service
 ```
 
-Прежде чем продолжить, дождитесь завершения синхронизации Fulcrum. Во время этого процесса питание устройства не должно прерываться, иначе база данных Fulcrum может быть повреждена.
+Before continuing, wait until the Fulcrum sync has been completed. The device's power supply must remain uninterrupted during this process, or the Fulcrum database may corrupt.
 
-Следите за ходом синхронизации Fulcrum с помощью следующей команды из домашней директории. Синхронизация будет завершена, когда в журналах начнут отображаться последние данные из мемпула.
+Monitor Fulcrum's sync progress using the following command from the home directory. The sync is completed once the logs begin displaying the latest Mempool data.
 
 ```bash
 journalctl -fu fulcrum.service
 ```
 
-Подключение локального кошелька к Fulcrum осуществляется путем добавления локального IP и SSL-порта в поле адреса в настройках вашего кошелька, например:
+Local wallet connections to Fulcrum are made by adding the node's local IP and SSL port into the address field of your wallet settings, for example;
 
 ```
 ssl://192.168.1.100:50002
 ```
 
-## Соединение через Tor
+## Tor Connections
 
-Чтобы настроить Fulcrum для работы с Tor, в файл "torcc" необходимо добавить дополнительные строки.
+Further lines must be added to the "torcc" file to configure Fulcrum with Tor.
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
 
-Вставьте в начало файла следующие строки.
+Paste the following at the top of the file.
 
 ```bash
 # Hidden Service Fulcrum
@@ -288,48 +287,40 @@ HiddenServiceVersion 3
 HiddenServicePort 50002 127.0.0.1:50002
 ```
 
-Сохраните файл и выйдите из редактора, а затем перезагрузите Tor.
+Save and exit the file, then reload Tor.
 
 ```bash
 sudo systemctl reload tor
 ```
 
-Tor-адрес Fulcrum можно запросить с помощью следующей команды.
+Fulcrum's Tor address can be requested with the following command.
 
 ```bash
 sudo cat /var/lib/tor/hidden_service_fulcrum/hostname
 ```
 
-Удаленные соединения кошелька с сервером Fulcrum могут быть выполнены с использованием onion-адреса и номера порта сервера, как показано в примере ниже.
+Remote wallet connections to the Fulcrum server can be made using the server's onion address and port number, as shown in the example below.
 
 ```
 https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 ```
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}

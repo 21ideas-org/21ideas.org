@@ -1,6 +1,6 @@
 ---
-title: "Часть 3. Установка блокчейн-обозревателя Mempool"
-h1: "Часть 3. Установка блокчейн-обозревателя Mempool"
+title: "Installing Mempool Explorer"
+h1: "Part 3. Installing Mempool Explorer"
 description: ""
 cover: /img/dojo-06.jpg
 url: practice-privacy/dojo-3
@@ -10,43 +10,44 @@ bookToc: true
 weight: 4
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
 {{% hint btc %}}
-Перед выполнением дальнейших шагов убедитесь, что:
-- Завершены все действия из частей [1](/privacy/dojo-1), [2](/privacy/dojo-2).
-- Синхронизация Fulcrum завершена.
+Prerequisites.
+
+- Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2).
+- Fulcrum synchronization completed.
 {{% /hint %}}
 
-## Введение
+## Introduction
 
-Mempool Visual Explorer - это ценный инструмент для поиска подробной информации о блоках, адресах, балансах и транзакциях.
+The Mempool Visual Explorer is a valuable tool for looking up detailed information about blocks, addresses, balances & transactions.
 
-Локальное размещение вашего экземпляра блокчейн-обозревателя предпочтительнее, чем ввод личных данных о транзакциях на сайтах, которые вы не контролируете.
+Hosting your instance locally is preferable to entering personal transaction details into websites you don't control.
 
-## Установка Docker
+## Install Docker
 
-Перед установкой Mempool необходимо установить Docker.
+Before installing Mempool, Docker is required.
 
-Добавьте официальный GPG-ключ Docker.
+Add Docker's official GPG key.
 
 ```bash
 sudo apt update
@@ -68,7 +69,7 @@ torsocks curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --de
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ```
 
-Добавьте репозиторий Docker в источники приложений Apt.
+Add the Docker repository to Apt sources.
 
 ```bash
 echo \
@@ -81,96 +82,96 @@ echo \
 sudo apt update
 ```
 
-Установите пакеты Docker.
+Install the Docker packages.
 
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
-Добавьте пользователя в группу docker.
+Add the user to the docker group.
 
 ```bash
 sudo usermod -aG docker satoshi
 ```
 
-Выйдите из системы.
+Log out.
 
 ```bash
 exit
 ```
 
-Снова войдите в систему под именем "satoshi". При этом ваш пользователь войдет в группу Docker.
+Log back in as "satoshi" again. This re-evaluates the user's new membership to the Docker group.
 
-## Установка Mempool
+## Install Mempool
 
-Склонируйте репозиторий Mempool.
+Clone the Mempool repository.
 
 ```bash
 git clone https://github.com/mempool/mempool.git
 ```
 
-Войдите в поддиректорию docker внутри директории mempool.
+Enter the Mempool Docker directory.
 
 ```bash
 cd mempool/docker
 ```
 
-Откройте файл "docker-compose.yml".
+Open the "docker-compose.yml" file.
 
 ```bash
 nano docker-compose.yml
 ```
 
-Отредактируйте следующие строки.
+Edit the following lines.
 
 ```
-####замените
+####change
 ports:
   - 80:8080
 
-##на
+##to
 ports:
   - 4080:8080
 ```
 
 ```
-####замените
+####change
 MEMPOOL_BACKEND: "none"
 
-##на
+##to
 MEMPOOL_BACKEND: "electrum"
 ```
 
 ```
-####замените на локальный IP вашего узла
+####edit to your nodes local ip
 CORE_RPC_HOST: "172.27.0.1"
 ```
 
 ```
-####замените значения на ваши имя пользователя и пароль для RPC Bitcoin Core
+####edit to your core rpc username & password
 CORE_RPC_USERNAME: "mempool"
 CORE_RPC_PASSWORD: "mempool"
 ```
 
 ```
-####измените все 3 строки
+####change all 3 instances of
 restart: on-failure
 
-##следующим образом
+##to
 restart: always
 ```
 
-Добавьте следующие строки ниже "STATISTICS_ENABLED", отредактировав "ELECTRUM_HOST" с использованием локального IP вашего узла.
+Add the following lines below "STATISTICS_ENABLED," editing "ELECTRUM_HOST" to include the node's local IP.
 
-```bash
+```
 ELECTRUM_HOST: "192.xxx.x.xx"
 ELECTRUM_PORT: "50002"
 ELECTRUM_TLS_ENABLED: "true"
 ```
 
-Вставьте следующий блок в конце файла на следующей свободной строке. Убедитесь, что отступы в начале строк точно соответствуют указанным.
+Paste the following block at the bottom of the file on the next available free line. Ensure the spacing is exactly as shown.
 
-```bash
+```
 networks:
   default:
     driver: bridge
@@ -179,73 +180,65 @@ networks:
         - subnet: 172.16.57.0/24
 ```
 
-Сохраните файл и выйдите из редактора.
+Save and exit the file.
 
-Теперь инициализируйте Mempool.
+Now, initialize Mempool.
 
 ```bash
 docker compose up -d
 ```
 
-Откройте веб-браузер и в адресной строке введите IP-адрес вашего узла, а затем ":4080", чтобы посетить ваш локальный экземпляр Mempool.
+Open a web browser, and in the address bar, type your node's IP address, followed by ":4080" to visit the local Mempool instance.
 
-При новой установке может потребоваться время, чтобы Mempool полностью загрузился, поэтому не беспокойтесь, если информационная панель будет неполной.
+As a fresh install, it may take time before Mempool fully populates, so don't be concerned if the dashboard is incomplete.
 
-## Соединение через Tor
+## Tor Connections
 
-С помощью [Tor Browser](https://www.torproject.org/download/) можно получить доступ к локальному экземпляру Mempool из любой точки мира. Для этой функции требуется уникальный onion-адрес.
+A [Tor Browser](https://www.torproject.org/download/) can access The local Mempool installation from anywhere worldwide. A unique onion address is required for this functionality.
 
-Откройте файл "torrc".
+Open the "torrc" file.
 
 ```bash
 sudo nano /etc/tor/torrc
 ```
 
-Добавьте следующие строки в конец файла, затем сохраните и выйдите.
+Add the following lines to the bottom of the file, then save and exit.
 
-```bash
+```
 # Hidden Service Mempool
 HiddenServiceDir /var/lib/tor/mempool/
 HiddenServiceVersion 3
 HiddenServicePort 80 127.0.0.1:4080
 ```
 
-Перезапустите службу Tor.
+Restart the Tor service.
 
 ```bash
 sudo systemctl restart tor
 ```
 
-Tor-адрес Mempool можно запросить с помощью следующей команды.
+Mempool's Tor address can be requested with the following command.
 
 ```bash
 sudo cat /var/lib/tor/mempool/hostname
 ```
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Установка Биткоин-узла Dojo на x86
+## Dojo x86 Bitcoin Node Guide
 
-[Введение](/practice-privacy/dojo-0)
+[Introduction](/en/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
 
-[Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
+[Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
-[Часть 3. Установка блокчейн-обозревателя Mempool](/practice-privacy/dojo-3)
+[Part 3. Installing Mempool Explorer](/en/practice-privacy/dojo-3)
 
-[Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
+[Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
 
-[Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
+[Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
-
-## Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
-{{% /image %}}
