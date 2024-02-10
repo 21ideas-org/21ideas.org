@@ -52,7 +52,7 @@ This tutorial will describe how to manually install all components in a Debian b
     - Enable Testnet support.
 
 {{% hint btc %}}
-If you are only learning the features of Samourai wallet, I recommend you to try all the functions in Testnet. All you need is a [virtual machine](https://www.virtualbox.org) and 100 GB of free disk space.
+If you are only learning the features of Samourai Wallet, I recommend you to try all the functions in Testnet. All you need is a [virtual machine](https://www.virtualbox.org) and 100 GB of free disk space.
 {{% /hint %}}
 
 ## System Requirements
