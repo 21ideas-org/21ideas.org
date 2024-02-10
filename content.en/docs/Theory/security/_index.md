@@ -6,9 +6,9 @@ url: security
 weight: 2
 ---
 
-Раздел, освещающий лучшие подходы к обеспечению безопасности своих монет при взаимодействии с Биткоином.
+A section covering the best practices for securing your coins when interacting with Bitcoin.
 
-1. [Биткоин-кошельки: зачем и как хранить свои приватные ключи](/kak-hranit-kljuchi)
+1. [Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys](/en/how-to-hold-private-keys)
 2. [Что такое сид-фраза?](https://21ideas.org/seed/)
 3. [Как обезопасить свои сид-фразы?](https://21ideas.org/bezopasnost-seed-fraz/)
 4. [Насколько надежна ваша парольная фраза?](/passphrase)
