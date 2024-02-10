@@ -373,3 +373,47 @@ Bitcoin is a rebellion against the most powerful bastion of socialism in the fre
 Bitcoin is money without masters: a system governed by rules instead of rulers. By awakening the world from the nightmare of financial slavery, Bitcoin is a dream of freedom coming true.
 
 {{% image "/img/hrd-431-en.jpeg" /%}}
+
+# Sources
+
+a. [https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861)
+
+b. [https://www.bdratings.org/l/tales-of-soft-money-cotton-on-cape-verde/](https://www.bdratings.org/l/tales-of-soft-money-cotton-on-cape-verde/)
+
+c. [https://www.smithsonianmag.com/smithsonianmag/nazis-planned-bomb-britain-forged-bank-notes-180958258/](https://www.smithsonianmag.com/smithsonianmag/nazis-planned-bomb-britain-forged-bank-notes-180958258/)
+
+d. [https://en.wikipedia.org/wiki/Number_Nine_Research_Laboratory](https://en.wikipedia.org/wiki/Number_Nine_Research_Laboratory)
+
+e. [https://pathways.thinkport.org/secrets/gourd1.cfm](https://pathways.thinkport.org/secrets/gourd1.cfm)
+
+f. [https://www.ssa.gov/oact/cola/awidevelop.html](https://www.ssa.gov/oact/cola/awidevelop.html)
+
+g. [https://fred.stlouisfed.org/series/M2](https://fred.stlouisfed.org/series/M2)
+
+h. [https://www.slavevoyages.org/assessment/estimates](https://www.slavevoyages.org/assessment/estimates)
+
+i. [https://www.amazon.com/Heroes-History-Civilization-Ancient-Modern/dp/0743235940#ace-4302123154](https://www.amazon.com/Heroes-History-Civilization-Ancient-Modern/dp/0743235940#ace-4302123154)
+
+j. [https://twitter.com/visualizevalue/status/1272736037673021441?s=21](https://twitter.com/visualizevalue/status/1272736037673021441?s=21)
+
+k. [https://medium.com/@25stories/julian-s-dab-daily-audio-blog-session-37-million-vs-billion-vs-trillion-1ff8a17980bc](https://medium.com/@25stories/julian-s-dab-daily-audio-blog-session-37-million-vs-billion-vs-trillion-1ff8a17980bc)
+
+l. [https://www.visualcapitalist.com/20-trillion-of-u-s-debt-visualized-using-stacks-of-100-bills/](https://www.visualcapitalist.com/20-trillion-of-u-s-debt-visualized-using-stacks-of-100-bills/)
+
+m. [https://blog.richmond.edu/livesofmaps/2014/11/11/map-of-the-week-slave-trade-from-africa-to-the-americas-1650-1860/](https://blog.richmond.edu/livesofmaps/2014/11/11/map-of-the-week-slave-trade-from-africa-to-the-americas-1650-1860/)
+
+n. [https://projects.britishmuseum.org/pdf/RP%20171-%200%20Prelims%20rev.pdf](https://projects.britishmuseum.org/pdf/RP%20171-%200%20Prelims%20rev.pdf)
+
+o. [https://projects.britishmuseum.org/pdf/RP%20171%20texts%201.pdf](https://projects.britishmuseum.org/pdf/RP%20171%20texts%201.pdf)
+
+p. [https://projects.britishmuseum.org/pdf/RP%20171%20texts%202.pdf](https://projects.britishmuseum.org/pdf/RP%20171%20texts%202.pdf)
+
+q. [https://projects.britishmuseum.org/pdf/RP%20171%20texts%203%20rev%20table.pdf](https://projects.britishmuseum.org/pdf/RP%20171%20texts%203%20rev%20table.pdf)
+
+r. [https://www.bdratings.org/sources/](https://www.bdratings.org/sources/)
+
+s. [https://libertyblitzkrieg.com/2020/02/18/financial-feudalism/](https://libertyblitzkrieg.com/2020/02/18/financial-feudalism/)
+
+t. [https://i.redd.it/nj6mbq1dtrz11.jpg](https://i.redd.it/nj6mbq1dtrz11.jpg)
+
+u. [https://imrussia.org/en/nation/763-totalitarianism-and-freedom-of-speech](https://imrussia.org/en/nation/763-totalitarianism-and-freedom-of-speech)

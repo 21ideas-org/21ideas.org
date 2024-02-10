@@ -13,7 +13,7 @@ weight: 54
 
 Вместо борьбы с бедностью МВФ и Всемирный банк стремятся лишь к обогащению стран-кредиторов. Может ли Биткоин обеспечить лучшую глобальную экономическую систему для развивающегося мира?
 
-![sp-1](/img/sp-387.png#center)
+{{% image "/img/sp-387.png" /%}}
 
 {{< hint btc>}}
 Перевод [статьи](https://bitcoinmagazine.com/culture/imf-world-bank-repress-poor-countries) директора стратегического развития Фонда по правам человека Алекса Глэдстайна подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
