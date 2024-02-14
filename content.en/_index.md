@@ -2,84 +2,80 @@
 title: 21 ideas
 cover: /img/main-section/main_light_en.png
 coverDark: /img/main-section/main_dark_en.png
-h1: "Educational Bitcoin-only resource"
-description: "Educational Bitcoin-only resource"
+h1: "Educational Bitcoin-Only Resource"
+description: "Educational Bitcoin-Only Resource"
 ---
 
-21 идея - это проект с открытым исходным кодом, курирующийся энтузиастами и предоставляющий свободный доступ к наиболее полной библиотеке знаний о Биткоине каждому желающему. 
+21ideas is an open-source project curated by enthusiasts. It provides free access to the most comprehensive library of Bitcoin knowledge for anyone interested.
 
 {{< tabs "explanation" >}}
-{{< tab "Изучай" >}}
-## Изучайте Биткоин
+{{< tab "Study" >}}
+## Study Bitcoin
 
-Цель проекта - предоставить каждому желающему все необходимые знания о Биткоине. 
-Собранные на этом сайте материалы нацелены на то, чтобы вы смогли в полной мере 
-осознать значимость этого открытия и понять как и какие проблемы он решает.  
+The goal of the project is to provide everyone with the necessary knowledge about Bitcoin. The materials collected on this site aim to help you fully understand the significance of this discovery and how it addresses various problems. 
 
-{{< button relref="/docs/example/" >}}Введение{{< /button >}}
+{{< button relref="/docs/example/" >}}Introduction{{< /button >}}
 {{< /tab >}}
 
-{{< tab "Предлагай" >}}
-## Делитесь знаниями
+{{< tab "Suggest" >}}
+## Share Knowledge
 
-Код проекта 21 идея открыт и является достоянием общественности. Любой желающий может 
-предложить улучшения, новые статьи или книги. Чтобы сделать вклад в развитие русскоязычного биткоин-сообщества 
-переходите на наш GitHub или пишите Тони.  
+The project code is open and in the public domain, allowing anyone to suggest improvements, new articles, or books. To contribute to the bitcoin community, please visit our GitHub repository or reach out to Tony via [feedback](/feedback) page.
 
 {{< button href="https://github.com/21ideas-org/21ideas.org" >}}GitHub{{< /button >}}
 {{< /tab >}}
 
-{{< tab "Поддержи" >}}
-## Поддержите проект
+{{< tab "Contribute" >}}
+## Contribute to the Project
 
-Помимо вклада в качестве автора или переводчика материалов вы также можете поддержвать проект сатошиками или своим уникальным талантом. О способах поддержки можно узнать, посетив раздел меню "Поддержать" в меню сайта слева, или нажав на кнопку ниже. 
+In addition to contributing as an author or translator, you can also support the project with donations or by sharing your own unique talent. To find out how you can support the project, visit the [Contribute](/contribute) section or click the button below. 
 
-{{< button relref="/docs/Contribute" >}}Поддержать{{< /button >}}
+{{< button relref="/docs/Contribute" >}}Contribute{{< /button >}}
 
 {{< /tab >}}
 {{< /tabs >}}
 
-Сайт разделен на логические разделы, чтобы облегчить навигацию и
-предоставить наиболее интуитивный опыт каждому, заинтересовавшемуся Биткоином.
+The site is divided into logical sections to make it easier to navigate and provide the most intuitive experience for anyone interested in Bitcoin.
 
 {{< hint btc >}}
 
-Если вы только начинаете свое знакомство с Биткоином, мы подготовили для вас специальный раздел, содержащий всю необходимую информацию. Переходите по [этой ссылке](/start), чтобы начать свое путешествие вглубь кроличьей норы Биткоина.
+If you are just starting to familiarize yourself with Bitcoin, we have prepared a special section for you, containing all the necessary information. Follow [this link](/start) to start your journey deep down the Bitcoin rabbit hole. 
+
 {{< /hint >}}
 
-{{< expand "Старт" "...">}}
-##  Старт
+{{< expand "Start" "...">}}
+##  Start
 
-Раздел [Старт](/start) хранит самые базовые и абсолютно необходимые материалы, которые нацелены на то, чтобы позволить вам начать взаимодействовать с ним в кратчайшие сроки. Имейте в виду, что несмотря на то, что все материалы в этом разделе были подобраны такм образом, чтобы новичок смог сразу же начать пользоваться Биткоином, они не являются исчерпывающими, и мы настоятельно рекомендуем впоследствии вернуться к сайту и изучить материалы из других разделов.
+The [Start](/start) section includes the most basic and essential materials to help you begin interacting with Bitcoin as quickly as possible. It is important to note that while these materials are selected to enable beginners to start using Bitcoin right away, they are not comprehensive. We strongly suggest visiting the site again later to check out the materials in the other sections.
 {{< /expand >}}
 
-{{< expand "Теория" "..." >}}
+{{< expand "Theory" "..." >}}
 ![cover](/img/main-section/theory.png)
 
-Раздел [Теория]({{< ref "/docs/Theory" >}}) концентрируется на теоретических аспектах Биткоина. Здесь вы найдете все необходимое для осознания значимости Биткоина и причин, по которым важно в нем разобраться. Он ответит на вопрос "Почему Биткоин?"
+The [Theory]({{< ref "/docs/Theory" >}}) section provides an in-depth exploration of the theoretical aspects of Bitcoin. Here, you will find comprehensive information that will help you understand the significance of Bitcoin and the reasons why it is important to study it. It aims to answer the question, "Why Bitcoin?”
 {{< /expand >}}
 
-{{< expand "Практика" "...">}}
+{{< expand "Practice" "...">}}
 ![cover](/img/main-section/practice.png)
 
-Понимание теории очень важно, но не имея практических знаний, можно легко запутаться и даже потерять свои сбережения. Раздел [Практика]({{< ref "/docs/Practice" >}}) нацелен на то, чтобы вы смогли без проблем взаимодействовать с Биткоином - покупать, хранить и обмениваться монетами - а также были способны сохранить приватность и обезопасить все свои действия от злоумышленников и ошибок.
+Understanding the theory is important, but practical knowledge is equally crucial. Without it, you may become confused and potentially risk losing your savings. The [Practice]({{< ref "/docs/Practice" >}}) section of this guide is designed to equip you with the necessary skills to interact with Bitcoin effectively. This includes buying, storing, and exchanging coins without encountering any issues. Additionally, it will help you maintain your privacy and ensure the security of all your activities, protecting you from malicious users and potential mistakes.
 {{< /expand >}}
 
-{{< expand "Кроличья нора" "...">}}
+{{< expand "Rabbit Hole" "...">}}
 ![cover](/img/main-section/rabbithole.png)
-# Дополнительные ресурсы
+# Additional Resources
 
-21 идея - проект, над которым работали годами, и у нас накопилось огромное количество материалов в самых разных форматах. Если материалов в вышеперечисленных разделах вам показалось мало или вы предпочитаете альтернативные форматы поглощения информации, обратите внимание на подразделы ниже.
+21ideas is a project that has been worked on for years, resulting in a vast amount of material in various formats. If you find the materials in the above sections to be insufficient or if you prefer alternative formats for accessing information, please refer to the subsections below.
 
-## Книги
+## Books
 
-Сборник переведенных нами и участниками сообщества книг доступен в [одноименном подразделе]({{< ref "/docs/Rabbithole/Books" >}}).
+A collection of books, translated by our team and community members, is available in this [subsection]({{< ref "/docs/Rabbithole/Books" >}}).
 
-## Видео
+## Videos
 
-Ссылки на видеоматериалы, подготовленные участниками сообщества доступны [по этой ссылке]({{< ref "/docs/Rabbithole/Videos" >}})
+You can find videos made by community members at [this link]({{< ref "/docs/Rabbithole/Videos" >}}).
 
-## Аудио
+## Audio
 
-Ссылки на подкасты, аудиокниги и другого рода материалы, предоставленные в аудиоформате.
+Links to podcasts, audiobooks, and other types of material provided in audio format.
 {{< /expand >}}
