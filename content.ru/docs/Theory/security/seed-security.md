@@ -13,7 +13,7 @@ weight: 3
 Пожалуй, важнейшим аспектом взаимодействия с Биткоином является защита собственных сид-фраз. Но какой подход выбрать? В этой статье мы расскажем о том, как и где хранить резервные копии сид-фраз в различных контекстах хранения биткоина.
 
 {{< hint btc >}}
-Перевод [статьи](https://unchained.com/blog/how-to-store-bitcoin-seed-phrase-backups/) Unchained Capital подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Перевод [статьи](https://unchained.com/blog/how-to-store-bitcoin-seed-phrase-backups/) Стивена Холла подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 {{< /hint >}}
 
 # Одна подпись, пассфраза, мультисиг или SSSS

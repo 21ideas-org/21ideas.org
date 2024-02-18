@@ -13,4 +13,4 @@ weight: 3
 5. [Биткоин становится критически важным](/bitcoin-stanovitsya-kriticheski-vazhnym)
 6. [BIP47, или гадкий утенок](/bip47-ili-gadkij-utenok)
 7. [Понимание приватности в сети Биткоин с помощью OXT](/privacy/oxt)
-8. [Понимание и использование CoinJoin в сети Биткоин](/coinjoin-pandul)
+8. [Понимание и использование CoinJoin в сети Биткоин](/privacy/coinjoin)
