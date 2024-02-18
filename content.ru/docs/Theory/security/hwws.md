@@ -40,7 +40,7 @@ weight: 6
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| SatoshiLabs | 2014 | [₽11,400](https://sunscrypt.ru/catalog/trezor/trezor-one/) | Начинающих | Trezor Suite |
+| SatoshiLabs | 2014 | [₽11,400](https://sunscrypt.ru/catalog/trezor/trezor-one/) | Начинающих | [Trezor Suite](https://trezor.io/trezor-suite) |
 
 ---
 
@@ -84,7 +84,7 @@ weight: 6
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| SatoshiLabs | 2018 | [₽28,500](https://sunscrypt.ru/catalog/trezor/trezor-model-t/) | Начинающих | Trezor Suite |
+| SatoshiLabs | 2018 | [₽28,500](https://sunscrypt.ru/catalog/trezor/trezor-model-t/) | Начинающих | [Trezor Suite](https://trezor.io/trezor-suite) |
 
 ---  
 
@@ -136,7 +136,7 @@ weight: 6
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| Ledger | 2022 | [₽11,400](https://sunscrypt.ru/catalog/ledger-nano-s-plus/) | Начинающих | Ledger Live |
+| Ledger | 2022 | [₽11,400](https://sunscrypt.ru/catalog/ledger-nano-s-plus/) | Начинающих | [Ledger Live](https://www.ledger.com/ledger-live) |
 
 ---
 
@@ -184,7 +184,7 @@ weight: 6
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| Ledger | 2019 | [₽18,050](https://sunscrypt.ru/catalog/ledger-nano-x/) | начинающих | Ledger Live |
+| Ledger | 2019 | [₽18,050](https://sunscrypt.ru/catalog/ledger-nano-x/) | начинающих | [Ledger Live](https://www.ledger.com/ledger-live) |
 
 ---
 
@@ -290,7 +290,7 @@ _Следуйте надписям на устройстве, указывающ
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| Blockstream | 2021 | [₽10,450](https://sunscrypt.ru/catalog/jade/) | Начинающим | Blockstream Green |
+| Blockstream | 2021 | [₽10,450](https://sunscrypt.ru/catalog/jade/) | Начинающим | [Blockstream Green](https://blockstream.com/green/) |
 
 ---
 
@@ -348,7 +348,7 @@ _Следуйте надписям на устройстве, указывающ
 
 | **Производитель** | **Год выпуска** | **Цена** | **Подходит для** | **Нативное приложение** |
 |---------------|-------------|------|--------------|---------------------|
-| Shift Crypto | 2019 | [₽14,250](https://sunscrypt.ru/catalog/brand-bitbox-bitbox02/) | Начинающих | BitBoxApp |
+| Shift Crypto | 2019 | [₽14,250](https://sunscrypt.ru/catalog/brand-bitbox-bitbox02/) | Начинающих | [BitBoxApp](https://shiftcrypto.ch/download/) |
 
 ---
 
