@@ -1,63 +1,62 @@
 ---
-title: "Обзор процесса CoinJoin"
-h1: "Обзор процесса CoinJoin"
+title: "CoinJoin Overview"
+h1: "CoinJoin Overview"
 cover: /img/cj-810.jpg
-description: "Транзакции в сети Биткоин являются публичными по своей природе, в данной статье мы рассмотрим варианты сокрытия своих экономических взаимодействий."
+description: ""
 url: privacy/coinjoin
-aliases: ['/privacy-coinjoin']
 date: 2020-03-15
-bookHidden: true 
+bookHidden: false 
 bookFlatSection: false
-weight: 3
+weight: 7
 ---
 
-Транзакции в сети Биткоин являются публичными по своей природе, в данной статье мы рассмотрим варианты сокрытия своих экономических взаимодействий.
-
 {{< hint btc >}}
-_Данный обзор подготовлен основателем проекта_ [_bitcoin-only.com_](https://bitcoin-only.com/)_,_ [_6102_](https://twitter.com/6102bitcoin) _и переведен биткоинером_ [_Tony ₿_](https://twitter.com/TonyCrusoe)_. Оригинал статьи можно найти [здесь](https://6102bitcoin.com/coinjoin-overview/). [Поддержать проект](/contribute/)._
+This article by [@BitcoinOnly_](https://twitter.com/BitcoinOnly_) and [@6102bitcoin](https://twitter.com/6102bitcoin) was published on [6102bitcoin.com](https://6102bitcoin.com/coinjoin-overview/) website.
+
+[Contribute](/contribute/).
 {{< /hint >}}
 
-# Справка
+# Background
 
-Транзакции в сети Биткоин являются публичными по своей природе; они демонстрируют связь входных (неизрасходованные utxo) и выходных данных (новые неизрасходованные utxo) таким образом, чтобы каждый, у кого есть доступ к Биткоин-блокчейну (история транзакций) мог их проследить. Тем не менее, в силу того, что Биткоин-транзакции — не то же самое, что и биткоин-платежи, интерпретация этих транзакций и блокчейна является нетривиальной задачей.
+Bitcoin transactions are public by nature; they map inputs (unspent utxo’s) to outputs (new unspent utxo’s) in a way that is auditable by anyone with access to the bitcoin blockchain (the history of transactions). Yet interpreting these transactions and the Blockchain is a non-trivial task, because Bitcoin transaction are not equivalent to Bitcoin payments.
 
-# Проблема
+# The Problem
 
-Так как каждый желающий может просмотреть связи между входными и выходными данными транзакций, кто угодно может проанализировать транзакции в попытке связать несколько Биткоин-адресов с определенным субъектом. Этот процесс иногда называют кластеризацией (clustering).  
+Because anyone can see the links between transaction inputs and outputs it’s possible for anyone to analyse previous and future transaction behavior in an attempt to link multiple Bitcoin addresses to the same entity, this process is sometimes called clustering.
 
-Некоторые, так называемые, “анализирующие цепочку” компании специализируются на подобном анализе Биткоин-блокчейна. Одними из известных примеров являются Chainalysis & Crystal.  
+Some companies specialize in this kind of analysis of the bitcoin blockchain and are known as ‘Chain Analysis’ companies. Some well known examples are Chainalysis & Crystal.
 
-Эти компании утверждают, что целью подобной кластеризации является "выявление мошенничества" или "раскрытие преступной деятельности". Несмотря на все их усилия, весьма вероятно, что в какой-то момент они ошибутся при определении владельца объекта, что приведет к неправомерному осуждению, так как правоохранительные органы слепо доверяют этим системам.  
+These companies claim that the purpose of this clustering is to ‘detect fraud’ or ‘identify criminals’. Despite their best efforts it is highly likely that they will at some point misidentify the owner of a utxo resulting in wrongful conviction as law enforcement blindly trusts these systems.
 
-С другой стороны, злоумышленники, желающие идентифицировать людей с целью шантажа или получения выкупа, сами могут прибегнуть к кластеризации.  
+Alternately, clustering could just as easily be done by malicious adversaries who wish to identify people to target for ransom or blackmail.
 
-Потенциальные злоумышленники могут преднамеренно инициировать транзакции с целью обмана компаний, занимающихся анализом цепочки. Это может привести к ошибкам в идентификации пользователей, позволяя злоумышленникам избежать обнаружения или переложить вину на невиновного (в конце концов, кто будет искать доказательства после поимки преступника?).  
+Future criminals may intentionally create transactions in order to trick chain analysis companies into misidentifying users, allowing them to evade detection or shift the blame to an innocent person (after all, who continues searching for evidence after the criminal has been caught?)
 
-Важно обратить внимание на то, что пользователь, чьи транзакции/utxo подверглись кластерингу, не будет об этом осведомлен. При этом, след, оставляемый в блокчейне каждой транзакцией стереть невозможно.
+Crucially, a user whose transactions / utxo’s have been clustered will be unaware that this has happened and once the transactions have been made it is impossible to erase the trail on the blockchain.
 
-# Решение
+# The Solution
 
-К счастью, в 2013 году Грег Максвелл представил инновационный метод запутывания ончейн связей между неизрасходованными транзакциями (utxo). Он назвал этот метод CoinJoin.  
+Fortunately an innovative method of obfuscating the on-chain links between utxo’s was explained by Greg Maxwell back in 2013 - he called it CoinJoin.
 
-Основная идея заключается в том, что сделка создается с использованием входных данных, предоставленных несколькими пользователями.  
+The basic idea is that a transaction is created with inputs from multiple users.
 
-Транзакция построена таким образом, что стороне, анализирующей блокчейн, не представляется возможным определить какому из пользователей принадлежит тот или иной выход.  
+The transaction is constructed such that it is not possible for someone analyzing the blockchain to determine which output belongs to which user.
 
-Рассмотрим следующий пример.
+Let us look at a worked example;
 
-Элис, Боб и Чарли — три отдельных пользователя сети Биткоин, собирающиеся смешать свои utxo при помощи CoinJoin.  
+Alice, Bob and Charlie are three individual bitcoin users looking to CoinJoin their utxo’s
 
-- Ввод 1: 0.1 BTC utxo Элис с биржи.
-- Ввод 2: 0.1 BTC utxo Боба от продажи бейсбольной карточки онлайн.
-- Ввод 3: 0.1 BTC utxo Чарли, который он хочет однажды подарить своей дочери.  
+- Input 1: Alice’s 0.1 BTC utxo from an exchange.
+- Input 2: Bob’s 0.1 BTC utxo from the sale of a baseball card to a guy online.
+- Input 3: Charlie’s 0.1 BTC utxo which he wants to one day give to his baby daughter.
 
-Справочная информация о причинах использования CoinJoin каждым участником:  
+Background information on why each participant wants to mix:
 
-- Элис не хочет, чтобы биржа отслеживала ее расходы.
-- Боб не хочет, чтобы бейсбольный фанат видел, сколько у него биткоинов.
-- Чарли живет в деспотической стране, где обладание биткоином незаконно.
+- Alice doesn’t want the exchange to monitor her spending.
+- Bob doesn’t want the baseball guy to see how much bitcoin he has.
+- Charlie he lives in a despotic country where owning bitcoin is illegal.
 
-Транзакция CoinJoin принимает эти три ввода и создает транзакцию, которая создает 3 новых вывода.
+The CoinJoin transaction takes these three inputs and constructs a transaction which creates 3 new outputs
 
 ```
 Input 1: 0.1 BTC (Alice)        Output 1: 0.1 BTC
@@ -65,149 +64,149 @@ Input 2: 0.1 BTC (Bob) 	    ->  Output 2: 0.1 BTC
 Input 3: 0.1 BTC (Charlie)      Output 3: 0.1 BTC
 ```
 
-Стороне, анализирующей данную транзакцию, невозможно определить какому из пользователей принадлежит тот или иной вывод.
+It is not possible for someone analyzing this transaction to identify which output is owned by which user.
 
-# Детали
+# The Details
 
-Процесс CoinJoin, представленный выше, запутывает связи между ончейн транзакциями. Это — хорошее начало, но дьявол, как говорится, прячется в деталях.  
+The CoinJoin process explained above obfuscates the on-chain links. This is a start - but as with many things the devil is in the details.
 
-Давайте разобьем процесс участия в CoinJoin на 3 стадии.  
+Lets break the process of participating in a CoinJoin down into 3 stages.
 
-- Этап 1 | Премикс: Как сохранить конфиденциальность при добавлении входных данных в CoinJoin.
-- Этап 2 | Микс: Как сохранить конфиденциальность во время самой процедуры CoinJoin.
-- Этап 3 | Пост-микс: Как сохранить конфиденциальность при использовании транзакций после процедуры CoinJoin.
+- Stage 1 | Pre-Mix : How you put inputs into a CoinJoin in a privacy preserving way
+- Stage 2 | Mix : How the CoinJoin itself happens in a privacy preserving way
+- Stage 3 | Post-Mix : How you use the CoinJoin outputs in a privacy preserving way
 
-## Этап 1 | Премикс
+## Stage 1 | Pre-mix
 
-Я в ближайшем времени добавлю информацию о первом этапе.
+I will add information about Stage 1 in the near future.
 
-## Этап 2 | Микс
+## Stage 2 | Mix
 
-Сохранение конфиденциальности во время процедуры CoinJoin.  
+How the CoinJoin itself happens in a privacy preserving way.
 
-Осуществление сделки CoinJoin должно быть скоординировано. В результате разбора возможных координационных подходов, мы получаем следующий результат:
+Someone has to coordinate the construction of the CoinJoin transaction, lets work through the possible coordination approaches. We will end up with the following result:
 
-|Подход|Гарантированный риск потери конфиденциальности|Гарантированный риск потери биткоинов|
+|Approach|Guaranteed Risk of Privacy Loss|Guaranteed Risk of Bitcoin Loss|
 |---|---|---|
-|1|Да|Да|
-|2|Да|Нет|
-|3|Нет|Нет|
+|1|Yes|Yes|
+|2|Yes|No|
+|3|No|No|
 
-### Координационный подход 1
+### Coordination Approach 1
 
-(ПРЕДУПРЕЖДЕНИЕ: **НЕ ИСПОЛЬЗУЙТЕ ДАННУЮ ПРАКТИКУ**)
+(WARNING - **DO NOT DO THIS**)
 
-Если Элис, Боб и Чарли знакомы и всецело доверяют друг другу как свои биткоины, так и собственную конфиденциальность, то любой из них может, приложив минимальные усилия, скоординировать эту сделку.  
+If Alice, Bob and Charlie are acquainted and fully trust each other with their bitcoin and their privacy then any one of them could coordinate the construction of this transaction with minimal effort.
 
-Все они делятся приватными ключами к собственным монетам, один из пользователей импортирует все монеты в один кошелек и совершает сделку, после выплачивая необходимую сумму остальным пользователям на новый адрес каждого из участников.  
+They would all share the raw private keys of their coins, one user would import these coins into a wallet and make a transaction paying out to each users new address.
 
-При таком подходе существует явный и реальный риск потери как конфиденциальности, так и биткоинов.  
+With this approach there is a clear and present risk of both privacy loss & bitcoin loss.
 
-- Потеря конфиденциальности: При таком подходе участник, координирующий CoinJoin, ДОЛЖЕН знать все связи между входными и выходными данными. Таким образом, остальные участники CoinJoin доверяют координирующему свою конфиденциальность.  
+- Privacy Loss: With this approach the peer constructing the CoinJoin is REQUIRED to know all the links between inputs and outputs, thus the other members of the CoinJoin are trusting their peer with their privacy.
     
-- Потеря биткоинов: При таком подходе участник, координирующий CoinJoin, ДОЛЖЕН иметь доступ к каждому вводу. Таким образом, на время процесса CoinJoin остальные участники доверяют координирующему свои биткоины.
+- Bitcoin Loss: With this approach the peer constructing the CoinJoin is REQUIRED to be able to spend each input, thus the other members of the CoinJoin are trusting their peer with their bitcoin while the CoinJoin is underway.
 
-### Координационный подход 2a
+### Coordination Approach 2a
 
-Относительно лучше подход, при котором один член группы получает необходимую информацию от каждого пользователя и создает транзакцию, которую каждый пользователь затем подписывает индивидуально.  
+An incremental improvement would be for one member of the group to collect the required information from each user and create a transaction which each user then individually signs.
 
-При таком подходе существует явный и реальный риск потери конфиденциальности.  
+With this approach there is a clear and present risk of privacy loss.
 
-- Потеря конфиденциальности: При данном подходе участник, координирующий процесс CoinJoin, ДОЛЖЕН знать все связи между входными и выходными данными. Таким образом, другие члены CoinJoin доверяют этому участнику свою конфиденциальность.  
-    
+- Privacy Loss: With this approach the peer constructing the CoinJoin is REQUIRED to know all the links between inputs and outputs, thus the other members of the CoinJoin are trusting their peer with their privacy.
 
-Однако, преимущество такого подхода заключается в том, что участники не рискуют потерять собственные биткоины.  
+However, the benefit with this approach is that it does not REQUIRE users to risk loss of bitcoin.
 
-Это не означает, что для инструмента CoinJoin, использующего данный подход, не представляется возможным украсть/потерять монеты. Этот подход, скорее, предоставляет ВОЗМОЖНОСТЬ проектировки инструмента CoinJoin таким образом, чтобы исключить риск потери биткоина.
+This is not to say that it’s impossible for a CoinJoin tool using this approach to steal/lose bitcoin, rather that this approach makes it POSSIBLE that the CoinJoin tool can be designed in such a way as to eliminate the risk of bitcoin loss.
 
-### Координационный подход 2б
+### Coordination Approach 2b
 
-Еще одним направлением совершенствования этой схемы является то, при котором центральный координационный орган обладает информацией о связях между входными и выходными данными, но не о сторонах, вовлеченных в процесс.  
+Another direction to improve this scheme is, if a central coordinating actor knows the mapping, instead of the parties involved.
 
-Риски потери приватности и биткоинов при использовании данного подхода аналогичны таковым при подходе 2a.
+This has much the same privacy / bitcoin loss risks as approach 2a.
 
-### Координационный подход 3
+### Coordination Approach 3
 
-Более предпочтительной была бы возможность участников координировать построение сделки, не будучи вынужденными доверять друг другу ни свою приватную информацию, ни собственные монеты.  
+It is clearly preferable if Alice, Bob and Charlie can coordinate the construction of a transaction without having to trust anyone with either their privacy or their bitcoin.
 
-Координация процесса без потери конфиденциальности участников может быть достигнута путем использования так называемых “[слепых подписей](https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B5%D0%BF%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%8C)”. Это позволяет каждому участнику:
+Private coordination can be achieved by using blinded signatures to construct the transaction in such a way that each participant;
 
-- Иметь полный контроль над своими монетами в любое время.
-- Быть единственным обладателем информации о собственных выходных данных.
+- Retains full control of their bitcoin at all times
+- Is the sole individual who knows which output belongs to them
 
-Я не буду вдаваться в подробности (по крайней мере, на данный момент), но достаточно сказать, что этот подход как осуществим, так и более предпочтителен, чем координационные подходы 1 или 2.  
+I won’t go into the details here (at least not for now) but suffice to say that this **is possible** and much better than Coordination Approach 1 or 2.
 
-Опять же, это не означает, что для инструмента CoinJoin, использующего данный подход, не представляется возможным украсть/потерять монеты, либо оказаться подверженным рискам, связанным с конфиденциальностью. Этот подход, скорее, предоставляет ВОЗМОЖНОСТЬ проектировки инструмента CoinJoin таким образом, чтобы исключить риск потери биткоина и конфиденциальности.
+Again, this is not to say that it’s impossible for a CoinJoin tool using this approach to steal/lose bitcoin / have privacy risks, rather that this approach makes it POSSIBLE that the CoinJoin tool can be designed in such a way as to eliminate the risk of privacy loss / bitcoin loss.
 
-**ВНИМАНИЕ**
+**Important Note**
 
-Координационный подход 3 предоставляет возможность координации процесса CoinJoin таким образом, чтобы его участники могли сохранить собственную конфиденциальность. Тем не менее, это только один из этапов процесса и, таким образом, он не гарантирует приватность всего процесса CoinJoin.  
+Coordination Approach 3 makes it **possible** to **coordinate** the CoinJoin without the user losing any privacy. That said, this is **just one stage** of the process and thus **does not guarantee** that the whole CoinJoin process is private.
 
-Другими словами, координационный подход 3 необходим для полной конфиденциальности сети, но одного его недостаточно.
+Put another way, Coordination Approach 3 is **required** for complete network privacy, but is not **sufficient**.
 
-## Этап 3 | Пост-Микс
+## Stage 3 | Post-mix
 
-В ближайшее время я добавлю информацию о третьем этапе.
+I will add information about Stage 3 in the near future.
 
-# Реализации
+# The Implementations
 
-Имело место много проектов, которые пытались сделать CoinJoin неизрасходованных транзакций пользователей возможным. В настоящее время активны 3 из них:  
+There have been many projects which attempted to make it possible for users to CoinJoin their utxos, the three that are currently active are:
 
 - [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver)
-- [Wasabi](https://wasabiwallet.io/)
+- [Wasabi](https://wasabiwallet.io)
 - [Whirlpool](https://github.com/Samourai-Wallet/Whirlpool)
 
-Я постараюсь вкратце описать каждый инструмент.
+I will attempt to provide a brief explanation of each tool.
 
 ## Joinmarket
 
-Основной принцип работы JoinMarket основан на том, что рынки являются эффективным способом стимулирования пользователей к CoinJoin.  
+The core principle of JoinMarket is that markets are an efficient way to incentivize users to CoinJoin.
 
-- Этап 1 | Пре-микс: Блокчейн-коммуникации осуществляются через Bitcoin Core и, опционально, через Tor.
-- Этап 2 | Микс: координационный подход 2/a
-- Этап 3 | Пост-микс : Bitcoin Core
+- Stage 1 | Pre-Mix : Blockchain communications done over Bitcoin Core and optionally over Tor
+- Stage 2 | Mix : Coordination Approach 2/a
+- Stage 3 | Post-Mix : Bitcoin Core
 
-[Википедия](https://en.bitcoin.it/wiki/JoinMarket) исчерпывающе описывает данный процесс:
+The [wiki](https://en.bitcoin.it/wiki/JoinMarket) describes this eloquently:
 
-_Процедура CoinJoin подразумевает участие более, чем одного пользователя. Достаточное количество соответствующих ресурсов (монет) должно быть в определенном месте в определенное время. Эта проблема связана не с программным обеспечением, она не является технической, это — экономическая проблема. JoinMarket предоставляет новый вид рынка, который наилучшим образом распределяет эти ресурсы._  
+> _A CoinJoin transaction requires other people to take part. The right resources (coins) have to be in the right place, at the right time, in the right quantity. This isn’t a software or tech problem but an economic problem. JoinMarket works by creating a new kind of market that allocates these resources in the best way._  
 
-_Модель [JoinMarket] основывается на предоставлении возможности оплаты CoinJoin-операций. С одной стороны — обладающие низким временны́м предпочтением участники CoinJoin, собирающие комиссию с участников, желающих присоединиться к процессу. Их называют маркет-мейкерами. С другой стороны — участники CoinJoin с высоким временны́м предпочтением, которые готовы заплатить за возможность мгновенно принять участие в операции. Этих участников называют маркет-тейкеры._
+> _This works by allowing coinjoin transactions to be paid-for. On one side there are time-rich coinjoiners who collect fees when other peers create coinjoins with them, called market makers. On the other side there are time-stressed coinjoiners who can coinjoin instantly and pay a fee, called market takers._
 
-Проще говоря, JoinMarket позволяет одним частным лицам платить другим лицам с целью смешивания монет. В силу того, что данный рынок является свободным, здесь присутствует конкуренция.  
+Put simply, JoinMarket makes it possible for individuals to pay other individuals to mix with them. Because this is a free market there are competitive fees.
 
-Мне не удалось уделить достаточно времени запуску JoinMarket — не смотря на наличие исчерпывающей информации, запуск требует определенной вовлеченности. Я предоставлю более подробный обзор/сравнение при первой возможности теста программного обеспечения, но предлагаю вам также обратить внимание на данный ресурс.
+I haven’t dedicated enough time to getting JoinMarket running - the documentation is thorough but somewhat involved. I will provide a more detailed review / comparison once I have tested the software myself - In the meantime I encourage you to give it a go also.
 
 ## Wasabi
 
-Wasabi представляет из себя кошелек, который позволяет получать, миксовать и отправлять биткоины.  
+Wasabi consists of a wallet which allows you to receive bitcoin, optionally mix, and then send bitcoin.
 
-- Этап 1 | Пре-микс: Всё общение осуществляется через Tor и Блок-фильтры [BIP 158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki) (см. примечание).
-- Этап 2 | Микс: координационный подход 3
-- Этап 3 | Пост-микс : utxo маркировка и контроль монет, трансляция посредством сети Tor через случайную ноду  
-  
+- Stage 1 | Pre-Mix : All communication done over Tor, [BIP 158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki) Block Filters (_see note_)
+- Stage 2 | Mix : Coordination Approach 3
+- Stage 3 | Post-Mix : utxo labelling & coin control, broadcast over Tor via random node
 
-Из [документов Wasabi](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-bip-158-block-filters):
+_Note on BIP 158_
 
-_Координатор Wasabi пришлет вам [...] блок-фильтры, и вы локально проверите, содержит ли блок транзакцию с вашими монетами. Если нет, то фильтр сохраняется для последующего использования и синхронизации новых кошельков. Если да, то кошелек подключится к случайной пиринговой полной Биткоин-ноде чтобы запросить весь блок. […] Для загрузки каждого блока Wasabi устанавливает новую уникальную учетную запись Tor. Это означает, что выявить факт принадлежности загрузки всех блоков одному субъекту будет сложно._
+_From the [Wasabi Docs](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-bip-158-block-filters)_
 
-\* Примечание: использование BIP 158 не то же самое, что и использование собственной ноды. Вы вынуждены доверять, что:
+> _The Wasabi coordinator will send you … block filters, and you check locally if the block contains a transaction with your coins. If not, then the filter is stored for later reference and for syncing new wallets. If yes, then the wallet connects to a random Bitcoin peer-to-peer full node to request this entire block. … For every block download, Wasabi establishes a new and unique tor identity, meaning that it is not easy to link that it is the same entity downloading all these blocks._
 
-- Сервер Wasabi предоставляет вам верный фильтр
-- Сервер Wasabi не скрывает никаких фильтров
+_Note_: BIP 158 is not as good as running your own node. You trust
+
+- The Wasabi server gives you the correct filters
+- The Wasabi server to not withhold any filters
 
 ## Whirlpool
 
-Whirlpool — это инструмент для смешивания, который расширяет функциональность приложения Samourai Wallet (SW) для Android и включает в себя возможности CoinJoin.  
+Whirlpool is a mixing tool which extends the functionality of the Samourai Wallet (SW) application for Android to include CoinJoin capabilities.
 
-- Этап 1 | Пре-микс : Вся коммуникация осуществляется через Tor, возможность присоединения к собственной ноде или ноде разработчиков SW (см. примечание).
-- Этап 2 | Микс: координационный подход 3
-- Этап 3 | Пост-микс : utxo маркировка и контроль монет, трансляция посредством сетиу Tor через вашу собственную ноду или ноду разработчиков SW (см. примечание).  
+- Stage 1 | Pre-Mix : All communication done over Tor, Connect to own node or SW developers node (_see note_)
+- Stage 2 | Mix : Coordination Approach 3
+- Stage 3 | Post-Mix : utxo labelling & coin control, broadcast over Tor via your own node or SW developers node (_see note_)
 
-\* Примечание по использованию собственной ноды или ноды разработчиков SW:  
+_Note on using Own node or SW developers node_
 
-Если вы не подключитесь к собственной ноде, вы будете вынуждены доверять, что разработчики ПО не будут сохранять системные логи (я вскоре об этом расскажу)  
+Unless you connect to your own node you are trusting the SW developers not to log (I will expand on this in the near future)
 
-- Если вы используете SW, вам стоит запустить собственную DOJO ноду.
-- Если вы смешиваете и не подключены к своей ноде, вы рискуете собственной конфиденциальностью (опять же, вы доверяете разработчикам ПО не сохранять информацию)
-- Если вы смешиваете и подключены к собственной ноде, но микшируете исключительно с участниками, которые не подключены к своей ноде, имейте в виду, что вы доверяете разработчикам SW не хранить записи с целью извлечения какой-либо выгоды из вашей конфиденциальной информации.
-- Если вы смешиваете и подключены к своей ноде и микшируете по крайней мере с одним участником, который также подключен к своей ноде, вы получите некоторую выгоду в плане конфиденциальности даже при условии, что разработчики ПО сохранят информацию о процессе.
+- You should run your own DOJO node if you are using SW
+- If you are mixing and not connected to your own node you are at risk of damaging your privacy (again you are trusting the SW developers not to log)
+- If you are mixing and are connected to your own node but are exclusively mixing with participants who aren’t connected to their own node be aware that you are trusting SW developers not to log to gain any privacy benefit
+- If you are mixing and are connected to your own node and are mixing with at least one participant who is also connected to their own node you will still get some privacy benefit if the SW developers are logging
