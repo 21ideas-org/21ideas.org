@@ -1,87 +1,86 @@
 ---
-title: "Никаких KYC, берегите персональные данные"
-h1: "Никаких KYC! Избегай крадущейся твари"
+title: "no-KYC only. Avoid the creep"
+h1: "no-KYC only. Avoid the creep"
 cover: /img/188.jpeg
-description: "Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?"
+description: ""
 url: privacy/no-kyc
-aliases: ['/privacy-no-kyc']
 date: 2020-02-18
 bookFlatSection: false
 weight: 2
 ---
 
-Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?
-
 {{< hint btc >}}
-Перевод [статьи](https://bitcoinqna.github.io/noKYConly/) BitcoinQnA подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+This article by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoinqna.github.io](https://bitcoinqna.github.io/noKYConly) website.
+
+[Contribute](/contribute/).
 {{< /hint >}}
 
-### Что такое KYC?
+## What is KYC?
 
-KYC или "Знай своего клиента" - это регламент, который должен соблюдать любой бизнес, имеющий отношение к банковской деятельности. Покупка/продажа биткоинов не является исключением. Эти правила действуют по всему миру и направлены на то, чтобы компания, занимающаяся обменом/переводом денежных средств, имела "соответствующую" информацию о каждом обслуживаемом клиенте. 
+KYC or ‘Know your customer’ is a regulation that any businesses with a banking relationship has to abide by. Bitcoin exchanges are no different. These rules are imposed worldwide and are geared towards ensuring that a business acting as a money exchange and/or transmitter has ‘suitable’ information on every customer they serve.
 
-В Биткоин-пространстве, "подкрадывающийся KYC" — это постепенно прогрессирующая болезнь. Если вы совершаете покупку через одну из этих регулируемых организаций, вы, по сути, помечаете свои биткоин-адреса, привязывая их к собственной личности. Это позволяет фирмам, осуществляющим наблюдение за блокчейном, компаниям, с которыми они сотрудничают, или, что еще хуже, правительствам, потенциально:
+Within the Bitcoin space, ‘creeping KYC’ is a disease that is slowly spreading. If you purchase through one of these regulated entities, you essentially tag your bitcoin addresses to your personal identity. This makes it trivial for chain surveillance firms, the companies they work with, or worse, governments, to potentially…
 
-*   Отслеживать ваши привычки расходования средств;
-*   Предотвратить пользование другими регулируемыми сервисами;
-*   Конфисковать ваши биткоины;
-*   Повесить на вас налоговые обязательства;
-*   Как правило, знать о вас больше, чем следует.
+- Track your spending habits
+- Prevent you from using other regulated services
+- Confiscate your bitcoin
+- Come after you for tax liabilities
+- Generally know more about you than they should
 
-Я понимаю, что благодаря площадкам, предоставляющим услуги приобретения биткоинов при помощи стратегии DCA, накапливать сатоши стало намного проще. Я не говорю, что эти компании — отрицательные персонажи, далеко не все из них плохи. Я просто хочу, чтобы вы задумались о том, от чего вам приходится отказаться и чем рискнуть ради этой простоты. Дочитайте эту статью до конца и вам будет проще принять собственное взвешенное решение...
-
----
-
-## Какую информацию придется предоставить?
-
-Чтобы купить биткоины на бирже, следующей политике KYC, пользователи должны предоставить ту или иную персональную информацию. Количество требуемой информации варьируется от биржи к бирже: для некоторых, в случае незначительных операций, достаточно лишь имени (вы можете использовать псевдоним), другие же могут потребовать гораздо больше личных данных. Большинство бирж потребует какую-либо комбинацию из следующих данных:
-
-*   Имя;
-*   Адрес;
-*   Номер телефона;
-*   Водительские права;
-*   Паспорт;
-*   Селфи, держа в руках лист бумаги с названием биржи и датой регистрации;
-*   Видеозвонок с представителем биржи.
+We get it, auto DCA from a Bitcoin only company makes ‘stacking sats’ super simple and easy. We aren’t saying these companies are bad actors, far from it. We merely want you to think about what you have to give up or risk for this simplicity. Read on and come to your own conclusion…
 
 ---
 
-## Почему предоставление этой информации является рискованным?
+## What information will I have to provide?
 
-### Утечка данных
+To buy bitcoin from a KYC exchange, users will need to provide personal information. How much you need to supply varies from one to the next, some may require a simple name for small amounts (you could easily supply an alias) and others may require them all. Most will ask for any combination of the following…
 
-Информация KYC связывает вашу личность с любыми купленными вами биткоинами. Биржа знает...
-
-*   Сколько вы купили;
-*   Когда произошла покупка;
-*   Ваши банковские данные;
-*   Куда были выведены средства.
-
-Централизованное хранилище, владеющее конфиденциальной и персональной информацией миллионов людей, становится огромной приманкой для хакеров, а данные могут быть украдены в случае некомпетентного подхода к обеспечению безопасности или халатности одного из сотрудников. Представьте, что информация, содержащая ваше имя, адрес, фотографию и точное количества купленных вами биткоинов, украдена с биржи и продана на даркнет-рынке? Это звучит пугающе, но утечки данных происходят довольно часто!
-
-### Цензура
-
-Большинство из этих бирж, в той или иной форме сотрудничают с фирмами, занимающимися блокчейн-анализом и наблюдением (а некоторые — напрямую с правительственными органами!), чтобы обезопасить функционирование собственного бизнеса в выбранной юрисдикции. Абсолютно прозрачный характер Биткоин-блокчейна означает, что любой, у кого есть правильный набор инструментов (например, фирма по наблюдению за блокчейном), может следить за вашей деятельностью. Если вы снимаете деньги или вносите депозит со счетов, “не угодных” бирже, они могут заморозить или даже закрыть ваш счет. Не совсем соответствует принципам цензуроустойчивости, лежащим в основе Биткоина, не так ли?
-
-### Приказ в стиле №6102
-
-[Исполнительный приказ 6102](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D1%81%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D1%83_%D0%BD%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%A1%D0%A8%D0%90_%D0%B2_1933_%D0%B3%D0%BE%D0%B4%D1%83) - это указ, подписанный 5 апреля 1933 года президентом США Франклином Д. Рузвельтом, "запрещающий накопление золотых монет, золотых слитков и золотых сертификатов на территории континентальной части Соединенных Штатов Америки". 
-
-Если бы правительство в вашей стране приняло подобный указ против Биткоина, любой, кто купил биткоины через KYC-биржи, был бы легкой мишенью для конфискации. Отговорка о том, что вы "потеряли все свои биткоины при крушении лодки" не прокатит, когда вы находитесь под давлением спецслужб. Налоговые агентства по всему миру не берут на себя бремя доказывания невиновности индивида, а возлагают его на налогоплательщика. 
-
-Не говоря уже о том, что они будут знать адреса, на которые вы когда-либо отправляли свои биткоины и смогут следить за любыми перемещениями монет, связанных с этими адресами (не забывайте, что блокчейн абсолютно прозрачен). 
-
-Coinjoin может ввести следящих в заблуждение, скрыв окончательный адрес ваших монет, (если вы практикуете хорошие практики траты средств после миксования), но это не меняет того факта, что они точно знают, сколько вы купили биткоинов и когда вы это сделали.
+- Name
+- Address
+- Phone number
+- Drivers license
+- Government ID
+- A selfie holding a piece of paper with the name of the exchange and the date
+- A video call with the exchange
 
 ---
 
-## Есть ли у меня другие варианты?
+## Why is providing this information a risk?
 
-К счастью, есть несколько вариантов покупки биткоинов, без необходимости предоставлять личные данные. Все это — P2P (peer to peer) биржи, где вы торгуете напрямую с другими лицами, а не с централизованной третьей стороной. Некоторые из низ продают не только биткоины, но и другие монеты, так что будьте внимательны.
+### Data leaks
+
+KYC information ties your personal identity to any bitcoin you purchase. The exchange knows…
+
+- How much you bought
+- When you bought it
+- Your banking information
+- Where you withdraw to
+
+A central party holding millions of people’s sensitive and personal information creates a huge honey pot at risk of being stolen due to incompetent security practices at some of these companies. How would you feel if your name, address, photo and exactly how much Bitcoin you own was stolen from an exchange and being sold to the highest bidder on a darknet market? This sounds like scaremongering but data leaks happen all too often!
+
+### Censorship
+
+Most of these exchanges work, in some shape or form, directly with chain surveillance firms (and some, directly with government agencies!) to remain compliant in their chosen jurisdiction. The completely transparent nature of the Bitcoin blockchain means that anyone with the correct toolset (such as a chain surveillance firm) can follow your activity. If you withdraw to, or deposit from an entity that the exchange does not like, they can freeze or even close your account. Not exactly fitting with the censorship resistant properties that Bitcoin is renowned for!
+
+### 6102 type order
+
+[Executive Order 6102](https://en.wikipedia.org/wiki/Executive_Order_6102) is an executive order signed on April 5, 1933, by US President Franklin D. Roosevelt “forbidding the hoarding of gold coin, gold bullion, and gold certificates within the continental United States.”
+
+If the government in your country were to exercise a similar order against Bitcoin, anyone who bought bitcoin via a KYC source would be an easy target for confiscation. The excuse that you ‘lost it in a boating accident’ isn’t going to get you far when under duress from a three letter agency. Tax agencies worldwide put the onus on the individual to prove innocence, it isn’t for them to prove that you haven’t paid tax.
+
+Not to mention the fact that they will know the addresses you withdrew to and could watch those for any movements (The blockchain is completely transparent don’t forget).
+
+Coinjoin can obfuscate the final address of your coins if you practice good postmix spending habits, but this does not change the fact that they know exactly how much you bought and when you bought it.
+
+---
+
+## Do I have any other options?
+
+Thankfully there are some options out there to purchase Bitcoin via no KYC sources. These are all P2P (peer to peer) exchanges where you are trading directly with another individual and not a centralised third party. Unfortunately some sell other coins as well as bitcoin so we urge you to take care.
 
 {{% image "/img/189.png" /%}}
 
-*   [HODL HODL](https://hodlhodl.com/join/TONYB) (подробный гид по использованию площадки можно найти [здесь](/hodl-hodl)).
+*   [HODL HODL](https://hodlhodl.com/join/TONYB)
 
 {{% image "/img/190.png" /%}}
 
@@ -95,68 +94,72 @@ Coinjoin может ввести следящих в заблуждение, с�
 
 *   [Local Coin Swap](https://localcoinswap.com/)
 
-Больше опций вы можете найти на [_KYC? Not me!_](https://kycnot.me/)
+You can find more at [KYC, not me!](http://kycnot.me) and [here](https://github.com/cointastical/P2P-Trading-Exchanges/)
 
-### Биткоин-банкоматы
+### Bitcoin ATMs
 
-Банкоматы - это еще один отличный вариант, но пользуйтесь ими с осторожностью, так как некоторые из них все еще требуют различной степени идентификации в зависимости от приобретаемой суммы. Многие потребует только номер телефона, так что убедитесь, что вы используете тот, который не привязан к вашим персональным данным. Загляните на [Coin ATM Radar](https://coinatmradar.com/) — там можно получить информацию о том, что доступно в вашем регионе.
-
----
-
-## Неужели покупка биткоинов без учета KYC не сопровождается высокой премией?
-
-Вы, безусловно, увидите некоторые предложения по покупке биткоинов на P2P биржах с очень высокой премией по сравнению со спотовой ценой на централизованных биржах. Однако, если вы достаточно терпеливы, вы сможете купить либо по спотовой цене, либо с небольшой (1-4%) наценкой. И Bisq и Hodl Hodl позволяют вам создать "Предложение на покупку", которое, по сути, заключается в том, что вы сообщаете рынку, что вы хотите купить "X" количество биткоинов по "X%" по отношению к спотовой цене. Всё, что вам нужно сделать — это дождаться, пока продавец примет ваше предложение и завершит сделку.
-
-Я лично придерживаюсь такого подхода и никогда не ждал больше дня, пока кто-то примет предложение с премией около 2-4%, которую с радостью можно заплатить, учитывая массивное увеличение уровня приватности.
+ATM’s are another great option, but use with caution as some still require varying levels of identification depending on the amount being purchased. A lot will just require a phone number so ensure you use one that is not tagged to your personal identity. Check out [Coin ATM Radar](https://coinatmradar.com/) for a great overview of what is available in your local area.
 
 ---
 
-## Мыслительный эксперимент в отношении не-KYC "премии".
+## Doesn’t buying no-KYC bitcoin come with a hefty premium?
 
-Если вы когда-либо продавали биткоины на централизованной бирже, в зависимости от вашей юрисдикции, вы, скорее всего, заплатили/заплатите около 20% от вашей прибыли в виде налога на прирост капитала (или эквивалентного налога на добавленную стоимость. Если вы купите 1 BTC за $10,000 и продадите за $20,000, вы обязаны заплатить около $2000 в виде налогов.
+It is absolutelty true that you will see some offers to purchase bitcoin on P2P exchanges for some **very** high premiums over the spot price. However if you are patient enough you can pick some up at spot or just marginally (1-4%) above. Both Bisq and Hodl Hodl allow you to create a ‘Buy offer’ which is essentially, you telling the market that you want to buy ‘X’ amount of bitcoin at ‘X%’ relative to the spot price. All you need to do then is wait for a seller to accept your offer and complete the trade.
 
-Если бы вы купили тот же самый 1 BTC с 4% премией относительно $10,000 спотовой цены, вы бы заплатили $10,400 за то же количество сатоши, и единственный человек, который знает, о вашей покупке, является вашим торговым контрагентом. 
-
->  _Налоговое законодательство в странах СНГ пока еще не устоялось, но не стоит легкомысленно к этому относиться; важно думать на несколько шагов вперед и быть готовым к возможным последствиям владения биткоином_
+We personally take this approach and have never waited for more than a day for someone to accept the offer of around 2-4% premium, which we are all too happy to pay for the vast increase in privacy gained.
 
 ---
 
-## Как еще я могу получить биткоин не следуя KYC-регламенту?
+## A thought experiment regarding the no-KYC ‘premium’
 
-Существует несколько способов, каждый из которых имеет свой уровень сложности...
+If you ever sell KYC bitcoin, depending on your jurisdiction, you will likely pay around 20% of your gain in Capital Gains Tax (or equivalent VAT/GST obligations). If you buy a 1 BTC at $10,000 and sell at $20,000, you are liable to pay around $2000 in taxes.
 
-*   Зарабатывать биткоины;
-*   Обменивать ненужные товары на биткоины;
-*   Покупать у знакомого или на местных Биткоин-конференции;
-*   Предоставлять ценность обществу и создать [страницу донатов](/contribute);
-*   Оплачивать ужин с друзьями, и предлагать им возместить ваши расходы в биткоине (возможно, с небольшой скидкой?);
-*   Майнить (обратите внимание на этот замечательный [PDF](https://keybase.pub/diverterbtc/Mining%20for%20the%20Streets.pdf) о гаражном майнинге).
+If you bought that same 1 BTC with a 4% premium over the $10,000 spot price you would have paid $10,400 for the same amount of sats and the only person who knows you own them is your trade counterparty.
 
 ---
 
-## Что такое KYC-"дробовик"?
+## How else can I get some no-KYC bitcoin?
 
-Это прием, в котором биржа предлагает регистрацию аккаунта без KYC и впоследствии запрашивает его у пользователей, когда они пытаются вывести средства. Вы можете избежать этого, обходя централизованные биржи стороной и придерживаясь P2P опций, перечисленных выше.
+There are a number of ways, each with varying levels of difficulty and complexity…
+
+- Earn it
+- Sell unwanted goods for it
+- Buy it from a friend or at a local meetup
+- Provide value to others and have a [donations](/contribute) page
+- Pay for dinner when out with friends and ask them to reimburse you via bitcoin (perhaps for a slight discount?)
+- Mine it (check out [this](https://diverter.hostyourown.tools/mining-for-the-streets/) great piece on garage mining)
 
 ---
 
-## Могу ли я “отмыться” от KYC?
+## What is ‘shotgun’ KYC?
 
-После того, как вы приобрели Bitcoin у источника, следующего KYC-регламенту, вы никогда не сможете этого отменить. Даже с такими передовыми технологиями, как Coinjoin, которые создают перспективную конфиденциальность. У вас есть лишь два основных варианта...
+This is where an exchange offers account signup without KYC and subsequently requests it from users when they try to withdraw funds. You can avoid this by steering clear of centralised exchanges with a single point of failure and sticking with P2P options listed above.
 
->  _Возвращайся, как пришёл, и начни с чистого листа..._
+---
 
-Продай свои монеты, купленные на KYC-бирже. В зависимости от вашей юрисдикции, это, скорее всего, создаст налогооблагаемое событие, с которым вам придется смириться, но у вас появится вся необходимая документация, чтобы доказать, что вы больше не владеете этими монетами. Этот процесс позволит вам начать получать биткоины “с чистого листа”, не используя KYC-сервисы, зная, что вы больше не подвержены рискам, описанным выше (за исключением утечки данных, так как регулируемые органы обязаны по закону хранить эти записи некоторое время).
+## Can I un-KYC myself?
 
-### Храни два стека
+Once you have purchased Bitcoin from a KYC source you can **never** undo that. Not even with advanced techniques like Coinjoin that create forward looking privacy. You have three main options…
 
-Немедленно прекратите покупку биткоинов из KYC-источников и полностью отделите и промаркируйте эти средства. Начните получать биткоины через источники, не следующие политике KYC, гарантируя полное разделение этих двух стеков. Этот вариант все еще оставляет вас уязвимым к некоторым рискам, описанным ранее, но может быть более приемлемым для тех, кто имеет меньшие суммы, приобретенные на KYC-биржах или не хочет сиюминутно продавать биткоины и иметь дело с налогообложением.
+### Go back out the way you came and start fresh
 
-## KYC опасно, неэффективно и подвергает каждого риску.
+Sell your KYC bought coins back at the exchange you bought them from. Depending on your jurisdiction, this will likely create a taxable event that you will need to contend with but you will then have a paper trail to prove you no longer own those coins. This process provides you with a ‘clean start’ from which you can begin obtaining bitcoin via a non-KYC source, safe in the knowledge that you are no longer at vulnerable to the risks outlined above (apart from the data leaks as the regulated entities are required by law to hold these records for a while).
 
-### Избегай этой крадущейся твари.
+### Keep two stacks
 
-## Никаких KYC!
+Cease purchasing bitcoin via KYC sources immediately and completely segregate and label those funds. Start obtaining bitcoin via a non-KYC source, ensuring you maintain complete segregation. This option still leaves you vulnerable to some of the risks outlined above but may be more paletable for those with smaller KYC amounts or those not wanting to sell and deal with taxable events.
+
+You should also consider coinjoining your KYC stack. This will not erase your KYC history but it would give forward looking privacy for future transactions. Whirlpool is by far the easiest and most effective coinjoin implementation, learn more [here](https://www.bitcoinqna.com/post/whirlpool-faq).
+
+### Move jurisdictions
+
+This is more on the extreme end of the spectrum, but moving jurisdictions could be an option to free you from future obligations. Of course this is not a 100% guarantee as certain jurisdictions may have information sharing agreements (the EU for example).
+
+## KYC is dangerous, ineffective and puts people at risk.
+
+### Avoid the creep.
+
+### no-KYC only.
 
 {{% image "/img/193.png" /%}}
 
