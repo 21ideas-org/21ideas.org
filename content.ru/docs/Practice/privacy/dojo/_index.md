@@ -2,6 +2,7 @@
 title: "Установка Биткоин-узла Dojo на x86"
 description: "Руководство по установке и настройке Биткоин-узла Dojo на ПК (Intel/AMD x86-64)"
 url: practice-privacy/dojo
+aliases: ['/privacy/dojo']
 cover: /img/dojo-01.png
 bookCollapseSection: true
 bookFlatSection: false
