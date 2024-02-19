@@ -8,7 +8,7 @@ url: kak-hranit-kljuchi
 aliases: ['/theory-security-bitcoin-wallets']
 bookToc: true
 bookFlatSection: false
-date: 2022-06-03
+date: 2020-05-13
 weight: 1
 ---
 

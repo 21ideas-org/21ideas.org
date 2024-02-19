@@ -4,7 +4,7 @@ h1: "Ultimate guide to storing your bitcoin seed phrase backups"
 cover: /img/secure-seed/vault.png
 description: ""
 url: seed-security
-date: 2023-04-21
+date: 2022-01-19
 bookToc: true
 bookFlatSection: false
 weight: 3

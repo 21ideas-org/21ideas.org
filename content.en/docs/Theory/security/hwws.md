@@ -5,7 +5,7 @@ h1: "The best Bitcoin hardware wallets"
 cover: /img/hwws/hwws.png
 description: "An overview of the most popular devices, including Trezor, Ledger, Coldcard, and more."
 url: hwws
-date: 2023-03-07
+date: 2023-03-01
 bookHidden: false
 bookToc: true
 bookFlatSection: false
