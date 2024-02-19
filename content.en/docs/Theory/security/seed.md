@@ -5,7 +5,7 @@ h1: "What is a bitcoin seed phrase and how does it work?"
 cover: /img/seed/seed-en.png
 description: ""
 url: seed
-date: 2023-01-18
+date: 2021-12-17
 bookToc: true
 bookFlatSection: false
 weight: 2

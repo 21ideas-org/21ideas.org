@@ -14,5 +14,5 @@ A section covering the best practices for securing your coins when interacting w
 4. [Is your passphrase strong enough?](/en/passphrase)
 5. [What is multisig?](/en/what-is-multisig)
 6. [The best Bitcoin hardware wallets](/en/hwws/)
-7. [Мультисиг. Часть I](/multisig-1)
-8. [Мультисиг. Часть II: Отдельные ключи – основа мультиподписи](/multisig-2)
+7. [Multisig Series Part I: Why Multisig?](/en/multisig-1)
+8. [Multisig Series Part II: Single Keys are the Foundation of Multisignature](/en/multisig-2)

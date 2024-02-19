@@ -5,7 +5,7 @@ h1: "Что такое сид-фраза?"
 cover: /img/seed/seed.png
 description: "Предлагаем рассмотреть, что собой представляют сид-фразы, какова их роль в кошельках с одной подписью и мультисиг-схемах."
 url: seed
-date: 2023-01-18
+date: 2021-12-17
 bookToc: true
 bookFlatSection: false
 weight: 2
