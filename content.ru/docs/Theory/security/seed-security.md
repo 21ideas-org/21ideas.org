@@ -3,7 +3,7 @@ title: "Как обезопасить свои сид-фразы?"
 h1: "Как обезопасить свои сид-фразы?"
 cover: /img/secure-seed/vault.png
 description: "В этой статье мы расскажем о том, как и где хранить резервные копии сид-фраз в различных контекстах хранения биткоина."
-url: bezopasnost-seed-fraz
+url: seed-security
 date: 2022-01-19
 bookToc: true
 bookFlatSection: false
