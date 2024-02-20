@@ -23,7 +23,7 @@ As of 2019 most casual enthusiasts of bitcoin believe it is perfectly traceable;
 
 This article was written in February 2019. A good way to read the article is to [skip to the examples](https://en.bitcoin.it/wiki/Privacy#Examples_and_case_studies) and then come back to read the core concepts.
 
-### Summary
+# Summary
 
 To save you reading the rest of the article, here is a quick summary of how normal bitcoin users can improve their privacy:
 
@@ -39,7 +39,7 @@ To save you reading the rest of the article, here is a quick summary of how norm
 
 See also [the privacy examples](https://en.bitcoin.it/wiki/Privacy#Examples_and_case_studies) for real-life case-studies.
 
-## Introduction
+# Introduction
 
 Users interact with bitcoin through [software](https://en.bitcoin.it/wiki/Software "Software") which may leak information about them in various ways that damage their anonymity.
 
@@ -47,24 +47,24 @@ Bitcoin records [transactions](https://en.bitcoin.it/wiki/Transactions "Transact
 
 The linkages between addresses made by transactions are often called the transaction graph. Alone, this information can't identify anyone because the addresses and transaction IDs are just random numbers. However, if _any_ of the addresses in a transaction's past or future can be tied to an actual identity, it might be possible to work from that point and deduce who may own all of the other addresses. This identification of an address might come from network analysis, surveillance, searching the web, or a variety of other methods. The encouraged practice of [using a new address for every transaction](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is intended to make this attack more difficult.
 
-[![](https://en.bitcoin.it/w/images/en/3/3a/Unknownaddress.png)](https://en.bitcoin.it/wiki/File:Unknownaddress.png)
+{{% image "/img/priv-904.png" %}}
+_The flow of Bitcoins is highly public._
+{{% /image %}}
 
-The flow of Bitcoins is highly public.
-
-### Example - Adversary controls source and destination of coins
+## Example - Adversary controls source and destination of coins
 
 The second image shows a simple example. An adversary runs both a money exchanger and a honeypot website meant to trap people. If someone uses their exchanger to buy bitcoins and then transacts the coins to the trap website, the block chain would show:
 
-[![](https://en.bitcoin.it/w/images/en/b/b8/Knownaddress.png)](https://en.bitcoin.it/wiki/File:Knownaddress.png)
-
-Finding an identity of one address allows you to attack the anonymity of the transactions.
+{{% image "/img/priv-905.png" %}}
+_Finding an identity of one address allows you to attack the anonymity of the transactions._
+{{% /image %}}
 
 - Transaction of coins on address A to address B. Authorized by \<signature of address A\>.
 - Transaction of coins on address B to address C. Authorized by \<signature of address B\>.
 
 Say that the adversary knows that Mr. Doe's bank account sent the government currency which were used to buy the coins, which were then transferred to address B. The adversary also knows the trap website received coins on address C that were spent from address B. Together this is a **very strong indication** that address B is owned by Mr. Doe and that he sent money to the trap website. This assumption is not always correct because address B may have been an address held on behalf of Mr. Doe by a third party and the transaction to C may have been unrelated, or the two transactions may actually involve a smart contract (See [Off-Chain Transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions")) which effectively teleports the coins off-chain to a completely different address somewhere on the blockchain.
 
-### Example - Non-anonymous Chinese newspaper buying
+## Example - Non-anonymous Chinese newspaper buying
 
 In this example, the adversary controls the destination and finds the source from metadata.
 
@@ -76,7 +76,7 @@ In this example, the adversary controls the destination and finds the source fro
 
 You need to protect yourself from both forward attacks (getting something that identifies you using coins that you got with methods that must remain secret, like the scammer example) and reverse attacks (getting something that must remain secret using coins that identify you, like the newspaper example).
 
-### Example - A perfectly private donation
+## Example - A perfectly private donation
 
 On the other hand, here is an example of somebody using bitcoin to make a donation that is completely anonymous.
 
@@ -89,7 +89,7 @@ On the other hand, here is an example of somebody using bitcoin to make a donati
 
 As your [full node](https://en.bitcoin.it/wiki/Full_node "Full node") wallet runs entirely over [Tor](https://en.bitcoin.it/wiki/Tor "Tor"), your IP address is very well hidden. [Tor](https://en.bitcoin.it/wiki/Tor "Tor") also hides the fact that you're using bitcoin at all. As the coins were obtained by [mining](https://en.bitcoin.it/wiki/Mining "Mining") they are entirely unlinked from any other information about you. Since the transaction is a donation, there are no goods or services being sent to you, so you don't have to reveal any delivery mail address. As the entire balance is sent, there is no [change address](https://en.bitcoin.it/wiki/Change "Change") going back that could later leak information. Since the hardware is destroyed there is no record remaining on any discarded hard drives that can later be found. The only way I can think of to attack this scheme is to be a [global adversary](https://www.torproject.org/docs/faq.html.en#AttacksOnOnionRouting) that can exploit the known weaknessness of Tor.
 
-### Multiple interpretations of a blockchain transaction
+## Multiple interpretations of a blockchain transaction
 
 Bitcoin [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") are made up of inputs and outputs, of which there can be one or more. Previously-created outputs can be used as inputs for later transactions. Such outputs are destroyed when spent and new unspent outputs are usually created to replace them.
 
@@ -120,7 +120,7 @@ Privacy-relevant adversaries who analyze the blockchain usually rely on _heurist
 
 Units of the bitcoin currency are not watermarked within a transaction (in other words they don't have little serial numbers). For example the 1 btc input in that transaction may end up in the 1 btc output or part of the 3 btc output, or a mixture of both. Transactions are many-to-many mappings, so in a very important sense it's impossible to answer the question of where the 1 btc ended up. This fungibility of bitcoin within one transaction is an important reason for the different possibility interpretations of the above transaction.
 
-### Threat model
+## Threat model
 
 When considering privacy you need to think about exactly who you're hiding from. You must examine how a hypothetical adversary could spy on you, what kind of information is most important to you and which technology you need to use to protect your privacy. The kind of behaviour needed to protect your privacy therefore depends on your threat model.
 
@@ -130,21 +130,21 @@ For details read the talk [Opsec for Hackers by grugq](https://www.slideshare.ne
 
 Much of the time plausible deniability is not good enough because lots of spying methods only need to work on a statistical level (e.g. targeted advertising).
 
-### Method of data fusion
+## Method of data fusion
 
-[![](https://en.bitcoin.it/w/images/en/9/9e/Privacy-data-fusion-intersection-diagram.png)](https://en.bitcoin.it/wiki/File:Privacy-data-fusion-intersection-diagram.png)
-
-Data fusion diagram showing how two different privacy leaks can damage privacy far more in combination.
+{{% image "/img/priv-906.png" %}}
+_Data fusion diagram showing how two different privacy leaks can damage privacy far more in combination._
+{{% /image %}}
 
 Multiple privacy leaks when combined together can be far more damaging to privacy than any single leak. Imagine if a receiver of a [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") is trying to deanonymize the sender. Each privacy leak would eliminate many candidates for who the sender is, two different privacy leaks would eliminate _different_ candidates leaving far fewer candidates remaining. See the diagram for a diagram of this.
 
-[![](https://en.bitcoin.it/w/images/en/a/af/Privacy-data-fusion-newspaper-buying-diagram.png)](https://en.bitcoin.it/wiki/File:Privacy-data-fusion-newspaper-buying-diagram.png)
-
-Data fusion diagram example with newspaper buyer.
+{{% image "/img/priv-907.png" %}}
+_Data fusion diagram example with newspaper buyer._
+{{% /image %}}
 
 This is why even leaks of a small amount of information should be avoided, as they can often completely ruin privacy when combined with other leaks. Going back to the example of the non-anonymous Chinese newspaper buyer, who was deanonymized because of a combination of visible transaction information and his forum signature donation address. There are many many transactions on the blockchain which on their own don't reveal anything about the transactor's identity or spending habits. There are many donation addresses placed in forum signatures which also don't reveal much about the owners identity or spending habits, because they are just random cryptographic information. But together the two privacy leaks resulted in a trip to the reeducation camp. The method of data fusion is very important when understanding privacy in bitcoin (and other situations).
 
-### Why privacy
+## Why privacy
 
 Financial privacy is an essential element to [fungibility](https://en.bitcoin.it/wiki/Fungibility "Fungibility") in Bitcoin: if you can meaningfully distinguish one coin from another, then their [fungibility](https://en.bitcoin.it/wiki/Fungibility "Fungibility") is weak. If our [fungibility](https://en.bitcoin.it/wiki/Fungibility "Fungibility") is too weak in practice, then we cannot be decentralized: if someone important announces a list of stolen coins they won't accept coins derived from, you must carefully check coins you accept against that list and return the ones that fail. Everyone gets stuck checking blacklists issued by various authorities because in that world we'd all not like to get stuck with bad coins. This adds friction, transactional costs and allows the blacklist provider to engage in censorship, and so makes Bitcoin less valuable as a money.
 
@@ -158,7 +158,7 @@ Most importantly, financial privacy isn't incompatible with things like law enfo
 
 Globally visible public records in finance are completely unheard-of. They are undesirable and arguably intolerable. The Bitcoin whitepaper made a promise of how we could get around the visibility of the ledger with pseudonymous addresses, but the ecosystem has broken that promise in a bunch of places and we ought to fix it. Bitcoin could have coded your name or IP address into every transaction. It didn't. The whitepaper even has a section on privacy. It's incorrect to say that Bitcoin isn't focused on privacy. Sufficient privacy is an essential prerequisite for a viable digital currency[[2]](https://en.bitcoin.it/wiki/Privacy#cite_note-2).
 
-## Blockchain attacks on privacy
+# Blockchain attacks on privacy
 
 Bitcoin uses a [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain"). Users can [download and verify the blockchain](https://en.bitcoin.it/wiki/Full_node "Full node") to check that all the rules of bitcoin were followed throughout its history. For example, users can check that nobody printed infinite bitcoins and that every coin was only spent with a [valid signature](https://en.bitcoin.it/wiki/OP_CHECKSIG "OP CHECKSIG") created by its [private key](https://en.bitcoin.it/wiki/Private_key "Private key"). This is what leads to [bitcoin's unique value proposition](https://en.bitcoin.it/wiki/Bitcoin_as_a_medium_of_exchange "Bitcoin as a medium of exchange") as a form of electronic cash which requires [only small amounts of trust](https://en.bitcoin.it/wiki/Principles_of_Bitcoin#Low_trust "Principles of Bitcoin"). But the same blockchain structure leads to privacy problems because every [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") must be available for all to see, forever. This section discusses known methods an adversary may use for analyzing the public blockchain.
 
@@ -168,7 +168,7 @@ Bitcoin uses a [UTXO model](https://en.bitcoin.it/wiki/Coin_analogy "Coin analog
 
 It can be very difficult to fine-tune heuristics for wallet clustering that lead to obtaining actually correct information[[3]](https://en.bitcoin.it/wiki/Privacy#cite_note-3).
 
-### [Common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic")
+## Common-input-ownership heuristic
 
 This is a heuristic or assumption which says that if a transaction has more than one input then all those inputs are owned by the same entity.
 
@@ -182,7 +182,7 @@ This [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") would b
 
 One of the purposes of [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") is to break this heuristic. Nonetheless this heuristic is very commonly true and it is widely used by [transaction surveillance companies](https://en.bitcoin.it/wiki/Transaction_surveillance_company "Transaction surveillance company") and other adversaries as of 2019. The heuristic is usually combined with [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") reasoning, which along with the somewhat-centralized bitcoin economy as of 2018 is why this heuristic can be unreasonably effective[[4]](https://en.bitcoin.it/wiki/Privacy#cite_note-4). The heuristic's success also depends on the wallet behaviour: for example, if a wallet usually receives small amounts and sends large amounts then it will create many multi-input transactions.
 
-### [Change](https://en.bitcoin.it/wiki/Change "Change") address detection
+## Change address detection
 
 Many bitcoin [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") have [change outputs](https://en.bitcoin.it/wiki/Change "Change"). It would be a serious privacy leak if the change address can be somehow found, as it would link the ownership of the (now spent) inputs with a new output. Change outputs can be very effective when combined with other privacy leaks like the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") or [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"). Change address detection allows the adversary to cluster together newly created address, which the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") allows past addresses to be clustered.
 
@@ -190,7 +190,7 @@ Change addresses lead to a common usage pattern called the **peeling chain**. It
 
 Now are listed possible ways to infer which of the outputs of a transaction is the [change](https://en.bitcoin.it/wiki/Change "Change") output:
 
-#### Address reuse
+### Address reuse
 
 If an output address has been [reused](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") it is very likely to be a payment output, not a change output. This is because change addresses are created automatically by wallet software but payment addresses are manually sent between humans. The [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") would happen because the human user reused an address out of ignorance or apathy. This heuristic is probably the most accurate, as it is very hard to imagine how false positives would arise (except by intentional design of wallets). This heuristic is also called the "shadow heuristic".
 
@@ -200,7 +200,7 @@ Avoiding [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse
 
 Also, most reused addresses are mentioned on the internet, forums, social networks like Facebook, Reddit, Stackoverflow...etc. These addresses you can find and check on [https://checkbitcoinaddress.com/](https://checkbitcoinaddress.com/) site. It's like a little bit de-anonymization of pseudo-anonymized blockchain.
 
-#### Wallet fingerprinting
+### Wallet fingerprinting
 
 A careful analyst sometimes deduce which software created a certain [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction"), because the many different wallet softwares don't always create transactions in exactly the same way. Wallet fingerprinting can be used to detect change outputs because a change output is the one spent with the same wallet fingerprint.
 
@@ -244,7 +244,7 @@ There are a number of ways to get evidence used for identifying wallet software:
 
 If multiple users are using the same wallet software, then wallet fingerprinting cannot detect the change address. It is also possible that a single user owns two different wallets which use different software (for example a hot wallet and cold wallet) and then transactions between different softwares would not indicate a change of ownership. Wallet fingerprinting on its own is never decisive evidence, but as with all other privacy leaks it works best with data fusion when multiple privacy leaks are combined.
 
-#### Round numbers
+### Round numbers
 
 Many payment amounts are round numbers, for example 1 BTC or 0.1 BTC. The leftover change amount would then be a non-round number (e.g. 1.78213974 BTC). This potentially useful for finding the change address. The amount may be a round number in another currency. The amount 2.24159873 BTC isn't round in bitcoin but when converted to USD it may be close to $100.
 
@@ -254,7 +254,7 @@ Many payment amounts are round numbers, for example 1 BTC or 0.1 BTC. The leftov
 
 This could be mitigated by some of the time reducing the amount of both outputs, reducing the payment amount instead of change (in a receiver-pays-for-fee model), or replacing both addresses in each RBF transaction (this would require obtaining multiple payment addresses from the receiver).
 
-#### Unnecessary input heuristic
+### Unnecessary input heuristic
 
 Also called the "optimal change heuristic". Consider this bitcoin transaction. It has two inputs worth 2 BTC and 3 BTC and two outputs worth 4 BTC and 1 BTC.
 
@@ -273,7 +273,7 @@ Now both interpretations imply that some inputs are unnecessary. Unfortunately t
 
 Some wallets have a coin selection algorithm which violates this heuristic. An example might be because the wallets want to [consolidate inputs](https://en.bitcoin.it/wiki/Techniques_to_reduce_transaction_fees#Consolidation "Techniques to reduce transaction fees") in times of cheap miner fees. So this heuristic is not decisive evidence.
 
-#### Sending to a different script type
+### Sending to a different script type
 
 Sending funds to a different script type than the one you're spending from makes it easier to tell which output is the change.
 
@@ -283,7 +283,7 @@ This is also possible if the inputs are of mixed types (created by wallets suppo
 
 This has the most effect on early adopters of new wallet technology, like p2sh or segwit. The more rare it is to pay to people using the same script type as you do, the more you leak the identity of your change output. This will improve over time as the new technology gains wider adoption.
 
-#### Wallet bugs
+### Wallet bugs
 
 Some wallet software handles change in a very un-private way. For example certain old wallets would always put the change output in last place in the transaction. An old version of [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") would add input UTXOs to the transaction until the change amount was around 0.1 BTC, so an amount of slightly over 0.1 BTC would always be change.
 
@@ -298,33 +298,33 @@ Y (3btc)      C (4btc)
 
 There is a very strong indication that output D is change belongs to the owner of input Y, while output C is change belonging to input X. However, [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") breaks the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and effectively hides the ownership of payment outputs (A and B), so the tradeoffs are still heavily in favour of using coinjoin.
 
-#### Cluster growth
+### Cluster growth
 
 Wallet clusters created by using the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") usually grow (in number of addresses) slowly and incrementally[[11]](https://en.bitcoin.it/wiki/Privacy#cite_note-11). Two large clusters merging is rare and may indicate that the heuristics are flawed. So another way to deduce the change address is to find which output causes the clusters to grow only slowly. The exact value for "how slowly" a cluster is allowed to grow is an open question.
 
-### Transaction graph heuristic
+## Transaction graph heuristic
 
 As described in the introduction, [addresses](https://en.bitcoin.it/wiki/Address "Address") are connected together by [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") on the [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain"). The mathematical concept of a [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) can be used to describe the structure where addresses are connected with transactions. [Addresses](https://en.bitcoin.it/wiki/Address "Address") are vertices while [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") are edges in this transaction graph.
 
 This is called a heuristic because [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") on the [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain") do not necessarily correspond to real economic transactions. For example the [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") may represent someone sending bitcoins to themselves. Also, real economic transactions may not appear on the [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain") but be [off-chain](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions"); either via a custodial entity like an exchange, or non-custodial off-chain like [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network").
 
-#### Taint analysis
+### Taint analysis
 
 _Taint analysis_ is a technique sometimes used to study the flow of bitcoins and extract privacy-relevant information. If an address A is connected to privacy-relevant information (such as a real name) and it makes a transaction sending coins to address B, then address B is said to be _tainted_ with coins from address A. In this way taint is spread by "touching" via transactions[[12]](https://en.bitcoin.it/wiki/Privacy#cite_note-12). It is unclear how useful taint analysis is for spying, as it does not take into account transfer of ownership. For example an owner of tainted coins may donate some of them to some charity, the donated coins could be said to be tainted yet the charity does not care and could not give any information about the source of those coins. Taint analysis may only be useful for breaking schemes where someone tries to hide the origin of coins by sending dozens of fake transactions to themselves many times.
 
-### Amount
+## Amount
 
 Blockchain [transactions](https://en.bitcoin.it/wiki/Transactions "Transactions") contain amount information of the transaction inputs and outputs, as well as an implicit amount of the [miner fee](https://en.bitcoin.it/wiki/Miner_fees "Miner fees"). This is visible to all.
 
 Often the payment amount of a transaction is a round number, possibly when converted to another currency. An analysis of round numbers in bitcoin transactions has been used to measure the countries or regions where payment have happened[[13]](https://en.bitcoin.it/wiki/Privacy#cite_note-13).
 
-#### Input amounts revealing sender wealth
+### Input amounts revealing sender wealth
 
 A mismatch in the sizes of available [input](https://en.bitcoin.it/wiki/Transaction#input "Transaction") vs what is required can result in a privacy leak of the total wealth of the sender. For example, when intending to send 1 bitcoins to somebody a user may only have an [input](https://en.bitcoin.it/wiki/Transaction#input "Transaction") worth 10 bitcoins. They create a [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") with 1 bitcoin going to the recipient and 9 bitcoins going to a [change address](https://en.bitcoin.it/wiki/Change "Change"). The recipient can look at the [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") on the blockchain and deduce that the sender owned at least 10 bitcoins.
 
 By analogy with paper money, if you hand over a 100 USD note to pay for a drink costing only 5 USD the bartender learns that your balance is at least 95 USD. It may well be higher of course, but it's at least not lower[[14]](https://en.bitcoin.it/wiki/Privacy#cite_note-14).
 
-#### Exact payment amounts (no change)
+### Exact payment amounts (no change)
 
 Payments that send exact amounts and take no change are a likely indication that the bitcoins didn't move hands.
 
@@ -332,7 +332,7 @@ This usually means that the user used the "send maximum amount" wallet feature t
 
 Other possible reasons for sending exact amounts with no change is that the coin-selection algorithm was smart and lucky enough to find a suitable set of inputs for the intended payment amount that didn't require change (or required a change amount that is negligible enough to waive), or advanced users using manual coin selection to explicitly avoid change.
 
-### Batching
+## Batching
 
 [Payment batching](https://en.bitcoin.it/wiki/Techniques_to_reduce_transaction_fees#Payment_batching "Techniques to reduce transaction fees") is a technique to reduce the [miner fee](https://en.bitcoin.it/wiki/Miner_fees "Miner fees") of a payment. It works by batching up several payments into one [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain") [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction"). It is typically used by exchanges, casinos and other high-volume spenders.
 
@@ -344,17 +344,17 @@ The privacy implication comes in that recipients can see the amount and address 
 > 
 > However, it is something to keep in mind if you’re considering batching payments where privacy might be especially important or already somewhat weak, such as making payroll in a small company where you don’t want each employee to learn the other employees’ salaries.
 
-### Unusual scripts
+## Unusual scripts
 
 Most but not all bitcoin [scripts](https://en.bitcoin.it/wiki/Script "Script") are single-signature. Other scripts are possible with the most common being [multisignature](https://en.bitcoin.it/wiki/Multisignature "Multisignature"). A script which is particularly unusual can leak information simply by being so unique.
 
 2-of-3 multisig is by far the most common non-single-signature script as of 2019.
 
-### Mystery shopper payment
+## Mystery shopper payment
 
 A [mystery shopper payment](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments") is when an adversary pays bitcoin to a target in order to obtain privacy-relevant information. It will work even if [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is avoided. For example, if the target is an online merchant then the adversary could buy a small item. On the payment interface they would be shown one of the merchant's bitcoin [addresses](https://en.bitcoin.it/wiki/Address "Address"). The adversary now knows that this [address](https://en.bitcoin.it/wiki/Address "Address") belongs to the merchant and by watching the blockchain for later [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") other information would be revealed, which when combined with other techniques could reveal a lot of data about the merchant. The [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and change address detection could reveal other addresses belonging to the merchant (assuming countermeasures like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") are not used) and could give a lower-bound for the sales volume. This works because anybody on the entire internet can request one of the merchant's [addresses](https://en.bitcoin.it/wiki/Address "Address").
 
-### Forced address reuse
+## Forced address reuse
 
 **Forced [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")** is when an adversary pays an (often small) amount of bitcoin to [addresses](https://en.bitcoin.it/wiki/Address "Address") that have already been used on the [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain"). The adversary hopes that users or their wallet software will use these _forced payments_ as inputs to a larger transaction which will reveal other addresses via the the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and thereby leak more privacy-relevant information. These payments can be understood as a way to coerce the address owner into unintentional [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")[[16]](https://en.bitcoin.it/wiki/Privacy#cite_note-16)[[17]](https://en.bitcoin.it/wiki/Privacy#cite_note-17).
 
@@ -362,7 +362,7 @@ This attack is sometimes incorrectly called a **dust attack**[[18]](https://en.b
 
 If the forced-payment coins have landed on already-used _empty_ addresses, then the correct behaviour by wallets is to not spend those coins ever. If the coins have landed on addresses which are not empty, then the correct behaviour by wallets is to fully-spend all the coins on that address in the same transaction.
 
-### Amount correlation
+## Amount correlation
 
 Amounts correlation refers to searching the entire [block chain](https://en.bitcoin.it/wiki/Block_chain "Block chain") for output amounts.
 
@@ -380,15 +380,15 @@ V --> [privacy tech] 	--> w0
 
 Another way of using amount correlation is to use it to find a starting point. For example, if Bob wants to spy on Alice. Say that Alice happens to mention in passing that she's going on holiday costing $5000 with her boyfriend, Bob can search all transactions on the blockchain in the right time period and find transactions with output amounts close to $5000. Even if multiple matches are found it still gives Bob a good idea of which bitcoin addresses belong to Alice.
 
-### Timing correlation
+## Timing correlation
 
 Timing correlation refers to using the time information of transactions on the blockchain. Similar to amount correlation, if an adversary somehow finds out the time that an interesting transaction happened they can search the blockchain in that time period to narrow down their candidates.
 
 This can be beaten by uniform-randomly choosing a time between now and an appropriate time_period in which to broadcast the bitcoin transaction. This forces an adversary to search much more of the existing transactions; they have to equally consider the entire anonymity set between now and time_period.
 
-## Non-blockchain attacks on privacy
+# Non-blockchain attacks on privacy
 
-### Traffic analysis
+## Traffic analysis
 
 Bitcoin [nodes](https://en.bitcoin.it/wiki/Full_node "Full node") communicate with each other via a [peer-to-peer network](https://en.bitcoin.it/wiki/Network "Network") to transmit [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") and [blocks](https://en.bitcoin.it/wiki/Block "Block"). [Nodes relay](https://en.bitcoin.it/wiki/Network#Standard_relaying "Network") these packets to all their connections, which has good privacy properties because a connected node doesn't know whether the transmitted data originated from its peer or whether the peer was merely relaying it.
 
@@ -400,29 +400,29 @@ A certain kind of [sybil attack](https://en.bitcoin.it/wiki/Weaknesses#Sybil_att
 
 Some wallets are not [full nodes](https://en.bitcoin.it/wiki/Full_node "Full node") but are lightweight nodes which function in a different way. They generally have far worse privacy properties, but how badly depends on the details of each wallet. Some [lightweight wallets](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") can be connected only to your own [full node](https://en.bitcoin.it/wiki/Full_node "Full node"), and if that is done then their privacy with respect to traffic analysis will be improved to the level of a full node.
 
-### Custodial Wallets
+## Custodial Wallets
 
 Some bitcoin wallets are just front-ends that connects to a back-end server run by some company. This kind of wallet has no privacy at all, the operating company can see all the user's addresses and all their transactions, most of the time they'll see the user's IP address too. Users should not use web wallets.
 
 Main article: [Browser-based wallet](https://en.bitcoin.it/wiki/Browser-based_wallet "Browser-based wallet")
 
-### Wallet history retrieval from third-party
+## Wallet history retrieval from third-party
 
 All bitcoin wallets must somehow obtain information about their balance and history, which may leak information about which [addresses](https://en.bitcoin.it/wiki/Address "Address") and [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") belong to them.
 
-#### Blockchain explorer websites
+### Blockchain explorer websites
 
 [Blockchain explorer websites](https://en.bitcoin.it/wiki/Block_chain_browser "Block chain browser") are commonly used. Some users even search for their [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") on those websites and refresh it until it reaches 3 [confirmations](https://en.bitcoin.it/wiki/Confirmation "Confirmation"). This is very bad for privacy as the website can easily link the user's IP address to their bitcoin transaction (unless [tor](https://en.bitcoin.it/wiki/Tor "Tor") is used), and the queries to their website reveal that the [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") or [address](https://en.bitcoin.it/wiki/Address "Address") is of interest to somebody who has certain behavioural patterns.
 
 To get information about your [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") it is much better to use your wallet software, not some website.
 
-#### BIP 37
+### BIP 37
 
 Many [lightweight wallets](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") use the [BIP37](https://en.bitcoin.it/wiki/BIP_0037 "BIP 0037") standard, which has serious design flaws leading to privacy leaks. Any wallet that uses [BIP37](https://en.bitcoin.it/wiki/BIP_0037 "BIP 0037") provides no privacy at all and is equivalent to sending all the wallets addresses to a random server. That server can easily spy on the wallet. Lessons from the failure of BIP37 can be useful when designing and understanding other privacy solutions, especially with the point about data fusion of combining BIP37 bloom filter leaks with blockchain transaction information leaks.
 
 Main article: [BIP37 privacy problems](https://en.bitcoin.it/wiki/BIP37_privacy_problems "BIP37 privacy problems")
 
-#### Public Electrum servers
+### Public Electrum servers
 
 [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") is a popular software wallet which works by connecting to special purpose servers. These servers receive hashes of the bitcoin addresses in the wallet and reply with [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") information. The Electrum wallet is fast and low-resource but by default it connects to these servers which can easily spy on the user. Some other software aside from [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") uses the public Electrum servers. As of 2019 it is a faster and better alternative for [lightweight wallets](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") than BIP37.
 
@@ -430,19 +430,19 @@ Servers only learn the hashes of addresses rather than addresses themselves, in 
 
 It is not very difficult to [run your own Electrum server](https://en.bitcoin.it/wiki/Electrum#Server_software "Electrum") and point your wallet to use only it. This restores [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") to have the same privacy and security properties as a [full node](https://en.bitcoin.it/wiki/Full_node "Full node") where nobody else can see which addresses or transactions the wallet is interested in. Then [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") becomes a [full node](https://en.bitcoin.it/wiki/Full_node "Full node") wallet.
 
-### Communication eavesdropping
+## Communication eavesdropping
 
 A simple but effective privacy leak. Alice gives Bob one of her [addresses](https://en.bitcoin.it/wiki/Address "Address") to receive a payment, but the communication has been eavesdropped by Eve who saw the [address](https://en.bitcoin.it/wiki/Address "Address") and now knows it belongs to Alice. The solution is to encrypt addresses where appropriate or use another way of somehow hiding them from an adversary as per the threat model.
 
 Sometimes the eavesdropping can be very trivial, for example some forum users publish a bitcoin donation address on their website, forum signature, profile, twitter page, etc where it can be picked up by search engines. In the example of the non-anonymous Chinese newspaper buyer from the introduction, his address being publicly visible on his forum signature was a crucial part of his deanonymization. The solution here is to show each potential donator a new address, for example [by setting up a web server to hand out unique addresses to each visitor](https://en.bitcoin.it/wiki/Receiving_donations_with_bitcoin#Improving_privacy_by_avoiding_address_re-use "Receiving donations with bitcoin").
 
-### Revealing data when transacting bitcoin
+## Revealing data when transacting bitcoin
 
 Sometimes users may voluntarily reveal data about themselves, or be required to by the entity they interact with. For example many exchanges require users to undergo Anti-Money Laundering and Know-Your-Customer (AML/KYC) checks, which requires users to reveal all kinds of invasive personal information such as their real name, residence, occupation and income. All this information is then linked with the bitcoin [addresses](https://en.bitcoin.it/wiki/Address "Address") and [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") that are later used.
 
 When buying goods online with bitcoin a delivery mail address is needed. This links the bitcoin transaction with the delivery address. The same applies to the user's IP address (unless privacy technology like [Tor](https://en.bitcoin.it/wiki/Tor "Tor") is used).
 
-### Digital forensics
+## Digital forensics
 
 Wallet software usually stores information it needs to operate on the disk of the computer it runs on. If an adversary has access to that disk it can extract bitcoin [addresses](https://en.bitcoin.it/wiki/Address "Address") and [transactions](https://en.bitcoin.it/wiki/Transactions "Transactions") which are known to be linked with the owner of that disk. The same disk might contain other personal information (such as a scan of an ID card). Digital forensics is one reason why all good wallet software encrypts wallet files, although that can be beaten if a weak encryption password is used.
 
@@ -450,9 +450,9 @@ For example if you have a bitcoin wallet installed on your PC and give the compu
 
 For privacy don't leave data on your computer available to others. Exactly how depends on your threat model. Encryption and physical protection are options, as is using special operating systems like [Tails OS](https://tails.boum.org/) which does not read or write from the hard drive but only uses RAM, and then deletes all data on shutdown.
 
-## Methods for improving privacy (non-blockchain)
+# Methods for improving privacy (non-blockchain)
 
-### Obtaining bitcoins anonymously
+## Obtaining bitcoins anonymously
 
 If the adversary has not linked your bitcoin address with your identity then privacy is much easier. Blockchain spying methods like the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic"), detecting [change](https://en.bitcoin.it/wiki/Change "Change") addresses and amount correlation are not very effective on their own if there is no starting point to link back to.
 
@@ -460,7 +460,7 @@ Many exchanges require users to undergo Anti-Money Laundering and Know-Your-Cust
 
 Avoiding the privacy invasion of AML/KYC is probably the single most important thing an individual can do to improve their privacy. It works far better than any actual technology like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin"). Indeed all the cryptography and privacy tricks are irrelevant if all users only ever transact between AML/KYC institutions[[23]](https://en.bitcoin.it/wiki/Privacy#cite_note-23).
 
-#### Cash trades
+### Cash trades
 
 Physical cash is an anonymous medium of exchange, so using it is a way to obtain bitcoin anonymously where no one except trading partners exchange identifying data.
 
@@ -474,51 +474,51 @@ This section won't list websites to find such meetups because the information ca
 
 **Cash dead drop** is a rarely used method. It is similar to a cash-in-person trade but the traders never meet up. The buyer chooses a location to hide the cash in a public location, next the buyer sends a message to the seller telling them the location, finally the seller picks up the cash from the hidden location. [Escrow is a requirement](https://en.bitcoin.it/wiki/Secure_Trading#Use_an_Escrow_Service "Secure Trading") to avoid scamming. This method is very anonymous for the buyer as the seller won't even learn their physical appearance, for the seller it is slightly less anonymous as the buyer can stalk the location to watch the seller collect the cash.
 
-#### Cash substitute
+### Cash substitute
 
 Cash substitutes like gift cards, mobile phone credits or prepaid debit cards can often be bought from regular stores with cash and then traded online for bitcoin.
 
-#### Employment
+### Employment
 
 Bitcoins accepted as payment for work done can be anonymous if the employer does not request much personal information. This may work well in a freelancing or contracting setting. Although if your adversary is your own employer then obviously this is not good privacy.
 
-#### Mining
+### Mining
 
 Mining is the most anonymous way to obtain bitcoin. This applies to solo-mining as [mining pools](https://en.bitcoin.it/wiki/Pooled_mining "Pooled mining") generally know the hasher's IP address. Depending on the size of operation mining may use a lot of electrical power which may attract suspicion. Also the [specialized mining hardware](https://en.bitcoin.it/wiki/ASIC "ASIC") may be difficult to get hold of anonymously (although they wouldn't be linked to the resulting mined bitcoins).
 
-#### Stealing
+### Stealing
 
 In theory another way of obtaining anonymous bitcoin is to steal them.[[24]](https://en.bitcoin.it/wiki/Privacy#cite_note-24)
 
 There is at least one situation where this happened. In May 2015 a hacker known as Phineas Fisher[[25]](https://en.bitcoin.it/wiki/Privacy#cite_note-25) hacked a spyware company that was selling surveillance products to dictators[[26]](https://en.bitcoin.it/wiki/Privacy#cite_note-26). The hacker used bitcoin stolen from other people to anonymously rent infrastructure for later attacks.
 
-### Spending bitcoins anonymously
+## Spending bitcoins anonymously
 
 If you give up your delivery address (which you'll have to if you're buying physical goods online) then that will be a data leak. Obviously this is unavoidable in many cases.
 
-### Wallet history synchronization
+## Wallet history synchronization
 
 Bitcoin wallets must somehow obtain information about their balance and history. As of late-2018 the most practical and private existing solutions are to use a [full node](https://en.bitcoin.it/wiki/Full_node "Full node") wallet (which is maximally private) and [client-side block filtering](https://en.bitcoin.it/wiki/Client-side_block_filtering "Client-side block filtering") (which is very good).
 
 One issue with these technologies is that they always costs more resources (time, bandwidth, storage, etc) than non-private solutions like web wallets and centralized [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") servers. There are measurements indicating that very few people actually use [BIP37](https://en.bitcoin.it/wiki/BIP_0037 "BIP 0037") because of how slow it is[[27]](https://en.bitcoin.it/wiki/Privacy#cite_note-27), so even [client-side block filtering](https://en.bitcoin.it/wiki/Client-side_block_filtering "Client-side block filtering") may not be used very much.
 
-#### Full node
+### Full node
 
 [Full nodes](https://en.bitcoin.it/wiki/Full_node "Full node") download the entire blockchain which contains every on-chain [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") that has ever happened in bitcoin. So an adversary watching the user's internet connection [will not be able to learn](https://en.bitcoin.it/wiki/Full_node#Privacy "Full node") which transactions or addresses the user is interested in. This is the best solution to wallet history synchronization with privacy, but unfortunately it costs a significant amount in time and bandwidth.
 
-#### Private information retrieval
+### Private information retrieval
 
 In cryptography, a private information retrieval (PIR) protocol is a protocol that allows a user to retrieve an item from a server in possession of a database without revealing which item is retrieved. This has been proposed as a way to private synchronize wallet history but as PIR is so resource-intensive, users who don't mind spending bandwidth and time could just run a [full node](https://en.bitcoin.it/wiki/Full_node "Full node") instead.
 
-#### Client-side block filtering
+### Client-side block filtering
 
 [Client-side block filtering](https://en.bitcoin.it/wiki/Client-side_block_filtering "Client-side block filtering") works by having filters created that contains all the [addresses](https://en.bitcoin.it/wiki/Address "Address") for every [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") in a [block](https://en.bitcoin.it/wiki/Block "Block"). The filters can test whether an element is in the set; false positives are possible but not false negatives. A lightweight wallet would download all the filters for every block in the blockchain and check for matches with its own addresses. [Blocks](https://en.bitcoin.it/wiki/Block "Block") which contain matches would be downloaded in full from the [peer-to-peer network](https://en.bitcoin.it/wiki/Network "Network"), and those blocks would be used to obtain the wallet's history and current balance.
 
-#### Address query via onion routing
+### Address query via onion routing
 
 Wallet histories can be obtained from centralized servers (such as [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") servers) but using a new Tor circuit for each address. A closely-related idea is to connect together [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") servers in an onion-routing network[[28]](https://en.bitcoin.it/wiki/Privacy#cite_note-28). When creating such a scheme, care should be taken to avoid timing correlation linking the addresses together, otherwise the server could use the fact that the addresses were requested close to each other in time.
 
-### Countermeasures to traffic analysis
+## Countermeasures to traffic analysis
 
 [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") and its forks have countermeasures against [sybil attack](https://en.bitcoin.it/wiki/Weaknesses#Sybil_attack "Weaknesses") and eclipse attacks. Eclipse attacks are sybil attacks where the adversary attempts to control all the peers of its target and block or control access to the rest of the network[[29]](https://en.bitcoin.it/wiki/Privacy#cite_note-29). Such attacks have been extensively studied in a 2015 paper [Eclipse Attacks on Bitcoin’s Peer-to-Peer Network](https://eprint.iacr.org/2015/263.pdf) which has led to new code written for [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") for mitigation.[[30]](https://en.bitcoin.it/wiki/Privacy#cite_note-30)[[31]](https://en.bitcoin.it/wiki/Privacy#cite_note-31)[[32]](https://en.bitcoin.it/wiki/Privacy#cite_note-32)[[33]](https://en.bitcoin.it/wiki/Privacy#cite_note-33)[[34]](https://en.bitcoin.it/wiki/Privacy#cite_note-34)
 
@@ -526,7 +526,7 @@ Wallet histories can be obtained from centralized servers (such as [Electrum](ht
 
 Encrypting messages between peers as in [BIP 151](https://github.com/bitcoin/bips/blob/master/bip-0151.mediawiki) would make it harder for a passive attacker such as an ISP or Wifi provider to see the exact messages sent and received by a bitcoin node.
 
-#### Tor and tor broadcasting
+### Tor and tor broadcasting
 
 If a connection-controlling adversary is a concern, then bitcoin can be run entirely over [tor](https://en.bitcoin.it/wiki/Tor "Tor"). [Tor](https://en.bitcoin.it/wiki/Tor "Tor") is encrypted and hides endpoints, so an ISP or Wifi providers won't even know you're using bitcoin. The other connected bitcoin nodes won't be able to see your IP address as [tor](https://en.bitcoin.it/wiki/Tor "Tor") hides it. [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") and its forks have features to make setting up and using [tor](https://en.bitcoin.it/wiki/Tor "Tor") easier. Some [lightweight wallets](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") also run entirely over [tor](https://en.bitcoin.it/wiki/Tor "Tor").
 
@@ -534,17 +534,17 @@ Running entirely over [tor](https://en.bitcoin.it/wiki/Tor "Tor") has the downsi
 
 [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") being configured with the option `walletbroadcast=0` will stop [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") belonging to the user from being broadcast and rebroadcast, allowing them to be broadcast instead via [tor](https://en.bitcoin.it/wiki/Tor "Tor") or another privacy-preserving method[[40]](https://en.bitcoin.it/wiki/Privacy#cite_note-40).
 
-#### Dandelion
+### Dandelion
 
 Dandelion is another technology for private transaction broadcasting. The main idea is that transaction propagation proceeds in two phases: first the "stem" phase, and then "fluff" phase. During the stem phase, each node relays the transaction to a _single_ peer. After a random number of hops along the stem, the transaction enters the fluff phase, which behaves just like ordinary transaction flooding/diffusion. Even when an attacker can identify the location of the fluff phase, it is much more difficult to identify the source of the stem.[[41]](https://en.bitcoin.it/wiki/Privacy#cite_note-41)[[42]](https://en.bitcoin.it/wiki/Privacy#cite_note-42)[[43]](https://en.bitcoin.it/wiki/Privacy#cite_note-43)[[44]](https://en.bitcoin.it/wiki/Privacy#cite_note-44)
 
-#### Interactive peer broadcasting
+### Interactive peer broadcasting
 
 Some privacy technologies like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") and [CoinSwap](https://en.bitcoin.it/wiki/CoinSwap "CoinSwap") require interactivity between many bitcoin entities. They can also be used to broadcast transactions with more privacy, because peers in the privacy protocols can send each other unconfirmed transactions using the already-existing protocol they use to interact with each other.
 
 For example, in [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") market takers can send [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") to market makers who will broadcast them and so improve the taker's privacy. This can be a more convenient for the taker than setting up [Tor](https://en.bitcoin.it/wiki/Tor "Tor") for use with [tor broadcasting](https://en.bitcoin.it/wiki/Privacy#Tor_and_tor_broadcasting).
 
-#### Receiving bitcoin data over satellite
+### Receiving bitcoin data over satellite
 
 At least one bitcoin company offers a satellite bitcoin service[[45]](https://en.bitcoin.it/wiki/Privacy#cite_note-45). This is a free service where satellites broadcast the bitcoin blockchain to nearly anywhere in the world. If users set up a dish antenna pointing at a satellite in space, then they can receive bitcoin blocks needed to run a [full node](https://en.bitcoin.it/wiki/Full_node "Full node"). As the satellite setups are receive-only nobody can detect that the user is even running bitcoin, and certainly not which [addresses](https://en.bitcoin.it/wiki/Address "Address") or [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") belong to them.
 
@@ -552,11 +552,11 @@ As of 2019 the company offers a paid-for API which allows broadcasting any data 
 
 Main article: [https://blockstream.com/satellite/](https://blockstream.com/satellite/)
 
-## Methods for improving privacy (blockchain)
+# Methods for improving privacy (blockchain)
 
 This section describes different techniques for improving the privacy of [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") related to the permanent record of transactions on the blockchain. Some techniques are trivial and are included in all good bitcoin wallets. Others have been implemented in some open source projects or services, which may use more than one technique at a time. Other techniques have yet to be been implemented. Many of these techniques focus on breaking different heuristics and assumptions about the blockchain, so they work best when combined together.
 
-### Avoiding [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")
+## Avoiding address reuse
 
 [Addresses](https://en.bitcoin.it/wiki/Address "Address") being used more than once is very damaging to privacy because that links together more blockchain [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") with proof that they were created by the same entity. The most private and secure way to use bitcoin is to send a brand new address to each person who pays you. After the received coins have been spent the address should never be used again. Also, a brand new bitcoin address should be demanded when sending bitcoin. All good bitcoin wallets have a user interface which discourages [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse").
 
@@ -566,7 +566,7 @@ Bitcoin isn't anonymous but pseudonymous, and the pseudonyms are bitcoin address
 
 [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core") 0.17 includes an update to improve the privacy situation with [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")[[46]](https://en.bitcoin.it/wiki/Privacy#cite_note-46). When an address is paid multiple times the coins from those separate payments can be spent separately which hurts privacy due to linking otherwise separate addresses. A -avoidpartialspends flag has been added (default=false), if enabled the wallet will always spend existing UTXO to the same address together even if it results in higher fees. If someone were to send coins to an address after it was used, those coins will still be included in future coin selections.
 
-#### Avoiding [forced address reuse](https://en.bitcoin.it/wiki/Privacy#Forced_address_reuse)
+### Avoiding forced address reuse
 
 The easiest way to avoid the privacy loss from [forced address reuse](https://en.bitcoin.it/wiki/Privacy#Forced_address_reuse) to not spend coins that have landed on an already-used and empty addresses. Usually the payments are of a very low value so no relevant money is lost by simply not spending the coins.
 
@@ -574,19 +574,19 @@ Another option is to spend the coins individual directly to miner fees. Here are
 
 Dust-b-gone is an old project[[47]](https://en.bitcoin.it/wiki/Privacy#cite_note-47) which aimed to safely spend forced-address-reuse payments. It signs all the UTXOs together with other people's and spends them to miner fees. The [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") use rare [OP_CHECKSIG](https://en.bitcoin.it/wiki/OP_CHECKSIG "OP CHECKSIG") sighash flags so they can be easily eliminated from the adversary's analysis, but at least the forced address reuse payments don't lead to further privacy loss.
 
-### Coin control
+## Coin control
 
 Coin control is a feature of some bitcoin wallets that allow the user to choose which [coins](https://en.bitcoin.it/wiki/Coin_analogy "Coin analogy") are to be spent as inputs in an outgoing [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction"). Coin control is aimed to avoid as much as possible [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") where privacy leaks are caused by amounts, change addresses, the transaction graph and the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic")[[48]](https://en.bitcoin.it/wiki/Privacy#cite_note-48)[[49]](https://en.bitcoin.it/wiki/Privacy#cite_note-49).
 
 An example for avoiding a transaction graph privacy leak with coin control: A user is paid bitcoin for their employment, but also sometimes buys bitcoin with cash. The user wants to donate some money to a charitable cause they feel passionately about, but doesn't want their employer to know. The charity also has a publicly-visible donation address which can been found by web search engines. If the user paid to the charity without coin control, his wallet may use [coins](https://en.bitcoin.it/wiki/Coin_analogy "Coin analogy") that came from the employer, which would allow the employer to figure out which charity the user donated to. By using coin control, the user can make sure that only [coins](https://en.bitcoin.it/wiki/Coin_analogy "Coin analogy") that were obtained anonymously with cash were sent to the charity. This avoids the employer ever knowing that the user financially supports this charity.
 
-### Multiple transactions
+## Multiple transactions
 
 Paying someone with more than one on-chain [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") can greatly reduce the power of amount-based privacy attacks such as amount correlation and round numbers. For example, if the user wants to pay 5 BTC to somebody and they don't want the 5 BTC value to be easily searched for, then they can send two transactions for the value of 2 BTC and 3 BTC which together add up to 5 BTC.
 
 Privacy-conscious merchants and services should provide customers with more than one bitcoin [address](https://en.bitcoin.it/wiki/Address "Address") that can be paid.
 
-### Change avoidance
+## Change avoidance
 
 Change avoidance is where transaction inputs and outputs are carefully chosen to not require a change output at all. Not having a change output is excellent for privacy, as it breaks change detection heuristics.
 
@@ -596,11 +596,11 @@ Main article: [Techniques_to_reduce_transaction_fees#Change_avoidance](https://e
 
 Another way to avoid creating a change output is in cases where the exact amount isn't important and an entire UTXO or group of UTXOs can be fully-spent. An example is when opening a [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") [payment channel](https://en.bitcoin.it/wiki/Payment_channel "Payment channel"). Another example would be when sweeping funds into a [cold storage](https://en.bitcoin.it/wiki/Cold_storage "Cold storage") wallet where the exact amount may not matter.
 
-### Multiple change outputs
+## Multiple change outputs
 
 If [change avoidance](https://en.bitcoin.it/wiki/Privacy#Change_avoidance) is not an option then creating more than one change output can improve privacy. This also breaks change detection heuristics which usually assume there is only a single change output. As this method uses more block space than usual, change avoidance is preferable.
 
-### Script privacy improvements
+## Script privacy improvements
 
 The [script](https://en.bitcoin.it/wiki/Script "Script") of each bitcoin output leaks privacy-relevant information. For example as of late-2018 around 70% of bitcoin addresses are single-signature and 30% are [multisignature](https://en.bitcoin.it/wiki/Multisignature "Multisignature")[[50]](https://en.bitcoin.it/wiki/Privacy#cite_note-50). Much research has gone into improving the privacy of scripts by finding ways to make several different script kinds look the same. As well as improving privacy, these ideas also improve the scalability of the system by reducing storage and bandwidth requirements.
 
@@ -622,7 +622,7 @@ The taproot scheme is so useful because it is almost always the case that intere
 
 **[nLockTime](https://en.bitcoin.it/wiki/NLockTime "NLockTime")** is a field in the serialized [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") format. It can be used in certain situations to create a more private [timelock](https://en.bitcoin.it/wiki/Timelock "Timelock") which avoids using [script](https://en.bitcoin.it/wiki/Script "Script") opcodes.
 
-### ECDH addresses
+## ECDH addresses
 
 [ECDH addresses](https://en.bitcoin.it/wiki/ECDH_address "ECDH address") can be used to improve privacy by helping avoid [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"). For example, a user can publish a [ECDH address](https://en.bitcoin.it/wiki/ECDH_address "ECDH address") as a [donation address](https://en.bitcoin.it/wiki/Receiving_donations_with_bitcoin "Receiving donations with bitcoin") which is usable by people who want to donate. An adversary can see the ECDH donation address but won't be able to easily find any [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") spending to and from it.
 
@@ -630,7 +630,7 @@ However [ECDH addresses](https://en.bitcoin.it/wiki/ECDH_address "ECDH address")
 
 ECDH addresses have [some practicality issues](https://en.bitcoin.it/wiki/ECDH_address "ECDH address") and are very closely equivalent to [running a http website which hands out bitcoin addresses to anybody who wants to donate](https://en.bitcoin.it/wiki/Receiving_donations_with_bitcoin#Improving_privacy_by_avoiding_address_re-use "Receiving donations with bitcoin") except without an added step of interactivity. It is therefore unclear whether ECDH are useful outside the use-case of non-interactive donations or a self-contained application which sends money to one destination without any interactivity.
 
-### Centralized mixers
+## Centralized mixers
 
 This is an old method for breaking the [transaction graph](https://en.bitcoin.it/wiki/Privacy#Transaction_graph). Also called "tumblers" or "washers". A user would send bitcoins to a [mixing service](https://en.bitcoin.it/wiki/Bitcoin_mixer "Bitcoin mixer") and the service would send different bitcoins back to the user, minus a fee. In theory an adversary observing the blockchain would be unable to link the incoming and outgoing [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction").
 
@@ -642,11 +642,11 @@ The problem of the service having full knowledge of the transactions could be re
 
 Main article: [Bitcoin mixer](https://en.bitcoin.it/wiki/Bitcoin_mixer "Bitcoin mixer")
 
-### CoinJoin
+## CoinJoin
 
 [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") is a special kind of bitcoin transaction where multiple people or entities cooperate to create a single transaction involving all their inputs. It has the effect of breaking the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and it makes use of the [inherent fungibility of bitcoin within transactions](https://en.bitcoin.it/wiki/Coin_analogy#Fungibility "Coin analogy"). The [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") technique has been possible since the very start of bitcoin and cannot be blocked except in the ways that any other bitcoin [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") can be blocked. Just by looking at a transaction it is not possible to tell for sure whether it is a coinjoin. CoinJoins are non-custodial as they can be done without any party involved in a coinjoin being able to steal anybody else's bitcoins[[68]](https://en.bitcoin.it/wiki/Privacy#cite_note-68).
 
-#### Equal-output CoinJoin
+### Equal-output CoinJoin
 
 Say this transaction is a [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin"), meaning that the 2 BTC and 3 BTC inputs were actually owned by different entities.
 
@@ -663,7 +663,7 @@ In this [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") the 
 
 As of late-2018 [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") is the only decentralized bitcoin privacy method that has been deployed. Examples of (likely) [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") transactions IDs on bitcoin's blockchain are `402d3e1df685d1fdf82f36b220079c1bf44db227df2d676625ebcbee3f6cb22a` and `85378815f6ee170aa8c26694ee2df42b99cff7fa9357f073c1192fff1f540238`. Note that these coinjoins involve more than two people, so each individual user involved cannot know the true connection between inputs and outputs (unless they collude).
 
-#### PayJoin
+### PayJoin
 
 _Main article: [PayJoin](https://en.bitcoin.it/wiki/PayJoin "PayJoin")_
 
@@ -678,7 +678,7 @@ It could be interpreted as a simple transaction paying to somewhere with leftove
 
 If PayJoin [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction") became even moderately used then it would make the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") be completely flawed in practice. As they are undetectable we wouldn't even know whether they are being used today. As [transaction surveillance companies](https://en.bitcoin.it/wiki/Transaction_surveillance_company "Transaction surveillance company") mostly depend on that heuristic, as of 2019 there is great excitement about the PayJoin idea[[72]](https://en.bitcoin.it/wiki/Privacy#cite_note-72).
 
-### CoinSwap
+## CoinSwap
 
 _Main article: [CoinSwap](https://en.bitcoin.it/wiki/CoinSwap "CoinSwap")_
 
@@ -697,7 +697,7 @@ CoinSwaps require a lot of interaction between the involved parties, which can m
 
 In of February 2022, **MercuryWallet** was the first implementation has been deployed[[74]](https://en.bitcoin.it/wiki/Privacy#cite_note-74)[[75]](https://en.bitcoin.it/wiki/Privacy#cite_note-75). In June 2020, the [Human Rights Foundation](https://en.wikipedia.org/wiki/Human_Rights_Foundation) (a New York-based nonprofit that promotes and protects human rights globally) granted $50,000 to [Chris Belcher](https://en.bitcoin.it/wiki/User:Belcher) (one of the main contributors to this very page) to work on the project.[[76]](https://en.bitcoin.it/wiki/Privacy#cite_note-76)
 
-### CoinJoinXT
+## CoinJoinXT
 
 CoinJoinXT is non-custodial privacy technique which is closely related to [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin")[[77]](https://en.bitcoin.it/wiki/Privacy#cite_note-77). It allows for any number of entities to between them create a so-called _proposed transaction graph_ (PTG) which is a list of connected transactions. In the PTG the bitcoins belonging to the entities are sent to and fro in all the transactions, but at the end of the PTG they are all returned to their rightful owners. The system is set up so that the process of the PTG being mined is atomic, so either the entire PTG is [confirmed](https://en.bitcoin.it/wiki/Confirmation "Confirmation") on the blockchain or none of it is, this means none of the participating entities can steal from each other.
 
@@ -705,13 +705,13 @@ The _proposed transaction graph_ has the freedom to be any list of transactions 
 
 Like [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin"), CoinJoinXT is easy to make DOS-resistant and doesn't require a prohibitive number of interaction steps. Unlike [CoinSwap](https://en.bitcoin.it/wiki/CoinSwap "CoinSwap") there is no liveness or non-censorship requirement so funds are secure even if bitcoin is under temporary censorship. However CoinJoinXT uses a lot of block space compared the privacy gain. And CoinJoinXT requires a malleability fix so all the transactions in the PTG have to be [segwit](https://en.bitcoin.it/wiki/Segregated_Witness "Segregated Witness")-only. As of 2019 only around 40% of transactions are segwit, so an observer of the blockchain could easily eliminate non-PTG transactions by checking whether they are legacy or segwit.
 
-### TumbleBit
+## TumbleBit
 
 [TumbleBit](https://en.bitcoin.it/wiki/TumbleBit "TumbleBit") is privacy technology which is non-custodial and where the coordinating server cannot tell the true linkage between input and output. This is achieved by a cryptographic construct where the server facilitates a private exchange of digital signatures. The protocol is very interesting to any privacy and bitcoin enthusiast.
 
 From the point of view of an observer of the blockchain, TumbleBit transactions appear as two transactions with many (800 in the author's example) outputs and all transaction outputs must be of the same amount.
 
-### Off-chain transactions
+## Off-chain transactions
 
 Off-chain transactions refer to any technology which allows bitcoin transactions on a layer above the blockchain. Bitcoin payments done off-chain are not broadcast to every node in the network and are not mined and stored forever on a public blockchain, this automatically improves privacy because much less information is visible to most adversaries. With [Off-Chain Transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions") there are no public addresses, no address clusters, no public transactions, no transaction amounts or any other privacy-relevant attacks that happen with on-chain transactions.
 
@@ -719,31 +719,31 @@ Main article: [Off-Chain Transactions](https://en.bitcoin.it/wiki/Off-Chain_Tran
 
 **[Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network")** is a huge topic in bitcoin privacy so it is [discussed in its own section](https://en.bitcoin.it/wiki/Privacy#Lightning_Network).
 
-#### Blinded bearer certificates
+### Blinded bearer certificates
 
 This is another way of doing [Off-Chain Transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions") which is based on blind signatures. The payments through such a system would be very very private. It has been known about since 1983. But the system is custodial so as the issuing server is a central point of failure which can steal all the money. However the concept may still be useful in certain situations where Lightning is not, for example blinded bearer certificates support payments where the receiver is offline.
 
 Main article: [Blinded bearer certificates](https://en.bitcoin.it/wiki/Blinded_bearer_certificates "Blinded bearer certificates")
 
-#### Sidechains
+### Sidechains
 
 [Sidechains](https://en.bitcoin.it/wiki/Sidechain "Sidechain") are when another blockchain is created which uses bitcoins as its currency unit. Bitcoins can be moved from the main bitcoin blockchain onto the sidechain which allows them to transact following different consensus rules. Sidechains can have different and better privacy properties than the regular bitcoin blockchain.
 
 Main article: [Sidechain](https://en.bitcoin.it/wiki/Sidechain "Sidechain")
 
-#### StateChains
+### StateChains
 
 [StateChains](https://en.bitcoin.it/wiki/StateChain "StateChain") are a cryptographic structure that consists of a chain of digital signatures transfering ownership of a specific statecoin (a bitcoin UTO) between owners. Similar to a blockchain or sidechain, the statechain acts as immutable cryptographic proof of ownership and a proof that a statecoin(bitcoin UTXO) has not been double spent.
 
-### Confidential transactions
+## Confidential transactions
 
 _Main article: [Confidential transactions](https://en.bitcoin.it/wiki/Confidential_transactions "Confidential transactions")_
 
 [Confidential transactions](https://en.bitcoin.it/wiki/Confidential_transactions "Confidential transactions") (CT) is a cryptographic protocol which results in the amount value of a transaction being encrypted. The encryption is special because it is still possible to verify that no bitcoins can been created or destroyed within a [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") but without revealing the exact transaction amounts. Confidential transactions requires a [softfork](https://en.bitcoin.it/wiki/Softfork "Softfork") consensus change to be added to bitcoin, although they could be added to a [sidechain](https://en.bitcoin.it/wiki/Sidechain "Sidechain") too.
 
-### Discussion
+## Discussion
 
-#### Privacy vs scalability
+### Privacy vs scalability
 
 Many of the previously-mentioned privacy technologies work by adding extra data to the bitcoin blockchain which is used to hide privacy-relevant information. This has the side-effect of degrading the scalability of bitcoin by adding more data which must be handled by system. This harms privacy because [full nodes](https://en.bitcoin.it/wiki/Full_node "Full node") become more resource-costly to run and they are the most private way for a user to learn their history and balance. Adding data to blocks also [degrades the security of the system](https://en.bitcoin.it/wiki/Full_node#Economic_strength "Full node"), and there isn't much point in having a private bitcoin if the poor security leads to it being successfully attacked and destroyed. The resource cost of using more block space is shown to the user as a higher [miner fee](https://en.bitcoin.it/wiki/Miner_fees "Miner fees"); so privacy technology which uses too much block space may not even be used much if users find the fees too expensive. During the [period of high block space demand](https://en.bitcoin.it/wiki/Miner_fees#The_market_for_block_space "Miner fees") in late-2017, low-value [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") CoinJoin transactions mostly disappeared (as did most low-valued bitcoin transactions).
 
@@ -751,7 +751,7 @@ Many of the previously-mentioned privacy technologies work by adding extra data 
 
 In the long term as bitcoin [miner fees](https://en.bitcoin.it/wiki/Miner_fees "Miner fees") go up, resource-costly privacy technologies will be priced out and replaced by resource-efficient ones.
 
-#### Steganography
+### Steganography
 
 Steganography is used in cryptography to mean the act of hiding the fact that something is being hidden. For example the content of an encrypted message cant be read by an eavesdropper but it still shows that something is being hidden. Steganographic encryption of a message can be done by embedding an encrypted message into an audio file or image which hides the message in the noise.
 
@@ -759,7 +759,7 @@ An equal-output [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") hides
 
 The idea of steganography is a good thing to aim for[[78]](https://en.bitcoin.it/wiki/Privacy#cite_note-78). It greatly increases the privacy because the transactions made by such technology cannot be distinguished from regular transactions. Also it improves the privacy of users who don't even use the technology, as their transactions can always be confused with actual private transactions. [Scriptless scripts](https://en.bitcoin.it/w/index.php?title=Scriptless_scripts&action=edit&redlink=1 "Scriptless scripts (page does not exist)") are a great example of a steganographic privacy technology where the privacy-relevant information is hidden in the random numbers of the digital signatures. [PayJoin](https://en.bitcoin.it/wiki/PayJoin "PayJoin"), [CoinSwap](https://en.bitcoin.it/wiki/CoinSwap "CoinSwap") and [CoinJoinXT](https://en.bitcoin.it/wiki/CoinJoinXT "CoinJoinXT") are good steganographic privacy technologies because they can be made indistinguishable from regular bitcoin transactions. Equal-output coinjoins and [TumbleBit](https://en.bitcoin.it/wiki/TumbleBit "TumbleBit") are not steganographic. Also it is usually easy to see when a centralized [mixing service](https://en.bitcoin.it/wiki/Bitcoin_mixer "Bitcoin mixer") is being used with [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") analysis, but depositing and then withdrawing from a high-volume bitcoin website like a casino or altcoin exchange is better because its possible that the user simply wanted to gamble.
 
-## Lightning Network
+# Lightning Network
 
 [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") is an [off-chain transaction](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions") technology based on [payment channels](https://en.bitcoin.it/wiki/Payment_channels "Payment channels"). It has nearly the same security model as bitcoin on-chain transactions. It is not an overstatement to say that Lightning Network is a revolution for bitcoin. See the previous section on [#Off-chain transactions](https://en.bitcoin.it/wiki/Privacy#Off-chain_transactions).
 
@@ -771,11 +771,11 @@ However [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightn
 
 As of 2019 Lightning is in beta and development continues; the development community is still studying all its privacy properties. Certainly its privacy is better than the privacy of on-chain [transactions](https://en.bitcoin.it/wiki/Transaction "Transaction").
 
-### Onion routing
+## Onion routing
 
 The Lightning protocol uses onion routing[[80]](https://en.bitcoin.it/wiki/Privacy#cite_note-80)[[81]](https://en.bitcoin.it/wiki/Privacy#cite_note-81) to improve privacy from the intermediate routing notes. The protocol is aimed to prevent intermediate nodes along a payment route learning which other nodes, besides their predecessor or successor, are part of the packet's route; it also aims to hide the length of the route and the node's position within it.
 
-#### Onion routing overlaid with network topology
+### Onion routing overlaid with network topology
 
 Lightning Network's onion routing is usually compared with [Tor](https://en.bitcoin.it/wiki/Tor "Tor") onion routing. However, Tor's network is fully-connected; every node on Tor is directly connected (or has the potential to directly connect) with every other node, meaning that an onion-routed packet can be relayed from and to potentially any other node. This is not so in the Lightning Network, where [payment channels](https://en.bitcoin.it/wiki/Payment_channels "Payment channels") do not fully-connect the entire network, and where the network topology is publicly known for routing nodes. Data fusion of the network topology and the small amount of information from onion-routed packets may still be enough to uncover information in certain cirumstances[[82]](https://en.bitcoin.it/wiki/Privacy#cite_note-82)[[83]](https://en.bitcoin.it/wiki/Privacy#cite_note-83). For example, if a Lightning node wallet has only a single [payment channel](https://en.bitcoin.it/wiki/Payment_channel "Payment channel") connection going to one intermediate node, then any payments sent to and from the node wallet will have to pass through the intermediate node, which would be able to obtain a lot of information about the wallet node's payments regardless of the onion-routing used.
 
@@ -783,17 +783,17 @@ A mitigation to this topology problem may be that the entire topology of the Lig
 
 This doesn't mean the onion routing used by [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") is useless, far from it, but the privacy is not as strong as with [Tor](https://en.bitcoin.it/wiki/Tor "Tor").
 
-#### Rendez-vous routing
+### Rendez-vous routing
 
 Onion routing from the sender still requires that the destination Lightning node is known to the sender (along with all associated information like channel UTXO). This would mean that a user cannot receive Lightning payments without revealing one or more UTXOs associated with their [payment channels](https://en.bitcoin.it/wiki/Payment_channel "Payment channel"). A solution is rendez-vous routing[[84]](https://en.bitcoin.it/wiki/Privacy#cite_note-84)[[85]](https://en.bitcoin.it/wiki/Privacy#cite_note-85), also called Hidden Destinations[[86]](https://en.bitcoin.it/wiki/Privacy#cite_note-86), which allow Lightning payments to be sent from a source node to destination node without either the source or destination needing to reveal their nodes and associated information.
 
 A good analogy is that source onion routing is like a [Tor](https://en.bitcoin.it/wiki/Tor "Tor") connection going via a Tor exit node to its destination, and rendez-vous onion routing is like a Tor connection going to a Tor hidden service.
 
-### Atomic Multipath Payments
+## Atomic Multipath Payments
 
 Atomic Multipath Payments (AMP) is a protocol in Lightning which allows a single payment to be routed over multiple lightning network transactions[[87]](https://en.bitcoin.it/wiki/Privacy#cite_note-87). For example if a user has five channels each with balance 2 btc, they can send a single payment of 7 btc using the AMP protocol over multiple lightning network paths. In terms of privacy, AMP would result in intermediate nodes not observing the full payment amount of 7 btc but only the partial payment amounts of 2 btc or 1 btc (or any other combination). This is positive for privacy as routed payments would no longer leak the exact payment amount, but only a lower bound.
 
-### Common hashlock value
+## Common hashlock value
 
 For non-AMP payments, the payment hash is the same for all nodes along the route of a payment. This could allow multiple nodes if they co-operate to know that they routed the same payment based on this common hash value. Although this could also be done using the timestamp of each routed payment.
 
@@ -801,7 +801,7 @@ For non-AMP payments, the payment hash is the same for all nodes along the route
 
 A 2017 paper called Concurrency and Privacy with Payment-Channel Networks[[90]](https://en.bitcoin.it/wiki/Privacy#cite_note-90)[[91]](https://en.bitcoin.it/wiki/Privacy#cite_note-91) writes about a scheme using zero-knowledge proofs which would allow each hash value in the payment route to be different. The scheme is much more expensive in terms of computation, but it may still be practical.
 
-### Custodial wallets
+## Custodial wallets
 
 Lightning-enabled wallets can be of the custodial type, where the wallet is just a front-end that connects to a back-end server run by some company. This is the same situation for web wallets in the on-chain bitcoin ecosystem.
 
@@ -809,23 +809,23 @@ This kind of setup would result in all the user's [Lightning Network](https://en
 
 Lightning-enabled wallets still need to interface with the underlying bitcoin network, which can leak privacy-relevant information if done incorrectly. For example, if the wallet obtains blockchain transaction information from a centralized server then that server can spy on all the channel opening and closing transaction. Privacy-aware lightweight wallets usually make use of [Client-side block filtering](https://en.bitcoin.it/wiki/Client-side_block_filtering "Client-side block filtering") which is a very good fit for [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network")-enabled wallets.
 
-### Private script types
+## Private script types
 
 Advances in script type privacy like [Schnorr](https://en.bitcoin.it/wiki/Schnorr "Schnorr"), scriptless scripts, taproot and ECDSA-2P benefit [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") privacy by making its [payment channel](https://en.bitcoin.it/wiki/Payment_channel "Payment channel") blockchain transactions appear indistinguishable from regular single-signature blockchain transactions.
 
-### Probing payments to reveal channel states
+## Probing payments to reveal channel states
 
 The balance state of each channel is hidden from the public and is only known to the two entities making up the [payment channel](https://en.bitcoin.it/wiki/Payment_channel "Payment channel"). This provides a lot of privacy, as amounts and changes of the amounts are not visible to all. A possible way to defeat this privacy is for an active adversary to send probing payments until the balance is obtained. Such attack has been proved possible, as described in a paper from the beginning of 2019[[93]](https://en.bitcoin.it/wiki/Privacy#cite_note-93), due to the level of detail that lightning implementations provide about routing errors. Although it would seem that such attack would need to pay the routing fees for the probing payments, the attacker may provide a fake invoice, so even when the payment passes through all the route, the last node will send back an error message and will not be able to execute the payment. So the cost for such attack is reduced to the fees needed to open and close the channels used for the attack.
 
 Such an attack can be used for disclosing the balances of a single or a selected group of nodes of the network and even on a large scale to obtain the balance of each channel in the network. In case the adversary repeats this procedure for every [payment channel](https://en.bitcoin.it/wiki/Payment_channel "Payment channel") in the entire [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") and continues probing very frequently, then by watching the change in channel states, they could observe payment being routed around the network. A possible way to remedy this attack would be for routing nodes to randomly (for example 1-out-of-20 times) return a routing error even if the channel balance state is actually adequate. This likely would not degrade the user experience of [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") much, but would impose a serious cost on the attacker.
 
-## Existing privacy solutions
+# Existing privacy solutions
 
 This section is about bitcoin software which implements privacy features as its main goal, especially avoiding the privacy leaks due to the blockchain.
 
 Privacy cannot be easily separated from any other aspect of bitcoin. It is unusual to have entirely separate solutions only for privacy, the dream is that one day all bitcoin wallets will include privacy tech already built in. But as of late-2018 many privacy implementations are separate applications.
 
-### Lightning Network
+## Lightning Network
 
 There are several implementations of [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") as of early-2019; such as [LND](https://en.bitcoin.it/w/index.php?title=LND&action=edit&redlink=1 "LND (page does not exist)"), [c-lightning](https://en.bitcoin.it/w/index.php?title=C-lightning&action=edit&redlink=1 "C-lightning (page does not exist)"), [eclair](https://en.bitcoin.it/w/index.php?title=Eclair&action=edit&redlink=1 "Eclair (page does not exist)"), etc.
 
@@ -835,11 +835,11 @@ The network itself can be used on bitcoin mainnet and several merchants and othe
 
 Some LN wallets such as Zap Wallet and Lightning Peach are actually custodial, they are backed by a centralized server which can spy on everything the user does, so they should be avoided.
 
-### Handmade CoinJoin
+## Handmade CoinJoin
 
 [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") transactions can be hand-made without a special wallet just using [Raw Transactions](https://en.bitcoin.it/wiki/Raw_Transactions "Raw Transactions"). This can be very flexible as the coinjoins can take any number of forms. It might be practical in between bitcoin merchants, several of whom might decide to coinjoin together some of their transactions so that the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") would imply they are all the same wallet cluster.
 
-### JoinMarket
+## JoinMarket
 
 [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") is an implementation of [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") where the required liquidity is paid for in a market. In JoinMarket terminology there are _liquidity taker_ users who can create a coinjoin for whatever amount they want at any time, they also pay a small coinjoin fee. _Liquidity makers_ are online 24 hours a day and are ready to create a coinjoin at any time for any amount they can, in return they earn coinjoin fees from liquidity takers. Because of this market for coinjoins, JoinMarket users can create coinjoins at any time and for any amount (up to a limit based on available liquidity).
 
@@ -853,7 +853,7 @@ The software is an open source project with a community based around it. Unfortu
 
 Main article: [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket")
 
-### Wasabi Wallet
+## Wasabi Wallet
 
 **Wasabi Wallet** is an open-source, non-custodial, **privacy-focused** Bitcoin wallet for Desktop, that implements trustless **[CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin")**. The CoinJoin coordinator (run by zkSNACKs Ltd., the company that is sponsoring the development of Wasabi) cannot steal from, nor breach the privacy of the participants.
 
@@ -872,19 +872,19 @@ Wasabi also has a [complete and detailed documentation](https://docs.wasabiwalle
 
 Main article: [Wasabi Wallet](https://en.bitcoin.it/wiki/Wasabi_Wallet "Wasabi Wallet")
 
-### Samourai Wallet
+## Samourai Wallet
 
 Samourai Wallet is a smartphone wallet which implements some privacy features. Stowaway is an implementation of [PayJoin](https://en.bitcoin.it/wiki/PayJoin "PayJoin"). Stonewall is a scheme which creates transactions that look like [CoinJoins](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") but actually involve only one person; these fake coinjoins are intended to create false positives in algorithms used by a hypothetical [transaction surveillance company](https://en.bitcoin.it/wiki/Transaction_surveillance_company "Transaction surveillance company"). StonewallX2 is a scheme that creates transactions that are identical to Stonewall but involve two participants, making it an actual [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") transaction. PayNyms are an implementation of [ECDH addresses](https://en.bitcoin.it/wiki/ECDH_address "ECDH address"). The wallet also has a feature called like-type change outputs where it generates a [change](https://en.bitcoin.it/wiki/Change "Change") address which is of the same type as the payment address; this avoids [wallet fingerprinting](https://en.bitcoin.it/wiki/Privacy#Wallet_fingerprinting) using address types which leads to change address detection.
 
 By default, Samourai Wallet obtains information about the user's history and balance by querying their own server. This server knows all the user's addresses and transactions, and can spy on them. Therefore using the default configuration of Samourai Wallet is only useful in a threat model where the adversary can analyze the blockchain but cannot access this server. In June 2019 with the release and open sourcing of the Samourai Wallet server, Dojo, users may now host their own server privately and direct their Samourai Wallet to connect to it.
 
-### Liquid sidechain
+## Liquid sidechain
 
 As of 2018 the Liquid [sidechain](https://en.bitcoin.it/wiki/Sidechain "Sidechain") implements Confidential Transaction (CT) which allows bitcoins to be transferred on that sidechain while keeping the transaction amounts hidden. The product is developed by the Blockstream company and is aimed at exchanges and traders. It allows fast transfer of bitcoin in a very private way.
 
 As Liquid is a federated sidechain, users generally need to pass AML checks and give up their personal data in order to use it. Its security model is quite close to having bitcoins on an exchange, because if enough of the functionaries get hacked then all the bitcoins on the sidechain could be stolen. However within that security model you get excellent privacy, and the [sidechain](https://en.bitcoin.it/wiki/Sidechain "Sidechain") itself is marketed towards traders and hedgers who certainly want to keep their trading activities private to stop other traders front-running them.
 
-### Mercury Wallet
+## Mercury Wallet
 
 **Mercury** is a new Bitcoin layer-2 scaling technology, based on the concept of statechains, that enables private keys for BTC deposits (UTXOs) to be transfered securely between owners without requiring an on-chain transaction.
 
@@ -892,11 +892,11 @@ This enables users to transfer full custody of an amount of BTC to anyone almost
 
 Main article: [MercuryWallet](https://en.bitcoin.it/wiki/MercuryWallet "MercuryWallet")
 
-## Examples and case studies
+# Examples and case studies
 
 Privacy is a very multifaceted and practical topic, it is helpful to follow examples to better understand how all the concepts are related.
 
-### Bad privacy example - Exchange front running
+## Bad privacy example - Exchange front running
 
 1. You are a trader and have an account on a bitcoin [exchange](https://en.bitcoin.it/wiki/Exchange "Exchange").
 2. You want to deposit some bitcoins to sell.
@@ -908,7 +908,7 @@ Privacy is a very multifaceted and practical topic, it is helpful to follow exam
 
 Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is terrible for privacy.
 
-### Bad privacy example - Savings revealed with [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")
+## Bad privacy example - Savings revealed with address reuse
 
 1. You save in bitcoin, using a [single-address paper wallet](https://en.bitcoin.it/wiki/Paper_Wallet "Paper Wallet") which results in [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse").
 2. All your bitcoin savings to this same address, let's say it contains $1 million worth.
@@ -919,13 +919,13 @@ Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"
 
 Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is terrible for privacy.
 
-### Bad privacy example - Savings revealed with data collection
+## Bad privacy example - Savings revealed with data collection
 
 1. You save in bitcoin. Trading on an exchange which you [reveal all your data to](https://en.bitcoin.it/wiki/Privacy#Revealing_data_when_transacting_bitcoin).
 2. Mostly you buy coins but sometimes you sell. You only ever use this one exchange.
 3. Regardless of any blockchain privacy technology you use, the exchange still knows all your trades and can find exactly how much bitcoin you hold at any time.
 
-### Example - Evading sanctions
+## Example - Evading sanctions
 
 1. You live in a country that is under international trade sanctions from other countries.
 2. Because of this you cannot buy the online newspaper you want.
@@ -933,7 +933,7 @@ Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"
 4. You buy bitcoins with cash and send them to wallet software on your computer, then use the bitcoins to buy the newspaper.
 5. Bitcoin transactions don't have geographical information about them, so your payment is not discovered as coming from a sanctioned country.
 
-### Example - Transacting with your online poker buddies without revealing your real name
+## Example - Transacting with your online poker buddies without revealing your real name
 
 1. You play online poker with some people (for real money).
 2. You win big. Lots of money goes to you and your buddies are annoyed.
@@ -942,7 +942,7 @@ Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"
 
 This example has a very mild threat model where the adversary can't access the exchange's AML/KYC records (if you didn't trade with cash), and they are not your ISP so cannot easily link your bitcoin addresses with your IP address (in the case that you used a [lightweight node](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") instead of a [full node](https://en.bitcoin.it/wiki/Full_node "Full node")).
 
-### Example - Donation without your employer knowing
+## Example - Donation without your employer knowing
 
 1. You earn money in bitcoin, your employer has sent you bitcoins as salary.
 2. You want to support X charity or political group with a donation of 0.1 BTC, but don't want your employer knowing.
@@ -952,7 +952,7 @@ This example has a very mild threat model where the adversary can't access the e
 
 If your employer casually analyses the blockchain they will think you are a gambler instead of a supporter of group X. The bitcoin casino doesn't care who you donate to. The employer also can't correlate the amounts, because they see you deposit 0.3 BTC but only 0.1 BTC is sent to the group. Privacy comes from mixing your coins with the coins of everybody else who uses that casino in the time period that your coins were deposited.
 
-### Example - Donation without anyone knowing
+## Example - Donation without anyone knowing
 
 1. You want to support X charity or political group without anyone knowing.
 2. Download and install a wallet which is backed by a [full node](https://en.bitcoin.it/wiki/Full_node "Full node") such as [Bitcoin Core](https://en.bitcoin.it/wiki/Bitcoin_Core "Bitcoin Core").
@@ -963,7 +963,7 @@ Instead of direct cash trading, the user could have also bought a cash substitut
 
 The [full node](https://en.bitcoin.it/wiki/Full_node "Full node") is required in this threat model, because otherwise your ISP or another adversary could likely spy on [lightweight node](https://en.bitcoin.it/wiki/Lightweight_node "Lightweight node") communications and discover the user's bitcoin addresses. Broadcasting the transaction over Tor is required to stop your ISP or a [transaction surveillance company](https://en.bitcoin.it/wiki/Transaction_surveillance_company "Transaction surveillance company") from learning that your IP address broadcast the transaction.
 
-### Example - Receiving donations privately
+## Example - Receiving donations privately
 
 1. You have a [single](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") donation address for your group or project, anybody can see all donations and their amounts by putting your donation address into a blockchain explorer.
 2. You want to spend the donations without anyone on the internet knowing.
@@ -984,7 +984,7 @@ Wallet    Casino1           Altcoin Exchange          Casino2            Futures
 
 As before the [full node](https://en.bitcoin.it/wiki/Full_node "Full node") wallet allows your wallet to learn its own history privately, while Tor broadcasting hides your IP address used when sending a [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction"). Using many different amounts stops [amount correlation](https://en.bitcoin.it/wiki/Privacy#Amount_correlation) from providing clues that can ruin your privacy. Using multiple bitcoin websites means a single website which co-operates with the adversary won't be enough to completely ruin your privacy. There is custodial risk as each website has the power to steal your money, but in this example the bitcoin amount is relatively low so the risk is acceptable.
 
-### Example - Storing savings privately
+## Example - Storing savings privately
 
 1. You want to [store value in bitcoin](https://en.bitcoin.it/wiki/Bitcoin_as_an_investment "Bitcoin as an investment") without anybody else knowing what you do with that value, or even that you own bitcoin.
 2. Buy the coins in some way and have them sent to your [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") wallet which you've configured to use your own [full node](https://en.bitcoin.it/wiki/Full_node "Full node"), all of which run entirely over [Tor](https://en.bitcoin.it/wiki/Tor "Tor").
@@ -995,7 +995,7 @@ Note that bitcoin privacy technology like [JoinMarket](https://en.bitcoin.it/wik
 
 Using [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") is non-custodial unlike the previous method which sends bitcoin through many bitcoin service websites, so it is useful where the custody risk is unacceptably high (such as where you're anonymizing all your hard-earned savings). All the wallets are backed by [full nodes](https://en.bitcoin.it/wiki/Full_node "Full node") in this example to stop a third-party service being able to link together your addresses or link them with your IP address. The full node is run entirely over [Tor](https://en.bitcoin.it/wiki/Tor "Tor") to stop your internet service provider or any network-level adversary from seeing that you run a bitcoin node.
 
-### Example - Stopping incoming payments from different sources from being linked together
+## Example - Stopping incoming payments from different sources from being linked together
 
 1. If you had both payments in the same wallet they may be linked together with the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic").
 2. You have a job as a nurse, you also moonlight as a stripper for extra income. Both jobs pay in bitcoin and you don't want them to be linked together.
@@ -1004,7 +1004,7 @@ Using [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") is non-cu
 
 Another way to do this (but with custodial risk) is to deposit the nurse income into a bitcoin service website (like a casino) and then deposit the stripper income but to a different deposit address. After you withdraw both with be combined with all the other deposits of other users of the casino. Probably the best way to do this is to receive one or both of the income streams over [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network").
 
-### Example - Withdrawing casino winnings to a bitcoin exchange without either entity knowing the source or destination of funds
+## Example - Withdrawing casino winnings to a bitcoin exchange without either entity knowing the source or destination of funds
 
 1. You have won 10 BTC at a bitcoin casino, you want withdraw them to a bitcoin exchange to sell without either party knowing (maybe because online gambling is blocked in your jurisdiction).
 2. Install [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") and point it at your own [full node](https://en.bitcoin.it/wiki/Full_node "Full node").
@@ -1012,7 +1012,7 @@ Another way to do this (but with custodial risk) is to deposit the nurse income 
 4. Run the JoinMarket tumbler script to mix the coins and have them sent to three different deposit address of the exchange with amounts (for example) 1btc + 2btc + 7btc.
 5. Then neither the online casino nor the exchange can use amount correlation to figure out the source or destination. The coinjoin transactions stop them using the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic"), and the other JoinMarket features stop [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") and analysis of the transaction graph[[96]](https://en.bitcoin.it/wiki/Privacy#cite_note-96).
 
-### Bad privacy example - Using a blockchain explorer
+## Bad privacy example - Using a blockchain explorer
 
 1. You receive a payment of bitcoin at one of your [addresses](https://en.bitcoin.it/wiki/Address "Address").
 2. You copy and paste the address into a [blockchain explorer website](https://en.bitcoin.it/wiki/Block_chain_browser "Block chain browser") and press _Refresh_ until the incoming transaction reaches 3 [confirmations](https://en.bitcoin.it/wiki/Confirmation "Confirmation").
@@ -1021,7 +1021,7 @@ Another way to do this (but with custodial risk) is to deposit the nurse income 
 
 This privacy break can be almost entirely fixed by navigating to the blockchain explorer website over [Tor](https://en.bitcoin.it/wiki/Tor "Tor"). It still reveals that _somebody_ is interested in that [bitcoin address](https://en.bitcoin.it/wiki/Address "Address") but doesn't reveal their IP address, and does not reveal any other bitcoin addresses controlled by the same user.
 
-### Bad privacy example - Privacy altcoin mixing failing due to amount correlation
+## Bad privacy example - Privacy altcoin mixing failing due to amount correlation
 
 1. You own 1.456225 BTC for which some privacy-relevant information has been leaked (maybe you bought it from a AML/KYC exchange) and want to send it to another address while breaking the link between the two.
 2. You trade the bitcoins for an altcoin which implements some blockchain privacy technology, a so-called "privacy coin", then you trade the altcoin back to bitcoin after making a few altcoin transactions.
@@ -1030,20 +1030,20 @@ This privacy break can be almost entirely fixed by navigating to the blockchain 
 
 Lesson: Transactions have amounts visible to all which must be treated with care for privacy.
 
-### Example - Privacy altcoin mixing
+## Example - Privacy altcoin mixing
 
 1. Similar to the previous example, you have bitcoins you want to mix. You trade into and out of a privacy altcoin to do it.
 2. When trading back into bitcoin you deposit the privacy altcoin into an exchange to sell, you use several transactions so that the exchange and any observer of the blockchain cannot easily use amounts to link together the before and after addresses.
 
 This method may still fail because privacy altcoins have fewer transactions than bitcoin by a factor of a few hundred, so the anonymity set may be lower. Also there are custodial risks with using exchanges so this method may not be appropriate for large amounts of coin. As privacy altcoins are usually much less scalable than bitcoin, their [full node](https://en.bitcoin.it/wiki/Full_node "Full node") wallets may be more resources-costly to run than bitcoin's. Privacy altcoins are likely to have a more volatile price than bitcoin which increases the risk of losing part of the money due to price movements.
 
-### Example - Daily commerce with Lightning Network
+## Example - Daily commerce with Lightning Network
 
 1. You have some bitcoin and want to spend it on regular goods and services. (Coffee, phone credit, VPN, hosting, hotel and apartment rentals, flights, food, drinks, clothes, etc etc) and you want to be as private as possible.
 2. You download and install a [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") wallet and use that for all purchases.
 3. Privacy attacks like [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic"), [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") and change address detection fundamentally don't work on any [Off-Chain Transactions](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions") technology.
 
-### Bad privacy example - Sending to a static donation address without precautions
+## Bad privacy example - Sending to a static donation address without precautions
 
 1. You own bitcoin and keep it in a custodial wallet.
 2. You want to donate to charity or political group X.
@@ -1053,7 +1053,7 @@ This method may still fail because privacy altcoins have fewer transactions than
 
 Lesson: Using a custodial wallet is bad for privacy because the custodian can see everything you do. [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is harmful to privacy (but common with donation addresses).
 
-### Bad privacy example - Receiving donations spied on with [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments")
+## Bad privacy example - Receiving donations spied on with mystery shopper payments
 
 1. You want to accept bitcoin donations but don't want to reveal the total donated amount.
 2. You set up a web server to give out unique addresses for each visitor.
@@ -1063,7 +1063,7 @@ Lesson: Using a custodial wallet is bad for privacy because the custodian can se
 
 Lesson: [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments") can be used to spy on people, even then they avoid [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"). Be mindful of what is being revealed with the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic").
 
-### Real life example - Bitcoin-stealing malware using static addresses
+## Real life example - Bitcoin-stealing malware using static addresses
 
 1. You are a creator of stealware (malware that steals money from its victim).
 2. You hardcode some bitcoin address into your malware where the ill-gottens are sent to.
@@ -1071,7 +1071,7 @@ Lesson: [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_pa
 
 This has been done in many cases including: the Wannacry malware[[97]](https://en.bitcoin.it/wiki/Privacy#cite_note-97)[[98]](https://en.bitcoin.it/wiki/Privacy#cite_note-98) and Electrum stealware[[99]](https://en.bitcoin.it/wiki/Privacy#cite_note-99)[[100]](https://en.bitcoin.it/wiki/Privacy#cite_note-100)
 
-### Bad privacy example - Bitcoin-stealing malware spied on with [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments")
+## Bad privacy example - Bitcoin-stealing malware spied on with [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments")
 
 1. You are an infosec researcher studying bitcoin-stealing malware.
 2. The malware author has coded a [ECDH address scheme](https://en.bitcoin.it/wiki/ECDH_address "ECDH address") into their malware.
@@ -1083,7 +1083,7 @@ This has been done in many cases including: the Wannacry malware[[97]](https://e
 
 Lesson: [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_payments "Mystery shopper payments") along with the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") can be used to deanonymize even people who avoid [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse").
 
-### Example - Single-use lightweight wallet over Tor
+## Example - Single-use lightweight wallet over Tor
 
 1. You want to anonymously buy something or donate to something online.
 2. You install [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") wallet and configure it to use [Tor](https://en.bitcoin.it/wiki/Tor "Tor"), or use [Tails OS](https://tails.boum.org).
@@ -1093,7 +1093,7 @@ Lesson: [mystery shopper payments](https://en.bitcoin.it/wiki/Mystery_shopper_pa
 
 Your [Electrum](https://en.bitcoin.it/wiki/Electrum "Electrum") wallet used a third-party server which can see all your bitcoin addresses and transaction. As you've connected to it over [Tor](https://en.bitcoin.it/wiki/Tor "Tor"), the server does not learn your real IP address. As you only use a single bitcoin [address](https://en.bitcoin.it/wiki/Address "Address") once and never again, the server isn't able to cluster together any other addresses. As you spent the entire balance there is no [change address](https://en.bitcoin.it/wiki/Change "Change") which can leak information. This setup actually results in strong privacy even though a third-party server is used.
 
-### Bad privacy example - Lightweight wallet over Tor used multiple times
+## Bad privacy example - Lightweight wallet over Tor used multiple times
 
 Very similar to the previous example, but more than one [address](https://en.bitcoin.it/wiki/Address "Address") and [transaction](https://en.bitcoin.it/wiki/Transaction "Transaction") is used.
 
@@ -1108,14 +1108,14 @@ Lesson: The third-party Electrum server was able to link together your two [tran
 
 Lesson 2: Note that [TailsOS](https://tails.boum.org) as of 2018 uses this privacy model for Electrum(!)
 
-### Real life example - Public donation address combined with the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic")
+## Real life example - Public donation address combined with the common-input-ownership heuristic
 
 1. Go to a website which accepts bitcoin donations like the [Tails OS donation page](https://tails.boum.org/donate/).
 2. Take their donation address (in this case `1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2`) and search it in the www.walletexplorer.com site.
 3. The site uses the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic"), [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") and possibly other techniques to cluster together addresses.
 4. We can see the amount and volume of donations to the Tails OS project: [https://www.walletexplorer.com/wallet/04d3d17f766c4e53?from_address=1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2](https://www.walletexplorer.com/wallet/04d3d17f766c4e53?from_address=1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2) The amounts look realistic so we're probably on the right lines.
 
-### Real life example - [Digital forensics](https://en.bitcoin.it/wiki/Privacy#Digital_forensics) aids with investigation of the MtGox exchange
+## Real life example - Digital forensics aids with investigation of the MtGox exchange
 
 1. [Mt. Gox](https://en.bitcoin.it/wiki/Mt._Gox "Mt. Gox") is a now-defunct bitcoin exchange which shut down in 2013 due to insolvency.
 2. Its internal database was leaked in March 2014, from which it was possible to build up a near-complete picture of the deposits and withdrawals of its wallets.
@@ -1125,7 +1125,7 @@ Lesson 2: Note that [TailsOS](https://tails.boum.org) as of 2018 uses this priva
 
 Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](https://www.youtube.com/watch?v=l70iRcSxqzo) [Slides](https://breaking-bitcoin.com/slides/CrackingMtGox.pdf).
 
-### Real life example - Flawed use of the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") exaggerates donation income
+## Real life example - Flawed use of the common-input-ownership heuristic exaggerates donation income
 
 1. Go to a website which accepts bitcoin donations like ThePirateBay.
 2. Take their donation address (in this case `1z8Tep4BNS79W3kYH8CHA8tWj6nuHYcCM`) and search it in the www.walletexplorer.com site.
@@ -1135,7 +1135,7 @@ Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](http
 6. A possible explanation of what's actually happening is ThePirateBay accepts donations straight into its account at a bitcoin [exchange](https://en.bitcoin.it/wiki/Exchange "Exchange"), which would result that analysis based on the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") gives highly exaggerated figures because it actually finds all deposits to that entire exchange. This has a danger for ThePirateBay that the custodial exchange could block or censor incoming donations.
 7. Another possibility is that ThePirateBay is using [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin").
 
-### Real life example - Incorrect clusters found by the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic")
+## Real life example - Incorrect clusters found by the common-input-ownership heuristic
 
 1. The www.walletexplorer.com website uses the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic"), [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") and possibly other techniques to cluster together addresses.
 2. It has a big named cluster called [MtGoxAndOthers](https://www.walletexplorer.com/wallet/MtGoxAndOthers) which has 8.6 million transactions and 3.6 million addresses associated with it as of January 2019.
@@ -1144,7 +1144,7 @@ Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](http
 5. For example the transaction `5ac0210febf7ce07a737bae8c32f84c1c54d131c21a16ca6b02b6f1edcad15c3` which is probably a [JoinMarket](https://en.bitcoin.it/wiki/JoinMarket "JoinMarket") transaction belongs to the MtGoxAndOthers cluster[[103]](https://en.bitcoin.it/wiki/Privacy#cite_note-103).
 6. Another example is the transaction `52757ed33a235ce8e48aeaabab7f6dd9cd3445c3642630123103b154ee59f3f5` which is a coinjoin created by the old SharedCoin centralized service[[104]](https://en.bitcoin.it/wiki/Privacy#cite_note-104), it is also in the MtGoxAndOthers cluster according to walletexplorer.
 
-### Real life example - Handmade coinjoin mislead a bitcoin analyist
+## Real life example - Handmade coinjoin mislead a bitcoin analyist
 
 1. The inventor of [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") Greg Maxwell posted a thread on [bitcointalk forums called "I taint rich!"](https://bitcointalk.org/index.php?topic=139581.0) which aimed to demonstrate coinjoin and how the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") is not always correct.
 2. The thread invited forum readers to create [CoinJoins](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin") by hand with Greg Maxwell's vanity [address](https://en.bitcoin.it/wiki/Address "Address"), which he hopes would be a strong demonstration of the flaws of the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic").
@@ -1159,7 +1159,7 @@ Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](http
 
 Lesson: The [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") isn't always right.
 
-### Real life example - The QuadrigaCX exchange wallet analysis
+## Real life example - The QuadrigaCX exchange wallet analysis
 
 1. In early 2019 the exchange QuadrigaCX shut down and many of its customers were left unable to access their bitcoin deposits, likely forever.
 2. A customer wanted to analyze the blockchain to find information about QuadrigaCX's wallet.
@@ -1172,7 +1172,7 @@ Main article: [https://blog.zerononcense.com/2019/02/04/quadrigacx-chain-analysi
 
 Reddit comments: [https://www.reddit.com/r/Bitcoin/comments/amut05/investigation_proves_an_exchange_quadriga_ran_a/](https://www.reddit.com/r/Bitcoin/comments/amut05/investigation_proves_an_exchange_quadriga_ran_a/)
 
-### Real life example - Stopping Bustabit casino customers getting banned from Coinbase.com
+## Real life example - Stopping Bustabit casino customers getting banned from Coinbase.com
 
 1. Coinbase.com is a bitcoin [exchange](https://en.bitcoin.it/wiki/Exchange "Exchange"). Bustabit is an online casino that uses bitcoin.
 2. In the United States online gambling is illegal (although state government often operates their own lotteries, and meatspace gambling like in Vegas is legal). Coinbase.com enforces this policy by warning and ultimately banning their customers who use online bitcoin casinos.
@@ -1182,7 +1182,7 @@ Reddit comments: [https://www.reddit.com/r/Bitcoin/comments/amut05/investigation
 6. No more Bustabit customers were ever warned or banned
 7. It seems the combination of both methods broke the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") and reduced the privacy-relevant information leaked by change outputs, enough that Coinbase.com's [transaction surveillance company](https://en.bitcoin.it/wiki/Transaction_surveillance_company "Transaction surveillance company") partner was unable to identify Bustabit's wallet addresses anymore.
 
-### Real life example - Rare multisignature scripts
+## Real life example - Rare multisignature scripts
 
 1. As of January 2019 [multisignature](https://en.bitcoin.it/wiki/Multisignature "Multisignature") contracts are visible to any observer of the blockchain.
 2. This includes their m-of-n values, the most common by far are 2-of-3 multisig[[106]](https://en.bitcoin.it/wiki/Privacy#cite_note-106).
@@ -1190,14 +1190,14 @@ Reddit comments: [https://www.reddit.com/r/Bitcoin/comments/amut05/investigation
 4. The bitcoin vault of the Xapo company used a 3-of-5 multisignature scheme. At one point when they moved it which resulted in 90% of the coins held on 3-of-5 multisig addresses moving on the blockchain. This revealed the amount of bitcoin in Xapo's wallet[[107]](https://en.bitcoin.it/wiki/Privacy#cite_note-107).
 5. In 2016 the exchange Bitfinex was hacked and part of its wallet was stolen. Bitfinex used 2-of-3 multisignature addresses to store its coins. As the thief moved the hacked coins to regular non-multisignature addresses, the movement of 120,000 bitcoins out of 2-of-3 multisig was visible on the blockchain, and it revealed the size of the theft[[108]](https://en.bitcoin.it/wiki/Privacy#cite_note-108).
 
-### Real life example - Freelance IT contractor has his co-workers figure out his salary
+## Real life example - Freelance IT contractor has his co-workers figure out his salary
 
 1. A user posted on the bitcoin reddit forum[[109]](https://en.bitcoin.it/wiki/Privacy#cite_note-109) about his experience with co-workers figuring out his salary because of [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse").
 2. _"As a freelance IT contractor, I had one incident where an on-site specialist found out my daily rate. Surely, he was a bit upset and complained to his manager about the lack of his own compensation. My agency fined me for 50% of the monthly rate. Needless to say, I now create a unique receive address for every invoice, and use another set of addresses for the daily personal-use expenditure."_
 
 Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") is terrible for privacy.
 
-### Real life example - Hacker hides destination of 445 btc with [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin")
+## Real life example - Hacker hides destination of 445 btc with CoinJoin
 
 1. In May 2017 a reddit user posted a thread saying they kept 445 btc on blockchain.info's web wallet, and their coins were stolen[[110]](https://en.bitcoin.it/wiki/Privacy#cite_note-110).
 2. They offered a 50% bounty for any help or information leading to finding their bitcoins again
@@ -1206,7 +1206,7 @@ Lesson: [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse"
 
 For good advice on how to store bitcoins without having them stolen by hackers see the [Storing bitcoins](https://en.bitcoin.it/wiki/Storing_bitcoins "Storing bitcoins") article on this wiki.
 
-### Bad privacy example - Data fusion of blockchain data and web cookies when online shopping with Bitcoin
+## Bad privacy example - Data fusion of blockchain data and web cookies when online shopping with Bitcoin
 
 1. Online shopping has several potential privacy leaks. Examples are third-party tracking cookies (such as from sites Doubleclick, Google Analytics or Facebook), or data given intentionally to merchants such as name, delivery address or email address.
 2. Bitcoin's blockchain leaks a lot of privacy-relevant information.
@@ -1217,12 +1217,12 @@ This is example of the power of data fusion, where two or more privacy leaks whi
 
 The privacy problems of third-party web tracking cookies have been known for nearly a decade but the situation has not improved much. Privacy can be regained in practice in this situation by 1) Using browser extensions such as uBlock Origin, Adblock Plus or Ghostery to block third-party tracking cookies, and/or 2) Using [off-chain transaction methods](https://en.bitcoin.it/wiki/Off-Chain_Transactions "Off-Chain Transactions") to make payments where much less privacy-relevant information is leaked. Most practically as of 2019 would be using [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network") for online shopping.
 
-### Bad privacy example - Centralized mixers being easily unmixed with amount correlation
+## Bad privacy example - Centralized mixers being easily unmixed with amount correlation
 
 1. BitcoinFog is a centralized bitcoin mixer, it charges 1-3% for a mix.
 2. Someone on reddit easily unmixes many BitcoinFog mixes using [Amount correlation](https://en.bitcoin.it/wiki/Privacy#Amount_correlation)[[112]](https://en.bitcoin.it/wiki/Privacy#cite_note-112)
 
-### Bad privacy example - Data fusion of blockchain data and IP address transaction broadcasting data
+## Bad privacy example - Data fusion of blockchain data and IP address transaction broadcasting data
 
 1. A 2018 paper[[113]](https://en.bitcoin.it/wiki/Privacy#cite_note-113) uses blockchain analysis and the tracking of transaction broadcasts to deanonymize bitcoin users.
 2. The researchers use [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse") and the [common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic") (the paper authors do not mention the possibility of [CoinJoin](https://en.bitcoin.it/wiki/CoinJoin "CoinJoin"))
@@ -1232,7 +1232,7 @@ The privacy problems of third-party web tracking cookies have been known for nea
 
 Lesson: Private transaction broadcasting (for example over [tor](https://en.bitcoin.it/wiki/Tor "Tor")) is necessary for privacy.
 
-### Real life example - 2018 paper on analysis of bitcoin ransomware transactions
+## Real life example - 2018 paper on analysis of bitcoin ransomware transactions
 
 1. A 2018 paper uses tracking techniques to study bitcoin ransomware[[114]](https://en.bitcoin.it/wiki/Privacy#cite_note-114).
 2. Some ransomware uses static addresses (which implies [address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")) while other ransomware requires victims to connect to a http server that hands out new bitcoin addresses.
@@ -1246,7 +1246,7 @@ The paper is an excellent example of transaction tracking. The researchers take 
 
 Ransomware is a threat. Always keep good backups of your important data.
 
-## See also
+# See also
 
 - [Common-input-ownership heuristic](https://en.bitcoin.it/wiki/Common-input-ownership_heuristic "Common-input-ownership heuristic")
 - [Address reuse](https://en.bitcoin.it/wiki/Address_reuse "Address reuse")
@@ -1256,8 +1256,6 @@ Ransomware is a threat. Always keep good backups of your important data.
 - [Client-side block filtering](https://en.bitcoin.it/wiki/Client-side_block_filtering "Client-side block filtering")
 - [Full node#Privacy](https://en.bitcoin.it/wiki/Full_node#Privacy "Full node")
 - [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network "Lightning Network")
-
-## References
 
 [^1]: Bitcoin Milan Meetup 46 - Talk by Adam Gibson [https://www.youtube.com/watch?v=IKSSWUBqMCM&t=2448](https://www.youtube.com/watch?v=IKSSWUBqMCM&t=2448)
 
