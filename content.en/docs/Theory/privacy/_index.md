@@ -9,7 +9,7 @@ A section covering the best approaches to ensuring your own privacy when interac
 
 1. [Bitcoin Privacy: Best Practices](/en/privacy/best-practices)
 2. [no-KYC only. Avoid the creep](/en/privacy/no-kyc)
-4. [Приватность в сети Биткоин](/privatnost-v-seti-bitcoin)
+4. [Bitcoin Privacy](/en/wiki-bitcoin-privacy)
 5. [Биткоин становится критически важным](/bitcoin-stanovitsya-kriticheski-vazhnym)
 6. [BIP47, или гадкий утенок](/bip47-ili-gadkij-utenok)
 7. [Понимание приватности в сети Биткоин с помощью OXT](/privacy/oxt)
