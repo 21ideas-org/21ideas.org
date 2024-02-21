@@ -13,7 +13,7 @@ weight: 5
 По мере того, как правительства ищут бэкдоры в шифровании, Биткоин становится критически важным.
 
 {{< hint btc >}}
-_Перевод [статьи](https://bitcoinmagazine.com/articles/as-governments-seek-encryption-backdoors-bitcoin-becomes-critical?ref=21ideas.org), опубликованной на сайте Bitcoin Magazine, подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe?ref=21ideas.org). [Поддержать проект](/contribute/)._
+_Перевод [статьи](https://bitcoinmagazine.com/articles/as-governments-seek-encryption-backdoors-bitcoin-becomes-critical), опубликованной на сайте Bitcoin Magazine, подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Поддержать проект](/contribute/)._
 {{< /hint >}}
 
 6 ноября 2020 года Совет Европейского Союза опубликовал "Проект резолюции Совета по вопросам шифрования". Предполагается, что он предшествует финальному тексту документа, который будет представлен Совету 19 ноября для возможного юридического принятия. В нем подчеркивается поддержка шифрования данных в целом, но также отмечаются проблемы, которые технологии шифрования создают для следователей, желающих получить доступ к переговорам преступников.
