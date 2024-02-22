@@ -1,6 +1,6 @@
 ---
-title: "Часть 2: Ключевые концепции анализа цепочки"
-h1: "Часть 2: Ключевые концепции анализа цепочки"
+title: "Part 2: Chain Analysis Core Concepts"
+h1: "Part 2: Chain Analysis Core Concepts"
 description: ""
 cover: /img/oxt/oxt-2-cover.png
 url: privacy/oxt-2
