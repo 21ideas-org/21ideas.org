@@ -1,7 +1,7 @@
 ---
-title: "Часть 3: Защита от анализа цепочки"
-h1: "Часть 3: Защита от анализа цепочки"
-description: "В части 3 рассматриваются основные концепции повышения приватности в сети Биткоин."
+title: "Part 3: Defences Against Chain Analysis"
+h1: "Part 3: Defences Against Chain Analysis"
+description: ""
 url: privacy/oxt-3
 cover: /img/oxt/oxt-3-cover.webp
 date: 2021-08-09
@@ -11,227 +11,209 @@ weight: 3
 ---
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Понимание приватности в сети Биткоин с помощью OXT
+## Understanding Bitcoin Privacy with OXT
 
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}
 
-В части 3 рассматриваются основные концепции повышения приватности в сети Биткоин.
+## Introduction
 
-{{< hint btc>}}
-Перевод [статьи](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-3-4-9a1b2b572a8) от разработчиков Samourai Wallet
+With the foundational concepts of chain analysis introduced in [Part 1](/en/privacy/oxt-1) and [Part 2](/en/privacy/oxt-2), Part 3 will discuss the methods for undermining chain analysis.
 
-[Поддержать проект](/contribute/)
-{{</hint >}}
+In this section we will present the following:
 
-## Введение
+1. defeating heuristics for change detection in simple spends
+2. creating an ambiguous transaction graph with equal output coinjoins
+3. undermining the CIOH with coinjoins
 
-После того как в [части 1](/privacy/oxt-1) и [части 2](/privacy/oxt-2) были представлены основополагающие понятия анализа цепочки, в третьей части будут рассмотрены методы запутывания компаний, анализирующих цепочку:
+## The UTXO Ownership Model & Ambiguity Of Simple Spends
 
-1. Преодоление эвристики обнаружения сдачи при простых тратах
-2. Создание неоднозначного графа транзакций с помощью CoinJoin-транзакций с равными выходами
-3. Преодоление CIOH с помощью CoinJoin-транзакций
+Previously, we introduced change detection heuristics for simple spends with 1 input and 2 outputs. We **_assumed_** that the transaction included a payment and change output.
 
-## Модель владения UTXO и неоднозначность простых трат
+In reality, a simple spend has many additional interpretations based on the UTXO “ownership model”. The ownership model attempts to assign ownership to the inputs and outputs of a transaction. The complete ownership interpretations for a transaction with 1 input and 2 outputs are shown in figure below.
 
-Ранее мы представили эвристику обнаружения сдачи для простых трат с 1 входом и 2 выходами. Мы предполагали, что транзакция включает в себя платеж и выход сдачи.
-
-В действительности простая трата имеет множество дополнительных интерпретаций, основанных на "модели владения" UTXO. Модель владения позволяет определить принадлежность входов и выходов транзакции. Полная интерпретация владения UTXO для транзакции с 1 входом и 2 выходами показана на рисунке ниже.
-
-{{% image "/img/oxt/oxt-29.png" %}}
-_Модель владения UTXO при простой трате_
+{{% image "/img/oxt/oxt-29-en.webp" %}}
+*UTXO Ownership Model for Simple Spend*
 {{% /image %}}
 
-Каждая из этих интерпретаций должна рассматриваться аналитиком, особенно если он использует только внутренние данные транзакции. Интерпретации могут быть исключены при учете отпечатка кошелька, нормального поведения кошелька и типичного поведения пользователя.
+Each of these interpretations must be considered by an analyst, especially when only applying internal transaction data. Interpretations can be eliminated when accounting for additional wallet fingerprinting, normal wallet behaviour, and typical user behaviour.
 
-Типичное поведение пользователя делает наиболее вероятными интерпретации 1 и 2. Интерпретации 3 и 4 возможны, хотя многие Биткоин-кошельки не имеют функции пакетной траты. Интерпретация 5 встречается редко из-за дополнительных комиссий и увеличения количества UTXO.
+Typical user behaviour makes interpretations 1 and 2 most likely. Interpretations 3 and 4 are possible, though many bitcoin wallets to do not have batch spend functionality. Interpretation 5 is rare due to extra fees paid and UTXO set bloat.
 
-Для исключения интерпретаций можно использовать внешние данные о транзакциях, например, выходы, отправленные на централизованные сервисы, или повторно используемые адреса. Из-за того, что граф транзакций Биткоина сосредоточен вокруг централизованных сервисов и моделей обычного поведения пользователей, на практике такие полные интерпретации рассматриваются редко.
+The application of external transaction data such as outputs sent to centralised services or reused addresses, can be used to eliminate interpretations. Due to the concentration of the bitcoin transaction graph around centralised services and patterns of normal user behaviour, these full interpretations are rarely considered in practice.
 
-## Преодоление эвристик обнаружения сдачи
+## Defeating Change Detection Heuristics
 
-Транзакции могут быть сделаны более неоднозначными с помощью программного обеспечения кошелька, направленного на преодоление эвристик обнаружения сдачи, представленных в [первой части](/privacy/oxt-1). В частности, приведенная ниже транзакция является примером "максимально" неоднозначной простой траты.
+Transactions can be made more ambiguous by wallet software that aims to defeat the heuristics for change detection presented in Part 1. When taken in isolation, the transaction below is an example of a “maximally” ambiguous simple spend.
 
-{{% image "/img/oxt/oxt-30.png" %}}
-_Неоднозначная простая трата ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
+{{% image "/img/oxt/oxt-30-en.webp" %}}
+_Ambiguous Simple Spend ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
 {{% /image %}}
 
-### Защита от эвристики круглого значения суммы платежа
+### Round Number Payment Heuristic Defences
 
-Сумма платежа определяется пользователем. Если пользователь выбирает круглое значение суммы платежа, то кошельку трудно защититься от этой эвристики при простой трате. Для большинства реальных платежей (с фиатной ценой) эта эвристика менее вероятна. В примере, приведенном выше, значение суммы платежа не является круглым, и защита от этой эвристики сохраняется.
+The payment amount is determined by the user. If a user selects a round payment amount, it is difficult for a wallet to protect against this heuristic in a simple spend. For most true payments (priced in fiat), this heuristic is less likely to apply. The example in figure above does not have a round number payment amount and maintains protection against this heuristic.
 
-### Идентичный тип скрипта в выходе сдачи
+### Identical Change Output Script Type
 
-В приведенном примере транзакция имеет идентичные типы выходных скриптов для обоих выходов, поэтому эвристика уникальности выходного скрипта не применяется. Это способствует сохранению неоднозначности и затрудняет обнаружение сдачи.
+The example transaction has identical output script types for both outputs so the unique script output heuristic does not apply. This helps to maintain ambiguity and makes change detection more difficult.
 
-### Случайное изменение положения выхода сдачи
+### Randomised Change Output Position
 
-Чтобы еще больше увеличить неоднозначность поведения этого кошелька при проведении ряда транзакций, программное обеспечение кошелька должно рандомизировать положение выхода сдачи. Попеременное изменение положения выхода 0 и 1 в транзакции затрудняет автоматическое отслеживание кошельков, подобных тому, что мы рассматривали во [второй части](/privacy/oxt-2/#%d0%bf%d1%80%d0%b8%d0%bc%d0%b5%d1%80-%d0%b3%d1%80%d0%b0%d1%84%d0%b0-%d1%82%d1%80%d0%b0%d0%bd%d0%b7%d0%b0%d0%ba%d1%86%d0%b8%d0%b9-peel-%d1%86%d0%b5%d0%bf%d0%be%d1%87%d0%ba%d0%b8).
+To further increase the ambiguity of this wallet’s behaviour over a series of transactions, wallet software must randomise the change output position. Alternating the change position between output 0 and 1 would make the automated tracking of wallets like the activity shown in Fig 2.8 more difficult.
 
-### Оценка транзакции с учетом внешних данных
+### Evaluate the Transaction Including External Transaction Data
 
-Граф OXT показывает относительные суммы UTXO и транзакций, изменяя вес линий. Таким образом, развертывание графа автоматически включает некоторые внешние данные о транзакциях.
+OXT’s transaction graph shows relative UTXO and transaction amounts by varying line weights. In this way, expanding the transaction graph automatically includes some external transaction data.
 
-_Исходя из графа транзакций и будущих трат UTXO, какой выход может быть платежом? Имеют ли адреса в этой транзакции какую-либо историю повторного использования?_
+_Based on the transaction graph and future UTXO spending, which output might be the payment? Do the addresses in this transaction have any previous history of reuse?_
 
-Это прекрасный пример того, как внешние данные о транзакциях могут быть использованы для определения платежей и установления выхода сдачи. Разверните граф транзакций или проследите за будущими тратами UTXO, чтобы проверить свое предположение о платежах/сдачах.
+This is a perfect example of how external transaction data can be used to aid in determining payments and establishing a change output. Expand the transaction graph or follow the future UTXO spending to verify your payment/change assumption.
 
-## Движения UTXO и детерминированные траты
+## UTXO Flows And Deterministic Spends
 
-Идентичный скрипт выхода сдачи и случайная позиция сдачи могут применяться кошельками для сохранения неоднозначности простых трат, но они не решают фундаментальной связи между входами и выходами, расходуемыми в транзакции.
+Identical change output scripts and randomised change positions can be applied by wallets to maintain the ambiguity of simple spends, but they do not address the fundamental link between inputs and outputs consumed in a transaction.
 
-Связь между входами и выходами транзакции существует всегда. Эти внутритранзакционные отношения UTXO можно представить как "движения". При этом BTC, расходуемые входными UTXO, передаются выходным UTXO.
+A link always exists between a transaction’s inputs and outputs. These intra-transaction UTXO relationships can be thought of as “flows”. Where the BTC consumed by input UTXOs are transferred to the output UTXOs.
 
-{{% image "/img/oxt/oxt-31.png" %}}
-_Визуализация движения UTXO с помощью графа транзакций OXT ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
+{{% image "/img/oxt/oxt-31-en.webp" %}}
+_UTXO Flow Visualization via OXT Tx Graph ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
 {{% /image %}}
 
-В случае простой траты (1 вход и 2 выхода) один вход должен быть использован для оплаты обоих выходов. Внутритранзакционные движения простой траты имеют только одну интерпретацию. В результате связь между одним входом и каждым выходом является математически детерминированной (**определенной**).
+In the case of a simple spend (1 input and 2 outputs), the single input must have been used to pay both outputs. A simple spend’s intra-transaction flows only have a single interpretation. As a result, the link between the single input and each output is mathematically deterministic (**certain**).
 
-Связь между входами и выходами может быть отображена на графе транзакций OXT путем выбора входа или выхода. Визуализатор транзакций на сайте [kycp.org](http://kycp.org/) также показывает внутритранзакционные связи.
+The link between inputs and outputs can be displayed on the OXT transaction graph by selecting an input or output. The transaction visualiser at [kycp.org](http://kycp.org/) also shows the intra-transaction links.
 
-{{% image "/img/oxt/oxt-32.png" %}}
-_Визуализация движения UTXO с помощью KYCP ([TxID](https://kycp.org/#/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
+{{% image "/img/oxt/oxt-32-en.webp" %}}
+_UTXO Flow Visualisation via KYCP ([TxID](https://kycp.org/#/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
 {{% /image %}}
 
-## Нарушение связей — Недетерминированные транзакции
+## Breaking Links — Non Deterministic Transactions
 
-Хотя неоднозначность владения UTXO существует всегда, нельзя полагаться на модель владения UTXO при маскировке движения BTC в блокчейне. Без нарушения детерминированных связей и внесения двусмысленности в граф транзакций Биткоин остается "отслеживаемым".
+Though UTXO ownership ambiguity always exists, the UTXO ownership model cannot be relied upon to obfuscate on-chain BTC flows. Without breaking deterministic links and introducing ambiguity into the transaction graph, bitcoins remain “traceable”.
 
-Нарушение детерминированных связей и создание неоднозначности графа требует особой структуры транзакций. Детерминизм зависит от количества входов и выходов транзакции, а также от количества BTC в каждом UTXO.
+Breaking deterministic links and creating on-chain ambiguity requires a specific transaction structure. Determinism is dependent on the number of transaction inputs, outputs, and the BTC amounts of each UTXO.
 
-Транзакции с множеством входов и выходов сами по себе могут создавать зашумленный граф транзакций. Такие транзакции нелегко интерпретировать без специального инструментария и учета особенностей.
+By themselves, transactions with multiple inputs and outputs can create a noisy transaction graph. These types of transactions are not easily interpreted without special tooling or considerations.
 
 {{% image "/img/oxt/oxt-33.png" %}}
-_[Пример](https://oxt.me/transaction/c7d1e40ae001a7fe4c860f9b7ddddcf9b5a3dad461466744e9b5e28c4b47e6b7) серии транзакций с несколькими входами и выходами_
+_Series of Multi-Input and Output Transactions Example ([TxID](https://oxt.me/transaction/c7d1e40ae001a7fe4c860f9b7ddddcf9b5a3dad461466744e9b5e28c4b47e6b7))_
 {{% /image %}}
 
-Несмотря на зашумленность графа транзакций, детерминированные связи между UTXO транзакций с несколькими входами и выходами все же могут быть определены. Первым эту концепцию ввел Кристов Атлас в своем инструменте и алгоритме ["CoinJoin Sudoku"](https://github.com/kristovatlas/coinjoin-sudoku).
+Despite the noisy transaction graph, deterministic links between UTXOs of transactions with multiple inputs and outputs can still be evaluated. Kristov Atlas was the first to introduce this concept in his “[CoinJoin Sudoku](https://github.com/kristovatlas/coinjoin-sudoku)” advisory and algorithm.
 
-При CoinJoin пользователи объединяют свои средства и совместно создают транзакцию. Как правило, создается транзакция с равными суммами выходов. Алгоритм CoinJoin Sudoku использует ветвь математики, называемую [анализом суммы подмножеств](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%BE_%D1%81%D1%83%D0%BC%D0%BC%D0%B5_%D0%BF%D0%BE%D0%B4%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2), для оценки транзакций на предмет "общего владения" входами и выходами.
+In a coinjoin, users pool their funds and collaborate to construct a transaction. Typically by creating a transaction with equal output amounts. The CoinJoin Sudoku algorithm uses a branch of mathematics called subset sum analysis to evaluate transactions for “common ownership” of inputs and outputs.
 
-Обсуждение этого алгоритма выходит за рамки данного руководства, но важно то, что неверно построенная транзакция CoinJoin может быть проанализирована на предмет наличия детерминированных связей.
+A discussion of these maths is beyond the scope of this guide, but the important takeaway is that a naively constructed coinjoin transaction can be evaluated for deterministic links.
 
-Сегодня концепция CoinJoin Sudoku была расширена [алгоритмом Больцмана](https://code.samourai.io/oxt/boltzmann), созданным [LaurentMT](https://twitter.com/laurentmt), ведущим разработчиком OXT. Алгоритм Больцмана использует концепцию CoinJoin Sudoku для оценки транзакций по нескольким параметрам, связанным с приватностью.
+Today, the coinjoin sudoku concept has been extended with the [Boltzmann](https://code.samourai.io/oxt/boltzmann) algorithm created by the OXT lead developer, [LaurentMT](https://twitter.com/laurentmt). Boltzmann uses the CoinJoin Sudoku concept to evaluate transactions for several privacy related metrics.
 
-Для правильно построенных CoinJoin-транзакций **связь между входами и равными выходами все еще существует, однако эти связи являются вероятностными, а не детерминированными**. Алгоритм Больцмана вычисляет матрицу вероятностей связей (LPM — Link Probability Matrix) для зависимостей между входами и выходами транзакции.
+For properly constructed coinjoins, **a link between inputs and equal outputs still exists, however these links are probabalistic not deterministic**. The Boltzmann algorithm calculates a Link Probability Matrix (LPM) for the relationship between a transactions inputs and outputs.
 
-Результат LPM транзакции можно найти на странице TRANSACTION в OXT. На вкладке INPUTS & OUTPUTS подмножество связей между входом и каждым выходом можно увидеть, кликнув по значку "цепочки" справа от нужного UTXO.
+A transaction’s LPM output can be found on the TRANSACTION page on OXT. In the INPUTS&OUTPUTS tab, the link subset between an input and each output can be seen by clicking the “CHAIN ICON” to the right of the desired UTXO.
 
-{{% image "/img/oxt/oxt-34.png" %}}
-_Подмножество матриц связей в OXT ([TxID](https://oxt.me/transaction/3a7455d3f04709870f7148f9f9c8d6c8a3fd83e8c76afadf6a4acd613afdb53e))_
+{{% image "/img/oxt/oxt-34-en.webp" %}}
+_OXT Link Matrix Subset ([TxID](https://oxt.me/transaction/3a7455d3f04709870f7148f9f9c8d6c8a3fd83e8c76afadf6a4acd613afdb53e))_
 {{% /image %}}
 
-LPM для выбранных UTXO в рассматриваемых транзакциях также может быть найден путем выбора входов и выходов на графе транзакций ([пример](/privacy/oxt-3/#%d0%b4%d0%b2%d0%b8%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f-utxo-%d0%b8-%d0%b4%d0%b5%d1%82%d0%b5%d1%80%d0%bc%d0%b8%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5-%d1%82%d1%80%d0%b0%d1%82%d1%8b)). Визуальное представление полного LPM, полученного алгоритмом Больцмана, можно найти на сайте [kycp.org](https://kycp.org/).
+The LPM for selected UTXOs in evaluated transactions can also be found by selecting inputs and outputs on the OXT Transaction graph (see Fig 3.3). A visual of the full LPM produced by Boltzmann’s algorithm can be found at [kycp.org](http://kycp.org/).
 
 {{% image "/img/oxt/oxt-35.png" %}}
-_Движения UTXO и LPM в KYCP ([TxID](https://kycp.org/#/aed291496b2e3fed785881a8600a0fa58dfbc706e3f9ac1f9052839b596c175a))_
+_KYCP UTXO Flows and LPM ([TxID](https://kycp.org/#/aed291496b2e3fed785881a8600a0fa58dfbc706e3f9ac1f9052839b596c175a))_
 {{% /image %}}
 
-## Энтропия — CoinJoin с равными выходами, и когда уместно применять CIOH
+## Entropy — Equal Output CoinJoins And When Is It Appropriate To Apply The CIOH
 
-В CoinJoin с равными выходами несколько пользователей совместно создают транзакцию, которая объединяет их средства и нарушает детерминированную связь между их входом в транзакцию и равным выходом.
+In an equal output coinjoin, multiple users collaborate to create a transaction that pools their funds and breaks the deterministic links between their transaction input and equal output.
 
-Благодаря участию нескольких пользователей эти транзакции также нарушают CIOH (эвристику общих входов, о которой мы говорили в [предыдущей части](https://21ideas.org/privacy/oxt-2/#кластеризация-кошельков--эвристика-владения-совместными-входами)). Если предположить, что входы в транзакцию, которые участвуют в CoinJoin, контролируются одним кошельком, это может привести к ложному срабатыванию CIOH как на кластер кошелька.
+By including multiple users, these transactions also break the CIOH. Assuming inputs to transactions that could be coinjoins are controlled by a single wallet could result in a false positive wallet cluster by the CIOH.
 
-Чтобы избежать этого, аналитик может применить эвристику равных выходов к транзакциям, которые могут являться CoinJoin. Однако все транзакции, имеющие несколько одинаковых выходов, не обязательно являются CoinJoin. При неверном построении транзакции с несколькими равными выходами могут оставаться детерминированные связи между входами и равными выходами, что свидетельствует о том, что транзакция не является CoinJoin.
+To avoid this an analyst could apply an equal output heuristic to transactions that may be coinjoins. However, all transactions having multiple equal outputs are not necessarily coinjoins. If constructed naively, transactions with multiple equal outputs may still have deterministic links between inputs and **equal outputs**, which is evidence that a transaction is **not** a coinjoin.
 
-{{% image "/img/oxt/oxt-36.png" %}}
-_Транзакция с равными выходами и детерминированными связями ([TxID](https://kycp.org/#/a9b5563592099bf6ed68e7696eeac05c8cb514e21490643e0b7a9b72dac90b07))_
+{{% image "/img/oxt/oxt-36-en.webp" %}}
+_Equal Output Transaction with Deterministic Links ([TxID](https://kycp.org/#/a9b5563592099bf6ed68e7696eeac05c8cb514e21490643e0b7a9b72dac90b07))_
 {{% /image %}}
 
-Вместо того чтобы неправильно отнести транзакцию к кластеру или просто исключать транзакции с идентичными выходами, аналитики могут оценить  свойства CoinJoin в транзакции с помощью алгоритма Больцмана.
+Instead of incorrectly clustering a transaction or naively excluding transactions with identical outputs, analysts can truly evaluate transactions for coinjoin properties using Boltzmann.
 
-Алгоритм Больцмана эффективно использует анализ суммы подмножеств, чтобы задать вопрос: _Существует ли множество способов (интерпретаций), которыми входы транзакции могли бы оплатить ее выходы?_
+Boltzmann effectively uses subset sum analysis to ask the question: _Are there multiple ways (interpretations) a transaction’s inputs could have paid its outputs?_
 
-Если транзакция имеет несколько интерпретаций движений UTXO, то энтропия транзакции будет больше или равна 0. Понятие энтропии берет свое начало в термодинамической ментальной модели. В этой модели количество интерпретаций можно рассматривать как _микросостояния_ общего _макросостояния_ транзакции.
+If a transaction has multiple intra-UTXO flow interpretations, Boltzmann will score the transaction’s entropy greater than or equal to 0. The concept of entropy originates from a thermodynamic mental model. In this model, the number of interpretations can be thought of as _microstates_ of the overall transaction _macrostate_.
 
-_**Энтропия может рассматриваться как метрика, измеряющая недостаток знаний аналитиков о точной конфигурации наблюдаемой транзакции.**_
+**_Entropy can be seen as a metric measuring the analysts lack of knowledge about the exact configuration of the transaction being observed._**
 
-Транзакции с энтропией обладают свойствами CoinJoin и нарушенными детерминированными связями. Свойства CoinJoin свидетельствуют о том, что в транзакцию вносят вклад несколько пользователей. Как правило, входы в транзакции с энтропией не должны быть кластеризованы CIOH.
+Transactions with entropy have coinjoin properties and broken deterministic links. Coinjoin properties are evidence that a transaction has multiple users contributing inputs to the transaction. Conservatively, the inputs to transactions with entropy should not be clustered by the CIOH.
 
 {{% image "/img/oxt/oxt-37.png" %}}
-_Оценка CoinJoin в кошельке DarkWallet с помощью KYCP ([TxID](https://kycp.org/#/8e56317360a548e8ef28ec475878ef70d1371bee3526c017ac22ad61ae5740b8))_
+_KYCP Evaluation of a DarkWallet Coinjoin ([TxID](https://kycp.org/#/8e56317360a548e8ef28ec475878ef70d1371bee3526c017ac22ad61ae5740b8))_
 {{% /image %}}
 
-### Интерпретация транзакций в KYCP
+### KYCP Transaction Interpretation
 
-KYCP содержит значительный объем информации о транзакциях, включая повторное использование адресов в рамках транзакции, детерминированные и вероятностные связи, а также слияния входов и выходов. Приведенный пример транзакции - это CoinJoin-транзакция в кошельке DarkWallet. Детерминированные связи для одинаковых выходов нарушены, но детерминированные связи между входами и "выходами сдачи" все еще существуют. Также обратите внимание, что выходы 1 и 3 отправляются (объединяются) в одну и ту же будущую транзакцию. Это указывает на то, что одни и те же пользователи/кошельки снова смешивают монеты.
+KYCP includes a significant amount of transaction information including address reuse across the transaction, deterministic and probabilistic links, and input and output merges. The example transaction above is a dark wallet coinjoin transaction. The deterministic links for equal outputs are broken, but deterministic links still exist between the inputs and “change outputs”. Also note that output 1 and 3 are sent (merged) into the same future transaction. Indicating that the same users/wallets are mixing together again.
 
-## CoinJoin — равные выходы (шифрование) против PayJoin (стеганография)
+## CoinJoins — Equal Output (Encryption) vs. PayJoin (Steganography)
 
-CoinJoin с равными выходами имеют уникальный отпечаток в блокчейне, который можно определить по наличию нескольких равных выходов. Однако движения UTXO через транзакцию для равных выходов не являются детерминированными. Если аналитик знает, что наблюдает CoinJoin, он должен считать, что пользователь, которого он пытается отследить, контролирует один из множества равных выходов. В большинстве случаев этого достаточно, чтобы остановить аналитика.
+Equal output coinjoins have a unique on-chain footprint that can be identified by the presence of multiple equal outputs. But the flows across the transaction for equal outputs are not deterministic. If an analyst knows they are observing a coinjoin, they must consider the user they are attempting to track controls one of the many equal outputs. In most cases this is enough to stop an analyst in his tracks.
 
 {{% image "/img/oxt/oxt-38.png" %}}
-_Граф CoinJoin-транзакции в Whirlpool ([TxID](https://kycp.org/#/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2))_
+_Whirlpool Coinjoin Transaction Graph ([TxID](https://kycp.org/#/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2))_
 {{% /image %}}
 
-Когда аналитик сталкивается с CoinJoin с равными выходами, он знает, что используется техника обеспечения приватности, но не может достоверно интерпретировать транзакцию. В этом смысле CoinJoin с равными выходами похож на шифрование. Наблюдатели за зашифрованными сообщениями знают о существовании сообщения (могут наблюдать CoinJoin), но не могут расшифровать сообщение (достоверно интерпретировать движения UTXO в транзакции).
+When an analyst encounters an equal output coinjoin, they know a privacy technique is being used but cannot reliably interpret the transaction. In this way, equal output coinjoins are similar to **encryption**. Observers of encrypted messages know a message exists (can observe the coinjoin) but cannot decipher the message (reliably interpret the flows across the transaction).
 
-Другой тип CoinJoin называется PayJoin, или pay-to-end-point, или Stowaway в Samourai Wallet. Транзакции PayJoin представляют собой совместную транзакцию между пользователем, совершающим платеж, и пользователем, получающим платеж. В блокчейне многие PayJoin не имеют ни различимых паттернов, ни применимых эвристик.
+The other type of coinjoin is called payjoin or pay-to-end-point or Stowaway in Samourai Wallet. Payjoin transactions consist of a collaborative transaction between the user making a payment and the user receiving a payment. On the blockchain, many payjoins have no discernible patterns or applicable heuristics.
 
-По сути, PayJoin-транзакции неотличимы от обычной транзакции, в которой пользователь тратит несколько UTXO. Не имея каких-либо отличительных признаков в блокчейне, аналитик может неверно применить CIOH к таким типам транзакций и ошибочно предположить, что каждый из входов контролируется одним и тем же пользователем.
+In effect, payjoins are indistinguishable from a normal transaction where a user spends multiple UTXOs. Without any distinguishable on chain transaction footprint, an analyst may incorrectly apply the CIOH to these types of transactions and incorrectly assume each of the inputs are controlled by the same user.
 
-Таким образом, транзакции PayJoin представляют собой стеганографическую технику. [Стеганография](https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%B3%D0%B0%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F) - это процесс сокрытия секретного сообщения (факта CoinJoin) в обычных данных (обычная транзакция с несколькими входами). Поскольку PayJoin не имеют достоверного следа в блокчейне, они часто приводят к ложным кластерам CIOH.
+In this way payjoin transactions are a **steganographic** technique. Steganography is the process of hiding a secret message (the fact that a coinjoin has occurred) within otherwise normal appearing data (a normal transaction spending multiple inputs). Because payjoins do not have any reliable on-chain footprint, they often result in false clusters by the CIOH.
 
-## Другие техники — "разрыв" графа транзакций
+## Other Techniques — “Breaking” The Transaction Graph
 
-Кастодиальные миксеры являются одной из старейших технологий обеспечения приватности, применяемых на прикладном уровне. Назначение кастодиальных миксеров заключается в том, что они выполняют функцию обменного сервиса. Пользователи вносят монеты в миксер и (надеемся) получают взамен различные UTXO с новой историей транзакций. В идеале в результате обмена образуется "разорванный" граф транзакций, который разрывает связь между пополнением и выводом средств пользователем.
+Custodial tumblers, often referred to generically as mixers, are one of the oldest privacy techniques employed at the application layer. The purpose of custodial tumblers is to act as a swap service. Users deposit coins to the tumbler and (hopefully) receive different UTXOs with a new transaction history in return. Ideally, the swapping process results in a “broken” transaction graph that severs the link between a user’s deposits and withdrawals.
 
-Эта техника также способствовала популяризации понятия "испорченности", когда пользователи миксера могут неосознанно получить в рамках обмена UTXO с некоторой "проблемной историей". Заинтересованные читатели могут ознакомиться с нашими оценками двух крупнейших кастодиальных миксеров (ChipMixer и Blender) из нашего [расследования взлома Kucoin](https://oxtresearch.com/the-kucoin-hack/).
+This techniques also popularised the concept of “taint”. Where tumbler users may unknowingly receive UTXOs with some “problematic history” as a part of their swap. Interested readers can see our evaluations of two of the largest custodial tumblers (ChipMixer and Blender) from [our investigation of the Kucoin Hack.](https://research.oxt.me/publications)
 
-Дополнительные средства повышения приватности, такие как обмен монетами, направлены на то, чтобы нарушить граф транзакций некастодиальным способом. Эти методы пока находятся в зачаточном состоянии. Без дополнительных мер защиты эти теоретические обмены будут страдать от тех же проблем с "испорченностью", что и в случае с кастодиальными миксерами. Данный раздел будет обновляться по мере внедрения новых методик.
+Additional privacy enhancements such as coinswaps aim to break the transaction graph in a non-custodial way. These techniques are still in their infancy. Without additional mitigation, these theoretical swaps will suffer from the same “taint” swapping issues as custodial tumblers. This section will be updated as additional techniques are deployed.
 
-## Обзор
+## Review
 
-В третьей части мы представили множество инструментов, позволяющих преодолеть основные эвристики анализа цепочки.
+In Part 3 we introduced the many tools capable of defeating the main heuristics of chain analysis.
 
-Мы выяснили, что эвристика обнаружения сдачи может быть преодолена путем:  
+Change detection heuristics can be defeated by avoiding round payment amounts, creating transactions with identical change output script types, and randomising change output positions.
 
-- избегания круглых значений суммы платежей;  
-- создания транзакций с идентичным типом скрипта адреса в выходе сдачи;  
-- рандомизации позиции выхода сдачи.
+Equal output coinjoins are collaborative transactions involving multiple users. By breaking deterministic links these transactions create ambiguous transaction graphs. By involving multiple users, they defeat the CIOH.
 
-CoinJoin с равными выходами - это совместные транзакции с участием нескольких пользователей. Разрывая детерминированные связи, эти транзакции создают неоднозначные графы транзакций. Благодаря вовлечению нескольких пользователей они позволяют победить CIOH.
+Payjoin transactions are also collaborative transactions. They involve the payer and payee in creating a transaction and have the same transaction fingerprint as a normal multi-input spend. Without an identifiable fingerprint, these transactions defeat the CIOH.
 
-Транзакции PayJoin также являются совместными транзакциями. Они вовлекают плательщика и получателя в создание транзакции и имеют такой же "отпечаток", как и обычные транзакции с несколькими входами. Не имея идентифицируемого отпечатка, эти транзакции преодолевают CIOH.
+**[Part 4](/en/privacy/oxt-4) discusses:**
 
-**В [части 4](/privacy/oxt-4) рассматриваются:**
+1. Analyses needing a “starting point”
+2. The privacy implications of sending and receiving payments
+3. How existing privacy techniques can mitigate many of the issues discussed throughout the guide.
 
-1. Анализ, требующий "отправной точки".
-2. Последствия отправки и получения платежей для приватности.
-3. Как существующие методы обеспечения приватности могут смягчить многие из проблем, обсуждаемых в данном руководстве.
+{{< expand "Contents" "..." >}}
 
-### Поддержите переводчика
+## Understanding Bitcoin Privacy with OXT
 
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
-{{% /image %}}
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-{{< expand "Оглавление" "..." >}}
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-## Понимание приватности в сети Биткоин с помощью OXT
-
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
-
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
-
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
-
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}

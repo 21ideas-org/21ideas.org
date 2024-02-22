@@ -1,7 +1,7 @@
 ---
-title: "Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей"
-h1: "Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей"
-description: "В этом разделе мы расскажем о реальных последствиях отправки и получения транзакций для приватности пользователей. Мы также представим конкретные технологии повышения приватности, которые могут быть использованы для сохранения приватности при взаимодействии с Биткоином."
+title: "Part 4: Applying Chain Analysis Concepts To Improve User Privacy"
+h1: "Part 4: Applying Chain Analysis Concepts To Improve User Privacy"
+description: ""
 url: privacy/oxt-4
 cover: /img/oxt/oxt-4-cover.webp
 date: 2021-08-11
@@ -11,264 +11,240 @@ weight: 4
 ---
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Понимание приватности в сети Биткоин с помощью OXT
+## Understanding Bitcoin Privacy with OXT
 
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}
 
-В этом разделе мы расскажем о реальных последствиях отправки и получения транзакций для приватности пользователей. Далее мы представим конкретные технологии, которые могут быть использованы для сохранения приватности при взаимодействии с Биткоином.
+## Introduction
 
-{{< hint btc>}}
-Перевод [статьи](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-4-4-16cc0a8759d5) от разработчиков Samourai Wallet
+So far this guide has introduced the basics concepts used by chain analysis and the concepts used to undermine chain analysis.
 
-[Поддержать проект](/contribute/)
-{{</hint >}}
+It is unlikely that users reading this are looking to become “experts” in chain analysis, but a fundamental understanding of the tools and concepts used to attack their privacy will allow them to better protect their privacy.
 
-## Введение
+In this section we will introduce the real world implications of sending and receiving transactions on user privacy. From there we will present specific privacy enhancing technologies that can be used to maintain privacy when interacting with bitcoin.
 
-Ранее в этом руководстве были представлены основные концепции, используемые в анализе цепочки, и концепции, используемые для обхода этого анализа.
+## Lost On Chain — Starting Points And Breaking Pseudonymity
 
-Вряд ли пользователи, читающие это руководство, стремятся стать "экспертами" в области анализа цепочки, но фундаментальное понимание инструментов и концепций, используемых для атаки на их приватность, позволит им лучше защищать свою конфиденциальность.
+Bitcoin is pseudonymous by default. Without additional information tying user activity to on-chain activity, an analysis has no “starting point” for tracking related bitcoin network activity.
 
-В этом разделе мы расскажем о реальных последствиях отправки и получения транзакций для приватности пользователей. Далее мы представим конкретные технологии повышения приватности, которые могут быть использованы для сохранения приватности при взаимодействии с Биткоином.
+Starting points typically include users willingly disclosing addresses they control. Provided addresses are typically for receiving payment. Starting points can also be obtained from information provided by third parties, such as the information sharing agreements between surveillance firms and exchanges.
 
-## Потерянные в блокчейне — отправные точки и нарушение псевдонимности
+For beginner analysts, some “context” is usually necessary for performing an analysis. That valuable context often comes from analysis of their own transactions. Users evaluating their own transaction history via a third party block explorer are encouraged to use a VPN or Tor browser to prevent linking of their IP address with their transaction information.
 
-Биткоин по умолчанию псевдонимен. Без дополнительной информации, привязывающей активность пользователей к активности в блокчейне, анализ не имеет "отправной точки" для отслеживания связанной с ней активности в сети Биткоина.
+## OXT Workflow — Addresses As Starting Points
 
-В качестве отправной точки обычно выступают пользователи, добровольно раскрывающие контролируемые ими адреса. Предоставленные адреса, как правило, служат для получения оплаты. Отправные точки также могут быть получены из информации, предоставляемой третьими сторонами, например, из соглашений об обмене информацией между компаниями, осуществляющими наблюдение, и биржами.
+Most users query block explorers by entering an address as a starting point. When querying OXT with an address as a starting point, the associated transaction information will not automatically be displayed. Users should follow the steps below to navigate to the transaction graph.
 
-Для начинающих аналитиков обычно необходим некоторый "контекст" для проведения анализа. Таким ценным контекстом часто является анализ собственных транзакций. Пользователям, оценивающим историю своих транзакций через сторонний обозреватель блокчейна, рекомендуется использовать VPN или браузер Tor для предотвращения связи своего IP-адреса с информацией о транзакциях.
+1. Log in to your OXT account. Accounts are free and do not require any personally identifiable information for creation.
 
-## Рабочий процесс в обозревателе OXT — адреса в качестве отправных точек
-
-Большинство пользователей обращаются к обозревателю блокчейна, вводя в качестве отправной точки адрес. При запросе в OXT с указанием адреса в качестве отправной точки информация о соответствующих транзакциях автоматически не отображается. Для перехода к графу транзакций пользователям необходимо выполнить следующие действия:
-
-1. Войдите в свою учетную запись OXT. Учетные записи бесплатны и не требуют для создания какой-либо персональной информации.
-
-2. Введите нужный адрес в строку поиска.
+2. Enter the desired address into the search bar.
 
 {{% image "/img/oxt/oxt-39.png" %}}
-_Запрос адреса в OXT_
+*OXT Workflow Address Query*
 {{% /image %}}
 
-3. Перейдите на вкладку TRANSACTIONS
+3. Navigate to the TRANSACTION TAB
 
 {{% image "/img/oxt/oxt-40.png" %}}
-_Вкладка TRANSACTIONS на странице ADDRESS в OXT_
+*OXT Workflow Address — Transaction Tab*
 {{% /image %}}
 
-4. Выберите нужную транзакцию. Пользователи должны учитывать, что по начальному адресу может быть проведено несколько платежей. Если по адресу было проведено несколько транзакций, необходимо выбрать нужную транзакцию, исходя из объема и даты/времени проведения транзакций.
+4. Select the desired transaction. Users should note that a starting address may have received multiple payments. If the address has received multiple transactions, they will have to select the desired transaction based on volume and timing of the transactions.
 
-5. После этого откроется страница транзакции.
+5. From there the Transaction Page will be opened.
 
 {{% image "/img/oxt/oxt-41.png" %}}
-_Страница с деталями транзакции и инструментом создания графа_
+*OXT Workflow Transaction Page and Graph Tool*
 {{% /image %}}
 
-6. Откройте граф транзакции, чтобы начать оценку движений UTXO.
+6. Open the transaction graph to begin the financial flow evaluation.
 
 {{< hint info >}}
-Если у пользователя уже есть идентификатор нужной транзакции, он может не входить в аккаунт OXT и перейти непосредственно на страницу транзакции для доступа к графу. Дополнительные сведения о работе с графом транзакций см. в [части 2](/privacy/oxt-2).
+_Note: If users already have the desired transaction ID, they can avoid logging into OXT and navigate directly to the transaction page for accessing the transaction graph. Revisit_ [_Part II_](/en/privacy/oxt-2) _for additional details on interacting with the transaction graph._
 {{< /hint >}}
 
-## Направления анализа — история и будущие траты UTXO
+## Analysis Directions — UTXO History And Future Spending
 
-Аналитики, получив исходную транзакцию и UTXO, могут вести исследование в двух направлениях.
+Analysts presented with a starting transaction and UTXO can pursue two investigation “directions”.
 
-Они могут искать "источник" средств, оценивая прошлую историю целевого UTXO. Оценка источника для цепочки транзакций с одним входом достаточно проста, поскольку не нужно принимать "решение" о том, по какому пути следовать за UTXO. Однако в случае транзакций с несколькими входами аналитику приходится оценивать несколько источников.
+They can search for the “source” of funds by evaluating the past history of the target UTXO. Source evaluation for transaction chains with a single input are fairly simple to perform, because there is no “decision” to be made in evaluating which input UTXO path to follow. However, multi-input transactions present analysts with multiple sources to evaluate.
 
-Аналитики также могут искать "место назначения" будущих трат из соответствующего UTXO, применяя эвристику обнаружения сдачи, представленную в [первой части](/privacy/oxt-1), и внешние данные о транзакциях, представленные во [второй части](/privacy/oxt-2).
+Analysts can also search for the “destination” of future spends from the associated UTXO by applying the change detection heuristics presented in [Part I](/en/privacy/oxt-1) and external transaction data presented in [Part II](/en/privacy/oxt-2).
 
-{{% image "/img/oxt/oxt-42.png" %}}
-_Направление исследования — источник и место назначения_
+{{% image "/img/oxt/oxt-42-en.webp" %}}
+*Investigation Direction — Source & Destination*
 {{% /image %}}
 
 {{< hint info >}}
-Не следует отслеживать движение UTXO в различных кастодиальных сервисах. Маловероятно, что депозитный UTXO будет использован для выплат объекту, внесшему депозит.
+_Note: UTXO flows should not be tracked across custodial services. It is highly unlikely that a deposit UTXO will be used to payout to the entity making the deposit._
 {{< /hint >}}
 
-## Последствия отправки и получения платежей для приватности
+## Privacy Implications Of Sending And Receiving Payments
 
-При отправке или получении платежа пользователь обязательно раскрывает контрагенту часть своего набора UTXO. В случае необдуманного управления UTXO это может привести к раскрытию контрагенту всего баланса кошелька пользователя.
+When sending or receiving a payment, users necessarily reveal some of their UTXO set to their counterparty. For naively managed UTXOs, this may reveal a users **_entire_** wallet balance to a counterparty.
 
-Раскрытие баланса для совершения платежей является досадным побочным эффектом прозрачности Биткоина. Негативные последствия такого раскрытия информации контрагентам должны быть очевидны, особенно для простых трат.
+Disclosing wealth for making payments is an unfortunate side effect of bitcoin’s transparency. The negative implications of this disclosure to counterparties should be obvious, particularly for simple spends.
 
-Кроме того, платежи, осуществляемые отправителем, позволяют получателю оценить историю транзакций отправителя в прошлом. Платежи также позволяют отправителю оценить будущие траты получателя.
+In addition, payments made by a sender allow for a recipient to assess the senders past transaction history. Payments also allow a sender to evaluate a recipients future spending of their received payment.
 
-Рассмотренные ниже приемы призваны смягчить негативные побочные эффекты прозрачности Биткоина.
+The techniques discussed below are designed to mitigate the negative side effects of bitcoin’s transparency.
 
-## Транзакции для повышения приватности в кошельке Samourai
+## Samourai Wallet Privacy Enhancing Transactions
 
-Большая часть анализа цепочки основана на следующих основных концепциях:
+Much of chain analysis is based on the following core concepts:
 
-- Аналитики нуждаются в отправной точке
-- Определение графа транзакций
-- Обнаружение сдачи
-- Кластеризация отдельных адресов по эвристике владения совместными входами
+- analysts needing a starting point
+- the issues of the transaction graph
+- change detection
+- clustering separate addresses by the common input ownership heuristic
 
-В [первой](/privacy/oxt-1) и [второй](/privacy/oxt-2) частях мы представили основные концепции анализа цепочки. В [части 3](/privacy/oxt-3) были представлены концепции, используемые для преодоления этих методов.
+In [Part I](/en/privacy/oxt-1) and [II](/en/privacy/oxt-2) we introduced the core concepts of chain analysis. [Part III](/en/privacy/oxt-3) presented the concepts used to undermine these techniques.
 
-Команда [OXT](https://oxtresearch.com/) совместно с разработчиками кошелька [Samourai](https://samouraiwallet.com/) тестирует и создает методики, которые смягчают недостатки приватности в сети Биткоин, представленные нами до этого момента. Эти техники рассматриваются ниже.
+The OXT team works with the [Samourai Wallet](https://samouraiwallet.com) developers to test and create techniques that mitigate the privacy shortcomings we have introduced so far. These techniques are discussed below.
 
-### Скрытые адреса — отказ от отправной точки
+### Stealth Addresses — Denying a Start Point
 
-Аналитикам необходима отправная точка при попытке отследить деятельность объекта в блокчейне. Как правило, это означает привязку интернет-активности пользователя к адресу, который он опубликовал для получения платежей или пожертвований. По этому адресу аналитик может оценить активность пользователя, включая полученные платежи, общий баланс адреса и модели трат.
+Chain analysts need a starting point when attempting to track an entity’s on chain activities. This typically means linking a target’s online activity with an address they have posted for receiving payments or donations. From this address an analyst can evaluate a user’s activity including received payments, total address balance, and spending patterns.
 
-Пользователи часто обмениваются адресами для получения платежей. Передаваемые адреса - это те же адреса, которые отображаются в блокчейне и доступны для поиска через любой обозреватель блокчейна.
+User’s frequently share addresses for receiving payments. The shared addresses are the same addresses that appear on the blockchain and are searchable via any block explorer.
 
-Вместо обмена прямыми адресами для получения платежей пользователи могут обмениваться "скрытыми адресами". В основе "скрытых адресов" лежат концепции, заимствованные из [протокола обмена ключами Диффи-Хеллмана](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_%D0%94%D0%B8%D1%84%D1%84%D0%B8_%E2%80%94_%D0%A5%D0%B5%D0%BB%D0%BB%D0%BC%D0%B0%D0%BD%D0%B0) - важнейшей криптографической концепции, лежащей в основе TLS/SSL, одной из наиболее важных форм криптографии, используемой в защищенных коммуникациях в интернете.
+Instead of exchanging a direct address for receiving payment, users can exchange “stealth addresses”. Stealth addresses are based on concepts derived from the Diffe-Hellman key exchange, a critical cryptographic concept that underpins TLS/SSL, one of the most important forms of cryptography used in internet secure communications.
 
-Реализация скрытых адресов в Samourai Wallet основана на предложении [BIP47](/bip47-ili-gadkij-utenok), выдвинутом проектом Open Bitcoin Privacy Project. Многоразовые платежные коды BIP47 позволяют отправителю создавать неограниченное количество уникальных Биткоин-адресов для платежей адресату без необходимости получателю быть онлайн.
+Samourai Wallet’s stealth address implementation is based on the [BIP 47](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki) Proposal by the Open Bitcoin Privacy Project. BIP 47 reusable payment codes allow a sender to: create an unlimited amount of unique bitcoin addresses for payment to the intended recipient without the recipient needing to be online.
 
 {{% image "/img/oxt/oxt-43.png" %}}
-_Архитектура платежного кода BIP47 v1 ([Источник](https://github.com/bitcoin/bips/blob/master/bip-0047.mediawiki))_
+_V1 BIP47 Payment Code Architecture ([BIP 47 Github](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0047/reusable_payment_codes-01.png))_
 {{% /image %}}
 
-Многоразовые платежные коды лишают аналитиков "простой" стартовой точки в блокчейне Биткоина. Более подробную информацию о многоразовом платежном коде в Samourai Wallet можно найти [здесь](https://docs.samourai.io/wallet/paynyms).
+Reusable payment codes deprive analysts of a “free” starting point on the bitcoin block chain. More information on Samourai Wallet’s reusable payment code can be found [here](https://docs.samourai.io/en/wallet/usage#paynym-1).
 
-### Контроль монет — разделение UTXO
+### Coin Control — UTXO Segregation
 
-Объединение входов из нескольких источников при будущих тратах может позволить отправителям платежей оценить историю транзакций других UTXO в сочетании с потраченными ими UTXO.
+Combining inputs from multiple sources in future spends can allow payment senders to evaluate the transaction histories of additional UTXOs combined with their spent UTXO.
 
-Для уменьшения утечки конфиденциальной информации пользователи могут практиковать "контроль монет". В общем случае контроль монет состоит из нескольких этапов.
+To mitigate this privacy leak, users can practice “coin control”. Broadly coin control consists of several steps.
 
-- Маркировка полученных платежных UTXO. Как минимум, маркировка должна включать информацию об отправителе и причине платежа.
-- Пометка "Не тратить". Чтобы кошелек не смог случайно включить UTXO в будущий платеж, UTXO можно сделать нерасходуемыми для включения в будущие платежи.
-- Отправка отдельных UTXO (выборочная активация). UTXO можно тратить выборочно.
+- Labelling received payment UTXOs. At a minimum labelling should include the sender and reason for payment.
+- “Marking Do Not Spend”. To prevent a wallet from accidentally including a UTXO in a future payment, UTXOs can be made inactive for inclusion in future spends.
+- Sending Individual (Selective UTXO Activation). UTXOs can be selectively spent.
 
-{{% image "/img/oxt/oxt-44.png" %}}
-_Контроль монет в Samourai Wallet_
+{{% image "/img/oxt/oxt-44-en.webp" %}}
+*Samourai Wallet Coin Control*
 {{% /image %}}
 
-При проведении платежей пользователям также следует взять за привычку маркировать свои UTXO. При добавлении комментария к одному UTXO кошелек Samourai автоматически присвоит ту же метку всем остальным UTXO (выходу сдачи) из той же транзакции.
+When payments are made, users should also get in the habit of labelling their change UTXOs. When a label is added to a single UTXO, Samourai Wallet will automatically label any other UTXOs (change outputs) from the same spend with the same label.
 
-### Ricochet — увеличение дистанции
+### Ricochet — Adding Distance
 
-Ricochet - это простой инструмент, который автоматически добавляет "скачки" (хопы), или фиктивные транзакции, между UTXO отправителя и назначением платежа. Ricochet-транзакции не скрывают источник средств и не нарушают граф транзакций. Однако эти транзакции увеличивают дистанцию между назначением платежа и предыдущей историей UTXO.
+Ricochet is a simple tool that automatically adds “hops”, or dummy transactions between an origin UTXO and payment destination. Ricochet transactions do not obfuscate source of funds or break the transaction graph. However, these transactions put distance between a payment destination and previous UTXO histories.
 
-Оценка источника средств для транзакций с одним входом относительно проста, но добавление "скачков" требует от принимающей стороны оценки истории за пределами непосредственно входящего UTXO. Анализ графа транзакций прост в исполнении, но расширение оценки истории входящих UTXO предполагает дополнительные сомнения, основанные на "модели владения UTXO", что увеличивает вероятность ложных срабатываний.
+Source of fund evaluation for transactions with a single input are relatively easy to perform, but adding “hops” requires a receiving entity to evaluate history beyond the immediate incoming UTXO. Transaction graph traversal analyses are simple to perform, but expanding incoming UTXO history evaluation implies additional doubt based on the “UTXO Ownership Model” which increases chances for false positives.
 
-{{% image "/img/oxt/oxt-45.png" %}}
-_[Пример](https://oxt.me/transaction/ee0d4dd6703949e594d88734ec40aa669a586c3126ee713bcf5883bd7f55b816) Ricochet-транзакции_
+{{% image "/img/oxt/oxt-45-en.webp" %}}
+*Example Ricochet Transaction ([TxID](https://oxt.me/transaction/ee0d4dd6703949e594d88734ec40aa669a586c3126ee713bcf5883bd7f55b816))*
 {{% /image %}}
 
-Текущая версия Ricochet производит четыре дополнительных скачка. Более "динамичный" Ricochet с изменяемым количеством хопов планируется в будущих обновлениях. Более подробную информацию о Ricochet можно найти [здесь](https://docs.samourai.io/wallet/privacy-enhanced-transactions#ricochet).
+The current version of ricochet includes four extra hops. A more “dynamic” ricochet with a variable number of hops is planned in future updates. More information on ricochet can be found [here](https://docs.samourai.io/wallet/privacy-enhanced-transactions#ricochet).
 
-### Stonewall и Stonewall x2 — платежи стали безопасными
+### Stonewall and Stonewall x2 — Payments Made Safe
 
-Stonewall и Stonewall x2 используют один и тот же алгоритм выбора UTXO для создания транзакций со свойствами CoinJoin. Stonewall - это имитация CoinJoin, использующая входы из одного кошелька. Stonewall x2 - это "настоящий" CoinJoin, в котором используются входы от двух взаимодействующих пользователей/кошельков.
+Stonewall and Stonewall x2 use the same coin selection algorithm to create transactions with coinjoin properties. Stonewall is a simulated coinjoin that uses inputs from an individual wallet. Stonewall x2 is a “true” coinjoin that uses inputs from 2 collaborating users/wallets.
 
-Использование одного и того же алгоритма означает, что эти транзакции имеют идентичные отпечатки в блокчейне и неразличимы для сторонних наблюдателей. Таким образом, аналитики должны учитывать возможность того, что любая Stonewall-транзакция может являться "настоящим" CoinJoin.
+Using the same algorithm means these transactions have identical on-chain footprints, and are indistinguishable to outside observers. As a result, analysts must consider the possibility that any Stonewall transaction is a “true” coinjoin.
 
-{{% image "/img/oxt/oxt-46.png" %}}
-_[Пример](https://kycp.org/#/587b93fb5bb4671835db88e30bab0acea752a9c06eaebc251f7fa644fc321cdf) Stonewall-транзакции_
+{{% image "/img/oxt/oxt-46-en.webp" %}}
+*Example Stonewall Transaction ([TxID](https://kycp.org/#/587b93fb5bb4671835db88e30bab0acea752a9c06eaebc251f7fa644fc321cdf))*
 {{% /image %}}
 
-Алгоритм Stonewall является расширением свойств транзакций, направленных на преодоление простых эвристик обнаружения сдачи, таких как идентичность скриптов адресов в выходах и рандомизированная позиция выхода сдачи.
+The Stonewall algorithm is an extension of the transaction properties aimed at defeating simple spend change detection heuristics such as like-type output scripts and randomised change output position.
 
-Благодаря свойствам CoinJoin, Stonewall-транзакции способны преодолеть эвристику круглого значения суммы платежа, которая не может быть побеждена простой тратой. Stonewall преодолевает эту эвристику путем создания транзакции с "фиктивным" выходом, равным предполагаемой сумме платежа.
+Due to their coinjoin properties, stonewall transactions are capable of defeating the round output payment heuristic interpretation that cannot be defeated by a simple spend. Stonewall defeats these heuristics by creating transactions with a “dummy” output equal to the intended payment amount.
 
-Stonewall - это настоящие платежи, которые по-прежнему содержат детерминированные связи для своих UTXO "сдачи". Поскольку Stonewall может представлять собой CoinJoin двух кошельков, контрагент транзакции не может быть уверен, какой UTXO сдачи принадлежит отправителю транзакции, а какой UTXO сдачи принадлежит второму участнику CoinJoin.
+Stonewall’s are true payments, that still include deterministic links for their “change” UTXOs. Because a Stonewall can be a two-wallet coinjoin, a transaction counterparty cannot be sure which change UTXOs belong to the transaction sender responsible for making the payment and which change UTXO belongs to the coinjoin collaborator.
 
-### Stowaway — преодоление CIOH
+### Stowaway — Breaking the CIOH
 
-Как мы описали в [части 3](/privacy/oxt-3), транзакции PayJoin преодолевают эвристику владения совместными входами. Если у одного UTXO нет достаточного баланса для осуществления желаемой суммы платежа, программное обеспечение кошелька будет включать дополнительные входы, необходимые для достижения желаемой суммы. Аналитики могут ошибочно предположить, что эти входы контролируются одним и тем же кошельком.
+As we described in [Part III](/en/privacy/oxt-3), payjoin transactions undermine the common input ownership heuristic. If a single UTXO does not have a sufficient balance to make the desired payment amount, wallet software will include additional inputs as needed to meet the desired amount. Analysts can potentially incorrectly assume the inputs these transactions are controlled by the same wallet.
 
-{{% image "/img/oxt/oxt-47.png" %}}
-_[Пример](https://oxt.me/transaction/14ff5e5c9206f7722b0ed421d26f1cb003c523070c4882150073817683bd2dda) Stowaway-транзакции_
+{{% image "/img/oxt/oxt-47-en.webp" %}}
+*Example Stonewall Transaction ([TxID](https://oxt.me/transaction/14ff5e5c9206f7722b0ed421d26f1cb003c523070c4882150073817683bd2dda))*
 {{% /image %}}
 
-PayJoin-транзакции, как правило, не имеют отличимого отпечатка в блокчейне. При построении транзакции используются два кошелька для включения входов от отправителя и получателя платежа. Это преодолевает CIOH и создает "ложный кластер". Вследствие того, что получатель вносит вход в PayJoin-транзакцию, истинная сумма платежа в транзакции также скрывается.
+Payjoins typically have no indistinguishable on chain fingerprint. By including inputs from the transaction sender and payment recipient, two wallets are used to construct the transaction. This undermines the CIOH and creates a “false cluster”. As a consequence of the recipient contributing inputs to the transaction payjoin, the true transaction payment amount is also hidden.
 
-### Whirlpool — Создание приватности в будущем
+### Whirlpool Coinjoin — Creating Forward Privacy
 
-Отправители платежей могут отслеживать будущие расходы UTXO и потенциально получать дополнительную информацию о структуре кошельков своих контрагентов. Для сохранения приватности получатели платежей могут объединиться в CoinJoin, чтобы разорвать связь между получением платежа и его расходованием в будущем. Другими словами, отправка UTXO, полученных в качестве оплаты, через CoinJoin создает приватность в будущем.
+Payment senders can track the future spending of their payment UTXO and potentially obtain additional information about their counterpatry’s wallet composition. To maintain their privacy, payment recipients can coinjoin to break the link between their payment receipt and future spending. In otherwords, sending UTXOs received as payment through a coinjoin establishes forward privacy.
 
-Whirlpool является единственной реализацией CoinJoin со 100% энтропией ZeroLink. Whirlpool не включает в транзакцию "несмешанную сдачу", которая может быть использована для дальнейшего отслеживания действий пользователя.
+Whirlpool is the only 100% entropy zerolink coinjoin implementation. Whirlpool coinjoins do not include “unmixed change” outputs within the coinjoin transaction that can be used to continue to track user activity.
 
-{{% image "/img/oxt/oxt-48.png" %}}
-_[Пример](https://kycp.org/#/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2) Whirlpool-транзакции_
+{{% image "/img/oxt/oxt-48-en.webp" %}}
+*Whirlpool Transaction ([TxID](https://kycp.org/#/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2))*
 {{% /image %}}
 
-Процесс Whirlpool-транзакции начинается с транзакции Tx0, которая оплачивает комиссию координатора, создает готовые к смешиванию UTXO (Premix), равные номиналу пула плюс комиссия майнерам, и отдельный UTXO сдачи.
+The Whirlpool transaction process begins with the Tx0 which pays the coordinator fee, creates premix UTXOs that are equal to the pool denomination plus miner fees, and a segregated change UTXO.
 
-Входы для Tx0 следует выбирать с осторожностью, чтобы избежать объединения UTXO из разных источников. Совмещение нескольких источников входов позволяет выявить владение объединяемыми входами. UTXO сдачи также должны обрабатываться с осторожностью, чтобы не связывать напрямую любые будущие траты.
+Inputs to a Tx0 should be selected with care to avoid linking UTXOs from different sources. Combining multiple inputs sources reveals common ownership. The change UTXO should also be handled with care so as to not directly link any future spending activity.
 
-{{% image "/img/oxt/oxt-49.png" %}}
-_[Пример](https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e76cd52b45f6c17be5068ae051d4b2cc24) транзакции Tx0_
+{{% image "/img/oxt/oxt-49-en.webp" %}}
+*Example Tx0 Transaction ([TxID](https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e76cd52b45f6c17be5068ae051d4b2cc24))*
 {{% /image %}}
 
-После CoinJoin и разрыва связей между исходными UTXO (Premix) и смешанными UTXO (Postmix) получатели платежей могут быть уверены, что отправители платежей не смогут достоверно отследить дальнейшие траты их платежных UTXO.
+After coinjoining and breaking the links between their original (premix) UTXOs and postmix UTXOs, payment recipients can be confident that any payment senders will not be able to reliably follow the future spending of their payment UTXO.
 
-## Обзор
+## Review
 
-Биткоин поддерживает базовую приватность пользователей благодаря своей псевдонимной природе, не связывая реальные личности и действия в блокчейне.
+Bitcoin maintains basic user privacy with its pseudonymous nature by not linking real world identities and activities on the blockchain.
 
-На уровне протокола Биткоин-транзакции отправляют биткоины на прозрачные адреса и с прозрачных адресов на прозрачные суммы. Такая прозрачность привела к распространению анализа блокчейна. В основном анализ цепочки включает в себя обнаружение сдачи в платежах, анализ графа транзакций и использование эвристики владения совместными входами для "кластеризации кошельков".
+At the protocol level, bitcoin transactions send bitcoin to and from transparent addresses for transparent amounts. This transparency has lead to a proliferation of block chain analysis. The bulk of what is considered chain analysis involves payment change detection, transaction graph analysis, and use of the common input ownership heuristic for “wallet clustering”.
 
-Хотя многие из этих методов основаны на эвристиках, применение внешних данных о транзакциях, таких как повторное использование адресов и выходы на централизованные сервисы или из них, может существенно снизить неоднозначность простых транзакций в Биткоине.
+While many of these techniques rely on heuristics, applying external transaction data such as address reuse and outputs to or from centralised services can significantly undermine the ambiguity of simple bitcoin transactions.
 
-Программное обеспечение приложения может включать рандомизированный отпечаток кошелька и выходы на одинаковый тип скрипта адреса для сохранения неоднозначности простых транзакций. Но даже при использовании этих инструментов движения биткоинов в блокчейне остаются "отслеживаемыми" и детерминированными. Правильно построенные CoinJoin-транзакции с равными выходами остаются лучшим способом разрыва детерминированных связей и введения правдоподобного отрицания в граф транзакций.
+Wallet software can include randomised fingerprinting and like-type address outputs to maintain ambiguity of simple spends. Even with these tools, the on-chain flows of bitcoin remain “traceable” and deterministic. Properly constructed equal output coinjoins remain the best way for breaking deterministic links and introducing plausible deniability into the transaction graph.
 
-Скорее всего, типичный пользователь, читающий это руководство, не стремится стать экспертом в области анализа цепочки. Скорее, он стремится повысить уровень приватности при отправке и получении платежей. При отправке и получении платежей получателю платежа обязательно передается информация о кошельке отправителя из набора UTXO. В результате отправители и получатели платежей получают возможность оценить соответствующие прошлые и будущие траты этих известных UTXO, что может раскрыть дополнительную информацию о контрагенте.
+It is likely that the typical user reading this guide is not looking to become an expert in chain analysis. Rather they are looking to improve their privacy when sending and receiving payments. The act of sending and receiving payments necessarily reveals UTXO set information about a sender’s wallet to a payment recipient. As a result, payment senders and receivers are able to evaluate the respective past and future spending of these known UTXOs, which can reveal additional information about their counterparty.
 
-Пользователи, обладающие знаниями об анализе цепочки, лучше подготовлены к оценке последствий расходования и получения средств и могут начать предпринимать шаги по защите своей приватности.
+Users armed with knowledge of chain analysis are better prepared for evaluating the implications of spending and receiving and can begin to take steps to protect their privacy.
 
-К таким шагам относятся: 
+Those steps include: not linking blockchain activities to an online persona, avoiding address reuse, segregating UTXOs with different histories, establishing forward privacy with coinjoin, and using the advanced spending tools previously discussed to undermine chain analysis heursitics.
 
-- отказ от привязки действий в блокчейне к личности в интернете
-- избегание повторного использования адресов
-- разделение UTXO с разной историей
-- обеспечение приватности в будущем с помощью CoinJoin
-- использование рассмотренных ранее расширенных инструментов траты 
+Knowledgeable use of these techniques can allow users to obtain a basic level of privacy they may be accustomed to in the traditional finance system.
 
-... для преодоления эвристик анализа цепочки.
+## Closing
 
-Грамотное использование этих приемов может позволить пользователям получить привычный базовый уровень приватности.
+A general bitcoin privacy and OXT guide has been requested by many readers. Our hope is that this provides you with a starting point for continuing to expand your understanding of bitcoin privacy.
 
-## Заключение
+Armed with additional knowledge and context from this guide, long term readers are encouraged to revisit our previous research reports. Particularly the previously included transaction graphs.
 
-Многие читатели просили подготовить общее руководство по приватности в сети Биткоин и OXT. Мы надеемся, что это руководство станет для вас отправной точкой для дальнейшего расширения вашего понимания приватности Биткоина.
+Feedback, comments, and requests for additional guides are welcome.
 
-Вооружившись дополнительными знаниями и контекстом, полученными из этого руководства, постоянным читателям рекомендуется обратиться к нашим предыдущим исследовательским отчетам. В частности, к графам транзакций.
+Thanks for reading and stay safe.
 
-Отзывы, комментарии и пожелания о создании дополнительных руководств приветствуются.
+_— The OXT Research Team_
 
-Спасибо за прочтение и оставайтесь в безопасности.
+{{< expand "Contents" "..." >}}
 
-_— Исследовательская команда OXT_
+## Understanding Bitcoin Privacy with OXT
 
-### Поддержите переводчика
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
-{{% /image %}}
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-{{< expand "Оглавление" "..." >}}
-
-## Понимание приватности в сети Биткоин с помощью OXT
-
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
-
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
-
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
-
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}

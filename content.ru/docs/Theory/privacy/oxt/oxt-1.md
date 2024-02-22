@@ -11,7 +11,7 @@ weight: 1
 ---
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC)._
 {{< /hint >}}
 
 {{< expand "Оглавление" "..." >}}
