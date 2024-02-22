@@ -1,7 +1,7 @@
 ---
 title: "Часть 2: Ключевые концепции анализа цепочки"
 h1: "Часть 2: Ключевые концепции анализа цепочки"
-description: "В части 2 мы рассмотрим два наиболее важных инструмента, лежащих в основе анализа цепочки: граф транзакций и эвристику владения совместными входами."
+description: ""
 cover: /img/oxt/oxt-2-cover.png
 url: privacy/oxt-2
 date: 2021-08-06
@@ -28,244 +28,231 @@ _This content is also available in video format in [this playlist](https://www.y
 
 {{< /expand >}}
 
-В части 2 мы рассмотрим два наиболее важных инструмента, лежащих в основе анализа цепочки: граф транзакций и эвристику владения совместными входами.
+## Introduction
 
-{{< hint btc>}}
-Перевод [статьи](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-2-4-20010e0dab97) от разработчиков Samourai Wallet
+[Now that we have presented the basic concepts in Part 1](/en/privacy/oxt-1), we can move on to the core concepts that underpin chain analysis by expanding our analyses to include “external” transaction data.
 
-[Поддержать проект](/contribute/)
-{{</hint >}}
+Specifically, Part II will focus on two of the most important tools underpinning chain analysis:
 
-## Введение
+1. The transaction graph
+2. The common input ownership heuristic (aka wallet clustering)
 
-Теперь, когда мы представили основные понятия в [первой части](/privacy/oxt-1), мы можем перейти к ключевым концепциям, лежащим в основе анализа цепочки, расширив наш анализ за счет включения "внешних" данных о транзакциях.
+## External Transaction Data
 
-В частности, во второй части мы рассмотрим два наиболее важных инструмента, лежащих в основе анализа цепочки:
+External transaction data can be used to improve confidence in change detection (weaken transaction privacy) by leveraging additional information and patterns.
 
-- Граф транзакций
-- Эвристика владения совместными входами (она же кластеризация кошельков)
+External transaction data includes any information not strictly limited to the information included in an individual transaction by the bitcoin protocol. Examples include:
 
-## Внешние данные о транзакциях
+- address reuse over multiple transactions
+- co-spending from multiple addresses in the same transaction (wallet clustering)
+- multi-sig scripts (which are only revealed after a UTXO is spent)
+- wallet fingerprinting over a series of transactions
+- off-chain data such as outputs spent to labelled clusters and IP addresses of nodes broadcasting a transaction
+- volume, timing, and other transaction pattern recognition analysis
 
-Внешние данные о транзакциях могут быть использованы для повышения достоверности обнаружения сдачи (ослабления приватности транзакций) за счет использования дополнительной информации и паттернов.
+## Transaction Graph Analysis
 
-К внешним данным о транзакциях относится любая информация, не ограничивающаяся информацией, включаемой в отдельную транзакцию протоколом Биткоина. Примеры:
+Transaction graphs are the simplest way to show the relationship of inputs and outputs across multiple transactions.
 
-- повторное использование адресов в нескольких транзакциях
-- совместная трата UTXO с нескольких адресов в одной транзакции (кластеризация кошельков)
-- скрипты с несколькими подписями (Multisig), которые раскрываются только после траты UTXO
-- отпечатки кошелька в серии транзакций
-- данные вне блокчейна, такие как выходы, потраченные на маркированные кластеры, и IP-адреса узлов, транслирующих транзакцию
-- анализ объема, времени и других признаков транзакций
+OXT’s transaction graph is a Directed Acyclic Graph (DAG). DAG graphs are used to map the relationship between two different objects. In the case of bitcoin, the transaction graph maps the relationship between UTXOs and transactions.
 
-## Анализ графа транзакций
+### OXT Transaction Graph Basics
 
-Граф транзакций - это простейший способ показать взаимосвязь входов и выходов в нескольких транзакциях.
+The transaction graph is best understood through interaction, but before we get started we will introduce some of the functionality of the OXT transaction graph.
 
-Граф транзакций в [OXT](https://oxt.me/) представляет собой направленный ациклический граф (DAG). Графы DAG используются для отображения взаимосвязи между двумя различными объектами. В случае с Биткоином граф транзакций отображает взаимосвязь между UTXO и транзакциями.
+1. To access the transaction graph, navigate to the **TRANSACTION** tab on OXT by imputing or clicking a TxID of interest.
+2. Click the **TX GRAPH ICON** icon on the tool bar on the left side of the screen.
 
-### Основы построения графа транзакций в OXT
-
-Граф транзакций лучше всего понять через взаимодействие, но прежде чем приступить к работе, мы познакомимся с некоторыми функциональными возможностями графа транзакций OXT.
-
-1. Чтобы получить доступ к графу транзакций, перейдите на страницу **TRANSACTION** в OXT, введя или кликнув интересующий вас TxID.
-2. Щелкните значок отображения графа транзакций на панели инструментов в левой части экрана.
-
-{{% image "/img/oxt/oxt-14.png" %}}
-_Страница транзакции в OXT и переход к графу транзакций_
+{{% image "/img/oxt/oxt-14-en.webp" %}}
+*OXT Transaction Page and Navigation to TxGraph*
 {{% /image %}}
 
-На экране появится начальная транзакция. Транзакции представлены на графике в виде вершин (кругов). Вершины представляют собой изменения в наборе UTXO, показывая новое соотношение между UTXO, потребляемыми и создаваемыми транзакцией.
+The starting transaction will be displayed. Transactions are presented as vertices (circles) on the graph. Vertices represent a change in the UTXO Set by showing a new relationship between UTXOs consumed and created by a transaction.
 
-Однократный клик на транзакции позволяет выделить ее, изменить цвет с синего на зеленый, и отобразить дополнительные опции на панели инструментов (в левой части экрана).
+Single clicking the transaction will select the transaction, change its colour from blue to green, and display additional options on the toolbar (left side of screen).
 
-{{% image "/img/oxt/oxt-15.png" %}}
-_Начальный граф с выделением и панелью инструментов_
+{{% image "/img/oxt/oxt-15-en.webp" %}}
+*Initial TxGraph with Select and Toolbar*
 {{% /image %}}
 
-Значки панели инструментов выполняют следующие действия:
+The tool bar icons perform the following actions:
 
-{{% image "/img/oxt/oxt-16.png" %}}
-_Действия на панели инструментов графа транзакций_
+{{% image "/img/oxt/oxt-16-en.webp" %}}
+*TxGraph Toolbar Actions*
 {{% /image %}}
 
-Дважды кликните на транзакции, чтобы полностью раскрыть все UTXO в транзакции. UTXO отображаются в виде "ребер" (линий) со стрелками, указывающими, является ли UTXO входом (направленным в сторону транзакции) или выходом (направленным в сторону от транзакции). На графе также отображается транзакция, создающая входы или потребляющая выходы. Если выход не израсходован, то на конце UTXO будет отображаться незаполненный ромб.
+Double click the transaction to fully expand all transaction UTXOs. The UTXOs are displayed as “edges” (lines) with arrows indicating if the UTXO is an input (pointing toward the transaction) or output (pointing away from the transaction). The graph will also display the transaction creating the inputs or consuming the outputs. If the output is unspent, an unfilled diamond will be displayed on the end of the UTXO.
 
-{{% image "/img/oxt/oxt-17.png" %}}
-_Полностью развернутая транзакция_
+{{% image "/img/oxt/oxt-17-en.webp" %}}
+*Fully Expanded Transaction*
 {{% /image %}}
 
-Двойной щелчок или полное развертывание транзакции может сделать граф транзакций зашумленным и трудночитаемым. Чтобы свести беспорядок к минимуму, мы предлагаем выборочно разворачивать UTXO. Чтобы выборочно развернуть UTXO, выберите транзакцию и откройте окно с деталями транзакции. Входы и выходы транзакции можно выборочно развернуть, наведя курсор мыши на правую часть текста адреса и выбрав опцию "Expand Tx Graph".
+Double-clicking or fully expanding a transaction can make your transaction graph noisy and difficult to read. To minimise clutter, we suggest selectively expanding UTXOs. To selectively expand UTXOs, select the transaction and open the Transaction Details window. The transaction inputs and outputs can be selectively expanded by hovering the mouse to the right of the address text and selecting the visible Expand Tx Graph.
 
-{{% image "/img/oxt/oxt-18.png" %}}
-_Выборочное развертывание UTXO_
+{{% image "/img/oxt/oxt-18-en.webp" %}}
+*Selective UTXO Expansion*
 {{% /image %}}
 
-На графе при наведении курсора мыши на вход или выход отображается дополнительная информация об интересующем объекте без необходимости раскрытия вкладки с деталями транзакции.
+On the graph, hovering the mouse over an input or output will display additional information about the object of interest, without the need for expanding the transaction details tab.
 
-{{% image "/img/oxt/oxt-19.png" %}}
-_Вес линий на графе транзакций и предварительный просмотр_
+{{% image "/img/oxt/oxt-19-en.webp" %}}
+*Tx Graph Line Weight and Preview*
 {{% /image %}}
 
-Граф транзакций OXT также поможет автоматически обрабатывать некоторую дополнительную информацию. Транзакции и UTXO будут иметь разный относительный "вес" в зависимости от их объемов в BTC. Это может быть очень полезно для выявления сдачи и иллюстрации "отслаиваемых цепочек" (Peel Chain), о которых мы подробнее поговорим ниже.
+OXT’s transaction graph will also help to process some additional information automatically. Transactions and UTXOs will be “weighted” on a relative basis based on their BTC volumes. This can be very helpful for change detection and illustration of “peel chains”, which we will discuss in further detail below.
 
-### Пример графа транзакций отслаиваемой цепочки
+### OXT Peel Chain Transaction Graph Example
 
-Ниже приведен пример простого графа транзакций.
+A simple transaction graph example is presented below.
 
-1. Перейдите по [ссылке](https://oxt.me/transaction/351664e86e48c81ddd14f418893d4aede75546d16075dea47157144a30af687e) на страницу транзакции и откройте граф транзакций.
-2. Выделите транзакцию одинарным кликом мыши.
-3. Откройте окно сведений о транзакции, кликнув соответствующий значок на левой панели инструментов.
+1. Navigate to the hyperlink of the [transaction](https://oxt.me/transaction/351664e86e48c81ddd14f418893d4aede75546d16075dea47157144a30af687e) page and expand the transaction graph.
+
+2. Select the transaction with a single click.
+
+3. Open the transaction details window by clicking the respective icon on the left toolbar.
 
 {{% image "/img/oxt/oxt-20.png" %}}
-_Выбранная транзакция и ее детали_
+*Selected Transaction and Transaction Details*
 {{% /image %}}
 
-4. Дважды кликните на начальной транзакции, чтобы развернуть все входы и выходы.
-5. Уменьшите масштаб с помощью колеса мыши и переориентируйте граф от самых старых транзакций к новым (слева направо), выбирая и перетаскивая транзакции.
+4. Double click the starting transaction to expand all inputs and outputs.
 
-Два выхода ставят перед нами вопрос, на который необходимо ответить, если мы хотим попытаться отследить активность кошелька, создающего транзакцию.
+5. Zoom out using the mouse scroll wheel and re-orient the graph with the oldest transactions in your preferred order (ie. left to right) by clicking and dragging the transactions in the preferred orientation.
 
-### _За каким выходом мы должны следовать?_
+The two outputs present us with a question to answer if we are going to attempt to track the activity of the wallet creating the transaction.
 
-Если мы применим эвристику различных типов скриптов (см. [часть 1](/privacy/oxt-1/#%d1%8d%d0%b2%d1%80%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b0-%d1%80%d0%b0%d0%b7%d0%bb%d0%b8%d1%87%d0%bd%d1%8b%d1%85-%d1%82%d0%b8%d0%bf%d0%be%d0%b2-%d1%81%d0%ba%d1%80%d0%b8%d0%bf%d1%82%d0%be%d0%b2)), то определим второй выход как сдачу.
+_Which output do we follow?_
 
-6. Дважды щелкните на следующей транзакции, которая расходует второй выход из исходной транзакции.
+If we apply the different script heuristic (see [_Part I_](/en/privacy/oxt-1)), we identify the second output as change.
 
-7. Повторите процесс идентификации сдачи, используя эвристики, представленные в [части 1](/privacy/oxt-1/#%d0%be%d0%b1%d0%bd%d0%b0%d1%80%d1%83%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5-%d1%81%d0%b4%d0%b0%d1%87%d0%b8--%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bf%d1%80%d0%b5%d1%82%d0%b0%d1%86%d0%b8%d0%b8-%d0%bf%d1%80%d0%be%d1%81%d1%82%d0%be%d0%b9-%d1%82%d1%80%d0%b0%d1%82%d1%8b). Разверните еще две транзакции, используя этот процесс.
+6. Double click the next transaction that spends the second output from the original transaction.
 
-{{% image "/img/oxt/oxt-21.png" %}}
-_Пример "отслаиваемой цепочки" ([закладка](https://oxt.me/BOOKMARK/60D3C389E5C165230824AF81) с графом транзакций)_
+7. Repeat the process for change identification using the heuristics presented in Part I. Expand two more transactions using this process.
+
+{{% image "/img/oxt/oxt-21-en.webp" %}}
+_Peel Chain Example (Tx Graph [Bookmark](https://OXT.ME/BOOKMARK/60D3C389E5C165230824AF81))_
 {{% /image %}}
 
-После этого граф должен выглядеть примерно так, как показано на рисунке выше. Для дополнительного акцентирования внимания на UTXO сдачи их можно выбрать и выделить оранжевым цветом с помощью кнопки на панели инструментов слева. Граф транзакций, показывающий серию простых трат с одного и того же кошелька, принято называть "отслаиваемой цепочкой".
+Afterwards, the graph should look similar to the image in Fig 2.8 above. To add additional emphasis on the change UTXOs, the change UTXOs can be marked and highlighted in orange using the left toolbar button. A transaction graph showing a series of simple spends from the same wallet is commonly referred to as a “peel chain”.
 
-Фирмы, занимающиеся наблюдением за блокчейном, пытаются представить их как разновидность подозрительной деятельности, связанной со "структурированием или отмыванием денег". Хотя, как мы уже описывали в первой части, примерно 50% транзакций с биткоинами - это простые траты с 1 входом и 2 выходами, т.е. совершенно нормальное поведение.
+Chain surveillance firms attempt to frame peel chains as a form of suspicious activity related to “structuring or money laundering.” Though as we described in part 1, approximately 50% of bitcoin transactions are simple spends with 1 input and 2 outputs, in other words entirely normal behaviour.
 
-Для наших целей отслаиваемая цепочка - это простой процесс отслеживания активности одного кошелька на протяжении нескольких транзакций.
+For our purposes, a peel chain is the simple process of tracking a single wallet’s activity over multiple transactions.
 
-## Отпечаток кошелька и интерпретация графа транзакций
+## Wallet Fingerprinting and Transaction Graph Interpretation
 
-При дальнейшем взаимодействии с примером отслаиваемой цепочки станут очевидны дополнительные закономерности, свидетельствующие о постоянстве отпечатков (Fingerprint) кошелька. В том числе следующие:
+As you continue interacting with the example peel chain, additional patterns indicative of a consistent wallet fingerprint will become apparent. Including the following:
 
-1. Наибольший выход, отображаемый с помощью функции автоматического определения веса линий в OXT, делает выходы сдачи легко различимыми.
-2. Выходы сдачи всегда оплачиваются на адреса P2PKH.
-3. Выходы сдачи всегда являются вторыми из двух выходов.
-4. На графе не показаны, но также заслуживают внимания неизменные номер версии транзакции (2) и время блокировки (0) на всем графе. Чтобы увидеть эту информацию, щелкните на идентификаторе транзакции в окне с деталями транзакции для перехода на страницу TRANSACTION. Затем выберите вкладку TECHNICAL для отображения номера версии транзакции (TX VERSION) и времени блокировки (NLOCKTIME).
-5. Развернув историю предыдущих или будущих трат на данном графе транзакций, можно обнаружить другие транзакции с аналогичной схемой.
+1. The largest output, shown by OXT’s automatic line weight feature makes the change outputs readily apparent.
+2. The change outputs are always paid to P2PKH addresses.
+3. The change outputs are always the second of the two outputs.
+4. Not shown on the graph, but also worth noting are the consistent transaction version number (2) and lock-time (0) throughout the graph. To see this information, click the transaction ID in the transaction detail window to navigate to the TRANSACTION page. Then select the the TECHNICAL tab to display the transaction version number and lock-time.
+5. Expanding the previous or future spending history of this transaction graph will reveal more transactions with the same pattern.
 
-Каждый из этих паттернов может быть использован для описания поведения наблюдаемого программного обеспечения кошелька. Обобщение наблюдаемого поведения кошелька называется "отпечатком" кошелька, в котором используются следующие паттерны:
+Each of these patterns can be used to describe the behaviour of the observed wallet software. Generalisation of observed wallet behaviour is referred to as wallet fingerprinting, which leverages the following patterns:
 
-1. Скрипты адресов на входе и выходе
-2. Позиция UTXO сдачи
-3. Номер версии и время блокировки
+1. Input and output address scripts
+2. Change UTXO position consistency
+3. Version number and lock-time
 
-Сочетание перечисленных выше закономерностей может дать аналитику высокую степень уверенности в интерпретации выходов сдачи. Мы подтвердили эти интерпретации выходов сдачи, взаимодействуя с сервисом, контролирующим данную транзакционную активность. В примере отслаиваемой цепочки показана активность механизма выплат известного кастодиального миксера. Исследуя граф путем обратного хода от предоставленной транзакции, можно найти монеты, связанные со взломом биржи.
+Combining the above patterns can give an analyst high confidence in their interpretation of change outputs. We confirmed these change interpretations by interacting with the service responsible for this transaction activity. The example peel chain shows activity from a well-known custodial tumbler payout mechanism. Explore the graph source by backtracking from the provided transaction to find coins related to an exchange hack.
 
-В следующем разделе мы обсудим, как анализ графа транзакций может быть усовершенствован за счет использования кластеризации кошельков и мониторинга выходов платежей на централизованные сервисы.
+In the next section, we will discuss how transaction graph analysis can be improved further by using wallet clustering and monitoring outputs for spends to centralised services.
 
-## Кластеризация кошельков — эвристика владения совместными входами
+## Wallet Clustering — Common Input Ownership Heuristic
 
-Последний важный инструмент анализа цепочки называется "кластеризацией кошельков". Кластеризация объединяет адреса на основе моделей их совместного расходования и предположений о стандартном поведении программного обеспечения кошелька.
+The remaining critical chain analysis tool is referred to as “wallet clustering”. Clustering aggregates addresses based on their co-spending patterns and assumptions about normal wallet software behaviour.
 
-Большинство Биткоин-кошельков сегодня представляют собой иерархические детерминированные кошельки. Они генерируют один главный приватный ключ, который используется для получения дочерних приватных/публичных ключей и связанных с ними адресов.
+Most bitcoin wallets today are hierarchical deterministic wallets. They generate a single master private key which is used to derive child private/public keys and the associated addresses.
 
-Программное обеспечение кошелька, как правило, автоматически создает новый адрес для каждого платежа (UTXO). Если баланс одного UTXO или адреса недостаточен для проведения платежа, кошелек включает дополнительные UTXO/адреса, контролируемые различными закрытыми ключами, необходимые для траты требуемой суммы. Большинство кошельков делают это автоматически, без участия пользователя.
+Wallet software typically creates a new address automatically for each received payment (UTXO received). If a single UTXO or address balance is not adequate for making a payment, a wallet will include additional UTXOs/addresses controlled by different private keys/addresses as necessary to spend the desired amount. Most wallets do this automatically without user input.
 
-В силу такой стандартной функциональности кошелька и криптографии Биткоина с приватным/публичным ключом аналитик может предположить, что каждый адрес, используемый в качестве входа транзакции, контролируется одним и тем же приватным ключом или программным обеспечением кошелька.
+Because of this normal wallet functionality and bitcoin’s private/public key cryptography backing, an analyst can **_assume_** that each address used as an input to a transaction, is controlled by the same private key or wallet software.
 
-_**Предположение о том, что каждый вход в транзакцию контролируется одним и тем же кошельком, называется эвристикой владения совместными входами (CIOH — Common Input Ownership Heuristic) или, проще говоря, эвристикой объединения входов.**_
+**_The assumption that each input to a transaction is controlled by the same wallet is called the common input ownership heuristic (CIOH) or more simply, the merged input heuristic._**
 
-{{% image "/img/oxt/oxt-22.png" %}}
-_[Пример](https://oxt.me/transaction/e7c4ff5687019973350d11f530b6e16a9a2dd32cd1bc2ed4a61eafb38c8915be) CIOH и кластера_
+{{% image "/img/oxt/oxt-22-en.webp" %}}
+_CIOH and Cluster [Example](https://oxt.me/transaction/e7c4ff5687019973350d11f530b6e16a9a2dd32cd1bc2ed4a61eafb38c8915be)_
 {{% /image %}}
 
-Как и в любой другой эвристике, существуют специфические сценарии, в которых CIOH не работает. Преодоление CIOH, как правило, связано со специально разработанными транзакциями, повышающими приватность. Мы рассмотрим особые сценарии, в которых CIOH преодолевается, и то, как OXT обрабатывает эти исключения, в одной из следующих частей этой серии.
+Like all heuristics there are specific scenarios where the CIOH does not hold true. The breakdowns in the CIOH tend to revolve around specially constructed privacy enhancing transactions. We will cover the special scenarios where the CIOH is broken and how OXT handles these exceptions in a later part of this series.
 
-## ANON - схема кластеризации OXT
+## The ANONs — OXT’s Clustering Scheme
 
-Отдельным адресам, которые, как предполагается, контролируются одним и тем же кошельком, аналитическое программное обеспечение обычно присваивает идентификатор кластера кошелька. В силу псевдонимной природы Биткоина кластер кошелька может быть связан с деятельностью одного пользователя или централизованного сервиса.
+Separate addresses that are assumed controlled by the same wallet are usually given a wallet cluster ID by analysis software. Due to bitcoin’s pseudonymous nature a wallet cluster may be representative of a single user or centralized service’s activity.
 
-Но без дополнительной информации кошелек остается "анонимным", так как он не связан с деятельностью какого-либо реального субъекта. В результате OXT присваивает каждому новому кластеру префикс ANON, за которым следует номер.
+But without additional information, the wallet remains “anonymous” in that it has not been attributed to any real world entity activity. As a result, OXT gives each new cluster an ANON prefix followed by an index number.
 
 {{% image "/img/oxt/oxt-23.png" %}}
-_Пример ANON кластера_
+*ANON Wallet Cluster Example*
 {{% /image %}}
 
-OXT рассчитывает несколько видов активности кластера, в том числе:
+OXT calculates several cluster types of cluster activity including:
 
-- Сводку общей активности (баланс, количество транзакций, даты активности, количество адресов)
-- Графики месячной и дневной транзакционной активности, объемов отправленных и полученных BTC, отправленных и полученных UTXO, а также статистику адресов
-- Временная диаграмма активности кластера по дням недели и часам
-- Раздел примечаний, в котором пользователи OXT могут добавить заметки о возможной принадлежности или контексте взаимодействия с неизвестным кластером в ходе исследования.
+- A summary of general activity (balance, number of transactions, active dates, number of addresses)
+- Plots of monthly and daily transaction activity, BTC volumes sent and received, UTXOs sent and received, and address stats
+- A temporal pattern of cluster activity by day of the week and hours
+- A notes section where OXT users can add notes on possible attribution or context for interacting with an unknown cluster during an investigation.
 
-Общая статистика кластеров в OXT доступна для просмотра без учетной записи. Однако при наличии бесплатной учетной записи OXT (не требующей указания электронной почты) пользователь может получить доступ к дополнительным функциям. При входе в систему доступна статистика кластера, включая ежедневный баланс, ежедневные объемы, списки транзакций, списки адресов и т.д.
+OXT’s general cluster stats are viewable without an account. However, with a free OXT account (no email required), a user can access additional features. When logged in, cluster statistics including daily balance, daily volumes, transaction lists, address lists, and more are accessible.
 
 {{% image "/img/oxt/oxt-24.png" %}}
-_Временные паттерны ANON кластера_
+*ANON Wallet Cluster Temporal Patterns*
 {{% /image %}}
 
 {{% image "/img/oxt/oxt-25.png" %}}
-_Вкладка с отображением активности UTXO в ANON кластере_
+*ANON Wallet Cluster UTXO Activity Tab*
 {{% /image %}}
 
-## Принадлежность кластеров - от ANON до маркированного сервиса
+## Cluster Attribution — ANON to Labeled Service
 
-Используя CIOH, OXT будет отслеживать активность кластера кошелька в блокчейне. Чтобы приписать кластер кошелька конкретному сервису, необходимо взаимодействовать с ним.
+Using the CIOH, OXT will keep track of a wallet cluster’s on-chain activity. To attribute the wallet cluster to a specific service requires interacting with the service.
 
-Аналитик может создать учетную запись и отправить BTC на депозитный адрес, предоставленный сервисом. Это даст возможность следить за тратами своих депозитных UTXO. При трате UTXO аналитик может приписать этот адрес и расходуемые вместе с ним выходы к соответствующему идентификатору кластера.
+An analyst can create an account with a service and send BTC to a deposit address provided by the service. From there, the analyst can monitor the spending of their deposit UTXO. When spent the analyst can attribute the address and its co-spent addresses to the corresponding cluster ID.
 
-В качестве альтернативы можно использовать методы открытой разведки для поиска общедоступной информации, размещаемой пользователями сервиса. Адреса пополнения и снятия средств часто можно найти в сообщениях социальных сетей. Эти общедоступные данные также могут быть использованы для отнесения кластера кошелька к централизованному сервису.
+Alternatively, an analyst can use opensource intelligence techniques to search for publicly available information posted by service users. Deposit and withdrawal addresses can be commonly found in social media posts. This publicly available data can also be used to attribute a wallet cluster to a centralised service.
 
 {{% image "/img/oxt/oxt-26.png" %}}
-_[Пример](https://oxt.me/entity/coinbase) маркированного кластера_
+_Labelled Cluster [Example](https://oxt.me/entity/coinbase)_
 {{% /image %}}
 
-## Применение внешних данных транзакции для обнаружения сдачи
+## Applying External Transaction Data To Change Detection
 
-Для интерпретации обнаружения сдачи может быть использована дополнительная информация, включая "отпечатки" кошельков, время трат UTXO и кластеризацию выходов.
+Additional information including wallet fingerprinting, output spending timing, and output clustering can be applied to change detection interpretation.
 
-Наибольший ущерб конфиденциальности транзакций наносится в тех случаях, когда простая трата производится на кластер кошелька, который был идентифицирован как централизованный сервис.
+The most damaging to transaction privacy is when a simple spend is made to a wallet cluster that has been identified as a centralised service.
 
-Когда простая трата производится на централизованный сервис, вся неоднозначность обнаружения сдачи теряется. Выход в пользу централизованного сервиса однозначно является платежом. Единственный оставшийся выход является сдачей. Ниже показан пример будущей траты из приведенного выше примера отслаивающейся цепочки.
+When a simple spend is made to a centralised service, all change detection ambiguity is lost. The output to the centralised service is clearly the payment. The only remaining output is the obvious change output. An example from the future spending of the peel chain example above is shown below.
 
-{{% image "/img/oxt/oxt-28.png" %}}
-_[Пример](https://oxt.me/transaction/50766212c4eff1a8e1c74f16ba2480ec076b83fd8cdd369b9b8f3e02dfefbe41) простой траты с платежом на биржу_
+{{% image "/img/oxt/oxt-28-en.webp" %}}
+_Exchange Payments in Simple Spend [Example](https://oxt.me/transaction/50766212c4eff1a8e1c74f16ba2480ec076b83fd8cdd369b9b8f3e02dfefbe41)_
 {{% /image %}}
 
-Наиболее важным аспектом CIOH является не то, как он используется для нарушения приватности отдельных пользователей, а то, как кластеризация кошельков вокруг централизованных сервисов негативно и существенно влияет на конфиденциальность графа транзакций сети Биткоин.
+The most crucial aspect of the CIOH isn’t necessarily how it is used to target individual user privacy, but how wallet clustering among centralised services negatively and significantly effects the privacy of the the bitcoin network transaction graph.
 
-Значительная часть экономической активности в сети Биткоин происходит непосредственно от или к централизованным сервисам, что оказывает значительное централизующее воздействие на общий граф транзакций.
+A significant portion of bitcoin’s economic activity is immediately from or to a centralised service which has a major centralisation effect on the overall bitcoin network transaction graph.
 
-## Обзор
+## Review
 
-В частях [1](/privacy/oxt-1) и 2 мы познакомились с основами анализа цепочки, включая обнаружение сдачи, анализ графа транзакций и эвристику владения совместными входами.
+In [Parts 1](/en/privacy/oxt-1) and 2 we introduced the fundamentals of chain analysis including change detection, transaction graph analysis, and the common input ownership heuristic.
 
-Обнаружение сдачи состоит из ряда эвристик, используемых для определения вероятного выхода сдачи транзакции. Анализ графа транзакций позволяет быстро и наглядно проиллюстрировать эти эвристические интерпретации для отслеживания активности отдельного пользователя. Для повышения достоверности обнаружения сдачи можно использовать дополнительные данные, в том числе кластеризацию кошельков по эвристике владения совместными входами. Отнесение кластера кошелька пользователю или деятельности централизованного сервиса требует дополнительных данных вне блокчейна, связывающих изучаемый адрес и активность UTXO с данным сервисом.
+Change detection consists of a series of heuristics used to determine a likely transaction change output. A transaction graph analysis can quickly and visually illustrate these heuristic interpretations to track the activity of a single user. Additional data including wallet clustering by the common input ownership heuristic can be used to improve confidence in change detection. Attributing a wallet cluster to a user or centralised service activity requires additional off chain data tying a suspect address and spending activity to the noted service.
 
-В следующем разделе мы представим концепции, используемые для того, чтобы преодолеть анализ цепочки и усложнить отслеживание пользователей.
+In the following section we will introduce the concepts used to defeat chain analysis and make user tracking more difficult.
 
-**В [части 3](/privacy/oxt-3) рассматриваются основные концепции повышения приватности в сети Биткоин, включая:**
+**[Part 3](/en/privacy/oxt-3) covers core concepts of improving bitcoin’s privacy including:**
 
-1. Случайный отпечаток кошелька для защиты от обнаружения сдачи.
-2. Движения UTXO и фундаментальная связь между входами и выходами.
-3. Как CoinJoin с равными выходами решает проблему детерминированности движений UTXO.
-4. Энтропия транзакций.
-5. Как PayJoin преодолевает эвристику владения совместными входами.
+1. Randomised wallet fingerprinting for defeating change detection.
+2. UTXO flows and the fundamental link between inputs and outputs.
+3. How equal output coinjoins address the issue of deterministic flows.
+4. Transaction entropy
+5. How payjoin defeats the common input ownership heuristic
 
-**В [части 4](/privacy/oxt-4) рассматриваются:**
+**[Part 4](/en/privacy/oxt-4) discusses:**
 
-1. Анализ, требующий "отправной точки".
-2. Последствия отправки и получения платежей для приватности.
-3. Как существующие методы обеспечения приватности могут смягчить многие из проблем, обсуждаемых в данном руководстве.
-
-### Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
-{{% /image %}}
+1. Analyses needing a “starting point”
+2. The privacy implications of sending and receiving payments
+3. How existing privacy techniques can mitigate many of the issues discussed throughout the guide.
 
 {{< expand "Contents" "..." >}}
 
