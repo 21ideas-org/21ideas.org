@@ -1,6 +1,6 @@
 ---
-title: "Понимание приватности в сети Биткоин с помощью OXT"
-description: "Перевод цикла статей от разработчиков кошелька Samourai, опубликованных в блоге OXT Research"
+title: "Understanding Bitcoin Privacy with OXT"
+description: ""
 url: privacy/oxt
 cover: /img/oxt/oxt-1.webp
 bookCollapseSection: true
@@ -10,19 +10,19 @@ weight: 6
 ---
 
 {{< hint btc>}}
-Перевод цикла статей от разработчиков кошелька [Samourai](https://samouraiwallet.com/), опубликованных в [блоге](https://medium.com/oxt-research) [OXT Research](https://oxtresearch.com/)
+This series by [Samourai Wallet](https://samouraiwallet.com/) was published in [OXT Research](https://oxtresearch.com/) [Medium blog](https://medium.com/oxt-research)
 
-[Поддержать проект](/contribute/)
+[Contribute](/contribute/)
 {{< /hint >}}
 
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}

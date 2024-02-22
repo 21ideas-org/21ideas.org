@@ -11,20 +11,20 @@ weight: 3
 ---
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Понимание приватности в сети Биткоин с помощью OXT
+## Understanding Bitcoin Privacy with OXT
 
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}
 
@@ -222,16 +222,16 @@ CoinJoin с равными выходами - это совместные тра
 _LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
 {{% /image %}}
 
-{{< expand "Оглавление" "..." >}}
+{{< expand "Contents" "..." >}}
 
-## Понимание приватности в сети Биткоин с помощью OXT
+## Understanding Bitcoin Privacy with OXT
 
-[Часть 1: Анализ цепочки и приватность транзакций](/privacy/oxt-1)
+[Part 1: Chain Analysis And Transaction Privacy](/en/privacy/oxt-1)
 
-[Часть 2: Ключевые концепции анализа цепочки](/privacy/oxt-2)
+[Part 2: Chain Analysis Core Concepts](/en/privacy/oxt-2)
 
-[Часть 3: Защита от анализа цепочки](/privacy/oxt-3)
+[Part 3: Defences Against Chain Analysis](/en/privacy/oxt-3)
 
-[Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
+[Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
 {{< /expand >}}

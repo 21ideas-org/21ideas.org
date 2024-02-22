@@ -1,6 +1,6 @@
 ---
 title: "Понимание приватности в сети Биткоин с помощью OXT"
-description: "Перевод цикла статей от разработчиков кошелька Samourai, опубликованных в блоге OXT Research"
+description: "Перевод цикла статей от разработчиков кошелька Samourai, опубликованных в блоге OXT Research."
 url: privacy/oxt
 cover: /img/oxt/oxt-1.webp
 bookCollapseSection: true
@@ -24,5 +24,5 @@ weight: 6
 [Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей](/privacy/oxt-4)
 
 {{< hint info >}}
-_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC&si=BV26b4vcaM1l2Wws)._
+_Данный материал также доступен в видеоформате в [этом плейлисте](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC)._
 {{< /hint >}}

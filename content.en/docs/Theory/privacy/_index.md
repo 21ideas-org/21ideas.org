@@ -12,5 +12,5 @@ A section covering the best approaches to ensuring your own privacy when interac
 4. [Bitcoin Privacy](/en/wiki-bitcoin-privacy)
 5. [As Governments Seek Encryption Backdoors, Bitcoin Becomes Critical](/en/bitcoin-becomes-critical)
 6. [BIP47, the ugly duckling](/en/bip47-the-ugly-duckling)
-7. [Понимание приватности в сети Биткоин с помощью OXT](/privacy/oxt)
+7. [Understanding Bitcoin Privacy with OXT](/en/privacy/oxt)
 8. [CoinJoin Overview](/en/privacy/coinjoin)

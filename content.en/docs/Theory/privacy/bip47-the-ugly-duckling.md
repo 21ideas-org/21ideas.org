@@ -26,7 +26,7 @@ This compromise is as old as the White Paper. Satoshi already warned us against 
 
 Many solutions exist to receive multiple payments, without producing address reuse. Each of them has its own trade-offs and disadvantages. Among all these solutions, there is the BIP47, a proposal developed by Justus Ranvier and published in 2015 to generate reusable payment codes. Their goal is to be able to carry out several transactions to the same person, without reusing an address.
 
-Initially, this proposal received a contemptuous reception from part of the community, and it was never added to Bitcoin Core. Some software has still chosen to implement it on their own. Thus, [Samourai Wallet](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) has developed its own implementation of BIP47: [PayNym](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/paynym). Today, this implementation is obviously available on Samurai Wallet for smartphones, but also on [Sparrow Wallet](https://web.archive.org/web/20230331145759/https://sparrowwallet.com/) for PCs.
+Initially, this proposal received a contemptuous reception from part of the community, and it was never added to Bitcoin Core. Some software has still chosen to implement it on their own. Thus, [Samourai Wallet](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) has developed its own implementation of BIP47: [PayNym](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/paynym). Today, this implementation is obviously available on Samourai Wallet for smartphones, but also on [Sparrow Wallet](https://web.archive.org/web/20230331145759/https://sparrowwallet.com/) for PCs.
 
 Over time, Samourai has programmed new features directly related to PayNym. Now, there is an ecosystem of tools to optimize user privacy based on PayNym and BIP47.
 
@@ -75,7 +75,7 @@ Thus, multiple issuers will be able to send multiple payments to a single reusab
 
 A user can then freely communicate his payment code (on social networks, on his website...) without risk of loss of confidentiality, unlike a classic reception address or a public key.
 
-To make an exchange, both users will need to have a Bitcoin wallet with an implementation of BIP47, such as PayNym on Samurai Wallet or Sparrow Wallet. The association of the payment codes of the two users will make it possible to establish a secret channel between them. To properly establish this channel, the issuer will have to carry out a transaction on the Bitcoin chain: the notification transaction (I will tell you a little more about it).
+To make an exchange, both users will need to have a Bitcoin wallet with an implementation of BIP47, such as PayNym on Samourai Wallet or Sparrow Wallet. The association of the payment codes of the two users will make it possible to establish a secret channel between them. To properly establish this channel, the issuer will have to carry out a transaction on the Bitcoin chain: the notification transaction (I will tell you a little more about it).
 
 The association of the payment codes of the two users generates shared secrets allowing themselves to generate a large number of unique Bitcoin receiving addresses (2^32 exactly). Thus, in reality, the payment with BIP47 is not sent to the payment code, but to quite classic addresses, themselves derived from the payment codes of the protagonists.
 
@@ -110,16 +110,16 @@ These Bots have no real technical use. Instead, they facilitate interactions bet
 For the user, the process of a BIP47 payment with the PayNym implementation is extremely simple. Let's say Alice wants to send payments to Bob:
 
 1. Bob broadcasts his QR code, or directly his reusable payment code. He can place it on his website, on his various public social networks or send it to Alice through another means of communication. :
-2. Alice opens her Samurai or Sparrow software, and scans, or pastes, Bob's payment code.
+2. Alice opens her Samourai or Sparrow software, and scans, or pastes, Bob's payment code.
 3. Alice connects her PayNym with Bob's ("Follow"). This operation is done outside the blockchain and remains completely free.
-4. Alice connects her PayNym with Bob's ("Connect"). This operation is done "on chain". Alice must pay the transaction mining fee as well as a fixed fee of 15,000 sats for the service on Samurai. Service fees are available on Sparrow. This step is called the notification transaction.
+4. Alice connects her PayNym with Bob's ("Connect"). This operation is done "on chain". Alice must pay the transaction mining fee as well as a fixed fee of 15,000 sats for the service on Samourai. Service fees are available on Sparrow. This step is called the notification transaction.
 5. Once the notification transaction is confirmed, Alice can create a BIP47 payment transaction to Bob. His wallet will automatically generate a new blank receiving address for which only Bob has the private key.
 
 Completing the notification transaction, i.e. connecting your PayNym, is a mandatory preliminary step to make BIP47 payments. On the other hand, once it is done, the sender will be able to make multiple payments to the recipient (2^32 exactly), without the need to carry out a notification transaction again.
 
 You could see that there are two different operations that allow PayNym to be linked together: link and connect. The connection operation ("connect") corresponds to the notification transaction of the BIP47 which is simply a Bitcoin transaction with certain information transmitted through a OP_RETURN output. Thus, it helps to establish encrypted communication between the two users in order to produce the shared secrets needed to generate new blank receiving addresses.
 
-On the other hand, the link operation ("follow" or "link") makes it possible to establish a link on Soroban, an encrypted communication protocol based on Tor, specially developed by the Samurai teams.
+On the other hand, the link operation ("follow" or "link") makes it possible to establish a link on Soroban, an encrypted communication protocol based on Tor, specially developed by the Samourai teams.
 
 To summarize:
 
@@ -130,13 +130,13 @@ In order to connect two PayNyms, they must already be connected.
 
 ## Tutorials: Using PayNym
 
-Now that we have seen the theory, let's study the practice together. The idea of the tutorials below is to link my PayNym on my Sparrow wallet with my PayNym on my Samurai wallet. The first tutorial shows you how to make a transaction using the reusable payment code from Samurai to Sparrow, and the second tutorial describes the same mechanism from Sparrow to Samurai.
+Now that we have seen the theory, let's study the practice together. The idea of the tutorials below is to link my PayNym on my Sparrow wallet with my PayNym on my Samourai wallet. The first tutorial shows you how to make a transaction using the reusable payment code from Samourai to Sparrow, and the second tutorial describes the same mechanism from Sparrow to Samourai.
 
 I did these tutorials on the Testnet. These are not real bitcoins.
 
 ### Build a BIP47 transaction with Samourai Wallet.
 
-For starters, you're obviously going to need the Samurai Wallet app. You can download it directly from the Google Play Store, or with the [APK file](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/download) available on the [official website](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) of Samourai.
+For starters, you're obviously going to need the Samourai Wallet app. You can download it directly from the Google Play Store, or with the [APK file](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/download) available on the [official website](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) of Samourai.
 
 Once the wallet is initialized, if you have not already done so, request your PayNym by clicking on the plus (+) at the bottom right, then on "PayNym".
 
@@ -146,7 +146,7 @@ The first step to making a BIP47 payment is going to be to retrieve our recipien
 
 Once the notification transaction is confirmed, I can send multiple payments to my recipient. Each transaction will be done automatically with a new blank address for which the recipient has the keys. The latter has no action to perform, everything is calculated on my side.
 
-Here's how to make a BIP47 transaction on Samurai Wallet:
+Here's how to make a BIP47 transaction on Samourai Wallet:
 
 <center><video src="/img/bip47-ili-gadkij-utenok/ugly-993.mp4" controls style="width: 100%"></video></center>
 
@@ -542,7 +542,7 @@ By observing this transaction, we can already see that it has a single input and
 
 - The first output is the OP_RETURN which contains my hidden payment code.
 - The second output of 546 sats points to my recipient's notification address.
-- The third output of 15,000 sats represents the service fee, because I used Samurai Wallet to build this transaction.
+- The third output of 15,000 sats represents the service fee, because I used Samourai Wallet to build this transaction.
 - The fourth output of two million sats represents the exchange rate, that is to say the remaining difference of my input that returns to another address belonging to me.
 
 The most interesting to study is obviously the output 0 using the OP_RETURN. Let's look in more detail at what it contains:
