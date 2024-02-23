@@ -11,7 +11,7 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 2. [Bitcoin's Eternal Struggle](/en/bitcoins-eternal-struggle)
 3. [On Bitcoin’s UX](/en/on-bitcoins-ux)
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
-5. [Управление Биткоином](/upravlenie-bitcoin)
+5. [Bitcoin Governance](/en/bitcoin-governance)
 6. [Доверенные третьи стороны — это бреши в системе безопасности](/doverennye-tretyi-storony)
 7. [21 миллион не подлежит обсуждению](/21-million-ne-podlezhit-obsuzhdeniyu)
 8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
