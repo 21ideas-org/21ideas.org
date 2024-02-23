@@ -14,7 +14,7 @@ weight: 52
 How Bitcoin Thrives on the Edge between Order and Chaos
 
 {{< hint btc >}}
-This article by GiGi was published on [dergigi.com](https://dergigi.com/2019/12/22/bitcoin-s-eternal-struggle) website.
+This article by Gigi was published on [dergigi.com](https://dergigi.com/2019/12/22/bitcoin-s-eternal-struggle) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}

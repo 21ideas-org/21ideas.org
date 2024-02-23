@@ -12,7 +12,7 @@ weight: 1
 There is a sacred realm of privacy where essential rights and liberties into which the law, generally speaking, must not intrude.
 
 {{< hint btc >}}
-This article by GiGi was published on [swanbitcoin.com](https://www.swanbitcoin.com/bitcoin-privacy-best-practices/) website.
+This article by Gigi was published on [swanbitcoin.com](https://www.swanbitcoin.com/bitcoin-privacy-best-practices/) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}
