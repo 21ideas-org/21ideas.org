@@ -5,9 +5,9 @@ url: protocol
 weight: 4
 ---
 
-Подраздел, посвященный основам функционирования протокола Биткоин.
+A subsection on the basics about the functioning of the Bitcoin protocol.
 
-1. [Кто контролирует Bitcoin Core?](/kto-kontroliruet-bitkoin-kor)
+1. [Who Controls Bitcoin Core?](/en/who-controls-bitcoin-core)
 2. [Вечная борьба Биткоина](/vechnaja-borba)
 3. [Об удобстве взаимодействия с Биткоином](/ob-udobstve-vzaimodejstvija-s-bitcoinom)
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
