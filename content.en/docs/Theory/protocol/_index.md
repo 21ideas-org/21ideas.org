@@ -8,7 +8,7 @@ weight: 4
 A subsection on the basics about the functioning of the Bitcoin protocol.
 
 1. [Who Controls Bitcoin Core?](/en/who-controls-bitcoin-core)
-2. [Вечная борьба Биткоина](/vechnaja-borba)
+2. [Bitcoin's Eternal Struggle](/en/bitcoins-eternal-struggle)
 3. [Об удобстве взаимодействия с Биткоином](/ob-udobstve-vzaimodejstvija-s-bitcoinom)
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
 5. [Управление Биткоином](/upravlenie-bitcoin)
