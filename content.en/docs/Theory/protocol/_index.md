@@ -13,7 +13,7 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
 5. [Bitcoin Governance](/en/bitcoin-governance)
 6. [Trusted Third Parties are Security Holes](/en/trusted-third-parties)
-7. [21 миллион не подлежит обсуждению](/21-million-ne-podlezhit-obsuzhdeniyu)
+7. [21 Million is Non-Negotiable](/en/21-million-is-non-negotiable)
 8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
 9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
 10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
