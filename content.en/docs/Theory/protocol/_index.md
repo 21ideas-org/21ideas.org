@@ -21,4 +21,4 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 12. [The Coercion Of Ethereum's Difficulty Bomb](/en/coercion-of-ethereums-difficulty-bomb)
 13. [Understanding the RGB protocol](/en/rgb)
 14. [Bitcoin Difficulty Adjustment](/en/difficulty)
-15. [Сравнение типов биткоин-адресов](/sravnenie-tipov-bitcoin-adresov)
+15. [Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more](/en/bitcoin-address-types)
