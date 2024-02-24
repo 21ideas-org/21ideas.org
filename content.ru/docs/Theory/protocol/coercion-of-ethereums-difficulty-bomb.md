@@ -13,7 +13,7 @@ weight: 61
 Бомбы сложности в сети Ethereum являются доказательством того, что блокчейны могут быть принудительными, в то время как Биткоин доказывает, что они не обязательно должны быть таковыми.
 
 {{< hint btc>}}
-_Этот пост – перевод [эссе](https://bitcoinmagazine.com/technical/ethereum-is-coercive-bitcoin-is-not) [Level 39](https://twitter.com/level39/), подготовленный Tony⚡️_
+_Этот пост – перевод [эссе](https://bitcoinmagazine.com/technical/ethereum-is-coercive-bitcoin-is-not) [Level39](https://twitter.com/level39/), подготовленный Tony⚡️_
 
 [Поддержать проект](/contribute/)
 {{</hint >}}
