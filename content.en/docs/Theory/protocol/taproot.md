@@ -1,97 +1,123 @@
 ---
-title: "Что такое Taproot"
-h1: "Что такое Taproot и какую пользу он принесет Биткоину?"
+title: "What Is Taproot"
+h1: "What Is Taproot and How Does It Benefit Bitcoin?"
 cover: /img/tr-811.jpeg
-description: "Taproot — это предлагаемое обновление Биткоина, в котором появится несколько новых функций."
+description: ""
 url: taproot
-aliases: ['/theory-protocol-taproot-intro']
 date: 2021-09-26
 bookFlatSection: false
 weight: 60
 ---
 
-Taproot — это предлагаемое обновление Биткоина, в котором появится несколько новых функций.
+Taproot is an upgrade to Bitcoin which brought several new features and benefits to Bitcoin users. The Bitcoin community activated Taproot at block 709,632 on November 12th, 2021.
 
 {{< hint btc>}}
-[Поддержать проект](/contribute/)
+This article was published on [river.com](https://river.com/learn/what-is-taproot/) website.
+
+[Contribute](/contribute/).
 {{</hint >}}
 
-{{% image "/img/tr-812.png" /%}}
+# Taproot, Ordinals, and Inscriptions
 
-- Taproot — это предлагаемое обновление Биткоина, в котором появится несколько новых функций.
-- Taproot интегрирует схему цифровой подписи Шнорр в Биткоин, модернизируя криптографию, лежащую в основе Биткоина.
-- Taproot опирается на обновление SegWit, чтобы улучшить приватность Биткоина и снизить комиссию за транзакции.
-- Taproot облегчает будущие обновления Биткоина, реформируя язык используемых им скриптов.  
-    
+Since early 2023, Taproot has introduced controversy in the Bitcoin space, as developers started using it to put other forms of data on the blockchain than transaction data, such as ordinals, inscriptions, and images in the form of Non-Fungible Tokens (NFTs).
 
-# Введение
+Opinions about whether this is good for the network in the long term are divided, as there are many implications. It provides fee revenue for miners, but also increases the cost for users to use the blockchain. It expands the main use of the network beyond money, but much of this expansion is gambling-related which some users are not excited to pay the cost for.
 
-Taproot — это обновление Биткоина, которое принесет ряд новых функций и преимуществ для пользователей сети.  
+Before Taproot, it was already possible to add non-transaction data to the blockchain, but it was more difficult and costly. Making it impossible to do so would have severe implications for Bitcoin.
 
-Обновление Taproot фактически состоит из трех предложений по улучшению Биткоина (BIP), которые определяют три различные модернизации протокола: Schnorr Signatures, Taproot и Tapscript. Однако эти три обновления известны как обновление Taproot, а BIP 340, 341 и 342 часто называют BIP Taproot. Вместе эти обновления представляют новые, более эффективные, гибкие и приватные способы передачи биткоина.  
+# What Is In the Taproot Upgrade?
 
-# Подписи Schnorr
+The Taproot upgrade is composed of three [Bitcoin Improvement Proposals (BIPs)](https://river.com/learn/terms/b/bitcoin-improvement-proposal-bip/) which define three distinct upgrades to the Bitcoin protocol:
 
-BIP 340 интегрирует схему цифровой подписи Шнорра в Биткоин. Подписи Шнорра принесут пользователям Биткоина ряд преимуществ, включая повышенную приватность, более низкие комиссии и более гибкое взаимодействия со [схемами мультисиг](/multisig-1).  
+- Schnorr Signatures (BIP 340)
+- Taproot (BIP 341)
+- Tapscript (BIP 342)
 
-Этот BIP также определяет, как публичные ключи и подписи Шнорра должны кодироваться для использования в Биткоине. Публичные ключи, используемые в подписях Шнорра, имеют длину 32 байта по сравнению с публичными ключами ECDSA длиной в 33 байта. Кроме того, длина подписей Шнорра равна 65 байтам по сравнению с подписями ECDSA, длина которых составляет 71-72 байта, включая [флаг sighash](https://river.com/learn/terms/s/sighash-flag/). Эта небольшая экономия места позволяет пользователям Биткоина, использующим Taproot, сэкономить на комиссии.  
+Together, these three upgrades are known as the Taproot upgrade, often collectively referred to as BIP Taproot. These BIPs introduced new, more efficient, flexible, and private ways of transferring bitcoin.
 
-# Taproot
+## Schnorr Signatures - BIP 340
 
-В то время как BIP 340 определяет спецификацию для генерации и кодирования подписей Шнорра и публичных ключей, BIP 341 определяет, как протокол Биткоина будет интегрировать подписи Шнорра. В частности, Биткоин-скрипт должен быть обновлен, чтобы также оценивать подписи Шнорра. Taproot также интегрирует Merkelized Alternative Script Trees (MAST), которые позволяют пользователям блокировать выходы в нескольких скриптах одновременно.  
+As part of the Taproot upgrade, BIP 340 introduces Schnorr signatures for use in Bitcoin. Schnorr signatures bring several benefits to Bitcoin users, including superior privacy, lower fees, and more flexible [multisig](https://river.com/learn/terms/m/multisig/).
+
+This BIP also specifies how Schnorr public keys and signatures are to be encoded for use in Bitcoin. Public keys used for Schnorr signatures are 32 bytes long, compared to ECDSA’s 33-byte public keys. Additionally, Schnorr signatures are 64 bytes long, compared to ECDSA signatures, which range from 71-72 bytes, including a [sighash flag](https://river.com/learn/terms/s/sighash-flag/). These small space savings offer fee savings to Bitcoin users who adopt Taproot.
+
+## Taproot - BIP 341
+
+While BIP 340 defines the specification for generating and encoding Schnorr signatures and public keys, BIP 341 defines how Bitcoin’s protocol integrates Schnorr signatures. Specifically, Bitcoin Script must be updated to also evaluate Schnorr signatures. Taproot also integrates [Merkelized Alternative Script Trees (MAST)](https://river.com/learn/terms/m/merkelized-alternative-script-tree-mast/), which allow users to lock outputs to multiple scripts.
+
+{{% hint info %}}
+Pay-to-Taproot outputs are version 1 SegWit outputs, and all Taproot transactions are SegWit transactions.
+{{% /hint %}}
 
 ## Pay-to-Taproot (P2TR)
 
-Taproot также представляет новый тип скрипта — способ траты биткоина. Pay-to-Taproot (P2TR) позволяет пользователям производить оплату либо на публичный ключ Шнорра, либо использовать корень Меркла ряда других скриптов. Используя этот новый тип скрипта, пользователь может создать [UTXO](https://t.me/bitcoin21ideas/151), который может быть разблокирован и потрачен либо владельцем приватного ключа, либо любым, кто может удовлетворить требования любого скрипта в дереве Меркла.  
+Taproot also introduced a new script type, a way of spending bitcoin. Pay-to-Taproot (P2TR) allows users to pay to either a Schnorr public key **or** the [Merkle root](https://river.com/learn/terms/m/merkle-root/) of a variety of other scripts. Using this new script type, a user can create a [UTXO](https://river.com/learn/terms/u/unspent-transaction-output-utxo/) which can be unlocked and spent by either the owner of the private key or anyone who can satisfy the requirements of any script within the Merkle tree.
 
-## Агрегация ключей
+### Key Aggregation
 
-Функция агрегации ключей Шнорра обеспечивает довольно гибкую функциональность. Когда биткоин отправляется на выход P2TR, он привязывается к одному приватному ключу, называемому Q. Однако этот приватный ключ Q на самом деле является агрегацией публичного ключа P и приватного ключа, сформированного из корня Меркл многих других типов скриптов. Любой из альтернативных скриптов в дереве Меркла может быть использован для траты выхода.  
+Schnorr’s key aggregation feature enables this flexible functionality. When bitcoin is sent to a P2TR output, it is locked to a single public key, called Q. However, this public key Q is actually an aggregation of a public key P and a public key formed from the Merkle root of many other script types. Any of the alternative scripts in the Merkle tree can be used to spend the output.
 
 {{% image "/img/tr-813.png" /%}}
 
-Такая конструкция позволяет пользователям выбирать между сложными, произвольными скриптами, а также простыми функциями оплаты на публичный ключ (pay-to-public-key) в момент траты, а не в момент получения. Это также делает все выходы Taproot похожими друг на друга. Поскольку в блокчейне с введением обновления мультисиг транзакции, транзакции с одной подписью и другие сложные смарт-контракты будут выглядеть одинаково, многие эвристики анализа блокчейна станут непригодными, что повысит приватность всех пользователей Taproot.  
+This design allows users to choose between complex, arbitrary scripts as well as simple pay-to-public-key functionality at the time of spending, rather than at the time of receiving. It also makes all Taproot outputs look similar. Because multisig outputs, single sig outputs, and other complex smart contracts all look the same on the blockchain, many chain analysis heuristics will become unusable, preserving privacy for all Taproot users.
 
-## Tapscript
+## Tapscript - BIP 342
 
-Чтобы реализовать транзакции P2TR, BIP 342 добавляет и обновляет несколько операционных кодов. Эти новые скрипты используются для верификации Taproot-трат и подписей Шнорр, и известны под общим названием Tapscript.  
+In order to implement P2TR transactions, BIP 342 adds and updates several [opcodes](https://river.com/learn/terms/o/opcode/). These new scripts are used to verify Taproot spends and Schnorr signatures, and they are collectively known as Tapscript.
 
-Tapscript был разработан для обеспечения максимальной гибкости P2TR-расходов в будущем, чтобы позволить модернизацию, которая еще далека от реализации.  
+Tapscript was designed to maximize future flexibility of P2TR spending in order to allow for upgrades which are not yet foreseen.
 
-# Преимущества Taproot
+# The Benefits of Taproot
 
-Обновление Taproot предлагает множество преимуществ как пользователям Биткоина, которые принимают Taproot, так и тем, кто его не принимает. Введение подписей Шнорра дает значительные преимущества для приватности и безопасности, но Taproot и Tapscript также обладают рядом преимуществ.  
+The Taproot upgrade offers many benefits to Bitcoin users who adopt Taproot as well as those who do not. The introduction of Schnorr signatures offers significant benefits to privacy and security, but Taproot and Tapscript also bring advantages of their own.
 
-## Экономия пространства
+## Space Savings
 
-Большинство выходов Taproot (P2TR) занимают меньше места в блокчейне, чем обычные выходы P2PKH, но немного больше, чем выходы P2WPKH. В основном это связано с тем, что P2TR-выходы привязывают биткоин непосредственно к публичному ключу, а не к хешу публичного ключа. Это делает отправку на выходы Taproot немного более дорогой, поскольку публичные ключи занимают больше места, чем их хеши. Однако тратить Taproot-выходы значительно дешевле, потому что открытый ключ включен в scriptPubKey, и поэтому его не нужно включать в [Script Witness](https://river.com/learn/terms/s/script-witness/).  
+Most Taproot (P2TR) outputs consume less space on the blockchain than normal [P2PKH](https://river.com/learn/terms/p/p2pkh/) outputs, but are slightly larger than [P2WPKH](https://river.com/learn/terms/p/p2wpkh/) outputs. This is mostly due to the fact that P2TR outputs lock bitcoin directly to a public key, not the hash of the public key. This makes sending to Taproot outputs slightly more expensive, because public keys take up more space than public key hashes. However, spending Taproot outputs is significantly cheaper because the public key is included in the scriptPubKey, and thus does not need to be included in the [Script Witness](https://river.com/learn/terms/s/script-witness/).
 
-Taproot также определил схему кодирования для публичных ключей и подписей Шнорра, сделав их короче, чем их аналоги ECDSA, что обеспечивает дополнительную экономию средств.  
+Taproot also defined the encoding scheme for Schnorr public keys and signatures, making them shorter than their ECDSA counterparts, providing additional fee savings.
 
-## Улучшения приватности
+## Privacy Benefits
 
-Последствия Taproot для приватности — это, пожалуй, самая важная составляющая обновления. Благодаря внедрению подписей Шнорра и агрегации ключей, контракты с несколькими подписями (мультисиг) больше внешне не отличается от контрактов с одной подписью, обеспечивая приватность для всех пользователей Taproot.  
+The privacy implications of Taproot are perhaps the most important part of the upgrade. By introducing Schnorr signatures and key aggregation, multisignature contracts no longer look different from single signature contracts, providing privacy to all Taproot users.
 
-Taproot также вводит значительные преимущества в плане приватности благодаря интеграции MAST. Как говорилось выше, Taproot позволяет заблокировать биткоин в многочисленных скриптах одновременно. Однако при расходовании биткоинов с выхода Taproot, пользователю не нужно раскрывать все возможные скрипты, которые могли бы разблокировать (потратить) биткоин; только основной скрипт, который он фактически использовал. В большинстве случаев пользователи Taproot, скорее всего, будут использовать опцию pay-to-public-key, что позволит им сохранить в тайне все запланированные ими запасные варианты.  
+{{% hint info %}}
+Since the Lightning Network relies on 2-of-2 multisig, Taproot makes it impossible to discern which transactions create Lightning channels.
+{{% /hint %}}
 
-## Модернизация системы безопасности
+Taproot also introduced significant privacy benefits through the integration of MAST. As discussed above, Taproot allows bitcoin to be locked to many scripts at once. However, when spending bitcoin from a Taproot output, the spender need not reveal every possible script that could have unlocked the bitcoin; only the script which they actually used. In the majority of cases, Taproot users will likely use the pay-to-public-key option, allowing them to keep any backup options they might have planned private.
 
-На техническом, теоретическом уровне подписи Шнорра считаются более безопасными, чем подписи ECDSA. Как и все схемы криптографии на эллиптических кривых, ECDSA и Шнорр основываются на предположении, что проблема дискретного логарифма является трудной. Однако, чтобы гарантировать свою безопасность, ECDSA опирается на дополнительные предположения. Тем не менее, за время существования Биткоина не было ни одного примера систематической компрометации ECDSA.  
+## Security Upgrades
 
-Подписи Шнорра также устраняют любую уязвимость подписи, которая могла присутствовать в подписях ECDSA. Хотя проблема искажения транзакций была решена обновлением SegWit, искажение подписей в ECDSA сохранилось.  
+On a technical, theoretical level, Schnorr signatures are considered more secure than ECDSA signatures because Schnorr signatures are provably secure using fewer assumptions. Like all elliptic curve cryptography schemes, both ECDSA and Schnorr rely on the assumption that the Discrete Logarithm Problem is hard. However, ECDSA relies on additional assumptions in order to guarantee its security. Nonetheless, there have been no examples of ECDSA being systematically compromised during Bitcoin’s existence.
 
-# Активация Taproot
+Schnorr signatures also eliminate any signature [malleability](https://river.com/learn/terms/m/malleability/) that might have been present in ECDSA signatures. While transaction malleability was solved by the SegWit upgrade, malleability of signatures persisted as a feature of ECDSA.
 
-На данный момент Taproot все еще является предлагаемым обновлением и еще не активирован в сети Биткоин. В случае предложения обновления сети Биткоин, оно сначала обсуждается сообществом разработчиков. Как только предложение формализуется, ему присваивается номер BIP. После того как код написан, рассмотрен, протестирован и объединен, операторы Биткоин-нод должны решить, как и когда активировать обновление.  
+## Taproot Enables the Taro Protocol
 
-Обновления Schnorr, Taproot и Tapscript получили номера BIP 340, 341 и 342 в январе 2020 года и с тех пор находятся в стадии обсуждения и разработки. В конце 2020 года реализация кода всех трех обновлений была завершена, протестирована, рассмотрена и включена в Bitcoin Core.  
+[Taro](https://river.com/learn/terms/t/taro/) is a Taproot-powered protocol that allows users to issue assets on the Bitcoin blockchain and the [Lightning Network](https://river.com/learn/what-is-the-lightning-network/). With a Taproot-centered design, this asset issuance can be done in a more private and scalable way than previous attempts to introduce other assets on top of Bitcoin. Taro was proposed by Lightning Labs in April 2022.
 
-В настоящее время весь необходимый код для реализации Taproot уже есть на каждой обновленной до последней версии ноде Биткоина. Теперь сообщество должно решить, нужно ли активировать Taproot и как начать применять новые правила консенсуса. Существует несколько методов активации обновлений Биткоина, поэтому сообщество сначала должно было выбрать путь, а затем осуществить обновление.  
+Taproot is used in Taro to embed asset metadata into an existing transaction output. Schnorr Signatures are also used to improve simplicity and scalability.
 
-# Пути активации Биткоина
+The name Taro is an acronym for Taproot Asset Representation Overlay, indicating that without Taproot, this upgrade would not be possible.
 
-BIP 8 и BIP 9 определяют два популярных метода активации обновлений. Оба процесса начинаются с опроса Биткоин-майнеров на предмет поддержки. Если подавляющее большинство майнеров выражают свою поддержку через сообщения в блоках, которые они добывают, обновление активируется. Разница между BIP 8 и BIP 9 возникает, если поддержка майнеров недостаточна. В этом случае BIP 9 определяет, что обновление не должно происходить, в то время как BIP 8 определяет, что обновление должно быть активировано после периода задержки.  
+# Taproot Activation
 
-Варианты этих двух предложений были выдвинуты в контексте активации Taproot. Однако сообщество Биткоин в подавляющем большинстве поддержало Taproot, а критики было очень мало. Таким образом, сам путь активации, скорее всего, окажется незначительным.  
+When an upgrade to Bitcoin is proposed, it is first discussed by the developer community. Once the proposal is formalized, it is assigned a BIP number. After the code is written, reviewed, tested, and merged, Bitcoin node operators must decide how and when to activate the upgrade.
 
-На данный момент активация Taproot проходит по пути Speedy Trial в попытке добиться более быстрого принятия. За прогрессом активации можно следить на сайте [taproot.watch](https://taproot.watch/miners). Подавляющее большинство (84.96%) майнинг-пулов просигнализировало о поддержке обновления, но чтобы обновление вступило в силу 90% блоков, намайненных в период одной эпохи (между корректировками сложности, то есть за 2016 блоков), должны включать сигнал в поддержку Taproot. На сегодняшний день этот показатель составляет 31.89%.
+The Schnorr, Taproot, and Tapscript upgrades were given BIP 340, 341, and 342 in January of 2020, and have been under discussion and development since. In late 2020, the code implementation for all three upgrades was completed, tested, reviewed, and merged to Bitcoin Core.
+
+In May 2021, over 90% of miners signaled for Taproot activation, and BIP 340, 341, and 342 was activated and enforced at block 709,632 on November 12th, 2021. There are several methods for activating upgrades to Bitcoin; the Bitcoin community selects a path and then executes it.
+
+## Bitcoin Activation Paths
+
+BIP 8 and BIP 9 define two popular methods for activating upgrades. Both processes begin by surveying Bitcoin miners for support. If an overwhelming majority of miners signal their support through messages in the blocks they mine, the upgrade is activated. The difference between BIP 8 and BIP 9 arises if miner support is insufficient. In that case, BIP 9 specifies that the upgrade should not take place, while BIP 8 specifies that the upgrade should be activated after a delay period.
+
+Variants of these two proposals were put forward in the context of Taproot activation. However, the Bitcoin community overwhelmingly supported Taproot, and very little criticism were been raised. Thus, the specific activation path was largely insignificant.
+
+# Key Takeaways
+
+- Taproot is an upgrade to Bitcoin which introduced several new features.
+- Taproot integrated the Schnorr digital signature scheme into Bitcoin, upgrading Bitcoin’s core cryptography.
+- Taproot built on the SegWit upgrade to improve Bitcoin’s privacy and lower transaction fees.
+- Taproot made future Bitcoin upgrades easier by reforming Bitcoin’s scripting language.

@@ -1,179 +1,172 @@
 ---
-title: "О корректировке сложности майнинга"
-h1: "О корректировке сложности биткоин-майнинга"
-cover: /img/diff-935.jpg
-description: "Корректировка сложности – это великое, но, тем не менее, недооцененное нововведение, обеспечивающее бесперебойную работу Биткоина."
+title: "Bitcoin Difficulty Adjustment"
+h1: "Bitcoin Difficulty Adjustment"
+cover: /img/diff-935-en.jpeg
+description: "The Difficulty Adjustment is the great missing innovation that made Bitcoin work."
 url: difficulty
-aliases: ['/theory-protocol-difficulty-adjustment']
 date: 2022-09-13
 bookFlatSection: false
 weight: 63
 ---
 
-Корректировка сложности – это великое, но, тем не менее, недооцененное нововведение, обеспечивающее бесперебойную работу Биткоина.
+The Difficulty Adjustment is the great missing innovation that made Bitcoin work.
 
-{{< hint btc>}}
-_Перевод_ [_трэда_](https://twitter.com/raw_avocado/status/1569679607158435840) _Алекса Вальтца_
+{{< hint btc >}}
+This article by [Alex Waltz](https://twitter.com/raw_avocado) was published in his [Twitter](https://twitter.com/raw_avocado/status/1569679607158435840).
 
-[Поддержать проект](/contribute/)
-{{</hint >}}
+[Contribute](/contribute/).
+{{< /hint >}}
 
-Корректировка сложности – это великое, но, тем не менее, недооцененное нововведение, обеспечивающее бесперебойную работу Биткоина.
+While it ensures that Bitcoin's supply is predictable it also is a:
 
-Помимо того, что она обеспечивает предсказуемость предложения Биткоина, она также является..:
+- fundamental security mechanism
+- self-regulating mechanism
+- crucial consensus component
 
-- фундаментальным механизмом, обеспечивающим безопасность сети
-- саморегулирующимся механизм
-- важнейшим компонентом консенсуса
+Since its inception Bitcoin adjusted its difficulty 373 times.
 
-С момента своего появления Биткоин корректировал свою сложность 373 раза.
+For the 1st year of its existence, the difficulty did not increase, the 1st "big" change taking place on 2010-01-01 ~ block 32,256.
 
-В течение первого года работы сети сложность не увеличивалась, первое значительное изменение произошло первого января 2010 года, на высоте блока 32,256.
+The biggest changes are:
 
-Самые большие изменения сложности составили:
+- upwards being 302%
+- downwards 27%
 
-- вверх - 302% на высоте блока 68,544
-- вниз - 27% на высоте блока 689,472
+The Bitcoin Difficulty tells us how hard it is to find a hash that will make for a valid block. At the current difficulty of 30,977,051,760,460 — 1 in every 13,315,579,227,696,403,823,071,581 SHA256 hash will be a valid block. Valid means below a certain target.
 
-Сложность биткоин-майнинга показывает, насколько сложно найти хэш, который обеспечит попадание блока в цепочку. При текущей сложности 30,977,051,760,460 1 из каждых 13,315,579,227,696,403,823,071,581 хэшей SHA256 будет генерировать действительный блок. Действительный блок – это тот блок, хэш которого ниже определенной цели.
+Mining is a random and unpredictable process. Even more so miners can leave and join the network at any time. Both factors can influence how fast blocks come. The difficulty regulates the speed at which new blocks are added on to the blockchain.
 
-Майнинг – это случайный и непредсказуемый процесс. Более того, майнеры могут присоединяться к сети и покидать ее в любое время. Оба эти фактора могут влиять на скорость появления блоков. Сложность регулирует скорость добавления новых блоков в блокчейн.
+The adjustment:
 
-Корректировка сложности достигает следующих целей:
+1. Maintains a consistent issuance of new bitcoins.
+2. Ensures further that the incentives of the miners are aligned with the users and keep them honest.
 
-1. Поддерживает постоянство эмиссии новых биткоинов.
-2. Обеспечивает дальнейшее согласование стимулов майнеров с пользователями и честность первых.
+Point #2 explained further:
 
-Давайте чуть подробнее остановимся на втором пункте:
+Miners hash all the block data with a random nonce until they find a block hash that is smaller than a certain Target. There is a direct relation between Target and Difficulty. The smaller the target, the harder it is to mine.
 
-Майнеры хэшируют все данные блока вместе с нонсом (случайным числом) до тех пор, пока не найдут хэш блока, который меньше определенной цели. Существует прямая зависимость между целью и сложностью: чем меньше цель, тем сложнее майнить.
+{{% image "/img/diff-936-en.jpeg" /%}}
 
-{{% image "/img/diff-936.jpg" /%}}
-
-{{% image "/img/148.png" %}}
-_Подробнее о биткоин-майнинге можно узнать из одноименной [главы](/izobretaem-bitkoin/glava-4) книги Яна Прицкера “Изобретаем Биткоин”._
-{{% /image %}}
-
-Значение целевого числа хранится в блоке в поле Bits в сжатом формате. Тот факт, что само значение целевого числа хэшируется с остальными данными блока, делает сложность защищенной от подделки. Сложность обычно представляется в десятичном формате.
+The Target number is stored in a block in the field Bits in a compressed format. The fact that the Target itself is hashed with the rest of the block data makes the difficulty forgery-proof. The Difficulty is usually presented in decimal format.
 
 {{% image "/img/diff-937.png" /%}}
 
-Целевое число = Максимальная цель / Сложность
+Target = Max Target / Difficulty
 
-Максимальная цель – это цель при сложности равной 1 (минимально возможной сложности). Это значение было выбрано Сатоши. И Максимальная цель, и сложность = 1 были закодированы им в [генезис-блоке](https://mempool.space/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f):
+Max Target: the target, if difficulty is 1 (lowest possible difficulty). This value was picked by Satoshi. Both Max Target and Difficulty 1 were hardcoded in the genesis block by him.
 
 {{% image "/img/diff-938.png" /%}}
 
-Сложность, равная 420 означает, что потребуется на 420 попыток больше (в среднем), чтобы найти подходящий хэш, чем при самой простой сложности 1. Как уже упоминалось, генезис-блок был намайнен при сложности 1. С тех пор каждые 2016 блоков сложность пересчитывается.
+A difficulty of 420, means that it will take 420 more tries(on average) to find a valid hash than with the easiest difficulty of 1. As mentioned The Genesis Block started with difficulty 1. Ever since every 2016 blocks, the Difficulty is recalculated.
 
-Когда блок добывается, майнер также должен добавить к нему временнýю метку. Эта временнáя метка каждый раз используется для пересчета сложности. Мы стремимся к тому, чтобы новый блок находился каждые 10 минут, поэтому после 2016 блоков мы проверяем, сколько времени в среднем проходило между появлением блоков.
+When a block is mined, the miner also needs to add a timestamp to the block. This Timestamp is used to recalculate the difficulty each time. We want a new block to be found ~10 minutes, so after 2016 blocks we check what was the time between blocks.
 
 {{% image "/img/diff-939.png" /%}}
 
-Ожидаемое время: 2016 блоков x 10 минут = 20,160 минут.
+Expected time: 2016 blocks x 10 minutes = 20,160 minutes.
 
-Если блоки генерировались быстрее, допустим, каждые 8 минут, то мы получим 2016 x 8 = 16,128, то 20,160 / 16,128 = 1.25.
+If the blocks were generated faster, let's say 8 minutes, then we get 2016 x 8 = 16,128. 20160 / 16128 = 1.25.
 
-Новая сложность = 1.25 × Старая сложность
+New Difficulty = 1.25 * Old Difficulty
 
-Хэшрейт **не** известен. Мы лишь знаем, насколько быстро генерируются блоки и используем временные метки в блоках, чтобы оценить хэшрейт сети. Это нельзя назвать точной наукой.
+The hashrate is NOT known! We just know how fast blocks are generated. We use the timestamps in blocks to estimate how much hash rate is working on the network. This is not really an exact science.
 
-Но и сами временные метки не являются точной наукой.
+But the timestamps themselves are not exact science.
 
 {{% image "/img/diff-940.png" /%}}
 
-Как уже говорилось, нам нужен некий эталон времени, чтобы убедиться, что мы корректируем сеть таким образом, что блок будет находиться каждые 10 минут. Когда блок добывается, майнер добавляет время внутрь блока. Но что если его часы сбились или он лжет?
+As mentioned we need some reference of time in order to make sure we adjust for a block to come every 10 minutes. When a block is mined the miner adds the time inside. But what if he has the wrong time or he is lying?
 
-{{% image "/img/001.jpeg" %}}
-_Подробнее о том, как Биткоин узнает который сейчас час – в статье ["Биткоин – это время"](/21-sposob/glava-2-bitcoin-eto-vremya)._
-{{% /image %}}
+> Why would miners lie?
+>
+> To get more coins!
 
-— Зачем майнерам врать? Чтобы получить больше монет!
+It is in the miner's interest to say that blocks took longer to produce. This will have the effect of lowering the next difficulty.
 
-Позвольте пояснить:
+Lower difficulty -> easier to mine coins.
 
-В интересах майнера говорить, что на производство блоков ушло больше времени. Это приведет к понижению сложности при следующей корректировке.
+To mitigate this attack Bitcoin has 3 rules:
 
-Более низкая сложность → легче добывать монеты.
+1. MedianPast Time Rule - a node will NOT accept a block unless it has a timestamp greater than the median of the previous 11 blocks.
 
-Для смягчения негативных эффектов этой атаки у Биткоина есть 3 правила:
-
-1. Правило MedianPast Time – узел **не** примет блок, если его временнáя метка не превышает медиану предыдущих 11 блоков.
-
-Это правило консенсуса.
-
-Если оно не выполняется, блоки отклоняются.
+This is a consensus rule. If not satisfied, blocks are rejected.
 
 [https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L259](https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L259)
 
-1. Правило времени будущего блока – временнáя метка **не** может превышать 2 часа относительно медианного времени, предоставленного пирами узла.
+2. Future Block Time Rule - The time stamp can NOT be more than 2 hours relative to the median time from the node’s peers.
 
-Здесь используется MAX_FUTURE_BLOCK_TIME.
+MAX_FUTURE_BLOCK_TIME - is used.
 
-Это правило политики.
-
-Блоки из будущего могут стать действительными в будущем.
+This is a policy rule. Blocks from the future can become valid in the future.
 
 [https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L22](https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L22)
 
-1. Максимально допустимый разрыв между временем, предоставляемым узлами, и локальными системными часами составляет 90 минут.
+3. The maximum allowed gap between the time provided by the nodes and the local system clock is 90 minutes.
 
-Это правило локального клиента.
+This is a local client rule.
 
 [https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L38n](https://github.com/bitcoin/bitcoin/blob/4daadce36cfe9baa63c4d7d70de027add03a00df/src/chain.h#L38n)
 
-1. Первое правило гарантирует, что блокчейн продвигается вперед.
-2. Второе правило гарантирует, что цепочка не продвинется слишком далеко.
-3. Третье правило является дополнительной защитой.
+- Rule 1 ensures that the blockchain advances forward.
+- Rule 2 ensures that the chain does not move too forward.
+- Rule 3 is an extra safeguard.
 
-Самое главное, эти правила говорят нам о том, что управлять временем в Биткоине очень сложно и не всегда можно добиться точных результатов.
+Most importantly these rules tell us that managing time in Bitcoin is very hard and imprecise.
 
-Несмотря на то, что сложность корректируется каждые 2016 блоков, она учитывает только 2015 блоков.
+Even though the difficulty adjusts every 2016 blocks, it only takes into account 2015 blocks.
 
-Причиной тому ошибка “off-by-1”, [допущенная](https://sourceforge.net/p/bitcoin/code/1/tree//trunk/main.cpp#l689) Сатоши.
+This is because Satoshi introduced a off-by-1 [bug](https://sourceforge.net/p/bitcoin/code/1/tree//trunk/main.cpp#l689). This is still present in the code today, as fixing it could result in a hard-fork.
 
 {{% image "/img/diff-941.png" /%}}
 
-Она все еще присутствует в коде сегодня, так как ее исправление может привести к хард-форку. Вместо того чтобы проверять, сколько времени прошло между последними блоками каждого периода в 2016 блоков, код сравнивает время между 1-м и 2016-м блоком каждого периода. Как следствие, целевое время добычи блока на самом деле составляет не 10 минут, а 10.005 минут. Эти 0.03 секунды не играют большого значения, но ошибка приводит к появлению двух очень странных вещей.
+Instead of checking how much time has passed between the last blocks of each 2016 period, the code compares the time between the 1st and the 2016th block of each period. Between 2016 things there are 2015 gaps. As a consequence Blocks are NOT actually 10 minutes, but 10.005 minutes. The 0.03 seconds are not a big deal but bug allows for 2 very weird things to occur.
 
-Вы можете ожидать, что интервал корректировки будет равен двум неделям / 2015 блокам, но все еще более запутанно. Если хэшрейт биткоина абсолютно постоянен, а блоки имеют точные временные метки, сложность будет меняться раз в 2 недели, 20 минут и 1.191658 секунды.
+You may expect retargeting interval to be (2 weeks)/2015, but it is even weirder. If Bitcoin hashrate is perfectly constant, and blocks have exact timestamps the difficulty would adjust once every 2 w, 20 m, 1.191658s.
 
-Питер Вюлле высказывался на эту тему в [этом](https://nitter.it/pwuille/status/1098651788343955456#m) трэде.
+As [@pwuille](https://twitter.com/pwuille) points out:
 
-2-й эффект – это Атака Искажения Времени.
+{{< tweet user="pwuille" id="1098651788343955456" >}}
 
-Учитывая правила, упомянутые в выше:
+The 2nd effect is the Time Warp Attack.
 
-- Временная метка блока > медианы предыдущих 11 блоков
-- Временная метка блока < сейчас + некоторый буфер
+Given the rules mentioned above:
 
-В рамках этих правил майнер может солгать, что ему потребовалось больше времени на генерацию блоков.
+- Block Timestamp > median of prev 11 blocks
+- Block Timestamp < now + some buffer
+
+Within these rules, a miner could lie that it took longer to generate blocks.
 
 {{% image "/img/diff-942.png" /%}}
 
-Правило off-by-1 заставляет последний блок текущего периода не пересекаться с первым блоком нового периода. Атакующий может делать это бесконечно и довести сложность до 1. Однако такая атака будет очень заметна и потребует координации действий майнеров.
+The off-by-1 one makes the last block of the current period to not overlap with the 1st block of new period. An attacker could do this indefinitely and bring the difficulty to 1. However this attack would be very visible and would require miner coordination from miners.
 
-Помимо временных ограничений, сложность не может изменяться более чем в 4 раза. Это кажется довольно необычным ограничением, но оно служит важной цели.
+Besides the temporal restrictions, the difficulty can not change by more than a factor of 4 difficulty. This seems quite a peculiar restriction but it serves a good purpose.
 
 [https://github.com/bitcoin/bitcoin/blob/master/src/pow.cpp#L54](https://github.com/bitcoin/bitcoin/blob/master/src/pow.cpp#L54)
 
-Это правило дополнительно защищает от упомянутой атаки. Также можно изолировать узел от сети и отправлять ему блоки с ложными метками времени. Узел будет обманут, снизив свою сложность, и атакующему будет легче создавать ложные блоки.
+This rule further protects against the attack mentioned. Also it is possible to isolate a node from the network and send it blocks with false time stamps. The node would be tricked in lowering its difficulty and the attacker will be able to create false blocks easier.
 
 {{% image "/img/diff-943.png" /%}}
 
-Почему каждые 2016 блоков?
+Why 2016 blocks?
 
-2 недели / 10 минут = 2016
+2 weeks / 10 minutes = 2016
 
-Почему не меньше 2016?
+Why not less than 2016?
 
-Это позволило бы проводить аналогичные изолирующие атаки, как объяснялось выше. Атакующий может изолировать узел и посылать ему блоки с меньшей сложностью. Чтобы увенчаться успехом, любые подобные атаки должны продолжаться в течение 2 недель.
+It would allow for similar isolating attacks as explained above. An attacker can isolate a node, and send it blocks with lower difficulty. Any similar attacks, to succeed needs to keep up for 2 weeks.
 
-Чтобы дать вам представление о том, насколько высока сложность биткоин-майнинга сегодня, обратимся к следующему примеру:
+To give you an idea of how difficult current times are.
 
-Мой компьютер Apple M1 Max работает со скоростью 5,8 Мегахэшей в секунду. Мне потребуется 727 миллионов лет, чтобы найти блок при нынешней сложности. Theymos в 2010 году [сгенерировал](https://bitcointalk.org/index.php?topic=43.msg371#msg371) 5 блоков на процессоре Pentium (в 1000 раз медленнее сегодняшних моделей) за один день.
+My Apple M1 Max computer does 5.8Mhashes/s. It would take me 727 million years to find a block at the current difficulty. Thymos in 2010 "generated 5 blocks" on a Pentium processor (1000 times slower than mine).
 
-Напоследок я хочу поделиться с вами этим постом в  bitcointalk от 2010 года, сделанным Сатоши, когда увеличение сложности с 1 до 1.82 было довольно серьезным достижением:
+Having a Difficulty Adjustment and even more adding these restrictions in order to eliminate these attacks was visionary. Never mind the fact we never had something like this before. IF anything this shows us how untrustworthy/ineffective Bitcoin at time management.
+
+Maybe why timechain was replaced with blockchain As we can see from this comment in the Bitcoin Client released by Satoshi, was hoping add NTP. NTP - is a networking protocol for clock synchronization between computer system This never happened.
+
+https://sourceforge.net/p/bitcoin/code/1/tree//trunk/net.h#l491
+
+Finally, I want to leave you with this Bitcointalk post from 2010 made by satoshi, when a 1.34x increase in difficulty from 1 to 1.82 was quite a braggadocious achievement.
 
 {{% image "/img/diff-944.png" %}}
 _[https://bitcointalk.org/index.php?topic=43.0](https://bitcointalk.org/index.php?topic=43.0)_

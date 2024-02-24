@@ -5,19 +5,20 @@ url: protocol
 weight: 4
 ---
 
-Подраздел, посвященный основам функционирования протокола Биткоин.
+A subsection on the basics about the functioning of the Bitcoin protocol.
 
-1. [Кто контролирует Bitcoin Core?](/kto-kontroliruet-bitkoin-kor)
-2. [Вечная борьба Биткоина](/vechnaja-borba)
-3. [Об удобстве взаимодействия с Биткоином](/ob-udobstve-vzaimodejstvija-s-bitcoinom)
+1. [Who Controls Bitcoin Core?](/en/who-controls-bitcoin-core)
+2. [Bitcoin's Eternal Struggle](/en/bitcoins-eternal-struggle)
+3. [On Bitcoin’s UX](/en/on-bitcoins-ux)
 4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
-5. [Управление Биткоином](/upravlenie-bitcoin)
-6. [Доверенные третьи стороны — это бреши в системе безопасности](/doverennye-tretyi-storony)
-7. [21 миллион не подлежит обсуждению](/21-million-ne-podlezhit-obsuzhdeniyu)
-8. [Proof of Work: доказательство проделанной работы](/proof-of-work)
-9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
-10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
-11. [Что такое Taproot и какую пользу он принесет Биткоину?](/taproot)
-12. [Бомбы сложности Ethereum как принудительный механизм](/bomby-slozhnosti-ethereum)
-13. [Разбирая протокол RGB](/rgb)
-14. [О корректировке сложности биткоин-майнинга](/difficulty)
+5. [Bitcoin Governance](/en/bitcoin-governance)
+6. [Trusted Third Parties are Security Holes](/en/trusted-third-parties)
+7. [21 Million is Non-Negotiable](/en/21-million-is-non-negotiable)
+8. [Proof of Work, a pictorial essay](/en/proof-of-work)
+9. [Proof of stake is a scam and the people promoting it are scammers](/en/proof-of-stake-is-a-scam)
+10. [Was Satoshi a Greedy Miner?](/en/was-satoshi-a-greedy-miner)
+11. [What Is Taproot and How Does It Benefit Bitcoin?](/en/taproot)
+12. [The Coercion Of Ethereum's Difficulty Bomb](/en/coercion-of-ethereums-difficulty-bomb)
+13. [Understanding the RGB protocol](/en/rgb)
+14. [Bitcoin Difficulty Adjustment](/en/difficulty)
+15. [Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more](/en/bitcoin-address-types)

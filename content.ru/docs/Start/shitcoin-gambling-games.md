@@ -13,7 +13,7 @@ weight: 5
 Всем новичкам, которые считают, что целый биткоин стоит слишком дорого и лучше купить какой-нибудь щиткоин, посвящается.
 
 {{< hint btc>}}
-Перевод [статьи](https://www.citadel21.com/dont-play-shitcoin-gambling-games?ref=21ideas.org) Стефана Ливеры подготовлен [Raptor](https://snort.social/p/npub1kenh4ng392s0xnsu8t2x65xycaldcpe4lcjml0z00h8qkyul0c2sgjjvcq?ref=21ideas.org). Редактура [Тони⚡](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7?ref=21ideas.org)️. 
+Перевод [статьи](https://www.citadel21.com/dont-play-shitcoin-gambling-games) Стефана Ливеры подготовлен [Raptor](https://snort.social/p/npub1kenh4ng392s0xnsu8t2x65xycaldcpe4lcjml0z00h8qkyul0c2sgjjvcq). Редактура [Тони⚡](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)️. 
 
 [Поддержать проект](/contribute/)
 {{</hint >}}
