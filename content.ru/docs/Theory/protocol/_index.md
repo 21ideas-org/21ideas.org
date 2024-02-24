@@ -21,3 +21,4 @@ weight: 4
 12. [Бомбы сложности Ethereum как принудительный механизм](/bomby-slozhnosti-ethereum)
 13. [Разбирая протокол RGB](/rgb)
 14. [О корректировке сложности биткоин-майнинга](/difficulty)
+15. [Сравнение типов биткоин-адресов](/sravnenie-tipov-bitcoin-adresov)
