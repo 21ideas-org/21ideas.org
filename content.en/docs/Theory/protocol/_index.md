@@ -15,7 +15,7 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 6. [Trusted Third Parties are Security Holes](/en/trusted-third-parties)
 7. [21 Million is Non-Negotiable](/en/21-million-is-non-negotiable)
 8. [Proof of Work, a pictorial essay](/en/proof-of-work)
-9. [Proof of Stake – это скам](/proof-of-stake–eto-skam)
+9. [Proof of stake is a scam and the people promoting it are scammers](/en/proof-of-stake-is-a-scam)
 10. [Был ли Сатоши жадным майнером?](/byl-li-satoshi-zhadnym-majnerom)
 11. [Что такое Taproot и какую пользу он принесет Биткоину?](/taproot)
 12. [Бомбы сложности Ethereum как принудительный механизм](/bomby-slozhnosti-ethereum)
