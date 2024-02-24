@@ -20,5 +20,5 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 11. [What Is Taproot and How Does It Benefit Bitcoin?](/en/taproot)
 12. [The Coercion Of Ethereum's Difficulty Bomb](/en/coercion-of-ethereums-difficulty-bomb)
 13. [Understanding the RGB protocol](/en/rgb)
-14. [О корректировке сложности биткоин-майнинга](/difficulty)
+14. [Bitcoin Difficulty Adjustment](/en/difficulty)
 15. [Сравнение типов биткоин-адресов](/sravnenie-tipov-bitcoin-adresov)
