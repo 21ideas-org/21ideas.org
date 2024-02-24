@@ -17,7 +17,7 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 8. [Proof of Work, a pictorial essay](/en/proof-of-work)
 9. [Proof of stake is a scam and the people promoting it are scammers](/en/proof-of-stake-is-a-scam)
 10. [Was Satoshi a Greedy Miner?](/en/was-satoshi-a-greedy-miner)
-11. [Что такое Taproot и какую пользу он принесет Биткоину?](/taproot)
+11. [What Is Taproot and How Does It Benefit Bitcoin?](/en/taproot)
 12. [Бомбы сложности Ethereum как принудительный механизм](/bomby-slozhnosti-ethereum)
 13. [Разбирая протокол RGB](/rgb)
 14. [О корректировке сложности биткоин-майнинга](/difficulty)
