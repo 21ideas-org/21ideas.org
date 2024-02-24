@@ -26,7 +26,7 @@ This series tells the story of the crucial developments that took place before B
 
 ## Articles
 
-1. [Хэл Финни — жизнь и смерть легенды движения шифропанков](/en/hal-finney)
+1. [Hal Finney — The Life And Death Of A Cypherpunk Legend](/en/hal-finney)
 2. [Биткоин-Реформация](/en/bitcoin-reformation)
 
 

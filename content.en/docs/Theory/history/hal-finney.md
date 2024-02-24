@@ -1,138 +1,143 @@
 ---
-title: "Хэл Финни — жизнь и смерть легенды движения шифропанков"
-h1: "Хэл Финни — жизнь и смерть легенды движения шифропанков"
+title: "Hal Finney — The Life And Death Of A Cypherpunk Legend"
+h1: "Hal Finney — The Life And Death Of A Cypherpunk Legend"
 cover: /img/hal-247.png
-description: "Хотя Хэл широко известен своими новаторскими профессиональными достижениями в киберпространстве и технических кругах, его повседневная жизнь рисует гораздо более детальную картину о его яркой личности."
+description: ""
 url: hal-finney
-aliases: ['/theory-hyperbitcoinization-hal-finney-biography']
-date: 2020-04-30
+date: 2020-03-30
 bookFlatSection: false
 bookToc: true
 weight: 51
 ---
 
-Перед вами перевод эссе о Хэле Финни, подготовленного компанией криоконсервации _Alcor_. Это — новый взгляд на его личную жизнь, идеалы и вечный оптимизм даже перед лицом необратимой смерти.
+{{% hint btc %}}
+This article was published by [Dan Held](https://twitter.com/danheld) in [Twitter](https://twitter.com/danheld/status/1244655439024779265).
+
+[Contribute](/contribute/).
+{{% /hint %}}
+
+I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney. It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.
 
 {{% image "/img/hal-248.jpg" /%}}
 
-Хотя Хэл широко известен своими новаторскими профессиональными достижениями в киберпространстве и технических кругах, его повседневная жизнь рисует гораздо более детальную картину о его яркой личности. Он был преданным мужем, отцом и неравнодушным человеком с большим жизненным опытом, достигнувшим многого.
+Though widely known for his pioneering professional achievements across cyberspace and tech circles, Hal’s daily life paints a much more nuanced portrait. He was a devoted husband, father, accomplished Renaissance man.
 
-## Южная Калифорния, корни
+## SoCal Roots
 
-Гарольд Томас Финни родился весной 1956 г. в маленьком городке Коалинга, штат Калифорния. Отец Хэла долгое время был сотрудником _Union Oil of California_, в связи с чем его семья часто меняла место жительства. Как было принято во многих семьях в 50-х годах прошлого столетия, госпожа Финни поддерживала своего мужа и детей в качестве домохозяйки. К 1957 году они были семьей из пяти человек, причем Хэл был третьим ребенком. Они с братом были так похожи, что их часто принимали за близнецов ... Хэл восхищался его озорством и иногда следовал примеру брата, но, в конечном итоге, проявил индивидуальность, будучи более серьезным, преданным обучению и склонным к интеллектуальным головоломкам.
+Harold Thomas Finney was born in the spring of 56' in the small town of Coalinga, California. Hal’s father… was a long time employee of Union Oil of California… which supported the family’s relocation to a number of different places throughout his lifetime. As was traditional for many families in the 1950s, Mrs. Finney supported her husband and children as a full-time homemaker. By 1957, they were a family of five, with Hal being the third of four children. The [brothers] were born so close together that they were often mistake for twins… Hal admired his [brother’s] mischief and occasionally partook, but ultimately hewed his own identity through his more earnest personality, dedicated to school, and penchant for mental puzzles.
 
 {{% image "/img/hal-249.png" /%}}
 
-Он создавал аналоговые коды из букв и цифр, шифрующие, как выяснилось позже, такие безобидные материалы, как брошюры и буклеты. Таким образом, уже в начальной школе была заложена основа его будущей карьеры разработчика и защитника приватности. Компьютеры не были популярны в школах до 80-х годов, но старшей школе Хэла в Аркадии повезло иметь несколько самых ранних образцов. Администрация использовала перфокарты в сочетании с [Фортран](https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D1%82%D1%80%D0%B0%D0%BD) для цифрового хранения простых данных, таких как записи посещаемости учащихся. Каким-то образом, Хэл сообщил о своей заинтересованности администрации школы, и ему доверили помочь с некоторыми из расчетов. Одноклассники нередко замечали его, идущего по коридорам со стопкой жестких прямоугольных перфорированных карт в руках. Хэл окончил среднюю школу Аркадии в 1974 году с отличием, продемонстрировав отличные результаты выпускных экзаменов и получив место в престижном Калифорнийском технологическом институте.
+The roots of his later work as a developer and privacy advocate reached as far back as elementary school. He would create analog codes with letters and numbers for written materials found in something as innocuous as a paper booklet. Computers weren’t prevalent in schools until the 1980s, but Hal’s high school in Arcadia was lucky to have a few of the earliest versions. The administration used punch cards in combination with FORTRAN to digitally store simple data such as student attendance records. Somehow, Hal made his interest known to the school, and they entrusted him to help with some of their calculations. It wasn’t uncommon for his fellow classmates to see him walking the halls with a stack of stiff, rectangular, perforated cards in hand. Hal graduated from Arcadia High School in 1974 as valedictorian of his class with near perfect SAT scores and a spot at the prestigious California Institute of Technology.
 
-Будучи скромной и независимой личностью, он обладал острым умом и добился многочисленных достижений. Его влекло к неструктурированным и спонтанным приключениям. Одним из таких увлечений Хэла в подростковом возрасте стали  лыжи. Он катался как на более отдаленных курортах, таких, как Солт-Лейк-Сити, так и в близлежащих горах Сан-Габриэль. Хэл с удовольствием съезжал и по крутым склонам самых сложных трасс, и умело приземлялся в мягкие сугробы.
+His intelligence was obvious enough, but maybe less apparent, given these achievements and a subdued, independent personality, was his attraction to more unstructured and spontaneous adventure. As one such activity he came to excel in skiing during his teenage years to more distant resorts in places like Salt Lake City, to local snowpack in the nearby San Gabriel Mountains. Not only could he tackle the exceptionally steel slopes of the double black diamond trails, but his agile frame could land aerials in the powder as well.
 
 {{% image "/img/hal-250.jpg" /%}}
 
-## Узнаваемость в Калтехе
+## Standing out at Caltech
 
-Сначала он проявил интерес к математике, затем увлекся инженерным делом. Хэл довольствовался посещением всех доступных занятий по программированию, поскольку в то время не было соответствующей степени по компьютерному программированию, к которому он испытывал истинную страсть. “В Калтехе посещение некоторых гуманитарных предметов были обязательными, но Хэл частенько их избегал. Его вдохновляли новые идеи, концепции. Он учился “в свое удовольствие” — посещал занятия, которые ему нравились, и просто сдавал экзамены по тем, которые, казались ему пустой тратой времени”, — рассказывает его жена Фрэн.  
+He initially pursued his BS in math, eventually transitioning to engineering. At the time there, there was no corresponding degree for computer programming - his true passion - so he made do by taking all the programming classes that he could. “Humanities classes were required at Caltech but Hal tended to avoid them. ‘He was into ideas, concepts, learning for the pleasure of it. He attended the classes he enjoyed, and just took the exams for the ones he felt were a waste of his time.’ Says his wife, Fran.”
 
 {{% image "/img/hal-251.jpg" /%}}
 
-Фрэн и Хэл встретились менее, чем через месяц после поступления Хэла, во время так называемой “недели ротации” в кампусе. Верхом неуставных отношений, как и в любом учебном заведении, был период, когда старшекурсники доказывали собственное превосходство над первокурсниками. Когда Хэл впервые попался на глаза Фрэн, он был на высоте — в буквальном смысле слова. Будучи одаренной и окончив школу на год раньше, Фрэн уже тогда училась на старшем курсе. “Я увидела, как его поднимают и несут [старшекурсники]”, — вспоминает она. “В нем была определенная сила, которая казалась ей необычной для простого технаря. По воле судьбы мы оказались в одном общежитии и сразу подружились”.
+Fran and Hal met less than a month into Hal’s 1st semester, during the so-called “rotation week” on-campus. The closest that a... technical school could come to anything resembling hazing... was a string of days where upperclassmen would assert dominance over the freshmen. Hal was in the midst of it - quite literally - when he first caught Fran’s eye. A gifted mind herself, who graduated from high school a year early, Fran was already a junior at the time. “I saw him in the middle of being lifted and carried by [upperclassmen],” she recalls. "There was a certain toughness and strength to him that felt curiously atypical for the average Techer. As fate would have it, they needed up living in the same dorm, and instantly struck up a friendship."
 
-Хэл участвовал в 24-часовых эстафетах Калтеха, где команды бегунов на протяжении целых суток по очереди пробегали милю, передавая друг другу эстафету. Он также был активным участником импровизированных забегов с препятствиями, где студенты пробегали несколько миль по окрестностям, преодолевая импровизированную полосу препятствий из кустов, заборов и других естественных барьеров [ака паркур]. Активного участия в неформальных спортивных мероприятиях было недостаточно для зачета по физкультуре ... студенты должны были посещать занятия для прохождения полного курса. Без этого они не допускались до выпускного экзамена. Политика администрации касательно физкультуры была настолько не по душе Хэлу, что он не посещал занятия, будучи уверенным, что сможет обжаловать это решение. В конце концов, его апелляция была отклонена, и ему пришлось подчиниться этому требованию и записаться в Калтех на пятый год обучения.
+Hal ran in Caltech’s 24-hour relays, where teams of runners would take turns running a mile, handing off a baton between one runner and the next, for a full day. He was also an enthusiastic participant in the impromptu steeplechases... a handful of students would group together to run a few miles of neighborhood terrain, creating an improvised obstacle course with bushes, fences, and other common features of suburbia [aka Parkour]. Though Hal frequently participated in these more informal physical activities... they were not eligible for PE credit... students had to attend class in order to pass the course; they couldn’t ace a final exam in lieu of attendance as Hal so often did. So bothered was Hal by the PE policy, that he didn’t attend class, confident that he could appeal it with the administration. In the end however, his appeal was denied, and he had to enroll for a fifth year at Caltech in order to fulfill this lingering requirement.
 
-Хотя Хэл и мог показаться упрямцем на фоне произошедшей физкульт-саги,  он был скромным молодым человеком и убежденным либертарианцем-ценителем здравого смысла и свободы (за исключением нанесения вреда окружающим). Эти ценности сформировали стиль его отношений с другими студентами, привлекая внимание многих, а не только его будущей жены. “Всякий раз он собирал многочисленную аудиторию для участия во всевозможных философских дискуссиях, — вспоминает Фрэн о своих студенческих годах с Хэлом — и все его высказывания были настолько обдуманными и интересными. У него всегда были веские аргументы в поддержку сказанного ... Я восхищалась этим. Было действительно очевидно, что он умен ... Техно-сектор отличается особенными людьми. Хэл был одним из них.” Помимо вдумчивого подхода к дебатам и беседам среди когорт, Хэл также отличался упорством и вниманием. “Он, бесспорно, больше слушал, чем говорил”, — рассказывает Фрэн. “Но когда он говорил, слушать действительно стоило”.
+As much as the PE saga may have suggested a level of obstinacy about Hal, he was a humble person and confirmed Libertarian who valued a life of reason and freedom (barring harm to others). These values shaped many of his exchanges with other students, garnering the attention of many - not just his wife-to-be. “People would cluster around and get into all these philosophical discussions,” says Fran of their college days together, “and the things he said were just so thought-provoking, so interesting. He always had good arguments to back up anything that he was proposing… I admired that. It was really clear that he was bright...There are some people at Tech that stand out. Hal was one of them.” On top of his thoughtful approach to debate and conversation among cohorts, Hal also distinguished himself through his patient attentiveness. “He certainly spent more time listening in general than talking,” says Fran. “When he spoke, what he said was usually worth listening to.”
 
-После того, как Фрэн закончила учебу в 1976 году, их дружба переросла в роман, который продлился более 30 лет. В 1979 году, после пятого и последнего года обучения Хэла в Калтехе, они поженились в парке Сан-Диего, недалеко от дома Фрэн.
+After she graduated in 1976, their friendship developed into a romance that would last more than 30 years. In 1979, after Hal’s fifth and final year at Caltech, they wed in San Diego park near Fran’s family’s home.
 
 {{% image "/img/hal-252.png" /%}}
 
-## От студента к криптографу
+## From student to cryptographer
 
-Свою первую работу Хэл получил летом 1978 года в _APh_, небольшой инжиниринговой фирме, основанной за четыре года до этого. К тому времени у компании был хороший контракт с _Mattel_ на разработку их системы _Intellivision_. Во время своего пребывания в _APh_ Хэл работал над  играми _Intellivision_ “Space Battle” и “Star Strike”, а также над компьютерными системами _Atari_ (VCS), “Adventures of Tron”, “Astroblast” и “Space Attack”. Ссылаясь на несколько своих других проектов (кассовые аппараты, спектрометр Бауша и Ломба и ПО для управления спецэффектами камер), Хэл говорил: “Я никогда не считал себя разработчиком игр. Я был, скорее, разработчиком общего профиля, работающим на языке _Assembly_”. После _APh_, Хэл разрабатывал операционные системы с _Ametek_ в течение нескольких лет, пока в 1991 году они с семьей не переехали в Санта-Барбару, где он получил должность в _Greenhill Software_, разрабатывая генераторы и оптимизаторы кода.
+He landed his first job in the summer of 1978 with APh, a small engineering firm founded by classmates.. four years prior. By that time, the company was well into a notable contract with Mattel for the design of their Intellivision system. During his tenure with APh, Hal worked on Intellivison’s Space Battle and Star Strike, as well as the Atari Computer System’s (VCS), Adventures of Tron, Astroblast, and Space Attack to name just a few. Hal: “I never really thought of myself as primarily a games programmer. I was more of a general purpose Assembly language developer” alluding to a few of his other APh projects.. cash registers, A Bausch and Lomb spectrometer, and special effects camera control software. After APh, Hal developed operating systems with Ametek for a few years until he and his family relocated to Santa Barbara in 1991, where he worked for Greenhill Software developing compiler code generators and optimizers.
 
-## Семейная жизнь
+## Family Life
 
-“Хэл был очень хорошим отцом, — говорит Фрэн — он был очень благодарен и горд тем, что дети позволили ему быть таким”. Привитая доброжелательность детей позволила Хэлу приложить все усилия, чтобы должным образом их баловать.
+“Hal was a very easygoing father,” says Fran. “But he was very appreciative and proud of the fact that the kids allowed him to be that way.” Having instinctively well-meaning children freed Hal to make the most of his strengths to bring whimsy to their lives.
 
 {{% image "/img/hal-253.png" /%}}
 
-Например, он разработал программу, которая сопоставляла буквы с картинками (“К” — “Корова” и т. п.), чтобы помочь своему сыну Джейсону выучить алфавит и научиться читать. Тогда им позвонили из детского сада сына с жалобами на “подрывную природу родителей”, которые заблаговременно учат своих детей читать ... Благодаря знаниям, полученным из простой компьютерной игры, Джейсон научился читать газеты. Хэл приправлял семейные праздники собственными волшебными шоу — тентами с исчезающими призраками и фокусами с домино. Он также был астрономом-любителем, вместе со своей женой Фрэн они назвали своих детей и собак в честь небесных тел.
+For example, he designed a program that matched letters with pictures - “C” for “Cow” and so on - to help Jason learn the alphabet and sound out words. It was only when they received a disgruntled call from their son’s kindergarten complaining about the disruptive nature of parents teaching their children how to read ahead of time... Jason had applied the knowledge from the simple computer game to read the daily newspaper. He spiced up family gatherings with magic shows of his own design, awning generations with his disappearing ghost and guess-your-domino acts. Hal was also an amateur astronomer who, together with his wife, Fran, named their children and dogs after celestial bodies.
 
 {{% image "/img/hal-254.png" /%}}
 
-Излишне говорить, что Финны стали одними из первых представителей онлайн-сообщества. Когда в 1991 году Всемирная паутина стала общедоступной, они уже были подписаны на _Prodigy_ (второй по популярности интернет-провайдер после _CompuServe_), с которым они сотрудничали еще с 1990 года.
+Needless to say, the Finney’s were early adopters of all things online. When the World Wide Web became publicly available in 1991, they were already signed up with Prodigy (the second most popular online service provider, next to CompuServe), which they had engaged in 1990.
 
-## Шифропанки
+## Cypherpunks
 
-Примерно тогда же Хэл начал довольно активно общаться с шифропанками ... На его личном веб-сайте были размещены несколько статей на темы цифровой наличности, политики приватности, анонимных ремейлеров, которые он написал для публикации в электронной рассылке шифропанков. На самом деле, Хэл запустил первый, основанный на криптографии, анонимный ремейлер — сервер, который может получать и отправлять сообщения конкретному(ым) получателю(ям) с помощью встроенных инструкций, не изменяя их источнику. Пока Хэл зарабатывал репутацию в криптографических кругах, ветеран-программист Фил Циммерман обратился к нему с pro-bono просьбой. Таки образом, Хэл разработал ранние версии программы шифрования Циммермана под названием _Pretty Good Privacy_ (PGP). Изначально он проводил ночи за написанием кода бесплатно, так как был вдохновлен самой идеей:
+Around that time, Hal became quite active with the cypherpunks... His personal website included a few pieces that he wrote for publication on their electronic mailing list on the subjects of digital cash, the politics of privacy, anonymous remailers... In fact, Hal ran the first cryptographically-based anonymous remailer - a server that can receive and send messages to (a) particular recipient (s) through embedded instructions without betraying their source. While Hal was making a name for himself in cryptography circles at home, veteran software engineer, Phil Zimmerman, approached him about a pro-bono opportunity. Hal would develop early versions of Zimmerman’s encryption program, called Pretty Good Privacy (PGP). He initially spent his nights writing code for free since he believed in the cause:
 
-> “Программное обеспечение PGP используется борцами за свободу и журналистами во всем мире ... для обеспечения конфиденциальности своих записей в случае конфискации ноутбуков или перехвата электронной почты”  
->
-> — Майкл Голдстейн
+> “PGP software is used by freedom fighters and journalists all over the world...to keep their notes confidential if their laptops get confiscated or if their e-mail is eavesdropped"
 
-После окончания колледжа в 1991 году он и представить не мог, что PGP суждено было стать самым популярным в мире программным обеспечением для шифрования электронной почты. Навыки Хэла помогли Циммерману получить финансовую поддержку для коммерческой версии. Так, в 1996 году Циммерманом была основал _PGP Inc_, и Хэл получил там должность старшего инженера-программиста. Он оставался в компании, которая в результате ряда приобретений преобразовалась в “Network Associates, Inc.”, после в “PGP Corporation”, а затем в “Symantec”, пока не вышел на пенсию в начале 2011 года.
+Little did he know, it was destined to become the most popular email encryption software across the global following its 1991 release (receiving lifetime achievement award). Hal’s skills helped paved the way for Zimmerman to secure financial backing for a commercial version. In 1996, he founded PGP Inc, and Hal became its Senior Software Engineer. Hal stayed with the company, which became Network Associates, Inc., then PGP Corporation, and then Symantec through a series of acquisitions, until he retired in early 2011.
 
 {{% image "/img/hal-255.png" /%}}
 
-Все эти годы Хэл продолжал следовать своему интересу в области криптографии, разрабатывая первый алгоритм “Многоразового доказательства выполнения работы” в 2004 году. Данную разработку Хэл представил на конференции в Сан-Франциско в 2005 году, предварительно практикуя собственное выступление с Фрэн. “Здесь мы сталкиваемся с проблемами потери приватности, постепенной компьютеризации, огромных баз данных, роста централизации. Чаум предлагает совершенно другое направление, которое дает власть отдельным лицам, а не правительствам и корпорациям”, написал Финни в 1992 году — “Компьютер можно использовать как инструмент для освобождения и защиты людей, а не для их контроля”.
+In the interim, Hal continued to follow his curiosity through the realm of cryptography, developing the first reusable proof-of-work system in 2004. He presented it at a conference in San Francisco in 2005 after practicing his delivery with Fran in the days leading up to it. “Here we are faced with the problems of loss of privacy, creeping computerisation, massive databases, more centralisation and Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather than governments and corporations", Finney wrote in 1992. “The computer can be used as a tool to liberate and protect people, rather than to control them.” 
 
-## Биткоин
+## Introducing Bitcoin
 
-В начале 2009 года его сын Джейсон заметил, что процессор отца работает в полную силу 24/7. “Тогда отец упомянул, что помогал кому-то протестировать своего рода прототип онлайн-системы наличных денег. Вот как он к этому относился — для него это было лишь испытанием прототипа.“ Взгляд Хэла на эти первые несколько дней исследований обоснован его повышенным вниманием к процессу и деталям. В своем сообщении на Биткоин-форуме от 19 марта 2013 года он пишет: “Когда Сатоши объявил о первом выпуске программного обеспечения, я сразу за него ухватился. Я думаю, что я был первым пользователем Биткоина после Сатоши. Мы общались с Сатоши  по электронной почте, и когда он отправил мне 10 монет в качестве теста, я стал получателем первой биткоин-транзакции. Впоследствии я добыл блок 70+”
+In early 2009, Jason noticed his father’s computer processor running 24-7 at full speed. “He mentioned that he was helping someone test a kind of prototype online cash system. That was how he thought of it. It wasn’t real, it was a test for a prototype.” Hal’s perspective on those first few days is one of humbling attention to process and detail. In a Bitcoin Forum post on March 19, 2013, he writes: “When Satoshi announced the first release of the software, I grabbed it right away. “I think I was the first person besides Satoshi to run bitcoin. I mined block 70-something, and I was the recipient of the first bitcoin transaction, when Satoshi sent 10 coins to me as a test. I carried on an email conversation with Satoshi over the next few days”.
 
-“Сегодня подлинная личность Сатоши стала загадкой. Но в то время я думал, что имею дело с очень умным и искренним молодым человеком японского происхождения. Мне повезло, что я узнал много замечательных людей на протяжении всей моей жизни, поэтому я внимаю к знакам судьбы”... “Несколько дней спустя Биткоин работал довольно стабильно, и я оставил его в покое. Это были дни, когда сложность равнялась единице, и найти блоки можно было при помощи процессора, даже не используя GPU. В течение следующих дней я добыл несколько блоков, но я решил отключиться от сети, потому что мой настольный ПК (IBM) перегревался, и меня беспокоил шум вентилятора. Оглядываясь назад, я сожалею, что не продолжал в том же духе, но с другой стороны, мне чрезвычайно повезло, что я оказался у самых истоков. Это и есть один из тех примеров наполовину полного и наполовину пустого стакана".
+“Today, Satoshi’s true identity has become a mystery. But at the time, I thought I was dealing with a young man of Japanese ancestry who was very smart and sincere. I’ve had the good fortune to know many brilliant people over the course of my life, so I recognize the signs.” ... “After a few days, bitcoin was running pretty stably, so I left it running. Those were the days when difficulty was 1, and you could find blocks with a CPU, not even a GPU. I mined several blocks over the next days. But I turned it off because it made my (IBM desktop PC) run hot, and the fan noise bothered me. In retrospect, I wish I had kept it up longer, but on the other hand I was extraordinarily lucky to be there at the beg. It’s one of those glass half full half empty things"
 
-Учитывая описание, указанное выше, логично, что Хэл был удивлен успехом Биткоина. Джейсон вспоминает: “[Мой отец] был отчасти шокирован, когда выяснилось, что Биткоин оказался действительно ценным”. Фрэн подтверждает, объясняя это следующим образом: “Я думаю, что это была, своего рода, точка зрения Хэла: 'Это здорово. Это веселая игра. Смотри! Это на самом деле работает! Некоторые из моих идей могут когда-нибудь стать полезными”. Как только Биткоин взлетел ... Волнение Хэла вдохновило его на так называемое Биткоин-Рождество ... [он нашел] биткоин-ритейлеров, чтобы подарить что-нибудь каждому из членов своей семьи. Для Фрэн он нашел шерстяные носки альпаки, которые навсегда будут известны в их доме как ее “биткоин-носки”.
+Given his tame description from above, it makes sense that Hal was surprised by the success of Bitcoin. Jason recalls, “[My father] was kind of shocked later when it turned out that Bitcoin actually started to have value.” His mother agrees, explaining that, “I think it was kind of Hal’s perspective as well. ‘This is cool. This is a fun game. Look! This is actually working! Some of my ideas might be useful someday.’” Once Bitcoin took off...Hal’s excitement inspired a Bitcoin Christmas of sorts... [he found] bitcoin retailers to gift something to each of his family members. For Fran, he found an Alpaca wool socks that would forever be known in their house as her “bitcoin socks.”
+
+## A difficult diagnosis
+
+Before they even had kids, Fran and Hal began running 5k road races together for fun… Around 2008, to ward off the effects of aging, Hal began to push towards half-marathons, and eventually marathons.
 
 {{% image "/img/hal-256.png" /%}}
 
-## Роковой диагноз
-
-Фрэн и Хэл начали практиковать забеги на 5 км еще до появления детей. В 2008 году, будучи ярым приверженцем здорового образа жизни, Хэл начал стал участвовать в полумарафонах и, в конечном итоге, в марафонах. Он следил за Бостонским марафоном 2010 года, но для участия в нем нужно было пройти отборочный марафон в 13 миль в Лос-Анджелесе весной 2009 года ... но Хэлу пришлось сойти с дистанции из-за сильной судороги ... [что] было странно, учитывая его подготовку. Подобный эпизод произошел вскоре после этого и при езде на велосипеде. Хэл был отличным велосипедистом, имеющим даже некоторый опыт в триатлоне. В какой-то момент он и Фрэн решили отпраздновать свою годовщину, преодолев на велосипедах расстояние, равное количеству их лет были в браке. Когда их дети были достаточно взрослыми, чтобы оставаться дома одни, Хэл и Фрэн даже изменили свою брачную традицию. Они начали свою вело-поездку в знаменитой гостинице Мадонны в Сан-Луис-Обиспо, где переночевали в любимой комнате Хэла — комнате пещерного человека.
+He had his eye on the 2010 Boston Marathon but needed to run a qualifying marathon in order to enter, so in late 2008 he signed up for the spring 2009 LA Marathon… around mile 13... he cramped up badly and had to quit..[which] was strange given Hal’s training and preparation. A similar episode occurred in cycling not too long after. Hal was a strong cyclist, who even had some triathlon experience. At one point, he and Fran decided to celebrate their anniversary by bicycling the equivalent of their married years in miles. When their kids were old enough to stay home alone, they even expanded their nuptial tradition by launching their ride from the famous Madonna Inn in San Luis Obispo, where they’d overnight in Hal’s favorite room - the Caveman Room.
 
 {{% image "/img/hal-257.png" /%}}
 
-В июле 2009 года, спустя 30 лет после бракосочетания в Сан-Диего, Хэл был утомлен поездкой прежде, чем они достигли пункта назначения. “Мы должны были проехать 30 миль, — говорит Фрэн — Раньше это не составляло труда, но на сей раз он не выдержал такой нагрузки …” Через неделю он получил свой официальный диагноз.
+In July 2009, 30 years after they tied the knot back in San Diego, he fatigued before they hit the mark on their ride. “We should’ve been able to do the 30 miles,” says Fran. “It should’ve been really easy, but he couldn’t do it… One week later he got his official diagnosis.
 
-БАС (Боковой амиотрофический склероз) — это прогрессирующее дегенеративное заболевание, при котором отмирают нейроны, контролирующие произвольные мышцы (мышцы, которые обычно прикрепляются к скелету). По мере развития болезни нарушаются такие функции организма, как речь, еда, движение и, в конечном итоге, дыхание. Безусловно, такой диагноз, как БАС может вызвать беспокойство, депрессию или апатию. Хэла парализовало, он не мог самостоятельно принимать пищу и даже дышать, а также был вынужден пользоваться синтезатором речи и сенсорами отслеживания взгляда для общения. Тем не менее, когда он поделился своим диагнозом на Биткоин-форуме, он все же проявил огромную стойкость, признательность и изобретательность. “Даже с БАС моя жизнь меня радует”, писал он…
+ALS is a progressive degenerative disease that causes the neurons controlling voluntary muscles - muscles that are usually attached to the skeleton - to die. As the disease advanced, actions like speaking, eating, moving, and eventually breathing, become increasingly impaired. An ALS diagnosis is far from desirable news that can understandably cause unrest, depression, or indifferences. Hal became paralyzed, dependent on tubes for feeding and breathing assistance, and using a speech synthesizer and commercial eye tracker system to communicate. Yet, when he shared his diagnosis as part of the aforementioned post in a Bitcoin Forum, he still sowed immense resilience, gratitude, and inventiveness. “Even with the ALS, my life is very satisfying,” he wrote…
 
 {{% image "/img/hal-258.png" /%}}
 
-... Подтверждением слов Хэла послужили созданный им интерфейс, позволяющий взглядом контролировать положение инвалидного кресла и проект по улучшению безопасности биткоин-кошельков. Несмотря на вынужденную медлительность, Хэл добавил: “... я все еще люблю программирование, оно помогает мне ставить новые цели”.
+... after noting the interface that he created to help control his wheelchair position with his eyes, and the project he was tackling to harden Bitcoin wallets. Despite his admittedly slower pace, he added “... I still love programming and it gives me goals.”
 
 {{% image "/img/hal-259.png" /%}}
 
-Во время своей последней поездки на лыжах Хэл размышлял: “Это в какой-то мере хорошо, когда ты осознаешь неизбежность ... ты мысленно прощаешься, наслаждаясь этим. Тебе становится немного легче … Ты думаешь о том, что не сможешь больше ходить, не сможешь бегать… да, я скучаю по этому, но, на самом деле, благодаря инвалидной коляске я могу довольно неплохо передвигаться, — говорил Хэл — Фрэн берет меня с собой на пробежки.”
+On his last ski trip Hal reflected: “It’s kind of nice in a way that you know it, you mentally say goodbye as you enjoy it. So that makes it a little easier.” ... “You think about not being able to walk, not being able to run ... yeah, I miss that, but really with the wheelchair I can get around pretty well,” he said. “Fran takes me out on the runs, too ..."
 
 {{% image "/img/hal-260.png" /%}}
 
-До самого конца он продолжал работать и передвигаться по дому в своей моторизованной инвалидной коляске или добирался на автобусе до UCSB, где продолжал проводить свои исследования.
+“Until the end he continued to work and get around the house — or take the bus to do research at UCSB — in his motorized wheelchair.”
 
-## Крионика в долгосрочной перспективе
+## Cryonics in the long term
 
-Будучи атеистом еще с юности, Хэл прочитал основополагающую книгу Роберта Эттингера “Перспектива бессмертия” и начал изучать крионику в первый год обучения в колледже. “Он не боялся смерти” — делится своими воспоминаниями Фрэн. Они идеально дополняли друг друга в этом плане, поскольку смерть возглавляла список ее страхов. “Когда я встретила Хэла, я даже не хотела думать о смерти. Я была в ужасе от одной только мысли об этом”.
+A long-time atheist, Hal had already read Robert Ettinger’s seminal book “The Prospect of Immortality,” and started following cryonics by his freshman year of college. “He was not afraid of death,” Fran recalls from their early conversations about it. They were a perfect complement in this regard, as death topped her own personal fear list. “At the point where I met Hal, I didn’t even want to think about death. I was terrified of death.”
 
-Через несколько лет после свадьбы именно Хэл убедил ее рассмотреть крионику в долгосрочной перспективе. У них была уйма времени, чтобы оценить достижения, которые могут произойти за годы до их собственной криоконсервации. Таким образом, пара приняла официальное решение. 15 октября 1992 года, на тринадцатом году их брака, они выехали из своего нового дома в Санта-Барбаре в Риверсайд, где находилась организация _Alcor_, чтобы подписать документы о членстве.  Двадцать лет спустя стало ясно, что их решение, принятое в октябре 92-го превзошло их ожидания. Болезнь Хэла быстро распространялась, и начала поражать его мозг. “Это — не классическая разновидность деменции, — говорит Фрэн — но мозг страдает. Хэл чувствовал, что это влияет на его способность быстро мыслить и производить расчеты. Он чувствовал, что теряет хватку ... но что это — еще не конец”.
+Years into their marriage, it was Hal who convinced her to consider cryonics more in terms of its longer-term potentiality, to consider the advances that might come in the years prior to their own cryopreservations. From there, the couple made their decision official. On October 15th, 1992, in their thirteenth year of marriage, they drove out from their new home in Santa Barbara to the organization’s then-location in Riverside to sign the final membership paperwork. Twenty years later, their decision that October day became more meaningful than they had anticipated. Hal’s ALS had rapidly progressed, affecting not just his body, but mind as well. “It’s not a normal kind of dementia,” says Fran, “but the brain is involved. Hal felt that it was affecting his ability to do his fast thinking, to do his mental math. He felt like he was losing that, and he would lose more.”
 
-Пара решила, что, как только он больше не сможет общаться с друзьями и семьей, даже при помощи многочисленных технических средств, это послужит сигналом для осуществления процедуры. Они планировали осуществить это в Скоттсдейле, где перед быстрой криоконсервацией будет прекращена поддержка жизненно важных функций, и его тело прекратит функционировать “самостоятельно”. Это произошло 26 августа 2014 года. Два дня спустя он стал 128-м пациентом _Alcor_.
+The couple decided that when he could no longer communicate with friends and family, even with his many technological aids, that this would be his moment of transition they would fly to Scottsdale, support of vital functions would end, and his body would be allowed [to] cease function independently before a swift cryopreservation. That time arrived on August 26, 2014. Two days later, he became Alcor’s 128th patient.
 
-## Оптимистичный футурист
+## An Optimistic Futurist
 
-По словам многих друзей и родственников Хэла, он был очень оптимистичным футуристом и искренним сторонником перемен. Это — очередная причина, по которой крионика была для него такой привлекательной. Ему были интересны многие технологические возможности будущего, такие как нанотехнологии, сингулярность, искусственный интеллект и загрузка сознания.
+As many of Hal’s friends and family can attest, he was very optimistic futurist, who wholeheartedly supported change - yet another reason why cryonics held such appeal. He was excited by many technological potentialites of the future, like nanotechnology, the Singularity, Artificial Intelligence, and mind uploading.  In Fran’s own words:
 
-## По словам Фрэн:
-
-“Я знаю, что Хэл хотел быть рядом. Он хотел прочуствовать будущее. Он с нетерпением ожидал перемен ... Казалось, что каждое нововведение делало его счастливым. Каждое нововведение было отличной новостью! Он принимал каждое из них, и всегда с нетерпением ждал следующих.”
+> “I know Hal wanted to be around. He wanted to experience the future. He was very excited about change... It seemed like he was happier with each and every change. Each change was great! He embraced it, and he was always looking forward to more."
 
 {{% image "/img/hal-261.png" /%}}
 
-Финни постепенно потерял способность к написанию кодов. И все же он до конца был уверен, что ему выпадет еще один шанс. “Я думаю, что это во многом послужило причиной его интереса к крионике. Он просто хотел иметь возможность увидеть, каким станет мир в будущем, ведь это будет так удивительно”, вспоминала Фрэн.
+Coding slowly ceased to be an option for Finney. Yet he kept his belief, to the end, that there would still be another chance.
 
-По словам Фрэн, он не верил в Бога, _он верил в будущее_.
+> "I think that was a lot of his motivation for getting involved with cryonics in the first place. He just wanted to be able to see what the world turned into, because it was going to be such an amazing, wondrous place.” - Fran
+
+As Fran puts it so succinctly, 'He did not believe in God. he believed in the future.'"
+
+And in this moment when Coronavirus is wrecking havoc on our economies, bodies, and society, let's look to Hal and tap into his eternal source of optimism for the future.
 
 {{% image "/img/hal-262.png" /%}}
 
 ---
 
-_Оригинальный твит-шторм:_
-
-{{< tweet user="danheld" id="1244655439024779265" >}}
+Please help the fight against ALS by donating to [this website](https://didyouknowcrypto.com/hal/) run by [@bitcoin4als](https://twitter.com/bitcoin4als) (permission given by [@franfinney](https://twitter.com/franfinney))
