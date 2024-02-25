@@ -6,22 +6,26 @@ url: philosophy
 weight: 6
 ---
 
-Подраздел, посвященный философским аспектам, указывающим на превосходство Биткоина над традиционной финансовой системой и альтернативными криптовалютами.
+A subsection on philosophical aspects pointing to Bitcoin's dominance over the traditional financial system and alternative cryptocurrencies.
 
-## Cерии статей
+## Series  
 
-{{< expand "Чему я научился у Биткоина?" "..." >}}
-## Серия статей Dergigi "Чему я научился у Биткоина?"
-В этой серии автор пытается сгруппировать уроки Биткоина по 3 фундаментальным темам. В первой части этой серии обсуждаются некоторые философские вопросы, затрагиваемые Биткоином. Во второй части более подробно рассматриваются деньги и экономика. В третьей части Биткоин оценивается через призму технологий. 
+{{< expand "What I've Learned From Bitcoin" "..." >}}
 
-1. [Часть1. Философские уроки Биткоина](/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina)
+## Series of articles by Gigi
+
+"What I've Learned From Bitcoin" - is the author's attempt to group Bitcoin lessons into 3 fundamental themes. The first part of this series discusses some of the philosophical concerns raised by Bitcoin. Part 2 takes a more in-depth look at money and economics. Part 3 evaluates Bitcoin through the lens of technology. 
+
+1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
+2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
+3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
 {{< /expand >}}
 
-## Статьи
+## Articles
 
-1. [Биткоин, не щиткоин](/ne-shitcoin)
-2. [Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина](/neotemlemye-prava-sobstvennosti)
+1. [Why Bitcoin, Not Shitcoin](/en/not-shitcoin)
+2. [Inalienable Property Rights. The Law, Language, Money, and Morality of Bitcoin](/en/inalienable-property-rights)
 3. [Манифест криптоанархиста](/manifest-kriptoanarhista)
 4. [Манифест шифропанка](/manifest-shifropanka)
 5. [Биткоин — современная голландская тюльпанная лихорадка?](/tyulpannaya-lihoradka)
