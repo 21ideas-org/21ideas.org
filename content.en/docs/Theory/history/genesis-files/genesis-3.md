@@ -3,7 +3,7 @@ title: "Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It"
 h1: "The Genesis Files. Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It"
 cover: /img/gf-241.jpeg
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
-description: "&quot;Efficient cooperation requires a medium of exchange (money) and a way to enforce contracts,&quot; Dai explained when he introduced b-money in November of 1998."
+description: "“Efficient cooperation requires a medium of exchange (money) and a way to enforce contracts,” Dai explained when he introduced b-money in November of 1998."
 url: gf/genesis-3
 date: 2018-06-14
 bookFlatSection: false

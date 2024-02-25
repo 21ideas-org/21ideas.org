@@ -24,7 +24,7 @@ A subsection on philosophical aspects pointing to Bitcoin's dominance over the t
 
 ## Articles
 
-1. [Биткоин, не щиткоин](/ne-shitcoin)
+1. [Why Bitcoin, Not Shitcoin](/en/not-shitcoin)
 2. [Неотъемлемые права собственности. Закон, язык, деньги и мораль Биткоина](/neotemlemye-prava-sobstvennosti)
 3. [Манифест криптоанархиста](/manifest-kriptoanarhista)
 4. [Манифест шифропанка](/manifest-shifropanka)
