@@ -32,7 +32,7 @@ A subsection on philosophical aspects pointing to Bitcoin's dominance over the t
 6. [Everyone's a Scammer](/en/everyones-a-scammer)
 7. [The Freedom of Value](/en/freedom-of-value)
 8. [Bitcoin Is The Only Real Meme](/en/bitcoin-meme)
-9. [Ноль и Биткоин](/nol-i-bitcoin)
+9. [The Number Zero and Bitcoin](/en/number-zero-and-bitcoin)
 10. [Дорогие крипто- и фиат-бро](/crypto-bro)
 11. [Боремся с поддельными биткоинами и обеспечиваем редкость монет](/boremsya-s-poddelnymi-bitcoin)
 12. [Биткоин — это мицелий](/bitсoin-eto-micelij)
