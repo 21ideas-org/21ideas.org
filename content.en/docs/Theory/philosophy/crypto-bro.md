@@ -1,254 +1,267 @@
 ---
-title: "Дорогие крипто- и фиат-бро"
-h1: "Дорогие крипто- и фиат-бро"
+title: "Dear Crypto & Fiat Bros"
+h1: "Dear Crypto & Fiat Bros"
 cover: /img/bro-780.png
-description: "Биткоин, не блокчейн. Биткоин, не крипто. Биткоин, не технология распределенного реестра. Биткоин, не DeFi. Биткоин, не Web3. Биткоин, не ЦВЦБ. Биткоин, не фарминг доходности. Биткоин, не централизованные нео-банки, которые продают вам частично обеспеченный бумажный биткоин. Биткоин."
+description: ""
 url: crypto-bro
-aliases: ['/theory-philosophy-crypto-bro']
 date: 2022-11-19
 bookFlatSection: false
 weight: 60
 ---
 
-Биткоин, не блокчейн. Биткоин, не крипто. Биткоин, не технология распределенного реестра. Биткоин, не DeFi. Биткоин, не Web3. Биткоин, не ЦВЦБ. Биткоин, не фарминг доходности. Биткоин, не централизованные нео-банки, которые продают вам частично обеспеченный бумажный биткоин. Биткоин.
-
 {{< hint btc >}}
-_Перевод [статьи](https://dergigi.com/2022/11/19/dear-crypto-fiat-bros/) Gigi._
+This article by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2022/11/19/dear-crypto-fiat-bros) website.
 
-[Поддержать проект](/contribute)
+[Contribute](/contribute/).
 {{< /hint >}}
 
-**Открытое письмо растерянным и отрицающим**
+**An open letter to the confused and dismissive.**
 
-Это давно должно было стать очевидным, но боюсь, мне придется вновь это произнести: [Биткоин, не блокчейн](/pzv/bitkoin-ne-blokchejn). [Биткоин, не крипто](/ne-shitcoin). Биткоин, не технология распределенного реестра. [Биткоин, не DeFi](/vyzhivaet-silnejshij). Биткоин, не Web3. [Биткоин, не ЦВЦБ](https://youtu.be/8DX7nYNbIwA). Биткоин, не фарминг доходности. Биткоин, не централизованные нео-банки, которые продают вам частично обеспеченный бумажный биткоин. Биткоин.
+It should be obvious by now, but I'm afraid I'll have to spell it out anyway: Bitcoin, not blockchain. Bitcoin, not crypto. Bitcoin, not distributed ledger technology. Bitcoin, not DeFi. Bitcoin, not Web3. Bitcoin, not CBDCs. Bitcoin, not yield farming. Bitcoin, not centralized neo-banks that sell you fractional-reserve paper bitcoin. Bitcoin.
 
-Если вы думаете, что Биткоин мертв, вы были одурачены фиатными журналистами. Если вы думаете, что Биткоин [медленный](/pzv/bitkoin-ne-slishkom-medlennyj) или построен на устаревшей технологии, или сродни MySpace, или Ford Model T, вы были одурачены продавцами змеиного масла.
+If you think that Bitcoin is dead, you've been fooled by fiat journalists. If you think that Bitcoin is slow, or old tech, or MySpace, or the Model T, you've been fooled by snake-oil salesmen. 
 
-В первом случае вы, скорее всего, испытываете самодовольство: "Я знал, что это была Понци-схема! Хорошо, что я не инвестировал в биткоин. Я же говорил, что он в итоге не будет стоить ровным счетом ничего!".
+In the former case, you are probably feeling smug: "I knew that it was all a Ponzi scheme! Good thing I didn't invest in bitcoin. I told ya'll that it will go to zero!"
 
-Во втором случае вы, скорее всего, до сих пор в шоке, потому что высока вероятность того, что вы просто потеряли все свои деньги. Возможно вы все еще проходите стадию отрицания. Возможно вы злитесь или даже погрузились в депрессию. Возможно ваши премайненные мировым компьютером монеты заблокированы в централизованно контролируемой системе стейкинга и у вас нет ни малейшего шанса их вернуть [^1]. К сожалению, ускорить процесс прохождения пяти стадий принятия неизбежного невозможно. Вы должны пройти весь путь, пока, наконец, не придете к принятию: "Начнем с того, что у меня никогда и не было биткоинов, были только долговые расписки и бумажный биткоин. Я и был тем самым доходом, который фармят."
+In the latter case, you are probably still in shock because the likelihood is high that you just lost all your money. Maybe you are still in denial. Maybe you are angry or even depressed. Maybe your pre-mined world-computer coins are locked up in a centrally controlled staking system, and you have no way of getting them out again [^1]. Unfortunately, there is no way to fast-track the five stages of grief. You have to slouch through it all until you finally arrive at acceptance: "I never had bitcoin in the first place, I only had IOUs and paper bitcoin. I was the yield that was being farmed."
 
-Признать, что вас обманули – одна из самых сложных задач. Признание требует смирения, силы, самоанализа и подавления гордыни. Легче либо обвинить кого-то другого и удвоить ставку, либо поднять белый флаг. Это суровая правда, и в какой-то момент в будущем вы все же ее услышите: вас обманули и вам некого винить, кроме самого себя.
+Admitting that you've been fooled is one of the hardest things there is. It takes humility, strength, self-reflection, and the swallowing of pride to acknowledge that you've been had. It's easier to blame someone else and double down—or to throw your hands in the air and walk away. It's a harsh truth, and at some point in the future, you will be able to hear it: 
 
-Нет ничего зазорного в том, что сделать это прямо сейчас слишком болезненно. Сделайте шаг назад. Займитесь пока чем-нибудь другим. Проведите время с семьей или прогуляйтесь, или сходите на рыбалку; отвлекитесь. И как только вы будете готовы вернуться, постарайтесь осознать следующее: Биткоин – это сигнал; все остальное – шум.
+**You have been fooled, and you have no one to blame but yourself.**
 
-{{% image "/img/bro-781.png" %}}
-Биткоин – это сигнал
+If that's too painful right now, fine. Step back. Do something else for a while. Spend some time with your family, or in the woods, or go fishing or something. And once you come back, try to wrap your head around the following: _Bitcoin is the signal_, and the rest is noise. All of it.
+
+{{% image "/img/bro-781-en.jpg" %}}
+Bitcoin is the signal.
 {{% /image %}}
 
-Я пишу этого не с целью пнуть лежачего. Я пишу это, потому что убежден, что каждый заслуживает второй шанс. Я пишу это в надежде, что некоторым из вас, дорогие крипто-бро, достаточно однажды обжечься в щиткоин-печке. Я пишу это в надежде, что некоторые из вас, дорогие фиатные бро, наконец-то поймут, что Биткоин отличается не только от всей "крипты", но также и от всех других валют, включая ваши любимые государственные щиктоины. Мое послание вам аналогично.
+I am not writing this to kick you while you're down. I am writing this because I believe that nobody is beyond redemption. I am writing this in the hopes that some of you, dear crypto bros, will only have to touch the shitcoin stove once. I am writing this in the hopes that some of you, dear fiat bros, will finally understand that bitcoin is not only different from all of "crypto," but that it is different from all other currencies, your beloved government-issued shitcoins included. My message to you is the same:
 
-## Есть Биткоин и есть все остальное
+## There Is Bitcoin, and There's Everything Else
 
-Вы должны понять, что Биткоин – не приложение, не компания, не акция и не инвестиция. У Биткоина нет совета директоров, генерального директора, он не гарантирует квартальной прибыли. Никто не стоит за Биткоином.
+You have to understand that Bitcoin is not an app, or a company, or a stock, or an investment. Bitcoin doesn't have a board of directors, or a CEO, or quarterly earnings. There is nobody "behind" Bitcoin.
 
 <center><video src="/img/bro-782.mp4" controls style="width: 100%"></video></center>
 
-Многие биткоинеры придерживаются твердой позиции, когда речь заходит о Биткоине и "крипте", и на то есть веские причины. Первый является прорывом невероятного масштаба. Второе – дешевая имитация, подражатели, которые гонятся за упомянутым прорывом, сбивая с толку как новичков, так и розничных инвесторов. "Крипта" – это ботаны, которые вновь открыли для себя возможность печатать деньги и строить финансовые пирамиды. Как бесплатный сыр, генерируемый вечными двигателями, подпитываемыми техноболтовней.
+Many bitcoiners have strong opinions when it comes to bitcoin vs. “crypto”—and for good reason. One is a breakthrough of enormous proportions. The others are cheap imitations, copy-cats that have been riding the coattails of said breakthrough for way too long, confusing noobs and retail investors alike. “Crypto” is nerds re-discovering money printing and pyramid schemes. Seemingly free lunches propped up by perpetual motion machines that run on technobabble.
 
-Крипта не идет ни в какое сравнение с Биткоином. Если вы хотите с чем-то сравнить Биткоин, сравните его с огнем, [числом ноль](/nol-i-bitcoin), колесом, печатным станком или электричеством. Да, разница существенна. Битуоин – стабильная, [автопоэтическая](/bitcoin-meme) сеть, которая не может обанкротиться. Противоядие от монетарной коррупции.
+Crypto does not compare to Bitcoin. If you want to compare Bitcoin to something else, compare it to fire, [the number zero](https://bitcoin-resources.com/articles/the-number-zeroand-bitcoin/), the wheel, the printing press, or electricity. Yes, it is that important. It is an [autopoietic](https://dergigi.com/memeworld) network that is internally stable and can't go bankrupt. The antidote to the corruption of money.
 
-Это совершенно новая вещь, настолько глубокая, инопланетная и оригинальная, что большинство не в состоянии ее оценить. Я никого не виню. Большинство ничего не знает ни о [криптографии](https://youtu.be/T8YBppFTBhU), ни о [сетях](/dengi-blokchejny-i-socialnaya-masshtabiruemost), ни о [деньгах](/chto-takoe-dengi), ни об открытых протоколах. А значит, большинство легко обмануть.
+It is an entirely new thing, something that is so profound, so alien, so novel that most people fail to appreciate it. I don't blame them. Most people know nothing about cryptography, or networks, or money, or open protocols. Consequently, most people are easily fooled. 
 
-Что же такого революционного в Биткоине?
+What is so revolutionary about bitcoin?
 
-- Биткоин [абсолютно редкий](https://youtu.be/apWeaKADnlY)
-- Выпуск биткоинов [фиксирован во времени](/21-sposob/glava-2-bitcoin-eto-vremya)
-- Вы можете [хранить](/kak-hranit-kljuchi) Биткоин в собственной памяти
-- Биткоин можно отправлять [со скоростью света](/lightning)
-- Валидность монет может быть проверена кем угодно, без сложностей и высоких затрат.
+- Bitcoin is absolutely scarce
+- Bitcoin's issuance is [fixed in time](https://dergigi.com/time)
+- Bitcoin can be stored in your head
+- Bitcoin can be sent at the speed of light
+- Bitcoin can be verified by anyone, easily and cheaply
 
-Каждый из этих пунктов революционен сам по себе
+Every single one of these points is revolutionary in itself.
 
-До биткоина у нас не было абсолютно редкого ликвидного актива. У нас не было рукотворной валюты, свободной от центрального эмитента. У нас не было рыночного товара, состоящего исключительно из слов, что до сих пор меня поражает: выучите 12 слов наизусть, и вы сможете бежать из своей страны, сохранив свое богатство. У нас не было денег с высокой оборотностью без необходимости полагаться на кредит.
+We never had a liquid asset that is absolutely scarce. We never had a man-made currency that didn't have an issuer. We never had a marketable good that was just words, something that still blows my mind to this day: learn 12 words by heart, and you can flee your country with your wealth intact. We never had high-velocity money without having to rely on credit. 
 
-Позвольте мне подчеркнуть этот момент: впервые в истории человечества у нас появились деньги, которые представляют собой чистую информацию – что-то, что хранит ценность в битах и байтах напрямую, без необходимости полагаться на доверенную третью сторону; и так как это просто информация, ее можно отправить кому угодно со скоростью света.
+Allow me to repeat the last point for emphasis: for the first time in human history, we have a money that is pure information—something that stores value in bits and bytes directly, without having to rely on a trusted third party—and because it is pure information, it can be sent to anyone at the speed of light. 
 
-Биткоин – это не кредит. К сожалению, эта поразительная особенность биткоина остается незаметной для большинства. Это не долговая расписка. Не обещание. Он не зависит ни от одного контрагента. Он не является обязательством. Как и золото прежде, он ничем не подкерплен. Он сам является той самой конечной желаемой вещью. Биткоин – это деньги. Чистые, не подлежащие обесцениванию деньги.
+Unfortunately, this killer feature of bitcoin is lost on most people: Bitcoin is not credit. It's not an IOU. Not a promise. Not reliant on any counterparty. Not a liability. Like gold before it, it is not backed by anything. It is the desirable thing itself. It is money. Pure, un-debaseable money.
 
-Будь вы обанкротившимся крипто-бро или фанатом фиатных денег, Биткоин предлагает что-то, что особенно сложно принять: все работает без необходимости в ответственной стороне.
+Whether you're a rekt crypto bro or a friend of fiat, there is one thing that is especially difficult to accept. The one thing that sets Bitcoin apart: **it all works without anyone in charge.**
 
-Биткоин лучше всего рассматривать как природную силу, подобную приливу и отливу, восходу солнца на востоке и закату на западе. Вы можете сформировать собственное мнение на этот счет, но оно не имеет никакого влияния на происходящее. Приливы придут и уйдут, солнце встанет и зайдет, а новые блоки в сети Биткоин будут создаваться. Каждые 10 минут.
+Bitcoin is best understood as a force of nature, like the coming and going of the tide, like the sun rising in the east and setting in the west. You can have an opinion on it, but your opinion doesn't have any influence on the phenomenon whatsoever. The tide will come and go, the sun will rise and set, and Bitcoin will produce a new block. Every 10 minutes.
 
-> Среди громких заголовков этой недели, о которых будут вспоминать десятилетиями, я хочу обратить ваше внимание на один гораздо более глубокий и внушающий благоговейный трепет факт: каждые 10 минут создается новый биткоин-блок. Каждые 10 минут. Каждые 10 минут.
+> "Amidst attention-grabbing headlines this week that will be talked about for decades, I want to bring your attention to one far more profound and awe-inspiring non-headline: every 10 minutes a new bitcoin block was produced. Every 10 minutes. Every 10 minutes."
 > 
-> – [Росс Стивенс](https://archive.ph/v0xwH)
+> – [Ross Stevens](https://archive.ph/v0xwH)
 
 <center><video src="/img/bro-783.mp4" controls style="width: 100%"></video></center>
 
-_Источник: [bitfeed.live](https://bitfeed.live/)_
+_Source: [bitfeed.live](https://bitfeed.live/)_
 
-Биткоин просто работает. Как часы. Он работает, потому что вам не нужно никому доверять. Он работает, потому что основан на математике и физике – на законах природы, – чтобы освободить систему от необходимости в доверии. Он работает, потому что вы можете самостоятельно все проверить. Он работает, потому что он не что-то внешнее (продиктованное кем-то другим), а что-то [эмерджентное](https://dergigi.com/digital), созданное неустанным подтверждением и проверкой. Он работает, потому что вы и только вы несете за все ответственность.
+Bitcoin just works. Like clockwork. It works because you don't have to trust anyone. It works because it uses mathematics and physics—the laws of nature—to remove any trust from the system. It works because you can verify anything yourself. It works because it is not an external thing (dictated by someone else) but an [emergent thing](https://dergigi.com/digital): brought into existence by relentless validation and verification. It works because _you_ and _only you_ are in charge.
 
-Если вы не берете ответственность на себя, вы не используете биткоин. Вы доверяете кому-то другому, их собственному видению Биткоина или, что еще хуже, вы доверяете кому-то хранение своих биткоинов.
+If you aren't in charge, you are not using bitcoin. You are trusting someone else with their interpretation of Bitcoin—or, even worse—you are trusting someone else to hold bitcoin for you.
 
-> Основная проблема обычной валюты – это доверие, необходимое для ее функционирования. Мы вынуждены доверять центральному банку в том, что валюта не подвергнется девальвации, но история фиатных валют полна примеров нарушения этого доверия. Нам приходится доверять хранение и электронные переводы наших денег банкам, но они одалживают их, сохраняя лишь малую долю в своих резервах. Тем самым банки формируют волны кредитных пузырей. Мы вынуждены доверять им нашу приватность, полагаться на то, что они не позволят похитителям персональных данных опустошить наши счета.
+> "The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts."
 > 
-> – [Сатоши Накомото](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/#selection-45.1-45.479)
+> – [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/#selection-45.1-45.479)
 
-Биткоин был создан в ответ на мошеннические схемы фиатного мира. Это [анти-скам технология](https://youtu.be/T8YBppFTBhU). Но он работает в качестве защитной технологии только в том случае, если вы используете его правильно: ваш узел, ваши правила, ваши ключи, ваши биткоины.
+Bitcoin was created as a response to the rug-pulls of the fiat world. It is [anti-rug-pull technology](https://dergigi.com/cryptography). But it is only anti-rug-pull technology if you use it right: your node, your rules, your keys, your bitcoin.
 
-Криптовалюты, с другой стороны, – это фиат на стероидах. Хуже того, это фиат на метамфетамине. Это убеждение, что честные деньги не важны, поэтому каждому проекту, каждому человеку, каждой бирже, каждой сети, каждой системе, каждому сообществу и каждой JPG-картинке нужна своя отдельная форма денег. Это экономический нигилизм.
+Crypto, on the other hand, is fiat on steroids. Worse, it is fiat on methamphetamines. It is the belief that honest money doesn't matter, which is why every project, every person, every exchange, every network, every system, every community, and every jpg needs its own separate form of money. It's economic nihilism.
 
-Биткоин является полной противоположностью крипты. Биткоин избавляется от сеньоража. Щиткоины повторно вводят его. Биткоин избавляется от эффекта Кантильона. Щиткоины повторно вводят его. Биткоин избавляет от необходимости в доверии. Щиткоины повторно вводят ее. Они сродни централизованным финансовым сервисам, мотивированным фиатом.
+The two couldn’t be more different. Bitcoin removes seigniorage. Shitcoins re-introduce seigniorage. Bitcoin removes the Cantillon effect. Shitcoins re-introduce the Cantillon effect. Bitcoin removes trust. Shitcoins re-introduce trust. As do centralized financial services motivated by fiat thinking.
 
-## Но разве биткоин не мертв?
+## But Isn't Bitcoin Dead?
 
-Нет, он не мертв. Он также не является временной причудой – он внезапно не потерял свою полезность и в одночасье не обесценился. Случилось то, что происходит всегда: люди становятся самодовольными, жадными и обманывают не только  самих себя, но и окружающих.
+No, it's not dead. It's also not a fad, or suddenly useless, or suddenly worthless. What happened is what always happens: people get complacent, people get greedy, and people fool themselves and others. 
 
-Введение доверия поверх Биткоина привносит точки отказа и повышает уровень риска для любых систем, построенных на основе этих централизованных институтов [^2]. Это случалось раньше; это произойдет снова. История повторяется.
+By layering trust on top of Bitcoin, you re-introduce central points of failure and systemic risk—for any systems built on top of these central institutions, that is [^2]. This has happened before, and it will happen again. Time is a flat circle.
 
 <center><video src="/img/bro-784.mp4" controls style="width: 100%"></video></center>
 
-{{% image "/img/bro-785.png" %}}
-Источник: Джеймсон Лопп [^3]
-{{% /image %}}
+|Entity|BTC Lost|
+|---|---|
+|Bitcoinica|61,000|
+|Bitfloor|24,000|
+|MTGOX|650,000|
+|Cryptsy|10,000|
+|Bitstamp|19,000|
+|BTC-e|66,000|
+|Bitfinex|120,000|
+|QuadrigaCX|10,000|
+|Cred|10,000|
+|Fcoin|10,000|
+|Celsius|105,000|
+|BlockFi|30,000?|
+|Voyager|10,000?|
+|FTX|70,000|
 
-И снова централизованная компания потерпела неудачу. Снова неясно, в какой степени эта неудача произошла из-за некомпетентности, в какой – из-за злого умысла и в какой – из-за мошенничества. Снова сеть Биткоин не пострадала. Снова люди полагались на доверие. Снова кто-то оказался грабителем.
+_Source: Jameson Lopp_ [^3]
 
-Казалось бы, должно быть очевидно, что биткоин, находящийся на хранении у третьего лица, не является вашим биткоином. Должно быть очевидно, что бумажный биткоин – это не биткоин. Кроме того, должно быть очевидно, что биткоин и кредитные плечи также совместимы, как огурцы и молоко.
+Again, a centralized company failed. Again, it is unclear how much of this failure was due to incompetence, how much due to malice, and how much due to fraud. Again, the Bitcoin network was unaffected. Again, people relied on trust. Again, the rug was pulled.
 
-Мы все это уже проходили. И такова человеческая природа, что все это вновь повторится. Люди снова откажутся прислушиваться к предупреждениям более опытных биткоинеров. Люди снова откажутся от хранения собственных ключей. Люди снова станут жертвами песен Сирен о высоких прибылях, больших доходах, быстром обогащении и легких деньгах.
+It should be obvious by now that bitcoin held by someone else is not your bitcoin. It should be obvious that paper bitcoin is not bitcoin. Further, it should be obvious that bitcoin and leverage mix as well as oil and water.
 
-> “Дураки рано или поздно расстаются со своими биткоинами, торгуемыми с кредитным плечом”.
+All of this has happened before. And, human nature being what it is, all of this will happen again. People will—again—fail to heed the warnings of the more experienced bitcoiners. People will—again—fail to hold their own keys. People will—again—fall victim to the Siren songs of more gains, more yield, fast riches, and easy money.
+
+> “A fool and their leveraged bitcoin are soon parted.”
 > 
-> – [Кейтлинг Лонг](https://youtu.be/9wUygGyD7Ng)
+> – [Caitlin Long](https://youtu.be/9wUygGyD7Ng)
 
-И после того как дураки в очередной раз потеряют все свои деньги, и после того как вы, дорогие крипто-бро, попадете в ловушку своего ненаглядного лидера, и после того как вы, дорогие фиатные бро, в очередной раз объявите биткоин мертвым, и когда биткоину будет посвящен [500-й некролог](https://99bitcoins.com/bitcoin-obituaries/), Биткоин по-прежнему будет беспрепятственно двигаться дальше.
+And when the fools once again lose all their money; and when you, dear crypto bros, get rug-pulled by your dear leader; and when you, dear fiat bros, declare Bitcoin dead once more; and when the [500th bitcoin obituary](https://99bitcoins.com/bitcoin-obituaries/) has been written; Bitcoin will still march on, unhindered.
 
-## Но как же цена? Разве она не упала?
+## But What about the Price? Didn't It Crash?
 
-Да, упала. И упадет снова, и снова, и снова, как это уже происходило ранее.
+Yes, it did crash. And it will crash again, and again, and again. Like it has in the past.
 
 <center><video src="/img/bro-786.mp4" controls style="width: 100%"></video></center>
 
-На момент написания этой статьи цена биткоина составляет $16,641. Да, он поднимался до $65,000, а затем падал до $16,000.
+As of this writing, the bitcoin price is 16,641 USD. Yes, it went all the way to $65,000, and then it crashed all the way down to $16,000. 
 
-Но вот что важно осознать: цена в долларах одновременно и важна, и не важна.
+Here is what you have to understand:  **USD price is both important and unimportant.**
 
-Почему цена важна? На BTC должна быть установлена цена, чтобы система Биткоин могла себя обезопасить. Цена коррелирует с хешрейтом (который опять же коррелирует с безопасностью или, точнее, с гарантией финальных расчетов). Это также хороший показатель глобального принятия. И да, мы обычно используем доллары США для измерения цены BTC, потому что на момент написания этой статьи доллар США по-прежнему является расчетной единицей современного мира. Как бы досадно это ни было.
+Here is how price is important: BTC needs to have a price so that the Bitcoin system can secure itself. Price is correlated to hashrate (which is again correlated with security or, more accurately: settlement assurance). It is also a good indicator of global adoption. And yes, we usually use USD to measure the BTC price because, as of this writing, USD is still the unit of account of this world. Sadly.
 
-Чтобы понять, почему цена не имеет значения, давайте зададим несколько вопросов и сразу же на них ответим:
+To see how price is unimportant, let's ask some questions and answer them one by one:
 
-- Изменилось ли предложение BTC? Нет.
-- Остановилась ли сеть? Нет.
-- Можете ли вы по-прежнему отправлять саты кому угодно, не спрашивая ничьего разрешения? Да.
-- Держат ли ходлеры то же количество BTC? Да.
-- Можете ли вы по-прежнему легко и без значительных затрат проверить все вышеперечисленное? Да.
+- Did the BTC supply change? No.
+- Did the network stop? No.
+- Can you still send sats to anyone without having to ask for permission? Yes.
+- Do holders still hold the same amount of BTC? Yes.
+- Can you still easily and cheaply verify all of the above? Yes.
 
-С точки зрения сети Биткоин ничего не изменилось.
+From the point of view of the Bitcoin network, nothing changed.
 
-Другими словами: правила сети не изменились. Предложение по-прежнему ограничено. Каждые 10 минут финализируются новые транзакции. Денежная политика неизменна. Свойства актива остались прежними. 1 BTC по-прежнему равен 1 BTC.
+In other words: the rules of the network did not change. Supply is still limited. Every 10 minutes, new transactions are settled. The monetary policy did not change. The properties of the asset did not change. One BTC still equals one BTC.
 
-Биткоин работал не хуже, чем сейчас, когда его цена в долларах равнялась нулю; цена биткоина была таковой в течение первых десяти месяцев его существования. Биткоин рос без центрального эмитента, и его ценность будет продолжать [органично](https://dergigi.com/life) расти, вместе с его распределением и уровнем безопасности, поэтому многие, включая меня, считают, что история биткоина не может быть повторена, то есть, что сам путь редкого цифрового товара является определяющим фактором.
+Bitcoin worked just as well as it does now when the USD price was zero, which was the case for the first ten months of its existence. Without a central issuer, bitcoin had and still has to grow [organically](https://dergigi.com/life) in value, distribution, and security, which is why many people — myself included — believe that Bitcoin's history can not be repeated, i.e., that a scarce digital commodity is path-dependent.
 
-Когда речь заходит о цене, о цене на что угодно, полезно рассматривать вещи в более широком контексте. Номинальная цена является выражением отношения, и, таким образом, любая цена зависит от единицы, которую вы используете для измерения указанной цены. Экономическая призма, используемая для оценки всего, что вас окружает.
+Speaking of price: it helps to put things in a broader context when talking about any price in the first place. Nominal price is an expression of relationship, and thus any price depends on the unit you use to measure said price. The economic lens that you use to see through and see the world with.
 
-Стоит отметить, например, что денежная масса USD M2 значительно увеличилась за последние пару десятилетий. Последнее увеличение более чем на 30% было в значительной степени вызвано монетарной реакцией на всемирные локдауны. Другими словами, при измерении стоимости вещей в долларах все искажается минимум на 30%.
+It is worth noting, for example, that the USD M2 money supply has expanded massively in the last couple of decades. The most recent expansion of over 30% was in large part due to the monetary response to the worldwide lockdowns. In other words: when measuring the value of things in USD, everything is distorted by at least 30%.
 
 {{% image "/img/bro-787.png" %}}
-Щиткоин-принтер не думает замедляться (Источник: Porkopolis)
+Shitcoin printer go BRRR (Source: Porkopolis)
 {{% /image %}}
 
-Когда речь заходит об экономике, мы оцениваем происходящее сквозь линзу соответствующей валюты. Мы вынуждены полагаться на эту призму при проведении экономических расчетов. Используем ли мы в качестве линзы доллар США, евро или иену, зависит в основном от обстоятельств и географии. Конечно, BTC пока не может считаться универсально полезным в качестве линзы, но он полезен для проведения сравнения с фиатными валютами. Он полезен, потому что обеспечивает противовес инфляционной денежно-кредитной политике фиатных валют. Он полезен, потому что демонстрирует, как _все_ переоценивается в сатах. Даже вся та [чепуха](https://bitcoinorshit.com/), которую вы купили пару лет назад.  
+When it comes to economic views, we see with and through the respective currency we are forced to do economic calculations with. Whether our default lens is the USD, the EUR, or the YEN, depends mostly on circumstance and geography. Granted, BTC is not universally useful as a lens yet, but it is useful as a comparison to fiat lenses. It is useful because it provides a counter-balance to the inflationary monetary policies of fiat currencies. It is useful because, from a BTC point of view, it shows that everything is being repriced in sats. Even the [stupid shit](https://bitcoinorshit.com/) you bought a couple of years ago.
 
 {{% image "/img/bro-788.png" %}}
-Некоторые линзы полезнее других
+Some lenses are more useful than others.
 {{% /image %}}
 
-Следовательно, биткоинеры любят говорить о покупательной способности, потому что она не зависит от номинальной стоимости, оцениваемой в фиатной валюте. Обратите внимание, например, что диаграмма BTC разнится в зависимости от того, что вы используете в качестве мерила, будь то USD (доллар США), ARS (аргентинское песо), NGN (нигерийская найра), VED (венесуэльский боливар) или что-то совершенно другое, например, S&P 500, золото или нефть.
+Consequently, bitcoiners like to speak of purchasing power because it is irrespective of the nominal value bound to fiat currency measure. Note, for example, that the BTC chart looks very different depending on what you use as measurement, whether its USD (United States dollar), ARS (Argentine peso), NGN (Nigerian naira), VED (Venezuelan bolívar), or — to pick something else entirely — the S&P 500, gold, or barrels of oil.
 
 {{% image "/img/bro-789.png" /%}}
 
-В западном мире мы игнорируем фиатную линзу, сквозь которую мы смотрим на мир. В основном мы имеем дело со "стабильными" валютами, то есть с валютами, покупательная способность которых постепенно снижается. Но не обманывайте себя: все фиатные валюты подвержены инфляции. Если деньги можно напечатать, они будут напечатаны. Искушение попросту слишком велико.
+In the western world, we are especially oblivious to the fiat lens through which we view the world. We are mostly dealing with "stable" currencies, i.e., currencies that are slowly declining in purchasing power. But make no mistake: all fiat currencies are inflating. If money can be printed, it will be printed. The temptation is simply too strong.
 
-Следовательно, все фиатные деньги со временем теряют в стоимости. И если это падение происходит слишком быстро – когда деньги умирают, – искажение цен становится очевидным. И если искажение становится достаточно большим, все долгосрочные экономические расчеты, а вместе с ними и бытовые вещи, рушатся.
+Consequently, all fiat monies are monies of decline. And if this decline happens too quickly—[When Money Dies](https://bitcoin-resources.com/books/when-money-dies) — the distortion in prices becomes obvious. And if the distortion gets big enough, all long-term economic calculation — and with it, regular life — breaks down.
 
 {{% image "/img/bro-790.png" %}}
-Как вы думаете, существенно ли доллар вырос с 2019 по 2022 год?
+Do you think it rose substantially from 2019 to 2022?
 {{% /image %}}
 
-Приведенные выше графики наглядно иллюстрируют две вещи:
+The above charts show two things clearly: fiat currencies are designed to lose purchasing power over time. Bitcoin is designed to monetize naturally over time, and, all things being equal, it will continue to monetize.
 
-1. Фиатные валюты предназначены для того, чтобы со временем терять покупательную способность.
-2. Биткоин предназначен для естественной монетизации с течением времени и при прочих равных будет продолжать монетизироваться.
+It will continue to monetize because bitcoin is valuable. It is your money. Nobody can interfere with it. Nobody can debase it. Nobody can take it from you (when stored properly, that is). Nobody can stop you from using it. In a world of de-platforming, de-banking, and CBDCs, having censorship-resistant, unconfiscatable money is valuable in itself. If you disagree with the above, I invite you to  [Check Your Financial Privilege](https://bitcoin-resources.com/books/check-your-financial-privilege).
 
-Биткоин будет продолжать монетизироваться, потому что он ценен. Биткоин – ваши деньги. Никто не в силах этого изменить. Никто не может отобрать его у вас (при условии правильного хранения монет). Никто не может запретить вам использовать его. В мире деплатформинга, дебанкинга и [ЦВЦБ](https://youtu.be/8DX7nYNbIwA), наличие устойчивых к цензуре и не подлежащих конфискации денег ценно само по себе. Если вы не согласны с вышеизложенным, я советую вам [проверить ваши финансовые привилегии](https://bitcoin-resources.com/books/check-your-financial-privilege).
+Currently, BTC is ranked #28 worldwide, both as [an asset](https://web.archive.org/web/20221118153734/https://8marketcap.com/) and when compared to [fiat currencies](https://web.archive.org/web/20220929043430/https://fiatmarketcap.com/). It is #28 now because it crashed, and it crashed because people are greedy, over-leveraged, and there are no bailouts. It seems, however, that despite all of this, bitcoin is continually monetizing. 
 
-В настоящее время BTC занимает 28 место в мире как среди [активов](https://web.archive.org/web/20221118153734/https://8marketcap.com/), так и среди [фиатных валют](https://web.archive.org/web/20220929043430/https://fiatmarketcap.com/). Он занимает 28 место, потому что пережил падение. Он пережил падение из-за жадности людей, потому что многие из них слишком глубоко влезли в долги, а биткоин не подразумевает бейлаутов. Однако, похоже, биткоин продолжает монетизироваться. Несмотря ни на что.
+Due to bitcoin's fixed issuance schedule—its predetermined issuance over time—the only thing that can meaningfully respond to adoption waves is price. How else could an asset monetize naturally—an asset that doesn't have an issuer—but chaotically? Or, to quote [Allen Farrington](https://bitcoin-resources.com/articles/wittgensteins-money/):
 
-В силу фиксированного графика выпуска биткоинов – предопределенного выпуска монет с течением времени – единственное, что может реагировать на волны внедрения, – это его цена. Каким другим естественным образом может монетизироваться актив, у которого нет эмитента? Только хаотично. Или, цитируя [Аллена Фаррингтона](https://bitcoin-resources.com/articles/wittgensteins-money/):
+_"What would it seem like if it did seem like a global, digital, sound, open source, programmable money was monetizing from absolute zero?"_
 
-_“Как бы выглядела монетизация глобальных, цифровых, надежных, программируемых денег с открытым исходным кодом с абсолютного нуля?”_
+## But Bitcoin Doesn't Produce Anything!
 
-## Но Биткоин ничего не производит!
+Wrong. Every 10 minutes, a new valid block is produced. That's all that matters. And with this block, another chapter of unforgeable history is being written, and the core promise of Bitcoin is kept: ["I will not steal from you."](https://youtu.be/C7ynm0Zkwfk) Neither through debasement nor confiscation.
 
-Это не так. Каждые 10 минут создается новый валидный блок. Это все, что имеет значение. С этим блоком пишется очередная глава неподделываемой истории, и выполняется основное обещание Биткоина: "[Я не буду вас грабить](https://youtu.be/T8YBppFTBhU)". Ни через обесценивание, ни через конфискацию.
+**If you think that bitcoin should produce anything else—like yield, for example—you are still looking at the world through a fiat lens.** Bound to the view that you have to "put your money to work." You did not pause and reconsider [the yield from money held](https://mises.org/library/yield-money-held-reconsidered).
 
-Если вы думаете, что биткоин должен приносить что-то еще, например, доходность, вы все еще смотрите на мир сквозь фиатную линзу. Вы не можете расстаться с убеждением, что должны "[заставить свои деньги работать](/pzv/bitkoin-velikaya-definancializaciya)". Вы не сделали шага назад и не осознали [пользы, которую может приносить хранение денег](https://mises.org/library/yield-money-held-reconsidered).
-
-Я сочувствую вам. Не так давно я смотрел на мир через ту же фиатную линзу. Я даже оптимистично относился к "крипте", веря, что неудержимый мировой компьютер – хорошая идея. Мне потребовалось очень много времени, чтобы понять, что печать денег не способствует процветанию общества, а как раз наоборот.
+I empathize with you. I was looking at the world through the same fiat lens not too long ago. I was even bullish on "crypto," believing that an unstoppable world computer would be a neat thing. It took me a very long time to understand that printing money does not enrich society, but does just the opposite.
 
 <center><video src="/img/bro-791.mp4" controls style="width: 100%"></video></center>
 
-Точно так же мне потребовалось немало времени, чтобы сделать шаг назад и задать себе следующие вопросы, почти как ребенку: "Зачем вашему гипотетическому мировому компьютеру нужна собственная валюта? Зачем вашей компании нужна собственная валюта? Зачем вашей централизованной бирже нужна собственная валюта? Зачем в попытке достичь успеха вам нужно печатать собственные деньги?"
+In the same way, it took me a very long time to step back and ask myself the following questions, almost like a child: "Why does your hypothetical world computer need its own currency? Why does your company need its own currency? Why does your centralized exchange need its own currency? Why do you need to print your own money for your endeavor to be successful?"
 
-Раньше я сам был крипто-бро, и именно трудности, с которыми я столкнулся, усердно пытаясь ответить на эти вопросы, оттолкнули меня от "крипты" в сторону биткоина. А когда я был фиатным бро, я даже не подозревал, что эти вопросы вообще стоило задавать.
+I used to be a crypto bro myself, and it was the difficulty I had when trying to answer these questions truthfully that turned me away from "crypto" and towards bitcoin. And when I was a fiat bro, I didn't even know these questions were worth asking in the first place.
 
-Самая сложная задача – избавиться от фиатного мышления; сделать шаг назад и задать себе самые простые вопросы о деньгах: зачем нам деньги, почему они должны быть редкими, почему кто-то может их печатать, в то время как большинству приходится их зарабатывать... Эти вопросы нетривиальны. Те, кто управляет денежными принтерами, не хотят, чтобы вы задавались вопросом "[Что, черт возьми, произошло в 1971 году?](https://wtfhappenedin1971.com/)" Те, кто управляет щиткоин-казино, не хотят, чтобы вы задавались вопросом: "Откуда берется доход?"
+The most difficult thing is to get rid of the fiat mindset, which is to say to step back and ask yourself very simple questions about money: why do we have it, why do we need it, why does it have to be scarce, why can some people print it while most have to work for it, and so on. These are hard questions. Those who run the money printers don't want you to ask, "[WTF happened in 1971?](https://wtfhappenedin1971.com/)" Those who run the shitcoin casinos don't want you to ask, "but where does the yield come from?"
 
 {{% image "/img/bro-792.png" %}}
-ОТКУДА БЕРЕТСЯ ДОХОД?
+BUT WHERE DOES THE YIELD COME FROM?
 {{% /image %}}
 
-Но даже учитывая все разворачивающиеся махинации моя надежда не угасает. В конце концов, "вы можете иногда обманывать некоторых, но вы не можете постоянно обманывать всех" [^4]. Все больше и больше людей будут учиться, если не на чужих ошибках, то хотя бы на своих. Все больше и больше людей начнут самостоятельно хранить собственные ключи. Все больше и больше людей станут просчитывать риски.
+But even with all the shenanigans that are currently going on, I'm hopeful. After all, "you can fool some people sometimes, but you can't fool all the people all the time [^4]." More and more people will learn. More and more people will hold their own keys. More and more people will run the numbers.
 
-Это предположение основано не на вере. Ончейн-данные показывают определенные закономерности, которые я бы резюмировал следующим образом: "с пониманием растет убежденность, убежденность концентрирует средства" или “чем глубже ваши знания, тем сильнее ваша позиция”.
+This assumption is not based on faith. Bitcoin's on-chain data shows certain patterns, which I would summarise as "understanding increases conviction, conviction increases allocation"—or: the more you know, the more you buy.
 
 {{% image "/img/bro-793.png" %}}
-~73% всех сатоши не двигались более года.
+~73% of sats have been held for more than a year
 {{% /image %}}
 
-Эти так называемые "ХОДЛ-волны" показывают, что все большее число пользователей осознает основную динамику, а также различия между фиатной денежно-кредитной политикой и денежной политикой Биткоина, что приводит к тому, что на своих личных или [корпоративных счетах](https://bitcointreasuries.net/) они все чаще держат BTC, а не фиатную валюту [^5].
+These "HODL Waves," as they are called, show that an increasing number of people understand the underlying dynamics of, as well as the differences between, fiat monetary policy and Bitcoin's monetary policy, which leads to them holding BTC on their personal or  [corporate balance sheets](https://bitcointreasuries.net/), rather than fiat currency [^5].
 
-## Но как же волатильность?  
+## But the Volatility!
 
-Волатильность, волатильность, волатильность. Все эти разговоры о волатильности упускают весь смысл Биткоина: глубокая, системная стабильность.
+Volatility, volatility, volatility. All this talk about volatility misses the whole point of Bitcoin: deep, systemic stability. 
 
-**Биткоин** **не волатилен. Чего не скажешь о психологии человека.**
+**Bitcoin isn't volatile. Human psychology is.**
 
-Человеческое поведение изменчиво. Биткоин – нет. Следовательно, рыночная цена биткоина может быть нестабильной. Сеть Биткоин – нет. Сеть Биткоин бесперебойно работает более десяти лет. Она предсказуема, устойчива и надежна. С этой точки зрения, Биткоин – самая стабильная из всех существующих вещей.
+Human behavior is volatile. Bitcoin isn't. Consequently, bitcoin's market price can be volatile. But Bitcoin is not. The Bitcoin network has been operating continually for well over a decade. It is predictable, steady, and reliable. From that perspective, Bitcoin is the most stable thing there is. 
 
-Каждые 10 минут находится новый блок. Каждые 10 минут надежность и стабильность всей системы растет, независимо от перепадов цены.
+Every 10 minutes, a new block is found. Every 10 minutes, the whole system increases in reliability and stability, independent of price swings. 
 
-Пока появляются новые блоки, беспокоиться не о чем. Повторюсь: линза, которую вы используете для оценки Биткоина, очень важна. Сделайте шаг назад. Взгляните на полную картину. Сконцентрируйтесь на блоках, а не на цене. На времени, а не на доходности. На базовых деньгах, а не кредите.
+As long as new blocks are coming in, there is nothing to worry about. Once again, the lens you use to look at Bitcoin matters a great deal. Step back. Zoom out. Look at blocks, not price. Time, not yield. Base money, not credit.
 
-Но при этом, по мере монетизации биткоина следует ожидать перепадов его покупательной способности. Разумным решением является корректировка ваших приобретений в соответствии с приемлемым для вас уровнем риска. Приобретение на 0% не является разумной позицией, потому что 0% биткоинов в вашем портфеле подразумевает 100% активов, несущих существенный риск контрагента или, что еще хуже, активов, которые в первую очередь являются не активами, а обязательствами.
+But yes, while bitcoin is monetizing, swings in purchasing power are to be expected. The sensible response is to adjust your allocation according to your risk appetite. A 0% allocation is not a sensible position because a 0% allocation is a 100% allocation to assets that have substantial counterparty risk or, even worse, assets that aren't assets in the first place — but liabilities.
 
-## Но я опоздал!
+## But I Missed the Bus!
 
-Нет, вы не опоздали. Мы все еще находимся в самом начале пути к столь ожидаемой биткоинизации. Каждый думает, что опоздал. **Все думают, что не успели запрыгнуть в последний вагон**.  
+No, you didn't. We are still very early in the unfolding of the bitcoinization process. Everyone thinks they are late.  **Everyone thinks that they have missed the bus.**
 
 {{% image "/img/bro-794.jpg" %}}
-Биткоин – это поезд, движущийся по круговому маршруту. В него постоянно запрыгивают и из него постоянно выпрыгивают.
+Bitcoin is a hop-on hop-off bus, and round and round it goes.
 {{% /image %}}
 
-Большинство биткоинеров не думает о биткоине как об инвестициии. Он – прорывная технология, позволяющая перемещать богатство сквозь пространство и время. Речь не идет о том, чтобы разбогатеть в пересчете на фиатные деньги. Биткоин – выход, а не обходной путь. Речь идет об измерении вашего богатства в сатах, а не в долларах, евро или любых других щиткоинах. Речь о вашем богатстве, хранящемся и контролируемом вами.
+Most bitcoiners don't think of Bitcoin as an investment. It is a breakthrough technology that allows you to move wealth through space and time. It is not about getting rich in fiat terms. It is an exit, not a detour. It is about measuring your wealth in sats, not USD, or EUR, or any other random shitcoin. Your wealth. Held and controlled by you.
 
-Поэтому никогда не поздно использовать биткоин в собственных интересах. Так же, как никогда не поздно начать использовать электричество или интернет. Никогда не поздно принять [Биткоин-стандарт](https://www.notion.so/5326bf9ba0f84f81bf4b2d6e0035f9f3?v=0132c1bf02784d7491ee96c60a2050df&p=35e32dc4d5a04baaab2ebec6143f3ac9&pm=s).
+Because of this, it is never too late to use it to your advantage. Just like it's never too late to adopt electricity or the internet. It is never too late to adopt [the Bitcoin Standard](https://bitcoin-resources.com/books/the-bitcoin-standard).
 
-## Но биткоинеры злые!  
+## But Bitcoiners Are Mean!
 
-Поступайте правильно. Бросьте свои щиткоин-сумки, независимо от того, являются ли они "криптой" или фиатными валютами. Начните с малого. Возьмите ответственность на себя. Узнайте как о себе позаботиться. Привносите ценность, тратьте меньше, чем зарабатываете, и откладывайте сбережения в биткоинах. Начните исчислять свое богатство в сатах.
+<center><video src="/img/bro-792.mp4" controls style="width: 100%"></video></center>
 
-Или не делайте всего этого. Вы также можете остаться в стране крипточудес, покупая обезьяньи JPG и акции Понци-компаний, являющиеся ни чем иным, как замками из песка. Вы можете в очередной раз поверить во всю ложь следующего вундеркинда-аутиста, убеждающего вас, что фундамент не важен и что принципы пусты. Вы также можете оставаться в мире бумажного рабства, полагая, что ваши деньги должны вас обкрадывать (пока что уровень грабежа остается где-то между 2-9%), что печать триллионов из воздуха является разумной денежно-кредитной политикой, и что цифровые валюты центральных банков – отличная идея.  
+Do the right thing. Drop your shitcoin bags, whether they are "crypto" or fiat-denominated. Start small. Take responsibility. Learn how to self-custody. Produce value, spend less than you make, and start saving in bitcoin. Start counting your wealth in sats.
 
-В любом случае, Биткоину все равно. Но когда (не если) крах настигнет очередную централизованную тварь, и когда (не если) биткоин снова достигнет новых высот, и традиционные СМИ снова закричат о "пузыре", и чуть позже цена биткоина снова скорректируется, и дураки вновь расстанутся с монетами, которые по их мнению им принадлежали, не забудьте, что вы могли бы этого избежать. Вы могли бы хранить собственные ключи. Вы могли бы запустить собственный узел. Вы могли бы быть проще. Вы могли бы копить саты. Вы могли бы послушать токсичных максималистов. Вы могли бы прочитать [книгу-другую](https://www.notion.so/5326bf9ba0f84f81bf4b2d6e0035f9f3?v=0132c1bf02784d7491ee96c60a2050df). Вы могли бы держаться подальше от щиткоинов, Понци-схем и централизованных третьих лиц. Но вы этого не сделали. И вам некого в этом винить, кроме самого себя.
+Or don't. You can also stay in crypto wonderland, buying ape JPGs and shares of Ponzis built on quicksand. You can once again believe all the lies of the next autistic wunderkind, convincing you that fundamentals don't matter and that principles are worthless. You can also stay in the world of fiat slavery, believing that your money should steal from you (as long as the rate of stealing stays somewhere between 2-9%), that printing trillions out of thin air is sensible monetary policy, and that central-bank digital currencies are a neat idea.
 
-Удачи!
+In either case, Bitcoin doesn't care. But when (not if) the next centralized abomination implodes, and when (not if) bitcoin reaches new heights again, and when the mainstream media screams "bubble" again, and when bitcoin's price will once more correct after that, and when fools are once again parted with the coins that they thought they held, remember this: you could've known better. You could've held your own keys. You could've run your own node. You could've stayed humble. You could've stacked sats. You could've listened to the toxic maximalists. You could've read [a book or two](https://bitcoin-resources.com/books/). You could've stayed away from the shitcoins, and the Ponzis, and the central points of failure. But you didn't. And you have no one to blame but yourself.
 
-[^1]: ЛОЛ
-[^2]: Просто посмотрите на [это](https://dergigi.com/assets/images/shitcoins/ftx-clusterfuck.jpg)!
-[^3]: [Боремся с поддельными биткоинами и обеспечиваем редкость монет](/boremsya-s-poddelnymi-bitcoin) –  Джеймсон Лопп.
-[^4]: Не сдавайтесь!
-[^5]: У "крипты" нет денежной политики, поэтому о ней даже не стоит упоминать. Если вам все еще интересно, прочитайте [статью](https://www.lynalden.com/ethereum-analysis/) Лин Олден или просто посмотрите на [одно](https://dergigi.com/assets/images/shitcoins/eth-issuance.png) из этих [двух](https://dergigi.com/assets/images/shitcoins/eth-monetary-policy.jpg) изображений.
+Good luck.
+
+[^1]: [lol](https://dergigi.com/assets/images/shitcoins/eth-no-withdrawing.jpg)
+[^2]: Just look at this [clusterfuck](https://dergigi.com/assets/images/shitcoins/ftx-clusterfuck.jpg). Look at it!
+[^3]: [_Securing bitcoin’s scarcity: fighting fake bitcoin_](/en/fighting-fake-bitcoin) by Jameson Lopp, Casa Blog
+[^4]: [Don’t give up the fight!](https://youtu.be/JuMlHdxiIZ8?t=143)
+[^5]: "Crypto" has no monetary policy, so it's not even worth mentioning. If you’re still curious, read [Lyn Alden’s article](https://www.lynalden.com/ethereum-analysis/) or just look at [one](https://dergigi.com/assets/images/shitcoins/eth-issuance.png) of these [two](https://dergigi.com/assets/images/shitcoins/eth-monetary-policy.jpg) images.
