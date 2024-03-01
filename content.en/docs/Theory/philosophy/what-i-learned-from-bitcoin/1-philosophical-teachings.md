@@ -20,7 +20,7 @@ weight: 1
 {{< /expand >}}
 
 {{< hint btc >}}
-This article by Gigi was published on [dergigi.com](https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin) website.
+This article by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}

@@ -12,7 +12,7 @@ weight: 52
 ---
 
 {{< hint btc >}}
-This essay by Gigi was published on [dergigi.com](https://dergigi.com/2022/04/03/inalienable-property-rights) website.
+This essay by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2022/04/03/inalienable-property-rights) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}
