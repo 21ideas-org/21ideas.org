@@ -1,14 +1,14 @@
 ---
-title: "Биткоин-астрономия"
-h1: "Биткоин-астрономия"
+title: "Bitcoin Astronomy"
+h1: "Bitcoin Astronomy"
 cover: /img/160.png
 bookCollapseSection: true
 url: ba
 weight: 1
 ---
 
-Биткоин-астрономия - трилогия, написанная Друвом Бансалом, спекулирующая о том, как Биткоин может выглядеть через сотни и тысячи лет и какую роль блокчейн может сыграть в жизнях населения Земли и внеземных цивилизаций.
+Bitcoin Astronomy - A trilogy written by Dhruv Bansal, speculating on what Bitcoin might look like hundreds or thousands of years from now and what role blockchain might play in the lives of Earth's population and extraterrestrial civilizations.
 
-1. Часть 1: [Постгипербиткоинизация](/ba/1)
-2. Часть 2: [Миллион крошечных миров](/ba/2)
-3. Часть 3: [Первый контакт](/ba/3)
+- [Part I](/en/ba/1)
+- [Part II](/en/ba/2)
+- [Part III](/en/ba/3)
