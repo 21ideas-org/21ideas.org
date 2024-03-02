@@ -5,7 +5,7 @@ cover: /img/inb-847.jpeg
 description: "Если вы хотите принимать платежи через лайтнинг или правильно балансировать каналы, у вашего узла должна быть достаточная входящая емкость. В этой статье описывается, что это такое и каковы практические способы ее получения."
 url: problema-vhodyashchej-likvidnosti
 aliases: ['/theory-ln-lightning-inbound-liquidity-problem']
-date: 2021-09-26
+date: 2021-01-30
 bookFlatSection: false
 weight: 7
 ---
