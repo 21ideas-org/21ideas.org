@@ -18,7 +18,7 @@ This article by [Jameson Lopp](https://twitter.com/lopp) was published in Casa [
 
 Bitcoin provides strong assurances around the predictability and scarcity of its money supply. I wrote a detailed technical explanation of how it works [here](https://blog.lopp.net/how-is-the-21-million-bitcoin-cap-defined-and-enforced).
 
-I don't think it's controversial to state that this scarcity is one of [bitcoin's key properties](https://nakamoto.com/what-are-the-key-properties-of-bitcoin/?ref=blog.keys.casa) and fundamental value drivers. If this property is violated, we have a big problem. So...do we have a problem?
+I don't think it's controversial to state that this scarcity is one of [bitcoin's key properties](https://nakamoto.com/what-are-the-key-properties-of-bitcoin/) and fundamental value drivers. If this property is violated, we have a big problem. So...do we have a problem?
 
 {{< tweet user="lopp" id="1591770569414004738" >}}
 
@@ -91,9 +91,9 @@ The history of the precious metals markets and their manipulation by Wall Street
 
 In 2019 the CFTC [announced](https://www.cftc.gov/PressRoom/PressReleases/7946-19?utm_source=govdelivery) that it had fined Merrill Lynch Commodities Inc $25 million for manipulating gold and silver futures contracts on the COMEX exchange between 2008 and 2014. This was done ‘thousands of times’ according to the CFTC, by MLCI traders ‘spoofing’, or placing and then cancelling orders before they were executed. By creating artificial demand or supply and thus false prices, this interfered with the price discovery of precious metals.
 
-But the case against Merrill is far from an isolated event. It follows similar [moves](https://www.reuters.com/article/us-usa-cftc-arrests/european-banks-pay-46-6-million-to-settle-u-s-spoofing-charges-idUSKBN1FI19J?ref=blog.keys.casa) by the CFTC in early 2018 where the CFTC [charged](https://www.cftc.gov/PressRoom/PressReleases/pr7681-18?ref=blog.keys.casa) investment banks UBS, Deutsche Bank, HSBC, and a number of their traders for spoofing precious metals futures from as early as 2008.
+But the case against Merrill is far from an isolated event. It follows similar [moves](https://www.reuters.com/article/us-usa-cftc-arrests/european-banks-pay-46-6-million-to-settle-u-s-spoofing-charges-idUSKBN1FI19J) by the CFTC in early 2018 where the CFTC [charged](https://www.cftc.gov/PressRoom/PressReleases/pr7681-18) investment banks UBS, Deutsche Bank, HSBC, and a number of their traders for spoofing precious metals futures from as early as 2008.
 
-JP Morgan Chase was [caught manipulating the price of silver](https://www.reuters.com/article/jp-morgan-spoofing-penalty-idINKBN26K325?ref=blog.keys.casa) countless times over the span of a decade. Their Global Chief of Precious Metals was convicted of [13 felony counts of attempted price manipulation](https://www.justice.gov/opa/pr/former-jp-morgan-traders-convicted-fraud-attempted-price-manipulation-and-spoofing-multi-year?ref=blog.keys.casa), commodities fraud, wire fraud, and spoofing prices.
+JP Morgan Chase was [caught manipulating the price of silver](https://www.reuters.com/article/jp-morgan-spoofing-penalty-idINKBN26K325) countless times over the span of a decade. Their Global Chief of Precious Metals was convicted of [13 felony counts of attempted price manipulation](https://www.justice.gov/opa/pr/former-jp-morgan-traders-convicted-fraud-attempted-price-manipulation-and-spoofing-multi-year), commodities fraud, wire fraud, and spoofing prices.
 
 And yet the most egregious method of manipulation is right in plain sight. The very structure of contemporary commodity markets where prices are established by trading vast quantities of fractionally backed credits, be it in the form of unallocated positions that are "gold" or "silver" in name only, or in the form of futures that don't have any connection with CME-approved precious metals vaults and warehouses.
 
@@ -137,7 +137,7 @@ Point being, exchanges MUST keep sufficient reserves in order to withstand panic
 
 {{< tweet user="lopp" id="1592090911177334785" >}}
 
-What about lending? In this case we should support non-rehypothecated loans that allow the borrower to hold one key of a [multisig wallet](https://casa.io/learn-more/multisig-wallets?ref=blog.keys.casa). This works by having a user deposit BTC as collateral into a 2 of 3 key wallet for which the user, lender, and a neutral third party each hold a key. The user receives a fiat loan and is able to monitor that collateral on chain to ensure it is not given to anyone else. It's quite clear from the crypto credit crisis of 2022 that rehypothecation makes it very easy to lose track of just how much risk to which one's funds are exposed. This is easier said than done, as rehypothecated loans will always offer more favorable rates due to the increased risk and profitability.
+What about lending? In this case we should support non-rehypothecated loans that allow the borrower to hold one key of a [multisig wallet](https://casa.io/learn-more/multisig-wallets). This works by having a user deposit BTC as collateral into a 2 of 3 key wallet for which the user, lender, and a neutral third party each hold a key. The user receives a fiat loan and is able to monitor that collateral on chain to ensure it is not given to anyone else. It's quite clear from the crypto credit crisis of 2022 that rehypothecation makes it very easy to lose track of just how much risk to which one's funds are exposed. This is easier said than done, as rehypothecated loans will always offer more favorable rates due to the increased risk and profitability.
 
 One reason that the precious metals markets have prolific unbacked paper trading is because it's difficult to deliver and verify physical assets; we have strong footing to insist that bitcoin contracts should be settled in actual bitcoin.
 

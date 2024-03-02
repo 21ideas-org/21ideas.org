@@ -2,7 +2,7 @@
 title: "Privacy"
 bookHidden: false
 bookCollapseSection: true
-url: practice/privacy
+url: practice-privacy
 weight: 5
 ---
 
