@@ -12,7 +12,7 @@ weight: 62
 ---
 
 {{< hint btc >}}
-This article by Brandon Quittem was first published in his [blog](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money).
+This series by Brandon Quittem was published in his [blog](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money).
 
 [Contribute](/contribute/).
 {{< /hint >}}
