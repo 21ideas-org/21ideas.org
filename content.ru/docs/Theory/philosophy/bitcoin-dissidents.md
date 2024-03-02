@@ -5,7 +5,7 @@ cover: /img/diss-915.png
 description: "Неудержимый, цензуроустойчивый Биткоин завоевывает популярность среди протестующих и диссидентов по всему миру."
 url: bitcoin-dissidenty
 aliases: ['/theory-philosophy-bitcoin-dissidents']
-date: 2021-09-26
+date: 2020-12-08
 bookToc: true
 bookFlatSection: false
 weight: 66
