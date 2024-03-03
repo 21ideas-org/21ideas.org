@@ -8,6 +8,7 @@ url: syntax
 date: 2023-08-01
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 1
 ---
 

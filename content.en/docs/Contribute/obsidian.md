@@ -11,6 +11,7 @@ url: obsidian
 date: 2023-09-07
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 3
 ---
 

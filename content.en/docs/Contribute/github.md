@@ -16,13 +16,13 @@ weight: 2
 
 This aspect is crucial when considering the addition of materials to the platform. Therefore, when deciding to add content to the library, consider asking yourself the following questions:
 
-- ** Making Sure the Material Isn't Already Presented**
+- **Making Sure the Material Isn't Already Presented**
 
 An obvious but important question – check if the article you wish to add to the library hasn't been previously included. On the website, you can find a built-in search located in the upper left corner. Try different ways of phrasing the headline when searching. Note that the search extends beyond just titles, covering the entire body of articles too. Thus, locating the material (assuming it exists) shouldn't present difficulties.
 
 - **Assessing Relevance**
 
-Is the article still relevant today? Some pieces remain informative even decades later. A prime example is Trace Mayer's article titled "[Seven Network Effects of Bitcoin](https://www.21ideas.org/en/theory-philosophy-seven-network-effects/)," written in 2015. Although certain examples he cites have become outdated (such as Amazon no longer offering a 20% discount on items purchased with bitcoin), a simple footnote can correct those instances. Meanwhile, the core thoughts presented in the article largely hold true, likely retaining their significance not only for the next five to ten years but possibly even for the upcoming century.
+Is the article still relevant today? Some pieces remain informative even decades later. A prime example is Trace Mayer's article titled "[Seven Network Effects of Bitcoin](/en/seven-network-effects-of-bitcoin/)," written in 2015. Although certain examples he cites have become outdated (such as Amazon no longer offering a 20% discount on items purchased with bitcoin), a simple footnote can correct those instances. Meanwhile, the core thoughts presented in the article largely hold true, likely retaining their significance not only for the next five to ten years but possibly even for the upcoming century.
 
 - **Ensuring Long-Term Value**
 
@@ -32,7 +32,7 @@ Having answered the above questions with a "yes", proceed to the following steps
 
 - **Formatting the Article**
 
-A guide detailing proper formatting for articles can be found [here](https://new.21ideas.org/docs/en/Contribute/syntax/). Before submitting your article for review, familiarize yourself with the guidelines. Minor errors or suggestions for improvement will receive recommendations and advice. However, if the article appears hastily put together, it won't be considered due to the effort and time involved in formatting. Distributing the burden of managing the project is among the primary reasons behind opening it to the community. Gratitude goes towards members willing to contribute to promoting Bitcoin, and rewards are offered for publishing articles in the library. We've put together a dedicated [fund](https://github.com/21ideas-org/21ideas.org#таблица-средств) to boost the platform development. Nevertheless, material quality and presentation must meet high standards.
+A guide detailing proper formatting for articles can be found [here](/en/syntax/). Before submitting your article for review, familiarize yourself with the guidelines. Minor errors or suggestions for improvement will receive recommendations and advice. However, if the article appears hastily put together, it won't be considered due to the effort and time involved in formatting. Distributing the burden of managing the project is among the primary reasons behind opening it to the community. Gratitude goes towards members willing to contribute to promoting Bitcoin, and rewards are offered for publishing articles in the library. We've put together a dedicated [fund](https://github.com/21ideas-org/21ideas.org#таблица-средств) to boost the platform development. Nevertheless, material quality and presentation must meet high standards.
 
 - **Categorizing the Article**
 
@@ -95,7 +95,7 @@ File names should be specified in English. The name must be spelled correctly (c
 
 ![raw](/img/7.png)
 
-10. Copy the so-called "head" of the file – the initial part of the text, framed in `---`. It contains the title of the article, metadata and all the elements necessary for both the site and search engine bots to understand the details of the material, display and index the page. You can learn more about this element [here](https://new.21ideas.org/docs/en/Contribute/syntax/#голова-head).
+10. Copy the so-called "head" of the file – the initial part of the text, framed in `---`. It contains the title of the article, metadata and all the elements necessary for both the site and search engine bots to understand the details of the material, display and index the page. You can learn more about this element [here](/en/syntax/#голова-head).
 11. Replace the title, description, cover image and all other important elements with information that is relevant to your article.
 12. Insert the text of the prepared material below the **head**.
 13. To add images to the article you need to upload them to the repository. To do this:
