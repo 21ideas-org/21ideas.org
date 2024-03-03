@@ -1,59 +1,58 @@
 ---
-title: "Парадокс Джевонса: Обратная истина"
-h1: "Парадокс Джевонса: Обратная истина"
-cover: /img/jevons_paradox/jp_01.png
-description: "Перевод статьи anilsaidso на тему энергопотребления биткоина через призму «Парадокса Джевонса», который был описан в 1865 году Уилльямом Джевонсом, во времена, когда Британское общество было взволновано возможным истощением угольных месторождений на волне ускорения индустриализации и коммерцизации паровых установок."
-url: jevons_paradox
-aliases: ['/jevons_paradox']
-date: 2022-07-22
+title: "Jevons Paradox: Contrary Truth"
+h1: "Jevons Paradox: Contrary Truth"
+cover: /img/jevons_paradox/jp_01-en.png
+description: ""
+url: jevons-paradox
+date: 2022-06-27
 bookFlatSection: false
 weight: 66
 ---
 
-Перевод статьи anilsaidso на тему энергопотребления биткоина через призму «Парадокса Джевонса», который был описан в 1865 году Уилльямом Джевонсом, во времена, когда Британское общество было взволновано возможным истощением угольных месторождений на волне ускорения индустриализации и коммерциализации паровых установок.
+{{< hint btc >}}
+This article by [Anil](https://twitter.com/anilsaidso) was first published on [getrevue.co](http://web.archive.org/web/20220627172832/https://www.getrevue.co/profile/anilsaidso/issues/jevons-paradox-contrary-truth-1242351) website.
 
-{{< hint btc>}}
-Материал подготовил [almoo](https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w).
-{{</hint >}}
+[Contribute](/contribute/).
+{{< /hint>}}
 
-> *«Повышение энергоэффективности может увеличить общее потребление энергии, делая деятельность дешевле и, следовательно, более масштабируемой и доступной»* 
+> *“The observation that improved energy efficiency can increase the overall consumption of energy by making an activity cheaper and thus more scalable or accessible.”* 
 > 
-> — Джон Спейси
+> _— John Spacey_
 
-Использование энергии в качестве механизма безопасности, в случае биткоина, часто становится мишенью для его критики. Но большая часть таких аргументов сводится к посылу, согласно которому вся доступная в мире энергия известна, ограничена или конечна. Это так же предполагает, что люди не способны к инновациям для увеличения количества энергии, вырабатываемой из источника топлива. Чтобы понять суть этого аргумента, необходимо понять ключевую концепцию: парадокс Джевонса.
+Bitcoin’s use of energy as a security mechanism is often a target of critics. But much of their argument boils down to a premise in which all the world’s available energy is known, limited, or finite. This also assumes humans are incapable of innovating to increase the energy generated from a fuel source. Getting to the core of this argument requires an understanding of a key concept: _Jevons Paradox._
 
-Он был впервые описан Уильямом Стэнли Джевонсом в 1865 году. Джевонс заметил, что потребление угля в Англии резко возросло с коммерциализацией паровой машины. Что ещё интереснее, это произошло в то время, когда в общественном дискурсе созрели опасения по поводу истощения угольных месторождений.
+First described by William Stanley Jevons in 1865, he made the observation that coal consumption increased dramatically in England with the commercialization of the steam engine. What is more interesting it that this occurred at a time when public discourse was ripe with fears of coal deposits being depleted.
 
-![jevons](/img/jevons_paradox/jp_02.png)
-|:--:|
-_Уилльям Стенли Джевонс (1835-1882)_
-
-> *«Было бы ошибкой предполагать, что экономное использование топлива эквивалентно сниженному потреблению. Как ни странно, всё наоборот.»* 
+> _“It is a confusion of ideas to suppose that the economical use of fuel is equivalent to diminished consumption. The very contrary is the truth.”_
 > 
-> — У.С. Джевонс, Угольный вопрос 
+> _— W.S. Jevons (The Coal Question)_
 
-Здесь важно понять несколько вещей, так что давайте их разберем:
+{{% image "/img/jevons_paradox/jp_02.png" %}}
+*William Stanley Jevons (1835 – 1882)*
+{{% /image %}}
 
-1. Уголь становился все более дефицитным, и его цена начала отражать это. Существовал стимул найти наиболее эффективное использование ресурса.
-2. Паровые двигатели становились все более эффективными с точки зрения потребления угля и все более полезными для перевозки людей и грузов (включая сам уголь).
-3. Торговля расширялась за счет увеличения количества железнодорожных перевозок, поскольку расстояние не было ограничивающим фактором.
-4. Стало возможным использовать энергию пара для обнаружения, добычи и транспортировки ещё большего количества угля.
-5. Энергию пара начали использовать при бурении, транспортировке и переработке нефти. Сделав ресурс более доступным. Переработанная нефть является более эффективным источником энергии для определенных видов деятельности, что в конечном итоге приводит к снижению спроса на уголь в промышленно развитых странах.
+A few things are at play here, so let’s dissect:
 
-![coal](/img/jevons_paradox/jp_03.png)
+- Coal was becoming more scarce and its price was starting to reflect this. The incentive existed to find _the most_ efficient use for the resource.
+- Steam-powered engines were becoming more efficient in terms of their consumption of coal and increasingly useful in the transportation of people and goods (including coal itself).
+- Trade expanded with increased rail travel, due to distance being less of a limiting factor.
+- Steam power can now be used in the discovery, extraction, and transportation of more coal.
+- Steam power starts being used in the drilling, transportation, and refining of **oil**. Making the resource more widely accessible. Refined oil is a more efficient energy source for certain activities, eventually leading to a reduction in coal demand in industrialized nations.
 
-> *«Энергия - это единственная универсальная валюта»* 
+{{% image "/img/jevons_paradox/jp_03-en.png" /%}}
+
+> *“Energy is the only universal currency”* 
 > 
-> — Вацлав Смил, Энергия и Цивилизация
+> _— Vaclav Smil (Energy and Civilization)_
 
-Неразрывная связь между энергией и деньгами неоспорима и неизбежна. Многие предлагали деньги связанные с энергией на протяжении всей современной истории, но никто не смог успешно разработать или реализовать их. До Сатоши Накамото.
+The unbreakable link between **energy** and **money** is undeniable and inescapable. Many have proposed a money linked to energy throughout modern history, but none were able to successfully design or implement it. _Enter Satoshi Nakamoto._
 
-Биткоин — это инструмент, который будет стимулировать и сопровождать новую эру изобилия энергии. Потому что его метод получения денег устраняет моральный риск и экономические манипуляции из уравнения. Побуждая возвращаться к наиболее эффективному использованию энергии, определяемому лицом, которое понесло затраты на ее приобретение.
+Bitcoin is the tool that will incentivize and usher in a new age of energy abundance. Because securing the money removes moral hazard and economic manipulation from the equation. Incentives revert back to the most efficient use of energy as determined by the individual who bore the cost to acquire it.
 
 {{< tweet user="drew_macmartin" id="1534920201099218946" >}}
-|:--:|
-_Цивилизации развиваются благодаря своей способности ИСПОЛЬЗОВАТЬ энергию, а не энергии, которую они потребляют. Биткоин поощряет первое и препятствует второму._
+
+Like money, energy evolves over time.
+
+And like bitcoin, energy cannot be banned.
 
 {{< tweet user="parman_the" id="1540853615086411776" >}}
-|:--:|
-_Биткоин использует ровно столько энергии, сколько необходимо_
