@@ -1,6 +1,6 @@
 ---
 title: "Механизм работы Lightning Network"
-h1: "Lightning Network"
+h1: "Механизм работы Lightning Network"
 cover: /img/mln-850.jpeg
 description: "Пояснение механизма работы Lightning Network."
 url: mekhanizm-raboty-lightning

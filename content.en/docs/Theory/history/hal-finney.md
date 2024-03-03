@@ -11,7 +11,7 @@ weight: 51
 ---
 
 {{% hint btc %}}
-This article was published by [Dan Held](https://twitter.com/danheld) in [Twitter](https://twitter.com/danheld/status/1244655439024779265).
+This thread was published by [Dan Held](https://twitter.com/danheld) in [Twitter](https://twitter.com/danheld/status/1244655439024779265).
 
 [Contribute](/contribute/).
 {{% /hint %}}

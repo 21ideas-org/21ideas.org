@@ -11,3 +11,4 @@ weight: 6
 4. [Подписки с помощью Лайтнинг](/zapplanner)
 5. [Телеграм-бот @LightningTipBot](/lntips)
 6. [Очищаем биткоины через сеть Лайтнинг](/ochishchaem-bitcoin-cherez-lajtning/)
+7. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)

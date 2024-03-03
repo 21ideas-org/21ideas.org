@@ -5,13 +5,12 @@ url: lightning
 weight: 8
 ---
 
-Раздел, который поведает что такое сеть Лайтнинг и в чем ее преимущества.
+A subsection that tells you what the Lightning Network is and what its advantages are.
 
 1. [Что такое сеть Лайтнинг?](/chto-takoe-laitning)
 2. [Лайтнинг-кошельки](/lajtning-koshelki)
 2. [Лайтнинг-адреса](/lajtning-adresa)
-3. [Приватность в сети Lightning](/privatnost-v-lajtning)
-4. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)
-5. [Централизованна ли сеть Lightning?](/centralizovanna-li-set-lightning)
-6. [Механизм работы Lightning Network](/mekhanizm-raboty-lightning)
-7. [Решение проблемы входящей пропускной способности в сети lightning](/problema-vhodyashchej-likvidnosti)
+3. [Current State of Lightning Network Privacy](/en/lightning-network-privacy)
+4. [OMG, LN nodes are running on Amazon!](/en/is-lightning-centralized)
+5. [Lightning Network Explained](/en/lightning-network-explained)
+6. [Solutions to inbound liquidity problem in Lightning Network](/en/inbound-liquidity-problem)
