@@ -66,4 +66,4 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 - [Что такое деньги](/chto-takoe-dengi)
 - [Only The Strong Survive](/en/only-the-strong-survive)
 - [Dollar-Cost Averaging](/en/dollar-cost-averaging)
-- [Парадокс Джевонса: Обратная истина](/jevons_paradox)
+- [Jevons Paradox: Contrary Truth](/en/jevons-paradox)

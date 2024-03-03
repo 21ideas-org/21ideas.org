@@ -72,4 +72,4 @@ weight: 1
 - [Что такое деньги](/chto-takoe-dengi)
 - [Выживает сильнейший](/vyzhivaet-silnejshij)
 - [Стратегия DCA и Биткоин](/strategiya-dca)
-- [Парадокс Джевонса: Обратная истина](/jevons_paradox)
+- [Парадокс Джевонса: Обратная истина](/jevons-paradox)
