@@ -12,7 +12,7 @@ weight: 4
 ---
 
 {{< hint btc >}}
-This article by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/coldcard) website.
+This guide by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/coldcard) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}

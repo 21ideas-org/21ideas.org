@@ -11,6 +11,12 @@ bookToc: true
 weight: 3
 ---
 
+{{< hint btc >}}
+This guide by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/robosats) website.
+
+[Contribute](/contribute/).
+{{< /hint >}}
+
 # noKYC
 
 The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!
