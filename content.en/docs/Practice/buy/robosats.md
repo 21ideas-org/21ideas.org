@@ -1,277 +1,267 @@
 ---
-title: "RoboSats: Приватный p2p обмен"
-h1: RoboSats – Простой и приватный способ обмена биткоина
-cover: /img/robosats/cover.png
-tags: ["биткоин", "покупка", "no-kyc", "приватность", "безопасность"]
-description: "Лучший способ покупки биткоинов, не требующий документов."
+title: "RoboSats: Private P2P Exchange"
+h1: "RoboSats: A simple and private Lightning based P2P exchange"
+cover: /img/robosats/robo-01-en.png
+tags: ["bitcoin", "buy", "no-kyc", "privacy", "security"]
+description: ""
 url: robosats
-date: 2024-01-18
+date: 2023-05-22
 bookFlatSection: false
 bookToc: true
 weight: 3
 ---
 
-Живя в цифровую эпоху важно уделять внимание приватности. Информация всегда стремится на волю, и имеет смысл делиться с окружающими как можно меньшим количеством персональных данных. Это особенно критично, когда речь заходит о финансах – никто не хочет, чтобы размеры их сбережений стали общедоступной информацией. К сожалению, большинство продолжает пользоваться централизованными биржами и проходить процедуру  KYC, связывая все свои последующие покупки с собственной личностью. Биржи часто подвергаются взломам, при которых не только крадут биткоины, но и копируют персональные данные пользователей и продают их в даркнете. Цель сегодняшней статьи – детально описать один из наиболее приватных методов покупки и продажи биткоина, где вам не нужно предоставлять даже адрес электронной почты. Встречайте: RoboSats.
+# noKYC
 
-## Что такое RoboSats?
+The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!
 
-RoboSats – это так называемая пиринговая торговая площадка, попросту место, где встречаются и проводят сделки покупатели и продавцы биткоина. В этом RoboSats напоминает Hodl Hodl, о которой мы рассказывали [здесь](/hodl-hodl). При этом RoboSats может похвастаться рядом уникальных функций:
+You then wait for background checks to come through before you’re accepted and can finally smash buy some sats. After all that you still don’t really own any Bitcoin! What you have at this stage is an IOU and you still need to get those sats into a wallet where you control the private keys.
 
-- **Акцент на приватности пользователей:** RoboSats использует браузер Tor. Площадка также не требует от вас каких-либо данных, даже email. Вместо этого при входе вы можете либо сгенерировать новый аккаунт, либо использовать сгенерированный ранее.
-- **Поддержка сети лайтнинг:** По умолчанию RoboSats использует сеть лайтнинг, что особенно привлекательно на сегодняшний день, учитывая высокие ончейн-комиссии. При этом площадка предоставляет возможность отправить или получить биткоин ончейн. 
+A pretty horrible experience, and hardly in the spirit of Bitcoin I think you’ll agree! Let’s also not forget that some company now has your personal information stored on a server somewhere waiting for an attacker to come along and compromise it. Sounds far-fetched, but these types of breaches happen all too often, just search for the names ‘Mt Gox’, ‘Binance’ and ‘Ledger’.
 
-### Терминология[^1]
+## So what’s the alternative?
 
+Buying Bitcoin [noKYConly!](/en/privacy/no-kyc)
 
-| Термин | Описание |
+There are many ways to obtain Bitcoin without having to provide all of your personal details to a company that may or may not know how to properly secure that data. I have guides on using peer-to-peer markets like [Bisq](https://bitcoiner.guide/bisq) and [HodlHodl](https://bitcoiner.guide/hodlhodl), but one of the new kids on the noKYC block is RoboSats.
+
+{{% image "/img/193.png" /%}}
+
+# What is RoboSats?
+
+[RoboSats](https://github.com/RoboSats/robosats) is an Open Source peer-to-peer exchange for buying and selling sats using the Lightning Network. It requires zero sign up information, is accessible via the Tor browser or an Android app and allows you to obtain sats directly to your own wallet. Because RoboSats is native to the Lightning Network, trades can be completed in as little as 5 minutes (_if both peers are online at the same time_) and for incredibly low fees.
+
+RoboSats operates globally, supporting all popular fiat currencies and payment methods. All you need is a peer wanting to do trade in your chosen currency/method pairing. If your chosen method is not listed, you can create your own offer and wait for someone to come to you. Certain payment methods come with more risk than others, so be sure to be aware of the [trade-offs](https://learn.robosats.com/docs/payment-methods/) of your chosen method.
+
+# Before You Start
+
+## Things you need to know
+
+### Jargon Buster
+
+|   |   |
 |---|---|
-|Робот|Ваш автоматически сгенерированный личный торговый идентификатор. Не используйте одного и того же робота более одного раза, так как это снижает уровень приватности.|
-|Токен|Строка случайных символов, используемая для генерации вашего уникального робота.|
-|Мейкер|Пользователь, который создает предложение о покупке или продаже биткоина.|
-|Тейкер|Пользователь, который принимает чужое предложение покупки или продажи биткоина.|
-|Бонд|Биткоины, заблокированные обоими участниками в качестве обязательства выполнить свою часть сделки. Бонды обычно составляют 3% от общей суммы сделки и взимаются через так называемые холд-инвойсы.|
-|Эскроу|Используется продавцом в качестве метода хранения торговой суммы, опять же с помощью холд-инвойсов.|
-|Комиссии|RoboSats взимает 0.2% от суммы сделки. Сумма распределяется между продавцом и покупателем. Тейкер платит 0.175 %, а мейкер – 0.025 %.|
+|[Robot](https://learn.robosats.com/docs/robots/)|Your automatically generated private trade identity. Do not re-use the same robot more than once as this can degrade your privacy.|
+|[Token](https://learn.robosats.com/docs/robots/#robot-re-use-not-recommended)|A string of random characters used to generate your unique robot.|
+|[Maker](https://bitcoiner.guide/robosats/)|A user who creates an offer to buy or sell Bitcoin.|
+|[Taker](https://bitcoiner.guide/robosats/)|A user who takes another user up on their offer to buy or sell Bitcoin.|
+|[Bond](https://learn.robosats.com/docs/bonds/)|An amount of Bitcoin locked up by both peers as a pledge to play fair and complete their part of the trade. Bonds are typically 3% of the total trade amount and are powered by [Hodl Invoices](https://github.com/lightningnetwork/lnd/pull/2022).|
+|[Trade Escrow](https://learn.robosats.com/docs/escrow/)|Used by the seller as a method of holding the trade amount of Bitcoin, again using Hodl Invoices.|
+|[Fees](https://learn.robosats.com/docs/fees/)|RoboSats charges **0.2%** of the trade amount, which is split between both maker and taker. The taker pays **0.175%** and the maker pays **0.025%**.|
 
-## Что вам понадобится
+## Things you need to have
 
-### Лайтнинг-кошелек 
+### A Lightning Wallet
 
-RoboSats работает на основе технологии лайтнинг, поэтому вам понадобится кошелек с поддержкой этой сети. Если вы еще не определились с кошельком, [этот гид](/lajtning-koshelki) поможет вам с выбором. 
+RoboSats is Lightning native, so you’re going to need a Lightning Wallet to fund the bond and receive the purchased sats as a buyer. You should take care when choosing your wallet, due to the technology used to make RoboSats function, not all are [compatible](https://learn.robosats.com/docs/wallets/).
 
-### Немного сат
+If you’re a node runner, [Zeus](https://zeusln.app/) is by far the best option. If you don’t have your own node, I’d highly recommend [Phoenix](https://phoenix.acinq.co/), a cross platform mobile wallet with simple setup and access to Lightning. Phoenix was used in the production of this guide.
 
-Прежде чем совершить сделку, покупатели и продавцы должны пополнить счет. Обычно это небольшая сумма, около 3% от суммы сделки.
+### Some Bitcoin
 
-{{< hint info >}}
-Используете RoboSats для покупки своих первых сатов? Вы можете попросить друга одолжить вам небольшую сумму, необходимую для начала работы. Если среди ваших знакомых еще нет биткоинеров, напишите в [русскоязычный чат RoboSats](https://t.me/robosats_ru), уверены, что кто-то из участников сообщества будет не прочь помочь с первыми шагами.
-{{< /hint >}}
+Buyers and sellers need to fund a bond before any trade can take place. This is usually a very small amount (_~3% of the trade amount_), but is a prerequisite nonetheless.
 
-### Доступ к площадке
+Using RoboSats to buy your first sats? Why not get a friend to loan you the tiny amount required to get started!? If you’re flying solo, [here](https://bitcoiner.guide/nokyconly) are some other great options to obtain some noKYC sats to get you started.
 
-Очевидно, вам понадобится доступ к RoboSats! Площадка предлагает четыре основных способа взаимодействия:
+### Access to RoboSats
 
-- [Через браузер Tor](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/) (рекомендуется!)
-- [Через обычный веб-браузер](https://unsafe.robosats.com/) (Не рекомендуется!)[^2]
-- [Через APK для Android](https://github.com/RoboSats/robosats/releases/latest)
+Obviously you’re going to need to access RoboSats! There are four main ways in which you can do this:
 
-Если вы ранее не пользовались Tor, узнать больше об этом браузере и скачать его можно [здесь](https://www.torproject.org/ru/).
+- [Via Tor Browser](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/) (_Recommended!_)
+- [Via a regular web-browser](https://unsafe.robosats.com/) (_Not recommended!_)
+- [Via the Android APK](https://github.com/RoboSats/robosats/releases/latest)
+- [Your own client](https://bitcoiner.guide/robosats/#run-your-own-robosats-client)
 
-{{< hint warning >}}
-**Пользователям iOS**, желающим получить доступ к RoboSats через Tor со своего телефона: *'Onion Browser' ≠ ‘Tor Browser’*. Вместо него используйте Orbot + Safari и Orbot + DuckDuckGo.
-{{< /hint >}}
+If you’re new to the Tor browser, learn more and download it [here](https://www.torproject.org/).
 
-## Покупка/продажа биткоина
+A quick note for iOS users looking to access RoboSats via Tor from their phones. ‘Onion Browser’ is **not** Tor Browser. Instead use Orbot + Safari and Orbot + DuckDuckGo.
 
-Начнем с покупки биткоина.
+# Buying Bitcoin
 
-{{< hint info >}}
-Данный гид был написан в январе 2024 года с использованием версии 0.6.0-alpha через браузер Tor. Опыт использования на других платформах или с использованием следующих версий может немного отличаться.
-{{< /hint >}}
+The following steps were conducted in May 2023 using version 0.5.0, accessed via the Tor browser. The steps should be identical for users accessing RoboSats via the Android APK.
 
-Скачиваем браузер [Tor](https://www.torproject.org/ru/) и переходим на onion-сайт RoboSats [здесь](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/).
-Первый раз посетив площадку вы увидите приветственное сообщение. По умолчанию вас встретят на английском языке. Изменить язык можно сразу, перейдя в настройки. Далее жмем “Старт”.
+At the time of writing RoboSats is still undergoing active development, so the interface may change a little in the future, but the basic steps required to complete the trade should remain largely unchanged.
 
+1. When you first load RoboSats you’ll be met with this landing page. Click Start.
 
-{{% image "/img/robosats/start.png" %}}
-_Как вы можете видеть на скриншоте выше, RoboSats также предлагает возможность переиспользования ранее созданных токенов. Делать это не рекомендуется, так как это снижает уровень вашей приватности._
-{{% /image %}}
+{{% image "/img/robosats/robo-02-en.png" /%}}
 
-Следующим шагом является создание токена. Процесс очень прост и интуитивен. 
+2. Generate your token and store it somewhere safe like an [encrypted notes](https://standardnotes.com/) app or [password manager](https://bitwarden.com/). This token can be used to recover your temporary Robot ID in the event that your browser or app closes mid way through a trade.
 
-{{% image "/img/robosats/token.png" %}}
-_Не забудьте сохранить полученный токен в приложение заметок на вашем устройстве. Это делается лишь на время данной сессии на случай, если ваше соединение прервется._
-{{% /image %}}
+{{% image "/img/robosats/robo-03-en.png" /%}}
 
-Дойдя до четвертого экрана, выбираем “Офферы” или “Создать”. Предлагаю начать с более простого подхода, где мы примем чей-то уже размещенный оффер. Позже мы опишем и процесс создания собственного оффера.
+3. Meet your new Robot identity, then click Continue.
 
-Выбрав опцию “Офферы” вы попадете на страницу с доступными предложениями. 
+{{% image "/img/robosats/robo-04-en.png" /%}}
 
-{{% image "/img/robosats/list.png" /%}}
+4. Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and [premium](https://learn.robosats.com/docs/premium/) over the average exchange rate.
 
-Здесь вы можете:
+- Choose Buy
+- Choose your currency
+- Choose your payment method(s)
 
-1. Отфильтровать только предложения по свопу. RoboSats предоставляет возможность обмена сатоши между сетью лайтнинг и ончейн (подробнее об этом в подразделе ["P2P свопы"](/robosats/#p2p-свопы)). Кликнув по этой кнопке, вы увидите все такие предложения.
-2. Отфильтровать по валюте. 
-3. Отфильтровать по методу оплаты. Можно уточнить предпочитаемый банк или даже подарочные сертификаты (об этом чуть [позже](/robosats/#всевозможные-методы-оплаты)).
+{{% image "/img/robosats/robo-05-en.png" /%}}
 
-Применив желаемые фильтры, выберите подходящее предложение.
+5. Click on the offer you’d like to take. Enter the amount (_in your chosen fiat currency_) that you’d like to purchase from the seller, then have a final check of the details and click Take Order.
 
-{{% image "/img/robosats/choose.png" /%}}
+If the seller is not online (_denoted by a red dot on their profile image_), you’ll see a warning that the trade could take longer than usual. If you continue and the seller does not proceed in time, you’ll be compensated 50% of their bond amount for your wasted time.
 
-Вам будут представлены подробности сделки:
+{{% image "/img/robosats/robo-06-en.png" /%}}
 
-{{% image "/img/robosats/details.png" /%}}
+6. Next, you need to lock up your trade bond by paying the invoice on screen. This is a hold invoice that freezes in your wallet. It will only be charged if you fail to complete your side of the trade.
 
-Приняв ордер, вам нужно будет заблокировать примерно 3% от общей суммы, используя сеть лайтнинг. Эти средства замораживаются на вашем лайтнинг-кошельке на время проведения сделки в качестве залога. 
+{{% image "/img/robosats/robo-07-en.png" /%}}
 
-{{% image "/img/robosats/lock.png" %}}
-_Чтобы заблокировать средства, отсканируйте представленный QR-код вашим [лайтнинг-кошельком](/lajtning-koshelki)._
-{{% /image %}}
+7. In your Lightning Wallet, scan the QR code and pay the invoice.
 
-Далее необходимо предоставить реквизиты получения биткоина. Вы можете либо предоставить лайтнинг-инвойс для получения сат: 
+{{% image "/img/robosats/robo-08-en.png" /%}}
 
-{{% image "/img/robosats/address.png" /%}}
+8. Next, in your Lightning Wallet generate an invoice for the amount shown and paste into the space provided.
 
-...либо воспользоваться сервисом для свопа[^3] сат в основную сеть Биткоин: 
+{{% image "/img/robosats/robo-09-en.png" /%}}
 
-{{% image "/img/robosats/onchain.png" /%}}
+9. Wait for the seller to lock their trade amount. When this takes place, RoboSats will automatically move to the next step where the chat window will open. Say Hi and ask the seller for their fiat payment information. Once provided, send the payment via the chosen method then confirm this in RoboSats. All chat in RoboSats is PGP encrypted meaning only you and your trade peer can read the messages.
 
-После того, как вы укажете адрес получения средств, следует отправить фиат оговоренным способом и подтвердить отправку на платформе:
+{{% image "/img/robosats/robo-10-en.png" /%}}
 
-{{% image "/img/robosats/check.png" /%}}
+10. Once the seller confirms receipt of the payment, RoboSats automatically releases the payment using the invoice provided earlier.
 
-Когда продавец получит фиат и подтвердит получение, вы получите средства на ваш кошелек и сделка будет завершена.
+{{% image "/img/robosats/robo-11-en.png" /%}}
 
-{{% image "/img/robosats/finish-buy.png" /%}}
+11. When the invoice is paid, the trade is finished and your bond is unlocked. You’ll then see a trade summary.
 
-Поздравляем! Вы приобрели свои первые сатоши приватным и некастодиальным способом.
+{{% image "/img/robosats/robo-12-en.png" /%}}
 
-## Создание оффера
+12. Check your Lightning Wallet for confirmation that the sats have arrived.
 
-Создать оффер на площадке RoboSats не сложнее, чем принять чье-то предложение. Чтобы создать оффер перейдите во вкладку “Создать” в нижней части экрана. 
+{{% image "/img/robosats/robo-13-en.png" /%}}
 
-{{% image "/img/robosats/create1.png" /%}}
+# Additional Features
 
-Здесь необходимо:
+As well as the obvious buying and selling of Bitcoin, RoboSats has a few other features you should know about.
 
-- Отметить, хотите вы купить биткоин или продать,
-- Указать сумму,
-- Выбрать валюту,
-- Уточнить метод оплаты: вы можете добавить метод оплаты, если подходящего еще нет в списке (подробнее об этом [ниже](/robosats/#всевозможные-методы-оплаты)),
-- Сигнализировать, если желаете провести встречу лицом к лицу и оплату биткоинов наличными. Для этого отметьте место встречи на карте (подробнее),
-- Определиться с наценкой. Ваш интерес как мейкера в процентном соотношении от среднерыночного,
-- Нажать “Create Order” (создать ордер). 
+## Robot Garage
 
-Далее вам будет предложено сохранить токен робота. 
+Want to have multiple trades going at the same time, but don’t want to share the same identity across them? No problem! Click on the Robot tab, generate an additional Robot and create or take your next order.
 
-{{% image "/img/robosats/create2.png" %}}
-_Сохраните токен в приложении заметок на вашем устройстве. Это делается лишь на время данной сессии на случай, если ваше соединение прервется._
-{{% /image %}}
+{{% image "/img/robosats/robo-14-en.png" /%}}
 
-Внимательно проверьте всю информацию и оплатите холд-инвойс. Это – необходимая часть заключения сделки на RoboSats. Эти средства замораживаются на вашем кошельке на случай, если вы внезапно откажетесь от сделки или проиграете в диспуте. 
+## Creating Orders
 
-{{% image "/img/robosats/create3.png" %}}
-_Замораживается, как правило, 3% от общей суммы предстоящей сделки. Эти средства служат гарантом того, что контрагенты не будут себя злонамеренно вести._
-{{% /image %}}
+As well as taking someone else’s offer, you can create your own and wait for another Robot to come to you.
 
+1. Open the Create page.
+2. Define if your order is to buy or sell Bitcoin.
+3. Enter the amount and currency you want to Buy/Sell with.
+4. Enter the payment method(s) you’re willing to use.
+5. Enter the ‘Premium over Market’ % you’re willing to accept. Note that this can be a negative figure to bid at a discount vs than the current market price.
+6. Click Create Order.
+7. Pay the Lightning invoice to lock your Maker Bond.
+8. Your order is now live. Sit back and wait for someone to accept it.
 
-После успешного завершения сделки средства размораживаются.
+{{% image "/img/robosats/robo-15-en.png" /%}}
 
-Чтобы заморозить средства необходимо оплатить инвойс (счет) через сеть лайтнинг. Для этого переходим в свой лайтнинг-кошелек и сканируем представленный площадкой RoboSats QR-код (как на скриншоте выше). 
+## On-chain Payouts
 
-После оплаты инвойса мы будем перенаправлены на вкладку “Ордер”, отображающую размещенное вами предложение
+RoboSats is Lightning focused, but buyers do have the option to receive their sats to an on-chain Bitcoin address. Buyers can select this option after locking up their bond. After selecting on-chain, the buyer will see an overview of the fees. The additional fees for this service include:
 
-{{% image "/img/robosats/order.png" /%}}
+1. **A swap fee collected by RoboSats** - This fee is dynamic and moves depending on how busy the Bitcoin network is.
+2. **A mining fee for the payout transaction** - This is configurable by the buyer.
 
-Ваш ордер теперь отображается в общем списке и ожидает контрагента. Когда кто-то примет ваше предложение, вы услышите звуковой сигнал и должны будете отреагировать в течение 3 часов. В противном случае ваш бонд (залог) сгорит. Вы также можете включить уведомления через Телеграм:
+{{% image "/img/robosats/robo-16-en.png" /%}}
 
-{{% image "/img/robosats/tg.png" /%}}
+## P2P Swaps
 
-Когда покупатель объявится и внесет залог, вам будет представлено следующее сообщение… 
+RoboSats allows users to swap sats into or out of their Lightning Wallet. Simply click the swap button at the top of the offers page to view the current swap offers.
 
-{{% image "/img/robosats/taker.png" /%}}
+As the buyer of a ‘Swap In’ offer, you send on-chain Bitcoin to the peer and receive sats back, minus the advertised fees and/or premiums, to your Lightning Wallet. As the buyer of a ‘Swap Out’ offer, you send sats via Lightning and receive Bitcoin, minus any fees and/or premiums, to your on-chain address. Samourai or Sparrow Wallet users can also leverage the Stowaway feature to complete a swap.
 
-… и предложено оплатить всю сумму в биткоинах через сеть лайтнинг.
+RoboSats swap offers can also incorporate pegged alternatives to Bitcoin that include RBTC, LBTC and WBTC. You should take extreme care if interacting with these tokens as they all come with various tradeoffs. Pegged Bitcoin is not Bitcoin!
 
-{{% image "/img/robosats/pay.png" /%}}
+{{% image "/img/robosats/robo-17-en.png" /%}}
 
-{{< hint warning >}}
-Продать биткоин на RoboSats можно только через сеть лайтнинг. Но не дайте этому вас оттолкнуть: существует [множество способов вывести ваши биткоины в сеть лайтнинг](https://youtu.be/xH--uHmtF-Q). Пожалуй, самым простым решением будет отправка необходимой суммы (с небольшим запасом) на заранее установленный кошелек Wallet of Satoshi (чуть подробнее о нем [здесь](/lajtning-koshelki/#wallet-of-satoshi-wos)) и оплата лайтнинг-инвойса с его помощью.
-{{< /hint >}}
+## Run your own RoboSats Client
 
-Оплатив инвойс, вам нужно будет подождать пока покупатель предоставит лайтнинг-инвойс или ончейн-адрес для получения средств.
+Umbrel, Citadel and Start9 node runners can install their own RoboSats client directly onto their node. The [benefits](https://github.com/RoboSats/robosats/tree/main/nodeapp#why-host-your-own-robosats-client) of doing so are listed as:
 
-{{% image "/img/robosats/waiting.png" /%}}
+1. Dramatically faster load times.
+2. Safer: you control what RoboSats client app you run.
+3. Access RoboSats safely from any browser / device. No need to use TOR if you are on your local network or using VPN: your node backend handles the torification needed for anonymization.
+4. Allows control over what P2P market coordinator you connect to (_defaults to robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion_)
 
-Далее откроется окно чата, где вы можете обсудить детали отправки фиата, другие подробности и методы передачи. Для обеспечения максимального уровня приватности и безопасности в чате используется сквозное шифрование.
+{{% image "/img/robosats/robo-18-en.png" /%}}
 
-{{% image "/img/robosats/chat.png" /%}}
+# FAQ
 
-{{< hint warning >}}
-При продаже биткоина вам придется предоставлять платежные данные для получения фиата. Если будете пользоваться банковской картой, возможно, стоит обзавестись отдельной картой для операций с биткоином. Вы также можете выбрать более приватные способы, например принять оплату [ваучерами интернет-магазина](/robosats/#всевозможные-методы-оплаты) или [наличными при личной встрече](/robosats/#сделки-лицом-к-лицу).
-{{< /hint >}}
+## Can I be scammed?
 
-Когда вы получите средства и подтвердите получение, саты будут отправлены покупателю.
+As a buyer, if you’ve sent the fiat required for your side of the trade, but the seller fails to release the sats to you then you can open a dispute. If during this dispute process you can prove to the RoboSats arbitrators that you did send the fiat, the sellers escrowed funds and their trade bond will be released to you.
 
-{{% image "/img/robosats/confirm.png" %}}
-_Подтвердите получение фиата, чтобы завершить сделку_
-{{% /image %}}
+## How do I cancel a trade?
 
-Готово! Сделка завершена. Не забудьте оставить отзыв.
+You can cancel a trade after posting your bond by clicking the Collaborative Cancel button within the trade menu. If your trade peer is happy to cancel, you will incur no fees. But if your trade partner wants to complete the trade and you go ahead and cancel anyway, you’ll lose your trade bond.
 
-{{% image "/img/robosats/finish.png" /%}}
+## Does RoboSats work with ‘X’ payment method?
 
-Что ж, мы ознакомились с базовым уровнем использования RoboSats. Давайте взглянем на некоторые продвинутые функции площадки.
+There are no restrictions on payment methods in RoboSats. If you don’t see any offers in your desired method, create your own offer using it!
 
-## Дополнительные функции
+{{% image "/img/robosats/robo-19-en.png" /%}}
 
-### Гараж роботов
+## What does RoboSats learn about me when I use it?
 
-RoboSats предоставляет возможность создания и “парковки” нескольких роботов. Эта опция будет полезна активным пользователям, позволяя одновременно создавать несколько офферов и проводить несколько сделок, используя разные ID и повышая уровень своей приватности.
+Providing you use RoboSats via Tor or the Android app, nothing at all! Learn more [here.](https://learn.robosats.com/docs/private/)
 
-{{% image "/img/robosats/garage.png" /%}}
+- Tor protects your network privacy.
+- PGP encryption keeps your trade chat private.
+- No accounts means one Robot per trade. This means RoboSats can’t correlate multiple trades to a single entity.
 
-### Всевозможные методы оплаты
+However, there are some caveats! Lightning is fairly private as a sender, but not as a receiver. If you receive to your own Lightning node, your node ID is shared in your invoices. This node ID gives anyone with knowledge of it a starting point to try and link your on-chain activity. This is also true if a user opts to receive their trade via an on-chain payout.
 
-RoboSats, будучи открытой площадкой, предоставляет возможность использовать любые удобные пользователям методы передачи средств в обмен на саты. На площадке уже представлены классические методы, такие как оплата через Сбербанк и Тинькофф, но кроме этого вы можете воспользоваться "нетрадиционными" методами или даже указать свой, если он еще не представлен на площадке:
+To mitigate this, users can opt to use a solution such as a [Proxy Wallet](https://learn.robosats.com/docs/proxy-wallets/) for Lightning or [Coinjoin](https://bitcoiner.guide/privacy/separate/) for on-chain.
 
-{{% image "/img/robosats/add.png" %}}
-_Чтобы добавить новый метод оплаты, просто введите его название (1) и нажмите "Добавить новый" (2)_
-{{% /image %}}
+# Coming Soon
 
-{{< hint info >}}
-Пользователи по всему миру используют самые разные сертификаты и ваучеры для обмена на биткоин, например подарочные карты Sony и Microsoft, а также сертификаты Amazon. В большинстве случаев такой подход помогает повысить уровень приватности получателя средств - вам не нужно разглашать ваш номер телефона или карты, и ваша фамилия и инциалы не сообщаются отправителю фиата.
-{{< /hint >}}
+## Federation
 
-Для пользователей из РФ полезными для повышения приватности будут сертификаты Ozon – вы можете купить их за саты, а позже обменять их на любой товар от спичек до двухметрового телевизора. Просто укажите, что готовы обменять биткоины на сертификаты Ozon при создании оффера или примите оффер с этим методом оплаты. Далее покупателю биткоина останется лишь [приобрести сертификат](https://www.ozon.ru/landing/giftcertificates) и сообщить его код продавцу (вместо отправки фиата на карту).
+Right now there is a single RoboSats coordinator operated by the RoboSats developer team. In Bitcoin, any form of centralisation makes for an easier target for governments or regulators who may not look fondly upon a specific service.
 
-### Сделки лицом к лицу
+With RoboSats being an Open Source project, anybody could take the code and start running their own coordinator. Whilst this does somewhat decentralise the risk away from a single target, it also fragments an already thin liquidity market.
 
-Еще одним альтернативным способом передачи фиата в обмен н биткоин явдяется передача наличных в оффлайн-среде. Для этого на платформе доступна карта мира, а детали встречи вы можете обсудить в зашифрованном чате.
+The RoboSats team realise this and have started work on a [federated model](https://github.com/RoboSats/robosats/issues/228). As an end user, this should not change the trade flow demonstrated above by much, but there will be extra views or screens for you to add or remove different coordinators that arise.
 
-{{% image "/img/robosats/map.png" %}}
-_В случае личных встреч выбирайте людные места с установленными камерами видеонаблюдения, такие как почтовое отделение._
-{{% /image %}}
+# Learn More
 
-### P2P-свопы
+## Written Guides
 
-RoboSats предлагает отдельную вкладку для желающих осуществить своп[^3] (обмен) лайтнинг-сат в ончейн или сайдчейны Биткоина. Пользователи Samourai Wallet и Sparrow также могут воспользоваться функцией Stowaway (PayJoin). Также поддерживаются свопы в/из LBTC, RBTC, WBTC. Будьте внимательны, выполняя свопы!
+Check out [Athena Alpha](https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/) for their guide on how to buy bitcoins with RoboSats or their full review [here](https://www.athena-alpha.com/robosats-review/).
 
-{{% image "/img/robosats/swap.png" /%}}
+## Video Guides
 
-Чтобы найти подходящее предложение, нажмите на вкладку странички свопов (1), выберите “в” или “из” (2) актива вы хотите произвести своп и укажите актив (3). Теперь из представленных опций можно выбрать подходящее предложение. Подобно стандартным ордерам на куплю/продажу вы можете самостоятельно создать и ордер на своп – процесс аналогичен.
+See RoboSats in action with these awesome video guides by [BTC Sessions](https://www.youtube.com/@BTCSessions) and [Ian Major](https://www.youtube.com/@IanMajor).
 
-### Самостоятельный хостинг клиента
+{{< youtube XW_wzRz_BDI />}}
 
-Пользователи Umbrel, Start9 и Citadel могут установить клиент RoboSats прямо на свои узлы (домашние серверы). Это предоставит пользователям следующие [бенефиты](https://github.com/RoboSats/robosats/tree/main/nodeapp#why-host-your-own-robosats-client):
+{{< youtube QISRoZxQaAs />}}
 
-- Ускорен процесс запуска приложения;
-- Улучшена безопасность: контроль над клиентом RoboSats только у вас;
-- Обеспечен безопасный доступ к RoboSats из любого браузера и с любого устройства. Нет необходимости использовать TOR, если вы находитесь в вашей локальной сети или используете VPN;
-- Предоставлена возможность контролировать, к какому P2P координатору вы подключаетесь (по умолчанию – robosats6tkf3eva7x2voq3a5wcorsnw34jveyxfqi2fu7oyheasid.onion)
+### Useful Links
 
-{{% image "/img/robosats/self.png" /%}}
+RoboSats is completely Open-Source. You can find the code source [here](https://github.com/RoboSats/robosats) and their extensive documentation [here](https://learn.robosats.com/)
 
-### Федерации
+Use RoboSats by any of the following methods:
 
-С версией 0.6.0-alpha RoboSats [представили](https://learn.robosats.com/robosats/update/pre-release-robosats-decentralized/) федерации – возможность каждому желающему запустить собственную версию площадки и координировать торги. Это огромный шаг в сторону децентрализации и цензуростойкости платформы. С развитием этого направления мы поделимся с вами особенностями запуска федераций. Следите за обновлениями и появлением стабильной публичной версии.
+- [Tor](http://robosats6tkf3eva7x2voqso3a5wcorsnw34jveyxfqi2fu7oyheasid.onion/)
+- [Clearnet](https://unsafe.robosats.com/) (_Not recommended!_)
+- [Android APK](https://github.com/RoboSats/robosats/releases/latest)
+- [Your own client](https://bitcoiner.guide/robosats/#run-your-own-robosats-client)
 
-## Полезные ссылки
+If you have any questions or feedback, get involved via these options:
 
-RoboSats – проект с открытым исходным кодом и активным сообществом. Всю необходимую информацию можно найти, перейдя по следующим ссылкам:
+- [SimpleX](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D)
+- [Reddit](https://reddit.com/r/robosats)
+- [Matrix](https://matrix.to/#/#robosats:matrix.org)
 
-- [GitHub](https://github.com/RoboSats/robosats)
-- [Документация](https://learn.robosats.com/docs/quick-start/)
-- [Телеграм чат](https://t.me/robosats_ru) (ру)
-- [SimpleX чат](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D) (eng)
-- [Matrix чат](https://matrix.to/#/#robosats:matrix.org) (eng) 
+_Starting from June 12th, 2023, the Robosats Telegram group will no longer be active. More info [here](https://twitter.com/RoboSats/status/1668043842275229696?s=20)_.
 
-Надеемся, этот гид оказался полезен. Остались вопросы? Есть предложения? Оставляйте комментарии через Ностр ниже или пишите нам [другими способами](/feedback).
+Remember - No RoboSats representative will ever contact you unannounced via any of these platforms. If someone does, they are almost certainly a scammer and should be blocked.
 
-
-[^1]: Подразделы “Терминология” и “Что вам понадобится” позаимствованы из [гида](https://bitcoiner.guide/robosats/) Bitcoin QnA 
-
-[^2]: На момент написания статьи версия clearnet не доступна.
-
-[^3]: Так как площадка RoboSats оперирует поверх сети лайтнинг, "нативной валютой" считаются сатоши в этой сети (на втором уровне). Для отправки средств получателям ончейн RoboSats прибегает к так называемым свопам - бездоверительным сделкам, обменивающим саты в сети лайтнинг на ончейн-монеты. __В итоге все происходит под капотом, вам заблаговременно сообщают о комиссиях, и вы получаете биткоины ончейн.__
+And finally, don’t forget to follow them on [Twitter](https://twitter.com/RoboSats) and [Nostr](https://snort.social/p/npub1p2psats79rypr8lpnl9t5qdekfp700x660qsgw284xvq4s09lqrqqk3m82) to stay up to date!
