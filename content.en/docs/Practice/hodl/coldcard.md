@@ -1,20 +1,18 @@
 ---
 title: "What is Coldcard?"
-h1: "Coldcard"
+h1: "Coldcard: Feature rich hardware wallet"
 cover: /img/cc-521.jpg
 tags: ["bitcoin", "hodl", "cold storage", "hardware wallet", "security"]
-description: "Feature rich hardware wallet."
+description: ""
 url: coldcard
-date: 2021-09-18
+date: 2020-07-03
 bookFlatSection: false
 bookToc: true
 weight: 4
 ---
 
-Feature rich hardware wallet.
-
 {{< hint btc >}}
-This article by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/coldcard) website.
+This guide by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/coldcard) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}
