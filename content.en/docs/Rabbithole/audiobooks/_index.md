@@ -6,6 +6,7 @@ cover: /img/main-section/audiobooks.png
 url: audiobooks
 bookCollapseSection: false
 bookFlatSection: false
+bookHidden: true
 weight: 3
 ---
 
