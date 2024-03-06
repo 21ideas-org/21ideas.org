@@ -1,9 +1,9 @@
 ---
-title: "Что такое Биткоин?"
-h1: "Что такое Биткоин? Теоретический гид для новичков"
-cover: /img/start/01.svg
+title: "Bitcoin Basics"
+h1: "What is Bitcoin and how it works? A theoretical guide for the newcomers"
+cover: /img/start/cover.png
 tags: ["биткоин", "основы"]
-description: "Базовый гид по Биткоину."
+description: "Basic Bitcoin guide for newcomers."
 url: start/start
 aliases: ['/basics-bitcoin-guide-theory']
 date: 2022-12-06
@@ -12,312 +12,317 @@ bookToc: true
 weight: 1
 ---
 
-Итак, вы услышали о Биткоине, но не уверены что это такое, как во всем этом разобраться? Прежде, чем торопиться с покупкой своих первых монет, стоит уделить время изучению особенностей Биткоина. В противном случае вы рискуете потерять деньги - будь то продав биткоины, побоявшись падения его цены к национальной валюте или из-за некорректного хранения монет. Этот гид поможет вам понять что такое Биткоин, зачем он был разработан и ознакомиться с основами того, как он работает.
-
-Ну  что ж, начнем.
+So you've heard about Bitcoin, but you're not sure what it is? Before you rush into buying your first coins, it's worth taking the time to learn the ins and outs the Bitcoin phenomenon. Otherwise, you run the risk of losing money – whether you sell bitcoins, fearing a drop in its price or due to bad custody decisions. This guide will help you understand what Bitcoin is, why it was developed and familiarize yourself with the basics of how it works.
 
 {{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
-
-[Поддержать проект](/contribute/).
+This guide is based on the materials of now-closed "crypto" business. It has been revised and adapted by [Tony](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Support the project](/en/contribute).
 {{< /hint >}}
 
-# Зачем нужен Биткоин?
+## Learn why Bitcoin was created and why it is so valuable
 
-_Узнайте, зачем был изобретен Биткоин и почему он так ценен_
+Bitcoin is designed to let you store, send, and receive money without any banks or credit card companies.
 
----
+![](/img/start/en/no-banker.png)
 
-Биткоин создан для того, чтобы вы могли хранить, отправлять и получать деньги, не взаимодействуя с какими-либо банками или компаниями-эмитентами кредитных карт.
-
-До появления биткоина для отправки и получения средств требовались банки, кредитные карты или такие компании, как PayPal и Venmo. Эти компании были необходимы для выполнения задач, которые были под силу только им: проверять, что у того, кто тратит деньги, действительно есть соответствующие средства. Банкам это удается, потому что они хранят деньги всех клиентов и у них есть доступ к остаткам на счетах каждого.
+Until Bitcoin came around, you needed banks, credit cards, or companies like PayPal and Venmo to send and receive money. These companies were necessary to do something only they could do: verify that the person spending money actually has money to spend. Banks can do this because they hold everyone’s money, so they know all account balances.
 
 ---
 
-Но что плохого в том, чтобы пользоваться услугами банков и компаний-эмитентов кредитных карт? Для начала, они медлительные, дорогие и являются частью неисправной финансовой системы.
+But what's so great about not using banks and credit card companies? For starters, they are slow, expensive, and part of a broken financial system.
 
-Банки несут огромные расходы на содержание зданий, юристов и высокооплачиваемых руководителей. Все это финансируется за счет взимаемых с вас комиссий (и через массовые финансирования убыточных бизнесов из карманов налогоплательщиков, как в 2008 году). Также банки ограничивают доступ к вашим деньгам и лимитируют их отправку.
+![](/img/start/overspending.png)
+
+Banks have huge costs for buildings, lawyers, and highly paid executives - all funded by the fees you pay (and massive taxpayer bailouts, like in 2008). Banks also limit how you can access and send your money.
 
 ---
 
-В 2008 году разработчик под псевдонимом Сатоши Накамото, изобрел Биткоин. По сей день Сатоши остается анонимным, и никто не знает, кто он такой.
+In 2008, a mysterious person calling himself Satoshi Nakamoto invented Bitcoin. To this day, Satoshi remains anonymous and nobody knows who he or she is.
 
 ![](/img/start/02.svg)
 
-Сатоши может быть женщиной, мужчиной или группой людей. Никто не знает! Мы знаем только то, что домен bitcoin.org был зарегистрирован в августе 2008 года. Затем, в ноябре, Сатоши опубликовал знаменитый документ Bitcoin Whitepaper.
+Satoshi could be a woman, a man, or a group of people. Nobody knows! What we do know is that the [bitcoin.org](https://bitcoin.org/en/) domain was registered in August 2008. Then, in November, Satoshi posted the famous Bitcoin Whitepaper.   
 
-Первые биткоины были выпущены в январе 2009 года. В код первого Биткоин-блока было вложено сообщение "Канцлер на грани повторного спасения банков", намекающее на то, что Биткоин был создан как инструмент противостояния финансовым кризисам, таким как мы наблюдали в 2008 году.
+![](/img/start/en/who-is.png)
+
+The first Bitcoins were issued in January 2009. Embedded in the first Bitcoin code was the message “Chancellor on brink of second bailout for banks.” - hinting at Bitcoin’s creation because of the 2008 financial crisis.
 
 ---
 
-Прорыв Биткоина заключается в том, что он первым решил проблему настолько сложную, что ей дали собственное название: "[Проблема двойной траты](https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%BE%D0%B9%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D1%81%D1%85%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)".
+Bitcoin’s breakthrough is that it’s the first to solve a problem so tough, it has its own name: The Double Spend Problem.
 
 ![](/img/start/03.svg)
 
-Суть проблемы двойной траты заключается в следующем: цифровые деньги подобны компьютерному файлу, поэтому любой может попросту подделать их, копируя и вставляя данные. До появления биткоина проблема решалась путем отслеживания банками средств на счетах каждого пользователя, чтобы никто не мог потратить деньги дважды.
+Here is how the Double Spend Problem works: Digital money is just like a computer file, so it would be easy for somebody to just “counterfeit” it by copy and pasting. Before Bitcoin, the solution was for banks to keep track of the money in everybody's accounts, so that nobody could spend money twice.
 
-Биткоин решает проблему двойной траты иным образом. Он делает все счета и транзакции публичными, не раскрывая при этом частной информации, например, вашего имени. Поскольку остатки на счетах публичны, будет очевидно, что кто-то использовал одни и те же деньги дважды.
-
-Как только биткоин отправлен, он публично добавляется на счет получателя. Поэтому если мошенник попытается потратить биткоин дважды, это легко обнаружить и предотвратить.
+Bitcoin solves the Double Spend Problem differently. It makes all accounts and transactions public - but without revealing private details like your name. Since account balances are public, it would be obvious if someone used the same money twice.   
+  
+Once bitcoin is sent, it’s publicly added to the receiver’s account. So if a scammer tries to spend their Bitcoin twice, it’s easily discovered and prevented.
 
 ---
 
-Значение решения проблемы двойной траты сложно переоценить. Это позволило отправлять средства через сеть Биткоин напрямую от одного человека к другому, не прибегая к помощи третьей стороны, например, банка.
+Solving the Double Spend Problem is a big deal. It allows bitcoin to be sent directly from one person to another, without using ANY third party like a bank.
 
 ![](/img/start/04.svg)
 
-Отсутствие необходимости в третьей стороне для обработки счетов и транзакций имеет множество преимуществ. Транзакции могут быть быстрее и дешевле, поскольку нет необходимости оплачивать услуги посредников.
+Not needing a third party (like a bank) to handle accounts and transactions has a lot of benefits. Transactions can be faster and cheaper since there is no middleman.   
 
-Кроме того, ваша личная информация становится более приватной, поскольку она теперь не хранится в банке. Понимаете, каким образом биткоин изменил игру?
+Plus, your personal information becomes more private since no bank has to store it. You’re probably beginning to see why Bitcoin is such a game changer.
 
-# Что такое Биткоин?
+## Let’s talk about why Bitcoin is so unique and revolutionary
 
-Поговорим о том, почему Биткоин является уникальным и революционным открытием
-
----
-
-Биткоин — это новая, полностью цифровая форма денег. Его может использовать каждый в любой точке мира. Нет ни долларов, ни евро, ни песо, ни иен - это универсальная валюта.
+Bitcoin is a new form of money that's completely digital. It can be used by anyone, anywhere in the world. There are no dollars, euros, pesos, or yen - it’s a universal currency.
 
 ![](/img/start/05.svg)
 
-В отличие от традиционных форм денег, биткоины не имеют физической формы. Ни долларовых купюр, ни металлических монет, ни пластиковых карт. Это 100% цифровая валюта! Все операции проводятся со смартфонов и компьютеров. Это позволяет проводить быстрые и дешевые транзакции по всему миру без перерывов и выходных.
+Unlike traditional forms of money, there are no physical bitcoins. No dollar bills, no metal coins, no plastic cards – it’s 100% digital! Everything is done from phones and computers. This allows for fast and cheap transactions around the world and around the clock.
 
 ---
 
-Невероятно, но ни один человек, ни одна компания, ни одно правительство не контролирует Биткоин. Им управляет сообщество его пользователей. Обратите на это внимание — это важно!
+Incredibly, Bitcoin is not controlled by any person, company, or government. It’s run by the community of its users. Read that twice, because it’s important!
 
 ![](/img/start/06.svg)
 
-Пользователи Биткоина разбросаны по всему миру и используют интернет для отправки и получения платежей. Но в отличие от традиционных платежей, которые проходят через банки, биткоин отправляется непосредственно от человека к человеку, а не от человека к компании. Это известно как одноранговая система (P2P), что означает отсутствие центрального контроля.
+Bitcoin users are located all around the world and use the internet to help send and receive payments. But unlike traditional payments that pass through banks, bitcoin is sent directly from person to person, instead of from person to company to person. This is known as a peer-to-peer system (P2P). It means there is no central control.
 
-Удивительно то, что для работы этой системы никому из пользователей Биткоин-сообщества не нужно знать друг друга – ни адреса, ни паспортных данных, никаких персональных данных, даже имени. Вы можете отправлять и получать биткоин онлайн, не встречаясь с другим человеком и даже не доверяя ему. Мы объясним, как это возможно, чуть позже.
-
----
-
-Биткоин обладает рядом преимуществ, которые делают его лучше традиционных денег, банков и компаний-эмитентов кредитных карт. Давайте подробнее остановимся на свойствах, которые делают Биткоин уникальным.
-
-Биткоин был создан для решения проблем, существовавших в традиционной банковской системе. Но, найдя умное решение проблемы двойной траты, Сатоши также создал лучший тип денег. Фактически, он смог полностью переосмыслить принцип работы денег.
+What’s amazing is that none of the users in the Bitcoin community need to know each other for this system to work. You can send and receive bitcoin online without needing to meet or even trust the other person. We’ll explain how that’s possible in a bit.
 
 ---
 
-**Преимущество #1: Децентрализация**
+Bitcoin has benefits that make it better than traditional money, banks, and credit card companies. Let's explore what makes Bitcoin so unique.
 
-Традиционные деньги контролируются банками и правительствами, что делает их "централизованной" валютой.
+![](/img/start/shining.png)
 
-Биткоин не контролируется и не регулируется ни одной организацией — ни банком, ни правительством — что делает его "децентрализованной" валютой.
-
-Отсутствие контролирующих банков приводит к удешевлению отправки и получения денег, а также делает процесс быстрее и проще.
-
-Исключение банков из цепочки денежных переводов банков означает, что никто не может отклонить ваше заявление, никто не может закрыть ваш счет и никто не может взимать с вас непомерные комиссии. Короче говоря, банки больше не властны. Именно это делает децентрализованные деньги такими неудержимыми.
-
-Более двух миллиардов людей во всем мире не имеют доступа к банковским счетам! Это мешает им общаться с остальным миром, они исключены из финансовой системы. Для них банк похож на модный клуб, в который им не попасть.
-
-Благодаря Биткоину у них появился доступ к банковской системе ... без банков. Добро пожаловать! Все что вам нужно — это смартфон и подключение к интернету!
+Bitcoin was designed to solve problems that existed with the traditional banking system. But by finding a clever solution to the Double Spend Problem, Satoshi also created a better type of money. In fact, he was able to completely reinvent how money works.
 
 ---
 
-**Преимущество #2: Невозможность подделки**
+**Benefit 1 - Decentralization** 
 
-Банкноты, кредитные карты и чеки можно подделать. Если вы когда-либо становились жертвой мошенничества, вы знаете, насколько это неприятно.
+Traditional money is controlled by banks and governments – which makes it a “centralized” currency.  
 
-Биткоин решает проблему двойной траты, что означает, что преступники не могут создавать фальшивые биткоины. Подделка попросту невозможна.
+![](/img/start/no-control.png)
 
-Фальшивомонетничество очень распространено. Только в США, по разным оценкам, в обращении находится от 70 до 200 миллионов долларов поддельных купюр. Это составляет до 1 из каждых 4,000 законно произведенных купюр. Для Биткоина этой проблемы попросту не существует. Кроме того, вам не придется платить высокие комиссии за защиту от мошенничества!
+Traditional money is controlled by banks and governments – which makes it a “centralized” currency.  
+  
+Bitcoin is not controlled or regulated by any single entity like a bank – which makes it a “decentralized” currency.   
+  
+Having no banks in control makes sending and receiving money cheaper, faster, and easier.
 
----
+Not having banks involved means nobody can deny your application, nobody can close your account, and nobody can charge you outrageous fees. In short, banks are no longer in charge. This is what makes decentralized money so powerful.
 
-**Преимущество #3: Ограниченное предложение**
-
-Традиционные деньги создаются правительствами в неограниченных количествах. Правительства безостановочно печатают все больше денег, что со временем снижает покупательную способность национальных валют.
-
-Предложение Биткоина ограничено 21 миллионом монет. Их никогда не может быть больше! Почему? Биткоин создан как редкий актив, поэтому его ценность со временем возрастает.
-
-Постоянно растущее предложение денег вызывает инфляцию. Это означает, что сберегаемые вами деньги с каждым днем обесцениваются. Для тех, кто много работает и пытается накопить сбережения, это плохо. Именно поэтому в 1950 году мороженое стоило 5 центов, а сегодня стоит 5 долларов. Традиционные деньги продолжают терять свою ценность.
-
-Ограниченное предложение Биткоина создает противоположный эффект, именуемый дефляцией. Это означает, что ценность каждого биткоина со временем растет. Это одна из причин, по которой многие заинтересованы в инвестировании в биткоин.
+Over 2 billion people worldwide can’t even get access to bank accounts! This prevents them from connecting with the rest of the world – they’re excluded. To them, a bank is like a fancy club they can’t get into.   
+  
+Bitcoin will give them the benefits of a bank, without needing a bank. Anyone with a smartphone and internet connection is welcome!
 
 ---
 
-**Преимущество #4: Делимость**
+**Benefit 2 - No Counterfeit Money**  
+  
+Paper currencies, credit cards, and checks can be counterfeit. If you’ve ever been a victim of fraud, you know how much this sucks.  
+
+![](/img/start/en/brrrr.png)
+
+Bitcoin solves the Double Spend Problem which means criminals cannot create fake bitcoins. Counterfeiting is impossible.
+
+Counterfeit traditional money is very common. In the U.S. alone it is estimated that between $70 and $200 million in counterfeit bills are in circulation. That’s up to 1 out of every 4,000 real bills. For Bitcoin, this issue simply doesn’t exist. Plus, you won’t have to pay those high fees for fraud protection!
+
+---
+
+**Benefit 3 - Limited Supply**  
+  
+Traditional money is created by governments in unlimited quantities. They print more constantly, which decreases the value over time.  
+
+![](/img/start/en/limited.png)
+
+Bitcoin’s supply is limited to 21 million coins. There can never be more! Why? It’s designed to be scarce so that it increases in value over time.
+
+A constantly increasing supply of money creates something called inflation. This means that the money you are holding is worth a little less every day. If you’re working hard and trying to save up, that’s bad. It’s why an ice cream was $0.05 in 1950, but is $5.00 today… traditional money keeps losing value.  
+  
+Bitcoin’s limited supply creates the opposite effect, called deflation. This means the value of each Bitcoin is designed to increase over time. It’s part of the reason why so many people are excited about investing in Bitcoin.
+
+---
+
+**Benefit 4 - Divisibility**  
+
+Old fashioned money can be spent only in amounts as small as a single cent (so up to 2 decimal places).  
 
 ![](/img/start/07.svg)
 
-Традиционные деньги можно тратить только в суммах размером до одного цента (то есть до 2 знаков после запятой).
+Bitcoin can be spent in much smaller amounts, called Satoshis (all the way up to 8 decimal places). This means that it can be used even for tiny purchases.
 
-Биткоин можно разделить на гораздо меньшие суммы, под названием сатоши (вплоть до 8 знаков после запятой). Это означает, что его можно использовать даже для мелких покупок.
+Bitcoin is highly divisible because its value is designed to increase over time (through deflation). This divisibility means you can spend very small amounts of a bitcoin. So basically, an ice cream cone may cost 0.001 bitcoin today, but in the future it may cost 0.00000010 bitcoins, if bitcoin’s value rises even more.
 
-Делимость биткоина очень высока, поскольку его ценность призвана со временем расти (в силу дефляции). Такая делимость означает, что вы можете потратить совсем незначительную часть биткоина. Так что, по сути, сегодня рожок мороженого может стоить 0.001 биткоина, но в будущем он может стоить 0.00000010 биткоина, если стоимость криптовалюты поднимется еще выше.
-
-Практический пример того, как высокая делимость биткоина может быть полезна сегодня, — это микротранзакции. Микротранзакции — это очень маленькие платежи, используемые для оплаты цифровых товаров и услуг. Например, представьте, что вы платите лишь крошечную сумму в биткоинах за каждую страницу электронной книги, которую читаете, вместо того чтобы платить за всю книгу сразу.
-
-Микротранзакции — это то, на что не способны традиционные деньги, потому что центы недостаточно делимы и поэтому слишком велики для столь незначительных покупок.
+A practical example where Bitcoin’s high divisibility is useful today is for microtransactions. These are very small payments used for digital goods and services. For example, imagine paying only a tiny amount of bitcoin for every page of an ebook you read, instead of paying for the whole book.   
+  
+Microtransactions are something traditional money can’t do, because cents are not divisible enough and therefore too big for very small purchases.
 
 ---
 
-**Преимущество #5: Безопасность**
+**Benefit 5 - Security**  
+  
+There is a lot of money stored in Bitcoin, so it needs to be very secure. Bitcoin uses cryptography to securely send payments.  
 
-![](/img/start/08.svg)
+![](/img/start/secure.png)
 
-В сети Биткоин хранится много денег, поэтому она должна быть очень безопасной. Для безопасной отправки платежей Биткоин использует криптографию.
+That’s why Bitcoin is called a cryptocurrency. The code is so strong that tampering is virtually impossible. There is A LOT of money held in Bitcoin, but it has never been hacked!
 
-Именно поэтому Биткоин называют криптовалютой. Код настолько силен, что подделать его практически невозможно. В Биткоине хранится МНОГО денег, но его еще ни разу не удалось взломать!
-
-Говоря простым языком, криптография — это технология, которая защищает информацию с помощью сложных математических функций. Биткоин использует надежную криптографию для защиты вашего счета и безопасной отправки денег. Она не позволяет взломать ваш счет. Никто не может получить чужие деньги.
+In simple terms, cryptography is a technology that protects information through complex math functions. Bitcoin uses strong cryptography to protect your account and let you securely send money. It’s designed so that nobody can hack your account, and it prevents the wrong person from receiving your money.
 
 
-# Как работает Биткоин?
+## Let’s now see how Bitcoin actually works
 
-Теперь, когда вы знаете, что такое Биткоин и зачем он нужен, давайте разберемся с тем, как он на самом деле работает.
-
----
-
-Представьте себе четырех незнакомцев, сидящих в комнате. У каждого из них свой блокнот. Они незнакомы и не доверяют друг другу.
+Imagine four strangers sitting in a room, each with their own notebook. Because they are strangers, they don’t know or trust each other.
 
 ![](/img/start/09.svg)
 
-Четыре незнакомца в этом примере представляют сообщество Биткоин-пользователей. Мы используем незнакомцев для нашего пояснения, потому что в реальном мире большинство Биткоин-пользователей не знакомы. Блокноты в этом примере представляют собой так называемый блокчейн Биткоина. В блокчейне хранится публичная запись каждой когда-либо совершенной биткоин-транзакции. Сам блокчейн хранится не на бумаге; он на 100% цифровой и публичный.
-
-Важно подчеркнуть, что существуют тысячи и тысячи идентичных копий блокчейна, хранящихся у пользователей по всему миру. Все эти копии синхронизируются системой.
-
----
-
-Один незнакомец отдает один биткоин другому незнакомцу. Теперь КАЖДЫЙ из четырех незнакомцев записывает эту транзакцию.
-
-Затем они сравнивают все свои блокноты, чтобы убедиться, что они совпадают.
-
-Как и в примере, когда биткоин отправляется, транзакция записывается на КАЖДОЙ из тысяч копий Биткоин-блокчейна по всему миру. Каждая копия является идентичной записью всех транзакций.
-
-Точно так же, как в примере сравнивались блокноты, система Биткоин постоянно сравнивает все копии блокчейна, чтобы убедиться, что все транзакции, задокументированные в разных копиях совпадают.
+The four strangers in this example represent Bitcoin’s community of users. We are using strangers to explain this, because in the real world, most Bitcoin users do not know each other. The notebooks in this example represent what's called the Bitcoin Blockchain. The Blockchain stores a public record of every single bitcoin transaction ever made. The Blockchain is not on paper but 100% digital and public.   
+  
+Most importantly, there are thousands and thousands of identical copies of the Blockchain held by users around the world. All these copies are kept in sync by the system that runs the Blockchain.
 
 ---
 
-Если записи во всех четырех блокнотах совпадают, все в порядке. Транзакция одобрена всеми участниками.
+One stranger gives one bitcoin to another stranger. Now, EACH of the four strangers records this transaction.   
+  
+They then compare all their notebooks to make sure they match.
 
-Если одна тетрадь отличается от трех остальных, у нас проблема. Это означает, что один незнакомец лжет о сделке. Мы также знаем, кто из них лжет (подсказка: это тот, у кого тетрадь не совпадает с остальными). В результате трое других игнорируют отличающийся блокнот и продолжают, как ни в чем небывало. Сделка не одобрена.
+![](/img/start/en/accepted.png)
 
-В случае с Биткоином также возможен один из двух исходов: если все копии блокчейна совпадают, то все в порядке, и транзакция действительна.
-
-Если одна из копий блокчейна отличается от всех остальных в сети Биткоин, сеть автоматически отклоняет отличающуюся транзакцию. Именно это предотвращает мошенничество. Мошенники не могут манипулировать системой, поскольку их копия блокчейна не совпадает с тем, что согласовано со всеми остальными (консенсусом). Подробнее о механизмах управления Биткоина можно узнать из [этой статьи](/upravlenie-bitcoin).
+Just like in the example, when bitcoin is sent, the transaction is recorded on EVERY one of the thousands of copies of the Bitcoin Blockchain around the world. Each copy is an identical record of all transactions.  
+  
+Just like notebooks were compared in the example, the Bitcoin system is constantly comparing all copies of the Blockchain to make sure they all have matching transactions.
 
 ---
 
-Биткоин работает точно так же, как в примере с блокнотами. Каждый биткоин-пользователь хранит копию "блокнота" Биткоина, в котором публично записываются все транзакции. Все блокноты постоянно сравниваются, чтобы убедиться, что информация в них совпадает с версией, утвержденной большинством.
+If all four notebooks match up, everything is fine. The transaction is approved by everybody. 
+
+If one notebook is different from the other three, we have a problem. It means one stranger is lying about the transaction. We also know which stranger is lying (hint: it’s the one with the notebook that doesn’t match the others). As a result, the three others ignore the notebook that doesn’t match and move on. The transaction is not approved.
+
+![](/img/start/en/rejected.png)
+
+The same two outcomes can happen with Bitcoin: If all Blockchain copies match, everything is fine and the transaction will proceed.  
+  
+If one Blockchain copy is different from all others in the Bitcoin network, the network automatically rejects the transaction that doesn’t match the rest. This is what prevents fraud. It’s impossible for scammers to manipulate the system, since their Blockchain copy wouldn’t match what everyone else agrees on.
+
+---
+
+Bitcoin works exactly like the notebook example. Each Bitcoin user has an identical copy of the Bitcoin “notebook” which publicly records all transactions. All notebooks get constantly compared to make sure they match.  
+  
+Additionally, Bitcoin stores all past transactions permanently so that there is a record of where all bitcoin currently are. This proves who owns which bitcoin.
 
 ![](/img/start/10.svg)
 
-Кроме того, блокчейн биткоина хранит все прошлые транзакции. Поэтому каждый из нас может увидеть историю любого биткоина вплоть до самого первого, созданного Сатоши Накамото. Такая доступность позволяет легко доказать, какие монеты кому принадлежат. Точнее, какому кошельку они принадлежат. Напомню, ничьи персональные данные в блокчейне не хранятся
-
-Одним словом, блокчейн Биткоина знает, где находится каждый биткоин в любой момент времени. Это очень мощный инструмент, поскольку он доказывает право собственности, не требуя при этом доверия третьей стороне, такой как банк.
-
-Традиционные валюты не имеют блокчейна, поэтому в некоторых случаях вы не можете доказать, кому что принадлежит. Это облегчает мошенничество и кражи. Например, представьте, что кто-то украл у вас 20 долларов наличными. Вы не можете легко доказать, кому принадлежит эта конкретная купюра.
+In short, the Bitcoin Blockchain knows where every single bitcoin is at all times. This is very powerful since it proves ownership without needing a third party like a bank.  
+  
+Traditional currencies don’t have a Blockchain, so in some cases you can’t prove who owns what. This makes fraud and theft easier. For example, imagine somebody steals $20 in cash from you. You can’t easily prove who owns it.
 
 ---
 
-Технология, которая хранит и постоянно сравнивает "блокноты" Биткоина, чтобы убедиться, что все они идентичны, называется блокчейн.
+The technology that stores and constantly compares Bitcoin’s “notebooks” to make sure they are all identical is called the Blockchain.
 
 ![](/img/start/11.svg)
 
-Блокчейн Биткоина — это технология, которая позволяет незнакомым людям взаимодействовать для обмена деньгами без необходимости кому-либо доверять. Это означает, что нет необходимости в посредниках, таких как банки или компании-эмитенты.
+Bitcoin’s Blockchain is the technology that allows strangers to work together to exchange money without trust. This means no middlemen like banks are needed.  
+  
+Instead of recording transactions in private record systems like a bank or credit card company does, Bitcoin users record ALL transactions at the SAME TIME in IDENTICAL copies of the Blockchain. As a result, any attempt to fool the system would be noticed as obviously different and rejected by the system.
 
-Вместо того чтобы записывать транзакции в частных системах учета, как это делают банки или компании, выпускающие кредитные карты, пользователи Биткоина ОДНОВРЕМЕННО записывают ВСЕ транзакции в ИДЕНТИЧНЫЕ копии Блокчейна. В результате любая попытка обмануть систему будет замечена как явно отличающаяся и отвергнута системой.
-
-Этот метод сравнения всех идентичных "блокнотов" называется консенсусом или взаимным согласием о том, что транзакция не является мошеннической.
-
-Биткоин использует ту же стратегию для сравнения всех транзакций в блокчейне. Он может делать это очень быстро благодаря использованию мощного компьютерного кода. Процесс сравнения транзакций с помощью этого компьютерного кода известен как алгоритм консенсуса Биткоина.
+This method of comparing all the identical “notebooks” is called finding a “consensus” - in other words a mutual agreement that the transaction isn’t fraud.   
+  
+Bitcoin uses the same strategy to compare all transactions on the Blockchain. It can do this very quickly by using powerful computer code. The process of comparing transactions using this computer code is known as Bitcoin’s Consensus Algorithm.
 
 ---
 
-Блокчейн — это технология, которая делает биткоин столь ценным, поскольку она устраняет необходимость в дорогостоящих услугах третьей стороны для проверки транзакций.
+Blockchain is the technology that makes Bitcoin so valuable, because it removes the need for a costly third party (like banks and credit card companies) to check transactions.  
+  
+With Blockchain, total strangers can now exchange money without any trust and without any third parties being required. That’s revolutionary!
 
 ![](/img/start/12.svg)
 
-Благодаря блокчейну совершенно незнакомые люди теперь могут обмениваться деньгами без какого-либо доверия и без привлечения третьих сторон. Это революционный прорыв!
-
-Помните коварную проблему двойной траты? Биткоин решает эту проблему благодаря блокчейну.
-
-Как только биткоин переходит из рук в руки, транзакция становится официальной записью в блокчейне. Эта транзакция автоматически и навечно записывается, поэтому деньги не могут быть потрачены вновь. Огромная проблема решена!
-
-
-# Как отправлять и получать биткоин?
-
-Теперь, когда вы знаете, как работают биткоин и блокчейн, давайте разберем транзакции.
+Remember the tricky Double Spend Problem from before? The Blockchain is what Bitcoin uses to prevent this problem from ever happening.   
+  
+Once a bitcoin changes hands the transaction becomes an official Blockchain entry that’s automatically and permanently recorded, so the money can’t be spent twice. (Huge) Problem solved!
 
 ---
 
-Как и традиционные деньги, биткоин хранится в кошельках. Но кошельки биткоина (сюрприз-сюрприз) являются цифровыми.
+## Now that you know how Bitcoin and the Blockchain work, let’s look at transactions
+
+Just like real money, bitcoin is stored in wallets. But Bitcoin’s wallets are (surprise, surprise) digital.
 
 ![](/img/start/13.svg)
 
-Кошелек хранит приватные ключи, которые открывают вам доступ к вашим биткоинам. Сами биткоины "живут" в блокчейне и никогда его не покидают.
+It seems weird, but your wallet doesn’t actually “hold” your bitcoins on your computer or phone. Instead, your wallet simply grants access to your bitcoins, which are recorded on the Blockchain itself.
 
 ---
 
-Ваш биткоин-кошелек чем-то напоминает банковский счет. С его помощью вы получаете доступ к своим деньгам.
+Your Bitcoin wallet is like a bank account. It’s how you access your money.  
+  
+Each Bitcoin wallet has a unique address so you can send money to and from it.
 
 ![](/img/start/14.svg)
 
-У каждого биткоин-кошелька есть уникальный адрес, чтобы вы могли отправлять и получать средства.
-
-Вы можете представить себе адрес кошелька  как номер банковского счета. Он используется для той же цели: чтобы убедиться, что биткоин отправлен на правильный кошелек (счет).
-
-Биткоин-адрес — это просто строка, состоящая из цифр и букв. Это единственная информация, необходимая для отправки и получения биткоина, поэтому ваше имя не разглашается.
+You can picture the Bitcoin wallet address like a bank account number. It’s used for the same purpose: To make sure bitcoin is sent to the right wallet (account).   
+  
+A Bitcoin address is just a string of numbers and letters. It’s the only piece of information required to send and receive Bitcoin, so your name is not shared.
 
 ---
 
-Чтобы отправить биткоин с одного кошелька на другой, сначала необходимо авторизовать транзакцию.
+To send bitcoin from one wallet to another, you first need to authorize the transaction.  
+  
+Just like in real life, you authorize transactions through a signature. For Bitcoin, this signature is done with a password called your private key.
 
 ![](/img/start/15.svg)
 
-Как и в реальной жизни, вы авторизуете транзакции с помощью подписи. В случае с биткоином эта подпись выполняется с помощью пароля, называемого вашим приватным ключом.
-
-Ваш приватный биткоин-ключ выступает в роли пароля, но на самом деле является вашей цифровой подписью. Она доказывает, что именно вы санкционировали перевод средств. Очень важно, чтобы вы всегда держали свой приватный ключ в секрете — он не зря называется приватным (закрытым / личным).
-
-В системе Биткоина фактически используется два типа ключей: публичный (открытый) и приватный (закрытый). Но знаете что? На самом деле вам вовсе не обязательно забивать голову этими деталями. Все это происходит “за кулисами” и автоматически выполняется вашим кошельком. Все, что вам нужно для получения денег, – это ваш биткоин-адрес.
+Your Bitcoin private key works like a password, but it’s really your digital signature. It proves that it was you who authorized the transfer. It’s very important that you always keep your private key secret- it’s called private for a reason.  
+  
+Bitcoin’s system actually uses two types of keys: Public and private. The best part? You don’t actually have to deal with any of these details. It’s all done automatically by your wallet. All you use to receive money is your Bitcoin address.
 
 ---
 
-Давайте рассмотрим вышесказанное на примере. Допустим, Боб хочет отправить Алисе один биткоин.
-
-Биткоин будет отправлен с кошелька Боба на кошелек Алисы. Для этого Боб вводит биткоин-адрес Алисы, а затем его кошелек использует цифровую подпись (приватный ключ) для авторизации транзакции. Бум! Биткоин в пути!
+Let’s use an example to put it all together: Say Bob wants to send Jane one bitcoin.  
+  
+The bitcoin will be sent from Bob’s wallet to Jane’s wallet. To do this, Bob enters Jane’s Bitcoin address, and then his wallet uses the digital signature (private key) to authorize the transaction. Boom, now the bitcoin is on the way!
 
 ![](/img/start/16.svg)
 
-В отличие от внесения чека или наличных, Алисе не нужно ничего делать, чтобы получить деньги. Более того, никакая третья сторона не обрабатывает транзакцию и, соответственно, не может ее остановить.
+Unlike depositing a check or cash, Jane doesn’t have to do anything to receive the money. More importantly, no third party (like a bank) has to process the transaction or can stop it.
 
 ---
 
-Как только Боб нажимает кнопку "Отправить", его биткоин-транзакция добавляется в блокчейн для обработки.
+Once Bob hits “Send” his bitcoin transaction is added to the Blockchain for processing.
 
 ![](/img/start/17.svg)
 
-Биткоин-транзакция Боба на самом деле еще не отправлена. Вместо этого Боб только объявил, что он хочет отправить свои монеты. Далее сообщество пользователей проверяет, действительно ли у Боба достаточно биткоинов, чтобы отправить платеж Алисе. Не забывайте, что эта проверка осуществляется автоматически путем сравнения копий блокчейна. После проверки баланса Боба отправляется в путь. Отлично!
+Bob’s bitcoin transaction isn’t actually sent quite yet. Instead, Bob only announced that he wants to send his bitcoin. Next, the community of users verifies that Bob actually has enough bitcoin to send. Remember, this verification is done automatically by comparing Blockchain copies. Once verified, Bob’s bitcoin is on the way. Woosh!
 
 ---
 
-Вот как происходит обработка: транзакции, инициированные в последние 10 минут объединяются вместе. Каждая такая связка называется блоком. Вместе блоки образуют блокчейн, отсюда и происходит название — блокчейн дословно переводится как “цепочка блоков”.
+Here is how processing works: Transactions from the last 10 minutes are bundled together. Each of these bundles is called a block. Together, the blocks form the Blockchain, hence the name.
 
-![](/img/start/18.svg)
+![](/img/start/en/10min.png)
 
-Все биткоин-транзакции объединяются и по порядку добавляются в блоки. Каждый блок Биткоина наполняется новыми транзакциями до тех пор, пока не переполнится. Транзакции, не уместившиеся в блок просто добавляются в следующий.
+All Bitcoin transactions are bundled and added to blocks in order. Each Bitcoin block gets filled up with new transactions until it’s full. Overflowing transactions are simply added to the next block.
 
-Кто же объединяет и обрабатывает биткоин-транзакции? Этим занимаются участники сети, которых называют майнерами. Майнеры собирают транзакции, проверяют их и добавляют в блокчейн.
+So who bundles and processes bitcoin transactions? That’s done by users called miners. Miners bundle transactions, verify them, and add them to the Blockchain.   
+  
+Here is the interesting part: Miners do this work because they get paid in bitcoin for every block they add and for every transaction they process. In fact, they get brand new bitcoins which were just created by the system. That’s how bitcoin are born!
 
-Интересный факт: майнеры выполняют эту работу, поэтому они получают вознаграждение в биткоинах за каждый добавленный блок и за каждую обработанную транзакцию. Фактически, они получают совершенно новые биткоины, которые только что были созданы системой. Вот как рождаются биткоины!
+![](/img/start/en/miner.png)
 
-На сегодняшний день насчитывается множество майнеров, и все они соревнуются между собой, чтобы добавить следующий блок в блокчейн Биткоина и получить вознаграждение. Общее количество биткоинов, которые когда-либо будут произведены, ограничено. Каждые 10 минут появляются новые биткоины, и майнеры соревнуются в их добыче.  
+There are a lot of miners and they are all competing to add the next block to the Bitcoin Blockchain to get paid. There is a fixed total number of bitcoin. Every 10 minutes, new bitcoin are released and miners compete to earn them.   
 
-Этот процесс будет продолжаться до 2140 года, когда будут выпущены биткоины. Напомню, всего их будет 21 миллион. После 2140 года майнеры будут зарабатывать на комиссионных за транзакции в блокчейне.
+![](/img/start/miners.png)
+
+This process will continue until the year 2140 when all 21 million bitcoins have been created. There can never be more! After that, miners will continue to get small transaction fees, but no new bitcoin.
 
 ---
 
-Теперь вы знаете благодаря чему Биткоин столь уникален. Эта система позволяет совершенно незнакомым людям безопасно пересылать деньги напрямую друг другу — никакого доверия не требуется! Удивительно, но не требуется и третья сторона.
-
+You now know what makes Bitcoin so unique. It is a clever system that allows complete strangers to securely send money directly between each other – no trust required! Amazingly, no third party (like a bank) is required, either.   
+  
 ![](/img/start/01.svg)
 
-Биткоин является революционным, потому что он дает вам полный контроль над вашими средствами — от владения и до переводов. Никто не может “заморозить” ваши средства или отменить тот или иной платеж. Именно эта сила делает его неудержимым.
+Bitcoin is revolutionary because it gives you full control over your money, from ownership all the way to transactions. It’s this power that makes it so successful.
 
-Каждый день множество новичков знакомятся с Биткоином. Многие уже поняли, что появился совершенно новый вид денег. Цель Биткоина — изменить мир к лучшему и предоставить вам возможность управлять ситуацией и обрести финансовый суверенитет. Биткоин — это быстро, надежно, дешево, просто и безопасно. И это только начало!
+Every day, a lot of new people are trying out Bitcoin. They have realized that a brand new type of money has arrived. Bitcoin’s goal is to change the world and put you in the driver’s seat. Bitcoin is fast, reliable, cheap, simple, and secure. And it’s just getting started!
 
 ---
 
-_Понравился наш гид по основам Биткоина? Переходите к [практической части](/start/guide) знакомства с Биткоином, где мы рассказываем об основах взаимодействия с Биткоином — все от покупки до возможностей траты биткоина, о способах его хранения и основах обеспечения безопасности и приватности взаимодействия с Биткоином.👇_
+_Have you enjoyed our guide to the basics of Bitcoin? Skip ahead to [practical part](/en/start/guide) of Intro to Bitcoin, where we cover the basics of interacting with Bitcoin - everything from buying to the possibilities of spending bitcoin, how to store it, and the basics of how to ensure the security and privacy of interacting with Bitcoin.👇_
