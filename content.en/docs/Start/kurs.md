@@ -8,6 +8,7 @@ aliases: ['/basics-bitcoin-course']
 date: 2022-09-14
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 3
 ---
 
