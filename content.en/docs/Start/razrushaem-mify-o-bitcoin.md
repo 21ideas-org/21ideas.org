@@ -8,6 +8,7 @@ aliases: ['/basics-bitcoin-mythbusters']
 date: 2021-11-19
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 4
 ---
 
