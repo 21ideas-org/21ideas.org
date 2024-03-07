@@ -6,6 +6,7 @@ cover: /img/main-section/podcasts.png
 url: pods
 bookCollapseSection: false
 bookFlatSection: false
+bookHidden: true
 weight: 4
 ---
 

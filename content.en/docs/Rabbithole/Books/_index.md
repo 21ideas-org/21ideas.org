@@ -6,6 +6,7 @@ url: books
 cover: /img/main-section/books.png
 bookCollapseSection: true
 bookFlatSection: false
+bookHidden: true
 weight: 1
 ---
 

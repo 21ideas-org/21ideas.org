@@ -6,6 +6,7 @@ url: videos
 cover: /img/main-section/videos.png
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 2
 ---
 

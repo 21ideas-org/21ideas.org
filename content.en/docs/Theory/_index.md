@@ -8,7 +8,7 @@ url: theory
 weight: 2
 ---
 
-Этот раздел является одним из основных на сайте и включает в себя множество подразделов. Здесь вы найдёте все необходимые материалы для полного понимания теоретических аспектов Биткоина, его устройства и основных компонентов.
+This is one of the main sections on the website and includes many subsections. Here you will find all the necessary materials to grasp the theoretical aspects of Bitcoin, its structure and main components.
 
 {{< hint >}}
 ### 🪙 [Economics](/en/economics/)
