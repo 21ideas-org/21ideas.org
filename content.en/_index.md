@@ -44,38 +44,38 @@ If you are just starting to familiarize yourself with Bitcoin, we have prepared 
 {{< /hint >}}
 
 {{< expand "Start" "...">}}
-##  Start
+![cover](/img/main-section/start-en.png)
 
-The [Start](/start) section includes the most basic and essential materials to help you begin interacting with Bitcoin as quickly as possible. It is important to note that while these materials are selected to enable beginners to start using Bitcoin right away, they are not comprehensive. We strongly suggest visiting the site again later to check out the materials in the other sections.
+The **Start** section includes the most basic and essential materials to help you begin interacting with Bitcoin as quickly as possible. It is important to note that while these materials are selected to enable beginners to start using Bitcoin right away, they are not comprehensive. We strongly suggest visiting the site again later to check out the materials in the other sections.
 {{< /expand >}}
 
 {{< expand "Theory" "..." >}}
-![cover](/img/main-section/theory.png)
+![cover](/img/main-section/theory-en.png)
 
 The [Theory]({{< ref "/docs/Theory" >}}) section provides an in-depth exploration of the theoretical aspects of Bitcoin. Here, you will find comprehensive information that will help you understand the significance of Bitcoin and the reasons why it is important to study it. It aims to answer the question, "Why Bitcoin?”
 {{< /expand >}}
 
 {{< expand "Practice" "...">}}
-![cover](/img/main-section/practice.png)
+![cover](/img/main-section/practice-en.png)
 
 Understanding the theory is important, but practical knowledge is equally crucial. Without it, you may become confused and potentially risk losing your savings. The [Practice]({{< ref "/docs/Practice" >}}) section of this guide is designed to equip you with the necessary skills to interact with Bitcoin effectively. This includes buying, storing, and exchanging coins without encountering any issues. Additionally, it will help you maintain your privacy and ensure the security of all your activities, protecting you from malicious users and potential mistakes.
 {{< /expand >}}
 
-{{< expand "Rabbit Hole" "...">}}
-![cover](/img/main-section/rabbithole.png)
+{{< expand "Rabbithole" "...">}}
+![cover](/img/main-section/rabbithole-en.png)
 # Additional Resources
 
-21ideas is a project that has been worked on for years, resulting in a vast amount of material in various formats. If you find the materials in the above sections to be insufficient or if you prefer alternative formats for accessing information, please refer to the subsections below.
+There are numerous useful Bitcoin materials in various formats out there. We would like to share the most important ones with you on the pages of 21ideas.org. We will be gradually adding new formats to our library:
 
 ## Books
 
-A collection of books, translated by our team and community members, is available in this [subsection]({{< ref "/docs/Rabbithole/Books" >}}).
+A collection of downloadable books on Bitcoin with authors' credentials for you, dear readers, to be able to zap the authors.
 
 ## Videos
 
-You can find videos made by community members at [this link]({{< ref "/docs/Rabbithole/Videos" >}}).
+Videos made by prominent bitcoiners and community members.
 
 ## Audio
 
-Links to podcasts, audiobooks, and other types of material provided in audio format.
+Links to podcasts, audiobooks, and other types of materials provided in audio format.
 {{< /expand >}}

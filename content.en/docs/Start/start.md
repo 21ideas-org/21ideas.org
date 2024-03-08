@@ -2,7 +2,7 @@
 title: "Bitcoin Basics"
 h1: "What is Bitcoin and how it works? A theoretical guide for the newcomers"
 cover: /img/start/cover.png
-tags: ["биткоин", "основы"]
+tags: ["bitcoin", "basics"]
 description: "Basic Bitcoin guide for newcomers."
 url: start/start
 aliases: ['/basics-bitcoin-guide-theory']

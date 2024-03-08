@@ -3,7 +3,7 @@ title: "Rabbithole"
 bookCollapseSection: true
 url: rabbithole
 type: docs
-cover: /img/main-section/rabbithole.png
+cover: /img/main-section/rabbithole-en.png
 weight: 4
 ---
 
