@@ -1,6 +1,6 @@
 ---
 title: "GrapheneOS: Избавляемся от слежки Google на смартфоне"
-h1: "GrapheneOS: Как избавиться от Google и улучшить свою приватность"
+h1: "GrapheneOS: Как избавиться от Google и повысить уровень своей приватности"
 description: ""
 cover: /img/grapheneos/01.png
 url: grapheneos
