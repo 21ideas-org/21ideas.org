@@ -3,7 +3,7 @@ title: "Мифы о Биткоин-халвинге"
 h1: "Три мифа о грядущем Биткоин-халвинге"
 cover: /img/halv-933.jpg
 description: "С халвингом связано множество заблуждений. Предлагаю подробнее рассмотреть некоторые из них."
-url: mify-o-halvinge
+url: myths-about-halving
 aliases: ['/theory-philosophy-3-bitcoin-myths']
 date: 2020-03-01
 bookFlatSection: false
