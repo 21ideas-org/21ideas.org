@@ -42,7 +42,7 @@ RoninDojo adds:
 
 This tutorial will describe how to manually install all components in a Debian based operating system. I used Ubuntu 22.04. This method will allow you to:
 
-- Use any hardware that meets the minimum requirements. Two SSD are recommended, but not required.
+- Use any hardware that meets the minimum requirements. Two SSDs are recommended, but not required.
 - Choose a basic operating system.
 - Configure the necessary components before installing the system:
     - Select a blockchain indexer (Electrs, Fulcrum or Addrindexrs).
@@ -78,7 +78,7 @@ Don't forget to enable the "Install OpenSSH server" option.
 
 {{% image "/img/ronin-01.png" /%}}
 
-After successful installation, log into your server from local network using an SSH client with the username you set during installation, your RoninDojo machine's internal IP address, and port 22. You can find out the address in local network by using the command on the server:
+After successful installation, log into your server via local network using an SSH client with the username you set during installation, your RoninDojo machine's internal IP address, and port 22. You can figure out the address in local network by using the command on the server:
 
 ```bash
 hostname -I
@@ -116,7 +116,7 @@ sudo mkfs.ext4 -q -F -L "main" /dev/sda1
 lsblk
 ```
 
-Now I have a large partition /dev/sda1, the only one on this disk. Write down the name of your partition for the blockchain data.
+Now I have a large partition /dev/sda1, the only one on this disk. Write down the name of your partition to host the blockchain data.
 
 {{% image "/img/ronin-05.png" /%}}
 
@@ -347,7 +347,7 @@ sudo chown -R tor:tor /mnt/usb/tor/
 sudo nano /etc/tor/torrc
 ```
 
-Paste the following lines to the end of the file and add bridges. Note that unlike the Tor settings in Samourai Dojo, the bridges here are without quotes:
+Paste the following lines at the end of the file and add bridges. Note that unlike the Tor settings in Samourai Dojo, the bridges here should not be enclosed in quotes:
 
 ```
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
@@ -369,11 +369,11 @@ sudo systemctl restart tor
 sudo journalctl -f -u tor
 ```
 
-Wait for messages in the Tor log "Bootstrapped 100% (done)", and you can close it with Ctrl+C.
+Wait for the "Bootstrapped 100% (done)" message to appear in the Tor log, and close it with Ctrl+C.
 
 ### Customizing plymouth
 
-After that, the RoninDojo logo will be displayed when the system boots, nothing special but nice.
+After that, the RoninDojo logo will be displayed when the system boots, nothing special but a nice touch.
 
 {{% image "/img/ronin-09.png" /%}}
 
@@ -406,7 +406,7 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
 
-In the following commands, use your subnet address that we defined at the end of [OS installation](/en/practice-privacy/ronindojo/#os-installation).
+In the following commands, use your subnet address that we defined at the end of the [OS installation](/en/practice-privacy/ronindojo/#os-installation).
 
 ```bash
 sudo ufw allow from 10.0.2.0/24 to any port "80"
@@ -524,7 +524,7 @@ sed -i 's/ludwig.py --rpc/ludwig.py --testnet --rpc/g' ~/RoninDojo/Scripts/Menu/
 ### Blockchain data backup
 
 {{% hint btc %}}
-I recommend testing this before fully downloading the blockchain, as misconfiguring the disks can lead to data loss and you will have to start from the beginning. Perform the test when the first Bitcoin Core synchronization percentages appear in the web interface.
+I recommend testing this before fully downloading the blockchain, as misconfiguring the disks can lead to data loss and you will have to start from scratch. Perform the test when the first Bitcoin Core synchronization percentages appear in the web interface.
 {{% /hint %}}
 
 Plug in an external disk for backup. In the Ronin CLI, go to the menu:
@@ -533,7 +533,7 @@ Plug in an external disk for backup. In the Ronin CLI, go to the menu:
 System > Disk Storage > Format & Mount New Backup Drive
 ```
 
-After formatting the disk, go from the main menu:
+After formatting the disk, move from the main menu:
 
 ```
 Dojo > Next Page > Send Block Data to Backup
@@ -547,7 +547,7 @@ Dojo > Next Page > Receive Block Data from Backup
 
 ### Installing WST and Boltzmann Calculator
 
-To install and use these utilities, simply select the appropriate item from the menu:
+To install and use these utilities, simply select the corresponding item from the menu:
 
 ```
 Samourai Toolkit
@@ -565,7 +565,7 @@ Wait for full synchronization of Bitcoin Core, Dojo and Indexer.
 
 {{% image "/img/ronin-13.jpg" /%}}
 
-Go to the "Pairing" menu and pair Samourai Wallet with Samourai Dojo. You can only connect to Dojo when the wallet is newly installed.
+Go to the "Pairing" menu and pair Samourai Wallet with Samourai Dojo. You can only connect to Dojo when the wallet is freshly installed.
 
 {{% image "/img/ronin-14.jpg" /%}}
 
@@ -581,11 +581,11 @@ Transfer the resulting Whirlpool GUI pairing code to your computer.
 
 Under Whirlpool CLI, click "Initialize" and use your pairing code.
 
-After successful pairing, you need to click the "Log in" button and enter the [passphrase](/en/passphrase) you used during creation the wallet.
+After successful pairing, you need to click the "Log in" button and enter the [passphrase](/en/passphrase) you used when creating the wallet.
 
 {{% image "/img/ronin-15.jpg" /%}}
 
-Finally, you enter the Whirlpool interface and can remix UTXO 24/7 while your node is running.
+Finally, you can enter the Whirlpool interface and remix UTXO 24/7 while your node is running.
 
 {{% image "/img/ronin-16.jpg" /%}}
 
@@ -595,22 +595,22 @@ To access the BTC RPC Explorer, go to "Dashboard" and click "Manage" under "Dojo
 
 {{% image "/img/ronin-17.jpg" /%}}
 
-Here are links to access the explorer and the Dojo Maintenance Tool (DMT) through a Tor browser.
+Here eou can find links to access the explorer and the Dojo Maintenance Tool (DMT) through a Tor browser.
 
 A link to access the Mempool explorer is also available from the "Manage" menu in the corresponding section of the Dashboard. There you can also install or uninstall Mempool.
 
 ### Dojo Maintenance Tool (DMT)
 
-DMT is a simplified node monitoring dashboard with basic features for tracking your XPUBs, addresses and transactions - similar to the "Maintenance" menu in Ronin UI. In the face of poor Tor connection quality, it can be a useful tool. If you added your PayNym in the docker-node.conf.tpl file when installing Samourai Dojo, a QR code will be available to you. Simply select "Authenticate using PayNym" from the "Tools" menu in Samourai Wallet and scan it to access DMT.
+DMT is a simplified node monitoring dashboard with basic features for tracking your XPUBs, addresses and transactions – similar to the "Maintenance" menu in Ronin UI. In the face of poor Tor connection quality, it can be a useful tool. If you added your PayNym in the `docker-node.conf.tpl` file when installing Samourai Dojo, a QR code will be available to you. Simply select "Authenticate using PayNym" from the "Tools" menu in Samourai Wallet and scan it to access DMT.
 
 {{% hint info %}}
-If you didn't enable PayNym authentication (Auth47) during installation, then just add the BIP47 payment code after *NODE_PAYMENT_CODE=* to the file:
+If you didn't enable PayNym authentication (Auth47) during installation, add the BIP47 payment code after *NODE_PAYMENT_CODE=* to the file:
 
 ```bash
 nano ~/dojo/docker/my-dojo/conf/docker-node.conf
 ```
 
-After that, restart Dojo from the "Manage" menu in the appropriate section of the Ronin UI using the "Restart" button.
+After that, restart Dojo from the "Manage" menu in the corresponding section of the Ronin UI using the "Restart" button.
 
 {{% /hint %}}
 
@@ -682,7 +682,7 @@ Making the necessary changes for Testnet from [this section](/en/practice-privac
 
 ## Support the author
 
-You can support the author by sending some sats in the Lightning Network:
+You can support the author by sending some sats via the Lightning Network:
 
 {{% image "/img/btclinux-ln-qr.jpg" %}}
 `LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
