@@ -5,7 +5,6 @@ cover: /img/76.png
 tags: ["биткоин", "хранение", "холодное хранение", "ключи", "безопасность"]
 description: "Как лучше всего хранить свои биткоины? Безопасное и доступное холодное хранение биткоина."
 url: seedsigner
-aliases: ['/practical-electum-wallet']
 date: 2023-08-24
 bookFlatSection: false
 bookToc: true

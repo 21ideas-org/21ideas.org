@@ -8,7 +8,7 @@ url: what-i-learned-from-bitcoin-3
 date: 2019-04-02
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 3
 ---
 
 {{< expand "Contents" "..." >}}
