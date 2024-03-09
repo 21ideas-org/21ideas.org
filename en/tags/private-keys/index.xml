@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>private keys on 21ideas</title><link>https://21ideas.org/en/tags/private-keys/</link><description>Recent content in private keys on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/private-keys/index.xml" rel="self" type="application/rss+xml"/><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.
+This guide by @econoalchemist was published in Bitcoin Magazine.
+Contribute.
+This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.
+Source
+Unboxing # This section demonstrates what is included in the full SeedSigner kit.</description></item></channel></rss>
