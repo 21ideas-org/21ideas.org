@@ -43,7 +43,11 @@ Some questions have easy answers. “What have you learned from Bitcoin?” isn�
 Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были
 Глава 6: Биткоин – это цифровая редкость
 Глава 7: Биткоин – это абсолютная редкость
-Глава 8: Биткоин – это машина истины</description></item><item><title>Пролог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</guid><description>Оглавление ... Главная страница
+Глава 8: Биткоин – это машина истины</description></item><item><title>Why You Should Run Your Own Bitcoin Node</title><link>https://21ideas.org/en/practice/bitcoin-node/</link><pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice/bitcoin-node/</guid><description>Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.
+This article by Arman The Parman was published in Bitcoin Magazine.
+Contribute.
+Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:
+Your Bitcoin node needs to keep a copy of the entire Bitcoin blockchain. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.</description></item><item><title>Пролог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</guid><description>Оглавление ... Главная страница
 Предисловие от Майкла Сэйлора
 Пролог
 Глава 1: Генезис и происхождение денег
