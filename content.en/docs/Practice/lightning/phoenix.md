@@ -1,204 +1,196 @@
 ---
-title: "Кошелек Phoenix"
-h1: "Кошелек Phoenix: восстанавливаем контроль над своими сатошиками в сети Лайтнинг"
+title: "Phoenix: The Non-Custodial Lightning Wallet"
+h1: "Phoenix Wallet: Take Back Control of Your Sats in the Lightning Network"
 cover: /img/134.jpg
-tags: ["биткоин", "хранение", "ключи", "безопасность", "мобильный кошелек", "лайтнинг"]
-description: "Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг."
+tags: ["bitcoin", "hodl", "private keys", "security", "mobile wallet", "lightning"]
+description: "How to use the Lightning Network without trusting anyone?"
 url: phoenix
-aliases: ['/practical-phoenix']
 date: 2023-03-02
 bookFlatSection: false
 bookToc: true
 weight: 1
 ---
 
-Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг.
+How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.
 
 {{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).[Поддержать проект](/contribute/).
+The guide written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
+
+[Contribute](/contribute/).
 {{< /hint >}}
 
-{{< youtube iZx86vbC9II >}}
-_Этот гид и многие другие видео также доступны на [YouTube-канале 21 идея](https://www.youtube.com/@21ideas/)_
-{{< /youtube >}}
+## Intro
 
-## Интро
+Now I would like to provide you a guide on [Phoenix](https://phoenix.acinq.co/) — the non-custodial Lightning wallet. This guide will be useful for those who already familiar with the Lightning Network and have evaluated the interaction with it in practice. Let's say you've already been using a custodial wallet like [Wallet Of Satoshi](https://www.walletofsatoshi.com/) and you want to gain more control over your funds, hold your sats independently in Lightning Network, and **minimize** the level of trust to a third party. I say 'minimize' rather than 'dispose' for a reason, but I'll explain this at the end of the guide.
 
-Сегодня я хочу предоставить вашему вниманию гид по **некастодиальному**лайтнинг-кошельку [Phoenix](https://phoenix.acinq.co/). Этот гид будет полезен тем, кто уже немного познакомился с сетью Молния и оценил взаимодействие с ней на практике. Предположим, вы уже пользовались кастодиальным кошельком, например [Wallet of Satoshi](https://www.walletofsatoshi.com/), и хотите получить больше контроля над своими средствами, самостоятельно хранить свои сатоши в сети лайтнинг и **минимизировать** уровень доверия к третьей стороне. Я не случайно говорю именно минимизировать, а не избавиться, но подробнее я это поясню в конце этого гида.
-
-Кошелек Phoenix может послужить отличным _промежуточным решением_ между использованием кастодиального кошелька и запуском собственного лайтнинг-узла.
+Phoenix Wallet can serve as a great _intermediate solution_ between using a custodial wallet and running your own Lightning node.
 
 {{% image "/img/135.png" /%}}
 
-Хорошим примером тому стали недавние события – [закрытие и практически невозможность вывода средств из популярного Телеграм-бота LNtxBot](https://fountain.fm/episode/12910067678) и [проблемы у кастодиального лайтнинг-кошелька Blue Wallet](https://fountain.fm/episode/13070007081).
+A good example was the recent cases of — [shutting down and making it almost impossible to withdraw funds from the popular Telegram LNtxBot](https://stacker.news/items/122992) and [Blue Wallet issues with custodial Lightning implementation](https://twitter.com/hi__im__dave/status/1619680373314813953).
 
 ---
 
-### Терминология
+### Terminology
 
-- **Ончейн** – транзакции, проводящиеся на основной цепи Биткоин и отражающиеся в блокчейне сети Биткоин.
-- **Оффчейн** – транзакции вне основной сети, например, в сети Лайтнинг.
-- **Кастодиальное хранение** – хранение / использование “крипты” – будь то биткоин, саты в сети Молния, эфир или любой другой щиткоин, – полагаясь на третье лицо, так называемого кастодиана. Кастодиан хранит ваши средства и получает / отправляет их по вашей просьбе.
-- **Некастодиальное хранение** – самостоятельное хранение и контроль собственных средств.
-- **Сеть Лайтнинг, сеть Молния, ЛН, LIghtning Network, LN** – термины, относящиеся к сети второго уровня, развернутой поверх основной сети Биткоин, в оригинале – Lightning Network (подробнее о ней в этом разделе).
-- **Инвойс / лайтнинг-инвойс** – счет, использующийся в сети Молния. Устройство Лайтнинг отличается от механизма, используемого в сети Биткоин. Вместо привычных адресов получения пользователи обмениваются счетами-фактурами для получения средств (подробности работы сети Молния освещены [в этом видео](https://youtu.be/xH--uHmtF-Q)).
-- **Ликвидность** – объем средств, которые вы можете отправить (исходящая) или получить (входящая)
+- **On-chain** – transactions in the Bitcoin mainnet recorded to the blockchain.
+- **Off-chain** – transactions outside the mainnet, such as in the Lightning Network.
+- **Custodial storage** – holding / using the "crypto" (Bitcoin, Lightning Network sats, Ether or any other shitcoin) relying on a third party, a so-called custodian. The custodian holds your funds and receives / sends them at your request.
+- **Non-custodial storage** – self custody and control of your own funds.
+- **LIghtning Network or LN** – Layer 2 network implemented "on top" of the main Bitcoin network.
+- **Invoice** – Lightning Network mechanism differs from the one used in the Bitcoin network. Instead of addresses, users passing invoices to receive funds.
+- **Liquidity** – the volume of funds you can send (outbound) or receive (inbound).
 
 ---
 
-## Почему Phoenix?
+## Why Phoenix?
 
-Кошелек Phoenix предлагает возможность некастодиально использовать сеть Молния. Ваш кошелек выступает в качестве лайтнинг-узла и вы сами контролируете количество и размер своих каналов. При создании кошелька вам предоставляется сид-фраза, по которой вы можете восстановить свои средства в случае какой-то критической ошибки. Вам просто нужно будет принудительно закрыть свои каналы и средства попадут на ваш ончейн-кошелек, который вы сможете восстановить через, например, [кошелек Electrum](/electrum).
+Phoenix Wallet allows you to use the Lightning Network in a non-custodial way. Your wallet acts as a Lightning node and you control the number and capacity of your channels. When you create a new wallet, you will get a mnemonic backup phrase by which you can recover your funds in case of some critical error. You just need to force close your channels and the funds will go to your on-chain wallet, which you can recover through [Electrum Wallet](/en/electrum), for example.
 
-## Лайтнинг-максимализм
+## Lightning maximalism
 
-Phoenix будет, возможно, не так привычен пользователям, привыкшим к кошелькам “два в одном”. [Blue Wallet предлагает](/blue) (или предлагал😜) несколько видов кошельков в одном приложении, а такие кошельки как Wallet of Satoshi и [Muun](https://muun.com/) вовсе “объединяют лайтнинг и ончейн средства в одно целое”, где пользователь даже не замечает разницы между его “аккаунтами”. Phoenix же является исключительно лайтнинг-кошельком. 
+Phoenix will perhaps be less common to users accustomed to "two-in-one" wallets. [Blue Wallet offers](/blue) (or offered😜) several types of wallets in one app, and wallets like Wallet Of Satoshi and [Muun](https://muun.com/) "combine" Lightning and on-chain funds into one balance, where users doesn't even notice the difference between their "accounts". Phoenix, on the other hand, is a purely Lightning wallet. 
 
 {{% image "/img/30.jpeg" /%}}
 
-Да, у него есть возможность получать ончейн-платежи, но они будут моментально конвертироваться в лайтнинг-саты. Вы также можете сделать так называемый **Swap-out** и отправить ЛН-саты на ончейн-адрес. Просто преобразование будет происходить “под капотом”. Технические подробности процесса лежат вне рамок сегодняшнего ознакомительного гида, просто обратите внимание на то, что Phoenix не стоит воспринимать как классический ончейн-кошелек. В каком-то смысле кошелек Phoenix можно назвать _лайтнинг-максималистом_⚡️.
+Yes, it has the ability to receive on-chain payments, but they will be instantly swaped to LN sats. You can also do **Swap-out** and send LN sats to the on-chain address. Swaps take place "under the hood". The technical details of the process are outside the scope of this guide, just note that Phoenix should not be thought of as a classic on-chain wallet. In a sense, Phoenix can be called a _Lightning Maximalist Wallet_ ⚡️.
 
-_О том, как биткоины высвобождаются в сеть Молния и о других технических аспектах ее работы смотрите в этом видео:_
-{{< youtube xH--uHmtF-Q />}}
+## Practice
 
-## Практика
+Phoenix has a simple, user-friendly and intuitive interface. It is [available](https://phoenix.acinq.co/download) for all mobile platforms – iOS and Android. The true [cypherpunks](/en/cypherpunks-manifesto) – [De-Googled Android](/en/grapheneos) fans – or, for example, Huawei users, can download the [APK file](https://github.com/ACINQ/phoenix/releases) and install the app bypassing Google Play.
 
-Phoenix обладает простым, удобным и интуитивным интерфейсом. Он [доступен](https://phoenix.acinq.co/download) на всех мобильных платформах – iOS и Android, а истинные [шифропанки](/manifest-shifropanka) – фанаты DeGoogled Android – или, например, пользователи смартфонов Huawei, могут скачать [APK-файл](https://github.com/ACINQ/phoenix/releases) и установить приложение в обход Google Play.
+### Receiving sats
 
-### Пополнение кошелька
-
-Первым делом после установки следует пополнить кошелек сатошиками. Это можно сделать как ончейн-средствами, так и через сеть Молния. После нескольких приветствующих экранов нас встречает экран, предлагающий оплатить “открытый” лайтнинг-инвойс (инвойс, где вы можете на свое усмотрение  указать оплачиваемую сумму). Обратите внимание, что минимальная сумма пополнения равна 10,000 сат, что вызвано необходимостью открыть канал, через который вы впоследствии будете отправлять и получать саты. Открытие канала производится через ончейн-транзакцию, которая требует оплаты комиссии майнерам.
+The first thing to do after installation is to fund your wallet with sats. This can be done either with on-chain bitcoins or via the Lightning Network. After a few welcome screens, we are greeted by a screen offering to pay an "zero-value" Lightning invoice (an invoice where you can specify the amount to be paid at your choice). Please note that the minimum deposit amount is 10,000 sat, which is due to the need to open a channel through which you will later send and receive sats. Opening a channel is done with on-chain transaction, which requires pay fee to the miners.
 
 {{% image "/img/136.png" %}}
-_Пополнение кошелька через Лайтнинг / открытие канала_
+_Funding a wallet via Lightning / channel opening_
 {{% /image %}}
 
-Вы также можете пополнить кошелек ончейн-транзакцией. Для этого нажмите **Show a Bitcoin address** внизу экрана.
+You can also fund your wallet with on-chain transaction. To do this, click **Show a Bitcoin address** at the bottom of the screen.
 
 {{% image "/img/137.png" %}}
-_Пополнение кошелька ончейн / открытие канала_
+_Funding a wallet on-chain / channel opening_
 {{% /image %}}
 
-Обратите внимание, что в обоих случаях первое пополнение снимет с вас ончейн комиссию майнерам + одноразовая плата 1000 сат в пользу разработчиков кошелька. Это связано с необходимостью открытия канала. Расценивайте это как плату, необходимую чтобы отказаться от кастодиального хранения сатов.
+Please note that in both cases, the first deposit will require paying on-chain fee to the miners + a one-time fee of 1000 sats to the wallet developers. This is due to the need to open the channel. Consider it as a fee necessary to escape from custodial storage of your sats.
 
-### Интерфейс
+### User Interface
 
-Обратите внимание на функции, предлагаемые кошельком:
+Main functions of the wallet:
 
 {{% image "/img/138.png" %}}
-_Домашний экран_
+_Home screen_
 {{% /image %}}
 
-1. Настройки
-2. История транзакций
-3. Баланс (скрытый/USD/sat)
-4. Состояние сети
-5. Ресурсы (обратная связь)
-6. Отправить
-7. Получить
+1. Settings
+2. Payments history
+3. Balance (hide/USD/sat)
+4. Network status
+5. Links (feedback)
+6. Receive
+7. Send
 
-Настройки довольно тривиальны. Хочу лишь указать на 3 пункта – вкладка отображения сид-фразы (1), вкладка экстренного закрытия каналов и вывода средств ончейн (2), вкладка, отображающая ваши каналы и их ликвидность (3).
+The settings are quite simple. I just want to point out 3 items - the tab displaying mnemonic recovery phrase (1), the tab to force close all channels and withdraw funds on-chain (2), the tab displaying your channels and their liquidity (3).
 
 {{% image "/img/139.png" %}}
-_Меню настроек_
+_Settings screen_
 {{% /image %}}
 
-## Особенности
+## Features
 
-### Платежные каналы
+### Payment channels
 
-Здесь отображаются ваши платежные каналы, где указана ваша исходящая (1) и входящая (2) ликвидность. Вы можете сменить (3) показатели второго столбца, чтобы он отображал емкость канала вместо входящей ликвидности.
+Your payment channels are displayed here, showing your outbound (1) and inbound (2) liquidity. You can change (3) view in the second column to show the channel capacity instead of the inbound liquidity.
 
 {{% image "/img/140.png" %}}
-_Экран отображения платежных каналов_
+_Payment channels screen_
 {{% /image %}}
 
-### Функции и комиссии
+### Functions and fees
 
-С точки зрения пользователя Phoenix ведет себя практически идентично кастодиальному кошельку (смотрите главы [Платим в сети Молния](https://youtu.be/67ghAeSTLbY?t=1701) и [Получаем оплату в сети Молния](https://youtu.be/67ghAeSTLbY?t=1875) в [этом гиде по Blue Wallet](https://youtu.be/67ghAeSTLbY?t=1701)). Единственная разница заключается в том, что используя этот кошелек, важно следить за состоянием канала, чтобы случайно не запросить больше средств, чем вам доступно входящей ликвидности. Это выльется в очередное открытие канала и будет стоить вам ончейн комиссию + 1000 сат (вы получите меньше, чем вам было отправлено).
+From a user's perspective, Phoenix acts almost identically to a custodial Lightning wallet. The only difference is that using this wallet, it is important to keep an eye on the state of the channel so that you don't accidentally request more funds than you have available in inbound liquidity. This will result in second channel opening and will cost you an on-chain fee + 1000 sat (you will receive less than what was sent to you).
 
 {{% image "/img/141.png" %}}
-_Получение сатоши в сети Молния + открытие нового канала_
+_Receiving sats in the Lightning Network + opening a new channel_
 {{% /image %}}
 
-**Стандартные функции Phoenix и связанные с ними комиссии:**
+**Regular Phoenix functions and related fees:**
 
-- **Получение ЛН-платежей** (бесплатно, разве что приходится открывать новый канал)
-- **Отправка ЛН-платежей** (0.4% от отправленной суммы  + 4 sat)
+- **Receiving LN payments** (free, unless you have to open a new channel)
+- **Sending LN payments** (0.4% of the amount sent + 4 sat)
 
 {{% image "/img/142.png" %}}
-_Экран подтверждения отправки платежа_
+_Payment send confirmation screen_
 {{% /image %}}
 
-- **Swap-in** – получение сат ончейн и конвертация их в ЛН (комиссия майнерам + 1000 сат разработчикам. Получаемая сумма должна быть не менее 10,000 сат.)
-- **Swap-out** – отправка ЛН сат (конвертация) на ончейн-адрес (Стоимость является переменной, зависящей от загруженности [мемпула](https://t.me/bitcoin21ideas/2606) и текущего набора UTXO ACINQ. Обратите внимание, что кошелек не взимает никаких комиссий за этот своп, все доходы переходят майнерам).
+- **Swap-in** – receiving sats on-chain and swaping them to LN (fee to miners + 1000 sat to developers. The amount received must be at least 10,000 sat).
+- **Swap-out** – sending LN sats (swap)  to on-chain address. The fee is variable, depending on the Bitcoin mempool size and the current set of UTXO on ACINQ side. Note that the wallet does not charge any fees for this swap, all profits go to the miners.
 
-_О разных способах конвертации средств между основной сетью и сетью Молния я рассказывал в этом видео:_
-{{< youtube j9lZiKB-0Oc />}}
-## Нюансы и инструменты восстановления
+## Specifics and recovery tools
 
-### Получение платежей
+### Receiving payments
 
-На самом деле с получением ЛН-платежей дела обстоят немного сложнее. Например, у вас может быть канал с исходящей ликвидностью в 5,000 сат и емкостью 25,000 сат. Однако это не означает, что вы можете получить 20,000 сат в этом канале, так как его входящая ликвидность меньше общего значения.
+In fact, it is a bit more difficult to deal with receiving LN payments. For example, you may have a channel with an outbound liquidity of 5,000 sat and a capacity of 25,000 sat. However, this does not mean that you can receive 20,000 sat in this channel because its inbound liquidity is less than the total value.
 
-Часть средств канала "заблокирована", как того требует протокол Lightning, по соображениям безопасности (в основном для оплаты ончейн-комиссий в случае одностороннего закрытия канала и для поддержания резерва канала на стороне ACINQ). 
+Some channel funds are "locked" as required by the Lightning protocol for security reasons (mainly to pay on-chain fees in case of force close of the channel and to keep a channel reserve on the ACINQ side).
 
-Заблокированная сумма варьируется в зависимости от ончейн-комиссий и может быть значительной. Соответственно, я советую один раз открыть хотя бы один объемный канал, чтобы вам не приходилось впоследствии переживать, что входящей ликвидности будет недостаточно для получения платежа.
+The locked amount varies depending on the on-chain fees and can be significant. Accordingly, I recommend opening at least one high capacity channel, so that you don't have to worry later that the inbound liquidity will not be sufficient to receive the payment.
 
-С добавлением сплайсинг-функционала в [последней](https://acinq.co/blog/phoenix-splicing-update) версии Phoenix у каждого пользователя теперь есть всего один канал, который меняется в объёме в зависимости от входящей ликвидности. Это является, пожалуй, одним из самых заметных различиий между использованием некастодиального мобильного кошелька и полного узла.
+With the introduction of splicing in the [latest](https://acinq.co/blog/phoenix-splicing-update) version of Phoenix, each user now has just one channel which capacity changes based on inbound liquidity. This is perhaps one of the most important differences between using a non-custodial mobile wallet and a full node.
 
-### Как восстановить средства в случае принудительного закрытия каналов?
+### How to recover funds in case of channel force close?
 
-Во-первых, не удаляйте приложение (и не сбрасывайте его настройки) до тех пор, пока не восстановите средства.
+First, do not uninstall the app (or reset its settings) until you have restored the funds.
 
-Во-вторых, обратите внимание, что если ваши каналы были принудительно закрыты, вы столкнетесь с задержкой (обычно 720 блоков, или ≈ 5 дней, но может быть и больше), при выводе средств.
+Second, note that if your channels have been forcibly closed, you will face a delay for withdrawal (usually 720 blocks, or ≈ 5 days, but can be longer).
 
-В случае “армагеддона” все, что вам нужно для восстановления средств, – это сохраненный сид, который для вас изначально сгенерировал кошелек. Phoenix использует стандартный сид BIP39 и следует стандартному пути деривации BIP84, вы можете использовать любой совместимый кошелек для восстановления ваших средств. Я рекомендую использовать (настольный) Electrum. Подробнее об этом кошельке можно узнать из [этого пошагового гида](/electrum).
+In case of an "apocalypse", all you need to restore your funds is the saved mnemonic backup phrase that the wallet originally generated for you. Phoenix uses the standard BIP39 seed and follows the standard BIP84 derivation path, you can use any compatible wallet to recover your funds. I recommend using Electrum (for desktop). You can learn more about Electrum wallet from [this guide](/en/electrum).
 
-**Пошаговое руководство:**
+**Step-by-step guide:**
 
-1. Скачайте [Electrum](https://electrum.org/#home).
-2. Создайте новый **Стандартный кошелек**.
+1. Download [Electrum](https://electrum.org/#home).
+2. Create new **Standard wallet**.
 
 {{% image "/img/143.png" /%}}
 
-3. Выберите **У меня уже есть сид**.
+3. Choose **I already have a seed**.
 
 {{% image "/img/144.png" /%}}
 
-4. Введите ваши 12 слов, нажмите **Options** и отметьте **BIP39 seed**.
+4. Type your 12 words, click on **Options** and check **BIP39 seed**.
 
 {{% image "/img/145.png" /%}}
 
-5. Выберите **native segwit** **(p2wpkh)**.
+5. Choose **native segwit** **(p2wpkh)**.
 
 {{% image "/img/146.png" /%}}
 
-6. Ожидайте появления средств.
+6. Wait for funds to become available.
 
-### Phoenix требует доверия?
+### Do I have to trust Phoenix Wallet?
 
-Phoenix минимизирует необходимость в доверии, но не лишает ее полностью. Следующие операции требуют доверия:
+Phoenix minimizes the need for trust, but does not completely remove it. The following operations require trust:
 
-- открытие канала (до момента подтверждения финансирования транзакции);
-- свопы (пользователь платит, а затем узел ACINQ выполняет своп).
+- channel opening (until transaction confirmation);
+- swaps (user pays, and then the ACINQ node performs the swap).
 
-Вы можете настроить Phoenix на использование собственного Electrum-сервера для оценки блокчейна и мониторинга ваших каналов. Это значительно снизит вашу зависимость от третьих сторон для обеспечения безопасности вашего кошелька. Тем не менее, привязка собственного сервера требует наличия SSL-сертификата.
+You can configure Phoenix to use your own Electrum server to get mempool data and monitor your channels. This will greatly reduce your reliance on third parties to keep your wallet secure. However, using your own server requires an SSL certificate.
 
-### Приватность Phoenix
+### Phoenix privacy
 
-Текущая версия Phoenix не предлагает никаких преимуществ в отношении приватности по сравнению с кастодиальными кошельками. ACINQ – разработчик кошелька и держатель узла, с которым открываются каналы) знает конечное место назначения и сумму платежей.
+The current Phoenix version offers no privacy advantages over custodial wallets. ACINQ is the wallet developer and also the node operator, with which channels are opened, knows the final destination and the amount of payments.
 
-Более поздние версии будут гораздо более приватными, но эти нововведения пока находятся в процессе разработки. Более подробная информацию можно найти [здесь](https://medium.com/@ACINQ/phoenix-wallet-part-4-trampoline-payments-fb1befd027c8) и [здесь](https://phoenix.acinq.co/privacy).
+Future versions will be much more private, but these improvements are still under development. More information can be found [here](https://medium.com/@ACINQ/phoenix-wallet-part-4-trampoline-payments-fb1befd027c8) and [here](https://phoenix.acinq.co/privacy).
 
-## Итоги
+## Conclusion
 
-Как я уже говорил, Phoenix является хорошим промежуточным решением для пользователей уровня “не новичок”. У кошелька есть свои минусы:
+As I said before, Phoenix is a good intermediate solution for "non-beginner" level users. The wallet has its own disadvantages:
 
-- Необходимость в определенной мере доверять операторам узла ACINQ
-- Возможные высокие комиссии, связанные с непредвиденным открытием каналов (требует внимания пользователя к наличию входящей ликвидности)
-- Приватность платежей в Phoenix не лучше таковой у кастодиальных ЛН-кошельков, но команда работает над улучшением приватности.
+- You need to trust ACINQ node operators to a certain extent.
+- Possible high fees related to unexpected channel opening (requires user attention to inbound liquidity).
+- Payments privacy is no greater than in custodial LN wallets, but the team is working to improve privacy.
 
-Несмотря на ряд недочетов (я считаю их вполне приемлемыми для пользователей, переезжающих с кастодиальных решений) Phoenix остается хорошим выбором среди ЛН-кошельков – ему удалось создать продукт, четко следующий заявленной философии: предоставить некастодиальный ЛН-кошелек с удобным и интуитивным интерфейсом. 
+Despite a number of downsides (I consider them quite acceptable for users moving away from custodial solutions) Phoenix remains a good choice among LN wallets – it has managed to create a product that clearly follows its stated philosophy: to provide a non-custodial LN wallet with a user-friendly and intuitive interface. 
 
-Остались вопросы? Зайдите в [F.A.Q.](https://phoenix.acinq.co/faq) кошелька.
+Still have a questions? Please visit wallet [F.A.Q.](https://phoenix.acinq.co/faq).
