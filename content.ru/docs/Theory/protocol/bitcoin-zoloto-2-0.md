@@ -14,7 +14,7 @@ weight: 54
 Споры о предназначении Биткоина не утихают уже много лет. Что же такое биткоин - средство сбережения или пиринговая наличность?
 
 {{< hint btc>}}
-Статья подготовлена [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+Статья подготовлена [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
 
 [Поддержать проект](/contribute/).
 {{</hint >}}
