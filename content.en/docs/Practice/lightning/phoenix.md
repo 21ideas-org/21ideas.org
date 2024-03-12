@@ -25,7 +25,7 @@ Now I would like to provide you a guide on [Phoenix](https://phoenix.acinq.co/) 
 
 Phoenix Wallet can serve as a great _intermediate solution_ between using a custodial wallet and running your own Lightning node.
 
-{{% image "/img/135.png" /%}}
+{{% image "/img/135-en.png" /%}}
 
 A good example was the recent cases of — [shutting down and making it almost impossible to withdraw funds from the popular Telegram LNtxBot](https://stacker.news/items/122992) and [Blue Wallet issues with custodial Lightning implementation](https://twitter.com/hi__im__dave/status/1619680373314813953).
 
@@ -63,13 +63,13 @@ Phoenix has a simple, user-friendly and intuitive interface. It is [available](h
 
 The first thing to do after installation is to fund your wallet with sats. This can be done either with on-chain bitcoins or via the Lightning Network. After a few welcome screens, we are greeted by a screen offering to pay an "zero-value" Lightning invoice (an invoice where you can specify the amount to be paid at your choice). Please note that the minimum deposit amount is 10,000 sat, which is due to the need to open a channel through which you will later send and receive sats. Opening a channel is done with on-chain transaction, which requires pay fee to the miners.
 
-{{% image "/img/136.png" %}}
+{{% image "/img/136-en.png" %}}
 _Funding a wallet via Lightning / channel opening_
 {{% /image %}}
 
 You can also fund your wallet with on-chain transaction. To do this, click **Show a Bitcoin address** at the bottom of the screen.
 
-{{% image "/img/137.png" %}}
+{{% image "/img/137-en.png" %}}
 _Funding a wallet on-chain / channel opening_
 {{% /image %}}
 
@@ -79,14 +79,14 @@ Please note that in both cases, the first deposit will require paying on-chain f
 
 Main functions of the wallet:
 
-{{% image "/img/138.png" %}}
+{{% image "/img/138-en.png" %}}
 _Home screen_
 {{% /image %}}
 
 1. Settings
-2. Payments history
-3. Balance (hide/USD/sat)
-4. Network status
+2. Transaction history
+3. Balance (hidden/USD/sat)
+4. Network state
 5. Links (feedback)
 6. Receive
 7. Send
@@ -152,19 +152,19 @@ In case of an "apocalypse", all you need to restore your funds is the saved mnem
 1. Download [Electrum](https://electrum.org/#home).
 2. Create new **Standard wallet**.
 
-{{% image "/img/143.png" /%}}
+{{% image "/img/143-en.png" /%}}
 
 3. Choose **I already have a seed**.
 
-{{% image "/img/144.png" /%}}
+{{% image "/img/144-en.png" /%}}
 
 4. Type your 12 words, click on **Options** and check **BIP39 seed**.
 
-{{% image "/img/145.png" /%}}
+{{% image "/img/145-en.png" /%}}
 
 5. Choose **native segwit** **(p2wpkh)**.
 
-{{% image "/img/146.png" /%}}
+{{% image "/img/146-en.png" /%}}
 
 6. Wait for funds to become available.
 
