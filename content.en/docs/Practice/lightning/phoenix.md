@@ -193,4 +193,4 @@ As I said before, Phoenix is a good intermediate solution for "non-beginner" lev
 
 Despite a number of downsides (I consider them quite acceptable for users moving away from custodial solutions) Phoenix remains a good choice among LN wallets – it has managed to create a product that clearly follows its stated philosophy: to provide a non-custodial LN wallet with a user-friendly and intuitive interface. 
 
-Still have a questions? Please visit wallet [F.A.Q.](https://phoenix.acinq.co/faq).
+Still have a questions? Please visit wallet [FAQ](https://phoenix.acinq.co/faq).
