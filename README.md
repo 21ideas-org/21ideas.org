@@ -109,6 +109,7 @@
 | - 21,900 | [Radiokot](https://github.com/Radiokot) | "[поддержка альтернативных обложек для темной/светлой тем.](https://github.com/21ideas-org/21ideas.org/pull/222)" | 295,000 |
 | - 50,000 | [btclinux](https://github.com/btclinux) | "[Все, что нужно знать о CoinJoin](https://github.com/21ideas-org/21ideas.org/pull/250)" | 245,000 |
 | - 21,000 | [Radiokot](https://github.com/Radiokot) | "[Новый подраздел для Вестника](https://github.com/21ideas-org/21ideas.org/pull/256) и другие улучшения" | 224,000 |
+| - 50,000 | [btclinux](https://github.com/btclinux) | "Статьи о Samourai, Roning Dojo" | 174,000 |
 
 
 
