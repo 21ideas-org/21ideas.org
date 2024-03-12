@@ -6,7 +6,7 @@ tags: ["биткоин", "лайтнинг", "масштабирование", "
 description: "Лайтнинг-адреса позволяют получать и отправлять саты, не требуя при этом создавать каждый раз новые инвойсы. Эта статья пояснит как работает этот механизм."
 url: lajtning-adresa
 aliases: ['/lightning-addresses']
-date: 2022-09-12
+date: 2022-09-03
 bookToc: true
 bookFlatSection: false
 weight: 2
