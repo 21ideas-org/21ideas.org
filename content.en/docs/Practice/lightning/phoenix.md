@@ -101,19 +101,21 @@ _Settings screen_
 
 ### Payment channels
 
-Your payment channels are displayed here, showing your outbound (1) and inbound (2) liquidity. You can change (3) view in the second column to show the channel capacity instead of the inbound liquidity.
+Recent update has made life of Phoenix users much simpler. The team has  decided to move channel management under the hood and take care of all the background operations behind the scenes. Unlike before, when you had to manage multiple channels and watch the inbound liquidity on each one, all you have to do is specify fee conditions you are comfortable with and the rest will be done by the app.
 
-{{% image "/img/140.png" %}}
-_Payment channels screen_
+{{% image "/img/phoenix/channel.png" %}}
+_Channel management screen_
 {{% /image %}}
 
-### Functions and fees
+From a user's perspective, Phoenix acts almost identically to a custodial Lightning wallet. The only difference is that depending on your usage peculiarities (for example if you regularly receive more than you send), you will once in a while run into additional fees. In this case you could utilize ACINQ's liquidity provision service, where you can purchase additional liquidity to avoid unexpected charges. Alternatively, you can simply keep an eye on your liquidity in the same section of the app and swap some sats out (send sats to own onchain address) to ensure you have enough inbound liquidity.
 
-From a user's perspective, Phoenix acts almost identically to a custodial Lightning wallet. The only difference is that using this wallet, it is important to keep an eye on the state of the channel so that you don't accidentally request more funds than you have available in inbound liquidity. This will cost you an onchain fee + 1000 sat (you will receive less than what was sent to you).
-
-{{% image "/img/141.png" %}}
-_Receiving sats in the Lightning Network + opening a new channel_
+{{% image "/img/phoenix/liquidity.png" %}}
+_Liquidity management screen_
 {{% /image %}}
+
+{{< hint btc >}}
+As you can see on the screenshot above, there are only 22,738 sats held on the wallet. However, the inbound liquidity is at 2M sats. I never purchased any liquidity from Phoenix (when I started using it, there wasn't even such an option), instead I opened a big 2M+ channel and then gradually spent these sats from the wallet. This now allows me to receive sats via Lightning while not having to rent any inbound liquidity.
+{{< /hint >}}
 
 **Regular Phoenix functions and related fees:**
 
