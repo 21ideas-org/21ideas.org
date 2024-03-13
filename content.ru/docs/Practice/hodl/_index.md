@@ -1,5 +1,8 @@
 ---
 title: "Хранение"
+type: docs
+h1: " "
+cover: /img/main-section/hodl-ru.png
 bookCollapseSection: true
 url: practice/hodl
 weight: 2

@@ -1,5 +1,8 @@
 ---
 title: "Будущее"
+type: docs
+h1: " "
+cover: /img/main-section/future-ru.png
 bookCollapseSection: true
 url: future
 weight: 7

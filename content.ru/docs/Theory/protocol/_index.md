@@ -1,5 +1,8 @@
 ---
 title: "Протокол"
+type: docs
+h1: " "
+cover: /img/main-section/protocol-ru.png
 bookCollapseSection: true
 url: protocol
 weight: 4

@@ -1,5 +1,8 @@
 ---
 title: "Лайтнинг на практике"
+type: docs
+h1: " "
+cover: /img/main-section/lightning-ru.png
 bookCollapseSection: true
 url: practice/lightning
 weight: 6

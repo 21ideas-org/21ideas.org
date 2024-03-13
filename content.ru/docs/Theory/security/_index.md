@@ -1,5 +1,8 @@
 ---
 title: "Безопасность"
+type: docs
+h1: " "
+cover: /img/main-section/security-ru.png
 bookCollapseSection: true
 bookFlatSection: false
 url: security

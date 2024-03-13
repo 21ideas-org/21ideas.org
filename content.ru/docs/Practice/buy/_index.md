@@ -1,5 +1,8 @@
 ---
 title: "Покупка"
+type: docs
+h1: " "
+cover: /img/main-section/buy-ru.png
 bookCollapseSection: true
 weight: 1
 url: practice/buy

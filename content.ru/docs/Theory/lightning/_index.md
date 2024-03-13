@@ -1,5 +1,8 @@
 ---
 title: "Лайтнинг"
+type: docs
+h1: " "
+cover: /img/main-section/lightning-ru.png
 bookCollapseSection: true
 url: lightning
 weight: 8
