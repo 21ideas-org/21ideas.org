@@ -1,4 +1,4 @@
-![thumbnail](https://21ideas.org/posts/main/21ideas.png)
+![thumbnail](https://21ideas.org/img/main-section/main_light.png)
 
 ## О проекте 
 
