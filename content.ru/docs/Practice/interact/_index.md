@@ -1,5 +1,8 @@
 ---
 title: "Взаимодействие"
+type: docs
+h1: " "
+cover: /img/main-section/interact-ru.png
 bookCollapseSection: true
 url: practice/interact
 weight: 3

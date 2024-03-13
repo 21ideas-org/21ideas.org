@@ -1,6 +1,8 @@
 ---
 title: "Философия"
-h1: "Философия"
+type: docs
+h1: " "
+cover: /img/main-section/philosophy-ru.png
 bookCollapseSection: true
 url: philosophy
 weight: 6

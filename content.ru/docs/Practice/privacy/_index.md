@@ -1,5 +1,8 @@
 ---
 title: "Практики приватности"
+type: docs
+h1: " "
+cover: /img/main-section/privacy-ru.png
 bookHidden: false
 bookCollapseSection: true
 url: practice-privacy

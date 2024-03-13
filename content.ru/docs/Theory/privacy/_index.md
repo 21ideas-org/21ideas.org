@@ -1,5 +1,8 @@
 ---
 title: "Приватность"
+type: docs
+h1: " "
+cover: /img/main-section/privacy-ru.png
 bookCollapseSection: true
 url: privacy
 weight: 3
