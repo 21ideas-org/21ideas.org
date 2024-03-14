@@ -1,6 +1,8 @@
 ---
 title: "Принять участие"
-h1: "Делитесь знаниями"
+h1: " "
+cover: /img/main-section/ru/contribute-light.png
+coverDark: /img/main-section/ru/contribute.png
 bookCollapseSection: true
 type: docs
 url: contribute
