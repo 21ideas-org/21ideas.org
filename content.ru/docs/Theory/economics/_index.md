@@ -3,7 +3,7 @@ title: "Экономика"
 type: docs
 h1: " "
 cover: /img/main-section/ru/economics-light-ru.png
-coverDark: /img/main-section/ru/economics-ru.png
+coverDark: /img/main-section/ru/economics.png
 bookCollapseSection: true
 url: economics
 weight: 1
