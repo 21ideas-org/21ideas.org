@@ -2,7 +2,8 @@
 title: "Будущее"
 type: docs
 h1: " "
-cover: /img/main-section/future-ru.png
+cover: /img/main-section/ru/future-light.png
+coverDark: /img/main-section/ru/future.png
 bookCollapseSection: true
 url: future
 weight: 7
@@ -11,6 +12,9 @@ weight: 7
 Подраздел, собравший статьи и трактаты, посвященные рассуждениям о том, как Биткоин может выглядеть в будущем, как он может справляться с предстоящими угрозами и насколько его присутствие может изменить жизнь людей на планете Земля и за ее пределами.
 
 1. [Биткоин-астрономия](/ba/) (трилогия)
+
 2. [Эй, Биткоин, притормози](/ej-bitcoin-pritormozi)
+
 3. [Сможет ли Биткоин пережить апокалипсис?](/apokalipsis)
+
 4. [Биткоин и тепловая энергия океанов](/bitcoin-i-teplovaya-energiya-okeanov)
