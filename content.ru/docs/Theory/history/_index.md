@@ -2,7 +2,8 @@
 title: "История"
 type: docs
 h1: " "
-cover: /img/main-section/history-ru.png
+cover: /img/main-section/ru/history-light.png
+coverDark: /img/main-section/ru/history.png
 bookCollapseSection: true
 url: history
 weight: 5
@@ -35,6 +36,7 @@ weight: 5
 ## Статьи
 
 1. [Хэл Финни — жизнь и смерть легенды движения шифропанков](/hal-finney)
+
 2. [Биткоин-Реформация](/bitcoin-reformaciya)
 
 

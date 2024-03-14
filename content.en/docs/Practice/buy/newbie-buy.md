@@ -12,5 +12,5 @@ weight: 1
 ---
 
 {{< hint btc >}}
-The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the [Contribute](/en/contribute) page. 
+The guide is not yet available in English. Want to cover this topic or support the project? Visit the [Contribute](/en/contribute) page. 
 {{< /hint >}}
