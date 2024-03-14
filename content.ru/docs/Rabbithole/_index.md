@@ -1,10 +1,11 @@
 ---
 title: "Кроличья нора"
-bookCollapseSection: true
-url: rabbithole
+h1: " "
 type: docs
 cover: /img/main-section/ru/rabbithole-light.png
 coverDark: /img/main-section/ru/rabbithole.png
+bookCollapseSection: true
+url: rabbithole
 weight: 4
 ---
 

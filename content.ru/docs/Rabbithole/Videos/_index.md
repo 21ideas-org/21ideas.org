@@ -3,7 +3,8 @@ title: "Видео"
 tags: ["биткоин", "видео", "теория", "экономика", "видеоматериалы", "биткоин-видео"]
 description: "Видеоматериалы, посвященные Биткоину, экономике и личностному суверенитету"
 url: videos
-cover: /img/main-section/videos.png
+cover: /img/main-section/ru/videos-light.png
+coverDark: /img/main-section/ru/videos.png
 bookFlatSection: false
 bookToc: true
 weight: 2

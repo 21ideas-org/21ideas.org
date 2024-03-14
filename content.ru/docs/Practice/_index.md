@@ -1,6 +1,7 @@
 ---
 title: Практика
 type: docs
+h1: " "
 cover: /img/main-section/ru/practice-light.png
 coverDark: /img/main-section/ru/practice.png
 bookFlatSection: false
