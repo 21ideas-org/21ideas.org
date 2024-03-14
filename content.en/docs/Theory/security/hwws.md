@@ -47,7 +47,7 @@ Fortunately, such an outcome can be avoided for less than $100 and with a few si
 | **Connector** | **microSD** | **Camera** | **Secure element** |
 |--------|---------|--------|----|
 | microUSB | - | - | - |
-| **Аккумулятор** | **Bluetooth** | **NFC** | **Открытый код** |
+| **Battery** | **Bluetooth** | **NFC** | **Open source** |
 | - | - | - | ✅* |
 
 The Trezor _Model One_ was the first consumer hardware wallet designed for the masses. Approaching nine years of production, the device has stood the test of time and earned its place among bitcoiners.
