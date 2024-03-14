@@ -1,7 +1,8 @@
 ---
 title: Практика
 type: docs
-cover: /img/main-section/practice.png
+cover: /img/main-section/ru/practice-light.png
+coverDark: /img/main-section/ru/practice.png
 bookFlatSection: false
 bookCollapseSection: true
 url: practice

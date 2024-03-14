@@ -3,7 +3,8 @@ title: "Кроличья нора"
 bookCollapseSection: true
 url: rabbithole
 type: docs
-cover: /img/main-section/rabbithole.png
+cover: /img/main-section/ru/rabbithole-light.png
+coverDark: /img/main-section/ru/rabbithole.png
 weight: 4
 ---
 
