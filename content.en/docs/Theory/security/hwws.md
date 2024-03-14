@@ -1,5 +1,4 @@
 ---
-
 title: "The best Bitcoin hardware wallets"
 h1: "The best Bitcoin hardware wallets"
 cover: /img/hwws/hwws.png
