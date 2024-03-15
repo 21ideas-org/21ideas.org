@@ -9,6 +9,9 @@ bookHidden: true
 Чтобы получать уведомления о новых записях в [Блоге](/posts) и выпусках [Вестника](/vestnik), подпишитесь на наши ленты:
 
 {{< hint >}}
+### Все материалы 
+`https://21ideas.org/index.xml`
+
 ### Блог 
 `https://21ideas.org/posts/index.xml`
 
