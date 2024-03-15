@@ -1,9 +1,9 @@
 ---
-title: "Покупка и хранение биткоина для новичков"
-h1: Покупка и хранение биткоина для новичков
+title: "Buy and Hodl Bitcoin for Beginners"
+h1: "Buy and Hodl Bitcoin for Beginners"
 cover: /img/newbie-buy/cover.png
-tags: ["биткоин", "покупка", "no-kyc", "приватность", "новичкам"]
-description: "Простейший способ покупки биткоинов для новичков."
+tags: ["bitcoin", "buy", "no-kyc", "privacy", "for beginners"]
+description: "The easiest way to buy bitcoins for beginners."
 url: newbie-buy
 date: 2022-12-06
 bookFlatSection: false

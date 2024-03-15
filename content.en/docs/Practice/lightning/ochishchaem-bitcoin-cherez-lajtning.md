@@ -3,8 +3,7 @@ title: "Очищаем биткоины через сеть Лайтнинг"
 h1: "Очищаем биткоины через сеть Лайтнинг"
 cover: /img/obl-701.png
 description: "Биржа не хочет принимать ваши биткоины, считая их грязными? Не знаете как очистить биткоины? На помощь придет Лайтнинг, а этот гид расскажет как завести даже грязные биткоины на биржу."
-url: ochishchaem-bitcoin-cherez-lajtning
-aliases: ['/launder-with-lightning']
+url: launder-bitcoins-with-lightning
 date: 2023-05-12
 bookFlatSection: false
 weight: 6
