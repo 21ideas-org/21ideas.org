@@ -38,7 +38,7 @@ A good example was the recent cases of — [the shutdown of the popular Telegram
 - **Custodial storage** – holding / using the "crypto" (Bitcoin, Lightning Network sats, Ether or any other shitcoin) relying on a third party, a so-called custodian. The custodian holds your funds and receives / sends them at your request.
 - **Non-custodial storage** – self custody and control of your own funds.
 - **LIghtning Network or LN** – Layer 2 network implemented "on top" of the main Bitcoin network.
-- **Invoice** – Lightning Network mechanism differs from the one used in the Bitcoin network. Instead of addresses, users must exchange invoices to receive funds.
+- **Invoice** – Lightning Network mechanism differs from the one used in the Bitcoin network. Instead of addresses, users must exchange invoices to receive funds (the details of the Lightning Network are covered [in this video](https://www.youtube.com/watch?v=yKdK-7AtAMQ)).
 - **Liquidity** – the volume of funds you can send (outbound) or receive (inbound).
 
 ---
@@ -54,6 +54,9 @@ Phoenix will perhaps be less common to users accustomed to "two-in-one" wallets.
 {{% image "/img/30.jpeg" /%}}
 
 Yes, Phoenix lets you receive onchain payments, but they will be instantly swapped to LN sats. You can also do **Swap-out** and send LN sats to the onchain address. Swaps take place "under the hood". The technical details of the process lie outside the scope of this guide, just note that Phoenix should not be thought of as an onchain wallet. In a sense, Phoenix can be called a _Lightning Maximalist Wallet_ ⚡️.
+
+_To see how bitcoins are released into the Lightning Network and other technical aspects of how it works, check out this video:_
+{{< youtube yKdK-7AtAMQ />}}
 
 ## Practice
 
