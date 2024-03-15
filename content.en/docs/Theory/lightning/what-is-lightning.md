@@ -11,7 +11,7 @@ bookFlatSection: false
 weight: 1
 ---
 
-Why do you need a Lightning Network, how does it work and how do you use it?
+Why should you care about Lightning Network, how does it work and how to use it? We'll answer these and many other questions in this guide.
 
 {{< hint btc >}}
 The article written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
@@ -19,9 +19,9 @@ The article written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr
 [Contribute](/contribute/).
 {{< /hint >}}
 
-Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world's most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds. However, Bitcoin's design has a number of drawbacks. It can take an hour, and often more, from the time a transaction is made on the Bitcoin blockchain to the moment that transaction becomes irreversible.
+Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world's most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds. However, Bitcoin's design has a number of drawbacks. It can take an hour, and often more, from the time a transaction is made on the Bitcoin blockchain to the moment that transaction gets finalized.
 
-Certainly micro payments or payments of a few cents don't seem viable at the moment.
+Certainly, micro payments don't seem viable at the moment.
 
 The Lightning Network solves this problem. It is one of the first implementations of a multi-party smart contract (programmable money) using the embedded script of the Bitcoin protocol. The Lightning Network is a leading technological development in the context of multi-user financial settlement based on the Bitcoin network. Let us draw attention to some of the advantages that the Lightning Network has:
 
@@ -31,15 +31,15 @@ Bitcoin combines transactions into blocks appearing at approximately ten minute 
 
 ### Micro payments
 
-New markets may become available thanks to the micro payments. Lightning allows you to send funds as low to 0.00000001 bitcoin without forcing you to go to custodial services. Minimal transaction fee on the Bitcoin blockchain are many hundreds higher today, and flat transaction fees make micro payments impractical. Lightning enables Bitcoin-denominated minimum payments using de facto Bitcoin transactions.
+New markets may become available thanks to the micro payments. Lightning allows you to send as little as 0.00000001 bitcoin without forcing you to use custodial services. Minimal transaction fees on the Bitcoin blockchain are orders of magnitude higher today, and flat transaction fees make micro payments impractical. Lightning enables Bitcoin-denominated micropayments using de facto Bitcoin blockchain.
 
 ### Scalability
 
-If the Bitcoin network is going to meet the demand of users joining, it must support an order higher number of transactions. The upcoming growth in the number of devices connected to internet requires a device-to-device payment platform and automated micro payments. Lightning Network transactions take place outside the Bitcoin blockchain and also do not require delegating trust and ownership, allowing users to make a nearly unlimited number of transactions.
+If the Bitcoin network is going to meet the demand of users joining, it must process many more transactions. The upcoming growth in the number of devices connected to Internet requires a device-to-device payment platform and automated micro payments. Lightning Network transactions take place outside of the Bitcoin blockchain and also do not require delegating trust and ownership, allowing users to make a nearly unlimited number of instant transactions.
 
-## How does it work
+## How it works
 
-Funds are placed in a two-party [multisig](/en/multisig-1) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. In this way, either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
+Funds are placed in a two-party [multisig](/en/multisig) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. In this way, either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
 
 The network does not require the cooperation of your counterparty to close a Lightning channel. Both parties have the ability to unilaterally close the channel. Since all participants have multiple channels with many network users, users can also send funds to participants with whom they have not personally opened a channel.
 
