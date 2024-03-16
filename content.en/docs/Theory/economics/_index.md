@@ -99,7 +99,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 
 - [Money, blockchains, and social scalability](/en/money-blockchains-and-social-scalability)
 
-- [Что такое деньги](/chto-takoe-dengi)
+- [What Is Money](/en/what-is-money)
 
 - [Only The Strong Survive](/en/only-the-strong-survive)
 
