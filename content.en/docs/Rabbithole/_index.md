@@ -1,9 +1,11 @@
 ---
 title: "Rabbithole"
-bookCollapseSection: true
-url: rabbithole
 type: docs
-cover: /img/main-section/rabbithole-en.png
+h1: " "
+cover: /img/main-section/en/rabbithole-dark.png
+coverDark: /img/main-section/en/rabbithole-light.png
+url: rabbithole
+bookCollapseSection: true
 weight: 4
 ---
 

@@ -2,8 +2,8 @@
 title: "Buy"
 type: docs
 h1: " "
-cover: /img/main-section/ru/buy-light.png
-coverDark: /img/main-section/ru/buy.png
+cover: /img/main-section/en/buy-dark.png
+coverDark: /img/main-section/en/buy-light.png
 bookCollapseSection: true
 weight: 1
 url: practice/buy

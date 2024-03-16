@@ -2,8 +2,8 @@
 title: "Privacy"
 type: docs
 h1: " "
-cover: /img/main-section/ru/privacy-light.png
-coverDark: /img/main-section/ru/privacy.png
+cover: /img/main-section/en/privacy-dark.png
+coverDark: /img/main-section/en/privacy-light.png
 bookHidden: false
 bookCollapseSection: true
 url: practice-privacy

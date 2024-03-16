@@ -2,7 +2,8 @@
 title: Theory
 type: docs
 h1: " "
-cover: /img/main-section/theory-en.png
+cover: /img/main-section/en/theory-dark.png
+coverDark: /img/main-section/en/theory-light.png
 bookFlatSection: false
 bookCollapseSection: true
 url: theory

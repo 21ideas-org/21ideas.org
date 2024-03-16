@@ -1,6 +1,8 @@
 ---
 title: "Contribute"
-h1: "Contribute"
+h1: " "
+cover: /img/main-section/en/contribute-dark.png
+coverDark: /img/main-section/en/contribute-light.png
 bookCollapseSection: true
 type: docs
 url: contribute

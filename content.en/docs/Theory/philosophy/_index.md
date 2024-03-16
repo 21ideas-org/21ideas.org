@@ -1,6 +1,8 @@
 ---
 title: "Philosophy"
-h1: "Philosophy"
+h1: " "
+cover: /img/main-section/en/philosophy-dark.png
+coverDark: /img/main-section/en/philosophy-light.png
 bookCollapseSection: true
 url: philosophy
 weight: 6

@@ -2,8 +2,8 @@
 title: "Hodl"
 type: docs
 h1: " "
-cover: /img/main-section/ru/hodl-light.png
-coverDark: /img/main-section/ru/hodl.png
+cover: /img/main-section/en/hodl-dark.png
+coverDark: /img/main-section/en/hodl-light.png
 bookCollapseSection: true
 url: practice/hodl
 weight: 2
