@@ -39,7 +39,7 @@ If the Bitcoin network is going to meet the demand of users joining, it must pro
 
 ## How it works
 
-Funds are placed in a two-party [multisig](/en/multisig) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. In this way, either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
+Funds are placed in a two-party [multisig](/en/multisig) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. This way either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
 
 The network does not require the cooperation of your counterparty to close a Lightning channel. Both parties have the ability to unilaterally close the channel. Since all participants have multiple channels with many network users, users can also send funds to participants with whom they have not personally opened a channel.
 
@@ -49,9 +49,9 @@ Learn more about how the Lightning Network works under the hood in this video:
 
 More articles about the Lightning Network and its features can be found at [this section](/en/lightning).
 
-## Who needs it?
+## Who is Lightning for?
 
-The Lightning Network currently [has](https://1ml.com/statistics) nearly 20,000 nodes and over 70,000 channels; it also has slightly less than 5,000 BTC (about $150 million at the time of this writing) blocked. This protocol is already quite widespread and continues to evolve. As the user experience of interacting with Bitcoin improves, more users will come to Lightning.
+Lightning Network currently [has](https://1ml.com/statistics) nearly 20,000 nodes and over 70,000 channels; it also has slightly less than 5,000 BTC (over $300 million at the time of this writing) blocked. This protocol is already quite widespread and continues to evolve. As the user experience of interacting with Bitcoin improves, more users will come to Lightning.
 
 {{% image "/img/175.png" /%}}
 
@@ -59,29 +59,31 @@ Being an early user of any *useful* network is never redundant - you get the opp
 
 ## Earnings on the Lightning Network
 
-There are many ways to earn the desired sats: from receiving donations for producing useful content through [Alby](/alby-i-nostr) and the [Lightning Tip Bot](/en/lntips), which we will talk about later, to sites like [https://microlancer.io/](https://microlancer.io/), where you can do simple tasks in exchange for sats, and writing articles that open for viewing after paying with sats on [Y’alls](https://yalls.org/). In addition, depending on your country of residence, you can use services such as [Lolli](https://www.lolli.com/), which refunds a portion of the cost of purchases in bitcoins.
+There are many ways to earn the desired sats: from receiving donations for producing useful content through [Alby](https://getalby.com) and the [Lightning Tip Bot](/en/lntips), which we will talk about later, to platforms like [https://microlancer.io/](https://microlancer.io/), where you can do simple tasks in exchange for sats, and writing articles that can be paywalled behind Lightning invoices [Y’alls](https://yalls.org/). Content creators also get rewarded on [Stacker News] and [Nostr](https://nostr.how/en/what-is-nostr). In addition, depending on your country of residence, you can use services such as [Fold](https://foldapp.com), which offer satsbacks for your purchases.
 
-If you take a little more time and some resources, you can open up channels and rent them out to other people by starting your own Lightning Node. You can explore [https://github.com/lightninglabs/pool](https://github.com/lightninglabs/pool), for more information on this topic.
+If you spend a little more time and some resources, you can open up channels and rent them out to other people by starting your own Lightning Node. You can explore [https://github.com/lightninglabs/pool](https://github.com/lightninglabs/pool) for more information on this topic.
 
-Nevertheless, the easiest way to earn sats is to provide services in return for payments in the lightning Network.
+Nevertheless, the easiest way to earn sats is to provide services in return for Lightning Network payments.
 
 ## How to start?
 
-The first step in interacting with any "crypto" solution is always the choice of wallet. Lightning is no exception, and first of all we should decide which GUI to choose for interaction with the network.
+Interacting with any "crypto" solution always starts with choosing a wallet. Lightning is no exception, and first of all we should decide which app to choose to interact with the network.
 
-For beginners, I would recommend to use so-called custodial wallets - wallets that store your funds for you. I know that many people will remember the good old saying "Not your keys — not your bitcoins", and I completely agree with you, but Lightning, being a layer 2 protocol, i.e. a add-on over Bitcoin protocol, is more complicated in terms of setup. Therefore, it is by no means shameful to start with a custodial solution. You can always change your approach once you are confident in your skills and run your own node.
+For beginners, I would recommend to use so-called custodial wallets - wallets that store your funds for you. I know that many people will remember the good old saying "Not your keys — not your bitcoins", and I completely agree with you, but Lightning, being a layer 2 solution, is more complicated in terms of setup. Therefore, it is by no means shameful to start with a custodial solution. You can always change your approach once you are confident in your skills and run your own node.
 
-Examples of such wallets are [Wallet of Satoshi](https://www.walletofsatoshi.com/), [Alby](/alby-i-nostr) and many others.
+Examples of such wallets are [Wallet of Satoshi](https://www.walletofsatoshi.com/), [Alby](https://getalby.com) and many others.
 
 {{< hint btc >}}
 Don't forget that the above wallets and their developers store your sats for you and therefore have full control over your funds. Although using such wallets is a good first step when interacting with Lightning, I strongly recommend that you look into the topic in more detail and switch to a solution that gives you the ability to control your sats.
 {{< /hint >}}
 
-With a little understanding of the mechanics of how the network works, you can move on to more advanced solutions to store and transfer value in the Lightning Network. One simple non-custodial solution is the [Phoenix Wallet](/en/phoenix), a guide to which is available on this site. Alternatively, you can also use the Valet, Breez or Blixt wallet. The best and most flexible solution - although requiring more resources and knowledge - is to run your own Lightning node and manage your channels yourself.
+With a little understanding of the mechanics of how the network works, you can move on to more advanced solutions to store and transfer value in the Lightning Network. One simple non-custodial solution is the [Phoenix Wallet](https://phoenix.acinq.co), a guide to which is available [here](/en/phoenix). Alternatively, you can use Valet, Breez or Blixt wallet. The best and most flexible solution - although requiring more resources and knowledge - is to run your own Lightning node and manage your channels yourself.
 
-With a little understanding of the mechanics of how the network works, you can move on to more advanced solutions to store and transfer value in the Lightning Network. One simple non-custodial solution is the [Phoenix Wallet](/en/phoenix), a guide to which is available on this site. Alternatively, you can also use the Valet, Breez or Blixt wallet. The best and most flexible solution - although requiring more resources and knowledge - is to run your own Lightning node and manage channels yourself.
+{{< hint btc >}}
+A thorough comparison of Lightning wallets can be found in our guide [here](/lightning-wallets).
+{{< /hint >}}
 
-Once you have created a wallet you will need to send some bitcoins to it, and then within the app you will be able to withdraw the bitcoins received "to the second layer". Different apps interact with the user differently, but generally all are intuitive and should not cause any difficulties. In the end, you'll be able to use your Lightning bitcoins the same way you would with regular bitcoins - you can create and pay invoices and interact with anyone who accepts payments via Lightning.
+Once you have created a wallet you will need to send some bitcoins to it, and then within the app you will be able to withdraw the bitcoins received "to the second layer". Different apps interact with the user differently, but generally all are intuitive and should not cause any difficulties. End of the day, you'll be able to use your sats on the Lightning Network similarly to how you use onchain bitcoin wallets - you can create and pay invoices and interact with anyone who accepts payments via Lightning.
 
 ## Value transfer in the Lightning Network
 
@@ -91,19 +93,19 @@ Transactions in the Lightning Network go through special channels and are carrie
 _Interface of [LN.tips](https://t.me/LightningTipBot) Telegram bot_
 {{% /image %}}
 
-As the protocol evolves, more and more convenient solutions are emerging. Of course, generating a new invoice every time you want to get paid is not the most convenient approach. Luckily, developers have come up with Lightning addresses, thanks to which you can use the same credentials to receive funds multiple times. You can learn more about Lightning-addresses from [this](/en/lightning-addresses) article.
+As the protocol evolves, more and more convenient solutions are emerging. Of course, generating a new invoice every time you want to get paid is not the most convenient approach. Luckily, developers have come up with Lightning addresses, thanks to which you can use the same credentials to receive funds over and over again. You can learn more about Lightning-addresses from [this](/en/lightning-addresses) article.
 
 ## Value transfer in the Lightning Network without leaving Telegram
 
-With the protocol's evolution, many third-party services have appeared to facilitate interaction with the network. One of such useful solutions is Telegram bot [@LightningTipBot](https://t.me/LightningTipBot). It allows you to send sats to other Telegram users and even thank/support with sats the comments of your conversation partners in chats where this bot is installed. The description of the bot's features and all possible commands are available with the command `/help`. Moreover, every Telegram user automatically receives LNURL - a specially generated address in the Lightning Network. You can learn more about the bot from [this](/en/lntips) guide.
+With the protocol's evolution, many third-party services have appeared to facilitate interaction with the network. One of such useful solutions is Telegram bot [@LightningTipBot](https://t.me/LightningTipBot). It allows you to send sats to other Telegram users and even thank/support with sats the comments of your conversation partners in chats where this bot is installed. The description of the bot's features and all possible commands are available with the `/help` command. Moreover, every Telegram user automatically receives LNURL - a specially generated address in the Lightning Network. You can learn more about the bot from [this](/en/lntips) guide.
 
 {{% image "/img/177.png" %}}
 *[Guide to LN.tips Telegram wallet-bot](/en/lntips)*
 {{% /image %}}
 
-## That's all?
+## Is that all?
 
-The Bitcoin protocol and Lightning network, as a layer 2 solution, is rapidly evolving. We are constantly seeing new solutions to optimize the protocol, improve user experience and other innovations. The number of services accepting Bitcoin is rapidly growing every day.
+The Bitcoin protocol and Lightning network, as a layer 2 solution, are rapidly evolving. We are constantly seeing new solutions to optimize the protocol, improve user experience and other innovations. The number of services accepting Bitcoin is rapidly growing every day.
 
-Learning Bitcoin and related protocols now is like diving into the ocean of internet solutions in the early 2000s. It's not easy to be a pioneer, but the rewards for your curiosity and hard work usually don't last long!
+Learning Bitcoin and related protocols now is like diving into the ocean of Internet solutions in the early 2000s. It's not easy to be a pioneer, but the rewards for your curiosity and hard work will follow!
 
