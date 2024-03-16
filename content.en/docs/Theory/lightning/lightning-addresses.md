@@ -5,7 +5,6 @@ cover: /img/215.png
 tags: ["bitcoin", "lightning", "scalability", "lightning network", "addresses", "payments"]
 description: ""
 url: how-lightning-address-works
-aliases: ['/lightning-addresses']
 date: 2022-09-03
 bookToc: true
 bookFlatSection: false

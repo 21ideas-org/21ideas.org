@@ -16,7 +16,7 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 
 3. [On Bitcoin’s UX](/en/on-bitcoins-ux)
 
-4. [Биткоин: цифровое золото или пиринговая наличность?](/bitcoin-zoloto-2-0)
+4. [Bitcoin: Digital Gold or Peer-to-Peer Cash?](/en/bitcoin-digital-gold-or-ecash)
 
 5. [Bitcoin Governance](/en/bitcoin-governance)
 

@@ -11,7 +11,7 @@ weight: 6
 
 1. [Phoenix Wallet: Take Back Control of Your Sats in the Lightning Network](/en/phoenix)
 
-2. [LNbits – A Swiss knife among Lightning apps](/en/lnbits)
+2. [LNbits: A Swiss knife among Lightning apps](/en/lnbits)
 
 3. [Alby and Nostr](/en/alby-and-nostr)
 
