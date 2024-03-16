@@ -2,8 +2,8 @@
 title: "Lightning"
 type: docs
 h1: " "
-cover: /img/main-section/ru/lightning-light.png
-coverDark: /img/main-section/ru/lightning.png
+cover: /img/main-section/en/lightning-dark.png
+coverDark: /img/main-section/en/lightning-light.png
 bookCollapseSection: true
 url: practice/lightning
 weight: 6
