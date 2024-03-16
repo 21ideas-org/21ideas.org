@@ -1,175 +1,173 @@
 ---
-title: "Телеграм-бот @LightningTipBot"
-h1: "Телеграм-бот @LightningTipBot с поддержкой Nostr и сети Молния"
+title: "Telegram bot @LightningTipBot"
+h1: "Telegram bot @LightningTipBot supporting Nostr and the Lightning Network"
 cover: /img/lnt-694.png
-description: "Lightning Tip Bot – удобный робот, который выведет ваше взаимодействие с Telegram, сетью Молния и протоколом Nostr на новый уровень."
+description: "Lightning Tip Bot is a friendly bot that will take your interaction with Telegram, the Lightning Network and the Nostr protocol to the next level."
 url: lntips
 date: 2023-03-03
 bookFlatSection: false
 weight: 5
 ---
 
-{{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+Lightning Tip Bot is a friendly bot that will take your interaction with Telegram, the Lightning Network and the Nostr protocol to the next level.
 
-[Поддержать проект](/contribute).
+{{< hint btc >}}
+The guide written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
+
+[Contribute](/contribute/).
 {{< /hint >}}
 
-Lightning Tip Bot – удобный робот, который выведет ваше взаимодействие с Telegram, сетью Молния и протоколом Nostr на новый уровень.
+Originally developed as a Telegram bot with Lightning Network support, LightningTipBot (LTB) got a new round of development with the growing popularity of the Nostr protocol. In addition to the LN payments that many people are already familiar with, the bot also supports the creation of keychain for Nostr account and Zaps. Because of this, it can be a great bridge for financial communication between different social apps.
 
-Изначально разрабатывавшийся как Телеграм-бот с поддержкой сети Молния, LightningTipBot (далее LTB) получил новый виток развития с ростом популярности протокола [Nostr](https://nostr.21ideas.org/docs/basics/what-is-nostr.html). Помимо уже привычных многим ЛН-платежей бот поддерживает и создание [связки ключей](https://nostr.21ideas.org/docs/basics/keys.html) (учетной записи) Nostr, и Запы. Благодаря этому он может служить отличным связующим звеном для финансового общения разных социальных приложений.
+## Purpose of Lightning Tip Bot
 
-## Предназначение Lightning Tip Bot
+LTB allows Telegram users to send and receive sats without leaving the messenger. In addition to simple transfers, the bot supports a lot of interesting features. I suggest to launch the bot and look at the most useful of them.
 
-LTB дает пользователям Телеграм возможность отправлять и получать саты, не покидая мессенджера. Помимо простых переводов бот поддерживает множество интересных функций. Предлагаю запустить бота и рассмотреть самые полезные из них.
+To get started, simply follow [this link](https://t.me/LightningTipBot) or type @LightningTipBot directly into Telegram search. Start a conversation with the bot by pressing `/start`.
 
-Для начала работы просто перейдите по [этой ссылке](https://t.me/LightningTipBot) или введите @LightningTipBot прямо в поиске Телеграм. Заведите беседу с ботом, нажав `/start`.
+The bot will communicate with you in the default language of your Telegram app.
 
-Бот будет общаться с вами на языке, установленном по умолчанию в вашем приложении Телеграм.
+## Main features / commands
 
-## Основные функции / команды
+### LN address
 
-### Предоставление ЛН-адреса
-
-Каждый пользователь Телеграм автоматически получает лайтнинг-адрес – привычный человеку формат для получения сатов в сети Молния. Ваш адрес состоит из вашего имени пользователя в Телеграм + @ln.tips.
+Every Telegram user automatically gets a Lightning address - a format familiar to people who receiving sats in the Lightning Network. Your address consists of your Telegram username + @ln.tips.
 
 {{< hint info >}}
-Лайтнинг-адреса выглядят точь-в-точь как привычные адреса электронной почты.
+Lightning addresses look exactly like familiar email addresses.
 
-Для примера можете взглянуть на мой адрес от LTB: _tony_lightning@lntips_
+You can take a look at my address from LTB for an example: _tony_lightning@lntips_
 {{< /hint >}}
 
-Уточнить свой адрес, а также получить его QR-код можно, нажав кнопку **App** на панели управления ботом.
+You can check your address, as well as get its QR code, by clicking the **App** button on the bot's control panel.
 
 {{% image "/img/lnt-695.png" /%}}
 
-Подробнее о лайтнинг-адресах можно узнать из [этой статьи](/lajtning-adresa).
+You can learn more about Lightning addresses from [this article](/en/how-lightning-address-works).
 
-### Отправка сат другому пользователю Телеграм
+### Sending sats to another Telegram user
 
-Единственное условие: получатель должен заранее завести беседу с ботом. Если получатель еще не взаимодействовал с ботом, вы можете попросить его это сделать. Отправку можно осуществить
+The only condition is that the recipient must initiate a conversation with the bot prior. If the recipient has not yet interacted with the bot, you can ask them to do so. Sending can be done by
 
-- из окна взаимодействия с ботом через команду:
+- from the bot interaction window using the command:
 
 ```
-/send <сумма> @<имя пользователя>
+/send <amount> @<username>
 ```
 
-Примером такой команды может послужить:
+Example:
 
 ```
 /send 21000 @tony_lightning
 ```
 
-- прямо в чате с получателем:
+- right in the chat with the recipient:
 
 ```
 @LightningTipBot /send 21000
 ```
 
-- также можно отправить саты на ЛН-адрес:
+- you can also send sats to the LN address:
 
 ```
 /send 21000 21ideas@getalby.com
 ```
 
-### Оплата LN-инвойсов
+### Making payment on LN invoices
 
-Вставляйте лайтнинг-инвойсы в диалог с ботом, чтобы оплатить их:
+Insert Lightning invoice into the chat with the bot to pay:
 
 ```
 /pay <lnbc…>
 ```
 
-### Использование бота в групповом чате
+### Using a bot in group chat
 
-LTB выведет общение участников Телеграм-чата на новый уровень. Добавьте бота в качестве администратора чата и участники чата смогут:
+LTB will bring the communication of Telegram chat participants to a new level. Add a bot as a chat administrator and chat participants will be able to:
 
-- отправлять пару сат в знак благодарности за полезный комментарий/пост, просто отвечая на сообщение следующей командой:
+- Send a couple sats to say thanks for a helpful comment/post by simply replying to the post with the following command:
 
 ```
-/tip <сумма> [<заметка>] 
+/tip <amount> [<note>] 
 ```
 
 {{% image "/img/lnt-696.jpeg" /%}}
 
-- Раздавать саты
-- Создавать копилки
-- Взимать саты за вход в чат
+- Giving out sats
+- Create piggy banks
+- Charge sats for entering the chat
 
 {{< hint info >}}
-Если вы не хотите наделять бота правами администратора, вы все равно можете использовать те же команды, просто добавляя @LightningTipBot в начале каждой команды.
+If you don't want to give the bot admin privileges, you can still use the same commands by simply adding @LightningTipBot to the beginning of each command.
 {{< /hint >}}
 
-### Анонимный ЛН-адрес и LNURL
+### Anonymous LN address and LNURL
 
-По команде `advanced` бот предоставляет вам анонимные ЛН-адрес и LNURL на случай, если вы не хотите указывать данные, которые можно связать с вашим Телеграм-аккаунтом:
+By `/advanced` command the bot provides you with an anonymous LN address and LNURL in case you don't want to provide data that can be linked to your Telegram account:
 
 {{% image "/img/lnt-697.png" /%}}
 
-### Другие функции
+### Other features
 
-Бот общается на русском языке, поэтому для вас не составит труда разобраться в остальных его функциях. Помощника можно вызвать командами `/help` ([список простых команд](/lntips/#примеры-простых-команд-help)👇) и `/advanced` ([список сложных команд](/lntips/#примеры-сложных-команд-advanced)👇).
+The helper can be called with the commands `/help` ([list of simple commands](/en/lntips/#list-of-simple-commands-help)👇) and `/advanced` ([list of advanced commands](/en/lntips/#list-of-advanced-commands-advanced)👇).
 
-## Подключение ЛН-кошельков
+## Connecting LN wallets
 
-Вы также можете подключить мобильные лайтнинг-кошельки для мониторинга вашего аккаунта LTB. На данный момент поддерживаются кошельки Blue [^1] и Zeus. Экспортировать LTB можно, введя команду `/link` и проследовав инструкции.
+You can also connect mobile lightning wallets to monitor your LTB account. Currently, Blue and Zeus wallets are supported. You can export LTB by entering the `/link` command and following the instructions.
 
 {{% image "/img/lnt-698.jpeg" %}}
-_Скриншот кошелька LTB, импортированного в Blue Wallet_
+_Screenshot of LTB wallet imported into Blue Wallet_
 {{% /image %}}
 
-## Поддержка Nostr
+## Nostr support
 
-Вы можете ввести [свой ЛН-адрес](/lntips/#предоставление-лн-адреса) из бота в любимый [клиент](https://nostr.21ideas.org/docs/basics/clients.html) Nostr и получать запы и переводы прямо на телеграм-кошелек (не забывайте о [возможности получать оповещения и управлять ботом из других кошельков](/lntips/#подключение-лн-кошельков)). Более того, благодаря поддержке NIP-57 вы будете также получать комментарии при каждом финансовом взаимодействии с Nostr:
+You can enter [your LN address](/en/lntips/#ln-address) from the bot into your favorite Nostr client and receive zaps and payments directly to your Telegram wallet (don't forget about [the ability to receive alerts and manage the bot from other wallets](/en/lntips/#connecting-ln-wallets)). Moreover, thanks to NIP-57 support, you will also receive comments on every financial interaction with Nostr:
 
 {{% image "/img/lnt-699.png" /%}}
 
-Вы также можете ввести свой публичный ключ Nostr командой `/nostr add <ваш публичный ключ>`, чтобы получить [верификацию NIP-05](https://nostr.21ideas.org/docs/basics/nip-05.html). Далее просто введите свой LTB-адрес в поле NIP-05 в настройках своего Nostr-клиента:
+You can also enter your Nostr public key with the command `/nostr add <your public key>` to get NIP-05 verification. Then simply enter your LTB address in the NIP-05 field in your Nostr client settings:
 
 {{% image "/img/lnt-700.png" /%}}
 
-## Команды
+## Commands
 
-### Примеры простых команд (`/help`):
-
-```
-/tip 🏅 Ответьте на сообщение, чтобы отправить Tip (небольшую сумму в Сатоши): /tip <сумма> [<заметка>]
-
-/balance 👑 Проверить баланс: /balance
-
-/send 💸 Отправить средства пользователю: /send <количество> <имя пользователя> или <пользователь>@ln.tips [<заметка>]
-
-/invoice ⚡️ Получить через Lightning: /invoice <количество> [<заметка>]
-
-/pay ⚡️ Оплатить через Lightning: /pay <инвойс>
-
-/donate ❤️ Отправить пожертвование проекту: /donate 1000
-
-/advanced 🤖 Продвинутые возможности.
-
-/help 📖 Прочитать справку.
-```
-
-### Примеры сложных команд (`/advanced`):
+### List of simple commands (`/help`):
 
 ```
-/transactions 📊 Список транзакций
+/tip 🏅 Reply to a message to tip it: /tip <amount> [<memo>]
 
-/link 🔗 Привязать кошелек к BlueWallet или Zeus
+/balance 👑 Check your balance: /balance
 
-/lnurl Получить или оплатить через ⚡️Lnurl: /lnurl or /lnurl <lnurl> [заметка]
+/send 💸 Send funds to a user: /send <amount> <@user> or <user@domain.com> [<memo>]
 
-/nostr 💜 Соединиться с Nostr: /nostr
+/invoice ⚡️ Receive over Lightning: /invoice <amount> [<memo>]
 
-/faucet 🚰 Создать криптораздачу: /faucet <емкость> <на_пользователя>
+/pay ⚡️ Pay over Lightning: /pay <invoice>
 
-/tipjar 🍯 Создать копилку: /tipjar <емкость> <на_пользователя>
+/donate ❤️ Donate to the project: /donate <amount>
 
-/group 🎟 Платный вход в чат: /group add <мой чат> [<цена>]
+/advanced 🤖 Read the advanced help
 
-/shop 🛍 Создать магазин: /shop или /shop <пользователь/id_магазина>
-
+/help 📖 Read this help
 ```
 
-[^1]: Гид по кошельку Blue Wallet доступен [здесь](/blue)
+### List of advanced commands (`/advanced`):
+
+```
+/transactions 📊 List transactions
+
+/link 🔗 Link your wallet to BlueWallet or Zeus
+
+/lnurl ⚡️ Lnurl receive or pay: /lnurl or /lnurl <lnurl> [memo]
+
+/nostr 💜 Connect to Nostr: /nostr
+
+/faucet 🚰 Create a faucet: /faucet <capacity> <per_user>
+
+/tipjar 🍯 Create a tipjar: /tipjar <capacity> <per_user>
+
+/group 🎟 Group chat features: /group
+
+/shop 🛍 Browse shops: /shop or /shop <user/shop_id>
+
+```

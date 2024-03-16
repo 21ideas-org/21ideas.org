@@ -15,7 +15,7 @@ weight: 2
 {{% /hint %}}
 
 {{% hint info %}}
-С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/coinjoin-pandul). Установка "ванильного" Dojo описана в [официальной документации](https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
+С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/privacy/coinjoin). Установка "ванильного" Dojo описана в [официальной документации](https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
 {{% /hint %}}
 
 ## Отличия Dojo и RoninDojo
@@ -36,8 +36,8 @@ weight: 2
 - Веб-интерфейс Ronin UI.
 - Whirlpool GUI непосредственно в веб-интерфейсе.
 - Консольная панель управления Ronin CLI.
-- [Whirlpool Stats Tool (WST)](/coinjoin-pandul/#whirlpool-stats-tool-wst).
-- [Boltzmann Calculator](/coinjoin-pandul/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
+- [Whirlpool Stats Tool (WST)](/privacy/coinjoin/#whirlpool-stats-tool-wst).
+- [Boltzmann Calculator](/privacy/coinjoin/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
 - Резервное копирование блокчейна на отдельный диск после IBD.
 
 В данном руководстве будет описана ручная установка всех компонентов в операционной системе на базе Debian. Я использовал Ubuntu 22.04. Данный способ позволит:
@@ -548,9 +548,9 @@ Dojo > Next Page > Receive Block Data from Backup
 ### Установка WST и калькулятора Больцмана
 
 {{% hint info %}}
-Руководство по использованию [Whirlpool Stats Tool (WST)](/coinjoin-pandul/#whirlpool-stats-tool-wst).
+Руководство по использованию [Whirlpool Stats Tool (WST)](/privacy/coinjoin/#whirlpool-stats-tool-wst).
 
-Руководство по [калькулятору Больцмана](/coinjoin-pandul/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
+Руководство по [калькулятору Больцмана](/privacy/coinjoin/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0).
 {{% /hint %}}
 
 Для установки и использования этих утилит просто выберите соответствующий пункт из меню:
