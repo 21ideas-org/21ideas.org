@@ -11,21 +11,21 @@ bookFlatSection: false
 weight: 2
 ---
 
-With repeated bumps of the popularity of monkey pictures in the Bitcoin blockchain and in anticipation of the upcoming bull market, fees in the mainnet don't make anyone happy.
+With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.
 
 {{% image "/img/ln-wallets/high-fees.png" %}}
 _Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. [Source](https://mempool.space/)._
 {{% /image %}}
 
-Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without hurrying. That's why today I propose to analyze the best available Lightning wallets, evaluate the pros and cons of each of them, so that you can choose the best solution and finally forget (or at least minimize the stress) about high fees.
+Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That's why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).
 
 {{< hint btc >}}
-The guide written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
+The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).
 
 [Contribute](/contribute/).
 {{< /hint >}}
 
-### Considered wallets:
+### Wallets covered:
 
 - Custodial
 
@@ -68,31 +68,31 @@ The guide written by [Tony⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53
 | Open source |  ❌ |
 | Suitable for | Beginners |
 
-You can backup your account using e-mail. Of course, there is no control over your funds or access to mnemonic backup phrase.
+You can backup your account using e-mail. Of course, there is no control over your funds or access to a seed phrase.
 
 {{< hint danger >}}
-It is impossible to reach such a user-friendly interface without sacrificing something in return. WoS is a custodial wallet, it means the service stores your sats for you, and you have to trust that WoS will send "your" funds wherever you send them. 
+It is impossible to reach such a user-friendly interface without sacrificing something in return. WoS is a custodial wallet, it means the service stores your sats for you, and you have to trust that WoS will send "your" funds wherever you instruct the app to. 
 
-Although we must admit that at the moment the reputation of the WoS team is quite good.
+Although we must admit that at the moment the reputation of the WoS team has not raised any questions so far.
 {{< /hint >}}
 
-The wallet allows you to receive and send funds through Lightning and onchain. In case of receiving onchain bitcoins (as in the vast majority of LN wallets) coins will be swaped to the Lightning Network. Thus, you cannot have an onchain balance and the associated features (RBF, multisig, etc.)
+The wallet allows you to receive and send funds via Lightning and onchain. In case of receiving onchain bitcoins (as in the vast majority of LN wallets) coins will be swapped to the Lightning Network. Thus, you cannot have an onchain balance and the associated features (RBF, multisig, etc.)
 
 {{% image "/img/ln-wallets/wos1.png" %}}
 _Send and receive sats via lightning invoices, onchain and [Lightning addresses](/en/how-lightning-address-works)_
 {{% /image %}}
 
-Despite the fact that WoS is a custodial wallet, I don't hesitate to recommend it to beginners. Yes, by using this kind of app, you fully trust your funds to it, but that just means that you shouldn't keep more than a couple dollars on such wallets. This is a great way to learn the Lightning Network for the first time, to appreciate the instant Bitcoin payments with *about zero* fees, the convenience of [Lightning addresses](/en/how-lightning-address-works) and contact list, as well as login via Lightning. But as you learn more about the technology, and as the amount you send and store in the Lightning Network increases, you should definitely switch to self-custody solutions.
+Despite the fact that WoS is a custodial wallet, I don't hesitate to recommend it to beginners. Yes, by choosing this approach, you fully trust the developers with your funds, but that just means that you shouldn't keep more than a few dollars on such wallets. This is a great way to start your Lightning Network journey, to appreciate instant Bitcoin payments with *near-zero* fees, the convenience of [Lightning addresses](/en/how-lightning-address-works) and Lightning logins. But as you learn more about the technology, and as the volumes you send and store in the Lightning Network increases, you should definitely switch to non-custodial solutions.
 
 {{< hint warning >}}
-Once you've become familiar with basic custodial solutions for the Lightning Network, be sure to move on to applications that offer more flexibility and control over your funds.
+Once you've become familiar with basic custodial solutions, be sure to move on to applications that offer more flexibility and control over your funds.
 {{< /hint >}}
 
 | **Pros** | **Cons** |
 | --------- | ---------- |
 | ✅ Easy to use | 🚫 Custodial |
 | ✅ Easy backup by e-mail | 🚫 Closed source |
-| ✅ Onchain payments | 🚫  Additional fee on onchain swap |
+| ✅ Onchain payments | 🚫  Additional fee for onchain swaps |
 | ✅ Lightning address | |
 
 ## Blink
@@ -106,30 +106,30 @@ Once you've become familiar with basic custodial solutions for the Lightning Net
 | Open source | ✅ [GitHub](https://github.com/GaloyMoney/galoy-mobile/) | 
 | Suitable for | Beginners |
 
-Stablesats allows you to "convert" your sats by pegging their value to the US dollar. In this way, you can store a portion of your funds in a dollar that is steadily devaluing over time.
+Stablesats allows you to "convert" your sats by pegging their value to the US dollar. In this way, you can store a portion of your funds in a steadily devaluing USD.
 
 {{% image "/img/ln-wallets/blink1.png" %}}
 _The Stablesats feature is implemented at the app level and is not compatible with other Lightning wallets_
 {{% /image %}}
 
-A significant disadvantage of Blink wallet is the requirement to confirm the account via SMS. But this can either be bypassed with the help of specialized services, such as [sms4sats](https://sms4sats.com/?ref=21ideas@getalby.com), or you can use the version with some limitations that does not require confirmation. The limitations will not be noticeable to a beginner, and it is not worth trusting large volumes to custodial services:
+A significant disadvantage of Blink wallet is the requirement to confirm the account via SMS. But this can either be bypassed with the help of specialized services, such as [sms4sats](https://sms4sats.com/?ref=21ideas@getalby.com), or by using the version with some limitations that does not require confirmation. The limitations will not be noticeable to a beginner, and it is not worth trusting large volumes to custodial services anyways:
 
 - Daily withdrawal limit - $125
 - Daily Stablesats transfer limit - $2,000
 
-Blink also has a Lightning address. You can check its functionality by sending some sats to _21ideas@blink.sv_.
+Blink also upports Lightning addresses. You can check its functionality by sending some sats to _21ideas@blink.sv_.
 
 | **Pros** | **Cons** |
 | --------- | ---------- |
 | ✅ Easy to use | 🚫 Custodial |
 | ✅ Stablesats | 🚫 Withdrawal limits for non-KYC users |
-| ✅ Onchain payments | 🚫 Additional fee on onchain swap |
+| ✅ Onchain payments | 🚫 Additional fee for onchain swaps |
 | ✅ Lightning address |  |
 | ✅ Open source | |
 
 ## Coinos
 
-[Coinos](https://coinos.io) may seem an unfamiliar solution, but this custodial wallet will be especially useful to some users due to its unique user interface.
+[Coinos](https://coinos.io) may be unfamiliar to some, but this custodial wallet will be especially useful to some users due to its unique user interface.
 
 | Non-custodial | ❌ |
 |-----------------|:---:|
@@ -142,20 +142,18 @@ Coinos is a Progressive Web App (PWA) that you can interact with either in your 
 
 {{% image "/img/ln-wallets/coinos-mobile.png" /%}}
 
-Coinos, like many others, supports sending and receiving funds in Lightning Network and onchain. A unique feature of the wallet is that it makes for each user its own page on the [coinos.io](https://coinos.io) website.
-
-The page offers users a number of new features. For example, me with [BitKorn](https://www.youtube.com/@BitKorn) and [♾️/21M](https://t.me/gametheoryhub) are using the site to fundraise to support the translation of books about Bitcoin: https://coinos.io/21books.
+Coinos, like many others, supports sending and receiving funds in Lightning Network and onchain. A unique feature of the wallet is that it creates a personal page on the [coinos.io](https://coinos.io) website for each user.
 
 {{% image "/img/ln-wallets/21books.png" %}}
 _21books page on Coinos. Screenshot of desktop app installed via Brave browser._
 {{% /image %}}
 
-And even if you're not publicly active, sometimes it can be useful to share a link and allow the sender to enter the amount himself and decide how to send the funds - onchain or via Lightning.
+And even if you're not a public figure, sometimes it can be useful to share a link and allow the sender to enter the amount himself and decide how to send the funds - onchain or via Lightning.
 
 | **Pros** | **Cons** |
 | --------- | ---------- |
 | ✅ PWA | 🚫 Custodial |
-| ✅ Own web page | 🚫 Additional fee on onchain swap |
+| ✅ Own web page | 🚫 Additional fee for onchain swaps |
 | ✅ Onchain payments | |
 | ✅ Lightning address | |
 | ✅ Open source | |
@@ -171,9 +169,9 @@ And even if you're not publicly active, sometimes it can be useful to share a li
 | Open source |  ✅ [GitHub](https://github.com/getAlby) |
 | Suitable for | Beginners, intermediate |
 
-Using the custodial version of Alby you can export your wallet to a mobile interface - Blue Wallet or Zeus - and use one wallet in both the browser and on your mobile device.
+Using the custodial version of Alby you can export your wallet to a mobile interface - Blue Wallet or Zeus - and use the same wallet with both the browser and your mobile device.
 
-Alby not only offers all the same features as its rivals - LN addresses, sending and receiving onchain - but also implements [Nostr](https://nostr.21ideas.org) support, providing Nostr addresses and the ability to store your private keys. You can also create multiple accounts for different purposes and manage them from a single dashboard. Unfortunately, the advanced functionality has not reflected well on the intuitiveness of the app, in particular its settings. Sometimes it is quite difficult to find anything in them. 
+Alby not only offers all the features as its competitors - LN addresses, sending and receiving sats onchain - but also boasts [Nostr](https://nostr.how) integration, providing Nostr addresses and the ability to store your private keys. You can also create multiple accounts for different purposes and manage them from a single dashboard. Unfortunately, the advanced functionality has not reflected well on the intuitiveness of the app, in particular its settings. Sometimes it is quite difficult to find what you are looking for. 
 
 | **Pros** | **Cons** |
 | ------------------------------------ | ----------------------------------- |
@@ -184,36 +182,40 @@ Alby not only offers all the same features as its rivals - LN addresses, sending
 | ✅ Open source | |
 | ✅ Nostr support | |
 
+{{< hint btc >}}
+At the time of writing Alby is an invite-only app. Fill out [this form](https://form.jotform.com/233515737022350?ref=blog.getalby.com) to start using it.
+{{< /hint >}}
+
 # Mobile Lightning nodes
 
 Mobile wallets offering non-custodial storage of LN sats are a good intermediate solution between custodial services and running your own node.
 
-Moreover, different dev teams have different visions of what a "pocket Lightning node" should look like and, accordingly, offer a variety of functionality in their apps. In this way, you can maximize your experience to that of a bitcoiner running his own node on a dedicated device by simply gradually changing the wallet you use to a more "sophisticated" one.
+Moreover, different dev teams have different visions of what a "Lightning node in your pocket" should look like and, accordingly, offer a variety of functionality in their apps. In this way, you can maximize your experience to that of a bitcoiner running his own node on a dedicated device by simply gradually switching wallets you use towars more "sophisticated" ones.
 
-We will continue to move from simpler solutions to more complex and feature-rich solutions.
+We will continue to move from simpler solutions to more complex and feature-rich ones.
 
-The first thing that will catch the eye of new users of non-custodial solutions will be the high fee for the first payment. In this, mobile solutions behave similarly to full Lightning nodes: to start using the network, you need to open a channel, which requires an onchain transaction.
+The first thing that will catch the eye of new users of non-custodial wallets will be the high fee when making the first payment. In this, mobile solutions behave similarly to full Lightning nodes: to start using the network, you need to open a channel, which requires an onchain transaction.
 
 {{% image "/img/ln-wallets/first-tx.png" %}}
 _If onchain fees are high, it may be a good idea to delay opening a channel._
 {{% /image %}}
 
-But don't worry, only the first transactions can be significant for your pockets. The fees for further transactions ( assuming the balance of liquidity is maintained) will in most cases be around zero.
+But don't worry, only the first transactions will be significant for your pockets. Further transaction fees (assuming the balance of liquidity is maintained) will in most cases be near zero.
 
 ## Phoenix
 
-[Phoenix](https://phoenix.acinq.co) — is probably the simplest non-custodial solution that can be recommended. With the latest update, Phoenix consolidate all channels into one, further simplifying the user's task - no more need to track liquidity in multiple channels, everything is much simpler.
+[Phoenix](https://phoenix.acinq.co) — is probably the simplest non-custodial solution that can be recommended. With the latest update, Phoenix consolidates all channels into one, further simplifying users' experience - no need to track liquidity in multiple channels, everything is much simpler.
 
 | Non-custodial | ✅ |
-|-----------------|:---:|
+|---------------|:---:|
 | Onchain | ✅[^1] |
 | LN address | ❌ |
 | Open source | ✅ [GitHub](https://github.com/ACINQ/phoenix) |
 | Suitable for | Intermediate |
 
-The flip side of the coin was the rather high fees and " unexpected rebalancing" of channels, also resulting in pay the onchain fees.
+The flip side of the coin is occasional high fees and "unexpected rebalancing" of channels, also resulting in onchain fees.
 
-In the latest version, the developers [introduced](https://twitter.com/PhoenixWallet/status/1735699451770032354) a feature to buy liquidity into the channel to avoid onchain fees.
+In the latest version, the developers [introduced](https://twitter.com/PhoenixWallet/status/1735699451770032354) a feature allowing users to rent liquidity and avoid onchain fees.
 
 | **Event** | **Fee** |
 | ----------- | ------------ |
@@ -223,7 +225,7 @@ In the latest version, the developers [introduced](https://twitter.com/PhoenixWa
 | Receiving onchain (swap-in or insufficient liquidity at LN receiving) | Miners fee + 1000 sats |
 | Request inbound liquidity | 1% + miners fee |
 
-This wallet can be recommended as a second app for storing LN sats for those who regularly use one of the custodial wallets described above.
+This wallet can be recommended as a second LN app for those who regularly use one of the custodial wallets described above.
 
 | **Pros** | **Cons** |
 | --------- | ---------- |
@@ -232,7 +234,7 @@ This wallet can be recommended as a second app for storing LN sats for those who
 | ✅ Open source | 🚫 Unpredictable fees (occasionally) |
 
 {{< hint btc >}}
-A detailed guide to the Phoenix Wallet is available [here](/en/phoenix).
+A detailed guide is available [here](/en/phoenix).
 {{< /hint >}}
 
 ## Mutiny

@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin is Antifragile"
 h1: "Bitcoin is Antifragile"
-cover: /img/come-and-take-it-2.jpg
+cover: /img/antifragile.png
 tags: ["bitcoin", "economics", "gradually then suddenly"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-antifragile

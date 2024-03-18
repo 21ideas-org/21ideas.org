@@ -4,7 +4,7 @@ h1: "Что такое сеть Лайтнинг?"
 cover: /img/174.png
 tags: ["биткоин", "лайтнинг", "масштабирование", "сеть лайтнинг", "сеть молния", "второй уровень", "платежи"]
 description: "Зачем нужна сеть Лайтнинг, как она работает и как ей пользоваться?"
-url: chto-takoe-laitning
+url: what-is-lightning-network
 aliases: ['/theory-lightning-why-lightning']
 date: 2022-09-12
 bookToc: true
