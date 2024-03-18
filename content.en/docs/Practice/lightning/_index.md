@@ -19,6 +19,6 @@ weight: 6
 
 5. [Telegram bot @LightningTipBot](/en/lntips)
 
-6. [Launder bitcoins with the Lightning Network](/en/launder-bitcoins-with-lightning)
+6. [Lightning Liquidity Management Guide](/en/lightning-liquidity-management-guide)
 
-7. [Lightning Liquidity Management Guide](/en/lightning-liquidity-management-guide)
+7. [Starting with Mutiny Wallet](/en/mutiny)

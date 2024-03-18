@@ -22,3 +22,5 @@ weight: 6
 6. [Очищаем биткоины через сеть Лайтнинг](/ochishchaem-bitcoin-cherez-lajtning/)
 
 7. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)
+
+8. [Кошелек Mutiny](/mutiny)
