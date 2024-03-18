@@ -32,6 +32,10 @@ weight: 8
 - Подарки (простой способ привлечения новых пользователей)
 - Федерации
 
+{{< hint btc >}}
+Помимо Mutiny представлено множество кошельков, которые подойдут как новичку, так и опытному пользователю. Советуем ознакомиться с нашим сравнительным гидом по Лайтнинг-кошелькам [здесь](/lightning-wallets).
+{{< /hint >}}
+
 ## Начало работы с кошельком Mutiny
 
 Для начала посетите сайт [mutinywallet.com](https://www.mutinywallet.com/). Здесь у нас есть возможность использовать Mutiny непосредственно [в браузере](https://app.mutinywallet.com/) или загрузить приложение из [App Store](https://apps.apple.com/us/app/mutiny-wallet/id6471030760) или [Google Play](https://play.google.com/store/apps/details?id=com.mutinywallet.mutinywallet).
