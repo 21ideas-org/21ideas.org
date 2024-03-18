@@ -11,10 +11,10 @@ bookToc: true
 weight: 8
 ---
 
-Недавно я послушал эпизод [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC), в котором  [@stephanlivera](https://stacker.news/stephanlivera) и [@benthecarman](https://stacker.news/benthecarman) рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к Lightning Network. Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.
+Недавно я послушал эпизод [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC), в котором  [@stephanlivera](https://stacker.news/stephanlivera) и [@benthecarman](https://stacker.news/benthecarman) рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к [сети Лайтнинг](/what-is-lightning-network). Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.
 
 {{< hint btc>}}
-Перевод [руководства](https://stacker.news/items/467711) от [@runningbitcoin](https://stacker.news/runningbitcoin).
+Перевод [руководства](https://stacker.news/items/467711/r/Tony) от [@runningbitcoin](https://stacker.news/runningbitcoin).
 
 [Поддержать проект](/contribute/).
 {{< /hint >}}
@@ -125,6 +125,10 @@ weight: 8
 ## Авторизация кошелька в Nostr-клиентах
 
 Nostr Wallet Auth (NWA) — это протокол с открытым исходным кодом ([NIP-67](https://github.com/nostr-protocol/nips/pull/851)) на основе Nostr Wallet Connect, который упрощает подключение кошелька к другим внешним сервисам, предлагая удобный процесс аутентификации для запроса платежей из вашего кошелька.
+
+{{< hint btc >}}
+Подробнее о протоколе Nostr можно узнать на страницах [NOSTR FILES](https://nostr.21ideas.org)
+{{< /hint >}}
 
 Для начала перейдите на страницу настроек и в разделе `Experiments` выберите `Wallet Connections`. Затем, выбрав `Add Connection`, вам будет предложено указать имя для подключения. Кроме того, у вас есть возможность установить бюджет, включив функцию `Auto Approve`, а также установить частоту обновления бюджета — ежедневно, еженедельно, ежемесячно или ежегодно.
 

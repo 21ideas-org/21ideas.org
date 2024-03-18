@@ -15,7 +15,7 @@ menu:
       children: true
 ---
 
-21ideas is an open project and everyone can contribute to spreading knowledge about Bitcoin. Do you want to contribute to the development of the project and the spread of Bitcoin in the Russian-speaking space? This section is for you.
+21ideas is an open project and everyone can contribute to spreading knowledge about Bitcoin. Do you want to contribute to the development of the project and the spread of Bitcoin educational materials? This section is for you.
 
 There are several ways to become a part of the project:
 

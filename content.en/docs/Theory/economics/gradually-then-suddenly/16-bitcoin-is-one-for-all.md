@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin is One for All"
 h1: "Bitcoin is One for All"
-cover: /img/come-and-take-it-2.jpg
+cover: /img/one4all.jpeg
 tags: ["bitcoin", "economics", "gradually then suddenly"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-one-for-all

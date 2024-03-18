@@ -11,10 +11,10 @@ bookToc: true
 weight: 8
 ---
 
-Recently, I listened to an episode of [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC) featuring a discussion between [@stephanlivera](https://stacker.news/stephanlivera) and [@benthecarman](https://stacker.news/benthecarman) about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the Lightning Network. I've been curious about Mutiny for a while now, so it's about time I checked it out for myself. Let’s dive in and see what it’s all about.
+Recently, I listened to an episode of [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC) featuring a discussion between [@stephanlivera](https://stacker.news/stephanlivera) and [@benthecarman](https://stacker.news/benthecarman) about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the [Lightning Network](/en/what-is-lightning-network). I've been curious about Mutiny for a while now, so it's about time I checked it out for myself. Let’s dive in and see what it’s all about.
 
 {{< hint btc >}}
-This article by [@runningbitcoin](https://stacker.news/runningbitcoin) was published on [stacker.news](https://stacker.news/items/467711) website.
+This article by [@runningbitcoin](https://stacker.news/runningbitcoin) was published on [stacker.news](https://stacker.news/items/467711/r/Tony) website.
 
 [Contribute](/contribute/).
 {{< /hint>}}
