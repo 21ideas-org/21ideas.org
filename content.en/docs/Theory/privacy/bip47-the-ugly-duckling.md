@@ -209,7 +209,7 @@ As you can notice, this construction strongly resembles the structure of an exte
 
 During this process to arrive at our payment code, we used a compressed public key and a string code. These two elements are the result of a deterministic and hierarchical derivation, from the seed of the portfolio, following the following derivation path: m/47'/0'/0'/.
 
-Concretely, to obtain the public key and the chain code of the reusable payment code, we will calculate the master private key from the seed, then derive a daughter pair with the index 47 + 2^31 (reinforced derivation). Then, we derive twice daughter pairs with the index 2^31 (reinforced derivation).
+Concretely, to obtain the public key and the chain code of the reusable payment code, we will calculate the master private key from the seed, then derive a child pair with the index 47 + 2^31 (hardened derivation). Then, we derive two child pairs with the index 2^31 (hardened derivation).
 
 ### The cryptographic method: the Diffie-Hellman key exchange established on elliptic curves (ECDH)
 
@@ -376,7 +376,7 @@ Before I explain in more detail the technical operation of the notification tran
 
 The payment code itself does not directly constitute a risk of loss of confidentiality. Unlike Bitcoin's classic model, which breaks the flow of information between the user's identity and transactions, including keeping public keys anonymous, the payment code can be directly associated with an identity. This is obviously not an obligation, but this link is not dangerous.
 
-Indeed, the payment code does not directly derive from the addresses used to receive BIP47 payments. Instead, addresses are obtained by applying ECDHE between daughter keys of both parties' payment codes.
+Indeed, the payment code does not directly derive from the addresses used to receive BIP47 payments. Instead, addresses are obtained by applying ECDHE between child keys of both parties' payment codes.
 
 A payment code alone does not therefore constitute a direct risk of loss of confidentiality since only the notification address is derived from it. We can draw some information from it, but we will not normally be able to know with whom you are making transactions.
 
@@ -414,7 +414,7 @@ Now, let's see how this notification transaction works. Let's say Alice wants to
 a
 ```
 
-- Alice retrieves the public key associated with Bob's notification address. This key is the first girl derived since Bob's payment code (index 0). We name this public key "B" (uppercase). The private key associated with this public key is named "b" (lowercase). "B" is determined by adding and doubling points on the elliptic curve from "G" (the generating point) with "b" (the private key).
+- Alice retrieves the public key associated with Bob's notification address. This key is the first child key derived from Bob's payment code (index 0). We name this public key "B" (uppercase). The private key associated with this public key is named "b" (lowercase). "B" is determined by adding and doubling points on the elliptic curve from "G" (the generating point) with "b" (the private key).
 
 ```
 B = b·G
@@ -637,7 +637,7 @@ c = c' XOR f2
 
 5. Bob checks to see if the public key value of Alice's payment code is part of the secp256k1 group. If this is the case, he interprets it as a valid payment code. Otherwise, he ignores this transaction.
 
-Now that Bob is aware of Alice's payment code, She can send him up to 2^32 payments, without ever needing to redo a notification transaction of this type again.
+Now that Bob is aware of Alice's payment code, she can send him up to 2^32 payments, without ever needing to redo a notification transaction of this type again.
 
 Why does it work? How can Bob determine the same blinding factor as Alice, and thus decipher his payment code? Let us study in more detail the action of ECDH in what has just been described.
 
@@ -696,9 +696,9 @@ We describe the derivation path of a payment code like this: m/47'/0'/0'/.
 
 The following depth distributes the indexes in this way:
 
-- The first normal girl pair (not reinforced) is that used to generate the notification address of which we have spoken in the previous part: m/47'/0'/0/0/.
-- The pairs of normal girls keys are used within ECDH to generate BIP47 payment reception addresses as we will see in this part: m/47'/0'/0'/ from 0 to 2 147 483 647/.
-- The pairs of reinforced girls are ephemeral payments of payments: m/47'/0'/0'/ from 0' to 2 147 483 647'/.
+- The first normal child key pair (not hardened) is that used to generate the notification address of which we have spoken in the previous part: m/47'/0'/0/0/.
+- The pairs of normal child keys are used within ECDH to generate BIP47 payment reception addresses as we will see in this part: m/47'/0'/0'/ from 0 to 2 147 483 647/.
+- The pairs of hardened child keys are ephemeral payment codes: m/47'/0'/0'/ from 0' to 2 147 483 647'/.
 
 Whenever Alice wishes to send a payment to Bob, she derives a new unique virgin address, thanks once again to the ECDH protocol:
 
@@ -751,7 +751,7 @@ If we match this diagram with what I described to you previously:
 I summarize the steps that we have just seen together to send a BIP47 payment:
 
 - Alice selects the first private wrench derived from her personal payment code.
-- It calculates a secret point on the elliptical curve thanks to ECDH from the first unused girl public key derived from the BOB payment code.
+- She calculates a secret point on the elliptical curve with ECDH from the first unused child public key derived from the Bob's payment code.
 - She uses this secret point to calculate a secret shared secret with SHA256.
 - She uses this shared secret to calculate a new secret point on the elliptical curve.
 - She adds this new secret point with Bob's public key.
@@ -820,7 +820,7 @@ K0 = B + s·G
 
 Once Bob has this "K0" public key, he can derive the associated private key so he can spend his bitcoins. It is the only one who can generate this number.
 
-- Bob adds his daughter private key "b" derived from his personal payment code. It's the only one that can get the value of "b". Then, it adds "b" with the shared secret "s" in order to obtain k0, the private key of K0:
+- Bob adds his child private key "b" derived from his personal payment code. It's the only one that can get the value of "b". Then, it adds "b" with the shared secret "s" in order to obtain k0, the private key of K0:
 
 ```
 k0 = b + s

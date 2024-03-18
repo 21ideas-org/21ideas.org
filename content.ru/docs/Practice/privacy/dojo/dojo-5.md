@@ -134,7 +134,7 @@ Whirlpool CLI теперь функционирует.
 
 ## Whirlpool GUI
 
-[Whirlpool GUI](/coinjoin-pandul/#%d1%88%d0%b0%d0%b3-3-%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0-whirlpool-gui) - это простой в использовании графический интерфейс для Whirlpool CLI, который позволяет вам контролировать и взаимодействовать с сервисом Whirlpool в удобной для пользователя форме.
+[Whirlpool GUI](/privacy/coinjoin/#%d1%88%d0%b0%d0%b3-3-%d0%bf%d0%be%d0%b4%d0%b3%d0%be%d1%82%d0%be%d0%b2%d0%ba%d0%b0-whirlpool-gui) - это простой в использовании графический интерфейс для Whirlpool CLI, который позволяет вам контролировать и взаимодействовать с сервисом Whirlpool в удобной для пользователя форме.
 
 Whirlpool GUI можно [скачать](https://samouraiwallet.com/download) непосредственно с сайта Samourai Wallet.
 
