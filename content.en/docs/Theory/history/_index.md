@@ -38,3 +38,4 @@ This series tells the story of the crucial developments that took place before B
 
 2. [The Bitcoin Reformation](/en/bitcoin-reformation)
 
+3. [A complete history of Bitcoin’s consensus forks](/en/bitcoin-forks)

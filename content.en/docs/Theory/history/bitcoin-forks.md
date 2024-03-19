@@ -93,7 +93,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;">1 Aug 2010</td>
 <td style="text-align: right; width: 10%;"> n/a<sup>1</sup></td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0](view-source:https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0)">0.3.7</a></td>
-<td style="width: 29%;">Separation of the evaluation of the <a href="[https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135](view-source:https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135)">scriptSig and scriptPubKey</a>.  Fixing a critical bug which enabled anyone to spend any Bitcoin</td>
+<td style="width: 29%;">Separation of the evaluation of the <a href="[https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135](view-source:https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135)">scriptSig and scriptPubKey</a>. Fixing a critical bug which enabled anyone to spend any Bitcoin</td>
 <td style="width: 12%;">Hardfork</td>
 <td style="width: 29%;">No evidence of any issues during this upgrade</td>
 </tr>
@@ -102,7 +102,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;" rowspan="2"><a href="[https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040](view-source:https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040)">0.3.10</a></td>
 <td style="width: 29%;">Output-value-overflow bug fix following a 184.5-billion Bitcoin spend incident. The 0.5 BTC that was the input to the transaction remains <a href="[https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW](view-source:https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW)">unspent</a> to this day.</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;" rowspan="2">A chainsplit occurred.  Around five hours after the incident, a fix was released, client 0.3.10. It is believed that <a href="[https://bitcointalk.org/index.php?topic=823.msg9734#msg9734](view-source:https://bitcointalk.org/index.php?topic=823.msg9734#msg9734)">51 blocks</a> were generated on the &#8220;bad chain&#8221; before the &#8220;good&#8221; chain retook the PoW lead.</td>
+<td style="width: 29%;" rowspan="2">A chainsplit occurred. Around five hours after the incident, a fix was released, client 0.3.10. It is believed that <a href="[https://bitcointalk.org/index.php?topic=823.msg9734#msg9734](view-source:https://bitcointalk.org/index.php?topic=823.msg9734#msg9734)">51 blocks</a> were generated on the &#8220;bad chain&#8221; before the &#8220;good&#8221; chain retook the PoW lead.</td>
 </tr>
 <tr bgcolor="#F2F7FF">
 <td style="width: 29%;">Disabling OP_CAT, which removed a DoS vector, along with the disabling of 14 <a href="[https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94](view-source:https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94)">other functions</a>.</td>
@@ -140,7 +140,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)">BIP16</a></td>
 <td style="width: 29%;">Pay-to-script hash (P2SH) allows transactions to be sent to a script hash (address starting with 3) instead of a public-key hash (addresses starting with 1).</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;">55% activation threshold, over blocks in the seven days prior to 1 February 2012. Miners <a href="[https://bitcointalk.org/index.php?topic=66514.0;all](view-source:https://bitcointalk.org/index.php?topic=66514.0;all)">did not upgrade fast enough</a>, so the evaluation point was delayed until 15 March.  Users running 0.6.0 rc1 who did not upgrade for the delay activated the softfork early and got <a href="[https://bitcointalk.org/index.php?topic=63165.60](view-source:https://bitcointalk.org/index.php?topic=63165.60)">stuck on block 170,060</a> when an invalid transaction, according to their nodes, was mined.    After activation, problems were caused as the remaining 45% of miners produced invalid blocks for several months after the softfork</td>
+<td style="width: 29%;">55% activation threshold, over blocks in the seven days prior to 1 February 2012. Miners <a href="[https://bitcointalk.org/index.php?topic=66514.0;all](view-source:https://bitcointalk.org/index.php?topic=66514.0;all)">did not upgrade fast enough</a>, so the evaluation point was delayed until 15 March. Users running 0.6.0 rc1 who did not upgrade for the delay activated the softfork early and got <a href="[https://bitcointalk.org/index.php?topic=63165.60](view-source:https://bitcointalk.org/index.php?topic=63165.60)">stuck on block 170,060</a> when an invalid transaction, according to their nodes, was mined. After activation, problems were caused as the remaining 45% of miners produced invalid blocks for several months after the softfork</td>
 </tr>
 <tr>
 <td style="width: 10%;">24 Mar 2013</td>
@@ -161,7 +161,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;">18 Mar 2013</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad](view-source:https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad)">0.8.1</a></td>
-<td style="width: 29%;" width="236">This was a temporary softfork, introducing a new rule requiring that no more than 4,500 TXIDs are referenced by inputs in a block. This rule is stricter  than the 10,000-BDB lock limit. The rule <a href="[https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba](view-source:https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba)">expired</a> on 15 May 2013, a flag-day hardfork.</td>
+<td style="width: 29%;" width="236">This was a temporary softfork, introducing a new rule requiring that no more than 4,500 TXIDs are referenced by inputs in a block. This rule is stricter than the 10,000-BDB lock limit. The rule <a href="[https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba](view-source:https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba)">expired</a> on 15 May 2013, a flag-day hardfork.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">There is no evidence of any issues.</td>
 </tr>
@@ -200,11 +200,11 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 29%;">Successful rollout using 95% versionbits signaling.</td>
 </tr>
 <td style="width: 10%;">23 July 2017</td>
-<td style="text-align: right; width: 10%;">  477,800</td>
+<td style="text-align: right; width: 10%;"> 477,800</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki)">BIP91</a></td>
 <td style="width: 29%;">This temporary softfork makes signaling for the SegWit upgrade mandatory.</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;">Softfork successfully activated with an 80% miner threshold over a 336-block period, although only a tiny minority of users enforced BIP91 rules, which have since expired.  Therefore, the risk of a chainsplit was elevated in this period.</td>
+<td style="width: 29%;">Softfork successfully activated with an 80% miner threshold over a 336-block period, although only a tiny minority of users enforced BIP91 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
 </tr>
 <tr>
 <td style="width: 10%;">01 Aug 2017</td>
@@ -241,7 +241,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;">The year 2262</td>
 <td style="width: 10%;"> 13,440,000</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki)">BIP42</a></td>
-<td style="width: 29%;">Fixed a 21 million coin supply cap bug.  The software was upgraded in April 2014 to fix this bug, but the new rule does not apply until the 23rd century.</td>
+<td style="width: 29%;">Fixed a 21 million coin supply cap bug. The software was upgraded in April 2014 to fix this bug, but the new rule does not apply until the 23rd century.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">The softfork is not applicable yet.</td>
 </tr>
@@ -274,9 +274,9 @@ When discussing this incident, Bitcoin developer Gregory Maxwell [said](https://
 
 In the list of consensus rules changes above, there are three incidents that caused identifiable chainsplits. The most recent of these occurred on 4 July 2015, during the BIP66 softfork upgrade.
 
-Immediately after the activation of BIP66, there was a six-block orphan chain created because a miner produced an invalid block that was not recognised as invalid by some other mining pools, because they were not validating new blocks.  
+Immediately after the activation of BIP66, there was a six-block orphan chain created because a miner produced an invalid block that was not recognised as invalid by some other mining pools, because they were not validating new blocks.
 
-In this case, some miners signalled support for the BIP66 softfork but hadn’t actually upgraded their nodes to validate; one could say miners were “false flagging”. If the miners had been validating blocks, they would have discovered the block was invalid and rejected it. Instead, some miners built on top of the invalid block and a chainsplit occurred.  
+In this case, some miners signalled support for the BIP66 softfork but hadn’t actually upgraded their nodes to validate; one could say miners were “false flagging”. If the miners had been validating blocks, they would have discovered the block was invalid and rejected it. Instead, some miners built on top of the invalid block and a chainsplit occurred.
 
 A diagram illustrating these six blocks and the chainfork is displayed below.
 
