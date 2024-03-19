@@ -79,8 +79,8 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 </tr>
 <td style="width: 10%;" rowspan="2">31 July 2010</td>
 <td style="text-align: right; width: 10%;" rowspan="2">n/a<sup>1</sup></td>
-<td style="width: 10%;" rowspan="2"><a href="[https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d](view-source:https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d)">0.3.6</a></td>
-<td style="width: 29%;">OP_VER and OP_VERIF <a href="[https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d#diff-8458adcedc17d046942185cb709ff5c3L109](view-source:https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d#diff-8458adcedc17d046942185cb709ff5c3L109)">disabled</a>.<sup>3</sup></td>
+<td style="width: 10%;" rowspan="2"><a href="https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d">0.3.6</a></td>
+<td style="width: 29%;">OP_VER and OP_VERIF <a href="https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d#diff-8458adcedc17d046942185cb709ff5c3L109">disabled</a>.<sup>3</sup></td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;" rowspan="2">Some users had trouble upgrading and it was recommended that nodes should be shut down if they could not be upgraded.<sup>2</sup></td>
 </tr>
@@ -92,27 +92,27 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr bgcolor="#F2F7FF">
 <td style="width: 10%;">1 Aug 2010</td>
 <td style="text-align: right; width: 10%;"> n/a<sup>1</sup></td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0](view-source:https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0)">0.3.7</a></td>
-<td style="width: 29%;">Separation of the evaluation of the <a href="[https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135](view-source:https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135)">scriptSig and scriptPubKey</a>. Fixing a critical bug which enabled anyone to spend any Bitcoin</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0">0.3.7</a></td>
+<td style="width: 29%;">Separation of the evaluation of the <a href="https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135">scriptSig and scriptPubKey</a>. Fixing a critical bug which enabled anyone to spend any Bitcoin</td>
 <td style="width: 12%;">Hardfork</td>
 <td style="width: 29%;">No evidence of any issues during this upgrade</td>
 </tr>
 <td style="width: 10%;" rowspan="2">15 Aug 2010</td>
 <td style="text-align: right; width: 10%;" rowspan="2">74,638</td>
-<td style="width: 10%;" rowspan="2"><a href="[https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040](view-source:https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040)">0.3.10</a></td>
-<td style="width: 29%;">Output-value-overflow bug fix following a 184.5-billion Bitcoin spend incident. The 0.5 BTC that was the input to the transaction remains <a href="[https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW](view-source:https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW)">unspent</a> to this day.</td>
+<td style="width: 10%;" rowspan="2"><a href="https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040">0.3.10</a></td>
+<td style="width: 29%;">Output-value-overflow bug fix following a 184.5-billion Bitcoin spend incident. The 0.5 BTC that was the input to the transaction remains <a href="https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW">unspent</a> to this day.</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;" rowspan="2">A chainsplit occurred. Around five hours after the incident, a fix was released, client 0.3.10. It is believed that <a href="[https://bitcointalk.org/index.php?topic=823.msg9734#msg9734](view-source:https://bitcointalk.org/index.php?topic=823.msg9734#msg9734)">51 blocks</a> were generated on the &#8220;bad chain&#8221; before the &#8220;good&#8221; chain retook the PoW lead.</td>
+<td style="width: 29%;" rowspan="2">A chainsplit occurred. Around five hours after the incident, a fix was released, client 0.3.10. It is believed that <a href="https://bitcointalk.org/index.php?topic=823.msg9734#msg9734">51 blocks</a> were generated on the &#8220;bad chain&#8221; before the &#8220;good&#8221; chain retook the PoW lead.</td>
 </tr>
 <tr bgcolor="#F2F7FF">
-<td style="width: 29%;">Disabling OP_CAT, which removed a DoS vector, along with the disabling of 14 <a href="[https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94](view-source:https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94)">other functions</a>.</td>
+<td style="width: 29%;">Disabling OP_CAT, which removed a DoS vector, along with the disabling of 14 <a href="https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94">other functions</a>.</td>
 <td style="width: 12%;">Softfork</td>
 </tr>
 <tr>
 <tr bgcolor="#F2F7FF">
 <td style="width: 10%;">7 Sept 2010</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730](view-source:https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730)">0.3.12</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730">0.3.12</a></td>
 <td style="width: 29%;">Adding the 20,000-signature operation limit in an incorrect way. This incorrect limit still exists.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">No evidence of any issues during this upgrade.</td>
@@ -122,7 +122,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 10%;">n/a</td>
 <td style="width: 29%;">
 <p style="text-align: left;">Adding the 1MB blocksize limit.</p>
-<p style="text-align: left;">The &#8220;MAX_BLOCK_SIZE = 1000000&#8221; commit <a href="[https://github.com/bitcoin/bitcoin/blob/a30b56ebe76ffff9f9cc8a6667186179413c6349/main.h#L18](view-source:https://github.com/bitcoin/bitcoin/blob/a30b56ebe76ffff9f9cc8a6667186179413c6349/main.h#L18)">occurred</a> on 15 July 2010, which was released in the 0.3.1 rc1 version of the software <a href="[https://github.com/bitcoin/bitcoin/commit/9d2174b6f5f3fac2463c7ebc2dbb9004b3740d23](view-source:https://github.com/bitcoin/bitcoin/commit/9d2174b6f5f3fac2463c7ebc2dbb9004b3740d23)">on 19 July 2010</a>. The <a href="[https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730](view-source:https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730)"> commit</a> enforcing the 1MB rule occurred on 7 September 2010, activating at block 79,400. On 20 September 2010, Satoshi <a href="[https://github.com/bitcoin/bitcoin/commit/172f006020965ae8763a0610845c051ed1e3b522](view-source:https://github.com/bitcoin/bitcoin/commit/172f006020965ae8763a0610845c051ed1e3b522)">removed</a> this activation logic, but kept the 1MB limit.</p>
+<p style="text-align: left;">The &#8220;MAX_BLOCK_SIZE = 1000000&#8221; commit <a href="https://github.com/bitcoin/bitcoin/blob/a30b56ebe76ffff9f9cc8a6667186179413c6349/main.h#L18">occurred</a> on 15 July 2010, which was released in the 0.3.1 rc1 version of the software <a href="https://github.com/bitcoin/bitcoin/commit/9d2174b6f5f3fac2463c7ebc2dbb9004b3740d23">on 19 July 2010</a>. The <a href="https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730"> commit</a> enforcing the 1MB rule occurred on 7 September 2010, activating at block 79,400. On 20 September 2010, Satoshi <a href="https://github.com/bitcoin/bitcoin/commit/172f006020965ae8763a0610845c051ed1e3b522">removed</a> this activation logic, but kept the 1MB limit.</p>
 </td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">No evidence of any issues during this upgrade.</td>
@@ -130,44 +130,44 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr>
 <td style="width: 10%;">15 March 2012</td>
 <td style="text-align: right; width: 10%;">171,193</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki)">BIP30</a></td>
-<td style="width: 29%;">Disallow transactions with the same TXID, unless the older one was fully spent. In <a href="[https://github.com/bitcoin/bitcoin/commit/ab91bf39b7c11e9c86bb2043c24f0f377f1cf514](view-source:https://github.com/bitcoin/bitcoin/commit/ab91bf39b7c11e9c86bb2043c24f0f377f1cf514)">September 2012</a>, the rule was applied to all blocks, apart from 91,842 and 91,880, which violate the rule.</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki">BIP30</a></td>
+<td style="width: 29%;">Disallow transactions with the same TXID, unless the older one was fully spent. In <a href="https://github.com/bitcoin/bitcoin/commit/ab91bf39b7c11e9c86bb2043c24f0f377f1cf514">September 2012</a>, the rule was applied to all blocks, apart from 91,842 and 91,880, which violate the rule.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">This was a flag-day softfork. There is no evidence of any issues.</td>
 </tr>
 <td style="width: 10%;">1 April 2012</td>
 <td style="text-align: right; width: 10%;">173,805</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)">BIP16</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki">BIP16</a></td>
 <td style="width: 29%;">Pay-to-script hash (P2SH) allows transactions to be sent to a script hash (address starting with 3) instead of a public-key hash (addresses starting with 1).</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;">55% activation threshold, over blocks in the seven days prior to 1 February 2012. Miners <a href="[https://bitcointalk.org/index.php?topic=66514.0;all](view-source:https://bitcointalk.org/index.php?topic=66514.0;all)">did not upgrade fast enough</a>, so the evaluation point was delayed until 15 March. Users running 0.6.0 rc1 who did not upgrade for the delay activated the softfork early and got <a href="[https://bitcointalk.org/index.php?topic=63165.60](view-source:https://bitcointalk.org/index.php?topic=63165.60)">stuck on block 170,060</a> when an invalid transaction, according to their nodes, was mined. After activation, problems were caused as the remaining 45% of miners produced invalid blocks for several months after the softfork</td>
+<td style="width: 29%;">55% activation threshold, over blocks in the seven days prior to 1 February 2012. Miners <a href="https://bitcointalk.org/index.php?topic=66514.0;all">did not upgrade fast enough</a>, so the evaluation point was delayed until 15 March. Users running 0.6.0 rc1 who did not upgrade for the delay activated the softfork early and got <a href="https://bitcointalk.org/index.php?topic=63165.60">stuck on block 170,060</a> when an invalid transaction, according to their nodes, was mined. After activation, problems were caused as the remaining 45% of miners produced invalid blocks for several months after the softfork</td>
 </tr>
 <tr>
 <td style="width: 10%;">24 Mar 2013</td>
 <td style="text-align: right; width: 10%;"> 227,835</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki)">BIP34</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki">BIP34</a></td>
 <td style="width: 29%;">Requires the coinbase transaction to include the block height.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">95% activation threshold. A successful rollout occurred.</td>
 </tr>
 <td style="width: 10%;">11 Mar 2013</td>
 <td style="text-align: right; width: 10%;">225,430</td>
-<td style="width: 10%;"><a href="[https://bitcoin.org/en/alert/2013-03-11-chain-fork](view-source:https://bitcoin.org/en/alert/2013-03-11-chain-fork)">0.8.0</a></td>
+<td style="width: 10%;"><a href="https://bitcoin.org/en/alert/2013-03-11-chain-fork">0.8.0</a></td>
 <td style="width: 29%;" width="236">This was an unplanned hardfork caused by the migration from Berkeley DB to LevelDB, which accidentally removed an unknown 10,000-BDB database lock limit. This caused a chainsplit on 11 March 2013, although the software which caused the error was released 20 days earlier on 20 February 2013. The change was reverted as the Bitcoin economy and miners switched back to 0.7.2 rules.</td>
 <td style="width: 12%;">No change in the consensus rules</td>
-<td style="width: 29%;">A chainsplit of at least <a href="[https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/](view-source:https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/)">24</a> blocks occurred, with the 0.8.0 chain having a maximum lead of 13 blocks. A <a href="[http://archive.is/64Rkj](view-source:http://archive.is/64Rkj)">successful double spend</a> also occurred. The original rules chain eventually re-took the PoW lead.</td>
+<td style="width: 29%;">A chainsplit of at least <a href="https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/">24</a> blocks occurred, with the 0.8.0 chain having a maximum lead of 13 blocks. A <a href="http://archive.is/64Rkj">successful double spend</a> also occurred. The original rules chain eventually re-took the PoW lead.</td>
 </tr>
 <tr>
 <td style="width: 10%;">18 Mar 2013</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad](view-source:https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad)">0.8.1</a></td>
-<td style="width: 29%;" width="236">This was a temporary softfork, introducing a new rule requiring that no more than 4,500 TXIDs are referenced by inputs in a block. This rule is stricter than the 10,000-BDB lock limit. The rule <a href="[https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba](view-source:https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba)">expired</a> on 15 May 2013, a flag-day hardfork.</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad">0.8.1</a></td>
+<td style="width: 29%;" width="236">This was a temporary softfork, introducing a new rule requiring that no more than 4,500 TXIDs are referenced by inputs in a block. This rule is stricter than the 10,000-BDB lock limit. The rule <a href="https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba">expired</a> on 15 May 2013, a flag-day hardfork.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">There is no evidence of any issues.</td>
 </tr>
 <td style="width: 10%;">15 May 2013 or 16 Aug 2013</td>
 <td style="text-align: right; width: 10%;"> 252,451 or earlier</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki)">BIP50</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki">BIP50</a></td>
 <td style="width: 29%;">In August 2013, a block may have been produced that violated the original 10,000-BDB lock limit rule, which was relaxed on 15 May 2013.</td>
 <td style="width: 12%;">Hardfork</td>
 <td style="width: 29%;">There is no evidence of any issues.</td>
@@ -175,14 +175,14 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr>
 <td style="width: 10%;">4 July 2015</td>
 <td style="text-align: right; width: 10%;"> 363,731</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki)">BIP66</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki">BIP66</a></td>
 <td style="width: 29%;">Strict DER signature upgrade means Bitcoin is no longer dependent on OpenSSL&#8217;s signature parsing.</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;">95% threshold over a 1,000-block period. A chainsplit occurred, lasting six blocks, as some miners signaled support for BIP66 but had not upgraded and were <a href="[https://blog.bitmex.com/empty-block-data-by-mining-pool/](view-source:https://blog.bitmex.com/empty-block-data-by-mining-pool/)">SPY mining</a>. The new softfork rules chain eventually took the lead.</td>
+<td style="width: 29%;">95% threshold over a 1,000-block period. A chainsplit occurred, lasting six blocks, as some miners signaled support for BIP66 but had not upgraded and were <a href="https://blog.bitmex.com/empty-block-data-by-mining-pool/">SPY mining</a>. The new softfork rules chain eventually took the lead.</td>
 </tr>
 <td style="width: 10%;">14 Dec 2015</td>
 <td style="text-align: right; width: 10%;"> 388,380</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)">BIP65</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki">BIP65</a></td>
 <td style="width: 29%;">Check Lock Time Verify enables funds to be locked until a specific time in the future. This is Bitcoin&#8217;s first new function.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Successful rollout using a 95% threshold.</td>
@@ -190,7 +190,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr>
 <td style="width: 10%;">4 July 2016</td>
 <td style="text-align: right; width: 10%;"> 419,328</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki)">BIP68</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki)">BIP112</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki)">BIP113</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki">BIP68</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki">BIP112</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki">BIP113</a></td>
 <td style="width: 29%;">
 <p style="text-align: left;">Relative lock-time enables a transaction output to be banned for a relative amount of time after the transaction.</p>
 <p>CheckSequenceVerify.</p>
@@ -201,7 +201,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 </tr>
 <td style="width: 10%;">23 July 2017</td>
 <td style="text-align: right; width: 10%;"> 477,800</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki)">BIP91</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki">BIP91</a></td>
 <td style="width: 29%;">This temporary softfork makes signaling for the SegWit upgrade mandatory.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Softfork successfully activated with an 80% miner threshold over a 336-block period, although only a tiny minority of users enforced BIP91 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
@@ -209,38 +209,38 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr>
 <td style="width: 10%;">01 Aug 2017</td>
 <td style="text-align: right; width: 10%;"> 478,479</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki)">BIP148</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki">BIP148</a></td>
 <td style="width: 29%;">This temporary softfork makes signaling for the SegWit upgrade mandatory for a two week period following 1 August 2017.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Flag-day softfork appeared to succeed with no issues, although only a minority of users enforced BIP148 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
 </tr>
 <td style="width: 10%;">24 Aug 2017</td>
 <td style="text-align: right; width: 10%;"> 481,824</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)">BIP141</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki)">BIP143</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki)">BIP147</a></td>
-<td style="width: 29%;">The <a href="[https://blog.bitmex.com/the-segwit-transaction-capacity-increase-part-1/](view-source:https://blog.bitmex.com/the-segwit-transaction-capacity-increase-part-1/)">segregated-witness</a> (SegWit) upgrade.</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki">BIP141</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki">BIP143</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki">BIP147</a></td>
+<td style="width: 29%;">The <a href="https://blog.bitmex.com/the-segwit-transaction-capacity-increase-part-1/">segregated-witness</a> (SegWit) upgrade.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Rollout using 95% versionbits signaling.</td>
 </tr>
 <tr>
 <td style="width: 10%;">14 Sep 2017</td>
 <td style="width: 10%; text-align: right;">n/a</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/releases/tag/v0.15.0](view-source:https://github.com/bitcoin/bitcoin/releases/tag/v0.15.0)">0.15.0</a></td>
-<td style="width: 29%;">Accidental <a href="[https://bitcoincore.org/en/2018/09/20/notice/](view-source:https://bitcoincore.org/en/2018/09/20/notice/)">critical inflation bug</a> was added. This was fixed over a year later, on 17 Sep 2018.</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/releases/tag/v0.15.0">0.15.0</a></td>
+<td style="width: 29%;">Accidental <a href="https://bitcoincore.org/en/2018/09/20/notice/">critical inflation bug</a> was added. This was fixed over a year later, on 17 Sep 2018.</td>
 <td style="width: 12%;">Accidental hardfork client</td>
 <td style="width: 29%;">No block was produced which exploited the bug and therefore it can be said that no hardfork occurred on the Bitcoin network.</td>
 </tr>
 <tr>
 <td style="width: 10%;">14 Nov 2021</td>
 <td style="width: 10%; text-align: right;">709,632 </td>
-<td style="width: 10%;"><a href="[https://en.bitcoin.it/wiki/BIP_0341](view-source:https://en.bitcoin.it/wiki/BIP_0341)">BIP341</a></td>
-<td style="width: 29%;">The Taproot upgrade combines ideas such as Schnorr signatures (<a class="mw-redirect" title="Bip-0340.mediawiki" href="[https://en.bitcoin.it/wiki/Bip-0340.mediawiki](view-source:https://en.bitcoin.it/wiki/Bip-0340.mediawiki)">BIP340</a>) and MAST (<a class="mw-redirect" title="Bip-0114.mediawiki" href="[https://en.bitcoin.it/wiki/Bip-0114.mediawiki](view-source:https://en.bitcoin.it/wiki/Bip-0114.mediawiki)">BIP114</a>, <a class="mw-redirect" title="Bip-0117.mediawiki" href="[https://en.bitcoin.it/wiki/Bip-0117.mediawiki](view-source:https://en.bitcoin.it/wiki/Bip-0117.mediawiki)">BIP117</a>)</td>
+<td style="width: 10%;"><a href="https://en.bitcoin.it/wiki/BIP_0341">BIP341</a></td>
+<td style="width: 29%;">The Taproot upgrade combines ideas such as Schnorr signatures (<a class="mw-redirect" title="Bip-0340.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0340.mediawiki">BIP340</a>) and MAST (<a class="mw-redirect" title="Bip-0114.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0114.mediawiki">BIP114</a>, <a class="mw-redirect" title="Bip-0117.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0117.mediawiki">BIP117</a>)</td>
 <td style="width: 12%;">Softfork</td>
-<td style="width: 29%;">This softfork activated using &#8220;Speedy Trial&#8221;, an idea <a href="[https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html](view-source:https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html)">proposed</a> by Russell O&#8217;Connor to resolve a dispute on the best activation methodology. A 90% miner threshold over fixed 2,016 block windows was sucessfully used. The softfork locked-in on 12 June 2021 at block height 687,283</td>
+<td style="width: 29%;">This softfork activated using &#8220;Speedy Trial&#8221;, an idea <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html">proposed</a> by Russell O&#8217;Connor to resolve a dispute on the best activation methodology. A 90% miner threshold over fixed 2,016 block windows was sucessfully used. The softfork locked-in on 12 June 2021 at block height 687,283</td>
 </tr>
 <tr>
 <td style="width: 10%;">The year 2262</td>
 <td style="width: 10%;"> 13,440,000</td>
-<td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki)">BIP42</a></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki">BIP42</a></td>
 <td style="width: 29%;">Fixed a 21 million coin supply cap bug. The software was upgraded in April 2014 to fix this bug, but the new rule does not apply until the 23rd century.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">The softfork is not applicable yet.</td>
