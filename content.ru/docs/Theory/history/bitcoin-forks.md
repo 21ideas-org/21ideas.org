@@ -18,7 +18,7 @@ weight: 53
 {{< hint btc >}}
 Перевод статьи, опубликованной в [блоге BitMEX Research](https://blog.bitmex.com/bitcoins-consensus-forks/). Позже статья была [обновлена](https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/). Обновленный список включает в себя [инцидент, связанный с безопасностью](https://bitcoincore.org/en/2018/09/20/notice/), 2018 года и [активацию Taproot](https://en.bitcoin.it/wiki/BIP_0341) в 2021.
 
-Поддержать проект](/contribute/).
+[Поддержать проект](/contribute/).
 {{< /hint >}}
 
 ## Терминология
