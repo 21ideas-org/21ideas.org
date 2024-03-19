@@ -7,7 +7,7 @@ url: bitcoin-and-me
 date: 2013-03-19
 bookFlatSection: false
 bookToc: true
-weight: 51
+weight: 52
 ---
 
 I thought I'd write about the last four years, an eventful time for Bitcoin and me.

@@ -40,4 +40,6 @@ This series tells the story of the crucial developments that took place before B
 
 3. [The Bitcoin Reformation](/en/bitcoin-reformation)
 
-3. [A complete history of Bitcoin’s consensus forks](/en/bitcoin-forks)
+4. [A complete history of Bitcoin’s consensus forks](/en/bitcoin-forks)
+
+5. [Analyzing the 2013 Bitcoin fork: centralized decision-making saved the day](/en/analyzing-2013-fork)

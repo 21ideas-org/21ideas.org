@@ -7,7 +7,7 @@ url: bitcoin-and-me
 date: 2013-03-19
 bookFlatSection: false
 bookToc: true
-weight: 51
+weight: 52
 ---
 
 Я решил написать о последних четырех годах – времени, насыщенном событиями и для Биткоина, и для меня.
