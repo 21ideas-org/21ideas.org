@@ -257,17 +257,17 @@ The wallet looks good against rivals: despite rather high initial fees for openi
 | Basic routing fee | 0 sat |
 | Routing fee rate | 0 ppm |
 
-The first obvious highlight of Mutiny is the fact that it is a Progressive Web App, meaning that to install Mutiny, you simply need to open their website in your native browser (whether on your smartphone or computer) and add it to your desktop (or app folder).
+The first obvious highlight of Mutiny is the fact that it is a Progressive Web App, meaning that to install Mutiny, you simply need to open their website in your native browser (whether on your smartphone or computer) and add it to your desktop (or app folder). You can find out a bit more about Progressive web apps in my post [here](https://habla.news/tony/PWA)
 
-Channel management here is done "under the hood" and no user action is required. Except for the occasional need for "manual channel rebalancing" when inbound liquidity becomes too low. The wallet shows your channels and their balances, but does not allow you to interact with them in any way.
+Channel management here is done "under the hood" and no user action is required. Except for the occasional need for "manual channel rebalancing" when inbound liquidity gets too low. The wallet shows your channels and their balances, but does not allow you to interact with them in any way.
 
 {{% image "/img/ln-wallets/mutiny-channels.jpg" %}}
 _Display of channels in Mutiny Wallet_
 {{% /image %}}
 
-But Mutiny offers a lot of advanced features, such as connecting the wallet to Nostr apps to send zaps in one click and authentication via LNURL. The wallet also provides the ability to receive and send onchain funds, but does not offer advanced features such as UTXO management, RBF and CPFP.
+But Mutiny offers a lot of advanced features, such as connecting the wallet to Nostr apps to send one-tap zaps and LNURL authentication. The wallet also provides the ability to receive and send onchain funds, but does not offer advanced features such as UTXO management, RBF and CPFP. Some interesting features, such as CoinJoin are in development. You can learn more about the future developments and unique features of Mutiny in [this beginner guide](/en/mutiny).
 
-Recurring LN payments are also available for project patrons (21k sats per month) and the ability to comfortably gift sats to newbies.
+Recurring LN payments are also available for project patrons (16k sats per month) and the ability to comfortably gift sats to newbies.
 
 | **Pros** | **Cons** |
 | --------------------- | -------------------------------------- |
@@ -288,10 +288,10 @@ Recurring LN payments are also available for project patrons (21k sats per month
 | Open source | ✅ [GitHub](https://github.com/ZeusLN/zeus) |
 | Suitable for | Intermediate |
 
-Despite the fact that Zeus offers a wide range of features, which is rather aimed at more experienced users, the team has not forgotten about ordinary bitcoiners who just want to use the Lightning Network without trusting anyone their funds. The wallet offers several different usage options and will suit literally anyone who has ever used a Lightning wallet. We suggest starting with two options that are appropriate for this section of the guide:
+Despite the fact that Zeus offers a wide range of features, which better suits more experienced users, the team has not forgotten about ordinary bitcoiners who just want to use the Lightning Network without trusting anyone with their funds. The wallet offers several different specifics of usage and will suit literally anyone who has ever used a Lightning wallet. We suggest starting with two options that are appropriate for this section of the guide:
 
-- using LSP (liquidity provider)
-- self channel management
+- using an LSP (liquidity provider)
+- manual channel management
 
 ### Zeus + LSP
 
@@ -302,8 +302,8 @@ It's simple: when you start the wallet, you select that you want to use LSP, and
 {{< hint warning >}}
 When using LSs, regardless of the wallet - Phoenix, Mutiny, Zeus or Blixt - it is important to track inbound liquidity (see the screenshot below). If it is exhausted, when receiving the next payment, the provider will be forced to open a new channel, which will require an onchain transaction and result in additional fees.
 
-{{% image "/img/ln-wallets/phoenix-channels.png" %}}
-_Displaying liquidity in Phoenix Wallet_
+{{% image "/img/ln-wallets/channels.png" %}}
+_Displaying channels' liquidity in Mutiny Wallet_
 {{% /image %}}
 
 To avoid paying additional fees you can buy some goods or services with Lightning, send funds to another wallet or use one of the services to swap Lightning sats for onchain bitcoins.
@@ -323,7 +323,7 @@ To start using the wallet just tap the "Quick Start" button. After a couple of m
 Zeus uses [aezeed](https://github.com/lightningnetwork/lnd/blob/master/aezeed/README.md) mnemonic phrase instead of usual BIP39. Therefore, you will not be able to recover the wallet by backup phrase in every app. We recommend using [Blue](/en/blue), Blixt or Breez wallet. If you suddenly lose access to your Zeus wallet and the channels are still open, restoring it in the newly downloaded app will force close the open channels and provide you a new onchain wallet with your funds.
 {{< /hint >}}
 
-### Self channel management
+### Manual channel management
 
 This mode will appeal to savvy bitcoiners: perhaps you already have your own Lightning node but would like an additional mobile node; or you've already gained confidence using simpler mobile wallets and want to try a more flexible app.
 
@@ -366,7 +366,7 @@ Details of how to interact with the Lightning Network can be found in the Zeus [
 | Open source | ✅ [GitHub](https://github.com/standardsats/wallet) |
 | Suitable for | Intermediate |
 
-To start working in non-custodial form, it is necessary to fund the onchain wallet and open an outbound channel. To do this, it is enough to scan the QR code of a Lightning node, which can be found in explorers such as [amboss.space](https://amboss.space/) or [mempool.space](https://mempool.space/ru/), or paste node address in the field for sending. After that you should tap on the "Open a new channel" button and specify the amount of BTC that will be placed in the channel.
+To start working in non-custodial form, it is necessary to fund the onchain wallet and open an outbound channel. To do this, it is enough to scan the QR code of a Lightning node, which can be found in explorers such as [amboss.space](https://amboss.space/) or [mempool.space](https://mempool.space/ru/), or paste the node address into the _Send_ field. Next tap on the "Open a new channel" button and specify the amount of BTC that will be placed in the channel.
 
 {{% image "/img/ln-wallets/connect-node.png" /%}}
 
@@ -382,23 +382,23 @@ Valet offers advanced onchain features, for example, if you put multiple address
 bc1qmu6c9krfmw7jfursz0304g4qlju9aqvekuxkfw 0.001; bc1qk753jj9xkxwplyxnphhnkvq06qvmrr9u53udrn 0.023
 ```
 
-...then the wallet will create a single transaction that sends the corresponding amounts to the selected addresses. This saves up to 50% in onchain fees compared to creating separate transactions for each address.
+...the wallet will create a single transaction that sends the corresponding amounts to the specified addresses. This saves up to 50% in onchain fees compared to creating separate transactions for each address.
 
 {{% image "/img/ln-wallets/send-tx.png" /%}}
 
 Of the useful advanced onchain features, coin control can be highlighted. This function allows you to enable and disable specific UTXOs in the wallet, i.e. outputs of unspent transactions. This feature can be useful in some cases:
 
-1. You want to send a transaction without creating change output for lower fees in the future, and increased privacy.
+1. You want to send a transaction without creating change output for lower fees in the future, and increase privacy.
 
-2. You don't want to move specific UTXOs in everyday transactions so that an observer can't link your other UTXOs to those outputs just by looking at the transaction in a blockchain explorer.
+2. You don't want to move specific UTXOs in everyday transactions so that an observer can't link your other UTXOs to those outputs just by looking at the transaction in a block explorer.
 
-3. You received a small amount of BTC to track (dust attack) the rest of your funds. Then you can just mark the "bad" small UTXO and do not spend it.
+3. You received a small amount of BTC to track (dust attack) the rest of your funds. Then you can just mark the "bad" small UTXO and never spend it.
 
 To activate coin control, you need to swipe the onchain balance tile to the right and tap on the button that appears.
 
 {{% image "/img/ln-wallets/coin-control.png" /%}}
 
-A special onchain feature of the wallet is the ability to raise onchain fees through Replace-by-Fee (RBF) technology for outgoing transactions and Child-Pays-for-Parent (CPFP) for incoming transactions. The wallet also supports the ability to cancel an unconfirmed transaction in one click.
+A special onchain feature of the wallet is the ability to raise onchain fees through Replace-by-Fee (RBF) technology for outgoing transactions and Child-Pays-for-Parent (CPFP) for incoming transactions. The wallet also supports the ability to cancel an unconfirmed transaction in a single click.
 
 {{% image "/img/ln-wallets/cpfp.png" /%}}
 
@@ -406,7 +406,7 @@ Valet also allows opening special custodial Lightning channels (the only optiona
 
 {{% image "/img/ln-wallets/fiat-channel.png" /%}}
 
-Anyone in the community can start a service that provides fiat channels. At the moment the service is provided only by wallet's developers node: https://amboss.space/es/node/02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
+Anyone in the community can start a service that offers fiat channels. At the moment the service is provided only by wallet developers' node: https://amboss.space/es/node/02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 
 {{< hint warning >}}
 Be careful: unlike normal channels, fiat channels cannot be force closed and get bitcoins onchain automatically if the node on the other side has gone offline. This feature is intended for short-term use to mitigate bitcoin price volatility for the user.
@@ -432,27 +432,27 @@ Be careful: unlike normal channels, fiat channels cannot be force closed and get
 | Open source | ✅ [GitHub](https://github.com/hsjoberg/blixt-wallet) |
 | Suitable for | Intermediate |
 
-I haven't personally tested this wallet, but I can say that it also offers LSP functionality called Dundler. Blixt allows users to manage their own channels, connect to preferred nodes, and generally provides a full mobile Lightning node experience. Blixt also offers an advanced features when managing onchain bitcoins.
+I haven't personally tested this wallet, but I can say that it also offers LSP functionality called Dundler. Blixt allows users to manage their own channels, connect to preferred nodes, and generally provides a full mobile Lightning node experience. Blixt also offers advanced features when managing onchain bitcoins.
 
 {{< hint warning >}}
 If you have used Blixt and would like to share your experiences, please leave a comment below or [contact us](/en/feedback). We will be happy to include your comments to this guide. Otherwise, we recommend reading the Blixt documentation, available [here](https://blixtwallet.github.io/features), as well as reading DarthCoin's Blixt guide, available [here](https://darthcoin.substack.com/p/getting-started-with-blixt-mobile).
 {{< /hint >}}
 
-# Mobile wallets for managing remote full Lightning node
+# Mobile wallets to manage own Lightning node
 
-We cannot forget to mention one more feature provided by mobile wallets. This is synchronization of your full Lightning node with the mobile app for further management of it from anywhere in the world. This feature is definitely the most useful for Lightning node owners, but not only for them.
+We cannot forget to mention one more feature provided by mobile wallets. This is synchronization of your full Lightning node with the mobile app for further management from anywhere in the world. This feature is definitely the most useful for Lightning node runners, but not only for them.
 
-A number of apps, e.g. the custodial version of Alby and the trial version of the LNBits, provide the ability to export a LN wallet. This way you can create a custodial wallet that provides unique functionality (piggy bank, recurring payments, paywalls, etc.) on desktop and export it to your mobile for easy use "on the go".
+A number of apps, e.g. the custodial version of Alby and the trial version of the LNBits, provide the ability to export a Lightning wallet. This way you can create a custodial wallet that provides unique functionality (piggy bank, recurring payments, paywalls, etc.) on desktop and export it to your mobile for easy use "on the go".
 
 {{% image "/img/ln-wallets/alby-export.png" %}}
 _The wallet on smartphone is a "mirror" of the wallet imported into it. Send and receive sats, log in via Lightning using one account._
 {{% /image %}}
 
-These features are offered not only by Zeus, but also by [Blue Wallet](https://bluewallet.io). Blue has proven to be an excellent multi-functional non-custodial tool. In addition to importing LN nodes, the wallet offers importing and creating many types of bitcoin storage schemes, from multi-sig to hardware wallet support. You can learn more about the features of this wallet [here](/en/blue).
+These features are offered not only by Zeus, but also by [Blue Wallet](https://bluewallet.io). Blue has proven to be an excellent multi-functional non-custodial tool. In addition to importing LN nodes, the wallet offers importing and creating many types of bitcoin storage schemes, from [multisig](/en/what-is-multisig) to hardware wallet support. You can learn more about the features of this wallet [here](/en/blue).
 
 Let's take a look at importing a wallet using Alby, Blue Wallet and Zeus as examples.
 
-1. Go to https://getalby.com/ and log in to your account (button in the upper right corner).
+1. Visit https://getalby.com/ and log in to your account (button in the upper right corner).
 
 2. Navigate to the Wallet tab at the top of the page.
 
