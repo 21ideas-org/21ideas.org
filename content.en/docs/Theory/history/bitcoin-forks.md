@@ -3,7 +3,8 @@ title: "A complete history of Bitcoin’s consensus forks"
 h1: "A complete history of Bitcoin’s consensus forks"
 cover: /img/forks-01.jpg
 tags: ["bitcoin", "history", "softfork", "hardfork", "consensus", "blockchain", "chainsplit"]
-description: ""
+description: "In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.
+"
 url: bitcoin-forks
 date: 2017-12-28
 bookFlatSection: false
