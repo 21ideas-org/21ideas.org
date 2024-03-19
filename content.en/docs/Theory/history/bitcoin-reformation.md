@@ -7,7 +7,7 @@ url: bitcoin-reformation
 date: 2019-11-07
 bookFlatSection: false
 bookToc: true
-weight: 52
+weight: 53
 ---
 
 {{< hint btc >}}
