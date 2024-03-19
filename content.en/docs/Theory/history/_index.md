@@ -36,6 +36,8 @@ This series tells the story of the crucial developments that took place before B
 
 1. [Hal Finney — The Life And Death Of A Cypherpunk Legend](/en/hal-finney)
 
-2. [The Bitcoin Reformation](/en/bitcoin-reformation)
+2. [Bitcoin and Me](/en/bitcoin-and-me) – a historic post by Hal Finney
+
+3. [The Bitcoin Reformation](/en/bitcoin-reformation)
 
 3. [A complete history of Bitcoin’s consensus forks](/en/bitcoin-forks)
