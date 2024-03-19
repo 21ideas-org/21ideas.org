@@ -35,11 +35,10 @@ This report was originaly published in BitMEX Research [blog](https://blog.bitme
 <td> Chainsplit</td>
 <td style="text-align: left;">A split in the blockchain, resulting in two separate chains, with a common ancestor. This can be caused by either a hardfork, a softfork, or neither.</td>
 </tr>
-<tr bgcolor="#c2d1f0">
+<tr bgcolor="#526482">
 <td colspan="2"> <strong>Consensus rule changes</strong></td>
 </tr>
 <tr>
-<tr bgcolor="#FFFFFF">
 <td> Hardfork</td>
 <td>
 <p style="text-align: left;">A loosening of the consensus rules on block validity, such that some blocks previously considered as invalid are now considered valid.</p>
@@ -71,7 +70,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 29%;" width="29%"><span style="color: white;"><strong>Outcome</strong></span></td>
 </tr>
 <tr>
-<tr bgcolor="#FFFFFF">
 <td style="width: 10%;">28 July 2010</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
 <td style="width: 10%;"><a href="[https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141](view-source:https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141)">0.3.5</a></td>
@@ -91,7 +89,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Hardfork</td>
 </tr>
 <tr>
-<tr bgcolor="#FFFFFF">
+<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">1 Aug 2010</td>
 <td style="text-align: right; width: 10%;"> n/a<sup>1</sup></td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0](view-source:https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0)">0.3.7</a></td>
@@ -111,7 +109,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 </tr>
 <tr>
-<tr bgcolor="#FFFFFF">
+<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">7 Sept 2010</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730](view-source:https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730)">0.3.12</a></td>
@@ -119,7 +117,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">No evidence of any issues during this upgrade.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">12 Sept 2010</td>
 <td style="text-align: right; width: 10%;">79,400</td>
 <td style="width: 10%;">n/a</td>
@@ -138,7 +135,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">This was a flag-day softfork. There is no evidence of any issues.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">1 April 2012</td>
 <td style="text-align: right; width: 10%;">173,805</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)">BIP16</a></td>
@@ -154,7 +150,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">95% activation threshold. A successful rollout occurred.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">11 Mar 2013</td>
 <td style="text-align: right; width: 10%;">225,430</td>
 <td style="width: 10%;"><a href="[https://bitcoin.org/en/alert/2013-03-11-chain-fork](view-source:https://bitcoin.org/en/alert/2013-03-11-chain-fork)">0.8.0</a></td>
@@ -170,7 +165,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">There is no evidence of any issues.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">15 May 2013 or 16 Aug 2013</td>
 <td style="text-align: right; width: 10%;"> 252,451 or earlier</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki)">BIP50</a></td>
@@ -186,7 +180,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">95% threshold over a 1,000-block period. A chainsplit occurred, lasting six blocks, as some miners signaled support for BIP66 but had not upgraded and were <a href="[https://blog.bitmex.com/empty-block-data-by-mining-pool/](view-source:https://blog.bitmex.com/empty-block-data-by-mining-pool/)">SPY mining</a>. The new softfork rules chain eventually took the lead.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">14 Dec 2015</td>
 <td style="text-align: right; width: 10%;"> 388,380</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)">BIP65</a></td>
@@ -206,7 +199,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Successful rollout using 95% versionbits signaling.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">23 July 2017</td>
 <td style="text-align: right; width: 10%;">  477,800</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki)">BIP91</a></td>
@@ -222,7 +214,6 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;">Flag-day softfork appeared to succeed with no issues, although only a minority of users enforced BIP148 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
 </tr>
-<tr bgcolor="#F2F7FF">
 <td style="width: 10%;">24 Aug 2017</td>
 <td style="text-align: right; width: 10%;"> 481,824</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)">BIP141</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki)">BIP143</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki)">BIP147</a></td>
@@ -293,6 +284,10 @@ A diagram illustrating these six blocks and the chainfork is displayed below.
 *Graphical illustration of the July 2015 chainsplit. (Source: Blockchain.info [http://archive.is/WqGRp](http://archive.is/WqGRp) and [http://archive.is/LHlF7](http://archive.is/LHlF7))*
 {{% /image %}}
 
+{{< hint info >}}
 **Note:** After the publication of this piece, an alternative list of consensus versions was published on the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Consensus_versions).
+{{< /hint >}}
 
+{{< hint danger >}}
 **Disclaimer:** Whilst many claims made in this piece are cited, we do not guarantee accuracy.  We may have made errors or accidentally omitted consensus rule changes from the list.  We welcome corrections.
+{{< /hint >}}
