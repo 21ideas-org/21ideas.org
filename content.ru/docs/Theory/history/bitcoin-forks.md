@@ -197,7 +197,7 @@ weight: 53
 <td style="text-align: right; width: 10%;"> 419 328</td>
 <td style="width: 10%;"><a href="[https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki)">BIP68</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki)">BIP112</a><br/><a href="[https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki](view-source:https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki)">BIP113</a></td>
 <td style="width: 29%;">
-<p style="text-align: left;">Добавлена функция относительного время блокировки, которое позволяет заблокировать выход транзакции на относительный промежуток времени после ее подтверждения.</p>
+<p style="text-align: left;">Добавлена функция относительного времени блокировки, которое позволяет заблокировать выход транзакции на относительный промежуток времени после ее подтверждения.</p>
 <p>Добавлен опкод CheckSequenceVerify.</p>
 <p style="text-align: left;">Добавлен показатель Median Time Past (MTP) (среднее время добычи последних 11 блоков), который устраняет стимул для майнера использовать временную метку будущего блока для получения большей комиссию за транзакцию.</p>
 </td>
