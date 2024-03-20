@@ -1,56 +1,26 @@
-![thumbnail](https://21ideas.org/img/main-section/main_light.png)
+[![en](https://img.shields.io/badge/lang-eng-orange)](https://github.com/bitcoin21ideas/21ideas.org/edit/main/README.md)
+[![ru](https://img.shields.io/badge/язык-ру-orange)](https://github.com/bitcoin21ideas/21ideas.org/blob/main/README.ru.md)
 
-## О проекте 
+## About 
 
-[21 идея](https://21ideas.org) - это самая исчерпывающая библиотека биткоин-материалов на русском с открытым исходным кодом. Каждый желающий может предложить улучшения, исправления или новые материалы - будь то перевод статей, книг, видео или аудио. Вы также можете предлагать авторские материалы. Проект курируется самыми активными участниками сообщества и является некоммерческим. Тем не менее, мы по возможности вознаграждаем контрибьюторов звонкими сатошиками.
+[21 ideas](https://21ideas.org) is the most exhaustive multilingual library of Bitcoin materials. Everyone can suggest improvements, corrections or new materials - be it translations of articles, books, videos or audio. You can also suggest own materials. The project is curated by the most active members of the community and is non-profit. Nevertheless, we reward contributors with sats whenever possible.
 
-## Пополнение библиотеки
+## Suggesting materials
 
-Хотите предложить материал, но не знаете как? Обратитесь к [этому гиду](https://21ideas.org/github/), чтобы узнать о процессе добавления статей на GitHub, и к [этому](https://21ideas.org/syntax/) - чтобы ознакомиться со стандартами оформления материалов. Также рекомендуется обратить внимание на [этот гид по добавлению статей в библиотеку, используя Obsidian](https://21ideas.org/obsidian/). Обо всех способах поддержать проект можно узнать на [этой страничке](https://21ideas.org/contribute/). 
+Want to suggest material but don't know how? Check out [this guide](https://21ideas.org/en/github/) to learn about the process of adding articles to GitHub.
 
-## Поддержка авторов и фонд 21 идеи
+## Supporting authors and the 21ideas Fund
 
-Если вы хотите проспонсировать подготовку того или иного материала, вы можете создать запрос, наподобие [этого](https://github.com/21ideas-org/21ideas.org/issues/3), указав тэг "bounty" и сумму в сатах, которую вы готовы выделить желающему выполнить задачу. Альтернативно, вы можете отправить желаемую сумму по одному из указанных [здесь](https://21ideas.org/contribute/) адресов и указать цель доната. Средства будут зачислены в фонд 21 идея, целью которого является расширение базы знаний о Биткоине.
+If you would like to sponsor the preparation of a piece of content, you can create a request like [here](https://github.com/21ideas-org/21ideas.org/issues/3), specifying the tag "bounty" and the amount in sats you are willing to donate to someone willing to complete the task. Alternatively, you can send the desired amount to one of the addresses listed [here](https://21ideas.org/contribute/) and specify the purpose of the donation. The funds will be credited to the 21 ideas fund, which aims to expand Bitcoin knowledge base.
 
-Благодаря поддержке международного биткоин-сообщества мы выделили более 1,500,000 сат на вознагржадения всех, принявших участие в проекте. Каждый желающий может самостоятельно создать issue [здесь](https://github.com/21ideas-org/21ideas.org/issues) и предложить свою помощь в содании и добавлении образовательных материалов. Символические вознаграждения будут отправляться до тех пор, пока в фонде будут оставаться средства. 
+> If you have sent sats and indicated their purpose, but your donation is not yet displayed in the table, please contact us at one of the contacts listed [here](https://21ideas.org/en/feedback/).
 
-> Если вы отправлили средства и указали их предназначение, но ваш донат еще не отобразился в таблице, напишите нам по одному из указанных [здесь](https://21ideas.org/feedback/) контактов.
+The availability of sats in the fund and their distribution will be recorded in the table located [on this page](https://21ideas.org/table).
 
-Наличие средств в фонде и их распределение будут фиксироваться таблице, расположенной [на этой странице](https://21ideas.org/table).
+## Benefits for participants
 
-## Бенефиты участников проекта
+Sats one gets for adding material to the 21ideas website are not the only benefit. Check out the list of perks and bonuses given to contributors:
 
-Бонусные вознагржадения за добавление материалов на сайт не являются единственным бенефитом. Ознакомьтесь со списком тонкостей добавления материалов и бонусов, предоставляемых контрибьюторам:
-
-- Вознаграждение является бонусом и не должно расцениваться как "оплата труда" или сравниваться со средними зарплатами, минимальным прожиточным минимумом и т.п.
-- Помимо сат выполнивший задание автоматически отображается как [контрибьютор репозитория образовательного проекта](https://github.com/21ideas-org/21ideas.org/graphs/contributors). Proof-of-Work в чистейшем виде.
-- Контрибьюторы получают бейдж активного участника сообщества в Ностр.
-- Контрибьюторы получают доступ к закрытому чату русскоязычных биткоинеров.
-
-## Сообщество
-
-Присоединяйтесь к самому обширному русскоязычному биткоин-сообществу, делитесь ресурсом с родными и близкими и принимайте активное участие в развитии проекта. Чат для всех желающих принять участие в развитии проекта доступен [здесь](https://t.me/+DVlyZlInKfBkY2M0). Чат участников биткоин-сообщества [здесь](https://t.me/+vy_hhLBc1IAzMjU0) (вход требует единоразовой оплаты Лайтнинг-инвойса в размере 2,100 сат). Впереди много улучшений и грандиозных планов. Путешествие в кроличью нору Биткоина обещает быть увлекательным!
-
-## Другие ресурсы:
-
-- **Телеграм-канал**: https://t.me/bitcoin21ideas
-- **YouTube**: https://www.youtube.com/@21ideas
-- **Подкасты**: https://podcasters.spotify.com/pod/show/tony-lightning 
-- **RSS (аудио)**: https://anchor.fm/s/69c8de58/podcast/rss
-- **RSS (читалка)**: https://21ideas.org/index.xml
-- **Все о Ностр**: https://nostr.21ideas.org
-
----
-
-## Проекты энтузиастов, достойные вашего внимания
-
-- **HCN**: https://t.me/hypecoinnews
-- **BitKorn**: https://www.youtube.com/@BitKorn/
-- **Биткоин Абстракцион**:  https://t.me/bitraction
-
----
-
-
-
-
-
+- The remuneration is a token of gratitude and should not be considered a payment or a wage.
+- In addition to sats, the person who completed the task is automatically shown as an [educational project contributor](https://github.com/21ideas-org/21ideas.org/graphs/contributors). Proof-of-Work in its purest form.
+- Contributors receive an active community member badge on Nostr.
