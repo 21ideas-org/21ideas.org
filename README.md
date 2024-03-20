@@ -33,12 +33,11 @@
 
 ## Другие ресурсы:
 
-- **Сайт**, пока что хранящий самую обширную базу знаний о Биткоине (полный переезд на новый ресурс и закрытие старого планируется на февраль 2024): https://www.21ideas.org/
-
 - **Телеграм-канал**: https://t.me/bitcoin21ideas
 - **YouTube**: https://www.youtube.com/@21ideas
 - **Подкасты**: https://podcasters.spotify.com/pod/show/tony-lightning 
-- **RSS**: https://anchor.fm/s/69c8de58/podcast/rss
+- **RSS (аудио)**: https://anchor.fm/s/69c8de58/podcast/rss
+- **RSS (читалка)**: https://21ideas.org/index.xml
 - **Все о Ностр**: https://nostr.21ideas.org
 
 ---
