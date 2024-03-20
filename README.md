@@ -13,8 +13,6 @@ Want to suggest material but don't know how? Check out [this guide](https://21id
 
 If you would like to sponsor the preparation of a piece of content, you can create a request like [here](https://github.com/21ideas-org/21ideas.org/issues/3), specifying the tag "bounty" and the amount in sats you are willing to donate to someone willing to complete the task. Alternatively, you can send the desired amount to one of the addresses listed [here](https://21ideas.org/contribute/) and specify the purpose of the donation. The funds will be credited to the 21 ideas fund, which aims to expand Bitcoin knowledge base.
 
-Thanks to the support of the international bitcoin community, we have allocated over 1,500,000 sats to reward everyone who participated in the project. Everyone can create an issue [here](https://github.com/21ideas-org/21ideas.org/issues) and offer their help in creating and adding educational materials. Symbolic rewards will be sent as long as there are sats left in the fund. 
-
 > If you have sent sats and indicated their purpose, but your donation is not yet displayed in the table, please contact us at one of the contacts listed [here](https://21ideas.org/en/feedback/).
 
 The availability of sats in the fund and their distribution will be recorded in the table located [on this page](https://21ideas.org/table).
