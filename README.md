@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-eng-orange)](https://github.com/bitcoin21ideas/21ideas.org/edit/main/README.md)
+[![en](https://img.shields.io/badge/lang-eng-orange)](https://github.com/bitcoin21ideas/21ideas.org/blob/main/README.md)
 [![ru](https://img.shields.io/badge/язык-ру-orange)](https://github.com/bitcoin21ideas/21ideas.org/blob/main/README.ru.md)
 
 ## About 
