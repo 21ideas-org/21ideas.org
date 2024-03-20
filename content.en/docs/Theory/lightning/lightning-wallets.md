@@ -55,6 +55,8 @@ The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndc
 	
 	- Zeus
 
+_You can find a table roughly comparing all the covered wallets [below](/en/lightning-wallets/#comparison-table)._
+
 # Custodial wallets
 
 ## Wallet of Satoshi (WoS)
@@ -428,7 +430,7 @@ Be careful: unlike normal channels, fiat channels cannot be force closed and get
 | Non-custodial | ✅ |
 |-------------------|:---:|
 | Onchain | ✅ |
-| LN address | ❌ |
+| LN address | ✅ |
 | Open source | ✅ [GitHub](https://github.com/hsjoberg/blixt-wallet) |
 | Suitable for | Intermediate |
 
@@ -477,6 +479,22 @@ After scanning the QR code from your computer screen, confirm the import, and yo
 ## There is no single right solution
 
 There are already many Lightning wallets, and every day new solutions emerge and existing ones are improved. Of course, there is no single right solution here, and everyone will find a different wallet to suit own needs. We hope that this guide has been helpful and that it will be easier for you to choose a wallet to your liking. If you still have questions or want to suggest some edits, you can do it via [GitHub](/en/github), leave a comment below or [contact us](/en/feedback).
+
+## Comparison table
+
+|App|Non Custodial|On-chain|LN Address|Open Source|Audience|
+|---|---|---|---|---|---|
+|WoS|❌|✅|✅|❌|Beginners|
+|Blink|❌|✅|✅|✅|Beginners|
+|Coin OS|❌|✅|✅|✅|Beginners|
+|Alby|✅|✅|✅|✅|Beginners / Intermediate|
+|Phoenix|✅|✅|❌|✅|Intermediate|
+|Mutiny|✅|✅|❌|✅|Intermediate / Pro|
+|Zeus|✅|✅|✅|✅|Intermediate / Pro|
+|Valet|✅|✅|❌|✅|Pro|
+|Blixt|✅|✅|✅|✅|Pro|
+
+_Table created and [suggested on Stacker News](https://stacker.news/items/471803/r/Tony?commentId=471827) by David._
 
 [^1]: The wallet does not provide onchain functionality. You will not be able to manage onchain funds, but only receive and send payments from/to onchain addresses.
 
