@@ -1,4 +1,5 @@
-![thumbnail](https://21ideas.org/img/main-section/main_light.png)
+[![en](https://img.shields.io/badge/lang-eng-orange)](https://github.com/bitcoin21ideas/21ideas.org/edit/main/README.md) 
+[![ru](https://img.shields.io/badge/язык-ру-orange)](https://github.com/bitcoin21ideas/21ideas.org/edit/main/README.ru.md)
 
 ## О проекте 
 
