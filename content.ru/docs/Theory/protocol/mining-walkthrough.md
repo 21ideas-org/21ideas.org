@@ -12,7 +12,7 @@ weight: 69
 Как Биткоин защищен с помощью энергии? И что такое nonce? На эти и другие вопросы вы найдете ответы в этой статье.
 
 {{< hint btc >}}
-Перевод статьи статьи [Arman The Parman](https://twitter.com/parman_the), опубликованной в [Bitcoin Magazine](https://bitcoinmagazine.com/technical/how-mining-protects-the-bitcoin-network).
+Перевод [статьи](https://bitcoinmagazine.com/technical/how-mining-protects-the-bitcoin-network) [Arman The Parman](https://twitter.com/parman_the), опубликованной в Bitcoin Magazine.
 
 [Поддержать проект](/contribute).
 {{< /hint >}}
