@@ -15,7 +15,7 @@ weight: 1
 Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг.
 
 {{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7).[Поддержать проект](/contribute/).
+Гид подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 {{< youtube iZx86vbC9II >}}
