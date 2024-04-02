@@ -6,7 +6,7 @@ menu:
   main:
     parent: blog
 next: /blog/
-prev: /posts/hal-finney-ne-byl-satoshi-nakamoto/
+prev: /posts/not-satoshi/
 title: "Сэм Бэнкман-Фрид приговорен к 25 годам тюремного заключения"
 description: "Бывший генеральный директор FTX был осужден по семи пунктам обвинения в мошенничестве и заговоре через год после того, как биржа потерпела крах."
 cover: /img/blog/sbf25.png
