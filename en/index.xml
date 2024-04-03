@@ -15,7 +15,12 @@ Contribute.
 Why Electrum? # This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level.</description></item><item><title>What is Lightning Network?</title><link>https://21ideas.org/en/what-is-lightning-network/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-is-lightning-network/</guid><description>Why should you care about Lightning Network, how does it work and how to use it? We&amp;rsquo;ll answer these and many other questions in this guide.
 The article written by Tony⚡️.
 Contribute.
-Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds.</description></item><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>Оглавление ... Главная страница
+Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds.</description></item><item><title>What is a Bitcoin UTXO</title><link>https://21ideas.org/en/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-1/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Although many users may not realize it, all bitcoin wallets need some level of maintenance to be properly managed.</description></item><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>Оглавление ... Главная страница
 Введение
 Глава 0
 Глава 0.1
@@ -144,7 +149,12 @@ It is worth starting with the fact that this service is still in the phase of ac
 In this short article I would like to explain it to those who do not know it. At the same time, I will describe the basics of Lightning invoices and LNURL-pay protocol.
 This article by @heisenberg was published on stacker.news website.
 Contribute.
-Lightning invoices basics # Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network.</description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>Оглавление ... Главная страница
+Lightning invoices basics # Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network.</description></item><item><title>Too Many UTXOs: How To Avoid High Fees</title><link>https://21ideas.org/en/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-2/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Building on our first article covering what UTXOs are and why they matter, we’ll now dive deeper into various situations where you may need to actively manage the UTXOs in your self-custody wallet.</description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>Оглавление ... Главная страница
 Введение
 Глава 0
 Глава 0.1
@@ -271,7 +281,12 @@ noKYC # The de-facto way to obtain Bitcoin today, especially as a newcomer, is t
 Contribute.
 What do you do when you meet someone casually at a party or social event and they ask you the tiny question with the huge answer:
 What is Bitcoin?
-We know the best way to orange pill someone is by asking questions to plant seeds that nurture curiosity. That works great with people we know or see often, but what about strangers you’ve just met and may never see again?</description></item><item><title>Биткоин от А до Я</title><link>https://21ideas.org/en/course/</link><pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/course/</guid><description>⚡ Этот биткоин-курс создан благодаря поддержке биткоинера-анонима, задонатившего проекту 8,000,000 сат.
+We know the best way to orange pill someone is by asking questions to plant seeds that nurture curiosity. That works great with people we know or see often, but what about strangers you’ve just met and may never see again?</description></item><item><title>UTXOs Privacy</title><link>https://21ideas.org/en/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-3/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Earlier this year, we published two articles focusing on UTXOs. The first article served as an introduction to understanding UTXOs and why actively managing them should be important to anyone who holds bitcoin in self-custody.</description></item><item><title>Биткоин от А до Я</title><link>https://21ideas.org/en/course/</link><pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/course/</guid><description>⚡ Этот биткоин-курс создан благодаря поддержке биткоинера-анонима, задонатившего проекту 8,000,000 сат.
 Поддержать проект
 Полноценный Биткоин-курс &amp;ldquo;от А до Я&amp;rdquo; – венец трехлетней работы биткоин-максималиста, либертарианца, биткоин-ученика и педагога в одном лице. Этот курс всегда будет распространяться на исключительно безвозмездной основе, ведь информация должна быть общедоступна. Я и мои единомышленники убеждены, что это – единственный путь к расцвету человечества и становлению сплаченного и процветающего общества!
 Делитесь этой информацией о Биткоине со своими родными и близкими!</description></item><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.

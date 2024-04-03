@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>What Is UTXO And How To Manage Them on 21ideas</title><link>https://21ideas.org/en/protocol/utxo/</link><description>Recent content in What Is UTXO And How To Manage Them on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/protocol/utxo/index.xml" rel="self" type="application/rss+xml"/><item><title>What is a Bitcoin UTXO</title><link>https://21ideas.org/en/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-1/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Although many users may not realize it, all bitcoin wallets need some level of maintenance to be properly managed.</description></item><item><title>Too Many UTXOs: How To Avoid High Fees</title><link>https://21ideas.org/en/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-2/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Building on our first article covering what UTXOs are and why they matter, we’ll now dive deeper into various situations where you may need to actively manage the UTXOs in your self-custody wallet.</description></item><item><title>UTXOs Privacy</title><link>https://21ideas.org/en/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-3/</guid><description>Contents ... What Is UTXO And How To Manage Them # What is a Bitcoin UTXO and why do they matter?
+More UTXOs, more problems: High fees, signing failures, and how to avoid them
+UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy
+This article by Tom Honzik was published in Unchained blog
+Contribute
+Earlier this year, we published two articles focusing on UTXOs. The first article served as an introduction to understanding UTXOs and why actively managing them should be important to anyone who holds bitcoin in self-custody.</description></item></channel></rss>
