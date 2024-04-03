@@ -3,7 +3,8 @@ title: "Что такое UTXO?"
 h1: "Что такое UTXO, и почему они важны?"
 cover: /img/utxo/piggy-cover.png
 description: "Это – вступление к серии статей, которое осветит основные аспекты концепта UTXO и лучшие практики их использования."
-url: utxo
+url: protocol/utxo-1
+aliases: ['/utxo']
 date: 2022-06-17
 bookFlatSection: false
 bookToc: true
