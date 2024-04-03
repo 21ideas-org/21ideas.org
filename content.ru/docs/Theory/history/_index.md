@@ -48,10 +48,32 @@ weight: 5
 6. [Анализ форка Биткоина 2013 года: централизованное принятие решений спасло положение](/analyzing-2013-fork)
 
 
-## Календарь
+## Биткоин-календарь
 
-Помимо статей погрузиться в историю Биткоина вам поможет подготовленный нами Биткоин-календарь. Для удобства этот календарь раздается в самом распространенном формате, но вы всегда можете импортировать его, чтобы использовать в любом другом приложении.
+{{< hint btc >}}
+Биткоин-календарь – это проект, цель которого – держать вас в курсе важнейших исторических событий в мире Биткоина. Если наши усилия оказались вам полезны, не забудьте [поддержать проект](/contribute)!
+{{< /hint >}}
 
-Предложить пропущенные мною или новые события можно в разделе сайта "[обратная связь](/feedback)".
+### Календарь можно:
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMoscow&showNav=1&showCalendars=0&showTabs=1&src=OTAxYmU1NjNjZmE4ZGQwYWIyM2IyZDNlMGIwNjJhMmU3ZDU0ZDg3MGI0ZjM0OTMzMDgyMTU0OGRjMmU4ZjMzNUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300" style="border:solid 1px #777" width="600" height="600" frameborder="0" scrolling="no"></iframe> 
+- Открыть в веб-браузере, используяю эту ссылку:
+
+```
+https://calendar.google.com/calendar/embed?src=901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com&ctz=Europe%2FMoscow
+```
+
+- Вставить на вашу личную веб-страничку, используя этот код:
+
+```
+<iframe src="https://calendar.google.com/calendar/embed?src=901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+```
+
+- Импортировать в любимое приложение, вставив эту строчку (адрес в формате iCal):
+
+```
+https://calendar.google.com/calendar/ical/901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com/public/basic.ics
+```
+
+### Ознакомиться с календарём:
+
+<iframe src="https://calendar.google.com/calendar/embed?src=901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
