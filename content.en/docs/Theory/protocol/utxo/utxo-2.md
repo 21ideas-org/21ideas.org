@@ -2,7 +2,7 @@
 title: "Too Many UTXOs: How To Avoid High Fees"
 h1: "More UTXOs, more problems: High fees, signing failures, and how to avoid them"
 description: ""
-cover: /img/utxo/fat-piggy-cover.png
+cover: /img/utxo/piggy-cracked-cover.png
 url: protocol/utxo-2
 date: 2022-08-03
 bookFlatSection: false
@@ -56,7 +56,7 @@ The current hardware wallet models from the two most popular manufacturers, Ledg
 If you need to move your bitcoin and are running into such constraints, you can try moving your bitcoin in several smaller transactions. Rather than trying to sign off on sending all of your UTXOs at once, if you only send a portion of your UTXOs at a time, your device may have better luck handling the data and providing signatures.
 {{% /hint %}}
 
-To help prevent a large amount of UTXOs in your wallet in the first place, you can adjust the frequency with which you deposit bitcoin into the wallet, as well as perform UTXO consolidations. We will cover these concepts [in more detail below](https://unchained.com/blog/too-many-bitcoin-utxos/#strategies).
+To help prevent a large amount of UTXOs in your wallet in the first place, you can adjust the frequency with which you deposit bitcoin into the wallet, as well as perform UTXO consolidations. We will cover these concepts [in more detail below](/en/protocol/utxo-2/#strategies-to-prevent-high-utxo-counts).
 
 ## Dealing with transaction fees
 
