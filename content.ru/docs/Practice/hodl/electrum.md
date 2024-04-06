@@ -6,7 +6,7 @@ tags: ["биткоин", "хранение", "ключи", "безопаснос
 description: "Как хранить свои биткоины в начале пути? Безопасное горячее хранение биткоина."
 url: electrum
 aliases: ['/practical-electum-wallet']
-date: 2022-01-19
+date: 2020-12-04
 bookFlatSection: false
 weight: 1
 ---
