@@ -34,11 +34,11 @@ Building on our first article covering [what UTXOs are and why they matter](/en/
 
 As discussed in [our prior article](/en/protocol/utxo-1), each UTXO in your wallet exists as an individual chunk of data, like a physical coin deposited into a piggy bank. If you are holding a large number of UTXOs, you are storing a lot of data that will need to be processed when you try to send the bitcoin to a new address, which you can think of as similar to shipping your full piggy bank to a recipient. This can affect you in two main ways.
 
-#### 1. Signing failures due to hardware wallet limitations
+### 1. Signing failures due to hardware wallet limitations
 
 Some hardware wallets are unable to sign transactions involving too much data due to their limited memory. If you have a device that’s unable to sign due to data constraints, additional tools and knowledge may be required to move your bitcoin. Understanding the limitations of your device will allow you to prevent such predicaments or confidently address them if they arise.
 
-#### 2. High fees when being forced to spend bitcoin at inopportune times
+### 2. High fees when being forced to spend bitcoin at inopportune times
 
 Transaction fees are a huge consideration for people holding many UTXOs because the cost to move your bitcoin is dependent on the amount of data being processed. If your goal is to avoid exorbitant fees, strategically maintaining a relatively low number of UTXOs can make a big difference. In just the last couple of years, we’ve seen that the cost to move any particular amount of bitcoin can range from _a few cents_ to _thousands of dollars_!
 
@@ -64,7 +64,7 @@ If you’re someone who constantly accumulates bitcoin—whether by mining or by
 
 How substantial can the fees be? Let’s revisit [how fees are calculated](https://unchained.com/blog/what-the-fees-understanding-the-costs-of-bitcoin-transactions/), take a look at some examples of different fee environments, and dive into some numbers.
 
-#### How bitcoin transaction fees are calculated
+### How bitcoin transaction fees are calculated
 
 Fees are determined by the chosen cost per byte of data, as well as how many bytes of data your transaction will require. If you have many UTXOs to move, your transaction will contain more bytes than a typical transaction involving just a few UTXOs. If you want to send all of your UTXOs to a new address, there is no way around paying a higher-than-normal fee.
 
@@ -76,7 +76,7 @@ Due to intentional protocol constraints that help keep bitcoin decentralized, on
 
 Naturally, if the current demand from bitcoin users to send transactions is low, then choosing a low fee rate makes a lot of sense. However, if demand is high and remains elevated for a long period of time, then choosing a low fee rate could mean that your transaction won’t be processed until the demand subsides or you decide to increase the fee rate that you are willing to pay.
 
-#### Examples of various fee environments
+### Examples of various fee environments
 
 To visualize different fee environments, let’s start by looking at the first couple months of 2022, when the demand for transactions remained quite low:
 
@@ -104,7 +104,7 @@ The backlog lasted around six entire months, so if you needed to transfer your b
 
 You can view graphs like these yourself at [mempool.space](https://mempool.space/). This website lets you monitor the current fee environment in real-time, as well as dig into a lot of other interesting data about mining and the blockchain!
 
-#### Getting into the numbers
+### Getting into the numbers
 
 The most costly predicament to be in is if you have a lot of UTXOs that you need to move on short notice, while the fee environment is extremely high. To illustrate, let’s compare some _very rough conservative estimates_ of the costs to move different amounts of UTXOs quickly during various fee environments:
 
@@ -122,7 +122,7 @@ What you do have better control over is how many UTXOs you are holding. If cost 
 
 As briefly described in our [UTXO primer article](/en/protocol/utxo-1), there are two main ways to maintain your UTXO count at a reasonably low level. By controlling your deposit frequency, you can lessen the amount of UTXOs you are adding to your wallet over time. Additionally, if you are already holding more UTXOs than you’d like, you can perform a UTXO consolidation.
 
-#### Controlling deposit frequency
+### Controlling deposit frequency
 
 If you are someone who accumulates bitcoin constantly and immediately sends the bitcoin to your wallet, then you may be rapidly piling up UTXOs. One transfer to self-custody per day will cause you to gain over 300 UTXOs in less than a year (and a potential price of thousands of dollars to move them in the future). Here are some alternatives:
 
@@ -131,7 +131,7 @@ If you are someone who accumulates bitcoin constantly and immediately sends the 
 
 Of course, these alternatives involve keeping some of your bitcoin in the custody of someone else for a longer period of time, introducing additional custodial risk. However, if the vast majority of your bitcoin is already in self-custody, then the tradeoff might be worth it to you. In the event that something serious happens to the custodian, you only run the risk of losing the bitcoin that you had recently acquired.
 
-#### Performing a strategic UTXO consolidation
+### Performing a strategic UTXO consolidation
 
 If you already have a lot of UTXOs in your wallet, there is still a prudent move you can make to potentially reduce your future fees substantially. A UTXO consolidation can take some or all of your UTXOs and combine them so that you are left holding that amount of bitcoin in one UTXO.
 
