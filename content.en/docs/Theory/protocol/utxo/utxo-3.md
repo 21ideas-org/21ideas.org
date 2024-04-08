@@ -2,7 +2,7 @@
 title: "UTXOs Privacy"
 h1: "UTXOs, addresses, and CoinJoins: Preserving privacy in a bitcoin economy"
 description: ""
-cover: /img/utxo/private-piggy-cover.png
+cover: /img/utxo/private-piggy.png
 url: protocol/utxo-3
 date: 2022-10-03
 bookFlatSection: false
