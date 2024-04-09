@@ -1,7 +1,6 @@
 ---
 menu:
   after:
-    name: календарь
     weight: 1
 cover: /img/main-section/ru/calendar-dark.png
 coverDark: /img/main-section/ru/calendar-light.png
