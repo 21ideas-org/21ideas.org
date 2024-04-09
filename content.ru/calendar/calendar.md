@@ -1,16 +1,12 @@
 ---
-title: "Биткоин-календарь"
-h1: " "
-cover: /img/main-section/ru/calendar-dark.png
-coverDark: /img/main-section/ru/calendar-light.png
-bookCollapseSection: false
-type: docs
-url: calendar
-weight: 9
-bookhidden: true
 menu:
   after:
-    weight: 7
+    name: календарь
+    weight: 1
+cover: /img/main-section/ru/calendar-dark.png
+coverDark: /img/main-section/ru/calendar-light.png
+url: /calendar
+title: Календарь
 ---
 
 {{< hint btc >}}
