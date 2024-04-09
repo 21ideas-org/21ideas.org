@@ -5,7 +5,7 @@ menu:
     weight: 1
 cover: /img/main-section/ru/calendar-dark.png
 coverDark: /img/main-section/ru/calendar-light.png
-url: /calendar
+url: calendar
 title: Календарь
 ---
 
