@@ -5,7 +5,7 @@ menu:
 cover: /img/main-section/ru/calendar-dark.png
 coverDark: /img/main-section/ru/calendar-light.png
 url: calendar
-title: Календарь
+title: Биткоин-календарь
 ---
 
 {{< hint btc >}}
