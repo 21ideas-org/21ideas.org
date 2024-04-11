@@ -7,7 +7,7 @@ url: bomby-slozhnosti-ethereum
 aliases: ['/protocol-ethereum-is-coercive']
 date: 2021-12-03
 bookFlatSection: false
-weight: 61
+weight: 63
 ---
 
 Бомбы сложности в сети Ethereum являются доказательством того, что блокчейны могут быть принудительными, в то время как Биткоин доказывает, что они не обязательно должны быть таковыми.

@@ -7,7 +7,7 @@ url: rgb
 date: 2022-04-20
 bookFlatSection: false
 bookToc: true
-weight: 62
+weight: 64
 ---
 
 {{< hint btc >}}

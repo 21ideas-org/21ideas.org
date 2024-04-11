@@ -6,7 +6,7 @@ description: "The perpetual Ethereum difficulty bomb is evidence that blockchain
 url: coercion-of-ethereums-difficulty-bomb
 date: 2021-12-03
 bookFlatSection: false
-weight: 61
+weight: 63
 ---
 
 The perpetual Ethereum difficulty bomb is evidence that blockchains can be coercive, and Bitcoin is evidence that they don’t have to be.

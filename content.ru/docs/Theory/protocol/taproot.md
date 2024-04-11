@@ -7,7 +7,7 @@ url: taproot
 aliases: ['/theory-protocol-taproot-intro']
 date: 2021-09-26
 bookFlatSection: false
-weight: 60
+weight: 62
 ---
 
 Taproot — это предлагаемое обновление Биткоина, в котором появится несколько новых функций.

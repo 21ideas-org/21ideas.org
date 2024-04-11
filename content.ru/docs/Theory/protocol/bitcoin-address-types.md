@@ -7,7 +7,7 @@ url: sravnenie-tipov-bitcoin-adresov
 date: 2023-03-08
 bookFlatSection: false
 bookToc: true
-weight: 64
+weight: 66
 ---
 
 
