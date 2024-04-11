@@ -1,7 +1,7 @@
 ---
 title: "Приватность UTXO"
 h1: "UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина"
-description: ""
+description: "Эта статья посвящена тому, как управлять UTXO, чтобы сохранить приватность."
 cover: /img/utxo/private-piggy.png
 url: protocol/utxo-3
 date: 2022-10-03
