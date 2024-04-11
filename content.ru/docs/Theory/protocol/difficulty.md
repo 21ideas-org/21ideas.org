@@ -7,7 +7,7 @@ url: difficulty
 aliases: ['/theory-protocol-difficulty-adjustment']
 date: 2022-09-13
 bookFlatSection: false
-weight: 63
+weight: 65
 ---
 
 Корректировка сложности – это великое, но, тем не менее, недооцененное нововведение, обеспечивающее бесперебойную работу Биткоина.

@@ -6,7 +6,7 @@ description: ""
 url: taproot
 date: 2021-09-26
 bookFlatSection: false
-weight: 60
+weight: 62
 ---
 
 Taproot is an upgrade to Bitcoin which brought several new features and benefits to Bitcoin users. The Bitcoin community activated Taproot at block 709,632 on November 12th, 2021.

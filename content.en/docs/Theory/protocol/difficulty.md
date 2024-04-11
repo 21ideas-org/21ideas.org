@@ -6,7 +6,7 @@ description: "The Difficulty Adjustment is the great missing innovation that mad
 url: difficulty
 date: 2022-09-13
 bookFlatSection: false
-weight: 63
+weight: 65
 ---
 
 The Difficulty Adjustment is the great missing innovation that made Bitcoin work.

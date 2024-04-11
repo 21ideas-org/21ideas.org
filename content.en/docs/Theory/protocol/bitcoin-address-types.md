@@ -7,7 +7,7 @@ url: bitcoin-address-types
 date: 2023-03-08
 bookFlatSection: false
 bookToc: true
-weight: 64
+weight: 66
 ---
 
 {{< hint btc >}}
