@@ -30,14 +30,22 @@ A subsection on the basics about the functioning of the Bitcoin protocol.
 
 10. [Was Satoshi a Greedy Miner?](/en/was-satoshi-a-greedy-miner)
 
-11. [What Is Taproot and How Does It Benefit Bitcoin?](/en/taproot)
+11. [What was the Segregated Witness upgrade?](/en/segwit)
 
-12. [The Coercion Of Ethereum's Difficulty Bomb](/en/coercion-of-ethereums-difficulty-bomb)
+12. [What Is Taproot and How Does It Benefit Bitcoin?](/en/taproot)
 
-13. [Understanding the RGB protocol](/en/rgb)
+13. [The Coercion Of Ethereum's Difficulty Bomb](/en/coercion-of-ethereums-difficulty-bomb)
 
-14. [Bitcoin Difficulty Adjustment](/en/difficulty)
+14. [Understanding the RGB protocol](/en/rgb)
 
-15. [Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more](/en/bitcoin-address-types)
+15. [Bitcoin Difficulty Adjustment](/en/difficulty)
 
-16. [Exploding Three Myths About the Upcoming Bitcoin Halving](/en/myths-about-halving)
+16. [Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more](/en/bitcoin-address-types)
+
+17. [Exploding Three Myths About the Upcoming Bitcoin Halving](/en/myths-about-halving)
+
+18. [How SHA256 And Mining Protect The Bitcoin Network](/en/mining-walkthrough)
+
+19. [What Is UTXO And How To Manage Them](/en/protocol/utxo)
+
+20. [Transaction Size: Bytes, Weight, and Virtual Bytes](/en/transaction-size)
