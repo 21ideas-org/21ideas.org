@@ -1,6 +1,6 @@
 ---
 title: "Transaction Size"
-h1: "Bytes, Weight, and Virtual Bytes"
+h1: "Transaction Size: Bytes, Weight, and Virtual Bytes"
 cover: /img/txsize/01.jpg
 description: ""
 url: transaction-size
