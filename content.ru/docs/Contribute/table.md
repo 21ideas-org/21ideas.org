@@ -66,3 +66,5 @@ url: table
 | - 50,000 | [btclinux](https://github.com/btclinux) | "Статьи о Samourai, Roning Dojo" | 174,000 |
 | **+500,000** | [Тони⚡️](https://github.com/bitcoin21ideas) | "В фонд проекта благодаря анонимным донатам." | 674,000 |
 | - 210,000 | [btclinux](https://github.com/btclinux) | "Перевод и добавление англоязычных версий статей" | 464,000 |
+| - 30,000 | [btclinux](https://github.com/btclinux) | "Перевод и добавление англоязычных версий статей" | 434,000 |
+| - 2100 | [Radiokot](https://github.com/Radiokot) | "Исправление ошибки меню сайта | 432,000 |

@@ -21,7 +21,7 @@ menu:
 
 {{< tabs "Contribute" >}}
 {{< tab "Донаты" >}}
-# 21 идея нуждается в финансовой поддержке
+# Поддержите проект 21 идея
 
 Проект 21ideas является некоммерческим и годами существует благодаря упорству и средствам его основателя, а также поддерке участников сообщества. Поддержание проекта - от написания и перевода статей до модерации библиотеки - требует ресурсов. Вы можете поддержать проект несколькими способами:
 
@@ -53,15 +53,10 @@ _[zap@21ideas.org](lightning:21ideas@getalby.com)_
 <---> 
 
 ## Другое
-Подпишитесь на проект на [boosty](https://boosty.to/21ideas) или обратитесь по одному из следующих контактов, чтобы получить необходимые реквизиты: 
+Воспользуйтесь сервисом [Tourniquet](https://tourniquet.app/donate/21ideas) для донатов самыми разными криптовалютами (включая биткоин и лайтнинг) 
+  
+Подпишитесь на проект на [boosty](https://boosty.to/21ideas), чтобы поддержать рублём. 
 
-**Телеграм:** [@Tony_Lightning](https://t.me/Tony_Lightning)
-
-**Email:** [lightning_tony@protonmail.com](mailto:lightning_tony@protonmail.com)
-
-**Nostr:** [Tony@21ideas.org](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
-
-[almoo@21ideas.org](https://snort.social/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w)
 {{< /columns >}}
 
 ---
