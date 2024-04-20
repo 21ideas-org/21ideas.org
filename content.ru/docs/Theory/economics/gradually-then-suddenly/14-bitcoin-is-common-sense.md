@@ -35,7 +35,7 @@ weight: 14
 {{< /expand >}}
 
 {{< hint btc >}}
-Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 1 Мая 2020 г.](https://unchained.com/blog/bitcoin-is-common-sense/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 1 Мая 2020 г.](https://unchained.com/blog/bitcoin-is-common-sense/) подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 > “Пожалуй, настроения, содержащиеся на следующих страницах, пока недостаточно модные, чтобы вызвать всеобщую благосклонность. Когда что-то долго не мыслится неверным, это дает ему видимость правильности, так что поначалу в защиту обычаев поднимается громкий шум. Но вскоре суматоха утихает. Время убеждает лучше, чем разум”.
