@@ -34,4 +34,4 @@ weight: 54
 
 Мы, шифропанки, активно работаем, чтобы достичь приватности в сетях. Давайте же продолжим наше дело вместе.
 
-_© Эрик Хьюз (перевод О. Турухиной, редактур Тони⚡️), [A Cypherpunk’s Manifesto (оригинал на английском)](http://www.activism.net/cypherpunk/manifesto.html)_
+_© Эрик Хьюз (перевод О. Турухиной, редактура Тони⚡️), [A Cypherpunk’s Manifesto (оригинал на английском)](http://www.activism.net/cypherpunk/manifesto.html)_
