@@ -16,7 +16,7 @@ weight: 10
 
 {{< hint btc >}}
 
-[Заметка](https://www.profstonge.com/p/the-economics-of-liberty) профессора Сейнт-Онжа переведена [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+[Заметка](https://www.profstonge.com/p/the-economics-of-liberty) профессора Сейнт-Онжа переведена [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 
 {{< /hint >}}
 
