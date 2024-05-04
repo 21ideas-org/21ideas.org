@@ -1419,7 +1419,7 @@ _Видео [Tutoriel Samouraï par JohnOnChain (Vie privée)](https://www.youtu
 Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
 
 {{% image "/img/btclinux-ln-qr.jpg" %}}
-`LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6`
+`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
 {{% /image %}}
 
 [^1]: Термин "Doxxic" происходит от игры слов "[доксинг](https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BA%D1%81%D0%B8%D0%BD%D0%B3)" и "toxic" — токсичный. Он подразумевает что-то вредное и раскрывающее вашу личность.
