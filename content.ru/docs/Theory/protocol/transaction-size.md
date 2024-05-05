@@ -182,5 +182,5 @@ Legacy-транзакция будет иметь тот же размер в _�
 Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
 
 {{% image "/img/btclinux-ln-qr.jpg" %}}
-_LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9UX2VENXDJN2CTRXSUN2VE3XGCRQPNAPC6_
+`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
 {{% /image %}}
