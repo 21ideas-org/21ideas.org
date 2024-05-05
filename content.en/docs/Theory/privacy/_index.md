@@ -23,3 +23,5 @@ A section covering the best approaches to ensuring your own privacy when interac
 7. [Understanding Bitcoin Privacy with OXT](/en/privacy/oxt)
 
 8. [CoinJoin Overview](/en/privacy/coinjoin)
+
+9. [Bitcoin Fungibility: The absolute state of it](/en/bitcoin-fungibility/)
