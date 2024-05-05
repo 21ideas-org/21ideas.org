@@ -3,7 +3,7 @@ title: "Bitcoin Fungibility"
 h1: "Bitcoin Fungibility: The absolute state of it"
 cover: /img/bitcoin-fungibility/01.png
 description: "Presentation on the current state of the Bitcoin ecosystem in terms of fungibility and privacy issues"
-url: bbitcoin-fungibility
+url: bitcoin-fungibility
 date: 2021-06-26
 bookFlatSection: false
 bookToc: false
