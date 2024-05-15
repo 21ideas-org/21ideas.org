@@ -15,7 +15,7 @@ weight: 8
 
 2. [Лайтнинг-кошельки](/lightning-wallets)
 
-2. [Лайтнинг-адреса](/lightning-address)
+2. [Лайтнинг-адреса](/lightning-addresses)
 
 3. [Приватность в сети Lightning](/privatnost-v-lajtning)
 

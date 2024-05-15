@@ -4,8 +4,8 @@ h1: "Лайтнинг-кошельки"
 cover: /img/ln-wallets/cover.png
 tags: ["биткоин", "лайтнинг", "масштабирование", "сеть лайтнинг", "сеть молния", "кошельки", "платежи", "гид", "хранение"]
 description: "На сегодняшний день представлено множество кошельков с поддержкой сети лайтнинг. Эта статья поможет выбрать то решение, которое подойдет именно вам."
-url: lightning-wallets
-aliases: ['/lajtning-koshelki']
+url: lajtning-koshelki
+aliases: ['/lightning-wallets']
 date: 2024-01-16
 bookToc: true
 bookFlatSection: false
