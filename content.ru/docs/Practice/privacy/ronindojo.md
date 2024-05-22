@@ -18,6 +18,14 @@ weight: 2
 С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/privacy/coinjoin). Установка "ванильного" Dojo описана в [официальной документации](https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
 {{% /hint %}}
 
+{{< hint danger >}}
+Во время ареста разработчиков Samourai Wallet 24 апреля 2024 года спецслужбами были так же отключены серверы координатора Whirlpool и обозреватель блокчейна [OXT](/privacy/oxt). В связи с этим, начиная с версии RoninDojo v2.1.4, из кода удалены инструменты Whirlpool, WST и калькулятор Больцмана.
+
+[\#FREESAMOURAI](https://freesamourai.com/)
+
+В результате [атаки на тестнет](https://blog.lopp.net/griefing-bitcoin-testnet), версия Testnet3 оказалась неработоспособна, а новая Testnet4 пока не реализована в Samourai Dojo.
+{{< /hint >}}
+
 ## Отличия Dojo и RoninDojo
 
 В состав классического Dojo-сервера входят:
@@ -172,7 +180,7 @@ su - ronindojo
 
 ```bash
 sudo apt update && sudo apt upgrade
-sudo apt install bash-completion nano tor obfs4proxy net-tools apt-transport-https gnupg-agent unzip git openjdk-11-jdk fail2ban net-tools htop unzip ufw rsync jq python3-pip gcc dialog bpytop less plymouth-label --no-install-recommends
+sudo apt install bash-completion nano tor obfs4proxy torsocks net-tools apt-transport-https gnupg-agent unzip git openjdk-11-jdk fail2ban net-tools htop unzip ufw rsync jq python3-pip gcc dialog bpytop less plymouth-label --no-install-recommends
 pip3 install pipenv
 ```
 
@@ -217,11 +225,91 @@ sudo apt install nodejs
 exit
 ```
 
+## Установка и настройка службы Tor
+
+```bash
+sudo useradd -c "tor" tor
+```
+
+```bash
+sudo tee "/usr/lib/systemd/system/tor.service" <<EOF
+[Unit]
+Description=Anonymizing overlay network for TCP
+After=syslog.target network.target nss-lookup.target
+
+[Unit]
+RequiresMountsFor=/mnt/usb
+
+[Service]
+Type=notify
+NotifyAccess=all
+ExecStartPre=/usr/bin/tor -f /etc/tor/torrc --verify-config
+ExecStart=/usr/bin/tor -f /etc/tor/torrc
+ExecReload=/bin/kill -HUP ${MAINPID}
+KillSignal=SIGINT
+TimeoutSec=60
+Restart=on-failure
+WatchdogSec=1m
+LimitNOFILE=32768
+
+# Hardening
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectHome=yes
+ProtectSystem=full
+ReadOnlyDirectories=/
+ReadWriteDirectories=-/var/lib/tor /mnt/usb/tor
+ReadWriteDirectories=-/var/log/tor
+NoNewPrivileges=yes
+CapabilityBoundingSet=CAP_SETUID CAP_SETGID CAP_NET_BIND_SERVICE CAP_DAC_READ_SEARCH
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+```bash
+sudo systemctl stop tor@default.service
+sudo rm -rf /usr/lib/systemd/system/tor@*
+sudo mkdir /mnt/usb/tor/
+sudo chown -R tor:tor /mnt/usb/tor/
+```
+
+```bash
+sudo nano /etc/tor/torrc
+```
+
+Вставляем следующие строки в конец файла. Если вы испытываете проблемы с подключением к Tor, то установите *UseBridges 1* и добавьте [мосты](https://bridges.torproject.org) после *Bridge*:
+
+```
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+UseBridges 1
+Bridge obfs4 ... iat-mode=0
+Bridge obfs4 ... iat-mode=0
+Bridge obfs4 ... iat-mode=0
+#Hidden Service Ronin UI
+User tor
+DataDirectory /mnt/usb/tor
+HiddenServiceDir /mnt/usb/tor/hidden_service_ronin_backend/
+HiddenServiceVersion 3
+HiddenServicePort 80 127.0.0.1:8470
+```
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart tor
+sudo journalctl -f -u tor
+```
+
+Дождитесь сообщений в логе Tor "Bootstrapped 100% (done)", после чего его можно закрыть с помощью Ctrl+C.
+
 ## Установка Samourai Dojo
 
 ```bash
-su - ronindojo
-git clone https://code.samourai.io/ronindojo/samourai-dojo -b master ~/dojo
+cd
+torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/dojo/archive/master.tar.gz -O dojo-master.tar.gz
+tar -xvf dojo-master.tar.gz
+rm dojo-master.tar.gz
 cd ~/dojo/docker/my-dojo/
 ```
 
@@ -274,7 +362,7 @@ nano conf/docker-node.conf.tpl
 nano conf/docker-tor.conf.tpl
 ```
 
-Если у вас есть проблемы с подключением к Tor, установите *TOR_USE_BRIDGES=on* и пропишите [мосты](https://bridges.torproject.org) следующим образом: *TOR_BRIDGE_1="obfs4 ... iat-mode=0"*.
+Если у вас есть проблемы с подключением к Tor, установите *TOR_USE_BRIDGES=on* и пропишите [мосты](https://bridges.torproject.org) следующим образом (не забывайте про кавычки): *TOR_BRIDGE_1="obfs4 ... iat-mode=0"*.
 
 {{% hint info %}}
 **Только для Testnet**
@@ -329,47 +417,11 @@ RoninOS - это по сути скрипт, изменяющий базовую
 
 ```bash
 cd
-git clone https://code.samourai.io/ronindojo/RoninOS
+torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/RoninOS/archive/master.tar.gz -O roninos-master.tar.gz
+tar -xvf roninos-master.tar.gz
+mv roninos RoninOS
+rm roninos-master.tar.gz
 ```
-
-### Установка и настройка службы Tor
-
-```bash
-sudo useradd -c "tor" tor
-sudo cp ~/RoninOS/overlays/RoninOS/example.tor.service /usr/lib/systemd/system/tor.service
-sudo systemctl stop tor@default.service
-sudo rm -rf /usr/lib/systemd/system/tor@*
-sudo mkdir /mnt/usb/tor/
-sudo chown -R tor:tor /mnt/usb/tor/
-```
-
-```bash
-sudo nano /etc/tor/torrc
-```
-
-Вставляем следующие строки в конец файла и добавляем мосты. Обратите внимание, что в отличие от настроек Tor в Samourai Dojo, мосты здесь прописываются без кавычек:
-
-```
-ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
-UseBridges 1
-Bridge obfs4 ... iat-mode=0
-Bridge obfs4 ... iat-mode=0
-Bridge obfs4 ... iat-mode=0
-#Hidden Service Ronin UI
-User tor
-DataDirectory /mnt/usb/tor
-HiddenServiceDir /mnt/usb/tor/hidden_service_ronin_backend/
-HiddenServiceVersion 3
-HiddenServicePort 80 127.0.0.1:8470
-```
-
-```bash
-sudo systemctl daemon-reload
-sudo systemctl restart tor
-sudo journalctl -f -u tor
-```
-
-Дождитесь сообщений в логе Tor "Bootstrapped 100% (done)", после чего его можно закрыть с помощью Ctrl+C.
 
 ### Настройка plymouth
 
@@ -441,10 +493,14 @@ Ronin UI - это великолепный веб-интерфейс для мо
 Ronin CLI - консольный интерфейс, доступный по SSH или непосредственно на сервере, с расширенными функциями управления вашей нодой, параметрами безопасности, а так же дополнительными утилитами.
 
 ```bash
+cd
 mkdir ~/Ronin-UI
 sudo mkdir -p /usr/share/nginx/logs/
 sudo bash -c "cat /mnt/usb/tor/hidden_service_ronin_backend/hostname > /home/ronindojo/.config/RoninDojo/data/ronin-ui-tor-hostname"
-git clone https://code.samourai.io/ronindojo/RoninDojo -b master
+torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/ronindojo/archive/master.tar.gz -O ronindojo-master.tar.gz
+tar -xvf ronindojo-master.tar.gz
+mv ronindojo RoninDojo
+rm ronindojo-master.tar.gz
 sudo ln -sf /home/ronindojo/RoninDojo/ronin /usr/local/bin/ronin
 cp ~/RoninDojo/user.conf.example ~/.config/RoninDojo/user.conf
 ```
@@ -655,7 +711,23 @@ System > Next Page
 
 ## Обновление RoninDojo
 
+### Обновление Ronin UI
+
 Ronin UI обновляется в один клик. При наличии обновления вы увидите в веб-интерфейсе уведомление о новой версии.
+
+Второй вариант через консоль:
+
+```bash
+cd
+rm -rf Ronin-UI/
+ronin
+```
+
+Далее перейдите в меню:
+
+```
+Ronin UI > Re-install
+```
 
 ### Обновление Ronin CLI
 
@@ -664,7 +736,10 @@ Ronin UI обновляется в один клик. При наличии об
 ```bash
 cd
 rm -rf ~/RoninDojo/
-git clone https://code.samourai.io/ronindojo/RoninDojo -b master
+torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/ronindojo/archive/master.tar.gz -O ronindojo-master.tar.gz
+tar -xvf ronindojo-master.tar.gz
+mv ronindojo RoninDojo
+rm ronindojo-master.tar.gz
 ```
 
 Применяем патчи из [этого раздела](/practice-privacy/ronindojo/#%d0%bf%d0%b0%d1%82%d1%87%d0%b8-%d0%b4%d0%bb%d1%8f-ronin-cli).
@@ -673,9 +748,14 @@ git clone https://code.samourai.io/ronindojo/RoninDojo -b master
 
 ```bash
 cd
-wget https://code.samourai.io/ronindojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
-unzip samourai-dojo-master.zip -d .
-cp -a samourai-dojo-master/. ~/dojo/
+mkdir temp
+mv dojo/docker/my-dojo/conf/ temp/
+rm -rf dojo/
+torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/dojo/archive/master.tar.gz -O dojo-master.tar.gz
+tar -xvf dojo-master.tar.gz
+rm dojo-master.tar.gz
+cp ~/temp/conf/* ~/dojo/docker/my-dojo/conf/
+rm -rf temp/
 cd ~/dojo/docker/my-dojo/
 ```
 
