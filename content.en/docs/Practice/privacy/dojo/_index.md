@@ -17,7 +17,7 @@ This guide by [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree) was first published
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -25,6 +25,6 @@ This guide by [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree) was first published
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)

@@ -16,7 +16,7 @@ weight: 5
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 5
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
@@ -38,9 +38,7 @@ Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2), [
 
 ## Introduction
 
-Dojo is a software tool that enhances the privacy and security of [Samourai Wallet](https://samouraiwallet.com/) users. The Dojo software is a personally hosted full-node server backend that Samourai Wallet users can connect to, enhancing privacy by eliminating the need to connect with a public server/node.
-
-Running a Dojo server is essential for those wanting to utilize the privacy benefits achieved through Samourai Wallet's post-mix spending tools and powerful Whirlpool CoinJoin implementation.
+Dojo is a privacy-focused, end-to-end server software solution that acts as a Bitcoin wallet backend for Samourai Wallet and other Bitcoin light wallets.
 
 ## Create Dojo User
 
@@ -72,16 +70,16 @@ Once the system has successfully rebooted, SSH back in as user "dojo."
 
 ## Download Dojo
 
-Download the latest version of Dojo from the official [Samourai repository](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+Download the latest version of Dojo from the official [Dojo repository](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 ```bash
-torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
+torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/heads/master.zip
 ```
 
 Unzip the downloaded archive.
 
 ```bash
-unzip samourai-dojo-master.zip
+unzip master.zip
 ```
 
 Create a directory for Dojo.
@@ -99,7 +97,7 @@ mv ~/samourai-dojo-master/* ~/dojo-app/
 Remove the empty archive & folder.
 
 ```bash
-rm -r samourai-dojo-master && rm samourai-dojo-master.zip
+rm -r samourai-dojo-master && rm master.zip
 ```
 
 ## Configure Dojo
@@ -256,7 +254,7 @@ NODE_PAYMENT_CODE=
 
 Save and exit the file.
 
-There's also the option to disable the default Bitcoin RPC Explorer. This is optional, but with an already active Mempool installation, it may not have a use case for some.
+There's also the option to disable the default Bitcoin RPC Explorer. This is optional, but with an already active Mempool installation, it may not be useful for some.
 
 Skip this next step if wanting to leave RPC Explorer enabled.
 
@@ -322,7 +320,7 @@ If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pa
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -330,7 +328,7 @@ If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pa
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 

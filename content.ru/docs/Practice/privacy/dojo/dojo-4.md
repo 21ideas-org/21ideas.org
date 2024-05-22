@@ -14,11 +14,9 @@ weight: 5
 
 ## Установка Биткоин-узла Dojo на x86
 
-[Введение](/privacy/dojo-0)
-
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -26,7 +24,7 @@ weight: 5
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
@@ -38,9 +36,7 @@ weight: 5
 
 ## Введение
 
-Dojo - это программное обеспечение, которое повышает конфиденциальность и безопасность пользователей [Samourai Wallet](https://samouraiwallet.com/). Программное обеспечение Dojo представляет собой ваш личный бэкэнд-сервер с полным узлом, к которому могут подключаться пользователи Samourai Wallet, что повышает приватность, устраняя необходимость подключения к публичному серверу/узлу.
-
-Запуск сервера Dojo необходим для тех, кто хочет использовать преимущества приватности, достигаемые благодаря инструментам траты средств после смешивания в Samourai Wallet и мощной реализации [CoinJoin](/privacy/coinjoin) - Whirlpool.
+Dojo - это ориентированное на конфиденциальность комплексное серверное программное решение, которое выступает в качестве бэкенда Samourai Wallet и других легких Биткоин-кошельков.
 
 ## Создание пользователя Dojo
 
@@ -72,16 +68,16 @@ sudo reboot
 
 ## Загрузка Dojo
 
-Загрузите последнюю версию Dojo из официального репозитория [Samourai](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+Загрузите последнюю версию Dojo из официального [репозитория](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 ```bash
-torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
+torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/heads/master.zip
 ```
 
 Распакуйте скачанный архив.
 
 ```bash
-unzip samourai-dojo-master.zip
+unzip master.zip
 ```
 
 Создайте директорию для Dojo.
@@ -99,7 +95,7 @@ mv ~/samourai-dojo-master/* ~/dojo-app/
 Удалите пустой архив и папку.
 
 ```bash
-rm -r samourai-dojo-master && rm samourai-dojo-master.zip
+rm -r samourai-dojo-master && rm master.zip
 ```
 
 ## Конфигурирование Dojo
@@ -322,7 +318,7 @@ Dojo Maintenance Tool, или "DMT", доступен только через To
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -330,7 +326,7 @@ Dojo Maintenance Tool, или "DMT", доступен только через To
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 

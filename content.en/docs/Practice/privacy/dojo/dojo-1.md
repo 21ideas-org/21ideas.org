@@ -1,6 +1,6 @@
 ---
-title: "Installing Bitcoin Core"
-h1: "Part 1. Installing Bitcoin Core"
+title: "Installing Bitcoin Core & Tor"
+h1: "Part 1. Installing Bitcoin Core & Tor"
 description: ""
 cover: /img/dojo-04.jpg
 url: practice-privacy/dojo-1
@@ -16,7 +16,7 @@ weight: 2
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 2
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
@@ -38,7 +38,7 @@ By running Bitcoin Core, participants contribute to the decentralized and consen
 
 ## System User
 
-Create the user "satoshi" during the initial Ubuntu install. You can create "satoshi" with the following command if a different user was created.
+Create the user "satoshi" during the initial Ubuntu install. If a different user were created, you could create "satoshi" with the following command.
 
 ```bash
 sudo adduser --gecos "" satoshi
@@ -72,9 +72,9 @@ sudo apt install curl gpg unzip apt-transport-https -y
 
 ## Local IP
 
-Throughout the guide, you will need to know the local IP address of your node to make the required modifications to the various configuration files.
+Throughout the guide, you will need to know your node's local IP address to modify the various configuration files as needed.
 
-Run the following command if you do not know your node's local IP. Note it for future reference.
+If you don't know your node's local IP, run the following command. Note it for future reference.
 
 ```bash
 hostname -I
@@ -144,24 +144,24 @@ Enter the directory.
 cd ~/downloads
 ```
 
-Visit [bitcoincore.org](https://bitcoincore.org/bin/) and locate the page for the most current Bitcoin version, avoiding releases marked "test." At the time of writing, v26.0 is the most recent release.
+Visit [bitcoincore.org](https://bitcoincore.org/bin/) and locate the page for the most current Bitcoin version, avoiding releases marked "test." At the time of writing, v27.0 is the most recent release.
 
 Copy the URL for the latest "x86_64-linux-gnu.tar.gz" package and download using "wget."
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/bitcoin-26.0-x86_64-linux-gnu.tar.gz
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz
 ```
 
 On the same page, download the "SHA256SUMS" file.
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/SHA256SUMS
 ```
 
 Then download "SHA256SUMS.asc".
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS.asc
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/SHA256SUMS.asc
 ```
 
 Verify the checksum of the download.
@@ -171,10 +171,10 @@ sha256sum --ignore-missing --check SHA256SUMS
 ```
 
 {{% hint info %}}
-The output should show an "ok" message, for example:- "bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK.
+The output should show an "ok" message, for example: "bitcoin-0.0-x86_64-linux-gnu.tar.gz: OK."
 {{% /hint %}}
 
-Verify the validity of the release by checking the signatures against the known [developer keys](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) from the official Core repository.
+Verify the release's validity by checking the signatures against the known [developer keys](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) from the official Core repository.
 
 Import developer keys to GPG keyring.
 
@@ -260,11 +260,11 @@ nano ~/.bitcoin/bitcoin.conf
 
 Paste the following lines into the file.
 
-```bash
-proxy=127.0.0.1:9050
-listen=1
-bind=127.0.0.1
-onlynet=onion
+```
+#proxy=127.0.0.1:9050
+#listen=1
+#bind=127.0.0.1
+#onlynet=onion
 server=1
 txindex=1
 daemon=1
@@ -283,22 +283,26 @@ zmqpubhashblock=tcp://0.0.0.0:28334
 whitelist=127.0.0.1
 ```
 
+You must now choose whether to synchronize the blockchain via clearnet or Tor. If synchronizing as quickly as possible is a priority, leave the hashes on the top 4 lines in place. Note that remaining patient with a Tor sync is hugely encouraged.
+
 {{% hint info %}}
-To sync the blockchain via Clearnet instead of Tor, remove the proxy, listen, bind, and onlynet lines, then add again after IBD completes. Bitcoind will need to be restarted to load the modifications. Whilst this accelerates sync performance, it is detrimental to privacy and not recommended.
+Using a VPN set at the router level is highly recommended if using clearnet.
 {{% /hint %}}
+
+If synchronizing anonymously is your priority, remove the hashes from these 4 lines to ensure bitcoind never connects via clearnet with a permanent Tor connection. This takes much longer than a clearnet sync; however, the privacy benefits are substantial.
 
 You also have the option of enabling or disabling "Mempool Full-RBF." If you want to ensure your choice persists throughout Core updates, regardless of what defaults future releases settle on, It's recommended to flag this in your conf file using either the enable (1) or disable (0) argument.
 
 You can ignore this line if you are happy to flow with any defaults chosen for you in future updates.
 
-```bash
+```
 mempoolfullrbf=0
 ```
 
 Leave the file open and start a new terminal session. SSH in and download the raw "[rpcauth.py file](https://github.com/bitcoin/bitcoin/blob/master/share/rpcauth/rpcauth.py)" from the Bitcoin repository.
 
 ```bash
-torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py
+torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/27.x/share/rpcauth/rpcauth.py
 ```
 
 Set the correct file permissions.
@@ -307,7 +311,7 @@ Set the correct file permissions.
 chmod +x rpcauth.py
 ```
 
-Run the following command, replacing "PASSWORDHERE" with a strong RPC password for Bitcoin Core. Avoid the use of special characters.
+Run the following command, replacing "PASSWORDHERE" with a strong RPC password for Bitcoin Core. Avoid using special characters.
 
 ```bash
 ./rpcauth.py bitcoin PASSWORDHERE
@@ -331,10 +335,10 @@ Create a service file to start Bitcoin automatically on system boot.
 cd /etc/systemd/system/
 ```
 
-Copy the link to the raw "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/26.x/contrib/init/bitcoind.service)" file from the Bitcoin repo and download.
+Copy the link to the raw "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/27.x/contrib/init/bitcoind.service)" file from the Bitcoin repo and download.
 
 ```bash
-sudo torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/26.x/contrib/init/bitcoind.service
+sudo torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/27.x/contrib/init/bitcoind.service
 ```
 
 Open the downloaded file.
@@ -395,6 +399,44 @@ Enable the service file.
 sudo systemctl enable bitcoind
 ```
 
+{{% hint info %}}
+If synchronizing over Tor, continue immediately to the [Tor Peers](/en/practice-privacy/dojo-1/#tor-peers) step.
+{{% /hint %}}
+
+### Clearnet Sync
+
+**(Skip if synchronizing via Tor)**
+
+If synchronizing over clearnet, wait for the initial block download to complete before continuing to the Tor peers step.
+
+Start bitcoind
+
+```bash
+sudo systemctl start bitcoind
+```
+
+Monitor progress by running the following command from the home directory. Once logs show "progress=1.000000," IBD is complete.
+
+```bash
+tail -f .bitcoin/debug.log
+```
+
+Next, remove the hashes from the **proxy**, **listen**, **bind,** and **onlynet** lines within the conf file, then restart bitcoind before continuing. This ensures that all future block data is only downloaded via Tor.
+
+```bash
+sudo systemctl stop bitcoind
+```
+
+```bash
+nano ~/.bitcoin/bitcoin.conf
+```
+
+```bash
+sudo systemctl restart bitcoind
+```
+
+Continue to the Tor Peers step.
+
 ### Tor Peers
 
 The first Tor peer needs to be added manually. Open "bitcoin.conf," then visit the Tor node page at [Bitnodes.io](https://bitnodes.io/nodes/?q=tor) in a web browser.
@@ -451,7 +493,7 @@ bitcoin-cli getconnectioncount
 
 ### Networking
 
-Confirm that network traffic is only passing through Tor.
+Confirm that network traffic only passes through Tor.
 
 The output should show a "reachable false" status for both "IPV4" and "IPV6".
 
@@ -469,15 +511,13 @@ You can also make direct requests for your Bitcoin onion address.
 bitcoin-cli getnetworkinfo | grep address.*onion
 ```
 
-Tor limits IBD speeds; however, the privacy benefits of avoiding clearnet are substantial.
-
-Monitor progress by running the following command from the home directory.
+Those synchronizing over Tor can now monitor progress by running the following command from the home directory.
 
 ```bash
 tail -f .bitcoin/debug.log
 ```
 
-Wait until Core sync is finished before continuing. Once logs show "progress=1.000000", IBD is complete.
+Wait until Core sync is finished before continuing. Once logs show "progress=1.000000," IBD is complete.
 
 {{< expand "Contents" "..." >}}
 
@@ -485,7 +525,7 @@ Wait until Core sync is finished before continuing. Once logs show "progress=1.0
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -493,7 +533,7 @@ Wait until Core sync is finished before continuing. Once logs show "progress=1.0
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 

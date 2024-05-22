@@ -1,6 +1,6 @@
 ---
-title: "Установка Bitcoin Core"
-h1: "Часть 1. Установка Bitcoin Core"
+title: "Установка Bitcoin Core и Tor"
+h1: "Часть 1. Установка Bitcoin Core и Tor"
 description: ""
 cover: /img/dojo-04.jpg
 url: practice-privacy/dojo-1
@@ -16,7 +16,7 @@ weight: 2
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 2
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
@@ -144,24 +144,24 @@ mkdir ~/downloads
 cd ~/downloads
 ```
 
-Посетите сайт [bitcoincore.org](https://bitcoincore.org/bin/) и найдите страницу самой последней версии Bitcoin Core, избегая релизов с пометкой "test". На момент написания статьи последней версией является v26.0.
+Посетите сайт [bitcoincore.org](https://bitcoincore.org/bin/) и найдите страницу самой последней версии Bitcoin Core, избегая релизов с пометкой "test". На момент написания статьи последней версией является v27.0.
 
 Скопируйте URL-адрес пакета "x86_64-linux-gnu.tar.gz" и загрузите его с помощью "wget".
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/bitcoin-26.0-x86_64-linux-gnu.tar.gz
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/bitcoin-27.0-x86_64-linux-gnu.tar.gz
 ```
 
 На этой же странице загрузите файл "SHA256SUMS".
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/SHA256SUMS
 ```
 
 Затем скачайте "SHA256SUMS.asc".
 
 ```bash
-torsocks wget https://bitcoincore.org/bin/bitcoin-core-26.0/SHA256SUMS.asc
+torsocks wget https://bitcoincore.org/bin/bitcoin-core-27.0/SHA256SUMS.asc
 ```
 
 Проверьте контрольную сумму скачанного файла.
@@ -260,11 +260,11 @@ nano ~/.bitcoin/bitcoin.conf
 
 Вставьте в файл следующие строки.
 
-```bash
-proxy=127.0.0.1:9050
-listen=1
-bind=127.0.0.1
-onlynet=onion
+```
+#proxy=127.0.0.1:9050
+#listen=1
+#bind=127.0.0.1
+#onlynet=onion
 server=1
 txindex=1
 daemon=1
@@ -283,22 +283,26 @@ zmqpubhashblock=tcp://0.0.0.0:28334
 whitelist=127.0.0.1
 ```
 
+Теперь вы должны выбрать, как синхронизировать блокчейн - через [клирнет](https://www.getmonero.org/ru/resources/moneropedia/clearnet.html) или Tor. Если приоритетом является максимально быстрая синхронизация, оставьте "#" в верхних 4 строках на месте. Обратите внимание, что при синхронизации через Tor нужно набраться терпения.
+
 {{% hint info %}}
-Чтобы синхронизировать блокчейн через [клирнет](https://www.getmonero.org/ru/resources/moneropedia/clearnet.html) вместо Tor, удалите строки proxy, listen, bind и onlynet, а затем добавьте их снова после завершения IBD (*Initial Block Download - Первоначальная загрузка блоков*). Bitcoind нужно будет перезапустить, чтобы применить изменения. Хотя это и ускоряет синхронизацию, это негативно сказывается на приватности и не рекомендуется.
+При синхронизации через клирнет настоятельно рекомендуется использовать VPN на уровне маршрутизатора.
 {{% /hint %}}
+
+Если вашим приоритетом является анонимная синхронизация, удалите "#" из верхних 4 строк, чтобы bitcoind никогда не подключался к клирнету и использовал только Tor-соединение. Это займет гораздо больше времени, чем синхронизация через клирнет, однако преимущества конфиденциальности будут значительными.
 
 У вас также есть возможность включить или отключить опцию "Mempool Full-RBF". Если вы хотите, чтобы ваш выбор сохранялся при обновлениях Bitcoin Core, независимо от того, какие значения по умолчанию будут выбраны в будущих релизах, рекомендуется отметить это в вашем conf-файле, используя аргумент enable (1) или disable (0).
 
 Вы можете проигнорировать эту строку, если вас устраивает любое значение по умолчанию, выбранное для вас в будущих обновлениях.
 
-```bash
+```
 mempoolfullrbf=0
 ```
 
 Оставьте файл открытым и запустите новую сессию терминала. Войдите по SSH и загрузите файл [rpcauth.py](https://github.com/bitcoin/bitcoin/blob/master/share/rpcauth/rpcauth.py)" из репозитория Bitcoin Core.
 
 ```bash
-torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/master/share/rpcauth/rpcauth.py
+torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/27.x/share/rpcauth/rpcauth.py
 ```
 
 Установите правильные разрешения для файла.
@@ -331,10 +335,10 @@ rm rpcauth.py
 cd /etc/systemd/system/
 ```
 
-Скопируйте ссылку на файл "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/26.x/contrib/init/bitcoind.service)" из репозитория Bitcoin Core и скачайте его.
+Скопируйте ссылку на файл "[bitcoind.service](https://github.com/bitcoin/bitcoin/blob/27.x/contrib/init/bitcoind.service)" из репозитория Bitcoin Core и скачайте его.
 
 ```bash
-sudo torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/26.x/contrib/init/bitcoind.service
+sudo torsocks wget https://raw.githubusercontent.com/bitcoin/bitcoin/27.x/contrib/init/bitcoind.service
 ```
 
 Откройте загруженный файл.
@@ -393,6 +397,42 @@ ProtectHome=true
 
 ```bash
 sudo systemctl enable bitcoind
+```
+
+{{% hint info %}}
+При синхронизации через Tor сразу переходите к шагу: [Пиры в сети Tor](/practice-privacy/dojo-1/#%d0%bf%d0%b8%d1%80%d1%8b-%d0%b2-%d1%81%d0%b5%d1%82%d0%b8-tor).
+{{% /hint %}}
+
+### Синхронизация через клирнет
+
+**(Пропустите этот шаг, если синхронизация осуществляется через Tor)**
+
+При синхронизации через клирнет дождитесь завершения начальной загрузки блоков (Initial Block Download - IBD), прежде чем переходить к шагу "Пиры в сети Tor".
+
+Запустите bitcoind.
+
+```bash
+sudo systemctl start bitcoind
+```
+
+Следите за процессом синхронизации с помощью следующей команды из домашней директории. Как только в журналах появится сообщение "progress=1.000000", процесс IBD будет завершен.
+
+```bash
+tail -f .bitcoin/debug.log
+```
+
+Теперь удалите "#" в строках **proxy**, **listen**, **bind** и **onlynet** в файле конфигурации и перезапустите bitcoind. Это гарантирует, что все будущие данные блоков будут загружаться только через Tor.
+
+```bash
+sudo systemctl stop bitcoind
+```
+
+```bash
+nano ~/.bitcoin/bitcoin.conf
+```
+
+```bash
+sudo systemctl restart bitcoind
 ```
 
 ### Пиры в сети Tor
@@ -469,9 +509,7 @@ bitcoin-cli getnetworkinfo
 bitcoin-cli getnetworkinfo | grep address.*onion
 ```
 
-Tor ограничивает скорость IBD, но преимущества приватности весьма существенны, в отличие от использования клирнета.
-
-Следите за прогрессом, выполняя следующую команду из домашней директории.
+Если вы выполняете синхронизацию через Tor, следите за прогрессом с помощью следующей команды из домашней директории.
 
 ```bash
 tail -f .bitcoin/debug.log
@@ -485,7 +523,7 @@ tail -f .bitcoin/debug.log
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -493,7 +531,7 @@ tail -f .bitcoin/debug.log
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 

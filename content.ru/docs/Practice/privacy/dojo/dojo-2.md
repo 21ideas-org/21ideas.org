@@ -14,11 +14,9 @@ weight: 3
 
 ## Установка Биткоин-узла Dojo на x86
 
-[Введение](/privacy/dojo-0)
-
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -26,7 +24,7 @@ weight: 3
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
@@ -54,24 +52,24 @@ weight: 3
 cd ~/downloads
 ```
 
-Зайдите на [Github](https://github.com/cculianu/Fulcrum/releases) Fulcrum в браузере и скопируйте ссылку на последний файл "x86_64-linux.tar.gz". На момент написания статьи последней версией является 1.9.8.
+Зайдите на [Github](https://github.com/cculianu/Fulcrum/releases) Fulcrum в браузере и скопируйте ссылку на последний файл "x86_64-linux.tar.gz". На момент написания статьи последней версией является 1.10.0.
 
 Скачайте Fulcrum.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-x86_64-linux.tar.gz
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-x86_64-linux.tar.gz
 ```
 
 Скачайте файл "asc" для релиза.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt.asc
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-shasums.txt.asc
 ```
 
 Загрузите файл sha256sum для релиза.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-shasums.txt
 ```
 
 Проверьте контрольную сумму Fulcrum.
@@ -232,15 +230,22 @@ sudo nano /etc/systemd/system/fulcrum.service
 
 Вставьте следующие строки, затем сохраните файл и выйдите из редактора.
 
-```bash
+```
 [Unit]
 Description=Fulcrum
 After=network.target
+StartLimitBurst=2
+StartLimitIntervalSec=20
+
 [Service]
+Type=exec
 ExecStart=/home/satoshi/fulcrum/Fulcrum /home/satoshi/fulcrum/fulcrum.conf
 User=satoshi
-LimitNOFILE=8192
-TimeoutStopSec=30min
+TimeoutStopSec=300
+KillSignal=SIGINT
+Restart=on-failure
+RestartSec=5
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -312,7 +317,7 @@ https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -320,7 +325,7 @@ https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 

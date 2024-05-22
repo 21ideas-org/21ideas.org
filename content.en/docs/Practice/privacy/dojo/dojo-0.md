@@ -16,7 +16,7 @@ weight: 1
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -24,13 +24,13 @@ weight: 1
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
-This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Whirlpool, Fulcrum, and Mempool Explorer packages.
+This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.
 
 Manually configuring your node is a great way to learn about the inner workings of a Bitcoin node. Another benefit is the ability to individually manage package updates whenever desired instead of waiting for all-in-one node devs to push updates, giving you a heightened level of node sovereignty.
 
@@ -55,7 +55,7 @@ Those wanting a device with a footprint similar in size to a traditional node ma
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -63,7 +63,7 @@ Those wanting a device with a footprint similar in size to a traditional node ma
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
