@@ -16,7 +16,7 @@ weight: 3
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 3
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
@@ -53,24 +53,24 @@ Go to the downloads directory.
 cd ~/downloads
 ```
 
-Visit Fulcrum's [Github page](https://github.com/cculianu/Fulcrum/releases) in a browser and copy the link for the latest "x86_64-linux.tar.gz" file. At the time of writing, the most recent version is 1.9.8.
+Visit Fulcrum's [Github page](https://github.com/cculianu/Fulcrum/releases) in a browser and copy the link for the latest "x86_64-linux.tar.gz" file. At the time of writing, the most recent version is 1.10.0.
 
 Download Fulcrum.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-x86_64-linux.tar.gz
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-x86_64-linux.tar.gz
 ```
 
 Download the releases "asc" file.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt.asc
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-shasums.txt.asc
 ```
 
 Download the release's sha256sum file.
 
 ```bash
-torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.9.8/Fulcrum-1.9.8-shasums.txt
+torsocks wget https://github.com/cculianu/Fulcrum/releases/download/v1.10.0/Fulcrum-1.10.0-shasums.txt
 ```
 
 Verify Fulcrum's checksum.
@@ -231,15 +231,22 @@ sudo nano /etc/systemd/system/fulcrum.service
 
 Paste the following lines, then save and exit the service file.
 
-```bash
+```
 [Unit]
 Description=Fulcrum
 After=network.target
+StartLimitBurst=2
+StartLimitIntervalSec=20
+
 [Service]
+Type=exec
 ExecStart=/home/satoshi/fulcrum/Fulcrum /home/satoshi/fulcrum/fulcrum.conf
 User=satoshi
-LimitNOFILE=8192
-TimeoutStopSec=30min
+TimeoutStopSec=300
+KillSignal=SIGINT
+Restart=on-failure
+RestartSec=5
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -311,7 +318,7 @@ https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -319,7 +326,7 @@ https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 

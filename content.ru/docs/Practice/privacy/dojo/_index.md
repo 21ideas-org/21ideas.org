@@ -18,7 +18,7 @@ weight: 1
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -26,6 +26,6 @@ weight: 1
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)

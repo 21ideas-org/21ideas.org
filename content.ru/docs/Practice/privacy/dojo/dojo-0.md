@@ -16,7 +16,7 @@ weight: 1
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -24,13 +24,13 @@ weight: 1
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
 {{< /expand >}}
 
-Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Whirlpool, Fulcrum и Mempool Explorer.
+Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Fulcrum и Mempool Explorer.
 
 Ручная настройка узла - это отличный способ узнать о внутреннем устройстве ноды Биткоина. Еще одним преимуществом является возможность индивидуально управлять обновлениями пакетов, когда это необходимо, вместо того чтобы ждать, пока разработчики узла "все в одном" вышлют обновления, что дает вам повышенный уровень суверенитета ноды.
 
@@ -55,7 +55,7 @@ weight: 1
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -63,7 +63,7 @@ weight: 1
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 

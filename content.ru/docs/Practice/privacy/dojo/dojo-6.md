@@ -16,7 +16,7 @@ weight: 7
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 7
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
@@ -304,9 +304,13 @@ docker compose up -d
 
 ## Обновление Dojo
 
-За обновлениями пакетов можно следить в официальном [репозитории Dojo](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+За обновлениями пакетов можно следить в официальном [репозитории Dojo](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 Зайдите на узел по SSH под пользователем "dojo".
+
+{{% hint info %}}
+Если при первоначальной настройке Dojo вы указали другое имя пользователя, отличное от "dojo", вам нужно будет зайти по SSH под этим пользователем.
+{{% /hint %}}
 
 Перейдите в директорию Dojo.
 
@@ -329,13 +333,13 @@ cd
 Загрузите последнюю версию Dojo.
 
 ```bash
-torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
+torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/heads/master.zip
 ```
 
 Распакуйте архив с Dojo.
 
 ```bash
-unzip samourai-dojo-master.zip -d .
+unzip master.zip
 ```
 
 Скопируйте содержимое в каталог "dojo-app".
@@ -347,7 +351,7 @@ cp -a samourai-dojo-master/. dojo-app/
 Удалите архив и оставшуюся папку.
 
 ```bash
-rm samourai-dojo-master.zip
+rm master.zip
 ```
 
 ```bash
@@ -370,62 +374,6 @@ cd ~/dojo-app/docker/my-dojo
 
 Готово.
 
-## Обновление Whirlpool CLI
-
-За обновлениями пакетов можно следить в официальном [репозитории Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-gui/-/releases).
-
-Остановите Whirlpool CLI.
-
-```bash
-sudo systemctl stop whirlpool
-```
-
-Перейдите в директорию whirlpool.
-
-```bash
-cd ~/whirlpool
-```
-
-Удалите старый jar-файл.
-
-```bash
-rm whirlpool-client-cli-*-run.jar
-```
-
-Посетите страницу релизов [Whirlpool CLI](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) и скопируйте ссылку на последний файл Whirlpool CLI "run.jar".
-
-Вставьте URL-адрес в терминал после префикса команды "torsocks wget".
-
-```bash
-torsocks wget ВСТАВЬТЕ_URL_ЗДЕСЬ
-```
-
-Например, команда для Whirlpool CLI версии 0.10.17 будет выглядеть следующим образом.
-
-```bash
-torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/18b7a87106e9810471aed5aead2d92e8/whirlpool-client-cli-0.10.17-run.jar
-```
-
-Далее отредактируйте строку ExecStart в файле системной службы, указав новую версию запускаемого jar-файла.
-
-```bash
-sudo nano /etc/systemd/system/whirlpool.service
-```
-
-Сохраните файл и выйдите из редактора, после чего перезагрузите systemd.
-
-```bash
-sudo systemctl daemon-reload
-```
-
-Запустите Whirlpool CLI.
-
-```bash
-sudo systemctl start whirlpool
-```
-
-Готово.
-
 ## Обновление системы
 
 Систему на базе Debian можно обновить в любое время, чтобы быть уверенным, что установлены последние исправления безопасности, с помощью следующей команды.
@@ -442,7 +390,7 @@ sudo apt update && sudo apt upgrade -y
 
 [Введение](/practice-privacy/dojo-0)
 
-[Часть 1. Установка Bitcoin Core](/practice-privacy/dojo-1)
+[Часть 1. Установка Bitcoin Core и Tor](/practice-privacy/dojo-1)
 
 [Часть 2. Установка индексатора Fulcrum](/practice-privacy/dojo-2)
 
@@ -450,7 +398,7 @@ sudo apt update && sudo apt upgrade -y
 
 [Часть 4. Установка Samourai Dojo](/practice-privacy/dojo-4)
 
-[Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана](/practice-privacy/dojo-5)
+[Часть 5. Конфигурация межсетевого экрана](/practice-privacy/dojo-5)
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 

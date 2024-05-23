@@ -16,7 +16,7 @@ weight: 7
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -24,7 +24,7 @@ weight: 7
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
@@ -32,7 +32,7 @@ weight: 7
 
 ## Introduction
 
-The ability to update your node's packages independently provides node operators with a much higher level of sovereignty. You can choose which updates you want to run and how you want them configured rather than relying on the preferences and timescales of plug-and-play node developers.
+The ability to update your node's packages independently provides node operators with a much higher level of sovereignty. You can choose which updates to run and how to configure them rather than relying on the preferences and timescales of plug-and-play node developers.
 
 Here, we will cover the individual upgrade steps of the binaries that make up your node.
 
@@ -106,7 +106,7 @@ Unpack the downloaded archive.
 tar xzf bitcoin-*-x86_64-linux-gnu.tar.gz
 ```
 
-Remove the verification files and empty archive.
+Remove the verification files and the empty archive.
 
 ```bash
 rm SHA256SUMS && rm SHA256SUMS.asc
@@ -270,7 +270,7 @@ Restart Tor.
 sudo systemctl restart tor
 ```
 
-Check the logs with the following command to confirm that everything is operating as expected.
+Check the logs with the following command to confirm everything is operating as expected.
 
 ```bash
 journalctl -fu fulcrum.service
@@ -304,9 +304,13 @@ Complete.
 
 ## Updating Dojo
 
-Package updates can be monitored from the official Dojo [repository](https://code.samourai.io/dojo/samourai-dojo/-/releases).
+Package updates can be monitored from the official Dojo [repository](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases).
 
 SSH into the node as user "dojo."
+
+{{% hint info %}}
+If you configured a different username other than "dojo" when initially configuring Dojo, you will need to SSH into that user instead.
+{{% /hint %}}
 
 Enter the Dojo directory.
 
@@ -329,13 +333,13 @@ cd
 Download the latest Dojo release.
 
 ```bash
-torsocks wget https://code.samourai.io/dojo/samourai-dojo/-/archive/master/samourai-dojo-master.zip
+torsocks wget https://github.com/Dojo-Open-Source-Project/samourai-dojo/archive/refs/heads/master.zip
 ```
 
 Unpack the Dojo archive.
 
 ```bash
-unzip samourai-dojo-master.zip -d .
+unzip master.zip
 ```
 
 Copy the contents to the "dojo-app" directory.
@@ -347,7 +351,7 @@ cp -a samourai-dojo-master/. dojo-app/
 Remove the archive and remaining folder.
 
 ```bash
-rm samourai-dojo-master.zip
+rm master.zip
 ```
 
 ```bash
@@ -370,65 +374,9 @@ Once the logs show a constant stream of "node.js" logs, the upgrade is complete,
 
 Complete.
 
-## Updating Whirlpool CLI
-
-Package updates can be monitored from the official Whirlpool CLI [repository](https://code.samourai.io/whirlpool/whirlpool-gui/-/releases).
-
-Stop the Whirlpool CLI.
-
-```bash
-sudo systemctl stop whirlpool
-```
-
-Enter the Whirlpool directory.
-
-```bash
-cd ~/whirlpool
-```
-
-Remove the old CLI jar file.
-
-```bash
-rm whirlpool-client-cli-*-run.jar
-```
-
-Visit the Whirlpool CLI [release](https://code.samourai.io/whirlpool/whirlpool-client-cli/-/releases) page and copy the link to the latest Whirlpool CLI "run.jar" file.
-
-Paste the URL into the terminal, prefixed with the "torsocks wget" command.
-
-```bash
-torsocks wget ENTERURLHERE
-```
-
-For example, the command for CLI version 0.10.17 would be as follows.
-
-```bash
-torsocks wget https://code.samourai.io/whirlpool/whirlpool-client-cli/uploads/18b7a87106e9810471aed5aead2d92e8/whirlpool-client-cli-0.10.17-run.jar
-```
-
-Next, edit the '**ExecStart**' line of your systemd file to correctly reflect the new CLI file version number.
-
-```bash
-sudo nano /etc/systemd/system/whirlpool.service
-```
-
-Save and exit, then reload systemd.
-
-```bash
-sudo systemctl daemon-reload
-```
-
-Start Whirlpool CLI.
-
-```bash
-sudo systemctl start whirlpool
-```
-
-Complete.
-
 ## Updating System
 
-The Debian base system can be upgraded anytime to ensure it's updated with the latest security patches with the following command.
+The Debian base system can be upgraded anytime to ensure it's updated with the latest security patches using the following command.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -442,7 +390,7 @@ Complete.
 
 [Introduction](/en/practice-privacy/dojo-0)
 
-[Part 1. Installing Bitcoin Core](/en/practice-privacy/dojo-1)
+[Part 1. Installing Bitcoin Core & Tor](/en/practice-privacy/dojo-1)
 
 [Part 2. Installing Fulcrum Indexer](/en/practice-privacy/dojo-2)
 
@@ -450,7 +398,7 @@ Complete.
 
 [Part 4. Installing Samourai Dojo](/en/practice-privacy/dojo-4)
 
-[Part 5. Installing Whirlpool CLI & Firewall Config](/en/practice-privacy/dojo-5)
+[Part 5. Firewall Configuration](/en/practice-privacy/dojo-5)
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
