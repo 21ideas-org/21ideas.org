@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Установка Биткоин-узла Dojo на x86 on 21ideas</title><link>https://21ideas.org/practice-privacy/dojo/</link><description>Recent content in Установка Биткоин-узла Dojo на x86 on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><atom:link href="https://21ideas.org/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-0/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Часть 1. Установка Bitcoin Core
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
-Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Whirlpool, Fulcrum и Mempool Explorer.</description></item><item><title>Установка Bitcoin Core</title><link>https://21ideas.org/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-1/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Часть 1. Установка Bitcoin Core
+Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Fulcrum и Mempool Explorer.</description></item><item><title>Установка Bitcoin Core и Tor</title><link>https://21ideas.org/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-1/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
 Введение # Bitcoin Core возник из первого программного Биткоин-клиента, выпущенного Сатоши Накамото, псевдонимным создателем (создателями) Биткоин, в 2009 году. Изначально он назывался &amp;ldquo;Bitcoin&amp;rdquo;, но позже был переименован в &amp;ldquo;Bitcoin Core&amp;rdquo;, чтобы отличить его от более широко известной сети и валюты Биткоин.</description></item><item><title>Установка индексатора Fulcrum</title><link>https://21ideas.org/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-2/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Введение
-Часть 1. Установка Bitcoin Core
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
 Перед выполнением дальнейших шагов убедитесь, что:
 Завершены все действия из части 1. Завершен процесс IBD в Bitoin Core. Введение # После полной синхронизации Bitcoin Core следующим шагом будет установка индексатора Electrum, который обеспечивает совместимость со всеми биткоин-кошельками на базе Electrum.</description></item><item><title>Установка блокчейн-обозревателя Mempool</title><link>https://21ideas.org/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-3/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Часть 1. Установка Bitcoin Core
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
 Перед выполнением дальнейших шагов убедитесь, что:
 Завершены все действия из частей 1, 2. Синхронизация Fulcrum завершена. Введение # Mempool Visual Explorer - это ценный инструмент для поиска подробной информации о блоках, адресах, балансах и транзакциях.</description></item><item><title>Установка Samourai Dojo</title><link>https://21ideas.org/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-4/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Введение
-Часть 1. Установка Bitcoin Core
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
-Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей 1, 2, 3. Введение # Dojo - это программное обеспечение, которое повышает конфиденциальность и безопасность пользователей Samourai Wallet.</description></item><item><title>Установка Whirlpool CLI и конфигурация межсетевого экрана</title><link>https://21ideas.org/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-5/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Часть 1. Установка Bitcoin Core
+Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей 1, 2, 3. Введение # Dojo - это ориентированное на конфиденциальность комплексное серверное программное решение, которое выступает в качестве бэкенда Samourai Wallet и других легких Биткоин-кошельков.</description></item><item><title>Конфигурация межсетевого экрана</title><link>https://21ideas.org/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-5/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
-Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей 1, 2, 3, 4. Введение # Whirlpool CLI - это инструмент командной строки, который работает в фоновом режиме на персональных Dojo-узлах Биткоина.</description></item><item><title>Установка обновлений пакетов</title><link>https://21ideas.org/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-6/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
-Часть 1. Установка Bitcoin Core
+Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей 1, 2, 3, 4. Uncomplicated Firewall (UFW) # Uncomplicated Firewall, или UFW, - это простое в использовании приложение командной строки для работы с межсетевым экраном в Linux.</description></item><item><title>Установка обновлений пакетов</title><link>https://21ideas.org/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-6/</guid><description>Оглавление ... Установка Биткоин-узла Dojo на x86 # Введение
+Часть 1. Установка Bitcoin Core и Tor
 Часть 2. Установка индексатора Fulcrum
 Часть 3. Установка блокчейн-обозревателя Mempool
 Часть 4. Установка Samourai Dojo
-Часть 5. Установка Whirlpool CLI и конфигурация межсетевого экрана
+Часть 5. Конфигурация межсетевого экрана
 Часть 6. Установка обновлений пакетов
 Введение # Возможность самостоятельно обновлять пакеты своего узла обеспечивает операторам ноды гораздо более высокий уровень суверенитета. Вы можете сами выбирать, какие обновления запускать и как их настраивать, а не полагаться на предпочтения и расписание разработчиков узлов &amp;ldquo;plug-and-play&amp;rdquo;.</description></item></channel></rss>
