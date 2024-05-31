@@ -7,6 +7,7 @@ coverDark: /img/main-section/ru/start.png
 bookFlatSection: false
 bookCollapseSection: true
 url: start
+aliases: ['/basics']
 weight: 1
 ---
 
