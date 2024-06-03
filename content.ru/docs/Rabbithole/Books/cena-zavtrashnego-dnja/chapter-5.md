@@ -9,7 +9,7 @@ bookToc: true
 weight: 6
 ---
 
-{{% youtube S-tmmnY2wvg %}}
+{{% youtube UUCM-OiXkXM %}} 
 *Книга также доступна в видео и [аудио](/audiobooks/) форматах*
 {{% /youtube %}}
 
