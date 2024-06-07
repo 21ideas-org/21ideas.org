@@ -14,7 +14,9 @@ weight: 51
 Критики утверждают, что Биткоин представляет собой угрозу для окружающей среды. Эта статья пояснит в чем они ошибаются. 
 
 {{< hint btc >}}
-Перевод [статьи](https://mises.org/wire/critics-claim-bitcoin-threat-environment-theyre-wrong) профессора Питера Сейнт-Онжа подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод [статьи](https://mises.org/wire/critics-claim-bitcoin-threat-environment-theyre-wrong) профессора Питера Сейнт-Онжа подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+
+[Поддержать проект](/contribute/).
 {{< /hint >}}
 
 В качестве одной из популярных критик в адрес Биткоина выступают энергозатраты на транзакцию. Но данный взгляд не отражает необъятности энергетической экономии Биткоина относительно фиатных валют.
