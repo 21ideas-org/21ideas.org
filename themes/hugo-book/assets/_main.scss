@@ -372,3 +372,7 @@ zap-threads:focus {
     --ztr-text-color: var(--body-font-color);
   }
 }
+
+library {
+  @import "library";
+}
