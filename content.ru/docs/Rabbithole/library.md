@@ -16,31 +16,30 @@ url: library
 <div class="custom-page">
 
 <div class="card">
-    <img src="/svg/logo_white.svg" alt="Example 1">
+    <img src="/img/149.png" alt="Обложка">
     <div class="card-content">
-        <h2>Биткоин-стандарт</h2>
-        <p>Бестселлер, отвечающий на все вопросы о Биткоине.</p>
-        <div class="button-group">
-            <a href="/path/to/resource1" class="button">Подробнее</a>
-            <a href="/path/to/resource1" class="button">Скачать</a>
-        </div>
+        <h2>Суверенитет посредством математики</h2>
+            <p><strong>Автор: Кнут Сванхольм</strong></p> <!-- Bold text -->
+            <p>Бестселлер, отвечающий на все вопросы о Биткоине.</p> <!-- Regular text -->
+            <div class="button-container">
+                <a href="/path/to/resource1" class="button">Подробнее</a>
+                <a href="/path/to/resource2" class="button">Скачать</a>
+            </div>
     </div>
 </div>
-
-<!-- http://localhost:1313/img/148.png -->
 
 <div class="card">
-    <img src="/img/148.png" alt="Example 1">
+    <img src="/img/148.png" alt="Обложка">
     <div class="card-content">
         <h2>Изобретаем Биткоин</h2>
-        <p>Самая компактная книга о Биткоине для новичков.</p>
-        <div class="button-group">
-            <a href="/izobretaem-bitkoin" class="button">Подробнее</a>
-            <a href="/path/to/resource1" class="button">Скачать</a>
-        </div>
+            <p><strong>Автор: Ян Прицкер</strong></p> <!-- Bold text -->
+            <p>Самая компактная книга о Биткоине для новичков.</p> <!-- Regular text -->
+            <div class="button-container">
+                <a href="/path/to/resource1" class="button">Подробнее</a>
+                <a href="/path/to/resource2" class="button">Скачать</a>
+            </div>
     </div>
 </div>
-
 <!-- Add more cards as needed -->
 </br>
 </div>
