@@ -16,6 +16,19 @@ url: library
 <div class="custom-page">
 
 <div class="card">
+    <img src="/img/bitcoin-standard.png" alt="Обложка">
+    <div class="card-content">
+        <h2>Биткоин-стандарт</h2>
+            <p><strong>Автор: Сейфедин Аммус</strong></p> <!-- Bold text -->
+            <p>Бестселлер, отвечающий на все основные вопросы о деньгах и Биткоине.</p> <!-- Regular text -->
+            <div class="button-container">
+                <a href="/bitcoin-standard/" class="button">Подробнее</a>
+                <a href="/epubs/bitcoin-standard.pdf" class="button">Скачать</a>
+            </div>
+    </div>
+</div>
+
+<div class="card">
     <img src="/img/148.png" alt="Обложка">
     <div class="card-content">
         <h2>Изобретаем Биткоин</h2>
