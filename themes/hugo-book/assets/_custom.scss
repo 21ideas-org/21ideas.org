@@ -56,27 +56,65 @@
   opacity: 0.4;
 }
 
+:root {
+  /* Text color variables */
+  --card-text-color-light: #000000; /* Text color for light theme */
+  --card-text-color-dark: #ffffff;  /* Text color for dark theme */
+
+  /* Shadow color variables */
+  --card-shadow-light: rgba(0, 0, 0, 0.2); /* Black shadow for light theme */
+  --card-shadow-dark: rgba(0, 0, 0, 0.2); /* White shadow for dark theme */
+
+  /* Box color variables */
+  --box-color-light: rgb(248, 249, 250); /* Box color for light theme */
+  --box-color-dark: rgb(73, 78, 84);     /* Box color for dark theme */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --card-text-color: var(--card-text-color-dark);
+    --card-shadow-color: var(--card-shadow-dark);
+    --box-color: var(--box-color-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --card-text-color: var(--card-text-color-light);
+    --card-shadow-color: var(--card-shadow-light);
+    --box-color: var(--box-color-light);
+  }
+}
+
 .custom-page {
   display: grid;                          /* Enables grid layout */
   grid-template-columns: repeat(2, 1fr);  /* Creates 2 equal-width columns */
   grid-template-rows: repeat(2, auto);    /* Creates 2 rows with automatic height based on content */
   gap: 20px;                              /* Space between grid items (cards) */
   justify-content: center;                /* Center the grid horizontally (optional) */
+
+  @media screen and (max-width: 768px) {  /* Adjust for mobile screens */
+    grid-template-columns: 1fr;  /* 1 column for smaller screens */
+  }
 }
 
 .card {
   position: relative;
-  background-color: #343A40;
+  background-color: var(--box-color);
+  color: var(--card-text-color);
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px var(--card-shadow-color);
   overflow: hidden;
   margin: 20px;
   text-align: center;
+  display: flex;  
+  flex-direction: column;  
+  justify-content: space-between;
 }
 
 .card img {
   width: 100%;
-  padding-top: 10px;
+  padding-top: 15px;
   margin: 0;
   height: auto;
   display: block;
@@ -85,26 +123,46 @@
 .card-content {
   padding: 15px;
   color: white;
-  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure buttons are at the bottom */
+  height: 100%;
+  box-sizing: border-box;
+  color: var(--card-text-color);
+}
+
+.card h2 {
+  margin-top: -5px; /* Negative margin to reduce space between the image and heading */
 }
 
 .button-container {
-  margin-top: 15px;
   display: flex;
   justify-content: center;
+  margin-top: auto; /* Push buttons to the bottom */
 }
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 6px 12px;
   margin: 0 5px;
   background-color: orange;
   color: white;
   text-decoration: none;
   border-radius: 3px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .button:hover {
-  background-color: darkorange;
+  background-color: darkorange; /* Darken the background color */
+  color: white; /* Ensure text color stays white */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow for a "pop-out" effect */
+  transform: scale(1.02); /* Slightly increase size */
+  text-decoration: none !important; /* Ensure text isn't underlined */
+}
+
+.button:visited {
+  color: white !important; /* Maintain the same color as unvisited */
+  background-color: orange !important;
+  text-decoration: none !important; /* Ensure no underlines or changes */
 }
