@@ -115,6 +115,7 @@
 .card img {
   width: 100%;
   padding-top: 15px;
+  min-height: 200px; /* Adjust this based on the expected height for 3 lines */
   margin: 0;
   height: auto;
   display: block;
@@ -132,7 +133,19 @@
 }
 
 .card h2 {
-  margin-top: -5px; /* Negative margin to reduce space between the image and heading */
+  margin-top: -5px;
+  min-height: 90px; /* Adjust this based on the expected height for 3 lines */
+  line-height: 1.2em; /* Adjust line height for better spacing */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  text-overflow: ellipsis; /* Add ellipsis if the text is too long */
+}
+
+.card p {
+  flex-grow: 1;
+  margin-bottom: 10px; /* Space between paragraph and buttons */
+  min-height: 45px; /* Fixed height for the description/abstract */
+  overflow: hidden; /* Prevent overflow if the text is too long */
+  text-overflow: ellipsis; /* Add ellipsis if the text is too long */
 }
 
 .button-container {

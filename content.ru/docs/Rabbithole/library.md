@@ -61,7 +61,7 @@ url: library
             <p><strong>Автор: Виджай Бояпати</strong></p> <!-- Bold text -->
             <p>Книга, описывающая причины неминуемого стремительного распространения Биткоина.</p> <!-- Regular text -->
             <div class="button-container">
-                <a href="/bychij-kejs-dlya-bitcoin/" class="button">Подробнее</a>
+                <a href="/bychij-kejs-dlya-bitcoin/" class="button">Читать</a>
             </div>
     </div>
 </div>
