@@ -98,6 +98,12 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1050px) {
+  .custom-page {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
+  }
+}
+
 .card {
   position: relative;
   background-color: var(--box-color);
@@ -110,6 +116,7 @@
   display: flex;  
   flex-direction: column;  
   justify-content: space-between;
+  max-width: 100%;
 }
 
 .card img {
@@ -119,6 +126,8 @@
   margin: 0;
   height: auto;
   display: block;
+  object-fit: cover;
+  object-fit: contain;
 }
 
 .card-content {
