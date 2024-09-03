@@ -33,7 +33,7 @@ menu:
 
 ---
 
-Вы также можете поддержать проект ончейн, перейдя на нашу [страничку](https://tallycoin.app/@21ideas/) на Tallycoin.
+[Тапрут](/taproot): `bc1p6gmgwj3ed0sxdstseqmvhdzqv4qq0udrznxkheuhtkc8va49ptmqd3mrsy`
 <---> 
 
 ## Лайтнинг
@@ -41,7 +41,7 @@ menu:
 
 _[zap@21ideas.org](lightning:21ideas@getalby.com)_
   
-![ln-qr](/img/1.png)
+![ln-qr](/img/BitTip-LNURL.png)
 
 ---
 
