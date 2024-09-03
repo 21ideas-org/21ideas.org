@@ -232,7 +232,7 @@ weight: 1
     <img src="/img/anil-slides/anil_slides.png" alt="Обложка">
     <div class="card-content">
         <h2>Биткоин-слайды</h2>
-            <p><strong>Автор: Анил Саидсо</strong></p> 
+            <p><strong>Автор: Анил Патель</strong></p> 
             <p>Наглядные визуальные слайды, объясняющие принципы работы биткоина. Идеально подходит для новичков!</p> 
             <div class="button-container">
                 <a href="/anil-slides" class="button">Подробнее</a>
