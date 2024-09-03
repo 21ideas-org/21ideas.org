@@ -3,11 +3,12 @@ title: "Книги"
 h1: " "
 tags: ["книги", "биткоин", "чтение", "биткоин-книги"]
 description: "Библиотека обязательных к прочтению книг о Биткоине, экономике и суверенитете."
-url: books
+url: books-old
 cover: /img/main-section/ru/books-light.png
 coverDark: /img/main-section/ru/books.png
 bookCollapseSection: true
 bookFlatSection: false
+bookHidden: true
 weight: 1
 ---
 
