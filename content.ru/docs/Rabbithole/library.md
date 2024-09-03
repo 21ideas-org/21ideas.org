@@ -170,6 +170,17 @@ url: library
     </div>
 </div>
 
+<div class="card">
+    <img src="/img/books/21-ways-cover.png" alt="Обложка">
+    <div class="card-content">
+        <h2>21 способ</h2>
+            <p><strong>Автор: ДжиДжи</strong></p> 
+            <p>Книга поможет вам в полной мере осознать значимость Биткоина, взглянув на него с новых ракурсов.</p>
+            <div class="button-container">
+                <a href="/21-sposob" class="button">Читать</a>
+            </div>
+    </div>
+</div>
 
 <div class="card">
     <img src="/img/books/strukturnaya-perestrojka.png" alt="Обложка">
@@ -220,19 +231,18 @@ url: library
             </div>
     </div>
 </div>
-
+<br>
 <h2>Экономика</h2>
 <br>
 
 <div class="card">
-    <img src="/img/books/in-defence-of-deflation.png" alt="Обложка">
+    <img src="/img/books/price-of-tomorrow.png" alt="Обложка">
     <div class="card-content">
-        <h2>В защиту дефляции</h2>
-            <p><strong>Автор: Филипп Багус</strong></p> 
-            <p>Для будущего свободы крайне важно, чтобы мифы о дефляции были опровергнуты.</p> 
+        <h2>Цена завтрашнего дня</h2>
+            <p><strong>Автор: Джефф Бут</strong></p> 
+            <p>Книга о важнейших факторах, влияющих на современный мир, о причинах их возникновения и возможных сценариях дальнейшего развития событий.</p> 
             <div class="button-container">
-                <a href="/v-zaschitu-defliazii-book" class="button">Подробнее</a>
-                <a href="/epubs/v-zashchitu-deflyacii.pdf" class="button">Скачать</a>
+                <a href="/cena" class="button">Читать</a>
             </div>
     </div>
 </div>
@@ -251,6 +261,19 @@ url: library
 </div>
 
 <div class="card">
+    <img src="/img/books/in-defence-of-deflation.png" alt="Обложка">
+    <div class="card-content">
+        <h2>В защиту дефляции</h2>
+            <p><strong>Автор: Филипп Багус</strong></p> 
+            <p>Для будущего свободы крайне важно, чтобы мифы о дефляции были опровергнуты.</p> 
+            <div class="button-container">
+                <a href="/v-zaschitu-defliazii-book" class="button">Подробнее</a>
+                <a href="/epubs/v-zashchitu-deflyacii.pdf" class="button">Скачать</a>
+            </div>
+    </div>
+</div>
+
+<div class="card">
     <img src="/img/books/road-to-serfdom-ru.png" alt="Обложка">
     <div class="card-content">
         <h2>Дорога к рабству</h2>
@@ -263,9 +286,8 @@ url: library
     </div>
 </div>
 
-<br>
 <h2>Художественные</h2>
-<br>
+<br> 
 
 <div class="card">
     <img src="/img/books/1984.png" alt="Обложка">

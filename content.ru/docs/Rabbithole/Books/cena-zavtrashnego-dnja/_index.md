@@ -1,7 +1,7 @@
 ---
 title: "Цена завтрашнего дня"
 h1: "Цена завтрашнего дня"
-cover: /img/price/price-cover.png
+cover: /img/books/price-of-tomorrow.png
 description: "Книга предлагает интригующий тезис, основанный на дефляционном воздействии технологического прогресса в сочетании с все более доступным кредитом."
 url: cena
 bookCollapseSection: true
