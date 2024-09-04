@@ -159,7 +159,7 @@ weight: 1
 </div>
 
 <div class="card">
-    <img src="/img/books/mastering-bitcoin.png" alt="Обложка">
+    <img src="/img/books/mastering-bitcoin-3e.png" alt="Обложка">
     <div class="hover-text">
         <p>Технические основы Биткоина, описание децентрализованной сети, пиринговой архитектуры, жизненного цикла транзакций и принципов обеспечения безопасности.</p>
     </div>
