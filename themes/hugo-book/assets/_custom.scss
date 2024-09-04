@@ -95,6 +95,9 @@
 
   @media screen and (max-width: 768px) {  /* Adjust for mobile screens */
     grid-template-columns: 1fr;  /* 1 column for smaller screens */
+    .card img {
+      height: 200px; /* Adjust this value as needed for mobile */
+  }
   }
 }
 
@@ -111,23 +114,77 @@
   border-radius: 5px;
   box-shadow: 0 4px 8px var(--card-shadow-color);
   overflow: hidden;
-  margin: 20px;
+  margin: 20px auto;
   text-align: center;
   display: flex;  
   flex-direction: column;  
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 350px; /* Set a maximum width for the card */  
+  width: 90%; /* Ensure the card takes up the available space */
 }
 
 .card img {
-  width: 100%;
+  width: 90%;
   padding-top: 15px;
   min-height: 200px; /* Adjust this based on the expected height for 3 lines */
-  margin: 0;
+  margin: 0 auto;
   height: auto;
   display: block;
   object-fit: cover;
-  object-fit: contain;
+  transition: opacity 0.3s ease;
+  transition: filter 0.3s ease; /* Smooth transition for filter */
+  object-fit: cover;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  pointer-events: none;
+}
+
+.card:hover .hover-text {
+  opacity: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .card-content {
+  color: grey;
+  filter: blur(2px); /* Apply blur effect */
+}
+
+.card:hover .card-content h2,
+.card:hover .card-content p {
+  color: grey; /* Change text color to grey on hover */
+  opacity: 0.3;
+}
+
+.card:hover .cover-image {
+  filter: blur(10px); /* Apply blur effect to the cover image */
+}
+
+.card:hover .button:hover {
+  background-color: darkorange; /* Darken background color on button hover */
+  /* Ensure no changes on button hover */
+}
+
+.card:hover .button {
+  background-color: orange; /* Maintain button background color on card hover */
+  color: white; /* Ensure text color stays white */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Maintain shadow effect */
+  transform: scale(1.02); /* Keep button slightly increased size */
 }
 
 .card-content {
@@ -139,18 +196,20 @@
   height: 100%;
   box-sizing: border-box;
   color: var(--card-text-color);
+  transition: filter 0.3s ease;
 }
 
 .card h2 {
-  margin-top: -5px;
-  min-height: 90px; /* Adjust this based on the expected height for 3 lines */
-  line-height: 1.2em; /* Adjust line height for better spacing */
+  margin-top: -10px;
+  min-height: 60px; /* Adjust this based on the expected height for 3 lines */
+  line-height: 1em; /* Adjust line height for better spacing */
   overflow: hidden; /* Ensure content doesn't overflow */
   text-overflow: ellipsis; /* Add ellipsis if the text is too long */
 }
 
 .card p {
   flex-grow: 1;
+  margin-top: -10px;
   margin-bottom: 10px; /* Space between paragraph and buttons */
   min-height: 45px; /* Fixed height for the description/abstract */
   overflow: hidden; /* Prevent overflow if the text is too long */
@@ -158,16 +217,19 @@
 }
 
 .button-container {
+  position: relative;
+  z-index: 1; /* Ensure buttons stay above the blurred content */
   display: flex;
   justify-content: center;
   margin-top: auto; /* Push buttons to the bottom */
+  padding-bottom: 20px;
 }
 
 .button {
   display: inline-block;
   padding: 6px 12px;
   margin: 0 5px;
-  background-color: orange;
+  background-color: #ff9500;
   color: white;
   text-decoration: none;
   border-radius: 3px;
