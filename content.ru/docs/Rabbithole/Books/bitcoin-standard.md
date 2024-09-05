@@ -4,7 +4,7 @@ h1: "Биткоин-стандарт"
 cover: /img/bitcoin-standard.png
 description: "Бестселлер о цифровой альтернативе традиционным валютам – биткоине."
 url: bitcoin-standard
-date: 2019-05-01
+date: 2018-03-23
 bookFlatSection: false
 weight: 51
 ---
