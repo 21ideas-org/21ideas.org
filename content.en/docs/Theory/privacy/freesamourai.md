@@ -31,9 +31,9 @@ As will be detailed below, they followed the law to the letter as was laid out i
 
 ## Arrest & Seizure
 
-Despite following the law, the IRS-CI and FBI have [indicted the founders of Samourai Wallet](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering?ref=blog.ronindojo.io), and charged them with "one count of conspiracy to commit money laundering" and "one count of conspiracy to operate an unlicensed money transmitting business".
+Despite following the law, the IRS-CI and FBI have [indicted the founders of Samourai Wallet](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering), and charged them with "one count of conspiracy to commit money laundering" and "one count of conspiracy to operate an unlicensed money transmitting business".
 
-So on April 24th 2024, several of their servers and domain names were seized, including samouraiwallet.com and code.samourai.io, and the founders [Samourai Wallet(Wallet Guy)](https://twitter.com/samouraiwallet?ref=blog.ronindojo.io) and [TDevD](https://twitter.com/samouraidev?ref=blog.ronindojo.io) were arrested. Whirlpool has become inactive as a result, and anyone's wallet not connected to a self-hosted Dojo server would no longer be able to receive updates on the state of the user's incoming/outgoing bitcoin transactions.
+So on April 24th 2024, several of their servers and domain names were seized, including samouraiwallet.com and code.samourai.io, and the founders [Samourai Wallet(Wallet Guy)](https://twitter.com/samouraiwallet) and [TDevD](https://twitter.com/samouraidev) were arrested. Whirlpool has become inactive as a result, and anyone's wallet not connected to a self-hosted Dojo server would no longer be able to receive updates on the state of the user's incoming/outgoing bitcoin transactions.
 
 Several ancillary websites have gone down as well, such as KYCP and OXT, probably the best free services to date that gave users the ability to research the privacy of their own transactions. Finally, some time after the arrest, the wallet has been taken down from the Google Play store at the request of the government.
 
@@ -47,7 +47,7 @@ samouraiwallet.com defaced
 
 ## Indictment & FinCEN guidelines
 
-Samourai Wallet have not acted as a Money Service Business according to the government's own explanation of their laws, given the "[2019 FinCEN Guidance issued to synthesize regulatory framework for virtual currency](https://www.cov.com/-/media/files/corporate/publications/2019/11/fincen-issues-guidance-to-synthesize-regulatory-framework-for-virtual-currency.pdf?ref=blog.ronindojo.io)". The quote is as follows:
+Samourai Wallet have not acted as a Money Service Business according to the government's own explanation of their laws, given the "[2019 FinCEN Guidance issued to synthesize regulatory framework for virtual currency](https://www.cov.com/-/media/files/corporate/publications/2019/11/fincen-issues-guidance-to-synthesize-regulatory-framework-for-virtual-currency.pdf)". The quote is as follows:
 
 > By contrast, owners of unhosted wallets – computer software that allows the owners to store and conduct CVC [convertible virtual currencies] transactions – are not money transmitters.
 
@@ -85,7 +85,7 @@ First: given that Samourai Wallet publicly announced their software and services
 
 It poses the question: where are the charges for any actions instead of just the "conspiracies"? Where is the "charge to commit money laundering" and the "charge to operate an unlicensed money transmitting business"? If what they said they would do was also subsequently done, the US government labeling the former as a conspiracy for committing a crime should logically have the same government label the latter as the crime that was conspired. But the government has curiously done nothing of the sort.
 
-To speculate briefly: it's [easier](https://www.youtube.com/watch?v=4j2IWfsCoMs&ref=blog.ronindojo.io) to charge for conspiracy of an action than to charge for the specific action itself. The implication here is that the government knows they cannot charge Samourai Wallet as such, thus for the government to "have their way" [for](https://reason.com/2024/05/01/groundhog-day-for-the-crypto-wars-the-doj-on-bitcoin-prowl/?ref=blog.ronindojo.io) [ulterior](https://vonupodcast.com/210?ref=blog.ronindojo.io) [motives](https://bitcoinmagazine.com/culture/weekly-reorg-war-of-attrition?ref=blog.ronindojo.io), they apply lawfare in the manner with which they're most certain to cause damage.
+To speculate briefly: it's [easier](https://www.youtube.com/watch?v=4j2IWfsCoMs) to charge for conspiracy of an action than to charge for the specific action itself. The implication here is that the government knows they cannot charge Samourai Wallet as such, thus for the government to "have their way" [for](https://reason.com/2024/05/01/groundhog-day-for-the-crypto-wars-the-doj-on-bitcoin-prowl/) [ulterior](https://vonupodcast.com/210) [motives](https://bitcoinmagazine.com/culture/weekly-reorg-war-of-attrition), they apply lawfare in the manner with which they're most certain to cause damage.
 
 Second: No third parties pointed out as the owners of the "illegal funds" that they claim went through Whirlpool have been charged with money laundering by using Whirlpool. Thus, any reference to these third parties and their bitcoin are an attempt by the government to give weight to their claims of "conspiracy to money launder", while the government has yet to show these third parties even so much as a fraction of the same litigious intent to go after as well.
 
@@ -135,7 +135,7 @@ In the same manner, because Samourai Wallet is an "un-hosted wallet", the code t
 
 ## Analogy: explaining Whirlpool
 
-Their Whirlpool service provided users a way to "[delink](https://github.com/nopara73/ZeroLink?ref=blog.ronindojo.io)" their past receives from future spends. This is a basic privacy concept that even the average Joe enjoys when using his bank: your employer does not know where/when/how you spend your wages. It takes "delinking" on Bitcoin as such, before the same is achieved there. Samourai Wallet has achieved this with Whirlpool.
+Their Whirlpool service provided users a way to "[delink](https://github.com/nopara73/ZeroLink)" their past receives from future spends. This is a basic privacy concept that even the average Joe enjoys when using his bank: your employer does not know where/when/how you spend your wages. It takes "delinking" on Bitcoin as such, before the same is achieved there. Samourai Wallet has achieved this with Whirlpool.
 
 The analogy can be made that 5 people have each a 20 dollar bill. For comparison's sake, imagine this dollar bill somehow shows the history of all previous transactions it can be related to (it's a fancy e-ink bill where you can scroll through its history), and it shows this history all the way back to the bill's original issuance (in Bitcoin: the mined block that created it).
 
@@ -143,7 +143,7 @@ A person named Samourai Wallet holds out in his hand a large top hat and says "y
 
 To complete the analogy, in the same manner of how Bitcoin works of every transaction, because each 20 dollar bill now shows the new transaction, it also shows the full history of all transactions that have preceded this particular transaction. That includes the history of the other 4 bills. You cannot pick one of the 20 dollar bills and see the person who owns it their specific transaction history.
 
-On top of that, each participant puts on a mask before putting their hand in the hat, then (while looking away) changes to a completely new mask before taking out the money. This is the "[blinding](https://www.geeksforgeeks.org/chaumian-blinding/?ref=blog.ronindojo.io)" in the "[chaumian conjoin](https://medium.com/@opeyemiadeyemi/chaumian-blinding-blinded-signatures-and-its-use-case-in-bitcoin-s-ecosystem-549310aacce8?ref=blog.ronindojo.io)" technology. This way, no onlooker (not even Samourai Wallet) can take how a bill its transaction history looked before this event and look at who was holding it, and then tie that to the same person holding the "updated bill". In short: afterwards, neither the 20 dollar bill nor the masked person holding it can be tied to anything from before the transaction, not any of the first set of 5 masks nor any of the first separate 5 sets of 20 dollar bills their transaction histories.
+On top of that, each participant puts on a mask before putting their hand in the hat, then (while looking away) changes to a completely new mask before taking out the money. This is the "[blinding](https://www.geeksforgeeks.org/chaumian-blinding/)" in the "[chaumian conjoin](https://medium.com/@opeyemiadeyemi/chaumian-blinding-blinded-signatures-and-its-use-case-in-bitcoin-s-ecosystem-549310aacce8)" technology. This way, no onlooker (not even Samourai Wallet) can take how a bill its transaction history looked before this event and look at who was holding it, and then tie that to the same person holding the "updated bill". In short: afterwards, neither the 20 dollar bill nor the masked person holding it can be tied to anything from before the transaction, not any of the first set of 5 masks nor any of the first separate 5 sets of 20 dollar bills their transaction histories.
 
 Samourai Wallet at no point take any action themselves in hiding the user's identity for them, their coordinator merely only accepts the data in blinded form. In other words: participants are only allowed to join the transaction if they agree to wearing a mask before participating, and agree to change masks before taking out their hand from the hat.
 
@@ -163,13 +163,13 @@ Imagine the post office mailing cash, which not only happens already, several po
 
 ## Previous precedents on what doesn't constitute as money laundering
 
-There's relevant precedent in the history of US law regarding what constitutes as money laundering. One such outcome of a case states that ["the government is required to prove the money was portrayed by the defendant as legitimate wealth"](https://www.oyez.org/cases/2007/06-1456?ref=blog.ronindojo.io) before he could be charged with money laundering. This scenario is not directly relevant given that unlike this older case, Samourai Wallet was never in possession of bitcoin that users sent through Whirlpool. But in relation to the charges being conspiracy charges specifically, at no point did Samourai Wallet make any such "legitimacy claims" about bitcoin that would go through Whirlpool. It's even more clear that the terms used in the statute ("conceal/disguise") do not apply to Ricochet, as Samourai Wallet have explained a Ricochet spend is very clear on-chain and does not provide privacy (prosecution claiming otherwise in paragraph 27 in the indictment).
+There's relevant precedent in the history of US law regarding what constitutes as money laundering. One such outcome of a case states that ["the government is required to prove the money was portrayed by the defendant as legitimate wealth"](https://www.oyez.org/cases/2007/06-1456) before he could be charged with money laundering. This scenario is not directly relevant given that unlike this older case, Samourai Wallet was never in possession of bitcoin that users sent through Whirlpool. But in relation to the charges being conspiracy charges specifically, at no point did Samourai Wallet make any such "legitimacy claims" about bitcoin that would go through Whirlpool. It's even more clear that the terms used in the statute ("conceal/disguise") do not apply to Ricochet, as Samourai Wallet have explained a Ricochet spend is very clear on-chain and does not provide privacy (prosecution claiming otherwise in paragraph 27 in the indictment).
 
 The statement by the supreme court on this case from 2007 affirms that, it was not proven the defendant knew the **purpose** of his actions was to conceal or disguise the illicit nature of the money he had in his possession. This distinction makes it clear that it was irrelevant whether the defendant knew the **effect** would be said illicit nature would become concealed/disguised.
 
 This matters in the case of Samourai Wallet, given precisely the allegations made by the prosecutor. As the prosecutor claims: Samourai Wallet performs zero checks on who brings their bitcoin to Whirlpool. That means by default that Samourai Wallet have no information about any possible illicit nature behind the source of any bitcoin. Given this fact, no "purpose" for using Whirlpool could be inferred by Samourai Wallet from any of the incoming bitcoin.
 
-Another case was [vacated](https://www.law.cornell.edu/supremecourt/text/06-1005?ref=blog.ronindojo.io), despite the defendant pleading guilty, for the reason that the "profits" were not **used** in the illegal activity. The term "proceeds" was initially interpreted by the court to imply "all revenue of the illegal activity", which if held up would mean all criminal enterprise by definition would also be money laundering. To prevent this becoming the precedent, and keep the law's interpretation clear for its purpose, the District Court established money laundering to be specifically related to the profits of illegal activity, affirmed by the Seventh Circuit.
+Another case was [vacated](https://www.law.cornell.edu/supremecourt/text/06-1005), despite the defendant pleading guilty, for the reason that the "profits" were not **used** in the illegal activity. The term "proceeds" was initially interpreted by the court to imply "all revenue of the illegal activity", which if held up would mean all criminal enterprise by definition would also be money laundering. To prevent this becoming the precedent, and keep the law's interpretation clear for its purpose, the District Court established money laundering to be specifically related to the profits of illegal activity, affirmed by the Seventh Circuit.
 
 At the very least, this means that the prosecution cannot claim what Samourai Wallet did with the revenue of Whirlpool for maintaining the business (i.e. paying for servers) to be relevant for any alleged money laundering (prosecution claiming otherwise in paragraph 11 in the indictment).
 
@@ -185,23 +185,23 @@ There's roughly three months that went by between between Samourai Wallet's resp
 
 ### The FBI campaigned to threaten cryptocurrency users that they must use registered money transmitters
 
-One(!) day after the arrest and asset seizure, the government releases an ["Alert on Cryptocurrency Money Services Businesses"](https://www.ic3.gov/Media/Y2024/PSA240425?ref=blog.ronindojo.io). Here, the FBI (as the enforcement arm of the DoJ) seems to imply that any cryptocurrency related service must follow the Money Transmitter regulations because otherwise they can expect the same judicial overreach that has been used on Samourai Wallet. This is a very disturbing and worrying statement so closely timed to their arrest, for obvious reasons (re: they have no control over those who aren't a money transmitter, so they try to force everybody's hand to become a registered money transmitter).
+One(!) day after the arrest and asset seizure, the government releases an ["Alert on Cryptocurrency Money Services Businesses"](https://www.ic3.gov/Media/Y2024/PSA240425). Here, the FBI (as the enforcement arm of the DoJ) seems to imply that any cryptocurrency related service must follow the Money Transmitter regulations because otherwise they can expect the same judicial overreach that has been used on Samourai Wallet. This is a very disturbing and worrying statement so closely timed to their arrest, for obvious reasons (re: they have no control over those who aren't a money transmitter, so they try to force everybody's hand to become a registered money transmitter).
 
 The effects of this have become very real already, as several services have responded by exiting the US, shutting down, or worse: implemented KYC.
 
-- Shutdown: [LocalMonero and Agoradesk](https://alternativeto.net/news/2024/5/prominent-no-kyc-crypto-exchanges-localmonero-and-agoradesk-shut-down/?ref=blog.ronindojo.io)
-- US exit: [WasabiWallet and Phoenix Wallet (Acinq)](https://www.coindesk.com/consensus-magazine/2024/04/29/as-wasabi-wallet-and-phoenix-leave-the-us-whats-next-for-non-custodial-crypto/?ref=blog.ronindojo.io)
-- US exit: [HodlHodl](https://medium.com/hodl-hodl/effective-immediately-hodl-hodl-has-blocked-access-to-its-lending-platform-for-users-in-the-usa-11c294369850?ref=blog.ronindojo.io)
-- US Exit: [Ibex](https://dapp.expert/news/en_ibex-pay-announces-exit-from-us-market?ref=blog.ronindojo.io)
-- Implemented KYC: [Speed Wallet](https://www.nobsbitcoin.com/speed-wallet-kyc-us-customers/?ref=blog.ronindojo.io)
+- Shutdown: [LocalMonero and Agoradesk](https://alternativeto.net/news/2024/5/prominent-no-kyc-crypto-exchanges-localmonero-and-agoradesk-shut-down/)
+- US exit: [WasabiWallet and Phoenix Wallet (Acinq)](https://www.coindesk.com/consensus-magazine/2024/04/29/as-wasabi-wallet-and-phoenix-leave-the-us-whats-next-for-non-custodial-crypto/)
+- US exit: [HodlHodl](https://medium.com/hodl-hodl/effective-immediately-hodl-hodl-has-blocked-access-to-its-lending-platform-for-users-in-the-usa-11c294369850)
+- US Exit: [Ibex](https://dapp.expert/news/en_ibex-pay-announces-exit-from-us-market)
+- Implemented KYC: [Speed Wallet](https://www.nobsbitcoin.com/speed-wallet-kyc-us-customers/)
 
 And with this we can see the chilling effect of judicial overreach before the Samourai Wallet trial has even begun.
 
 ### The US government's pet "witness" can make claims you cannot refute
 
-About a month before the Samourai Wallet indictment, [Roman Sterlingov was convicted](https://www.torekeland.com/roman-sterlingov/?ref=blog.ronindojo.io) by the US government of operating an unlicensed money transmitter in a most [curious case](https://vonupodcast.com/tvp-184-chainanalysis-coercion-quack-science-the-troubling-case-of-roman-sterlingov-with-tor-ekelend-mike-hassard-sw-from-samourai-wallet/?ref=blog.ronindojo.io). The government alleges he was the administrator of the Bitcoin Fog custodial tumbler, with attribution to Sterlingov primarily coming from IP address and blockchain forensic data provided by Chainalysis as an "[expert witness](https://cointelegraph.com/news/bad-blockchain-forensics-convict-roman-sterlingov?ref=blog.ronindojo.io)".
+About a month before the Samourai Wallet indictment, [Roman Sterlingov was convicted](https://www.torekeland.com/roman-sterlingov/) by the US government of operating an unlicensed money transmitter in a most [curious case](https://vonupodcast.com/tvp-184-chainanalysis-coercion-quack-science-the-troubling-case-of-roman-sterlingov-with-tor-ekelend-mike-hassard-sw-from-samourai-wallet/). The government alleges he was the administrator of the Bitcoin Fog custodial tumbler, with attribution to Sterlingov primarily coming from IP address and blockchain forensic data provided by Chainalysis as an "[expert witness](https://cointelegraph.com/news/bad-blockchain-forensics-convict-roman-sterlingov)".
 
-For their part, Samurai Wallet and OXT aided in the defenses preparation for Daubert hearings on the validity and admissibility of the Chainalysis software and heuristics. During the hearings, several issues with Chainalysis methodologies were disclosed by Chainalysis Head of Investigations including both lack of error rate tracking and peer review of the Chainalysis code base. Despite these issues the judge of the case ruled that Chainalysis Reactor was admissible using [pseudoscience](https://archive.ph/lzVXd?ref=blog.ronindojo.io) logic.
+For their part, Samurai Wallet and OXT aided in the defenses preparation for Daubert hearings on the validity and admissibility of the Chainalysis software and heuristics. During the hearings, several issues with Chainalysis methodologies were disclosed by Chainalysis Head of Investigations including both lack of error rate tracking and peer review of the Chainalysis code base. Despite these issues the judge of the case ruled that Chainalysis Reactor was admissible using [pseudoscience](https://archive.ph/lzVXd) logic.
 
 Additionally both OXT and CipherTrace, Sterlingov's main expert witness and a direct competitor to Chainalysis, were effectively barred from review of Chainalysis proprietary blackbox heuristics. CipherTrace was set to testify against Chainalysis heuristics and application of block chain forensics use as a primary attribution methodology in criminal prosecution. However one week before trial, CipherTrace was pulled from the case by their wholly owned subsidiary, MasterCard.
 
@@ -219,9 +219,9 @@ The government will use their "expert witness" to make claims you're not allowed
 
 Another case in the same theme was that of TornadoCash. Alexey Pertsev was arrested Feb 15 2023 initially without charges and later charged with money laundering (NL law), Roman Storm and Roman Semenov were indicted Aug 25 2024 for conspiracy charges (US law, money laundering, operating unlicensed money transmitting business, violate sanctions). It seems the US government has found its "hammer to hit every nail with" by charging privacy coders with whichever category they can easily get conspiracy convictions for.
 
-What's probably the most important consequence thus far is the ruling on [Alexey Pertsev](https://www.freealex.nl/?ref=blog.ronindojo.io). The statement made by the judge reading the conviction was a most [chilling](https://en.wikipedia.org/wiki/Chilling_effect?ref=blog.ronindojo.io) one:
+What's probably the most important consequence thus far is the ruling on [Alexey Pertsev](https://www.freealex.nl/). The statement made by the judge reading the conviction was a most [chilling](https://en.wikipedia.org/wiki/Chilling_effect) one:
 
-> ... [because they did not put any "barriers" in their software to oppose criminals who would want to use it for laundering, the defendant was found guilty of money laundering](https://thehackernews.com/2024/05/dutch-court-sentences-tornado-cash-co.html?ref=blog.ronindojo.io).
+> ... [because they did not put any "barriers" in their software to oppose criminals who would want to use it for laundering, the defendant was found guilty of money laundering](https://thehackernews.com/2024/05/dutch-court-sentences-tornado-cash-co.html).
 
 While the Pertsev trial did not occur in the US, what is shown in all these cases is the impact of the collaboration between the western jurisdictions. Portugal, Iceland, EuroPol, the USA Government, these have worked together in the Samourai Wallet indictment and arrest. In Alexey's case: also the Netherlands. Likely, any EU member state can be considered a part of this litigious covenant.
 
@@ -233,9 +233,9 @@ Samourai Wallet hosted their servers in Iceland. This jurisdiction was precisely
 
 So now we are in the situation where, several months in a row, one privacy coder is put out of commission after another, using lawfare and unjust procedures as a weapon already. They silence those who voice their criticism of the government's proposals to make "unregulated behavior" illegal. They stop those who build privacy solutions and put them in prison.
 
-Two senators have already voiced their disdain for the situation. Senator Lummis stated how [“This stance contradicts existing Treasury guidance, common sense and violates the rule of law”](https://cryptonews.com/news/cynthia-lummis-slams-doj-after-tornado-cash-saourai-wallet-charges.htm?ref=blog.ronindojo.io). She sent a letter together with Senator Wyden urging the Department of Justice to reconsider its enforcement action in the case of Samourai Wallet. Other well connected individuals such as [Caitlin Long](https://x.com/CaitlinLong_/status/1784292300270575730?ref=blog.ronindojo.io) are also starting to take notice.
+Two senators have already voiced their disdain for the situation. Senator Lummis stated how [“This stance contradicts existing Treasury guidance, common sense and violates the rule of law”](https://cryptonews.com/news/cynthia-lummis-slams-doj-after-tornado-cash-saourai-wallet-charges.htm). She sent a letter together with Senator Wyden urging the Department of Justice to reconsider its enforcement action in the case of Samourai Wallet. Other well connected individuals such as [Caitlin Long](https://x.com/CaitlinLong_/status/1784292300270575730) are also starting to take notice.
 
-We must reiterate that [Non-custodial mixers are not money transmitters](https://blog.samourai.is/statement-on-legality-of-coinjoin-and-other-privacy-tools/?ref=blog.ronindojo.io). No new law has been passed yet that changes this. But the Samourai Wallet trial may set the precedent such that they needn't go through the trouble of enacting new law.
+We must reiterate that [Non-custodial mixers are not money transmitters](https://blog.samourai.is/statement-on-legality-of-coinjoin-and-other-privacy-tools/). No new law has been passed yet that changes this. But the Samourai Wallet trial may set the precedent such that they needn't go through the trouble of enacting new law.
 
 Given that the prosecutor claims Samourai Wallet have "transferred funds on behalf of the public" when there is no evidence of the sort, because Samourai Wallet never did this, this could open up many possible interpretations of Bitcoin use by the government, all to the detriment of Bitcoin users.
 
@@ -245,9 +245,9 @@ And if we go beyond the parts of Bitcoin that handle funds directly (even if non
 
 Bitcoin's node implementations and the wallets people use may become the next target pending the outcome of this trial. But at that point, Pandora's box has already been opened to go after any software or service. Imagine Signal messenger being prosecuted for "conspiracy" because some criminals used it for encrypted communication.
 
-This is not hyperbole in the slightest. The US already has a terrible track record respecting the privacy of its citizens, but more importantly it was a hard fought battle for the [precedence](https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech/?ref=blog.ronindojo.io) in US law about the [first](https://archive.epic.org/crypto/export_controls/bernstein_decision_9_cir.html?ref=blog.ronindojo.io) amendment [protection](https://www.theregister.com/2021/06/08/pgp_at_30/?ref=blog.ronindojo.io) of [code](https://reason.com/video/2020/10/21/cryptowars-gilmore-zimmermann-cryptography/?ref=blog.ronindojo.io).
+This is not hyperbole in the slightest. The US already has a terrible track record respecting the privacy of its citizens, but more importantly it was a hard fought battle for the [precedence](https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech/) in US law about the [first](https://archive.epic.org/crypto/export_controls/bernstein_decision_9_cir.html) amendment [protection](https://www.theregister.com/2021/06/08/pgp_at_30/) of [code](https://reason.com/video/2020/10/21/cryptowars-gilmore-zimmermann-cryptography/).
 
-This situation is likely to impact Bitcoin for all US citizens, and citizens of foreign nations (re: EU member states) where the US government extends their enforcement upon. Bitcoin has its [own history](https://blog.samourai.is/reflections-on-bitcoin-as-peer-to-peer-cash/?ref=blog.ronindojo.io) in relation to the US legislature, where it depends on its constituents to fight for their own rights to the freedom to transact and their freedom to do so privately.
+This situation is likely to impact Bitcoin for all US citizens, and citizens of foreign nations (re: EU member states) where the US government extends their enforcement upon. Bitcoin has its [own history](https://blog.samourai.is/reflections-on-bitcoin-as-peer-to-peer-cash/) in relation to the US legislature, where it depends on its constituents to fight for their own rights to the freedom to transact and their freedom to do so privately.
 
 One such moment in history to join the fight is right fucking now.
 
@@ -257,7 +257,7 @@ Privacy is a human fight
 
 ## What you can do to help
 
-**Donate** to the Samourai Wallet defense fund: [http://p2prights.org/?ref=blog.ronindojo.io](http://p2prights.org/?ref=blog.ronindojo.io). Fill in the form to make a tax-deductible donation or **_leave the information as N/A to make an anonymous donation._** Put the following as the "purpose" of the donation (bottom form field):
+**Donate** to the Samourai Wallet defense fund: [http://p2prights.org/](http://p2prights.org/). Fill in the form to make a tax-deductible donation or **_leave the information as N/A to make an anonymous donation._** Put the following as the "purpose" of the donation (bottom form field):
 
 > U.S. v. Rodriguez & Hill (Samourai Wallet)
 
@@ -274,7 +274,7 @@ Privacy is a human fight
 - Español: [https://blog.ronindojo.io/freesamourai-es](https://blog.ronindojo.io/freesamourai-es/)
 - Português: [https://blog.ronindojo.io/freesamourai-pt](https://blog.ronindojo.io/freesamourai-pt)
 - Русский: [https://blog.ronindojo.io/freesamourai-ru](https://blog.ronindojo.io/freesamourai-ru)
-- Audio(English): [https://episodes.fm/1491067458/episode/ZTUxYmU4ZmItNjlmMy00YWZiLTk4M2UtMDhkMWQyNjY4ZTg5](https://episodes.fm/1491067458/episode/ZTUxYmU4ZmItNjlmMy00YWZiLTk4M2UtMDhkMWQyNjY4ZTg5?ref=blog.ronindojo.io)
+- Audio(English): [https://episodes.fm/1491067458/episode/ZTUxYmU4ZmItNjlmMy00YWZiLTk4M2UtMDhkMWQyNjY4ZTg5](https://episodes.fm/1491067458/episode/ZTUxYmU4ZmItNjlmMy00YWZiLTk4M2UtMDhkMWQyNjY4ZTg5)
 
 **Stay Informed**: Follow updates on the case and learn more about the broader implications for the Bitcoin community.
 
