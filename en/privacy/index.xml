@@ -17,4 +17,11 @@ Contribute.
 Contribute.
 Background # Bitcoin transactions are public by nature; they map inputs (unspent utxo’s) to outputs (new unspent utxo’s) in a way that is auditable by anyone with access to the bitcoin blockchain (the history of transactions). Yet interpreting these transactions and the Blockchain is a non-trivial task, because Bitcoin transaction are not equivalent to Bitcoin payments.
 The Problem # Because anyone can see the links between transaction inputs and outputs it’s possible for anyone to analyse previous and future transaction behavior in an attempt to link multiple Bitcoin addresses to the same entity, this process is sometimes called clustering.</description></item><item><title>Bitcoin Fungibility</title><link>https://21ideas.org/en/bitcoin-fungibility/</link><pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-fungibility/</guid><description>This presentation was introduced by TDevD on Dirtcoin Diaries podcast. Okay, so basically it&amp;rsquo;s just my views as to the current state of Bitcoin fungibility. I&amp;rsquo;ll try to avoid any stream of consciousness stuff and get right to the point.
-I’ll start off with playing a devil’s advocate. Perhaps, all of our problems with fungibility is our fault, maybe we dropped the ball and allowed Bitcoin to be defined as &amp;ldquo;money&amp;rdquo; by the state.</description></item></channel></rss>
+I’ll start off with playing a devil’s advocate. Perhaps, all of our problems with fungibility is our fault, maybe we dropped the ball and allowed Bitcoin to be defined as &amp;ldquo;money&amp;rdquo; by the state.</description></item><item><title>#FreeSamourai</title><link>https://21ideas.org/en/freesamourai/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/freesamourai/</guid><description>Samourai Wallet&amp;rsquo;s founders were arrested, indicted, and charged despite following the law. It seems the US government is starting another campaign against privacy, which we cannot allow to remain unopposed.
+Cover: Wallet Guy and TDevD facing the beast.
+This article by dammkewl was originally published in RoninDojo blog.
+Español 🇪🇸🇲🇽🇨🇴🇦🇷🇵🇪
+Português 🇵🇹🇧🇷
+Русский 🇷🇺🇧🇾
+Audio (English)
+Samourai Wallet # From the start, Samourai Wallet have been transparent about their services. They provided their code fully open sourced and explained every public service they ran.</description></item></channel></rss>
