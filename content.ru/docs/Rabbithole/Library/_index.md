@@ -169,7 +169,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/osvaivaem-bitcoin" class="button">Подробнее</a>
-            <a href="/epubs/mastering-bitcoin.pdf" class="button">Скачать</a>
+            <a href="/epubs/mastering-bitcoin-3e.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -291,6 +291,22 @@ weight: 1
         </div>
 </div>
 
+<div class="card">
+    <img src="/img/books/mashina-pravdy.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Эта книга для тех, кто интересуется технологией блокчейн, проблемами децентрализации и цифровым будущим человечества.</p>
+    </div>
+    <div class="card-content">
+        <h2>Машина правды</h2>
+        <p>Автор: Майкл Кейси / Пол Винья</p>
+        </div> 
+        <div class="button-container">
+            <a href="/mashina-pravdy" class="button">Подробнее</a>
+            <a href="/epubs/mashina-pravdy.pdf" class="button">Скачать</a>
+        </div>
+</div>
+
+<br>
 <h2>Экономика</h2>
 <br>
 

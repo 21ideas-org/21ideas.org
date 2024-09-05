@@ -4,7 +4,7 @@ h1: "Грокаем технологию Биткоин"
 cover: /img/books/grokaem-tekhnologiyu-bitcoin.png
 description: "Основы технологии Биткоин; хеш-функции и цифровые подписи; криптография и алгоритмы шифрования; анатомия транзакций; верификация и пропускная способность; хард- и софт-форки."
 url: grokaem-bitcoin
-date: 2019-09-07
+date: 2020-02-26
 bookFlatSection: false
 weight: 90
 ---

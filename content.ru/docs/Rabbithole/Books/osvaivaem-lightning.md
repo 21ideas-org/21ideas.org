@@ -4,7 +4,7 @@ h1: "Осваиваем сеть Лайтнинг"
 cover: /img/books/mastering-lightning-network.png
 description: "Издание адресовано разработчикам, системным архитекторам, инвесторам и предпринимателям, желающим лучше понять сеть Лайтнинг."
 url: osvaivaem-lightning
-date: 2022-09-07
+date: 2022-01-04
 bookFlatSection: false
 weight: 90
 ---
