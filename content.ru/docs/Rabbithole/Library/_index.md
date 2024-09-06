@@ -189,6 +189,21 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/books/programming-bitcoin.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Эта книга служит наиболее эффективным и исчерпывающим источником информации для изучения биткоина и блокчейна через программирование.</p>
+    </div>
+    <div class="card-content">
+        <h2>Программируем Биткоин</h2>
+        <p>Автор: Джимми Сонг</p> 
+        </div> 
+        <div class="button-container">
+            <a href="/programming-bitcoin" class="button">Подробнее</a>
+            <a href="/epubs/programming-bitcoin.pdf" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/books/grokaem-tekhnologiyu-bitcoin.png" alt="Обложка">
     <div class="hover-text">
         <p>Хеш-функции и цифровые подписи, криптография и алгоритмы шифрования, анатомия транзакций и многое другое.</p>
@@ -302,11 +317,10 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/mashina-pravdy" class="button">Подробнее</a>
-            <a href="/epubs/mashina-pravdy.pdf" class="button">Скачать</a>
+            <a href="/epubs/mashina-pravdy.epub" class="button">Скачать</a>
         </div>
 </div>
 
-<br>
 <h2>Экономика</h2>
 <br>
 
