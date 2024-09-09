@@ -65,6 +65,7 @@ url: table
 | - 21,000 | [Radiokot](https://github.com/Radiokot) | "[Новый подраздел для Вестника](https://github.com/21ideas-org/21ideas.org/pull/256) и другие улучшения" | 224,000 |
 | - 50,000 | [btclinux](https://github.com/btclinux) | "Статьи о Samourai, Roning Dojo" | 174,000 |
 | **+500,000** | [Тони⚡️](https://github.com/bitcoin21ideas) | "В фонд проекта благодаря анонимным донатам." | 674,000 |
-| - 210,000 | [btclinux](https://github.com/btclinux) | "Перевод и добавление англоязычных версий статей" | 464,000 |
-| - 30,000 | [btclinux](https://github.com/btclinux) | "Перевод и добавление англоязычных версий статей" | 434,000 |
-| - 2100 | [Radiokot](https://github.com/Radiokot) | "Исправление ошибки меню сайта | 432,000 |
+| - 210,000 | [btclinux](https://github.com/btclinux) | Перевод и добавление англоязычных версий статей" | 464,000 |
+| - 30,000 | [btclinux](https://github.com/btclinux) | Перевод и добавление англоязычных версий статей | 434,000 |
+| - 2100 | [Radiokot](https://github.com/Radiokot) | Исправление ошибки меню сайта | 432,000 |
+| - 12,000 | [btclinux](https://github.com/btclinux) |  Помощь в переносе библиотеки биткоинера | 420,000 |
