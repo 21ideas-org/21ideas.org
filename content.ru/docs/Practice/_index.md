@@ -1,9 +1,9 @@
 ---
 title: Практика
 type: docs
-h1: " "
-cover: /img/main-section/ru/practice-light.png
-coverDark: /img/main-section/ru/practice.png
+h1: "Практика"
+# cover: /img/main-section/ru/practice-light.png
+# coverDark: /img/main-section/ru/practice.png
 bookFlatSection: false
 bookCollapseSection: true
 url: practice
@@ -11,7 +11,7 @@ weight: 3
 ---
 
 
-Практика - один из основных разделов сайта, включающий в себя множество подразделов.
+__Практика__ - один из основных разделов сайта, включающий в себя множество подразделов.
 
 Обратите внимание на этот [гид для новичков](/start/guide), если вы находитесь в самом начале вашего пути по кроличьей норе Биткоина.
 

@@ -1,10 +1,10 @@
 ---
 title: "Подкасты"
-h1: " "
+h1: "Подкасты"
 tags: ["подкасты", "биткоин", "экономика'", "ностр"]
 description: "Сборник лучших подкастов о Биткоине, распределенных протоколах, информационной безопасности, экономике и личностном суверенитете."
-cover: /img/main-section/ru/podcasts-light.png
-coverDark: /img/main-section/ru/podcasts.png
+# cover: /img/main-section/ru/podcasts-light.png
+# coverDark: /img/main-section/ru/podcasts.png
 url: pods
 bookCollapseSection: false
 bookFlatSection: false
