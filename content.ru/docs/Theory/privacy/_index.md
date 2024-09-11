@@ -1,9 +1,9 @@
 ---
 title: "Приватность"
 type: docs
-h1: " "
-cover: /img/main-section/ru/privacy-light.png
-coverDark: /img/main-section/ru/privacy.png
+h1: "Приватность"
+# cover: /img/main-section/ru/privacy-light.png
+# coverDark: /img/main-section/ru/privacy.png
 bookCollapseSection: true
 url: privacy
 weight: 3

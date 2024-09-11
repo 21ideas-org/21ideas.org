@@ -1,10 +1,10 @@
 ---
 title: "Книги"
-h1: " "
+h1: "Библиотека"
 tags: ["книги", "биткоин", "чтение", "биткоин-книги"]
 type: docs
-cover: /img/main-section/ru/library-light.png
-coverDark: /img/main-section/ru/library.png
+# cover: /img/main-section/ru/library-light.png
+# coverDark: /img/main-section/ru/library.png
 url: books
 bookFlatSection: false
 weight: 1

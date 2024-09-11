@@ -1,9 +1,9 @@
 ---
 title: "Лайтнинг на практике"
 type: docs
-h1: " "
-cover: /img/main-section/ru/lightning-light.png
-coverDark: /img/main-section/ru/lightning.png
+h1: "Лайтнинг"
+# cover: /img/main-section/ru/lightning-light.png
+# coverDark: /img/main-section/ru/lightning.png
 bookCollapseSection: true
 url: practice/lightning
 weight: 6

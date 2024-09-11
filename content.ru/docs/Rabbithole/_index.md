@@ -1,15 +1,15 @@
 ---
 title: "Кроличья нора"
-h1: " "
+h1: "Кроличья нора"
 type: docs
-cover: /img/main-section/ru/rabbithole-light.png
-coverDark: /img/main-section/ru/rabbithole.png
+# cover: /img/main-section/ru/rabbithole-light.png
+# coverDark: /img/main-section/ru/rabbithole.png
 bookCollapseSection: true
 url: rabbithole
 weight: 4
 ---
 
-В этом разделе собраны материалы, которые помогут вам погрузиться еще глубже в кроличью нору Биткоина - книги, видео, подкасты и многое другое. 
+В разделе __Кроличья нора__ собраны материалы, которые помогут вам погрузиться еще глубже в кроличью нору Биткоина - книги, видео, подкасты и многое другое. 
 
 {{< tabs "Rabbithole" >}}
 {{< tab "Книги" >}}

@@ -1,9 +1,9 @@
 ---
 title: "История"
 type: docs
-h1: " "
-cover: /img/main-section/ru/history-light.png
-coverDark: /img/main-section/ru/history.png
+h1: "История"
+# cover: /img/main-section/ru/history-light.png
+# coverDark: /img/main-section/ru/history.png
 bookCollapseSection: true
 url: history
 weight: 5

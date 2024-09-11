@@ -1,8 +1,8 @@
 ---
 title: "Обратная связь"
 h1: Обратная связь
-cover: /img/main-section/ru/feedback-light.png
-coverDark: /img/main-section/ru/feedback.png
+# cover: /img/main-section/ru/feedback-light.png
+# coverDark: /img/main-section/ru/feedback.png
 bookCollapseSection: false
 type: docs
 url: feedback
@@ -30,7 +30,7 @@ menu:
 
 {{< button href="https://njump.me/npub1kenh4ng392s0xnsu8t2x65xycaldcpe4lcjml0z00h8qkyul0c2sgjjvcq" >}}Nostr{{< /button >}}
 
-## Чат B-Talk
+## Чат ₿-Talk
 
 У нас также есть закрытый чат. Вход в него стоит символические 2100 сатоши, которые надо оплатить через Лайтнинг в целях борьбы со спамом. Как только вы перейдете по пригласительной ссылке, бот предоставит вам инвойс, который нужно будет оплатить в течение 15 минут.
 

@@ -1,9 +1,9 @@
 ---
 title: "Хранение"
 type: docs
-h1: " "
-cover: /img/main-section/ru/hodl-light.png
-coverDark: /img/main-section/ru/hodl.png
+h1: "Хранение"
+# cover: /img/main-section/ru/hodl-light.png
+# coverDark: /img/main-section/ru/hodl.png
 bookCollapseSection: true
 url: practice/hodl
 weight: 2

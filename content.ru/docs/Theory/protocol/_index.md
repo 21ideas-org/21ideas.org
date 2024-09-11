@@ -1,9 +1,9 @@
 ---
 title: "Протокол"
 type: docs
-h1: " "
-cover: /img/main-section/ru/protocol-light.png
-coverDark: /img/main-section/ru/protocol.png
+h1: "Протокол"
+# cover: /img/main-section/ru/protocol-light.png
+# coverDark: /img/main-section/ru/protocol.png
 bookCollapseSection: true
 url: protocol
 weight: 4
