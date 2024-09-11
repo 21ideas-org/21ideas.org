@@ -19,16 +19,11 @@
   margin-bottom: 2em;
 }
 
-// Default styling for all pages except type: docs
-h1 {
-  font-family: 'Georgia', sans-serif;  // Replace with your default font
-}
-
-// Specific styling for pages with type: docs
-body.docs h1 {
+// Use Montserrat for seciton (_index) headings
+// https://gohugo.io/methods/page/kind/
+.book-page-section h1 {
   font-family: 'Montserrat', sans-serif;
 }
-
 
 @media screen and (max-width: 1050px) {
   .nostrEmbedCard .nostrichLink {
