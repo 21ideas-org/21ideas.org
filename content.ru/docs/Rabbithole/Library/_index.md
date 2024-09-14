@@ -432,6 +432,21 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/books/lavina.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Лавина Нила Стивенсона находится на пересечении многих жанров и областей знания, включая историю, лингвистику и информатику; его называли как образцом жанра киберпанк, так и деконструкцией этого жанра.</p>
+    </div>
+    <div class="card-content">
+        <h2>Лавина</h2>
+        <p>Автор: Нил Стивенсон</p>
+        </div> 
+        <div class="button-container">
+            <a href="/lavina" class="button">Подробнее</a>
+            <a href="/epubs/lavina.epub" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/books/budushchee-uzhe-ne-to-chto-prezhde.png" alt="Обложка">
     <div class="hover-text">
         <p>В своей книге Карлин с неподражаемым черным юмором дает пощечину лицемерному социуму и власть предержащим, смеется над запретным, сомневается в незыблемом.</p>
