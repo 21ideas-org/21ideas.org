@@ -1,0 +1,107 @@
+body.cover {
+	margin: 0px;
+	oeb-column-number: 1;
+	padding: 0px;
+}
+
+svg.cover-svg {
+	height: 100%;
+	width: 100%;
+}
+
+.z {
+	font-family: 'Times New Roman', serif;
+	margin-right: 8pt;
+}
+
+.p {
+	margin: 0px;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+.a {
+	font-size: 0.7em;
+	line-height: 0.1;
+	vertical-align: super;
+}
+
+.empty-line {
+	height: 1em;
+	margin: 0px;
+}
+
+.title {
+	font-size: 2.2em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 0px;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+.p1 {
+	margin: 0px 0px 0.5em 0px;
+	text-align: inherit;
+	text-indent: 0px;
+}
+
+.title1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1em 0px 0.5em 0px;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: center;
+}
+
+.cite {
+	font-size: 0.95em;
+	margin: 0.5em 0px 0.5em 1em;
+}
+
+.subtitle {
+	font-style: italic;
+	font-weight: bold;
+	margin: 0.5em 2em;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.p2 {
+	margin: 0px;
+	text-align: justify;
+	text-indent: 0px;
+}
+
+.text-author {
+	margin: 0.2em 0px 0px 3em;
+	text-indent: 0px;
+}
+
+.poem {
+	margin: 0.5em 0px 0.5em 2em;
+}
+
+.stanza {
+	margin: 0.5em 0px;
+	page-break-inside: avoid;
+}
+
+.v {
+	margin: 0px;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+.image {
+	padding: 3px;
+	text-align: center;
+}
+
+.z1 {
+	max-width: 95%;
+}
+

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="ru">
+<head>
+<meta name="dtb:uid" content="urn:uuid:b355e4f0-17a2-4c85-9a88-a3a42d36fe1a"/>
+<meta name="dtb:depth" content="2"/>
+<meta name="dtb:totalPageNumber" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle><text>Лавина</text></docTitle>
+<navMap>
+<navPoint playOrder="1" id="id1">
+<navLabel>
+<text>1</text>
+</navLabel>
+<content src="ch1-2.xhtml#id1"/>
+</navPoint>
+<navPoint playOrder="2" id="id2">
+<navLabel>
+<text>2</text>
+</navLabel>
+<content src="ch1-3.xhtml#id2"/>
+</navPoint>
+<navPoint playOrder="3" id="id3">
+<navLabel>
+<text>3</text>
+</navLabel>
+<content src="ch1-4.xhtml#id3"/>
+</navPoint>
+<navPoint playOrder="4" id="id4">
+<navLabel>
+<text>4</text>
+</navLabel>
+<content src="ch1-5.xhtml#id4"/>
+</navPoint>
+<navPoint playOrder="5" id="id5">
+<navLabel>
+<text>5</text>
+</navLabel>
+<content src="ch1-6.xhtml#id5"/>
+</navPoint>
+<navPoint playOrder="6" id="id6">
+<navLabel>
+<text>6</text>
+</navLabel>
+<content src="ch1-7.xhtml#id6"/>
+</navPoint>
+<navPoint playOrder="7" id="id7">
+<navLabel>
+<text>7</text>
+</navLabel>
+<content src="ch1-8.xhtml#id7"/>
+</navPoint>
+<navPoint playOrder="8" id="id8">
+<navLabel>
+<text>8</text>
+</navLabel>
+<content src="ch1-9.xhtml#id8"/>
+</navPoint>
+<navPoint playOrder="9" id="id9">
+<navLabel>
+<text>9</text>
+</navLabel>
+<content src="ch1-10.xhtml#id9"/>
+</navPoint>
+<navPoint playOrder="10" id="id10">
+<navLabel>
+<text>10</text>
+</navLabel>
+<content src="ch1-11.xhtml#id10"/>
+</navPoint>
+<navPoint playOrder="11" id="id11">
+<navLabel>
+<text>11</text>
+</navLabel>
+<content src="ch1-12.xhtml#id11"/>
+</navPoint>
+<navPoint playOrder="12" id="id12">
+<navLabel>
+<text>12</text>
+</navLabel>
+<content src="ch1-13.xhtml#id12"/>
+</navPoint>
+<navPoint playOrder="13" id="id13">
+<navLabel>
+<text>13</text>
+</navLabel>
+<content src="ch1-14.xhtml#id13"/>
+</navPoint>
+<navPoint playOrder="14" id="id14">
+<navLabel>
+<text>14</text>
+</navLabel>
+<content src="ch1-15.xhtml#id14"/>
+</navPoint>
+<navPoint playOrder="15" id="id15">
+<navLabel>
+<text>15</text>
+</navLabel>
+<content src="ch1-16.xhtml#id15"/>
+</navPoint>
+<navPoint playOrder="16" id="id16">
+<navLabel>
+<text>16</text>
+</navLabel>
+<content src="ch1-17.xhtml#id16"/>
+</navPoint>
+<navPoint playOrder="17" id="id17">
+<navLabel>
+<text>17</text>
+</navLabel>
+<content src="ch1-18.xhtml#id17"/>
+</navPoint>
+<navPoint playOrder="18" id="id18">
+<navLabel>
+<text>18</text>
+</navLabel>
+<content src="ch1-19.xhtml#id18"/>
+</navPoint>
+<navPoint playOrder="19" id="id19">
+<navLabel>
+<text>19</text>
+</navLabel>
+<content src="ch1-20.xhtml#id19"/>
+</navPoint>
+<navPoint playOrder="20" id="id20">
+<navLabel>
+<text>20</text>
+</navLabel>
+<content src="ch1-21.xhtml#id20"/>
+</navPoint>
+<navPoint playOrder="21" id="id21">
+<navLabel>
+<text>21</text>
+</navLabel>
+<content src="ch1-22.xhtml#id21"/>
+</navPoint>
+<navPoint playOrder="22" id="id22">
+<navLabel>
+<text>22</text>
+</navLabel>
+<content src="ch1-23.xhtml#id22"/>
+</navPoint>
+<navPoint playOrder="23" id="id23">
+<navLabel>
+<text>23</text>
+</navLabel>
+<content src="ch1-24.xhtml#id23"/>
+</navPoint>
+<navPoint playOrder="24" id="id24">
+<navLabel>
+<text>24</text>
+</navLabel>
+<content src="ch1-25.xhtml#id24"/>
+</navPoint>
+<navPoint playOrder="25" id="id25">
+<navLabel>
+<text>25</text>
+</navLabel>
+<content src="ch1-26.xhtml#id25"/>
+</navPoint>
+<navPoint playOrder="26" id="id26">
+<navLabel>
+<text>26</text>
+</navLabel>
+<content src="ch1-27.xhtml#id26"/>
+</navPoint>
+<navPoint playOrder="27" id="id27">
+<navLabel>
+<text>27</text>
+</navLabel>
+<content src="ch1-28.xhtml#id27"/>
+</navPoint>
+<navPoint playOrder="28" id="id28">
+<navLabel>
+<text>28</text>
+</navLabel>
+<content src="ch1-29.xhtml#id28"/>
+</navPoint>
+<navPoint playOrder="29" id="id29">
+<navLabel>
+<text>29</text>
+</navLabel>
+<content src="ch1-30.xhtml#id29"/>
+</navPoint>
+<navPoint playOrder="30" id="id30">
+<navLabel>
+<text>30</text>
+</navLabel>
+<content src="ch1-31.xhtml#id30"/>
+</navPoint>
+<navPoint playOrder="31" id="id31">
+<navLabel>
+<text>31</text>
+</navLabel>
+<content src="ch1-32.xhtml#id31"/>
+</navPoint>
+<navPoint playOrder="32" id="id32">
+<navLabel>
+<text>32</text>
+</navLabel>
+<content src="ch1-33.xhtml#id32"/>
+</navPoint>
+<navPoint playOrder="33" id="id33">
+<navLabel>
+<text>33</text>
+</navLabel>
+<content src="ch1-34.xhtml#id33"/>
+</navPoint>
+<navPoint playOrder="34" id="id34">
+<navLabel>
+<text>34</text>
+</navLabel>
+<content src="ch1-35.xhtml#id34"/>
+</navPoint>
+<navPoint playOrder="35" id="id35">
+<navLabel>
+<text>35</text>
+</navLabel>
+<content src="ch1-36.xhtml#id35"/>
+</navPoint>
+<navPoint playOrder="36" id="id36">
+<navLabel>
+<text>36</text>
+</navLabel>
+<content src="ch1-37.xhtml#id36"/>
+</navPoint>
+<navPoint playOrder="37" id="id37">
+<navLabel>
+<text>37</text>
+</navLabel>
+<content src="ch1-38.xhtml#id37"/>
+</navPoint>
+<navPoint playOrder="38" id="id38">
+<navLabel>
+<text>38</text>
+</navLabel>
+<content src="ch1-39.xhtml#id38"/>
+</navPoint>
+<navPoint playOrder="39" id="id39">
+<navLabel>
+<text>39</text>
+</navLabel>
+<content src="ch1-40.xhtml#id39"/>
+</navPoint>
+<navPoint playOrder="40" id="id40">
+<navLabel>
+<text>40</text>
+</navLabel>
+<content src="ch1-41.xhtml#id40"/>
+</navPoint>
+<navPoint playOrder="41" id="id41">
+<navLabel>
+<text>41</text>
+</navLabel>
+<content src="ch1-42.xhtml#id41"/>
+</navPoint>
+<navPoint playOrder="42" id="id42">
+<navLabel>
+<text>42</text>
+</navLabel>
+<content src="ch1-43.xhtml#id42"/>
+</navPoint>
+<navPoint playOrder="43" id="id43">
+<navLabel>
+<text>43</text>
+</navLabel>
+<content src="ch1-44.xhtml#id43"/>
+</navPoint>
+<navPoint playOrder="44" id="id44">
+<navLabel>
+<text>44</text>
+</navLabel>
+<content src="ch1-45.xhtml#id44"/>
+</navPoint>
+<navPoint playOrder="45" id="id45">
+<navLabel>
+<text>45</text>
+</navLabel>
+<content src="ch1-46.xhtml#id45"/>
+</navPoint>
+<navPoint playOrder="46" id="id46">
+<navLabel>
+<text>46</text>
+</navLabel>
+<content src="ch1-47.xhtml#id46"/>
+</navPoint>
+<navPoint playOrder="47" id="id47">
+<navLabel>
+<text>47</text>
+</navLabel>
+<content src="ch1-48.xhtml#id47"/>
+</navPoint>
+<navPoint playOrder="48" id="id48">
+<navLabel>
+<text>48</text>
+</navLabel>
+<content src="ch1-49.xhtml#id48"/>
+</navPoint>
+<navPoint playOrder="49" id="id49">
+<navLabel>
+<text>49</text>
+</navLabel>
+<content src="ch1-50.xhtml#id49"/>
+</navPoint>
+<navPoint playOrder="50" id="id50">
+<navLabel>
+<text>50</text>
+</navLabel>
+<content src="ch1-51.xhtml#id50"/>
+</navPoint>
+<navPoint playOrder="51" id="id51">
+<navLabel>
+<text>51</text>
+</navLabel>
+<content src="ch1-52.xhtml#id51"/>
+</navPoint>
+<navPoint playOrder="52" id="id52">
+<navLabel>
+<text>52</text>
+</navLabel>
+<content src="ch1-53.xhtml#id52"/>
+</navPoint>
+<navPoint playOrder="53" id="id53">
+<navLabel>
+<text>53</text>
+</navLabel>
+<content src="ch1-54.xhtml#id53"/>
+</navPoint>
+<navPoint playOrder="54" id="id54">
+<navLabel>
+<text>54</text>
+</navLabel>
+<content src="ch1-55.xhtml#id54"/>
+</navPoint>
+<navPoint playOrder="55" id="id55">
+<navLabel>
+<text>55</text>
+</navLabel>
+<content src="ch1-56.xhtml#id55"/>
+</navPoint>
+<navPoint playOrder="56" id="id56">
+<navLabel>
+<text>56</text>
+</navLabel>
+<content src="ch1-57.xhtml#id56"/>
+</navPoint>
+<navPoint playOrder="57" id="id57">
+<navLabel>
+<text>57</text>
+</navLabel>
+<content src="ch1-58.xhtml#id57"/>
+</navPoint>
+<navPoint playOrder="58" id="id58">
+<navLabel>
+<text>58</text>
+</navLabel>
+<content src="ch1-59.xhtml#id58"/>
+</navPoint>
+<navPoint playOrder="59" id="id59">
+<navLabel>
+<text>59</text>
+</navLabel>
+<content src="ch1-60.xhtml#id59"/>
+</navPoint>
+<navPoint playOrder="60" id="id60">
+<navLabel>
+<text>60</text>
+</navLabel>
+<content src="ch1-61.xhtml#id60"/>
+</navPoint>
+<navPoint playOrder="61" id="id61">
+<navLabel>
+<text>61</text>
+</navLabel>
+<content src="ch1-62.xhtml#id61"/>
+</navPoint>
+<navPoint playOrder="62" id="id62">
+<navLabel>
+<text>62</text>
+</navLabel>
+<content src="ch1-63.xhtml#id62"/>
+</navPoint>
+<navPoint playOrder="63" id="id63">
+<navLabel>
+<text>63</text>
+</navLabel>
+<content src="ch1-64.xhtml#id63"/>
+</navPoint>
+<navPoint playOrder="64" id="id64">
+<navLabel>
+<text>64</text>
+</navLabel>
+<content src="ch1-65.xhtml#id64"/>
+</navPoint>
+<navPoint playOrder="65" id="id65">
+<navLabel>
+<text>65</text>
+</navLabel>
+<content src="ch1-66.xhtml#id65"/>
+</navPoint>
+<navPoint playOrder="66" id="id66">
+<navLabel>
+<text>66</text>
+</navLabel>
+<content src="ch1-67.xhtml#id66"/>
+</navPoint>
+<navPoint playOrder="67" id="id67">
+<navLabel>
+<text>67</text>
+</navLabel>
+<content src="ch1-68.xhtml#id67"/>
+</navPoint>
+<navPoint playOrder="68" id="id68">
+<navLabel>
+<text>68</text>
+</navLabel>
+<content src="ch1-69.xhtml#id68"/>
+</navPoint>
+<navPoint playOrder="69" id="id69">
+<navLabel>
+<text>69</text>
+</navLabel>
+<content src="ch1-70.xhtml#id69"/>
+</navPoint>
+<navPoint playOrder="70" id="id70">
+<navLabel>
+<text>70</text>
+</navLabel>
+<content src="ch1-71.xhtml#id70"/>
+</navPoint>
+<navPoint playOrder="71" id="id71">
+<navLabel>
+<text>71</text>
+</navLabel>
+<content src="ch1-72.xhtml#id71"/>
+</navPoint>
+</navMap>
+</ncx>
