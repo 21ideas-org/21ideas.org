@@ -27,6 +27,19 @@
   font-size: 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .book-page-section h1 {
+    font-size: 50px;  // Adjust this value as needed
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .book-page-section h1 {
+    font-size: 35px;  // Adjust this value for smaller screens
+  }
+}
+
+
 @media screen and (max-width: 1050px) {
   .nostrEmbedCard .nostrichLink {
     display: none;

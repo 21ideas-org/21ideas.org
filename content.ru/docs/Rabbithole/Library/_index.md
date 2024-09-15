@@ -354,6 +354,51 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/books/economika-za-1-urok.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Книга показывает негативные последствия государственного вмешательства, особенно в долгосрочной перспективе.</p>
+    </div>
+    <div class="card-content">
+        <h2>Экономика за один урок</h2>
+        <p>Автор: Генри Хазлитт</p>
+        </div> 
+        <div class="button-container">
+            <a href="/economika-za-1-urok" class="button">Подробнее</a>
+            <a href="/epubs/economika-za-1-urok.epub" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
+    <img src="/img/books/mehanika-svobody.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Цель книги — показать, что право и его исполнение не требуют наличия государства, а могут поддерживаться непринудительным частным предпринимательством и благотворительностью.</p>
+    </div>
+    <div class="card-content">
+        <h2>Механика свободы</h2>
+        <p>Автор: Дэвид Фридман</p>
+        </div> 
+        <div class="button-container">
+            <a href="/mehanika-svobody" class="button">Подробнее</a>
+            <a href="/epubs/mehanika-svobody.epub" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
+    <img src="/img/books/chto-vidno.png" alt="Обложка">
+    <div class="hover-text">
+        <p>На типичных примерах Бастиа убедительно и доступно показал, насколько губительными могут быть долгосрочные последствия экономической политики.</p>
+    </div>
+    <div class="card-content">
+        <h2>Что видно и чего не видно</h2>
+        <p>Автор: Фредерик Бастиа</p>
+        </div> 
+        <div class="button-container">
+            <a href="/chto-vidno" class="button">Подробнее</a>
+            <a href="/epubs/chto-vidno.fb2" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/books/in-defence-of-deflation.png" alt="Обложка">
     <div class="hover-text">
         <p>Для будущего свободы крайне важно, чтобы мифы о дефляции были опровергнуты.</p>
@@ -383,6 +428,7 @@ weight: 1
         </div>
 </div>
 
+<br>
 <h2>Художественные</h2>
 <br>
 
