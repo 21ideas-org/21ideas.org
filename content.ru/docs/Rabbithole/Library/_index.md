@@ -394,7 +394,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/chto-vidno" class="button">Подробнее</a>
-            <a href="/epubs/chto-vidno.fb2" class="button">Скачать</a>
+            <a href="/epubs/chto-vidno.epub" class="button">Скачать</a>
         </div>
 </div>
 
