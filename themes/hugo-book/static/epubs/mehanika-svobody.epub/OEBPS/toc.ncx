@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:42947f19-ff87-458a-b822-93b1a17489c0"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Механика свободы</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Механика свободы</text>
+      </navLabel>
+      <content src="Text/title.xhtml#sigil_toc_id_1"/>
+      <navPoint id="navPoint-2" playOrder="2">
+        <navLabel>
+          <text>От переводчиков</text>
+        </navLabel>
+        <content src="Text/editorpreface.xhtml"/>
+        <navPoint id="navPoint-3" playOrder="3">
+          <navLabel>
+            <text>Команда переводчиков</text>
+          </navLabel>
+          <content src="Text/editorpreface.xhtml#sigil_toc_id_2"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Предисловие к первому изданию</text>
+        </navLabel>
+        <content src="Text/preface1.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="5">
+        <navLabel>
+          <text>Предисловие ко второму изданию</text>
+        </navLabel>
+        <content src="Text/preface2.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6">
+        <navLabel>
+          <text>Предисловие к третьему изданию</text>
+        </navLabel>
+        <content src="Text/preface3.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel>
+          <text>Благодарности</text>
+        </navLabel>
+        <content src="Text/acknowledgements.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>Введение</text>
+        </navLabel>
+        <content src="Text/introduction.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>Часть I. В защиту собственности</text>
+      </navLabel>
+      <content src="Text/chapter01.xhtml"/>
+      <navPoint id="navPoint-10" playOrder="10">
+        <navLabel>
+          <text>Глава 1. В защиту собственности</text>
+        </navLabel>
+        <content src="Text/chapter01.xhtml#sigil_toc_id_3"/>
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11">
+        <navLabel>
+          <text>Глава 2. Необходимое отступление</text>
+        </navLabel>
+        <content src="Text/chapter02.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-12" playOrder="12">
+        <navLabel>
+          <text>Глава 3. Одной любви — недостаточно</text>
+        </navLabel>
+        <content src="Text/chapter03.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="13">
+        <navLabel>
+          <text>Интерлюдия</text>
+        </navLabel>
+        <content src="Text/chapter03-1.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="14">
+        <navLabel>
+          <text>Глава 4. Робин Гуд вас продаст</text>
+        </navLabel>
+        <content src="Text/chapter04.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-15" playOrder="15">
+        <navLabel>
+          <text>Глава 5. Богатые богатеют, и бедные богатеют</text>
+        </navLabel>
+        <content src="Text/chapter05.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16">
+        <navLabel>
+          <text>Глава 6. Монополии I: Как лишиться своей рубашки</text>
+        </navLabel>
+        <content src="Text/chapter06.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="17">
+        <navLabel>
+          <text>Глава 7. Монополия II: Государственная монополия забавы ради и пользы для</text>
+        </navLabel>
+        <content src="Text/chapter07.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-18" playOrder="18">
+        <navLabel>
+          <text>Глава 8. Эксплуатация и процент</text>
+        </navLabel>
+        <content src="Text/chapter08.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel>
+          <text>Глава 9. У меня ни в чём нет нужды</text>
+        </navLabel>
+        <content src="Text/chapter09.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel>
+        <text>Часть II. Либертарианский дерибан</text>
+      </navLabel>
+      <content src="Text/part2.xhtml"/>
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel>
+          <text>Паранойя</text>
+        </navLabel>
+        <content src="Text/part2.xhtml#sigil_toc_id_4"/>
+      </navPoint>
+      <navPoint id="navPoint-22" playOrder="22">
+        <navLabel>
+          <text>Глава 10. Продаём школы</text>
+        </navLabel>
+        <content src="Text/chapter10.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel>
+          <text>Глава 11. Радикальная критика американских университетов</text>
+        </navLabel>
+        <content src="Text/chapter11.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="24">
+        <navLabel>
+          <text>Глава 12. Неразрешимая проблема университетов</text>
+        </navLabel>
+        <content src="Text/chapter12.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>Глава 13. Университет Адама Смита</text>
+        </navLabel>
+        <content src="Text/chapter13.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel>
+          <text>Глава 14. Открываем ворота</text>
+        </navLabel>
+        <content src="Text/chapter14.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel>
+          <text>Глава 15. Продаём улицы</text>
+        </navLabel>
+        <content src="Text/chapter15.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="28">
+        <navLabel>
+          <text>Глава 16. 99% готовность</text>
+        </navLabel>
+        <content src="Text/chapter16.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-29" playOrder="29">
+        <navLabel>
+          <text>Глава 17. Первый шаг</text>
+        </navLabel>
+        <content src="Text/chapter17.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-30" playOrder="30">
+        <navLabel>
+          <text>Глава 18. Контратака</text>
+        </navLabel>
+        <content src="Text/chapter18.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31">
+        <navLabel>
+          <text>Глава 19. Как могло бы быть</text>
+        </navLabel>
+        <content src="Text/chapter19.xhtml"/>
+        <navPoint id="navPoint-32" playOrder="32">
+          <navLabel>
+            <text>Постскриптум: закон Фридмана</text>
+          </navLabel>
+          <content src="Text/chapter19.xhtml#sigil_toc_id_5"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-33" playOrder="33">
+        <navLabel>
+          <text>Глава 20. Является ли Уильям Ф. Бакли заразной болезнью?</text>
+        </navLabel>
+        <content src="Text/chapter20.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34">
+        <navLabel>
+          <text>Глава 21. Это моя жизнь</text>
+        </navLabel>
+        <content src="Text/chapter21.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="35">
+        <navLabel>
+          <text>Глава 22. Права детей</text>
+        </navLabel>
+        <content src="Text/chapter22.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-36" playOrder="36">
+        <navLabel>
+          <text>Глава 23. Ползучий капитализм</text>
+        </navLabel>
+        <content src="Text/chapter23.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-37" playOrder="37">
+        <navLabel>
+          <text>Глава 24. Если вам это нужно, просто купите</text>
+        </navLabel>
+        <content src="Text/chapter24.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="38">
+        <navLabel>
+          <text>Глава 25. Редкие – значит, исчерпаемые</text>
+        </navLabel>
+        <content src="Text/chapter25.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39">
+        <navLabel>
+          <text>Глава 26. Загрязнение</text>
+        </navLabel>
+        <content src="Text/chapter26.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40">
+        <navLabel>
+          <text>Глава 27. Картечью по друзьям социализма</text>
+        </navLabel>
+        <content src="Text/chapter27.xhtml"/>
+        <navPoint id="navPoint-41" playOrder="41">
+          <navLabel>
+            <text>II</text>
+          </navLabel>
+          <content src="Text/chapter27.xhtml#sigil_toc_id_6"/>
+        </navPoint>
+        <navPoint id="navPoint-42" playOrder="42">
+          <navLabel>
+            <text>III</text>
+          </navLabel>
+          <content src="Text/chapter27.xhtml#sigil_toc_id_7"/>
+        </navPoint>
+        <navPoint id="navPoint-43" playOrder="43">
+          <navLabel>
+            <text>IV</text>
+          </navLabel>
+          <content src="Text/chapter27.xhtml#sigil_toc_id_8"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-44" playOrder="44">
+      <navLabel>
+        <text>Часть III. Анархия это не хаос</text>
+      </navLabel>
+      <content src="Text/part3.xhtml"/>
+      <navPoint id="navPoint-45" playOrder="45">
+        <navLabel>
+          <text>Глава 28. Что есть анархия? Что есть государство?</text>
+        </navLabel>
+        <content src="Text/chapter28.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-46" playOrder="46">
+        <navLabel>
+          <text>Глава 29. Полиция, суды и законы на свободном рынке</text>
+        </navLabel>
+        <content src="Text/chapter29.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-47" playOrder="47">
+        <navLabel>
+          <text>Глава 30. Проблема стабильности</text>
+        </navLabel>
+        <content src="Text/chapter30.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-48" playOrder="48">
+        <navLabel>
+          <text>Глава 31. Либертарен ли анархо-капитализм?</text>
+        </navLabel>
+        <content src="Text/chapter31.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-49" playOrder="49">
+        <navLabel>
+          <text>Глава 32. И, в качестве бесплатного бонуса</text>
+        </navLabel>
+        <content src="Text/chapter32.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-50" playOrder="50">
+        <navLabel>
+          <text>Глава 33. Социализм, ограниченное государство, анархия и бикини</text>
+        </navLabel>
+        <content src="Text/chapter33.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-51" playOrder="51">
+        <navLabel>
+          <text>Глава 34. Национальная оборона: серьёзная проблема</text>
+        </navLabel>
+        <content src="Text/chapter34.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-52" playOrder="52">
+        <navLabel>
+          <text>Глава 35. В чём прогноз сводится к спекуляции</text>
+        </navLabel>
+        <content src="Text/chapter35.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-53" playOrder="53">
+        <navLabel>
+          <text>Глава 36. Почему именно анархия?</text>
+        </navLabel>
+        <content src="Text/chapter36.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-54" playOrder="54">
+        <navLabel>
+          <text>Глава 37. Революция – худший выбор</text>
+        </navLabel>
+        <content src="Text/chapter37.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-55" playOrder="55">
+        <navLabel>
+          <text>Глава 38. Экономика воровства или отсутствие правящего класса</text>
+        </navLabel>
+        <content src="Text/chapter38.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-56" playOrder="56">
+        <navLabel>
+          <text>Глава 39. Правая сторона ловушки общественного блага</text>
+        </navLabel>
+        <content src="Text/chapter39.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-57" playOrder="57">
+        <navLabel>
+          <text>Глава 40. Как добраться отсюда туда</text>
+        </navLabel>
+        <content src="Text/chapter40.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-58" playOrder="58">
+        <navLabel>
+          <text>Постскриптум для перфекционистов</text>
+        </navLabel>
+        <content src="Text/chapter40-1.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="59">
+      <navLabel>
+        <text>Часть IV. Для либертарианцев: расширенный постскриптум</text>
+      </navLabel>
+      <content src="Text/part4.xhtml"/>
+      <navPoint id="navPoint-60" playOrder="60">
+        <navLabel>
+          <text>Глава 41. Проблемы</text>
+        </navLabel>
+        <content src="Text/chapter41.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-61" playOrder="61">
+        <navLabel>
+          <text>Глава 42. Мои убеждения</text>
+        </navLabel>
+        <content src="Text/chapter42.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="62">
+        <navLabel>
+          <text>Глава 43. Ответы: Экономический анализ права</text>
+        </navLabel>
+        <content src="Text/chapter43.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="63">
+        <navLabel>
+          <text>Глава 44. Частное правоприменение, средневековая Исландия и либертарианство</text>
+        </navLabel>
+        <content src="Text/chapter44.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-64" playOrder="64">
+        <navLabel>
+          <text>Глава 45. Существует ли либертарианская внешняя политика?</text>
+        </navLabel>
+        <content src="Text/chapter45.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-65" playOrder="65">
+        <navLabel>
+          <text>Глава 46. Рынок денег</text>
+        </navLabel>
+        <content src="Text/chapter46.xhtml"/>
+        <navPoint id="navPoint-66" playOrder="66">
+          <navLabel>
+            <text>Какой именно товар?</text>
+          </navLabel>
+          <content src="Text/chapter46.xhtml#sigil_toc_id_9"/>
+        </navPoint>
+        <navPoint id="navPoint-67" playOrder="67">
+          <navLabel>
+            <text>Предпочтение это не предсказание</text>
+          </navLabel>
+          <content src="Text/chapter46.xhtml#sigil_toc_id_10"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-68" playOrder="68">
+        <navLabel>
+          <text>Глава 47. Анархистская политика: о Либертарианской партии</text>
+        </navLabel>
+        <content src="Text/chapter47.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-69" playOrder="69">
+        <navLabel>
+          <text>Глава 48. Г.К. Честертон － авторский обзор</text>
+        </navLabel>
+        <content src="Text/chapter48.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-70" playOrder="70">
+      <navLabel>
+        <text>Часть V. Дальнейшие размышления</text>
+      </navLabel>
+      <content src="Text/part5.xhtml"/>
+      <navPoint id="navPoint-71" playOrder="71">
+        <navLabel>
+          <text>Лекарство</text>
+        </navLabel>
+        <content src="Text/part5.xhtml#sigil_toc_id_11"/>
+      </navPoint>
+      <navPoint id="navPoint-72" playOrder="72">
+        <navLabel>
+          <text>Глава 49. Первая правовая система</text>
+        </navLabel>
+        <content src="Text/chapter49.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-73" playOrder="73">
+        <navLabel>
+          <text>Глава 50. Анархо-капитализм: детсадовская версия</text>
+        </navLabel>
+        <content src="Text/chapter50.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-74" playOrder="74">
+        <navLabel>
+          <text>Глава 51. Торг в условиях анархии</text>
+        </navLabel>
+        <content src="Text/chapter51.xhtml"/>
+        <navPoint id="navPoint-75" playOrder="75">
+          <navLabel>
+            <text>Точки Шеллинга*: идея</text>
+          </navLabel>
+          <content src="Text/chapter51.xhtml#sigil_toc_id_12"/>
+        </navPoint>
+        <navPoint id="navPoint-76" playOrder="76">
+          <navLabel>
+            <text>Точки Шеллинга: Применение</text>
+          </navLabel>
+          <content src="Text/chapter51.xhtml#sigil_toc_id_13"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-77" playOrder="77">
+        <navLabel>
+          <text>Глава 52. Позитивное представление о правах</text>
+        </navLabel>
+        <content src="Text/chapter52.xhtml"/>
+        <navPoint id="navPoint-78" playOrder="78">
+          <navLabel>
+            <text>Головоломка</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_14"/>
+        </navPoint>
+        <navPoint id="navPoint-79" playOrder="79">
+          <navLabel>
+            <text>Соседское вымогательство</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_15"/>
+        </navPoint>
+        <navPoint id="navPoint-80" playOrder="80">
+          <navLabel>
+            <text>Ещё немного о точках Шеллинга</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_16"/>
+        </navPoint>
+        <navPoint id="navPoint-81" playOrder="81">
+          <navLabel>
+            <text>Побег из естественного состояния</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_17"/>
+        </navPoint>
+        <navPoint id="navPoint-82" playOrder="82">
+          <navLabel>
+            <text>Почему Гоббс ошибался</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_18"/>
+        </navPoint>
+        <navPoint id="navPoint-83" playOrder="83">
+          <navLabel>
+            <text>И почему Гоббс был прав</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_19"/>
+        </navPoint>
+        <navPoint id="navPoint-84" playOrder="84">
+          <navLabel>
+            <text>Позитивное представление о правах</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_20"/>
+        </navPoint>
+        <navPoint id="navPoint-85" playOrder="85">
+          <navLabel>
+            <text>Что есть государство, что есть анархия</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_21"/>
+        </navPoint>
+        <navPoint id="navPoint-86" playOrder="86">
+          <navLabel>
+            <text>И что британский флот делал на Фолклендах</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_22"/>
+        </navPoint>
+        <navPoint id="navPoint-87" playOrder="87">
+          <navLabel>
+            <text>Благодарности</text>
+          </navLabel>
+          <content src="Text/chapter52.xhtml#sigil_toc_id_23"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-88" playOrder="88">
+        <navLabel>
+          <text>Глава 53. Провалы рынка: аргументы за и против государства</text>
+        </navLabel>
+        <content src="Text/chapter53.xhtml"/>
+        <navPoint id="navPoint-89" playOrder="89">
+          <navLabel>
+            <text>Провалы рынка как аргумент в пользу государства</text>
+          </navLabel>
+          <content src="Text/chapter53.xhtml#sigil_toc_id_24"/>
+        </navPoint>
+        <navPoint id="navPoint-90" playOrder="90">
+          <navLabel>
+            <text>Провалы рынка как аргумент против государства</text>
+          </navLabel>
+          <content src="Text/chapter53.xhtml#sigil_toc_id_25"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-91" playOrder="91">
+        <navLabel>
+          <text>Глава 54. Анархия и эффективное право</text>
+        </navLabel>
+        <content src="Text/chapter54.xhtml"/>
+        <navPoint id="navPoint-92" playOrder="92">
+          <navLabel>
+            <text>Монополистическая конкуренция на рынке правоприменения</text>
+          </navLabel>
+          <content src="Text/chapter54.xhtml#sigil_toc_id_26"/>
+        </navPoint>
+        <navPoint id="navPoint-93" playOrder="93">
+          <navLabel>
+            <text>Экстерналии: провал рынка на рынке права</text>
+          </navLabel>
+          <content src="Text/chapter54.xhtml#sigil_toc_id_27"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-94" playOrder="94">
+        <navLabel>
+          <text>Глава 55. Правила по умолчанию, эффект масштаба и проблема стабильности</text>
+        </navLabel>
+        <content src="Text/chapter55.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-95" playOrder="95">
+        <navLabel>
+          <text>Глава 56. Серьёзная проблема, часть II</text>
+        </navLabel>
+        <content src="Text/chapter56.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-96" playOrder="96">
+        <navLabel>
+          <text>Глава 57. Первоначальное присвоение, краткий экскурс в моральную философию</text>
+        </navLabel>
+        <content src="Text/chapter57.xhtml"/>
+        <navPoint id="navPoint-97" playOrder="97">
+          <navLabel>
+            <text>Попытка первая: Броуди в интерпретации Фридмана</text>
+          </navLabel>
+          <content src="Text/chapter57.xhtml#sigil_toc_id_28"/>
+        </navPoint>
+        <navPoint id="navPoint-98" playOrder="98">
+          <navLabel>
+            <text>Попытка вторая: Локк в интерпретации Фридмана</text>
+          </navLabel>
+          <content src="Text/chapter57.xhtml#sigil_toc_id_29"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-99" playOrder="99">
+        <navLabel>
+          <text>Глава 58. Пособия и иммиграция: вторая половина аргументации</text>
+        </navLabel>
+        <content src="Text/chapter58.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-100" playOrder="100">
+      <navLabel>
+        <text>Часть VI. Новый материал</text>
+      </navLabel>
+      <content src="Text/part6.xhtml"/>
+      <navPoint id="navPoint-101" playOrder="101">
+        <navLabel>
+          <text>Наши тяжёлые обстоятельства</text>
+        </navLabel>
+        <content src="Text/part6.xhtml#sigil_toc_id_30"/>
+      </navPoint>
+      <navPoint id="navPoint-102" playOrder="102">
+        <navLabel>
+          <text>Глава 59. Проблемы с выводом должного из сущего у Айн Рэнд</text>
+        </navLabel>
+        <content src="Text/chapter59.xhtml"/>
+        <navPoint id="navPoint-103" playOrder="103">
+          <navLabel>
+            <text>1. Существование как единая ценность для всех живых существ</text>
+          </navLabel>
+          <content src="Text/chapter59.xhtml#sigil_toc_id_31"/>
+        </navPoint>
+        <navPoint id="navPoint-104" playOrder="104">
+          <navLabel>
+            <text>2. Жизнь или смерть как фундаментальный ценностный выбор</text>
+          </navLabel>
+          <content src="Text/chapter59.xhtml#sigil_toc_id_32"/>
+        </navPoint>
+        <navPoint id="navPoint-105" playOrder="105">
+          <navLabel>
+            <text>3. Переход от жизни к жизни, как от человека к человеку.</text>
+          </navLabel>
+          <content src="Text/chapter59.xhtml#sigil_toc_id_33"/>
+        </navPoint>
+        <navPoint id="navPoint-106" playOrder="106">
+          <navLabel>
+            <text>4. Переход от ценностей выживания к объективистской этике.</text>
+          </navLabel>
+          <content src="Text/chapter59.xhtml#sigil_toc_id_34"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-107" playOrder="107">
+        <navLabel>
+          <text>Глава 60. Экономика порока и добродетели</text>
+        </navLabel>
+        <content src="Text/chapter60.xhtml"/>
+        <navPoint id="navPoint-108" playOrder="108">
+          <navLabel>
+            <text>Экономика порока, или рациональный хулиган</text>
+          </navLabel>
+          <content src="Text/chapter60.xhtml#sigil_toc_id_35"/>
+        </navPoint>
+        <navPoint id="navPoint-109" playOrder="109">
+          <navLabel>
+            <text>Экономика добродетели</text>
+          </navLabel>
+          <content src="Text/chapter60.xhtml#sigil_toc_id_36"/>
+        </navPoint>
+        <navPoint id="navPoint-110" playOrder="110">
+          <navLabel>
+            <text>И убойный аргумент напоследок</text>
+          </navLabel>
+          <content src="Text/chapter60.xhtml#sigil_toc_id_37"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-111" playOrder="111">
+        <navLabel>
+          <text>Глава 61. Проигранный мной спор: откуда берёт начало моя моральная философия</text>
+        </navLabel>
+        <content src="Text/chapter61.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-112" playOrder="112">
+        <navLabel>
+          <text>Глава 62. Капиталистические грузовики</text>
+        </navLabel>
+        <content src="Text/chapter62.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-113" playOrder="113">
+        <navLabel>
+          <text>Глава 63. Консервативная ошибка</text>
+        </navLabel>
+        <content src="Text/chapter63.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-114" playOrder="114">
+        <navLabel>
+          <text>Глава 64. Некорректное использование аргументов об экстерналиях</text>
+        </navLabel>
+        <content src="Text/chapter64.xhtml"/>
+      </navPoint>
+      <navPoint id="navPoint-115" playOrder="115">
+        <navLabel>
+          <text>Глава 65. Внеклассное обучение: либертарианский подход к детям</text>
+        </navLabel>
+        <content src="Text/chapter65.xhtml"/>
+        <navPoint id="navPoint-116" playOrder="116">
+          <navLabel>
+            <text>Уроки, полученные в реальности</text>
+          </navLabel>
+          <content src="Text/chapter65.xhtml#sigil_toc_id_38"/>
+        </navPoint>
+        <navPoint id="navPoint-117" playOrder="117">
+          <navLabel>
+            <text>Аргументы против домашнего обучения. И за него.</text>
+          </navLabel>
+          <content src="Text/chapter65.xhtml#sigil_toc_id_39"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-118" playOrder="118">
+        <navLabel>
+          <text>Глава 66. Добро пожаловать в будущее</text>
+        </navLabel>
+        <content src="Text/chapter66.xhtml"/>
+        <navPoint id="navPoint-119" playOrder="119">
+          <navLabel>
+            <text>Простые анонимные электронные наличные</text>
+          </navLabel>
+          <content src="Text/chapter66.xhtml#sigil_toc_id_40"/>
+        </navPoint>
+        <navPoint id="navPoint-120" playOrder="120">
+          <navLabel>
+            <text>Мир строгой конфиденциальности</text>
+          </navLabel>
+          <content src="Text/chapter66.xhtml#sigil_toc_id_41"/>
+        </navPoint>
+        <navPoint id="navPoint-121" playOrder="121">
+          <navLabel>
+            <text>Насилие и мошенничество: правоприменение в онлайн-анархии</text>
+          </navLabel>
+          <content src="Text/chapter66.xhtml#sigil_toc_id_42"/>
+        </navPoint>
+        <navPoint id="navPoint-122" playOrder="122">
+          <navLabel>
+            <text>На пороге будущего</text>
+          </navLabel>
+          <content src="Text/chapter66.xhtml#sigil_toc_id_43"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-123" playOrder="123">
+        <navLabel>
+          <text>Приложение 1. Другие мои работы, которые вы можете счесть (или не счесть) интересными</text>
+        </navLabel>
+        <content src="Text/appendix1.xhtml"/>
+        <navPoint id="navPoint-124" playOrder="124">
+          <navLabel>
+            <text>Книги</text>
+          </navLabel>
+          <content src="Text/appendix1.xhtml#sigil_toc_id_44"/>
+        </navPoint>
+        <navPoint id="navPoint-125" playOrder="125">
+          <navLabel>
+            <text>Статьи</text>
+          </navLabel>
+          <content src="Text/appendix1.xhtml#sigil_toc_id_45"/>
+        </navPoint>
+        <navPoint id="navPoint-126" playOrder="126">
+          <navLabel>
+            <text>Материалы в интернете</text>
+          </navLabel>
+          <content src="Text/appendix1.xhtml#sigil_toc_id_46"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-127" playOrder="127">
+        <navLabel>
+          <text>Приложение 2. Мои рекомендации</text>
+        </navLabel>
+        <content src="Text/appendix2.xhtml"/>
+        <navPoint id="navPoint-128" playOrder="128">
+          <navLabel>
+            <text>Художественная литература</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_47"/>
+        </navPoint>
+        <navPoint id="navPoint-129" playOrder="129">
+          <navLabel>
+            <text>Экономика</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_48"/>
+        </navPoint>
+        <navPoint id="navPoint-130" playOrder="130">
+          <navLabel>
+            <text>Право и экономика</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_49"/>
+        </navPoint>
+        <navPoint id="navPoint-131" playOrder="131">
+          <navLabel>
+            <text>Публичная политика</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_50"/>
+        </navPoint>
+        <navPoint id="navPoint-132" playOrder="132">
+          <navLabel>
+            <text>История</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_51"/>
+        </navPoint>
+        <navPoint id="navPoint-133" playOrder="133">
+          <navLabel>
+            <text>Либертарианская идеология</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_52"/>
+        </navPoint>
+        <navPoint id="navPoint-134" playOrder="134">
+          <navLabel>
+            <text>Либертарианское движение</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_53"/>
+        </navPoint>
+        <navPoint id="navPoint-135" playOrder="135">
+          <navLabel>
+            <text>Разное</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_54"/>
+        </navPoint>
+        <navPoint id="navPoint-136" playOrder="136">
+          <navLabel>
+            <text>Материалы онлайн</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_55"/>
+        </navPoint>
+        <navPoint id="navPoint-137" playOrder="137">
+          <navLabel>
+            <text>Журналы</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_56"/>
+        </navPoint>
+        <navPoint id="navPoint-138" playOrder="138">
+          <navLabel>
+            <text>Организации и институты</text>
+          </navLabel>
+          <content src="Text/appendix2.xhtml#sigil_toc_id_57"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-139" playOrder="139">
+        <navLabel>
+          <text>Приложение 3. Некоторые цифры</text>
+        </navLabel>
+        <content src="Text/appendix3.xhtml"/>
+        <navPoint id="navPoint-140" playOrder="140">
+          <navLabel>
+            <text>Таблица I: Фактическое влияние прогрессивного подоходного налога</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_58"/>
+        </navPoint>
+        <navPoint id="navPoint-141" playOrder="141">
+          <navLabel>
+            <text>Таблица II: Распределение* всех налогов по доходам: 1977</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_59"/>
+        </navPoint>
+        <navPoint id="navPoint-142" playOrder="142">
+          <navLabel>
+            <text>Таблица III: Распределение* всех налогов по доходам: 1986</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_60"/>
+        </navPoint>
+        <navPoint id="navPoint-143" playOrder="143">
+          <navLabel>
+            <text>Таблица IV: Эффективные* налоговые ставки 2004</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_61"/>
+        </navPoint>
+        <navPoint id="navPoint-144" playOrder="144">
+          <navLabel>
+            <text>Таблица V: Вклад разных факторов в национальный доход</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_62"/>
+        </navPoint>
+        <navPoint id="navPoint-145" playOrder="145">
+          <navLabel>
+            <text>Таблица VI: Распределение доходов среди семей (1913-1985) и домохозяйств (1985, 2009)</text>
+          </navLabel>
+          <content src="Text/appendix3.xhtml#sigil_toc_id_63"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

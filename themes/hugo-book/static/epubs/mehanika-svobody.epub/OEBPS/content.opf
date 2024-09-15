@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:language>ru</dc:language>
+    <dc:title>Механика свободы</dc:title>
+    <dc:creator opf:role="aut">Дэвид Д. Фридман</dc:creator>
+    <dc:publisher>Анкап-тян</dc:publisher>
+    <dc:description>Руководство по радикальному капитализму</dc:description>
+    <meta content="1.7.0" name="Sigil version"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2022-01-22</dc:date>
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:42947f19-ff87-458a-b822-93b1a17489c0</dc:identifier>
+    <meta name="cover" content="cover.png"/>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="title.xhtml" href="Text/title.xhtml" media-type="application/xhtml+xml"/>
+    <item id="styles.css" href="Styles/styles.css" media-type="text/css"/>
+    <item id="Merriweather-Regular.ttf" href="Fonts/Merriweather-Regular.ttf" media-type="font/ttf"/>
+    <item id="Merriweather-Bold.ttf" href="Fonts/Merriweather-Bold.ttf" media-type="font/ttf"/>
+    <item id="Merriweather-Italic.ttf" href="Fonts/Merriweather-Italic.ttf" media-type="font/ttf"/>
+    <item id="Merriweather-BoldItalic.ttf" href="Fonts/Merriweather-BoldItalic.ttf" media-type="font/ttf"/>
+    <item id="preface1.xhtml" href="Text/preface1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preface2.xhtml" href="Text/preface2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preface3.xhtml" href="Text/preface3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="dedication.xhtml" href="Text/dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="epigraph.xhtml" href="Text/epigraph.xhtml" media-type="application/xhtml+xml"/>
+    <item id="acknowledgements.xhtml" href="Text/acknowledgements.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introduction.xhtml" href="Text/introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter01.xhtml" href="Text/chapter01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote01.xhtml" href="Text/footnote01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part5.xhtml" href="Text/part5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter02.xhtml" href="Text/chapter02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter03.xhtml" href="Text/chapter03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter49.xhtml" href="Text/chapter49.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter03-1.xhtml" href="Text/chapter03-1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter04.xhtml" href="Text/chapter04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter50.xhtml" href="Text/chapter50.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter05.xhtml" href="Text/chapter05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter06.xhtml" href="Text/chapter06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter07.xhtml" href="Text/chapter07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter08.xhtml" href="Text/chapter08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter09.xhtml" href="Text/chapter09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part2.xhtml" href="Text/part2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter10.xhtml" href="Text/chapter10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter11.xhtml" href="Text/chapter11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter12.xhtml" href="Text/chapter12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter13.xhtml" href="Text/chapter13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter14.xhtml" href="Text/chapter14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter15.xhtml" href="Text/chapter15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter16.xhtml" href="Text/chapter16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter17.xhtml" href="Text/chapter17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter18.xhtml" href="Text/chapter18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter19.xhtml" href="Text/chapter19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter20.xhtml" href="Text/chapter20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter21.xhtml" href="Text/chapter21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter22.xhtml" href="Text/chapter22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter23.xhtml" href="Text/chapter23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter24.xhtml" href="Text/chapter24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter25.xhtml" href="Text/chapter25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter26.xhtml" href="Text/chapter26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter27.xhtml" href="Text/chapter27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part3.xhtml" href="Text/part3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter28.xhtml" href="Text/chapter28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter29.xhtml" href="Text/chapter29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter30.xhtml" href="Text/chapter30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter31.xhtml" href="Text/chapter31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter32.xhtml" href="Text/chapter32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter33.xhtml" href="Text/chapter33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter34.xhtml" href="Text/chapter34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter35.xhtml" href="Text/chapter35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter36.xhtml" href="Text/chapter36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter37.xhtml" href="Text/chapter37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter38.xhtml" href="Text/chapter38.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter39.xhtml" href="Text/chapter39.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter40.xhtml" href="Text/chapter40.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter40-1.xhtml" href="Text/chapter40-1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part4.xhtml" href="Text/part4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter41.xhtml" href="Text/chapter41.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter42.xhtml" href="Text/chapter42.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter43.xhtml" href="Text/chapter43.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter44.xhtml" href="Text/chapter44.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter45.xhtml" href="Text/chapter45.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter46.xhtml" href="Text/chapter46.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter47.xhtml" href="Text/chapter47.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter51.xhtml" href="Text/chapter51.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter52.xhtml" href="Text/chapter52.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter53.xhtml" href="Text/chapter53.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter54.xhtml" href="Text/chapter54.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter55.xhtml" href="Text/chapter55.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter56.xhtml" href="Text/chapter56.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter57.xhtml" href="Text/chapter57.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter58.xhtml" href="Text/chapter58.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part6.xhtml" href="Text/part6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter59.xhtml" href="Text/chapter59.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter60.xhtml" href="Text/chapter60.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter61.xhtml" href="Text/chapter61.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter62.xhtml" href="Text/chapter62.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter63.xhtml" href="Text/chapter63.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter64.xhtml" href="Text/chapter64.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter65.xhtml" href="Text/chapter65.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter66.xhtml" href="Text/chapter66.xhtml" media-type="application/xhtml+xml"/>
+    <item id="appendix1.xhtml" href="Text/appendix1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="appendix2.xhtml" href="Text/appendix2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="appendix3.xhtml" href="Text/appendix3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote05.xhtml" href="Text/footnote05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="editorfootnote01.xhtml" href="Text/editorfootnote01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter48.xhtml" href="Text/chapter48.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote02.xhtml" href="Text/footnote02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote03.xhtml" href="Text/footnote03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote04.xhtml" href="Text/footnote04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote06.xhtml" href="Text/footnote06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote07.xhtml" href="Text/footnote07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote08.xhtml" href="Text/footnote08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote09.xhtml" href="Text/footnote09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote10.xhtml" href="Text/footnote10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="editorfootnote02.xhtml" href="Text/editorfootnote02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote11.xhtml" href="Text/footnote11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote12.xhtml" href="Text/footnote12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote13.xhtml" href="Text/footnote13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnote14.xhtml" href="Text/footnote14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="editorfootnote03.xhtml" href="Text/editorfootnote03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="table1.png" href="Images/table1.png" media-type="image/png"/>
+    <item id="table2.png" href="Images/table2.png" media-type="image/png"/>
+    <item id="table3.png" href="Images/table3.png" media-type="image/png"/>
+    <item id="table4.png" href="Images/table4.png" media-type="image/png"/>
+    <item id="table5.png" href="Images/table5.png" media-type="image/png"/>
+    <item id="table6.png" href="Images/table6.png" media-type="image/png"/>
+    <item id="editorpreface.xhtml" href="Text/editorpreface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.png" href="Images/cover.png" media-type="image/png"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="title.xhtml"/>
+    <itemref idref="dedication.xhtml"/>
+    <itemref idref="epigraph.xhtml"/>
+    <itemref idref="editorpreface.xhtml"/>
+    <itemref idref="preface1.xhtml"/>
+    <itemref idref="preface2.xhtml"/>
+    <itemref idref="preface3.xhtml"/>
+    <itemref idref="acknowledgements.xhtml"/>
+    <itemref idref="introduction.xhtml"/>
+    <itemref idref="chapter01.xhtml"/>
+    <itemref idref="chapter02.xhtml"/>
+    <itemref idref="chapter03.xhtml"/>
+    <itemref idref="chapter03-1.xhtml"/>
+    <itemref idref="chapter04.xhtml"/>
+    <itemref idref="chapter05.xhtml"/>
+    <itemref idref="chapter06.xhtml"/>
+    <itemref idref="chapter07.xhtml"/>
+    <itemref idref="chapter08.xhtml"/>
+    <itemref idref="chapter09.xhtml"/>
+    <itemref idref="part2.xhtml"/>
+    <itemref idref="chapter10.xhtml"/>
+    <itemref idref="chapter11.xhtml"/>
+    <itemref idref="chapter12.xhtml"/>
+    <itemref idref="chapter13.xhtml"/>
+    <itemref idref="chapter14.xhtml"/>
+    <itemref idref="chapter15.xhtml"/>
+    <itemref idref="chapter16.xhtml"/>
+    <itemref idref="chapter17.xhtml"/>
+    <itemref idref="chapter18.xhtml"/>
+    <itemref idref="chapter19.xhtml"/>
+    <itemref idref="chapter20.xhtml"/>
+    <itemref idref="chapter21.xhtml"/>
+    <itemref idref="chapter22.xhtml"/>
+    <itemref idref="chapter23.xhtml"/>
+    <itemref idref="chapter24.xhtml"/>
+    <itemref idref="chapter25.xhtml"/>
+    <itemref idref="chapter26.xhtml"/>
+    <itemref idref="chapter27.xhtml"/>
+    <itemref idref="part3.xhtml"/>
+    <itemref idref="chapter28.xhtml"/>
+    <itemref idref="chapter29.xhtml"/>
+    <itemref idref="chapter30.xhtml"/>
+    <itemref idref="chapter31.xhtml"/>
+    <itemref idref="chapter32.xhtml"/>
+    <itemref idref="chapter33.xhtml"/>
+    <itemref idref="chapter34.xhtml"/>
+    <itemref idref="chapter35.xhtml"/>
+    <itemref idref="chapter36.xhtml"/>
+    <itemref idref="chapter37.xhtml"/>
+    <itemref idref="chapter38.xhtml"/>
+    <itemref idref="chapter39.xhtml"/>
+    <itemref idref="chapter40.xhtml"/>
+    <itemref idref="chapter40-1.xhtml"/>
+    <itemref idref="part4.xhtml"/>
+    <itemref idref="chapter41.xhtml"/>
+    <itemref idref="chapter42.xhtml"/>
+    <itemref idref="chapter43.xhtml"/>
+    <itemref idref="chapter44.xhtml"/>
+    <itemref idref="chapter45.xhtml"/>
+    <itemref idref="chapter46.xhtml"/>
+    <itemref idref="chapter47.xhtml"/>
+    <itemref idref="chapter48.xhtml"/>
+    <itemref idref="part5.xhtml"/>
+    <itemref idref="chapter49.xhtml"/>
+    <itemref idref="chapter50.xhtml"/>
+    <itemref idref="chapter51.xhtml"/>
+    <itemref idref="chapter52.xhtml"/>
+    <itemref idref="chapter53.xhtml"/>
+    <itemref idref="chapter54.xhtml"/>
+    <itemref idref="chapter55.xhtml"/>
+    <itemref idref="chapter56.xhtml"/>
+    <itemref idref="chapter57.xhtml"/>
+    <itemref idref="chapter58.xhtml"/>
+    <itemref idref="part6.xhtml"/>
+    <itemref idref="chapter59.xhtml"/>
+    <itemref idref="chapter60.xhtml"/>
+    <itemref idref="chapter61.xhtml"/>
+    <itemref idref="chapter62.xhtml"/>
+    <itemref idref="chapter63.xhtml"/>
+    <itemref idref="chapter64.xhtml"/>
+    <itemref idref="chapter65.xhtml"/>
+    <itemref idref="chapter66.xhtml"/>
+    <itemref idref="appendix1.xhtml"/>
+    <itemref idref="appendix2.xhtml"/>
+    <itemref idref="appendix3.xhtml"/>
+    <itemref idref="footnote01.xhtml"/>
+    <itemref idref="footnote02.xhtml"/>
+    <itemref idref="footnote03.xhtml"/>
+    <itemref idref="footnote04.xhtml"/>
+    <itemref idref="editorfootnote01.xhtml"/>
+    <itemref idref="footnote05.xhtml"/>
+    <itemref idref="footnote06.xhtml"/>
+    <itemref idref="footnote07.xhtml"/>
+    <itemref idref="footnote08.xhtml"/>
+    <itemref idref="footnote09.xhtml"/>
+    <itemref idref="footnote10.xhtml"/>
+    <itemref idref="footnote11.xhtml"/>
+    <itemref idref="editorfootnote02.xhtml"/>
+    <itemref idref="footnote12.xhtml"/>
+    <itemref idref="footnote13.xhtml"/>
+    <itemref idref="footnote14.xhtml"/>
+    <itemref idref="editorfootnote03.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="preface" title="Preface" href="Text/preface3.xhtml"/>
+    <reference type="dedication" title="Dedication" href="Text/dedication.xhtml"/>
+    <reference type="epigraph" title="Epigraph" href="Text/epigraph.xhtml"/>
+    <reference type="acknowledgements" title="Благодарности" href="Text/acknowledgements.xhtml"/>
+    <reference type="other.preamble" title="Преамбула" href="Text/introduction.xhtml"/>
+    <reference type="text" title="Текст" href="Text/chapter01.xhtml"/>
+    <reference type="other.footnotes" title="Сноски" href="Text/footnote01.xhtml"/>
+    <reference type="cover" title="Обложка" href="Text/cover.xhtml"/>
+  </guide>
+</package>
