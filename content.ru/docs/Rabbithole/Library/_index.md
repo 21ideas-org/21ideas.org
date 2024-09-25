@@ -114,6 +114,20 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/books/fiat-standard/fiat-standard.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Фиатный стандарт поясняет принципы работы фиатных валют, причины их успеха в наши дни и то, как и почему Биткоин является превосходной денежной технологией, которая заменит традиционные инструменты.</p>
+    </div>
+    <div class="card-content">
+        <h2>Фиатный стандарт</h2>
+        <p>Автор: Сейфедин Аммус</p> 
+        </div> 
+        <div class="button-container">
+            <a href="/fiatniy-standart" class="button">Читать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/books/internet-deneg.png" alt="Обложка">
     <div class="hover-text">
         <p>Избранные лекции о Биткоине, которые Андреас М. Антонопулос прочитал в разных странах мира с 2013-го по начало 2016 года.</p>
