@@ -4,3 +4,4 @@ hugo/.DS_Store
 .trash
 .obsidian
 hugo.*
+public/

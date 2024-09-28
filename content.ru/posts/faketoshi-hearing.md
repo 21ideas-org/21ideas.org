@@ -43,9 +43,5 @@ weight: 10
 
 ### Поддержите переводчика 
 
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/main-section/arbitrica-ln.png" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhh2mnrda6hg6rsv9e8ymm5xqmqk60323`
-{{% /image %}}
+Поддержать переводчика можно, отправив немного сат в сети [Лайтнинг](/lightning/) на адрес `mustardeagle1@primal.net`
 
