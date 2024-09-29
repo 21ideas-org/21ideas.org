@@ -1,0 +1,3344 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Segregated Witness (SegWit) upgrade in 2017 changed the structure of transaction data in Bitcoin.
+The main reason for this upgrade was to fix transaction malleability (I&rsquo;ll explain this in a moment). The other significant change included a block size increase.
+
+  This article by Greg Walker was published on learnmeabitcoin.com website.
+Contribute.
+
+
+
+
+  What was the main change?
+  #
+
+
+  Legacy transaction
+  #
+
+In a legacy transaction, the unlocking code (and signatures) sit next to each input, so the unlocking code is spread throughout the transaction data.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="What Is SegWit" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/segwit/" />
+<meta property="og:image" content="http://localhost:1313/img/segwit/01.png"/>
+
+<title>What Is SegWit | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/segwit/" title="Что такое SegWit">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.298050567e19ea93cfb342ea29f00f6026b3a996463691ca34cc1a67707daafe.js" integrity="sha256-KYBQVn4Z6pPPs0LqKfAPYCazqZZGNpHKNMwaZ3B9qv4=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/segwit/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle" checked />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="active">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>What Is SegWit</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/segwit/01.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    What was the Segregated Witness upgrade?
+    
+</h1>
+<div class="pageDate">
+    February 10, 2024
+</div>
+
+  <article class="markdown"><p>The Segregated Witness (<em>SegWit</em>) upgrade in 2017 changed the structure of <a href="https://learnmeabitcoin.com/technical/transaction/">transaction data</a> in Bitcoin.</p>
+<p>The main reason for this upgrade was to fix <strong>transaction malleability</strong> (I&rsquo;ll explain this in a moment). The other significant change included a <strong><a href="https://learnmeabitcoin.com/technical/block/#weight">block size</a> increase</strong>.</p>
+<blockquote class="book-hint btc">
+  <p>This article by <a href="https://twitter.com/in3rsha">Greg Walker</a> was published on <a href="https://learnmeabitcoin.com/beginners/guide/segwit">learnmeabitcoin.com</a> website.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<h2 id="what-was-the-main-change">
+  What was the main change?
+  <a class="anchor" href="#what-was-the-main-change">#</a>
+</h2>
+<h3 id="legacy-transaction">
+  Legacy transaction
+  <a class="anchor" href="#legacy-transaction">#</a>
+</h3>
+<p>In a <a href="https://learnmeabitcoin.com/technical/transaction/#example-legacy">legacy transaction</a>, the unlocking code (and <a href="https://learnmeabitcoin.com/technical/keys/signature/">signatures</a>) sit <em>next</em> to each <a href="https://learnmeabitcoin.com/technical/transaction/input/">input</a>, so the unlocking code is spread throughout the transaction data.</p>
+<p>The <a href="https://learnmeabitcoin.com/technical/transaction/input/txid/">TXID</a> is then created from the <strong>entire transaction data</strong>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/02.png">
+</div>
+<h3 id="segwit-transaction">
+  SegWit transaction
+  <a class="anchor" href="#segwit-transaction">#</a>
+</h3>
+<p>In a <a href="https://learnmeabitcoin.com/technical/transaction/#example-segwit">segwit transaction</a> however, all of the unlocking code (and signatures) are moved to the <em>end</em> of the transaction data instead.</p>
+<p>The TXID is then created from all of the transaction data, <strong>except for the unlocking code</strong>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/03.png">
+</div>
+<p>As a result, the TXID in a <strong>segwit transaction</strong> is only influenced by the <em>effects</em> of the transaction (the movement of bitcoins), and not by the code required to <em>validate</em> the transaction (i.e. the signatures required for unlocking the bitcoins for spending).</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/04.png">
+</div>
+<p>So in essence, you have separated the &ldquo;validating&rdquo; part (unlocking code) from the rest of the transaction.</p>
+<blockquote class="book-hint info">
+  If you were to refer to this validation code as <em>witness</em> data (as a cryptographer might), you could say that you have &ldquo;<em>segregated</em> the <em>witness</em>&rdquo;. *wink*
+</blockquote>
+<h2 id="what-are-the-benefits">
+  What are the benefits?
+  <a class="anchor" href="#what-are-the-benefits">#</a>
+</h2>
+<h3 id="1-fixes-transaction-malleability">
+  1. Fixes transaction malleability
+  <a class="anchor" href="#1-fixes-transaction-malleability">#</a>
+</h3>
+<p>In Bitcoin, <strong>transaction malleability</strong> refers to the fact that the <strong><a href="https://learnmeabitcoin.com/technical/transaction/input/txid/">TXID</a> of a transaction can be changed by altering the <a href="https://learnmeabitcoin.com/technical/keys/signature/">signatures</a></strong>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/05.png">
+<p>A signature can be altered by inverting the <a href="https://learnmeabitcoin.com/technical/keys/signature/#legacy-step-6">s value</a>. The signature is still valid and the transaction has the same effect, but the TXID is different.</p>
+</div>
+<p>This means that when you send a legacy transaction in to the network, any <a href="https://learnmeabitcoin.com/beginners/guide/node/">node</a> has the ability to change the TXID before passing it on:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/06.png">
+<p>Eventually your transaction will make it in to the blockchain under a different TXID than you expected, which would be somewhat annoying.</p>
+</div>
+<p>However, if the signatures are no longer part of the TXID, it&rsquo;s no longer possible for someone else to change the TXID of your transaction later on:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/07.png">
+</div>
+<p>So in other words, SegWit makes TXIDs <em>reliable</em>.</p>
+<h3 id="2-increased-block-capacity">
+  2. Increased block capacity
+  <a class="anchor" href="#2-increased-block-capacity">#</a>
+</h3>
+<p>Due to the fact that the unlocking code was moved to a <em>new</em> <a href="https://learnmeabitcoin.com/technical/transaction/witness/">witness field</a> in the transaction data, the way block sizes were calculated could also be changed.</p>
+<p>Previously, transactions were measured in <a href="/en/transaction-size/#1-bytes-b">bytes</a>, and the block size limit was 1,000,000 bytes (1 MB):</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/08.png">
+</div>
+<p>With SegWit, transactions are <em>no longer measured in bytes</em>. Instead, transactions and blocks were given a new metric called <a href="/en/transaction-size/#2-weight-units-wu">weight</a>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/09.png">
+</div>
+<ul>
+<li>A block has a maximum size of <code>4,000,000</code> weight units.
+<ul>
+<li>A <em>normal</em> byte in a transaction is equal to <code>4</code> weight units.</li>
+<li>A <em>witness</em> byte in a transaction is equal to <code>1</code> weight unit.</li>
+</ul>
+</li>
+</ul>
+<p>So basically, the block size limit is multiplied by 4 to give you the new <em>block weight limit</em>.</p>
+<p>Each byte in a transaction is then also multiplied by 4 to give you a <a href="/en/transaction-size/#2-weight-units-wu">transaction weight</a>. However, you only multiply the bytes of witness data by 1, which basically gives you a 75% discount on how much space the &ldquo;unlocking code&rdquo; takes up in a block.</p>
+<p>So you could say that unlocking data takes up a <em>quarter</em> of the space it used to, which means there&rsquo;s more space in the block overall for transaction data.</p>
+<h2 id="was-segwit-a-block-size-increase">
+  Was SegWit a block size increase?
+  <a class="anchor" href="#was-segwit-a-block-size-increase">#</a>
+</h2>
+<p>Yes, each block can now be greater than 1,000,000 bytes (1 MB) in size.</p>
+<p>So whilst the block size limit was not increased by a specific number of <em>bytes</em>, the discounted weight for unlocking data means that blocks can exceed the previous 1 MB limit.</p>
+<blockquote class="book-hint info">
+  <p><strong>Just because the block size changed from 1,000,000 bytes to 4,000,000 weight units, it does not make SegWit an absolute block size increase to 4 MB.</strong></p>
+<p>This is because a typical block is not going to be filled exclusively with witness data (1 weight unit per byte). Instead, transactions contain a combination of normal data (4 weight units) and witness data (1 weight unit). So the &ldquo;block size increase&rdquo; varies depending on the composition of transactions in a block.</p>
+</blockquote>
+<h3 id="how-much-of-a-block-size-increase-was-segwit">
+  How much of a block size increase was SegWit?
+  <a class="anchor" href="#how-much-of-a-block-size-increase-was-segwit">#</a>
+</h3>
+<p>The SegWit upgrade increased the maximum size for <em>typical</em> blocks to around <strong>1.8 MB</strong>.</p>
+<p>You see, a typical block of transactions consists of around <strong>60% unlocking data</strong> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. So if we calculate the <em>weight</em> of a 1 MB block consisting of &ldquo;typical&rdquo; transaction data, we get:</p>
+<pre tabindex="0"><code>400,000 bytes * 4 = 1,600,000 weight units
+600,000 bytes * 1 =   600,000 weight units
+
+Total Weight      = 2,200,000 weight units
+</code></pre><p>Now, if a block can now weigh a maximum of 4,000,000 weight units, we can work out how much of an increase this gives us:</p>
+<pre tabindex="0"><code>4,000,000 / 2,200,000 = 1.81
+</code></pre><p>So you could say this was effective block size limit increase to <strong>1.8 MB</strong>.</p>
+<h2 id="why-were-the-changes-implemented-in-this-way">
+  Why were the changes implemented in this way?
+  <a class="anchor" href="#why-were-the-changes-implemented-in-this-way">#</a>
+</h2>
+<p>Or, to put it another way…</p>
+<p>If you wanted to fix transaction malleability and increase block capacity, surely there&rsquo;s a more <em>straightforward</em> way of doing it? Why do you need to restructure the transaction data, and create a new metric called &ldquo;block weight&rdquo;?</p>
+<p>Good question. And you&rsquo;re right – these changes could have been made much more simply. For example, you could have just done this:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/10.png">
+</div>
+<p>However, if you did this, the transactions and blocks would become &ldquo;invalid&rdquo; under the current rules.</p>
+<p>Basically, this means nodes on the network would reject these new transactions and blocks, because they do not comply with their rules on how transactions and blocks should &ldquo;look&rdquo;.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/11.png">
+<p>For example, one of the rules was that each block must be 1 MB or less.</p>
+</div>
+<p>Therefore, if you wanted to make these changes, <strong>you would need to make everyone on the network upgrade their software</strong> (and obviously agree with the changes).</p>
+<p>Because if you didn&rsquo;t, you would end up with a network that builds two different blockchains – upgraded nodes building a blockchain using the new rules, and old nodes continuing to build a blockchain using the old rules.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/12.png">
+</div>
+<p>This in known as a <a href="https://learnmeabitcoin.com/technical/blockchain/hard-fork/">hard fork</a>. It can work, but it&rsquo;s risky, and will cause problems for those who do not upgrade.</p>
+<h3 id="how-did-segwit-avoid-a-hard-fork">
+  How did SegWit avoid a hard fork?
+  <a class="anchor" href="#how-did-segwit-avoid-a-hard-fork">#</a>
+</h3>
+<p>Instead of SegWit being a hard fork, it was implemented as a <a href="https://learnmeabitcoin.com/technical/blockchain/soft-fork/">soft fork</a>.</p>
+<p>With the SegWit upgrade, the <strong>transactions and blocks <em>still follow</em> the current rules of the bitcoin network</strong>, so all nodes still see SegWit blocks as valid. Therefore, &ldquo;old&rdquo; nodes will accept these &ldquo;new&rdquo; blocks and add them to their blockchains too.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/13.png">
+</div>
+<p>Therefore, old nodes still keep up with the new nodes, <em>even if they do not upgrade</em>.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/14.png">
+<p>Everyone stays in sync with a single version of the blockchain with a soft fork.</p>
+</div>
+<p>The downside for &ldquo;old&rdquo; nodes is that they cannot take advantages of the new features of SegWit until they upgrade. However, until then they can continue to make &ldquo;old-style&rdquo; transactions as normal and <strong>keep up with the blockchain</strong>.</p>
+<p>So in summary, the SegWit upgrade may seem like a &ldquo;hacky&rdquo; way of fixing transaction malleability and increasing block capacity, but this approach avoids the problem of trying to get everyone to upgrade to the new software (or else get left behind).</p>
+<h2 id="when-was-segwit-activated">
+  When was SegWit activated?
+  <a class="anchor" href="#when-was-segwit-activated">#</a>
+</h2>
+<p>Segwit was activated on 24th August 2017, 01:57:37, at block height <a href="https://learnmeabitcoin.com/explorer/block/0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893">481,824</a>.</p>
+<p>This was when nodes started enforcing the new consensus rules of the SegWit upgrade for all new blocks and transactions.</p>
+<h2 id="how-did-segwit-come-in-to-effect">
+  How did SegWit come in to effect?
+  <a class="anchor" href="#how-did-segwit-come-in-to-effect">#</a>
+</h2>
+<p>The Segregated Witness upgrade came in to effect when <strong>95%</strong> of miners signalled readiness for it.</p>
+<p>Miners can signal readiness by using a designated <a href="https://learnmeabitcoin.com/technical/block/version/">version number</a> in the blocks they mine.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/15.png">
+<p>The version field is part of the <a href="https://learnmeabitcoin.com/technical/block/#header">block header</a>.</p>
+</div>
+<p>So when 95% of blocks had this version number, SegWit was scheduled for activation:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/16.png">
+<p>The 95% threshold is calculated within a <a href="https://learnmeabitcoin.com/technical/mining/target/">target</a> readjustment period. If the 95% threshold is met, the soft fork is activated at the start of the <em>next</em> target adjustment period (which is 2016 blocks, or roughly 2 weeks).</p>
+</div>
+<h3 id="was-there-a-time-limit-on-activation">
+  Was there a time limit on activation?
+  <a class="anchor" href="#was-there-a-time-limit-on-activation">#</a>
+</h3>
+<p>Yes, this was the activation window:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Start Time:</strong></td>
+          <td style="text-align: left">15th November 2016, 00:00</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Timeout:</strong></td>
+          <td style="text-align: left">15th November 2017, 00:00</td>
+      </tr>
+  </tbody>
+</table>
+<p>If not enough miners signalled readiness for the Segregated Witness upgrade by midnight 15th November 2017, the proposal would have expired.</p>
+<h3 id="activation-timeline">
+  Activation timeline
+  <a class="anchor" href="#activation-timeline">#</a>
+</h3>
+<p>Here&rsquo;s a table showing the number of blocks signalling for SegWit across each target period leading up to the activation:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Start Time</th>
+          <th style="text-align: left">Target Period</th>
+          <th style="text-align: left">Signalling Blocks</th>
+          <th style="text-align: left">Percentage</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">18 Nov 2016, 08:30:15</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/439488#blockchain">439,488</a> to <a href="https://learnmeabitcoin.com/explorer/441503#blockchain">441,503</a></td>
+          <td style="text-align: left">451/2016</td>
+          <td style="text-align: left">22.37%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">02 Dec 2016, 02:46:26</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/441504#blockchain">441,504</a> to <a href="https://learnmeabitcoin.com/explorer/443519#blockchain">443,519</a></td>
+          <td style="text-align: left">487/2016</td>
+          <td style="text-align: left">24.16%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">15 Dec 2016, 01:28:33</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/443520#blockchain">443,520</a> to <a href="https://learnmeabitcoin.com/explorer/445535#blockchain">445,535</a></td>
+          <td style="text-align: left">520/2016</td>
+          <td style="text-align: left">25.79%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">28 Dec 2016, 17:40:55</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/445536#blockchain">445,536</a> to <a href="https://learnmeabitcoin.com/explorer/447551#blockchain">447,551</a></td>
+          <td style="text-align: left">521/2016</td>
+          <td style="text-align: left">25.84%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">10 Jan 2017, 22:40:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/447552#blockchain">447,552</a> to <a href="https://learnmeabitcoin.com/explorer/449567#blockchain">449,567</a></td>
+          <td style="text-align: left">489/2016</td>
+          <td style="text-align: left">24.26%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">22 Jan 2017, 22:52:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/449568#blockchain">449,568</a> to <a href="https://learnmeabitcoin.com/explorer/451583#blockchain">451,583</a></td>
+          <td style="text-align: left">468/2016</td>
+          <td style="text-align: left">23.21%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">04 Feb 2017, 23:38:49</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/451584#blockchain">451,584</a> to <a href="https://learnmeabitcoin.com/explorer/453599#blockchain">453,599</a></td>
+          <td style="text-align: left">485/2016</td>
+          <td style="text-align: left">24.06%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">18 Feb 2017, 09:38:26</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/453600#blockchain">453,600</a> to <a href="https://learnmeabitcoin.com/explorer/455615#blockchain">455,615</a></td>
+          <td style="text-align: left">537/2016</td>
+          <td style="text-align: left">26.64%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">03 Mar 2017, 19:04:46</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/455616#blockchain">455,616</a> to <a href="https://learnmeabitcoin.com/explorer/457631#blockchain">457,631</a></td>
+          <td style="text-align: left">532/2016</td>
+          <td style="text-align: left">26.39%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">17 Mar 2017, 08:36:15</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/457632#blockchain">457,632</a> to <a href="https://learnmeabitcoin.com/explorer/459647#blockchain">459,647</a></td>
+          <td style="text-align: left">582/2016</td>
+          <td style="text-align: left">28.87%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">30 Mar 2017, 16:39:08</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/459648#blockchain">459,648</a> to <a href="https://learnmeabitcoin.com/explorer/461663#blockchain">461,663</a></td>
+          <td style="text-align: left">614/2016</td>
+          <td style="text-align: left">30.46%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">13 Apr 2017, 02:59:50</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/461664#blockchain">461,664</a> to <a href="https://learnmeabitcoin.com/explorer/463679#blockchain">463,679</a></td>
+          <td style="text-align: left">671/2016</td>
+          <td style="text-align: left">33.28%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">27 Apr 2017, 02:20:01</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/463680#blockchain">463,680</a> to <a href="https://learnmeabitcoin.com/explorer/465695#blockchain">465,695</a></td>
+          <td style="text-align: left">698/2016</td>
+          <td style="text-align: left">34.62%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">10 May 2017, 03:40:48</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/465696#blockchain">465,696</a> to <a href="https://learnmeabitcoin.com/explorer/467711#blockchain">467,711</a></td>
+          <td style="text-align: left">663/2016</td>
+          <td style="text-align: left">32.89%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">23 May 2017, 07:29:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/467712#blockchain">467,712</a> to <a href="https://learnmeabitcoin.com/explorer/469727#blockchain">469,727</a></td>
+          <td style="text-align: left">622/2016</td>
+          <td style="text-align: left">30.85%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">04 Jun 2017, 14:35:07</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/469728#blockchain">469,728</a> to <a href="https://learnmeabitcoin.com/explorer/471743#blockchain">471,743</a></td>
+          <td style="text-align: left">642/2016</td>
+          <td style="text-align: left">31.85%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">17 Jun 2017, 23:18:53</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/471744#blockchain">471,744</a> to <a href="https://learnmeabitcoin.com/explorer/473759#blockchain">473,759</a></td>
+          <td style="text-align: left">825/2016</td>
+          <td style="text-align: left">40.92%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">02 Jul 2017, 00:47:17</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/473760#blockchain">473,760</a> to <a href="https://learnmeabitcoin.com/explorer/475775#blockchain">475,775</a></td>
+          <td style="text-align: left">917/2016</td>
+          <td style="text-align: left">45.49%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">14 Jul 2017, 08:45:42</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/475776#blockchain">475,776</a> to <a href="https://learnmeabitcoin.com/explorer/477791#blockchain">477,791</a></td>
+          <td style="text-align: left">1440/2016</td>
+          <td style="text-align: left">71.43%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">27 Jul 2017, 11:03:54</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/477792#blockchain">477,792</a> to <a href="https://learnmeabitcoin.com/explorer/479807#blockchain">479,807</a></td>
+          <td style="text-align: left">2016/2016</td>
+          <td style="text-align: left">100.00%</td>
+      </tr>
+  </tbody>
+</table>
+<p>As you can see, the 95% threshold of miners signalling readiness for SegWit was exceeded during the target adjustment period between blocks <a href="https://learnmeabitcoin.com/explorer/block/00000000000000000016ba7786309176445b838b36a16bd1ef3c3e3020473206">477,792</a> and <a href="https://learnmeabitcoin.com/explorer/block/00000000000000000053e2d10bd703ad5b7787614965711d6170b69b133aa366">479,807</a>.</p>
+<p>Consequently, the SegWit upgrade was activated 2,016 blocks (roughly 2 weeks) later at block <a href="https://learnmeabitcoin.com/explorer/block/0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893">481,824</a>:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Start Time</th>
+          <th style="text-align: left">Target Period</th>
+          <th style="text-align: left">Note</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">09 Aug 2017, 12:36:50</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/479808#blockchain">479,808</a> to <a href="https://learnmeabitcoin.com/explorer/481823#blockchain">481,823</a></td>
+          <td style="text-align: left">Segwit Locked In</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">24 Aug 2017, 01:57:37</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/481824#blockchain">481,824</a> onwards</td>
+          <td style="text-align: left">SegWit Activated</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote class="book-hint info">
+  <ul>
+<li>The target period from 439,488 to 441,503 was the first signalling period after the start of the activation window.</li>
+<li>100% of the blocks between 477,792 and 479,807 signalled for the SegWit upgrade. You can see the blocks and their signals here: <a href="https://learnmeabitcoin.com/beginners/guide/segwit/segwit-signals-version-bits.txt">segwit-signals-version-bits.txt</a> (the second bit from the right signalled for SegWit).</li>
+<li>There is a gap of one target period where the soft fork is &ldquo;locked in&rdquo; before the soft fork is activated.</li>
+</ul>
+</blockquote>
+<h3 id="why-were-_miners_-given-the-decision-on-activation">
+  Why were <em>miners</em> given the decision on activation?
+  <a class="anchor" href="#why-were-_miners_-given-the-decision-on-activation">#</a>
+</h3>
+<p>Because if you want a soft fork to be successful, you want a majority of miners <a href="https://learnmeabitcoin.com/beginners/guide/mining/">mining</a> the &ldquo;new&rdquo; type of blocks on to the blockchain.</p>
+<p>This is so the blockchain with &ldquo;new&rdquo; blocks on it will outpace any blockchain being built with &ldquo;old&rdquo; blocks (from any non-upgraded miners who could still be mining).</p>
+<p>As a result, the &ldquo;new&rdquo; blockchain will be built faster than any blockchain being built with &ldquo;old&rdquo; blocks, so all nodes will naturally adopt the same <a href="https://learnmeabitcoin.com/technical/blockchain/longest-chain/">longest chain</a>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/17.png">
+<p>Having a majority of mining power keeps everyone on the network on the same chain.</p>
+</div>
+<p>So having a strong majority of miners on board allows for a smooth upgrade, as it ensures that the whole network will converge on one single blockchain.</p>
+<blockquote class="book-hint info">
+  It&rsquo;s not necessarily that miners are the most knowledgeable group for deciding upon the merits of a soft fork upgrade; it&rsquo;s more that they&rsquo;re <em>needed</em> to ensure a smooth upgrade for the entire network.
+</blockquote>
+<h2 id="what-happens-if-i-dont-run-the-segwit-upgrade">
+  What happens if I don&rsquo;t run the SegWit upgrade?
+  <a class="anchor" href="#what-happens-if-i-dont-run-the-segwit-upgrade">#</a>
+</h2>
+<p>If you&rsquo;re running an old node (e.g. <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.13.0.md">Bitcoin Core v0.13.0</a> or below), any SegWit nodes that you are connected to will strip out all of the <a href="https://learnmeabitcoin.com/technical/transaction/witness/">witness data</a> from transactions before sending them to you.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/18.png">
+</div>
+<p>What this means is:</p>
+<ul>
+<li>You will still receive the same transactions as everyone else.</li>
+<li>If you receive a SegWit transaction, you will see the <em>movement</em> of bitcoins, but you will not see any of the <em>unlocking code</em> data.</li>
+</ul>
+<p>So basically, your node will get a &ldquo;lightweight&rdquo; version of SegWit transactions.</p>
+<h2 id="how-do-i-upgrade">
+  How do I upgrade?
+  <a class="anchor" href="#how-do-i-upgrade">#</a>
+</h2>
+<p>That&rsquo;s the spirit.</p>
+<ul>
+<li><strong>Bitcoin Core</strong> – Just make sure you&rsquo;re using version <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.13.1.md">0.13.1</a> or greater.</li>
+<li><strong>Other Wallets</strong> – Almost all modern <a href="https://learnmeabitcoin.com/beginners/wallets/">wallets</a> these days support SegWit transactions.</li>
+</ul>
+<p>SegWit has been around for so long now that it&rsquo;s unlikely that you&rsquo;ll run in to any software that does not support it (unless it&rsquo;s obviously old).</p>
+<h2 id="resources">
+  Resources
+  <a class="anchor" href="#resources">#</a>
+</h2>
+<ul>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki">BIP 141 (Consensus Layer)</a></li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki">BIP 144 (Peer Services)</a></li>
+<li><a href="https://bitcoincore.org/en/2016/01/26/segwit-benefits/">Bitcoin.org – Segregated Witness Benefits</a></li>
+</ul>
+<h3 id="thanks">
+  Thanks
+  <a class="anchor" href="#thanks">#</a>
+</h3>
+<ul>
+<li><a href="https://github.com/sipa">Pieter Wuille</a> – for explaining <a href="https://bitcoin.stackexchange.com/questions/49097/what-does-a-segregated-witness-transaction-look-like">SegWit transaction data structure</a> (amongst other things).</li>
+<li><a href="https://github.com/gmaxwell">Gregory Maxwell</a> and <a href="https://github.com/luke-jr">Luke-jr</a> – for explaining <a href="https://www.reddit.com/r/Bitcoin/comments/5e7a8n/what_will_be_the_block_size_limit_if_segwit/">block weight</a>.</li>
+</ul>
+<h3 id="further-reading">
+  Further reading
+  <a class="anchor" href="#further-reading">#</a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=DzBAG2Jp4bg">Segregated Witness Explained [Video]</a> – A good video explanation of SegWit, with helpful visualizations of the change in transaction data structure.</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I got this 60% figure by running through <a href="https://learnmeabitcoin.com/technical/block/blkdat/">blk.dat</a> files and adding up the <code>scriptSig</code> data for all the transactions in a block, and comparing it to the total size of the block. I haven&rsquo;t done an exhaustive test, but 60% seems like a fair average. For example, here are the result for <a href="https://learnmeabitcoin.com/beginners/guide/segwit/blk00700_scriptsig.txt">blk00700.dat</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/segwit/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

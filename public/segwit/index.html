@@ -1,0 +1,3494 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Обновление Segregated Witness SegWit в 2017 году изменило структуру данных транзакции в Биткоине. Эта статья поделится подробностями этого обновления.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Что такое SegWit" />
+<meta property="og:description" content="Обновление Segregated Witness SegWit в 2017 году изменило структуру данных транзакции в Биткоине. Эта статья поделится подробностями этого обновления." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/segwit/" />
+<meta property="og:image" content="http://localhost:1313/img/segwit/01.png"/>
+
+<title>Что такое SegWit | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/segwit/" title="What Is SegWit">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/ru.search.min.5321339985b5c30e0aa6aa27afeefb2863be7061735251cb10c140a1fbd85342.js" integrity="sha256-UyEzmYW1ww4Kpqonr&#43;77KGO&#43;cGFzUlHLEMFAofvYU0I=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Поиск" aria-label="Поиск" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Русский
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/segwit/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a href="/start/" class="">Старт</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/start/" class="">Что такое Биткоин?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/guide/" class="">Используем биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/course/" class="">Биткоин от А до Я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-myths/" class="">Разрушаем мифы о Биткоине</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/shitcoin-casino/" class="">Не играйте в щиткоин-казино</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/theory/" class="">Теория</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/economics/" class="">Экономика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/pzv/" class="">Постепенно, затем внезапно</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/postepenno-zatem-vnezapno/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nelzya-skopirovat/" class="">Биткоин нельзя скопировать</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-volatilen/" class="">Биткоин не слишком волатилен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-tratit-energiyu-zrya/" class="">Биткоин не тратит энергию зря</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-medlennyj/" class="">Биткоин не слишком медленный</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-ispravit/" class="">Биткоин это исправит</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-blokchejn/" class="">Биткоин, не блокчейн</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nichem-ne-podkreplen/" class="">Биткоин ничем не подкреплен?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-finansovaya-piramida/" class="">Биткоин — не финансовая пирамида</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-mozhet-byt-zabanen/" class="">Биткоин не может быть забанен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-dlya-prestupnikov/" class="">Биткоин не для преступников</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-obescenivaet-ostalnye-dengi/" class="">Биткоин обесценивает остальные деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-zov-k-edineniyu/" class="">Биткоин — зов к единению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-zdravyj-smysl/" class="">Биткоин — это здравый смысл</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-antihrupok/" class="">Биткоин антихрупок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-velikaya-definancializaciya/" class="">Биткоин — великая дефинанcиализация</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/sb/" class="">Становление Биткоина</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-intro/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-1/" class="">О времени</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-2/" class="">О людях</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-3/" class="">Знакомьтесь: деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-4/" class="">Поворот не туда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-5/" class="">Цифровая редкость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-6/" class="">Цифровые контракты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-7/" class="">Недостающие части головоломки</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitkoin-ne-vredit-okruzhayushej-srede/" class="">Биткоин и окружающая среда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sem-setevyh-effektov-bitkoina/" class="">Семь сетевых эффектов Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hozyaeva-i-raby-deneg/" class="">Хозяева и рабы денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strukturnaya-perestrojka/" class="">Структурная перестройка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/v-zashchitu-deflyacii/" class="">В защиту дефляции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/negativnye-effekty-neftedollara/" class="">Негативные внешние эффекты нефтедоллара</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/raskoshelivaemsya/" class="">Раскошеливаемся (Shelling Out): Происхождение денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-ritmy-istorii/" class="">Биткоин и ритмы истории</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-internet-cikly-hopfa/" class="">Биткоин и интернет-циклы Хопфа</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/dengi-blokchejny-i-socialnaya-masshtabiruemost/" class="">Деньги, блокчейны и социальная масштабируемость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-dengi/" class="">Что такое деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vyzhivaet-silnejshij/" class="">Выживает сильнейший</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strategiya-dca/" class="">Стратегия DCA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/jevons-paradox/" class="">Парадокс Джевонса: Обратная истина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-rabotajut-dengi/" class="">Как работают деньги</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/security/" class="">Безопасность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-hranit-kljuchi/" class="">Биткоин-кошельки. Зачем и как хранить свои приватные ключи</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed/" class="">Что такое сид-фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed-security/" class="">Как обезопасить свои сид-фразы?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/passphrase/" class="">Насколько надежна ваша парольная фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig/" class="">Все о мультисиг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hwws/" class="">Сравнение аппаратных кошельков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-1/" class="">Мультисиг. Часть I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-2/" class="">Мультисиг. Часть II: Отдельные ключи – основа мультиподписи</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/privacy/" class="">Приватность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/luchshie-praktiki/" class="">Как сохранить приватность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/no-kyc/" class="">Никаких KYC, берегите персональные данные</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-seti-bitcoin/" class="">Приватность в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-stanovitsya-kriticheski-vazhnym/" class="">Биткоин становится критически важным</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bip47-ili-gadkij-utenok/" class="">BIP47, или гадкий утенок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/privacy/oxt/" class="">Понимание приватности в сети Биткоин с помощью OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-1/" class="">Часть 1: Анализ цепочки и приватность транзакций</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-2/" class="">Часть 2: Ключевые концепции анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-3/" class="">Часть 3: Защита от анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-4/" class="">Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/coinjoin/" class="">Понимание и использование CoinJoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-fungibility/" class="">Взаимозаменяемость Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle" checked />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/protocol/" class="">Протокол</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kto-kontroliruet-bitkoin-kor/" class="">Кто контролирует Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vechnaja-borba/" class="">Вечная борьба Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ob-udobstve-vzaimodejstvija-s-bitcoinom/" class="">Об удобстве взаимодействия с Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-zoloto-2-0/" class="">Биткоин: цифровое золото или пиринговая наличность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/upravlenie-bitcoin/" class="">Управление Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/doverennye-tretyi-storony/" class="">Доверенные третьи стороны — это бреши в системе безопасности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/21-million-ne-podlezhit-obsuzhdeniyu/" class="">21 миллион не подлежит обсуждению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-work/" class="">Proof of Work: доказательство проделанной работы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-stake-eto-skam/" class="">Proof of Stake – это скам</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/byl-li-satoshi-zhadnym-majnerom/" class="">Был ли Сатоши жадным майнером?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/segwit/" class="active">Что такое SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/taproot/" class="">Что такое Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bomby-slozhnosti-ethereum/" class="">Бомбы сложности Ethereum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/rgb/" class="">Разбирая протокол RGB</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/halving/" class="">Что такое Биткоин-халвинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/difficulty/" class="">О корректировке сложности майнинга</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-tipov-bitcoin-adresov/" class="">Типы биткоин-адресов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/myths-about-halving/" class="">Мифы о Биткоин-халвинге</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mining-walkthrough/" class="">SHA256 и майнинг в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/protocol/utxo/" class="">Что такое UTXO и как ими управлять?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-1/" class="">Что такое UTXO?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-2/" class="">Как избежать высоких комиссий при большом количестве UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-3/" class="">Приватность UTXO</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/transaction-size/" class="">Размер транзакции</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/history/" class="">История</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/gf/" class="">Генезис-файлы</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-intro/" class="">Пролог</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-1/" class="">Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-2/" class="">Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-3/" class="">Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-4/" class="">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-5/" class="">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hal-finney/" class="">Хэл Финни — жизнь и смерть легенды движения шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-and-me/" class="">Биткоин и я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-reformaciya/" class="">Биткоин-Реформация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-forks/" class="">Полная история консенсус-форков Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/analyzing-2013-fork/" class="">Анализ форка Биткоина 2013 года</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/philosophy/" class="">Философия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/chemu-ya-nauchilsya-u-bitcoina/" class="">Чему я научился у Биткоина?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/" class="">Часть1. Философские уроки Биткоина</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ne-shitcoin/" class="">Биткоин, не щиткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/neotemlemye-prava-sobstvennosti/" class="">Неотъемлемые права собственности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-kriptoanarhista/" class="">Манифест криптоанархиста</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-shifropanka/" class="">Манифест шифропанка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tyulpannaya-lihoradka/" class="">Биткоин — современная голландская тюльпанная лихорадка?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vse-moshenniki/" class="">Все — мошенники</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/svoboda-cennosti/" class="">Свобода ценности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-meme/" class="">Биткоин — единственный реальный мем</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/nol-i-bitcoin/" class="">Ноль и Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/crypto-bro/" class="">Дорогие крипто- и фиат-бро</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/boremsya-s-poddelnymi-bitcoin/" class="">Боремся с поддельными биткоинами</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bit%D1%81oin-eto-micelij/" class="">Биткоин — это мицелий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pochemu-bitcoin-zhivoj-organizm/" class="">Доказательство жизни. Почему Биткоин — живой организм</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/samaya-mirnaya-revolyuciya/" class="">Самая мирная революция</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/o-bitcoin-vselennoj/" class="">О Биткоин-вселенной</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-dissidenty/" class="">Биткоин-диссиденты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-svoboda/" class="">Биткоин = свобода</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/future/" class="">Будущее</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/ba/" class="">Биткоин-астрономия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/1/" class="">Постгипербиткоинизация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/2/" class="">Миллион крошечных миров</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/3/" class="">Первый контакт</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ej-bitcoin-pritormozi/" class="">Эй, Биткоин, притормози</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/apokalipsis/" class="">Сможет ли Биткоин пережить апокалипсис?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-teplovaya-energiya-okeanov/" class="">Биткоин и тепловая энергия океанов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/lightning/" class="">Лайтнинг</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-laitning/" class="">Что такое Лайтнинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-koshelki/" class="">Лайтнинг-кошельки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-adresa/" class="">Лайтнинг-адреса</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-lajtning/" class="">Приватность в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/centralizovanna-li-set-lightning/" class="">Централизованна ли сеть Lightning?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mekhanizm-raboty-lightning/" class="">Механизм работы Lightning Network</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/problema-vhodyashchej-likvidnosti/" class="">Решение проблемы входящей ликвидности</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/practice/" class="">Практика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/practice/buy/" class="">Покупка</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/newbie-buy/" class="">Покупка и хранение биткоина для новичков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hodl-hodl/" class="">Покупка биткоина без KYC на Hodl Hodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/robosats/" class="">RoboSats: Приватный p2p обмен</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/practice/hodl/" class="">Хранение</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/electrum/" class="">Кошелек Электрум</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue/" class="">Кошелек Blue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seedsigner/" class="">SeedSigner: оффлайн-крепость для ваших биткоинов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/holodnyj-koshelek-iz-starogo-smartfona/" class="">Холодный кошелек из старого смартфона</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/coldcard/" class="">Что такое Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/practice/interact/" class="">Взаимодействие</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice/bitcoin-node/" class="">Каждому следует запустить собственную Биткоин-ноду!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/orangepilling-in-5-min/" class="">Оранжпиллинг за 5 минут</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/5-tips-for-teaching-bitcoin/" class="">5 советов по обучению Биткоину</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/practice-privacy/" class="">Практики приватности</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/practice-privacy/dojo/" class="">Установка Биткоин-узла Dojo на x86</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-0/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-1/" class="">Установка Bitcoin Core и Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-2/" class="">Установка индексатора Fulcrum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-3/" class="">Установка блокчейн-обозревателя Mempool</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-4/" class="">Установка Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-5/" class="">Конфигурация межсетевого экрана</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-6/" class="">Установка обновлений пакетов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/ronindojo/" class="">Установка RoninDojo на x86</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/grapheneos/" class="">GrapheneOS: Избавляемся от слежки Google на смартфоне</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/practice/lightning/" class="">Лайтнинг на практике</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/phoenix/" class="">Кошелек Phoenix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lnbits/" class="">LNbits – швейцарский нож среди лайтнинг-приложений</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/alby-i-nostr/" class="">Alby и Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/zapplanner/" class="">Подписки с помощью Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lntips/" class="">Телеграм-бот @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ochishchaem-bitcoin-cherez-lajtning/" class="">Очищаем биткоины через сеть Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/likvidnost-v-lajtning/" class="">Руководство по управлению ликвидностью в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mutiny/" class="">Кошелек Mutiny</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/rabbithole/" class="">Кроличья нора</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/books/" class="">Книги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/videos/" class="">Видео</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/audiobooks/" class="">Аудиокниги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pods/" class="">Подкасты</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/posts/" class="">Блог</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/calendar/" class="">Биткоин-календарь</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/contribute/" class="">Принять участие</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/syntax/" class="">Оформление статей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/github/" class="">Как добавить статью?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/obsidian/" class="">Публикация статей через Obsidian</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/feedback/" class="">Обратная связь</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Что такое SegWit</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/segwit/01.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Что представляет собой обновление Segregated Witness
+    
+</h1>
+<div class="pageDate">
+    10 февраля 2024 г.
+</div>
+
+  <article class="markdown"><p>Обновление Segregated Witness (<em>SegWit</em>) в 2017 году изменило структуру данных транзакции в Биткоине.</p>
+<p>Основной причиной обновления было исправление <strong>пластичности транзакций</strong> (я объясню это чуть позже). Другим значительным изменением стало <strong>увеличение размера блока</strong>.</p>
+<blockquote class="book-hint btc">
+  <p>Перевод статьи <a href="https://twitter.com/in3rsha">Грега Уокера</a>, <a href="https://learnmeabitcoin.com/beginners/guide/segwit">опубликованной</a> на сайте learnmeabitcoin.</p>
+<p><a href="/contribute/">Поддержать проект</a>.</p>
+
+</blockquote>
+
+<h2 id="в-чем-заключалось-основное-изменение">
+  В чем заключалось основное изменение?
+  <a class="anchor" href="#%d0%b2-%d1%87%d0%b5%d0%bc-%d0%b7%d0%b0%d0%ba%d0%bb%d1%8e%d1%87%d0%b0%d0%bb%d0%be%d1%81%d1%8c-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%bd%d0%be%d0%b5-%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5">#</a>
+</h2>
+<h3 id="legacy-транзакция">
+  Legacy-транзакция
+  <a class="anchor" href="#legacy-%d1%82%d1%80%d0%b0%d0%bd%d0%b7%d0%b0%d0%ba%d1%86%d0%b8%d1%8f">#</a>
+</h3>
+<p>В традиционной (Legacy) транзакции Биткоина код разблокировки (и подписи) располагаются <em>следом</em> за каждым <a href="/protocol/utxo">входом</a>, поэтому код разблокировки распределен по всем данным транзакции.</p>
+<p>Затем на основе <strong>всех данных транзакции</strong> создается TXID (идентификатор транзакции):</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/02-ru.png">
+</div>
+<h3 id="segwit-транзакция">
+  SegWit-транзакция
+  <a class="anchor" href="#segwit-%d1%82%d1%80%d0%b0%d0%bd%d0%b7%d0%b0%d0%ba%d1%86%d0%b8%d1%8f">#</a>
+</h3>
+<p>В SegWit-транзакции весь код разблокировки (и подписи) переносятся в конец данных транзакции.</p>
+<p>Затем TXID создается из всех данных транзакции, <strong>за исключением кода разблокировки</strong>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/03-ru.png">
+</div>
+<p>В итоге, на TXID в <strong>SegWit-транзакции</strong> влияют только <em>результаты</em> транзакции (движение биткоинов), но не код, необходимый для <em>валидации</em> транзакции (т.е. подписи, необходимые для разблокировки биткоинов для расходования).</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/04-ru.png">
+</div>
+<p>Таким образом, по сути, мы отделили &ldquo;валидирующую&rdquo; часть (код разблокировки) от остальной части транзакции.</p>
+<blockquote class="book-hint info">
+  Если мы назовем этот код валидации данными <em>свидетеля</em> (как это сделал бы криптограф), то можно сказать, что мы &ldquo;<em>отделили свидетеля</em>&rdquo;. &ldquo;Segregated Witness&rdquo; переводится с английского как &ldquo;отделённый свидетель&rdquo;.
+</blockquote>
+<h2 id="преимущества-segwit">
+  Преимущества SegWit
+  <a class="anchor" href="#%d0%bf%d1%80%d0%b5%d0%b8%d0%bc%d1%83%d1%89%d0%b5%d1%81%d1%82%d0%b2%d0%b0-segwit">#</a>
+</h2>
+<h3 id="1-исправление-пластичности-транзакций">
+  1. Исправление пластичности транзакций
+  <a class="anchor" href="#1-%d0%b8%d1%81%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d1%87%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d1%82%d1%80%d0%b0%d0%bd%d0%b7%d0%b0%d0%ba%d1%86%d0%b8%d0%b9">#</a>
+</h3>
+<p>В Биткоине под <strong>пластичностью транзакций</strong> понимается тот факт, что <strong>ID транзакции может быть изменен путем изменения подписей</strong>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/05-ru.png">
+<p><em>Подпись может быть изменена путем инвертирования <a href="https://learnmeabitcoin.com/technical/keys/signature/#legacy-step-6">значения s</a>. Подпись остается действительной, и транзакция имеет тот же результат, но TXID будет другим.</em></p>
+</div>
+<p>Это означает, что при отправке Legacy-транзакции в сеть любой узел имеет возможность изменить TXID, прежде чем передавать его дальше:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/06-ru.png">
+<p><em>В конце концов ваша транзакция попадет в блокчейн под другим TXID, чем вы ожидали, что будет доставлять неудобства.</em></p>
+</div>
+<p>Однако если подписи больше не являются частью TXID, то впоследствии кто-то другой не сможет изменить TXID вашей транзакции:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/07-ru.png">
+</div>
+<p>Другими словами, SegWit делает идентификаторы транзакций <em>достоверными</em>.</p>
+<h3 id="2-увеличение-вместимости-блока">
+  2. Увеличение вместимости блока
+  <a class="anchor" href="#2-%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b2%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bc%d0%be%d1%81%d1%82%d0%b8-%d0%b1%d0%bb%d0%be%d0%ba%d0%b0">#</a>
+</h3>
+<p>Из-за того, что код разблокировки был перенесен в <em>новое</em> поле witness в данных транзакции, способ расчета размера блока также изменился.</p>
+<p>Ранее размер транзакций измерялся в <a href="/transaction-size/#1-%d0%b1%d0%b0%d0%b9%d1%82%d1%8b-b">байтах</a>, а предельный размер блока составлял 1 000 000 байт (1 МБ):</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/08-ru.png">
+</div>
+<p>С появлением SegWit транзакции больше не измеряются в байтах. Вместо этого транзакции и блоки получили новую метрику под названием <a href="/transaction-size/#2-%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b-%d0%b2%d0%b5%d1%81%d0%b0-weight-units--wu">вес</a>:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/09-ru.png">
+</div>
+<ul>
+<li>Максимальный размер блока составляет <code>4 000 000</code> единиц веса.
+<ul>
+<li>Один <em>обычный</em> байт в транзакции равен <code>4</code> единицам веса.</li>
+<li>Байт <em>witness</em>-данных в транзакции равен <code>1</code> единице веса.</li>
+</ul>
+</li>
+</ul>
+<p>То есть, ограничение размера блока умножается на 4, чтобы получить новое <em>ограничение веса блока</em>.</p>
+<p>Каждый байт в транзакции умножается на 4, чтобы получить <a href="/transaction-size/#2-%d0%b5%d0%b4%d0%b8%d0%bd%d0%b8%d1%86%d1%8b-%d0%b2%d0%b5%d1%81%d0%b0-weight-units--wu">вес транзакции</a>. Однако вы умножаете каждый байт witness-данных на 1, что, по сути, дает вам 75-процентную скидку на размещение &ldquo;кода разблокировки&rdquo; в блоке.</p>
+<p>Таким образом, можно сказать, что код разблокировки занимает <em>четверть</em> занимаемого ранее места, что означает, что теперь в блоке больше места для данных транзакций.</p>
+<h2 id="увеличило-ли-обновление-segwit-размер-блока">
+  Увеличило ли обновление SegWit размер блока?
+  <a class="anchor" href="#%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b8%d0%bb%d0%be-%d0%bb%d0%b8-%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-segwit-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%80-%d0%b1%d0%bb%d0%be%d0%ba%d0%b0">#</a>
+</h2>
+<p>Да, размер каждого блока теперь может превышать 1 000 000 байт (1 МБ).</p>
+<p>Хотя ограничение на размер блока не было увеличено на определенное количество <em>байт</em>, снижение веса кода разблокировки означает, что блоки могут превысить прежний лимит в 1 МБ.</p>
+<blockquote class="book-hint info">
+  <p><strong>То, что размер блока изменился с 1 000 000 байт до 4 000 000 единиц веса, не означает, что SegWit увеличил абсолютный размер блока до 4 МБ.</strong></p>
+<p>Это связано с тем, что типичный блок не будет заполнен исключительно witness-данными (1 единица веса за байт). Вместо этого транзакции содержат комбинацию обычных данных (4 весовые единицы) и witness-данных (1 единица веса). Поэтому &ldquo;увеличение размера блока&rdquo; зависит от состава транзакций в блоке.</p>
+</blockquote>
+<h3 id="насколько-увеличился-размер-блока-благодаря-segwit">
+  Насколько увеличился размер блока благодаря SegWit?
+  <a class="anchor" href="#%d0%bd%d0%b0%d1%81%d0%ba%d0%be%d0%bb%d1%8c%d0%ba%d0%be-%d1%83%d0%b2%d0%b5%d0%bb%d0%b8%d1%87%d0%b8%d0%bb%d1%81%d1%8f-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%80-%d0%b1%d0%bb%d0%be%d0%ba%d0%b0-%d0%b1%d0%bb%d0%b0%d0%b3%d0%be%d0%b4%d0%b0%d1%80%d1%8f-segwit">#</a>
+</h3>
+<p>Обновление SegWit увеличило максимальный размер <em>типичных</em> блоков примерно до <strong>1,8 МБ</strong>.</p>
+<p>Типичный блок транзакций состоит примерно на <strong>60% из кода разблокировки</strong> <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Таким образом, если мы вычислим <em>вес</em> блока размером 1 МБ, состоящего из &ldquo;типичных&rdquo; данных транзакций, мы получим:</p>
+<pre tabindex="0"><code>400 000 байт * 4 = 1 600 000 единиц веса
+600 000 байт * 1 =   600,000 единиц веса
+
+Общий вес        = 2 200 000 единиц веса
+</code></pre><p>Теперь, если блок может иметь максимальный вес в 4 000 000 единиц, мы можем определить, насколько это увеличивает его размер:</p>
+<pre tabindex="0"><code>4,000,000 / 2,200,000 = 1.81
+</code></pre><p>Так что можно сказать, что это эффективное увеличение размера блока до <strong>1,8 МБ</strong>.</p>
+<h2 id="почему-изменения-были-реализованы-именно-так">
+  Почему изменения были реализованы именно так?
+  <a class="anchor" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d0%b8%d0%b7%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d0%b1%d1%8b%d0%bb%d0%b8-%d1%80%d0%b5%d0%b0%d0%bb%d0%b8%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d1%8b-%d0%b8%d0%bc%d0%b5%d0%bd%d0%bd%d0%be-%d1%82%d0%b0%d0%ba">#</a>
+</h2>
+<p>Если вы хотите исправить пластичность транзакций и увеличить ёмкость блока, то, наверняка, есть более <em>простой</em> способ этого добиться, верно? Зачем реструктурировать данные о транзакциях и создавать новую метрику под названием &ldquo;вес блока&rdquo;?</p>
+<p>Хороший вопрос. И вы правы — добиться изменений можно было гораздо проще. Например, можно было бы сделать вот так:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/10-ru.png">
+</div>
+<p>Однако если вы сделаете это, транзакции и блоки станут &ldquo;недействительными&rdquo; в соответствии с текущими правилами.</p>
+<p>Это означает, что узлы сети будут отвергать эти новые транзакции и блоки, поскольку они не соответствуют их правилам о том, как должны &ldquo;выглядеть&rdquo; транзакции и блоки.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/11-ru.png">
+<p><em>Например, одно из правил гласит, что каждый блок должен быть размером не более 1 МБ.</em></p>
+</div>
+<p>Поэтому, если вы захотите внести эти изменения, <strong>вам придется заставить всех в сети обновить свое программное обеспечение</strong> (и, очевидно, согласиться с изменениями).</p>
+<p>В противном случае вы получите сеть, в которой будут созданы два разных блокчейна: обновленные узлы будут строить блокчейн по новым правилам, а старые узлы продолжат строить блокчейн по старым правилам.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/12-ru.png">
+</div>
+<p>Это явление называется хардфорком. В принципе, это может сработать, но очень рискованно и создаст проблемы для тех, кто не обновит программное обеспечение.</p>
+<h3 id="как-при-обновлении-segwit-удалось-избежать-хардфорка">
+  Как при обновлении SegWit удалось избежать хардфорка?
+  <a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%b8-%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b8-segwit-%d1%83%d0%b4%d0%b0%d0%bb%d0%be%d1%81%d1%8c-%d0%b8%d0%b7%d0%b1%d0%b5%d0%b6%d0%b0%d1%82%d1%8c-%d1%85%d0%b0%d1%80%d0%b4%d1%84%d0%be%d1%80%d0%ba%d0%b0">#</a>
+</h3>
+<p>Вместо того чтобы сделать SegWit хардфорком, он был реализован как софтфорк.</p>
+<p>При обновлении SegWit <strong>транзакции и блоки <em>все еще следуют</em> текущим правилам сети Биткоин</strong>, поэтому все узлы по-прежнему воспринимают SegWit-блоки как действительные. &ldquo;Старые&rdquo; узлы будут принимать эти &ldquo;новые&rdquo; блоки и добавлять их в свою копию блокчейна.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/13-ru.png">
+</div>
+<p>Поэтому старые узлы продолжают взаимодействовать с новыми узлами, <em>несмотря на то, что они (старые узлы) не обновились</em>.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/14-ru.png">
+<p><em>Вследствие софтфорка все узлы синхронизируются с единой версией блокчейна.</em></p>
+</div>
+<p>Недостатком для &ldquo;старых&rdquo; узлов является то, что они не смогут воспользоваться новыми возможностями SegWit до тех пор, пока не обновятся. Однако они могут продолжать совершать транзакции &ldquo;старого образца&rdquo; и <strong>поддерживать блокчейн</strong>.</p>
+<p>Итак, обновление SegWit может показаться &ldquo;хакерским&rdquo; способом устранения пластичности транзакций и увеличения ёмкости блоков, но такой подход позволяет избежать проблемы, связанной с попыткой заставить всех перейти на новое программное обеспечение (или в противном случае остаться не у дел).</p>
+<h2 id="когда-был-активирован-segwit">
+  Когда был активирован SegWit?
+  <a class="anchor" href="#%d0%ba%d0%be%d0%b3%d0%b4%d0%b0-%d0%b1%d1%8b%d0%bb-%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd-segwit">#</a>
+</h2>
+<p>Segwit был активирован 24 августа 2017 года в 01:57:37 по UTC, на высоте блока <a href="https://learnmeabitcoin.com/explorer/block/0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893">481824</a>.</p>
+<p>Именно тогда узлы начали применять новые правила консенсуса, предусмотренные обновлением SegWit, для всех новых блоков и транзакций.</p>
+<h2 id="как-вступил-в-действие-segwit">
+  Как вступил в действие SegWit?
+  <a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%b2%d1%81%d1%82%d1%83%d0%bf%d0%b8%d0%bb-%d0%b2-%d0%b4%d0%b5%d0%b9%d1%81%d1%82%d0%b2%d0%b8%d0%b5-segwit">#</a>
+</h2>
+<p>Обновление Segregated Witness вступило в силу, когда <strong>95%</strong> майнеров заявили о готовности его поддержать.</p>
+<p>Майнеры могут сигнализировать о готовности, используя определенный <a href="https://learnmeabitcoin.com/technical/block/version/">номер версии</a> в блоках, которые они добывают.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/15-ru.png">
+<p><em>Поле версии является частью <a href="https://learnmeabitcoin.com/technical/block/#header">заголовка блока</a>.</em></p>
+</div>
+<p>Таким образом, когда 95% блоков имели этот номер версии, SegWit был запланирован к активации:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/16-ru.png">
+<p><em>Порог 95% рассчитывается в течение периода между корректировками сложности (<a href="https://21ideas.org/difficulty/">целевого значения</a>). Если 95-процентный порог достигнут, софтфорк активируется в начале <em>следующего</em> периода (который составляет 2016 блоков, или примерно 2 недели).</em></p>
+</div>
+<h3 id="было-ли-ограничение-по-времени-для-активации">
+  Было ли ограничение по времени для активации?
+  <a class="anchor" href="#%d0%b1%d1%8b%d0%bb%d0%be-%d0%bb%d0%b8-%d0%be%d0%b3%d1%80%d0%b0%d0%bd%d0%b8%d1%87%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%be-%d0%b2%d1%80%d0%b5%d0%bc%d0%b5%d0%bd%d0%b8-%d0%b4%d0%bb%d1%8f-%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%b0%d1%86%d0%b8%d0%b8">#</a>
+</h3>
+<p>Да, было задано окно активации:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"><strong>Старт:</strong></th>
+          <th style="text-align: left">15 ноября 2016 г., 00:00</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Тайм-аут:</strong></td>
+          <td style="text-align: left"><strong>15 ноября 2017 г., 00:00</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>Если бы к полуночи 15 ноября 2017 года достаточное количество майнеров не заявило о готовности к обновлению Segregated Witness, предложение было бы отменено.</p>
+<h3 id="график-активации">
+  График активации
+  <a class="anchor" href="#%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba-%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%b0%d1%86%d0%b8%d0%b8">#</a>
+</h3>
+<p>В таблице показано количество блоков, сигнализирующих о SegWit, за каждый период между корректировками сложности, предшествующий активации:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Начало</th>
+          <th style="text-align: left">Период</th>
+          <th style="text-align: left">Сигнализирующие блоки</th>
+          <th style="text-align: left">Процент</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">18.11.2016, 08:30:15</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/439488#blockchain">439488</a> до <a href="https://learnmeabitcoin.com/explorer/441503#blockchain">441503</a></td>
+          <td style="text-align: left">451/2016</td>
+          <td style="text-align: left">22.37%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">02.12.2016, 02:46:26</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/441504#blockchain">441504</a> до <a href="https://learnmeabitcoin.com/explorer/443519#blockchain">443519</a></td>
+          <td style="text-align: left">487/2016</td>
+          <td style="text-align: left">24.16%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">15.12.2016, 01:28:33</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/443520#blockchain">443520</a> до <a href="https://learnmeabitcoin.com/explorer/445535#blockchain">445535</a></td>
+          <td style="text-align: left">520/2016</td>
+          <td style="text-align: left">25.79%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">28.12.2016, 17:40:55</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/445536#blockchain">445536</a> до <a href="https://learnmeabitcoin.com/explorer/447551#blockchain">447551</a></td>
+          <td style="text-align: left">521/2016</td>
+          <td style="text-align: left">25.84%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">10.01.2017, 22:40:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/447552#blockchain">447552</a> до <a href="https://learnmeabitcoin.com/explorer/449567#blockchain">449567</a></td>
+          <td style="text-align: left">489/2016</td>
+          <td style="text-align: left">24.26%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">22.01.2017, 22:52:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/449568#blockchain">449568</a> до <a href="https://learnmeabitcoin.com/explorer/451583#blockchain">451583</a></td>
+          <td style="text-align: left">468/2016</td>
+          <td style="text-align: left">23.21%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">04.02.2017, 23:38:49</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/451584#blockchain">451584</a> до <a href="https://learnmeabitcoin.com/explorer/453599#blockchain">453599</a></td>
+          <td style="text-align: left">485/2016</td>
+          <td style="text-align: left">24.06%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">18.02.2017, 09:38:26</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/453600#blockchain">453600</a> до <a href="https://learnmeabitcoin.com/explorer/455615#blockchain">455615</a></td>
+          <td style="text-align: left">537/2016</td>
+          <td style="text-align: left">26.64%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">03.03.2017, 19:04:46</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/455616#blockchain">455616</a> до <a href="https://learnmeabitcoin.com/explorer/457631#blockchain">457631</a></td>
+          <td style="text-align: left">532/2016</td>
+          <td style="text-align: left">26.39%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">17.03.2017, 08:36:15</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/457632#blockchain">457632</a> до <a href="https://learnmeabitcoin.com/explorer/459647#blockchain">459647</a></td>
+          <td style="text-align: left">582/2016</td>
+          <td style="text-align: left">28.87%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">30.03.2017, 16:39:08</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/459648#blockchain">459648</a> до <a href="https://learnmeabitcoin.com/explorer/461663#blockchain">461663</a></td>
+          <td style="text-align: left">614/2016</td>
+          <td style="text-align: left">30.46%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">13.04.2017, 02:59:50</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/461664#blockchain">461664</a> до <a href="https://learnmeabitcoin.com/explorer/463679#blockchain">463679</a></td>
+          <td style="text-align: left">671/2016</td>
+          <td style="text-align: left">33.28%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">27.04.2017, 02:20:01</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/463680#blockchain">463680</a> до <a href="https://learnmeabitcoin.com/explorer/465695#blockchain">465695</a></td>
+          <td style="text-align: left">698/2016</td>
+          <td style="text-align: left">34.62%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">10.05.2017, 03:40:48</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/465696#blockchain">465696</a> до <a href="https://learnmeabitcoin.com/explorer/467711#blockchain">467711</a></td>
+          <td style="text-align: left">663/2016</td>
+          <td style="text-align: left">32.89%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">23.05.2017, 07:29:52</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/467712#blockchain">467712</a> до <a href="https://learnmeabitcoin.com/explorer/469727#blockchain">469727</a></td>
+          <td style="text-align: left">622/2016</td>
+          <td style="text-align: left">30.85%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">04.06.2017, 14:35:07</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/469728#blockchain">469728</a> до <a href="https://learnmeabitcoin.com/explorer/471743#blockchain">471743</a></td>
+          <td style="text-align: left">642/2016</td>
+          <td style="text-align: left">31.85%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">17.06.2017, 23:18:53</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/471744#blockchain">471744</a> до <a href="https://learnmeabitcoin.com/explorer/473759#blockchain">473759</a></td>
+          <td style="text-align: left">825/2016</td>
+          <td style="text-align: left">40.92%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">02.07.2017, 00:47:17</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/473760#blockchain">473760</a> до <a href="https://learnmeabitcoin.com/explorer/475775#blockchain">475775</a></td>
+          <td style="text-align: left">917/2016</td>
+          <td style="text-align: left">45.49%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">14.07.2017, 08:45:42</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/475776#blockchain">475776</a> до <a href="https://learnmeabitcoin.com/explorer/477791#blockchain">477791</a></td>
+          <td style="text-align: left">1440/2016</td>
+          <td style="text-align: left">71.43%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">27.07.2017, 11:03:54</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/477792#blockchain">477792</a> до <a href="https://learnmeabitcoin.com/explorer/479807#blockchain">479807</a></td>
+          <td style="text-align: left">2016/2016</td>
+          <td style="text-align: left">100.00%</td>
+      </tr>
+  </tbody>
+</table>
+<p>Как видите, порог в 95% майнеров, сигнализирующих о готовности к SegWit, был превышен в период между блоками <a href="https://learnmeabitcoin.com/explorer/block/00000000000000000016ba7786309176445b838b36a16bd1ef3c3e3020473206">477792</a> и <a href="https://learnmeabitcoin.com/explorer/block/00000000000000000053e2d10bd703ad5b7787614965711d6170b69b133aa366">479807</a>.</p>
+<p>Таким образом, обновление SegWit было активировано спустя 2016 блоков (примерно через 2 недели) на блоке <a href="https://learnmeabitcoin.com/explorer/block/0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893">481824</a>:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Начало</th>
+          <th style="text-align: left">Период</th>
+          <th style="text-align: left">Примечание</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">09.08.2017, 12:36:50</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/479808#blockchain">479808</a> до <a href="https://learnmeabitcoin.com/explorer/481823#blockchain">481823</a></td>
+          <td style="text-align: left">SegWit зафиксирован</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">24.08.2017, 01:57:37</td>
+          <td style="text-align: left"><a href="https://learnmeabitcoin.com/explorer/481824#blockchain">481824</a> и далее</td>
+          <td style="text-align: left">SegWit активирован</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote class="book-hint info">
+  <ul>
+<li>Период с 439488 до 441503 был первым сигнальным периодом после начала окна активации.</li>
+<li>100% блоков между 477792 и 479807 сигнализировали о переходе на SegWit. Вы можете посмотреть блоки и их сигналы здесь: <a href="https://learnmeabitcoin.com/beginners/guide/segwit/segwit-signals-version-bits.txt">segwit-signals-version-bits.txt</a> (второй бит справа сигнализирует о поддержке SegWit).</li>
+<li>Существует промежуток в один период между корректировками сложности, когда софтфорк &ldquo;зафиксирован&rdquo;, прежде чем он будет активирован.</li>
+</ul>
+</blockquote>
+<h3 id="почему-решение-об-активации-принимали-_майнеры_">
+  Почему решение об активации принимали <em>майнеры</em>?
+  <a class="anchor" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d1%80%d0%b5%d1%88%d0%b5%d0%bd%d0%b8%d0%b5-%d0%be%d0%b1-%d0%b0%d0%ba%d1%82%d0%b8%d0%b2%d0%b0%d1%86%d0%b8%d0%b8-%d0%bf%d1%80%d0%b8%d0%bd%d0%b8%d0%bc%d0%b0%d0%bb%d0%b8-_%d0%bc%d0%b0%d0%b9%d0%bd%d0%b5%d1%80%d1%8b_">#</a>
+</h3>
+<p>Если вы хотите, чтобы софтфорк был успешным, вам нужно, чтобы большинство майнеров добывали блоки &ldquo;нового&rdquo; типа.</p>
+<p>Это необходимо для того, чтобы блокчейн с &ldquo;новыми&rdquo; блоками опередил любой блокчейн, который может быть создан на основе &ldquo;старых&rdquo; блоков (от необновленных майнинг-узлов, которые всё ещё добывают блоки &ldquo;старого образца&rdquo;).</p>
+<p>В результате &ldquo;новый&rdquo; блокчейн будет строиться быстрее, чем любой блокчейн, создаваемый из &ldquo;старых&rdquo; блоков, поэтому все узлы, естественно, примут одну и ту же самую длинную цепочку:</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/17-ru.png">
+<p><em>Большинство майнинговых мощностей позволяет всем участникам сети работать с одной цепочкой.</em></p>
+</div>
+<p>Таким образом, наличие подавляющего большинства майнеров обеспечивает плавное обновление, поскольку гарантирует, что вся сеть придет к одной версии блокчейна.</p>
+<blockquote class="book-hint info">
+  Не обязательно, чтобы майнеры были наиболее компетентной группой для принятия решений при софтфорке; скорее, они <em>необходимы</em> для обеспечения плавного обновления для всей сети.
+</blockquote>
+<h2 id="что-произойдет-если-я-не-запущу-обновление-segwit">
+  Что произойдет, если я не запущу обновление SegWit?
+  <a class="anchor" href="#%d1%87%d1%82%d0%be-%d0%bf%d1%80%d0%be%d0%b8%d0%b7%d0%be%d0%b9%d0%b4%d0%b5%d1%82-%d0%b5%d1%81%d0%bb%d0%b8-%d1%8f-%d0%bd%d0%b5-%d0%b7%d0%b0%d0%bf%d1%83%d1%89%d1%83-%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-segwit">#</a>
+</h2>
+<p>Если вы используете старую версию узла (например, <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.13.0.md">Bitcoin Core v0.13.0</a> или ниже), все узлы SegWit, к которым вы подключены, будут удалять все witness-данные из транзакций, прежде чем отправить их вам.</p>
+<div class="imageWrapper">
+    <img src="/img/segwit/18-ru.png">
+</div>
+<p>Это означает следующее:</p>
+<ul>
+<li>Вы будете получать те же транзакции, что и все остальные.</li>
+<li>Если вы получите транзакцию SegWit, вы увидите <em>движение</em> биткоинов, но не увидите никаких данных <em>кода разблокировки</em>.</li>
+</ul>
+<p>Так что, по сути, ваш узел получит &ldquo;облегченную&rdquo; версию SegWit-транзакций.</p>
+<h2 id="как-обновиться">
+  Как обновиться?
+  <a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%b8%d1%82%d1%8c%d1%81%d1%8f">#</a>
+</h2>
+<ul>
+<li><strong>Bitcoin Core</strong> – Убедитесь, что вы используете версию <a href="https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.13.1.md">0.13.1</a> или выше.</li>
+<li><strong>Другие кошельки</strong> – Почти все современные кошельки на сегодняшний день поддерживают транзакции SegWit.</li>
+</ul>
+<p>SegWit существует уже так давно, что вряд ли вы столкнетесь с программным обеспечением, которое его не поддерживает (если только оно не очень старое).</p>
+<h2 id="источники">
+  Источники
+  <a class="anchor" href="#%d0%b8%d1%81%d1%82%d0%be%d1%87%d0%bd%d0%b8%d0%ba%d0%b8">#</a>
+</h2>
+<ul>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki">BIP 141 (Уровень консенсуса)</a></li>
+<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0144.mediawiki">BIP 144 (Взаимодействие между узлами)</a></li>
+<li><a href="https://bitcoincore.org/en/2016/01/26/segwit-benefits/">Bitcoin.org – Преимущества Segregated Witness</a></li>
+</ul>
+<h3 id="спасибо">
+  Спасибо
+  <a class="anchor" href="#%d1%81%d0%bf%d0%b0%d1%81%d0%b8%d0%b1%d0%be">#</a>
+</h3>
+<ul>
+<li><a href="https://github.com/sipa">Питеру Вюлле</a> – за объяснение <a href="https://bitcoin.stackexchange.com/questions/49097/what-does-a-segregated-witness-transaction-look-like">структуры данных SegWit-транзакций</a> (помимо всего прочего).</li>
+<li><a href="https://github.com/gmaxwell">Грегори Максвеллу</a> и <a href="https://github.com/luke-jr">Люку Дашеру</a> – за объяснение параметра <a href="https://www.reddit.com/r/Bitcoin/comments/5e7a8n/what_will_be_the_block_size_limit_if_segwit/">веса блока</a>.</li>
+</ul>
+<h3 id="дополнительные-материалы">
+  Дополнительные материалы
+  <a class="anchor" href="#%d0%b4%d0%be%d0%bf%d0%be%d0%bb%d0%bd%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b">#</a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=DzBAG2Jp4bg">Объяснение Segregated Witness</a> – Хорошее объяснение SegWit в видеоформате с полезными визуализациями изменений в структуре данных транзакций.</li>
+</ul>
+<h3 id="поддержите-переводчика">
+  Поддержите переводчика
+  <a class="anchor" href="#%d0%bf%d0%be%d0%b4%d0%b4%d0%b5%d1%80%d0%b6%d0%b8%d1%82%d0%b5-%d0%bf%d0%b5%d1%80%d0%b5%d0%b2%d0%be%d0%b4%d1%87%d0%b8%d0%ba%d0%b0">#</a>
+</h3>
+<p>Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:</p>
+<div class="imageWrapper">
+    <img src="/img/btclinux-ln-qr.jpg">
+<p><code>lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf</code></p>
+</div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Я получил эту цифру в 60%, пробежавшись по файлам <a href="https://learnmeabitcoin.com/technical/block/blkdat/">blk.dat</a>, сложив данные <code>scriptSig</code> для всех транзакций в блоке, и сравнив их с общим размером блока. Я не проводил исчерпывающих тестов, но 60% кажется справедливым средним значением. Например, вот результат для <a href="https://learnmeabitcoin.com/beginners/guide/segwit/blk00700_scriptsig.txt">blk00700.dat</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/segwit/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

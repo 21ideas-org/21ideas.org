@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practice on 21ideas</title>
+    <link>http://localhost:1313/en/tags/practice/</link>
+    <description>Recent content in Practice on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Feb 2024 21:59:15 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Bitcoin’s UX</title>
+      <link>http://localhost:1313/en/on-bitcoins-ux/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/on-bitcoins-ux/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Gigi was published on &lt;a href=&#34;https://www.swanbitcoin.com/on-bitcoins-ux/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Why the internet doesn’t feel as clumsy anymore is twofold: (1) we got used to the novel concepts the internet brought with it, and (2) countless layers of abstraction make interacting with the base layer easier.&lt;/p&gt;&#xA;&lt;p&gt;There is an ongoing discus­sion in the Bitcoin space revolving around the topic of user experi­ence, or UX for short. Bitcoin still feels weird, clunky, and compli­cated at times. The main reason for this is that Bitcoin and its parts (the network, the protocol, the cryptog­raphy, the scripting language) are indeed weird, clunky, and compli­cated. Just like the internet was and arguably, still is.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
