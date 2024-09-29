@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Кошельки on 21ideas</title>
+    <link>http://localhost:1313/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B8/</link>
+    <description>Recent content in Кошельки on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Thu, 09 May 2024 08:45:35 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Биткоин-кошельки. Зачем и как хранить свои приватные ключи</title>
+      <link>http://localhost:1313/kak-hranit-kljuchi/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kak-hranit-kljuchi/</guid>
+      <description>&lt;p&gt;Статья расскажет о лучших практиках хранения своих биткоин-ключей. Это важнейшая информация, необходимая для обеспечения безопасности своих монет.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;статьи&lt;/a&gt; Брендона Квиттема подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони ⚡️&lt;/a&gt;. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Итак, вы приобрели немного биткоинов, и теперь столкнулись со следующим вопросом: как их лучше всего хранить? Мы поможем вам подобрать тот кошелек, который подойдет именно вам.&lt;/p&gt;&#xA;&lt;p&gt;Хотя ничего сложного, на первый взгляд, в этом нет, выбор кошелька сопряжен с немалым количеством нюансов. &lt;em&gt;Сколько у вас биткоинов? Как часто вы планируете их тратить? Вы уверены, что ваши ключи в большей безопасности, чем в холодном кастодиальном хранилище?&lt;/em&gt; Ответы на эти вопросы помогут найти правильное решение именно для вас.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Лайтнинг-кошельки</title>
+      <link>http://localhost:1313/lajtning-koshelki/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lajtning-koshelki/</guid>
+      <description>&lt;p&gt;С повторяющимися всплесками популярности картинок обезьян в блокчейне Биткоина и в преддверии предстоящего бычьего рынка комиссии в основной сети не особо радуют.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Комиссии в сети могут достигать сотен сат за виртуальный байт, и это далеко не предел. &lt;a href=&#34;https://mempool.space/ru/&#34;&gt;Источник&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Лайтнинг предоставляет решение наболевшей проблемы высоких комиссий, но действовать нужно продуманно, не торопясь. Поэтому сегодня предлагаю разобрать лучшие доступные лайтнинг-кошельки, оценить плюсы и минусы каждого из них, чтобы вы могли выбрать лучшее решение и наконец забыть (или хотя бы минимизировать стресс) о высоких комиссиях.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

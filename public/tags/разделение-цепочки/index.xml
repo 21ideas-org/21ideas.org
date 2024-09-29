@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Разделение Цепочки on 21ideas</title>
+    <link>http://localhost:1313/tags/%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B8/</link>
+    <description>Recent content in Разделение Цепочки on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sat, 04 May 2024 21:50:09 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%86%D0%B5%D0%BF%D0%BE%D1%87%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Полная история консенсус-форков Биткоина</title>
+      <link>http://localhost:1313/bitcoin-forks/</link>
+      <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bitcoin-forks/</guid>
+      <description>&lt;h2 id=&#34;обзор&#34;&gt;&#xA;  Обзор&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%d0%be%d0%b1%d0%b7%d0%be%d1%80&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;В этой статье мы перечислим 19 изменений правил консенсуса Биткоина (или 18, поскольку одно из них случайно &amp;ldquo;провалилось&amp;rdquo;), что представляет собой, по нашему мнению, почти все значительные события такого рода в истории Биткоина. По крайней мере три из этих инцидентов привели к заметному разделению цепочки, длившемуся примерно 51, 24 и 6 блоков, в 2010, 2013 и 2015 годах соответственно.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;Перевод статьи, опубликованной в &lt;a href=&#34;https://blog.bitmex.com/bitcoins-consensus-forks/&#34;&gt;блоге BitMEX Research&lt;/a&gt;. Позже статья была &lt;a href=&#34;https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/&#34;&gt;обновлена&lt;/a&gt;. Обновленный список включает в себя &lt;a href=&#34;https://bitcoincore.org/en/2018/09/20/notice/&#34;&gt;инцидент, связанный с безопасностью&lt;/a&gt;, 2018 года и &lt;a href=&#34;https://en.bitcoin.it/wiki/BIP_0341&#34;&gt;активацию Taproot&lt;/a&gt; в 2021.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Анализ форка Биткоина 2013 года</title>
+      <link>http://localhost:1313/analyzing-2013-fork/</link>
+      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/analyzing-2013-fork/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;Перевод &lt;a href=&#34;https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/&#34;&gt;статьи&lt;/a&gt;, опубликованной в блоге Freedom to Tinker.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;11 марта 2013 года Биткоин пережил технический кризис. Версии 0.7 и 0.8 программного обеспечения отличались друг от друга в поведении из-за ошибки, что привело к разделению цепочки блоков. Учитывая, насколько катастрофичным может быть хардфорк, кризис был быстро разрешен с удивительно малым ущербом благодаря исключительной компетентности ответственных разработчиков. Это событие позволяет нам заглянуть во внутреннее устройство Биткоина. В этой статье я проведу анализ тех драматических минут и сформулирую множество удивительных выводов. Краткое описание этого события смотрите &lt;a href=&#34;https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

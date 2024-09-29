@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on 21ideas</title>
+    <link>http://localhost:1313/en/tags/security/</link>
+    <description>Recent content in Security on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Mar 2024 10:46:09 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phoenix: The Non-Custodial Lightning Wallet</title>
+      <link>http://localhost:1313/en/phoenix/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/phoenix/</guid>
+      <description>&lt;p&gt;How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;The guide written by &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;intro&#34;&gt;&#xA;  Intro&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I would like to share a guide on &lt;a href=&#34;https://phoenix.acinq.co/&#34;&gt;Phoenix&lt;/a&gt; — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like &lt;a href=&#34;https://www.walletofsatoshi.com/&#34;&gt;Wallet Of Satoshi&lt;/a&gt; and you want to gain more control over your funds, hold your sats in Lightning Network, and &lt;strong&gt;minimize&lt;/strong&gt; the level of trust to a third party. I say &amp;lsquo;minimize&amp;rsquo; rather than &amp;lsquo;avoid&amp;rsquo; for a reason, but I&amp;rsquo;ll clarify this later in the guide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Electrum Bitcoin Wallet</title>
+      <link>http://localhost:1313/en/electrum/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/electrum/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/parman_the&#34;&gt;Arman The Parman&lt;/a&gt; was published in his &lt;a href=&#34;https://armantheparman.com/electrum&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;why-electrum&#34;&gt;&#xA;  Why Electrum?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-electrum&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level. Instead, it’s for the person who is, or aspires to be, a “power” user.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title>
+      <link>http://localhost:1313/en/how-to-hold-private-keys/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/how-to-hold-private-keys/</guid>
+      <description>&lt;p&gt;Not Your Keys, Not Your Bitcoin.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Brandon Quittem was published on &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p&gt;&#xA;&lt;p&gt;Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em&gt;How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em&gt; Answering these questions will help deter­mine the right solution for you. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LNbits: A Swiss knife among Lightning apps</title>
+      <link>http://localhost:1313/en/lnbits/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/lnbits/</guid>
+      <description>&lt;p&gt;LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;The guide written by &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;lnbits&#34;&gt;&#xA;  LNbits&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#lnbits&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.&lt;/p&gt;&#xA;&lt;p&gt;It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented. The most expected innovation is the possibility to enter the service via login and password. So far, LNbits is a web page that requires only a clearnet address to log in. Some may find this approach unacceptable, but in this guide we&amp;rsquo;ll look at approaches that completely negate any danger. Nevertheless, it&amp;rsquo;s worth remembering that this is not a tool for long-term savings, but rather a layer designed to facilitate interaction with other users and make everyone&amp;rsquo;s experience pleasant and seamless.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using Bitcoin</title>
+      <link>http://localhost:1313/en/start/guide/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/start/guide/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://localhost:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Why You Should Run Your Own Bitcoin Node</title>
+      <link>http://localhost:1313/en/practice/bitcoin-node/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/practice/bitcoin-node/</guid>
+      <description>&lt;p&gt;Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/parman_the&#34;&gt;Arman The Parman&lt;/a&gt; was published in &lt;a href=&#34;https://bitcoinmagazine.com/culture/six-reasons-you-should-run-bitcoin-node&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:&lt;/p&gt;&#xA;&lt;p&gt;Your Bitcoin node needs to keep a copy of the entire Bitcoin &lt;a href=&#34;https://bitcoinmagazine.com/guides/what-is-blockchain&#34;&gt;blockchain&lt;/a&gt;. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.e., the queue of transactions waiting to be included in the next block, and thus added to the blockchain). It needs to check that all additions to the blockchain are valid, and reject those that are not valid. It will provide details about the blockchain — such as balances — to other types of software that ask, like wallets. And it will provide a copy of the blockchain to any new node that wants to join. The new node then independently checks that every transaction in the copy it receives is valid. It does not actually “trust” the connected node.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing Blue Wallet</title>
+      <link>http://localhost:1313/en/blue/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blue/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/econoalchemist&#34;&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href=&#34;https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href=&#34;https://bluewallet.io/&#34;&gt;Blue Wallet&lt;/a&gt; to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buy noKYC Bitcoin with HodlHodl</title>
+      <link>http://localhost:1313/en/hodl-hodl/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/hodl-hodl/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/hodlhodl&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-hodl-hodl&#34;&gt;&#xA;  What is Hodl Hodl?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-hodl-hodl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RoboSats: Private P2P Exchange</title>
+      <link>http://localhost:1313/en/robosats/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/robosats/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/robosats&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h1 id=&#34;nokyc&#34;&gt;&#xA;  noKYC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#nokyc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SeedSigner: DIY Bitcoin Signing Device</title>
+      <link>http://localhost:1313/en/seedsigner/</link>
+      <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/seedsigner/</guid>
+      <description>&lt;p&gt;This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/econoalchemist&#34;&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href=&#34;https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/seedsigner/02.webp&#34;&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://seedsigner.com/&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;unboxing&#34;&gt;&#xA;  Unboxing&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#unboxing&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href=&#34;https://btc-hardware-solutions.square.site/&#34;&gt;BTC Hardware Solutions&lt;/a&gt; with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href=&#34;https://www.gobrrr.me/?v=7516fd43adaa&#34;&gt;GoBrrr&lt;/a&gt; or &lt;a href=&#34;https://diynodes.com/&#34;&gt;DIYNodes&lt;/a&gt;, and Philippines customers can use &lt;a href=&#34;https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1&#34;&gt;TechHaven&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Coldcard?</title>
+      <link>http://localhost:1313/en/coldcard/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/coldcard/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/coldcard&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-coldcard&#34;&gt;&#xA;  What is Coldcard?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-coldcard&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starting with Mutiny Wallet</title>
+      <link>http://localhost:1313/en/mutiny/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mutiny/</guid>
+      <description>&lt;p&gt;Recently, I listened to an episode of &lt;a href=&#34;https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC&#34;&gt;SLP551&lt;/a&gt; featuring a discussion between &lt;a href=&#34;https://stacker.news/stephanlivera&#34;&gt;@stephanlivera&lt;/a&gt; and &lt;a href=&#34;https://stacker.news/benthecarman&#34;&gt;@benthecarman&lt;/a&gt; about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href=&#34;http://localhost:1313/en/what-is-lightning-network&#34;&gt;Lightning Network&lt;/a&gt;. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://stacker.news/runningbitcoin&#34;&gt;@runningbitcoin&lt;/a&gt; was published on &lt;a href=&#34;https://stacker.news/items/467711/r/Tony&#34;&gt;stacker.news&lt;/a&gt; website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

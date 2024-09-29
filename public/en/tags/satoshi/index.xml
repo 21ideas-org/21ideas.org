@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satoshi on 21ideas</title>
+    <link>http://localhost:1313/en/tags/satoshi/</link>
+    <description>Recent content in Satoshi on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Feb 2024 16:48:34 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/satoshi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was Satoshi a Greedy Miner?</title>
+      <link>http://localhost:1313/en/was-satoshi-a-greedy-miner/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/was-satoshi-a-greedy-miner/</guid>
+      <description>&lt;p&gt;Technical analysis of mining behavior exhibited by an entity that is plausibly Satoshi Nakamoto.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/lopp&#34;&gt;Jameson Lopp&lt;/a&gt; was published in his &lt;a href=&#34;https://blog.lopp.net/was-satoshi-a-greedy-miner&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;If you spend enough time in the crypto ecosystem then you&amp;rsquo;ll no doubt come across arguments that some projects have unfair token distributions because they were &amp;ldquo;premined&amp;rdquo; / &amp;ldquo;instamined&amp;rdquo; / &amp;ldquo;fast mined&amp;rdquo; by the project founders, effectively enriching themselves from the initial launch of the project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

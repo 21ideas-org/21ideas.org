@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Wallet on 21ideas</title>
+    <link>http://localhost:1313/en/tags/mobile-wallet/</link>
+    <description>Recent content in Mobile Wallet on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Mar 2024 10:46:09 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/mobile-wallet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phoenix: The Non-Custodial Lightning Wallet</title>
+      <link>http://localhost:1313/en/phoenix/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/phoenix/</guid>
+      <description>&lt;p&gt;How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;The guide written by &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;intro&#34;&gt;&#xA;  Intro&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#intro&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I would like to share a guide on &lt;a href=&#34;https://phoenix.acinq.co/&#34;&gt;Phoenix&lt;/a&gt; — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like &lt;a href=&#34;https://www.walletofsatoshi.com/&#34;&gt;Wallet Of Satoshi&lt;/a&gt; and you want to gain more control over your funds, hold your sats in Lightning Network, and &lt;strong&gt;minimize&lt;/strong&gt; the level of trust to a third party. I say &amp;lsquo;minimize&amp;rsquo; rather than &amp;lsquo;avoid&amp;rsquo; for a reason, but I&amp;rsquo;ll clarify this later in the guide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing Blue Wallet</title>
+      <link>http://localhost:1313/en/blue/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blue/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/econoalchemist&#34;&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href=&#34;https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href=&#34;https://bluewallet.io/&#34;&gt;Blue Wallet&lt;/a&gt; to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starting with Mutiny Wallet</title>
+      <link>http://localhost:1313/en/mutiny/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mutiny/</guid>
+      <description>&lt;p&gt;Recently, I listened to an episode of &lt;a href=&#34;https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC&#34;&gt;SLP551&lt;/a&gt; featuring a discussion between &lt;a href=&#34;https://stacker.news/stephanlivera&#34;&gt;@stephanlivera&lt;/a&gt; and &lt;a href=&#34;https://stacker.news/benthecarman&#34;&gt;@benthecarman&lt;/a&gt; about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href=&#34;http://localhost:1313/en/what-is-lightning-network&#34;&gt;Lightning Network&lt;/a&gt;. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://stacker.news/runningbitcoin&#34;&gt;@runningbitcoin&lt;/a&gt; was published on &lt;a href=&#34;https://stacker.news/items/467711/r/Tony&#34;&gt;stacker.news&lt;/a&gt; website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

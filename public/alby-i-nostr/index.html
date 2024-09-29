@@ -1,0 +1,3359 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cегодня я бы хотел поделиться с вами гидом по двум очень интересным и полезным приложениям. Это универсальное браузерное расширение Alby и клиент для взаимодействия с протоколом Nostr под названием Nostrgram.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Alby и Nostr" />
+<meta property="og:description" content="Cегодня я бы хотел поделиться с вами гидом по двум очень интересным и полезным приложениям. Это универсальное браузерное расширение Alby и клиент для взаимодействия с протоколом Nostr под названием Nostrgram." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/alby-i-nostr/" />
+<meta property="og:image" content="http://localhost:1313/img/alb-363.png"/>
+
+<title>Alby и Nostr | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/alby-and-nostr/" title="Alby and Nostr">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/ru.search.min.5321339985b5c30e0aa6aa27afeefb2863be7061735251cb10c140a1fbd85342.js" integrity="sha256-UyEzmYW1ww4Kpqonr&#43;77KGO&#43;cGFzUlHLEMFAofvYU0I=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Поиск" aria-label="Поиск" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Русский
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/alby-and-nostr/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a href="/start/" class="">Старт</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/start/" class="">Что такое Биткоин?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/guide/" class="">Используем биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/course/" class="">Биткоин от А до Я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-myths/" class="">Разрушаем мифы о Биткоине</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/shitcoin-casino/" class="">Не играйте в щиткоин-казино</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle"  />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/theory/" class="">Теория</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/economics/" class="">Экономика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/pzv/" class="">Постепенно, затем внезапно</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/postepenno-zatem-vnezapno/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nelzya-skopirovat/" class="">Биткоин нельзя скопировать</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-volatilen/" class="">Биткоин не слишком волатилен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-tratit-energiyu-zrya/" class="">Биткоин не тратит энергию зря</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-medlennyj/" class="">Биткоин не слишком медленный</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-ispravit/" class="">Биткоин это исправит</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-blokchejn/" class="">Биткоин, не блокчейн</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nichem-ne-podkreplen/" class="">Биткоин ничем не подкреплен?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-finansovaya-piramida/" class="">Биткоин — не финансовая пирамида</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-mozhet-byt-zabanen/" class="">Биткоин не может быть забанен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-dlya-prestupnikov/" class="">Биткоин не для преступников</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-obescenivaet-ostalnye-dengi/" class="">Биткоин обесценивает остальные деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-zov-k-edineniyu/" class="">Биткоин — зов к единению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-zdravyj-smysl/" class="">Биткоин — это здравый смысл</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-antihrupok/" class="">Биткоин антихрупок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-velikaya-definancializaciya/" class="">Биткоин — великая дефинанcиализация</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/sb/" class="">Становление Биткоина</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-intro/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-1/" class="">О времени</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-2/" class="">О людях</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-3/" class="">Знакомьтесь: деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-4/" class="">Поворот не туда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-5/" class="">Цифровая редкость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-6/" class="">Цифровые контракты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-7/" class="">Недостающие части головоломки</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitkoin-ne-vredit-okruzhayushej-srede/" class="">Биткоин и окружающая среда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sem-setevyh-effektov-bitkoina/" class="">Семь сетевых эффектов Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hozyaeva-i-raby-deneg/" class="">Хозяева и рабы денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strukturnaya-perestrojka/" class="">Структурная перестройка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/v-zashchitu-deflyacii/" class="">В защиту дефляции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/negativnye-effekty-neftedollara/" class="">Негативные внешние эффекты нефтедоллара</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/raskoshelivaemsya/" class="">Раскошеливаемся (Shelling Out): Происхождение денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-ritmy-istorii/" class="">Биткоин и ритмы истории</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-internet-cikly-hopfa/" class="">Биткоин и интернет-циклы Хопфа</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/dengi-blokchejny-i-socialnaya-masshtabiruemost/" class="">Деньги, блокчейны и социальная масштабируемость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-dengi/" class="">Что такое деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vyzhivaet-silnejshij/" class="">Выживает сильнейший</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strategiya-dca/" class="">Стратегия DCA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/jevons-paradox/" class="">Парадокс Джевонса: Обратная истина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-rabotajut-dengi/" class="">Как работают деньги</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/security/" class="">Безопасность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-hranit-kljuchi/" class="">Биткоин-кошельки. Зачем и как хранить свои приватные ключи</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed/" class="">Что такое сид-фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed-security/" class="">Как обезопасить свои сид-фразы?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/passphrase/" class="">Насколько надежна ваша парольная фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig/" class="">Все о мультисиг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hwws/" class="">Сравнение аппаратных кошельков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-1/" class="">Мультисиг. Часть I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-2/" class="">Мультисиг. Часть II: Отдельные ключи – основа мультиподписи</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/privacy/" class="">Приватность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/luchshie-praktiki/" class="">Как сохранить приватность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/no-kyc/" class="">Никаких KYC, берегите персональные данные</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-seti-bitcoin/" class="">Приватность в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-stanovitsya-kriticheski-vazhnym/" class="">Биткоин становится критически важным</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bip47-ili-gadkij-utenok/" class="">BIP47, или гадкий утенок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/privacy/oxt/" class="">Понимание приватности в сети Биткоин с помощью OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-1/" class="">Часть 1: Анализ цепочки и приватность транзакций</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-2/" class="">Часть 2: Ключевые концепции анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-3/" class="">Часть 3: Защита от анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-4/" class="">Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/coinjoin/" class="">Понимание и использование CoinJoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-fungibility/" class="">Взаимозаменяемость Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/protocol/" class="">Протокол</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kto-kontroliruet-bitkoin-kor/" class="">Кто контролирует Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vechnaja-borba/" class="">Вечная борьба Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ob-udobstve-vzaimodejstvija-s-bitcoinom/" class="">Об удобстве взаимодействия с Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-zoloto-2-0/" class="">Биткоин: цифровое золото или пиринговая наличность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/upravlenie-bitcoin/" class="">Управление Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/doverennye-tretyi-storony/" class="">Доверенные третьи стороны — это бреши в системе безопасности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/21-million-ne-podlezhit-obsuzhdeniyu/" class="">21 миллион не подлежит обсуждению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-work/" class="">Proof of Work: доказательство проделанной работы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-stake-eto-skam/" class="">Proof of Stake – это скам</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/byl-li-satoshi-zhadnym-majnerom/" class="">Был ли Сатоши жадным майнером?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/segwit/" class="">Что такое SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/taproot/" class="">Что такое Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bomby-slozhnosti-ethereum/" class="">Бомбы сложности Ethereum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/rgb/" class="">Разбирая протокол RGB</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/halving/" class="">Что такое Биткоин-халвинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/difficulty/" class="">О корректировке сложности майнинга</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-tipov-bitcoin-adresov/" class="">Типы биткоин-адресов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/myths-about-halving/" class="">Мифы о Биткоин-халвинге</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mining-walkthrough/" class="">SHA256 и майнинг в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/protocol/utxo/" class="">Что такое UTXO и как ими управлять?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-1/" class="">Что такое UTXO?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-2/" class="">Как избежать высоких комиссий при большом количестве UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-3/" class="">Приватность UTXO</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/transaction-size/" class="">Размер транзакции</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/history/" class="">История</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/gf/" class="">Генезис-файлы</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-intro/" class="">Пролог</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-1/" class="">Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-2/" class="">Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-3/" class="">Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-4/" class="">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-5/" class="">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hal-finney/" class="">Хэл Финни — жизнь и смерть легенды движения шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-and-me/" class="">Биткоин и я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-reformaciya/" class="">Биткоин-Реформация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-forks/" class="">Полная история консенсус-форков Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/analyzing-2013-fork/" class="">Анализ форка Биткоина 2013 года</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/philosophy/" class="">Философия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/chemu-ya-nauchilsya-u-bitcoina/" class="">Чему я научился у Биткоина?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/" class="">Часть1. Философские уроки Биткоина</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ne-shitcoin/" class="">Биткоин, не щиткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/neotemlemye-prava-sobstvennosti/" class="">Неотъемлемые права собственности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-kriptoanarhista/" class="">Манифест криптоанархиста</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-shifropanka/" class="">Манифест шифропанка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tyulpannaya-lihoradka/" class="">Биткоин — современная голландская тюльпанная лихорадка?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vse-moshenniki/" class="">Все — мошенники</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/svoboda-cennosti/" class="">Свобода ценности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-meme/" class="">Биткоин — единственный реальный мем</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/nol-i-bitcoin/" class="">Ноль и Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/crypto-bro/" class="">Дорогие крипто- и фиат-бро</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/boremsya-s-poddelnymi-bitcoin/" class="">Боремся с поддельными биткоинами</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bit%D1%81oin-eto-micelij/" class="">Биткоин — это мицелий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pochemu-bitcoin-zhivoj-organizm/" class="">Доказательство жизни. Почему Биткоин — живой организм</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/samaya-mirnaya-revolyuciya/" class="">Самая мирная революция</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/o-bitcoin-vselennoj/" class="">О Биткоин-вселенной</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-dissidenty/" class="">Биткоин-диссиденты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-svoboda/" class="">Биткоин = свобода</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/future/" class="">Будущее</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/ba/" class="">Биткоин-астрономия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/1/" class="">Постгипербиткоинизация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/2/" class="">Миллион крошечных миров</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/3/" class="">Первый контакт</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ej-bitcoin-pritormozi/" class="">Эй, Биткоин, притормози</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/apokalipsis/" class="">Сможет ли Биткоин пережить апокалипсис?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-teplovaya-energiya-okeanov/" class="">Биткоин и тепловая энергия океанов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/lightning/" class="">Лайтнинг</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-laitning/" class="">Что такое Лайтнинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-koshelki/" class="">Лайтнинг-кошельки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-adresa/" class="">Лайтнинг-адреса</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-lajtning/" class="">Приватность в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/centralizovanna-li-set-lightning/" class="">Централизованна ли сеть Lightning?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mekhanizm-raboty-lightning/" class="">Механизм работы Lightning Network</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/problema-vhodyashchej-likvidnosti/" class="">Решение проблемы входящей ликвидности</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle" checked />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/practice/" class="">Практика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/practice/buy/" class="">Покупка</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/newbie-buy/" class="">Покупка и хранение биткоина для новичков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hodl-hodl/" class="">Покупка биткоина без KYC на Hodl Hodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/robosats/" class="">RoboSats: Приватный p2p обмен</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/practice/hodl/" class="">Хранение</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/electrum/" class="">Кошелек Электрум</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue/" class="">Кошелек Blue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seedsigner/" class="">SeedSigner: оффлайн-крепость для ваших биткоинов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/holodnyj-koshelek-iz-starogo-smartfona/" class="">Холодный кошелек из старого смартфона</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/coldcard/" class="">Что такое Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/practice/interact/" class="">Взаимодействие</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice/bitcoin-node/" class="">Каждому следует запустить собственную Биткоин-ноду!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/orangepilling-in-5-min/" class="">Оранжпиллинг за 5 минут</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/5-tips-for-teaching-bitcoin/" class="">5 советов по обучению Биткоину</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/practice-privacy/" class="">Практики приватности</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/practice-privacy/dojo/" class="">Установка Биткоин-узла Dojo на x86</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-0/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-1/" class="">Установка Bitcoin Core и Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-2/" class="">Установка индексатора Fulcrum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-3/" class="">Установка блокчейн-обозревателя Mempool</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-4/" class="">Установка Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-5/" class="">Конфигурация межсетевого экрана</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-6/" class="">Установка обновлений пакетов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/ronindojo/" class="">Установка RoninDojo на x86</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/grapheneos/" class="">GrapheneOS: Избавляемся от слежки Google на смартфоне</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle" checked />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/practice/lightning/" class="">Лайтнинг на практике</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/phoenix/" class="">Кошелек Phoenix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lnbits/" class="">LNbits – швейцарский нож среди лайтнинг-приложений</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/alby-i-nostr/" class="active">Alby и Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/zapplanner/" class="">Подписки с помощью Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lntips/" class="">Телеграм-бот @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ochishchaem-bitcoin-cherez-lajtning/" class="">Очищаем биткоины через сеть Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/likvidnost-v-lajtning/" class="">Руководство по управлению ликвидностью в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mutiny/" class="">Кошелек Mutiny</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/rabbithole/" class="">Кроличья нора</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/books/" class="">Книги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/videos/" class="">Видео</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/audiobooks/" class="">Аудиокниги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pods/" class="">Подкасты</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/posts/" class="">Блог</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/calendar/" class="">Биткоин-календарь</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/contribute/" class="">Принять участие</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/syntax/" class="">Оформление статей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/github/" class="">Как добавить статью?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/obsidian/" class="">Публикация статей через Obsidian</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/feedback/" class="">Обратная связь</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Alby и Nostr</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#интро">Интро</a></li>
+        <li><a href="#зачем-мне-alby">Зачем мне Alby?</a></li>
+        <li><a href="#установка-приложения">Установка приложения</a>
+          <ul>
+            <li><a href="#регистрация-для-новичков">Регистрация для новичков</a></li>
+            <li><a href="#регистрация-для-биткоин-гангстеров">Регистрация для биткоин-гангстеров</a></li>
+          </ul>
+        </li>
+        <li><a href="#возможности-alby">Возможности Alby</a>
+          <ul>
+            <li><a href="#лн-адреса">ЛН-адреса</a></li>
+            <li><a href="#бюджеты">Бюджеты</a></li>
+          </ul>
+        </li>
+        <li><a href="#alby--nostr">Alby + Nostr</a></li>
+        <li><a href="#особенности-учетных-записей-nostr">Особенности учетных записей Nostr</a></li>
+        <li><a href="#использование-nostr">Использование Nostr</a></li>
+        <li><a href="#регистрируемся-в-nostrgram">Регистрируемся в Nostrgram</a></li>
+        <li><a href="#функции-nostrgram">Функции Nostrgram</a></li>
+        <li><a href="#аутро">Аутро</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/alb-363.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Браузерное расширение Alby: оптимизируйте свое взаимодействие с интернетом
+    
+</h1>
+<div class="pageDate">
+    17 февраля 2023 г.
+</div>
+
+  <article class="markdown"><blockquote class="book-hint btc">
+  <p>Гид подготовлен <a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️</a>.</p>
+<p><a href="/contribute">Поддержать проект</a>.</p>
+
+</blockquote>
+
+<h2 id="интро">
+  Интро
+  <a class="anchor" href="#%d0%b8%d0%bd%d1%82%d1%80%d0%be">#</a>
+</h2>
+<p>Cегодня я бы хотел поделиться с вами гидом по двум очень интересным и полезным приложениям. Это универсальное браузерное расширение <a href="https://getalby.com/">Alby</a> и клиент для взаимодействия с протоколом Nostr под названием <a href="https://nostrgram.co/">Nostrgram</a>. Почему именно эти два и почему в одном гиде? Потому что они отлично друг друга дополняют и призваны работать в связке. Начнем с Alby.</p>
+<blockquote class="book-hint btc">
+  Отличным дополнением к этому материалу станет подготовленный нами исчерпывающий ресурс по протоколу Nostr: <a href="https://nostr.21ideas.org/">https://nostr.21ideas.org/</a>
+</blockquote>
+
+<h2 id="зачем-мне-alby">
+  Зачем мне Alby?
+  <a class="anchor" href="#%d0%b7%d0%b0%d1%87%d0%b5%d0%bc-%d0%bc%d0%bd%d0%b5-alby">#</a>
+</h2>
+<p>Благодаря Alby мы теперь можем взаимодействовать с Биткоином наиболее простым и удобным способом. Это стало возможно благодаря сети Молния – решению второго уровня, расположившемуся поверх основной сети Биткоин. Многие уже осознали тот факт, что Биткоин является новой, революционной формой интернет-денег, но все еще считают его либо неудобным, либо слишком дорогим в использовании. Именно эти проблемы решает протокол второго уровня (⚡️Лайтнинг) и построенные поверх него приложения (🐝Alby).</p>
+<div class="imageWrapper">
+    <img src="/img/alb-364.png">
+</div>
+<p>Alby предлагает множество функций – от простой отправки и получения сат до лайтнинг-адресов, установки отдельных бюджетов на траты на каждом сайте и хранения учетных записей Nostr, – и я попробую вкратце описать и показать каждую из них.</p>
+<h2 id="установка-приложения">
+  Установка приложения
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bf%d1%80%d0%b8%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d1%8f">#</a>
+</h2>
+<p>Как я уже сказал, основным продуктом Alby является одноименное браузерное расширение. Благодаря этому сама установка аналогична установке любого другого расширения для браузеров Crome или Firefox.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-365.png">
+</div>
+<p>Необычным и при этом очень полезным для некоторых дополнением к этому является поддержка Alby браузера <a href="https://blog.getalby.com/access-your-private-lightning-node/">Tor</a>. Эта связка позволяет значительно повысить уровень приватности пользователя. Расширение для Tor устанавливается так же, как и в случае с Firefox.</p>
+<p>Как и в случае любых других кошельков, лучшим подходом к скачиванию является переход на официальный сайт проекта <a href="https://blog.getalby.com/">https://blog.getalby.com/</a>. Далее устанавливаем расширение привычным  способом.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-366.png">
+</div>
+<p>После добавления расширения в браузер нас встретит окошко создания профиля.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-367.png">
+</div>
+<h3 id="регистрация-для-новичков">
+  Регистрация для новичков
+  <a class="anchor" href="#%d1%80%d0%b5%d0%b3%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%b4%d0%bb%d1%8f-%d0%bd%d0%be%d0%b2%d0%b8%d1%87%d0%ba%d0%be%d0%b2">#</a>
+</h3>
+<p>Самым простым и дружелюбным к новичкам способом будет создание нового аккаунта через сам сервис Alby. Для этого нажимаем подсвеченную оранжевым кнопку <strong>Sign Up</strong>.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-368.png">
+</div>
+<p>Далее все аналогично любой другой регистрации, за исключением дополнительного поля <strong>Lightning Address</strong>. Подробнее об ЛН-адресах я писал в этом посте, но в двух словах это один из наиболее простых и удобных способов отправлять и получать лайтнинг-платежи. Так что выбираем ник, вводим его и нажимаем <strong>Continue</strong>.</p>
+<p>Ваш аккаунт создан! Теперь вы можете обмениваться сатами прямо из браузера, а также вставлять свой лайтнинг-адрес в описание своих аккаунтов в социальных сетях, чтобы ваши подписчики могли с легкостью отправлять вам саты. Единственное, что нужно сделать – это добавить эмоджи ⚡️ перед ЛН-адресом, чтобы его не спутали с обыкновенной электронной почтой. Мой лайтнинг-адрес, например, выглядит так: ⚡️21ideas@getalby.com. Не постесняйтесь отправить немного сат, если этот гид или любой другой мой труд оказался вам полезен.</p>
+<p>Лайтнинг-адреса также поддерживаются множеством кошельков, например, Wallet of Satoshi.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-369.png">
+</div>
+<p>Я не буду подробно пояснять все мельчайшие детали установки и использования приложения, такие как пункты меню, отправка и получение сат и т. п. Если вам нужны такие подробности, они доступны в гиде моего друга-энтузиаста Blind Dev, доступном <a href="https://teletype.in/@blind_dev/Obzor-Lightning-koshelka-09-21">по этой ссылке</a>.</p>
+<h3 id="регистрация-для-биткоин-гангстеров">
+  Регистрация для биткоин-гангстеров
+  <a class="anchor" href="#%d1%80%d0%b5%d0%b3%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%86%d0%b8%d1%8f-%d0%b4%d0%bb%d1%8f-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d0%b3%d0%b0%d0%bd%d0%b3%d1%81%d1%82%d0%b5%d1%80%d0%be%d0%b2">#</a>
+</h3>
+<div class="imageWrapper">
+    <img src="/img/alb-370.png">
+</div>
+<p>Более опытным биткоинерам и пользователям сети Молния будут интересны другие варианты подключения аккаунта Alby, предоставляющие лучшую гибкость использования и возможность самостоятельно хранить свои ЛН-сатошики. Здесь вы можете подключить сервис к уже используемому вами кошельку или собственному лайтнинг-узлу.</p>
+<p>В этих случаях привязка устройства также не обременит пользователя. При добавлении кошелька приложение просто попросит вас либо сгенерировать QR-код своим кошельком и отсканировать его вебкамерой расширения Alby, либо вставить данные, генерируемые при экспорте нового кошелька.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-371.png">
+</div>
+<p>Держателям полных узлов также нужно будет лишь скопировать необходимую информацию в соответствующее поле в Alby. Не думаю, что этот процесс требует детального разбора, более того, Alby предоставляет видеогиды подключения собственных узлов.</p>
+<center><video src="/img/alb-382.mp4" controls style="width: 100%"></video></center>
+<blockquote class="book-hint btc">
+  Обратите внимание, что Alby поддерживает создание нескольких аккаунтов – вы вольны создать любое их количество.
+</blockquote>
+
+<h2 id="возможности-alby">
+  Возможности Alby
+  <a class="anchor" href="#%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8-alby">#</a>
+</h2>
+<h3 id="лн-адреса">
+  ЛН-адреса
+  <a class="anchor" href="#%d0%bb%d0%bd-%d0%b0%d0%b4%d1%80%d0%b5%d1%81%d0%b0">#</a>
+</h3>
+<p>Вы можете вставлять ЛН-адрес во все свои социальные сети – 🪦Twitter , ⚡️Nostr, 👽Reddit, 🎥YouTube, 📺BitcoinTV, 👾GitHub, на собственный 🌐веб сайт&hellip; По сути, возможности безграничны: на любой страничке, где вы вставите свой лайтнинг-адрес в формате ⚡️21ideas@getalby.com, расширение посещающего страничку пользователя подсветится синим цветом, оповещая его, что хозяину странички можно отправить несколько сат.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-372.png">
+</div>
+<h3 id="бюджеты">
+  Бюджеты
+  <a class="anchor" href="#%d0%b1%d1%8e%d0%b4%d0%b6%d0%b5%d1%82%d1%8b">#</a>
+</h3>
+<p>Удобной функцией Alby является возможность устанавливать бюджет для каждого отдельного сайта или приложения.</p>
+<center><video src="/img/alb-383.mp4" controls style="width: 100%"></video></center>
+<p>Во вкладке <strong>Websites</strong> раздела ⚙️<strong>Settings</strong> вы можете видеть все сайты, с которыми вы когда-либо взаимодействовали через расширение Alby. Здесь же вы можете нажать на интересующий вас сайт, кликнуть по значку ⚙️ и установить месячный бюджет, который вы готовы потратить на этом сайте. Тут же можно разрешить приложению логиниться на сайтах, поддерживающих функцию “Логин через лайтнинг” (подробнее о ней в <a href="https://t.me/bitcoin21ideas/2483">этом посте</a>). Эти возможности сберегают немало времени – приложение запоминает ваше решение и не переспрашивает вас каждый раз при логине или отправке средств. Это может показаться незначительным, ведь <em>“что такое две секунды, которые требуются, чтобы подтвердить действие”</em>, но пример браузера Brave, блокирующего рекламу и выигрывающего за счет этого пару миллисекунд при открытии страниц, указывает, что каждая секунда играет роль:</p>
+<div class="imageWrapper">
+    <img src="/img/alb-373.png">
+<p><em>Эти результаты достигнуты за несколько лет, но пример от этого не перестает быть показательным</em></p>
+</div>
+<p>Особенно важной эта функция становится с взрывным ростом нового протокола Nostr (подробнее о нем – на страничке <a href="https://nostr.21ideas.org/">nostr.21ideas.org</a>), который позволил разработчикам внедрить так называемые ⚡️Запы (⚡️Zaps) – “лайки 2.0&quot;, посредством которых вы можете отправлять пару сат с каждым запом понравившегося поста в соцсети. Невероятно, да? Как раз об этом я и расскажу подробнее 🤙. Мы также обсуждали эту и другие возможности Ностр на недавнем <a href="https://t.me/bitcoin21ideas/2645">стриме</a>.</p>
+<center><video src="/img/alb-384.mp4" controls style="width: 100%"></video></center>
+<h2 id="alby--nostr">
+  Alby + Nostr
+  <a class="anchor" href="#alby--nostr">#</a>
+</h2>
+<p>Nostr – не самый простой концепт для понимания, но в двух словах, это революционный протокол, который обеспечивает возможность передавать информацию устойчивым к цензуре способом (я все же настоятельно советую изучить страничку <a href="https://nostr.21ideas.org/">nostr.21ideas.org</a>). Его нельзя запретить или остановить, а отправленные в децентрализованную сеть данные нельзя ни удалить, ни заглушить.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-374.png">
+</div>
+<p>Логично, что в первую очередь этот протокол взяли в обиход разработчики, создающие приложения для социального взаимодействия, но на протоколе также строят <a href="https://jesterui.github.io/">игры</a> и <a href="https://sendstr.com/">другие</a> <a href="https://nosbin.com/">приложения</a>.</p>
+<h2 id="особенности-учетных-записей-nostr">
+  Особенности учетных записей Nostr
+  <a class="anchor" href="#%d0%be%d1%81%d0%be%d0%b1%d0%b5%d0%bd%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d1%83%d1%87%d0%b5%d1%82%d0%bd%d1%8b%d1%85-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d0%b5%d0%b9-nostr">#</a>
+</h2>
+<p>Чтобы создать “учетную запись” Nostr, вам нужно сгенерировать пару ключей – приватный и публичный. Приватный ключ является аналогом пароля в традиционных соцсетях, а публичный представляет собой что-то вроде логина и имени пользователя, по которому любой другой участник сети может вас найти. Разумеется, важно ответственно отнестись к хранению этих ключей, ведь каждый, кто получит к ним доступ, сможет просматривать всю опубликованную вами информацию, включая личные сообщения, и постить от вашего имени.</p>
+<p>На базе протокола Nostr уже построено огромное количество клиентов (приложений), и чтобы зайти в них, необходимо использовать один из вышеупомянутых ключей. Подробнее об этой особенности можно узнать из моего поста в Nostr – вы сможете с ним ознакомиться, когда разберетесь в основах создания аккаунта благодаря этому гиду.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-375.png">
+<p>ID заметки: <code>@note1rupes6t0439felc29ycuq75nfqc0v3yny0gvpvgmqta6ppsh8v5q4sertm</code></p>
+</div>
+<p>Суть заключается в том, что просто вставлять свой публичный ключ в разные клиенты небезопасно. Здесь на помощь и приходит расширение Alby, которое способно управлять вашей связкой ключей. Alby поможет вам сгенерировать или сохранить ранее сгенерированный вами приватный ключ Nostr. С Alby ваши ключи никогда не покидают вашего устройства – расширение хранит ваш приватный ключ и подписывает все необходимые действия (постинг, лайки, запы…). Управление ключами Nostr производится из настроек приложения в разделе “Учетные записи” (<strong>Accounts</strong>).</p>
+<center><video src="/img/alb-385.mp4" controls style="width: 100%"></video></center>
+<p>Если вы хотите завести (или уже завели) несколько аккаунтов в Nostr, вы можете создать аналогичное количество аккаунтов в Alby и таким образом хранить ключи от каждой учетной записи.</p>
+<p>Несмотря на то, что расширение Alby не давало повода усомниться в своей надежности, я настоятельно рекомендую сохранить свой приватный ключ в дополнительном месте. Это может быть менеджер паролей или даже листок бумаги, который вы знаете, что не выбросите. Главное – осознавать значимость бэкапа и хранить его соответствующе.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-376.png">
+</div>
+<h2 id="использование-nostr">
+  Использование Nostr
+  <a class="anchor" href="#%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-nostr">#</a>
+</h2>
+<p>Существует огромное количество клиентов Nostr как для мобильных устройств, так и для браузеров. В этом гиде я познакомлю вас с основами взаимодействия с этим протоколом на примере своего любимого веб-приложения <a href="https://nostrgram.co/">Nostrgram</a>. На то есть несколько причин:</p>
+<ul>
+<li>Будучи веб-приложением Nostrgram потребует от вас минимум усилий для запуска – просто перейдите по <a href="https://nostrgram.co/">ссылке</a> для запуска веб-странички;</li>
+<li>В случае использования мобильного приложения вам придется предоставлять ему приватный ключ или генерировать его там, а позже разбираться с переносом его в Alby, поэтому я бы все же начал знакомство с Nostr с веб-версии (вы вольны выбрать любое другое веб- или мобильное приложение; альтернативы можно найти на <a href="https://nostr.21ideas.org/">nostr.21ideas.org</a>);</li>
+<li>Nostrgram предлагает огромное количество самых разных функций (подробнее о них чуть позже), но главное – встроенный переводчик на русский, украинский и целый ряд популярных языков. Nostr, как и базирующиеся на нем приложения, очень молод и далеко не все разработчики успели внедрить все желаемые функции;</li>
+<li>Разработчик Nostrgram, Джон Леджер (публичный ключ: <code>npub1t9a59hjk48svr8hz6rx727ta6kx53n5d6fw8x26vsua0zytpl87sa6h4uw</code>), очень активен в соцсети и буквально каждый день сообщает о разного рода нововведениях и улучшениях.</li>
+</ul>
+<p>Мне очень понравился его подход к развитию клиента и я связался с ним, предложив перевести пользовательский интерфейс Nostrgram на русский. Рад сообщить, что довольно скоро первый Nostr-клиент получит полную поддержку русского языка. Эта новость может звучать довольно посредственно, но дело в том, что это будет первый веб-клиент, предлагающий опцию выбора языка. Я также нахожусь в процессе перевода на русский приложения для iOS <a href="https://damus.io/">Damus</a>.</p>
+<h2 id="регистрируемся-в-nostrgram">
+  Регистрируемся в Nostrgram
+  <a class="anchor" href="#%d1%80%d0%b5%d0%b3%d0%b8%d1%81%d1%82%d1%80%d0%b8%d1%80%d1%83%d0%b5%d0%bc%d1%81%d1%8f-%d0%b2-nostrgram">#</a>
+</h2>
+<p>Переходим по ссылке <a href="http://nostrgram.co/">nostrgram.co</a> в браузере, на котором установлено расширение Alby и нажимаем на 🔑ключик в левом верхнем углу экрана. По словам разработчика Nostrgram лучше всего работает с браузерами на основе Chromium, такими как Google Chrome и Opera, но Brave в силу своих нетривиальных настроек “ломает” некоторые функции веб-клиента, например, столь важный многим встроенный перевод постов.</p>
+<p>Для взаимодействия с Nostrgram я использую Firefox и не заметил никаких ошибок, а Джон подтвердил, что взаимодействие клиента с Firefox не вызывало у него никаких нареканий. В будущем проблемы с Brave также будут устранены.</p>
+<p>Итак, при первом запуске Nostrgram попросит вас ввести ключ авторизации&hellip;</p>
+<div class="imageWrapper">
+    <img src="/img/alb-377.png">
+</div>
+<blockquote class="book-hint btc">
+  Следующий абзац представляет собой технические подробности процесса авторизации клиентов Nostr через расширение Alby. Для понимания этого процесса нужны базовые знания функционирования связок публичный-приватный ключ. Если вы не знакомы с этой темой, вы можете либо узнать подробности <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC_%D0%BA%D0%BB%D1%8E%D1%87%D0%BE%D0%BC">здесь</a>, либо окинуть абзац беглым взглядом и продолжить ознакомление с гидом.
+</blockquote>
+
+<p>Особенность использования Nostr-приложений в связке с Alby заключается в том, что ваши приватные ключи не передаются клиенту (приложению), то есть, грубо говоря, “не транслируются в интернет”. Таким образом, вам не приходится доверять клиенту: даже если его взломают и все хранящиеся на нем данные утекут, ваш приватный ключ останется в безопасности, а значит злоумышленники не смогут получить доступ к вашим персональным данным, таким как личная переписка. Вы авторизуетесь с помощью публичного ключа, который предоставляет вам доступ “наблюдателя”, а каждый раз, когда вы хотите опубликовать пост, открыть личное сообщение или выполнить другое активное действие, например отправить Зап⚡️, клиент обращается к Alby, прося расширение авторизовать действие (то есть, подписать сообщение вашим приватным ключом). Alby в свою очередь спрашивает вашего разрешения авторизовать это действие. Разумеется, это нельзя назвать эффективным подходом, поэтому Alby дает возможность автоматизировать этот процесс.</p>
+<blockquote class="book-hint btc">
+  Когда расширение в следующий раз попросит вашего одобрения действия, стоит поставить галочку в поле “Запомнить мой выбор и больше не спрашивать” (<strong>Remember my choice and don’t ask again</strong>).
+</blockquote>
+
+<div class="imageWrapper">
+    <img src="/img/alb-378.png">
+</div>
+<p>Готово! Мы авторизовались в клиенте Nostrgram и теперь можем полноценно использовать протокол Nostr – публиковать посты, пересылать сатошики другим пользователям в один клик, обмениваться зашифрованными сообщениями… Таким же образом вы сможете залогиниться в любой другой клиент Nostr, а если вы захотите использовать веб-клиент на мобильном телефоне, это можно сделать на Android в браузере Kiwi и в браузере Orion на iOS. Но и это еще не все: вы также сможете использовать ваш приватный ключ для авторизации в других приложениях на основе Nostr, например, в вышеупомянутых шахматах <a href="https://jesterui.github.io/">Jestr</a>.</p>
+<p>На этом этапе было бы логично осветить процесс настройки профиля Nostrgram, но эта информация уже есть в нашем <a href="https://nostr.21ideas.org/">гиде</a>, поэтому, если у вас возникнут какие-то вопросы, вы всегда можете к нему обратиться. Лишь подчеркну, что в настройках профиля клиентов Nostr есть поле <strong>Lightning Address</strong>, куда вы можете вставить <a href="/lajtning-adresa">ЛН-адрес</a>, ранее предоставленный Alby, чтобы другие пользователи могли с легкость отправить вам немного сат, не покидая собственного клиента (не выходя из приложения). Как только вы заполните это поле возле вашего аватара появится значок ⚡️, нажав на который можно будет перечислить вам средства.</p>
+<h2 id="функции-nostrgram">
+  Функции Nostrgram
+  <a class="anchor" href="#%d1%84%d1%83%d0%bd%d0%ba%d1%86%d0%b8%d0%b8-nostrgram">#</a>
+</h2>
+<p>Как я уже говорил, Nostrgram предоставляет, пожалуй, самый широкий ассортимент функций из всех известных мне клиентов Nostr. Давайте подробнее остановимся на некоторых из них.</p>
+<p><strong>1. Перевод постов</strong></p>
+<p>Привычная функция для пользователей традиционных соцсетей пока что доступна не во всех клиентах. Nostrgram предоставляет такую возможность. Все что нужно сделать – выбрать желаемый язык в настройках (значок ⚙️ в правом верхнем углу экрана) и сохранить настройки (нажимаем 🆗). Теперь при нажатии иконки перевода, отображаемой в правом верхнем углу каждого поста, вы будете видеть текст на выбранном вами языке. 🗣️ Эта функция работает в обе стороны: носители других языков теперь способны понимать ваши посты на незнакомом им языке и вы можете беседовать, преодолевая языковые барьеры.</p>
+<p><strong>2. Возможность отправлять саты вместо лайков (Запы/Zaps)</strong></p>
+<p>Лайки – пустое место. Их легко подделать, невозможно переиспользовать и легко потерять. Поэтому разработчики Nostr внедряют в свои приложения ⚡️Запы. Вместо того, чтобы ставить бесполезный лайк вы теперь можете поддержать полезный или повеселивший вас пост самыми твердыми деньгами, просто отправив пару сат его автору в один клик. Nostrgram стал одним из первых клиентов, внедривший поддержку ⚡️Запов. Покажу-ка я видео, уже выложенное выше, еще раз – уж очень оно мне нравится 🤗</p>
+<center><video src="/img/alb-384.mp4" controls style="width: 100%"></video></center>
+<p>Будьте осторожны: Запы завлекают, и опустошить свой лайтнинг-адрес не составит большого труда 😅. Именно для таких случаев пригодится возможность Alby устанавливать бюджет для каждого сайта. Мало того, что вы теперь получите оповещение по достижению указанной суммы, вы еще и сможете легко отслеживать суммы, уже потраченные в течение месяца на разных используемых вами сервисах.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-379.png">
+</div>
+<p><strong>3. Гибкие настройки интерфейса</strong></p>
+<p>Nostrgram позволяет настроить внешний вид клиента именно так, как вам нравится. Хотите отображение контента в один столбец, наподобие Twitter? Пожалуйста! Хотите несколько столбцов? Не проблема! Можно даже отображать только посты, содержащие медиа, как в Instagram или Pinterest. Переключатель находится в центре верхней части страницы.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-380.png">
+</div>
+<p>В настройках клиента вы также можете выбрать разные акцентирующие цвета, выделяющие посты тех, на кого вы подписаны, ваших подписчиков и т. д.</p>
+<p><strong>4. Разные источники информации</strong></p>
+<p>Вы можете просматривать посты как исключительно от пользователей, на которых вы подписались (<strong>Following</strong>), так и тех, на кого подписаны ваши подписки (<strong>Friends+</strong>). Переключатель находится в верхнем левом углу экрана.</p>
+<p>Вы также можете просматривать глобальную ленту, которая агрегирует посты со всего мира. Отличный способ завести 🌎новые 🌍международные 🌏знакомства (кто знает, возможно, в будущем и 🪐межпланетные). Но у глобальной ленты есть и свои минусы…</p>
+<p><strong>Острожно, спам!</strong></p>
+<p>В силу того, что Nostr является цензуроустойчивым протоколом, он моментально привлек внимание спамеров, скамеров и разного рода жуликов.</p>
+<div class="imageWrapper">
+    <img src="/img/alb-381.png">
+</div>
+<p>Коммуникации в Nostr производятся посредством обмена сообщениями между так называемыми релеями (подробности смотрите на <a href="http://nostr.21ideas.org/">nostr.21ideas.org</a>). Поэтому то, какие посты вы будете видеть зависит от того, к каким релеям (ретрансляторам) вы подключились. Это довольно комплексная тема и подробнее о ней можно узнать, из нашего гида (см. выше), либо подписавшись на меня в Nostr, где я регулярно поясняю подобные базовые особенности протокола (и, конечно, делюсь мемасиками и разного рода полезным и развлекательным контентом).</p>
+<p>Мой публичный ключ: <code>npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7</code></p>
+<p><strong>5. Борьба со спамом</strong></p>
+<p>Nostrgram посвящает много времени и сил тому, чтобы решить эту проблему. Я не буду вдаваться в подробности, но скажу, что учитывая то, насколько эта задача сложна, клиенту это удается на ура. Если вы и увидите какие-то нерелевантные сообщения в глобальной ленте, то довольно редко.</p>
+<p><strong>6. Сохранение истории сообщений</strong></p>
+<p>Nostrgram также позволяет вам сохранять историю ваших взаимодействий с протоколом Nostr. Эта возможность также еще не представлена повсеместно. Учитывая структуру устройства Nostr это очень полезная опция. Сохранить историю можно, нажав на кнопку ⬇️ в вашем профиле.</p>
+<p><strong>7. Возможность прикреплять медиафайлы</strong></p>
+<p>Пользователям традиционных соцсетей сложно представить себе приложение, лишенное этой опции. Но с технической точки зрения внедрить подобное в распределенной системе, полагающейся на легковесные и простые (даже глупые) ретрансляторы не так уж и просто. Они попросту не способны хранить большие объемы медиа, которые так любят пользователи социальных сетей. Куда же мы без 🐸мемов, гифочек и вот этого всего. Nostrgram – единственный известный мне клиент, позволяющий добавлять изображения, видео и GIF, используя кнопки загрузки. Клиент автоматически берет ваш медиафайл, загружает его в облачное хранилище и размещает в посте ссылку, ведущую на файл. Другие клиенты заставляют вас делать это вручную, что, разумеется, усложняет взаимодействие с приложением и отнимает ваше время.</p>
+<p><strong>8. Возможность приглушать отдельных пользователей</strong></p>
+<p>Очень полезная функция, которая пригодится если вы, например, подписались на одного из ботов, например, на бота ChatGPT. любой подписавшийся на этого бота будет получать в свою ленту все его взаимодействия со всеми пользователями Nostr. Несложно представить во что превратится ваша лента в таком случае. Чтобы приглушить любого пользователя просто нажмите на значок 🔇в его профиле.</p>
+<p><strong>9. Зашифрованные сообщения</strong></p>
+<p>Эта функция не уникальна для Nostrgram, но является одной из важнейших возможностей Nostr. Как и в других клиентах протокола Nostr вы можете обмениваться зашифрованными сообщениями с другими пользователями. Но, как было сказано в моем посте, предоставленном выше, очень важно хранить свои приватные ключи в безопасности, ведь именно они расшифровывают эти сообщения.</p>
+<p><strong>10. Русскоязычная версия интерфейса и другие функции в разработке</strong></p>
+<p>Nostrgram предлагает еще множество тонких настроек, оценить которые можно в разделе (внимание!) ⚙️<strong>настройки</strong>, который, кстати, скоро будет доступен и на русском языке. Более того, Джон трудится над множеством других интересных нововведений. Узнать о планах и улучшениях Nostrgram можно, подписавшись на его Nostr-аккаунт (<code>npub1t9a59hjk48svr8hz6rx727ta6kx53n5d6fw8x26vsua0zytpl87sa6h4uw</code>).</p>
+<p>Разумеется, вы можете выбрать любой другой клиент для взаимодействия с протоколом Nostr, и опыт использования будет во многом напоминать описанные мною принципы. Попробуйте разные клиенты и расскажите какой вам понравился больше всего в своем посте в Nostr.</p>
+<h2 id="аутро">
+  Аутро
+  <a class="anchor" href="#%d0%b0%d1%83%d1%82%d1%80%d0%be">#</a>
+</h2>
+<p>В этом гиде мы затронули два важных приложения, которые нацелены на упрощение вашего взаимодействия с открытыми, безграничными, нейтральными, цензуроустойчивыми, никому не подконтрольными протоколами. Я, конечно, говорю о протоколах Биткоин и Ностр. Конечно, на рынке есть аналоги, но именно Alby и Nostrgram являются моими фаворитами в силу набора функций и отличной работы в связке – они как нельзя лучше дополняют друг друга.</p>
+<hr>
+<blockquote class="book-hint btc">
+  Напомню, что этот гид и все остальные материалы проекта 21 идея распространяются безвозмездно, а ваша помощь очень нужна некоммерческому образовательному проекту. Если материал оказался вам полезен, поддержите меня на сайте <a href="/contribute">21 идея</a> или в Nostr 🤙
+</blockquote>
+
+<p>Также задавайте свои вопросы и делитесь впечатлениями от использования протоколов будущего! Задать свои вопросы касательно Биткоина, сети Молния и Nostr можно нам с Almoo:</p>
+<ul>
+<li>Tony – <code>npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7</code></li>
+<li>Almoo – <code>npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w</code></li>
+</ul>
+<p>В Nostr также есть система дополнительной верификации пользователей. Хотите получить чекмарк? Пишите мне в ЛС 📬</p>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/alby-i-nostr/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#интро">Интро</a></li>
+        <li><a href="#зачем-мне-alby">Зачем мне Alby?</a></li>
+        <li><a href="#установка-приложения">Установка приложения</a>
+          <ul>
+            <li><a href="#регистрация-для-новичков">Регистрация для новичков</a></li>
+            <li><a href="#регистрация-для-биткоин-гангстеров">Регистрация для биткоин-гангстеров</a></li>
+          </ul>
+        </li>
+        <li><a href="#возможности-alby">Возможности Alby</a>
+          <ul>
+            <li><a href="#лн-адреса">ЛН-адреса</a></li>
+            <li><a href="#бюджеты">Бюджеты</a></li>
+          </ul>
+        </li>
+        <li><a href="#alby--nostr">Alby + Nostr</a></li>
+        <li><a href="#особенности-учетных-записей-nostr">Особенности учетных записей Nostr</a></li>
+        <li><a href="#использование-nostr">Использование Nostr</a></li>
+        <li><a href="#регистрируемся-в-nostrgram">Регистрируемся в Nostrgram</a></li>
+        <li><a href="#функции-nostrgram">Функции Nostrgram</a></li>
+        <li><a href="#аутро">Аутро</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

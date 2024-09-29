@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Future on 21ideas</title>
+    <link>http://localhost:1313/en/tags/future/</link>
+    <description>Recent content in Future on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Mar 2024 12:34:41 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/future/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part I</title>
+      <link>http://localhost:1313/en/ba/1/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/ba/1/</guid>
+      <description>&lt;div class=&#34;book-expand&#34;&gt;&#xA;  &lt;label&gt;&#xA;    &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;&#xA;      &lt;span&gt;Contents&lt;/span&gt;&#xA;      &lt;span&gt;...&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;&#xA;    &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;&#xA;      &lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/1&#34;&gt;Part I&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/2&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/3&#34;&gt;Part III&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;  &lt;/label&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This essay by Dhruv Bansal was published in Unchained &lt;a href=&#34;https://unchained.com/blog/law-of-hash-horizons&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.&lt;/p&gt;&#xA;&lt;p&gt;Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href=&#34;https://nakamotoinstitute.org/mempool/hyperbitcoinization/&#34;&gt;hyperbitcoinization&lt;/a&gt; and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part II</title>
+      <link>http://localhost:1313/en/ba/2/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/ba/2/</guid>
+      <description>&lt;div class=&#34;book-expand&#34;&gt;&#xA;  &lt;label&gt;&#xA;    &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;&#xA;      &lt;span&gt;Contents&lt;/span&gt;&#xA;      &lt;span&gt;...&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;&#xA;    &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;&#xA;      &lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/1&#34;&gt;Part I&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/2&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/3&#34;&gt;Part III&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;  &lt;/label&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This essay by Dhruv Bansal was published in Unchained &lt;a href=&#34;https://unchained.com/blog/bitcoin-astronomy-part-ii&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;This is Part II in a series of speculations about the hyperbitcoinized future.  In &lt;a href=&#34;http://localhost:1313/en/ba/1&#34;&gt;Part I&lt;/a&gt;, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.&lt;/p&gt;&#xA;&lt;p&gt;In this part, we continue to &lt;em&gt;follow the energy&lt;/em&gt; and speculate about how money and society coevolve as humanity expands through space.  We begin with a brief review of Part I.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part III</title>
+      <link>http://localhost:1313/en/ba/3/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/ba/3/</guid>
+      <description>&lt;div class=&#34;book-expand&#34;&gt;&#xA;  &lt;label&gt;&#xA;    &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;&#xA;      &lt;span&gt;Contents&lt;/span&gt;&#xA;      &lt;span&gt;...&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;&#xA;    &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;&#xA;      &lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/1&#34;&gt;Part I&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/2&#34;&gt;Part II&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/en/ba/3&#34;&gt;Part III&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;  &lt;/label&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This essay by Dhruv Bansal was published in Unchained &lt;a href=&#34;https://unchained.com/blog/bitcoin-astronomy-part-iii&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;This is Part III in a series of speculations about the hyperbitcoinized future. In &lt;a href=&#34;http://localhost:1313/en/ba/1&#34;&gt;Part I&lt;/a&gt;, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In &lt;a href=&#34;http://localhost:1313/en/ba/2&#34;&gt;Part II&lt;/a&gt;, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
