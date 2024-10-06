@@ -50,6 +50,13 @@
       <description>&lt;p&gt;Чтобы позволить вам, дорогие читатели, комментировать посты на 21ideas, мы обратились к открытому коммуникационному протоколу Nostr.&lt;/p&gt;&#xA;&lt;h2 id=&#34;почему-nostr&#34;&gt;&#xA;  Почему Nostr?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-nostr&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Благодаря Nostr мы знаем, что вам не придется делиться никакими персональными данными. Nostr, подобно Биткоину, использует связку приватного и публичного ключей, а также сеть легковесных ретрансляторов, чтобы обеспечить псевдонимную и цензуроустойчивую систему обмена информации онлайн.&lt;/p&gt;&#xA;&lt;h2 id=&#34;как-оставить-комментарий&#34;&gt;&#xA;  Как оставить комментарий?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%d0%ba%d0%b0%d0%ba-%d0%be%d1%81%d1%82%d0%b0%d0%b2%d0%b8%d1%82%d1%8c-%d0%ba%d0%be%d0%bc%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%80%d0%b8%d0%b9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Если у вас уже есть аккаунт на Nostr:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Убедитесь, что у вас активировано расширение, управляющее ключами Nostr, такое как &lt;a href=&#34;https://nostr.21ideas.org/docs/guides/Alby.html&#34;&gt;Alby&lt;/a&gt;, &lt;a href=&#34;https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp&#34;&gt;Nos2x&lt;/a&gt; или &lt;a href=&#34;https://apps.apple.com/us/app/nostore/id1666553677&#34;&gt;Nostore&lt;/a&gt; (для Safari).&lt;/li&gt;&#xA;&lt;li&gt;Нажмите &amp;ldquo;Log in&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Напишите и отправьте комментарий.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Если вы еще не обзавелись Ностр-аккаунтом:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Обмен криптовалюты</title>
+      <link>http://localhost:1313/hermes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hermes/</guid>
+      <description>&lt;p&gt;Всем желающим приобрести или продать биткоин в обход бирж рекомендую обратиться к нашим давним партнёрам, обменнику Hermes. Я сам уже не первый год пользуюсь их услугами и советую их не только подписчикам 21 идеи, но и личным друзьям и знакомым.&lt;/p&gt;&#xA;&lt;p&gt;Безналичный обмен возможен буквально по всему миру, а наличные можно обменять практически во всех крупных городах России, Турции, Грузии, Европы, ОАЭ (уточняйте в лс). Раобтают в любых направлениях и объёмах, не брезгуют щиткоинами. Есть возможность доставки наличных. Сделки проходят быстро и безопасно.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Реклама</title>
       <link>http://localhost:1313/ads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
