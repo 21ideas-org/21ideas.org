@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Гид on 21ideas</title>
-    <link>http://192.168.1.223:1313/tags/%D0%B3%D0%B8%D0%B4/</link>
+    <link>http://localhost:1313/tags/%D0%B3%D0%B8%D0%B4/</link>
     <description>Recent content in Гид on 21ideas</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Thu, 09 May 2024 08:45:35 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/tags/%D0%B3%D0%B8%D0%B4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%D0%B3%D0%B8%D0%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Лайтнинг-кошельки</title>
-      <link>http://192.168.1.223:1313/lajtning-koshelki/</link>
+      <link>http://localhost:1313/lajtning-koshelki/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/lajtning-koshelki/</guid>
-      <description>&lt;p&gt;С повторяющимися всплесками популярности картинок обезьян в блокчейне Биткоина и в преддверии предстоящего бычьего рынка комиссии в основной сети не особо радуют.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Комиссии в сети могут достигать сотен сат за виртуальный байт, и это далеко не предел. &lt;a href=&#34;https://mempool.space/ru/&#34;&gt;Источник&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Лайтнинг предоставляет решение наболевшей проблемы высоких комиссий, но действовать нужно продуманно, не торопясь. Поэтому сегодня предлагаю разобрать лучшие доступные лайтнинг-кошельки, оценить плюсы и минусы каждого из них, чтобы вы могли выбрать лучшее решение и наконец забыть (или хотя бы минимизировать стресс) о высоких комиссиях.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/lajtning-koshelki/</guid>
+      <description>&lt;p&gt;С повторяющимися всплесками популярности картинок обезьян в блокчейне Биткоина и в преддверии предстоящего бычьего рынка комиссии в основной сети не особо радуют.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Комиссии в сети могут достигать сотен сат за виртуальный байт, и это далеко не предел. &lt;a href=&#34;https://mempool.space/ru/&#34;&gt;Источник&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Лайтнинг предоставляет решение наболевшей проблемы высоких комиссий, но действовать нужно продуманно, не торопясь. Поэтому сегодня предлагаю разобрать лучшие доступные лайтнинг-кошельки, оценить плюсы и минусы каждого из них, чтобы вы могли выбрать лучшее решение и наконец забыть (или хотя бы минимизировать стресс) о высоких комиссиях.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hardware Wallet on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/hardware-wallet/</link>
+    <link>http://localhost:1313/en/tags/hardware-wallet/</link>
     <description>Recent content in Hardware Wallet on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 18:22:44 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/hardware-wallet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/hardware-wallet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Coldcard?</title>
-      <link>http://192.168.1.223:1313/en/coldcard/</link>
+      <link>http://localhost:1313/en/coldcard/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/coldcard/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/coldcard&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-coldcard&#34;&gt;&#xA;  What is Coldcard?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-coldcard&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/coldcard/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/coldcard&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-coldcard&#34;&gt;&#xA;  What is Coldcard?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-coldcard&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

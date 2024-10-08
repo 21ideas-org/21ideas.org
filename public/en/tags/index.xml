@@ -2,780 +2,780 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/</link>
+    <link>http://localhost:1313/en/tags/</link>
     <description>Recent content in Tags on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Mar 2024 09:34:04 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin</title>
-      <link>http://192.168.1.223:1313/en/tags/bitcoin/</link>
+      <link>http://localhost:1313/en/tags/bitcoin/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/bitcoin/</guid>
+      <guid>http://localhost:1313/en/tags/bitcoin/</guid>
       <description></description>
     </item>
     <item>
       <title>Guide</title>
-      <link>http://192.168.1.223:1313/en/tags/guide/</link>
+      <link>http://localhost:1313/en/tags/guide/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/guide/</guid>
+      <guid>http://localhost:1313/en/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Hodl</title>
-      <link>http://192.168.1.223:1313/en/tags/hodl/</link>
+      <link>http://localhost:1313/en/tags/hodl/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/hodl/</guid>
+      <guid>http://localhost:1313/en/tags/hodl/</guid>
       <description></description>
     </item>
     <item>
       <title>Lightning</title>
-      <link>http://192.168.1.223:1313/en/tags/lightning/</link>
+      <link>http://localhost:1313/en/tags/lightning/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/lightning/</guid>
+      <guid>http://localhost:1313/en/tags/lightning/</guid>
       <description></description>
     </item>
     <item>
       <title>Lightning Network</title>
-      <link>http://192.168.1.223:1313/en/tags/lightning-network/</link>
+      <link>http://localhost:1313/en/tags/lightning-network/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/lightning-network/</guid>
+      <guid>http://localhost:1313/en/tags/lightning-network/</guid>
       <description></description>
     </item>
     <item>
       <title>Payments</title>
-      <link>http://192.168.1.223:1313/en/tags/payments/</link>
+      <link>http://localhost:1313/en/tags/payments/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/payments/</guid>
+      <guid>http://localhost:1313/en/tags/payments/</guid>
       <description></description>
     </item>
     <item>
       <title>Scalability</title>
-      <link>http://192.168.1.223:1313/en/tags/scalability/</link>
+      <link>http://localhost:1313/en/tags/scalability/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/scalability/</guid>
+      <guid>http://localhost:1313/en/tags/scalability/</guid>
       <description></description>
     </item>
     <item>
       <title>Wallets</title>
-      <link>http://192.168.1.223:1313/en/tags/wallets/</link>
+      <link>http://localhost:1313/en/tags/wallets/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/wallets/</guid>
+      <guid>http://localhost:1313/en/tags/wallets/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://192.168.1.223:1313/en/tags/github/</link>
+      <link>http://localhost:1313/en/tags/github/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/github/</guid>
+      <guid>http://localhost:1313/en/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian</title>
-      <link>http://192.168.1.223:1313/en/tags/obsidian/</link>
+      <link>http://localhost:1313/en/tags/obsidian/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/obsidian/</guid>
+      <guid>http://localhost:1313/en/tags/obsidian/</guid>
       <description></description>
     </item>
     <item>
       <title>Вклад</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4/</link>
+      <link>http://localhost:1313/en/tags/%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4/</guid>
       <description></description>
     </item>
     <item>
       <title>Новичкам</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0%D0%BC/</link>
+      <link>http://localhost:1313/en/tags/%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0%D0%BC/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0%D0%BC/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0%D0%BC/</guid>
       <description></description>
     </item>
     <item>
       <title>Публикация</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/en/tags/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Adding an Article</title>
-      <link>http://192.168.1.223:1313/en/tags/adding-an-article/</link>
+      <link>http://localhost:1313/en/tags/adding-an-article/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/adding-an-article/</guid>
+      <guid>http://localhost:1313/en/tags/adding-an-article/</guid>
       <description></description>
     </item>
     <item>
       <title>Article</title>
-      <link>http://192.168.1.223:1313/en/tags/article/</link>
+      <link>http://localhost:1313/en/tags/article/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/article/</guid>
+      <guid>http://localhost:1313/en/tags/article/</guid>
       <description></description>
     </item>
     <item>
       <title>Contribute</title>
-      <link>http://192.168.1.223:1313/en/tags/contribute/</link>
+      <link>http://localhost:1313/en/tags/contribute/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/contribute/</guid>
+      <guid>http://localhost:1313/en/tags/contribute/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://192.168.1.223:1313/en/tags/markdown/</link>
+      <link>http://localhost:1313/en/tags/markdown/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/markdown/</guid>
+      <guid>http://localhost:1313/en/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Оформление</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/en/tags/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Статьи</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Формат</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82/</link>
+      <link>http://localhost:1313/en/tags/%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82/</guid>
       <description></description>
     </item>
     <item>
       <title>Buy</title>
-      <link>http://192.168.1.223:1313/en/tags/buy/</link>
+      <link>http://localhost:1313/en/tags/buy/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/buy/</guid>
+      <guid>http://localhost:1313/en/tags/buy/</guid>
       <description></description>
     </item>
     <item>
       <title>No-Kyc</title>
-      <link>http://192.168.1.223:1313/en/tags/no-kyc/</link>
+      <link>http://localhost:1313/en/tags/no-kyc/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/no-kyc/</guid>
+      <guid>http://localhost:1313/en/tags/no-kyc/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://192.168.1.223:1313/en/tags/privacy/</link>
+      <link>http://localhost:1313/en/tags/privacy/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/privacy/</guid>
+      <guid>http://localhost:1313/en/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://192.168.1.223:1313/en/tags/security/</link>
+      <link>http://localhost:1313/en/tags/security/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/security/</guid>
+      <guid>http://localhost:1313/en/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile Wallet</title>
-      <link>http://192.168.1.223:1313/en/tags/mobile-wallet/</link>
+      <link>http://localhost:1313/en/tags/mobile-wallet/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/mobile-wallet/</guid>
+      <guid>http://localhost:1313/en/tags/mobile-wallet/</guid>
       <description></description>
     </item>
     <item>
       <title>Private Keys</title>
-      <link>http://192.168.1.223:1313/en/tags/private-keys/</link>
+      <link>http://localhost:1313/en/tags/private-keys/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/private-keys/</guid>
+      <guid>http://localhost:1313/en/tags/private-keys/</guid>
       <description></description>
     </item>
     <item>
       <title>Wallet</title>
-      <link>http://192.168.1.223:1313/en/tags/wallet/</link>
+      <link>http://localhost:1313/en/tags/wallet/</link>
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/wallet/</guid>
+      <guid>http://localhost:1313/en/tags/wallet/</guid>
       <description></description>
     </item>
     <item>
       <title>Basics</title>
-      <link>http://192.168.1.223:1313/en/tags/basics/</link>
+      <link>http://localhost:1313/en/tags/basics/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/basics/</guid>
+      <guid>http://localhost:1313/en/tags/basics/</guid>
       <description></description>
     </item>
     <item>
       <title>Buying</title>
-      <link>http://192.168.1.223:1313/en/tags/buying/</link>
+      <link>http://localhost:1313/en/tags/buying/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/buying/</guid>
+      <guid>http://localhost:1313/en/tags/buying/</guid>
       <description></description>
     </item>
     <item>
       <title>For Beginners</title>
-      <link>http://192.168.1.223:1313/en/tags/for-beginners/</link>
+      <link>http://localhost:1313/en/tags/for-beginners/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/for-beginners/</guid>
+      <guid>http://localhost:1313/en/tags/for-beginners/</guid>
       <description></description>
     </item>
     <item>
       <title>Keys</title>
-      <link>http://192.168.1.223:1313/en/tags/keys/</link>
+      <link>http://localhost:1313/en/tags/keys/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/keys/</guid>
+      <guid>http://localhost:1313/en/tags/keys/</guid>
       <description></description>
     </item>
     <item>
       <title>Storing</title>
-      <link>http://192.168.1.223:1313/en/tags/storing/</link>
+      <link>http://localhost:1313/en/tags/storing/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/storing/</guid>
+      <guid>http://localhost:1313/en/tags/storing/</guid>
       <description></description>
     </item>
     <item>
       <title>Proof-of-Work</title>
-      <link>http://192.168.1.223:1313/en/tags/proof-of-work/</link>
+      <link>http://localhost:1313/en/tags/proof-of-work/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/proof-of-work/</guid>
+      <guid>http://localhost:1313/en/tags/proof-of-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Биткоин</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link>
+      <link>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</guid>
       <description></description>
     </item>
     <item>
       <title>Редкость</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%80%D0%B5%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <link>http://localhost:1313/en/tags/%D1%80%D0%B5%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C/</link>
       <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%80%D0%B5%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%80%D0%B5%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%8C/</guid>
       <description></description>
     </item>
     <item>
       <title>Satoshi</title>
-      <link>http://192.168.1.223:1313/en/tags/satoshi/</link>
+      <link>http://localhost:1313/en/tags/satoshi/</link>
       <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/satoshi/</guid>
+      <guid>http://localhost:1313/en/tags/satoshi/</guid>
       <description></description>
     </item>
     <item>
       <title>Second Layer</title>
-      <link>http://192.168.1.223:1313/en/tags/second-layer/</link>
+      <link>http://localhost:1313/en/tags/second-layer/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/second-layer/</guid>
+      <guid>http://localhost:1313/en/tags/second-layer/</guid>
       <description></description>
     </item>
     <item>
       <title>Addresses</title>
-      <link>http://192.168.1.223:1313/en/tags/addresses/</link>
+      <link>http://localhost:1313/en/tags/addresses/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/addresses/</guid>
+      <guid>http://localhost:1313/en/tags/addresses/</guid>
       <description></description>
     </item>
     <item>
       <title>Cold Storage</title>
-      <link>http://192.168.1.223:1313/en/tags/cold-storage/</link>
+      <link>http://localhost:1313/en/tags/cold-storage/</link>
       <pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/cold-storage/</guid>
+      <guid>http://localhost:1313/en/tags/cold-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>Freedom</title>
-      <link>http://192.168.1.223:1313/en/tags/freedom/</link>
+      <link>http://localhost:1313/en/tags/freedom/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/freedom/</guid>
+      <guid>http://localhost:1313/en/tags/freedom/</guid>
       <description></description>
     </item>
     <item>
       <title>Money</title>
-      <link>http://192.168.1.223:1313/en/tags/money/</link>
+      <link>http://localhost:1313/en/tags/money/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/money/</guid>
+      <guid>http://localhost:1313/en/tags/money/</guid>
       <description></description>
     </item>
     <item>
       <title>Vvedenie</title>
-      <link>http://192.168.1.223:1313/en/tags/vvedenie/</link>
+      <link>http://localhost:1313/en/tags/vvedenie/</link>
       <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/vvedenie/</guid>
+      <guid>http://localhost:1313/en/tags/vvedenie/</guid>
       <description></description>
     </item>
     <item>
       <title>Деньги</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Идея</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B8%D0%B4%D0%B5%D1%8F/</link>
+      <link>http://localhost:1313/en/tags/%D0%B8%D0%B4%D0%B5%D1%8F/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B8%D0%B4%D0%B5%D1%8F/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B8%D0%B4%D0%B5%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Altcoin</title>
-      <link>http://192.168.1.223:1313/en/tags/altcoin/</link>
+      <link>http://localhost:1313/en/tags/altcoin/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/altcoin/</guid>
+      <guid>http://localhost:1313/en/tags/altcoin/</guid>
       <description></description>
     </item>
     <item>
       <title>Not Shitcoin</title>
-      <link>http://192.168.1.223:1313/en/tags/not-shitcoin/</link>
+      <link>http://localhost:1313/en/tags/not-shitcoin/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/not-shitcoin/</guid>
+      <guid>http://localhost:1313/en/tags/not-shitcoin/</guid>
       <description></description>
     </item>
     <item>
       <title>Книга</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/</link>
+      <link>http://localhost:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Environment</title>
-      <link>http://192.168.1.223:1313/en/tags/environment/</link>
+      <link>http://localhost:1313/en/tags/environment/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/environment/</guid>
+      <guid>http://localhost:1313/en/tags/environment/</guid>
       <description></description>
     </item>
     <item>
       <title>Pow</title>
-      <link>http://192.168.1.223:1313/en/tags/pow/</link>
+      <link>http://localhost:1313/en/tags/pow/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/pow/</guid>
+      <guid>http://localhost:1313/en/tags/pow/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>http://192.168.1.223:1313/en/tags/blockchain/</link>
+      <link>http://localhost:1313/en/tags/blockchain/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/blockchain/</guid>
+      <guid>http://localhost:1313/en/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
-      <link>http://192.168.1.223:1313/en/tags/future/</link>
+      <link>http://localhost:1313/en/tags/future/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/future/</guid>
+      <guid>http://localhost:1313/en/tags/future/</guid>
       <description></description>
     </item>
     <item>
       <title>Время</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B2%D1%80%D0%B5%D0%BC%D1%8F/</link>
+      <link>http://localhost:1313/en/tags/%D0%B2%D1%80%D0%B5%D0%BC%D1%8F/</link>
       <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B2%D1%80%D0%B5%D0%BC%D1%8F/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B2%D1%80%D0%B5%D0%BC%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Economics</title>
-      <link>http://192.168.1.223:1313/en/tags/economics/</link>
+      <link>http://localhost:1313/en/tags/economics/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/economics/</guid>
+      <guid>http://localhost:1313/en/tags/economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Gradually Then Suddenly</title>
-      <link>http://192.168.1.223:1313/en/tags/gradually-then-suddenly/</link>
+      <link>http://localhost:1313/en/tags/gradually-then-suddenly/</link>
       <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/gradually-then-suddenly/</guid>
+      <guid>http://localhost:1313/en/tags/gradually-then-suddenly/</guid>
       <description></description>
     </item>
     <item>
       <title>Practice</title>
-      <link>http://192.168.1.223:1313/en/tags/practice/</link>
+      <link>http://localhost:1313/en/tags/practice/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/practice/</guid>
+      <guid>http://localhost:1313/en/tags/practice/</guid>
       <description></description>
     </item>
     <item>
       <title>Protocol</title>
-      <link>http://192.168.1.223:1313/en/tags/protocol/</link>
+      <link>http://localhost:1313/en/tags/protocol/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/protocol/</guid>
+      <guid>http://localhost:1313/en/tags/protocol/</guid>
       <description></description>
     </item>
     <item>
       <title>Theory</title>
-      <link>http://192.168.1.223:1313/en/tags/theory/</link>
+      <link>http://localhost:1313/en/tags/theory/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/theory/</guid>
+      <guid>http://localhost:1313/en/tags/theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardware Wallet</title>
-      <link>http://192.168.1.223:1313/en/tags/hardware-wallet/</link>
+      <link>http://localhost:1313/en/tags/hardware-wallet/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/hardware-wallet/</guid>
+      <guid>http://localhost:1313/en/tags/hardware-wallet/</guid>
       <description></description>
     </item>
     <item>
       <title>Hold</title>
-      <link>http://192.168.1.223:1313/en/tags/hold/</link>
+      <link>http://localhost:1313/en/tags/hold/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/hold/</guid>
+      <guid>http://localhost:1313/en/tags/hold/</guid>
       <description></description>
     </item>
     <item>
       <title>Decentralization</title>
-      <link>http://192.168.1.223:1313/en/tags/decentralization/</link>
+      <link>http://localhost:1313/en/tags/decentralization/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/decentralization/</guid>
+      <guid>http://localhost:1313/en/tags/decentralization/</guid>
       <description></description>
     </item>
     <item>
       <title>Inflation</title>
-      <link>http://192.168.1.223:1313/en/tags/inflation/</link>
+      <link>http://localhost:1313/en/tags/inflation/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/inflation/</guid>
+      <guid>http://localhost:1313/en/tags/inflation/</guid>
       <description></description>
     </item>
     <item>
       <title>Mycelium</title>
-      <link>http://192.168.1.223:1313/en/tags/mycelium/</link>
+      <link>http://localhost:1313/en/tags/mycelium/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/mycelium/</guid>
+      <guid>http://localhost:1313/en/tags/mycelium/</guid>
       <description></description>
     </item>
     <item>
       <title>Cypherpunks</title>
-      <link>http://192.168.1.223:1313/en/tags/cypherpunks/</link>
+      <link>http://localhost:1313/en/tags/cypherpunks/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/cypherpunks/</guid>
+      <guid>http://localhost:1313/en/tags/cypherpunks/</guid>
       <description></description>
     </item>
     <item>
       <title>Genesis</title>
-      <link>http://192.168.1.223:1313/en/tags/genesis/</link>
+      <link>http://localhost:1313/en/tags/genesis/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/genesis/</guid>
+      <guid>http://localhost:1313/en/tags/genesis/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
-      <link>http://192.168.1.223:1313/en/tags/history/</link>
+      <link>http://localhost:1313/en/tags/history/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/history/</guid>
+      <guid>http://localhost:1313/en/tags/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Entropy</title>
-      <link>http://192.168.1.223:1313/en/tags/entropy/</link>
+      <link>http://localhost:1313/en/tags/entropy/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/entropy/</guid>
+      <guid>http://localhost:1313/en/tags/entropy/</guid>
       <description></description>
     </item>
     <item>
       <title>Criminals</title>
-      <link>http://192.168.1.223:1313/en/tags/criminals/</link>
+      <link>http://localhost:1313/en/tags/criminals/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/criminals/</guid>
+      <guid>http://localhost:1313/en/tags/criminals/</guid>
       <description></description>
     </item>
     <item>
       <title>Drugs</title>
-      <link>http://192.168.1.223:1313/en/tags/drugs/</link>
+      <link>http://localhost:1313/en/tags/drugs/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/drugs/</guid>
+      <guid>http://localhost:1313/en/tags/drugs/</guid>
       <description></description>
     </item>
     <item>
       <title>Pyramid</title>
-      <link>http://192.168.1.223:1313/en/tags/pyramid/</link>
+      <link>http://localhost:1313/en/tags/pyramid/</link>
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/pyramid/</guid>
+      <guid>http://localhost:1313/en/tags/pyramid/</guid>
       <description></description>
     </item>
     <item>
       <title>Qe</title>
-      <link>http://192.168.1.223:1313/en/tags/qe/</link>
+      <link>http://localhost:1313/en/tags/qe/</link>
       <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/qe/</guid>
+      <guid>http://localhost:1313/en/tags/qe/</guid>
       <description></description>
     </item>
     <item>
       <title>Scarcity</title>
-      <link>http://192.168.1.223:1313/en/tags/scarcity/</link>
+      <link>http://localhost:1313/en/tags/scarcity/</link>
       <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/scarcity/</guid>
+      <guid>http://localhost:1313/en/tags/scarcity/</guid>
       <description></description>
     </item>
     <item>
       <title>Pow&#34;</title>
-      <link>http://192.168.1.223:1313/en/tags/pow/</link>
+      <link>http://localhost:1313/en/tags/pow/</link>
       <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/pow/</guid>
+      <guid>http://localhost:1313/en/tags/pow/</guid>
       <description></description>
     </item>
     <item>
       <title>Volatility</title>
-      <link>http://192.168.1.223:1313/en/tags/volatility/</link>
+      <link>http://localhost:1313/en/tags/volatility/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/volatility/</guid>
+      <guid>http://localhost:1313/en/tags/volatility/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>http://192.168.1.223:1313/en/tags/life/</link>
+      <link>http://localhost:1313/en/tags/life/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/life/</guid>
+      <guid>http://localhost:1313/en/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Altcoins</title>
-      <link>http://192.168.1.223:1313/en/tags/altcoins/</link>
+      <link>http://localhost:1313/en/tags/altcoins/</link>
       <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/altcoins/</guid>
+      <guid>http://localhost:1313/en/tags/altcoins/</guid>
       <description></description>
     </item>
     <item>
       <title>Tokenomics</title>
-      <link>http://192.168.1.223:1313/en/tags/tokenomics/</link>
+      <link>http://localhost:1313/en/tags/tokenomics/</link>
       <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/tokenomics/</guid>
+      <guid>http://localhost:1313/en/tags/tokenomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Вступление</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/en/tags/%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Основы</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/</link>
+      <link>http://localhost:1313/en/tags/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Послесловие</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/en/tags/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Предисловие</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</link>
       <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>http://192.168.1.223:1313/en/tags/philosophy/</link>
+      <link>http://localhost:1313/en/tags/philosophy/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/philosophy/</guid>
+      <guid>http://localhost:1313/en/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Chainsplit</title>
-      <link>http://192.168.1.223:1313/en/tags/chainsplit/</link>
+      <link>http://localhost:1313/en/tags/chainsplit/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/chainsplit/</guid>
+      <guid>http://localhost:1313/en/tags/chainsplit/</guid>
       <description></description>
     </item>
     <item>
       <title>Consensus</title>
-      <link>http://192.168.1.223:1313/en/tags/consensus/</link>
+      <link>http://localhost:1313/en/tags/consensus/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/consensus/</guid>
+      <guid>http://localhost:1313/en/tags/consensus/</guid>
       <description></description>
     </item>
     <item>
       <title>Hardfork</title>
-      <link>http://192.168.1.223:1313/en/tags/hardfork/</link>
+      <link>http://localhost:1313/en/tags/hardfork/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/hardfork/</guid>
+      <guid>http://localhost:1313/en/tags/hardfork/</guid>
       <description></description>
     </item>
     <item>
       <title>Softfork</title>
-      <link>http://192.168.1.223:1313/en/tags/softfork/</link>
+      <link>http://localhost:1313/en/tags/softfork/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/softfork/</guid>
+      <guid>http://localhost:1313/en/tags/softfork/</guid>
       <description></description>
     </item>
     <item>
       <title>Network Effect</title>
-      <link>http://192.168.1.223:1313/en/tags/network-effect/</link>
+      <link>http://localhost:1313/en/tags/network-effect/</link>
       <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/network-effect/</guid>
+      <guid>http://localhost:1313/en/tags/network-effect/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>http://192.168.1.223:1313/en/tags/development/</link>
+      <link>http://localhost:1313/en/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/development/</guid>
+      <guid>http://localhost:1313/en/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://192.168.1.223:1313/en/tags/go/</link>
+      <link>http://localhost:1313/en/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/go/</guid>
+      <guid>http://localhost:1313/en/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://192.168.1.223:1313/en/tags/golang/</link>
+      <link>http://localhost:1313/en/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/golang/</guid>
+      <guid>http://localhost:1313/en/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://192.168.1.223:1313/en/tags/hugo/</link>
+      <link>http://localhost:1313/en/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/hugo/</guid>
+      <guid>http://localhost:1313/en/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Templates</title>
-      <link>http://192.168.1.223:1313/en/tags/templates/</link>
+      <link>http://localhost:1313/en/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/templates/</guid>
+      <guid>http://localhost:1313/en/tags/templates/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>http://192.168.1.223:1313/en/tags/themes/</link>
+      <link>http://localhost:1313/en/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/themes/</guid>
+      <guid>http://localhost:1313/en/tags/themes/</guid>
       <description></description>
     </item>
     <item>
       <title>Anilsaido</title>
-      <link>http://192.168.1.223:1313/en/tags/anilsaido/</link>
+      <link>http://localhost:1313/en/tags/anilsaido/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/anilsaido/</guid>
+      <guid>http://localhost:1313/en/tags/anilsaido/</guid>
       <description></description>
     </item>
     <item>
       <title>Whitepaper</title>
-      <link>http://192.168.1.223:1313/en/tags/whitepaper/</link>
+      <link>http://localhost:1313/en/tags/whitepaper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/whitepaper/</guid>
+      <guid>http://localhost:1313/en/tags/whitepaper/</guid>
       <description></description>
     </item>
     <item>
       <title>Анил</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B0%D0%BD%D0%B8%D0%BB/</link>
+      <link>http://localhost:1313/en/tags/%D0%B0%D0%BD%D0%B8%D0%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B0%D0%BD%D0%B8%D0%BB/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B0%D0%BD%D0%B8%D0%BB/</guid>
       <description></description>
     </item>
     <item>
       <title>Аудиокниги</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B0%D1%83%D0%B4%D0%B8%D0%BE%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Биткоин-Видео</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link>
+      <link>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</guid>
       <description></description>
     </item>
     <item>
       <title>Биткоин-Книги</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Видео</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link>
+      <link>http://localhost:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE/</guid>
       <description></description>
     </item>
     <item>
       <title>Видеоматериалы</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</link>
+      <link>http://localhost:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Книги</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Криптовалюта</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0/</link>
+      <link>http://localhost:1313/en/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Ностр</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BD%D0%BE%D1%81%D1%82%D1%80/</link>
+      <link>http://localhost:1313/en/tags/%D0%BD%D0%BE%D1%81%D1%82%D1%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BD%D0%BE%D1%81%D1%82%D1%80/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BD%D0%BE%D1%81%D1%82%D1%80/</guid>
       <description></description>
     </item>
     <item>
       <title>Подкасты</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/</link>
+      <link>http://localhost:1313/en/tags/%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%81%D1%82%D1%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>Презентация</title>
-      <link>http://192.168.1.223:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/en/tags/%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Сатоши</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%81%D0%B0%D1%82%D0%BE%D1%88%D0%B8/</link>
+      <link>http://localhost:1313/en/tags/%D1%81%D0%B0%D1%82%D0%BE%D1%88%D0%B8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%81%D0%B0%D1%82%D0%BE%D1%88%D0%B8/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%81%D0%B0%D1%82%D0%BE%D1%88%D0%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>Теория</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</link>
+      <link>http://localhost:1313/en/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>Чтение</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/en/tags/%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
       <description></description>
     </item>
     <item>
       <title>Экономика</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>Экономика&#39;</title>
-      <link>http://192.168.1.223:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</link>
+      <link>http://localhost:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</guid>
+      <guid>http://localhost:1313/en/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/</guid>
       <description></description>
     </item>
   </channel>
