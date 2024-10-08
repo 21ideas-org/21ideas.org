@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 21ideas</title>
-    <link>http://localhost:1313/en/categories/</link>
+    <link>http://192.168.1.223:1313/en/categories/</link>
     <description>Recent content in Categories on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Jul 2023 11:20:45 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/en/categories/Development/</link>
+      <link>http://192.168.1.223:1313/en/categories/Development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/Development/</guid>
+      <guid>http://192.168.1.223:1313/en/categories/Development/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/en/categories/golang/</link>
+      <link>http://192.168.1.223:1313/en/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/golang/</guid>
+      <guid>http://192.168.1.223:1313/en/categories/golang/</guid>
       <description></description>
     </item>
   </channel>

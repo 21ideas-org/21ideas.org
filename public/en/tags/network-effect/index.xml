@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network Effect on 21ideas</title>
-    <link>http://localhost:1313/en/tags/network-effect/</link>
+    <link>http://192.168.1.223:1313/en/tags/network-effect/</link>
     <description>Recent content in Network Effect on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Feb 2024 22:33:18 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/network-effect/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/tags/network-effect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Seven Network Effects of Bitcoin</title>
-      <link>http://localhost:1313/en/seven-network-effects-of-bitcoin/</link>
+      <link>http://192.168.1.223:1313/en/seven-network-effects-of-bitcoin/</link>
       <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/seven-network-effects-of-bitcoin/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Trace Mayer was first published on &lt;a href=&#34;https://www.weusecoins.com/the-seven-network-effects-of-bitcoin&#34;&gt;WeUseCoins&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;The 7 network effects of Bitcoin are as follows:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speculation&lt;/strong&gt; - As a novel, cryptographically-backed asset class with the potential for appreciation and high volatility, Bitcoin is perfect for speculators with a high tolerance for risk. &lt;strong&gt;HODL!!!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Merchant Adoption&lt;/strong&gt; - Merchants will increasingly accept Bitcoin because they can increase their profit margins by avoiding credit card fees and chargebacks.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/seven-network-effects-of-bitcoin/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Trace Mayer was first published on &lt;a href=&#34;https://www.weusecoins.com/the-seven-network-effects-of-bitcoin&#34;&gt;WeUseCoins&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;The 7 network effects of Bitcoin are as follows:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speculation&lt;/strong&gt; - As a novel, cryptographically-backed asset class with the potential for appreciation and high volatility, Bitcoin is perfect for speculators with a high tolerance for risk. &lt;strong&gt;HODL!!!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Merchant Adoption&lt;/strong&gt; - Merchants will increasingly accept Bitcoin because they can increase their profit margins by avoiding credit card fees and chargebacks.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
