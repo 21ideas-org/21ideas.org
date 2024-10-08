@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/basics/</link>
+    <link>http://localhost:1313/en/tags/basics/</link>
     <description>Recent content in Basics on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 08 Mar 2024 09:41:48 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Basics</title>
-      <link>http://192.168.1.223:1313/en/start/start/</link>
+      <link>http://localhost:1313/en/start/start/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/start/start/</guid>
+      <guid>http://localhost:1313/en/start/start/</guid>
       <description>&lt;p&gt;So you&amp;rsquo;ve heard about Bitcoin, but you&amp;rsquo;re not sure what it is? Before you rush into buying your first coins, it&amp;rsquo;s worth taking the time to learn the ins and outs the Bitcoin phenomenon. Otherwise, you run the risk of losing money – whether you sell bitcoins, fearing a drop in its price or due to bad custody decisions. This guide will help you understand what Bitcoin is, why it was developed and familiarize yourself with the basics of how it works.&lt;/p&gt;</description>
     </item>
   </channel>

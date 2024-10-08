@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wallets on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/wallets/</link>
+    <link>http://localhost:1313/en/tags/wallets/</link>
     <description>Recent content in Wallets on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Mar 2024 09:34:04 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/wallets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/wallets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title>
-      <link>http://192.168.1.223:1313/en/how-to-hold-private-keys/</link>
+      <link>http://localhost:1313/en/how-to-hold-private-keys/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/how-to-hold-private-keys/</guid>
-      <description>&lt;p&gt;Not Your Keys, Not Your Bitcoin.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Brandon Quittem was published on &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p&gt;&#xA;&lt;p&gt;Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em&gt;How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em&gt; Answering these questions will help deter­mine the right solution for you. &lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/how-to-hold-private-keys/</guid>
+      <description>&lt;p&gt;Not Your Keys, Not Your Bitcoin.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Brandon Quittem was published on &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p&gt;&#xA;&lt;p&gt;Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em&gt;How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em&gt; Answering these questions will help deter­mine the right solution for you. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Lightning Wallets</title>
-      <link>http://192.168.1.223:1313/en/lightning-wallets/</link>
+      <link>http://localhost:1313/en/lightning-wallets/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/lightning-wallets/</guid>
-      <description>&lt;p&gt;With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href=&#34;https://mempool.space/&#34;&gt;Source&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/lightning-wallets/</guid>
+      <description>&lt;p&gt;With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href=&#34;https://mempool.space/&#34;&gt;Source&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Максимализм on 21ideas</title>
-    <link>http://192.168.1.223:1313/tags/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC/</link>
+    <link>http://localhost:1313/tags/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC/</link>
     <description>Recent content in Максимализм on 21ideas</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Sun, 25 Feb 2024 14:37:27 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/tags/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Биткоин, не щиткоин</title>
-      <link>http://192.168.1.223:1313/ne-shitcoin/</link>
+      <link>http://localhost:1313/ne-shitcoin/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/ne-shitcoin/</guid>
-      <description>&lt;p&gt;Почему не стоит тратить свое время и деньги на альтернативные криптопроекты. Почему биткоин - это единственный правильный выбор?&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://bitcoinmagazine.com/culture/why-bitcoin-not-s-coin&#34;&gt;статьи&lt;/a&gt; Алекса Светски подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Tони ⚡️&lt;/a&gt;, редактура – биткоин-энтузиастами. &lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Меня часто спрашивают о том, в какую криптовалюту лучше всего инвестировать.&lt;/p&gt;&#xA;&lt;p&gt;Конечно, мой ответ неизменен: Биткоин!&lt;/p&gt;&#xA;&lt;p&gt;В этой статье я хотел бы изложить свое обоснование с трех точек зрения:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Экономической&lt;/li&gt;&#xA;&lt;li&gt;Философской&lt;/li&gt;&#xA;&lt;li&gt;Моральной&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Все они переплетаются и дополняют друг друга. Если ты – биткоинер, надеюсь, это напомнит тебе о том, зачем мы здесь. Если ты не используешь биткоин или являешься мультикоинером, надеюсь, это эссе поможет тебе нырнуть в эту кроличью нору и понять, почему биткоинеры так категоричны в этом вопросе. Это не близорукость, а стремление к истине. У нас всего один шанс одолеть Голиафа. Ни тебе, ни мне, ни кому бы то другому некогда отвлекаться. У нас попросту нет на это времени. Так что поехали!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/ne-shitcoin/</guid>
+      <description>&lt;p&gt;Почему не стоит тратить свое время и деньги на альтернативные криптопроекты. Почему биткоин - это единственный правильный выбор?&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://bitcoinmagazine.com/culture/why-bitcoin-not-s-coin&#34;&gt;статьи&lt;/a&gt; Алекса Светски подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Tони ⚡️&lt;/a&gt;, редактура – биткоин-энтузиастами. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Меня часто спрашивают о том, в какую криптовалюту лучше всего инвестировать.&lt;/p&gt;&#xA;&lt;p&gt;Конечно, мой ответ неизменен: Биткоин!&lt;/p&gt;&#xA;&lt;p&gt;В этой статье я хотел бы изложить свое обоснование с трех точек зрения:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Экономической&lt;/li&gt;&#xA;&lt;li&gt;Философской&lt;/li&gt;&#xA;&lt;li&gt;Моральной&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Все они переплетаются и дополняют друг друга. Если ты – биткоинер, надеюсь, это напомнит тебе о том, зачем мы здесь. Если ты не используешь биткоин или являешься мультикоинером, надеюсь, это эссе поможет тебе нырнуть в эту кроличью нору и понять, почему биткоинеры так категоричны в этом вопросе. Это не близорукость, а стремление к истине. У нас всего один шанс одолеть Голиафа. Ни тебе, ни мне, ни кому бы то другому некогда отвлекаться. У нас попросту нет на это времени. Так что поехали!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

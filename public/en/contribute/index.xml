@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contribute on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/contribute/</link>
+    <link>http://localhost:1313/en/contribute/</link>
     <description>Recent content in Contribute on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://192.168.1.223:1313/en/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/contribute/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Оформление статей</title>
-      <link>http://192.168.1.223:1313/en/syntax/</link>
+      <link>http://localhost:1313/en/syntax/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/syntax/</guid>
-      <description>&lt;p&gt;Как стать автором на проекте 21 идея? Как оформить статью? Этот материал расскажет об основах синтаксиса Markdown и о стандартах оформления статей - от метаданных до шорткодов.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Гид подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Привет, биткоинер!&lt;/p&gt;&#xA;&lt;p&gt;Мы рады приветствовать вас на страницах открытого образовательного проекта 21 идея и еще больше рады тому, что вы проявили интерес к развитию глобальной базы знаний о Биткоине. 21 идея - лучший ресурс, в который вы можете сделать свой вклад именно потому, что он одновременно принадлежит всем и не принадлежит никому. По аналогии с философией самого Биткоина, проект 21 идея обладает открытым исходным кодом, его копия хранится на нескольких ресурсах, и им управляет несколько человек, так что здесь нет единой точки отказа.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/syntax/</guid>
+      <description>&lt;p&gt;Как стать автором на проекте 21 идея? Как оформить статью? Этот материал расскажет об основах синтаксиса Markdown и о стандартах оформления статей - от метаданных до шорткодов.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Гид подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Привет, биткоинер!&lt;/p&gt;&#xA;&lt;p&gt;Мы рады приветствовать вас на страницах открытого образовательного проекта 21 идея и еще больше рады тому, что вы проявили интерес к развитию глобальной базы знаний о Биткоине. 21 идея - лучший ресурс, в который вы можете сделать свой вклад именно потому, что он одновременно принадлежит всем и не принадлежит никому. По аналогии с философией самого Биткоина, проект 21 идея обладает открытым исходным кодом, его копия хранится на нескольких ресурсах, и им управляет несколько человек, так что здесь нет единой точки отказа.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adding an Article</title>
-      <link>http://192.168.1.223:1313/en/github/</link>
+      <link>http://localhost:1313/en/github/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/github/</guid>
+      <guid>http://localhost:1313/en/github/</guid>
       <description>&lt;h2 id=&#34;a-community-driven-project&#34;&gt;&#xA;  A Community-driven project&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#a-community-driven-project&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;21ideas is a Bitcoin-only educational project managed by the community. Its concept revolves around having active Bitcoiners monitor the repository, ensuring that the list of moderators remains flexible, much like the keys to the Bitcoin kingdom are transferred to new maintainers as the project evolves. We envision this approach allowing the project to live eternally and remain forever relevant. Similar to Bitcoin itself, the project doesn&amp;rsquo;t require quick changes or updates. From the beginning, its purpose was to curate fundamental materials and essential information, catering both to beginners and seasoned Bitcoin enthusiasts alike.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Публикация статей через Obsidian</title>
-      <link>http://192.168.1.223:1313/en/obsidian/</link>
+      <link>http://localhost:1313/en/obsidian/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/obsidian/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://192.168.1.223:1313/img/19.png&#34; alt=&#34;cover&#34; /&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;публикация-статей-через-obsidian&#34;&gt;&#xA;  Публикация статей через Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d1%81%d1%82%d0%b0%d1%82%d0%b5%d0%b9-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Гид подготовил &lt;a href=&#34;https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w&#34;&gt;almoo&lt;/a&gt;. &lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;В этом материале разберем простой способ публикации статей на сайт 21ideas с использованием программы Obsidian. Для данного способа потребуется:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://192.168.1.223:1313/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/denolehov/obsidian-git&#34;&gt;Плагин &amp;ldquo;Obsidian Git&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/fzdwx/hugo-preview-obsidian&#34;&gt;Плагин &amp;ldquo;Hugo preview obsidian&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Чтобы не перегружать статью информацией, которая уже публиковалась в смежных гидах, я буду просто ссылаться на неё. Например, в этом гиде мы не будем рассматривать процесс установки Hugo, так как об этом уже было написано &lt;a href=&#34;http://192.168.1.223:1313/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/obsidian/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/19.png&#34; alt=&#34;cover&#34; /&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;публикация-статей-через-obsidian&#34;&gt;&#xA;  Публикация статей через Obsidian&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d1%81%d1%82%d0%b0%d1%82%d0%b5%d0%b9-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-obsidian&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Гид подготовил &lt;a href=&#34;https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w&#34;&gt;almoo&lt;/a&gt;. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;В этом материале разберем простой способ публикации статей на сайт 21ideas с использованием программы Obsidian. Для данного способа потребуется:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/denolehov/obsidian-git&#34;&gt;Плагин &amp;ldquo;Obsidian Git&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/fzdwx/hugo-preview-obsidian&#34;&gt;Плагин &amp;ldquo;Hugo preview obsidian&amp;rdquo;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Чтобы не перегружать статью информацией, которая уже публиковалась в смежных гидах, я буду просто ссылаться на неё. Например, в этом гиде мы не будем рассматривать процесс установки Hugo, так как об этом уже было написано &lt;a href=&#34;http://localhost:1313/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Feedback</title>
-      <link>http://192.168.1.223:1313/en/feedback/</link>
+      <link>http://localhost:1313/en/feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/feedback/</guid>
+      <guid>http://localhost:1313/en/feedback/</guid>
       <description>&lt;p&gt;Have suggestions for improving content and collaboration? Want to leave feedback? Can&amp;rsquo;t find an answer to a question you&amp;rsquo;re interested in?&lt;/p&gt;&#xA;&lt;p&gt;Contact us:&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;&#xA;&lt;a  href=&#34;https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34;  class=&#34;book-btn&#34;&gt;&#xA;  Nostr&#xA;&lt;/a&gt;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;&#xA;&lt;a  href=&#34;mailto:lightning_tony@protonmail.com&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34;  class=&#34;book-btn&#34;&gt;&#xA;  Email&#xA;&lt;/a&gt;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;&#xA;&#xA;&lt;a  href=&#34;https://t.me/Tony_Crusoe&#34;   target=&#34;_blank&#34; rel=&#34;noopener&#34;  class=&#34;book-btn&#34;&gt;&#xA;  Telegram&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comments on 21ideas</title>
-      <link>http://192.168.1.223:1313/en/comments/</link>
+      <link>http://localhost:1313/en/comments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/comments/</guid>
+      <guid>http://localhost:1313/en/comments/</guid>
       <description>&lt;p&gt;To allow you, dear readers, to comment on 21ideas posts, we have turned to the open communications protocol called Nostr.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-nostr&#34;&gt;&#xA;  Why Nostr?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#why-nostr&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;With Nostr, we know you won&amp;rsquo;t have to share any personal info. Nostr, like Bitcoin, uses a private and public keypairs and a network of lightweight relays to provide a pseudonymous and censorship-resistant system for sharing information online.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-do-i-leave-a-comment&#34;&gt;&#xA;  How do I leave a comment?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-do-i-leave-a-comment&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;If you already have an account on Nostr:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Бонусы для подписчиков 21 идеи</title>
-      <link>http://192.168.1.223:1313/en/patrons/</link>
+      <link>http://localhost:1313/en/patrons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/patrons/</guid>
+      <guid>http://localhost:1313/en/patrons/</guid>
       <description>&lt;p&gt;Некоммерческий образовательный проект 21 идея предлагает бонусы своим патронам. Мы нуждаемся в поддержке, потому что проект ведется энтузиастами, не рекламирует сервисы, которыми не пользуются сами участники и не прячет образовательный контент за пэйволлами. При этом мы хотим предложить нашим патронам ранний доступ к материалам, возможность принять участие в процессе перевода и другие интересные возможности, такие как именные лайтнинг-адреса.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Мы определили два уровня регулярной подписки со своими бонусами:&lt;/em&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint warning&#34;&gt;&#xA;  &lt;p&gt;1️⃣ &lt;strong&gt;Подписка &amp;ldquo;Биткоинер&amp;rdquo;&lt;/strong&gt; &lt;/p&gt;</description>
     </item>
   </channel>

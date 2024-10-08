@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Buy on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/buy/</link>
+    <link>http://localhost:1313/en/tags/buy/</link>
     <description>Recent content in Buy on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 15 Mar 2024 19:57:20 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/buy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/buy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Buy and Hodl Bitcoin for Beginners</title>
-      <link>http://192.168.1.223:1313/en/newbie-buy/</link>
+      <link>http://localhost:1313/en/newbie-buy/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/newbie-buy/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the project? Visit the &lt;a href=&#34;http://192.168.1.223:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
+      <guid>http://localhost:1313/en/newbie-buy/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the project? Visit the &lt;a href=&#34;http://localhost:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Buy noKYC Bitcoin with HodlHodl</title>
-      <link>http://192.168.1.223:1313/en/hodl-hodl/</link>
+      <link>http://localhost:1313/en/hodl-hodl/</link>
       <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/hodl-hodl/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/hodlhodl&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-hodl-hodl&#34;&gt;&#xA;  What is Hodl Hodl?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-hodl-hodl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/hodl-hodl/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/hodlhodl&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;what-is-hodl-hodl&#34;&gt;&#xA;  What is Hodl Hodl?&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#what-is-hodl-hodl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p&gt;</description>
     </item>
     <item>
       <title>RoboSats: Private P2P Exchange</title>
-      <link>http://192.168.1.223:1313/en/robosats/</link>
+      <link>http://localhost:1313/en/robosats/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/robosats/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/robosats&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h1 id=&#34;nokyc&#34;&gt;&#xA;  noKYC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#nokyc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/robosats/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This guide by &lt;a href=&#34;https://twitter.com/BitcoinQ_A&#34;&gt;Bitcoin Q+A&lt;/a&gt; was published on &lt;a href=&#34;https://bitcoiner.guide/robosats&#34;&gt;bitcoiner.guide&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h1 id=&#34;nokyc&#34;&gt;&#xA;  noKYC&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#nokyc&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

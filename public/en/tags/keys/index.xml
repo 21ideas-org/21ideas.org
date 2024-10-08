@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keys on 21ideas</title>
-    <link>http://192.168.1.223:1313/en/tags/keys/</link>
+    <link>http://localhost:1313/en/tags/keys/</link>
     <description>Recent content in Keys on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Mar 2024 20:41:19 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/en/tags/keys/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/keys/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title>
-      <link>http://192.168.1.223:1313/en/how-to-hold-private-keys/</link>
+      <link>http://localhost:1313/en/how-to-hold-private-keys/</link>
       <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/how-to-hold-private-keys/</guid>
-      <description>&lt;p&gt;Not Your Keys, Not Your Bitcoin.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Brandon Quittem was published on &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p&gt;&#xA;&lt;p&gt;Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em&gt;How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em&gt; Answering these questions will help deter­mine the right solution for you. &lt;/p&gt;</description>
+      <guid>http://localhost:1313/en/how-to-hold-private-keys/</guid>
+      <description>&lt;p&gt;Not Your Keys, Not Your Bitcoin.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Brandon Quittem was published on &lt;a href=&#34;https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/&#34;&gt;swanbitcoin.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p&gt;&#xA;&lt;p&gt;Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em&gt;How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em&gt; Answering these questions will help deter­mine the right solution for you. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Bitcoin</title>
-      <link>http://192.168.1.223:1313/en/start/guide/</link>
+      <link>http://localhost:1313/en/start/guide/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/en/start/guide/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://192.168.1.223:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
+      <guid>http://localhost:1313/en/start/guide/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://localhost:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>

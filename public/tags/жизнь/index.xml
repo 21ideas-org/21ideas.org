@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Жизнь on 21ideas</title>
-    <link>http://192.168.1.223:1313/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</link>
+    <link>http://localhost:1313/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/</link>
     <description>Recent content in Жизнь on 21ideas</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Fri, 01 Mar 2024 17:56:00 +0300</lastBuildDate>
-    <atom:link href="http://192.168.1.223:1313/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Доказательство жизни. Почему Биткоин — живой организм</title>
-      <link>http://192.168.1.223:1313/pochemu-bitcoin-zhivoj-organizm/</link>
+      <link>http://localhost:1313/pochemu-bitcoin-zhivoj-organizm/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>http://192.168.1.223:1313/pochemu-bitcoin-zhivoj-organizm/</guid>
+      <guid>http://localhost:1313/pochemu-bitcoin-zhivoj-organizm/</guid>
       <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод работы Gigi &lt;a href=&#34;https://dergigi.com/2019/08/07/proof-of-life/&#34;&gt;&amp;ldquo;Proof of Life. Why Bitcoin is a Living Organism&amp;rdquo;&lt;/a&gt; подготовлен дружественным проектом &lt;a href=&#34;https://t.me/gametheoryhub&#34;&gt;∞/21M&lt;/a&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Определение жизни всегда было проблемой как для ученых, так и для философов. Хотя выдвинуто много определений, остается неясным, что именно отличает живое от неживого. Являются ли вирусы живыми? Молекулы ДНК? Компьютерные вирусы? Биологически продуцируемые минералы?&lt;/p&gt;&#xA;&lt;p&gt;Ральф Меркл, изобретатель криптографического хеширования и дерева Меркла, выдвинул аргумент, что Биткоин является первым примером новой формы жизни. В настоящей серии статей я намерен серьезно отнестись к этому утверждению, изучить его подробно и посмотреть, что можно извлечь из рассмотрения Биткоина в качестве живого организма.&lt;/p&gt;</description>
     </item>
   </channel>
