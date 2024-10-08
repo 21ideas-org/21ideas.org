@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on 21ideas</title>
-    <link>http://localhost:1313/en/tags/hugo/</link>
+    <link>http://192.168.1.223:1313/en/tags/hugo/</link>
     <description>Recent content in Hugo on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Jul 2023 11:20:45 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/en/posts/hugoisforlovers/</link>
+      <link>http://192.168.1.223:1313/en/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/hugoisforlovers/</guid>
+      <guid>http://192.168.1.223:1313/en/posts/hugoisforlovers/</guid>
       <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;&#xA;  Step 1. Install Hugo&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1-install-hugo&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the&#xA;appropriate version for your OS and architecture.&lt;/p&gt;&#xA;&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;&#xA;&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;&#xA;  Step 2. Build the Docs&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-2-build-the-docs&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hugo has its own example site which happens to also be the documentation site&#xA;you are reading right now.&lt;/p&gt;&#xA;&lt;p&gt;Follow the following steps:&lt;/p&gt;</description>
     </item>
   </channel>

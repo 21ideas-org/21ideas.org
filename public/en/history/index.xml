@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History on 21ideas</title>
-    <link>http://localhost:1313/en/history/</link>
+    <link>http://192.168.1.223:1313/en/history/</link>
     <description>Recent content in History on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hal Finney — The Life And Death Of A Cypherpunk Legend</title>
-      <link>http://localhost:1313/en/hal-finney/</link>
+      <link>http://192.168.1.223:1313/en/hal-finney/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/hal-finney/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This thread was published by &lt;a href=&#34;https://twitter.com/danheld&#34;&gt;Dan Held&lt;/a&gt; in &lt;a href=&#34;https://twitter.com/danheld/status/1244655439024779265&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney. It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/hal-248.jpg&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Though widely known for his pioneering professional achievements across cyberspace and tech circles, Hal’s daily life paints a much more nuanced portrait. He was a devoted husband, father, accomplished Renaissance man.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/hal-finney/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This thread was published by &lt;a href=&#34;https://twitter.com/danheld&#34;&gt;Dan Held&lt;/a&gt; in &lt;a href=&#34;https://twitter.com/danheld/status/1244655439024779265&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney. It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/hal-248.jpg&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Though widely known for his pioneering professional achievements across cyberspace and tech circles, Hal’s daily life paints a much more nuanced portrait. He was a devoted husband, father, accomplished Renaissance man.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bitcoin and Me</title>
-      <link>http://localhost:1313/en/bitcoin-and-me/</link>
+      <link>http://192.168.1.223:1313/en/bitcoin-and-me/</link>
       <pubDate>Tue, 19 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/bitcoin-and-me/</guid>
+      <guid>http://192.168.1.223:1313/en/bitcoin-and-me/</guid>
       <description>&lt;p&gt;I thought I&amp;rsquo;d write about the last four years, an eventful time for Bitcoin and me.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  This post by Hal originally appeared on &lt;a href=&#34;https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833&#34;&gt;bitcointalk&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;For those who don&amp;rsquo;t know me, I&amp;rsquo;m Hal Finney. I got my start in crypto working on an early version of PGP, working closely with Phil Zimmermann. When Phil decided to start PGP Corporation, I was one of the first hires. I would work on PGP until my retirement. At the same time, I got involved with the Cypherpunks. I ran the first cryptographically based anonymous remailer, among other activities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Bitcoin Reformation</title>
-      <link>http://localhost:1313/en/bitcoin-reformation/</link>
+      <link>http://192.168.1.223:1313/en/bitcoin-reformation/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/bitcoin-reformation/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;A &lt;a href=&#34;https://bitcoinwords.github.io/assets/papers/investment/Tuur%20Demeester%20-%20The%20Bitcoin%20Reformation.pdf&#34;&gt;report&lt;/a&gt; by Adamant Research.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;At the end of the 16th century, a rag tag group of rebel intellectuals and entrepreneurs founded a country on some of the least desirable land in Europe — so often flooded that it needed hundreds of miles of moats - while fighting an eighty year long war against the largest empire in the world.&lt;/p&gt;&#xA;&lt;p&gt;From this struggle and melting pot of ideas emerged the Dutch and British golden ages, innovative economic institutions that changed the world, as well as one of America’s most successful socio-economic experiments: New York City.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/bitcoin-reformation/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;A &lt;a href=&#34;https://bitcoinwords.github.io/assets/papers/investment/Tuur%20Demeester%20-%20The%20Bitcoin%20Reformation.pdf&#34;&gt;report&lt;/a&gt; by Adamant Research.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;At the end of the 16th century, a rag tag group of rebel intellectuals and entrepreneurs founded a country on some of the least desirable land in Europe — so often flooded that it needed hundreds of miles of moats - while fighting an eighty year long war against the largest empire in the world.&lt;/p&gt;&#xA;&lt;p&gt;From this struggle and melting pot of ideas emerged the Dutch and British golden ages, innovative economic institutions that changed the world, as well as one of America’s most successful socio-economic experiments: New York City.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A complete history of Bitcoin’s consensus forks</title>
-      <link>http://localhost:1313/en/bitcoin-forks/</link>
+      <link>http://192.168.1.223:1313/en/bitcoin-forks/</link>
       <pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/bitcoin-forks/</guid>
+      <guid>http://192.168.1.223:1313/en/bitcoin-forks/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;&#xA;  Abstract&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#abstract&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This report was originaly published in BitMEX Research &lt;a href=&#34;https://blog.bitmex.com/bitcoins-consensus-forks/&#34;&gt;blog&lt;/a&gt;. Later it has been &lt;a href=&#34;https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/&#34;&gt;updated&lt;/a&gt;. The updated list now includes the 2018 &lt;a href=&#34;https://bitcoincore.org/en/2018/09/20/notice/&#34;&gt;security incident&lt;/a&gt; and the 2021 &lt;a href=&#34;https://en.bitcoin.it/wiki/BIP_0341&#34;&gt;Taproot activation&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Analyzing the 2013 Bitcoin fork</title>
-      <link>http://localhost:1313/en/analyzing-2013-fork/</link>
+      <link>http://192.168.1.223:1313/en/analyzing-2013-fork/</link>
       <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/analyzing-2013-fork/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Arvind Narayanan was first published on &lt;a href=&#34;https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/&#34;&gt;Freedom to Tinker&lt;/a&gt; computer science blog.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge. The event gives us a never-before-never-again look into Bitcoin’s inner workings. In this post, I’ll do a play-by-play analysis of the dramatic minutes, and draw many surprising lessons. For a summary of the event, see &lt;a href=&#34;https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/analyzing-2013-fork/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Arvind Narayanan was first published on &lt;a href=&#34;https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/&#34;&gt;Freedom to Tinker&lt;/a&gt; computer science blog.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge. The event gives us a never-before-never-again look into Bitcoin’s inner workings. In this post, I’ll do a play-by-play analysis of the dramatic minutes, and draw many surprising lessons. For a summary of the event, see &lt;a href=&#34;https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

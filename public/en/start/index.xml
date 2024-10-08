@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Start on 21ideas</title>
-    <link>http://localhost:1313/en/start/</link>
+    <link>http://192.168.1.223:1313/en/start/</link>
     <description>Recent content in Start on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/start/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/start/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin Basics</title>
-      <link>http://localhost:1313/en/start/start/</link>
+      <link>http://192.168.1.223:1313/en/start/start/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/start/start/</guid>
+      <guid>http://192.168.1.223:1313/en/start/start/</guid>
       <description>&lt;p&gt;So you&amp;rsquo;ve heard about Bitcoin, but you&amp;rsquo;re not sure what it is? Before you rush into buying your first coins, it&amp;rsquo;s worth taking the time to learn the ins and outs the Bitcoin phenomenon. Otherwise, you run the risk of losing money – whether you sell bitcoins, fearing a drop in its price or due to bad custody decisions. This guide will help you understand what Bitcoin is, why it was developed and familiarize yourself with the basics of how it works.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Bitcoin</title>
-      <link>http://localhost:1313/en/start/guide/</link>
+      <link>http://192.168.1.223:1313/en/start/guide/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/start/guide/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://localhost:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
+      <guid>http://192.168.1.223:1313/en/start/guide/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://192.168.1.223:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Биткоин от А до Я</title>
-      <link>http://localhost:1313/en/course/</link>
+      <link>http://192.168.1.223:1313/en/course/</link>
       <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/course/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;⚡ Этот биткоин-курс создан благодаря поддержке биткоинера-анонима, задонатившего проекту 8,000,000 сат.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute&#34;&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Полноценный Биткоин-курс &amp;ldquo;от А до Я&amp;rdquo; – венец трехлетней работы биткоин-максималиста, либертарианца, биткоин-ученика и педагога в одном лице. Этот курс всегда будет распространяться на исключительно безвозмездной основе, ведь информация должна быть общедоступна. Я и мои единомышленники убеждены, что это – единственный путь к расцвету человечества и становлению сплаченного и процветающего общества!&lt;/p&gt;&#xA;&lt;p&gt;Делитесь этой информацией о Биткоине со своими родными и близкими! В этом курсе мы осветим все основные аспекты касательно Биткоина, экономики, инвестирования, приватности, истории, практических особенностей взаимодействия с деньгами будущего и не только.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/course/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;⚡ Этот биткоин-курс создан благодаря поддержке биткоинера-анонима, задонатившего проекту 8,000,000 сат.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute&#34;&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Полноценный Биткоин-курс &amp;ldquo;от А до Я&amp;rdquo; – венец трехлетней работы биткоин-максималиста, либертарианца, биткоин-ученика и педагога в одном лице. Этот курс всегда будет распространяться на исключительно безвозмездной основе, ведь информация должна быть общедоступна. Я и мои единомышленники убеждены, что это – единственный путь к расцвету человечества и становлению сплаченного и процветающего общества!&lt;/p&gt;&#xA;&lt;p&gt;Делитесь этой информацией о Биткоине со своими родными и близкими! В этом курсе мы осветим все основные аспекты касательно Биткоина, экономики, инвестирования, приватности, истории, практических особенностей взаимодействия с деньгами будущего и не только.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Разрушаем мифы о Биткоине</title>
-      <link>http://localhost:1313/en/bitcoin-myths/</link>
+      <link>http://192.168.1.223:1313/en/bitcoin-myths/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/bitcoin-myths/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;Гид подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;iframe src=&#34;https://podcasters.spotify.com/pod/show/tony-lightning/embed/episodes/ep-e1c56ms/a-a7588oa&#34; height=&#34;110px&#34; width=&#34;100%&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;&lt;em&gt;Аудиоверсия основана на оригинальном &lt;a href=&#34;https://youtu.be/Fws8T_cmgcE&#34;&gt;видео&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;За более, чем 10 лет существования Биткоин громко заявил о себе. Кто-то называет его новой революционной технологией, кто-то — деньгами будущего. Но суть в том, что он уже кардинально изменил жизни тысяч людей. У Биткоина появилось огромное количество как приверженцев, так и противников. Сотни раз его не только обрекали на смерть, но и распространяли множество мифов с целью поставить под сомнение как способность Биткоина к процветанию, так и целесообразность продолжения работы над протоколом.&lt;br&gt;&#xA;Целью данного материала является краткий пошаговый ответ на каждое из данных заблуждений с предоставлением ссылок на более детальные исследования по актуальным на сегодняшний день темам. Нередко “путь от обратного” помогает более продуктивно взглянуть на ситуацию… Согласны? Тогда устраивайтесь поудобнее, мы начинаем.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/bitcoin-myths/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;Гид подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;iframe src=&#34;https://podcasters.spotify.com/pod/show/tony-lightning/embed/episodes/ep-e1c56ms/a-a7588oa&#34; height=&#34;110px&#34; width=&#34;100%&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;&#xA;&lt;p&gt;&lt;em&gt;Аудиоверсия основана на оригинальном &lt;a href=&#34;https://youtu.be/Fws8T_cmgcE&#34;&gt;видео&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;За более, чем 10 лет существования Биткоин громко заявил о себе. Кто-то называет его новой революционной технологией, кто-то — деньгами будущего. Но суть в том, что он уже кардинально изменил жизни тысяч людей. У Биткоина появилось огромное количество как приверженцев, так и противников. Сотни раз его не только обрекали на смерть, но и распространяли множество мифов с целью поставить под сомнение как способность Биткоина к процветанию, так и целесообразность продолжения работы над протоколом.&lt;br&gt;&#xA;Целью данного материала является краткий пошаговый ответ на каждое из данных заблуждений с предоставлением ссылок на более детальные исследования по актуальным на сегодняшний день темам. Нередко “путь от обратного” помогает более продуктивно взглянуть на ситуацию… Согласны? Тогда устраивайтесь поудобнее, мы начинаем.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Don’t Play Shitcoin Gambling Games</title>
-      <link>http://localhost:1313/en/shitcoin-gambling-games/</link>
+      <link>http://192.168.1.223:1313/en/shitcoin-gambling-games/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/shitcoin-gambling-games/</guid>
-      <description>&lt;p&gt;This one goes out to the precoiners and newcoiners who think “it’s too expensive to buy a whole bitcoin so I’ll buy this shitcoin instead”.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/stephanlivera&#34;&gt;Stephan Livera&lt;/a&gt; was published &lt;a href=&#34;https://www.citadel21.com/dont-play-shitcoin-gambling-games&#34;&gt;citadel21.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;this-is-a-very-ill-thought-out-strategy&#34;&gt;&#xA;  This is a very ill-thought-out strategy&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#this-is-a-very-ill-thought-out-strategy&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In your mind you think it&amp;rsquo;s easy to make money coming off a low base, right? It takes less as a percentage to move up, and I might get lucky! Wrong. Once you really peer deep into this, you see bitcoin as the future monetary unit of the world. &lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/shitcoin-gambling-games/</guid>
+      <description>&lt;p&gt;This one goes out to the precoiners and newcoiners who think “it’s too expensive to buy a whole bitcoin so I’ll buy this shitcoin instead”.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/stephanlivera&#34;&gt;Stephan Livera&lt;/a&gt; was published &lt;a href=&#34;https://www.citadel21.com/dont-play-shitcoin-gambling-games&#34;&gt;citadel21.com&lt;/a&gt; website.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;this-is-a-very-ill-thought-out-strategy&#34;&gt;&#xA;  This is a very ill-thought-out strategy&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#this-is-a-very-ill-thought-out-strategy&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;In your mind you think it&amp;rsquo;s easy to make money coming off a low base, right? It takes less as a percentage to move up, and I might get lucky! Wrong. Once you really peer deep into this, you see bitcoin as the future monetary unit of the world. &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

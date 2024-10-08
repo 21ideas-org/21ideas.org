@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storing on 21ideas</title>
-    <link>http://localhost:1313/en/tags/storing/</link>
+    <link>http://192.168.1.223:1313/en/tags/storing/</link>
     <description>Recent content in Storing on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Mar 2024 20:41:19 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/storing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/tags/storing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Bitcoin</title>
-      <link>http://localhost:1313/en/start/guide/</link>
+      <link>http://192.168.1.223:1313/en/start/guide/</link>
       <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/start/guide/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://localhost:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
+      <guid>http://192.168.1.223:1313/en/start/guide/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href=&#34;http://192.168.1.223:1313/en/contribute&#34;&gt;Contribute&lt;/a&gt; page.&#xA;&lt;/blockquote&gt;</description>
     </item>
   </channel>
 </rss>

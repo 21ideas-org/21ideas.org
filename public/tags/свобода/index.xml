@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Свобода on 21ideas</title>
-    <link>http://localhost:1313/tags/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0/</link>
+    <link>http://192.168.1.223:1313/tags/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0/</link>
     <description>Recent content in Свобода on 21ideas</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Sun, 25 Feb 2024 16:11:34 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/tags/%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Неотъемлемые права собственности</title>
-      <link>http://localhost:1313/neotemlemye-prava-sobstvennosti/</link>
+      <link>http://192.168.1.223:1313/neotemlemye-prava-sobstvennosti/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/neotemlemye-prava-sobstvennosti/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://dergigi.com/2022/04/03/inalienable-property-rights/&#34;&gt;статьи&lt;/a&gt; Dergigi подготовлен пабликом &lt;a href=&#34;https://t.me/gametheoryhub&#34;&gt;∞/21M&lt;/a&gt;. Редактура &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть позволено говорить?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому разрешат публиковаться?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть разрешено иметь собственность?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кто должен иметь право защищать указанное имущество?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть позволено выпускать и контролировать деньги?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Поначалу это может быть неочевидно, но эти вопросы и их соответствующие области — право, язык и деньги — связаны между собой. В целом они связаны, но, что более важно, тесно связаны гордиевым узлом, которым является Биткоин. Позвольте мне хотя бы на мгновение попытаться распутать этот узел. Надеюсь, не потеряв нить, которая объединяет все это.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/neotemlemye-prava-sobstvennosti/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://dergigi.com/2022/04/03/inalienable-property-rights/&#34;&gt;статьи&lt;/a&gt; Dergigi подготовлен пабликом &lt;a href=&#34;https://t.me/gametheoryhub&#34;&gt;∞/21M&lt;/a&gt;. Редактура &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть позволено говорить?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому разрешат публиковаться?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть разрешено иметь собственность?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кто должен иметь право защищать указанное имущество?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Кому должно быть позволено выпускать и контролировать деньги?&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Поначалу это может быть неочевидно, но эти вопросы и их соответствующие области — право, язык и деньги — связаны между собой. В целом они связаны, но, что более важно, тесно связаны гордиевым узлом, которым является Биткоин. Позвольте мне хотя бы на мгновение попытаться распутать этот узел. Надеюсь, не потеряв нить, которая объединяет все это.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

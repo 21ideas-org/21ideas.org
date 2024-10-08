@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Future on 21ideas</title>
-    <link>http://localhost:1313/en/future/</link>
+    <link>http://192.168.1.223:1313/en/future/</link>
     <description>Recent content in Future on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/future/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/future/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hey Bitcoin, Slow Down!</title>
-      <link>http://localhost:1313/en/hey-bitcoin-slow-down/</link>
+      <link>http://192.168.1.223:1313/en/hey-bitcoin-slow-down/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/hey-bitcoin-slow-down/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/GhostofMTC&#34;&gt;@mtc&lt;/a&gt; was published in his &lt;a href=&#34;https://mtc.medium.com/hey-bitcoin-slow-down-d5a692d07619&#34;&gt;Medium blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;a-look-at-one-humble-bitcoins-mining-velocity&#34;&gt;&#xA;  A look at one humble bitcoin’s mining velocity&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#a-look-at-one-humble-bitcoins-mining-velocity&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It currently takes about 48 seconds to mine a single bitcoin. This is based on a target block completion time of 10 minutes and a block reward of 12.5 BTC. At the May 2020 halving — when the block reward halves to 6.25 BTC — mining velocity for a single bitcoin will slow, for the first time, to above &lt;strong&gt;one minute&lt;/strong&gt;. 96 seconds to mine one BTC.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/hey-bitcoin-slow-down/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/GhostofMTC&#34;&gt;@mtc&lt;/a&gt; was published in his &lt;a href=&#34;https://mtc.medium.com/hey-bitcoin-slow-down-d5a692d07619&#34;&gt;Medium blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;h2 id=&#34;a-look-at-one-humble-bitcoins-mining-velocity&#34;&gt;&#xA;  A look at one humble bitcoin’s mining velocity&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#a-look-at-one-humble-bitcoins-mining-velocity&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It currently takes about 48 seconds to mine a single bitcoin. This is based on a target block completion time of 10 minutes and a block reward of 12.5 BTC. At the May 2020 halving — when the block reward halves to 6.25 BTC — mining velocity for a single bitcoin will slow, for the first time, to above &lt;strong&gt;one minute&lt;/strong&gt;. 96 seconds to mine one BTC.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can Bitcoin Survive An Apocalypse?</title>
-      <link>http://localhost:1313/en/apocalypse/</link>
+      <link>http://192.168.1.223:1313/en/apocalypse/</link>
       <pubDate>Sat, 25 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/apocalypse/</guid>
-      <description>&lt;p&gt;Could Bitcoin stick it out like a roach, or would a worldwide collapse lead to the inevitable demise of Bitcoin?&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Andrew Howard was published in &lt;a href=&#34;https://bitcoinmagazine.com/technical/can-bitcoin-survive-an-apocalypse&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;We often use the term “anti-fragile” or “censorship-resistant” to describe Bitcoin. But do these terms still apply if the internet is intentionally cut off or if some horrible, catastrophic event ends up happening?&lt;/p&gt;&#xA;&lt;p&gt;The short answer? Yes, Bitcoin can survive an apocalypse. Not only this, but Bitcoin is actually the most robust network on the planet, as well as the most likely to stay alive in some sort of apocalyptic situation.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/apocalypse/</guid>
+      <description>&lt;p&gt;Could Bitcoin stick it out like a roach, or would a worldwide collapse lead to the inevitable demise of Bitcoin?&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by Andrew Howard was published in &lt;a href=&#34;https://bitcoinmagazine.com/technical/can-bitcoin-survive-an-apocalypse&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;We often use the term “anti-fragile” or “censorship-resistant” to describe Bitcoin. But do these terms still apply if the internet is intentionally cut off or if some horrible, catastrophic event ends up happening?&lt;/p&gt;&#xA;&lt;p&gt;The short answer? Yes, Bitcoin can survive an apocalypse. Not only this, but Bitcoin is actually the most robust network on the planet, as well as the most likely to stay alive in some sort of apocalyptic situation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bitcoin and Ocean Thermal Energy</title>
-      <link>http://localhost:1313/en/bitcoin-and-oceans/</link>
+      <link>http://192.168.1.223:1313/en/bitcoin-and-oceans/</link>
       <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/bitcoin-and-oceans/</guid>
-      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This thread by &lt;a href=&#34;https://twitter.com/level39&#34;&gt;Level39&lt;/a&gt; was published in his &lt;a href=&#34;https://twitter.com/level39/status/1511061780726001665&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;How will Bitcoin promote human flourishing and decarbonization for 1 Billion people? By turning Earth&amp;rsquo;s oceans into a giant solar panel, through 19th-century Ocean Thermal Energy Conversion (OTEC) technology, that has been stymied by economies of scale.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/oc-815-en.jpeg&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Every day the sun rises in the East, and its rays make its way across the planet. As the sun makes its way over the Pacific Ocean, solar miners in Texas wind down and hash rate drops enough to make other miners more profitable. This is the perfect time to mine Bitcoin.&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/bitcoin-and-oceans/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This thread by &lt;a href=&#34;https://twitter.com/level39&#34;&gt;Level39&lt;/a&gt; was published in his &lt;a href=&#34;https://twitter.com/level39/status/1511061780726001665&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;How will Bitcoin promote human flourishing and decarbonization for 1 Billion people? By turning Earth&amp;rsquo;s oceans into a giant solar panel, through 19th-century Ocean Thermal Energy Conversion (OTEC) technology, that has been stymied by economies of scale.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/oc-815-en.jpeg&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Every day the sun rises in the East, and its rays make its way across the planet. As the sun makes its way over the Pacific Ocean, solar miners in Texas wind down and hash rate drops enough to make other miners more profitable. This is the perfect time to mine Bitcoin.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

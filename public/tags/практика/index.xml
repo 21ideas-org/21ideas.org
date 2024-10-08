@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Практика on 21ideas</title>
-    <link>http://localhost:1313/tags/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/</link>
+    <link>http://192.168.1.223:1313/tags/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/</link>
     <description>Recent content in Практика on 21ideas</description>
     <generator>Hugo</generator>
     <language>ru-RU</language>
     <lastBuildDate>Fri, 23 Feb 2024 21:59:15 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/tags/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Об удобстве взаимодействия с Биткоином</title>
-      <link>http://localhost:1313/ob-udobstve-vzaimodejstvija-s-bitcoinom/</link>
+      <link>http://192.168.1.223:1313/ob-udobstve-vzaimodejstvija-s-bitcoinom/</link>
       <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ob-udobstve-vzaimodejstvija-s-bitcoinom/</guid>
-      <description>&lt;p&gt;В Биткоин-пространстве продолжается дискуссия на тему пользовательского опыта (&lt;em&gt;UX&lt;/em&gt;). Биткоин до сих пор выглядит странно, неуклюже и порой сложно. Основной причиной этого является то, что Биткоин и его составляющие (сеть, протокол, криптография, язык программирования) действительно странные, неуклюжие и сложные. Таким же был и, возможно, до сих пор остается интернет.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://www.swanbitcoin.com/on-bitcoins-ux/&#34;&gt;статьи&lt;/a&gt; GiGi подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/216.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;До LNP/BP и TCP/IP имел место IPX/SPX&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Причина, по которой интернет больше не кажется таким неуклюжим, двояка: (1) люди привыкли ко многим новым понятиям, которые принес с собой интернет, и (2) бесчисленные абстрагирующие слои облегчают взаимодействие с базовым протоколом. Сопутствующие технологии, такие как plug-and-play, помогли сделать работу пользователя еще комфортнее. Дни установки номера IRQ вашей сетевой карты вручную уже в прошлом!&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/ob-udobstve-vzaimodejstvija-s-bitcoinom/</guid>
+      <description>&lt;p&gt;В Биткоин-пространстве продолжается дискуссия на тему пользовательского опыта (&lt;em&gt;UX&lt;/em&gt;). Биткоин до сих пор выглядит странно, неуклюже и порой сложно. Основной причиной этого является то, что Биткоин и его составляющие (сеть, протокол, криптография, язык программирования) действительно странные, неуклюжие и сложные. Таким же был и, возможно, до сих пор остается интернет.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  Перевод &lt;a href=&#34;https://www.swanbitcoin.com/on-bitcoins-ux/&#34;&gt;статьи&lt;/a&gt; GiGi подготовлен &lt;a href=&#34;https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7&#34;&gt;Тони⚡️&lt;/a&gt;. &lt;a href=&#34;http://192.168.1.223:1313/contribute/&#34;&gt;Поддержать проект&lt;/a&gt;.&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/216.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;До LNP/BP и TCP/IP имел место IPX/SPX&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Причина, по которой интернет больше не кажется таким неуклюжим, двояка: (1) люди привыкли ко многим новым понятиям, которые принес с собой интернет, и (2) бесчисленные абстрагирующие слои облегчают взаимодействие с базовым протоколом. Сопутствующие технологии, такие как plug-and-play, помогли сделать работу пользователя еще комфортнее. Дни установки номера IRQ вашей сетевой карты вручную уже в прошлом!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

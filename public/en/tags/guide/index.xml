@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guide on 21ideas</title>
-    <link>http://localhost:1313/en/tags/guide/</link>
+    <link>http://192.168.1.223:1313/en/tags/guide/</link>
     <description>Recent content in Guide on 21ideas</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Mar 2024 09:34:04 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://192.168.1.223:1313/en/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lightning Wallets</title>
-      <link>http://localhost:1313/en/lightning-wallets/</link>
+      <link>http://192.168.1.223:1313/en/lightning-wallets/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/lightning-wallets/</guid>
-      <description>&lt;p&gt;With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href=&#34;https://mempool.space/&#34;&gt;Source&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p&gt;</description>
+      <guid>http://192.168.1.223:1313/en/lightning-wallets/</guid>
+      <description>&lt;p&gt;With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p&gt;&#xA;&lt;div class=&#34;imageWrapper&#34;&gt;&#xA;    &lt;img src=&#34;http://192.168.1.223:1313/img/ln-wallets/high-fees.png&#34;&gt;&#xA;&lt;p&gt;&lt;em&gt;Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href=&#34;https://mempool.space/&#34;&gt;Source&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
