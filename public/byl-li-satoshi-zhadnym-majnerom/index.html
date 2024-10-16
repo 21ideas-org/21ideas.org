@@ -1,0 +1,3353 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Технический анализ поведения майнера, демонстрируемого неким субъектом, который скорее всего и является Сатоши Накамото.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Был ли Сатоши жадным майнером?" />
+<meta property="og:description" content="Технический анализ поведения майнера, демонстрируемого неким субъектом, который скорее всего и является Сатоши Накамото." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/byl-li-satoshi-zhadnym-majnerom/" />
+<meta property="og:image" content="http://localhost:1313/img/00000001.png"/>
+
+<title>Был ли Сатоши жадным майнером? | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/was-satoshi-a-greedy-miner/" title="Was Satoshi a Greedy Miner?">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/ru.search.min.276d75d6cbd74d16527b7d3989a3a6bcaef28b75b2186b35cff841c8b4bf32b8.js" integrity="sha256-J2111svXTRZSe305iaOmvK7yi3WyGGs1z/hByLS/Mrg=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Поиск" aria-label="Поиск" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Русский
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/was-satoshi-a-greedy-miner/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a href="/start/" class="">Старт</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/start/" class="">Что такое Биткоин?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/guide/" class="">Используем биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/course/" class="">Биткоин от А до Я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-myths/" class="">Разрушаем мифы о Биткоине</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/shitcoin-casino/" class="">Не играйте в щиткоин-казино</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/theory/" class="">Теория</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/economics/" class="">Экономика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/pzv/" class="">Постепенно, затем внезапно</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/postepenno-zatem-vnezapno/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nelzya-skopirovat/" class="">Биткоин нельзя скопировать</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-volatilen/" class="">Биткоин не слишком волатилен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-tratit-energiyu-zrya/" class="">Биткоин не тратит энергию зря</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-medlennyj/" class="">Биткоин не слишком медленный</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-ispravit/" class="">Биткоин это исправит</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-blokchejn/" class="">Биткоин, не блокчейн</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nichem-ne-podkreplen/" class="">Биткоин ничем не подкреплен?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-finansovaya-piramida/" class="">Биткоин — не финансовая пирамида</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-mozhet-byt-zabanen/" class="">Биткоин не может быть забанен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-dlya-prestupnikov/" class="">Биткоин не для преступников</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-obescenivaet-ostalnye-dengi/" class="">Биткоин обесценивает остальные деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-zov-k-edineniyu/" class="">Биткоин — зов к единению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-zdravyj-smysl/" class="">Биткоин — это здравый смысл</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-antihrupok/" class="">Биткоин антихрупок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-velikaya-definancializaciya/" class="">Биткоин — великая дефинанcиализация</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/sb/" class="">Становление Биткоина</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-intro/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-1/" class="">О времени</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-2/" class="">О людях</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-3/" class="">Знакомьтесь: деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-4/" class="">Поворот не туда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-5/" class="">Цифровая редкость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-6/" class="">Цифровые контракты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-7/" class="">Недостающие части головоломки</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitkoin-ne-vredit-okruzhayushej-srede/" class="">Биткоин и окружающая среда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sem-setevyh-effektov-bitkoina/" class="">Семь сетевых эффектов Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hozyaeva-i-raby-deneg/" class="">Хозяева и рабы денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strukturnaya-perestrojka/" class="">Структурная перестройка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/v-zashchitu-deflyacii/" class="">В защиту дефляции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/negativnye-effekty-neftedollara/" class="">Негативные внешние эффекты нефтедоллара</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/raskoshelivaemsya/" class="">Раскошеливаемся (Shelling Out): Происхождение денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-ritmy-istorii/" class="">Биткоин и ритмы истории</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-internet-cikly-hopfa/" class="">Биткоин и интернет-циклы Хопфа</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/dengi-blokchejny-i-socialnaya-masshtabiruemost/" class="">Деньги, блокчейны и социальная масштабируемость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-dengi/" class="">Что такое деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vyzhivaet-silnejshij/" class="">Выживает сильнейший</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strategiya-dca/" class="">Стратегия DCA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/jevons-paradox/" class="">Парадокс Джевонса: Обратная истина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-rabotajut-dengi/" class="">Как работают деньги</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/security/" class="">Безопасность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-hranit-kljuchi/" class="">Биткоин-кошельки. Зачем и как хранить свои приватные ключи</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed/" class="">Что такое сид-фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed-security/" class="">Как обезопасить свои сид-фразы?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/passphrase/" class="">Насколько надежна ваша парольная фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig/" class="">Все о мультисиг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hwws/" class="">Сравнение аппаратных кошельков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-1/" class="">Мультисиг. Часть I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-2/" class="">Мультисиг. Часть II: Отдельные ключи – основа мультиподписи</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/privacy/" class="">Приватность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/luchshie-praktiki/" class="">Как сохранить приватность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/no-kyc/" class="">Никаких KYC, берегите персональные данные</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-seti-bitcoin/" class="">Приватность в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-stanovitsya-kriticheski-vazhnym/" class="">Биткоин становится критически важным</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bip47-ili-gadkij-utenok/" class="">BIP47, или гадкий утенок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/privacy/oxt/" class="">Понимание приватности в сети Биткоин с помощью OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-1/" class="">Часть 1: Анализ цепочки и приватность транзакций</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-2/" class="">Часть 2: Ключевые концепции анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-3/" class="">Часть 3: Защита от анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-4/" class="">Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/coinjoin/" class="">Понимание и использование CoinJoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-fungibility/" class="">Взаимозаменяемость Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle" checked />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/protocol/" class="">Протокол</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kto-kontroliruet-bitkoin-kor/" class="">Кто контролирует Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vechnaja-borba/" class="">Вечная борьба Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ob-udobstve-vzaimodejstvija-s-bitcoinom/" class="">Об удобстве взаимодействия с Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-zoloto-2-0/" class="">Биткоин: цифровое золото или пиринговая наличность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/upravlenie-bitcoin/" class="">Управление Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/doverennye-tretyi-storony/" class="">Доверенные третьи стороны — это бреши в системе безопасности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/21-million-ne-podlezhit-obsuzhdeniyu/" class="">21 миллион не подлежит обсуждению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-work/" class="">Proof of Work: доказательство проделанной работы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-stake-eto-skam/" class="">Proof of Stake – это скам</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/byl-li-satoshi-zhadnym-majnerom/" class="active">Был ли Сатоши жадным майнером?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/segwit/" class="">Что такое SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/taproot/" class="">Что такое Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bomby-slozhnosti-ethereum/" class="">Бомбы сложности Ethereum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/rgb/" class="">Разбирая протокол RGB</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/halving/" class="">Что такое Биткоин-халвинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/difficulty/" class="">О корректировке сложности майнинга</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-tipov-bitcoin-adresov/" class="">Типы биткоин-адресов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/myths-about-halving/" class="">Мифы о Биткоин-халвинге</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mining-walkthrough/" class="">SHA256 и майнинг в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/protocol/utxo/" class="">Что такое UTXO и как ими управлять?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-1/" class="">Что такое UTXO?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-2/" class="">Как избежать высоких комиссий при большом количестве UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-3/" class="">Приватность UTXO</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/transaction-size/" class="">Размер транзакции</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/history/" class="">История</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/gf/" class="">Генезис-файлы</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-intro/" class="">Пролог</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-1/" class="">Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-2/" class="">Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-3/" class="">Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-4/" class="">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-5/" class="">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hal-finney/" class="">Хэл Финни — жизнь и смерть легенды движения шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-and-me/" class="">Биткоин и я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-reformaciya/" class="">Биткоин-Реформация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-forks/" class="">Полная история консенсус-форков Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/analyzing-2013-fork/" class="">Анализ форка Биткоина 2013 года</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/philosophy/" class="">Философия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/chemu-ya-nauchilsya-u-bitcoina/" class="">Чему я научился у Биткоина?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/" class="">Часть1. Философские уроки Биткоина</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ne-shitcoin/" class="">Биткоин, не щиткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/neotemlemye-prava-sobstvennosti/" class="">Неотъемлемые права собственности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-kriptoanarhista/" class="">Манифест криптоанархиста</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-shifropanka/" class="">Манифест шифропанка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tyulpannaya-lihoradka/" class="">Биткоин — современная голландская тюльпанная лихорадка?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vse-moshenniki/" class="">Все — мошенники</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/svoboda-cennosti/" class="">Свобода ценности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-meme/" class="">Биткоин — единственный реальный мем</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/nol-i-bitcoin/" class="">Ноль и Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/crypto-bro/" class="">Дорогие крипто- и фиат-бро</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/boremsya-s-poddelnymi-bitcoin/" class="">Боремся с поддельными биткоинами</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bit%D1%81oin-eto-micelij/" class="">Биткоин — это мицелий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pochemu-bitcoin-zhivoj-organizm/" class="">Доказательство жизни. Почему Биткоин — живой организм</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/samaya-mirnaya-revolyuciya/" class="">Самая мирная революция</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/o-bitcoin-vselennoj/" class="">О Биткоин-вселенной</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-dissidenty/" class="">Биткоин-диссиденты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-svoboda/" class="">Биткоин = свобода</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/future/" class="">Будущее</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/ba/" class="">Биткоин-астрономия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/1/" class="">Постгипербиткоинизация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/2/" class="">Миллион крошечных миров</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/3/" class="">Первый контакт</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ej-bitcoin-pritormozi/" class="">Эй, Биткоин, притормози</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/apokalipsis/" class="">Сможет ли Биткоин пережить апокалипсис?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-teplovaya-energiya-okeanov/" class="">Биткоин и тепловая энергия океанов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/lightning/" class="">Лайтнинг</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-laitning/" class="">Что такое Лайтнинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-koshelki/" class="">Лайтнинг-кошельки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-adresa/" class="">Лайтнинг-адреса</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-lajtning/" class="">Приватность в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/centralizovanna-li-set-lightning/" class="">Централизованна ли сеть Lightning?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mekhanizm-raboty-lightning/" class="">Механизм работы Lightning Network</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/problema-vhodyashchej-likvidnosti/" class="">Решение проблемы входящей ликвидности</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/practice/" class="">Практика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/practice/buy/" class="">Покупка</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/newbie-buy/" class="">Покупка и хранение биткоина для новичков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hodl-hodl/" class="">Покупка биткоина без KYC на Hodl Hodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/robosats/" class="">RoboSats: Приватный p2p обмен</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/practice/hodl/" class="">Хранение</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/electrum/" class="">Кошелек Электрум</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue/" class="">Кошелек Blue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seedsigner/" class="">SeedSigner: оффлайн-крепость для ваших биткоинов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/holodnyj-koshelek-iz-starogo-smartfona/" class="">Холодный кошелек из старого смартфона</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/coldcard/" class="">Что такое Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/practice/interact/" class="">Взаимодействие</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice/bitcoin-node/" class="">Каждому следует запустить собственную Биткоин-ноду!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/orangepilling-in-5-min/" class="">Оранжпиллинг за 5 минут</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/5-tips-for-teaching-bitcoin/" class="">5 советов по обучению Биткоину</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/practice-privacy/" class="">Практики приватности</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/practice-privacy/dojo/" class="">Установка Биткоин-узла Dojo на x86</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-0/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-1/" class="">Установка Bitcoin Core и Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-2/" class="">Установка индексатора Fulcrum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-3/" class="">Установка блокчейн-обозревателя Mempool</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-4/" class="">Установка Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-5/" class="">Конфигурация межсетевого экрана</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-6/" class="">Установка обновлений пакетов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/ronindojo/" class="">Установка RoninDojo на x86</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/grapheneos/" class="">GrapheneOS: Избавляемся от слежки Google на смартфоне</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/practice/lightning/" class="">Лайтнинг на практике</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/phoenix/" class="">Кошелек Phoenix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lnbits/" class="">LNbits – швейцарский нож среди лайтнинг-приложений</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/alby-i-nostr/" class="">Alby и Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/zapplanner/" class="">Подписки с помощью Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lntips/" class="">Телеграм-бот @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ochishchaem-bitcoin-cherez-lajtning/" class="">Очищаем биткоины через сеть Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/likvidnost-v-lajtning/" class="">Руководство по управлению ликвидностью в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mutiny/" class="">Кошелек Mutiny</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/rabbithole/" class="">Кроличья нора</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/books/" class="">Книги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/videos/" class="">Видео</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/audiobooks/" class="">Аудиокниги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pods/" class="">Подкасты</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/posts/" class="">Блог</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/calendar/" class="">Биткоин-календарь</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/contribute/" class="">Принять участие</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/syntax/" class="">Оформление статей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/github/" class="">Как добавить статью?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/obsidian/" class="">Публикация статей через Obsidian</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/feedback/" class="">Обратная связь</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Был ли Сатоши жадным майнером?</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#преамбула-узоры-патоши">Преамбула: узоры Патоши</a></li>
+        <li><a href="#характерные-черты-патоши">Характерные черты Патоши</a></li>
+        <li><a href="#тормозящий-сатоши">Тормозящий Сатоши</a></li>
+        <li><a href="#доминирование-хэшрейта-сатоши">Доминирование хэшрейта Сатоши</a></li>
+        <li><a href="#двойная-спираль">Двойная спираль</a></li>
+        <li><a href="#серия-сатоши">Серия Сатоши</a></li>
+        <li><a href="#сатоши-майнил-медленнее-чтобы-снизить-сложность">Сатоши майнил медленнее, чтобы снизить сложность?</a></li>
+        <li><a href="#как-бы-поступил-жадный-сатоши">Как бы поступил жадный Сатоши?</a></li>
+        <li><a href="#почему-сатоши-не-сжег-свои-биткоины">Почему Сатоши не сжег свои биткоины?</a></li>
+        <li><a href="#выводы">Выводы</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/00000001.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Был ли Сатоши жадным майнером?
+    
+</h1>
+<div class="pageDate">
+    16 сентября 2022 г.
+</div>
+
+  <article class="markdown"><p>Технический анализ поведения майнера, демонстрируемого неким субъектом, который скорее всего и является Сатоши Накамото.</p>
+<blockquote class="book-hint btc">
+  <p>Этот материал – редактура адаптивного <a href="https://thorwarior.medium.com/was-satoshi-a-greedy-miner-e86b0e558cfc">перевода</a> данной <a href="https://blog.lopp.net/was-satoshi-a-greedy-miner/">статьи</a></p>
+<p><a href="/contribute/">Поддержать проект</a></p>
+
+</blockquote>
+
+<p>Если вы проведете достаточно времени в криптоэкосистеме, то, несомненно, столкнетесь с аргументами, гласящими, что распределение токенов в некоторых проектах несправедливо, потому что основателями проекта обогатились за счет так называемых “премайнов” с момента первоначального запуска проекта.</p>
+<p>Обиженные этим стороны, желающие опровергнуть критику в адрес распределения токенов, неизбежно укажут на то, что Сатоши владеет примерно 1,100,000 биткоинов — почти 5% от общего количества, которое когда-либо будет существовать.</p>
+<h2 id="преамбула-узоры-патоши">
+  Преамбула: узоры Патоши
+  <a class="anchor" href="#%d0%bf%d1%80%d0%b5%d0%b0%d0%bc%d0%b1%d1%83%d0%bb%d0%b0-%d1%83%d0%b7%d0%be%d1%80%d1%8b-%d0%bf%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p><strong>ДИСКЛЕЙМЕР:</strong> В рамках следующей статьи я буду исходить из предположения, что так называемый <a href="https://bitslog.com/2019/04/16/the-return-of-the-deniers-and-the-revenge-of-patoshi/">“узор Патоши”</a> на самом деле представляет одного майнера, и что этим человеком был Сатоши. Поэтому я буду использовать слова “Сатоши” и “Патоши” как взаимозаменяемые. Хотя это утверждение невозможно доказать, поведение, демонстрируемое этим майнером, позволяет предположить, что кто-то обладал чрезвычайно глубокими знаниями о Биткоине на самом раннем этапе его существования — пониманием уровня Сатоши. Но это тема для другой статьи.</p>
+<p>Что такое узор (паттерн) Патоши? Если вы знакомы с основами майнинга Биткоина, то знаете, что майнеры увеличивают nonce в попытке создать действительный блок с хэш-значением, соответствующим заданной сложности. Поле ExtraNonce, расположенное в coinbase-транзакции, увеличивается каждый раз, когда поле nonce переполняется, то есть пространство поиска исчерпано. Поскольку длина поля nonce составляет 32 бита, а первоначальная цель сложности Биткоина требовала сканирования в среднем 32 бит, то иногда, но не всегда, nonce переполнялось.</p>
+<ol>
+<li>ExtraNonce работает как “свободно тикающий счетчик”, не обнуляясь между добытыми блоками.</li>
+<li>Скорость, с которой определенный майнер увеличивает ExtraNonce, намного выше, чем его фактический хэшрейт, основанный на исходном коде Биткоина.</li>
+<li>Каждые несколько секунд во время майнинга проверяется лучший блок. Если лучший блок меняется, ExtraNonce дополнительно увеличивается. Обычно каждый полученный внешний блок увеличивает ExtraNonce, за исключением исключительного майнера Патоши, который, похоже, не следовал этому правилу.</li>
+</ol>
+<p>При построении графика эти ExtraNonce позволили визуализировать узор Патоши, для которого мы можем наблюдать непрерывные склоны ExtraNonce.</p>
+<div class="imageWrapper">
+    <img src="/img/00000002.png">
+</div>
+<p>Кроме того, майнер Патоши демонстрирует странное ограничение в значениях nonce, которые он находил для блоков. Существует несколько теорий, почему это может быть так, но я считаю наиболее правдоподобной ту, что Патоши разработал многопоточное программное обеспечение для майнинга, и эти диапазоны были распределены между различными ядрами процессора, так что каждое ядро параллельно сканировало уменьшенное пространство nonce.</p>
+<div class="imageWrapper">
+    <img src="/img/00000003.png">
+<p><em>Источник: <a href="http://organofcorti.blogspot.com/2014/08/168-little-more-on-satoshis-blocks_15.html">http://organofcorti.blogspot.com/2014/08/168-little-more-on-satoshis-blocks_15.html</a></em></p>
+</div>
+<p>Примечание: методы, используемые для идентификации блоков Патоши, содержат некоторую неопределенность, и при пересечении шаблонов ExtraNonce других майнеров возможны пересечения с блоками не от Патоши. Тем не менее, вероятность того, что блоки приписаны ему ошибочно не превышает 1%.</p>
+<h2 id="характерные-черты-патоши">
+  Характерные черты Патоши
+  <a class="anchor" href="#%d1%85%d0%b0%d1%80%d0%b0%d0%ba%d1%82%d0%b5%d1%80%d0%bd%d1%8b%d0%b5-%d1%87%d0%b5%d1%80%d1%82%d1%8b-%d0%bf%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p>Написано <a href="http://satoshiblocks.info/about.html">более десятка технических статей</a>, в которых анализируются блоки, добытые Сатоши. Благодаря ним мы сможем сделать несколько выводов об этом майнере:</p>
+<ol>
+<li>
+<p>Для добычи они использовали специальный многопоточный клиент Bitcoin, который не соответствовал поведению общедоступного клиента Bitcoin. Говоря простым языком, современные процессоры имеют несколько ядер — несколько процессоров внутри одного физического блока. Но если вы не напишете свое программное обеспечение таким образом, чтобы оно могло распределять свои вычисления параллельно по нескольким ядрам, оно сможет использовать только одно ядро.</p>
+</li>
+<li>
+<p>Ранний публичный клиент Bitcoin не поддерживал возможность многопоточности; он майнил только на одном ядре процессора.</p>
+</li>
+<li>
+<p>Их хэшрейт был постоянным в течение нескольких месяцев, а затем систематически снижался.</p>
+</li>
+<li>
+<p>Из более 22,000 добытых блоков было потрачено менее 20 UTXO (0,09%).</p>
+</li>
+<li>
+<p>Судя по всему, Сатоши включал и выключал майнер программно.</p>
+</li>
+</ol>
+<h2 id="тормозящий-сатоши">
+  Тормозящий Сатоши
+  <a class="anchor" href="#%d1%82%d0%be%d1%80%d0%bc%d0%be%d0%b7%d1%8f%d1%89%d0%b8%d0%b9-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p>В распределении блоков, добытых Сатоши, по времени есть один странный аспект: они не соответствуют распределению, которое мы ожидали бы от майнера, который тратит 100% своего времени на добычу. На самом деле, он практически НИКОГДА не добывал блоки подряд с разницей менее 5 минут! Простое объяснение заключается в том, что он ставил свой майнер на паузу около 5 минут после добычи блока.</p>
+<blockquote>
+<p>Сатоши не проводил предварительного или даже быстрого майнинга биткоинов — мы можем наблюдать за временными метками. На самом деле мы видим преднамеренное ограничение хеш-мощностей по мере нагрузки сети. <a href="https://t.co/HyCKTE2j0j">https://t.co/HyCKTE2j0j</a></p>
+<p>— Джеймсон Лопп (@lopp), <a href="https://twitter.com/lopp/status/1566035352946724865?ref_src=twsrc%5Etfw">3 сентября, 2022</a></p>
+</blockquote>
+<p>Как объясняет Сержио в своем исследовании, возможно, что майнер Патоши продолжал добычу сразу после нахождения блока, но его собственное программное обеспечение для майнинга искусственно увеличивало временную метку следующего блока не менее чем на 300 секунд.</p>
+<p>В любом случае, это явно было преднамеренным решением майнера. Можем ли мы копнуть глубже? Я проанализировал распределение блоков Патоши несколькими разными способами. Во-первых, если мы посмотрим на разницу временных меток между блоками, добытыми Патоши и только Патоши, мы увидим, что совершенно очевидно, что он редко добывал блоки с разницей менее 5 минут. Ожидаемая линия тренда распределения дельты временных меток для майнера с 4.35 мегахешами в секунду (Мхэш\сек) при сложности target 1 показана синим цветом. В этом графике я использую данные о блоках Патоши только за тот период, когда они добывали со скоростью 4.35 Мхэш\сек.</p>
+<div class="imageWrapper">
+    <img src="/img/00000004.png">
+<p><em>Разница временных меток между 2 блоками, где оба были добыты Патоши в течение первых 6 месяцев</em></p>
+</div>
+<p>Таким образом, мы видим, что существует очевидный огромный пробел недостающих “быстрых” блоков. Что если мы посмотрим на ВСЕ дельты блоков Патоши, включая блоки, которые были добыты им после блоков не от Патоши?</p>
+<div class="imageWrapper">
+    <img src="/img/00000005.png">
+<p><em>Разница временных меток между каждым блоком, добытым Патоши, и его родительским блоком</em></p>
+</div>
+<p>Немного лучше — ясно, что Патоши не отключал свой майнер (или не корректировал временные метки шаблона блока) в течение 5 минут (300 секунд) после получения блока, добытого кем-то другим. Но мы также видим, что количество блоков, майнинг которых занял более 10 минут, намного выше, чем ожидалось! Хотя это частично объясняется тем, что Сатоши со временем снижает свой хэшрейт, это также может быть усугублено одним из видов майнинг-манипуляций.</p>
+<p>Далее я взял набор данных из предыдущего графика и всякий раз, когда блок добывался более чем через 5 минут после предыдущего блока, я вычитал 5 минут из временной дельты. Мы видим, что в результате мы получили набор данных, который гораздо лучше соответствует ожидаемому распределению.</p>
+<div class="imageWrapper">
+    <img src="/img/00000006.png">
+</div>
+<p>Если вы не читали мое <a href="https://blog.lopp.net/bitcoin-block-time-variance/">исследование дисперсий времени блока</a>, то вы можете задаться вопросом, действительно ли эти графики значимы — то есть, можем ли мы сравнить их с контрольной группой? Для сравнения, вот график ВСЕХ блоков, добытых во время “эры CPU” Биткоина до того, как в игру вступил майнинг на GPU:</p>
+<div class="imageWrapper">
+    <img src="/img/00000007.png">
+</div>
+<p>Поэтому остается вопрос: связано ли это уникальное явление с тем, что Сатоши выключал свой майнер на 5 минут, или это связано с тем, что он подправлял свои временные метки на 5 минут? <strong>Я твердо убежден, что машина Сатоши простаивала.</strong> Почему?</p>
+<p>Мысленный эксперимент: если бы Патоши просто устанавливал временную метку своего блока на 5 минут вперед после нахождения блока, то мы бы ожидали, что аномально высокий процент дочерних блоков не от Патоши будет иметь временные метки, которые были раньше второго блока Патоши, потому что майнеры устанавливают временные метки на основе часов своей локальной машины. Давайте поищем:</p>
+<ol>
+<li>Последовательность блока от Патоши -&gt; блок от Патоши -&gt; блок не от Патоши.</li>
+<li>Второй блок Патоши должен быть добыт менее чем через 10 минут после первого.</li>
+<li>Найдём дельту временной метки между вторым блоком Патоши и блоком не Патоши.</li>
+</ol>
+<p>Для этого я написал <a href="https://github.com/jlopp/bitcoin-utils/blob/master/findNonPatoshiDeltasAfterFastPatoshiBlocks.php">скрипт</a> для поиска блоков с такими характеристиками. Был найден 1,881 блок, который соответствовал указанным характеристикам. Из этих блоков:</p>
+<ul>
+<li>Только 1 имел отрицательную дельту временной метки от родительского блока Патоши</li>
+<li>Только 5 (0,3%) были добыты менее чем через 5 минут после родительского блока Патоши</li>
+</ul>
+<p>Кроме того, если бы Патоши манипулировали только временными метками добытых блоков, они НЕ смогли бы скрыть общее распределение добытых блоков в течение длительного периода времени и, следовательно, НЕ смогли бы скрыть свой эффективный хэшрейт. Попробуйте не забыть следующие цифры до конца этой статьи держите: <strong>4.35 Мхэш\сек и 6 Мхэш\сек.</strong></p>
+<h2 id="доминирование-хэшрейта-сатоши">
+  Доминирование хэшрейта Сатоши
+  <a class="anchor" href="#%d0%b4%d0%be%d0%bc%d0%b8%d0%bd%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d1%85%d1%8d%d1%88%d1%80%d0%b5%d0%b9%d1%82%d0%b0-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p>Мы можем наблюдать, что майнер Сатоши прошел 4 разных эпохи хэширования. Сначала они следовали плану снижения хэшрейта на 1.7 Мхэш\сек каждые пять месяцев, но через месяц после второго такого снижения они отказались от этого метода в пользу постоянно снижающегося хэшрейта.</p>
+<div class="imageWrapper">
+    <img src="/img/00000008.png">
+<p><em>Источник: <a href="http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html">http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html</a></em></p>
+</div>
+<p>Сравнивая хэшрейт Сатоши с остальной сетью, мы можем более четко проследить, что загрузка хэшрейта другими майнерами началась в октябре 2009 года, когда Сатоши отошел на второй план.</p>
+<div class="imageWrapper">
+    <img src="/img/00000009.png">
+<p><em>Источник: <a href="http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html">http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html</a></em></p>
+</div>
+<p>На самом деле, Сатоши занимал опасно доминирующее положение, имея более половины хешрейта сети вплоть до октября 2009 года.</p>
+<div class="imageWrapper">
+    <img src="/img/000000010.png">
+<p><em>Источник: <a href="http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html">http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html</a></em></p>
+</div>
+<p>Что еще более интересно, Сатоши стал майнером с меньшим хэшрейтом только после того, как добровольно снизил свой хэшрейт в несколько раз.</p>
+<p>Это говорит о нескольких вещах:</p>
+<ul>
+<li>Сатоши все время планировал снизить хешрейт.</li>
+<li>Вначале Сатоши довольно грубо контролировал хэшрейт.</li>
+<li>Позже Сатоши разработал очень тонкий контроль хешрейта.</li>
+</ul>
+<h2 id="двойная-спираль">
+  Двойная спираль
+  <a class="anchor" href="#%d0%b4%d0%b2%d0%be%d0%b9%d0%bd%d0%b0%d1%8f-%d1%81%d0%bf%d0%b8%d1%80%d0%b0%d0%bb%d1%8c">#</a>
+</h2>
+<p>Возможно, вы заметили, что первая диаграмма распределения временных меток в разделе “Тормозящий Сатоши” исключила блоки 1400–1916 из своего набора данных. Почему? Потому что в этот период времени произошло уникальное явление, которое искажает расчеты дельты временной метки блока Патоши. Одновременно работают 2 майнера Патоши!</p>
+<div class="imageWrapper">
+    <img src="/img/000000011.png">
+<p><em>Паттерн двойной спирали Патоши (блоки 1400-1916)</em></p>
+</div>
+<p>Вы можете изучить этот паттерн на сайте <a href="http://satoshiblocks.info/?bn=1600">SatoshiBlocks</a>. Узор двойной спирали, вероятно, был вызван тем, что два экземпляра программного обеспечения Патоши работали параллельно. Мы не знаем, была ли это ошибка, допущенная Патоши, или он что-то тестировал. Какой вывод мы можем сделать из этого явления?</p>
+<p>За этот период в 4 дня и 3 часа Сатоши добыл 458 блоков. Из этого можно сделать вывод, что общий суммарный хэшрейт за это время составил около <strong>5.5 Мхэш\сек</strong>. Это примечательно, потому что хэшрейт Сатоши за первые 5 месяцев 2009 года в среднем составил <strong>4.3 Мхэш\сек</strong>. Это также объясняет выделенное расхождение с предыдущим графиком хэшрейта.</p>
+<div class="imageWrapper">
+    <img src="/img/000000012.png">
+</div>
+<p>Почему это интересно? Если бы Сатоши установил отдельную машину для майнинга, аналогичную первой, мы бы ожидали, что их общий хэшрейт будет ближе к 8,6 Мхэш\сек в период двойной спирали. Однако их хэшрейт был выше всего на 28%, а не на 100%. Мы видим, что производительность каждого экземпляра майнинга снижается, что приводит к равномерному снижению уклона ExtraNonces для обоих экземпляров по сравнению с любым другим склоном Патоши. Почему? Самое простое объяснение заключается в том, что потоки в обоих экземплярах майнинга конкурируют за одни и те же ядра процессора!</p>
+<div class="imageWrapper">
+    <img src="/img/000000013.png">
+<p><em>Обратите внимание, что когда один экземпляр работает, он имеет больший хешрейт и, таким образом, более крутой наклон ExtraNonce</em></p>
+</div>
+<p>Сержио Лернер <a href="https://bitslog.com/2014/04/03/chain-archeology/">считает</a>, что из этого можно сделать вывод, что компьютер Сатоши, вероятно, был четырехъядерным. Я думаю, это правдоподобно, потому что, похоже, средний однопоточный майнер в те времена достигал хэшрейта чуть более 1 Мхэш\сек. В любом случае, я думаю, можно с уверенностью предположить, что узор двойной спирали Сатоши был получен от двух экземпляров их пользовательского программного обеспечения, работающего на одном и том же оборудовании.</p>
+<p>Несколько лет назад я <a href="https://docs.google.com/spreadsheets/d/19hZc0XOdasHshAnNsYLscTVftOfY-_e3VwjGTpmGDM8/edit#gid=0">собрал все временные метки публичной активности Сатоши</a> из электронных писем, сообщений на форуме и коммитов кода, чтобы построить следующий график. Я пришел к выводу, что Сатоши придерживался графика сна, соответствующего человеку, живущему в тихоокеанском часовом поясе.</p>
+<div class="imageWrapper">
+    <img src="/img/000000014.png">
+</div>
+<p>Почему я об этом говорю? Чтобы поддержать мою теорию, объясняющую феномен двойной спирали! Вот что, по моему мнению, произошло:</p>
+<ul>
+<li>Сатоши добыл блок 1386 в 16:00 по тихоокеанскому времени 22 января 2009 года.</li>
+<li>Вскоре после этого аппаратное/программное обеспечение Сатоши для майнинга вышло из строя</li>
+<li>Сатоши проснулся и проверил свой майнер незадолго до 8 утра по тихоокеанскому времени на следующий день, обнаружив, что тот вышел из строя.</li>
+<li>Он снова запустил майнер и нашёл блок в 8 утра по тихоокеанскому времени.</li>
+<li>Сам того не подозревая, Сатоши, случайно запустил 2 экземпляра майнера.</li>
+<li>Майнер работал в течение следующих 3 дней, в выходные дни, и Сатоши не заметил этого.</li>
+<li>Вскоре после добычи блока 1916 в 10:30 вечера по тихоокеанскому времени 25 января майнер снова дал сбой.</li>
+<li>Сатоши проснулся и проверил свой майнер незадолго до 7 утра по тихоокеанскому времени 26 января, обнаружил, что тот дал сбой, и возобновил его работу в нормальном режиме.</li>
+</ul>
+<h2 id="серия-сатоши">
+  Серия Сатоши
+  <a class="anchor" href="#%d1%81%d0%b5%d1%80%d0%b8%d1%8f-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p>Мы знаем, что Сатоши держал большую долю хэшрейта в течение первых 9 месяцев 2009 года; можем ли мы узнать что-нибудь из их самого большого количества добытых подряд блоков? Я написал <a href="https://github.com/jlopp/bitcoin-utils/blob/master/findPatoshiMiningStreaks.php">скрипт</a> для поиска серий и определил, что Сатоши удавалось добыть серию из 47 блоков с высоты 80 по 127.</p>
+<div class="imageWrapper">
+    <img src="/img/000000015.png">
+</div>
+<p>Это, конечно, следует воспринимать с долей недоверия, учитывая, что это ~8-часовой период, а оценки хэшрейта становятся менее точными по мере сокращения временного диапазона, но мы видим, что среднее время блока составило 720 секунд, что позволяет нам оценить их хэшрейт в <strong>5.97 Мхэш\сек</strong> за этот период.</p>
+<h2 id="сатоши-майнил-медленнее-чтобы-снизить-сложность">
+  Сатоши майнил медленнее, чтобы снизить сложность?
+  <a class="anchor" href="#%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8-%d0%bc%d0%b0%d0%b9%d0%bd%d0%b8%d0%bb-%d0%bc%d0%b5%d0%b4%d0%bb%d0%b5%d0%bd%d0%bd%d0%b5%d0%b5-%d1%87%d1%82%d0%be%d0%b1%d1%8b-%d1%81%d0%bd%d0%b8%d0%b7%d0%b8%d1%82%d1%8c-%d1%81%d0%bb%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d1%8c">#</a>
+</h2>
+<p>Напомним, что у нас есть несколько точек данных, которые указывают на то, что машина Сатоши, хотя в целом наблюдалось хэширование со скоростью <strong>4,35 Мхэш\сек</strong>, скорее всего, была способна только на максимальную потенциальную скорость хэширования в <strong>6 Мхэш\сек</strong>. При хэшрейте 6 Мхэш\сек это приводит к ожидаемому среднему времени блока в 708 секунд. Помните, что цель сложности не корректируется до тех пор, пока последние 2016 блоков не будут добыты со средней скоростью менее 600 секунд. Таким образом, хэшрейт глобальной сети для каждой единицы сложности можно выразить как:</p>
+<p><em>хэши в секунду = 2³² / 600 = 7,158,278 хэшей в секунду</em></p>
+<p>Таким образом, чтобы увеличить среднее время майнинга блока настолько, чтобы Биткоин изменил целевой уровень сложности с <strong>1</strong> на <strong>2</strong>, в сети должно быть более 7 158 278 * 1,5 = 10737417 хэшей в секунду = <strong>10.7 Мхэш\сек</strong>.</p>
+<p>Это означает, что в сети должно быть более <strong>4.7 Мхэш\сек</strong> других майнеров, чтобы повысить уровень сложности, если бы Сатоши добывал как можно быстрее. Трудно точно сказать, скольким машинам это соответствует, хотя, основываясь на некоторых доступных <a href="https://en.bitcoin.it/wiki/Non-specialized_hardware_comparison#Intel">здесь</a> эталонных тестах процессора, я бы предположил, что средний обычный настольный процессор, использующий ранний, неоптимизированный, однопоточный майнер Bitcoin, вероятно, производит чуть более <strong>1 Мхэш\сек</strong>. Есть также полу-мифические свидетельства того, что ранние майнеры <a href="https://bitcointalk.org/index.php?topic=43.msg1111#msg1111">публиковали</a> свои хэшрейты на BitcoinTalk. Мы также можем оценить эти данные и доказать, что это вполне вероятно. Нужно лишь сравнить склоны ExtraNonce майнеров, не работающих с Патоши, со склонами ExtraNonce майнеров, добывающих блоки Патоши — у Патоши они в 3 раза круче, чем у других майнеров. Таким образом, нам понадобилось бы всего 4 или 5 других майнеров в сети, чтобы повысить сложность.</p>
+<p>Я написал еще один <a href="https://github.com/jlopp/bitcoin-utils/blob/master/generateDifficultyHistoryCSV.php">скрипт</a> для извлечения истории корректировок сложности из блокчейна.</p>
+<div class="imageWrapper">
+    <img src="/img/000000016.png">
+</div>
+<p>Вот график общего хешрейта сети за указанный период:</p>
+<div class="imageWrapper">
+    <img src="/img/000000017.png">
+<p><em>Источникк: <a href="https://www.coinwarz.com/mining/bitcoin/hashrate-chart">https://www.coinwarz.com/mining/bitcoin/hashrate-chart</a></em></p>
+</div>
+<p>Чтобы понять, как изменились бы цели сложности, мы должны спросить, в какой момент хэшрейт глобальной сети превысил бы 10.7 Мхэш\сек, если бы Сатоши добывали с максимальной мощностью в 6 Мхэш\сек.</p>
+<div class="imageWrapper">
+    <img src="/img/000000018.png">
+</div>
+<p>Если посмотреть на график и добавить недостающий потенциальный дополнительный хэшрейт от Сатоши, то получается, что сеть превысила бы 10.7 Мхэш\сек в середине декабря 2009 года, а сложность установилась бы на уровне 2 в блоке 32256, примерно на 2.5 месяца раньше.</p>
+<p>Так что нет, утверждение, что Сатоши добывал медленнее, чтобы не повышать сложность, нелепо. Они могли добывать ГОРАЗДО БОЛЬШЕ блоков и, таким образом, зарабатывать ГОРАЗДО БОЛЬШЕ BTC, работая на максимальных мощностях, не вызывая роста сложности. К тому времени, когда сложность действительно возросла, Сатоши уже значительно снизил свой хэшрейт.</p>
+<h2 id="как-бы-поступил-жадный-сатоши">
+  Как бы поступил жадный Сатоши?
+  <a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%b1%d1%8b-%d0%bf%d0%be%d1%81%d1%82%d1%83%d0%bf%d0%b8%d0%bb-%d0%b6%d0%b0%d0%b4%d0%bd%d1%8b%d0%b9-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8">#</a>
+</h2>
+<p>Анализ паттерна Патоши, проведенный Сержио, выявил ~22 000 блоков-кандидатов на блоки Патоши. Некоторые из них, безусловно, являются ложноположительными результатами, но есть все основания полагать (из-за множества отпечатков, используемых для идентификации блоков), что процент ложных срабатываний составляет менее 1%. Таким образом, общее <strong>количество добытых Сатоши монет оценивается примерно в 1,100,000 BTC.</strong></p>
+<p>Если бы Сатоши НЕ решился в несколько раз снизить хэшрейт в конце 2009 года, насколько больше BTC он бы заработал? Это легко подсчитать, если принять постоянную цель сложности 1. Согласно скорости майнинга блоков Сатоши и целевой сложностью 1, их первоначальный хэшрейт составлял приблизительно 4,350,000 хэшей в секунду (<strong>4.35 Мхэш\сек</strong>) Последний блок, приписываемый Сатоши, был  #54316; ровно через 14 месяцев после майнинга генезис-блока. Сколько блоков мог бы добыть Сатоши, если бы он майнил при 4.35 Мхэш\сек в течение 14 месяцев при заданной сложности 1?</p>
+<p><em>ожидаемое время поиска блока = сложность</em> 2³² / хэшей в секунду*</p>
+<p>1 * 2³² / 4,350,000 = 987.35 секунд на блок для Сатоши</p>
+<p>36817200 сек(14 месяцев)/ 987.35 блоков = 37,302 блоков = <strong>1,865,100 BTC</strong></p>
+<p>К сожалению, все немного сложнее, поскольку сложность майнинга начала увеличиваться с блока #40320 14 февраля 2010 года, и Сатоши продолжали добывать по крайней мере до 3 мая 2010 года. Сложность еще больше возрастает, если учесть, что добыча Сатоши с максимальной потенциальной хэш-мощностью привела бы к переносу первого целевого изменения сложности на ~2.5 месяца вперед.</p>
+<p>Поэтому мы можем использовать историческую таблицу изменения сложности, опубликованную ранее, и сдвинуть временные рамки на столько же вперед. Если мы предположим, что Сатоши по-прежнему майнил в течение 479 дней, но с постоянной скоростью 4.35 Мхэш\сек, то мы увидим примерно следующий результат:</p>
+<div class="imageWrapper">
+    <img src="/img/000000019.png">
+</div>
+<p>Что составляет 31,783 блока или в общей сложности <strong>1,589,150 BTC.</strong></p>
+<p>Однако мы также должны помнить, что Сатоши регулярно отключал свой майнер, когда находил блоки с интервалом менее 5 минут. Это фактически <strong>является дополнительным преднамеренным ограничением хэшрейта.</strong> Так сколько же хэшрейта Сатоши фактически выдавал? Мы можем получить довольно хорошую оценку, основываясь на наших знаниях о пуассоновском распределении блоков. Примечание: если вы хотите спуститься в эту кроличью нору, вы можете ознакомиться с моей предыдущей <a href="https://blog.lopp.net/bitcoin-block-time-variance/">статьей о дисперсии времени блока</a>.</p>
+<p>Какой процент блоков, как ожидается, будет добыт менее чем через 5 минут после предыдущего блока? 1 — exp(-5/10) = 39,35%. Таким образом, максимальный потенциальный хэшрейт Сатоши на самом деле составлял скорее <strong>6.06 Мхэш\сек</strong>. Это интересный результат, поскольку он также довольно близок к наблюдаемому хэшрейту в <strong>5.5 Мхэш\сек</strong> в эпоху двойной спирали и чрезвычайно близок к наблюдаемому хэшрейту в <strong>5.97 Мхэш\сек</strong> во время ранней серии из 47 блоков.</p>
+<p>Итак, давайте проведем аналогичные расчеты, но учтем, что Сатоши использовал свое оборудование с теоретически максимальной скоростью 6 Мхэш\сек:</p>
+<div class="imageWrapper">
+    <img src="/img/000000020.png">
+</div>
+<p>В общей сложности 43,829 блоков или <strong>2,191,450 BTC</strong>.</p>
+<h2 id="почему-сатоши-не-сжег-свои-биткоины">
+  Почему Сатоши не сжег свои биткоины?
+  <a class="anchor" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8-%d0%bd%d0%b5-%d1%81%d0%b6%d0%b5%d0%b3-%d1%81%d0%b2%d0%be%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd%d1%8b">#</a>
+</h2>
+<p>Первая транзакция, которая сделала депозит на доказательно неизрасходованный адрес, была проведена по адресу 1111111111111111111111111111111114oLvT2 <a href="https://blockstream.info/tx/2c637592a4b4a95cf4b19260730c66de540d7d3b14d8d352de591c5ee6eac0fc">10 августа 2010 года</a>, а первое сообщение, которое я могу найти со ссылкой на него, появилось спустя 1 месяц, в котором отмечалось, что это <a href="https://bitcointalk.org/index.php?topic=1019.msg12683#msg12683">“наименьший возможный биткоин-адрес”</a>, в то время как в других сообщениях его называли <a href="https://bitcointalk.org/index.php?topic=3635.msg53755#msg53755">“нулевым адресом”</a>, поскольку он создается из хэша только нулей. Эти обсуждения, как правило, фокусировались на граничных случаях достоверности биткоин-адресов, а не на случаях использования для целенаправленного сжигания монет.</p>
+<p>Насколько я могу судить, первое осознанное использование burn-адреса произошло <a href="https://blockstream.info/tx/369d241af595fc253479abe394e2f21fda05820a0416942f63266dd793035cf1">20 июня 2011 года</a> в транзакции на адрес 1BitcoinEaterAddressDontSendf59kuE. Самое первое обсуждение адресов сжигания, которое мне удалось найти, имело место 23 июня 2011 года <a href="https://bitcointalk.org/index.php?topic=21552.0">в этой ветке BitcoinTalk</a> о “Черной дыре биткоина”.</p>
+<p>Последняя активность Сатоши на BitcoinTalk наблюдалась <a href="https://bitcointalk.org/index.php?action=profile%3Bu%3D3">13 декабря 2010 года</a>. Последний раз о нем слышали <a href="https://www.forbes.com/sites/peterizzo/2021/04/26/10-years-ago-today-bitcoin-creator-satoshi-nakamoto-sent-his-final-message/&amp;sh=a3d7c4410dd5">26 апреля 2011 года</a>. Вполне возможно, что Сатоши никогда не рассматривал вариант сжигания своих монет.</p>
+<h2 id="выводы">
+  Выводы
+  <a class="anchor" href="#%d0%b2%d1%8b%d0%b2%d0%be%d0%b4%d1%8b">#</a>
+</h2>
+<p>Прекратил ли Сатоши добычу с помощью майнера Патоши после блока #54316? Невозможно выяснить, было ли изменено программное обеспечение для майнинга, в результате чего обнаружить его стало невозможно, или же Сатоши продолжал майнить с помощью общедоступного программного обеспечения для майнинга.</p>
+<p>В чем я уверен в отношении Сатоши?</p>
+<ul>
+<li>Его целью было поддержание “сердцебиения” сети во время ее становления.</li>
+<li>Он майнил на одной машине с максимальным хэшрейтом в 6 Мхэш\сек.</li>
+<li>Он мог бы легко заработать более чем в два раза больше BTC, если бы майнил на полную мощность.</li>
+<li>Он не хотел доминировать над хэшрейтом сети, но, возможно, считал это необходимым в первые дни, когда сеть была гораздо более хрупкой из-за присутствия менее пяти майнеров.</li>
+<li>Он очень заботился о корректировке сложности. Алгоритм корректировки был одним из величайших нововведений Сатоши, и он <a href="https://bitcointalk.org/index.php?topic=43.0">высказывался на эту тему</a> больше, чем на любую другую.</li>
+<li>Он хотел, чтобы как можно больше людей могли майнить на домашних компьютерах (<a href="https://bitcointalk.org/index.php?topic=12.msg54#msg54">Сатоши осуждал гонку майнинга на FGPA и GPU</a>).</li>
+</ul>
+<blockquote>
+<p>Мы должны заключить джентльменское соглашение, чтобы отложить гонку вооружений GPU на максимально длительное время для блага сети. Новых пользователей гораздо легче ввести в дело, если им не нужно беспокоиться о драйверах GPU и совместимости. Приятно, что сейчас любой желающий с лишь одним процессором может конкурировать на равных.</p>
+</blockquote>
+<p>Любой, кто утверждает, что Сатоши был жадным, просто не разобрался в этом вопросе.</p>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/byl-li-satoshi-zhadnym-majnerom/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#преамбула-узоры-патоши">Преамбула: узоры Патоши</a></li>
+        <li><a href="#характерные-черты-патоши">Характерные черты Патоши</a></li>
+        <li><a href="#тормозящий-сатоши">Тормозящий Сатоши</a></li>
+        <li><a href="#доминирование-хэшрейта-сатоши">Доминирование хэшрейта Сатоши</a></li>
+        <li><a href="#двойная-спираль">Двойная спираль</a></li>
+        <li><a href="#серия-сатоши">Серия Сатоши</a></li>
+        <li><a href="#сатоши-майнил-медленнее-чтобы-снизить-сложность">Сатоши майнил медленнее, чтобы снизить сложность?</a></li>
+        <li><a href="#как-бы-поступил-жадный-сатоши">Как бы поступил жадный Сатоши?</a></li>
+        <li><a href="#почему-сатоши-не-сжег-свои-биткоины">Почему Сатоши не сжег свои биткоины?</a></li>
+        <li><a href="#выводы">Выводы</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

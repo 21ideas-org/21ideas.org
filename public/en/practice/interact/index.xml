@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interact on 21ideas</title>
+    <link>http://localhost:1313/en/practice/interact/</link>
+    <description>Recent content in Interact on 21ideas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/practice/interact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why You Should Run Your Own Bitcoin Node</title>
+      <link>http://localhost:1313/en/practice/bitcoin-node/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/practice/bitcoin-node/</guid>
+      <description>&lt;p&gt;Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.&lt;/p&gt;&#xA;&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by &lt;a href=&#34;https://twitter.com/parman_the&#34;&gt;Arman The Parman&lt;/a&gt; was published in &lt;a href=&#34;https://bitcoinmagazine.com/culture/six-reasons-you-should-run-bitcoin-node&#34;&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:&lt;/p&gt;&#xA;&lt;p&gt;Your Bitcoin node needs to keep a copy of the entire Bitcoin &lt;a href=&#34;https://bitcoinmagazine.com/guides/what-is-blockchain&#34;&gt;blockchain&lt;/a&gt;. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.e., the queue of transactions waiting to be included in the next block, and thus added to the blockchain). It needs to check that all additions to the blockchain are valid, and reject those that are not valid. It will provide details about the blockchain — such as balances — to other types of software that ask, like wallets. And it will provide a copy of the blockchain to any new node that wants to join. The new node then independently checks that every transaction in the copy it receives is valid. It does not actually “trust” the connected node.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Orangepilling in 5 min</title>
+      <link>http://localhost:1313/en/orangepilling-in-5-min/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/orangepilling-in-5-min/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This thread was published by &lt;a href=&#34;https://twitter.com/HectorAlvero&#34;&gt;Hector Alvero&lt;/a&gt; in &lt;a href=&#34;https://twitter.com/HectorAlvero/status/1610322878226137088&#34;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;What do you do when you meet someone casually at a party or social event and they ask you the tiny question with the huge answer:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;What is Bitcoin?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;We know the best way to orange pill someone is by asking questions to plant seeds that nurture curiosity. That works great with people we know or see often, but what about strangers you’ve just met and may never see again? Can we still open their minds in just a few minutes?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 tips for teaching Bitcoin</title>
+      <link>http://localhost:1313/en/5-tips-for-teaching-bitcoin/</link>
+      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/5-tips-for-teaching-bitcoin/</guid>
+      <description>&lt;blockquote class=&#34;book-hint btc&#34;&gt;&#xA;  &lt;p&gt;This article by John Tinkelenberg was published in Casa &lt;a href=&#34;https://blog.keys.casa/teaching-bitcoin-to-friends-and-loved-ones&#34;&gt;blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/contribute/&#34;&gt;Contribute&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;It’s easy to adopt bitcoin as an individual, but sharing your knowledge with others — or orange-pilling as we say in the industry — can be hard. Bitcoin is often a tricky subject to discuss with friends and relatives in addition to being a completely different asset to own and manage.&lt;/p&gt;&#xA;&lt;p&gt;Now that bitcoin is mainstream, most of us are exploring bitcoin for the first time. Here’s a primer for sharing your enthusiasm for bitcoin with those you care about.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
