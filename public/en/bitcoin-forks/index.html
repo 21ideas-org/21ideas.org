@@ -1,0 +1,3181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively. ">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="A complete history of Bitcoin’s consensus forks" />
+<meta property="og:description" content="In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively. " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/bitcoin-forks/" />
+<meta property="og:image" content="http://localhost:1313/img/forks-01.jpg"/>
+
+<title>A complete history of Bitcoin’s consensus forks | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/bitcoin-forks/" title="Полная история консенсус-форков Биткоина">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6ade4dcd3e4473a03c16af7af767ac91a1040fba953931c39e6427641c138e94.js" integrity="sha256-at5NzT5Ec6A8Fq9692eskaEED7qVOTHDnmQnZBwTjpQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/bitcoin-forks/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle" checked />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="active">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>A complete history of Bitcoin’s consensus forks</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/forks-01.jpg" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    A complete history of Bitcoin’s consensus forks
+    
+</h1>
+<div class="pageDate">
+    December 28, 2017
+</div>
+
+  <article class="markdown"><h2 id="abstract">
+  Abstract
+  <a class="anchor" href="#abstract">#</a>
+</h2>
+<p>In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.</p>
+<blockquote class="book-hint btc">
+  <p>This report was originaly published in BitMEX Research <a href="https://blog.bitmex.com/bitcoins-consensus-forks/">blog</a>. Later it has been <a href="https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/">updated</a>. The updated list now includes the 2018 <a href="https://bitcoincore.org/en/2018/09/20/notice/">security incident</a> and the 2021 <a href="https://en.bitcoin.it/wiki/BIP_0341">Taproot activation</a>.</p>
+<p><a href="https://blog.bitmex.com/wp-content/uploads/2017/12/2017.12.28-A-complete-history-of-Bitcoins-consensus-forks-.pdf">Please click here to download the PDF version of first version of this report</a>.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<h2 id="terminology">
+  Terminology
+  <a class="anchor" href="#terminology">#</a>
+</h2>
+<table>
+<tbody>
+<tr bgcolor="#526482">
+<td width="25%"><span style="color: white;"><strong>Term</strong></span></td>
+<td width="75%"><span style="color: white;"><strong>Definition</strong></span></td>
+</tr>
+<tr>
+<td> Chainsplit</td>
+<td style="text-align: left;">A split in the blockchain, resulting in two separate chains, with a common ancestor. This can be caused by either a hardfork, a softfork, or neither.</td>
+</tr>
+<tr bgcolor="#526482">
+<td colspan="2"> <strong>Consensus rule changes</strong></td>
+</tr>
+<tr>
+<td> Hardfork</td>
+<td>
+<p style="text-align: left;">A loosening of the consensus rules on block validity, such that some blocks previously considered as invalid are now considered valid.</p>
+<p style="text-align: left;">Existing nodes are required to upgrade to follow the new hardforked chain.</p>
+</td>
+</tr>
+<tr>
+<td> Softfork</td>
+<td>
+<p style="text-align: left;">A tightening of the consensus rules on block validity, such that some blocks previously considered as valid are now considered invalid.</p>
+<p style="text-align: left;">Existing nodes do not necessarily need to upgrade to follow the new softforked chain.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Note: These terms are believed to have originated in <a href="https://gist.github.com/gavinandresen/2355445">April 2012</a> and formalized in <a href="https://github.com/bitcoin/bips/blob/master/bip-0099.mediawiki">BIP99</a> and <a href="https://github.com/bitcoin/bips/blob/master/bip-0123.mediawiki">BIP123</a>.</p>
+<h2 id="list-of-bitcoin-consensus-forks">
+  List of Bitcoin consensus forks
+  <a class="anchor" href="#list-of-bitcoin-consensus-forks">#</a>
+</h2>
+<table style="width: 100%;">
+<tbody>
+<tr bgcolor="#526482">
+<td style="width: 10%;" width="10%"><span style="color: white;"><strong>Date</strong></span></td>
+<td style="width: 10%;" width="10%"><span style="color: white;"><strong>Activation Block Number</strong></span></td>
+<td style="width: 10%;" width="10%"><span style="color: white;"><strong>BIP Number or Software Version</strong></span></td>
+<td style="width: 29%;" width="29%"><span style="color: white;"><strong>Description</strong></span></td>
+<td style="width: 12%;" width="12%"><span style="color: white;"><strong>Type</strong></span></td>
+<td style="width: 29%;" width="29%"><span style="color: white;"><strong>Outcome</strong></span></td>
+</tr>
+<tr>
+<td style="width: 10%;">28 July 2010</td>
+<td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
+<td style="width: 10%;"><a href="[https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141](view-source:https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141)">0.3.5</a></td>
+<td style="width: 29%;">OP_RETURN disabled, fixing a critical bug which enabled anyone to spend any Bitcoin.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;" width="151">No evidence of any issues during this upgrade.</td>
+</tr>
+<td style="width: 10%;" rowspan="2">31 July 2010</td>
+<td style="text-align: right; width: 10%;" rowspan="2">n/a<sup>1</sup></td>
+<td style="width: 10%;" rowspan="2"><a href="https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d">0.3.6</a></td>
+<td style="width: 29%;">OP_VER and OP_VERIF <a href="https://github.com/bitcoin/bitcoin/commit/a75560d828464c3f1138f52cf247e956fc8f937d#diff-8458adcedc17d046942185cb709ff5c3L109">disabled</a>.<sup>3</sup></td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;" rowspan="2">Some users had trouble upgrading and it was recommended that nodes should be shut down if they could not be upgraded.<sup>2</sup></td>
+</tr>
+<tr bgcolor="#F2F7FF">
+<td style="width: 29%;">The addition of the OP_NOP functions.</td>
+<td style="width: 12%;">Hardfork</td>
+</tr>
+<tr>
+<tr bgcolor="#F2F7FF">
+<td style="width: 10%;">1 Aug 2010</td>
+<td style="text-align: right; width: 10%;"> n/a<sup>1</sup></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/73aa262647ff9948eaf95e83236ec323347e95d0">0.3.7</a></td>
+<td style="width: 29%;">Separation of the evaluation of the <a href="https://github.com/bitcoin/bitcoin/commit/6ff5f718b6a67797b2b3bab8905d607ad216ee21#diff-8458adcedc17d046942185cb709ff5c3L1135">scriptSig and scriptPubKey</a>. Fixing a critical bug which enabled anyone to spend any Bitcoin</td>
+<td style="width: 12%;">Hardfork</td>
+<td style="width: 29%;">No evidence of any issues during this upgrade</td>
+</tr>
+<td style="width: 10%;" rowspan="2">15 Aug 2010</td>
+<td style="text-align: right; width: 10%;" rowspan="2">74,638</td>
+<td style="width: 10%;" rowspan="2"><a href="https://github.com/bitcoin/bitcoin/commit/08fee75201e82f2e34fcc1549ee8edd152f5d040">0.3.10</a></td>
+<td style="width: 29%;">Output-value-overflow bug fix following a 184.5-billion Bitcoin spend incident. The 0.5 BTC that was the input to the transaction remains <a href="https://blockchain.info/address/17TASsYPbdLrJo3UDxFfCMu5GXmxFwVZSW">unspent</a> to this day.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;" rowspan="2">A chainsplit occurred. Around five hours after the incident, a fix was released, client 0.3.10. It is believed that <a href="https://bitcointalk.org/index.php?topic=823.msg9734#msg9734">51 blocks</a> were generated on the &#8220;bad chain&#8221; before the &#8220;good&#8221; chain retook the PoW lead.</td>
+</tr>
+<tr bgcolor="#F2F7FF">
+<td style="width: 29%;">Disabling OP_CAT, which removed a DoS vector, along with the disabling of 14 <a href="https://github.com/bitcoin/bitcoin/commit/4bd188c4383d6e614e18f79dc337fbabe8464c82#diff-8458adcedc17d046942185cb709ff5c3R94">other functions</a>.</td>
+<td style="width: 12%;">Softfork</td>
+</tr>
+<tr>
+<tr bgcolor="#F2F7FF">
+<td style="width: 10%;">7 Sept 2010</td>
+<td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730">0.3.12</a></td>
+<td style="width: 29%;">Adding the 20,000-signature operation limit in an incorrect way. This incorrect limit still exists.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">No evidence of any issues during this upgrade.</td>
+</tr>
+<td style="width: 10%;">12 Sept 2010</td>
+<td style="text-align: right; width: 10%;">79,400</td>
+<td style="width: 10%;">n/a</td>
+<td style="width: 29%;">
+<p style="text-align: left;">Adding the 1MB blocksize limit.</p>
+<p style="text-align: left;">The &#8220;MAX_BLOCK_SIZE = 1000000&#8221; commit <a href="https://github.com/bitcoin/bitcoin/blob/a30b56ebe76ffff9f9cc8a6667186179413c6349/main.h#L18">occurred</a> on 15 July 2010, which was released in the 0.3.1 rc1 version of the software <a href="https://github.com/bitcoin/bitcoin/commit/9d2174b6f5f3fac2463c7ebc2dbb9004b3740d23">on 19 July 2010</a>. The <a href="https://github.com/bitcoin/bitcoin/commit/8c9479c6bbbc38b897dc97de9d04e4d5a5a36730"> commit</a> enforcing the 1MB rule occurred on 7 September 2010, activating at block 79,400. On 20 September 2010, Satoshi <a href="https://github.com/bitcoin/bitcoin/commit/172f006020965ae8763a0610845c051ed1e3b522">removed</a> this activation logic, but kept the 1MB limit.</p>
+</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">No evidence of any issues during this upgrade.</td>
+</tr>
+<tr>
+<td style="width: 10%;">15 March 2012</td>
+<td style="text-align: right; width: 10%;">171,193</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0030.mediawiki">BIP30</a></td>
+<td style="width: 29%;">Disallow transactions with the same TXID, unless the older one was fully spent. In <a href="https://github.com/bitcoin/bitcoin/commit/ab91bf39b7c11e9c86bb2043c24f0f377f1cf514">September 2012</a>, the rule was applied to all blocks, apart from 91,842 and 91,880, which violate the rule.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">This was a flag-day softfork. There is no evidence of any issues.</td>
+</tr>
+<td style="width: 10%;">1 April 2012</td>
+<td style="text-align: right; width: 10%;">173,805</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki">BIP16</a></td>
+<td style="width: 29%;">Pay-to-script hash (P2SH) allows transactions to be sent to a script hash (address starting with 3) instead of a public-key hash (addresses starting with 1).</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">55% activation threshold, over blocks in the seven days prior to 1 February 2012. Miners <a href="https://bitcointalk.org/index.php?topic=66514.0;all">did not upgrade fast enough</a>, so the evaluation point was delayed until 15 March. Users running 0.6.0 rc1 who did not upgrade for the delay activated the softfork early and got <a href="https://bitcointalk.org/index.php?topic=63165.60">stuck on block 170,060</a> when an invalid transaction, according to their nodes, was mined. After activation, problems were caused as the remaining 45% of miners produced invalid blocks for several months after the softfork</td>
+</tr>
+<tr>
+<td style="width: 10%;">24 Mar 2013</td>
+<td style="text-align: right; width: 10%;"> 227,835</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0034.mediawiki">BIP34</a></td>
+<td style="width: 29%;">Requires the coinbase transaction to include the block height.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">95% activation threshold. A successful rollout occurred.</td>
+</tr>
+<td style="width: 10%;">11 Mar 2013</td>
+<td style="text-align: right; width: 10%;">225,430</td>
+<td style="width: 10%;"><a href="https://bitcoin.org/en/alert/2013-03-11-chain-fork">0.8.0</a></td>
+<td style="width: 29%;" width="236">This was an unplanned hardfork caused by the migration from Berkeley DB to LevelDB, which accidentally removed an unknown 10,000-BDB database lock limit. This caused a chainsplit on 11 March 2013, although the software which caused the error was released 20 days earlier on 20 February 2013. The change was reverted as the Bitcoin economy and miners switched back to 0.7.2 rules.</td>
+<td style="width: 12%;">No change in the consensus rules</td>
+<td style="width: 29%;">A chainsplit of at least <a href="https://bitcoinmagazine.com/articles/bitcoin-network-shaken-by-blockchain-fork-1363144448/">24</a> blocks occurred, with the 0.8.0 chain having a maximum lead of 13 blocks. A <a href="http://archive.is/64Rkj">successful double spend</a> also occurred. The original rules chain eventually re-took the PoW lead.</td>
+</tr>
+<tr>
+<td style="width: 10%;">18 Mar 2013</td>
+<td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad">0.8.1</a></td>
+<td style="width: 29%;" width="236">This was a temporary softfork, introducing a new rule requiring that no more than 4,500 TXIDs are referenced by inputs in a block. This rule is stricter than the 10,000-BDB lock limit. The rule <a href="https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba">expired</a> on 15 May 2013, a flag-day hardfork.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">There is no evidence of any issues.</td>
+</tr>
+<td style="width: 10%;">15 May 2013 or 16 Aug 2013</td>
+<td style="text-align: right; width: 10%;"> 252,451 or earlier</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki">BIP50</a></td>
+<td style="width: 29%;">In August 2013, a block may have been produced that violated the original 10,000-BDB lock limit rule, which was relaxed on 15 May 2013.</td>
+<td style="width: 12%;">Hardfork</td>
+<td style="width: 29%;">There is no evidence of any issues.</td>
+</tr>
+<tr>
+<td style="width: 10%;">4 July 2015</td>
+<td style="text-align: right; width: 10%;"> 363,731</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki">BIP66</a></td>
+<td style="width: 29%;">Strict DER signature upgrade means Bitcoin is no longer dependent on OpenSSL&#8217;s signature parsing.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">95% threshold over a 1,000-block period. A chainsplit occurred, lasting six blocks, as some miners signaled support for BIP66 but had not upgraded and were <a href="https://blog.bitmex.com/empty-block-data-by-mining-pool/">SPY mining</a>. The new softfork rules chain eventually took the lead.</td>
+</tr>
+<td style="width: 10%;">14 Dec 2015</td>
+<td style="text-align: right; width: 10%;"> 388,380</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki">BIP65</a></td>
+<td style="width: 29%;">Check Lock Time Verify enables funds to be locked until a specific time in the future. This is Bitcoin&#8217;s first new function.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">Successful rollout using a 95% threshold.</td>
+</tr>
+<tr>
+<td style="width: 10%;">4 July 2016</td>
+<td style="text-align: right; width: 10%;"> 419,328</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0068.mediawiki">BIP68</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki">BIP112</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0113.mediawiki">BIP113</a></td>
+<td style="width: 29%;">
+<p style="text-align: left;">Relative lock-time enables a transaction output to be banned for a relative amount of time after the transaction.</p>
+<p>CheckSequenceVerify.</p>
+<p style="text-align: left;">Median time-past removes the incentive for a miner to use a future block timestamp to grab more transaction fees.</p>
+</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">Successful rollout using 95% versionbits signaling.</td>
+</tr>
+<td style="width: 10%;">23 July 2017</td>
+<td style="text-align: right; width: 10%;"> 477,800</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki">BIP91</a></td>
+<td style="width: 29%;">This temporary softfork makes signaling for the SegWit upgrade mandatory.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">Softfork successfully activated with an 80% miner threshold over a 336-block period, although only a tiny minority of users enforced BIP91 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
+</tr>
+<tr>
+<td style="width: 10%;">01 Aug 2017</td>
+<td style="text-align: right; width: 10%;"> 478,479</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki">BIP148</a></td>
+<td style="width: 29%;">This temporary softfork makes signaling for the SegWit upgrade mandatory for a two week period following 1 August 2017.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">Flag-day softfork appeared to succeed with no issues, although only a minority of users enforced BIP148 rules, which have since expired. Therefore, the risk of a chainsplit was elevated in this period.</td>
+</tr>
+<td style="width: 10%;">24 Aug 2017</td>
+<td style="text-align: right; width: 10%;"> 481,824</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki">BIP141</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0143.mediawiki">BIP143</a><br/><a href="https://github.com/bitcoin/bips/blob/master/bip-0147.mediawiki">BIP147</a></td>
+<td style="width: 29%;">The <a href="https://blog.bitmex.com/the-segwit-transaction-capacity-increase-part-1/">segregated-witness</a> (SegWit) upgrade.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">Rollout using 95% versionbits signaling.</td>
+</tr>
+<tr>
+<td style="width: 10%;">14 Sep 2017</td>
+<td style="width: 10%; text-align: right;">n/a</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bitcoin/releases/tag/v0.15.0">0.15.0</a></td>
+<td style="width: 29%;">Accidental <a href="https://bitcoincore.org/en/2018/09/20/notice/">critical inflation bug</a> was added. This was fixed over a year later, on 17 Sep 2018.</td>
+<td style="width: 12%;">Accidental hardfork client</td>
+<td style="width: 29%;">No block was produced which exploited the bug and therefore it can be said that no hardfork occurred on the Bitcoin network.</td>
+</tr>
+<tr>
+<td style="width: 10%;">14 Nov 2021</td>
+<td style="width: 10%; text-align: right;">709,632 </td>
+<td style="width: 10%;"><a href="https://en.bitcoin.it/wiki/BIP_0341">BIP341</a></td>
+<td style="width: 29%;">The Taproot upgrade combines ideas such as Schnorr signatures (<a class="mw-redirect" title="Bip-0340.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0340.mediawiki">BIP340</a>) and MAST (<a class="mw-redirect" title="Bip-0114.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0114.mediawiki">BIP114</a>, <a class="mw-redirect" title="Bip-0117.mediawiki" href="https://en.bitcoin.it/wiki/Bip-0117.mediawiki">BIP117</a>)</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">This softfork activated using &#8220;Speedy Trial&#8221;, an idea <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2021-March/018583.html">proposed</a> by Russell O&#8217;Connor to resolve a dispute on the best activation methodology. A 90% miner threshold over fixed 2,016 block windows was sucessfully used. The softfork locked-in on 12 June 2021 at block height 687,283</td>
+</tr>
+<tr>
+<td style="width: 10%;">The year 2262</td>
+<td style="width: 10%;"> 13,440,000</td>
+<td style="width: 10%;"><a href="https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki">BIP42</a></td>
+<td style="width: 29%;">Fixed a 21 million coin supply cap bug. The software was upgraded in April 2014 to fix this bug, but the new rule does not apply until the 23rd century.</td>
+<td style="width: 12%;">Softfork</td>
+<td style="width: 29%;">The softfork is not applicable yet.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(Sources: BitMEX Research, GitHub, Bitcoin blockchain)</strong></p>
+<h3 id="notes">
+  Notes
+  <a class="anchor" href="#notes">#</a>
+</h3>
+<ol>
+<li>With the exception of the 1MB blocksize limit, prior to the 2012 BIP16 softfork, there was no activation methodology, so if the fork occurred smoothly without a chainsplit, there is not necessarily a specific block height or date on which the consensus fork occurred.</li>
+<li>“If you can’t upgrade to 0.3.6 right away, it’s best to shut down your Bitcoin node until you do.” — <a href="http://archive.is/L7amG">Satoshi Nakamoto</a></li>
+<li>Prior to the removal of OP_VER, each software upgrade could potentially be considered a non-deterministic hardfork and these have been excluded from this list. If the definition of hardforks does include this, then it’s a somewhat pedantic definition.</li>
+<li>There are no consistent definitions used in the above table because, for example, a different definition of the date on which the fork occurred may be more relevant in each incident, depending on the circumstances.</li>
+<li>Others have mentioned that changes to the P2P protocol can also be considered hardforks if they make previous software releases unusable, since they can no longer connect to the network. Strictly speaking, however, these do not relax the rules on block validity and one could sync old nodes by setting up a relay of intermediary versions of the software. These changes are excluded from the above list.</li>
+<li>Some consider <a href="https://github.com/bitcoin/bips/blob/master/bip-0090.mediawiki">BIP90</a> a hardfork, but since it only relaxed rules related to softfork activations that happened in the past, it does not share many of the characteristics or risks normally associated with consensus forks. Using the same logic, the block checkpoint scheme can also be considered as softforks.</li>
+<li>In <a href="https://github.com/bitcoin/bitcoin/commit/40cd0369419323f8d7385950e20342e998c994e1#diff-623e3fd6da1a45222eeec71496747b31R420">July 2010</a>, the chain selection rule was altered to shift to most accumulated work from the number of blocks. Technically, this is not a change to block validity rules; however, this change does share some of the risks associated with consensus rule changes.</li>
+</ol>
+<h2 id="was-the-2013-incident-a-hardfork">
+  Was the 2013 incident a hardfork?
+  <a class="anchor" href="#was-the-2013-incident-a-hardfork">#</a>
+</h2>
+<p>In our view, on balance, the increase in the BDB lock limit a few months after the 11 March 2013 chainsplit was a hardfork. The rule in question was a 10,000-BDB lock limit, which was increased. The rule was relaxed on <a href="https://github.com/bitcoin/bitcoin/commit/8bd02881899bbae2d8e5082081e02c7d577994e5#diff-7ec3c68a81efff79b6ca22ac1f1eabba">15 May 2013</a> in software version 0.8.1, which was released on <a href="https://github.com/bitcoin/bitcoin/commit/34d62a8efe4c51b2dd73d56fa03001d4accee4ad">18 March 2013</a>. A block exceeding this limit may finally have been produced on 16 August 2013 so one can define the date of the hardfork to be either 15 May 2013 or 16 August 2013.</p>
+<p>Some have argued that this may not have been a hardfork for a variety of reasons, including that this rule was “quasi-non-deterministic” or that one could manually change the BDB config settings. Indeed, due to the non-deterministic nature of the lock limit, perhaps it is theoretically possible one could have a local system set up such that the old BDB lock limit has never been breached. Therefore, one could declare that there has “never been a hardfork” in Bitcoin, following a strict definition that requires a hardfork to be deterministic or perhaps even directly related to Bitcoin data such as transactions or the block header.</p>
+<p>When discussing this incident, Bitcoin developer Gregory Maxwell <a href="https://bitcointalk.org/index.php?topic=702755.msg8116032#msg8116032">said</a>:</p>
+<blockquote>
+<p><em>Sort of a mixed bag there, you can actually take a pre BIP-50 node and fully sync the blockchain, I last did this with 0.3.24 a few months ago. It just will not reliably handle reorgs involving large blocks unless you change the BDB config too. So it’s debatable if this is a hard fork either, since it’s quasi-non-deterministic. There were prior bugs fixed where older versions would get stuck and stop syncing the chain before that too… So I think by a really strong definition of creating a blockchain which violates the rules mandated by prior versions we have never had a hardfork.</em></p>
+</blockquote>
+<h2 id="chainsplit-incident-of-july-2015">
+  Chainsplit incident of July 2015
+  <a class="anchor" href="#chainsplit-incident-of-july-2015">#</a>
+</h2>
+<p>In the list of consensus rules changes above, there are three incidents that caused identifiable chainsplits. The most recent of these occurred on 4 July 2015, during the BIP66 softfork upgrade.</p>
+<p>Immediately after the activation of BIP66, there was a six-block orphan chain created because a miner produced an invalid block that was not recognised as invalid by some other mining pools, because they were not validating new blocks.</p>
+<p>In this case, some miners signalled support for the BIP66 softfork but hadn’t actually upgraded their nodes to validate; one could say miners were “false flagging”. If the miners had been validating blocks, they would have discovered the block was invalid and rejected it. Instead, some miners built on top of the invalid block and a chainsplit occurred.</p>
+<p>A diagram illustrating these six blocks and the chainfork is displayed below.</p>
+<div class="imageWrapper">
+    <img src="/img/forks-02.png">
+<p><em>Graphical illustration of the July 2015 chainsplit. (Source: Blockchain.info <a href="http://archive.is/WqGRp">http://archive.is/WqGRp</a> and <a href="http://archive.is/LHlF7">http://archive.is/LHlF7</a>)</em></p>
+</div>
+<blockquote class="book-hint info">
+  <strong>Note:</strong> After the publication of this piece, an alternative list of consensus versions was published on the <a href="https://en.bitcoin.it/wiki/Consensus_versions">Bitcoin Wiki</a>.
+</blockquote>
+
+<blockquote class="book-hint danger">
+  <strong>Disclaimer:</strong> Whilst many claims made in this piece are cited, we do not guarantee accuracy.  We may have made errors or accidentally omitted consensus rule changes from the list.  We welcome corrections.
+</blockquote>
+
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/bitcoin-forks/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

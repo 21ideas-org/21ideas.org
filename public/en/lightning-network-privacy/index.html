@@ -1,0 +1,3404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  This article by Tony was published on abytesjourney.com website.
+Contribute.
+
+
+
+The Lightning Network has been growing recently, with around 11,000 active public nodes out of around 20,000 total. Besides the advantage of near-instant payments, there can be privacy improvements to Lightning as well. Unfortunately, there are scenarios where Lightning is not great for privacy.
+I’d like to unearth some of these. Not as FUD about the network, but to keep people as informed as possible so they may privately use Lightning. Everything in this article is public knowledge and known to the industry to some degree. This is my attempt at aggregating the topic of Lightning privacy from a higher level.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Lightning Network Privacy" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/lightning-network-privacy/" />
+<meta property="og:image" content="http://localhost:1313/img/pln-216.jpeg"/>
+
+<title>Lightning Network Privacy | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/privatnost-v-lajtning/" title="Приватность в сети Lightning">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6ade4dcd3e4473a03c16af7af767ac91a1040fba953931c39e6427641c138e94.js" integrity="sha256-at5NzT5Ec6A8Fq9692eskaEED7qVOTHDnmQnZBwTjpQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/privatnost-v-lajtning/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle" checked />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="active">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Lightning Network Privacy</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#overview-of-lightning">Overview of Lightning</a>
+          <ul>
+            <li><a href="#privacy-improvements-in-lightning">Privacy improvements in Lightning</a></li>
+          </ul>
+        </li>
+        <li><a href="#outline">Outline</a></li>
+        <li><a href="#node-setup">Node Setup</a>
+          <ul>
+            <li><a href="#ip-vs-tor">IP vs Tor</a></li>
+            <li><a href="#node-identity">Node Identity</a></li>
+          </ul>
+        </li>
+        <li><a href="#utxos--their-use-in-lightning">UTXOs &amp; their use in Lightning</a>
+          <ul>
+            <li><a href="#utxos-used-for-public-channels">UTXOs used for public channels</a></li>
+            <li><a href="#private-channels-are-not-private">Private channels are not private</a></li>
+            <li><a href="#closing-channels">Closing channels</a></li>
+            <li><a href="#mixed-utxos">Mixed UTXOs</a></li>
+          </ul>
+        </li>
+        <li><a href="#receiver-privacy">Receiver Privacy</a>
+          <ul>
+            <li><a href="#invoices">Invoices</a></li>
+          </ul>
+        </li>
+        <li><a href="#sender-privacy">Sender privacy</a>
+          <ul>
+            <li><a href="#1-hop">1 hop</a></li>
+            <li><a href="#2-hop">2 hop</a></li>
+            <li><a href="#sending-funds-through-the-network">Sending funds through the network</a></li>
+          </ul>
+        </li>
+        <li><a href="#additional-lightning-protocol-tech">Additional lightning protocol tech</a>
+          <ul>
+            <li><a href="#mpp">MPP</a></li>
+            <li><a href="#amp">AMP</a></li>
+            <li><a href="#rendezvous">Rendezvous</a></li>
+            <li><a href="#route-blinding">Route blinding</a></li>
+            <li><a href="#trampoline-routing">Trampoline routing</a></li>
+            <li><a href="#public-key-routing">Public Key Routing</a></li>
+            <li><a href="#immortan">Immortan</a></li>
+            <li><a href="#zkchannels">zkChannels</a></li>
+            <li><a href="#taproot">Taproot</a></li>
+            <li><a href="#channel-factories">Channel factories</a></li>
+            <li><a href="#others">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="#final-privacy-suggestions">Final privacy suggestions</a>
+          <ul>
+            <li><a href="#for-senders">For senders</a></li>
+            <li><a href="#for-receivers">For receivers</a></li>
+            <li><a href="#mixing-on-ln">Mixing on LN</a></li>
+          </ul>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/pln-216.jpeg" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Current State of Lightning Network Privacy
+    
+</h1>
+<div class="pageDate">
+    May 10, 2021
+</div>
+
+  <article class="markdown"><blockquote class="book-hint btc">
+  <p>This article by Tony was published on <a href="https://abytesjourney.com/lightning-privacy">abytesjourney.com</a> website.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<p>The Lightning Network has been growing recently, with around <a href="https://1ml.com/statistics">11,000 active public nodes out of around 20,000 total</a>. Besides the advantage of near-instant payments, there can be privacy improvements to Lightning as well. Unfortunately, there are scenarios where Lightning is not great for privacy.</p>
+<p>I’d like to unearth some of these. Not as FUD about the network, but to keep people as informed as possible so they may privately use Lightning. Everything in this article is public knowledge and known to the industry to some degree. This is my attempt at aggregating the topic of Lightning privacy from a higher level.</p>
+<p>Everyone has a right to financial privacy and deserves to be aware of these things.</p>
+<h2 id="overview-of-lightning">
+  Overview of Lightning
+  <a class="anchor" href="#overview-of-lightning">#</a>
+</h2>
+<div class="imageWrapper">
+    <img src="/img/pln-217-en.png">
+<p><em>Alice paying Carol via the existing channel she has with Bob.</em></p>
+</div>
+<p>As a quick overview, a Lightning node will lock up a Bitcoin Unspent Transaction Output (UTXO) into a channel with another node. The two nodes can instantly transact with each other without broadcasting onto the blockchain. This is often extended such that you can transact in the same way to nodes your peer is connected to, and so on.</p>
+<p>In a multi-hop scenario, the final destination is receiving part of a different UTXO. It’s like if I gave you a $10 bill to give to your friend, and you instead give your friend 2 $5 bills instead of my exact $10 bill. Except in Lightning, this happens cryptographically without having to trust your friend.</p>
+<h3 id="privacy-improvements-in-lightning">
+  Privacy improvements in Lightning
+  <a class="anchor" href="#privacy-improvements-in-lightning">#</a>
+</h3>
+<p>Each peer in a multi-hop transaction is requesting to pay the next peer in the hop. All they know is who asked them to route a payment and who is the next peer to hand the funds off to. Due to the <a href="https://wiki.ion.radar.tech/tech/lightning/onion-routing">onion routing</a> properties of payments, the router does not know who the rest of the peers are down the path nor who came before them. This includes the original sender or final destination.</p>
+<p>Senders in the Lightning Network end up having great privacy because of this. The sender knows who the destination node is, crafts the onion routed payment and sends it off. Even the first peer can not know for certain if that was the original sender (some caveats in the sender section).</p>
+<p>Receivers do not have the same privacy. They need to give certain information to the sender so that they can send the payment. The information they give out can be pretty revealing.</p>
+<h2 id="outline">
+  Outline
+  <a class="anchor" href="#outline">#</a>
+</h2>
+<p>I’ll begin with some basics on Lightning Node privacy from the initial setup. Then the on-chain properties that are revealed in Lightning channels. From there, I’ll get into sender and receiver privacy and the information revealed as funds flow through the network.</p>
+<p>Finally, I will discuss some future lightning features and properties, both recently developed and soon to be released.</p>
+<p>Throughout this article, I will recommend solutions you can use. In the end, I will suggest an ideal and realistic setup you can do today.</p>
+<h2 id="node-setup">
+  Node Setup
+  <a class="anchor" href="#node-setup">#</a>
+</h2>
+<h3 id="ip-vs-tor">
+  IP vs Tor
+  <a class="anchor" href="#ip-vs-tor">#</a>
+</h3>
+<p>One of the most important things you can do first is to set up your node to be Tor only.</p>
+<p>Most, if not all, home node implementations like <a href="https://github.com/rootzoll/raspiblitz">Raspiblitz</a> or <a href="https://getumbrel.com/">Umbrel</a> will set up your node this way. For one, it’s easier on the setup and there’s no port forwarding required which would be a pain for most users.</p>
+<p>While it is possible to change your network, this information could be archived by others. You can look at <a href="https://1ml.com/">1ml</a> to see network changes they keep track of.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-218.png">
+<p><em><a href="https://1ml.com/node/030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f/history">https://1ml.com/node/030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f/history</a></em></p>
+</div>
+<p>Putting that info into an IP lookup site, I can see that this node is using an Ireland AWS server for their node.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-219.png">
+<p><em><a href="https://whatismyipaddress.com/ip/52.50.244.44">https://whatismyipaddress.com/ip/52.50.244.44</a></em></p>
+</div>
+<p>If you were to put your IP address into a <a href="https://whatismyipaddress.com/ip-lookup">lookup service</a>, it will reveal your ISP and approximate location near you.</p>
+<p>Whether you host on an AWS server or a home server, private info can be revealed about you through court order or from insiders. If you insist on an IP node, consider an always online, anonymous, static IP VPN in order to shield your home / server IP.</p>
+<p>One disadvantage to using Tor only is that IP-based nodes can not start a connection to you. However, you can start a connection with them instead. According to <a href="https://1ml.com/statistics">1ml</a>, there are about 5239 tor nodes currently.</p>
+<h3 id="node-identity">
+  Node Identity
+  <a class="anchor" href="#node-identity">#</a>
+</h3>
+<h4 id="alias">
+  Alias
+  <a class="anchor" href="#alias">#</a>
+</h4>
+<div class="imageWrapper">
+    <img src="/img/pln-220.png">
+<p><em><a href="https://1ml.com/">https://1ml.com/</a></em></p>
+</div>
+<p>On your node you can set an alias, which is how we can see the names of these nodes in a peer-to-peer way. If you are running a service or store off of your node, you’d probably want your alias to be descriptive enough for others to make the association.</p>
+<p>However, if not, I would suggest not picking a name that is tied to your real-life name. If you have a pseudonym anyway, then you may consider it. The warning I have is that it’s like sticking a name onto your bitcoin addresses and you don’t want to do that in most cases. It makes you a target since node public capacity, UTXO info, etc. is displayable to the rest of the network.</p>
+<h4 id="apps">
+  Apps
+  <a class="anchor" href="#apps">#</a>
+</h4>
+<p>Node alias is announced when you open a public channel, but there are other ways your node can be associated with your identity.</p>
+<p>Chat-based apps like <a href="https://sphinx.chat/">Sphinx Chat</a> work by communicating from your node to other nodes through the Lightning Network. It’s very cool tech that I love and use. Yet, it relies on linking a node with Sphinx and when people chat with you, they are sending payments to your node. From there, they can see all the public info on your linked node. Raspiblitz has a <a href="https://github.com/rootzoll/raspiblitz/issues/2073">feature</a> in the works to spin up a secondary node on your same device that may be used with Sphinx. I’d highly recommend using that or spinning up a second node that you keep for cool use cases in the network. Sphinx currently allows you to use one of their hosted nodes instead, but keep in mind that they can track and read every message.</p>
+<p>Besides apps like Sphinx, be cautious of any service that sends you funds and knows your identity. You would not give your XPUB to a service, don’t give out your node identity to one either. More on why not in the “receiver privacy” section.</p>
+<p>One notable exception though is <a href="https://github.com/fiatjaf/lnurl-rfc/blob/master/lnurl-auth.md">LNURL Auth</a>. Despite it being lightning-based, it does not tie a link to your Lightning node. Each website gets a different LNURL identifier so they don&rsquo;t correlate with another. This is a far better and more private way to log in to a service rather than using an email or phone number. An LNURL service might still want to send funds to your node, but by itself, it’s private and non-correlatable.</p>
+<h2 id="utxos--their-use-in-lightning">
+  UTXOs &amp; their use in Lightning
+  <a class="anchor" href="#utxos--their-use-in-lightning">#</a>
+</h2>
+<p>Like I mentioned before, one must lock up a UTXO with another node in a payment channel. Open channel transactions look just like transferring funds into a multi-sig address. Nothing outright is revealed by this transaction or address. However, the information about the channel (if public) is distributed across the Lightning network. The channel information includes the transaction &amp; output index (channel point).</p>
+<div class="imageWrapper">
+    <img src="/img/pln-221.png">
+<p><em><a href="https://1ml.com/node/03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6/channels">https://1ml.com/node/03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6/channels</a></em></p>
+</div>
+<p><a href="https://blog.bitmex.com/lightning-network-part-7-proportion-of-public-vs-private-channels/">Private channels</a> are not published to the network. If a peer wanted to try to publish it across the network, it would be rejected per protocol requirements.</p>
+<p>So let’s dissect the use of UTXOs in the Lightning Network.</p>
+<h3 id="utxos-used-for-public-channels">
+  UTXOs used for public channels
+  <a class="anchor" href="#utxos-used-for-public-channels">#</a>
+</h3>
+<p>A lot of privacy-aware Bitcoiners know that it is a healthy practice to generate a new bitcoin address for each use. Lightning nodes use the same practices when creating a new address for normal transactions and new channels. Given that you can’t tell what is an open channel transaction, you can’t normally link them to others. However, the information passed along the Lightning Network is where the link lies.</p>
+<p>When you open a channel, transaction outputs are spent as the inputs, and you get a new UTXO locked. One can then tell the source of funds used to create the channel, via chain analysis. By looking at <em>just</em> the channel info, it is not possible to detect <em>which</em> node locked up the funds. We only know that it was one of the two (although your partner knows it wasn’t them and could share that info out of band). That said, it’s possible to deduce which node locked up the UTXO.</p>
+<p>Note: With <a href="https://bitcoinops.org/en/topics/dual-funding/">dual-funded channels</a>, it could have been both. However, it’s possible to bait a node into revealing their UTXOs by initiating a dual-funded channel request and aborting midway. If that UTXO were used in a dual funded channel later, we’d now know which node it belonged to.</p>
+<p>So we’ve figured out that, currently, one or the other node in a channel owned the UTXOs used. A 50/50 chance. But imagine a situation where Alice has a UTXO received from Coinbase and used it to open a channel. Coinbase would know Alice was the initiator since they track what their users do after leaving. It would either be Alice or a person Coinbase was paying on behalf of Alice. If Coinbase was concerned, they could ask Alice and lock her out of her account if they were suspicious enough.</p>
+<p>In another case, if Alice had 1 UTXO and she opened a channel for a partial amount then used the change to open another, you could assume both were initiated by Alice. Alice used her change from one to open another so we know those UTXOs belonged to her. A node opening a channel for a partial amount sets the change address back to itself.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-222-en.png">
+<p><em>Alice using TX 1 to open two consecutive channels reveal her as the opener.</em></p>
+</div>
+<p>When it comes to public channels, at best you have a 50% chance that a UTXO belongs to your node. At worse, a 100% chance that some or all your channel UTXOs belong to you.</p>
+<p>Because the entire Lightning Network can see this, consider it public info. It is a possibility that chain analytics firms and regulated entities take advantage of it.</p>
+<p>Solution: when opening public channels, use the full amount of a single UTXO not tied to your identity.</p>
+<h3 id="private-channels-are-not-private">
+  Private channels are not private
+  <a class="anchor" href="#private-channels-are-not-private">#</a>
+</h3>
+<p>This topic was a fun one to <a href="https://twitter.com/cycryptr/status/1384355046381473792?s=20">rabbit hole into</a>. Private channels are a term used to describe a channel that is not announced to the Lightning Network. The public cannot passively know that a channel exists between two nodes nor the UTXOs behind them. Only your channel partner knows this information by default. That said, let’s dive into how unannounced channels are not actually private.</p>
+<p>For starters, there are several reasons to open an unannounced channel. You may not want other nodes to route payments down it because you are a mobile node and not always online. You may also want to conceal the true amount locked up in channels between your node and another. You do this by having a public channel with a peer but having much larger private channels with the same peer. You may route through private channels yourself without the public knowing. It’s possible to detect the use of this shadow routing via balance probing techniques, though channel info is concealed.</p>
+<p>Another reason people assume they want unannounced channels is to conceal the UTXO. After all, it is standard privacy hygiene to not link your UTXOs to each other. This assumption breaks down for several reasons.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-223-en.png">
+<p><em>An invoice with private routing hints will include channel ID which breaks down into UTXO info.</em></p>
+</div>
+<p>To receive funds via private channels, you have to encode the private channel info into the invoice that you give to the sender. Unfortunately, channel IDs are determined by the UTXO info. Senders can tell what UTXOs make up your private channels. Remember the 50% best case, 100% worse case spoken above, the same is applied here. If you did not send the invoice via a secured communication channel, consider it public info. Also, consider that the sender may use this info against you and could sell or publicize it.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-224-en.png">
+<p><em><a href="https://arxiv.org/pdf/2004.00333.pdf">https://arxiv.org/pdf/2004.00333.pdf</a></em></p>
+</div>
+<p>But it gets worse. Not only do you reveal this info to each sender you request funds from, but it could also be probed by an attacker. It is possible to spam payments through a node in an attempt to hit an actual private channel by guessing the UTXO. An attacker starts by analyzing all transactions on the Bitcoin network and creating a set of UTXOs that sent to a multi-sig looking address. Once the attacker detects that a UTXO is used in a victim&rsquo;s private channel, the attacker can then attempt to guess who the other node is. They do this by replacing the node pubkey with one of the 20,000 nodes known by the Lightning network. The only way it is not possible to guess the other node is if they never opened a public channel nor ever had an unannounced channel revealed.</p>
+<p>If you opened an unannounced channel and never created an invoice, it’s still possible your channel partner revealed the channel and public key anyways. They could have included it in one of their invoices. They do not need your consent to do this.</p>
+<p>Therefore, even if you are a “fully private” node, never opened a public channel, never shared an invoice with anyone, all it takes is one of your channel partners to reveal your private channel and public key via invoice. An attacker can then probe YOUR private channels, UTXOs, balances, and even channel partners. So assume any of your unannounced channels and the UTXOs backing them are public to the world. Further research will be required to determine the cost and time to execute this private channel probing attack.</p>
+<p>Solution: to conceal one of your UTXOs, open a private channel behind one of your public channels. An alternative is that you get another node to open a channel to you, revealing only their UTXO.</p>
+<h3 id="closing-channels">
+  Closing channels
+  <a class="anchor" href="#closing-channels">#</a>
+</h3>
+<p>While it is possible to find active private channels, it is also possible to <a href="https://arxiv.org/pdf/2003.12470.pdf">find the existence of closed private channels</a>. Chain analytics could be used on closing channel transactions to figure out both channel peers.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-225-en.png">
+<p><em>It&rsquo;s reasonable to determine Alice&rsquo;s and Bob&rsquo;s private channel based on the following the closing channel tx change.</em></p>
+</div>
+<p>The change from a private channel could be used in a new public channel or leaked in a private one. If both nodes used the change from a private channel to create another, then there is a probable link between them. You would be able to look back at the original transaction output and determine that was used for a private channel between the nodes.</p>
+<p>It’s also possible to detect that a transaction output was part of a private channel if that private channel needed to force close. Force closed channels reveal unresolved outputs on-chain that are specific to Lightning. From there you could analyze the change outputs in the same way to detect channel peers.</p>
+<p>Solution: after closing a channel, mix the change.</p>
+<h3 id="mixed-utxos">
+  Mixed UTXOs
+  <a class="anchor" href="#mixed-utxos">#</a>
+</h3>
+<p>Post mixed UTXO management is a hot topic amongst coinjoining Bitcoiners. Unless necessary, it is typically a bad idea to mix your UTXOs and then rejoin them back together. If you have multiple UTXOs from the same source, mix them into new ones, then send them to the same address, you reduce the anonymity set of those coins. This gets worse as you consolidate more UTXOs.</p>
+<p>There is a lot of nuance and expert level on-chain analytics into de-anonymizing post-mixed UTXOs. My general advise is to not mix them back together, but there’s a lot of variables at play.</p>
+<p>Based on that, I believe it’s also a bad idea to send more than 1 mixed UTXO to your Lightning node. For all the reasons described above, all your mixed UTXOs on your Lightning node have the potential to be linked together. It does not matter if they are for public or private channels. Unless you know what you are doing with your mixed UTXOs, I would avoid consolidating onto your node as much as possible.</p>
+<p>Solution: Only use 1 mixed UTXO per node.</p>
+<h2 id="receiver-privacy">
+  Receiver Privacy
+  <a class="anchor" href="#receiver-privacy">#</a>
+</h2>
+<p>At this point, I’ve laid out a brain dump on UTXOs and channels making up your node. Now let’s dive into what information is revealed whenever you receive payments.</p>
+<h3 id="invoices">
+  Invoices
+  <a class="anchor" href="#invoices">#</a>
+</h3>
+<p>Typically, whenever you want to receive a payment, you create an invoice and give that to the sender. The invoice will consist of your node&rsquo;s public key, the amount, the description, private routing hints, and is signed by your node&rsquo;s private key. With your public key, the sender can look up your node to get channels, UTXOs, tor/IP address info, and much more. The private routing hints reveal your private channel UTXO info too.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-226.png">
+<p><em>An example lightning invoice</em></p>
+</div>
+<p>All that from a little invoice. Here’s where it can be quite careless. For one, be cautious of where you share the invoice in the first place. If you are trying to be a private/anon node, do not share invoices in public forums. Or even unencrypted messaging or to a person you might not trust with your node info. If you do, consider the whole world knowing that information about your node and linking it to you. If you are a merchant, there’s no way around this. Assume the public can create invoices off of your node by attempting to make a purchase at your store.</p>
+<p>Memo’s can reveal even further information about you or the transaction in question. You wouldn’t say “For a drug deal” in a payment description on PayPal, the same is true here. Each invoice is signed, so any message you put in the invoice is essentially a signed statement by your node. The classic example is Matt Odell creating an invoice mentioning poker in the memo. He gave that invoice to his friend that paid via a KYC custodian. That custodian now knows more than Matt would have probably wanted them to know. It even puts his friend at risk with the custodian. If that custodian wanted to, they could censor payments to Matt&rsquo;s node due to a history of gambling-related activity.</p>
+<p>Given that each invoice you give out reveals your node’s public key info, they are also correlatable. In an ideal world, invoices that you give out do not reveal information about your node and are not linkable. Each new invoice would show new public key information. This is technically possible today and in fact, the <a href="https://muun.com/">Muun mobile wallet</a> does this!</p>
+<p>Muun uses fake private channels with rotating key pairs attached to them. These create invoices that appear to route <em>through</em> your node to a different destination each time giving you plausible deniability. Though it’s not perfect.</p>
+<p>Eventually, one might assume that your node routing payments to these virtual private nodes is actually the end destination. But that assumption would not always be correct. It could include independent nodes that may have a single private channel to your node.</p>
+<p>Solution: Create a new node public key for each invoice (in reality, only easy to do on Muun since that’s the default). I hear other projects are working on this in general.</p>
+<h2 id="sender-privacy">
+  Sender privacy
+  <a class="anchor" href="#sender-privacy">#</a>
+</h2>
+<p>Sender privacy is typically great on the Lightning Network. Senders will create an encrypted onion so no nodes can tell who else is in the route except for the next hop. As the funds flow through the network, the onion is unwrapped so previous hops are also unknown. Only the direct previous node is known, so this protects the original sender as well. Though, in some cases, the original sender can be assumed.</p>
+<p>Why is it important to have sender privacy in the first place? If Alice is buying something from Bob, and Bob knows Alice, why is it a problem that Bob knows what <em>node</em> Alice used to send the funds?</p>
+<p>This goes back to why on-chain privacy is important and why we rotate bitcoin addresses after each use. Bob does NOT need to know all the information from a node that I’ve revealed in this article. Home IP address, channels &amp; UTXO info, balances, and much more. All Bob needs to know is the minimum amount of info to fulfill Alice’s order and the fact that Bob received the funds specific to that order.</p>
+<p>So let’s dive into some cases where the sender can be revealed.</p>
+<h3 id="1-hop">
+  1 hop
+  <a class="anchor" href="#1-hop">#</a>
+</h3>
+<div class="imageWrapper">
+    <img src="/img/pln-227-en.png">
+<p><em>A small Lightning Network where Alice pays Bob. Who else could have paid Bob but Alice? Bob knows this.</em></p>
+</div>
+<p>Imagine if Alice has a node with only one channel with Bob. She sends a payment to Bob through their direct channel. Bob would be able to assume Alice’s node was the original sender. What other node could have sent those funds through Alice? Alice may have a private channel with another node, but as we’ve figured out, the existence of private channels can be revealed.</p>
+<p>The same can be true if Bob determines that Alice is not a routing node. Some nodes may reject routing requests. If Bob attempts a payment down Alice&rsquo;s node and it is rejected for this reason, then Bob has a reasonable assumption that she doesn&rsquo;t route. There could not have been another node that routed through Alice into Bob. It&rsquo;s possible Alice only denies routing requests one way but this would be very non-standard, if at all.</p>
+<p>Solution: If you only have 1 channel, do not send funds directly to your channel partner as the destination.</p>
+<h3 id="2-hop">
+  2 hop
+  <a class="anchor" href="#2-hop">#</a>
+</h3>
+<div class="imageWrapper">
+    <img src="/img/pln-228-en.png">
+<p><em>A small Lightning Network where Bob is an LSP. Bob can know payments are from one user to another when they have no other connections.</em></p>
+</div>
+<p>Imagine a scenario where Alice is connected to Bob, and Bob is connected to Carol. Bob knows Alice is not connected to anybody else, and Bob knows Carol is not connected to anybody else either.</p>
+<p>Alice sends a payment to Carol, passing through Bob. Bob knows Alice sent a payment to Carol and for what amount.</p>
+<p>This is a common setup amongst mobile wallet <a href="https://medium.com/breez-technology/introducing-lightning-service-providers-fe9fb1665d5f">Lightning Service Providers</a> (LSP). It is not common for mobile users to be connected to any other channel but the LSP itself. A mobile user sending to another mobile wallet user where they use the same LSP would mean the LSP knows when their users pay each other.</p>
+<p>Solution: If you are using a mobile LSP, open other public channels as well, or don’t attempt to pay other users using the same LSP.</p>
+<h3 id="sending-funds-through-the-network">
+  Sending funds through the network
+  <a class="anchor" href="#sending-funds-through-the-network">#</a>
+</h3>
+<p>I have laid out a 1 &amp; 2 hop scenario where a router or the destination might be able to tell the sender. There are more active ways to attempt to figure out this information across longer paths.</p>
+<h4 id="balance-probing">
+  Balance probing
+  <a class="anchor" href="#balance-probing">#</a>
+</h4>
+<p><a href="https://s-tikhomirov.github.io/lightning-probing/">Balance probing</a> is where an attacker attempts to route many fake payments through nodes in an attempt to figure out how much funds sit on either side. In the Lightning Network, only the total public channel amount is known by the network. In a 1 bitcoin channel between Alice and Bob, at any given point, Alice could have .7 of the funds on her side while .3 on his. That could change as payments flow through their channel.</p>
+<div class="imageWrapper">
+    <img src="/img/pln-229-en.png">
+<p><em>Carol attacking the channel between Alice and Bob to figure out the balance between them.</em></p>
+</div>
+<p>An attacker can know balances by trying to route payments with different amounts through the channel between Alice and Bob. If a 1 bitcoin payment doesn&rsquo;t route through to Alice, the attacker lowers the amount until it does. The attacker uses a fake payment hash that will never fulfill. Once Alice responds with a payment hash error, the attacker knows the probe was successful. The balance on Bob’s side of the channel is approximately the amount on the highest successful probe.</p>
+<p>If Alice’s channel with Bob changes to .1 on her side and .9 on his side while none of Bob’s other channel balances has changed, we know that Alice has paid Bob .6 Bitcoin. Either in 1 payment or many.</p>
+<p>You could also extend balance probing to the entire network. If a large payment went through 2+ nodes, an attacker could follow the funds by taking snapshots of balances before and after the payment.</p>
+<p>While this is possible, in practice it would take a lot of resources to do it quickly, especially as the network scales. It’s lengthy to snapshot the entire network. As more payments flow through the network, it becomes unreasonable to be able to do it quickly enough to determine individual senders and their destinations with exact amounts. There have been <a href="https://eprint.iacr.org/2021/384.pdf">papers</a> and research into the cost and time needed for these attacks. It’s not reasonable for anyone to be able to do it at scale. However multi-billion-dollar analytic firms or triple letter agencies definitely can.</p>
+<p>More reasonably, an attacker could target specific destinations. It would be possible to gauge their overall economic activity.</p>
+<p>An attacker could target a competitor’s store node and snapshot all of their channels. They would be able to watch as the total inbound capacity of their node decreases. The attacker might see the prices of the store’s items and make some assumptions about the items purchased. A possible solution to help combat this is for a merchant node to continuously push out funds in proportion to what they receive. Ideally, as soon as payments are received in an attempt to not have attackers&rsquo; snapshots capture individual purchases. They may push it to another node they own but uncorrelated with their store.</p>
+<p>There are ways to determine if you are being balance-probed and you could attempt to cut it off. Though it might be indistinguishable from nodes having a hard time making a payment and trying different paths. I believe it’s a safe assumption to refuse to forward after a couple of attempts to protect privacy. Accidentally refusing to route an actual payment may result in missed routing income. Also, fewer payments would be sent your way due to the reputational nature of payment path algorithms. I do not know of any software to help combat balancing probing, so something custom would need to be written.</p>
+<p>Solution: Until a better method of alleviating probing gets developed, periodically rebalance and send funds in &amp; out of your node. Not the best solution, but it’s a hard problem to solve.</p>
+<h4 id="timing-attacks">
+  Timing attacks
+  <a class="anchor" href="#timing-attacks">#</a>
+</h4>
+<p><a href="https://arxiv.org/pdf/2006.12143.pdf">Timing attacks</a> make reasonable assumptions based on how quickly something took. In the case of the Lightning Network, a router might be able to determine who the destination of a payment is. They do this based on how quickly the successful transaction was. There are basic network lag constraints as we go hop to hop through the network. For instance, imagine if the average network lag is 100ms per hop. A payment succeeding in 500ms could assume that the destination for the payment is 5 hops away. If the attacker scans the time between each node, they could get an even better calculation.</p>
+<p>As the network grows and as destinations and latency increase, I believe this would be harder.</p>
+<p>Solution: As a node, you may add a random amount of time to forward or accept payments. However, this may degrade the experience of instant payments by a few seconds. I don’t know of any software to currently do this, so I believe it would need to be custom (Edit: <a href="https://www.reddit.com/r/TheLightningNetwork/comments/n99ksn/current_state_of_lightning_network_privacy/gxnfq2u?utm_source=share&amp;utm_medium=web2x&amp;context=3">a reddit user</a> shared their <a href="https://github.com/ajpwahqgbi/lightning-tools/tree/master/clightning-plugins/jitterbug">c-lightning plugin</a> to accomplish this).</p>
+<h2 id="additional-lightning-protocol-tech">
+  Additional lightning protocol tech
+  <a class="anchor" href="#additional-lightning-protocol-tech">#</a>
+</h2>
+<p>While this is where we stand, there are a few additional lightning tech worth mentioning.</p>
+<h3 id="mpp">
+  MPP
+  <a class="anchor" href="#mpp">#</a>
+</h3>
+<div class="imageWrapper">
+    <img src="/img/pln-230-en.png">
+<p><em>A small Lightning Network where Alice pays an invoice through multiple paths. Bob nor Carol see the total payment amount.</em></p>
+</div>
+<p><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-November/001577.html">(Base) Multipath Payments</a> are something that is live today but may not be as common to use. Instead of a single payment going a single route, this allows a single payment to take multiple routes of smaller amounts. This helps improves the chance of a larger payment succeeding across the network. It does offer a bit of privacy as well.</p>
+<p>Based on the Balance Probing section, instead of a large payment flowing through the network, smaller payments are made. This could do a better job of concealing a payment and the exact total amount. One con is that each MPP uses the same payment hash so a router (or colluding routers) could correlate them together.</p>
+<h3 id="amp">
+  AMP
+  <a class="anchor" href="#amp">#</a>
+</h3>
+<p><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-February/000993.html">Atomic Multipath Payments</a> are an improvement on base MPP such that each split-up payment has a different payment hash. Therefore, they are not as correlatable across the network like MPP is.</p>
+<h3 id="rendezvous">
+  Rendezvous
+  <a class="anchor" href="#rendezvous">#</a>
+</h3>
+<p><a href="https://bitcointechweekly.com/front/proposal-for-rendez-vous-routing/">Rendezvous</a> routing is a great improvement on receiver privacy. Receivers conceal their public key and private channels by creating an invoice with encrypted onion information already filled in. They specify a random node that the sender should create a path to, and from there the rest of the payment is routed. The sender never knows who the final destination node is, and neither does any node along the route.</p>
+<h3 id="route-blinding">
+  Route blinding
+  <a class="anchor" href="#route-blinding">#</a>
+</h3>
+<p><a href="https://github.com/lightningnetwork/lightning-rfc/pull/765">Route Blinding</a> is an alternative proposal to Rendezvous. It is similar but would help prevent private channels from being revealed to attackers. Route Blinding allows for receiver privacy and for routes to be repeatable with different amounts. However, it may be less private overall and there may still be some probing possibilities.</p>
+<p>Rendezvous and Route Blinding may still be prone to balance snapshot attacks as a way to reveal the sender and destination. All it would take is a snapshot before the payment was made and one afterward. With Route Blinding, it may be possible to enforce it such that private channels are not probable without the node giving out a route blinded invoice.</p>
+<h3 id="trampoline-routing">
+  Trampoline routing
+  <a class="anchor" href="#trampoline-routing">#</a>
+</h3>
+<p><a href="https://bitcoinops.org/en/topics/trampoline-payments/">Trampoline routing</a> is a method where a node wants to send to a certain destination but may not have enough routing information to do so. They pass the payment to a known trampoline router instead. That router will create the path to get it to the destination.</p>
+<p>If the receiver has support for (<a href="https://twitter.com/realtbast/status/1391832442575720455?s=20">or at least understands</a>) the trampoline protocol as well, then other trampoline routers continue to be unaware if the next trampoline is the final destination. Much like is the case today where normal routers are unaware if their next hop is the last. Receivers can even implement Rendezvous on top.</p>
+<h3 id="public-key-routing">
+  Public Key Routing
+  <a class="anchor" href="#public-key-routing">#</a>
+</h3>
+<p>A simple alternative to concealing the UTXO making up a channel is to implement <a href="https://github.com/lightningnetwork/lightning-rfc/pull/814">Public Key Routing</a>. While it would still be possible to detect a private channel between two peers that do not have a public channel between each other, it would eliminate knowing the UTXO behind it.</p>
+<h3 id="immortan">
+  Immortan
+  <a class="anchor" href="#immortan">#</a>
+</h3>
+<p><a href="https://github.com/btcontract/immortan">Immortan</a> is a “minimal, privacy-focused, opinionated LN protocol implementation aimed to specifically power lite LN nodes.” Its implementation addresses things like public key / invoice rotation and fake channel ID’s. It is currently in development.</p>
+<h3 id="zkchannels">
+  zkChannels
+  <a class="anchor" href="#zkchannels">#</a>
+</h3>
+<p><a href="https://medium.com/boltlabs/zkchannels-for-bitcoin-f1bbf6e3570e">zkChannels</a> offer strong anonymity and unlinkability properties for off-chain transactions by reducing the amount of information a receiver has about a sender beyond the amount being paid. It is a proposed update layer that features an asymmetric flow of information to preserve privacy through garbled circuits.</p>
+<p>It mainly improves sender privacy. However, it only supports a merchant-customer type relationship where the customer only reveals the amount being paid to the merchant. zkChannels do not support forwarding payments, so hub-and-spoke scenarios are ideal for it.</p>
+<h3 id="taproot">
+  Taproot
+  <a class="anchor" href="#taproot">#</a>
+</h3>
+<p>There’s many improvements with <a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a>, but from a Lightning standpoint, one advantage is to allow for concealed multi-sig spends. Each cooperative close without unresolved payments would look like a normal single-sig taproot spend. This would make it harder to guess what might be a transaction for a private channel.</p>
+<h3 id="channel-factories">
+  Channel factories
+  <a class="anchor" href="#channel-factories">#</a>
+</h3>
+<p><a href="https://wiki.ion.radar.tech/tech/research/channel-factory#overview-1">Channel factories</a> are where many peers can pool their funds to create a subnet of channels together. There are scalability benefits, but another potential end result is that they may end up looking like a coinjoined channel from the outside. Channel factories would require a few protocol enhancements to the base and Lightning layer. Alternatively, a multiparty batched channel creation application could achieve a similar result.</p>
+<h3 id="others">
+  Others
+  <a class="anchor" href="#others">#</a>
+</h3>
+<p>There are many, many possible improvements or proposals for Lightning that might help privacy. Some could be years away though, including the ones mentioned here. I have not looked too deeply at them yet as this article is a focus on what we have today.</p>
+<h2 id="final-privacy-suggestions">
+  Final privacy suggestions
+  <a class="anchor" href="#final-privacy-suggestions">#</a>
+</h2>
+<p>So if you’ve made it this far with me, we’ve determined several things about privacy in the Lightning Network.</p>
+<ol>
+<li>Anyone can see anyone’s public node information if they’ve opened a public channel at all before.</li>
+<li>Anyone can see the UTXOs making up a channel, private channels are exposable as well.</li>
+<li>Chain analytics can target nodes, their active/past channels, UTXOs, etc.</li>
+<li>Putting more than 1 mixed UTXO onto your node can undo the mix and reveal your true identity.</li>
+<li>Receivers have very little privacy until something like Rendezvous is implemented.</li>
+<li>Individual payments flowing through the network are snapshot-able. Though unlikely to get any guarantees unless a resource-intensive attacker. More realistically used for targeting specific nodes to gauge economic activity.</li>
+</ol>
+<p>That said, here’s my suggestion if you want to be as private as possible on the Lightning Network.</p>
+<h3 id="for-senders">
+  For senders
+  <a class="anchor" href="#for-senders">#</a>
+</h3>
+<ol>
+<li>1 UTXO per node on a private channel. Ideally mixed and for the complete amount.</li>
+<li>Do not send directly to your 1 channel partner.</li>
+<li>When done, deplete your channel completely and close it out.</li>
+<li>Do not receive, create invoices, etc. which reveal channel/UTXO info.</li>
+<li>Given enough time, this channel would be known to the network and probe-able, so do not keep these disposable nodes for long.</li>
+<li>Send payments in small increments and for longer paths to conceal against snapshotting.</li>
+</ol>
+<h3 id="for-receivers">
+  For receivers
+  <a class="anchor" href="#for-receivers">#</a>
+</h3>
+<ol>
+<li>Never open a channel with a UTXO you own. Get others to open a channel with their UTXO or source a UTXO to open a channel with. Some sources could be <a href="https://www.bitrefill.com/thor-lightning-network-channels/?hl=en">Bitrefill Thor</a>, <a href="https://lightning.engineering/loop/">Lightning Lab’s Loop Out</a>, <a href="https://lnbig.com/#/open-channel">LNBig</a>, <a href="https://yalls.org/about/">Yalls</a>, etc.</li>
+<li>If you want to send some funds on-chain, either use a service like Loop Out or close the channel and mix your funds first.</li>
+<li>Use Tor only and do not use any sort of alias.</li>
+<li>Do not share invoices publicly or receive from services you are KYC’d on without a disposable invoice system.</li>
+<li>Do not tell others you own a particular node.</li>
+<li>Do not create invoices with memos that have revealing information.</li>
+</ol>
+<h3 id="mixing-on-ln">
+  Mixing on LN
+  <a class="anchor" href="#mixing-on-ln">#</a>
+</h3>
+<p>If you care about mixing across the network, you can pay for a service like Bitrefill Thor to open a channel with a brand new node. You can then send the funds from your disposable node to your leased channel node. That way you no longer own the UTXO you started with when you close out the channels. You now own a new UTXO from a different node instead. Paying for a leased channel or UTXO via Lightning would also conceal you as the sender if following best practices here.</p>
+<h2 id="conclusion">
+  Conclusion
+  <a class="anchor" href="#conclusion">#</a>
+</h2>
+<p>The purpose of the Lightning Network is quick settlements. Bitcoin’s base layer does not have any privacy guarantees and neither does Lightning. There are ways to attempt to hide amongst the activity of the network, but it’s no guarantee. Sizable actors can attack and reveal private channels that are an extension of the main graph. From there, the flow of funds across the network should be considered public knowledge.</p>
+<p>Underground Lightning Networks consisting of fully private nodes that trust each other with their privacy may very well exist now or in the future. But routing payments on the main public graph has its privacy risks. Consider whatever threat model you may have and use the information here accordingly.</p>
+<p>There may be solutions that can help in the future but this is where we are at with the general use of the Lightning Network today.</p>
+<h2 id="acknowledgements">
+  Acknowledgements
+  <a class="anchor" href="#acknowledgements">#</a>
+</h2>
+<p>A huge thank you to all those that took the time to review and provide valuable suggestions on multiple drafts of this article! This includes <a href="https://twitter.com/openoms?s=21">openoms</a>, <a href="https://twitter.com/ihate1999?s=21">Abubakar</a>, <a href="https://twitter.com/evankaloudis?s=21">Evan</a>, <a href="https://twitter.com/ecurrencyhodler?s=21">Andrew</a>, and others.</p>
+<p>Lightning Network researchers and devs also deserve an additional shoutout, as most of the information in this article is derived from their work throughout several years. I’ve supplied many of their links throughout, but notable highlights related to this article include <a href="https://twitter.com/rusty_twit?s=21">Rusty</a>, <a href="https://twitter.com/serg_tikhomirov?s=21">Sergei</a>, <a href="https://twitter.com/realtbast?s=21">Bastien</a>, <a href="https://twitter.com/joostjgr?s=21">Joost</a>, and many many others!</p>
+<p>Consider funding bitcoin devs at <a href="https://bitcoindevlist.com">Bitcoin Dev List</a>!</p>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/lightning-network-privacy/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#overview-of-lightning">Overview of Lightning</a>
+          <ul>
+            <li><a href="#privacy-improvements-in-lightning">Privacy improvements in Lightning</a></li>
+          </ul>
+        </li>
+        <li><a href="#outline">Outline</a></li>
+        <li><a href="#node-setup">Node Setup</a>
+          <ul>
+            <li><a href="#ip-vs-tor">IP vs Tor</a></li>
+            <li><a href="#node-identity">Node Identity</a></li>
+          </ul>
+        </li>
+        <li><a href="#utxos--their-use-in-lightning">UTXOs &amp; their use in Lightning</a>
+          <ul>
+            <li><a href="#utxos-used-for-public-channels">UTXOs used for public channels</a></li>
+            <li><a href="#private-channels-are-not-private">Private channels are not private</a></li>
+            <li><a href="#closing-channels">Closing channels</a></li>
+            <li><a href="#mixed-utxos">Mixed UTXOs</a></li>
+          </ul>
+        </li>
+        <li><a href="#receiver-privacy">Receiver Privacy</a>
+          <ul>
+            <li><a href="#invoices">Invoices</a></li>
+          </ul>
+        </li>
+        <li><a href="#sender-privacy">Sender privacy</a>
+          <ul>
+            <li><a href="#1-hop">1 hop</a></li>
+            <li><a href="#2-hop">2 hop</a></li>
+            <li><a href="#sending-funds-through-the-network">Sending funds through the network</a></li>
+          </ul>
+        </li>
+        <li><a href="#additional-lightning-protocol-tech">Additional lightning protocol tech</a>
+          <ul>
+            <li><a href="#mpp">MPP</a></li>
+            <li><a href="#amp">AMP</a></li>
+            <li><a href="#rendezvous">Rendezvous</a></li>
+            <li><a href="#route-blinding">Route blinding</a></li>
+            <li><a href="#trampoline-routing">Trampoline routing</a></li>
+            <li><a href="#public-key-routing">Public Key Routing</a></li>
+            <li><a href="#immortan">Immortan</a></li>
+            <li><a href="#zkchannels">zkChannels</a></li>
+            <li><a href="#taproot">Taproot</a></li>
+            <li><a href="#channel-factories">Channel factories</a></li>
+            <li><a href="#others">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="#final-privacy-suggestions">Final privacy suggestions</a>
+          <ul>
+            <li><a href="#for-senders">For senders</a></li>
+            <li><a href="#for-receivers">For receivers</a></li>
+            <li><a href="#mixing-on-ln">Mixing on LN</a></li>
+          </ul>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>http://localhost:1313/ru/sitemap.xml</loc>
+    
+      <lastmod>2024-10-08T20:30:43+04:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2024-09-05T19:19:45+03:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

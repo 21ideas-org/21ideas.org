@@ -1,0 +1,3008 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  This article by Phil Geiger was published in Unchained blog.
+Contribute.
+
+
+
+In the bitcoin world, there’s a nagging question that has persisted for far too long. On the surface, the question seems plausible. It has even confused prominent bitcoin technologists and researchers into keeping an open mind about the answer. Will bitcoin be secure once the block reward subsidy ends?
+Bitcoin has a fixed supply of 21 million coins, which are released on a schedule on average every 10 minutes, starting at 50 BTC every 10 minutes for the first 4 years, decreasing to 25 BTC per 10 minutes for the next 4 years, and continuing to be cut in half every 4 years, in an event commonly referred to as the halving, halvening, or more recently, as “Quantitative Hardening.” This release schedule, or block subsidy, is set to occur until all 21 million bitcoin are available for people to transact via private keys, somewhere around the year 2140, thereafter there will be no block subsidy. Additionally, bitcoin has a fixed amount of data that it can process every 10 minutes. This creates a bidding war to get transactions processed, known as the transaction fee market.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="21 Million is Non-Negotiable" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/21-million-is-non-negotiable/" />
+<meta property="og:image" content="http://localhost:1313/img/21m-603.jpg"/>
+
+<title>21 Million is Non-Negotiable | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/21-million-ne-podlezhit-obsuzhdeniyu/" title="21 миллион не подлежит обсуждению">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6ade4dcd3e4473a03c16af7af767ac91a1040fba953931c39e6427641c138e94.js" integrity="sha256-at5NzT5Ec6A8Fq9692eskaEED7qVOTHDnmQnZBwTjpQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/21-million-ne-podlezhit-obsuzhdeniyu/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle" checked />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="active">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>21 Million is Non-Negotiable</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/21m-603.jpg" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    21 Million is Non-Negotiable
+    
+</h1>
+<div class="pageDate">
+    April 9, 2020
+</div>
+
+  <article class="markdown"><blockquote class="book-hint btc">
+  <p>This article by Phil Geiger was published in <a href="https://unchained.com/blog/21-million-is-non-negotiable">Unchained blog</a>.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<p>In the bitcoin world, there’s a nagging question that has persisted for far too long. On the surface, the question seems plausible. It has even confused prominent bitcoin technologists and researchers into keeping an open mind about the answer. Will bitcoin be secure once the block reward subsidy ends?</p>
+<p>Bitcoin has a fixed supply of 21 million coins, which are released on a schedule on average every 10 minutes, starting at 50 BTC every 10 minutes for the first 4 years, decreasing to 25 BTC per 10 minutes for the next 4 years, and continuing to be cut in half every 4 years, in an event commonly referred to as the halving, halvening, or more recently, as “Quantitative Hardening.” This release schedule, or block subsidy, is set to occur until all 21 million bitcoin are available for people to transact via private keys, somewhere around the year 2140, thereafter there will be no block subsidy. Additionally, bitcoin has a fixed amount of data that it can process every 10 minutes. This creates a bidding war to get transactions processed, known as the transaction fee market.</p>
+<p>Today, bitcoin’s network is secured primarily by the value of the block subsidy (12.5 BTC/10min), which in effect is value paid for by all holders of bitcoin, socializing the cost of network security. But at some point in the future, as the number of bitcoin released per block continues to be cut in half, bitcoin will primarily be secured by the value of transaction fees paid by individuals facilitating bitcoin transactions. Today’s socialized security cost mostly paid for with value extracted by bitcoin savers is slowly transitioning into a privatized cost paid for by future bitcoin spenders. Historically, this transition process has played a part in increasing miner revenue measured in USD (and has therefore increased overall security) while has decreased the overall cost of security as a percentage of the bitcoin economy.</p>
+<div class="imageWrapper">
+    <img src="/img/21m-604-en.png">
+</div>
+<div class="imageWrapper">
+    <img src="/img/21m-608-en.png">
+</div>
+<p>Many who are unsure about the future viability of bitcoin’s security suggest that bitcoin’s transaction fee market security model is <em>untested</em>, and therefore in the future, bitcoin may need to have a certain amount of terminal inflation in order to adequately secure the network. They are really suggesting that at some point in the future, we may have to again socialize bitcoin’s security costs by changing bitcoin’s total supply and by reintroducing or increasing the block subsidy. </p>
+<p>This argument is often used as an example to explain that altcoin X “prioritizes security over a fixed monetary policy.” Rather than operate with a fixed supply and a fixed supply schedule, the currency issuance needs to be variable in order to pay for adequate security, or so the story goes. This article intends to demonstrate that these arguments start from provably false assumptions, and then will build a counter-argument using axiomatic assumptions. </p>
+<p>The following exposition assumes that bitcoin is alive, which you can confirm is axiomatic by checking for yourself before continuing. Before understanding why bitcoin will be secure in the future, we have to understand why bitcoin is alive today. </p>
+<p>If bitcoin is alive, keep reading. If bitcoin is dead, good game and thanks for playing.</p>
+<h2 id="why-is-bitcoin-still-alive">
+  Why is Bitcoin still alive?
+  <a class="anchor" href="#why-is-bitcoin-still-alive">#</a>
+</h2>
+<p>Bitcoin is still alive today because some individuals subjectively deem it valuable enough to keep alive. If nobody valued bitcoin, it would be dead. Whether or not you personally agree that bitcoin is valuable is irrelevant. Bitcoin is alive because people find it valuable, and there are a number of ways the network is kept alive. Some bitcoiners keep it alive by using bitcoin as a savings technology – storing value in it. Some of those individuals run full bitcoin nodes, meaning that they are verifying that each block of transactions follows the network consensus rules. Others write code that they hope will be run by individuals operating full nodes and storing value in bitcoin. It’s certainly the case that not everyone that stores value in bitcoin runs a full node or writes code, and it might be the case that node operators and coders don’t store value in bitcoin. They are all contributing to keep bitcoin alive regardless.</p>
+<p>And then there are miners. Miners are also bitcoiners that keep the network alive, and they do so by selling electricity to the network (in the form of as many SHA-256 hashes per second as possible). By doing so, these bitcoiners are helping secure the network’s monetary policy and processing transactions for the network. In return for their electricity, miners are paid in bitcoin. Miners get to choose to whom they sell electricity – they can sell hashed electricity to people who pay a lot to make transactions (high fees), or they can donate their electricity to people who don’t pay for transactions at all (zero fees). They can even choose to sell electricity for empty blocks without any transactions, in which case the only compensation would be in the form of the block subsidy (currently 12.5 BTC every 10 minutes). There is no coercion. Miners are allowed to sell their electricity to whomever they choose. Finally, they don’t have to sell their electricity to the bitcoin network at all, which is what a vast, vast majority of energy producers choose today.</p>
+<p>Nobody that participates in bitcoin (including miners) knows exactly how much bitcoin is going to be worth in the immediate future; however, most bitcoiners believe that it will increase in value over time, which is the fundamental reason why anyone would accept it for value exchanged in the present. Still, no one knows what the value will be tomorrow. Fortunately, there’s a clever function within the bitcoin network that ensures that as long as bitcoin is valuable to some universe of people, there will always be an economic incentive to sell electricity to secure the network and to ensure that the monetary policy is upheld despite fluctuations in value – bitcoin’s difficulty adjustment. The difficulty adjustment calibrates the network to maintain bitcoin’s fixed monetary policy and its 10-minute average block intervals completely independent from the value of the bitcoin network measured in any other currency, or from the number of participants in the network. All it does is rebalance the amount of hashed electricity the network demands (every 2016 blocks) to ensure that the block time and supply is maintained on a fixed schedule.</p>
+<p>For people regarding the network externally, this generally means that if the value of the network increases, the amount of electricity demanded by the network increases, and if the value decreases, the amount of electricity demanded by the network decreases. This calibration ensures that it is always profitable for someone to sell electricity to the network, regardless of the price of bitcoin measured in other currencies. We can confirm that this is working as intended today because, as we’ve previously established, bitcoin is still alive and has maintained its average block cadence, despite wildly fluctuating in value, hashrate, and difficulty over the last 11 years.</p>
+<p>All bitcoin network participants have voluntarily opted into this system for many reasons, one of which is that bitcoin is a currency with a finitely scarce supply. In fact, it might be the only form of absolute scarcity humanity has seen thus far, which is a primary reason why bitcoin is valuable. A fixed supply of 21 million is how bitcoin derives value and explains why there is any value in the first place with which to pay for security. Without a fixed supply, there would be nothing valuable enough to secure. But, its security is only made possible by aligning individual incentives through clearly defined rules, math, and code.</p>
+<p>This scarcity is reinforced as the network increasingly decentralizes over time. As more people understand this scarcity and deem bitcoin valuable to protect, they choose to opt in to one or more of the above methods to protect it, which makes it more valuable, which encourages others to try it out. It’s a feedback loop that relies on bitcoin’s incentives functioning correctly.</p>
+<h2 id="the-transaction-fee-market-has-been-tested-for-11-years">
+  The Transaction Fee Market has been tested for 11 years
+  <a class="anchor" href="#the-transaction-fee-market-has-been-tested-for-11-years">#</a>
+</h2>
+<p>The pervasive marketing that bitcoin has an “untested security model” is false. Bitcoin has been alive and constantly tested for 11+ years, and the rules have been known to all participants interested in learning them for its entire existence. Clear rules that all participants can verify individually are necessary to maintain its supply. Its fixed supply is one of the primary drivers of bitcoin’s increase in value, and when bitcoin increases in value, more people choose to sell electricity to the network. Bitcoin holders pay electricity producers the market rate for security, which is recalibrated every 2016 blocks by the difficulty adjustment. Energy producers will only continue to sell electricity to bitcoin holders if what they receive in return is sufficiently valuable.</p>
+<p>By function of:</p>
+<ol>
+<li>more people storing value in bitcoin </li>
+<li>the difficulty adjustment</li>
+<li>the increasingly trusted monetary policy of 21 million</li>
+<li>the competitive bidding for block space</li>
+</ol>
+<p>The amount of hashed electricity securing the network increases over the long-run. Meaning, the <strong>value</strong> of bitcoin has increased so much that despite the current nominal block reward being lower than any other time in bitcoin’s existence, it’s more secure than ever. The purchasing power (or real value) of the block reward continues to increase, despite the nominal block reward consistently declining.</p>
+<div class="imageWrapper">
+    <img src="/img/21m-605-en.png">
+</div>
+<div class="imageWrapper">
+    <img src="/img/21m-609-en.png">
+</div>
+<p>But let’s look at the specific point that skeptics are trying to make: today, the block reward, which is a socialized cost paid by all holders of bitcoin, covers a majority of the <strong>value</strong> that is paid to miners in return for hashed electricity. What happens when transaction fees are the only incentive for miners to sell electricity? Many skeptics say something like:</p>
+<blockquote>
+<p><em>“Assuming $X value of bitcoin, transaction fees will need to be at least $Y to cover today’s mining expenses without the subsidy.”</em></p>
+</blockquote>
+<p>This theoretical transaction fee estimate usually sounds pretty scary, but the above statement is subtly making three outrageous assumptions that rely on an ingrained tendency to view and measure bitcoin in another currency!</p>
+<p>Bad assumption 1: <strong>Assuming $X value of bitcoin</strong>. Bitcoin will never have a totally stable value. Value is subjective, and during the bootstrapping phase of bitcoin in which we all find ourselves living, is extremely volatile. The difficulty adjustment recalibrates the network’s demand for electricity to ensure holders pay a market rate for security.</p>
+<p>Bad assumption 2: <strong>transactions fees will need to be $Y</strong>. What’s the value of a dollar? Today’s value? Why are we trying to measure the future in today’s dollar value? Transactions historically have become cheaper over time measured in Satoshis as people find creative ways to send around smaller amounts of data.</p>
+<p>The bitcoin network has no capacity to understand the value of bitcoin measured in another form of currency. There is only what bitcoin transactors choose to bid in order to be included in blocks, and what miners choose to sell electricity to earn, all of which are calibrated to establish consistent block times and find a market equilibrium by the difficulty adjustment.</p>
+<p>Bad assumption 3: <strong>Using the current mining expenses to estimate the future</strong>. We know empirically that hashes individually become cheaper as ASICs improve, and we know that the value of bitcoin is unpredictable in the future. The inputs of this system are electricity (in the form of hashes to earn something valuable) and the difficulty adjustment which calibrates itself so that it is always profitable for <em>someone</em> to sell electricity to the network. This is how the market value for security is discovered. We also know that a vast, vast majority of energy producers are not yet choosing to sell their excess electricity to bitcoin holders. As they come to realize that the bitcoin network can be used as <a href="https://www.theblockcrypto.com/post/11481/asic-chip-technology-is-renewable-energys-future">a vent to monetize their excess electricity</a>, the value of a hash will continue to drop substantially.</p>
+<p>If bitcoin is still alive today, the value of bitcoin and the number of participants is constantly fluctuating, the pool of cheap electricity and supply of ASICs is massive and getting larger, and the difficulty adjustment calibrates bitcoin to ensure people are always paying a market rate for security, what’s the final input to consider?</p>
+<p><strong>Are people transacting today and paying any transaction fees denominated in BTC</strong>? If the answer to this question is yes, then the fee market and bitcoin’s security is working as expected.</p>
+<p>As an example to break this down further, in 2010, Laszlo famously paid 10,000 BTC for 2 pizzas. A lesser known fact is that he paid a 1 BTC transaction fee. 1 BTC was worth ~$.004 at the time and the hashrate was 0.000075 Terahash per second. The total block of 51 BTC including subsidy and fees paid to miners was worth around 20 cents of hashed electricity. In today’s prices, just the fee he paid is worth ~$7,300. Most of the electricity at the time was donated by hobbyists because bitcoin had very little value, except to the few people using it as an experiment. 10 years later, a completely full <a href="https://blockstream.info/block/0000000000000000000283bdb5287901adb749ecbe25923740707cc3bb767dc9">block 625027</a> had 28 million Satoshis (.28 BTC) of transaction fees, worth around $2,000, and was processed with an overall hashrate of 104 million Terahash per second. These transaction fees might be worth $20,000, $200, or $200,000 in the future.</p>
+<p>Ultimately, the argument boils down to the fact that we can’t predict the future value of bitcoin, so the network might demand less security than it demands today if the value decreases. But the bitcoin network was designed so that the value of a given sat doesn’t impact how it functions, unless the value is absolutely zero, and as a result, it chugs along regardless of the price or amount people pay in satoshis for transactions. The future value has no impact on how the network functions, only on the amount of hashed electricity demanded.</p>
+<h2 id="inflation-as-a-solution-to-security">
+  Inflation as a “solution” to security
+  <a class="anchor" href="#inflation-as-a-solution-to-security">#</a>
+</h2>
+<div class="imageWrapper">
+    <img src="/img/21m-606.png">
+<p><em><a href="https://www.theblockcrypto.com/genesis/58224/money-2-0-stuff-with-no-rally-in-sight-bitcoin-must-consider-loose-monetary-policy">Source.</a> Bitcoin is a currency that is unable to make decisions. Bitcoin’s monetary policy governors are anyone who stores any amount of value in bitcoin. There are an estimated 10s of millions of bitcoin monetary policy governors internationally.</em>
+‌</p>
+</div>
+<p>We’ve established above that bitcoin does not have a security problem because the incentives are aligned to always pay the market rate for security based on its present value, but let’s make the faulty assumption that many make. Let’s assume that bitcoin might be insecure (and is not dead somehow). Even if it was insecure, the suggestion of changing the fixed supply to improve security is extreme Keynesian economics logic with no basis in reality.</p>
+<p>It stems from a faulty basic assumption that adding additional units of a monetary good increases value. “Number go bigger equal everybody be bigger happy” might be a phrase uttered by an altcoin marketer, nobel prize winning economist, or president of a Federal Reserve branch.</p>
+<div class="imageWrapper">
+    <img src="/img/21m-607.png">
+</div>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Federal Reserve says there is an &quot;INFINITE AMOUNT OF CASH&quot;<br><br>This is quite literally the reason bitcoin was created. <a href="https://t.co/JTE9TVoSr0">pic.twitter.com/JTE9TVoSr0</a></p>&mdash; Vis (@Vis_in_numeris) <a href="https://twitter.com/Vis_in_numeris/status/1241905410157805568?ref_src=twsrc%5Etfw">March 23, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Unfortunately, introducing monetary inflation can’t make anybody “be bigger happy” except for those with the power to print currency and their closest friends, thanks to the <a href="https://en.wikipedia.org/wiki/Richard_Cantillon#Monetary_theory">Cantillon effect</a>. The Cantillon effect describes how the knowledge of a currency’s debasement spreads throughout society unequally, granting an advantage to those with the power to print money, and causing economic hardships for those furthest away from the printers. Currency is non-productive – it isn’t a company. Having more total supply just means that each individual unit is worth less, and value is transferred from those who hold the currency to those who create more units and distribute them before the rest of the population understands that their savings have been debased.</p>
+<p>A currency’s utility comes from storing and communicating value effectively. Value is stored and communicated effectively when the supply and rules are transparent, and no advantages are granted to certain participants. Distorting supply only serves to distort a currency’s ability to perform its job of storing and communicating value; it can’t make a currency more valuable or secure.</p>
+<h2 id="a-fixed-supply-increases-security">
+  A Fixed Supply Increases Security
+  <a class="anchor" href="#a-fixed-supply-increases-security">#</a>
+</h2>
+<p>The current block reward is a fee paid by every bitcoin holder to energy producers that sell hashed electricity to the network. It’s worth it to pay this subsidy today because <a href="https://unchained.com/blog/all-21-million-bitcoin-already-exist/">All 21 Million Bitcoin Already Exist</a>, and if anything about the supply changes, holders of the out-of-consensus fork can sell the new token for more bitcoin, ensuring that the supply of bitcoin is upheld.</p>
+<p>The bootstrapping phase of bitcoin grants miners selling electricity to the network the option of not including any transactions (for a time), because everyone holding bitcoin is paying the fee with the value stored as block subsidies. Make no mistake, all bitcoiners are paying for each processed block today, regardless of if they participate in a transaction.</p>
+<p>This arguably leads to a tragedy of the commons scenario during bitcoin’s bootstrapping phase, as individuals get to <em>spend</em> BTC (the horror!) with their transaction fee subsidized by everyone, and miners are still paid even when they process empty blocks. As the subsidy decreases, it will become more expensive for miners to sell electricity for empty blocks – the value of a mined block transitions away from being paid by everyone to just those that need to make transactions. This is ok though because even at today’s scale, we have full blocks with individuals paying transaction fees. If we already have full blocks at bitcoin’s current adoption level, adding more users will likely serve to increase the value of the currency and the scarce block space even further. That said, we can never predict the future value of bitcoin, we can only see that the network is functioning as expected despite a fluctuation in value.</p>
+<p>As selling hashed electricity to the network gets more competitive, this will serve to increase specialization in different areas of the energy production industry. Certain individuals will focus on ASIC chip production, other individuals will seek out and exploit the cheapest electricity sources, and other individuals will need to optimize how bitcoin transactions are grouped to maximize profits. Finally, entire bitcoin mining derivative markets may develop to help this system weather shocks to any of the inputs, like what we see with the <a href="https://www.ercot.com/">derivative energy markets in Texas</a>.</p>
+<p>As a result of fixed rules, fierce competition, increasing scale, and specialization, bitcoin mining becomes more decentralized over time, which further increases security. Changing bitcoin’s supply, assuming everyone just went along with it (terrible assumption), would break these decentralization incentives by reducing the need for miners to find more efficient electricity, improve ASIC chip technology, and process as many transactions as they can. If everyone is paying electricity producers regardless of how well they’re performing at the job, it allows room for rent seeking, which costs every user of bitcoin more for security than they should be paying!</p>
+<h2 id="send-it">
+  Send it
+  <a class="anchor" href="#send-it">#</a>
+</h2>
+<p>Adding inflation would destroy the value proposition of bitcoin altogether by proving yet again that it’s trivial to print currency and create copies of things that are digital. Look at every other currency.</p>
+<p>Digital scarcity is a one-time phenomenon.</p>
+<p>The best protection bitcoin has against all other currencies is its unyielding monetary policy, which is enforced socially and technically by every individual that stores value in bitcoin. There will likely be inflation bugs, hard forks, and new currencies printed throughout the marathon of bitcoin’s ascendance. Social consensus will kick in during these times to ensure the 21 million policy remains intact. What does social consensus look like?</p>
+<p>If you still feel that bitcoin has an insecure monetary policy, just create a fork that includes inflation. It’s trivially easy to do this; it’s permissionless money, and all ideas can be tried in open competition.</p>
+<p>That said, when more copies of bitcoin are created, I will do what I have done with all forks, airdrops, and infinitely inflating currencies – convert them to more bitcoin, which is truly scarce. This process transfers wealth from those who do not understand economics to those who do. Adding units of currency does not create value, it merely transfers it. I’m personally optimistic that the process of transferring wealth from those who don’t understand these concepts to those who do will lead to positive outcomes for humanity in the future.</p>
+<p>It’s easy to create as many units of another currency as you’d like. In bitcoin, 21 million is non-negotiable.</p>
+<hr>
+<p><em>Views presented are expressly my own and not those of Unchained Capital or my colleagues. Thanks to Parker Lewis, Will Cole, and Alex Smith for reviewing and for providing valuable feedback.</em></p>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/21-million-is-non-negotiable/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

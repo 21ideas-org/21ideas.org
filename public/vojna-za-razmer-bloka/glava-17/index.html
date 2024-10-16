@@ -1,0 +1,3213 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Идея о том, что Активируемый пользователями софтфорк (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года...">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Глава 17: UASF – Активируемый пользователями софтфорк" />
+<meta property="og:description" content="Идея о том, что Активируемый пользователями софтфорк (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/vojna-za-razmer-bloka/glava-17/" />
+<meta property="og:image" content="http://localhost:1313/img/vrb-449.jpeg"/>
+
+<title>Глава 17: UASF – Активируемый пользователями софтфорк | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/vojna-za-razmer-bloka/glava-17/" title="Глава 17: UASF – Активируемый пользователями софтфорк">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/ru.search.min.276d75d6cbd74d16527b7d3989a3a6bcaef28b75b2186b35cff841c8b4bf32b8.js" integrity="sha256-J2111svXTRZSe305iaOmvK7yi3WyGGs1z/hByLS/Mrg=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Поиск" aria-label="Поиск" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Русский
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/vojna-za-razmer-bloka/glava-17/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a href="/start/" class="">Старт</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/start/" class="">Что такое Биткоин?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/guide/" class="">Используем биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/course/" class="">Биткоин от А до Я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-myths/" class="">Разрушаем мифы о Биткоине</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/shitcoin-casino/" class="">Не играйте в щиткоин-казино</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle"  />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/theory/" class="">Теория</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/economics/" class="">Экономика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/pzv/" class="">Постепенно, затем внезапно</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/postepenno-zatem-vnezapno/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nelzya-skopirovat/" class="">Биткоин нельзя скопировать</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-volatilen/" class="">Биткоин не слишком волатилен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-tratit-energiyu-zrya/" class="">Биткоин не тратит энергию зря</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-medlennyj/" class="">Биткоин не слишком медленный</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-ispravit/" class="">Биткоин это исправит</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-blokchejn/" class="">Биткоин, не блокчейн</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nichem-ne-podkreplen/" class="">Биткоин ничем не подкреплен?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-finansovaya-piramida/" class="">Биткоин — не финансовая пирамида</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-mozhet-byt-zabanen/" class="">Биткоин не может быть забанен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-dlya-prestupnikov/" class="">Биткоин не для преступников</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-obescenivaet-ostalnye-dengi/" class="">Биткоин обесценивает остальные деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-zov-k-edineniyu/" class="">Биткоин — зов к единению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-zdravyj-smysl/" class="">Биткоин — это здравый смысл</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-antihrupok/" class="">Биткоин антихрупок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-velikaya-definancializaciya/" class="">Биткоин — великая дефинанcиализация</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/sb/" class="">Становление Биткоина</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-intro/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-1/" class="">О времени</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-2/" class="">О людях</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-3/" class="">Знакомьтесь: деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-4/" class="">Поворот не туда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-5/" class="">Цифровая редкость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-6/" class="">Цифровые контракты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-7/" class="">Недостающие части головоломки</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitkoin-ne-vredit-okruzhayushej-srede/" class="">Биткоин и окружающая среда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sem-setevyh-effektov-bitkoina/" class="">Семь сетевых эффектов Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hozyaeva-i-raby-deneg/" class="">Хозяева и рабы денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strukturnaya-perestrojka/" class="">Структурная перестройка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/v-zashchitu-deflyacii/" class="">В защиту дефляции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/negativnye-effekty-neftedollara/" class="">Негативные внешние эффекты нефтедоллара</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/raskoshelivaemsya/" class="">Раскошеливаемся (Shelling Out): Происхождение денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-ritmy-istorii/" class="">Биткоин и ритмы истории</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-internet-cikly-hopfa/" class="">Биткоин и интернет-циклы Хопфа</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/dengi-blokchejny-i-socialnaya-masshtabiruemost/" class="">Деньги, блокчейны и социальная масштабируемость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-dengi/" class="">Что такое деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vyzhivaet-silnejshij/" class="">Выживает сильнейший</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strategiya-dca/" class="">Стратегия DCA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/jevons-paradox/" class="">Парадокс Джевонса: Обратная истина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-rabotajut-dengi/" class="">Как работают деньги</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/security/" class="">Безопасность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-hranit-kljuchi/" class="">Биткоин-кошельки. Зачем и как хранить свои приватные ключи</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed/" class="">Что такое сид-фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed-security/" class="">Как обезопасить свои сид-фразы?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/passphrase/" class="">Насколько надежна ваша парольная фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig/" class="">Все о мультисиг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hwws/" class="">Сравнение аппаратных кошельков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-1/" class="">Мультисиг. Часть I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-2/" class="">Мультисиг. Часть II: Отдельные ключи – основа мультиподписи</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/privacy/" class="">Приватность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/luchshie-praktiki/" class="">Как сохранить приватность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/no-kyc/" class="">Никаких KYC, берегите персональные данные</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-seti-bitcoin/" class="">Приватность в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-stanovitsya-kriticheski-vazhnym/" class="">Биткоин становится критически важным</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bip47-ili-gadkij-utenok/" class="">BIP47, или гадкий утенок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/privacy/oxt/" class="">Понимание приватности в сети Биткоин с помощью OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-1/" class="">Часть 1: Анализ цепочки и приватность транзакций</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-2/" class="">Часть 2: Ключевые концепции анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-3/" class="">Часть 3: Защита от анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-4/" class="">Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/coinjoin/" class="">Понимание и использование CoinJoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-fungibility/" class="">Взаимозаменяемость Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/protocol/" class="">Протокол</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kto-kontroliruet-bitkoin-kor/" class="">Кто контролирует Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vechnaja-borba/" class="">Вечная борьба Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ob-udobstve-vzaimodejstvija-s-bitcoinom/" class="">Об удобстве взаимодействия с Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-zoloto-2-0/" class="">Биткоин: цифровое золото или пиринговая наличность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/upravlenie-bitcoin/" class="">Управление Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/doverennye-tretyi-storony/" class="">Доверенные третьи стороны — это бреши в системе безопасности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/21-million-ne-podlezhit-obsuzhdeniyu/" class="">21 миллион не подлежит обсуждению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-work/" class="">Proof of Work: доказательство проделанной работы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-stake-eto-skam/" class="">Proof of Stake – это скам</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/byl-li-satoshi-zhadnym-majnerom/" class="">Был ли Сатоши жадным майнером?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/segwit/" class="">Что такое SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/taproot/" class="">Что такое Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bomby-slozhnosti-ethereum/" class="">Бомбы сложности Ethereum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/rgb/" class="">Разбирая протокол RGB</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/halving/" class="">Что такое Биткоин-халвинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/difficulty/" class="">О корректировке сложности майнинга</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-tipov-bitcoin-adresov/" class="">Типы биткоин-адресов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/myths-about-halving/" class="">Мифы о Биткоин-халвинге</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mining-walkthrough/" class="">SHA256 и майнинг в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/protocol/utxo/" class="">Что такое UTXO и как ими управлять?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-1/" class="">Что такое UTXO?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-2/" class="">Как избежать высоких комиссий при большом количестве UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-3/" class="">Приватность UTXO</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/transaction-size/" class="">Размер транзакции</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/history/" class="">История</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/gf/" class="">Генезис-файлы</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-intro/" class="">Пролог</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-1/" class="">Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-2/" class="">Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-3/" class="">Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-4/" class="">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-5/" class="">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hal-finney/" class="">Хэл Финни — жизнь и смерть легенды движения шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-and-me/" class="">Биткоин и я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-reformaciya/" class="">Биткоин-Реформация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-forks/" class="">Полная история консенсус-форков Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/analyzing-2013-fork/" class="">Анализ форка Биткоина 2013 года</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/philosophy/" class="">Философия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/chemu-ya-nauchilsya-u-bitcoina/" class="">Чему я научился у Биткоина?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/" class="">Часть1. Философские уроки Биткоина</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ne-shitcoin/" class="">Биткоин, не щиткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/neotemlemye-prava-sobstvennosti/" class="">Неотъемлемые права собственности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-kriptoanarhista/" class="">Манифест криптоанархиста</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-shifropanka/" class="">Манифест шифропанка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tyulpannaya-lihoradka/" class="">Биткоин — современная голландская тюльпанная лихорадка?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vse-moshenniki/" class="">Все — мошенники</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/svoboda-cennosti/" class="">Свобода ценности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-meme/" class="">Биткоин — единственный реальный мем</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/nol-i-bitcoin/" class="">Ноль и Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/crypto-bro/" class="">Дорогие крипто- и фиат-бро</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/boremsya-s-poddelnymi-bitcoin/" class="">Боремся с поддельными биткоинами</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bit%D1%81oin-eto-micelij/" class="">Биткоин — это мицелий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pochemu-bitcoin-zhivoj-organizm/" class="">Доказательство жизни. Почему Биткоин — живой организм</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/samaya-mirnaya-revolyuciya/" class="">Самая мирная революция</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/o-bitcoin-vselennoj/" class="">О Биткоин-вселенной</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-dissidenty/" class="">Биткоин-диссиденты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-svoboda/" class="">Биткоин = свобода</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/future/" class="">Будущее</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/ba/" class="">Биткоин-астрономия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/1/" class="">Постгипербиткоинизация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/2/" class="">Миллион крошечных миров</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/3/" class="">Первый контакт</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ej-bitcoin-pritormozi/" class="">Эй, Биткоин, притормози</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/apokalipsis/" class="">Сможет ли Биткоин пережить апокалипсис?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-teplovaya-energiya-okeanov/" class="">Биткоин и тепловая энергия океанов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/lightning/" class="">Лайтнинг</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-laitning/" class="">Что такое Лайтнинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-koshelki/" class="">Лайтнинг-кошельки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-adresa/" class="">Лайтнинг-адреса</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-lajtning/" class="">Приватность в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/centralizovanna-li-set-lightning/" class="">Централизованна ли сеть Lightning?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mekhanizm-raboty-lightning/" class="">Механизм работы Lightning Network</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/problema-vhodyashchej-likvidnosti/" class="">Решение проблемы входящей ликвидности</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/practice/" class="">Практика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/practice/buy/" class="">Покупка</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/newbie-buy/" class="">Покупка и хранение биткоина для новичков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hodl-hodl/" class="">Покупка биткоина без KYC на Hodl Hodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/robosats/" class="">RoboSats: Приватный p2p обмен</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/practice/hodl/" class="">Хранение</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/electrum/" class="">Кошелек Электрум</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue/" class="">Кошелек Blue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seedsigner/" class="">SeedSigner: оффлайн-крепость для ваших биткоинов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/holodnyj-koshelek-iz-starogo-smartfona/" class="">Холодный кошелек из старого смартфона</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/coldcard/" class="">Что такое Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/practice/interact/" class="">Взаимодействие</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice/bitcoin-node/" class="">Каждому следует запустить собственную Биткоин-ноду!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/orangepilling-in-5-min/" class="">Оранжпиллинг за 5 минут</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/5-tips-for-teaching-bitcoin/" class="">5 советов по обучению Биткоину</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/practice-privacy/" class="">Практики приватности</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/practice-privacy/dojo/" class="">Установка Биткоин-узла Dojo на x86</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-0/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-1/" class="">Установка Bitcoin Core и Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-2/" class="">Установка индексатора Fulcrum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-3/" class="">Установка блокчейн-обозревателя Mempool</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-4/" class="">Установка Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-5/" class="">Конфигурация межсетевого экрана</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-6/" class="">Установка обновлений пакетов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/ronindojo/" class="">Установка RoninDojo на x86</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/grapheneos/" class="">GrapheneOS: Избавляемся от слежки Google на смартфоне</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/practice/lightning/" class="">Лайтнинг на практике</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/phoenix/" class="">Кошелек Phoenix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lnbits/" class="">LNbits – швейцарский нож среди лайтнинг-приложений</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/alby-i-nostr/" class="">Alby и Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/zapplanner/" class="">Подписки с помощью Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lntips/" class="">Телеграм-бот @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ochishchaem-bitcoin-cherez-lajtning/" class="">Очищаем биткоины через сеть Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/likvidnost-v-lajtning/" class="">Руководство по управлению ликвидностью в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mutiny/" class="">Кошелек Mutiny</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle" checked />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/rabbithole/" class="">Кроличья нора</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/books/" class="">Книги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/videos/" class="">Видео</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/audiobooks/" class="">Аудиокниги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pods/" class="">Подкасты</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/posts/" class="">Блог</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/calendar/" class="">Биткоин-календарь</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/contribute/" class="">Принять участие</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/syntax/" class="">Оформление статей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/github/" class="">Как добавить статью?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/obsidian/" class="">Публикация статей через Obsidian</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/feedback/" class="">Обратная связь</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Глава 17: UASF – Активируемый пользователями софтфорк</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/vrb-449.jpeg" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Глава 17: UASF – Активируемый пользователями софтфорк
+    
+</h1>
+<div class="pageDate">
+    11 марта 2021 г.
+</div>
+
+  <article class="markdown">
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Оглавление</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <p><a href="/vojna-za-razmer-bloka">Главная страница</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-1">Глава 1: Первый удар</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-2">Глава 2: Начало</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-3">Глава 3: Масштабирование I Монреаль</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-4">Глава 4: Масштабирование II Гонконг</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-5">Глава 5: SegWit</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-6">Глава 6: Сеть Lightning</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-7">Глава 7: Bitcoin Classic</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-8">Глава 8: Круглый стол в Гонконге</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-9">Глава 9: Фейковый Сатоши</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-10">Глава 10: DAO</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-11">Глава 11: Масштабирование III Милан</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-12">Глава 12: Bitcoin Unlimited</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-13">Глава 13: Биржи</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-14">Глава 14: ASICBoost</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-15">Глава 15: Логово драконов</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-16">Глава 16: Litecoin</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-17">Глава 17: UASF – Активируемый пользователями софтфорк</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-18">Глава 18: Нью-Йоркское соглашение</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-19">Глава 19: Bitcoin Cash</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-20">Глава 20: SegWit2x</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-21">Глава 21: Победа</a></p>
+
+    </div>
+  </label>
+</div>
+
+
+<div class="youtubeWrapper">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe src="https://www.youtube.com/embed/XENl75GrBWU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy"></iframe>
+    </div>
+    <div class="youtubeWrapper_hint">
+        <em>Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: <a href="https://www.21ideas.org/audio-audiobooks/">https://www.21ideas.org/audio-audiobooks/</a></em>
+    </div>
+</div>
+
+<p>Идея о том, что <em>Активируемый пользователями софтфорк</em> (UASF) в Биткоине разрешит текущий тупик и активирует SegWit, похоже, также возникла от разработчика под псевдонимом Shaolinfry в электронном письме, отправленном в список рассылки Биткоина 25 февраля 2017 года:</p>
+<blockquote>
+<p>Проблема с активацией через супербольшинство, сигнализирующее хэшрейтом, в том, что она привлекает ненужное внимание к майнерам, излишне политизируя их. Майнеры, уже неправильно истолковавшие сигнал о готовности как голосование, могут ощущать давление, полагая, что им предстоит &ldquo;принять решение&rdquo; от имени сообщества: кто сигнализирует, а кто нет, оказывается в фокусе общественного внимания, и это может сильно давить на неготовых к этому майнеров. Некоторые майнеры могут быть не в состоянии обновиться или предпочтут не участвовать в софтфорке – это их право. Однако теперь такой майнер может оказаться единственной причиной, по которой активация срывается для всех, в то время как софтфорк должен оставаться добровольной опцией! Эта ситуация явно противоречит добровольному характеру системы Биткоина, где участие на всех уровнях является добровольным и поддерживается хорошо сбалансированными стимулами.<br>
+Ниже я предлагаю обсуждение альтернативы – &ldquo;сигнале об активации в назначенную дату&rdquo;, когда узлы начинают принудительный переход к новым правилам в заранее определенное время в будущем. Этот метод требует большего времени выполнения, чем триггер активации на основе хэшрейта, но предлагает ряд преимуществ и, возможно, обеспечивает лучший компромисс.</p>
+</blockquote>
+<p>12 марта 2017 года Shaolinfry формализовал свое предложение, и оно стало известно как BIP 148. Идея заключалась в том, чтобы принудить майнеров сигнализировать о поддержке SegWit правилом консенсуса, тем самым активируя его. В каком-то смысле это был софтфорк для активации другого софтфорка. Принудительная сигнализация майнеров должна была начаться 1 августа 2017 года, примерно через четыре с половиной месяца. Затем это должно было активировать исходный софтфорк SegWit до истечения срока действия окна активации.</p>
+<blockquote>
+<p><strong>Мотивация</strong><br>
+Segwit увеличивает размер блока, исправляет уязвимость транзакций для посторонних и упрощает обновление скриптов, а также дает множество других преимуществ.<br>
+Есть надежда, что майнеры отреагируют на этот BIP, активировав Segwit раньше, до того, как BIP вступит в силу. В противном случае этот BIP вызовет принудительную активацию развертывания Segwit в рамках штатной процедуры до полуночи 15 ноября 2017 года.<br>
+<strong>Спецификация</strong><br>
+Все метки времени ниже относятся к &ldquo;медианному прошлому&rdquo; (шестая метка времени в последовательности из 11 последних меток времени в блокчейне – прим. переводчика).<br>
+Этот BIP будет активен с полуночи 1 августа 2017 года (метка времени 1501545600) до полуночи 15 ноября 2017 года (метка времени 1510704000), если существующее развертывание Segwit не заблокировано или не активировано до метки времени 1501545600. Этот BIP перестанет быть активным, если Segwit будет заблокирован.<br>
+Пока этот BIP активен, во всех блоках первые 3 бита заголовка NVersion должны быть равны 001, так же, как и поле Bit (1&laquo;1) (в соответствии с существующей процедурой развертывания Segwit). Блоки, которые не сигнализируют должным образом, должны быть отклонены.</p>
+</blockquote>
+<p>С точки зрения концепции малых блоков идея была крайне спорной и очень рискованной. Во-первых, бóльшая часть нарратива лагеря малых блоков до этого момента была посвящена терпению и сугубо спокойному и безопасному изменению правил консенсуса. Предлагаемое обновление было опасным: от майнеров требовалось просигнализировать о поддержке, а если они этого не сделают, результатом может стать разделение цепи. Во-вторых, это было очень рискованно, потому что, если BIP 148 UASF потерпит неудачу, что казалось вполне возможным, это могло передать инициативу крупноблочникам. На текущем этапе войны они разделились на несколько фракций: например, на тех, кто считал Крэйга Райта Сатоши, и тех, кто считал его аферистом; на тех, кто считал Bitcoin Unlimited надежной идеей, и тех, кто считал ее ошибочной; на тех, кто подался в ICO, и тех, кто по-прежнему был верен Биткоину. Однако, надо отдать должное, до этого момента мелкоблочники в основном были едины. Для их стороны это было ключевым преимуществом, помогающим им пользоваться в этой войне большой поддержкой. Возникшее разноголосие в лагере малых блоков грозила расколоть его надвое, что могло иметь для их дела разрушительные последствия.</p>
+<p>Например, Грегори Максвелл, один из самых влиятельных теоретиков на стороне малых блоков, выступил против UASF и четко сформулировал эту точку зрения в письме от 14 апреля 2017 года:</p>
+<blockquote>
+<p>Я не поддерживаю BIP148 UASF примерно по тем же причинам, по которым я поддерживаю Segwit: Биткоин ценен отчасти потому, что он обладает высокой безопасностью и стабильностью. Segwit был тщательно разработан, чтобы сейчас и в будущем люди могли рассчитывать на тот же или более высокий уровень инженерной надежности.<br>
+Мне не кажется, что (sic) подход, предложенный в BIP148, действительно соответствует стандарту, установленному самим Segwit, или существующим передовым методам разработки протоколов в нашем сообществе.<br>
+Основной недостаток BIP148 заключается в том, что принудительная активация существующих узлов (не связанных с UASF Segwit) <em>почти</em> гарантируется при незначительном уровне сбоев.<br>
+Однако Segwit был тщательно спроектирован таким образом, чтобы после его активации старые <em>все</em> немодифицированные майнеры могли продолжать работать как ни в чем ни бывало.<br>
+Старые узлы не будут видеть отделенные подтверждения трат, поэтому для них блоки с транзакциями Segwit не будут недействительными, даже если эти узлы не поддерживают Segwit. Они могут перейти на поддержку нового формата, когда им самим будет удобнее. Единственный риск, который несут не обновившиеся майнеры после активации Segwit, заключается в том, что если кто-то другой произведет недействительный блок, они могут счесть его валидным и наращивать цепь над этим блоком – риск, на который многие майнеры уже сегодня часто идут, если занимаются шпионским майнингом.<br>
+Я не думаю, что BIP 148 – ужасное предложение: оно спроектировано лучше, чем то, что творится с различными альткоинами – но нашим нормальным стандартам оно не соответствует. Я уважаю мотивацию авторов BIP 148. Если ваша цель – максимально быстрая активация Segwit, тогда очень полезно воспользоваться наличием более 80% существующих узлов, которые уже поддерживают исходную версию Segwit.<br>
+Но скорейшее внедрение не должно быть нашей главной целью как сообщества – всегда есть какой-нибудь безрассудный альткоин или централизованная система, которые смогут внедрить что-то быстрее, чем это можем мы – попытка соответствовать этому только подорвет наши выдающиеся ценности, такие как качество проектирования и стабильность.<br>
+&ldquo;Прежде всего, не навреди&rdquo;. Нам следует использовать наименее разрушительные из всех доступных механизмов, а предложение BIP148 не соответствует этому критерию. Если послушать некоторых людей – не к разработчиков, а пользователей на Reddit и подобных площадках – они видят в принудительном отказе через BIP 148 некую добродетель, наказание за плохое поведение майнеров. Я не могу (sic) более решительно отмежеваться от этой точки зрения, чем делаю это сейчас.<br>
+Разумеется, я не против концепции UASF как таковой, но _в общем софтфорк (любого вида) не должен ассоциироваться с риском сбоя майнинга, как не дает его сама по себе активация Segwit. UASF – это самый первый из всех типов софтфорка и единственный вид форка, который практиковал Сатоши. P2SH был активирован в заданную дату, а все предыдущие форки были привязаны к определенному времени или высоте блока. Мы ввели активацию на основе сигнализации майнеров как часть процесса повышения стабильности Биткоина в качестве общего решения для тех периодов, когда экосистема находится в гармонии. Довольно странно видеть, что UASF изображается как нечто новое.<br>
+Важно, чтобы пользователи не зависели от милости какой-либо части экосистемы в той мере, в какой мы можем этого избежать – будь то разработчики, биржи, форумы или производители оборудования для майнинга. В конечном итоге правила Биткоина работают, потому что они соблюдаются пользователями коллективно – это то, что делает Биткоин Биткоином, именно то, благодаря чему люди могут на него рассчитывать: правила нелегко взять и изменить.<br>
+Были и другие предложения UASF, позволяющие избежать принудительного сбоя – просто определив новый сигнальный бит и разрешив майнерам и узлам, не обновленным в рамках UASF, оставаться без обновления. Я думаю, что эти предложения намного лучше. Их развертывание будет медленнее, но я не думаю, что это недостаток.<br>
+Нам следует набраться терпения. Биткоин – это система, которая должна постепенно взрослеть и поддерживать человечество в течение долгого времени – через десять лет пара лет споров будет казаться ничем. Но репутация, которую мы зарабатываем благодаря стабильности и порядочности, поддерживая денежную систему, на которую люди могут рассчитывать, будет значить все.<br>
+Если наши споры и вспомнят, то лишь в форме напоминания людям, что Биткоин не так легко изменить по прихоти, даже когда прихоти явно хороши, и как это защищает его от управления в духе управления всеми конкурирующими денежными системами, используемыми в мире. 🙂<br>
+Так что наберитесь терпения, не пытайтесь срезать углы. Segwit – хорошее усовершенствование, и мы должны уважать его, зная, что этого достаточно, чтобы его дождаться, и когда бы он ни был активирован, пусть это будет сделано наилучшим образом.</p>
+</blockquote>
+<p>Одним из первых известных биткоин-разработчиков, поддержавших UASF, был Люк Младший, разработчик, который обнаружил, как вообще можно сделать SegWit софтфорком. Люк действительно обеими руками поддерживал альтернативные правила консенсуса, в то время как почти никто другой этого не делал. Однако, учитывая его личность, это вряд ли его беспокоило, и выглядел он уверенно. Один из самых уважаемых разработчиков в лагере малых блоков, Питер Вюлле, который написал большую часть кода для софтфорка SegWit, также выступил против BIP 148. В мае 2017 года в открытом чате с Люком Питер сделал следующие комментарии:</p>
+<blockquote>
+<p>Я предполагаю, что каждый экономически значимый полный узел отзовет поддержку кода Bip148 буквально через несколько часов после того, как на его принятие не хватит хэшрейта.<br>
+&hellip;<br>
+Люк-мл., Я думаю, ты ненормальный.</p>
+</blockquote>
+<p>Стоит отметить, что Питер быстро извинился за &ldquo;безумный&rdquo; комментарий. Учитывая взгляды разработчиков, таких как Питер и Грегори, теперь казалось крайне маловероятным, что Bitcoin Core выпустит клиент, реализующий BIP 148. Для успеха UASF мелкоблочникам, по иронии судьбы, теперь требовалось самим запустить альтернативный клиент с другими правилами консенсуса, как это сделали крупноблочники в случае с Bitcoin XT, Bitcoin Classic и Bitcoin Unlimited.</p>
+<p>Именно это и произошло: Люк в конце концов выпустил клиент, реализующий BIP 148, с тегом пользовательского агента в заголовке &ldquo;/Satoshi:0.14.2/UASF-Segwit:0.3(BIP148)/&rdquo;. Пользователям было рекомендовано продолжать использовать Bitcoin Core, но изменить свой идентификатор пользовательского агента, чтобы показать поддержку BIP 148, что также было популярной практикой в то время. Некоторые утверждали, что это была плохая практика, поскольку клиент на самом деле не реализовал правила BIP148, однако другие отвечали, что это лишь декларация о намерениях, и указывает, что пользователи обновятся до 1 августа. Некоторые отмечали, что это было в определенной мере лицемерием, так как было именно тем поведением, за которое мелкоблочники высмеивали и критиковали крупноблочников.</p>
+<p>В начале мая 2017 года я пообщался в Гонконге с одним из самых значимых закулисных сторонников UASF. Разработчик, с которым я разговаривал, написал код для клиента UASF и содержал несколько веб-сайтов в поддержку UASF. Я объяснял ему, что использование UASF рискованно и важно проявлять терпение в отношении правил консенсуса Биткоина. Он дал длинный и решительный ответ. <em>&ldquo;В обычное время ты был бы прав, – заявил он, – однако сейчас непростые времена, мы находимся в состоянии войны&rdquo;</em>. Он продолжил: <em>&ldquo;Биткоин находится в кризисной ситуации, Bitmain злонамеренно использует уязвимость ASICBoost, SegWit исправляет эту уязвимость, и нам нужно срочно его внедрять. Это чрезвычайная ситуация, поэтому у нас нет времени на нормальный терпеливый подход&rdquo;</em>. Далее он объяснил, что на войне не всегда есть возможность выбрать подходящее время. Он учитывал, что до активации UASF осталось всего несколько месяцев, но, по его словам, лагерь малых блоков в настоящее время занимает доминирующее положение в войне, и нет никаких гарантий, что это продлится долго. <em>&ldquo;Пришло время использовать наиболее мощное оружие</em> <em>когда мы сильны&rdquo;</em>. Он продолжил: <em>&ldquo;У нас нет другого выбора, нам нужно действовать сейчас, обострить конфликт до уровня ядерной войны и решительно выиграть эту войну ради будущего Биткоина. Если мы этого не сделаем, мы рискуем проиграть, и Биткоин будет мертв&rdquo;</em>. Этот разработчик, казалось, продумал все сценарии и был уверен, что BIP 148 сработает. По его мнению, значительным преимуществом был тот факт, что BIP 148 это софтфорк, подмножество текущих правил консенсуса, это облегчит майнерам задачу переключения на цепь BIP 148. Он считал, что BIP 148 – реальная угроза, но майнерам легко ее избежать, просто активировав SegWit, так что намеченный согласно BIP 148 софтфорк в августе 2017 года по факту так и не не произойдет. <em>&ldquo;BIP 148 содержит код, который не применяется, если SegWit уже активирован&rdquo;</em>, – пояснил он.</p>
+<p>Первоначально эта идея вызывала споры в лагере малых блоков, но к маю 2017 года она приобрела значительную популярность. В Логове Драконов работали с полной отдачей, поддерживая BIP 148 и UASF. Самсон Мау даже организовал производство, продажу и распространение кепок с вышитыми буквами UASF. Эта кепка обычно была в цветах милитари и носилась мелкоблочниками на посвященных Биткоину конференциях и тусовках, чтобы в узких кругах показать свою поддержку этой кампании. На тот момент обсуждение UASF преобладало только внутри сообщества малых блоков, в то время как крупноблочники и более широкие слои криптовалютной индустрии в основном его игнорировали. И только к концу мая 2017 года идея получила более широкое распространение за пределами лагеря малых блоков.</p>
+<p>С тактической точки зрения крупноблочники были слишком неповоротливыми, чтобы успеть отреагировать и даже просто понять UASF. Они должны были увидеть потенциальный раскол в лагере малых блоков, а затем попытаться обратить на него внимание публики и использовать его, точно так же, как мелкоблочники поступали во время потенциальных расколов в лагере крупных блоков. Вместо этого крупноблочники в основном игнорировали UASF. Ближе к концу мая я поговорил с одним из самых известных игроков этого лагеря, чтобы обсудить UASF. Он заявил, что не верит, будто бы Грегори Максвелл действительно выступал против UASF; Он объяснил, что это была просто его &ldquo;обычная ложь и игра&rdquo;. Похоже, к этому моменту уровень недоверия был настолько высок, что, в сочетании с совершенно иным пониманием работы Биткоина, крупноблочники практически не могли разобраться, что замышляют оппоненты. Мне казалось, что мелкоблочники наконец сделали свой ход и оставили потенциальную брешь в обороне. Раз уж война продолжается, крупноблочникам нужно реагировать и использовать дыру в защите, но они, похоже, не понимали, что делать.</p>
+<p>Крупноблочники также, похоже, были искренне обеспокоены UASF. В начале войны они сильно недооценили размер и влияние лагеря малых блоков, ожидая легкой победы в войне. Они часто высмеивали мелкоблочников как наивных и незначительных. Но на данный момент, после трех неудачных попыток хардфорка – поражений, которые застали их врасплох – большинство крупноблочников, похоже, наоборот, переоценивали силу и влияние противников. На самом деле лагерь малых блоков был гораздо менее сильным, чем те думали. Основной причиной их успеха в победе над крупноблочниками до этого момента было их превосходное понимание Биткоина, тактические промахи самих крупноблочников и присущая Биткоину устойчивость к спорным изменениям правил протокола. Не имея полного понимания ситуации, в лагере крупных блоков вместо этого обвиняли в своих поражениях хитрых и мощных мелкоблочников. Таким образом, казалось, что крупноблочники уважают оппонентов, и многие из них опасаются UASF, который они рассматривают как следующий большой шаг мелкоблочников. Они не видели тактических возможностей, которые перед ними открылись. Таким образом, они не сумели ими воспользоваться.</p>
+<p>На тот момент у UASF почти не было поддержки со стороны криптовалютных бирж. Большинство руководителей бирж, с которыми я разговаривал в то время, либо ожидали провала UASF, либо даже не знали, в чем дело. Уровень экономической поддержки UASF за пределами лагеря малых блоков был крошечным. Это был рискованный шаг со стороны мелкоблочников, и мне казалось вероятным, что в результате своего форка они могут оказаться в цепи с малым хэшрейтом, которая не будет считаться Биткоином. Крупноблочники должны были подумать о выпуске &ldquo;контр-софтфорка&rdquo;, который бы запретил использование флагов BIP 148 в блоках. Эта цепь, вероятно, будет доминировать и экономически, и по хэшрейту. Появление контр-UASF также гарантировало бы чистое разделение, и цепь, не относящаяся к UASF, больше не была бы уязвима для уничтожения. Однако крупноблочники вообще не думали подобным образом. Они хотели увеличить размер блока через хардфорк; у них не было ни опыта, ни желания внедрять контр-софтфорк.</p>
+<p>Джихан Ву был крайне возмущен кампанией по продвижению UASF. По его мнению, UASF подорвал созданный им нарратив о том, что майнеры имеют значительное влияние на правила протокола. 28 мая 2017 года Джихан разместил твит с фотографией жертв резни в Джонстауне, сопроводив его тегом #UASF. Его гнев и страх по поводу UASF явно были сильны.</p>
+<p>В середине июня биржа ViaBTC, связанная с Джиханом Ву, разместила на платформе фьючерс на BIP 148. Очевидно, эта идея была взята у Bitfinex, с их появившимся несколькими месяцами ранее токеном Bitcoin Unlimited. Это была попытка подорвать BIP 148, точно так же, как фьючерсы Bitfinex подорвали Bitcoin Unlimited. Однако условия контракта были довольно странными и несколько нечестными. Если вы инвестировали в токен BIP 148, вы могли получить выплату только в том случае, если продолжали существовать как цепь токенов BIP 148, так и цепь с исходными правилами (цепь без BIP 148). Это было явно не то, чего хотели сторонники BIP 148. Они считали, что цепь с исходными правилами перестанет существовать, в частности, потому что цепь с исходными правилами была уязвима для стирания из цепи BIP 148. Следовательно, инвестирование в токен, зависящий от продолжения существования цепи, не связанной с BIP 148, не имело большого смысла для сторонников BIP 148. Контрактом не удалось достичь какого-либо значительного объема торгов, и, похоже, он не подорвал BIP 148.</p>
+<p>14 июня 2017 года Bitmain опубликовала пост, в котором изложила экстренный план действий в ответ на UASF:</p>
+<blockquote>
+<p>BIP148 очень опасен для бирж и другого бизнеса. Нет никаких признаков существенной экономической поддержки BIP148, и когда он проявится в блокчейне, экономическая поддержка, скорее всего, будет основана на спекуляциях. Активность майнинга, стоящая за цепочкой UASF, может прекратиться без предупреждения, а инвесторы, которые купят эти токены под влиянием пропаганды BIP148, могут потерять все свои вложения. Любые биржи, которые решат поддерживать токен UASF после старта форка, должны учитывать связанный с ним риск остановки.<br>
+&hellip;<br>
+Цепь UASF представляет собой риск стирания исходной цепи. Если нет плана на случай непредвиденных обстоятельств, вся экономическая деятельность, которая происходит в исходной цепи после старта форка UASF, столкнется с риском уничтожения. Это имеет катастрофические последствия для всей экосистемы Биткоина. UASF – это атака на пользователей и бизнесы, которые не согласны с немедленной активацией SegWit без увеличения размера блока, а это увеличение является очень важным пунктом в Гонконгском соглашении, заключенном глобальным биткоин-сообществом в феврале 2016 года.<br>
+&hellip;<br>
+Этот план предполагает активируемый пользователями хардфорк или UAHF<br>
+&hellip;<br>
+Bitmain будет майнить цепь UAHF в течение минимум 72 часов после точки разветвления BIP148, выделив на это некоторый процент своего собственного хэшрейта. Bitmain, скорее всего, не будет немедленно передавать добытые блоки в общедоступную сеть, если этого не требуют обстоятельства. Это означает, что Bitmain сначала будет майнить свою цепь в частном порядке. Мы намерены опубликовать добытые блоки в следующих ситуациях (неполный список):<br>
+Цепь BIP148 активирована и впоследствии получает значительную поддержку со стороны майнинг-индустрии, то есть после того, как BIP148 уже успешно привел к разделу цепи;<br>
+Настроения рынка в отношении хардфорка с крупными блоками сильны, и экономические стимулы заставляют нас его майнить, например, обменный курс перевешивает в пользу биткоинов с крупными блоками;<br>
+Если уже есть значительное количество других майнеров, публично занимающихся майнингом цепи крупных блоков, и мы решаем, что для нас рационально майнить, продолжая эту цепь. В этом случае мы также рассмотрим возможность присоединения к этой цепи и откажемся от нашей частной цепи, чтобы публичная цепь UAHF не подвергалась риску реорганизации.<br>
+Как только Bitmain начнет публично майнить цепь UAHF, мы будем делать это постоянно, игнорируя краткосрочные экономические стимулы. Мы считаем, что дорожная карта, включающая возможность корректировки размера блока, будет лучше обслуживать пользователей, поэтому мы ожидаем, что она приведет к повышению рыночной цены в долгосрочной перспективе.</p>
+</blockquote>
+<p>План Bitmain состоял в том, чтобы примерно в то же время, когда должен был активироваться UASF, активировать хардфорк, увеличивающий лимит размера блока. План хардфорка даже включал график увеличения лимита размера блока. Он должен был стартовать с 2 Мб в августе 2017 года, а затем постепенно увеличиваться заранее определенными шагами до 16,8 Мб к августу 2019 года. Этот план выглядел как своего рода угроза в адрес сторонников UASF. Крупноблочники получат после хардфорка свою новую цепь, чего, по их мнению, мелкоблочники отчаянно надеялись не допустить.</p>
+<p>Хотя Джихан, похоже, не осознавал этого, его план был на самом деле невероятно благоприятным для дела UASF, потому что это означало, что цепочка UASF с большей вероятностью получит преимущество в proof-of-work по сравнению с исходной цепочкой правил, раз уж Bitmain указала, что планируется переход на альтернативную цепь хардфорка. В дополнение к этому Bitmain планировал тайно майнить новую цепь хардфорка в течение 72 часов. Это был очень плохой ход, если планировалось, что цепь хардфорка наберет обороты, поскольку никто не мог видеть эту цепь или запускать клиент, поддерживающий хардфорк, а биржи не могли поддерживать соответствующий токен. Непонятно, что послужило мотивом для этого сообщения в блоге. Похоже, что Джихан был чрезвычайно зол и быстро разработал план, призванный расстроить его противников, но не продумал его до конца. Разумеется, Джихану следовало объявить, что в случае UASF он продолжит работу над цепью с исходными правилами, а тем временем организоваь встречный UASF. Однако это привело бы к тому, что ему пришлось бы поддерживать ненужные ему блоки по 1 Мб, поэтому, возможно, он чувствовал, что у него нет особого выбора.</p>
+<p>В Логове Драконов с восторгом отметили пост в блоге Bitmain, так как он почти гарантировал им полную победу. Однако некоторые выбрали более осторожный тон: <em>&ldquo;Не думайте, что Джихан сделает что-то глупое только потому, что он это обещает&rdquo;</em>. Мне показалось, что эта более осторожная позиция была правильным подходом. По мере приближения 1 августа Джихан, скорее всего, поймет, что его план не имеет смысла, и переключится на что-то более эффективное.</p>
+<p>По мере приближения дедлайна UASF игроки лагеря крупных блоков оказывались вне игры, поскольку не знали, как эффективно реагировать. Казалось, что у них не осталось жизнеспособных вариантов. Похоже, они наконец-то были близки к унизительному поражению, и понимали это. Им нужно было что-то предпринять для спасения своей репутации.</p>
+<hr>
+<p><a href="https://blog.bitmex.com/the-blocksize-war-chapter-17-user-activated-softfork/">Оригинал</a></p>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Оглавление</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <p><a href="/vojna-za-razmer-bloka">Главная страница</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-1">Глава 1: Первый удар</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-2">Глава 2: Начало</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-3">Глава 3: Масштабирование I Монреаль</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-4">Глава 4: Масштабирование II Гонконг</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-5">Глава 5: SegWit</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-6">Глава 6: Сеть Lightning</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-7">Глава 7: Bitcoin Classic</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-8">Глава 8: Круглый стол в Гонконге</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-9">Глава 9: Фейковый Сатоши</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-10">Глава 10: DAO</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-11">Глава 11: Масштабирование III Милан</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-12">Глава 12: Bitcoin Unlimited</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-13">Глава 13: Биржи</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-14">Глава 14: ASICBoost</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-15">Глава 15: Логово драконов</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-16">Глава 16: Litecoin</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-17">Глава 17: UASF – Активируемый пользователями софтфорк</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-18">Глава 18: Нью-Йоркское соглашение</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-19">Глава 19: Bitcoin Cash</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-20">Глава 20: SegWit2x</a></p>
+<p><a href="/vojna-za-razmer-bloka/glava-21">Глава 21: Победа</a></p>
+
+    </div>
+  </label>
+</div>
+
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/vojna-za-razmer-bloka/glava-17/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

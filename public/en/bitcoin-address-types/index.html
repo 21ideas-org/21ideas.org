@@ -1,0 +1,3410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  This article by Tom Honzik was published in Unchained blog.
+Contribute.
+
+
+
+If you’ve been using bitcoin for a while, you’ve probably noticed that some bitcoin addresses appear quite different from others. You may have also seen discussion around several acronyms beginning with “P2,” such as P2PKH or P2WSH. If you’re unfamiliar with what these acronyms mean, here we’ll look through all the standardized on-chain methods for receiving bitcoin throughout its history and explain some essential differences that make each method unique.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Bitcoin address types" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/bitcoin-address-types/" />
+<meta property="og:image" content="http://localhost:1313/img/address-types.png"/>
+
+<title>Bitcoin address types | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/sravnenie-tipov-bitcoin-adresov/" title="Типы биткоин-адресов">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6ade4dcd3e4473a03c16af7af767ac91a1040fba953931c39e6427641c138e94.js" integrity="sha256-at5NzT5Ec6A8Fq9692eskaEED7qVOTHDnmQnZBwTjpQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/sravnenie-tipov-bitcoin-adresov/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle" checked />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="active">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Bitcoin address types</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#p2pk">P2PK</a>
+          <ul>
+            <li><a href="#quick-facts">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2pkh">P2PKH</a>
+          <ul>
+            <li><a href="#quick-facts-1">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2ms">P2MS</a>
+          <ul>
+            <li><a href="#quick-facts-2">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2sh">P2SH</a>
+          <ul>
+            <li><a href="#quick-facts-3">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2wpkh">P2WPKH</a>
+          <ul>
+            <li><a href="#quick-facts-4">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2wsh">P2WSH</a>
+          <ul>
+            <li><a href="#quick-facts-5">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#nested-segwit-p2sh-p2wpkh-and-p2sh-p2wsh">Nested SegWit (P2SH-P2WPKH and P2SH-P2WSH)</a>
+          <ul>
+            <li><a href="#quick-facts-6">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2tr">P2TR</a>
+          <ul>
+            <li><a href="#quick-facts-7">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#reference-chart">Reference chart</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/address-types.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more
+    
+</h1>
+<div class="pageDate">
+    March 8, 2023
+</div>
+
+  <article class="markdown"><blockquote class="book-hint btc">
+  <p>This article by Tom Honzik was published in <a href="https://unchained.com/blog/bitcoin-address-types-compared">Unchained blog</a>.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<p>If you’ve been using bitcoin for a while, you’ve probably noticed that some <a href="https://unchained.com/blog/what-is-a-bitcoin-address/">bitcoin addresses</a> appear quite different from others. You may have also seen discussion around several acronyms beginning with “P2,” such as P2PKH or P2WSH. If you’re unfamiliar with what these acronyms mean, here we’ll look through all the standardized on-chain methods for receiving bitcoin throughout its history and explain some essential differences that make each method unique.</p>
+<h2 id="p2pk">
+  P2PK
+  <a class="anchor" href="#p2pk">#</a>
+</h2>
+<p>Pay-to-Public-Key (P2PK) is the original method of receiving bitcoin, and it does not involve an address. Instead, as the name suggests, bitcoin is paid directly to an exposed public key. The first ever bitcoin transaction from one person to another used P2PK, when Satoshi Nakamoto sent coins to Hal Finney <a href="https://mempool.space/tx/f4184fc596403b9d638783cf57adfe4c75c605f6356fbc91338530e9831e9e16">in Block 170</a>.</p>
+<p>P2PK is no longer used because it is a more expensive, less private, and less secure way of receiving bitcoin than subsequent methods.</p>
+<h3 id="quick-facts">
+  Quick facts
+  <a class="anchor" href="#quick-facts">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b">Block 0 | January 3, 2009</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">04678afdb0fe5548271967f…384df7ba0b8d578a4c702b6bf11d5</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 1.7M BTC or 9%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Obsolete</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2pkh">
+  P2PKH
+  <a class="anchor" href="#p2pkh">#</a>
+</h2>
+<p>Pay-to-Public-Key-Hash (P2PKH) was available for use at bitcoin’s beginning, and it showed up on the blockchain for the first time less than two weeks after the genesis block. P2PKH makes several improvements upon P2PK, such as utilizing an address. As discussed <a href="https://unchained.com/blog/what-is-a-bitcoin-address/">in our earlier article</a>, addresses contain a checksum that helps prevent typos and lost bitcoin.</p>
+<p>P2PKH addresses are typically 34 or 33 characters in length (but could theoretically be <a href="https://bitcoin.stackexchange.com/a/36948/140404">as short as 26 characters</a>), and they are encoded in <a href="https://en.bitcoin.it/wiki/Base58Check_encoding">Base58 format</a>. They begin with a prefix of <strong>1</strong> and are currently responsible for receiving and securing 43% of the mined bitcoin supply, more than any other address type.</p>
+<p>Creating a P2PKH address involves putting a single public key through hash functions SHA-256 and RIPEMD-160. This shortens the amount of data, which in turn helps save block space and transaction fees for the user. It also introduces further resistance to reverse-engineering the private key beyond the already believed-to-be-unbreakable secp256k1 elliptic curve.</p>
+<h3 id="quick-facts-1">
+  Quick facts
+  <a class="anchor" href="#quick-facts-1">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/6f7cf9580f1c2dfb3c4d5d043cdbb128c640e3f20161245aa7372e9666168516">Block 728 | January 16, 2009</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">12higDjoCCNXSA95xZMWUdPvXNmkAduhWv</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 8.3M BTC or 43%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Decreasing popularity</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2ms">
+  P2MS
+  <a class="anchor" href="#p2ms">#</a>
+</h2>
+<p>Pay-to-Multisig (P2MS) is a trivial transaction type that was only briefly relevant and has never been responsible for holding more than 100 bitcoin at one time across all network participants. Nevertheless, P2MS is a part of bitcoin’s history.</p>
+<p>P2MS was introduced as a standard script in early 2012, as specified by BIP 11. However, this transaction type suffered from the same problems as P2PK since it included exposed public keys and did not use any address format. It also limited the number of public keys in a multisig quorum to three. Within months P2MS would be replaced by an alternative method for receiving bitcoin into a multisig arrangement called P2SH, which we will cover next.</p>
+<h3 id="quick-facts-2">
+  Quick facts
+  <a class="anchor" href="#quick-facts-2">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1">Block 164,467 | January 29, 2012</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">Multiple public keys, like the one shown in P2PK</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 43 BTC or 0.0002%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Obsolete</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2sh">
+  P2SH
+  <a class="anchor" href="#p2sh">#</a>
+</h2>
+<p>Pay-to-Script-Hash (P2SH) was introduced to bitcoin as a soft fork in accordance with BIP 16 on April 1, 2012. Like most forks, <a href="https://bitcoinmagazine.com/technical/the-battle-for-p2sh-the-untold-story-of-the-first-bitcoin-war">the story behind it is fascinating</a>. P2SH shares a lot in common with P2PKH. The main difference is that the address is created by hashing a redeem script instead of hashing a single public key.</p>
+<p>A redeem script can be thought of as coded instructions specifying how bitcoin received to the P2SH address can be spent in the future. There could be a wide range of possibilities, including multiple different public keys. The receiver, not the sender, determines the script details, and the spending instructions are not exposed publicly until bitcoin is spent out of the address.</p>
+<p>While advanced users can construct complex scripts, the most common uses for P2SH have been to create Nested SegWit addresses (<a href="https://unchained.com/blog/bitcoin-address-types-compared/#nested-segwit">covered below</a>) and multisig wallets. For example, a script can include three public keys and specify that signatures from any two of the corresponding private keys can spend the bitcoin. This would create a 2-of-3 multisig address.</p>
+<p>P2SH addresses are <a href="https://bitcoin.stackexchange.com/questions/109938/why-p2sh-seems-to-be-never-smaller-than-34-characters-unlike-p2pkh">exactly</a> 34 characters in length, and they begin with a prefix of <strong>3</strong>, as specified by BIP 13. Before the soft fork on April 1st, a handful of transactions experimented with this alternative prefix, the first of which is found <a href="https://mempool.space/tx/9c08a4d78931342b37fd5f72900fb9983087e6f46c4a097d8a1f52c74e28eaf6">in Block 170,052</a>.</p>
+<h3 id="quick-facts-3">
+  Quick facts
+  <a class="anchor" href="#quick-facts-3">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/2597f4819e1902750b9e1fa1515df22bbf14f3a78a2b82aa7d62a8109d83289d">Block 174,717 | April 7, 2012</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">342ftSRCvFHfCeFFBuz4xwbeqnDw6BGUey</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 4.6M BTC or 24%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Decreasing popularity</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2wpkh">
+  P2WPKH
+  <a class="anchor" href="#p2wpkh">#</a>
+</h2>
+<p>Pay-to-Witness-Public-Key-Hash (P2WPKH) is the first of two address types introduced to bitcoin upon the SegWit soft fork in August 2017. The story behind this extremely important and particularly contentious soft fork is documented in a book called <a href="https://a.co/d/hUKyXwZ">The Blocksize War</a>, written by Jonathan Bier.</p>
+<p>P2WPKH is the SegWit variant of P2PKH, which at a basic level, means that choosing this address type rather than older P2PKH addresses will help you save money on transaction fees when moving your bitcoin around.</p>
+<p>SegWit addresses look quite different from the older address types because, per BIP 173, they use Bech32 encoding instead of Base58. Most notably, there are no capital letters in Bech32. P2WPKH addresses can be identified by a prefix of bc1q and a character length of exactly 42.</p>
+<h3 id="quick-facts-4">
+  Quick facts
+  <a class="anchor" href="#quick-facts-4">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/dfcec48bb8491856c353306ab5febeb7e99e4d783eedf3de98f3ee0812b92bad">Block 481,824 | August 23, 2017</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">bc1q34aq5drpuwy3wgl9lhup9892qp6svr8ldzyy7c</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 3.8M BTC or 20%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Increasing popularity</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2wsh">
+  P2WSH
+  <a class="anchor" href="#p2wsh">#</a>
+</h2>
+<p>Pay-to-Witness-Script-Hash (P2WSH) is the SegWit variant of P2SH. The main advantage to using P2WSH over P2SH is that it can help lower transaction fees, and the primary reason to use a script hash instead of a public key hash is to accommodate multisig arrangements.</p>
+<p>Like P2WPKH, a P2WSH address begins with a prefix of <strong>bc1q</strong>. However, it has a longer character length of exactly 62. Unlike the address types covered thus far, P2WSH addresses are created using the SHA-256 hashing function alone, without including RIPEMD-160, resulting in the increased character length. This was implemented cautiously, adding extra protection from a fairly nuanced and extremely unlikely multisig <a href="https://bitcoin.stackexchange.com/questions/54841/birthday-attack-on-p2sh/54847#54847">attack vector</a>.</p>
+<h3 id="quick-facts-5">
+  Quick facts
+  <a class="anchor" href="#quick-facts-5">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/461e8a4aa0a0e75c06602c505bd7aa06e7116ba5cd98fd6e046e8cbeb00379d6">Block 481,824 | August 23, 2017</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">bc1qeklep85ntjz4605drds6aww9u0qr46qzrv5xswd35uhjuj8ahfcqgf6hak</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 0.8M BTC or 4%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Increasing popularity</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="nested-segwit-p2sh-p2wpkh-and-p2sh-p2wsh">
+  Nested SegWit (P2SH-P2WPKH and P2SH-P2WSH)
+  <a class="anchor" href="#nested-segwit-p2sh-p2wpkh-and-p2sh-p2wsh">#</a>
+</h2>
+<p>Nested SegWit (also known as Wrapped SegWit) is technically not a different address type than we’ve covered above. Still, it is a unique way to use previously discussed address types in a manner that was temporarily useful for the bitcoin community.</p>
+<p>When the SegWit soft-fork occurred, not all bitcoin nodes, software, and services immediately upgraded to support the new Native SegWit address types, P2WPKH and P2WSH. Only the entities that did upgrade could send to these new addresses. This meant that folks who wanted the ability to receive bitcoin from anybody (including those who hadn’t upgraded) couldn’t use a Native SegWit wallet yet. However, since SegWit offered cheaper transaction fees, most people were keen to begin using it.</p>
+<p>The crafty solution to this dilemma was to utilize the P2SH transaction type. The entities that had not yet implemented SegWit could still send bitcoin to P2SH addresses—which, <a href="https://unchained.com/blog/bitcoin-address-types-compared/#p2sh">as discussed above</a>, are built with a redeem script specifying the instructions on how the bitcoin can be spent later on. As it turns out, these instructions could incorporate the new SegWit spending model, providing users with a bridge to reduced fees. Therefore, the P2SH addresses using this trick became known as Nested SegWit, and they played a significant role in the SegWit adoption process.</p>
+<p>On the surface, Nested SegWit addresses are indistinguishable from other P2SH addresses, so the supply of bitcoin held in this arrangement is unknowable. Additionally, since all modern bitcoin tools can now send directly to Native SegWit addresses, there is no longer any good reason to use Nested SegWit.</p>
+<h3 id="quick-facts-6">
+  Quick facts
+  <a class="anchor" href="#quick-facts-6">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left">Unknown</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">Same as P2SH</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">Unknown subset of P2SH</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Obsolete</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="p2tr">
+  P2TR
+  <a class="anchor" href="#p2tr">#</a>
+</h2>
+<p>Pay-to-Taproot (P2TR) is the newest address type, made available by the Taproot soft-fork in November 2021. P2TR adoption remains quite low at the time of writing, and many bitcoin softwares and services are still working on integration.</p>
+<p>While P2WPKH and P2WSH are known as SegWit V0, P2TR is considered SegWit V1. Notably, P2TR utilizes a digital signature algorithm called Schnorr, which differs from the ECDSA format used in earlier bitcoin transaction types. Schnorr signatures have several advantages, including additional transaction fee reductions and increased privacy.</p>
+<p>Regarding privacy, the key and signature aggregations made possible by Schnorr allow multisig addresses to be indistinguishable from singlesig, and the full spending conditions for a P2TR address are not necessarily revealed publicly. The creator of the address can even include multiple customized redeem scripts to choose from in order to spend the bitcoin later.</p>
+<p>P2TR addresses are 62 characters long, and they use Bech32m encoding, a slightly modified version of Bech32, as described in <a href="https://github.com/bitcoin/bips/blob/master/bip-0350.mediawiki">BIP 350</a>. P2TR addresses can be identified by their unique <strong>bc1p</strong> prefix.</p>
+<h3 id="quick-facts-7">
+  Quick facts
+  <a class="anchor" href="#quick-facts-7">#</a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">First seen</td>
+          <td style="text-align: left"><a href="https://mempool.space/tx/5849051cf3ce36257a1d844e28959f368a35adc9520fb9679175f6cdf8c1f1d1">Block 709,632 | November 13, 2021</a></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Example recipient</td>
+          <td style="text-align: left">bc1pxwww0ct9ue7e8tdnlmug5m2tamfn7q06sahstg39ys4c9f3340qqxrdu9k</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Current supply</td>
+          <td style="text-align: left">~ 0.02M BTC or 0.1%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Status</td>
+          <td style="text-align: left">Increasing popularity</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="reference-chart">
+  Reference chart
+  <a class="anchor" href="#reference-chart">#</a>
+</h2>
+<p>Now that we have covered all standardized methods to receive bitcoin on-chain, some of the quick facts and address features can be combined into a convenient chart for reference.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Type</th>
+          <th style="text-align: left">First Seen</th>
+          <th style="text-align: left">BTC Supply*</th>
+          <th style="text-align: left">Use*</th>
+          <th style="text-align: left">Encoding</th>
+          <th style="text-align: left">Prefix</th>
+          <th style="text-align: left">Characters</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">P2PK</td>
+          <td style="text-align: left">Jan 2009</td>
+          <td style="text-align: left">9% (1.7M)</td>
+          <td style="text-align: left">Obsolete</td>
+          <td style="text-align: left">-</td>
+          <td style="text-align: left">-</td>
+          <td style="text-align: left">-</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2PKH</td>
+          <td style="text-align: left">Jan 2009</td>
+          <td style="text-align: left">43% (8.3M)</td>
+          <td style="text-align: left">Decreasing</td>
+          <td style="text-align: left">Base58</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">26 - 34</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2MS</td>
+          <td style="text-align: left">Jan 2012</td>
+          <td style="text-align: left">Negligible</td>
+          <td style="text-align: left">Obsolete</td>
+          <td style="text-align: left">-</td>
+          <td style="text-align: left">-</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2SH</td>
+          <td style="text-align: left">Apr 2012</td>
+          <td style="text-align: left">24% (4.6M)</td>
+          <td style="text-align: left">Decreasing</td>
+          <td style="text-align: left">Base58</td>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">34</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2WPKH</td>
+          <td style="text-align: left">Aug 2017</td>
+          <td style="text-align: left">20% (3.8M)</td>
+          <td style="text-align: left">Increasing</td>
+          <td style="text-align: left">Bech32</td>
+          <td style="text-align: left">bc1q</td>
+          <td style="text-align: left">42</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2WSH</td>
+          <td style="text-align: left">Aug 2017</td>
+          <td style="text-align: left">4% (0.8M)</td>
+          <td style="text-align: left">Increasing</td>
+          <td style="text-align: left">Bech32</td>
+          <td style="text-align: left">bc1q</td>
+          <td style="text-align: left">62</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">P2TR</td>
+          <td style="text-align: left">Nov 2021</td>
+          <td style="text-align: left">0.1% (0.02M)</td>
+          <td style="text-align: left">Increasing</td>
+          <td style="text-align: left">Bech32m</td>
+          <td style="text-align: left">bc1p</td>
+          <td style="text-align: left">62</td>
+      </tr>
+  </tbody>
+</table>
+<p><em>* Data in these columns are subject to change.</em></p>
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/bitcoin-address-types/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#p2pk">P2PK</a>
+          <ul>
+            <li><a href="#quick-facts">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2pkh">P2PKH</a>
+          <ul>
+            <li><a href="#quick-facts-1">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2ms">P2MS</a>
+          <ul>
+            <li><a href="#quick-facts-2">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2sh">P2SH</a>
+          <ul>
+            <li><a href="#quick-facts-3">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2wpkh">P2WPKH</a>
+          <ul>
+            <li><a href="#quick-facts-4">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2wsh">P2WSH</a>
+          <ul>
+            <li><a href="#quick-facts-5">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#nested-segwit-p2sh-p2wpkh-and-p2sh-p2wsh">Nested SegWit (P2SH-P2WPKH and P2SH-P2WSH)</a>
+          <ul>
+            <li><a href="#quick-facts-6">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#p2tr">P2TR</a>
+          <ul>
+            <li><a href="#quick-facts-7">Quick facts</a></li>
+          </ul>
+        </li>
+        <li><a href="#reference-chart">Reference chart</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

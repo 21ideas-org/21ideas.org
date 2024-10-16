@@ -1,0 +1,3736 @@
+<!DOCTYPE html>
+<html lang="ru-RU" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Автор выражает благодарность Estudio Bitcoin, и лично Albercoin и Arkad, за их работу по установке RoninDojo на x86.
+
+
+  С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться здесь. Установка &ldquo;ванильного&rdquo; Dojo описана в официальной документации Samourai и в руководстве от 𝕂𝕐ℂ𝟛.
+
+
+  Во время ареста разработчиков Samourai Wallet 24 апреля 2024 года спецслужбами были так же отключены серверы координатора Whirlpool и обозреватель блокчейна OXT. В связи с этим, начиная с версии RoninDojo v2.1.4, из кода удалены инструменты Whirlpool, WST и калькулятор Больцмана.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Установка RoninDojo на x86" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/practice-privacy/ronindojo/" />
+<meta property="og:image" content="http://localhost:1313/img/ronin-11.jpg"/>
+
+<title>Установка RoninDojo на x86 | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/en/practice-privacy/ronindojo/" title="RoninDojo x86 Installation Guide">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/ru.search.min.276d75d6cbd74d16527b7d3989a3a6bcaef28b75b2186b35cff841c8b4bf32b8.js" integrity="sha256-J2111svXTRZSe305iaOmvK7yi3WyGGs1z/hByLS/Mrg=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Поиск" aria-label="Поиск" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Русский
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/practice-privacy/ronindojo/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a href="/start/" class="">Старт</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/start/" class="">Что такое Биткоин?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/start/guide/" class="">Используем биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/course/" class="">Биткоин от А до Я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-myths/" class="">Разрушаем мифы о Биткоине</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/shitcoin-casino/" class="">Не играйте в щиткоин-казино</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle"  />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/theory/" class="">Теория</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/economics/" class="">Экономика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/pzv/" class="">Постепенно, затем внезапно</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/postepenno-zatem-vnezapno/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nelzya-skopirovat/" class="">Биткоин нельзя скопировать</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-volatilen/" class="">Биткоин не слишком волатилен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-tratit-energiyu-zrya/" class="">Биткоин не тратит энергию зря</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-slishkom-medlennyj/" class="">Биткоин не слишком медленный</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-ispravit/" class="">Биткоин это исправит</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-blokchejn/" class="">Биткоин, не блокчейн</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-nichem-ne-podkreplen/" class="">Биткоин ничем не подкреплен?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-finansovaya-piramida/" class="">Биткоин — не финансовая пирамида</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-mozhet-byt-zabanen/" class="">Биткоин не может быть забанен</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-ne-dlya-prestupnikov/" class="">Биткоин не для преступников</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-obescenivaet-ostalnye-dengi/" class="">Биткоин обесценивает остальные деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-zov-k-edineniyu/" class="">Биткоин — зов к единению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-eto-zdravyj-smysl/" class="">Биткоин — это здравый смысл</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-antihrupok/" class="">Биткоин антихрупок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pzv/bitkoin-velikaya-definancializaciya/" class="">Биткоин — великая дефинанcиализация</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/sb/" class="">Становление Биткоина</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-intro/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-1/" class="">О времени</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-2/" class="">О людях</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-3/" class="">Знакомьтесь: деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-4/" class="">Поворот не туда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-5/" class="">Цифровая редкость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-6/" class="">Цифровые контракты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sb/stanovlenie-7/" class="">Недостающие части головоломки</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitkoin-ne-vredit-okruzhayushej-srede/" class="">Биткоин и окружающая среда</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sem-setevyh-effektov-bitkoina/" class="">Семь сетевых эффектов Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hozyaeva-i-raby-deneg/" class="">Хозяева и рабы денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strukturnaya-perestrojka/" class="">Структурная перестройка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/v-zashchitu-deflyacii/" class="">В защиту дефляции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-monetarnyh-standartov/" class="">Сравнение монетарных стандартов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/negativnye-effekty-neftedollara/" class="">Негативные внешние эффекты нефтедоллара</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/raskoshelivaemsya/" class="">Раскошеливаемся (Shelling Out): Происхождение денег</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-ritmy-istorii/" class="">Биткоин и ритмы истории</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-internet-cikly-hopfa/" class="">Биткоин и интернет-циклы Хопфа</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/dengi-blokchejny-i-socialnaya-masshtabiruemost/" class="">Деньги, блокчейны и социальная масштабируемость</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-dengi/" class="">Что такое деньги</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vyzhivaet-silnejshij/" class="">Выживает сильнейший</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/strategiya-dca/" class="">Стратегия DCA</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/jevons-paradox/" class="">Парадокс Джевонса: Обратная истина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-rabotajut-dengi/" class="">Как работают деньги</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/security/" class="">Безопасность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kak-hranit-kljuchi/" class="">Биткоин-кошельки. Зачем и как хранить свои приватные ключи</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed/" class="">Что такое сид-фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seed-security/" class="">Как обезопасить свои сид-фразы?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/passphrase/" class="">Насколько надежна ваша парольная фраза?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig/" class="">Все о мультисиг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hwws/" class="">Сравнение аппаратных кошельков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-1/" class="">Мультисиг. Часть I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/multisig-2/" class="">Мультисиг. Часть II: Отдельные ключи – основа мультиподписи</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/privacy/" class="">Приватность</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/luchshie-praktiki/" class="">Как сохранить приватность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/no-kyc/" class="">Никаких KYC, берегите персональные данные</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-seti-bitcoin/" class="">Приватность в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-stanovitsya-kriticheski-vazhnym/" class="">Биткоин становится критически важным</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bip47-ili-gadkij-utenok/" class="">BIP47, или гадкий утенок</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/privacy/oxt/" class="">Понимание приватности в сети Биткоин с помощью OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-1/" class="">Часть 1: Анализ цепочки и приватность транзакций</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-2/" class="">Часть 2: Ключевые концепции анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-3/" class="">Часть 3: Защита от анализа цепочки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/oxt-4/" class="">Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privacy/coinjoin/" class="">Понимание и использование CoinJoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-fungibility/" class="">Взаимозаменяемость Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/protocol/" class="">Протокол</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/kto-kontroliruet-bitkoin-kor/" class="">Кто контролирует Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vechnaja-borba/" class="">Вечная борьба Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ob-udobstve-vzaimodejstvija-s-bitcoinom/" class="">Об удобстве взаимодействия с Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-zoloto-2-0/" class="">Биткоин: цифровое золото или пиринговая наличность?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/upravlenie-bitcoin/" class="">Управление Биткоином</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/doverennye-tretyi-storony/" class="">Доверенные третьи стороны — это бреши в системе безопасности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/21-million-ne-podlezhit-obsuzhdeniyu/" class="">21 миллион не подлежит обсуждению</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-work/" class="">Proof of Work: доказательство проделанной работы</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/proof-of-stake-eto-skam/" class="">Proof of Stake – это скам</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/byl-li-satoshi-zhadnym-majnerom/" class="">Был ли Сатоши жадным майнером?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/segwit/" class="">Что такое SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/taproot/" class="">Что такое Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bomby-slozhnosti-ethereum/" class="">Бомбы сложности Ethereum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/rgb/" class="">Разбирая протокол RGB</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/halving/" class="">Что такое Биткоин-халвинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/difficulty/" class="">О корректировке сложности майнинга</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/sravnenie-tipov-bitcoin-adresov/" class="">Типы биткоин-адресов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/myths-about-halving/" class="">Мифы о Биткоин-халвинге</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mining-walkthrough/" class="">SHA256 и майнинг в сети Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/protocol/utxo/" class="">Что такое UTXO и как ими управлять?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-1/" class="">Что такое UTXO?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-2/" class="">Как избежать высоких комиссий при большом количестве UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/protocol/utxo-3/" class="">Приватность UTXO</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/transaction-size/" class="">Размер транзакции</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle"  />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/history/" class="">История</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle"  />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/gf/" class="">Генезис-файлы</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-intro/" class="">Пролог</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-1/" class="">Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-2/" class="">Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-3/" class="">Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-4/" class="">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/gf/genesis-5/" class="">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hal-finney/" class="">Хэл Финни — жизнь и смерть легенды движения шифропанков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-and-me/" class="">Биткоин и я</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-reformaciya/" class="">Биткоин-Реформация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-forks/" class="">Полная история консенсус-форков Биткоина</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/analyzing-2013-fork/" class="">Анализ форка Биткоина 2013 года</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/philosophy/" class="">Философия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/chemu-ya-nauchilsya-u-bitcoina/" class="">Чему я научился у Биткоина?</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/" class="">Часть1. Философские уроки Биткоина</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ne-shitcoin/" class="">Биткоин, не щиткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/neotemlemye-prava-sobstvennosti/" class="">Неотъемлемые права собственности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-kriptoanarhista/" class="">Манифест криптоанархиста</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/manifest-shifropanka/" class="">Манифест шифропанка</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/tyulpannaya-lihoradka/" class="">Биткоин — современная голландская тюльпанная лихорадка?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vse-moshenniki/" class="">Все — мошенники</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/svoboda-cennosti/" class="">Свобода ценности</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-meme/" class="">Биткоин — единственный реальный мем</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/nol-i-bitcoin/" class="">Ноль и Биткоин</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/crypto-bro/" class="">Дорогие крипто- и фиат-бро</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/boremsya-s-poddelnymi-bitcoin/" class="">Боремся с поддельными биткоинами</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bit%D1%81oin-eto-micelij/" class="">Биткоин — это мицелий</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pochemu-bitcoin-zhivoj-organizm/" class="">Доказательство жизни. Почему Биткоин — живой организм</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/samaya-mirnaya-revolyuciya/" class="">Самая мирная революция</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/o-bitcoin-vselennoj/" class="">О Биткоин-вселенной</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-dissidenty/" class="">Биткоин-диссиденты</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-svoboda/" class="">Биткоин = свобода</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/future/" class="">Будущее</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/ba/" class="">Биткоин-астрономия</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/1/" class="">Постгипербиткоинизация</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/2/" class="">Миллион крошечных миров</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ba/3/" class="">Первый контакт</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ej-bitcoin-pritormozi/" class="">Эй, Биткоин, притормози</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/apokalipsis/" class="">Сможет ли Биткоин пережить апокалипсис?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/bitcoin-i-teplovaya-energiya-okeanov/" class="">Биткоин и тепловая энергия океанов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/lightning/" class="">Лайтнинг</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/chto-takoe-laitning/" class="">Что такое Лайтнинг?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-koshelki/" class="">Лайтнинг-кошельки</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lajtning-adresa/" class="">Лайтнинг-адреса</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/privatnost-v-lajtning/" class="">Приватность в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/centralizovanna-li-set-lightning/" class="">Централизованна ли сеть Lightning?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mekhanizm-raboty-lightning/" class="">Механизм работы Lightning Network</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/problema-vhodyashchej-likvidnosti/" class="">Решение проблемы входящей ликвидности</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle" checked />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/practice/" class="">Практика</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/practice/buy/" class="">Покупка</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/newbie-buy/" class="">Покупка и хранение биткоина для новичков</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/hodl-hodl/" class="">Покупка биткоина без KYC на Hodl Hodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/robosats/" class="">RoboSats: Приватный p2p обмен</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/practice/hodl/" class="">Хранение</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/electrum/" class="">Кошелек Электрум</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue/" class="">Кошелек Blue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/seedsigner/" class="">SeedSigner: оффлайн-крепость для ваших биткоинов</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/holodnyj-koshelek-iz-starogo-smartfona/" class="">Холодный кошелек из старого смартфона</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/coldcard/" class="">Что такое Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/practice/interact/" class="">Взаимодействие</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice/bitcoin-node/" class="">Каждому следует запустить собственную Биткоин-ноду!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/orangepilling-in-5-min/" class="">Оранжпиллинг за 5 минут</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/5-tips-for-teaching-bitcoin/" class="">5 советов по обучению Биткоину</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle" checked />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/practice-privacy/" class="">Практики приватности</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/practice-privacy/dojo/" class="">Установка Биткоин-узла Dojo на x86</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-0/" class="">Введение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-1/" class="">Установка Bitcoin Core и Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-2/" class="">Установка индексатора Fulcrum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-3/" class="">Установка блокчейн-обозревателя Mempool</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-4/" class="">Установка Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-5/" class="">Конфигурация межсетевого экрана</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/dojo-6/" class="">Установка обновлений пакетов</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/practice-privacy/ronindojo/" class="active">Установка RoninDojo на x86</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/grapheneos/" class="">GrapheneOS: Избавляемся от слежки Google на смартфоне</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/practice/lightning/" class="">Лайтнинг на практике</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/phoenix/" class="">Кошелек Phoenix</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lnbits/" class="">LNbits – швейцарский нож среди лайтнинг-приложений</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/alby-i-nostr/" class="">Alby и Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/zapplanner/" class="">Подписки с помощью Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/lntips/" class="">Телеграм-бот @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/ochishchaem-bitcoin-cherez-lajtning/" class="">Очищаем биткоины через сеть Лайтнинг</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/likvidnost-v-lajtning/" class="">Руководство по управлению ликвидностью в сети Lightning</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/mutiny/" class="">Кошелек Mutiny</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/rabbithole/" class="">Кроличья нора</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/books/" class="">Книги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/videos/" class="">Видео</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/audiobooks/" class="">Аудиокниги</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/pods/" class="">Подкасты</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/posts/" class="">Блог</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/calendar/" class="">Биткоин-календарь</a>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/contribute/" class="">Принять участие</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/syntax/" class="">Оформление статей</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/github/" class="">Как добавить статью?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/obsidian/" class="">Публикация статей через Obsidian</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/feedback/" class="">Обратная связь</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Установка RoninDojo на x86</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#отличия-dojo-и-ronindojo">Отличия Dojo и RoninDojo</a></li>
+        <li><a href="#системные-требования">Системные требования</a></li>
+        <li><a href="#установка-операционной-системы">Установка операционной системы</a></li>
+        <li><a href="#определение-конфигурации">Определение конфигурации</a></li>
+        <li><a href="#предварительный-этап">Предварительный этап</a></li>
+        <li><a href="#установка-и-настройка-службы-tor">Установка и настройка службы Tor</a></li>
+        <li><a href="#установка-samourai-dojo">Установка Samourai Dojo</a></li>
+        <li><a href="#roninos">RoninOS</a>
+          <ul>
+            <li><a href="#настройка-plymouth">Настройка plymouth</a></li>
+            <li><a href="#настройка-межсетевого-экрана">Настройка межсетевого экрана</a></li>
+            <li><a href="#настройка-дисков">Настройка дисков</a></li>
+          </ul>
+        </li>
+        <li><a href="#ronin-ui-и-ronin-cli">Ronin UI и Ronin CLI</a></li>
+        <li><a href="#патчи-для-ronin-cli">Патчи для Ronin CLI</a></li>
+        <li><a href="#инструменты-ronindojo">Инструменты RoninDojo</a>
+          <ul>
+            <li><a href="#резервное-копирование-блокчейна">Резервное копирование блокчейна</a></li>
+            <li><a href="#установка-wst-и-калькулятора-больцмана">Установка WST и калькулятора Больцмана</a></li>
+            <li><a href="#whirlpool">Whirlpool</a></li>
+            <li><a href="#обозреватели-блокчейна">Обозреватели блокчейна</a></li>
+            <li><a href="#dojo-maintenance-tool-dmt">Dojo Maintenance Tool (DMT)</a></li>
+            <li><a href="#индексаторы-блокчейна">Индексаторы блокчейна</a></li>
+            <li><a href="#прочие-инструменты">Прочие инструменты</a></li>
+          </ul>
+        </li>
+        <li><a href="#обновление-ronindojo">Обновление RoninDojo</a>
+          <ul>
+            <li><a href="#обновление-ronin-ui">Обновление Ronin UI</a></li>
+            <li><a href="#обновление-ronin-cli">Обновление Ronin CLI</a></li>
+            <li><a href="#обновление-samourai-dojo">Обновление Samourai Dojo</a></li>
+          </ul>
+        </li>
+        <li><a href="#поддержите-автора">Поддержите автора</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/ronin-11.jpg" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    Установка RoninDojo на x86
+    
+</h1>
+<div class="pageDate">
+    2 февраля 2024 г.
+</div>
+
+  <article class="markdown"><blockquote class="book-hint btc">
+  Автор выражает благодарность <a href="https://twitter.com/estudiobitcoin">Estudio Bitcoin</a>, и лично <a href="https://twitter.com/Albercoin">Albercoin</a> и <a href="https://twitter.com/Multicripto">Arkad</a>, за их <a href="https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64">работу</a> по установке RoninDojo на x86.
+</blockquote>
+<blockquote class="book-hint info">
+  С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться <a href="/privacy/coinjoin">здесь</a>. Установка &ldquo;ванильного&rdquo; Dojo описана в <a href="https://docs.samourai.io/en/dojo">официальной документации</a> <a href="https://twitter.com/SamouraiWallet">Samourai</a> и в <a href="/practice-privacy/dojo">руководстве</a> от <a href="https://twitter.com/KYCfree">𝕂𝕐ℂ𝟛</a>.
+</blockquote>
+<blockquote class="book-hint danger">
+  <p>Во время ареста разработчиков Samourai Wallet 24 апреля 2024 года спецслужбами были так же отключены серверы координатора Whirlpool и обозреватель блокчейна <a href="/privacy/oxt">OXT</a>. В связи с этим, начиная с версии RoninDojo v2.1.4, из кода удалены инструменты Whirlpool, WST и калькулятор Больцмана.</p>
+<p><a href="https://freesamourai.com/">#FREESAMOURAI</a></p>
+<p>В результате <a href="https://blog.lopp.net/griefing-bitcoin-testnet">атаки на тестнет</a>, версия Testnet3 оказалась неработоспособна, а новая Testnet4 пока не реализована в Samourai Dojo.</p>
+
+</blockquote>
+
+<h2 id="отличия-dojo-и-ronindojo">
+  Отличия Dojo и RoninDojo
+  <a class="anchor" href="#%d0%be%d1%82%d0%bb%d0%b8%d1%87%d0%b8%d1%8f-dojo-%d0%b8-ronindojo">#</a>
+</h2>
+<p>В состав классического Dojo-сервера входят:</p>
+<ul>
+<li>Bitcoin Core.</li>
+<li>Обозреватель блокчейна <a href="https://github.com/janoside/btc-rpc-explorer">BTC RPC Explorer</a>.</li>
+<li>Индексатор блокчейна Fulcrum (совместим с ElectrumX) или Addrindexrs.</li>
+<li>Панель управления Dojo Maintenance Tool (DMT).</li>
+<li>Whirlpool CLI.</li>
+<li>Поддержка Testnet (в RoninDojo отсутствует).</li>
+</ul>
+<p>В RoninDojo добавлены:</p>
+<ul>
+<li>Индексатор блокчейна Electrum Rust Server (electrs). Таким образом, пользователь может выбирать из трех вариантов.</li>
+<li>Опционально устанавливаемый обозреватель блокчейна <a href="https://github.com/mempool/mempool">Mempool</a>.</li>
+<li>Веб-интерфейс Ronin UI.</li>
+<li>Whirlpool GUI непосредственно в веб-интерфейсе.</li>
+<li>Консольная панель управления Ronin CLI.</li>
+<li><a href="/privacy/coinjoin/#whirlpool-stats-tool-wst">Whirlpool Stats Tool (WST)</a>.</li>
+<li><a href="/privacy/coinjoin/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0">Boltzmann Calculator</a>.</li>
+<li>Резервное копирование блокчейна на отдельный диск после IBD.</li>
+</ul>
+<p>В данном руководстве будет описана ручная установка всех компонентов в операционной системе на базе Debian. Я использовал Ubuntu 22.04. Данный способ позволит:</p>
+<ul>
+<li>Использовать любое оборудование, соответствующее минимальным требованиям. Два SSD-диска являются рекомендуемой конфигурацией, но совсем не обязательной.</li>
+<li>Выбирать базовую операционную систему.</li>
+<li>Настроить необходимые компоненты до установки системы:
+<ul>
+<li>Выбрать индексатор (Electrs, Fulcrum или Addrindexrs).</li>
+<li>Установить обозреватель Mempool.</li>
+<li>Включить Auth47 для аутентификации в DMT с помощью PayNym.</li>
+<li>Сконфигурировать мосты для Tor.</li>
+<li>Включить поддержку Testnet.</li>
+</ul>
+</li>
+</ul>
+<blockquote class="book-hint btc">
+  Если вы только изучаете возможности кошелька Samourai, то я рекомендую попробовать все возможности именно в Testnet. Для этого вам достаточно <a href="https://www.virtualbox.org">виртуальной машины</a> и 100 ГБ выделенного пространства.
+</blockquote>
+<h2 id="системные-требования">
+  Системные требования
+  <a class="anchor" href="#%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%bd%d1%8b%d0%b5-%d1%82%d1%80%d0%b5%d0%b1%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f">#</a>
+</h2>
+<ul>
+<li>64-разрядный компьютер с процессором Intel/AMD. Рекомендуется Intel Core i5 6500 или аналогичный.</li>
+<li>Минимум 8 ГБ оперативной памяти.</li>
+<li>SSD-накопитель объемом 1 ТБ, настоятельно рекомендуется 2 ТБ. Так же хорошей практикой будет использование небольшого по объему SSD от 100 ГБ для функционирования операционной системы, в то время, как данные блокчейна будут находиться на отдельном большом диске.</li>
+<li>Рекомендуется подключаемый HDD/SSD-накопитель объемом 1 ТБ для создания резервной копии данных блокчейна из Bitcoin Core.</li>
+</ul>
+<h2 id="установка-операционной-системы">
+  Установка операционной системы
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d0%be%d0%b9-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">#</a>
+</h2>
+<p>Вам необходимо установить базовую операционную систему. Я использовал серверную версию Ubuntu 22.04. <a href="https://ubuntu.com/download/server">Скачать</a> ее можно на официально сайте Ubuntu. Подробную инструкцию по установке можно найти <a href="https://losst.pro/ustanovka-ubuntu-server-20-04">здесь</a>.</p>
+<p>В процессе установки необходимо выключить опцию &ldquo;Set up this disk as an LVM group&rdquo;.</p>
+<blockquote class="book-hint info">
+  Если вы используете два SSD, то выберите диск меньшего размера.
+</blockquote>
+<div class="imageWrapper">
+    <img src="/img/ronin-02.png">
+</div>
+<p>Не забудьте включить опцию &ldquo;Install OpenSSH server&rdquo;.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-01.png">
+</div>
+<p>После успешной установки зайдите на ваш сервер из локальной сети с помощью <a href="https://losst.pro/kak-podklyuchitsya-po-ssh">SSH-клиента</a>, используя имя пользователя, заданное при установке, внутренний IP-адрес вашей машины для RoninDojo и порт 22. Узнать адрес в вашей сети можно с помощью команды на сервере:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hostname -I
+</span></span></code></pre></div><p>Мой внутренний IP-адрес 10.0.2.15, соответственно адрес подсети в моем случае 10.0.2.0/24, по аналогии определите свой и запишите.</p>
+<h2 id="определение-конфигурации">
+  Определение конфигурации
+  <a class="anchor" href="#%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d0%b8">#</a>
+</h2>
+<p>Получаем имя вашего сетевого интерфейса. Запишите его, например &ldquo;<em>eno1</em>&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ip -o -4 route show to default | awk <span style="color:#e6db74">&#39;{print $5}&#39;</span>
+</span></span></code></pre></div><p>Введите следующую команду и запишите название раздела диска (из столбца &ldquo;NAME&rdquo;), в котором находится корень &ldquo;/&rdquo; файловой системы (столбец &ldquo;MOUNTPOINTS&rdquo;). Добавьте &ldquo;<em>/dev/</em>&rdquo; перед именем раздела - у меня это &ldquo;<em>/dev/sda2</em>&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lsblk
+</span></span></code></pre></div><div class="imageWrapper">
+    <img src="/img/ronin-03.png">
+</div>
+<blockquote class="book-hint info">
+  <p>Если вы используете два SSD, то определите из вывода предыдущей команды имя диска, который будет использоваться под данные блокчейна. Его объем будет 1 или 2 ТБ. В примере ниже системный раздел - это /dev/sdb2, а большой диск - это /dev/sda.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-04.png">
+</div>
+<p>Форматируем большой диск. Замените значение /dev/sda на свое. Не забудьте про &ldquo;1&rdquo; в конце третьей команды.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo wipefs -a --force /dev/sda
+</span></span><span style="display:flex;"><span>sudo sgdisk -Zo -n <span style="color:#ae81ff">1</span> -t 1:8300 /dev/sda
+</span></span><span style="display:flex;"><span>sudo mkfs.ext4 -q -F -L <span style="color:#e6db74">&#34;main&#34;</span> /dev/sda1
+</span></span><span style="display:flex;"><span>lsblk
+</span></span></code></pre></div><p>Теперь у меня появился большой раздел /dev/sda1, единственный на этом диске. Запишите название своего раздела для данных блокчейна.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-05.png">
+</div>
+<p>Монтируем раздел в системе. Замените /dev/sda1 на ваше значение.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tee <span style="color:#e6db74">&#34;/etc/systemd/system/mnt-usb.mount&#34;</span> <span style="color:#e6db74">&lt;&lt;EOF
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Unit]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Description=Mount primary storage /dev/sda1
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Mount]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">What=/dev/disk/by-uuid/$(lsblk -no UUID /dev/sda1)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Where=/mnt/usb
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Type=$(blkid -o value -s TYPE /dev/sda1)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Options=defaults
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Install]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">WantedBy=multi-user.target
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl daemon-reload
+</span></span><span style="display:flex;"><span>sudo systemctl start mnt-usb.mount
+</span></span><span style="display:flex;"><span>sudo systemctl enable mnt-usb.mount
+</span></span></code></pre></div>
+</blockquote>
+<p>Подключите внешний HDD/SSD, который вы планируете использовать для бэкапа данных блокчейна. Этот шаг можно пропустить. Подключите диск и снова выполните команду:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lsblk
+</span></span></code></pre></div><div class="imageWrapper">
+    <img src="/img/ronin-07.png">
+</div>
+<p>Вы увидите только что подключенный диск в таблице. Запишите название диска для резервной копии, добавив &ldquo;<em>/dev/</em>&rdquo; в начале и &ldquo;<em>1</em>&rdquo; в конце, в моем случае  - <em>/dev/sdb1</em>.</p>
+<h2 id="предварительный-этап">
+  Предварительный этап
+  <a class="anchor" href="#%d0%bf%d1%80%d0%b5%d0%b4%d0%b2%d0%b0%d1%80%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d1%8d%d1%82%d0%b0%d0%bf">#</a>
+</h2>
+<p>Добавим пользователя ronindojo в нашу систему, зададим пароль и выполним вход от нового пользователя.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo useradd -s /bin/bash -d /home/ronindojo -m -G sudo ronindojo
+</span></span><span style="display:flex;"><span>sudo passwd ronindojo
+</span></span><span style="display:flex;"><span>sudo su
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;ronindojo    ALL=(ALL) ALL&#34;</span> &gt;&gt; /etc/sudoers
+</span></span><span style="display:flex;"><span>su - ronindojo
+</span></span></code></pre></div><p>Устанавливаем необходимые программы.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade
+</span></span><span style="display:flex;"><span>sudo apt install bash-completion nano tor obfs4proxy torsocks net-tools apt-transport-https gnupg-agent unzip git openjdk-11-jdk fail2ban net-tools htop unzip ufw rsync jq python3-pip gcc dialog bpytop less plymouth-label --no-install-recommends
+</span></span><span style="display:flex;"><span>pip3 install pipenv
+</span></span></code></pre></div><p>Устанавливаем Docker.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+</span></span><span style="display:flex;"><span>sudo add-apt-repository <span style="color:#e6db74">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74"> stable&#34;</span>
+</span></span><span style="display:flex;"><span>sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin --no-install-recommends
+</span></span><span style="display:flex;"><span>sudo curl -L https://github.com/docker/compose/releases/download/v2.21.0/docker-compose-linux-x86_64 -o /usr/bin/docker-compose
+</span></span><span style="display:flex;"><span>sudo chmod +x /usr/bin/docker-compose
+</span></span><span style="display:flex;"><span>sudo systemctl stop docker
+</span></span><span style="display:flex;"><span>sudo systemctl stop docker.socket
+</span></span><span style="display:flex;"><span>sudo systemctl stop containerd
+</span></span><span style="display:flex;"><span>sudo mkdir -p /mnt/usb
+</span></span><span style="display:flex;"><span>sudo mv /var/lib/docker/ /mnt/usb/
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tee <span style="color:#e6db74">&#34;/etc/docker/daemon.json&#34;</span> <span style="color:#e6db74">&lt;&lt; EOF
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;log-driver&#34;: &#34;json-file&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;log-opts&#34;: {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;max-size&#34;: &#34;10m&#34;,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;max-file&#34;: &#34;3&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  },
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;data-root&#34;: &#34;/mnt/usb/docker&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start docker
+</span></span><span style="display:flex;"><span>sudo usermod -a -G docker ronindojo
+</span></span></code></pre></div><p>Устанавливаем NodeJS.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash
+</span></span><span style="display:flex;"><span>sudo apt install nodejs
+</span></span><span style="display:flex;"><span>exit
+</span></span></code></pre></div><h2 id="установка-и-настройка-службы-tor">
+  Установка и настройка службы Tor
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b8-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d1%81%d0%bb%d1%83%d0%b6%d0%b1%d1%8b-tor">#</a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo useradd -c <span style="color:#e6db74">&#34;tor&#34;</span> tor
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tee <span style="color:#e6db74">&#34;/usr/lib/systemd/system/tor.service&#34;</span> <span style="color:#e6db74">&lt;&lt;EOF
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Unit]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Description=Anonymizing overlay network for TCP
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">After=syslog.target network.target nss-lookup.target
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Unit]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">RequiresMountsFor=/mnt/usb
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Service]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Type=notify
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">NotifyAccess=all
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ExecStartPre=/usr/bin/tor -f /etc/tor/torrc --verify-config
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ExecStart=/usr/bin/tor -f /etc/tor/torrc
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ExecReload=/bin/kill -HUP ${MAINPID}
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">KillSignal=SIGINT
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">TimeoutSec=60
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Restart=on-failure
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">WatchdogSec=1m
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">LimitNOFILE=32768
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># Hardening
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">PrivateTmp=yes
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">PrivateDevices=yes
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ProtectHome=yes
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ProtectSystem=full
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ReadOnlyDirectories=/
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ReadWriteDirectories=-/var/lib/tor /mnt/usb/tor
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ReadWriteDirectories=-/var/log/tor
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">NoNewPrivileges=yes
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">CapabilityBoundingSet=CAP_SETUID CAP_SETGID CAP_NET_BIND_SERVICE CAP_DAC_READ_SEARCH
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">[Install]
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">WantedBy=multi-user.target
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl stop tor@default.service
+</span></span><span style="display:flex;"><span>sudo rm -rf /usr/lib/systemd/system/tor@*
+</span></span><span style="display:flex;"><span>sudo mkdir /mnt/usb/tor/
+</span></span><span style="display:flex;"><span>sudo chown -R tor:tor /mnt/usb/tor/
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/tor/torrc
+</span></span></code></pre></div><p>Вставляем следующие строки в конец файла. Если вы испытываете проблемы с подключением к Tor, то установите <em>UseBridges 1</em> и добавьте <a href="https://bridges.torproject.org">мосты</a> после <em>Bridge</em>:</p>
+<pre tabindex="0"><code>ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+UseBridges 1
+Bridge obfs4 ... iat-mode=0
+Bridge obfs4 ... iat-mode=0
+Bridge obfs4 ... iat-mode=0
+#Hidden Service Ronin UI
+User tor
+DataDirectory /mnt/usb/tor
+HiddenServiceDir /mnt/usb/tor/hidden_service_ronin_backend/
+HiddenServiceVersion 3
+HiddenServicePort 80 127.0.0.1:8470
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl daemon-reload
+</span></span><span style="display:flex;"><span>sudo systemctl restart tor
+</span></span><span style="display:flex;"><span>sudo journalctl -f -u tor
+</span></span></code></pre></div><p>Дождитесь сообщений в логе Tor &ldquo;Bootstrapped 100% (done)&rdquo;, после чего его можно закрыть с помощью Ctrl+C.</p>
+<h2 id="установка-samourai-dojo">
+  Установка Samourai Dojo
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-samourai-dojo">#</a>
+</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/dojo/archive/master.tar.gz -O dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>tar -xvf dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>rm dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>cd ~/dojo/docker/my-dojo/
+</span></span></code></pre></div><p>Генерируем случайный пароль.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano conf/docker-bitcoind.conf.tpl
+</span></span></code></pre></div><p>Вставьте пароль после <em>BITCOIND_RPC_PASSWORD=</em></p>
+<p>Сохранить файл и выйти из редактора можно последовательным нажатием клавиш Ctrl+X, y, Enter.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano conf/docker-indexer.conf.tpl
+</span></span></code></pre></div><p>Здесь можно заменить electrs (по умолчанию) на fulcrum или addrindexrs после <em>INDEXER_TYPE=</em>. Fulcrum гораздо дольше синхронизируется, чем Electrs, и рекомендован для &ldquo;тяжелых&rdquo; кошельков с большим количеством транзакций. Addrindexrs поддерживает только Samourai Wallet, в то время как два других можно использовать для подключения таких кошельков, как Electrum и Sparrow Wallet.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>nano conf/docker-mempool.conf.tpl
+</span></span></code></pre></div><p>Установка обозревателя Mempool включается опцией <em>MEMPOOL_INSTALL=on</em>. Пароли необходимо вставить после <em>MEMPOOL_MYSQL_PASS=</em> и <em>MEMPOOL_MYSQL_ROOT_PASSWORD=</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>nano conf/docker-mysql.conf.tpl
+</span></span></code></pre></div><p>Добавьте сгенерированные пароли после <em>MYSQL_ROOT_PASSWORD=</em> и <em>MYSQL_PASSWORD=</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>tr -dc <span style="color:#e6db74">&#39;a-zA-Z0-9&#39;</span> &lt;/dev/urandom | head -c<span style="color:#e6db74">&#39;32&#39;</span>
+</span></span><span style="display:flex;"><span>nano conf/docker-node.conf.tpl
+</span></span></code></pre></div><p>Вставьте пароли следом за <em>NODE_API_KEY=</em>, <em>NODE_ADMIN_KEY=</em> и <em>NODE_JWT_SECRET=</em>. Опционально добавьте ваш платежный код BIP47 (PM8T&hellip;) после <em>NODE_PAYMENT_CODE=</em>. Включив эту возможность, вы сможете аутентифицироваться в Dojo Maintenance Tool при помощи опции &ldquo;Authenticate using PayNym&rdquo; из меню Tools в кошельке Samourai, просто отсканировав QR-код на экране логина.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano conf/docker-tor.conf.tpl
+</span></span></code></pre></div><p>Если у вас есть проблемы с подключением к Tor, установите <em>TOR_USE_BRIDGES=on</em> и пропишите <a href="https://bridges.torproject.org">мосты</a> следующим образом (не забывайте про кавычки): <em>TOR_BRIDGE_1=&ldquo;obfs4 &hellip; iat-mode=0&rdquo;</em>.</p>
+<blockquote class="book-hint info">
+  <p><strong>Только для Testnet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano conf/docker-common.conf.tpl
+</span></span></code></pre></div><p>Укажите <em>COMMON_BTC_NETWORK=testnet</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano nginx/testnet.conf
+</span></span></code></pre></div><p>Добавьте следующие строки в раздел # Site Configuration:</p>
+<pre tabindex="0"><code>    # Proxy WebSocket connections first
+    location /v2/inv {
+        proxy_pass http://websocket;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $connection_upgrade;
+    }
+    # PushTX server is separate, so proxy first
+    location /v2/pushtx/ {
+        proxy_pass http://node:8081/;
+    }
+    # Tracker server is separate, so proxy first
+    location /v2/tracker/ {
+        proxy_pass http://node:8082/;
+    }
+    # Proxy all other v2 requests to the accounts server
+    location /v2/ {
+        proxy_pass http://node:8080/;
+    }
+</code></pre>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./dojo.sh install
+</span></span></code></pre></div><p>Дождитесь окончания установки Dojo. Она занимает от 10 до 30 минут, в зависимости от производительности вашего компьютера и сетевого подключения.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-06.png">
+</div>
+<p>При возникновении ошибок, обычно связанных с сетевым соединением, вы можете остановить скрипт установки с помощью нескольких нажатий сочетания Ctrl+C и повторить последнюю команду. Если установка все же не удается, то вам придется настроить VPN на вашем маршрутизаторе. К сожалению данная процедура выходит за рамки данного руководства.</p>
+<h2 id="roninos">
+  RoninOS
+  <a class="anchor" href="#roninos">#</a>
+</h2>
+<p>RoninOS - это по сути скрипт, изменяющий базовую операционную систему для правильного функционирования RoninDojo. Так как он написан для определенной ОС и конкретной конфигурации оборудования, я произвел все необходимые изменения вручную.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/RoninOS/archive/master.tar.gz -O roninos-master.tar.gz
+</span></span><span style="display:flex;"><span>tar -xvf roninos-master.tar.gz
+</span></span><span style="display:flex;"><span>mv roninos RoninOS
+</span></span><span style="display:flex;"><span>rm roninos-master.tar.gz
+</span></span></code></pre></div><h3 id="настройка-plymouth">
+  Настройка plymouth
+  <a class="anchor" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-plymouth">#</a>
+</h3>
+<p>После этого при загрузке системы будет отображаться логотип RoninDojo, мелочь, а приятно.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-09.png">
+</div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mkdir -p /etc/plymouth
+</span></span><span style="display:flex;"><span>sudo cp ~/RoninOS/overlays/RoninOS/etc/plymouth/plymouthd.conf /etc/plymouth/
+</span></span><span style="display:flex;"><span>sudo cp -r ~/RoninOS/overlays/RoninOS/usr/share/plymouth/themes/ronindojo/ /usr/share/plymouth/themes/
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/default/grub
+</span></span></code></pre></div><p>Преобразуйте строку <em>GRUB_CMDLINE_LINUX_DEFAULT</em> следующим образом:</p>
+<pre tabindex="0"><code>GRUB_CMDLINE_LINUX_DEFAULT=&#34;quiet splash&#34;
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/ronindojo <span style="color:#ae81ff">120</span>
+</span></span><span style="display:flex;"><span>sudo update-grub
+</span></span><span style="display:flex;"><span>sudo update-initramfs -u
+</span></span></code></pre></div><h3 id="настройка-межсетевого-экрана">
+  Настройка межсетевого экрана
+  <a class="anchor" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d0%bc%d0%b5%d0%b6%d1%81%d0%b5%d1%82%d0%b5%d0%b2%d0%be%d0%b3%d0%be-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw default deny incoming
+</span></span><span style="display:flex;"><span>sudo ufw default allow outgoing
+</span></span></code></pre></div><p>В следующих командах используйте ваш адрес подсети, который мы определили в конце <a href="/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%be%d0%bf%d0%b5%d1%80%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d0%be%d0%b9-%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d1%8b">установки операционной системы</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo ufw allow from 10.0.2.0/24 to any port <span style="color:#e6db74">&#34;80&#34;</span>
+</span></span><span style="display:flex;"><span>sudo ufw allow from 10.0.2.0/24 to any port <span style="color:#e6db74">&#34;22&#34;</span>
+</span></span><span style="display:flex;"><span>sudo ufw allow from 10.0.2.0/24 to any port <span style="color:#e6db74">&#34;50002&#34;</span>
+</span></span><span style="display:flex;"><span>sudo ufw enable
+</span></span></code></pre></div><h3 id="настройка-дисков">
+  Настройка дисков
+  <a class="anchor" href="#%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b0-%d0%b4%d0%b8%d1%81%d0%ba%d0%be%d0%b2">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p ~/.config/RoninDojo/data/
+</span></span><span style="display:flex;"><span>touch ~/.config/RoninDojo/data/system-install
+</span></span></code></pre></div><p>В следующей команде используйте свое имя основного раздела системы или имя раздела для данных блокчейна, если вы используете конфигурацию с двумя SSD, который вы записали при <a href="/practice-privacy/ronindojo/#%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d0%b8">определении конфигурации</a>. Напоминаю, что у меня один диск и основной раздел <em>/dev/sda2</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;blockdata_storage_partition=/dev/sda2&#34;</span> &gt; ~/.config/RoninDojo/data/blockdata_storage_partition
+</span></span></code></pre></div><p>В следующей команде используйте свое имя раздела для резервной копии блокчейна, если вы собираетесь использовать эту функцию. У меня - <em>/dev/sdb1</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;backup_storage_partition=/dev/sdb1&#34;</span> &gt; ~/.config/RoninDojo/data/backup_storage_partition
+</span></span></code></pre></div><h2 id="ronin-ui-и-ronin-cli">
+  Ronin UI и Ronin CLI
+  <a class="anchor" href="#ronin-ui-%d0%b8-ronin-cli">#</a>
+</h2>
+<p>Ronin UI - это великолепный веб-интерфейс для мониторинга и администрирования вашего узла со встроенным интерфейсом Whirlpool GUI. Используя его, вам не нужно делать сопряжение с помощью приложения Whirlpool GUI на другом компьютере.</p>
+<p>Ronin CLI - консольный интерфейс, доступный по SSH или непосредственно на сервере, с расширенными функциями управления вашей нодой, параметрами безопасности, а так же дополнительными утилитами.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>mkdir ~/Ronin-UI
+</span></span><span style="display:flex;"><span>sudo mkdir -p /usr/share/nginx/logs/
+</span></span><span style="display:flex;"><span>sudo bash -c <span style="color:#e6db74">&#34;cat /mnt/usb/tor/hidden_service_ronin_backend/hostname &gt; /home/ronindojo/.config/RoninDojo/data/ronin-ui-tor-hostname&#34;</span>
+</span></span><span style="display:flex;"><span>torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/ronindojo/archive/master.tar.gz -O ronindojo-master.tar.gz
+</span></span><span style="display:flex;"><span>tar -xvf ronindojo-master.tar.gz
+</span></span><span style="display:flex;"><span>mv ronindojo RoninDojo
+</span></span><span style="display:flex;"><span>rm ronindojo-master.tar.gz
+</span></span><span style="display:flex;"><span>sudo ln -sf /home/ronindojo/RoninDojo/ronin /usr/local/bin/ronin
+</span></span><span style="display:flex;"><span>cp ~/RoninDojo/user.conf.example ~/.config/RoninDojo/user.conf
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano ~/.bashrc
+</span></span></code></pre></div><p>Добавляем в конец файла две строки:</p>
+<pre tabindex="0"><code>/home/ronindojo/RoninDojo/Scripts/.logo
+ronin
+</code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source ~/.bashrc
+</span></span></code></pre></div><p>Поздравляю, вы оказались в интерфейсе Ronin CLI.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-08.png">
+</div>
+<p>Перейдите в меню:</p>
+<pre tabindex="0"><code>Ronin UI &gt; Re-install
+</code></pre><p>По окончании установки нажмите любую клавишу и выйдите из Ronin UI:</p>
+<pre tabindex="0"><code>Go Back &gt; Exit RoninDojo
+</code></pre><p>Попасть снова в Ronin CLI можно с помощью команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ronin
+</span></span></code></pre></div><p>Кроме того, вы будете автоматически перенаправлены в Ronin CLI при логине под пользователем <em>ronindojo</em>.</p>
+<p>Ronin UI теперь доступен из вашей локальной сети, в которой находится машина с RoninDojo, через веб-браузер по адресу <a href="http://ronindojo.local">http://ronindojo.local</a> или по IP-адресу сервера, в моем случае http://10.0.2.15.</p>
+<p>Пароль для входа - это ваш пароль пользователя <em>ronindojo</em>.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-10.jpg">
+</div>
+<h2 id="патчи-для-ronin-cli">
+  Патчи для Ronin CLI
+  <a class="anchor" href="#%d0%bf%d0%b0%d1%82%d1%87%d0%b8-%d0%b4%d0%bb%d1%8f-ronin-cli">#</a>
+</h2>
+<p>Установка завершена, но требуется немного исправить скрипты Ronin CLI для корректной работы.</p>
+<p>В следующей команде используйте имя вашего сетевого интерфейса, которое мы <a href="/practice-privacy/ronindojo/#%d0%be%d0%bf%d1%80%d0%b5%d0%b4%d0%b5%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%ba%d0%be%d0%bd%d1%84%d0%b8%d0%b3%d1%83%d1%80%d0%b0%d1%86%d0%b8%d0%b8">определили</a> ранее. У меня - <em>enp0s3</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/eth0/enp0s3/g&#39;</span> ~/RoninDojo/Scripts/Menu/menu-system-monitoring.sh
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/findmnt \&#34;\${install_dir}\&#34;/findmnt -n -o SOURCE --target \&#34;\${install_dir}\&#34;/g&#39;</span> ~/RoninDojo/Scripts/functions.sh
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/findmnt \&#34;\${install_dir}\&#34;/findmnt -n -o SOURCE --target \&#34;\${install_dir}\&#34;/g&#39;</span> ~/RoninDojo/Scripts/Install/install-dojo.sh
+</span></span></code></pre></div><blockquote class="book-hint info">
+  <p><strong>Только для Testnet</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/_data/_data\/testnet3/g&#39;</span> ~/RoninDojo/Scripts/Install/install-send-block-data.sh
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/_data/_data\/testnet3/g&#39;</span> ~/RoninDojo/Scripts/Install/install-receive-block-data.sh
+</span></span><span style="display:flex;"><span>sed -i <span style="color:#e6db74">&#39;s/ludwig.py --rpc/ludwig.py --testnet --rpc/g&#39;</span> ~/RoninDojo/Scripts/Menu/menu-boltzmann.sh
+</span></span></code></pre></div>
+</blockquote>
+<h2 id="инструменты-ronindojo">
+  Инструменты RoninDojo
+  <a class="anchor" href="#%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b-ronindojo">#</a>
+</h2>
+<h3 id="резервное-копирование-блокчейна">
+  Резервное копирование блокчейна
+  <a class="anchor" href="#%d1%80%d0%b5%d0%b7%d0%b5%d1%80%d0%b2%d0%bd%d0%be%d0%b5-%d0%ba%d0%be%d0%bf%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b1%d0%bb%d0%be%d0%ba%d1%87%d0%b5%d0%b9%d0%bd%d0%b0">#</a>
+</h3>
+<blockquote class="book-hint btc">
+  Я рекомендую протестировать эту процедуру до полного скачивания блокчейна, так как неправильная настройка дисков может привести к потере данных, и все придется начинать с нуля. Произведите тест, когда в веб-интерфейсе появятся доли процентов синхронизации Bitcoin Core.
+</blockquote>
+<p>Подключите внешний диск для резервной копии. В Ronin CLI перейдите в меню:</p>
+<pre tabindex="0"><code>System &gt; Disk Storage &gt; Format &amp; Mount New Backup Drive
+</code></pre><p>После форматирования диска, перейдите из основного меню:</p>
+<pre tabindex="0"><code>Dojo &gt; Next Page &gt; Send Block Data to Backup
+</code></pre><p>После копирования, восстановите бэкап из меню:</p>
+<pre tabindex="0"><code>Dojo &gt; Next Page &gt; Receive Block Data from Backup
+</code></pre><h3 id="установка-wst-и-калькулятора-больцмана">
+  Установка WST и калькулятора Больцмана
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-wst-%d0%b8-%d0%ba%d0%b0%d0%bb%d1%8c%d0%ba%d1%83%d0%bb%d1%8f%d1%82%d0%be%d1%80%d0%b0-%d0%b1%d0%be%d0%bb%d1%8c%d1%86%d0%bc%d0%b0%d0%bd%d0%b0">#</a>
+</h3>
+<blockquote class="book-hint info">
+  <p>Руководство по использованию <a href="/privacy/coinjoin/#whirlpool-stats-tool-wst">Whirlpool Stats Tool (WST)</a>.</p>
+<p>Руководство по <a href="/privacy/coinjoin/#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%86%D0%BC%D0%B0%D0%BD%D0%B0">калькулятору Больцмана</a>.</p>
+</blockquote>
+<p>Для установки и использования этих утилит просто выберите соответствующий пункт из меню:</p>
+<pre tabindex="0"><code>Samourai Toolkit
+</code></pre><div class="imageWrapper">
+    <img src="/img/ronin-12.png">
+</div>
+<blockquote class="book-hint info">
+  Утилита WST недоступна для Testnet.
+</blockquote>
+<h3 id="whirlpool">
+  Whirlpool
+  <a class="anchor" href="#whirlpool">#</a>
+</h3>
+<p>Дождитесь полной синхронизации Bitcoin Core, Dojo и Indexer.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-13.jpg">
+</div>
+<p>Перейдите в меню &ldquo;Pairing&rdquo; и выполните сопряжение Samourai Wallet с Samourai Dojo. Подключиться к Dojo можно только при новой установке кошелька.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-14.jpg">
+</div>
+<p>Нажмите &ldquo;Pair now&rdquo; в разделе &ldquo;Samourai Dojo&rdquo;, отсканируйте QR-код сопряжения Dojo в вашем Samourai Wallet.</p>
+<p>Перейдите в меню настроек кошелька:</p>
+<pre tabindex="0"><code>Транзакции &gt; Связать с Whirlpool GUI
+</code></pre><p>Перенесите полученный код сопряжения с Whirlpool GUI на компьютер.</p>
+<p>В разделе Whirlpool CLI нажмите &ldquo;Initialize&rdquo; и используйте ваш код сопряжения.</p>
+<p>После успешного сопряжения, вам нужно нажать кнопку &ldquo;Log in&rdquo; и ввести <a href="/passphrase">парольную фразу</a>, которую вы использовали при создании кошелька.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-15.jpg">
+</div>
+<p>Наконец, вы попадаете в интерфейс Whirlpool и можете ремикшировать UTXO 24/7, пока работает ваш узел.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-16.jpg">
+</div>
+<h3 id="обозреватели-блокчейна">
+  Обозреватели блокчейна
+  <a class="anchor" href="#%d0%be%d0%b1%d0%be%d0%b7%d1%80%d0%b5%d0%b2%d0%b0%d1%82%d0%b5%d0%bb%d0%b8-%d0%b1%d0%bb%d0%be%d0%ba%d1%87%d0%b5%d0%b9%d0%bd%d0%b0">#</a>
+</h3>
+<p>Для доступа к BTC RPC Explorer перейдите в &ldquo;Dashboard&rdquo; и нажмите &ldquo;Manage&rdquo; в разделе &ldquo;Dojo&rdquo;.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-17.jpg">
+</div>
+<p>Здесь находятся ссылки для доступа к обозревателю и Dojo Maintenance Tool (DMT) через Tor-браузер.</p>
+<p>Ссылка для доступа к обозревателю Mempool также доступна из меню &ldquo;Manage&rdquo; в соответствующем разделе панели управления. Там же вы можете установить или удалить Mempool.</p>
+<h3 id="dojo-maintenance-tool-dmt">
+  Dojo Maintenance Tool (DMT)
+  <a class="anchor" href="#dojo-maintenance-tool-dmt">#</a>
+</h3>
+<p>DMT представляет собой упрощенную панель для мониторинга ноды с базовыми функциями отслеживания ваших XPUB, адресов и транзакций - аналогичными меню &ldquo;Maintenance&rdquo; в Ronin UI. В условиях плохого качества связи с Tor, может оказаться полезным инструментом. Если вы добавили ваш PayNym в файле docker-node.conf.tpl при установке Samourai Dojo, то вам будет доступен QR-код. Просто выберите в кошельке Samourai &ldquo;Authenticate using PayNym&rdquo; из меню &ldquo;Tools&rdquo; и отсканируйте его для доступа в DMT.</p>
+<blockquote class="book-hint info">
+  <p>Если вы не включили функцию аутентификации с использованием PayNym (Auth47) при установке, то просто добавьте паш платежный код BIP47 после <em>NODE_PAYMENT_CODE=</em> в файл:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nano ~/dojo/docker/my-dojo/conf/docker-node.conf
+</span></span></code></pre></div><p>После этого перезапустите Dojo из меню &ldquo;Manage&rdquo; в соответствующем разделе Ronin UI с помощью кнопки &ldquo;Restart&rdquo;.</p>
+</blockquote>
+<div class="imageWrapper">
+    <img src="/img/ronin-18.jpg">
+</div>
+<div class="imageWrapper">
+    <img src="/img/ronin-19.jpg">
+</div>
+<h3 id="индексаторы-блокчейна">
+  Индексаторы блокчейна
+  <a class="anchor" href="#%d0%b8%d0%bd%d0%b4%d0%b5%d0%ba%d1%81%d0%b0%d1%82%d0%be%d1%80%d1%8b-%d0%b1%d0%bb%d0%be%d0%ba%d1%87%d0%b5%d0%b9%d0%bd%d0%b0">#</a>
+</h3>
+<p>Как уже упоминалось выше, вы можете выбирать между Electrs, Fulcrum или Addrindexrs. Вы можете установить другой индексатор из &ldquo;Dashboard&rdquo; через меню &ldquo;Manage&rdquo; в разделе &ldquo;Indexer&rdquo;.</p>
+<div class="imageWrapper">
+    <img src="/img/ronin-20.jpg">
+</div>
+<blockquote class="book-hint info">
+  Обратите внимание, что при выборе другого индексатора, данные предыдущего не сохраняются. Если вы решите переключиться обратно, синхронизация индексатора начнется с нуля.
+</blockquote>
+<p>Ссылка для подключения кошельков Sparrow или Electrum к вашему индексатору через Tor находится в меню &ldquo;Pair&rdquo; в разделе &ldquo;Electrum server&rdquo;.</p>
+<h3 id="прочие-инструменты">
+  Прочие инструменты
+  <a class="anchor" href="#%d0%bf%d1%80%d0%be%d1%87%d0%b8%d0%b5-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b">#</a>
+</h3>
+<p><strong>Push TX</strong> в Ronin UI позволит вам транслировать подписанную транзакцию в блокчейн с помощью вашей ноды.</p>
+<p><strong>Credentials</strong> в Ronin CLI выведет на экран ссылки на все сервисы вашего узла, доступные через Tor.</p>
+<p><strong>Настройки безопасности</strong> находятся в меню Ronin CLI:</p>
+<pre tabindex="0"><code>System &gt; Next Page
+</code></pre><div class="imageWrapper">
+    <img src="/img/ronin-21.png">
+</div>
+<p>Здесь вы можете управлять настройками межсетевого экрана, SSH, изменить пароль пользователя ronindojo, а также root.</p>
+<h2 id="обновление-ronindojo">
+  Обновление RoninDojo
+  <a class="anchor" href="#%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-ronindojo">#</a>
+</h2>
+<h3 id="обновление-ronin-ui">
+  Обновление Ronin UI
+  <a class="anchor" href="#%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-ronin-ui">#</a>
+</h3>
+<p>Ronin UI обновляется в один клик. При наличии обновления вы увидите в веб-интерфейсе уведомление о новой версии.</p>
+<p>Второй вариант через консоль:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>rm -rf Ronin-UI/
+</span></span><span style="display:flex;"><span>ronin
+</span></span></code></pre></div><p>Далее перейдите в меню:</p>
+<pre tabindex="0"><code>Ronin UI &gt; Re-install
+</code></pre><h3 id="обновление-ronin-cli">
+  Обновление Ronin CLI
+  <a class="anchor" href="#%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-ronin-cli">#</a>
+</h3>
+<p>Стандартный скрипт обновления RoninDojo может сломать систему, поэтому апгрейд производим вручную.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>rm -rf ~/RoninDojo/
+</span></span><span style="display:flex;"><span>torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/ronindojo/archive/master.tar.gz -O ronindojo-master.tar.gz
+</span></span><span style="display:flex;"><span>tar -xvf ronindojo-master.tar.gz
+</span></span><span style="display:flex;"><span>mv ronindojo RoninDojo
+</span></span><span style="display:flex;"><span>rm ronindojo-master.tar.gz
+</span></span></code></pre></div><p>Применяем патчи из <a href="/practice-privacy/ronindojo/#%d0%bf%d0%b0%d1%82%d1%87%d0%b8-%d0%b4%d0%bb%d1%8f-ronin-cli">этого раздела</a>.</p>
+<h3 id="обновление-samourai-dojo">
+  Обновление Samourai Dojo
+  <a class="anchor" href="#%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-samourai-dojo">#</a>
+</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd
+</span></span><span style="display:flex;"><span>mkdir temp
+</span></span><span style="display:flex;"><span>mv dojo/docker/my-dojo/conf/ temp/
+</span></span><span style="display:flex;"><span>rm -rf dojo/
+</span></span><span style="display:flex;"><span>torsocks wget http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/dojo/archive/master.tar.gz -O dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>tar -xvf dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>rm dojo-master.tar.gz
+</span></span><span style="display:flex;"><span>cp ~/temp/conf/* ~/dojo/docker/my-dojo/conf/
+</span></span><span style="display:flex;"><span>rm -rf temp/
+</span></span><span style="display:flex;"><span>cd ~/dojo/docker/my-dojo/
+</span></span></code></pre></div><blockquote class="book-hint info">
+  Делаем необходимые изменения для Testnet из <a href="/practice-privacy/ronindojo/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-samourai-dojo">этого раздела</a>.
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./dojo.sh upgrade
+</span></span></code></pre></div><h2 id="поддержите-автора">
+  Поддержите автора
+  <a class="anchor" href="#%d0%bf%d0%be%d0%b4%d0%b4%d0%b5%d1%80%d0%b6%d0%b8%d1%82%d0%b5-%d0%b0%d0%b2%d1%82%d0%be%d1%80%d0%b0">#</a>
+</h2>
+<p>Поддержать автора можно, отправив немного сат в сети Лайтнинг:</p>
+<div class="imageWrapper">
+    <img src="/img/btclinux-ln-qr.jpg">
+<p><code>lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf</code></p>
+</div></article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/practice-privacy/ronindojo/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#отличия-dojo-и-ronindojo">Отличия Dojo и RoninDojo</a></li>
+        <li><a href="#системные-требования">Системные требования</a></li>
+        <li><a href="#установка-операционной-системы">Установка операционной системы</a></li>
+        <li><a href="#определение-конфигурации">Определение конфигурации</a></li>
+        <li><a href="#предварительный-этап">Предварительный этап</a></li>
+        <li><a href="#установка-и-настройка-службы-tor">Установка и настройка службы Tor</a></li>
+        <li><a href="#установка-samourai-dojo">Установка Samourai Dojo</a></li>
+        <li><a href="#roninos">RoninOS</a>
+          <ul>
+            <li><a href="#настройка-plymouth">Настройка plymouth</a></li>
+            <li><a href="#настройка-межсетевого-экрана">Настройка межсетевого экрана</a></li>
+            <li><a href="#настройка-дисков">Настройка дисков</a></li>
+          </ul>
+        </li>
+        <li><a href="#ronin-ui-и-ronin-cli">Ronin UI и Ronin CLI</a></li>
+        <li><a href="#патчи-для-ronin-cli">Патчи для Ronin CLI</a></li>
+        <li><a href="#инструменты-ronindojo">Инструменты RoninDojo</a>
+          <ul>
+            <li><a href="#резервное-копирование-блокчейна">Резервное копирование блокчейна</a></li>
+            <li><a href="#установка-wst-и-калькулятора-больцмана">Установка WST и калькулятора Больцмана</a></li>
+            <li><a href="#whirlpool">Whirlpool</a></li>
+            <li><a href="#обозреватели-блокчейна">Обозреватели блокчейна</a></li>
+            <li><a href="#dojo-maintenance-tool-dmt">Dojo Maintenance Tool (DMT)</a></li>
+            <li><a href="#индексаторы-блокчейна">Индексаторы блокчейна</a></li>
+            <li><a href="#прочие-инструменты">Прочие инструменты</a></li>
+          </ul>
+        </li>
+        <li><a href="#обновление-ronindojo">Обновление RoninDojo</a>
+          <ul>
+            <li><a href="#обновление-ronin-ui">Обновление Ronin UI</a></li>
+            <li><a href="#обновление-ronin-cli">Обновление Ronin CLI</a></li>
+            <li><a href="#обновление-samourai-dojo">Обновление Samourai Dojo</a></li>
+          </ul>
+        </li>
+        <li><a href="#поддержите-автора">Поддержите автора</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

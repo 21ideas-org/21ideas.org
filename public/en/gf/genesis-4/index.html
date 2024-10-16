@@ -1,0 +1,3073 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Digital currency, a cash for the internet, was always a central goal for the Cypherpunks. But few dived into the subject matter like Nick Szabo did.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark">
+<meta name="lightning" content="21ideas@getalby.com"><meta property="og:title" content="Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin" />
+<meta property="og:description" content="Digital currency, a cash for the internet, was always a central goal for the Cypherpunks. But few dived into the subject matter like Nick Szabo did." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/en/gf/genesis-4/" />
+<meta property="og:image" content="http://localhost:1313/img/gf-243.png"/>
+
+<title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin | 21ideas</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" media="(prefers-color-scheme: dark)" sizes="180x180" href="/apple-touch-icon-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="32x32" href="/favicon-32x32-dark.png">
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" sizes="16x16" href="/favicon-16x16-dark.png">
+  <link rel="alternate" hreflang="ru-RU" href="http://localhost:1313/gf/genesis-4/" title="Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина">
+<link rel="stylesheet" href="/book.min.44d288673620af09aba4fb7b29ef4c1d1f9c0258f725bd228507764ec1740f0a.css" integrity="sha256-RNKIZzYgrwmrpPt7Ke9MHR&#43;cAlj3Jb0ihQd2TsF0Dwo=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6ade4dcd3e4473a03c16af7af767ac91a1040fba953931c39e6427641c138e94.js" integrity="sha256-at5NzT5Ec6A8Fq9692eskaEED7qVOTHDnmQnZBwTjpQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/">
+    <picture>
+      <source srcset="/svg/logo_white.svg" media="(prefers-color-scheme: dark)">
+      <img src="/svg/logo_black.svg" alt="Logo" />
+    </picture>
+    <span>21ideas</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/gf/genesis-4/">
+          Русский
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b959577bbd662d890894b4ef656e45e" class="toggle"  />
+    <label for="section-4b959577bbd662d890894b4ef656e45e" class="flex justify-between">
+      <a role="button" class="">Start</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/start/" class="">Bitcoin Basics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/start/guide/" class="">Using Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shitcoin-gambling-games/" class="">Don’t Play Shitcoin Gambling Games</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="toggle" checked />
+    <label for="section-c8e2b39e67e72b49a36ee1ec8355ecba" class="flex justify-between">
+      <a href="/en/theory/" class="">Theory</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-981a6953479a2e41da30ae73c119d6e2" class="toggle"  />
+    <label for="section-981a6953479a2e41da30ae73c119d6e2" class="flex justify-between">
+      <a href="/en/economics/" class="">Economics</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-43f26905d14df4de3737d0d5dfd90ca0" class="toggle"  />
+    <label for="section-43f26905d14df4de3737d0d5dfd90ca0" class="flex justify-between">
+      <a href="/en/gradually-then-suddenly/" class="">Gradually, Then Suddenly</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cant-be-copied/" class="">Bitcoin Can’t Be Copied</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/" class="">Bitcoin Is Not Too Volatile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/" class="">Bitcoin Does Not Waste Energy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-too-slow/" class="">Bitcoin is Not Too Slow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-fixes-this/" class="">Bitcoin Fixes This</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-not-blockchain/" class="">Bitcoin, Not Blockchain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/" class="">Bitcoin is Not Backed by Nothing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/" class="">Bitcoin is Not a Pyramid Scheme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-cannot-be-banned/" class="">Bitcoin Cannot be Banned</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/" class="">Bitcoin is Not for Criminals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/" class="">Bitcoin Obsoletes All Other Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/" class="">Bitcoin is a Rally Cry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-common-sense/" class="">Bitcoin is Common Sense</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-antifragile/" class="">Bitcoin is Antifragile</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-one-for-all/" class="">Bitcoin is One for All</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/" class="">Bitcoin is the Great Definancialization</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-070af377b46d38e45de9a60dd3c8e7d0" class="toggle"  />
+    <label for="section-070af377b46d38e45de9a60dd3c8e7d0" class="flex justify-between">
+      <a href="/en/discovering-bitcoin/" class="">Discovering Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/intro/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-time/" class="">About Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/about-people/" class="">About People</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/introducing-money/" class="">Introducing Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/" class="">A Wrong Turn (New Plan Needed)!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-scarcity/" class="">Digital Scarcity</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/digital-contracts/" class="">Digital Contracts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/discovering-bitcoin/the-missing-pieces/" class="">The Missing Pieces</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-not-harmful-for-the-environment/" class="">Bitcoin Is Not Harmful For The Environment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seven-network-effects-of-bitcoin/" class="">The Seven Network Effects of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/masters-and-slaves-of-money/" class="">Masters and Slaves of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/structural-adjustment/" class="">Structural Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/in-defense-of-deflation/" class="">In Defense Of Deflation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/comparison-of-monetary-standards/" class="">Comparison of Monetary Standards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/petrodollar-negative-effects/" class="">Petrodollar Negative Effects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/shelling-out/" class="">Shelling Out: The Origins of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-rhythms-of-history/" class="">Bitcoin and the Rhythms of History</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-the-hopf-cycle-of-the-internet/" class="">Bitcoin &amp; the HOPF Cycle of the Internet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/money-blockchains-and-social-scalability/" class="">Money, blockchains, and social scalability</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-money/" class="">What Is Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/only-the-strong-survive/" class="">Only The Strong Survive</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dollar-cost-averaging/" class="">Dollar-Cost Averaging</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/jevons-paradox/" class="">Jevons Paradox: Contrary Truth</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d5bb6cd046af3ae6f08884281ee0445" class="toggle"  />
+    <label for="section-4d5bb6cd046af3ae6f08884281ee0445" class="flex justify-between">
+      <a href="/en/security/" class="">Security</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-to-hold-private-keys/" class="">Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed/" class="">What is a bitcoin seed phrase and how does it work?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seed-security/" class="">Ultimate guide to storing your bitcoin seed phrase backups</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/passphrase/" class="">Is your passphrase strong enough?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-multisig/" class="">What is multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hwws/" class="">The best Bitcoin hardware wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-1/" class="">Multisig Part I: Why Multisig?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/multisig-2/" class="">Multisig Part II: Single Keys are the Foundation of Multisignature</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="toggle"  />
+    <label for="section-e5dc95f8c3734f1c9cf3045c3ba217e8" class="flex justify-between">
+      <a href="/en/privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/best-practices/" class="">Bitcoin Privacy: Best Practices</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/no-kyc/" class="">no-KYC only. Avoid the creep</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/wiki-bitcoin-privacy/" class="">Bitcoin Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-becomes-critical/" class="">Bitcoin Becomes Critical</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bip47-the-ugly-duckling/" class="">BIP47, the ugly duckling</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7626e3de66018c98c264d84fe366e13a" class="toggle"  />
+    <label for="section-7626e3de66018c98c264d84fe366e13a" class="flex justify-between">
+      <a href="/en/privacy/oxt/" class="">Understanding Bitcoin Privacy with OXT</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-1/" class="">Part 1: Chain Analysis And Transaction Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-2/" class="">Part 2: Chain Analysis Core Concepts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-3/" class="">Part 3: Defences Against Chain Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/oxt-4/" class="">Part 4: Applying Chain Analysis Concepts To Improve User Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/privacy/coinjoin/" class="">CoinJoin Overview</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-fungibility/" class="">Bitcoin Fungibility</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freesamourai/" class="">#FreeSamourai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="toggle"  />
+    <label for="section-591754e4c6a4e23cb58f7ff9d9022ef1" class="flex justify-between">
+      <a href="/en/protocol/" class="">Protocol</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/who-controls-bitcoin-core/" class="">Who Controls Bitcoin Core?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoins-eternal-struggle/" class="">Bitcoin&#39;s Eternal Struggle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/on-bitcoins-ux/" class="">On Bitcoin’s UX</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-digital-gold-or-ecash/" class="">Bitcoin: Digital Gold or Peer-to-Peer Cash?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-governance/" class="">Bitcoin Governance</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/trusted-third-parties/" class="">Trusted Third Parties are Security Holes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/21-million-is-non-negotiable/" class="">21 Million is Non-Negotiable</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-work/" class="">Proof of Work, a pictorial essay</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-stake-is-a-scam/" class="">Proof of stake is a scam</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/was-satoshi-a-greedy-miner/" class="">Was Satoshi a Greedy Miner?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/segwit/" class="">What Is SegWit</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/taproot/" class="">What Is Taproot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coercion-of-ethereums-difficulty-bomb/" class="">The Coercion Of Ethereum&#39;s Difficulty Bomb</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/rgb/" class="">Understanding the RGB protocol</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/difficulty/" class="">Bitcoin Difficulty Adjustment</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-address-types/" class="">Bitcoin address types</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/myths-about-halving/" class="">Myths About the Bitcoin Halving</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mining-walkthrough/" class="">SHA256 and Bitcoin Mining Walkthrough</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c6baffdfa73d6dd5df13795b95ab68ac" class="toggle"  />
+    <label for="section-c6baffdfa73d6dd5df13795b95ab68ac" class="flex justify-between">
+      <a href="/en/protocol/utxo/" class="">What Is UTXO And How To Manage Them</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-1/" class="">What is a Bitcoin UTXO</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-2/" class="">Too Many UTXOs: How To Avoid High Fees</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/protocol/utxo-3/" class="">UTXOs Privacy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/transaction-size/" class="">Transaction Size</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc3faa5b078e8edfc892bc463882294" class="toggle" checked />
+    <label for="section-2cc3faa5b078e8edfc892bc463882294" class="flex justify-between">
+      <a href="/en/history/" class="">History</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-11903f72dc1c8e68f0d748ad1bb6164d" class="toggle" checked />
+    <label for="section-11903f72dc1c8e68f0d748ad1bb6164d" class="flex justify-between">
+      <a href="/en/gf/" class="">The Genesis Files</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-1/" class="">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-2/" class="">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-3/" class="">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-4/" class="active">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/gf/genesis-5/" class="">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hal-finney/" class="">Hal Finney — The Life And Death Of A Cypherpunk Legend</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-me/" class="">Bitcoin and Me</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-reformation/" class="">The Bitcoin Reformation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-forks/" class="">A complete history of Bitcoin’s consensus forks</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/analyzing-2013-fork/" class="">Analyzing the 2013 Bitcoin fork</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ac2daa2484c1be670f7cc1e0d8d82356" class="toggle"  />
+    <label for="section-ac2daa2484c1be670f7cc1e0d8d82356" class="flex justify-between">
+      <a href="/en/philosophy/" class="">Philosophy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b11b531f912b5e92a8260d0a526b85b6" class="toggle"  />
+    <label for="section-b11b531f912b5e92a8260d0a526b85b6" class="flex justify-between">
+      <a href="/en/what-i-learned-from-bitcoin/" class="">What I&#39;ve Learned From Bitcoin</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-1/" class="">Part I. Philosophical Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-2/" class="">Part II. Economic Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-i-learned-from-bitcoin-3/" class="">Part III. Technological Teachings of Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/not-shitcoin/" class="">Why Bitcoin, Not Shitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inalienable-property-rights/" class="">Inalienable Property Rights</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-anarchist-manifesto/" class="">The Crypto Anarchist Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/cypherpunks-manifesto/" class="">A Cypherpunk&#39;s Manifesto</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/dutch-tulip-bubble/" class="">Is Bitcoin Like the Dutch Tulip Bubble?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/everyones-a-scammer/" class="">Everyone&#39;s a Scammer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/freedom-of-value/" class="">The Freedom of Value</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-meme/" class="">Bitcoin Is The Only Real Meme</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/number-zero-and-bitcoin/" class="">The Number Zero and Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/crypto-bro/" class="">Dear Crypto &amp; Fiat Bros</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/fighting-fake-bitcoin/" class="">Fighting Fake Bitcoin</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-is-the-mycelium/" class="">Bitcoin is The Mycelium of Money</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/proof-of-life/" class="">Proof of Life. Why Bitcoin is a Living Organism</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/most-peaceful-revolution/" class="">A Most Peaceful Revolution</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-universe/" class="">Bitcoin Universe</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-dissidents/" class="">Bitcoin Dissidents</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-equals-freedom/" class="">Bitcoin Equals Freedom</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0ffd899989a7340537ceb8e2b6a04097" class="toggle"  />
+    <label for="section-0ffd899989a7340537ceb8e2b6a04097" class="flex justify-between">
+      <a href="/en/future/" class="">Future</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-206fb3aae5266e1ff42aa0abc8ae8411" class="toggle"  />
+    <label for="section-206fb3aae5266e1ff42aa0abc8ae8411" class="flex justify-between">
+      <a href="/en/ba/" class="">Bitcoin Astronomy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/1/" class="">Part I</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/2/" class="">Part II</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/ba/3/" class="">Part III</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hey-bitcoin-slow-down/" class="">Hey Bitcoin, Slow Down!</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/apocalypse/" class="">Can Bitcoin Survive An Apocalypse?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/bitcoin-and-oceans/" class="">Bitcoin and Ocean Thermal Energy</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="toggle"  />
+    <label for="section-94dfdc9d0099b419c9e2d6a83381dbe2" class="flex justify-between">
+      <a href="/en/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/what-is-lightning-network/" class="">What is Lightning Network?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-wallets/" class="">Lightning Wallets</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/how-lightning-address-works/" class="">How Lightning Address Works</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-privacy/" class="">Lightning Network Privacy</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/is-lightning-centralized/" class="">Is Lightning centralized?</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-network-explained/" class="">Lightning Network Explained</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/inbound-liquidity-problem/" class="">Solutions to inbound liquidity problem</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-334a33758c01abfe631e1e37dc0d1f40" class="toggle"  />
+    <label for="section-334a33758c01abfe631e1e37dc0d1f40" class="flex justify-between">
+      <a href="/en/practice/" class="">Practice</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a94c5b45bfdc8ef0dd89b00612026092" class="toggle"  />
+    <label for="section-a94c5b45bfdc8ef0dd89b00612026092" class="flex justify-between">
+      <a href="/en/practice/buy/" class="">Buy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/newbie-buy/" class="">Buy and Hodl Bitcoin for Beginners</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/hodl-hodl/" class="">Buy noKYC Bitcoin with HodlHodl</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/robosats/" class="">RoboSats: Private P2P Exchange</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7e14ce7fc5fdbe001466044f77bdd564" class="toggle"  />
+    <label for="section-7e14ce7fc5fdbe001466044f77bdd564" class="flex justify-between">
+      <a href="/en/practice/hodl/" class="">Hodl</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/electrum/" class="">Electrum Bitcoin Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/blue/" class="">Installing Blue Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/seedsigner/" class="">SeedSigner: DIY Bitcoin Signing Device</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/coldcard/" class="">What is Coldcard?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-88cf9017cf07549621f025a2843cb148" class="toggle"  />
+    <label for="section-88cf9017cf07549621f025a2843cb148" class="flex justify-between">
+      <a href="/en/practice/interact/" class="">Interact</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice/bitcoin-node/" class="">Why You Should Run Your Own Bitcoin Node</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/orangepilling-in-5-min/" class="">Orangepilling in 5 min</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/5-tips-for-teaching-bitcoin/" class="">5 tips for teaching Bitcoin</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-32dccf00abb46a5281b7aae069126928" class="toggle"  />
+    <label for="section-32dccf00abb46a5281b7aae069126928" class="flex justify-between">
+      <a href="/en/practice-privacy/" class="">Privacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="toggle"  />
+    <label for="section-ae30dbe7c31a834e8bfe23314d9a5ff6" class="flex justify-between">
+      <a href="/en/practice-privacy/dojo/" class="">Dojo x86 Bitcoin Node Guide</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-0/" class="">Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-1/" class="">Installing Bitcoin Core &amp; Tor</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-2/" class="">Installing Fulcrum Indexer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-3/" class="">Installing Mempool Explorer</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-4/" class="">Installing Samourai Dojo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-5/" class="">Firewall Configuration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/dojo-6/" class="">Installing Package Updates</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/practice-privacy/ronindojo/" class="">RoninDojo x86 Installation Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/grapheneos/" class="">GrapheneOS: De-Google your phone</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9425a98499a6d50bed8efd403e1db980" class="toggle"  />
+    <label for="section-9425a98499a6d50bed8efd403e1db980" class="flex justify-between">
+      <a href="/en/practice/lightning/" class="">Lightning</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/phoenix/" class="">Phoenix: The Non-Custodial Lightning Wallet</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lnbits/" class="">LNbits: A Swiss knife among Lightning apps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/alby-and-nostr/" class="">Alby and Nostr</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/zapplanner/" class="">Recurring Lightning Payments</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lntips/" class="">Telegram bot @LightningTipBot</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/lightning-liquidity-management-guide/" class="">Lightning Liquidity Management Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/mutiny/" class="">Starting with Mutiny Wallet</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d286fdc9558f9b3466aa6f3d4805be77" class="toggle"  />
+    <label for="section-d286fdc9558f9b3466aa6f3d4805be77" class="flex justify-between">
+      <a href="/en/rabbithole/" class="">Rabbithole</a>
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+  <div class="menuSep"></div>
+
+
+
+  
+<ul>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <input type="checkbox" id="section-9329cf488076ba9f91ca728aef24f607" class="toggle"  />
+    <label for="section-9329cf488076ba9f91ca728aef24f607" class="flex justify-between">
+      <a href="/en/contribute/" class="">Contribute</a>
+    </label>
+  
+
+        
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/github/" class="">Adding an Article</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <span>Blog</span>
+  
+
+        
+    
+  </li>
+  
+  <li>
+    
+        
+  
+  
+
+  
+    <a href="/en/feedback/" class="">Feedback</a>
+  
+
+        
+    
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+<footer>
+<br>
+
+<a class="menuSocialButton" href="https://t.me/bitcoin21ideas" target="_blank" title="Telegram">
+    <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://github.com/21ideas-org/21ideas.org" target="_blank" title="GitHub">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,9.9C179.11,9.9,0,189,0,409.94,0,585.6,113.24,734.86,270.71,788.61l2.83.83c20,3.76,27.34-8.59,27.34-19.24,0-9.49-.32-34.68-.5-68-111.27,24.14-134.75-53.68-134.75-53.68a106.58,106.58,0,0,0-44.09-58.26l-.43-.24c-36.23-24.81,2.8-24.3,2.8-24.3A84.06,84.06,0,0,1,185,606.54l.22.4a85.24,85.24,0,0,0,116.92,33l-.43.21A85.16,85.16,0,0,1,327,586.7l0,0C238.19,576.67,144.8,542.25,144.8,389c0-.72,0-1.55,0-2.38a153.82,153.82,0,0,1,41.27-105l-.08.11a139.82,139.82,0,0,1-8.56-48.58,141.91,141.91,0,0,1,12.4-58.21l-.37.91s33.51-10.72,110,41c30-8.56,64.43-13.5,100-13.5a378.09,378.09,0,0,1,102.68,14.14l-2.67-.64c76-51.72,109.51-41,109.51-41a144,144,0,0,1,12,58.07,145.56,145.56,0,0,1-8.35,48.82l.32-1a154.37,154.37,0,0,1,41,105c0,.83,0,1.63,0,2.43V389c0,153.68-93.5,187.51-182.52,197.35a95.48,95.48,0,0,1,27.27,66.93c0,2.48-.11,5-.3,7.42l0-.32c0,53.54-.51,96.54-.51,109.53,0,10.51,7,23,27.51,19C686.25,734.78,800,585.39,800,409.41,800,188.74,621.11,9.87,400.47,9.87H400Z" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="https://njump.me/npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+    target="_blank" title="Nostr">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 820">
+        <path
+            d="M400,797.5c219.53,0,397.5-178,397.5-397.5S619.53,2.5,400,2.5,2.5,180.47,2.5,400,180.47,797.5,400,797.5ZM598.23,242.15c6.82,8.46,10.35,18.14,11.45,28.86,1.7,16.37-2.68,31.17-11.2,45-14.19,23.62-43.17,39.63-45.85,41-5.42,2.86-7.42,7.12-7.06,13.34s-1.21,37.19-20,50.83c-9.68,7-48.64,16-66.6,19.05a28.61,28.61,0,0,0-13.18,5.37c-1,.67-2,1.36-3.2,2.06-6.82,4.27-31.23,38-35.31,45.48l10.66-3.27c21.2-6.53,66.85-20.6,69.52-21,9-1.4,15.89,1.22,20.34,7.79,3.63,5.41,7.18,10.81,10.75,16.25.61.94,1.23,1.87,1.85,2.81,1,1.54,2,3.08,2.93,4.62.48.78,1,1.55,1.45,2.32l1.52,2.38c.09.14.19.29.28.45a10.65,10.65,0,0,1,1.37,2.83c.24,1,.91,4.14-.92,6.09-1.7,1.77-4.63,1.77-6.21,1.34a15.65,15.65,0,0,1-5.6-2.8l-2.49-2.13c-2-1.71-5.73-2.56-8.71-2.44-3.41.13-8-1-10.11-2.37-4.2-2.74-5.35-9.56-5.35-9.68a3.51,3.51,0,0,0-3.72-2.86,18.58,18.58,0,0,0-6.28,1.15l-.78.25q-15,4.56-29.93,9.24h0l-14.31,4.45c-7.06,2.19-14.12,4.38-21.13,6.69a37.45,37.45,0,0,0-5.72,2.62c-.43.21-.84.43-1.25.64l-1.24.64h0c-.85.42-1.7.85-2.55,1.34l-.27.15a30.59,30.59,0,0,1-5.76,2.65c-7.12,2.13-13.39-1-16.32-8.1-1.88-4.63-.18-13.76.86-16.44,5.58-14.35,21.77-39.58,26.28-46.6.75-1.17,1.17-1.83,1.17-1.86-.36-.12-23.25,9.07-27,11.93-10.35,7.86-34.64,26.49-35,28.31a22.75,22.75,0,0,1-14.61,17.6c-5.66,2.19-9.13,6.7-12.48,11.08,0,0-60.88,83.83-65,88.34l-.68.74c-2.83,3-12.28,13.16-15,18.13-.46.83-1.61,3.27-2.58,5.33-.6,1.26-1.13,2.38-1.38,2.89,0,.05-.05.11-.08.17-.59,1.21-1.91,3.9-6.31,3.66s-4.79-6.12-5-9.09l0-.4c-.54-6.88,1-13.7,4.63-20.82a6.46,6.46,0,0,1,.31-.58c1-1.8,3.93-7,2.61-11.36s-2.61-11.14-.6-14.61c2.84-4.77,7.62-5.48,13.92-6.41l2.64-.41c5.29-.85,9.13-3.53,12.84-8.88,4.66-6.84,17-24.51,27.65-39.67C293.62,516,300,507,302.66,503.09a25.55,25.55,0,0,0,3.77-9.08c1.89-9.74,7.85-16.49,18.14-20.7,2.25-.85,43.17-35.06,43.17-39.45,0-3.1-4.45-4.87-7.92-5.78-.48-.12-26.24-6.82-37.92-12.12A88.58,88.58,0,0,1,305,406.41c-7.53-5.54-22.23-3.16-25.3-2.67l-.27.05c-11,1.58-19.12,6.51-28.37,12.78-1.65,1.16-10.05,4.2-14.31,1.77-1.32-.75-2.9-1.6-4.65-2.54-9.16-4.92-22.91-12.31-28.59-20.9-3.11-4.69-2.68-12.42-.49-20.94,7.07-19.73,17.48-28.56,36.77-33.91,11.39-3.95,32.41-5.33,46.84-6.28,2.93-.19,5.59-.37,7.84-.54.12-.05.8-.09,1.94-.18,7-.51,31.32-2.27,49.13-11.39,1.61-.82,3.59-1.92,5.91-3.2,17.67-9.8,55.68-30.86,107.76-29.25,12.95.4,32.15,7.45,49.77,13.93,14.79,5.43,28.46,10.45,36.38,10.79,17.65.73,26.54-1.22,36.77-11.81,2.92-3.05,15.16-29.53,3.59-44a108.64,108.64,0,0,0-13.94-14.55q-2.28-1.94-4.59-3.85a183.79,183.79,0,0,1-15.8-14.29c-13.82-14.61-18.09-34.58-11.51-50.17,4.14-10.9,13-15.65,25.63-13.15,6.22,1.24,11.28,5.49,15.95,9.41a73.24,73.24,0,0,0,5.84,4.59c3.6,2.38,9.56,3.78,13.46,4.69,4.93,1.16,8.65,4.93,8.4,7.49s-6.7,4.75-13,4.26c-7.36-.49-20.09-.55-27.7,2-5.05,1.83-7.3,7.49-5.84,13,1.22,4.57,10.9,12.66,14.55,15.65,1.64,1.35,3.3,2.67,5,4C587.86,231.81,593.56,236.34,598.23,242.15Z"
+            fill-rule="evenodd" />
+    </svg>
+</a>
+
+&nbsp;
+
+<a class="menuSocialButton" href="/rss" title="RSS">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 525 525">
+        <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M43.1,518.7
+	c-6.2,6.2-14.7,9.9-24.1,9.9c-9.4,0-17.8-3.8-24-9.9c-6.2-6.2-10-14.6-10-23.9c0-9.4,3.8-17.8,10-24s14.6-10,24-10
+	c9.4,0,17.9,3.8,24,10c6.2,6.2,10,14.6,10,24C53,504.2,49.2,512.6,43.1,518.7z M104.8,529c-0.1-32.1-12.5-62.3-35.1-84.9
+	c-22.6-22.6-52.8-35.2-84.7-35.2V360c46.6,0,88.7,19,119.3,49.6c30.6,30.6,49.5,72.8,49.6,119.4H104.8z M192,529
+	c-0.1-114.2-92.8-207.1-206.9-207.1V273c70.6,0,134.5,28.7,180.8,75.1c46.3,46.4,75,110.3,75.1,180.9H192z" />
+    </svg>
+</a>
+
+</footer>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page book-page-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#electronic-cash">Electronic Cash</a></li>
+    <li><a href="#bit-gold">Bit Gold</a></li>
+    <li><a href="#inflation">Inflation</a></li>
+    <li><a href="#bitcoin">Bitcoin</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  
+<div class="pageCover">
+    <picture>
+        
+        <img src="/img/gf-243.png" alt="Cover" />
+    </picture>
+</div>
+
+<h1>
+    
+    The Genesis Files. Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin
+    
+</h1>
+<div class="pageDate">
+    July 12, 2018
+</div>
+
+  <article class="markdown">
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Contents</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <ol>
+<li><a href="/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever</a></li>
+<li><a href="/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a></li>
+<li><a href="/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a></li>
+<li><a href="/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a></li>
+<li><a href="/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a></li>
+<li><a href="/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a></li>
+</ol>
+
+    </div>
+  </label>
+</div>
+
+<blockquote class="book-hint btc">
+  <p>This article by Aaron van Wirdum was published in <a href="https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin">Bitcoin Magazine</a>.</p>
+<p><a href="/contribute/">Contribute</a>.</p>
+
+</blockquote>
+
+<p>Digital currency, a cash for the internet, was always a central goal for the Cypherpunks. But few dived into the subject matter like Nick Szabo did.</p>
+<div class="imageWrapper">
+    <img src="/img/gf-244.png">
+</div>
+<p>As his Hungarian parents had fled post-war Soviet regime to settle in the United States, Nick Szabo came to call the Californian Bay area of the 1990s his home. Here, he was among the first to frequent the in-person “Cypherpunk” meetings organized by Timothy May, Eric Hughes and other founding members of the collective of cryptographers, programmers and privacy activists centered around the ’90s mailing list of the same name.</p>
+<p>Like the other Cypherpunks, Szabo was concerned with the receding guarantees of privacy in an upcoming digital age and took action to stem the tide where he could. For example, on the Cypherpunks mailing list, Szabo led opposition to the “<a href="https://en.wikipedia.org/wiki/Clipper_chip">Clipper chip</a>,” a proposed chip that would have been embedded in phones, allowing the NSA to listen into calls. Szabo had a particular knack for explaining the risks of such privacy infringements in a way that resonated with non-technical people, sometimes giving talks on the topic or even handing out flyers. (The chip would eventually be rejected by manufacturers and consumers.)</p>
+<p>But like the more libertarian-oriented Cypherpunks, Szabo’s interest in digital privacy was part of a bigger picture — it was not just about privacy alone. Inspired by Timothy May’s vision as laid out in <a href="https://activism.net/cypherpunk/crypto-anarchy.html">The Crypto Anarchist Manifesto</a>, Szabo saw the potential to create a “Galt’s Gulch” in cyberspace: a domain where individuals could trade freely, as described libertarian author Ayn Rand’s novel <em>Atlas Shrugged</em>. The pseudo-physics force field of the story, May and Szabo believed, could be substituted with the recently invented magic of public key cryptography.</p>
+<blockquote>
+<p>“If we step back and look at what many cypherpunks are trying to achieve, a major idealistic theme is a Ghandian cyberspace where violence can only be make-believe, whether in Mortal Komat [sic] or ‘flame wars,’” Szabo <a href="https://cypherpunks.venona.com/date/1995/09/msg01303.html">wrote</a> on the Cypherpunks mailing list.</p>
+</blockquote>
+<p>Yet, Szabo also realized that free enterprise needs more than just encryption as a security layer. Inspired by another libertarian author — economist Friedrich Hayek — he found that the basis of human society is, to a large extent, based on building blocks, like property and contracts, which are typically enforced by the state. To create a stateless, non-violent cyber alternative, Szabo knew that these building blocks had to be transferred to the online domain.</p>
+<p>This is how Szabo, by the mid 1990s, came to propose what he is perhaps best known for today: <em>smart contracts</em>. These (then-hypothetical) computer protocols could digitally facilitate, verify and enforce the negotiation or performance of a contract, ideally without the need of any third party. As Szabo had famously <a href="http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/ttps.html">argued</a>: “Trusted third parties are security holes.” These security holes would be targets for hackers or criminals — as well as nation states during times of political instability or oppression.</p>
+<p>But smart contracts were only part of the puzzle. The second tool Szabo needed in order to realize his “Galt’s Gulch” was possibly even more important. Money.</p>
+<h1 id="electronic-cash">
+  Electronic Cash
+  <a class="anchor" href="#electronic-cash">#</a>
+</h1>
+<p>Digital currency, a cash for the internet, was always a <a href="https://cypherpunks.venona.com/date/1993/08/msg00426.html">central goal</a> for the Cypherpunks. But few dived into the subject matter like Szabo did.</p>
+<p>In his essay “Shelling Out: The Origins of Money,” Szabo <a href="https://nakamotoinstitute.org/shelling-out/">described</a> how — as <a href="https://books.google.nl/books?id=ekonDAAAQBAJ&amp;pg=PA244&amp;lpg=PA244&amp;dq=Richard&#43;Dawkins&#43;money&#43;as&#43;a&#43;formal&#43;token&#43;of&#43;reciprocal&#43;altruism&amp;source=bl&amp;ots=kBbSS-l5AC&amp;sig=fr85YmvwkvFqWcOYLBkL10O7sI4&amp;hl=en&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=Richard20Dawkins20money20as20a20formal20token20of20reciprocal20altruism&amp;f=false">first hypothesized</a> by evolutionary biologist Richard Dawkins — using money has been embedded in the very DNA of humans. Having analyzed pre-civilized societies, Szabo found that people across cultures tended to collect scarce, easy-to-carry objects, often to make jewellery out of them. It was these objects that served as money, which in turn allowed humans to cooperate: game theoretical “reciprocal altruism” through trade, at scale and across time.</p>
+<p>Szabo also took a keen interest in <a href="https://en.wikipedia.org/wiki/Free_banking">free banking</a>, a monetary arrangement advocated by Hayek, where private banks issue their own currency not bound to any particular state. Under such a system, it’s completely up to the free market to choose which money to use. While a novel idea today (and even more so in the years before Bitcoin), free banking was a reality in the United States of the 1800s, as well as in several other countries.</p>
+<p>Szabo also went on to put his interest into practice and sold his expertise as an_internet commerce consultant_ by the mid 1990s, long before most saw the potential of online commerce. Most notably, he spent some time working at David Chaum’s DigiCash startup, headquartered in Amsterdam. Chaum’s company introduced the first digital cash the world had ever seen in the form of <a href="https://bitcoinmagazine.com/articles/genesis-files-how-david-chaums-ecash-spawned-cypherpunk-dream">eCash</a>: a means to make payments online as private as cash in real life was.</p>
+<p>But it was also at DigiCash where Szabo learned about the risks of Chaum’s solution. DigiCash was a centralized company, and Szabo found it was far too easy for him and others to mess with people’s balances if they’d wanted to. Trusted parties are security holes, after all, and this risk is perhaps nowhere bigger than with money.</p>
+<blockquote>
+<p>“The problem, in a nutshell, is that our money currently depends on trust in a third party for its value,” Szabo <a href="https://unenumerated.blogspot.com/2005/12/bit-gold.html">argued</a> in 2005. “As many inflationary and hyperinflationary episodes during the 20th century demonstrated, this is not an ideal state of affairs.”</p>
+</blockquote>
+<p>In fact, he considered this trust problem such an obstacle that even a typical free banking solution could suffer from it: “[P]rivate bank note issue, while it had various advantages as well as disadvantages, similarly depended on a trusted third party.”</p>
+<p>Szabo knew he wanted to create a new form of money that did not depend on trust in any third party.</p>
+<p>Based on his analysis of prehistoric money, Szabo had come a long way in figuring out what his ideal money would look like. First, it had to be “secure from accidental loss and theft.” Second, its value must be “unforgeably costly, and therefore considered valuable.” And third: “This value [had to be] accurately approximated by simple observations or measurements.”</p>
+<p>Best compared to precious metals like gold, Szabo wanted to create something that was both digital and scarce, where this scarcity did not depend on any third party trust. He wanted to create a digital gold.</p>
+<blockquote>
+<p>Precious metals and collectibles have an unforgeable scarcity due to the costliness of their creation. This once provided money the value of which was largely independent of any trusted third party. Precious metals have problems, however. […] Thus, it would be very nice if there were a protocol whereby unforgeably costly bits could be created online with minimal dependence on trusted third parties, and then securely stored, transferred, and assayed with similar minimal trust. Bit gold.</p>
+</blockquote>
+<h1 id="bit-gold">
+  Bit Gold
+  <a class="anchor" href="#bit-gold">#</a>
+</h1>
+<p>Szabo first came up with Bit Gold in 1998, though he only <a href="https://unenumerated.blogspot.com/2005/12/bit-gold.html">fully described</a> it in public in <a href="http://web.archive.org/web/20060329122942/http://unenumerated.blogspot.com/2005/12/bit-gold.html">2005</a>. His proposed digital money scheme consisted of a combination of solutions, some of which were inspired by (or resembled) previous electronic cash concepts.</p>
+<p>The first central property of Bit Gold was <em>proof of work</em>, the cryptographic trick utilized by Dr. Adam Back in his “anti-spam currency” <a href="https://bitcoinmagazine.com/articles/genesis-files-hashcash-or-how-adam-back-designed-bitcoins-motor-block">Hashcash</a>. Proof of work represented the unforgeable costliness Szabo was looking for, as it required real-world resources — computing power — to produce these proofs.</p>
+<p>Bit Gold’s proof-of-work system started with a “candidate string”: basically a random number. Anyone could take this string and mathematically combine — “hash” — it with another, newly generated random number. By the nature of hashing, the result would be a new, seemingly random string of numbers: the hash. The only way to find out what this hash looks like is to actually create it — it cannot otherwise be computed or predicted.</p>
+<p>The trick, also utilized in Hashcash, is that not all hashes are considered valid within the Bit Gold protocol. Instead, a valid hash must, for example, start with a predetermined number of zeros. Because of the unpredictable nature of hashing, the only way to find such a valid hash is trial and error. A valid hash, therefore, proves that its creator expended computing power.</p>
+<p>This valid hash would, in turn, be the next Bit Gold candidate string. The Bit Gold system would, therefore, grow into a chain of proof-of-work hashes, and there’d always be a next candidate string to work with.</p>
+<p>Whoever would find a valid hash would quite literally own that hash, similar to how the person that finds a bit of gold ore owns it. To establish this ownership digitally, Bit Gold used a <a href="https://nakamotoinstitute.org/secure-property-titles/#selection-125.47-125.66">digital ownership registry</a>: another Hayek-inspired building block proposed by Szabo. In this registry, the hashes were to be linked to the public keys of their respective creators.</p>
+<p>It was also through this digital ownership registry that a hash could be transferred to a new owner: The original owner would literally sign off on a transaction with a cryptographic signature.</p>
+<p>The ownership registry was to be maintained by a Bit Gold “property club.” This property club consists of “club members” (servers) that would keep track of which public keys own which hashes. This solution somewhat resembled Wei Dai’s proposed replicated database solution for b-money; both Szabo and Dai were not only active on the Cypherpunks’ mailing list, but also on a closed email list discussing these topics.</p>
+<p>But instead of Dai’s proof-of-stake system to keep the system up to date, Szabo proposed a “Byzantine Quorum System.” Similar to security-critical systems like airplane board computers, if only one (or a minority) of these computers should fall out of line, the system as a whole would continue to operate fine. Only if a majority of computers were to fail at the same time would the system be in trouble. Importantly, none of these checks required courts or judges or police, backed by the state monopoly on violence: It would all be voluntary.</p>
+<p>While this system was not in itself 100 percent watertight — it could for example be <a href="https://en.wikipedia.org/wiki/Sybil_attack">Sybil attacked</a> (the “sock puppet problem”) — Szabo believed it could work itself out. Even in the scenario where a majority of club members would attempt to cheat, the honest minority could branch off into a competing ownership registry. Users could then choose which ownership registry to use, which Szabo thought would probably be the honest one.</p>
+<blockquote>
+<p>“If the rules are violated by the winning voters, the correct losers can exit the group and reform a new group, inheriting the old titles,” he explained. “Users of the titles (relying parties) who wish to maintain correct titles can securely verify for themselves which splinter group has correctly followed the rules and switch to the correct group.”</p>
+</blockquote>
+<p>(As a modern-day example, this can perhaps be compared with Ethereum Classic, which <a href="https://bitcoinmagazine.com/articles/rejecting-today-s-hard-fork-the-ethereum-classic-project-continues-on-the-original-chain-here-s-why-1469038808">maintains</a> a version of the original Ethereum ledger that did not undo The DAO smart contract.)</p>
+<h1 id="inflation">
+  Inflation
+  <a class="anchor" href="#inflation">#</a>
+</h1>
+<p>The next problem that Szabo had to solve was inflation. As computers improve over time, it would become easier and easier to generate valid hashes. This means that the hashes themselves can’t function as money very well: they would become increasingly less scarce every year, to the point where abundance would dilute all value.</p>
+<p>Szabo figured out a solution. Once a valid hash was found, it had to be timestamped, ideally with different timestamp servers to minimize trust in any particular one. This timestamp would give an idea of how hard it was to produce the hash: an older hash would have been harder to produce than a newer hash. Markets would then determine how much any particular hash is worth relative to one another, presumably adjusting its value for the date it was found. A valid “2018 hash” should be worth much less than a valid “2008 hash.”</p>
+<p>But this solution, of course, introduced a new problem, Szabo <a href="https://unenumerated.blogspot.com/2008/04/bit-gold-markets.html">knew</a>: “the bits (the puzzle solutions) from one period (anywhere from seconds to weeks, let&rsquo;s say a week) to the next are not fungible.” Fungibility — the idea that any currency unit is equal to any other unit — is critical for money. A shopkeeper wants to accept a payment without having to worry about the date the money was created.</p>
+<p>Szabo came up with a solution to this problem as well. He <a href="https://unenumerated.blogspot.com/2008/04/bit-gold-markets.html">envisioned</a> a sort of “second layer” solution on top of the Bit Gold base layer. This layer would consist of a type of bank, though a securely auditable bank, since the Bit Gold registry was public. These banks would collect different hashes from different time periods and, based on the value of these hashes, bundle them into packets of a combined standard value. A “2018 pack” would include more hashes than a “2008 pack,” but both packs would be worth the same.</p>
+<p>These packs, then, were to be cut up in a specific number of units. Finally, these units could be issued by the “banks” as a private and anonymous Chaumian eCash.</p>
+<blockquote>
+<p>“[C]ompeting banks issue digital banknotes redeemable in solution bits whose market values add up to the face value of the bank note (i.e. they create bundles of standard value),” Szabo <a href="https://unenumerated.blogspot.com/2011/05/bitcoin-what-took-ye-so-long.html">explained</a>.</p>
+</blockquote>
+<p>Thus, Bit Gold was designed as a gold standard-like base layer for a free banking system of the digital age.</p>
+<h1 id="bitcoin">
+  Bitcoin
+  <a class="anchor" href="#bitcoin">#</a>
+</h1>
+<p>In the 2000s, Szabo went on to earn a law degree to understand the law and contract reality he wished to replace or replicate online even better. He also started to collect and publish his ideas on a well-respected blog, “<a href="https://unenumerated.blogspot.com/">Unenumerated</a>,” which covers topics ranging from computer science to law and politics, but also history and biology. “The list of topics for this blog […] is so vast and varied that it cannot be enumerated,” Szabo <a href="https://unenumerated.blogspot.com/2005/10/unenumerated.html">explained</a> the title.</p>
+<p>By 2008 — 10 years after first proposing it in private — Szabo brought up Bit Gold on his blog once again, only this time he wanted to realize a first implementation of his proposal.</p>
+<blockquote>
+<p>“Bit Gold would greatly benefit from a demonstration, an experimental market (with e.g. a trusted third party substituted for the complex security that would be needed for a real system). Anybody want to help me code one up?” he <a href="https://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269">asked</a> in the comment section his blog.</p>
+</blockquote>
+<p>If someone responded, it wasn’t in public. Bit Gold, in Szabo’s proposed form, was never implemented.</p>
+<p>However, Bit Gold did serve as a key inspiration for Satoshi Nakamoto, who published the Bitcoin white paper later that same year.</p>
+<blockquote>
+<p>“Bitcoin is an implementation of Wei Dai&rsquo;s b-money proposal [&hellip;] on Cypherpunks [&hellip;] in 1998 and Nick Szabo&rsquo;s Bitgold proposal,” Bitcoin’s pseudonymous inventor <a href="https://bitcointalk.org/index.php?topic=342.msg4508#msg4508">wrote</a> on the Bitcointalk forum in 2010.</p>
+</blockquote>
+<p>Indeed, it’s not difficult to see Bit Gold as an early draft of Bitcoin. Apart from the shared database of ownership records based on public key cryptography, the chain of proof-of-work hashes has an eerie resemblance to Bitcoin’s <a href="https://bitcoinmagazine.com/guides/what-is-blockchain">blockchain</a>. And, of course, the names Bit Gold and Bitcoin are not too far apart either.</p>
+<p>Yet, unlike systems like Hashcash and b-money, Bit Gold was conspicuously absent from the Bitcoin white paper. Some have even considered this absence so notable they took it as one of several hints that Szabo must be the man behind the Satoshi Nakamoto monicker: Who else would try to hide Bitcoin’s origins like this?</p>
+<p>Still, while similar to Bit Gold in several ways, Bitcoin did include some improvements over Szabo’s design. In particular, where Bit Gold still relies on trusted parties to an extent — servers and the timestamp services must be trusted to some degree not to collude — Bitcoin was the first system to solve this problem entirely. It solves it very elegantly, by having the required proof-of-work system serve as both an award system and a consensus mechanism in one: The hash chain with the most proof of work is considered the valid version of history.</p>
+<blockquote>
+<p>“Nakamoto improved a significant security shortcoming that my design had,” Szabo <a href="https://unenumerated.blogspot.com/2011/05/bitcoin-what-took-ye-so-long.html">acknowledged in 2011</a>, “namely by requiring a proof-of-work to be a node in the Byzantine-resilient peer-to-peer system to lessen the threat of an untrustworthy party controlling the majority of nodes and thus corrupting a number of important security features.”</p>
+</blockquote>
+<p>Further, Bitcoin has a very different monetary model than Szabo proposed, with a fixed inflation schedule that remains unaffected by hash power increases altogether. As computing power on the Bitcoin network increases, it just means that it’s harder to find new coins.</p>
+<blockquote>
+<p>“Instead of my automated market to account for the fact that the difficulty of puzzles can often radically change based on hardware improvements and cryptographic breakthroughs (i.e. discovering algorithms that can solve proofs-of-work faster), and the unpredictability of demand, Nakamoto designed a Byzantine-agreed algorithm adjusting the difficulty of puzzles,” Szabo explained.</p>
+<p>“I can&rsquo;t decide whether this aspect of Bitcoin is more feature or more bug,” he added, “but it does make it simpler.”</p>
+</blockquote>
+
+<div class="book-expand">
+  <label>
+    <div class="book-expand-head flex justify-between">
+      <span>Contents</span>
+      <span>...</span>
+    </div>
+    <input type="checkbox" class="hidden" />
+    <div class="book-expand-content markdown-inner">
+      <ol>
+<li><a href="/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever</a></li>
+<li><a href="/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</a></li>
+<li><a href="/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</a></li>
+<li><a href="/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</a></li>
+<li><a href="/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</a></li>
+<li><a href="/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</a></li>
+</ol>
+
+    </div>
+  </label>
+</div>
+
+</article>
+  <hr>
+
+<i>Connect to our relay to leave a comment. <a href="https://21ideas.org/en/comments/">Details</a>. <br> Подключитесь к нашему релею, чтобы оставить комментарий. <a href="https://21ideas.org/comments/">Подробнее</a>.</i> 
+
+<zap-threads
+      anchor="http://localhost:1313/en/gf/genesis-4/"
+      author="npub1lm3f47nzyf0rjp6fsl4qlnkmzed4uj4h2gnf2vhe3l3mrj85vqks6z3c7l"
+      relays="wss://21ideas.nostr1.com"
+      disable="replyAnonymously"
+      legacy-url="true">
+</zap-threads>
+
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#electronic-cash">Electronic Cash</a></li>
+    <li><a href="#bit-gold">Bit Gold</a></li>
+    <li><a href="#inflation">Inflation</a></li>
+    <li><a href="#bitcoin">Bitcoin</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+
+  <script src="/static/scripts.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
