@@ -3,8 +3,10 @@ title: "Практики безопасности"
 h1: "Безопасность"
 type: docs
 bookCollapseSection: true
-bookHidden: true
+bookHidden: false
 weight: 4
 ---
 
 Раздел, посвященный лучшим практикам обеспечения безопасности своих монет.
+
+1. [Проверка подлинности программного обеспечения с помощью PGP](/pgp-verify)
