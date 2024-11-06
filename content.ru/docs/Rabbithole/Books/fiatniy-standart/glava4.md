@@ -2,11 +2,11 @@
 title: "Глава 4"
 h1: "Глава 4 - Фиатный майнинг"
 description: "Эта глава рассказывает о механизмах в основе создания фиатных валют и о пагубных последствиях, вызываемых таким подходом."
-url: fiatniy-standart/4-paywalled
+url: fiatniy-standart/4
 date: 2021-05-19
 bookFlatSection: false
 bookToc: true
-bookHidden: true
+bookHidden: false
 weight: 5
 ---
 
