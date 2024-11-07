@@ -7,7 +7,7 @@ url: cena
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
-weight: 8
+weight: 1
 ---
 
 Перевод книги "Цена завтрашнего дня" Джеффа Бута осуществляется совместными усилиями проектов 21 идея,  [BitKorn](https://www.youtube.com/@BitKorn) и [♾️/21M](https://t.me/gametheoryhub). 
@@ -34,7 +34,7 @@ weight: 8
 
 6. [Будущее интеллекта](/cena/6)
 
-7. Кто окажется в дамках?
+7. [Кто станет мастером?](/cena/7)
 
 8. Мы против них
 
