@@ -24,6 +24,9 @@ menu:
 {{< button href="mailto:lightning_tony@protonmail.com" >}}Email{{< /button >}}
 {{< button href="/publickey.lightning_tony@protonmail.com.asc" >}}PGP{{< /button >}}
 
+{{< hint btc >}}
+Подробнее о PGP читайте в [этом гиде](/pgp-verify/).
+{{< /hint>}}
 
 ## Алекс
 
