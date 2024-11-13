@@ -69,3 +69,4 @@ url: table
 | - 30,000 | [btclinux](https://github.com/btclinux) | Перевод и добавление англоязычных версий статей | 434,000 |
 | - 2100 | [Radiokot](https://github.com/Radiokot) | Исправление ошибки меню сайта | 432,000 |
 | - 12,000 | [btclinux](https://github.com/btclinux) |  Помощь в переносе библиотеки биткоинера | 420,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) |  [Проверка подлинности программного обеспечения с помощью PGP](https://21ideas.org/pgp-verify/) | 420,000 |
