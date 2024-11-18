@@ -414,6 +414,21 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/books/jekyll-cover.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Откуда появляются деньги? Куда уходят? Кто их делает? Эта книга раскрывает секреты денежных магов.</p>
+    </div>
+    <div class="card-content">
+        <h2>Порождение острова Джекилл</h2>
+        <p>Автор: Эдвард Гриффин</p>
+        </div> 
+        <div class="button-container">
+            <a href="/jekyll" class="button">Подробнее</a>
+            <a href="/epubs/jekyll.zip" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/books/in-defence-of-deflation.png" alt="Обложка">
     <div class="hover-text">
         <p>Для будущего свободы крайне важно, чтобы мифы о дефляции были опровергнуты.</p>
