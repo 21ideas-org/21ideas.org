@@ -458,10 +458,8 @@ weight: 1
         </div>
 </div>
 
-<br>
 <h2>Художественные</h2>
 <br>
-
 <div class="card">
     <img src="/img/books/1984.png" alt="Обложка">
     <div class="hover-text">
