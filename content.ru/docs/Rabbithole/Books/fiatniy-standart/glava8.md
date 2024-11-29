@@ -2,11 +2,11 @@
 title: "Глава 8"
 h1: "Глава 8 – Фиатная пища"
 description: "В отсутствие фиатна понимание питания большинством людей было бы совсем иным и гораздо более похожим на традиции их предков, которые в значительной степени вращались вокруг животной пищи."
-url: fiatniy-standart/8-paywalled
+url: fiatniy-standart/8
 date: 2021-05-19
 bookFlatSection: false
 bookToc: true
-bookHidden: true
+bookHidden: false
 weight: 9
 ---
 
