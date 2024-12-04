@@ -9,7 +9,7 @@ aliases: ['/basics-bitcoin-guide-practical']
 date: 2022-12-06
 bookFlatSection: false
 bookToc: true
-weight: 2
+weight: 3
 ---
 
 Базовый гид по взаимодействию с биткоином. Узнайте как покупать, хранить и пользоваться биткоином.
