@@ -125,7 +125,9 @@ You may expect retargeting interval to be (2 weeks)/2015, but it is even weirder
 
 As [@pwuille](https://twitter.com/pwuille) points out:
 
-{{< tweet user="pwuille" id="1098651788343955456" >}}
+{{% image "/img/twitter-pwuille-1098651788343955456.png" %}}
+_[Source](https://web.archive.org/web/20210506062127/https://twitter.com/pwuille/status/1098651788343955456)_
+{{% /image %}}
 
 The 2nd effect is the Time Warp Attack.
 
