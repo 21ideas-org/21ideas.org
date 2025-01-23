@@ -404,7 +404,9 @@ After another month or so of playing around with my node on the weekends, changi
 
 It's worth nothing that nearly half of the 60,000 satoshis in on-chain fees that were paid were **due to a single force close of a channel**. This force close paid over 100 satoshis per virtual byte in fees when it could have been confirmed quickly with ~5 satoshis per virtual byte. In hindsight I believe this could have been avoided if I had been patient and waited for that peer to come back online before closing the channel. _If not for that unforced error, I'd likely have earned more in off-chain fees than I've paid in on-chain fees as of today_. This appears to be a common issue.
 
-{{< tweet user="c_otto83" id="1417545255319134213" >}}
+{{% image "/img/twitter-c_otto83-1417545255319134213.png" %}}
+_[Source](https://web.archive.org/web/20210720180145/https://twitter.com/c_otto83/status/1417545255319134213)_
+{{% /image %}}
 
 On the bright side, anchor channels should address this problem so that you don't have to rely on old and over-estimated fee rates. As of lnd 0.13.0 newly created channels use anchors by default; you just need to ensure you maintain ~100,000 sats in your on-chain wallet to use as a fee reserve.
 
