@@ -5,7 +5,7 @@ cover: /img/silkroad/sr-01.jpg
 tags: ["биткоин", "история"]
 description: "Действовавшая с 2011 по 2013 год, даркнет-платформа Silk Road навсегда оставила свой след в истории Биткоина."
 url: sr/silkroad-1
-date: 2018-04-24
+date: 2021-05-30
 bookFlatSection: false
 bookToc: false
 weight: 1
