@@ -7,7 +7,8 @@ description: "Украденные биткоины, заказные убийс
 url: sr/silkroad-5
 date: 2021-06-27
 bookFlatSection: false
-bookToc: false
+bookToc: true
+bookHidden: true
 weight: 5
 ---
 

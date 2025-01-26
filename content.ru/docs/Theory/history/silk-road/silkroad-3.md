@@ -8,6 +8,7 @@ url: sr/silkroad-3
 date: 2021-06-13
 bookFlatSection: false
 bookToc: true
+bookHidden: true
 weight: 3
 ---
 
