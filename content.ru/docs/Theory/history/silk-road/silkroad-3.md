@@ -3,11 +3,11 @@ title: "Часть 3. Silk Road и Ужасный Пират Робертс"
 h1: "Шелковый путь, Часть 3. Silk Road и Ужасный Пират Робертс"
 cover: /img/silkroad/sr-09.jpg
 tags: ["биткоин", "история"]
-description: "Сегодня мы поговорим о Dread Pirate Roberts, вымышленном персонаже, которого Росс Ульбрихт использовал для руководства Silk Road с февраля 2012 года."
+description: "Эта часть посвящена Dread Pirate Roberts, вымышленному персонажу, которого Росс Ульбрихт использовал для управления Silk Road начиная с февраля 2012 года."
 url: sr/silkroad-3
 date: 2021-06-13
 bookFlatSection: false
-bookToc: false
+bookToc: true
 weight: 3
 ---
 
