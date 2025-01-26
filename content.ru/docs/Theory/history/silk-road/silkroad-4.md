@@ -7,7 +7,8 @@ description: "Silk Road превратился в настоящий бизне�
 url: sr/silkroad-4
 date: 2021-06-20
 bookFlatSection: false
-bookToc: false
+bookToc: true
+bookHidden: true
 weight: 4
 ---
 
