@@ -56,4 +56,7 @@ I have to start with hash functions.</description></item><item><title>Transactio
 Contribute.
 You can measure the size of a bitcoin transaction in 3 ways:
 Bytes (b) – Transaction size on disk. Weight Units (wu) – For fitting transactions in to a block. Virtual Bytes (vB) – For comparing fee rates between transactions. Bytes is the most straightforward unit. It&amp;rsquo;s used for measuring any amount of data on a computer.
-Weight Units and Virtual Bytes are measurements unique to bitcoin.</description></item></channel></rss>
+Weight Units and Virtual Bytes are measurements unique to bitcoin.</description></item><item><title>On Ossification</title><link>https://21ideas.org/en/on-ossification/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-ossification/</guid><description>An impassioned argument for why we should continue striving to improve the Bitcoin protocol.
+This article by Jameson Lopp was published in his blog
+Contribute
+Note: if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics.</description></item></channel></rss>
