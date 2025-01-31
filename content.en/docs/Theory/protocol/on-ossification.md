@@ -45,7 +45,7 @@ This isn't a knock on complex layers like BitcoinOS / BitVM / Botanix's Spiderch
 
 Many desirable features like covenants, vaults, and payment pools require base layer upgrades. Building these in a clean way on the protocol itself is far better than hacky overlays. A base layer with more building blocks unlocks a new design space for Bitcoin.
 
-{{% image "/img/oss-03.png" /%}}
+{{% image "/img/oss-03-en.png" /%}}
 
 Careful, well-tested upgrades that have been thoroughly debated and reached community consensus do not undermine property rights or Bitcoin's core stable money proposition. Upgrades enshrine the will of the users rather than override them.
 
@@ -210,11 +210,11 @@ I think this is another point on which both sides generally agree. The changes t
 
 This seems to be another issue of not believing in the game theory behind Bitcoin's governance. I'm of the opinion that if you don't believe in the checks and balances inherent to the system, you don't really believe in Bitcoin.
 
-{{% image "/img/oss-05.png" /%}}
+{{% image "/img/oss-05-en.png" /%}}
 
 As I'll note later, ossification itself also has the potential of enabling Bitcoin to be captured by special interest groups. The answer is not paralysis, the answer is vigilance and the ability to adapt to new stresses and adversaries!
 
-**8. Bitcoin Should Only Be Money**
+**Bitcoin Should Only Be Money**
 
 The debate over what use cases of Bitcoin should be considered spam has raged as long as I can remember. I don't find it particularly interesting because the debate boils down to people arguing about subjective value, while we can empirically observe that non-financial uses of block space have objective value to people - they are willing to pay for the privilege.
 
@@ -263,11 +263,11 @@ Technology is deflationary by nature. Bitcoin’s consensus rules should priorit
 
 Are we going to allow the future of Bitcoin to be driven by optimism or by pessimism?
 
-{{% image "/img/oss-08.png" /%}}
+{{% image "/img/oss-08-en.png" /%}}
 
 To be clear, caution is of utmost importance. Nowhere will you find me claiming that "Bitcoin must implement feature X or it will fail." Bitcoin's success is, in my opinion, one of the factors that actually is making it more difficult to improve.
 
-{{% image "/img/oss-09.png" /%}}
+{{% image "/img/oss-09-en.png" /%}}
 
 But if we allow ourselves to be paralyzed by fear, we will be sacrificing potential paths forward and vastly limiting the exploration of Bitcoin's design space, which I believe naturally results in limiting its adoption, use cases, and strengthening of valuable attributes.
 
@@ -277,7 +277,7 @@ But if we allow ourselves to be paralyzed by fear, we will be sacrificing potent
 
 A word of warning, as I see conflict on the horizon. Consider the incentives around why one would want to improve the Bitcoin protocol. The only reason you'd care about doing so is if you are a direct user of the protocol. In other words, **protocol improvements are only interesting to those who self custody**. If you use a trusted third party to store your funds, you don't care how they make use of the protocol.
 
-{{% image "/img/oss-10.png" /%}}
+{{% image "/img/oss-10-en.png" /%}}
 
 Perhaps Bitcoin has already ossified and all of the above was written for naught. We won't know for sure until we have the benefit of significant hindsight. The world is never going to stop evolving, and we have to ask ourselves if we want Bitcoin to evolve along with it or for it to get left behind.
 
