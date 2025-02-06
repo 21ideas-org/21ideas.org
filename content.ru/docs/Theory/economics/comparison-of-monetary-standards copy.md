@@ -7,6 +7,7 @@ url: sravnenie-monetarnyh-standartov
 aliases: ['/theory-economics-comparison-of-monetary-standards']
 date: 2021-02-05
 bookFlatSection: false
+bookHidden: true
 weight: 56
 ---
 

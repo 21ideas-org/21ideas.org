@@ -19,6 +19,8 @@ weight: 10
 
 {{< hint btc >}}
 _Отчёт подготовлен [@orangesurfbtc](https://x.com/@orangesurfbtc) для mempool research. Данные получены с использованием [Mempool Enterprise](https://mempool.space/enterprise). Перевод [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)_
+
+[Поддержать проект](/contribute/)
 {{< /hint >}}
 
 Рады приветствовать вас на страницах свежего исследовательского отчёта [Mempool Space](https://mempool.space/ru/). В этом отчёте мы рассмотрим, как со временем менялся размер и заполняемость биткоин-блоков. Мы изучим влияние обновления SegWit на размер блока и оценим, как будет развиваться блокчейн Биткоина в ближайшие годы.
