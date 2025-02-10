@@ -752,11 +752,3 @@ Making the necessary changes for Testnet from [this section](/en/practice-privac
 ```bash
 ./dojo.sh upgrade
 ```
-
-## Support the author
-
-You can support the author by sending some sats via the Lightning Network:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
-{{% /image %}}

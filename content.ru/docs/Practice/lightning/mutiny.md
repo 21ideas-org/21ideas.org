@@ -199,11 +199,3 @@ Mutiny Gifts — это функция для пользователей `Mutiny
 [^5]: [Как перенести кошелек Mutiny в нативные приложения, 22 ноября 2023](https://blog.mutinywallet.com/migrate-mutiny-wallet-to-the-native-apps/)
 [^6]: [https://bitcoin.design/guide/how-it-works/liquidity/#channel-reserve](https://bitcoin.design/guide/how-it-works/liquidity/#channel-reserve)
 [^7]: [Блог: FAQ по кошельку Mutiny, 25 ноября 2023](https://blog.mutinywallet.com/mutiny-wallet-faq/)
-
-### Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
-{{% /image %}}

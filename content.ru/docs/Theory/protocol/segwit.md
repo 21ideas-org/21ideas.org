@@ -294,11 +294,3 @@ SegWit существует уже так давно, что вряд ли вы 
 - [Объяснение Segregated Witness](https://www.youtube.com/watch?v=DzBAG2Jp4bg) – Хорошее объяснение SegWit в видеоформате с полезными визуализациями изменений в структуре данных транзакций.
 
 [^1]: Я получил эту цифру в 60%, пробежавшись по файлам [blk.dat](https://learnmeabitcoin.com/technical/block/blkdat/), сложив данные `scriptSig` для всех транзакций в блоке, и сравнив их с общим размером блока. Я не проводил исчерпывающих тестов, но 60% кажется справедливым средним значением. Например, вот результат для [blk00700.dat](https://learnmeabitcoin.com/beginners/guide/segwit/blk00700_scriptsig.txt).
-
-### Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
-{{% /image %}}

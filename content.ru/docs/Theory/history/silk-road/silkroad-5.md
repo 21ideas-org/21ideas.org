@@ -188,14 +188,6 @@ DPR : никогда раньше не убивал и не приказывал
 
 _Информация в этой статье взята из нескольких источников, включая книгу [American Kingpin](https://www.amazon.com/American-Kingpin-Criminal-Mastermind-Behind/dp/1591848148) , написанную Ником Билтоном, и [архивы](https://antilop.cc/sr/), собранные [Moustache](https://twitter.com/lamoustache). Также есть [отличное видео](https://www.youtube.com/watch?v=GpMP6Nh3FvU) от Barely Sociable с рассказом о заказных убийствах `FriendlyChemist` и `tony76`._
 
-### Поддержите переводчика
-
-Поддержать переводчика можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
-{{% /image %}}
-
 {{< expand "Оглавление" "..." >}}
 ## Шелковый путь
 
