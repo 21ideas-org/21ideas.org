@@ -455,11 +455,3 @@ e9f161fb82bb803ae3fd202aaee73d4c9562dbac9bbdd66412c787985ba4b6a7  phoenix-93-2.
 ```
 
 и сравнить со значением из файла `SHA256SUMS.asc`.
-
-## Поддержите автора
-
-Поддержать автора можно, отправив немного сат в сети Лайтнинг:
-
-{{% image "/img/btclinux-ln-qr.jpg" %}}
-`lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhk7mnv093kcmm4v3unxwg6jxyqf`
-{{% /image %}}
