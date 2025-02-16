@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 2
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 In part one of Giacomo Zucco’s “Discovering Bitcoin” series, he reimagines the period of monetary history prior to fiat money.
 
@@ -102,7 +102,7 @@ So far, you’ve learned:
 
 But what can you do with all of the fish you catch every day? Not much, actually, if you are still able to consume just two and you can’t exchange them, which is something you will learn about tomorrow, in [Part 2](/en/discovering-bitcoin/about-people).
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -111,4 +111,4 @@ But what can you do with all of the fish you catch every day? Not much, actually
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

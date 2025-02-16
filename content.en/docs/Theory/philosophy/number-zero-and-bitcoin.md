@@ -315,7 +315,7 @@ Digitization is advantageous across all five traits of money. Since Bitcoin is j
 
 In the same way that the number zero enables our numeric system to scale and more easily perform calculation, so too does money give an economy the ability to [socially scale](https://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html) by simplifying trade and economic calculation. Said simply: scarcity is essential to the utility of money, and a zero-growth terminal money supply represents “perfect” scarcity — which makes Bitcoin as near a “perfect” monetary technology as mankind has ever had. Absolute scarcity is a monumental monetary breakthrough. Since money is valued according to reflexivity, meaning that investor perceptions of its future exchangeability influence its present valuation, Bitcoin’s perfectly predictable and finite future supply underpins an unprecedented rate of expansion in market capitalization:
 
-{{< tweet user="Breedlove22" id="1202015684831727618" >}}
+{{< x user="Breedlove22" id="1202015684831727618" >}}
 
 *Bitcoin is truly unique: a perfectly scarce and predictably supplied money.*
 
@@ -335,11 +335,11 @@ Bitcoin is the global economic [singularity](https://en.wikipedia.org/wiki/Gravi
 
 Zero has proven itself as the capstone of our numeral system by making it scalable, invertible, and easily convertible. In time, Bitcoin will prove itself as the most important network in the global economic system by increasing social scalability, causing an inversion of economic power, and converting culture into a realignment with [Natural Law](https://en.wikipedia.org/wiki/Natural_law). Bitcoin will allow sovereignty to once again inhere at the individual level, instead of being usurped at the institutional level as it is today—all thanks to its special forebear, zero:
 
-{{< tweet user="Breedlove22" id="1240719474346455045" >}}
+{{< x user="Breedlove22" id="1240719474346455045" >}}
 
 Central planning in the market for money (aka monetary socialism) is dying. This tyrannical financial hierarchy has increased worldwide wealth [disparities](https://www.austriancenter.com/cantillon-effect-populism/), funded perpetual [warfare](https://mises.org/library/how-central-banks-fund-our-age-endless-war), and plundered entire commonwealths to “[bail out](https://nakamotoinstitute.org/static/docs/the-ethics-of-money-production.pdf)” failing institutions. A reversion to the free market for money is the only way to heal the devastation it has wrought over the past 100+ years. Unlike central bankers, who are fallible human beings that give into political pressure to pillage value from people by printing money, Bitcoin’s monetary policy does not bend for anyone: it gives zero fucks. And in a world where central banks can “just add zeros” to steal your wealth, people’s only hope is a “zero fucks” money that cannot be confiscated, inflated, or stopped:
 
-{{< tweet user="GoingParabolic" id="1241383528065126400" >}}
+{{< x user="GoingParabolic" id="1241383528065126400" >}}
 
 *Central banks literally “just add zeros” to steal vast swathes of societal wealth.*
 
@@ -357,7 +357,7 @@ Inflation rate and societal wellbeing are inversely related: the more reliably v
 
 Zero and infinity are reciprocal: 1/∞ = 0 and 1/0 = ∞. In the same way, a society’s wellbeing shrinks towards zero the more closely the inflation rate approaches infinity (through the hyperinflation of fiat currency). Conversely, societal wellbeing can, in theory, be expanded towards infinity the more closely the inflation rate approaches zero (through the absolute scarcity of Bitcoin). Remember: The Fed is now doing whatever it takes to make sure there is “infinite cash” in the banking system, meaning that its value will eventually fall to zero:
 
-{{< tweet user="MartyBent" id="1242090758821351432" >}}
+{{< x user="MartyBent" id="1242090758821351432" >}}
 
 _Market value of money always converges to its marginal cost of production: “Infinite cash” means dollars will inevitably become as valuable as the paper on which they are printed._
 

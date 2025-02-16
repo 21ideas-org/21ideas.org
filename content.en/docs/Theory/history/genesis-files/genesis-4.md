@@ -11,14 +11,14 @@ bookToc: true
 weight: 5
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by Aaron van Wirdum was published in [Bitcoin Magazine](https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin).
@@ -138,11 +138,11 @@ Further, Bitcoin has a very different monetary model than Szabo proposed, with a
 > 
 > “I can't decide whether this aspect of Bitcoin is more feature or more bug,” he added, “but it does make it simpler.”
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}

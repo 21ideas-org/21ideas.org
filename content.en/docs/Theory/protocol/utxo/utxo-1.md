@@ -10,7 +10,7 @@ bookToc: true
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -20,7 +20,7 @@ weight: 1
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc>}}
 This article by Tom Honzik was published in [Unchained blog](https://unchained.com/blog/what-is-a-utxo-bitcoin)
@@ -150,7 +150,7 @@ The second technique is [performing a UTXO consolidation](https://help.unchained
 
 The third technique, called a CoinJoin, is a more advanced procedure that increases your privacy by coordinating a mixed spend together with other parties. The resulting UTXOs make it much harder for your bitcoin to be tracked. Head over to [our article on CoinJoins](https://unchained.com/blog/what-is-coinjoin/) to learn how they work, and why they are important.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -160,4 +160,4 @@ The third technique, called a CoinJoin, is a more advanced procedure that increa
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}

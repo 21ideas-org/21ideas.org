@@ -11,7 +11,7 @@ bookToc: true
 weight: 14
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 14
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-common-sense).
@@ -63,7 +63,7 @@ In all perceived-to-be successful applications today, money is issued by a centr
 
 As kids, we all learn that _money doesn’t grow on trees_ but on a societal level, or as a country, any remnant of common sense seems to have left the building. Just in the last two months, central banks in the United States, Europe and Japan (the Fed, ECB and BOJ) have collectively inflated the supply of their respective currencies by $3.3 trillion in aggregate – an increase of over 20% in just eight weeks. The Fed alone has accounted for the majority, minting $2.5 trillion dollars and increasing the base money supply by over 60%. And it’s far from over; trillions more will be created. It is not a possibility; it is a certainty. Common sense is that deep feeling of uncertainty many are experiencing that says, “this doesn’t make any sense” or “this doesn’t end well.” Few carry that thought process out to its logical conclusion, often because it is uncomfortable to think about, but it is reverberating throughout the country and the world. While not everyone is connecting the equation to 21 million bitcoin, a growing number of people are. _Time makes more converts than reason._ Individuals don’t have to understand how or why there will only ever be 21 million bitcoin; all that has to be recognized in practical experience is that dollars are going to be worth significantly less in the future, and then the idea of having a currency with a fixed supply begins to make sense. Understanding how it is possible that bitcoin has a fixed supply comes after making that initial connection, but even still, no one needs to understand the how to understand that it is valuable. It is the light bulb turning on.
 
-{{< tweet user="bitstein" id="1040953543463772161" >}}
+{{< x user="bitstein" id="1040953543463772161" >}}
 
 For each individual, there is a choice to either exist in a world in which someone gets to produce new units of money for free (but just not them) or a world where no one gets to do that (including them). From an individual perspective, there is not a marginal difference in those two worlds; it is night and day, and anyone conscious of the decision very intuitively opts for the latter, recognizing that the former is neither sustainable, nor to his or her advantage. Imagine there were 100 individuals in an economy, each with different skills. All have determined to use a common form of money to facilitate trade in exchange for goods and services produced by others. With the one exception that a single individual has a superpower to print money, requiring no investment of time and at practically no cost. Given human time is an inherently scarce resource and that it is a required input in the production of any good or service demanded in trade, such a scenario would mean that one person would get to purchase the output of all the others for free. Why would anyone agree to such an arrangement? That the individual is an enterprise, and more specifically, a central bank expected to act in the public interest does not change the fundamental operation. If it does not make sense on a micro level, it does not magically transform into a different fundamental fact merely because there are greater degrees of separation. If no individual would bestow that power in another, neither would a conscious decision be made to bestow it in a central bank.
 
@@ -156,7 +156,7 @@ Bananas grow on trees. Money does not, and bitcoin is the force that reawakens e
 
 Thanks to Will Cole and Phil Geiger for reviewing and for providing valuable feedback.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -176,4 +176,4 @@ Thanks to Will Cole and Phil Geiger for reviewing and for providing valuable fee
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

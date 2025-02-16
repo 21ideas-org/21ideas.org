@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 2
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 1. [Вступление: Краткий обзор истории от пещерных людей до сети lightning](/sb/stanovlenie-intro)
 
 2. [Часть 1. О времени](/sb/stanovlenie-1)
@@ -26,7 +26,7 @@ weight: 2
 7. [Часть 6. Цифровые контракты](/sb/stanovlenie-6)
 
 8. [Часть 7: Недостающие части головоломки](/sb/stanovlenie-7)
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 Перевод серии статей [Джакомо Зукко](https://twitter.com/giacomozucco) подготовлен биткоинером [Tony ₿](https://twitter.com/TonyCrusoe). [Оригинал](https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network) серии статей опубликован журналом [Bitcoin Magazine](https://bitcoinmagazine.com/)
@@ -108,7 +108,7 @@ _Изображение предоставлено_ [_@BitcoinMemeHub_](https://
 
 Но что делать со всей рыбой, которую ты ловишь каждый день? На самом деле, вариантов не так уж и много, если ты все еще можешь потреблять только две и не можешь обменять остальные. Об этом ты узнаешь очень скоро — во второй части.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 1. [Вступление: Краткий обзор истории от пещерных людей до сети lightning](/sb/stanovlenie-intro)
 
 2. [Часть 1. О времени](/sb/stanovlenie-1)
@@ -124,4 +124,4 @@ _Изображение предоставлено_ [_@BitcoinMemeHub_](https://
 7. [Часть 6. Цифровые контракты](/sb/stanovlenie-6)
 
 8. [Часть 7: Недостающие части головоломки](/sb/stanovlenie-7)
-{{< /expand >}}
+{{< /details >}}

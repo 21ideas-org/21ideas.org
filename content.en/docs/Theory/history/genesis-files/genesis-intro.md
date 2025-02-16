@@ -10,14 +10,14 @@ bookFlatSection: false
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by Steven Ellis was published in his [Medium blog](https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7).
@@ -273,11 +273,11 @@ We can therefore safely assume that these protocols and standards will last long
 _Meet the heroes of modern cryptography. From left to right: Adi Shamir, Ron Rivest, Len Adleman, Ralph Merkle, Martin Hellman, and Whitfield Diffie (Picture courtesy of Eli Biham, taken at the presentation on August 21 at [Crypto 2000](http://www-cse.ucsd.edu/users/mihir/crypto2k/program.html), an [IACR](http://www.iacr.org/) conference)._
 {{% /image %}}
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}

@@ -11,13 +11,13 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2019/01/11/economic-teachings-of-bitcoin) website.
@@ -416,10 +416,10 @@ There exists an almost endless list of books and essays on the topics discussed 
 - [The Bullish Case For Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1) by [Vijay Boyapati](https://twitter.com/real_vijay)
 - [Bitcoin’s distribution was fair](https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892) by [Dan Held](https://twitter.com/danheld)
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}

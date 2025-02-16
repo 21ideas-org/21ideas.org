@@ -10,7 +10,7 @@ bookToc: false
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 1
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.
 
@@ -49,7 +49,7 @@ Those wanting a device with a footprint similar in size to a traditional node ma
 - Minimum 8 Gigabytes RAM.
 - Reliable internet connection & power supply.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -67,4 +67,4 @@ Those wanting a device with a footprint similar in size to a traditional node ma
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

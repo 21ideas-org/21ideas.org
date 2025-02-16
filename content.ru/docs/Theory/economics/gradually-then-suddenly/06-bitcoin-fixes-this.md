@@ -12,7 +12,7 @@ bookToc: true
 weight: 6
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -32,7 +32,7 @@ weight: 6
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 30 Августа 2019 г.](https://unchained.com/blog/bitcoin-fixes-this/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
@@ -118,7 +118,7 @@ _[“Претензии знания”](http://hayek.ru/hayek2.html), Хайе�
 > 
 > — Ф. А. Хайек
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -138,4 +138,4 @@ _[“Претензии знания”](http://hayek.ru/hayek2.html), Хайе�
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}

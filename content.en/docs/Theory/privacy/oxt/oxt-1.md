@@ -14,7 +14,7 @@ weight: 1
 _This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -26,7 +26,7 @@ _This content is also available in video format in [this playlist](https://www.y
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Introduction
 
@@ -34,7 +34,7 @@ Awareness of Bitcoin’s value proposition for censorship resistant payments too
 
 Simultaneously a dangerous and inaccurate narrative surrounding bitcoin transaction privacy took off: “anonymous” payments.
 
-{{< tweet user="wikileaks" id="80774521350668288" >}}
+{{< x user="wikileaks" id="80774521350668288" >}}
 
 This perception was never true and largely due to a lack of understanding of bitcoin’s underlying functionality. Further, almost no one was watching the blockchain in 2011. But the blockchain is forever.
 
@@ -284,7 +284,7 @@ However, the openness of the bitcoin protocol allows for the tracking of bitcoin
 2. The privacy implications of sending and receiving payments
 3. How existing privacy techniques can mitigate many of the issues discussed throughout the guide.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -296,4 +296,4 @@ However, the openness of the bitcoin protocol allows for the tracking of bitcoin
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}

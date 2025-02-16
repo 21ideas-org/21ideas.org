@@ -26,11 +26,11 @@ _[The Time Value of Bitcoin and LNRR](https://timevalueofbtc.medium.com/the-time
 
 But as we've learned over the years, there's far more to ROI than simply putting capital into Lightning channels.
 
-{{< tweet user="alexbosworth" id="994603452310278144" >}}
+{{< x user="alexbosworth" id="994603452310278144" >}}
 
 In early 2021 I decided to set forth to try to determine how well I could do running a node with the goal of earning a profit by routing funds.
 
-{{< tweet user="alexbosworth" id="1358807809631035395" >}}
+{{< x user="alexbosworth" id="1358807809631035395" >}}
 
 I followed the process described in my earlier post to set up my tor-only node:
 
@@ -418,7 +418,7 @@ While I'm not a profitable routing node at time of writing, I see a light at the
 
 Prior to upgrading to lnd v0.13 my (tor-only) node was unable to connect to IPV4 nodes, which greatly limited my options for deploying capital. If you're running a tor-only node you should realize that you'll be at a disadvantage when it comes to getting inbound liquidity from nodes that aren't operating on tor.
 
-{{< tweet user="wtogami" id="1405785148298338308" >}}
+{{< x user="wtogami" id="1405785148298338308" >}}
 
 As an operator you should not focus only on individual channel balances but also on your node's overall inbound/outbound liquidity ratio. For example, if you have 100M sats in outbound liquidity but only 10M sats inbound, much of that outbound liquidity is useless. Getting inbound liquidity is one of the biggest challenges in my experience, even after performing a lot of loop outs.
 
@@ -430,7 +430,7 @@ Running other services on your node can be problematic. Even though my node was 
 
 Operating a routing node and seeking liquidity flows feels like of like deep sea fishing. You know that the fish are all around you but you can't actually see them. You have to keep throwing out lines and nets to infer where the flows of funds are that you can tap into.
 
-{{< tweet user="alexbosworth" id="1412788505818931200" >}}
+{{< x user="alexbosworth" id="1412788505818931200" >}}
 
 The max non-wumbo channel size is 16.7M sats. In my experience, trying to route payments of more than 4M sats tends to be problematic. Remember that the default max single payment value is slightly over 4M sats. Even if that payment value cap is lifted and all channels were perfectly balanced and were of the max capacity, that would make the max feasible payment 8.3M sats.
 

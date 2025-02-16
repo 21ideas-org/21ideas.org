@@ -10,7 +10,7 @@ bookToc: true
 weight: 7
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 ## Установка Биткоин-узла Dojo на x86
 
@@ -28,7 +28,7 @@ weight: 7
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Введение
 
@@ -384,7 +384,7 @@ sudo apt update && sudo apt upgrade -y
 
 Готово.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 ## Установка Биткоин-узла Dojo на x86
 
@@ -402,4 +402,4 @@ sudo apt update && sudo apt upgrade -y
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

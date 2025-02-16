@@ -10,7 +10,7 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -20,7 +20,7 @@ weight: 3
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc>}}
 This article by Tom Honzik was published in [Unchained blog](https://unchained.com/blog/bitcoin-utxo-privacy)
@@ -160,7 +160,7 @@ However, lightning is complicated and still relatively new. The privacy advantag
 
 Many of the topics covered in this trilogy of articles do not apply within the world of lightning, because UTXOs are not directly involved in lightning payments. Nonetheless, it is likely that the highest-security base layer of bitcoin—which necessitates conventional transactions on the blockchain—will always be relevant, and therefore so will UTXOs. Now that we’ve gone through the basics of UTXOs and the tradeoffs involved while managing them, you will be much better prepared to operate in the bitcoin economy with confidence.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -170,4 +170,4 @@ Many of the topics covered in this trilogy of articles do not apply within the w
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}

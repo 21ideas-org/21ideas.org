@@ -10,7 +10,7 @@ bookToc: true
 weight: 6
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 6
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{% hint btc %}}
 Prerequisites.
@@ -100,7 +100,7 @@ sudo ufw enable
 
 When enabling UFW, a warning may appear informing that enabling UFW may cause connection issues with the session. Since a rule allowing SSH was already applied, confirming with "y is safe."
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -118,4 +118,4 @@ When enabling UFW, a warning may appear informing that enabling UFW may cause co
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

@@ -26,7 +26,7 @@ Bitcoin blockchain is a kind of decentralized database that stores every bitcoin
 
 Of course, this does not help scalability _at all_. Blockchain requires tens of gigabytes of hard drive storage, blocks are full, fees are rising, people are angry and fork bitcoin. Because of all that, alternative solutions are currently being developed. And one of these solutions is _Lightning Network (LN)_.
 
-{{< tweet user="lopp" id="947808940255006726" >}}
+{{< x user="lopp" id="947808940255006726" >}}
 
 # 1. Idea
 
@@ -294,7 +294,7 @@ The most important thing you need to know: Lightning is already here and it real
 
 [More than a thousand nodes](https://explorer.acinq.co/#/) in bitcoin testnet and [more then three hundred nodes](https://lnmainnet.gaben.win/) (growing every day) in mainnet are already processing transactions and testing different software today.
 
-{{< tweet user="starkness" id="953434418948927488" >}}
+{{< x user="starkness" id="953434418948927488" >}}
 
 _Co-founder of Lightning Labs does not recommend running mainnet nodes for the moment._
 

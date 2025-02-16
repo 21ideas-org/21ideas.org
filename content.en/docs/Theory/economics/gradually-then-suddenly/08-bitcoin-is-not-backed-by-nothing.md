@@ -11,7 +11,7 @@ bookToc: true
 weight: 8
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 8
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-not-backed-by-nothing).
@@ -162,7 +162,7 @@ This is why users controlling keys is such a significant ethos in bitcoin. Bitco
 
 In summary, the supply of bitcoin is governed by a network consensus mechanism, and miners perform a proof-of-work function that grounds bitcoin’s security in the physical world. As part of the security function, miners get paid in bitcoin to solve blocks, which validate history and clear pending bitcoin transactions. If a miner attempts to compensate themselves in an amount inconsistent with bitcoin’s fixed supply, the rest of the network will reject the miner’s work as invalid. The supply of the currency is integrated into bitcoin’s security model, and real world energy resources must be expended in order for miners to be compensated. Still yet, every node within the network validates the work performed by all miners, such that no one can cheat without a material risk of penalty. Bitcoin’s consensus mechanism and validation process ultimately governs the transfer of ownership of the network, but ownership of the network is controlled and protected by individual private keys held by users of the network.
 
-{{< tweet user="bitstein" id="901500957862899712" >}}
+{{< x user="bitstein" id="901500957862899712" >}}
 
 {{% image "/img/gts-8-8-en.png" /%}}
 
@@ -172,7 +172,7 @@ Because bitcoin has inherent and emergent monetary properties, it is distinct fr
 
 Thanks to Phil Geiger, Adam Tzagournis and Will Cole for reviewing and for providing valuable feedback.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -192,4 +192,4 @@ Thanks to Phil Geiger, Adam Tzagournis and Will Cole for reviewing and for provi
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

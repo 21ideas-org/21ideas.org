@@ -34,7 +34,7 @@ Introducing others to the concept, however, takes time and some finesse. Try to 
 
 And that’s just the beginning. Even those of us who use bitcoin everyday are still finding fascinating aspects to learn.
 
-{{< tweet user="lopp" id="1061415918616698881" >}}
+{{< x user="lopp" id="1061415918616698881" >}}
 
 It takes time to get from zero to bitcoin, and there’s only so much information a person can retain from one sitting. Expect multiple discussions when teaching someone about bitcoin and be patient. Leave plenty of room for answering questions. Bitcoin puts individuals in control of their wealth. It's okay to take more than a few bitcoin blocks to fully grasp that power.
 

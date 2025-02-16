@@ -469,7 +469,7 @@ Free individuals can take on more risk, with less red tape, in an attempt to cre
 
 This point cannot be overstated during a Fourth Turning – when the temptation is to succumb to collectivism. As Naval has rightly pointed out, there are only two ways to coordinate societies at scale… by free markets or by force.
 
-{{< tweet user="naval" id="1300847149232484352" >}}
+{{< x user="naval" id="1300847149232484352" >}}
 
 Bitcoin acts as a novel institution that improves society’s ability to coordinate through free markets, rather than state-enforced violence.
 

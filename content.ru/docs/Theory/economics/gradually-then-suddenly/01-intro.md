@@ -11,7 +11,7 @@ bookFlatSection: false
 weight: 1
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -31,7 +31,7 @@ weight: 1
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 Введение в серию "Постепенно, затем внезапно", посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое.
 
@@ -75,7 +75,7 @@ weight: 1
 > 
 > — [Виджай Бояпати](https://twitter.com/real_vijay) в интервью [SLP](https://stephanlivera.com/episode/2/).
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -95,4 +95,4 @@ weight: 1
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}

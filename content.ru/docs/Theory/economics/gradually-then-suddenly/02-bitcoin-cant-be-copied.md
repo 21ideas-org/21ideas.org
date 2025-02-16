@@ -12,7 +12,7 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -32,7 +32,7 @@ weight: 2
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему.
 
@@ -99,7 +99,7 @@ weight: 2
 > 
 > — Эрик Шмидт (бывший генеральный директор Google)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -119,6 +119,6 @@ weight: 2
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: Хард-форк — разделение пути цепочки блоков посредством аннулирования транзакций, подтвержденных нодами, которые не были обновлены до новой версии программного обеспечения протокола

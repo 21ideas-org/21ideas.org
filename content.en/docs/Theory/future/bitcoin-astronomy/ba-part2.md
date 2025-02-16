@@ -11,7 +11,7 @@ bookFlatSection: false
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -19,7 +19,7 @@ weight: 2
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This essay by Dhruv Bansal was published in Unchained [blog](https://unchained.com/blog/bitcoin-astronomy-part-ii).
@@ -379,7 +379,7 @@ If you enjoyed this article, [read Part III here](/en/ba/3)!
 
 Thank you so much to my wonderful colleagues at Unchained Capital for having the patience to tolerate my speculations and for providing me a platform through which to publish them.  Also to be thanked are my friends [Brandon Hudgeons](https://twitter.com/bhudgeons), [Brandon Quittem](https://twitter.com/Bquittem), [Destry Saul](https://twitter.com/DestrySaul), [Joe Kelly](https://twitter.com/josephkelly), and [Taylor Pearson](https://twitter.com/TaylorPearsonMe), all of whom provided extended and valuable feedback on early drafts.  Particular thanks are due to Martin Grogono who makes everything he touches pretty and [Phil Geiger](https://twitter.com/phil_geiger), whose enthusiasm is the second infinite resource in the universe.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -387,4 +387,4 @@ Thank you so much to my wonderful colleagues at Unchained Capital for having the
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}

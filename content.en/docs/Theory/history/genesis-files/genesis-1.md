@@ -11,14 +11,14 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}
 
 Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.
 
@@ -130,11 +130,11 @@ And Chaum himself? He returned to Berkeley, where he is responsible for a [long 
 
 _This article is partly based on two articles published in the 1990s: “_[_E-Money (That’s What I Want)_](https://www.wired.com/1994/12/emoney/)_” by Steven Levy for Wired, and “_[_Hoe DigiCash alles verknalde_](https://web.archive.org/web/19990427142412/https://www.nextmagazine.nl/ecash.htm)_” (Translated: “_[_How DigiCash Blew Everything_](https://cryptome.org/jya/digicrash.htm)_”) by an unknown author for Next! Magazine. There is also a wealth of information on_ [_chaum.com/ecash_](https://chaum.com/ecash/)_._
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Intro: The Day Cryptography Changed Forever](/en/gf/genesis-intro)
 2. [Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream](/en/gf/genesis-1)
 3. [Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block](/en/gf/genesis-2)
 4. [Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It](/en/gf/genesis-3)
 5. [Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin](/en/gf/genesis-4)
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
-{{< /expand >}}
+{{< /details >}}

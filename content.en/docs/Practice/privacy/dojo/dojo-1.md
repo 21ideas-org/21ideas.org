@@ -10,7 +10,7 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 2
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Introduction
 
@@ -519,7 +519,7 @@ tail -f .bitcoin/debug.log
 
 Wait until Core sync is finished before continuing. Once logs show "progress=1.000000," IBD is complete.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -537,4 +537,4 @@ Wait until Core sync is finished before continuing. Once logs show "progress=1.0
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

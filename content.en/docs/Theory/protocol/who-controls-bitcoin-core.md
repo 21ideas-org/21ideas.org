@@ -38,7 +38,7 @@ Bitcoin Core is a [focal point](https://en.wikipedia.org/wiki/Focal_point_%28gam
 
 While there are a handful of GitHub “maintainer” accounts at the organization level that have the ability to merge code into the master branch, this is more of a janitorial function than a position of power. If anyone could merge into master it would very quickly turn into a “too many cooks in the kitchen” scenario. Bitcoin Core follows principles of least privilege that any power bestowed to individuals is easily subverted if it is abused.
 
-{{< tweet user="peterktodd" id="1047854713029312512" >}}
+{{< x user="peterktodd" id="1047854713029312512" >}}
 
 From an adversarial perspective, GitHub can not be trusted. Any number of GitHub employees could use their administrative privileges to inject code into the repository without consent from the maintainers. But it’s unlikely that a GitHub attacker would also be able to compromise the PGP key of a Bitcoin Core maintainer.
 
@@ -148,9 +148,9 @@ Similarly, when [Jeff Garzik](https://medium.com/u/765aa39f1042) was removed fro
 
 Others may look at Core and believe it to be a technocracy or ivory tower that makes it difficult for new entrants to join. But if you speak to contributors, you’ll find that’s not the case. While only [a dozen people](https://bitcointalk.org/index.php?topic=1774750.0) have had commit access over the years, hundreds of developers have made contributions. I myself have made a few small contributions; while I don’t consider myself a “Core developer” I _technically_ am one. No one can stop you from contributing!
 
-{{< tweet user="TheBlueMatt" id="1064292104346771458" >}}
+{{< x user="TheBlueMatt" id="1064292104346771458" >}}
 
-{{< tweet user="jfnewbery" id="1064301049534664707" >}}
+{{< x user="jfnewbery" id="1064301049534664707" >}}
 
 > I started making small commits to [@bitcoincoreorg](https://twitter.com/bitcoincoreorg) and was in awe of the engagement on my PRs by [@MarcoFalke](https://twitter.com/MarcoFalke) [@pwuille](https://twitter.com/pwuille) [@orionwl](https://twitter.com/orionwl) [@LukeDashjr](https://twitter.com/LukeDashjr) and [@jfnewbery](https://twitter.com/jfnewbery) Such a welcoming project!
 > 
@@ -166,13 +166,13 @@ Even absent a “coup” per se, if a controversial change did somehow make it i
 
 Forking the code is easy. Shifting the focal point of Bitcoin development is hard — you must convince contributors that their time is better spent contributing to a different project.
 
-{{< tweet user="lopp" id="843210083588816896" >}}
+{{< x user="lopp" id="843210083588816896" >}}
 
 It’s also hard to convince many people that users do not blindly follow Bitcoin Core’s changes — this may be a self reinforcing belief, because if users don’t participate in the consensus process by staying aware of their options, they are ceding some of their power to developers. However, the power of the users was exercised during the UASF (User Activated Soft Fork) movement of 2017. An anonymous Bitcoin developer using the pseudonym [shaolinfry](https://medium.com/u/4f206fb261c6) proposed [BIP 148](https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki), which would force miners to activate Segregated Witness functionality at a block height that would occur near August 1. However, BIP 148 proved to be too controversial to be adopted by Bitcoin Core, so shaolinfry forked Core and made “[Bitcoin UASF](https://github.com/UASF/bitcoin)” software available. This software implementation [gained a nontrivial amount of traction](https://www.buybitcoinworldwide.com/uasf/) and [seemed to create sufficient pressure](https://hackernoon.com/bip-148-uasf-first-year-anniversary-a-new-system-of-governance-223907ec298b) to convince miners to adopt [BIP 91](https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki) to activate the fork before the BIP 148 deadline.
 
 In my opinion the best Bitcoin Core contributors are those who practice [extreme ownership](https://www.youtube.com/watch?v=ljqra3BcqWM). Case in point — while [John Newbery](https://medium.com/u/f172f16c0e36) did not write the code that contained this particular consensus bug, he feels responsible for not preventing it from being merged via careful review and for not finding it later while writing test cases.
 
-{{< tweet user="jfnewbery" id="1044016889117192194" >}}
+{{< x user="jfnewbery" id="1044016889117192194" >}}
 
 We are all Satoshi.
 

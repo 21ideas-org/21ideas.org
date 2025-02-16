@@ -11,7 +11,7 @@ bookToc: true
 weight: 7
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 7
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-not-blockchain).
@@ -85,7 +85,7 @@ Why is this so important? Within one integrated function, miners validate histor
 
 If a miner solves and proposes an invalid block, specifically one that either includes invalid transactions or an invalid coinbase reward, the rest of the network will reject it as invalid. Separately, if a miner builds off a version of history that does not represent the longest chain with the greatest proof of work, any proposed block would also be considered invalid. Essentially, as soon as a miner sees a new valid block proposed in the network, it must immediately begin to work on top of that block or risk falling behind and performing invalid work at a sunk cost. As a consequence, in either scenario, if a miner were to produce invalid work, it would incur real cost but would be compensated nothing in return.
 
-{{< tweet user="bitstein" id="901500957862899712" >}}
+{{< x user="bitstein" id="901500957862899712" >}}
 
 Through this mechanism, miners are maximally incentivized to produce honest, valid work and to work within the consensus of the chain at all times; it is either be paid or receive nothing. It is also why the higher the cost to perform the work, the more secure the network becomes. The more energy required to write or rewrite bitcoin’s transaction history, the lower the probability that any single miner could (or would) undermine the network. The incentive to cooperate increases as it becomes more costly to produce work which would otherwise be considered invalid by the rest of the network. As network security increases, bitcoin becomes more valuable. As the value of bitcoin rises and as the costs to solve blocks increases, the incentive to produce valid work increases (more revenue but more cost) and the penalty for invalid work becomes more punitive (no revenue and more cost). 
 
@@ -137,7 +137,7 @@ To learn more, I suggest reading, [The Bitcoin Standard](https://saifedean.com/t
 
 Thanks to Will Cole, Phil Geiger and Adam Tzagournis for reviewing and providing valuable feedback. Also thanks to Saif, Yan and Andreas for their books which are incredible resources.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -157,4 +157,4 @@ Thanks to Will Cole, Phil Geiger and Adam Tzagournis for reviewing and providing
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

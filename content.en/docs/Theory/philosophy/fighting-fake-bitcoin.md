@@ -20,7 +20,7 @@ Bitcoin provides strong assurances around the predictability and scarcity of its
 
 I don't think it's controversial to state that this scarcity is one of [bitcoin's key properties](https://nakamoto.com/what-are-the-key-properties-of-bitcoin/) and fundamental value drivers. If this property is violated, we have a big problem. So...do we have a problem?
 
-{{< tweet user="lopp" id="1591770569414004738" >}}
+{{< x user="lopp" id="1591770569414004738" >}}
 
 This tweet confused a fair number of folks, probably because it has a variety of layers and interpretations.
 
@@ -32,7 +32,7 @@ The problem is that **there are many forms of fake bitcoin**, and when someone w
 
 ## Bitcoin knockoffs
 
-{{< tweet user="lopp" id="1572836378463076352" >}}
+{{< x user="lopp" id="1572836378463076352" >}}
 
 Back during the fork wars of 2017, the biggest looming issue of "fake bitcoins" were, in fact, other cryptographically secured tokens. The "forkcoins," if you will.
 
@@ -71,7 +71,7 @@ Do you see the problem? Since you can't verify a company's balance sheet, you ca
 
 That's over 1 million BTC just from some of the large losses we know about! Out of the current total supply of 19 million BTC, that's 5%, which is nontrivial. And who knows how many other unknown unbacked IOUs are floating around out there...
 
-{{< tweet user="zachxbt" id="1592337921922994177" >}}
+{{< x user="zachxbt" id="1592337921922994177" >}}
 
 If you're a fan of bitcoin, then you probably aren't a fan of fractional reserve banking! After all, that's where most of the inflation of the money supply comes from - not from the central bank, but from all of the small banks that are taking deposits and then lending the vast majority of the money that was deposited!
 
@@ -131,11 +131,11 @@ While we can't stop exchanges from issuing IOUs and we can't stop financial firm
 
 The simple solution to IOU inflation is to **take custody of your own assets**.
 
-{{< tweet user="lopp" id="1591758506616844288" >}}
+{{< x user="lopp" id="1591758506616844288" >}}
 
 Point being, exchanges MUST keep sufficient reserves in order to withstand panics and avoid collapse. By creating a culture that extols the virtues of self-custody, we minimize the balances held by exchanges and thus minimize the systemic risk they pose to bitcoin's scarcity. The smaller the balances held by exchanges, the fewer IOUs they can even risk issuing.
 
-{{< tweet user="lopp" id="1592090911177334785" >}}
+{{< x user="lopp" id="1592090911177334785" >}}
 
 What about lending? In this case we should support non-rehypothecated loans that allow the borrower to hold one key of a [multisig wallet](https://casa.io/learn-more/multisig-wallets). This works by having a user deposit BTC as collateral into a 2 of 3 key wallet for which the user, lender, and a neutral third party each hold a key. The user receives a fiat loan and is able to monitor that collateral on chain to ensure it is not given to anyone else. It's quite clear from the crypto credit crisis of 2022 that rehypothecation makes it very easy to lose track of just how much risk to which one's funds are exposed. This is easier said than done, as rehypothecated loans will always offer more favorable rates due to the increased risk and profitability.
 
@@ -145,4 +145,4 @@ The creation of a spot bitcoin ETF, assuming that the bitcoin it holds is not re
 
 Satoshi gave us the gift of sound money. It's up to us to ensure that those who offer services built on top of it are still playing by the rules.
 
-{{< tweet user="lopp" id="1390280536296460288" >}}
+{{< x user="lopp" id="1390280536296460288" >}}

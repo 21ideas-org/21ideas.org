@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 6
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 6
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube I8YsSMsJsvw >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -84,7 +84,7 @@ SegWit предоставил пользователям возможность 
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-6-lightning-network/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -130,7 +130,7 @@ SegWit предоставил пользователям возможность 
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: https://link.springer.com/chapter/10.1007/978-3-319-21741-3_1
 

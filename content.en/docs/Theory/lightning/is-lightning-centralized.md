@@ -64,7 +64,7 @@ Maybe, but not so much. The user / node owner, will be ALWAYS in control of his 
 
 A good example is this cloud node that Sphinx is managing with keys located at home. So even that the cloud machine is compromised, still cannot be used without the keys.
 
-{{< tweet user="sphinx_chat" id="1571974701098074112" >}}
+{{< x user="sphinx_chat" id="1571974701098074112" >}}
 
 There is no way that these cloud nodes could affect the regular traffic on LN.
 

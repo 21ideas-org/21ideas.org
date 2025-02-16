@@ -12,7 +12,7 @@ bookFlatSection: false
 weight: 7
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/bychij-kejs-dlya-bitcoin)
 
@@ -32,7 +32,7 @@ weight: 7
 
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Распространенные заблуждения
 
@@ -226,7 +226,7 @@ _Портрет бывшего председателя Федеральной �
 
 Через пятьдесят лет этой денежной базой станет  Биткоин.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/bychij-kejs-dlya-bitcoin)
 
@@ -246,7 +246,7 @@ _Портрет бывшего председателя Федеральной �
 
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: [http://bullishcaseforbitcoin.com/references/unit-bias](http://bullishcaseforbitcoin.com/references/unit-bias)  
 [^2]: [http://bullishcaseforbitcoin.com/references/mccook-article](http://bullishcaseforbitcoin.com/references/mccook-article)  

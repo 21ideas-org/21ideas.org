@@ -22,7 +22,7 @@ weight: 2
 
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/izobretaem-bitkoin)
 
@@ -46,7 +46,7 @@ weight: 2
 
 [Глава 9: Что дальше?](/izobretaem-bitkoin/glava-9)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 Книга также доступна для [скачивания](/epubs/inventing-bitcoin.epub) в формате epub.

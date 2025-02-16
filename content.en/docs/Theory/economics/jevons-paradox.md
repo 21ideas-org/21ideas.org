@@ -49,10 +49,10 @@ The unbreakable link between **energy** and **money** is undeniable and inescapa
 
 Bitcoin is the tool that will incentivize and usher in a new age of energy abundance. Because securing the money removes moral hazard and economic manipulation from the equation. Incentives revert back to the most efficient use of energy as determined by the individual who bore the cost to acquire it.
 
-{{< tweet user="drew_macmartin" id="1534920201099218946" >}}
+{{< x user="drew_macmartin" id="1534920201099218946" >}}
 
 Like money, energy evolves over time.
 
 And like bitcoin, energy cannot be banned.
 
-{{< tweet user="parman_the" id="1540853615086411776" >}}
+{{< x user="parman_the" id="1540853615086411776" >}}

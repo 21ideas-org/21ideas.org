@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 3
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 3
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 Giacomo Zucco continues his Discovering Bitcoin series, building on ideas around growing wealth and exploring the concepts of exchange, specialization and “darkness.”
 
@@ -106,7 +106,7 @@ So far, we’ve learned:
 
 But how can you exchange with a growing number of people if the complexity of all the different combinations of goods, from the demand and the supply points of view, grows even faster? This is something you will discover in “[Discovering Bitcoin Part 3: Introducing Money](/en/discovering-bitcoin/introducing-money).”
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -115,4 +115,4 @@ But how can you exchange with a growing number of people if the complexity of al
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

@@ -12,7 +12,7 @@ A subsection devoted to historical events and the backstory of Bitcoin.
 
 ## Series  
 
-{{< expand "The Genesis Files" "..." >}}
+{{< details "The Genesis Files" "..." >}}
 
 ## Series of articles by Aaron van Wirdum
 
@@ -30,7 +30,7 @@ This series tells the story of the crucial developments that took place before B
 
 6. [Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)](/en/gf/genesis-5)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Articles
 

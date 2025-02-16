@@ -10,7 +10,7 @@ bookToc: true
 weight: 2
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -20,7 +20,7 @@ weight: 2
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc>}}
 This article by Tom Honzik was published in [Unchained blog](https://unchained.com/blog/too-many-bitcoin-utxos)
@@ -149,7 +149,7 @@ At Unchained, we recommend that our clients consider a consolidation transaction
 
 In the first article, we discussed the fact that performing UTXO consolidations and holding UTXOs of large denominations can negatively affect your privacy. This is certainly an important consideration. If you are interested in learning more about preserving privacy, make sure you [check out the third article in this series on UTXOs](/en/protocol/utxo-3), focused entirely on this subject.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## What Is UTXO And How To Manage Them
 
@@ -159,4 +159,4 @@ In the first article, we discussed the fact that performing UTXO consolidations 
 
 3. [UTXOs, addresses, and CoinJoins: Preserving privacy in a Bitcoin economy](/en/protocol/utxo-3)
 
-{{< /expand >}}
+{{< /details >}}

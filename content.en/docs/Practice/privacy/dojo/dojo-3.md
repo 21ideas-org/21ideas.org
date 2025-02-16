@@ -10,7 +10,7 @@ bookToc: true
 weight: 4
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 4
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{% hint btc %}}
 Prerequisites.
@@ -223,7 +223,7 @@ Mempool's Tor address can be requested with the following command.
 sudo cat /var/lib/tor/mempool/hostname
 ```
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -241,4 +241,4 @@ sudo cat /var/lib/tor/mempool/hostname
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

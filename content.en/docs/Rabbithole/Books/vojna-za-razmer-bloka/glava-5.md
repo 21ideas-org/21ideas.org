@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 5
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 5
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube LBTYgMbsTME >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -104,7 +104,7 @@ SegWit оказался настолько сложным, что даже Дж�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-5-scaling-ii-segwit/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -150,7 +150,7 @@ SegWit оказался настолько сложным, что даже Дж�
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: [https://twitter.com/gavinandresen/status/800405563909750784](https://twitter.com/gavinandresen/status/800405563909750784)
 

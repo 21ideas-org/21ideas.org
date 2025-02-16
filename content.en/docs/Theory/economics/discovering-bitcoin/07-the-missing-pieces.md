@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 8
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 8
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 In the conclusion to the “Discovering Bitcoin” series, Giacomo Zucco explores concepts of unique chronology, mining fees and off-chain transactions.
 
@@ -114,7 +114,7 @@ You have come a long way since your early caveman innovations, far in the past. 
 
 _A final thank you to Nicki DiCicco for her cover art and to [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en) for his meme art contributions to this series!_
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -123,4 +123,4 @@ _A final thank you to Nicki DiCicco for her cover art and to [BitcoinMemeHub](ht
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
