@@ -292,6 +292,21 @@ weight: 1
 </div>
 
 <div class="card">
+    <img src="/img/bitcoin-handbook-cover.png" alt="Обложка">
+    <div class="hover-text">
+        <p>Сборник наиболее полезных фреймворков, ментальных моделей и эвристик для понимания смысла денег в цифровую эпоху, написанный для нетехнической аудитории.</p>
+    </div>
+    <div class="card-content">
+        <h2>Справочник по Биткоину</h2>
+        <p>Автор: Анил Патель</p>
+        </div> 
+        <div class="button-container">
+            <a href="/bitcoin-handbook" class="button">Подробнее</a>
+            <a href="/epubs/bitcoin-handbook.pdf" class="button">Скачать</a>
+        </div>
+</div>
+
+<div class="card">
     <img src="/img/anil-slides/anil_slides.png" alt="Обложка">
     <div class="hover-text">
         <p>Наглядные визуальные слайды, объясняющие принципы работы биткоина. Идеально подходит для новичков!</p>
