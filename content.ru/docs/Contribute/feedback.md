@@ -21,7 +21,7 @@ menu:
 {{< button href="https://simplex.chat/contact#/?v=2&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2F-lh5JEB0ARDXjQwY63WumjURMza85H2L%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEANkzYEoWQbK9JImEuqNqWas23JSnhSwbAhpi6idawegI%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion" >}}Simplex{{< /button >}}
 {{< button href="https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7" >}}Nostr{{< /button >}}  
 
-{{< button href="mailto:lightning_tony@protonmail.com" >}}Email{{< /button >}}
+{{< button href="mailto:tony@21ideas.org" >}}Email{{< /button >}}
 {{< button href="/publickey.lightning_tony@protonmail.com.asc" >}}PGP{{< /button >}}
 
 {{< hint btc >}}
@@ -32,10 +32,6 @@ menu:
 
 {{< button href="https://njump.me/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w" >}}Nostr{{< /button >}}
 {{< button href="mailto:almoo@reacher.me" >}}Email{{< /button >}}
-
-## Raptor (Биткоин-вестник)
-
-{{< button href="https://njump.me/npub1kenh4ng392s0xnsu8t2x65xycaldcpe4lcjml0z00h8qkyul0c2sgjjvcq" >}}Nostr{{< /button >}}
 
 ## Чат ₿-Talk
 
