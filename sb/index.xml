@@ -1,65 +1,394 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Становление Биткоина on 21ideas</title><link>https://21ideas.org/sb/</link><description>Recent content in Становление Биткоина on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><atom:link href="https://21ideas.org/sb/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/sb/stanovlenie-intro/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-intro/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоинером Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine. Добро пожаловать в серию, состоящую из семи статей под названием “Становление Биткоина: Краткий обзор истории от пещерных людей до сети lightning”.</description></item><item><title>О времени</title><link>https://21ideas.org/sb/stanovlenie-1/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-1/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоинером Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine Как я и обещал во введении к данной серии статей, мы начнем исследовать период (псевдо)истории денег, когда мир и понятия не имел о фиатных деньгах.</description></item><item><title>О людях</title><link>https://21ideas.org/sb/stanovlenie-2/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-2/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоинером Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine В этой части мы будем опираться на ранее приобретенные стратегии хранения сбережений, их инвестирования и повышения производительности; мы также не оставим без внимания товары с приемлемой физической “твердостью” и “масштабностью”, что поможет нам изучить концепции обмена, специализации и “секретности”.</description></item><item><title>Знакомьтесь: деньги</title><link>https://21ideas.org/sb/stanovlenie-3/</link><pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-3/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джиакомо Зукко подготовлен биткоинером Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine В этом выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях обмена.</description></item><item><title>Поворот не туда</title><link>https://21ideas.org/sb/stanovlenie-4/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-4/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джиакомо Зукко подготовлен биткоинером Tony ₿. Оригинал опубликован журналом Bitcoin Magazine В данном выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях оптимизации “твердости”, “масштабности” и “секретности” для изучения концепций виртуализации и децентрализации денег.</description></item><item><title>Цифровая редкость</title><link>https://21ideas.org/sb/stanovlenie-5/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-5/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоин-энтузиастом Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine Далее в серии “Становление Биткоина” мы будем опираться на виртуализацию денег, создание опасных монополий и возникающую потребность в децентрализации, описанные ранее.</description></item><item><title>Цифровые контракты</title><link>https://21ideas.org/sb/stanovlenie-6/</link><pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-6/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоин-энтузиастом Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine В шестой части серии статей “Становление Биткоина” мы будем опираться на идею использования цифровых головоломок как способа воспроизведения редкости и на важность механизма контроля потока.</description></item><item><title>Недостающие части головоломки</title><link>https://21ideas.org/sb/stanovlenie-7/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-7/</guid><description>Оглавление ... Вступление: Краткий обзор истории от пещерных людей до сети lightning
-Часть 1. О времени
-Часть 2. О людях
-Часть 3. Знакомьтесь: деньги
-Часть 4. Поворот не туда (в поисках нового плана)!
-Часть 5. Цифровая редкость
-Часть 6. Цифровые контракты
-Часть 7: Недостающие части головоломки
-Перевод серии статей Джакомо Зукко подготовлен биткоинером Tony ₿. Оригинал серии статей опубликован журналом Bitcoin Magazine В завершение серии “Становление Биткоина”, мы будем опираться на использование цифровых подписей и парадигмы CoinJoin для изучения концепций уникальной хронологии, комиссий за майнинг и оффчейн транзакций (транзакций вне сети).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Становление Биткоина on 21ideas</title><link>https://21ideas.org/sb/</link><description>Recent content in Становление Биткоина on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/sb/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/sb/stanovlenie-intro/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-intro/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">&lt;em>Bitcoin Magazine&lt;/em>&lt;/a>.
+&lt;/blockquote>
+
+&lt;p>Добро пожаловать в серию, состоящую из семи статей под названием “Становление Биткоина: Краткий обзор истории от пещерных людей до сети &lt;em>lightning&lt;/em>”.&lt;/p></description></item><item><title>О времени</title><link>https://21ideas.org/sb/stanovlenie-1/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/DpE3CbfpNYA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Как я и обещал во введении к данной серии статей, мы начнем исследовать период (псевдо)истории  денег, когда мир и понятия не имел о &lt;a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B4%D1%83%D1%86%D0%B8%D0%B0%D1%80%D0%BD%D1%8B%D0%B5_%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8">фиатных деньгах&lt;/a>. Мы назовем этот период “План А”. Он заостряет внимание на времени и на вопросе “Когда?”. Ты не найдешь здесь избытка упоминаний о криптографии или компьютерных науках: здесь все будет звучать очень просто, даже &amp;hellip; примитивно! В самом деле, я бы попросил тебя, дорогой читатель, постараться забыть о своем продвинутом образовании и своих манерах, и на несколько минут притвориться пещерным человеком.&lt;/p></description></item><item><title>О людях</title><link>https://21ideas.org/sb/stanovlenie-2/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/Lzo1J3g4Kd0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>В этой части мы будем опираться на ранее приобретенные стратегии хранения сбережений, их инвестирования и повышения производительности; мы также не оставим без внимания товары с приемлемой физической “твердостью” и “масштабностью”, что поможет нам изучить концепции обмена, специализации и “секретности”.&lt;/p></description></item><item><title>Знакомьтесь: деньги</title><link>https://21ideas.org/sb/stanovlenie-3/</link><pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джиакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/nEmaEfd4QX8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>В этом выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях обмена. С целью изучения концепции редкости, ликвидности и &lt;em>социальной&lt;/em> &lt;em>твердости&lt;/em> товара мы сконцентрируемся на производственном разделении труда и на товарах с приемлемой &lt;em>физической&lt;/em> &lt;em>твердостью&lt;/em>, &lt;em>масштабностью&lt;/em> и &lt;em>секретностью&lt;/em>.&lt;/p></description></item><item><title>Поворот не туда</title><link>https://21ideas.org/sb/stanovlenie-4/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-4/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джиакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/LVhUOs6FsRk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>В данном выпуске серии “Становление Биткоина” мы будем опираться на ранее приобретенные знания о стратегиях оптимизации “твердости”, “масштабности” и “секретности” для изучения концепций виртуализации и децентрализации денег.&lt;/p></description></item><item><title>Цифровая редкость</title><link>https://21ideas.org/sb/stanovlenie-5/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-5/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоин-энтузиастом &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/8v-CzdS8U-A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>Далее в серии “Становление Биткоина” мы будем опираться на виртуализацию денег, создание опасных монополий и возникающую потребность в децентрализации, описанные ранее.  Это поможет нам исследовать такие концепции, как:&lt;/p></description></item><item><title>Цифровые контракты</title><link>https://21ideas.org/sb/stanovlenie-6/</link><pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-6/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоин-энтузиастом &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/JLB780fLbJg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>В шестой части серии статей “Становление Биткоина” мы будем опираться на идею использования цифровых головоломок как способа воспроизведения редкости и на важность механизма контроля потока. Это позволит нам придать цифровым деньгам некоторую жесткость и изучить концепции доказательства права собственности с помощью подписей, скриптов, а также, так называемой, техники “CoinJoin”.&lt;/p></description></item><item><title>Недостающие части головоломки</title><link>https://21ideas.org/sb/stanovlenie-7/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/sb/stanovlenie-7/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-intro">Вступление: Краткий обзор истории от пещерных людей до сети lightning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-1">Часть 1. О времени&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-2">Часть 2. О людях&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-3">Часть 3. Знакомьтесь: деньги&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-4">Часть 4. Поворот не туда (в поисках нового плана)!&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-5">Часть 5. Цифровая редкость&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-6">Часть 6. Цифровые контракты&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/sb/stanovlenie-7">Часть 7: Недостающие части головоломки&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод серии статей &lt;a href="https://twitter.com/giacomozucco">Джакомо Зукко&lt;/a> подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe">Tony ₿&lt;/a>. &lt;a href="https://bitcoinmagazine.com/articles/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network">Оригинал&lt;/a> серии статей опубликован журналом &lt;a href="https://bitcoinmagazine.com/">Bitcoin Magazine&lt;/a>
+&lt;/blockquote>
+
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/4GIQhEqp2xk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+&lt;/div>
+
+&lt;p>В завершение серии “Становление Биткоина”, мы будем опираться на использование цифровых подписей и парадигмы CoinJoin для изучения концепций уникальной хронологии, комиссий за майнинг и &lt;em>оффчейн&lt;/em> транзакций (транзакций вне сети).&lt;/p></description></item></channel></rss>

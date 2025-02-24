@@ -1,8 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cold storage on 21ideas</title><link>https://21ideas.org/en/tags/cold-storage/</link><description>Recent content in cold storage on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 27 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/cold-storage/index.xml" rel="self" type="application/rss+xml"/><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.
-This guide by @econoalchemist was published in Bitcoin Magazine.
-Contribute.
-This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.
-Source
-Unboxing # This section demonstrates what is included in the full SeedSigner kit.</description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>This guide by Bitcoin Q+A was published on bitcoiner.guide website.
-Contribute.
-What is Coldcard? # Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cold Storage on 21ideas</title><link>https://21ideas.org/en/tags/cold-storage/</link><description>Recent content in Cold Storage on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/cold-storage/index.xml" rel="self" type="application/rss+xml"/><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>&lt;p>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/econoalchemist">@econoalchemist&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.&lt;/p>
+&lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/seedsigner/02.webp">
+&lt;p>&lt;a href="https://seedsigner.com/">Source&lt;/a>&lt;/p>
+&lt;/div>
+&lt;h2 id="unboxing">
+ Unboxing
+ &lt;a class="anchor" href="#unboxing">#&lt;/a>
+&lt;/h2>
+&lt;p>This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/">BTC Hardware Solutions&lt;/a> with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa">GoBrrr&lt;/a> or &lt;a href="https://diynodes.com/">DIYNodes&lt;/a>, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1">TechHaven&lt;/a>.&lt;/p></description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/coldcard">bitcoiner.guide&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="what-is-coldcard">
+ What is Coldcard?
+ &lt;a class="anchor" href="#what-is-coldcard">#&lt;/a>
+&lt;/h2>
+&lt;p>Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p></description></item></channel></rss>

@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 21ideas</title><link>https://21ideas.org/docs/</link><description>Recent content in Docs on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Wed, 27 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>RSS-ленты</title><link>https://21ideas.org/rss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/rss/</guid><description>Чтобы получать уведомления о новых записях в Блоге и выпусках Вестника, подпишитесь на наши ленты:
-Все материалы # https://21ideas.org/index.xml
-Блог # https://21ideas.org/posts/index.xml
-Вестник # https://21ideas.org/vestnik/index.xml</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on 21ideas</title><link>https://21ideas.org/docs/</link><description>Recent content in Docs on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>RSS-ленты</title><link>https://21ideas.org/rss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/rss/</guid><description>&lt;p>Чтобы получать уведомления о новых записях в &lt;a href="https://21ideas.org/posts">Блоге&lt;/a> и выпусках &lt;a href="https://21ideas.org/vestnik">Вестника&lt;/a>, подпишитесь на наши ленты:&lt;/p>
+&lt;blockquote class="book-hint ">
+ &lt;h3 id="все-материалы">
+ Все материалы
+ &lt;a class="anchor" href="#%d0%b2%d1%81%d0%b5-%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;code>https://21ideas.org/index.xml&lt;/code>&lt;/p>
+&lt;h3 id="блог">
+ Блог
+ &lt;a class="anchor" href="#%d0%b1%d0%bb%d0%be%d0%b3">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;code>https://21ideas.org/posts/index.xml&lt;/code>&lt;/p>
+&lt;h3 id="вестник">
+ Вестник
+ &lt;a class="anchor" href="#%d0%b2%d0%b5%d1%81%d1%82%d0%bd%d0%b8%d0%ba">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;code>https://21ideas.org/vestnik/index.xml&lt;/code>&lt;/p>
+
+&lt;/blockquote></description></item></channel></rss>

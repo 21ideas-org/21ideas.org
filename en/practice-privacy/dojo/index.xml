@@ -1,57 +1,215 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dojo x86 Bitcoin Node Guide on 21ideas</title><link>https://21ideas.org/en/practice-privacy/dojo/</link><description>Recent content in Dojo x86 Bitcoin Node Guide on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://21ideas.org/en/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-0/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.
-Manually configuring your node is a great way to learn about the inner workings of a Bitcoin node.</description></item><item><title>Installing Bitcoin Core &amp; Tor</title><link>https://21ideas.org/en/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-1/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Introduction # Bitcoin Core originated from the first Bitcoin software client released by Satoshi Nakamoto, the pseudonymous creator(s) of Bitcoin, in 2009. It was initially called &amp;ldquo;Bitcoin&amp;rdquo; but later renamed &amp;ldquo;Bitcoin Core&amp;rdquo; to differentiate it from the broader Bitcoin network and currency.</description></item><item><title>Installing Fulcrum Indexer</title><link>https://21ideas.org/en/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-2/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Prerequisites.
-Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Part 1. Bitcoin Core IBD Complete. Introduction # After fully synchronizing Bitcoin Core, installing an Electrum indexer, which ensures compatibility with all Electrum-based Bitcoin wallets, is the next step.</description></item><item><title>Installing Mempool Explorer</title><link>https://21ideas.org/en/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-3/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Prerequisites.
-Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts 1, 2. Fulcrum synchronization completed. Introduction # The Mempool Visual Explorer is a valuable tool for looking up detailed information about blocks, addresses, balances &amp;amp; transactions.</description></item><item><title>Installing Samourai Dojo</title><link>https://21ideas.org/en/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-4/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Prerequisites.
-Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts 1, 2, 3.
-Introduction # Dojo is a privacy-focused, end-to-end server software solution that acts as a Bitcoin wallet backend for Samourai Wallet and other Bitcoin light wallets.</description></item><item><title>Firewall Configuration</title><link>https://21ideas.org/en/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-5/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Prerequisites.
-Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts 1, 2, 3, 4.
-Uncomplicated Firewall (UFW) # The Uncomplicated Firewall, or UFW, is a simple-to-use, command-line application for working with a Linux firewall.</description></item><item><title>Installing Package Updates</title><link>https://21ideas.org/en/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-6/</guid><description>Contents ... Dojo x86 Bitcoin Node Guide # Introduction
-Part 1. Installing Bitcoin Core &amp;amp; Tor
-Part 2. Installing Fulcrum Indexer
-Part 3. Installing Mempool Explorer
-Part 4. Installing Samourai Dojo
-Part 5. Firewall Configuration
-Part 6. Installing Package Updates
-Introduction # The ability to update your node&amp;rsquo;s packages independently provides node operators with a much higher level of sovereignty. You can choose which updates to run and how to configure them rather than relying on the preferences and timescales of plug-and-play node developers.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dojo x86 Bitcoin Node Guide on 21ideas</title><link>https://21ideas.org/en/practice-privacy/dojo/</link><description>Recent content in Dojo x86 Bitcoin Node Guide on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://21ideas.org/en/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-0/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.&lt;/p></description></item><item><title>Installing Bitcoin Core &amp; Tor</title><link>https://21ideas.org/en/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>Bitcoin Core originated from the first Bitcoin software client released by Satoshi Nakamoto, the pseudonymous creator(s) of Bitcoin, in 2009. It was initially called &amp;ldquo;Bitcoin&amp;rdquo; but later renamed &amp;ldquo;Bitcoin Core&amp;rdquo; to differentiate it from the broader Bitcoin network and currency.&lt;/p></description></item><item><title>Installing Fulcrum Indexer</title><link>https://21ideas.org/en/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>Prerequisites.&lt;/p>
+&lt;ul>
+&lt;li>Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; &lt;a href="https://21ideas.org/privacy/dojo-1">Part 1&lt;/a>.&lt;/li>
+&lt;li>Bitcoin Core IBD Complete.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>After fully synchronizing Bitcoin Core, installing an Electrum indexer, which ensures compatibility with all Electrum-based Bitcoin wallets, is the next step.&lt;/p></description></item><item><title>Installing Mempool Explorer</title><link>https://21ideas.org/en/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>Prerequisites.&lt;/p>
+&lt;ul>
+&lt;li>Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts &lt;a href="https://21ideas.org/privacy/dojo-1">1&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-2">2&lt;/a>.&lt;/li>
+&lt;li>Fulcrum synchronization completed.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>The Mempool Visual Explorer is a valuable tool for looking up detailed information about blocks, addresses, balances &amp;amp; transactions.&lt;/p></description></item><item><title>Installing Samourai Dojo</title><link>https://21ideas.org/en/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-4/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>Prerequisites.&lt;/p>
+&lt;p>Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts &lt;a href="https://21ideas.org/privacy/dojo-1">1&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-2">2&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-3">3&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>Dojo is a privacy-focused, end-to-end server software solution that acts as a Bitcoin wallet backend for Samourai Wallet and other Bitcoin light wallets.&lt;/p></description></item><item><title>Firewall Configuration</title><link>https://21ideas.org/en/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-5/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>Prerequisites.&lt;/p>
+&lt;p>Completed &amp;ldquo;Dojo Node Guide,&amp;rdquo; Parts &lt;a href="https://21ideas.org/privacy/dojo-1">1&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-2">2&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-3">3&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-4">4&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="uncomplicated-firewall-ufw">
+ Uncomplicated Firewall (UFW)
+ &lt;a class="anchor" href="#uncomplicated-firewall-ufw">#&lt;/a>
+&lt;/h2>
+&lt;p>The Uncomplicated Firewall, or UFW, is a simple-to-use, command-line application for working with a Linux firewall.&lt;/p></description></item><item><title>Installing Package Updates</title><link>https://21ideas.org/en/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-6/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="dojo-x86-bitcoin-node-guide">
+ Dojo x86 Bitcoin Node Guide
+ &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-0">Introduction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-1">Part 1. Installing Bitcoin Core &amp;amp; Tor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-2">Part 2. Installing Fulcrum Indexer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-3">Part 3. Installing Mempool Explorer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-4">Part 4. Installing Samourai Dojo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-5">Part 5. Firewall Configuration&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>The ability to update your node&amp;rsquo;s packages independently provides node operators with a much higher level of sovereignty. You can choose which updates to run and how to configure them rather than relying on the preferences and timescales of plug-and-play node developers.&lt;/p></description></item></channel></rss>

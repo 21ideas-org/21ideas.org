@@ -1,7 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>кошелек on 21ideas</title><link>https://21ideas.org/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA/</link><description>Recent content in кошелек on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><lastBuildDate>Mon, 02 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>LNbits – швейцарский нож среди лайтнинг-приложений</title><link>https://21ideas.org/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/lnbits/</guid><description>LNbits – швейцарский нож среди лайтнинг-приложений – инвойсы, чаевые, пейволлы, мониторинг ончейн-кошелька, продажа билетов на события и многое другое.
-Гид подготовлен Тони⚡️.
-Поддержать проект.
-LNbits # Сегодня мы рассмотрим кошелек-приложение, доступный прямо из браузера, который может похвастаться таким количеством возможностей, что ему позавидует любое ПО. Это LNbits.
-Стоит начать с того, что этот сервис еще находится в фазе активной разработки, а некоторый функционал еще предстоит внедрить. Самым ожидаемым нововведением на подходе является возможность входа в сервис через логин и пароль.</description></item><item><title>Кошелек Blue</title><link>https://21ideas.org/blue/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/blue/</guid><description>Как хранить свои биткоины на мобильном устройстве? Безопасное горячее и холодное хранение биткоина.
-Гид подготовлен Тони⚡️. Поддержать проект. BlueWallet может похвастаться множеством функций, недоступных даже на некоторых десктоп-кошельках. Именно об этих функциях сегодня и пойдет речь..
-Материал также доступен в видеоформате, но обратите внимание, что после выхода видео команда BlueWallet отказалась от кастодиальных услуг по управлению вашими ЛН-сатошиками. Мобильные кошельки часто воспринимаются как менее надежные инструменты защиты ваших сбережений и, как правило, используются для хранения незначительных сумм и проведения небольших платежей.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Кошелек on 21ideas</title><link>https://21ideas.org/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA/</link><description>Recent content in Кошелек on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D0%B5%D0%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>LNbits – швейцарский нож среди лайтнинг-приложений</title><link>https://21ideas.org/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/lnbits/</guid><description>&lt;p>LNbits – швейцарский нож среди лайтнинг-приложений – инвойсы, чаевые, пейволлы, мониторинг ончейн-кошелька, продажа билетов на события и многое другое.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="lnbits">
+ LNbits
+ &lt;a class="anchor" href="#lnbits">#&lt;/a>
+&lt;/h2>
+&lt;p>Сегодня мы рассмотрим кошелек-приложение, доступный прямо из браузера, который может похвастаться таким количеством возможностей, что ему позавидует любое ПО. Это LNbits.&lt;/p>
+&lt;p>Стоит начать с того, что этот сервис еще находится в фазе активной разработки, а некоторый функционал еще предстоит внедрить. Самым ожидаемым нововведением на подходе является возможность входа в сервис через логин и пароль. Пока что LNbits представляет собой веб-страничку, для входа на которую нужно лишь ввести clearnet-адрес. Некоторым этот подход может показаться неприемлемым, но в этом руководстве мы рассмотрим подходы, которые полностью нивелируют какую-либо опасность. Тем не менее, стоит помнить, что это – не инструмент для долгосрочного хранения сбережений, а скорее прослойка, призванная облегчить взаимодействие с другими пользователями и сделать опыт каждого приятным и бесшовным.&lt;/p></description></item><item><title>Кошелек Blue</title><link>https://21ideas.org/blue/</link><pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/blue/</guid><description>&lt;p>Как хранить свои биткоины на мобильном устройстве? Безопасное горячее и холодное хранение биткоина.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
+&lt;/blockquote>
+
+&lt;p>BlueWallet может похвастаться множеством функций, недоступных даже на некоторых десктоп-кошельках. Именно об этих функциях сегодня и пойдет речь..&lt;/p>
+
+&lt;div class="youtubeWrapper">
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe src="https://www.youtube.com/embed/67ghAeSTLbY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
+ &lt;/div>
+ &lt;div class="youtubeWrapper_hint">
+ &lt;em>Материал также доступен в видеоформате, но обратите внимание, что после выхода видео команда BlueWallet отказалась от кастодиальных услуг по управлению вашими ЛН-сатошиками.&lt;/em>
+ &lt;/div>
+&lt;/div>
+
+&lt;hr>
+&lt;p>Мобильные кошельки часто воспринимаются как менее надежные инструменты защиты ваших сбережений и, как правило, используются для хранения незначительных сумм и проведения небольших платежей. В случае большинства мобильных кошельков этот подход является верным, а если вы еще не уверены в своем подходе к хранению собственных сбережений, мы рекомендуем обратить внимание на посвященную этой теме статью &amp;ldquo;&lt;a href="https://21ideas.org/storing-keys/">Биткоин-кошельки: зачем и как хранить свои приватные ключи&lt;/a>&amp;rdquo;.&lt;/p></description></item></channel></rss>

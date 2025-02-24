@@ -1,1 +1,130 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Genesis Files on 21ideas</title><link>https://21ideas.org/en/gf/</link><description>Recent content in The Genesis Files on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/gf/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Steven Ellis was published in his Medium blog.</description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.</description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come.</description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Aaron van Wirdum was published in Bitcoin Magazine.</description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Aaron van Wirdum was published in Bitcoin Magazine.</description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Genesis Files on 21ideas</title><link>https://21ideas.org/en/gf/</link><description>Recent content in The Genesis Files on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/gf/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Steven Ellis was published in his &lt;a href="https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7">Medium blog&lt;/a>.&lt;/p></description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.&lt;/p></description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come.&lt;/p></description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.&lt;/p></description></item></channel></rss>

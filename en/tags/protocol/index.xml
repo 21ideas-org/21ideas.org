@@ -1,13 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>protocol on 21ideas</title><link>https://21ideas.org/en/tags/protocol/</link><description>Recent content in protocol on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/protocol/index.xml" rel="self" type="application/rss+xml"/><item><title>Who Controls Bitcoin Core?</title><link>https://21ideas.org/en/who-controls-bitcoin-core/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/who-controls-bitcoin-core/</guid><description>Understanding how the focal point of Bitcoin development operates.
-This article by Jameson Lopp was published in his blog.
-Contribute.
-if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) The question of who controls the ability to merge code changes into Bitcoin Core’s GitHub repository tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin.</description></item><item><title>Bitcoin's Eternal Struggle</title><link>https://21ideas.org/en/bitcoins-eternal-struggle/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoins-eternal-struggle/</guid><description>How Bitcoin Thrives on the Edge between Order and Chaos
-This article by Gigi was published on dergigi.com website.
-Contribute.
-if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) Bitcoin works. No matter what other opinions you hold about this strange phenomenon, it undoubtedly works, marches on, or, as I (and others) have previously argued, is alive.</description></item><item><title>On Bitcoin’s UX</title><link>https://21ideas.org/en/on-bitcoins-ux/</link><pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-bitcoins-ux/</guid><description>This article by Gigi was published on swanbitcoin.com website.
-Contribute.
-Why the internet doesn’t feel as clumsy anymore is twofold: (1) we got used to the novel concepts the internet brought with it, and (2) countless layers of abstraction make interacting with the base layer easier.
-There is an ongoing discus­sion in the Bitcoin space revolving around the topic of user experi­ence, or UX for short. Bitcoin still feels weird, clunky, and compli­cated at times.</description></item><item><title>On Ossification</title><link>https://21ideas.org/en/on-ossification/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-ossification/</guid><description>An impassioned argument for why we should continue striving to improve the Bitcoin protocol.
-This article by Jameson Lopp was published in his blog
-Contribute
-Note: if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protocol on 21ideas</title><link>https://21ideas.org/en/tags/protocol/</link><description>Recent content in Protocol on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/protocol/index.xml" rel="self" type="application/rss+xml"/><item><title>Who Controls Bitcoin Core?</title><link>https://21ideas.org/en/who-controls-bitcoin-core/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/who-controls-bitcoin-core/</guid><description>&lt;p>Understanding how the focal point of Bitcoin development operates.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/who-controls-bitcoin-core">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://lopp.net/media-archive/presentations/Who_Controls_Bitcoin_Core.mp3">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+&lt;p>The question of who controls the ability to merge code changes into &lt;a href="https://bitcoincore.org/">Bitcoin Core&lt;/a>’s &lt;a href="https://github.com/bitcoin/bitcoin">GitHub repository&lt;/a> tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin. It’s certainly not obvious to a layman as to why that is the case, thus the goal of this article is to explain how Bitcoin Core operates and, at a higher level, how the Bitcoin protocol itself evolves.&lt;/p></description></item><item><title>Bitcoin's Eternal Struggle</title><link>https://21ideas.org/en/bitcoins-eternal-struggle/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoins-eternal-struggle/</guid><description>&lt;p>How Bitcoin Thrives on the Edge between Order and Chaos&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Gigi was published on &lt;a href="https://dergigi.com/2019/12/22/bitcoin-s-eternal-struggle">dergigi.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://dergigi.com/assets/audio/eternal-struggle.ogg">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+&lt;p>Bitcoin works. No matter what other opinions you hold about this strange phenomenon, it undoubtedly works, marches on, or, as I (and others) have &lt;a href="https://dergigi.com/2019/08/07/proof-of-life/">previously argued&lt;/a>, is alive. Even if most of the world would grind to a halt, the Bitcoin network would continue to produce valid blocks every 10 minutes or so.&lt;/p></description></item><item><title>On Bitcoin’s UX</title><link>https://21ideas.org/en/on-bitcoins-ux/</link><pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-bitcoins-ux/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Gigi was published on &lt;a href="https://www.swanbitcoin.com/on-bitcoins-ux/">swanbitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Why the internet doesn’t feel as clumsy anymore is twofold: (1) we got used to the novel concepts the internet brought with it, and (2) countless layers of abstraction make interacting with the base layer easier.&lt;/p>
+&lt;p>There is an ongoing discus­sion in the Bitcoin space revolving around the topic of user experi­ence, or UX for short. Bitcoin still feels weird, clunky, and compli­cated at times. The main reason for this is that Bitcoin and its parts (the network, the protocol, the cryptog­raphy, the scripting language) are indeed weird, clunky, and compli­cated. Just like the internet was and arguably, still is.&lt;/p></description></item><item><title>On Ossification</title><link>https://21ideas.org/en/on-ossification/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-ossification/</guid><description>&lt;p>An impassioned argument for why we should continue striving to improve the Bitcoin protocol.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/on-ossification">blog&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ &lt;em>Note&lt;/em>: if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://www.lopp.net/media-archive/presentations/Bitcoin_Audible-On_Ossification.mp3">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+
+&lt;p>Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics. Essentially, as a network protocol achieves greater adoption, the &amp;ldquo;mass&amp;rdquo; of the network grows and the effort required to alter the direction of the network by coordinating software updates across the users of the protocol increases substantially. Eventually, the ability to safely activate any protocol changes is crushed under the massive weight of the network as it becomes impossible to coordinate massive numbers of decentralized actors.&lt;/p></description></item></channel></rss>

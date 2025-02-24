@@ -1,21 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blockchain on 21ideas</title><link>https://21ideas.org/en/tags/blockchain/</link><description>Recent content in blockchain on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 08 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/blockchain/index.xml" rel="self" type="application/rss+xml"/><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.
-Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not. Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.</description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-This is Part II in a series of speculations about the hyperbitcoinized future. In Part I, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.
-In this part, we continue to follow the energy and speculate about how money and society coevolve as humanity expands through space.</description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-This is Part III in a series of speculations about the hyperbitcoinized future. In Part I, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In Part II, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.</description></item><item><title>Bitcoin, Not Blockchain</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</guid><description>Contents ... Gradually, Then Suddenly: Intro Bitcoin Can’t Be Copied Bitcoin Is Not Too Volatile Bitcoin Does Not Waste Energy Bitcoin is Not Too Slow Bitcoin Fixes This Bitcoin, Not Blockchain Bitcoin is Not Backed by Nothing Bitcoin is Not a Pyramid Scheme Bitcoin Cannot be Banned Bitcoin is Not for Criminals Bitcoin Obsoletes All Other Money Bitcoin is a Rally Cry Bitcoin is Common Sense Bitcoin is Antifragile Bitcoin is One for All Bitcoin is the Great Definancialization This article by Parker Lewis was first published in Unchained blog.</description></item><item><title>A complete history of Bitcoin’s consensus forks</title><link>https://21ideas.org/en/bitcoin-forks/</link><pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-forks/</guid><description>Abstract # In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.
-This report was originaly published in BitMEX Research blog. Later it has been updated.</description></item><item><title>Analyzing the 2013 Bitcoin fork</title><link>https://21ideas.org/en/analyzing-2013-fork/</link><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/analyzing-2013-fork/</guid><description>This article by Arvind Narayanan was first published on Freedom to Tinker computer science blog.
-Contribute.
-On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blockchain on 21ideas</title><link>https://21ideas.org/en/tags/blockchain/</link><description>Recent content in Blockchain on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/blockchain/index.xml" rel="self" type="application/rss+xml"/><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/law-of-hash-horizons">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.&lt;/p>
+&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-ii">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This is Part II in a series of speculations about the hyperbitcoinized future.  In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.&lt;/p>
+&lt;p>In this part, we continue to &lt;em>follow the energy&lt;/em> and speculate about how money and society coevolve as humanity expands through space.  We begin with a brief review of Part I.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-iii">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This is Part III in a series of speculations about the hyperbitcoinized future. In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In &lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.&lt;/p></description></item><item><title>Bitcoin, Not Blockchain</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile">Bitcoin Is Not Too Volatile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy">Bitcoin Does Not Waste Energy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow">Bitcoin is Not Too Slow&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this">Bitcoin Fixes This&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain">Bitcoin, Not Blockchain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing">Bitcoin is Not Backed by Nothing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme">Bitcoin is Not a Pyramid Scheme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned">Bitcoin Cannot be Banned&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals">Bitcoin is Not for Criminals&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money">Bitcoin Obsoletes All Other Money&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry">Bitcoin is a Rally Cry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense">Bitcoin is Common Sense&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile">Bitcoin is Antifragile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all">Bitcoin is One for All&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization">Bitcoin is the Great Definancialization&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-not-blockchain">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>A complete history of Bitcoin’s consensus forks</title><link>https://21ideas.org/en/bitcoin-forks/</link><pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-forks/</guid><description>&lt;h2 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h2>
+&lt;p>In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This report was originaly published in BitMEX Research &lt;a href="https://blog.bitmex.com/bitcoins-consensus-forks/">blog&lt;/a>. Later it has been &lt;a href="https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/">updated&lt;/a>. The updated list now includes the 2018 &lt;a href="https://bitcoincore.org/en/2018/09/20/notice/">security incident&lt;/a> and the 2021 &lt;a href="https://en.bitcoin.it/wiki/BIP_0341">Taproot activation&lt;/a>.&lt;/p></description></item><item><title>Analyzing the 2013 Bitcoin fork</title><link>https://21ideas.org/en/analyzing-2013-fork/</link><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/analyzing-2013-fork/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Arvind Narayanan was first published on &lt;a href="https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/">Freedom to Tinker&lt;/a> computer science blog.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge. The event gives us a never-before-never-again look into Bitcoin’s inner workings. In this post, I’ll do a play-by-play analysis of the dramatic minutes, and draw many surprising lessons. For a summary of the event, see &lt;a href="https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/">here&lt;/a>.&lt;/p></description></item></channel></rss>

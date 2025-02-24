@@ -1,4 +1,142 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>history on 21ideas</title><link>https://21ideas.org/en/tags/history/</link><description>Recent content in history on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Steven Ellis was published in his Medium blog.</description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.</description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come.</description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Aaron van Wirdum was published in Bitcoin Magazine.</description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) This article by Aaron van Wirdum was published in Bitcoin Magazine.</description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>Contents ... Intro: The Day Cryptography Changed Forever Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More) Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.</description></item><item><title>A complete history of Bitcoin’s consensus forks</title><link>https://21ideas.org/en/bitcoin-forks/</link><pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-forks/</guid><description>Abstract # In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.
-This report was originaly published in BitMEX Research blog. Later it has been updated.</description></item><item><title>Analyzing the 2013 Bitcoin fork</title><link>https://21ideas.org/en/analyzing-2013-fork/</link><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/analyzing-2013-fork/</guid><description>This article by Arvind Narayanan was first published on Freedom to Tinker computer science blog.
-Contribute.
-On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>History on 21ideas</title><link>https://21ideas.org/en/tags/history/</link><description>Recent content in History on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Steven Ellis was published in his &lt;a href="https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7">Medium blog&lt;/a>.&lt;/p></description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.&lt;/p></description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come.&lt;/p></description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-2">Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-3">Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-4">Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-5">Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.&lt;/p></description></item><item><title>A complete history of Bitcoin’s consensus forks</title><link>https://21ideas.org/en/bitcoin-forks/</link><pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-forks/</guid><description>&lt;h2 id="abstract">
+ Abstract
+ &lt;a class="anchor" href="#abstract">#&lt;/a>
+&lt;/h2>
+&lt;p>In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This report was originaly published in BitMEX Research &lt;a href="https://blog.bitmex.com/bitcoins-consensus-forks/">blog&lt;/a>. Later it has been &lt;a href="https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/">updated&lt;/a>. The updated list now includes the 2018 &lt;a href="https://bitcoincore.org/en/2018/09/20/notice/">security incident&lt;/a> and the 2021 &lt;a href="https://en.bitcoin.it/wiki/BIP_0341">Taproot activation&lt;/a>.&lt;/p></description></item><item><title>Analyzing the 2013 Bitcoin fork</title><link>https://21ideas.org/en/analyzing-2013-fork/</link><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/analyzing-2013-fork/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Arvind Narayanan was first published on &lt;a href="https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/">Freedom to Tinker&lt;/a> computer science blog.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge. The event gives us a never-before-never-again look into Bitcoin’s inner workings. In this post, I’ll do a play-by-play analysis of the dramatic minutes, and draw many surprising lessons. For a summary of the event, see &lt;a href="https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/">here&lt;/a>.&lt;/p></description></item></channel></rss>

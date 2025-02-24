@@ -1,17 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Understanding Bitcoin Privacy with OXT on 21ideas</title><link>https://21ideas.org/en/privacy/oxt/</link><description>Recent content in Understanding Bitcoin Privacy with OXT on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/privacy/oxt/index.xml" rel="self" type="application/rss+xml"/><item><title>Part 1: Chain Analysis And Transaction Privacy</title><link>https://21ideas.org/en/privacy/oxt-1/</link><pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-1/</guid><description>This content is also available in video format in this playlist. Contents ... Understanding Bitcoin Privacy with OXT # Part 1: Chain Analysis And Transaction Privacy
-Part 2: Chain Analysis Core Concepts
-Part 3: Defences Against Chain Analysis
-Part 4: Applying Chain Analysis Concepts To Improve User Privacy
-Introduction # Awareness of Bitcoin’s value proposition for censorship resistant payments took off in 2011 with the launch of Silk Road and the rescue of the otherwise donation starved Wikileaks.</description></item><item><title>Part 2: Chain Analysis Core Concepts</title><link>https://21ideas.org/en/privacy/oxt-2/</link><pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-2/</guid><description>This content is also available in video format in this playlist. Contents ... Understanding Bitcoin Privacy with OXT # Part 1: Chain Analysis And Transaction Privacy
-Part 2: Chain Analysis Core Concepts
-Part 3: Defences Against Chain Analysis
-Part 4: Applying Chain Analysis Concepts To Improve User Privacy
-Introduction # Now that we have presented the basic concepts in Part 1, we can move on to the core concepts that underpin chain analysis by expanding our analyses to include “external” transaction data.</description></item><item><title>Part 3: Defences Against Chain Analysis</title><link>https://21ideas.org/en/privacy/oxt-3/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-3/</guid><description>This content is also available in video format in this playlist. Contents ... Understanding Bitcoin Privacy with OXT # Part 1: Chain Analysis And Transaction Privacy
-Part 2: Chain Analysis Core Concepts
-Part 3: Defences Against Chain Analysis
-Part 4: Applying Chain Analysis Concepts To Improve User Privacy
-Introduction # With the foundational concepts of chain analysis introduced in Part 1 and Part 2, Part 3 will discuss the methods for undermining chain analysis.</description></item><item><title>Part 4: Applying Chain Analysis Concepts To Improve User Privacy</title><link>https://21ideas.org/en/privacy/oxt-4/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-4/</guid><description>This content is also available in video format in this playlist. Contents ... Understanding Bitcoin Privacy with OXT # Part 1: Chain Analysis And Transaction Privacy
-Part 2: Chain Analysis Core Concepts
-Part 3: Defences Against Chain Analysis
-Part 4: Applying Chain Analysis Concepts To Improve User Privacy
-Introduction # So far this guide has introduced the basics concepts used by chain analysis and the concepts used to undermine chain analysis.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Understanding Bitcoin Privacy with OXT on 21ideas</title><link>https://21ideas.org/en/privacy/oxt/</link><description>Recent content in Understanding Bitcoin Privacy with OXT on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/privacy/oxt/index.xml" rel="self" type="application/rss+xml"/><item><title>Part 1: Chain Analysis And Transaction Privacy</title><link>https://21ideas.org/en/privacy/oxt-1/</link><pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-1/</guid><description>&lt;blockquote class="book-hint info">
+ &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
+&lt;/blockquote>
+
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
+ Understanding Bitcoin Privacy with OXT
+ &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-1">Part 1: Chain Analysis And Transaction Privacy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-2">Part 2: Chain Analysis Core Concepts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-3">Part 3: Defences Against Chain Analysis&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>Awareness of Bitcoin’s value proposition for censorship resistant payments took off in 2011 with the launch of Silk Road and the rescue of the otherwise donation starved Wikileaks.&lt;/p></description></item><item><title>Part 2: Chain Analysis Core Concepts</title><link>https://21ideas.org/en/privacy/oxt-2/</link><pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-2/</guid><description>&lt;blockquote class="book-hint info">
+ &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
+&lt;/blockquote>
+
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
+ Understanding Bitcoin Privacy with OXT
+ &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-1">Part 1: Chain Analysis And Transaction Privacy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-2">Part 2: Chain Analysis Core Concepts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-3">Part 3: Defences Against Chain Analysis&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-1">Now that we have presented the basic concepts in Part 1&lt;/a>, we can move on to the core concepts that underpin chain analysis by expanding our analyses to include “external” transaction data.&lt;/p></description></item><item><title>Part 3: Defences Against Chain Analysis</title><link>https://21ideas.org/en/privacy/oxt-3/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-3/</guid><description>&lt;blockquote class="book-hint info">
+ &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
+&lt;/blockquote>
+
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
+ Understanding Bitcoin Privacy with OXT
+ &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-1">Part 1: Chain Analysis And Transaction Privacy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-2">Part 2: Chain Analysis Core Concepts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-3">Part 3: Defences Against Chain Analysis&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>With the foundational concepts of chain analysis introduced in &lt;a href="https://21ideas.org/en/privacy/oxt-1">Part 1&lt;/a> and &lt;a href="https://21ideas.org/en/privacy/oxt-2">Part 2&lt;/a>, Part 3 will discuss the methods for undermining chain analysis.&lt;/p></description></item><item><title>Part 4: Applying Chain Analysis Concepts To Improve User Privacy</title><link>https://21ideas.org/en/privacy/oxt-4/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/privacy/oxt-4/</guid><description>&lt;blockquote class="book-hint info">
+ &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
+&lt;/blockquote>
+
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
+ Understanding Bitcoin Privacy with OXT
+ &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-1">Part 1: Chain Analysis And Transaction Privacy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-2">Part 2: Chain Analysis Core Concepts&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-3">Part 3: Defences Against Chain Analysis&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>So far this guide has introduced the basics concepts used by chain analysis and the concepts used to undermine chain analysis.&lt;/p></description></item></channel></rss>

@@ -1,62 +1,181 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protocol on 21ideas</title><link>https://21ideas.org/en/protocol/</link><description>Recent content in Protocol on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/protocol/index.xml" rel="self" type="application/rss+xml"/><item><title>Who Controls Bitcoin Core?</title><link>https://21ideas.org/en/who-controls-bitcoin-core/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/who-controls-bitcoin-core/</guid><description>Understanding how the focal point of Bitcoin development operates.
-This article by Jameson Lopp was published in his blog.
-Contribute.
-if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) The question of who controls the ability to merge code changes into Bitcoin Core’s GitHub repository tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin.</description></item><item><title>Bitcoin's Eternal Struggle</title><link>https://21ideas.org/en/bitcoins-eternal-struggle/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoins-eternal-struggle/</guid><description>How Bitcoin Thrives on the Edge between Order and Chaos
-This article by Gigi was published on dergigi.com website.
-Contribute.
-if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) Bitcoin works. No matter what other opinions you hold about this strange phenomenon, it undoubtedly works, marches on, or, as I (and others) have previously argued, is alive.</description></item><item><title>On Bitcoin’s UX</title><link>https://21ideas.org/en/on-bitcoins-ux/</link><pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-bitcoins-ux/</guid><description>This article by Gigi was published on swanbitcoin.com website.
-Contribute.
-Why the internet doesn’t feel as clumsy anymore is twofold: (1) we got used to the novel concepts the internet brought with it, and (2) countless layers of abstraction make interacting with the base layer easier.
-There is an ongoing discus­sion in the Bitcoin space revolving around the topic of user experi­ence, or UX for short. Bitcoin still feels weird, clunky, and compli­cated at times.</description></item><item><title>Bitcoin: Digital Gold or Peer-to-Peer Cash?</title><link>https://21ideas.org/en/bitcoin-digital-gold-or-ecash/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-digital-gold-or-ecash/</guid><description> The article is not yet available in English. Want to cover this topic or support the project? Visit the Contribute page.</description></item><item><title>Bitcoin Governance</title><link>https://21ideas.org/en/bitcoin-governance/</link><pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-governance/</guid><description>This article by Pierre Rochard was published in his Medium blog.
-Contribute.
-Why do we care? # Bitcoin’s governance matters because Bitcoin is the first successful, most liquid, and most widely known crypto-currency. In the words of Michael Goldstein, “Sound money is a foundational pillar of civilization, and Bitcoin restores this powerful tool for social coordination.” If Bitcoin’s governance model is flawed, it could prevent Bitcoin from reaching its full potential.</description></item><item><title>Trusted Third Parties are Security Holes</title><link>https://21ideas.org/en/trusted-third-parties/</link><pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/trusted-third-parties/</guid><description>This article by Nick Szabo was taken from Satoshi Nakamoto Institute website. Originally published in 2001.
-Contribute.
-Introduction # Commercial security is a matter of solving the practical problems of business relationships such as privacy, integrity, protecting property, or detecting breach of contract. A security hole is any weakness that increases the risk of violating these goals. In this real world view of security, a problem does not dissapear because a designer assumes it away.</description></item><item><title>21 Million is Non-Negotiable</title><link>https://21ideas.org/en/21-million-is-non-negotiable/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-million-is-non-negotiable/</guid><description>This article by Phil Geiger was published in Unchained blog.
-Contribute.
-In the bitcoin world, there’s a nagging question that has persisted for far too long. On the surface, the question seems plausible. It has even confused prominent bitcoin technologists and researchers into keeping an open mind about the answer. Will bitcoin be secure once the block reward subsidy ends?
-Bitcoin has a fixed supply of 21 million coins, which are released on a schedule on average every 10 minutes, starting at 50 BTC every 10 minutes for the first 4 years, decreasing to 25 BTC per 10 minutes for the next 4 years, and continuing to be cut in half every 4 years, in an event commonly referred to as the halving, halvening, or more recently, as “Quantitative Hardening.</description></item><item><title>Proof of Work, a pictorial essay</title><link>https://21ideas.org/en/proof-of-work/</link><pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/proof-of-work/</guid><description>This essay by Adam Gibson was published in Reyify blog.
-Contribute.
-In the modern nation state, courts (&amp;ldquo;justice&amp;rdquo;) operate with the threat of violence. The exact way a dispute is settled varies (jury, single judge, etc.), but the &amp;ldquo;finality&amp;rdquo; of the resolution they provide is based on the fact that the state asserts the final say, and if you don&amp;rsquo;t agree, it doesn&amp;rsquo;t matter, because they have men with guns.</description></item><item><title>Proof of stake is a scam</title><link>https://21ideas.org/en/proof-of-stake-is-a-scam/</link><pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/proof-of-stake-is-a-scam/</guid><description>This article by yanmaani was published in his blog.
-Contribute.
-Proof of stake is a scam. When I say that, I mean that proof of stake is (1) claimed to be a consensus system, and (2) constitutionally incapable of actually producing a consensus.
-To understand why this is the case, we must first study how proof of work works, to be able to see why proof of stake is not an adequate drop-in replacement for it.</description></item><item><title>Was Satoshi a Greedy Miner?</title><link>https://21ideas.org/en/was-satoshi-a-greedy-miner/</link><pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/was-satoshi-a-greedy-miner/</guid><description>Technical analysis of mining behavior exhibited by an entity that is plausibly Satoshi Nakamoto.
-This article by Jameson Lopp was published in his blog.
-Contribute.
-If you spend enough time in the crypto ecosystem then you&amp;rsquo;ll no doubt come across arguments that some projects have unfair token distributions because they were &amp;ldquo;premined&amp;rdquo; / &amp;ldquo;instamined&amp;rdquo; / &amp;ldquo;fast mined&amp;rdquo; by the project founders, effectively enriching themselves from the initial launch of the project.</description></item><item><title>What Is SegWit</title><link>https://21ideas.org/en/segwit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/segwit/</guid><description>The Segregated Witness (SegWit) upgrade in 2017 changed the structure of transaction data in Bitcoin.
-The main reason for this upgrade was to fix transaction malleability (I&amp;rsquo;ll explain this in a moment). The other significant change included a block size increase.
-This article by Greg Walker was published on learnmeabitcoin.com website.
-Contribute.
-What was the main change? # Legacy transaction # In a legacy transaction, the unlocking code (and signatures) sit next to each input, so the unlocking code is spread throughout the transaction data.</description></item><item><title>What Is Taproot</title><link>https://21ideas.org/en/taproot/</link><pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/taproot/</guid><description>Taproot is an upgrade to Bitcoin which brought several new features and benefits to Bitcoin users. The Bitcoin community activated Taproot at block 709,632 on November 12th, 2021.
-This article was published on river.com website.
-Contribute.
-Taproot, Ordinals, and Inscriptions # Since early 2023, Taproot has introduced controversy in the Bitcoin space, as developers started using it to put other forms of data on the blockchain than transaction data, such as ordinals, inscriptions, and images in the form of Non-Fungible Tokens (NFTs).</description></item><item><title>The Coercion Of Ethereum's Difficulty Bomb</title><link>https://21ideas.org/en/coercion-of-ethereums-difficulty-bomb/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coercion-of-ethereums-difficulty-bomb/</guid><description>The perpetual Ethereum difficulty bomb is evidence that blockchains can be coercive, and Bitcoin is evidence that they don’t have to be.
-This essay by Level39 was published in Bitcoin Magazine.
-Contribute.
-Can open-source blockchains be coercive? In a recent debate between Erik Vorhees and Alex Gladstein, Vorhees asserted that “there is nothing in Ethereum that is based on coercion, period.”
-Vorhees went on to clarify:
-“I have a pretty high standard of coercion.</description></item><item><title>Understanding the RGB protocol</title><link>https://21ideas.org/en/rgb/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/rgb/</guid><description>This article by Federico Tenga was published in his Medium blog.
-Contribute.
-Disclaimer: for education purposes some of the concepts described in this article have been simplified, and to avoid overwhelming the reader with new terms also the terminology may differ from technical specifications.
-Recently there has been a growing interest around tokens on top of Bitcoin and the Lightning Network. The idea of creating tokens representing assets that can be transferred and stored with the same security and convenience that Bitcoin offers is not new, it was indeed pioneered already in 2013 by protocols such as Counterparty and OmniLayer (formerly Mastercoin), and later adopted by Ethereum and other altcoins, which is also where most of the blockchain tokens activity happens today.</description></item><item><title>Bitcoin Difficulty Adjustment</title><link>https://21ideas.org/en/difficulty/</link><pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/difficulty/</guid><description>The Difficulty Adjustment is the great missing innovation that made Bitcoin work.
-This article by Alex Waltz was published in his Twitter.
-Contribute.
-While it ensures that Bitcoin&amp;rsquo;s supply is predictable it also is a:
-fundamental security mechanism self-regulating mechanism crucial consensus component Since its inception Bitcoin adjusted its difficulty 373 times.
-For the 1st year of its existence, the difficulty did not increase, the 1st &amp;ldquo;big&amp;rdquo; change taking place on 2010-01-01 ~ block 32,256.</description></item><item><title>Bitcoin address types</title><link>https://21ideas.org/en/bitcoin-address-types/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-address-types/</guid><description>This article by Tom Honzik was published in Unchained blog.
-Contribute.
-If you’ve been using bitcoin for a while, you’ve probably noticed that some bitcoin addresses appear quite different from others. You may have also seen discussion around several acronyms beginning with “P2,” such as P2PKH or P2WSH. If you’re unfamiliar with what these acronyms mean, here we’ll look through all the standardized on-chain methods for receiving bitcoin throughout its history and explain some essential differences that make each method unique.</description></item><item><title>Myths About the Bitcoin Halving</title><link>https://21ideas.org/en/myths-about-halving/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/myths-about-halving/</guid><description>The next Bitcoin halving is almost here. We explore whether the halving is priced in, if other coins are a model for Bitcoin, and fear of a mining death spiral.
-This article by Yan Pritzker was published on swanbitcoin.com website.
-Contribute.
-The next Bitcoin halving (aka halvening) is almost here. In May 2020, the reward for mining new blocks will be cut in half from 12.5 to 6.25 Bitcoins.
-A halving occurs after every 210,000 blocks (approx­i­mately every four years) until all 21 million Bitcoins have been released by roughly the year 2140.</description></item><item><title>SHA256 and Bitcoin Mining Walkthrough</title><link>https://21ideas.org/en/mining-walkthrough/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mining-walkthrough/</guid><description>How is Bitcoin defended by energy? And what is a nonce? These questions and more are answered within!
-This article by Arman The Parman was published in Bitcoin Magazine.
-Contribute.
-How mining works is fascinating. When I explain it to people, I enjoy seeing their face the moment their mind is blown. I’ll explain it here, but just know, I’m imagining all your faces as your minds blow!
-I have to start with hash functions.</description></item><item><title>Transaction Size</title><link>https://21ideas.org/en/transaction-size/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/transaction-size/</guid><description>This article by Greg Walker was published on learnmeabitcoin.com website.
-Contribute.
-You can measure the size of a bitcoin transaction in 3 ways:
-Bytes (b) – Transaction size on disk. Weight Units (wu) – For fitting transactions in to a block. Virtual Bytes (vB) – For comparing fee rates between transactions. Bytes is the most straightforward unit. It&amp;rsquo;s used for measuring any amount of data on a computer.
-Weight Units and Virtual Bytes are measurements unique to bitcoin.</description></item><item><title>On Ossification</title><link>https://21ideas.org/en/on-ossification/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-ossification/</guid><description>An impassioned argument for why we should continue striving to improve the Bitcoin protocol.
-This article by Jameson Lopp was published in his blog
-Contribute
-Note: if you&amp;rsquo;d prefer to consume this essay in audio format, you can listen to it here (narrated by Guy Swann of the Bitcoin Audible Podcast.) Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Protocol on 21ideas</title><link>https://21ideas.org/en/protocol/</link><description>Recent content in Protocol on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/protocol/index.xml" rel="self" type="application/rss+xml"/><item><title>Who Controls Bitcoin Core?</title><link>https://21ideas.org/en/who-controls-bitcoin-core/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/who-controls-bitcoin-core/</guid><description>&lt;p>Understanding how the focal point of Bitcoin development operates.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/who-controls-bitcoin-core">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://lopp.net/media-archive/presentations/Who_Controls_Bitcoin_Core.mp3">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+&lt;p>The question of who controls the ability to merge code changes into &lt;a href="https://bitcoincore.org/">Bitcoin Core&lt;/a>’s &lt;a href="https://github.com/bitcoin/bitcoin">GitHub repository&lt;/a> tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin. It’s certainly not obvious to a layman as to why that is the case, thus the goal of this article is to explain how Bitcoin Core operates and, at a higher level, how the Bitcoin protocol itself evolves.&lt;/p></description></item><item><title>Bitcoin's Eternal Struggle</title><link>https://21ideas.org/en/bitcoins-eternal-struggle/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoins-eternal-struggle/</guid><description>&lt;p>How Bitcoin Thrives on the Edge between Order and Chaos&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Gigi was published on &lt;a href="https://dergigi.com/2019/12/22/bitcoin-s-eternal-struggle">dergigi.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://dergigi.com/assets/audio/eternal-struggle.ogg">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+&lt;p>Bitcoin works. No matter what other opinions you hold about this strange phenomenon, it undoubtedly works, marches on, or, as I (and others) have &lt;a href="https://dergigi.com/2019/08/07/proof-of-life/">previously argued&lt;/a>, is alive. Even if most of the world would grind to a halt, the Bitcoin network would continue to produce valid blocks every 10 minutes or so.&lt;/p></description></item><item><title>On Bitcoin’s UX</title><link>https://21ideas.org/en/on-bitcoins-ux/</link><pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-bitcoins-ux/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Gigi was published on &lt;a href="https://www.swanbitcoin.com/on-bitcoins-ux/">swanbitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Why the internet doesn’t feel as clumsy anymore is twofold: (1) we got used to the novel concepts the internet brought with it, and (2) countless layers of abstraction make interacting with the base layer easier.&lt;/p>
+&lt;p>There is an ongoing discus­sion in the Bitcoin space revolving around the topic of user experi­ence, or UX for short. Bitcoin still feels weird, clunky, and compli­cated at times. The main reason for this is that Bitcoin and its parts (the network, the protocol, the cryptog­raphy, the scripting language) are indeed weird, clunky, and compli­cated. Just like the internet was and arguably, still is.&lt;/p></description></item><item><title>Bitcoin: Digital Gold or Peer-to-Peer Cash?</title><link>https://21ideas.org/en/bitcoin-digital-gold-or-ecash/</link><pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-digital-gold-or-ecash/</guid><description>&lt;blockquote class="book-hint btc">
+ The article is not yet available in English. Want to cover this topic or support the project? Visit the &lt;a href="https://21ideas.org/en/contribute">Contribute&lt;/a> page.
+&lt;/blockquote></description></item><item><title>Bitcoin Governance</title><link>https://21ideas.org/en/bitcoin-governance/</link><pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-governance/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/pierre_rochard">Pierre Rochard&lt;/a> was published in his &lt;a href="https://medium.com/@pierre_rochard/bitcoin-governance-37e86299470f">Medium blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="why-do-we-care">
+ Why do we care?
+ &lt;a class="anchor" href="#why-do-we-care">#&lt;/a>
+&lt;/h2>
+&lt;p>Bitcoin’s governance matters because Bitcoin is the first successful, most liquid, and most widely known crypto-currency. In the words of Michael Goldstein, “Sound money is a foundational pillar of civilization, and Bitcoin restores this powerful tool for social coordination.” If Bitcoin’s governance model is flawed, it could prevent Bitcoin from reaching its full potential. If Bitcoin’s governance is flawed, Bitcoin’s stakeholders should work to fix it.&lt;/p></description></item><item><title>Trusted Third Parties are Security Holes</title><link>https://21ideas.org/en/trusted-third-parties/</link><pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/trusted-third-parties/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Nick Szabo was taken from &lt;a href="https://nakamotoinstitute.org/trusted-third-parties/">Satoshi Nakamoto Institute&lt;/a> website. Originally published in 2001.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="introduction">
+ Introduction
+ &lt;a class="anchor" href="#introduction">#&lt;/a>
+&lt;/h2>
+&lt;p>Commercial security is a matter of solving the practical problems of business relationships such as privacy, integrity, protecting property, or detecting breach of contract. A security hole is any weakness that increases the risk of violating these goals. In this real world view of security, a problem does not dissapear because a designer assumes it away. The invocation or assumption in a security protocol design of a &amp;ldquo;trusted third party&amp;rdquo; (TTP) or a &amp;ldquo;trusted computing base&amp;rdquo; (TCB) controlled by a third party constitutes the introduction of a security hole into that design. The security hole will then need to be plugged by other means.&lt;/p></description></item><item><title>21 Million is Non-Negotiable</title><link>https://21ideas.org/en/21-million-is-non-negotiable/</link><pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-million-is-non-negotiable/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Phil Geiger was published in &lt;a href="https://unchained.com/blog/21-million-is-non-negotiable">Unchained blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>In the bitcoin world, there’s a nagging question that has persisted for far too long. On the surface, the question seems plausible. It has even confused prominent bitcoin technologists and researchers into keeping an open mind about the answer. Will bitcoin be secure once the block reward subsidy ends?&lt;/p>
+&lt;p>Bitcoin has a fixed supply of 21 million coins, which are released on a schedule on average every 10 minutes, starting at 50 BTC every 10 minutes for the first 4 years, decreasing to 25 BTC per 10 minutes for the next 4 years, and continuing to be cut in half every 4 years, in an event commonly referred to as the halving, halvening, or more recently, as “Quantitative Hardening.” This release schedule, or block subsidy, is set to occur until all 21 million bitcoin are available for people to transact via private keys, somewhere around the year 2140, thereafter there will be no block subsidy. Additionally, bitcoin has a fixed amount of data that it can process every 10 minutes. This creates a bidding war to get transactions processed, known as the transaction fee market.&lt;/p></description></item><item><title>Proof of Work, a pictorial essay</title><link>https://21ideas.org/en/proof-of-work/</link><pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/proof-of-work/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by &lt;a href="https://x0f.org/@waxwing">Adam Gibson&lt;/a> was published in &lt;a href="https://reyify.com/blog/pow-a-pictorial-essay">Reyify blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>In the modern nation state, courts (&amp;ldquo;justice&amp;rdquo;) operate with the threat of violence. The exact way a dispute is settled varies (jury, single judge, etc.), but the &amp;ldquo;finality&amp;rdquo; of the resolution they provide is based on the fact that the state asserts the final say, and if you don&amp;rsquo;t agree, it doesn&amp;rsquo;t matter, because they have men with guns. Importantly, they don&amp;rsquo;t just have &lt;em>some&lt;/em> men with guns (that&amp;rsquo;s something &lt;em>you&lt;/em> might have, too), they have an overwhelming number of men and increasingly large guns depending on how much you don&amp;rsquo;t want to accept their say.&lt;/p></description></item><item><title>Proof of stake is a scam</title><link>https://21ideas.org/en/proof-of-stake-is-a-scam/</link><pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/proof-of-stake-is-a-scam/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by yanmaani was published in his &lt;a href="https://yanmaani.github.io/proof-of-stake-is-a-scam-and-the-people-promoting-it-are-scammers/">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Proof of stake is a scam. When I say that, I mean that proof of stake is (1) claimed to be a consensus system, and (2) constitutionally incapable of actually producing a consensus.&lt;/p>
+&lt;p>To understand why this is the case, we must first study how proof of work works, to be able to see why proof of stake is not an adequate drop-in replacement for it.&lt;/p></description></item><item><title>Was Satoshi a Greedy Miner?</title><link>https://21ideas.org/en/was-satoshi-a-greedy-miner/</link><pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/was-satoshi-a-greedy-miner/</guid><description>&lt;p>Technical analysis of mining behavior exhibited by an entity that is plausibly Satoshi Nakamoto.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/was-satoshi-a-greedy-miner">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>If you spend enough time in the crypto ecosystem then you&amp;rsquo;ll no doubt come across arguments that some projects have unfair token distributions because they were &amp;ldquo;premined&amp;rdquo; / &amp;ldquo;instamined&amp;rdquo; / &amp;ldquo;fast mined&amp;rdquo; by the project founders, effectively enriching themselves from the initial launch of the project.&lt;/p></description></item><item><title>What Is SegWit</title><link>https://21ideas.org/en/segwit/</link><pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/segwit/</guid><description>&lt;p>The Segregated Witness (&lt;em>SegWit&lt;/em>) upgrade in 2017 changed the structure of &lt;a href="https://learnmeabitcoin.com/technical/transaction/">transaction data&lt;/a> in Bitcoin.&lt;/p>
+&lt;p>The main reason for this upgrade was to fix &lt;strong>transaction malleability&lt;/strong> (I&amp;rsquo;ll explain this in a moment). The other significant change included a &lt;strong>&lt;a href="https://learnmeabitcoin.com/technical/block/#weight">block size&lt;/a> increase&lt;/strong>.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/in3rsha">Greg Walker&lt;/a> was published on &lt;a href="https://learnmeabitcoin.com/beginners/guide/segwit">learnmeabitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="what-was-the-main-change">
+ What was the main change?
+ &lt;a class="anchor" href="#what-was-the-main-change">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="legacy-transaction">
+ Legacy transaction
+ &lt;a class="anchor" href="#legacy-transaction">#&lt;/a>
+&lt;/h3>
+&lt;p>In a &lt;a href="https://learnmeabitcoin.com/technical/transaction/#example-legacy">legacy transaction&lt;/a>, the unlocking code (and &lt;a href="https://learnmeabitcoin.com/technical/keys/signature/">signatures&lt;/a>) sit &lt;em>next&lt;/em> to each &lt;a href="https://learnmeabitcoin.com/technical/transaction/input/">input&lt;/a>, so the unlocking code is spread throughout the transaction data.&lt;/p></description></item><item><title>What Is Taproot</title><link>https://21ideas.org/en/taproot/</link><pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/taproot/</guid><description>&lt;p>Taproot is an upgrade to Bitcoin which brought several new features and benefits to Bitcoin users. The Bitcoin community activated Taproot at block 709,632 on November 12th, 2021.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article was published on &lt;a href="https://river.com/learn/what-is-taproot/">river.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h1 id="taproot-ordinals-and-inscriptions">
+ Taproot, Ordinals, and Inscriptions
+ &lt;a class="anchor" href="#taproot-ordinals-and-inscriptions">#&lt;/a>
+&lt;/h1>
+&lt;p>Since early 2023, Taproot has introduced controversy in the Bitcoin space, as developers started using it to put other forms of data on the blockchain than transaction data, such as ordinals, inscriptions, and images in the form of Non-Fungible Tokens (NFTs).&lt;/p></description></item><item><title>The Coercion Of Ethereum's Difficulty Bomb</title><link>https://21ideas.org/en/coercion-of-ethereums-difficulty-bomb/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coercion-of-ethereums-difficulty-bomb/</guid><description>&lt;p>The perpetual Ethereum difficulty bomb is evidence that blockchains can be coercive, and Bitcoin is evidence that they don’t have to be.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by &lt;a href="https://twitter.com/level39">Level39&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/technical/ethereum-is-coercive-bitcoin-is-not">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Can open-source blockchains be coercive? In a recent debate between Erik Vorhees and Alex Gladstein, Vorhees &lt;a href="https://youtu.be/Ww1lkM2ueyI?t=1332">asserted&lt;/a> that “there is nothing in Ethereum that is based on coercion, period.”&lt;/p>
+&lt;p>Vorhees went on to clarify:&lt;/p>
+&lt;blockquote>
+&lt;p>“I have a pretty high standard of coercion. It&amp;rsquo;s basically like physical violence or the threat of physical violence, or theft or breach of contract. Those categories of things I call coercive. What&amp;rsquo;s not coercive is if you&amp;rsquo;re part of an open-source software project and the majority in that project wants to do something and you don&amp;rsquo;t. And so the project goes in a direction that you didn&amp;rsquo;t want it to go in. That&amp;rsquo;s not coercion. That&amp;rsquo;s called market forces. People I think often will ascribe the word coercion to just things that are inconvenient or unpleasant or that or that feel like they harm them or that lost them money. That&amp;rsquo;s not coercion. I reserve that for more intense interventions… I don&amp;rsquo;t think anything that happens in open blockchains is coercive, period, unless there&amp;rsquo;s some kind of fraud going on… I think open-source software protocols can&amp;rsquo;t be coercive.”&lt;/p></description></item><item><title>Understanding the RGB protocol</title><link>https://21ideas.org/en/rgb/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/rgb/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Federico Tenga was published in his &lt;a href="https://medium.com/@FedericoTenga/understanding-rgb-protocol-7dc7819d3059">Medium blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>&lt;strong>&lt;em>Disclaimer&lt;/em>&lt;/strong>&lt;em>: for education purposes some of the concepts described in this article have been simplified, and to avoid overwhelming the reader with new terms also the terminology may differ from technical specifications.&lt;/em>&lt;/p>
+&lt;p>Recently there has been a growing interest around tokens on top of Bitcoin and the Lightning Network. The idea of creating tokens representing assets that can be transferred and stored with the same security and convenience that Bitcoin offers is not new, it was indeed pioneered already in 2013 by protocols such as Counterparty and OmniLayer (formerly Mastercoin), and later adopted by Ethereum and other altcoins, which is also where most of the blockchain tokens activity happens today. However, using altcoins to secure financial assets is not ideal, as they are unable to offer the same level of security and decentralisation of Bitcoin. For this reason, over the years some projects emerged trying to modernise tokens-on-Bitcoin protocols and make them compatible with the Lightning Network, in particular RGB, OmniBolt and, more recently, Taro. This article will be focusing on RGB with the goal of providing a comprehensive overview of how it works and what its value proposition is.&lt;/p></description></item><item><title>Bitcoin Difficulty Adjustment</title><link>https://21ideas.org/en/difficulty/</link><pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/difficulty/</guid><description>&lt;p>The Difficulty Adjustment is the great missing innovation that made Bitcoin work.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/raw_avocado">Alex Waltz&lt;/a> was published in his &lt;a href="https://twitter.com/raw_avocado/status/1569679607158435840">Twitter&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>While it ensures that Bitcoin&amp;rsquo;s supply is predictable it also is a:&lt;/p>
+&lt;ul>
+&lt;li>fundamental security mechanism&lt;/li>
+&lt;li>self-regulating mechanism&lt;/li>
+&lt;li>crucial consensus component&lt;/li>
+&lt;/ul>
+&lt;p>Since its inception Bitcoin adjusted its difficulty 373 times.&lt;/p>
+&lt;p>For the 1st year of its existence, the difficulty did not increase, the 1st &amp;ldquo;big&amp;rdquo; change taking place on 2010-01-01 ~ block 32,256.&lt;/p></description></item><item><title>Bitcoin address types</title><link>https://21ideas.org/en/bitcoin-address-types/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-address-types/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Tom Honzik was published in &lt;a href="https://unchained.com/blog/bitcoin-address-types-compared">Unchained blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>If you’ve been using bitcoin for a while, you’ve probably noticed that some &lt;a href="https://unchained.com/blog/what-is-a-bitcoin-address/">bitcoin addresses&lt;/a> appear quite different from others. You may have also seen discussion around several acronyms beginning with “P2,” such as P2PKH or P2WSH. If you’re unfamiliar with what these acronyms mean, here we’ll look through all the standardized on-chain methods for receiving bitcoin throughout its history and explain some essential differences that make each method unique.&lt;/p></description></item><item><title>Myths About the Bitcoin Halving</title><link>https://21ideas.org/en/myths-about-halving/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/myths-about-halving/</guid><description>&lt;p>The next Bitcoin halving is almost here. We explore whether the halving is priced in, if other coins are a model for Bitcoin, and fear of a mining death spiral.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Yan Pritzker was published on &lt;a href="https://www.swanbitcoin.com/bitcoin-halving/">swanbitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>The next &lt;a href="https://www.bitcoinblockhalf.com/">Bitcoin halving (aka halvening) is almost here&lt;/a>. In May 2020, the reward for mining new blocks will be cut in half from 12.5 to 6.25 Bitcoins.&lt;/p>
+&lt;p>A halving occurs after every 210,000 blocks &lt;strong>(approx­i­mately every four years)&lt;/strong> until all 21 million Bitcoins have been released by roughly the year 2140. As the supply of newly released coins dwindles, the price of Bitcoins could rise if demand remains consistent.&lt;/p></description></item><item><title>SHA256 and Bitcoin Mining Walkthrough</title><link>https://21ideas.org/en/mining-walkthrough/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mining-walkthrough/</guid><description>&lt;p>How is Bitcoin defended by energy? And what is a nonce? These questions and more are answered within!&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/parman_the">Arman The Parman&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/technical/how-mining-protects-the-bitcoin-network">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>How mining works is fascinating. When I explain it to people, I enjoy seeing their face the moment their mind is blown. I’ll explain it here, but just know, I’m imagining all your faces as your minds blow!&lt;/p>
+&lt;p>I have to start with hash functions. Without hash functions, Bitcoin would not be possible. Let me explain what they are first, not only so you can sound cool at parties, but also because it’s fundamental to understanding how Bitcoin works — particularly mining but also transactions — under the hood &lt;a href="https://armantheparman.com/sha256/">(If interested to learn how to perform a SHA256 hash with pen and paper, see this guide)&lt;/a>.&lt;/p></description></item><item><title>Transaction Size</title><link>https://21ideas.org/en/transaction-size/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/transaction-size/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/in3rsha">Greg Walker&lt;/a> was published on &lt;a href="https://learnmeabitcoin.com/technical/transaction/size">learnmeabitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>You can measure the size of a bitcoin &lt;a href="https://learnmeabitcoin.com/technical/transaction/">transaction&lt;/a> in 3 ways:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Bytes (b)&lt;/strong> – Transaction size on disk.&lt;/li>
+&lt;li>&lt;strong>Weight Units (wu)&lt;/strong> – For fitting transactions in to a block.&lt;/li>
+&lt;li>&lt;strong>Virtual Bytes (vB)&lt;/strong> – For comparing &lt;a href="https://learnmeabitcoin.com/technical/transaction/fee/">fee rates&lt;/a> between transactions.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>Bytes&lt;/em> is the most straightforward unit. It&amp;rsquo;s used for measuring any amount of data on a computer.&lt;/p>
+&lt;p>&lt;em>Weight Units&lt;/em> and &lt;em>Virtual Bytes&lt;/em> are measurements unique to bitcoin. They both measure the size of a transaction in terms of bytes too, but they give a &lt;strong>discount to some parts of the transaction data&lt;/strong> and are used when calculating how many transactions can fit inside a &lt;a href="https://learnmeabitcoin.com/technical/block/">block&lt;/a>.&lt;/p></description></item><item><title>On Ossification</title><link>https://21ideas.org/en/on-ossification/</link><pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/on-ossification/</guid><description>&lt;p>An impassioned argument for why we should continue striving to improve the Bitcoin protocol.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/on-ossification">blog&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ &lt;em>Note&lt;/em>: if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://www.lopp.net/media-archive/presentations/Bitcoin_Audible-On_Ossification.mp3">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+
+&lt;p>Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics. Essentially, as a network protocol achieves greater adoption, the &amp;ldquo;mass&amp;rdquo; of the network grows and the effort required to alter the direction of the network by coordinating software updates across the users of the protocol increases substantially. Eventually, the ability to safely activate any protocol changes is crushed under the massive weight of the network as it becomes impossible to coordinate massive numbers of decentralized actors.&lt;/p></description></item></channel></rss>

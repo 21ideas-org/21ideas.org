@@ -1,27 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>scalability on 21ideas</title><link>https://21ideas.org/en/tags/scalability/</link><description>Recent content in scalability on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/scalability/index.xml" rel="self" type="application/rss+xml"/><item><title>What is Lightning Network?</title><link>https://21ideas.org/en/what-is-lightning-network/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-is-lightning-network/</guid><description>Why should you care about Lightning Network, how does it work and how to use it? We&amp;rsquo;ll answer these and many other questions in this guide.
-The article written by Tony⚡️.
-Contribute.
-Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds.</description></item><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.
-Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not. Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.</description></item><item><title>Lightning Wallets</title><link>https://21ideas.org/en/lightning-wallets/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lightning-wallets/</guid><description>With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.
-Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. Source.
-Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing.</description></item><item><title>How Lightning Address Works</title><link>https://21ideas.org/en/how-lightning-address-works/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/how-lightning-address-works/</guid><description>More experienced users know, that nowadays you can send satoshis directly to Lightning Address in user@domain format. But how exactly does this work?
-In this short article I would like to explain it to those who do not know it. At the same time, I will describe the basics of Lightning invoices and LNURL-pay protocol.
-This article by @heisenberg was published on stacker.news website.
-Contribute.
-Lightning invoices basics # Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network.</description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-This is Part II in a series of speculations about the hyperbitcoinized future. In Part I, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.
-In this part, we continue to follow the energy and speculate about how money and society coevolve as humanity expands through space.</description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>Contents ... Part I
-Part II
-Part III
-This essay by Dhruv Bansal was published in Unchained blog.
-Contribute.
-This is Part III in a series of speculations about the hyperbitcoinized future. In Part I, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In Part II, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.</description></item><item><title>Bitcoin is Not Too Slow</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</guid><description>Contents ... Gradually, Then Suddenly: Intro Bitcoin Can’t Be Copied Bitcoin Is Not Too Volatile Bitcoin Does Not Waste Energy Bitcoin is Not Too Slow Bitcoin Fixes This Bitcoin, Not Blockchain Bitcoin is Not Backed by Nothing Bitcoin is Not a Pyramid Scheme Bitcoin Cannot be Banned Bitcoin is Not for Criminals Bitcoin Obsoletes All Other Money Bitcoin is a Rally Cry Bitcoin is Common Sense Bitcoin is Antifragile Bitcoin is One for All Bitcoin is the Great Definancialization This article by Parker Lewis was first published in Unchained blog.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scalability on 21ideas</title><link>https://21ideas.org/en/tags/scalability/</link><description>Recent content in Scalability on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/scalability/index.xml" rel="self" type="application/rss+xml"/><item><title>What is Lightning Network?</title><link>https://21ideas.org/en/what-is-lightning-network/</link><pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-is-lightning-network/</guid><description>&lt;p>Why should you care about Lightning Network, how does it work and how to use it? We&amp;rsquo;ll answer these and many other questions in this guide.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>The article written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Tony⚡️&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds. However, Bitcoin&amp;rsquo;s design has a number of drawbacks. It can take an hour, and often more, from the time a transaction is made on the Bitcoin blockchain to the moment that transaction gets finalized.&lt;/p></description></item><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/law-of-hash-horizons">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.&lt;/p>
+&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Lightning Wallets</title><link>https://21ideas.org/en/lightning-wallets/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lightning-wallets/</guid><description>&lt;p>With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p>
+&lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/ln-wallets/high-fees.png">
+&lt;p>&lt;em>Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href="https://mempool.space/">Source&lt;/a>.&lt;/em>&lt;/p>
+&lt;/div>
+&lt;p>Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p></description></item><item><title>How Lightning Address Works</title><link>https://21ideas.org/en/how-lightning-address-works/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/how-lightning-address-works/</guid><description>&lt;p>More experienced users know, that nowadays you can send satoshis directly to Lightning Address in user@domain format. But how exactly does this work?&lt;/p>
+&lt;p>In this short article I would like to explain it to those who do not know it. At the same time, I will describe the basics of Lightning invoices and LNURL-pay protocol.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by @heisenberg was published on &lt;a href="https://stacker.news/items/65872">stacker.news&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="lightning-invoices-basics">
+ Lightning invoices basics
+ &lt;a class="anchor" href="#lightning-invoices-basics">#&lt;/a>
+&lt;/h2>
+&lt;p>Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network. If you want to receive some satoshis, you have to generate an invoice on your node/wallet. An invoice is nothing more than a text string (which starts with lnbc&amp;hellip;) and contains, among other things, the recipient ID and the amount. There is actually more information but we won&amp;rsquo;t go into that now. The invoice is most often shared using a QR code, which is nothing more than an image representation of the string described earlier.&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-ii">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This is Part II in a series of speculations about the hyperbitcoinized future.  In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.&lt;/p>
+&lt;p>In this part, we continue to &lt;em>follow the energy&lt;/em> and speculate about how money and society coevolve as humanity expands through space.  We begin with a brief review of Part I.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-iii">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This is Part III in a series of speculations about the hyperbitcoinized future. In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In &lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.&lt;/p></description></item><item><title>Bitcoin is Not Too Slow</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Contents&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;ol>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile">Bitcoin Is Not Too Volatile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy">Bitcoin Does Not Waste Energy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow">Bitcoin is Not Too Slow&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this">Bitcoin Fixes This&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain">Bitcoin, Not Blockchain&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing">Bitcoin is Not Backed by Nothing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme">Bitcoin is Not a Pyramid Scheme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned">Bitcoin Cannot be Banned&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals">Bitcoin is Not for Criminals&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money">Bitcoin Obsoletes All Other Money&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry">Bitcoin is a Rally Cry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense">Bitcoin is Common Sense&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile">Bitcoin is Antifragile&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all">Bitcoin is One for All&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization">Bitcoin is the Great Definancialization&lt;/a>&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-slow">Unchained blog&lt;/a>.&lt;/p></description></item></channel></rss>

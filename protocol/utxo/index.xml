@@ -1,10 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Что такое UTXO и как ими управлять? on 21ideas</title><link>https://21ideas.org/protocol/utxo/</link><description>Recent content in Что такое UTXO и как ими управлять? on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>ru-RU</language><atom:link href="https://21ideas.org/protocol/utxo/index.xml" rel="self" type="application/rss+xml"/><item><title>Что такое UTXO?</title><link>https://21ideas.org/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-1/</guid><description>Оглавление ... Что такое UTXO и как ими управлять? # Что такое UTXO, и почему они важны?
-Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции
-UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина
-Некоторые могут быть не в курсе, но правильное управление биткоин-кошельком подразумевает определенный уровень обслуживания. Если вы пользуетесь услугами кастодиального сервиса, это становится его заботитой. Однако если вы храните свои биткоины самостоятельно, за управление кошельком отвечаете вы.</description></item><item><title>Как избежать высоких комиссий при большом количестве UTXO</title><link>https://21ideas.org/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-2/</guid><description>Оглавление ... Что такое UTXO и как ими управлять? # Что такое UTXO, и почему они важны?
-Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции
-UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина
-Перевод статьи Unchained. Поддержать проект. В продолжение нашей серии статей о том, что такое UTXO, и почему они важны, мы углубимся в различные ситуации, когда вам может понадобиться активно управлять UTXO на вашем некастодиальном кошельке.</description></item><item><title>Приватность UTXO</title><link>https://21ideas.org/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-3/</guid><description>Оглавление ... Что такое UTXO и как ими управлять? # Что такое UTXO, и почему они важны?
-Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции
-UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина
-Перевод статьи Unchained. Поддержать проект. Ранее в этой серии, посвященной UTXO, были опубликованы две статьи. Первая статья служит введением в суть UTXO и объясняет, почему активное управление ими важно для всех, кто хранит биткоины под собственным контролем.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Что такое UTXO и как ими управлять? on 21ideas</title><link>https://21ideas.org/protocol/utxo/</link><description>Recent content in Что такое UTXO и как ими управлять? on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/protocol/utxo/index.xml" rel="self" type="application/rss+xml"/><item><title>Что такое UTXO?</title><link>https://21ideas.org/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-1/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="что-такое-utxo-и-как-ими-управлять">
+ Что такое UTXO и как ими управлять?
+ &lt;a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5-utxo-%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%b8%d0%bc%d0%b8-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-1">Что такое UTXO, и почему они важны?&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-2">Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-3">UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;p>Некоторые могут быть не в курсе, но правильное управление биткоин-кошельком подразумевает определенный уровень обслуживания. Если вы пользуетесь услугами кастодиального сервиса, это становится его заботитой. Однако если вы храните свои биткоины самостоятельно, за управление кошельком отвечаете вы. Чтобы правильно обслуживать свой кошелек, вам нужно знать, что такое UTXO и как ими управлять.&lt;/p></description></item><item><title>Как избежать высоких комиссий при большом количестве UTXO</title><link>https://21ideas.org/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-2/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="что-такое-utxo-и-как-ими-управлять">
+ Что такое UTXO и как ими управлять?
+ &lt;a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5-utxo-%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%b8%d0%bc%d0%b8-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-1">Что такое UTXO, и почему они важны?&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-2">Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-3">UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод &lt;a href="https://unchained.com/blog/too-many-bitcoin-utxos">статьи&lt;/a> Unchained. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
+&lt;/blockquote>
+
+&lt;p>В продолжение нашей серии статей о том, &lt;a href="https://21ideas.org/protocol/utxo-1">что такое UTXO, и почему они важны&lt;/a>, мы углубимся в различные ситуации, когда вам может понадобиться активно управлять UTXO на вашем некастодиальном кошельке. В этой части мы расскажем о проблемах, которые могут возникнуть из-за накопления слишком большого количества UTXO в вашем Биткоин-кошельке, а также о стратегиях, которые вы можете использовать для решения этих проблем и предотвращения их возникновения в будущем.&lt;/p></description></item><item><title>Приватность UTXO</title><link>https://21ideas.org/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/protocol/utxo-3/</guid><description>&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Оглавление&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;h2 id="что-такое-utxo-и-как-ими-управлять">
+ Что такое UTXO и как ими управлять?
+ &lt;a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5-utxo-%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%b8%d0%bc%d0%b8-%d1%83%d0%bf%d1%80%d0%b0%d0%b2%d0%bb%d1%8f%d1%82%d1%8c">#&lt;/a>
+&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-1">Что такое UTXO, и почему они важны?&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-2">Больше UTXO — больше сложностей: как избежать высоких комиссий и ошибки подписи транзакции&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://21ideas.org/protocol/utxo-3">UTXO, адреса и CoinJoin: Обеспечение приватности в экономике Биткоина&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+&lt;blockquote class="book-hint btc">
+ Перевод &lt;a href="https://unchained.com/blog/bitcoin-utxo-privacy">статьи&lt;/a> Unchained. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
+&lt;/blockquote>
+
+&lt;p>Ранее в этой серии, посвященной UTXO, были опубликованы две статьи. &lt;a href="https://21ideas.org/protocol/utxo-1">Первая статья&lt;/a> служит введением в суть UTXO и объясняет, почему активное управление ими важно для всех, кто хранит биткоины под собственным контролем. &lt;a href="https://21ideas.org/protocol/utxo-2">Вторая статья&lt;/a> посвящена тому, как стратегически подходить к количеству UTXO, которые вы храните, чтобы снизить будущие издержки при проведении транзакций и предотвратить ошибки в процессе подписи.&lt;/p></description></item></channel></rss>

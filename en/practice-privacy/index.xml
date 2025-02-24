@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy on 21ideas</title><link>https://21ideas.org/en/practice-privacy/</link><description>Recent content in Privacy on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>RoninDojo x86 Installation Guide</title><link>https://21ideas.org/en/practice-privacy/ronindojo/</link><pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/ronindojo/</guid><description>The author would like to thank Estudio Bitcoin, and personally Albercoin and Arkad, for their work on installing RoninDojo on x86. Installation of &amp;ldquo;vanilla&amp;rdquo; Dojo is described in official documentation by Samourai and in guide by 𝕂𝕐ℂ𝟛. During the arrest of the Samourai Wallet developers on April 24, 2024, the Whirlpool coordinator&amp;rsquo;s servers and the OXT blockchain explorer were also shut down by intelligence agencies. Therefore, starting with RoninDojo v2.</description></item><item><title>GrapheneOS: De-Google your phone</title><link>https://21ideas.org/en/grapheneos/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/grapheneos/</guid><description>This guide by Bitcoin Q+A was published on bitcoiner.guide website.
-Contribute.
-What is GrapheneOS? # “GrapheneOS is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project.”
-GrapheneOS, originally founded in 2014 as ‘CopperheadOS’ is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Privacy on 21ideas</title><link>https://21ideas.org/en/practice-privacy/</link><description>Recent content in Privacy on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>RoninDojo x86 Installation Guide</title><link>https://21ideas.org/en/practice-privacy/ronindojo/</link><pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/ronindojo/</guid><description>&lt;blockquote class="book-hint btc">
+ The author would like to thank &lt;a href="https://twitter.com/estudiobitcoin">Estudio Bitcoin&lt;/a>, and personally &lt;a href="https://twitter.com/Albercoin">Albercoin&lt;/a> and &lt;a href="https://twitter.com/Multicripto">Arkad&lt;/a>, for their &lt;a href="https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64">work&lt;/a> on installing RoninDojo on x86.
+&lt;/blockquote>
+&lt;blockquote class="book-hint info">
+ Installation of &amp;ldquo;vanilla&amp;rdquo; Dojo is described in &lt;a href="https://docs.samourai.io/en/dojo">official documentation&lt;/a> by &lt;a href="https://twitter.com/SamouraiWallet">Samourai&lt;/a> and in &lt;a href="https://21ideas.org/en/practice-privacy/dojo">guide&lt;/a> by &lt;a href="https://twitter.com/KYCfree">𝕂𝕐ℂ𝟛&lt;/a>.
+&lt;/blockquote>
+&lt;blockquote class="book-hint danger">
+ &lt;p>During the arrest of the Samourai Wallet developers on April 24, 2024, the Whirlpool coordinator&amp;rsquo;s servers and the &lt;a href="https://21ideas.org/en/privacy/oxt">OXT&lt;/a> blockchain explorer were also shut down by intelligence agencies. Therefore, starting with RoninDojo v2.1.4, the Whirlpool tools, WST and Boltzmann calculator have been removed from the code.&lt;/p></description></item><item><title>GrapheneOS: De-Google your phone</title><link>https://21ideas.org/en/grapheneos/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/grapheneos/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/grapheneos">bitcoiner.guide&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/grapheneos/02.png">
+&lt;/div>
+&lt;h2 id="what-is-grapheneos">
+ What is GrapheneOS?
+ &lt;a class="anchor" href="#what-is-grapheneos">#&lt;/a>
+&lt;/h2>
+&lt;blockquote>
+&lt;p>“&lt;a href="https://grapheneos.org/">GrapheneOS&lt;/a> is a privacy and security focused mobile OS with Android app compatibility developed as a non-profit open source project.”&lt;/p>&lt;/blockquote>
+&lt;p>GrapheneOS, originally founded in 2014 as ‘CopperheadOS’ is based on the traditional Android Code (AOSP), but with many changes and improvements aimed at improving user privacy and security. GrapheneOS puts the user in control of their phone, not the big tech companies.&lt;/p></description></item></channel></rss>

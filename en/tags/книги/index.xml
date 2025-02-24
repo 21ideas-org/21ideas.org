@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>книги on 21ideas</title><link>https://21ideas.org/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link><description>Recent content in книги on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://21ideas.org/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>Books</title><link>https://21ideas.org/en/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/books/</guid><description>Библиотека книг о Биткоине, экономике и личностном суверенитете.
-Белая книга Биткоина ... Оригинальная работа Сатоши Накамото по-прежнему рекомендуется к прочтению всем, кто изучает принципы работы Биткоина.
-Изобретаем Биткоин ... Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга доступна в формате epub. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;Изобретаем Биткоин&amp;rdquo;. Cуверенитет посредством математики ... Эта книга Кнута Сванхольма — пожалуй моя любимая работа, призванная познакомить новичка с Биткоином.</description></item><item><title>Audiobooks</title><link>https://21ideas.org/en/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/audiobooks/</guid><description>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.
-Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. Ссылка на VPN с оплатой через Лайтнинг. Ссылка на RSS</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Книги on 21ideas</title><link>https://21ideas.org/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/</link><description>Recent content in Книги on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>Books</title><link>https://21ideas.org/en/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/books/</guid><description>&lt;p>Библиотека книг о Биткоине, экономике и личностном суверенитете.&lt;/p>
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Белая книга Биткоина&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;p>&lt;img src="https://21ideas.org/img/wp-01.png" alt="cover" />&lt;/p>
+&lt;p>Оригинальная работа Сатоши Накамото по-прежнему рекомендуется к &lt;a href="https://21ideas.org/whitepaper/">прочтению&lt;/a> всем, кто изучает принципы работы Биткоина.&lt;/p>
+
+ &lt;/div>
+ &lt;/label>
+&lt;/div>
+
+
+&lt;div class="book-expand">
+ &lt;label>
+ &lt;div class="book-expand-head flex justify-between">
+ &lt;span>Изобретаем Биткоин&lt;/span>
+ &lt;span>...&lt;/span>
+ &lt;/div>
+ &lt;input type="checkbox" class="hidden" />
+ &lt;div class="book-expand-content markdown-inner">
+ &lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/148.png#center">
+&lt;/div>
+&lt;p>Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга &lt;a href="https://21ideas.org/epubs/inventing-bitcoin.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;&lt;a href="https://21ideas.org/izobretaem-bitkoin/">Изобретаем Биткоин&lt;/a>&amp;rdquo;.&lt;/p></description></item><item><title>Audiobooks</title><link>https://21ideas.org/en/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/audiobooks/</guid><description>&lt;p>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;em>Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. &lt;a href="https://lnvpn.net?ref=21">Ссылка на VPN с оплатой через Лайтнинг&lt;/a>. &lt;a href="https://anchor.fm/s/69c8de58/podcast/rss">Ссылка на RSS&lt;/a>&lt;/em>
+&lt;/blockquote>
+
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6wps9MF5J14jRf3qQwGcRW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe>
+&lt;hr>
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0C5vGXMxonE0DDzUaAgyIO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe>
+&lt;hr>
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MzfgCM2U0gxylOgAtr7m7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item></channel></rss>

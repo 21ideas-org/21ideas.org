@@ -1,32 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>security on 21ideas</title><link>https://21ideas.org/en/tags/security/</link><description>Recent content in security on 21ideas</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://21ideas.org/en/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.
-The guide written by Tony⚡️.
-Contribute.
-Intro # I would like to share a guide on Phoenix — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like Wallet Of Satoshi and you want to gain more control over your funds, hold your sats in Lightning Network, and minimize the level of trust to a third party.</description></item><item><title>Electrum Bitcoin Wallet</title><link>https://21ideas.org/en/electrum/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/electrum/</guid><description>This guide by Arman The Parman was published in his blog.
-Contribute.
-Why Electrum? # This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level.</description></item><item><title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title><link>https://21ideas.org/en/how-to-hold-private-keys/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/how-to-hold-private-keys/</guid><description>Not Your Keys, Not Your Bitcoin.
-This article by Brandon Quittem was published on swanbitcoin.com website.
-Contribute.
-Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.
-Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. How much Bitcoin do you have? How often do you plan to spend it?</description></item><item><title>LNbits: A Swiss knife among Lightning apps</title><link>https://21ideas.org/en/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lnbits/</guid><description>LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.
-The guide written by Tony⚡️.
-Contribute.
-LNbits # Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.
-It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented.</description></item><item><title>Using Bitcoin</title><link>https://21ideas.org/en/start/guide/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/start/guide/</guid><description> The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the Contribute page.</description></item><item><title>Why You Should Run Your Own Bitcoin Node</title><link>https://21ideas.org/en/practice/bitcoin-node/</link><pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice/bitcoin-node/</guid><description>Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.
-This article by Arman The Parman was published in Bitcoin Magazine.
-Contribute.
-Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:
-Your Bitcoin node needs to keep a copy of the entire Bitcoin blockchain. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.</description></item><item><title>Installing Blue Wallet</title><link>https://21ideas.org/en/blue/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/blue/</guid><description>This guide by @econoalchemist was published in Bitcoin Magazine.
-Contribute.
-If you have an iPhone and have bitcoin, then I highly recommend using Blue Wallet to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet.</description></item><item><title>Buy noKYC Bitcoin with HodlHodl</title><link>https://21ideas.org/en/hodl-hodl/</link><pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/hodl-hodl/</guid><description>This guide by Bitcoin Q+A was published on bitcoiner.guide website.
-Contribute.
-What is Hodl Hodl? # Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!</description></item><item><title>RoboSats: Private P2P Exchange</title><link>https://21ideas.org/en/robosats/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/robosats/</guid><description>This guide by Bitcoin Q+A was published on bitcoiner.guide website.
-Contribute.
-noKYC # The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!</description></item><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.
-This guide by @econoalchemist was published in Bitcoin Magazine.
-Contribute.
-This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.
-Source
-Unboxing # This section demonstrates what is included in the full SeedSigner kit.</description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>This guide by Bitcoin Q+A was published on bitcoiner.guide website.
-Contribute.
-What is Coldcard? # Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software.</description></item><item><title>Starting with Mutiny Wallet</title><link>https://21ideas.org/en/mutiny/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mutiny/</guid><description>Recently, I listened to an episode of SLP551 featuring a discussion between @stephanlivera and @benthecarman about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the Lightning Network. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.
-This article by @runningbitcoin was published on stacker.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on 21ideas</title><link>https://21ideas.org/en/tags/security/</link><description>Recent content in Security on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>&lt;p>How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Tony⚡️&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="intro">
+ Intro
+ &lt;a class="anchor" href="#intro">#&lt;/a>
+&lt;/h2>
+&lt;p>I would like to share a guide on &lt;a href="https://phoenix.acinq.co/">Phoenix&lt;/a> — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like &lt;a href="https://www.walletofsatoshi.com/">Wallet Of Satoshi&lt;/a> and you want to gain more control over your funds, hold your sats in Lightning Network, and &lt;strong>minimize&lt;/strong> the level of trust to a third party. I say &amp;lsquo;minimize&amp;rsquo; rather than &amp;lsquo;avoid&amp;rsquo; for a reason, but I&amp;rsquo;ll clarify this later in the guide.&lt;/p></description></item><item><title>Electrum Bitcoin Wallet</title><link>https://21ideas.org/en/electrum/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/electrum/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/parman_the">Arman The Parman&lt;/a> was published in his &lt;a href="https://armantheparman.com/electrum">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="why-electrum">
+ Why Electrum?
+ &lt;a class="anchor" href="#why-electrum">#&lt;/a>
+&lt;/h2>
+&lt;p>This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level. Instead, it’s for the person who is, or aspires to be, a “power” user.&lt;/p></description></item><item><title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title><link>https://21ideas.org/en/how-to-hold-private-keys/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/how-to-hold-private-keys/</guid><description>&lt;p>Not Your Keys, Not Your Bitcoin.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Brandon Quittem was published on &lt;a href="https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/">swanbitcoin.com&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p>
+&lt;p>Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em>How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em> Answering these questions will help deter­mine the right solution for you. &lt;/p></description></item><item><title>LNbits: A Swiss knife among Lightning apps</title><link>https://21ideas.org/en/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lnbits/</guid><description>&lt;p>LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Tony⚡️&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="lnbits">
+ LNbits
+ &lt;a class="anchor" href="#lnbits">#&lt;/a>
+&lt;/h2>
+&lt;p>Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.&lt;/p>
+&lt;p>It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented. The most expected innovation is the possibility to enter the service via login and password. So far, LNbits is a web page that requires only a clearnet address to log in. Some may find this approach unacceptable, but in this guide we&amp;rsquo;ll look at approaches that completely negate any danger. Nevertheless, it&amp;rsquo;s worth remembering that this is not a tool for long-term savings, but rather a layer designed to facilitate interaction with other users and make everyone&amp;rsquo;s experience pleasant and seamless.&lt;/p></description></item><item><title>Using Bitcoin</title><link>https://21ideas.org/en/start/guide/</link><pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/start/guide/</guid><description>&lt;blockquote class="book-hint btc">
+ The guide is not yet available in English. Want to cover this topic or support the pproject? Visit the &lt;a href="https://21ideas.org/en/contribute">Contribute&lt;/a> page.
+&lt;/blockquote></description></item><item><title>Why You Should Run Your Own Bitcoin Node</title><link>https://21ideas.org/en/practice/bitcoin-node/</link><pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice/bitcoin-node/</guid><description>&lt;p>Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/parman_the">Arman The Parman&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/culture/six-reasons-you-should-run-bitcoin-node">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:&lt;/p>
+&lt;p>Your Bitcoin node needs to keep a copy of the entire Bitcoin &lt;a href="https://bitcoinmagazine.com/guides/what-is-blockchain">blockchain&lt;/a>. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.e., the queue of transactions waiting to be included in the next block, and thus added to the blockchain). It needs to check that all additions to the blockchain are valid, and reject those that are not valid. It will provide details about the blockchain — such as balances — to other types of software that ask, like wallets. And it will provide a copy of the blockchain to any new node that wants to join. The new node then independently checks that every transaction in the copy it receives is valid. It does not actually “trust” the connected node.&lt;/p></description></item><item><title>Installing Blue Wallet</title><link>https://21ideas.org/en/blue/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/blue/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/econoalchemist">@econoalchemist&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/">Blue Wallet&lt;/a> to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p></description></item><item><title>Buy noKYC Bitcoin with HodlHodl</title><link>https://21ideas.org/en/hodl-hodl/</link><pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/hodl-hodl/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/hodlhodl">bitcoiner.guide&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="what-is-hodl-hodl">
+ What is Hodl Hodl?
+ &lt;a class="anchor" href="#what-is-hodl-hodl">#&lt;/a>
+&lt;/h2>
+&lt;p>Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p></description></item><item><title>RoboSats: Private P2P Exchange</title><link>https://21ideas.org/en/robosats/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/robosats/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/robosats">bitcoiner.guide&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h1 id="nokyc">
+ noKYC
+ &lt;a class="anchor" href="#nokyc">#&lt;/a>
+&lt;/h1>
+&lt;p>The de-facto way to obtain Bitcoin today, especially as a newcomer, is to do so through a regulated Bitcoin exchange. You hop onto a website, provide an egregious amount of your personal information, often including your name, address, banking details, drivers license and sometimes even a scan of your entire face or a recording of your voice!&lt;/p></description></item><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>&lt;p>This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/econoalchemist">@econoalchemist&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.&lt;/p>
+&lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/seedsigner/02.webp">
+&lt;p>&lt;a href="https://seedsigner.com/">Source&lt;/a>&lt;/p>
+&lt;/div>
+&lt;h2 id="unboxing">
+ Unboxing
+ &lt;a class="anchor" href="#unboxing">#&lt;/a>
+&lt;/h2>
+&lt;p>This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/">BTC Hardware Solutions&lt;/a> with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa">GoBrrr&lt;/a> or &lt;a href="https://diynodes.com/">DIYNodes&lt;/a>, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1">TechHaven&lt;/a>.&lt;/p></description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/coldcard">bitcoiner.guide&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;h2 id="what-is-coldcard">
+ What is Coldcard?
+ &lt;a class="anchor" href="#what-is-coldcard">#&lt;/a>
+&lt;/h2>
+&lt;p>Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p></description></item><item><title>Starting with Mutiny Wallet</title><link>https://21ideas.org/en/mutiny/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mutiny/</guid><description>&lt;p>Recently, I listened to an episode of &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC">SLP551&lt;/a> featuring a discussion between &lt;a href="https://stacker.news/stephanlivera">@stephanlivera&lt;/a> and &lt;a href="https://stacker.news/benthecarman">@benthecarman&lt;/a> about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href="https://21ideas.org/en/what-is-lightning-network">Lightning Network&lt;/a>. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://stacker.news/runningbitcoin">@runningbitcoin&lt;/a> was published on &lt;a href="https://stacker.news/items/467711/r/Tony">stacker.news&lt;/a> website.&lt;/p></description></item></channel></rss>
