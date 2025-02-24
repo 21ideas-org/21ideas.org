@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/52becd2c-37ca-4575-a4ed-03806311e91b/deploy-status)](https://app.netlify.com/sites/21ideas/deploys)
 [![en](https://img.shields.io/badge/lang-eng-orange)](https://github.com/21ideas-org/21ideas.org/blob/main/README.md)
 [![ru](https://img.shields.io/badge/язык-ру-orange)](https://github.com/21ideas-org/21ideas.org/blob/main/README.ru.md)
 
