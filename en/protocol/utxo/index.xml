@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>What Is UTXO And How To Manage Them on 21ideas</title><link>https://21ideas.org/en/protocol/utxo/</link><description>Recent content in What Is UTXO And How To Manage Them on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/protocol/utxo/index.xml" rel="self" type="application/rss+xml"/><item><title>What is a Bitcoin UTXO</title><link>https://21ideas.org/en/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>What Is UTXO And How To Manage Them on 21ideas</title><link>https://21ideas.org/en/protocol/utxo/</link><description>Recent content in What Is UTXO And How To Manage Them on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/protocol/utxo/index.xml" rel="self" type="application/rss+xml"/><item><title>What is a Bitcoin UTXO</title><link>https://21ideas.org/en/protocol/utxo-1/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="what-is-utxo-and-how-to-manage-them">
  What Is UTXO And How To Manage Them
  &lt;a class="anchor" href="#what-is-utxo-and-how-to-manage-them">#&lt;/a>
@@ -23,8 +17,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by Tom Honzik was published in &lt;a href="https://unchained.com/blog/what-is-a-utxo-bitcoin">Unchained blog&lt;/a>&lt;/p>
@@ -32,14 +25,8 @@
 
 &lt;/blockquote>
 
-&lt;p>Although many users may not realize it, all bitcoin wallets need some level of maintenance to be properly managed. If you’re using a custodian, they take care of these things. However, when you hold your bitcoin in self-custody, no one is responsible for managing your wallet but you. To maintain your wallet properly, you’ll need to know what UTXOs are and how to manage them.&lt;/p></description></item><item><title>Too Many UTXOs: How To Avoid High Fees</title><link>https://21ideas.org/en/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Although many users may not realize it, all bitcoin wallets need some level of maintenance to be properly managed. If you’re using a custodian, they take care of these things. However, when you hold your bitcoin in self-custody, no one is responsible for managing your wallet but you. To maintain your wallet properly, you’ll need to know what UTXOs are and how to manage them.&lt;/p></description></item><item><title>Too Many UTXOs: How To Avoid High Fees</title><link>https://21ideas.org/en/protocol/utxo-2/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="what-is-utxo-and-how-to-manage-them">
  What Is UTXO And How To Manage Them
  &lt;a class="anchor" href="#what-is-utxo-and-how-to-manage-them">#&lt;/a>
@@ -57,8 +44,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by Tom Honzik was published in &lt;a href="https://unchained.com/blog/too-many-bitcoin-utxos">Unchained blog&lt;/a>&lt;/p>
@@ -66,14 +52,8 @@
 
 &lt;/blockquote>
 
-&lt;p>Building on our first article covering &lt;a href="https://21ideas.org/en/protocol/utxo-1">what UTXOs are and why they matter&lt;/a>, we’ll now dive deeper into various situations where you may need to actively manage the UTXOs in your self-custody wallet. This installment will describe the problems that can arise from accumulating too many UTXOs in your bitcoin wallet, as well as strategies you can use to resolve these issues and prevent them from occurring in the future.&lt;/p></description></item><item><title>UTXOs Privacy</title><link>https://21ideas.org/en/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Building on our first article covering &lt;a href="https://21ideas.org/en/protocol/utxo-1">what UTXOs are and why they matter&lt;/a>, we’ll now dive deeper into various situations where you may need to actively manage the UTXOs in your self-custody wallet. This installment will describe the problems that can arise from accumulating too many UTXOs in your bitcoin wallet, as well as strategies you can use to resolve these issues and prevent them from occurring in the future.&lt;/p></description></item><item><title>UTXOs Privacy</title><link>https://21ideas.org/en/protocol/utxo-3/</link><pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/protocol/utxo-3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="what-is-utxo-and-how-to-manage-them">
  What Is UTXO And How To Manage Them
  &lt;a class="anchor" href="#what-is-utxo-and-how-to-manage-them">#&lt;/a>
@@ -91,8 +71,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by Tom Honzik was published in &lt;a href="https://unchained.com/blog/bitcoin-utxo-privacy">Unchained blog&lt;/a>&lt;/p>

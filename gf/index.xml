@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Генезис-файлы on 21ideas</title><link>https://21ideas.org/gf/</link><description>Recent content in Генезис-файлы on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/gf/index.xml" rel="self" type="application/rss+xml"/><item><title>Пролог</title><link>https://21ideas.org/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-intro/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Генезис-файлы on 21ideas</title><link>https://21ideas.org/gf/</link><description>Recent content in Генезис-файлы on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/gf/index.xml" rel="self" type="application/rss+xml"/><item><title>Пролог</title><link>https://21ideas.org/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-intro/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -23,14 +17,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</title><link>https://21ideas.org/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Этот пост – пролог к серии материалов, посвященных становлению движения шифропанков, призванных познакомить сообщество с технологиями, предшествующими киберкоммерции, рассвет которой мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</title><link>https://21ideas.org/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -48,14 +43,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</title><link>https://21ideas.org/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – первая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</title><link>https://21ideas.org/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -73,14 +69,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</title><link>https://21ideas.org/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – вторая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</title><link>https://21ideas.org/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -98,14 +95,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</title><link>https://21ideas.org/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – третья публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</title><link>https://21ideas.org/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-4/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -123,14 +121,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</title><link>https://21ideas.org/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – четвертая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</title><link>https://21ideas.org/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-5/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -148,4 +147,11 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+&lt;/details>
+
+&lt;p>Это – пятая и заключительная публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item></channel></rss>

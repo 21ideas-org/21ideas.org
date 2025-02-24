@@ -2,15 +2,8 @@
  &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
 &lt;/blockquote>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
  Understanding Bitcoin Privacy with OXT
  &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
@@ -21,8 +14,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction
@@ -32,15 +24,8 @@
  &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
 &lt;/blockquote>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
  Understanding Bitcoin Privacy with OXT
  &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
@@ -51,8 +36,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction
@@ -62,15 +46,8 @@
  &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
 &lt;/blockquote>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
  Understanding Bitcoin Privacy with OXT
  &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
@@ -81,8 +58,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction
@@ -92,15 +68,8 @@
  &lt;em>This content is also available in video format in &lt;a href="https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg">this playlist&lt;/a>.&lt;/em>
 &lt;/blockquote>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="understanding-bitcoin-privacy-with-oxt">
  Understanding Bitcoin Privacy with OXT
  &lt;a class="anchor" href="#understanding-bitcoin-privacy-with-oxt">#&lt;/a>
@@ -111,8 +80,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/privacy/oxt-4">Part 4: Applying Chain Analysis Concepts To Improve User Privacy&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction

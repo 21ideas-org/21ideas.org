@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Биткоин on 21ideas</title><link>https://21ideas.org/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link><description>Recent content in Биткоин on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Кошелек Phoenix</title><link>https://21ideas.org/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/phoenix/</guid><description>&lt;p>Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Биткоин on 21ideas</title><link>https://21ideas.org/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link><description>Recent content in Биткоин on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:48:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Кошелек Phoenix</title><link>https://21ideas.org/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/phoenix/</guid><description>&lt;p>Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг.&lt;/p>
 &lt;blockquote class="book-hint btc">
  Гид подготовлен &lt;a href="https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
@@ -27,14 +27,8 @@
  Статья подготовлена &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Сеть лайтнинг &lt;em>(Lightning Network)&lt;/em> является децентрализованной системой для мгновенных микроплатежей. Биткоин, самая широко используемая и ценная в мире криптовалюта, позволяет любому передать ценность без необходимости в доверенном посреднике или депозитарии. Биткоин поддерживает продвинутую систему скриптов (сценариев), позволяющую пользователям программировать инструкции по распоряжению собственными средствами. Тем не менее, дизайн Биткоина обладает рядом недостатков. С момента совершения сделки на блокчейне Биткоина и до момента, когда эта сделка станет необратимой, может пройти час, а часто и больше.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/vvedenie/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Сеть лайтнинг &lt;em>(Lightning Network)&lt;/em> является децентрализованной системой для мгновенных микроплатежей. Биткоин, самая широко используемая и ценная в мире криптовалюта, позволяет любому передать ценность без необходимости в доверенном посреднике или депозитарии. Биткоин поддерживает продвинутую систему скриптов (сценариев), позволяющую пользователям программировать инструкции по распоряжению собственными средствами. Тем не менее, дизайн Биткоина обладает рядом недостатков. С момента совершения сделки на блокчейне Биткоина и до момента, когда эта сделка станет необратимой, может пройти час, а часто и больше.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/vvedenie/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -57,14 +51,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Скаут, Биткоин и грибы</title><link>https://21ideas.org/sr/silkroad-1/</link><pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Скаут, Биткоин и грибы</title><link>https://21ideas.org/sr/silkroad-1/</link><pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -79,8 +68,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Перевод &lt;a href="https://journalducoin.com/analyses/silk-road-marche-noir-dark-web-creation-ross-ulbricht/">первой части&lt;/a> цикла статей &lt;a href="https://x.com/lugaxker">Людовика Ларса&lt;/a> о Silk Road и его создателе &lt;a href="https://x.com/RealRossU">Россе Ульбрихте&lt;/a>.&lt;/p></description></item><item><title>Кошелек Электрум</title><link>https://21ideas.org/electrum/</link><pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/electrum/</guid><description>&lt;p>Как хранить свои биткоины в начале пути? Безопасное горячее хранение биткоина.&lt;/p>
@@ -96,14 +84,8 @@
 &lt;/blockquote>
 
 &lt;p>Итак, вы приобрели немного биткоинов, и теперь столкнулись со следующим вопросом: как их лучше всего хранить? Мы поможем вам подобрать тот кошелек, который подойдет именно вам.&lt;/p>
-&lt;p>Хотя ничего сложного, на первый взгляд, в этом нет, выбор кошелька сопряжен с немалым количеством нюансов. &lt;em>Сколько у вас биткоинов? Как часто вы планируете их тратить? Вы уверены, что ваши ключи в большей безопасности, чем в холодном кастодиальном хранилище?&lt;/em> Ответы на эти вопросы помогут найти правильное решение именно для вас.&lt;/p></description></item><item><title>Пролог</title><link>https://21ideas.org/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-intro/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Хотя ничего сложного, на первый взгляд, в этом нет, выбор кошелька сопряжен с немалым количеством нюансов. &lt;em>Сколько у вас биткоинов? Как часто вы планируете их тратить? Вы уверены, что ваши ключи в большей безопасности, чем в холодном кастодиальном хранилище?&lt;/em> Ответы на эти вопросы помогут найти правильное решение именно для вас.&lt;/p></description></item><item><title>Пролог</title><link>https://21ideas.org/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-intro/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -121,21 +103,21 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Постгипербиткоинизация</title><link>https://21ideas.org/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Этот пост – пролог к серии материалов, посвященных становлению движения шифропанков, призванных познакомить сообщество с технологиями, предшествующими киберкоммерции, рассвет которой мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Постгипербиткоинизация</title><link>https://21ideas.org/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/ba/1">Часть 1: Постгипербиткоинизация&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/2">Часть 2: Миллион крошечных миров&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/3">Часть 3: Первый контакт&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Как будет выглядеть Биткоин через сотню лет?&lt;/p>
 &lt;blockquote class="book-hint btc">
@@ -146,14 +128,8 @@
 
 &lt;blockquote>
 &lt;p>Тяга к дальним путешествиям и созданию новой валюты станет мощным драйвером экспансии человека в космос.&lt;/p>&lt;/blockquote>
-&lt;p>Земля будет использовать Биткоин, а колонии на Марсе, далеких планетах и звездах — нет.  Хотя далекие колонии будут ценить биткоины и торговать ими, они сделают выбор в пользу запуска, обеспечения безопасности и использования своих собственных локальных блокчейнов.  Эта модель репликации является неизбежным следствием &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/ru/">гипербиткоинизации&lt;/a> и физических ограничений, присущих любой цепочке блоков, которая учитывает ограниченность скорости света.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/pzv/postepenno-zatem-vnezapno/</link><pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/postepenno-zatem-vnezapno/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Земля будет использовать Биткоин, а колонии на Марсе, далеких планетах и звездах — нет.  Хотя далекие колонии будут ценить биткоины и торговать ими, они сделают выбор в пользу запуска, обеспечения безопасности и использования своих собственных локальных блокчейнов.  Эта модель репликации является неизбежным следствием &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/ru/">гипербиткоинизации&lt;/a> и физических ограничений, присущих любой цепочке блоков, которая учитывает ограниченность скорости света.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/pzv/postepenno-zatem-vnezapno/</link><pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/postepenno-zatem-vnezapno/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -175,24 +151,16 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Введение в серию &amp;ldquo;Постепенно, затем внезапно&amp;rdquo;, посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое.&lt;/p></description></item><item><title>Часть1. Философские уроки Биткоина</title><link>https://21ideas.org/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Введение в серию &amp;ldquo;Постепенно, затем внезапно&amp;rdquo;, посвященную всем фундаментальным аспектам Биткоина: экономика, инвестирование, монетарная политика, философия и многое другое.&lt;/p></description></item><item><title>Часть1. Философские уроки Биткоина</title><link>https://21ideas.org/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/chemu-ya-nauchilsya-u-bitcoina/filosofskie-uroki-bitcoina">Часть1. Философские уроки Биткоина&lt;/a>&lt;/li>
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод &lt;a href="https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin/">статьи&lt;/a> Dergigi подготовлен пабликом &lt;a href="https://t.me/gametheoryhub">∞/21M&lt;/a>. Редактура &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
@@ -220,35 +188,29 @@
 &lt;ul>
 &lt;li>
 &lt;p>White Paper Биткоина, состоит из 2736 слов! Он короче, чем «&lt;a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D1%85%D0%B0%D1%80%D1%82%D0%B8%D1%8F_%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9">Великая хартия вольностей&lt;/a>» (3550 слов), Конституция США (4543 слова) и последний законопроект об инфраструктуре США (2700 страниц). Средняя книга содержит от 70 000 до 120 000 слов.&lt;/p></description></item><item><title>Книги</title><link>https://21ideas.org/books-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/books-old/</guid><description>&lt;p>Библиотека книг о Биткоине, экономике и личностном суверенитете.&lt;/p>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Белая книга Биткоина&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Белая книга Биткоина&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;img src="https://21ideas.org/img/wp-01.png" alt="cover" />&lt;/p>
 &lt;p>Оригинальная работа Сатоши Накамото по-прежнему рекомендуется к &lt;a href="https://21ideas.org/whitepaper/">прочтению&lt;/a> всем, кто изучает принципы работы Биткоина.&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Изобретаем Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Изобретаем Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="imageWrapper">
  &lt;img src="https://21ideas.org/img/148.png#center">
 &lt;/div>
-&lt;p>Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга &lt;a href="https://21ideas.org/epubs/inventing-bitcoin.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;&lt;a href="https://21ideas.org/izobretaem-bitkoin/">Изобретаем Биткоин&lt;/a>&amp;rdquo;.&lt;/p></description></item><item><title>Книги</title><link>https://21ideas.org/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/books/</guid><description>&lt;script src="{{ "/static/scripts.js" | relURL }}">&lt;/script>
+&lt;p>Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга &lt;a href="https://21ideas.org/epubs/inventing-bitcoin.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;&lt;a href="https://21ideas.org/izobretaem-bitkoin/">Изобретаем Биткоин&lt;/a>&amp;rdquo;.&lt;/p>
+ &lt;/div>
+&lt;/details>
+
+&lt;details >&lt;summary>Cуверенитет посредством математики&lt;/summary>
+ &lt;div class="markdown-inner">
+ &lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/149.png#center">
+&lt;/div>
+&lt;p>Эта книга Кнута Сванхольма — пожалуй моя любимая работа, призванная познакомить новичка с Биткоином. Автор затрагивает самые острые проблемы современного общества — как экономические, так и социальные. Делитесь этой работой с родными и близкими; это — лучший способ заинтересовать их в путешествии сквозь кроличью нору Биткоина. Книга &lt;a href="https://21ideas.org/epubs/stm.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &lt;a href="https://21ideas.org/suverenitet-posredstvom-matematiki/">Cуверенитет посредством математики&lt;/a>&lt;/p></description></item><item><title>Книги</title><link>https://21ideas.org/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/books/</guid><description>&lt;script src="{{ "/static/scripts.js" | relURL }}">&lt;/script>
 &lt;div class="intro-text">
 &lt;p>Здесь представлены новые и проверенные временем книги на тему биткоина, сети лайтнинг, личного суверенитета, критического мышления и смежных тем от различных авторов на русском и английском языках. Библиотека дополняется силами сообщества.&lt;/p>
 &lt;/div>
@@ -334,14 +296,8 @@
  Что такое биткоин-нода?
  &lt;a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d0%bd%d0%be%d0%b4%d0%b0">#&lt;/a>
 &lt;/h1>
-&lt;p>Биткоин – это одноранговая &lt;a href="https://21ideas.org/bitcoin-zoloto-2-0">цифровая наличность&lt;/a>, которая регулируется сетью узлов (нод). Нода – это просто компьютер, на котором установлено программное обеспечение Биткоин. Биткоин-ноды – это компьютеры со специально установленным программным обеспечением, которые обмениваются транзакциями с другими узлами сети и проверяют их действительность. Пользователи Биткоин-нод сотрудничают с Биткоин-майнерами для поддержания целостности системы.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-0/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Биткоин – это одноранговая &lt;a href="https://21ideas.org/bitcoin-zoloto-2-0">цифровая наличность&lt;/a>, которая регулируется сетью узлов (нод). Нода – это просто компьютер, на котором установлено программное обеспечение Биткоин. Биткоин-ноды – это компьютеры со специально установленным программным обеспечением, которые обмениваются транзакциями с другими узлами сети и проверяют их действительность. Пользователи Биткоин-нод сотрудничают с Биткоин-майнерами для поддержания целостности системы.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-0/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -364,14 +320,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Первые успехи и неудачи нарко-Amazon'a</title><link>https://21ideas.org/sr/silkroad-2/</link><pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Первые успехи и неудачи нарко-Amazon'a</title><link>https://21ideas.org/sr/silkroad-2/</link><pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -386,8 +337,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Запущенная Россом Ульбрихтом в начале 2011 года торговая площадка Silk Road быстро завоевала ошеломляющий успех и стала значимой главой в истории Биткоина. Однако её развитие не было усыпано розами. В этой части мы рассмотрим, как в первый год изменилась не только платформа Silk Road, но и её создатель.&lt;/p></description></item><item><title>Покупка биткоина без KYC на Hodl Hodl</title><link>https://21ideas.org/hodl-hodl/</link><pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/hodl-hodl/</guid><description>&lt;p>Один из лучших способов покупки биткоинов, не требующий документов.&lt;/p>
 &lt;blockquote class="book-hint btc">
@@ -405,21 +355,14 @@
  &lt;/div>
 &lt;/div>
 
-&lt;p>Большинство жителей планеты Земля и правда не придают значения персональным данным. Многие относятся к социальным медиа, как к компаниям, предоставляющим бесплатные площадки для общения с родными и близкими. На самом деле, это — многомиллиардный бизнес, в котором мы — не более, чем товар. Наши персональные данные продают и покупают, но что еще тревожнее — их могут украсть, чтобы использовать во вредоносных и противозаконных целях. Если речь идет о фото с фейсбука или посте в одноклассниках, потеря, возможно, невелика. Но как только вопрос касается денег или такой информации, как паспортные данные, домашний адрес или идентификационный код, становится не по себе. &lt;/p></description></item><item><title>Миллион крошечных миров</title><link>https://21ideas.org/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Большинство жителей планеты Земля и правда не придают значения персональным данным. Многие относятся к социальным медиа, как к компаниям, предоставляющим бесплатные площадки для общения с родными и близкими. На самом деле, это — многомиллиардный бизнес, в котором мы — не более, чем товар. Наши персональные данные продают и покупают, но что еще тревожнее — их могут украсть, чтобы использовать во вредоносных и противозаконных целях. Если речь идет о фото с фейсбука или посте в одноклассниках, потеря, возможно, невелика. Но как только вопрос касается денег или такой информации, как паспортные данные, домашний адрес или идентификационный код, становится не по себе. &lt;/p></description></item><item><title>Миллион крошечных миров</title><link>https://21ideas.org/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/ba/1">Часть 1: Постгипербиткоинизация&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/2">Часть 2: Миллион крошечных миров&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/3">Часть 3: Первый контакт&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Вторая часть из серии спекуляций о гипербиткоинизированном будущем.&lt;/p>
 &lt;blockquote class="book-hint btc">
@@ -428,14 +371,9 @@
 
 &lt;/blockquote>
 
-&lt;p>Это вторая часть из серии моих спекуляций о гипербиткоинизированном будущем. В &lt;a href="https://21ideas.org/ba/1">первой части&lt;/a> мы определили первый закон Биткоин-астрономии и описали, как он стимулирует поиски энергии для обеспечения нашей растущей цивилизации.&lt;/p></description></item><item><title>Биткоин нельзя скопировать</title><link>https://21ideas.org/pzv/bitkoin-nelzya-skopirovat/</link><pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nelzya-skopirovat/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Это вторая часть из серии моих спекуляций о гипербиткоинизированном будущем. В &lt;a href="https://21ideas.org/ba/1">первой части&lt;/a> мы определили первый закон Биткоин-астрономии и описали, как он стимулирует поиски энергии для обеспечения нашей растущей цивилизации.&lt;/p>
+&lt;p>В этой части мы продолжаем следовать за энергией и спекулируем о том, как деньги и общество сосуществуют по мере того, как человечество расширяется в пространстве. Начнем с краткого обзора первой части.&lt;/p></description></item><item><title>Биткоин нельзя скопировать</title><link>https://21ideas.org/pzv/bitkoin-nelzya-skopirovat/</link><pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nelzya-skopirovat/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -457,17 +395,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему.&lt;/p></description></item><item><title>Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</title><link>https://21ideas.org/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Свойства Биткоина уникальны и он не может быть воспроизведен. Эта статья расскажет почему.&lt;/p></description></item><item><title>Часть I: eCash Дэвида Чаума и зарождение мечты шифропанков</title><link>https://21ideas.org/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -485,7 +416,14 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Видео</title><link>https://21ideas.org/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+&lt;/details>
+
+&lt;p>Это – первая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Видео</title><link>https://21ideas.org/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
 &lt;h2 id="биткоин">
  Биткоин
  &lt;a class="anchor" href="#%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd">#&lt;/a>
@@ -494,15 +432,8 @@
  Теория
  &lt;a class="anchor" href="#%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f">#&lt;/a>
 &lt;/h3>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Что такое Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Что такое Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="youtubeWrapper">
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe src="https://www.youtube.com/embed/LrmhcaD6Cfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
@@ -534,14 +465,8 @@
  Как приобрести свои первые биткоины (сатоши)
  &lt;a class="anchor" href="#%d0%ba%d0%b0%d0%ba-%d0%bf%d1%80%d0%b8%d0%be%d0%b1%d1%80%d0%b5%d1%81%d1%82%d0%b8-%d1%81%d0%b2%d0%be%d0%b8-%d0%bf%d0%b5%d1%80%d0%b2%d1%8b%d0%b5-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd%d1%8b-%d1%81%d0%b0%d1%82%d0%be%d1%88%d0%b8">#&lt;/a>
 &lt;/h2>
-&lt;p>Купить биткоин очень просто. Ниже мы опишем несколько самых распространенных и удобных способов приобретения денег будущего.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-01/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Купить биткоин очень просто. Ниже мы опишем несколько самых распространенных и удобных способов приобретения денег будущего.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-01/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -564,14 +489,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Ужасный Пират Робертс</title><link>https://21ideas.org/sr/silkroad-3/</link><pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Ужасный Пират Робертс</title><link>https://21ideas.org/sr/silkroad-3/</link><pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -586,24 +506,16 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Silk Road был площадкой для торговли запрещёнными товарами, которая за двадцать месяцев своего существования заработала в биткоинах эквивалент десятков миллионов долларов. Но Silk Road была чем-то большим, нежели просто чёрным рынком в даркнэте: это было общественное движение. Сегодня мы поговорим о Dread Pirate Roberts, вымышленном персонаже, которого Росс Ульбрихт использовал, чтобы руководить этим движением начиная с февраля 2012 года.&lt;/p></description></item><item><title>Первый контакт</title><link>https://21ideas.org/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Silk Road был площадкой для торговли запрещёнными товарами, которая за двадцать месяцев своего существования заработала в биткоинах эквивалент десятков миллионов долларов. Но Silk Road была чем-то большим, нежели просто чёрным рынком в даркнэте: это было общественное движение. Сегодня мы поговорим о Dread Pirate Roberts, вымышленном персонаже, которого Росс Ульбрихт использовал, чтобы руководить этим движением начиная с февраля 2012 года.&lt;/p></description></item><item><title>Первый контакт</title><link>https://21ideas.org/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/ba/3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/ba/1">Часть 1: Постгипербиткоинизация&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/2">Часть 2: Миллион крошечных миров&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/ba/3">Часть 3: Первый контакт&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Третья часть из серии спекуляций о гипербиткоинизированном будущем.&lt;/p>
 &lt;blockquote class="book-hint btc">
@@ -612,14 +524,8 @@
 
 &lt;/blockquote>
 
-&lt;p>Это третья часть из серии спекуляций о гипербиткоинизированном будущем. В первой части мы определили Первый Закон Биткоин-астрономии и описали, как он приводит к появлению новых блокчейнов по мере того, как человечество покоряет Солнечную систему. Во второй части мы описали второй закон, в соответствии с которым появляются многоуровневые блокчейны размером с Солнечную систему и даже простираются за ее пределы, хешируя невероятные объемы энергии в космических временны́х масштабах.&lt;/p></description></item><item><title>Биткоин не слишком волатилен</title><link>https://21ideas.org/pzv/bitkoin-ne-slishkom-volatilen/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-slishkom-volatilen/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Это третья часть из серии спекуляций о гипербиткоинизированном будущем. В первой части мы определили Первый Закон Биткоин-астрономии и описали, как он приводит к появлению новых блокчейнов по мере того, как человечество покоряет Солнечную систему. Во второй части мы описали второй закон, в соответствии с которым появляются многоуровневые блокчейны размером с Солнечную систему и даже простираются за ее пределы, хешируя невероятные объемы энергии в космических временны́х масштабах.&lt;/p></description></item><item><title>Биткоин не слишком волатилен</title><link>https://21ideas.org/pzv/bitkoin-ne-slishkom-volatilen/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-slishkom-volatilen/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -641,17 +547,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков.&lt;/p></description></item><item><title>Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</title><link>https://21ideas.org/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков.&lt;/p></description></item><item><title>Часть II: Hashcash или как Адам Бэк разработал сердце Биткоина</title><link>https://21ideas.org/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -669,7 +568,14 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Аудиокниги</title><link>https://21ideas.org/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/audiobooks/</guid><description>&lt;p>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+&lt;/details>
+
+&lt;p>Это – вторая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Аудиокниги</title><link>https://21ideas.org/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/audiobooks/</guid><description>&lt;p>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;em>Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. &lt;a href="https://lnvpn.net?ref=21">Ссылка на VPN с оплатой через Лайтнинг&lt;/a>. &lt;a href="https://anchor.fm/s/69c8de58/podcast/rss">Ссылка на RSS&lt;/a>&lt;/em>
 &lt;/blockquote>
@@ -699,14 +605,8 @@
 &lt;/blockquote>
 
 &lt;p>Coldcard — это аппаратный кошелек, разработанный командой Coinkite. Аппаратный кошелек — это устройство, основной целью которого является защита приватных ключей пользователя.&lt;/p>
-&lt;p>Любой, у кого есть доступ к вашим приватным ключам, может потратить все биткоины, хранящиеся в этом кошельке, поэтому переоценить значимость безопасного хранения приватных ключей невозможно. Coldcard использует ряд механизмов и уникальных функций с целью обеспечения безопасности ваших биткоинов на высшем уровне. Coldcard не поставляется с собственным приложением или дополнительным программным обеспечением. Выбор ПО для работы с кошельком является исключительно вашим выбором.&lt;/p></description></item><item><title>Компания, заработавшая тысячи биткоинов</title><link>https://21ideas.org/sr/silkroad-4/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Любой, у кого есть доступ к вашим приватным ключам, может потратить все биткоины, хранящиеся в этом кошельке, поэтому переоценить значимость безопасного хранения приватных ключей невозможно. Coldcard использует ряд механизмов и уникальных функций с целью обеспечения безопасности ваших биткоинов на высшем уровне. Coldcard не поставляется с собственным приложением или дополнительным программным обеспечением. Выбор ПО для работы с кошельком является исключительно вашим выбором.&lt;/p></description></item><item><title>Компания, заработавшая тысячи биткоинов</title><link>https://21ideas.org/sr/silkroad-4/</link><pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-4/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -721,17 +621,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Silk Road достигла пика в последний год своего существования в 2013 году. Возглавляемая легендарным Dread Pirate Roberts (DPR) с 2012 года, платформа очень быстро набрала популярность. В итоге она превратилась в настоящий бизнес, со своей атмосферой и проблемами, а также с собственными протоколами безопасности.&lt;/p></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Silk Road достигла пика в последний год своего существования в 2013 году. Возглавляемая легендарным Dread Pirate Roberts (DPR) с 2012 года, платформа очень быстро набрала популярность. В итоге она превратилась в настоящий бизнес, со своей атмосферой и проблемами, а также с собственными протоколами безопасности.&lt;/p></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -754,14 +647,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Биткоин не тратит энергию зря</title><link>https://21ideas.org/pzv/bitkoin-ne-tratit-energiyu-zrya/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-tratit-energiyu-zrya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Биткоин не тратит энергию зря</title><link>https://21ideas.org/pzv/bitkoin-ne-tratit-energiyu-zrya/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-tratit-energiyu-zrya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -783,21 +671,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-does-not-waste-energy/">от 16 Августа 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Сколько раз вы слышали инструкции по технике безопасности перед стандартным коммерческим рейсом? Вы, вероятно, знаете их наизусть, но каждый раз перед взлетом стюардессы инструктируют пассажиров, путешествующих с детьми, сначала надевать кислородную маску себе, а затем детям. На инстинктивном уровне это нелогично. С логической точки зрения в этом — весь смысл. Убедитесь, что вы можете дышать, чтобы ребенок, зависящий от вас, тоже мог дышать. Тот же принцип применяется к функции координации денег в экономике, и к ресурсам, необходимым для подкрепления этой функции. В более философском предупреждении по технике безопасности, стюардесса может сказать: “Пожалуйста, убедитесь, что денежная масса — в безопасности, чтобы мы могли продолжать координировать деятельность миллионов людей по созданию этих сверхсложных самолетов, без чего у вас не было бы даже возможности узнать о проблеме, решение которой я собираюсь озвучить”.&lt;/p></description></item><item><title>Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</title><link>https://21ideas.org/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Сколько раз вы слышали инструкции по технике безопасности перед стандартным коммерческим рейсом? Вы, вероятно, знаете их наизусть, но каждый раз перед взлетом стюардессы инструктируют пассажиров, путешествующих с детьми, сначала надевать кислородную маску себе, а затем детям. На инстинктивном уровне это нелогично. С логической точки зрения в этом — весь смысл. Убедитесь, что вы можете дышать, чтобы ребенок, зависящий от вас, тоже мог дышать. Тот же принцип применяется к функции координации денег в экономике, и к ресурсам, необходимым для подкрепления этой функции. В более философском предупреждении по технике безопасности, стюардесса может сказать: “Пожалуйста, убедитесь, что денежная масса — в безопасности, чтобы мы могли продолжать координировать деятельность миллионов людей по созданию этих сверхсложных самолетов, без чего у вас не было бы даже возможности узнать о проблеме, решение которой я собираюсь озвучить”.&lt;/p></description></item><item><title>Часть III: Если у Биткоина был прототип, то это были b-money Вэя Дая</title><link>https://21ideas.org/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -815,7 +696,14 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Подкасты</title><link>https://21ideas.org/pods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/pods/</guid><description>&lt;p>В этом подразделе собраны все самые интересные подкасты о Биткоине и на сопутствующие темы на русском. Если вы считаете, что на страничку стоит добавить какой-либо еще подкаст, пишите контактам, указанным &lt;a href="https://21ideas.org/contribute/">здесь&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
+ &lt;/div>
+&lt;/details>
+
+&lt;p>Это – третья публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Подкасты</title><link>https://21ideas.org/pods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/pods/</guid><description>&lt;p>В этом подразделе собраны все самые интересные подкасты о Биткоине и на сопутствующие темы на русском. Если вы считаете, что на страничку стоит добавить какой-либо еще подкаст, пишите контактам, указанным &lt;a href="https://21ideas.org/contribute/">здесь&lt;/a>.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;em>Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. &lt;a href="https://lnvpn.net?ref=21">Ссылка на VPN с оплатой через Лайтнинг&lt;/a>. &lt;a href="https://anchor.fm/s/69c8de58/podcast/rss">Ссылка на RSS&lt;/a>&lt;/em>
 &lt;/blockquote>
@@ -828,14 +716,8 @@
 &lt;hr>
 &lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6m07nJ9qyseV2tN3bQ9YmP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe>
 &lt;hr>
-&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4W2FkFvWQPo0t0ZfTvTqcI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Тёмная сторона Silk Road</title><link>https://21ideas.org/sr/silkroad-5/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4W2FkFvWQPo0t0ZfTvTqcI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Тёмная сторона Silk Road</title><link>https://21ideas.org/sr/silkroad-5/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-5/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -850,17 +732,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Как и у многих других незаконных компаний и торговых площадок в даркнете, у Silk Road была своя тёмная сторона: украденные биткоины, заказные убийства, мошенничество, коррупция. Давайте взглянем на тёмную сторону Silk Road.&lt;/p></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Как и у многих других незаконных компаний и торговых площадок в даркнете, у Silk Road была своя тёмная сторона: украденные биткоины, заказные убийства, мошенничество, коррупция. Давайте взглянем на тёмную сторону Silk Road.&lt;/p></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -883,14 +758,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Биткоин не слишком медленный</title><link>https://21ideas.org/pzv/bitkoin-ne-slishkom-medlennyj/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-slishkom-medlennyj/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Биткоин не слишком медленный</title><link>https://21ideas.org/pzv/bitkoin-ne-slishkom-medlennyj/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-slishkom-medlennyj/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -912,21 +782,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-slow/">от 23 Августа 2019 г.&lt;/a> подготовлен &lt;a href="https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>В книге Питера Тиля &lt;em>“От нуля к единице”&lt;/em> автор описывает влияние новых технологий на построение будущего с ненулевой суммой. В то время как книга ориентирована на отдельные лица и компании, Биткоин, как денежная система — это абсолютный скачок целой технологий от нуля к единице. В качестве исторических примеров Тиль описывает появление парового двигателя, а также процесс перехода от пишущих машинок к компьютерным процессорам. Он также высказывает мнение о том, что инновации в значительной степени застоялись с начала 1970-х годов, отмечая при этом, что технологический прогресс с тех пор стал больше похож на 1 к N, чем на 0 к 1. Биткоин это исправляет. Инновации Биткоина — не просто прогресс от нуля к единице; он принципиально отличается от класса инноваций, на котором сосредоточена книга Тиля. Биткоин — денежный протокол, основанный на цифровой редкости, влияние которого будет гораздо значительнее, чем влияние паровых машин и компьютерных процессоров.&lt;/p></description></item><item><title>Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</title><link>https://21ideas.org/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>В книге Питера Тиля &lt;em>“От нуля к единице”&lt;/em> автор описывает влияние новых технологий на построение будущего с ненулевой суммой. В то время как книга ориентирована на отдельные лица и компании, Биткоин, как денежная система — это абсолютный скачок целой технологий от нуля к единице. В качестве исторических примеров Тиль описывает появление парового двигателя, а также процесс перехода от пишущих машинок к компьютерным процессорам. Он также высказывает мнение о том, что инновации в значительной степени застоялись с начала 1970-х годов, отмечая при этом, что технологический прогресс с тех пор стал больше похож на 1 к N, чем на 0 к 1. Биткоин это исправляет. Инновации Биткоина — не просто прогресс от нуля к единице; он принципиально отличается от класса инноваций, на котором сосредоточена книга Тиля. Биткоин — денежный протокол, основанный на цифровой редкости, влияние которого будет гораздо значительнее, чем влияние паровых машин и компьютерных процессоров.&lt;/p></description></item><item><title>Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина</title><link>https://21ideas.org/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-4/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -944,25 +807,19 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>21 способ</title><link>https://21ideas.org/21-sposob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/</guid><description>&lt;p>Проекты &lt;a href="https://21ideas.org/">21 идея&lt;/a>💡, &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a>🌽 и &lt;a href="https://t.me/gametheoryhub">∞/21М&lt;/a>⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги &lt;a href="https://dergigi.com/">GiGi&lt;/a> &amp;ldquo;&lt;a href="https://21-ways.com/">21 ways&lt;/a>&amp;rdquo;. Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a> и подкасты 21ideas (&lt;a href="https://anchor.fm/tony-lightning">традиционные площадки&lt;/a> / &lt;a href="https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8">лайтнинг-площадка&lt;/a>), чтобы своевременно получать свежие аудио- и форматы.&lt;/p>
-&lt;p>Поддержать инициативу можно, перейдя на нашу &lt;a href="https://tallycoin.app/@21ideas/21-zho0IO4x/">страничку донатов&lt;/a> (ончейн). В качестве альтернативы вы можете использовать лайтнинг-адрес &lt;a href="mailto:21ways-ru@coinos.io">21ways-ru@coinos.io&lt;/a> перейдя по ссылке &lt;a href="https://coinos.io/21ways-ru">https://coinos.io/21ways-ru&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
- &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – четвертая публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>21 способ</title><link>https://21ideas.org/21-sposob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/</guid><description>&lt;p>Проекты &lt;a href="https://21ideas.org/">21 идея&lt;/a>💡, &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a>🌽 и &lt;a href="https://t.me/gametheoryhub">∞/21М&lt;/a>⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги &lt;a href="https://dergigi.com/">GiGi&lt;/a> &amp;ldquo;&lt;a href="https://21-ways.com/">21 ways&lt;/a>&amp;rdquo;. Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a> и подкасты 21ideas (&lt;a href="https://anchor.fm/tony-lightning">традиционные площадки&lt;/a> / &lt;a href="https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8">лайтнинг-площадка&lt;/a>), чтобы своевременно получать свежие аудио- и форматы.&lt;/p>
+&lt;p>Поддержать инициативу можно, перейдя на нашу &lt;a href="https://tallycoin.app/@21ideas/21-zho0IO4x/">страничку донатов&lt;/a> (ончейн). В качестве альтернативы вы можете использовать лайтнинг-адрес &lt;a href="mailto:21ways-ru@coinos.io">21ways-ru@coinos.io&lt;/a> перейдя по ссылке &lt;a href="https://coinos.io/21ways-ru">https://coinos.io/21ways-ru&lt;/a>.&lt;/p>
+&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -985,14 +842,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Розыск и арест Росса Ульбрихта</title><link>https://21ideas.org/sr/silkroad-6/</link><pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-6/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Розыск и арест Росса Ульбрихта</title><link>https://21ideas.org/sr/silkroad-6/</link><pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/sr/silkroad-6/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="шелковый-путь">
  Шелковый путь
  &lt;a class="anchor" href="#%d1%88%d0%b5%d0%bb%d0%ba%d0%be%d0%b2%d1%8b%d0%b9-%d0%bf%d1%83%d1%82%d1%8c">#&lt;/a>
@@ -1007,17 +859,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Silk Road, торговая площадка в даркнете, которая оказала значительное влияние на историю Биткоина, потерпела грандиозный крах в октябре 2013 года. Росс Ульбрихт, он же Dread Pirate Roberts, был арестован и приговорён к пожизненному заключению. Давайте вспомним, что привело к его аресту и окончанию истории Silk Road.&lt;/p></description></item><item><title>Биткоин это исправит</title><link>https://21ideas.org/pzv/bitkoin-eto-ispravit/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-eto-ispravit/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Silk Road, торговая площадка в даркнете, которая оказала значительное влияние на историю Биткоина, потерпела грандиозный крах в октябре 2013 года. Росс Ульбрихт, он же Dread Pirate Roberts, был арестован и приговорён к пожизненному заключению. Давайте вспомним, что привело к его аресту и окончанию истории Silk Road.&lt;/p></description></item><item><title>Биткоин это исправит</title><link>https://21ideas.org/pzv/bitkoin-eto-ispravit/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-eto-ispravit/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1039,21 +884,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-fixes-this/">от 30 Августа 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Прошедшая неделя ознаменовала то время года, когда банкиры центральных банков, экономисты эстеблишмента, CNBC и остальные отправились в Джексон Хоул, штат Вайоминг, чтобы обсудить системные проблемы, от которых страдает экономика США. Несмотря на то, что они постоянно находятся в поисках решения, оно, похоже, так и не найдено; это постоянная дилемма Джексон Хоул. Традиционно мероприятие всегда сопровождалось фанфарами, и этот год ничем не отличался. Весь спектакль был освещен Лоуренсом Саммерсом, бывшим министром финансов США и бывшим президентом Гарвардского университета. В Твиттер ленте, состоящей из 28 частей, Саммерс поставил под сомнение ряд основополагающих предположений, представленных экономическим мейнстримом учреждения, членом которого он является сам. В игре в Марко Поло Саммерс немного ближе к успеху, но он все еще не на той стороне бассейна. Возможно, он и выявляет симптомы проблемы, но, как и в случае с большинством экономистов, так и не задает очевидного вопроса: “Может ли само устройство политики центрального банка быть причиной проблемы, а не ее решением?”&lt;/p></description></item><item><title>Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</title><link>https://21ideas.org/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Прошедшая неделя ознаменовала то время года, когда банкиры центральных банков, экономисты эстеблишмента, CNBC и остальные отправились в Джексон Хоул, штат Вайоминг, чтобы обсудить системные проблемы, от которых страдает экономика США. Несмотря на то, что они постоянно находятся в поисках решения, оно, похоже, так и не найдено; это постоянная дилемма Джексон Хоул. Традиционно мероприятие всегда сопровождалось фанфарами, и этот год ничем не отличался. Весь спектакль был освещен Лоуренсом Саммерсом, бывшим министром финансов США и бывшим президентом Гарвардского университета. В Твиттер ленте, состоящей из 28 частей, Саммерс поставил под сомнение ряд основополагающих предположений, представленных экономическим мейнстримом учреждения, членом которого он является сам. В игре в Марко Поло Саммерс немного ближе к успеху, но он все еще не на той стороне бассейна. Возможно, он и выявляет симптомы проблемы, но, как и в случае с большинством экономистов, так и не задает очевидного вопроса: “Может ли само устройство политики центрального банка быть причиной проблемы, а не ее решением?”&lt;/p></description></item><item><title>Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)</title><link>https://21ideas.org/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/gf/genesis-5/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-intro">Пролог: День, когда криптография изменилась навсегда&lt;/a>&lt;/p>
@@ -1071,14 +909,15 @@
 &lt;p>&lt;a href="https://21ideas.org/gf/genesis-4">Часть IV: Создавая Bit Gold, Сабо был в двух шагах от изобретения Биткоина&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p></description></item><item><title>Биткоин, не блокчейн</title><link>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
+&lt;p>&lt;a href="https://21ideas.org/gf/genesis-5">Часть V: Как поиски цифровой наличности привели Хэла Финни к созданию RPOW (и не только)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+
  &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details>
+
+&lt;p>Это – пятая и заключительная публикация в серии материалов, посвященных становлению движения шифропанков. Эти статьи призваны познакомить сообщество с технологиями, предшествующими киберкоммерции, которую мы сегодня наблюдаем. Понимание истории, осознание мотивов и методов достижения целей первопроходцами в области криптографии и информатики, поможет не только пролить свет на возможные варианты дальнейшего развития событий, но и выстроить более эффективные стратегии по защите собственных средств, приватной информации и личностного суверенитета.&lt;/p></description></item><item><title>Биткоин, не блокчейн</title><link>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1100,21 +939,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-not-blockchain/">от 6 Сентября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Вы когда-нибудь слышали, чтобы один из Ваших умничающих друзей сказал, что он не уверен в Биткоине, но убежден в технологии блокчейн? Это все равно, что сказать, что ты веришь в самолеты, но ты не уверен насчет крыльев; и есть хороший шанс, что любой, кто так думает, скорее всего, также не улавливает сути. На самом деле Биткоин и его блокчейн взаимозависимы. Однако, если вы плохо знакомы с Биткоином, понять, как он работает и проанализировать ландшафт может оказаться невероятно сложно. Честно говоря, это может оказаться невыносимым; учитывая сложность и объем проектов, у кого есть время все оценить? На самом деле существует приемлемый способ, но вы должны знать с чего начать. В то время, как, очевидно, существуют тысячи криптовалют и блокчейн инициатив, на самом деле важна только одна — Биткоин. Игнорируйте все остальное, как будто его не существует, и сначала попытайтесь понять, почему Биткоин существует и как он работает; это лучшая основа, чтобы потом уделить время всему остальному.&lt;/p></description></item><item><title>Биткоин ничем не подкреплен?</title><link>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Вы когда-нибудь слышали, чтобы один из Ваших умничающих друзей сказал, что он не уверен в Биткоине, но убежден в технологии блокчейн? Это все равно, что сказать, что ты веришь в самолеты, но ты не уверен насчет крыльев; и есть хороший шанс, что любой, кто так думает, скорее всего, также не улавливает сути. На самом деле Биткоин и его блокчейн взаимозависимы. Однако, если вы плохо знакомы с Биткоином, понять, как он работает и проанализировать ландшафт может оказаться невероятно сложно. Честно говоря, это может оказаться невыносимым; учитывая сложность и объем проектов, у кого есть время все оценить? На самом деле существует приемлемый способ, но вы должны знать с чего начать. В то время, как, очевидно, существуют тысячи криптовалют и блокчейн инициатив, на самом деле важна только одна — Биткоин. Игнорируйте все остальное, как будто его не существует, и сначала попытайтесь понять, почему Биткоин существует и как он работает; это лучшая основа, чтобы потом уделить время всему остальному.&lt;/p></description></item><item><title>Биткоин ничем не подкреплен?</title><link>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1136,21 +968,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-not-backed-by-nothing/">от 27 Сентября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Вопреки распространенному мнению, Биткоин на самом деле кое-чем подкреплен. Он подкреплен единственной вещью, которая поддерживает любую форму денег: авторитетом своих денежных свойств. Деньги — это не коллективная галлюцинация и не система убеждений. В течение истории различные средства становились деньгами, и ни разу это не происходило случайно. Товары, которые становятся деньгами, обладают уникальными свойствами, которые отличают их от других товаров на рынке. Книга &lt;a href="https://saifedean.com/book/russian">“Биткоин-стандарт”&lt;/a> глубже погружается в данный вопрос, но суть в том, что денежные товары обладают уникальными свойствами, которые делают их особенно полезными в качестве средства обмена; эти свойства включают, помимо прочего, редкость, долговечность, делимость, взаимозаменяемость и портативность. С каждой новой денежной единицей неотъемлемые свойства нового средства привносят улучшения в уже существующую форму денег и вытесняют ее. Каждый раз, когда один товар монетизируется, другой демонетизируется. По сути, относительные возможности одного денежного средства превосходят возможности другого, и Биткоин не исключение. Он представляет собой технологический прогресс в рамках глобальной конкуренции за право называться деньгами; будучи преемником золота и фиатной системы, которая использовала монетарные свойства золота, Биткоин является превосходной системой.&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Вопреки распространенному мнению, Биткоин на самом деле кое-чем подкреплен. Он подкреплен единственной вещью, которая поддерживает любую форму денег: авторитетом своих денежных свойств. Деньги — это не коллективная галлюцинация и не система убеждений. В течение истории различные средства становились деньгами, и ни разу это не происходило случайно. Товары, которые становятся деньгами, обладают уникальными свойствами, которые отличают их от других товаров на рынке. Книга &lt;a href="https://saifedean.com/book/russian">“Биткоин-стандарт”&lt;/a> глубже погружается в данный вопрос, но суть в том, что денежные товары обладают уникальными свойствами, которые делают их особенно полезными в качестве средства обмена; эти свойства включают, помимо прочего, редкость, долговечность, делимость, взаимозаменяемость и портативность. С каждой новой денежной единицей неотъемлемые свойства нового средства привносят улучшения в уже существующую форму денег и вытесняют ее. Каждый раз, когда один товар монетизируется, другой демонетизируется. По сути, относительные возможности одного денежного средства превосходят возможности другого, и Биткоин не исключение. Он представляет собой технологический прогресс в рамках глобальной конкуренции за право называться деньгами; будучи преемником золота и фиатной системы, которая использовала монетарные свойства золота, Биткоин является превосходной системой.&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -1173,14 +998,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Биткоин — не финансовая пирамида</title><link>https://21ideas.org/pzv/bitkoin-ne-finansovaya-piramida/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-finansovaya-piramida/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Биткоин — не финансовая пирамида</title><link>https://21ideas.org/pzv/bitkoin-ne-finansovaya-piramida/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-finansovaya-piramida/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1202,21 +1022,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-not-a-pyramid-scheme/">от 18 Октября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Несколько лет назад я получил письмо от друга с просьбой поделиться своим мнением о возможности инвестирования, которую рассматривал наш общий контакт. Быстро прошерстив интернет и просмотрев несколько видео, я объяснил, что эта схема похожа на пирамиду. Это была моя интерпретация ответа “избегать любой ценой”. Информация отправилась к нашему знакомому, но его ответ стал для меня неожиданностью: “Разве все финансовые пирамиды плохие?” Выявить некоторые финансовые пирамиды сложнее других, но даже те, которые определить несложно, находят свою добычу среди ничего не подозревающих жертв. Хорошее эмпирическое правило — не уходить, а бежать от всего, что хотя-бы отдаленно напоминает финансовую пирамиду. К счастью, Биткоин таковым не является. Хотя это может показаться очевидным, не все понимают, что на самом деле представляет собой схема финансовой пирамиды, какими могут быть предупреждающие знаки или почему такие схемы всегда терпят фиаско.&lt;/p></description></item><item><title>Биткоин не может быть забанен</title><link>https://21ideas.org/pzv/bitkoin-ne-mozhet-byt-zabanen/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-mozhet-byt-zabanen/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Несколько лет назад я получил письмо от друга с просьбой поделиться своим мнением о возможности инвестирования, которую рассматривал наш общий контакт. Быстро прошерстив интернет и просмотрев несколько видео, я объяснил, что эта схема похожа на пирамиду. Это была моя интерпретация ответа “избегать любой ценой”. Информация отправилась к нашему знакомому, но его ответ стал для меня неожиданностью: “Разве все финансовые пирамиды плохие?” Выявить некоторые финансовые пирамиды сложнее других, но даже те, которые определить несложно, находят свою добычу среди ничего не подозревающих жертв. Хорошее эмпирическое правило — не уходить, а бежать от всего, что хотя-бы отдаленно напоминает финансовую пирамиду. К счастью, Биткоин таковым не является. Хотя это может показаться очевидным, не все понимают, что на самом деле представляет собой схема финансовой пирамиды, какими могут быть предупреждающие знаки или почему такие схемы всегда терпят фиаско.&lt;/p></description></item><item><title>Биткоин не может быть забанен</title><link>https://21ideas.org/pzv/bitkoin-ne-mozhet-byt-zabanen/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-mozhet-byt-zabanen/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1238,21 +1051,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-cannot-be-banned/">от 8 Ноября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Идея о том, что правительства каким-то образом могут запретить Биткоин, является последней стадией скорби, непосредственно перед его принятием. Следствием заявления о запрете Биткоина является признание того, что Биткоин “работает”. По сути, это заявление означает, что Биткоин работает настолько хорошо, что он способен нести угрозу действующим государственным монополиям на эмиссию денег, и в этом случае правительства будут его регулировать с целью устранения этой угрозы. Расценивайте утверждение о запрете Биткоина правительствами, как условный аргумент. Функционален ли Биткоин в качестве денег? Если нет, правительствам нечего запрещать. Если да, то правительства попытаются запретить Биткоин. Таким образом, опорная точка для этой линии критики предполагает, что Биткоин функционален как деньги. Соответственно возникает вопрос, может ли государственное вмешательство увенчаться успехом в виде краха Биткоина, функционирующего до этого вмешательства.&lt;/p></description></item><item><title>Биткоин не для преступников</title><link>https://21ideas.org/pzv/bitkoin-ne-dlya-prestupnikov/</link><pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-dlya-prestupnikov/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Идея о том, что правительства каким-то образом могут запретить Биткоин, является последней стадией скорби, непосредственно перед его принятием. Следствием заявления о запрете Биткоина является признание того, что Биткоин “работает”. По сути, это заявление означает, что Биткоин работает настолько хорошо, что он способен нести угрозу действующим государственным монополиям на эмиссию денег, и в этом случае правительства будут его регулировать с целью устранения этой угрозы. Расценивайте утверждение о запрете Биткоина правительствами, как условный аргумент. Функционален ли Биткоин в качестве денег? Если нет, правительствам нечего запрещать. Если да, то правительства попытаются запретить Биткоин. Таким образом, опорная точка для этой линии критики предполагает, что Биткоин функционален как деньги. Соответственно возникает вопрос, может ли государственное вмешательство увенчаться успехом в виде краха Биткоина, функционирующего до этого вмешательства.&lt;/p></description></item><item><title>Биткоин не для преступников</title><link>https://21ideas.org/pzv/bitkoin-ne-dlya-prestupnikov/</link><pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-dlya-prestupnikov/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1274,21 +1080,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-not-for-criminals/">от 29 Ноября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Если вы когда-либо слышали (или по какой-то причине считаете), что Биткоин — это, прежде всего, инструмент, используемый преступниками, задумайтесь на секунду о своих друзьях и семье, у которых, возможно, есть немного биткоинов, а затем спросите себя, кто из них относится к рядам известных преступников.&lt;/p></description></item><item><title>Биткоин обесценивает остальные деньги</title><link>https://21ideas.org/pzv/bitkoin-obescenivaet-ostalnye-dengi/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-obescenivaet-ostalnye-dengi/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Если вы когда-либо слышали (или по какой-то причине считаете), что Биткоин — это, прежде всего, инструмент, используемый преступниками, задумайтесь на секунду о своих друзьях и семье, у которых, возможно, есть немного биткоинов, а затем спросите себя, кто из них относится к рядам известных преступников.&lt;/p></description></item><item><title>Биткоин обесценивает остальные деньги</title><link>https://21ideas.org/pzv/bitkoin-obescenivaet-ostalnye-dengi/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-obescenivaet-ostalnye-dengi/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1310,21 +1109,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-obsoletes-all-other-money/">от 24 Января 2020 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Когда дело доходит до распространения Биткоина, как правило, имеют место следующие два неизменных сценария. Все думают, что “подходящее” время для покупки уже прошло и всякий раз сожалеют, что не купили больше биткоинов. Из каждого правила есть исключения, но Биткоин обладает сверхъестественной способностью играть с человеческой психикой. Оказывается, 21 миллион — это очень малая цифра, и она, на самом деле, постепенно уменьшается благодаря фиксированной эмиссии биткоинов, в результате чего все больше и больше участников понимают, что денежные сети приходят к единой форме [несмотря на наличие локальных денежных единиц, существует потребность в единой денежной форме, так называемом «single medium» — «едином проводнике» для успешного осуществления торговли и оценки товаров и услуг на международном уровне — прим. пер.]. Спрос на биткоин обусловлен конвергентным характером денег и доверием к монетарным свойствам биткоина. Но растущий спрос на биткоин усиливает редкость последнего на ряду с его фиксированным предложением. Именно поэтому Биткоин как денежная система, становится более ценным. Наряду с тем, что (по мере продвижения вглубь кроличьей норы) эта ценность становится все более очевидной, сторонних наблюдателей нередко поражает огромное количество существующих криптовалют. Конечно, Биткоин сегодня лидирует, но вариантов тысячи; откуда нам знать, что Биткоин не окажется очередным MySpace? Как вы можете быть уверены в том, что его не опередит нечто новое?&lt;/p></description></item><item><title>Биткоин — зов к единению</title><link>https://21ideas.org/pzv/bitkoin-zov-k-edineniyu/</link><pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-zov-k-edineniyu/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Когда дело доходит до распространения Биткоина, как правило, имеют место следующие два неизменных сценария. Все думают, что “подходящее” время для покупки уже прошло и всякий раз сожалеют, что не купили больше биткоинов. Из каждого правила есть исключения, но Биткоин обладает сверхъестественной способностью играть с человеческой психикой. Оказывается, 21 миллион — это очень малая цифра, и она, на самом деле, постепенно уменьшается благодаря фиксированной эмиссии биткоинов, в результате чего все больше и больше участников понимают, что денежные сети приходят к единой форме [несмотря на наличие локальных денежных единиц, существует потребность в единой денежной форме, так называемом «single medium» — «едином проводнике» для успешного осуществления торговли и оценки товаров и услуг на международном уровне — прим. пер.]. Спрос на биткоин обусловлен конвергентным характером денег и доверием к монетарным свойствам биткоина. Но растущий спрос на биткоин усиливает редкость последнего на ряду с его фиксированным предложением. Именно поэтому Биткоин как денежная система, становится более ценным. Наряду с тем, что (по мере продвижения вглубь кроличьей норы) эта ценность становится все более очевидной, сторонних наблюдателей нередко поражает огромное количество существующих криптовалют. Конечно, Биткоин сегодня лидирует, но вариантов тысячи; откуда нам знать, что Биткоин не окажется очередным MySpace? Как вы можете быть уверены в том, что его не опередит нечто новое?&lt;/p></description></item><item><title>Биткоин — зов к единению</title><link>https://21ideas.org/pzv/bitkoin-zov-k-edineniyu/</link><pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-zov-k-edineniyu/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1346,21 +1138,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-a-rally-cry/">от 26 Марта 2020 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>“Народу Техаса и всем американцам в мире”. В &lt;a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%83_%D0%A2%D0%B5%D1%85%D0%B0%D1%81%D0%B0_%D0%B8_%D0%B2%D1%81%D0%B5%D0%BC_%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%86%D0%B0%D0%BC_%D0%BC%D0%B8%D1%80%D0%B0">открытом призыве к оружию&lt;/a>, написанном подполковником Уильямом Б. Тревисом, командиром сил в битве за Аламо, он начал с представления Америки как идеи без границ, распространяющейся на всех американцев в мире. Это был призыв ко всем, кто ценил борьбу за свободу и свободу саму по себе. Будучи в меньшинстве (десять к одному), Трэвис ответил на требование сдаться выстрелом из пушки. Ему тогда было не более 27 лет. Техас объявил о своей независимости неделю спустя, но через несколько дней Аламо пал. Письмо Трэвиса стало криком революции о единении. Не забывайте об Аламо. В конечном счете, Техас добился независимости. Не забывайте, что те, кто бесконечно гонятся за свободой, всегда в меньшинстве, но их мотивация является самым мощным уравнителем сил. И это присуще характеру американцев во всем мире.&lt;/p></description></item><item><title>Биткоин — это здравый смысл</title><link>https://21ideas.org/pzv/bitkoin-eto-zdravyj-smysl/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-eto-zdravyj-smysl/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>“Народу Техаса и всем американцам в мире”. В &lt;a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D1%83_%D0%A2%D0%B5%D1%85%D0%B0%D1%81%D0%B0_%D0%B8_%D0%B2%D1%81%D0%B5%D0%BC_%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%86%D0%B0%D0%BC_%D0%BC%D0%B8%D1%80%D0%B0">открытом призыве к оружию&lt;/a>, написанном подполковником Уильямом Б. Тревисом, командиром сил в битве за Аламо, он начал с представления Америки как идеи без границ, распространяющейся на всех американцев в мире. Это был призыв ко всем, кто ценил борьбу за свободу и свободу саму по себе. Будучи в меньшинстве (десять к одному), Трэвис ответил на требование сдаться выстрелом из пушки. Ему тогда было не более 27 лет. Техас объявил о своей независимости неделю спустя, но через несколько дней Аламо пал. Письмо Трэвиса стало криком революции о единении. Не забывайте об Аламо. В конечном счете, Техас добился независимости. Не забывайте, что те, кто бесконечно гонятся за свободой, всегда в меньшинстве, но их мотивация является самым мощным уравнителем сил. И это присуще характеру американцев во всем мире.&lt;/p></description></item><item><title>Биткоин — это здравый смысл</title><link>https://21ideas.org/pzv/bitkoin-eto-zdravyj-smysl/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-eto-zdravyj-smysl/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1382,22 +1167,15 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-common-sense/">от 1 Мая 2020 г.&lt;/a> подготовлен &lt;a href="https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
 &lt;blockquote>
-&lt;p>“Пожалуй, настроения, содержащиеся на следующих страницах, пока недостаточно модные, чтобы вызвать всеобщую благосклонность. Когда что-то долго не мыслится неверным, это дает ему видимость правильности, так что поначалу в защиту обычаев поднимается громкий шум. Но вскоре суматоха утихает. Время убеждает лучше, чем разум”.&lt;/p></description></item><item><title>Биткоин антихрупок</title><link>https://21ideas.org/pzv/bitkoin-antihrupok/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-antihrupok/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>“Пожалуй, настроения, содержащиеся на следующих страницах, пока недостаточно модные, чтобы вызвать всеобщую благосклонность. Когда что-то долго не мыслится неверным, это дает ему видимость правильности, так что поначалу в защиту обычаев поднимается громкий шум. Но вскоре суматоха утихает. Время убеждает лучше, чем разум”.&lt;/p></description></item><item><title>Биткоин антихрупок</title><link>https://21ideas.org/pzv/bitkoin-antihrupok/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-antihrupok/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1419,17 +1197,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Одно можно сказать с уверенностью – Биткоин учит смирению. Он вынуждает всех признавать свои ошибки. Некоторых раньше, некоторых – позже, но в конечном итоге – каждого. Возможно, среди уважаемых вами личностей найдутся те, кто утверждал, что Биткоин – это не что иное, как мошенничество, или сравнивали его с крысиным ядом. Но даже если они до сих пор не взяли свои слова обратно, то рано или поздно это непременно произойдёт.&lt;/p></description></item><item><title>Биткоин — великая дефинанcиализация</title><link>https://21ideas.org/pzv/bitkoin-velikaya-definancializaciya/</link><pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-velikaya-definancializaciya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Одно можно сказать с уверенностью – Биткоин учит смирению. Он вынуждает всех признавать свои ошибки. Некоторых раньше, некоторых – позже, но в конечном итоге – каждого. Возможно, среди уважаемых вами личностей найдутся те, кто утверждал, что Биткоин – это не что иное, как мошенничество, или сравнивали его с крысиным ядом. Но даже если они до сих пор не взяли свои слова обратно, то рано или поздно это непременно произойдёт.&lt;/p></description></item><item><title>Биткоин — великая дефинанcиализация</title><link>https://21ideas.org/pzv/bitkoin-velikaya-definancializaciya/</link><pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-velikaya-definancializaciya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -1451,8 +1222,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-the-great-definancialization/">от 23 Декабря 2020 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.

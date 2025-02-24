@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Установка Биткоин-узла Dojo на x86 on 21ideas</title><link>https://21ideas.org/practice-privacy/dojo/</link><description>Recent content in Установка Биткоин-узла Dojo на x86 on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-0/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Установка Биткоин-узла Dojo на x86 on 21ideas</title><link>https://21ideas.org/practice-privacy/dojo/</link><description>Recent content in Установка Биткоин-узла Dojo на x86 on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-0/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -19,17 +13,11 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Fulcrum и Mempool Explorer.&lt;/p></description></item><item><title>Установка Bitcoin Core и Tor</title><link>https://21ideas.org/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Fulcrum и Mempool Explorer.&lt;/p>
+&lt;p>Ручная настройка узла - это отличный способ узнать о внутреннем устройстве ноды Биткоина. Еще одним преимуществом является возможность индивидуально управлять обновлениями пакетов, когда это необходимо, вместо того чтобы ждать, пока разработчики узла &amp;ldquo;все в одном&amp;rdquo; вышлют обновления, что дает вам повышенный уровень суверенитета ноды.&lt;/p></description></item><item><title>Установка Bitcoin Core и Tor</title><link>https://21ideas.org/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -43,21 +31,14 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="введение">
  Введение
  &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5">#&lt;/a>
 &lt;/h2>
-&lt;p>Bitcoin Core возник из первого программного Биткоин-клиента, выпущенного Сатоши Накамото, псевдонимным создателем (создателями) Биткоин, в 2009 году. Изначально он назывался &amp;ldquo;Bitcoin&amp;rdquo;, но позже был переименован в &amp;ldquo;Bitcoin Core&amp;rdquo;, чтобы отличить его от более широко известной сети и валюты Биткоин.&lt;/p></description></item><item><title>Установка индексатора Fulcrum</title><link>https://21ideas.org/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Bitcoin Core возник из первого программного Биткоин-клиента, выпущенного Сатоши Накамото, псевдонимным создателем (создателями) Биткоин, в 2009 году. Изначально он назывался &amp;ldquo;Bitcoin&amp;rdquo;, но позже был переименован в &amp;ldquo;Bitcoin Core&amp;rdquo;, чтобы отличить его от более широко известной сети и валюты Биткоин.&lt;/p></description></item><item><title>Установка индексатора Fulcrum</title><link>https://21ideas.org/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -71,8 +52,7 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Перед выполнением дальнейших шагов убедитесь, что:&lt;/p>
@@ -85,14 +65,8 @@
  Введение
  &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5">#&lt;/a>
 &lt;/h2>
-&lt;p>После полной синхронизации Bitcoin Core следующим шагом будет установка индексатора Electrum, который обеспечивает совместимость со всеми биткоин-кошельками на базе Electrum.&lt;/p></description></item><item><title>Установка блокчейн-обозревателя Mempool</title><link>https://21ideas.org/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>После полной синхронизации Bitcoin Core следующим шагом будет установка индексатора Electrum, который обеспечивает совместимость со всеми биткоин-кошельками на базе Electrum.&lt;/p></description></item><item><title>Установка блокчейн-обозревателя Mempool</title><link>https://21ideas.org/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -106,8 +80,7 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Перед выполнением дальнейших шагов убедитесь, что:&lt;/p>
@@ -120,14 +93,8 @@
  Введение
  &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5">#&lt;/a>
 &lt;/h2>
-&lt;p>Mempool Visual Explorer - это ценный инструмент для поиска подробной информации о блоках, адресах, балансах и транзакциях.&lt;/p></description></item><item><title>Установка Samourai Dojo</title><link>https://21ideas.org/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Mempool Visual Explorer - это ценный инструмент для поиска подробной информации о блоках, адресах, балансах и транзакциях.&lt;/p></description></item><item><title>Установка Samourai Dojo</title><link>https://21ideas.org/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-4/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -141,8 +108,7 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей &lt;a href="https://21ideas.org/privacy/dojo-1">1&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-2">2&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-3">3&lt;/a>.
@@ -151,14 +117,8 @@
  Введение
  &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5">#&lt;/a>
 &lt;/h2>
-&lt;p>Dojo - это ориентированное на конфиденциальность комплексное серверное программное решение, которое выступает в качестве бэкенда Samourai Wallet и других легких Биткоин-кошельков.&lt;/p></description></item><item><title>Конфигурация межсетевого экрана</title><link>https://21ideas.org/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Dojo - это ориентированное на конфиденциальность комплексное серверное программное решение, которое выступает в качестве бэкенда Samourai Wallet и других легких Биткоин-кошельков.&lt;/p></description></item><item><title>Конфигурация межсетевого экрана</title><link>https://21ideas.org/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-5/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -172,8 +132,7 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей &lt;a href="https://21ideas.org/privacy/dojo-1">1&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-2">2&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-3">3&lt;/a>, &lt;a href="https://21ideas.org/privacy/dojo-4">4&lt;/a>.
@@ -182,14 +141,8 @@
  Uncomplicated Firewall (UFW)
  &lt;a class="anchor" href="#uncomplicated-firewall-ufw">#&lt;/a>
 &lt;/h2>
-&lt;p>Uncomplicated Firewall, или UFW, - это простое в использовании приложение командной строки для работы с межсетевым экраном в Linux.&lt;/p></description></item><item><title>Установка обновлений пакетов</title><link>https://21ideas.org/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-6/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Uncomplicated Firewall, или UFW, - это простое в использовании приложение командной строки для работы с межсетевым экраном в Linux.&lt;/p></description></item><item><title>Установка обновлений пакетов</title><link>https://21ideas.org/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-6/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="установка-биткоин-узла-dojo-на-x86">
  Установка Биткоин-узла Dojo на x86
  &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86">#&lt;/a>
@@ -203,8 +156,7 @@
 &lt;p>&lt;a href="https://21ideas.org/practice-privacy/dojo-6">Часть 6. Установка обновлений пакетов&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="введение">
  Введение

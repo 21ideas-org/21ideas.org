@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Теория on 21ideas</title><link>https://21ideas.org/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</link><description>Recent content in Теория on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Видео</title><link>https://21ideas.org/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Теория on 21ideas</title><link>https://21ideas.org/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/</link><description>Recent content in Теория on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Mon, 24 Feb 2025 15:48:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Видео</title><link>https://21ideas.org/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
 &lt;h2 id="биткоин">
  Биткоин
  &lt;a class="anchor" href="#%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd">#&lt;/a>
@@ -7,29 +7,16 @@
  Теория
  &lt;a class="anchor" href="#%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f">#&lt;/a>
 &lt;/h3>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Что такое Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Что такое Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="youtubeWrapper">
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe src="https://www.youtube.com/embed/LrmhcaD6Cfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
  &lt;/div>
 &lt;/div>
 &lt;p>На сегодняшний день почти все слышали о Биткоине, но это не значит, что большинство знает, что это такое. Это видео в полной мере поясняет что такое Биткоин и почему понимание этого открытия является фундаментом любой человеческой деятельности.
-Это — вступление к серии видео, нацеленной полноценно пояснить философские, экономические, социальные и технические стороны функционирования Биткоина.&lt;/p></description></item><item><title>Биткоин, не блокчейн</title><link>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+Это — вступление к серии видео, нацеленной полноценно пояснить философские, экономические, социальные и технические стороны функционирования Биткоина.&lt;/p></description></item><item><title>Биткоин, не блокчейн</title><link>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-ne-blokchejn/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -51,21 +38,14 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-not-blockchain/">от 6 Сентября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
 &lt;/blockquote>
 
-&lt;p>Вы когда-нибудь слышали, чтобы один из Ваших умничающих друзей сказал, что он не уверен в Биткоине, но убежден в технологии блокчейн? Это все равно, что сказать, что ты веришь в самолеты, но ты не уверен насчет крыльев; и есть хороший шанс, что любой, кто так думает, скорее всего, также не улавливает сути. На самом деле Биткоин и его блокчейн взаимозависимы. Однако, если вы плохо знакомы с Биткоином, понять, как он работает и проанализировать ландшафт может оказаться невероятно сложно. Честно говоря, это может оказаться невыносимым; учитывая сложность и объем проектов, у кого есть время все оценить? На самом деле существует приемлемый способ, но вы должны знать с чего начать. В то время, как, очевидно, существуют тысячи криптовалют и блокчейн инициатив, на самом деле важна только одна — Биткоин. Игнорируйте все остальное, как будто его не существует, и сначала попытайтесь понять, почему Биткоин существует и как он работает; это лучшая основа, чтобы потом уделить время всему остальному.&lt;/p></description></item><item><title>Биткоин ничем не подкреплен?</title><link>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Вы когда-нибудь слышали, чтобы один из Ваших умничающих друзей сказал, что он не уверен в Биткоине, но убежден в технологии блокчейн? Это все равно, что сказать, что ты веришь в самолеты, но ты не уверен насчет крыльев; и есть хороший шанс, что любой, кто так думает, скорее всего, также не улавливает сути. На самом деле Биткоин и его блокчейн взаимозависимы. Однако, если вы плохо знакомы с Биткоином, понять, как он работает и проанализировать ландшафт может оказаться невероятно сложно. Честно говоря, это может оказаться невыносимым; учитывая сложность и объем проектов, у кого есть время все оценить? На самом деле существует приемлемый способ, но вы должны знать с чего начать. В то время, как, очевидно, существуют тысячи криптовалют и блокчейн инициатив, на самом деле важна только одна — Биткоин. Игнорируйте все остальное, как будто его не существует, и сначала попытайтесь понять, почему Биткоин существует и как он работает; это лучшая основа, чтобы потом уделить время всему остальному.&lt;/p></description></item><item><title>Биткоин ничем не подкреплен?</title><link>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/pzv/bitkoin-nichem-ne-podkreplen/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/pzv/postepenno-zatem-vnezapno">Постепенно, затем внезапно: Введение&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/pzv/bitkoin-nelzya-skopirovat">Биткоин нельзя скопировать&lt;/a>&lt;/li>
@@ -87,8 +67,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  Перевод статьи &lt;a href="https://twitter.com/parkeralewis">Паркера Льюиса&lt;/a> &lt;a href="https://unchained.com/blog/bitcoin-is-not-backed-by-nothing/">от 27 Сентября 2019 г.&lt;/a> подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Тони⚡️&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.

@@ -19,21 +19,21 @@
 &lt;ul>
 &lt;li>
 &lt;p>White Paper Биткоина, состоит из 2736 слов! Он короче, чем «&lt;a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D1%85%D0%B0%D1%80%D1%82%D0%B8%D1%8F_%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9">Великая хартия вольностей&lt;/a>» (3550 слов), Конституция США (4543 слова) и последний законопроект об инфраструктуре США (2700 страниц). Средняя книга содержит от 70 000 до 120 000 слов.&lt;/p></description></item><item><title>Презентации Анила</title><link>https://21ideas.org/en/anil-slides/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/anil-slides/</guid><description>&lt;p>Анил (&lt;a href="https://twitter.com/anilsaidso">@anilsaidso&lt;/a>) — независимый биткоин-преподаватель, создающий наглядные визуальные слайды, объясняющие принципы работы биткоина. Идеально подходит для новичков!&lt;/p>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Почему деньги стремятся к одной форме&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Почему деньги стремятся к одной форме&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;img src="https://21ideas.org/img/anil-slides/moneyone.png" alt="moneyone" />&lt;/p>
 &lt;h2 id="почему-деньги-стремятся-к-одной-форме">
  Почему деньги стремятся к одной форме
  &lt;a class="anchor" href="#%d0%bf%d0%be%d1%87%d0%b5%d0%bc%d1%83-%d0%b4%d0%b5%d0%bd%d1%8c%d0%b3%d0%b8-%d1%81%d1%82%d1%80%d0%b5%d0%bc%d1%8f%d1%82%d1%81%d1%8f-%d0%ba-%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d1%84%d0%be%d1%80%d0%bc%d0%b5">#&lt;/a>
 &lt;/h2>
-&lt;p>Отличный материал для новичков с быстрым и понятным объяснением того, почему деньги рано или поздно должны прийти к единой глобальной форме и почему навязанная государством денежная монополия тормозит естественное развитие глобальной экономики.&lt;/p></description></item><item><title>Биткоин-деньги</title><link>https://21ideas.org/en/bitcoin-money/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-money/</guid><description>&lt;p>Эта книга Майкла Караса - отличный первый шаг для понимания важнейших функций и свойств денег как для самых маленьких, так и для взрослых новичков.&lt;/p>
+&lt;p>Отличный материал для новичков с быстрым и понятным объяснением того, почему деньги рано или поздно должны прийти к единой глобальной форме и почему навязанная государством денежная монополия тормозит естественное развитие глобальной экономики.&lt;/p>
+&lt;ul>
+&lt;li>Почему деньги стремятся к единой форме?&lt;/li>
+&lt;li>Почему наличие нескольких валют это проблема?&lt;/li>
+&lt;li>Как выбрать единое средство обмена?&lt;/li>
+&lt;li>Какими качествами оно должно обладать?&lt;/li>
+&lt;/ul>
+&lt;p>Внутри, вы найдете ответы на эти вопросы!&lt;/p></description></item><item><title>Биткоин-деньги</title><link>https://21ideas.org/en/bitcoin-money/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-money/</guid><description>&lt;p>Эта книга Майкла Караса - отличный первый шаг для понимания важнейших функций и свойств денег как для самых маленьких, так и для взрослых новичков.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;p>&lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>&lt;/p>
 &lt;p>Скачать PDF-версию можно &lt;a href="https://21ideas.org/epubs/bitcoin-money.pdf">здесь&lt;/a>&lt;/p>

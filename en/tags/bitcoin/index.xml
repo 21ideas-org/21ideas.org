@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bitcoin on 21ideas</title><link>https://21ideas.org/en/tags/bitcoin/</link><description>Recent content in Bitcoin on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>&lt;p>How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bitcoin on 21ideas</title><link>https://21ideas.org/en/tags/bitcoin/</link><description>Recent content in Bitcoin on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:48:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>&lt;p>How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;p>The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7">Tony⚡️&lt;/a>.&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
@@ -28,14 +28,8 @@
 
 &lt;/blockquote>
 
-&lt;p>Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds. However, Bitcoin&amp;rsquo;s design has a number of drawbacks. It can take an hour, and often more, from the time a transaction is made on the Bitcoin blockchain to the moment that transaction gets finalized.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Lightning Network is a decentralized system for instant micro payments. Bitcoin, the world&amp;rsquo;s most widely used and valued cryptocurrency, allows anyone to transfer value without the need for a trusted third party. Bitcoin supports an advanced scripting system that allows users to program instructions for managing their funds. However, Bitcoin&amp;rsquo;s design has a number of drawbacks. It can take an hour, and often more, from the time a transaction is made on the Bitcoin blockchain to the moment that transaction gets finalized.&lt;/p></description></item><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -58,14 +52,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Предисловие от Майкла Сэйлора</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/predislovie/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/predislovie/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Предисловие от Майкла Сэйлора</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/predislovie/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/predislovie/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -77,8 +66,7 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Пандемия 2020 года перевернула мировую экономику, сократив период цифровой трансформации с десятилетия до считанных месяцев. Популярность сугубо цифровых предложений резко возросла, при этом популярность многих традиционных услуг сошла на нет. В результате ход жизни миллионов предприятий и миллиардов людей претерпел кардинальные изменения.&lt;/p></description></item><item><title>Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys</title><link>https://21ideas.org/en/how-to-hold-private-keys/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/how-to-hold-private-keys/</guid><description>&lt;p>Not Your Keys, Not Your Bitcoin.&lt;/p>
 &lt;blockquote class="book-hint btc">
@@ -88,14 +76,8 @@
 &lt;/blockquote>
 
 &lt;p>Alright so you’ve acquired some Bitcoin, now what’s the best way to store it? Here we’ll take you through the process of finding the right Bitcoin wallet for you.&lt;/p>
-&lt;p>Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em>How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em> Answering these questions will help deter­mine the right solution for you. &lt;/p></description></item><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Although it seems like a straight­for­ward question, there is a surprising amount of nuance to consider. &lt;em>How much Bitcoin do you have? How often do you plan to spend it? Are you confi­dent your keys are more secure with you than with a regulated custo­di­an’s cold storage?&lt;/em> Answering these questions will help deter­mine the right solution for you. &lt;/p></description></item><item><title>Intro</title><link>https://21ideas.org/en/gf/genesis-intro/</link><pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-intro/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -106,25 +88,17 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by Steven Ellis was published in his &lt;a href="https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7">Medium blog&lt;/a>.&lt;/p></description></item><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by Steven Ellis was published in his &lt;a href="https://medium.com/swlh/the-day-cryptography-changed-forever-1b6aefe8bda7">Medium blog&lt;/a>.&lt;/p></description></item><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/law-of-hash-horizons">blog&lt;/a>.&lt;/p>
@@ -133,14 +107,8 @@
 &lt;/blockquote>
 
 &lt;p>The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.&lt;/p>
-&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Intro</title><link>https://21ideas.org/en/gradually-then-suddenly/intro/</link><pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/intro/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Intro</title><link>https://21ideas.org/en/gradually-then-suddenly/intro/</link><pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/intro/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -162,18 +130,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part I. Philosophical Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-1/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part I. Philosophical Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-1/</link><pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-1">Part I. Philosophical Teachings of Bitcoin&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-2">Part II. Economic Teachings of Bitcoin&lt;/a>&lt;/li>
@@ -181,8 +142,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/dergigi">Gigi&lt;/a> was published on &lt;a href="https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin">dergigi.com&lt;/a> website.&lt;/p>
@@ -221,14 +181,8 @@
  Lightning invoices basics
  &lt;a class="anchor" href="#lightning-invoices-basics">#&lt;/a>
 &lt;/h2>
-&lt;p>Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network. If you want to receive some satoshis, you have to generate an invoice on your node/wallet. An invoice is nothing more than a text string (which starts with lnbc&amp;hellip;) and contains, among other things, the recipient ID and the amount. There is actually more information but we won&amp;rsquo;t go into that now. The invoice is most often shared using a QR code, which is nothing more than an image representation of the string described earlier.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Lightning Invoices are nowadays the standard for sending and receiving funds on the Lightning Network. If you want to receive some satoshis, you have to generate an invoice on your node/wallet. An invoice is nothing more than a text string (which starts with lnbc&amp;hellip;) and contains, among other things, the recipient ID and the amount. There is actually more information but we won&amp;rsquo;t go into that now. The invoice is most often shared using a QR code, which is nothing more than an image representation of the string described earlier.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -251,7 +205,8 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Why You Should Run Your Own Bitcoin Node</title><link>https://21ideas.org/en/practice/bitcoin-node/</link><pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice/bitcoin-node/</guid><description>&lt;p>Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.&lt;/p>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Why You Should Run Your Own Bitcoin Node</title><link>https://21ideas.org/en/practice/bitcoin-node/</link><pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice/bitcoin-node/</guid><description>&lt;p>Here’s why it&amp;rsquo;s necessary to participate in the Bitcoin Core network of nodes, for six simple reasons.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/parman_the">Arman The Parman&lt;/a> was published in &lt;a href="https://bitcoinmagazine.com/culture/six-reasons-you-should-run-bitcoin-node">Bitcoin Magazine&lt;/a>.&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
@@ -259,14 +214,8 @@
 &lt;/blockquote>
 
 &lt;p>Let me explain quickly that a Bitcoin node is any computer which runs a piece of software (Bitcoin Core) that has some important jobs:&lt;/p>
-&lt;p>Your Bitcoin node needs to keep a copy of the entire Bitcoin &lt;a href="https://bitcoinmagazine.com/guides/what-is-blockchain">blockchain&lt;/a>. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.e., the queue of transactions waiting to be included in the next block, and thus added to the blockchain). It needs to check that all additions to the blockchain are valid, and reject those that are not valid. It will provide details about the blockchain — such as balances — to other types of software that ask, like wallets. And it will provide a copy of the blockchain to any new node that wants to join. The new node then independently checks that every transaction in the copy it receives is valid. It does not actually “trust” the connected node.&lt;/p></description></item><item><title>Пролог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Your Bitcoin node needs to keep a copy of the entire Bitcoin &lt;a href="https://bitcoinmagazine.com/guides/what-is-blockchain">blockchain&lt;/a>. It has to connect with other nodes, forming a network of communication, which propagates transactions (transactions are kept in a “mempool”, i.e., the queue of transactions waiting to be included in the next block, and thus added to the blockchain). It needs to check that all additions to the blockchain are valid, and reject those that are not valid. It will provide details about the blockchain — such as balances — to other types of software that ask, like wallets. And it will provide a copy of the blockchain to any new node that wants to join. The new node then independently checks that every transaction in the copy it receives is valid. It does not actually “trust” the connected node.&lt;/p></description></item><item><title>Пролог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/prolog/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -278,8 +227,7 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="прометей">
  Прометей
@@ -291,21 +239,14 @@
 
 &lt;/blockquote>
 
-&lt;p>If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/">Blue Wallet&lt;/a> to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/">Blue Wallet&lt;/a> to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-ii">blog&lt;/a>.&lt;/p>
@@ -324,14 +265,8 @@
  What is Hodl Hodl?
  &lt;a class="anchor" href="#what-is-hodl-hodl">#&lt;/a>
 &lt;/h2>
-&lt;p>Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p></description></item><item><title>Bitcoin Can’t Be Copied</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</link><pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Like Bisq, HodlHodl is a decentralised bitcoin exchange. However, Hodl Hodl is accessed via a web browser rather than a dedicated app. At the application layer, it requires no KYC information although certain sellers do require this. I would advise you to go with a seller that doesn’t ask for your selfie, after all, that’s why we’re here!&lt;/p></description></item><item><title>Bitcoin Can’t Be Copied</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</link><pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -353,18 +288,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-cant-be-copied">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part II. Economic Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-2/</link><pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-cant-be-copied">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part II. Economic Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-2/</link><pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-1">Part I. Philosophical Teachings of Bitcoin&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-2">Part II. Economic Teachings of Bitcoin&lt;/a>&lt;/li>
@@ -372,8 +300,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/dergigi">Gigi&lt;/a> was published on &lt;a href="https://dergigi.com/2019/01/11/economic-teachings-of-bitcoin">dergigi.com&lt;/a> website.&lt;/p>
@@ -381,14 +308,8 @@
 
 &lt;/blockquote>
 
-&lt;p>Money doesn’t grow on trees. To believe that it does is foolish, and our parents make sure that we know about that by repeating this saying like a mantra. We are encouraged to use money wisely, to not spend it frivolously, and to save it in good times to help us through the bad. Money, after all, does not grow on trees.&lt;/p></description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Money doesn’t grow on trees. To believe that it does is foolish, and our parents make sure that we know about that by repeating this saying like a mantra. We are encouraged to use money wisely, to not spend it frivolously, and to save it in good times to help us through the bad. Money, after all, does not grow on trees.&lt;/p></description></item><item><title>Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream</title><link>https://21ideas.org/en/gf/genesis-1/</link><pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -399,8 +320,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet.&lt;/p></description></item><item><title>RoboSats: Private P2P Exchange</title><link>https://21ideas.org/en/robosats/</link><pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/robosats/</guid><description>&lt;blockquote class="book-hint btc">
  &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/robosats">bitcoiner.guide&lt;/a> website.&lt;/p>
@@ -435,14 +355,8 @@
  Unboxing
  &lt;a class="anchor" href="#unboxing">#&lt;/a>
 &lt;/h2>
-&lt;p>This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/">BTC Hardware Solutions&lt;/a> with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa">GoBrrr&lt;/a> or &lt;a href="https://diynodes.com/">DIYNodes&lt;/a>, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1">TechHaven&lt;/a>.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/en/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-01/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/">BTC Hardware Solutions&lt;/a> with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa">GoBrrr&lt;/a> or &lt;a href="https://diynodes.com/">DIYNodes&lt;/a>, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1">TechHaven&lt;/a>.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/en/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-01/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -465,14 +379,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Глава 1: Генезис и происхождение денег</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-1/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Глава 1: Генезис и происхождение денег</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-1/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-1/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -484,24 +393,16 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Учитывая, что рыночная капитализация биткоина превысила триллион долларов, &amp;ldquo;бычий&amp;rdquo; аргумент для инвесторов может показаться настолько очевидным, что пояснения будут излишними. С другой стороны, может показаться неразумным инвестировать в цифровой актив, который не подкреплен никаким товаром или государством и чей ценовой рост побудил некоторых сравнить его с &lt;a href="https://21ideas.org/tyulpannaya-lihoradka">тюльпаноманией&lt;/a> или пузырем доткомов. Ни то, ни другое нельзя назвать истиной; &amp;ldquo;бычий&amp;rdquo; аргумент в пользу биткоина убедителен, но далеко не очевиден. Инвестиции в биткоин сопряжены со значительными рисками, но, как я попытаюсь доказать далее, перед нами все еще открываются огромные возможности.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Учитывая, что рыночная капитализация биткоина превысила триллион долларов, &amp;ldquo;бычий&amp;rdquo; аргумент для инвесторов может показаться настолько очевидным, что пояснения будут излишними. С другой стороны, может показаться неразумным инвестировать в цифровой актив, который не подкреплен никаким товаром или государством и чей ценовой рост побудил некоторых сравнить его с &lt;a href="https://21ideas.org/tyulpannaya-lihoradka">тюльпаноманией&lt;/a> или пузырем доткомов. Ни то, ни другое нельзя назвать истиной; &amp;ldquo;бычий&amp;rdquo; аргумент в пользу биткоина убедителен, но далеко не очевиден. Инвестиции в биткоин сопряжены со значительными рисками, но, как я попытаюсь доказать далее, перед нами все еще открываются огромные возможности.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-iii">blog&lt;/a>.&lt;/p>
@@ -509,14 +410,8 @@
 
 &lt;/blockquote>
 
-&lt;p>This is Part III in a series of speculations about the hyperbitcoinized future. In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In &lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.&lt;/p></description></item><item><title>Bitcoin Is Not Too Volatile</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>This is Part III in a series of speculations about the hyperbitcoinized future. In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it leads to new blockchains as humanity expands through the solar system. In &lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>, we described a Second Law which leads to nested blockchains the size of solar systems and beyond, hashing vast energies on cosmic timescales.&lt;/p></description></item><item><title>Bitcoin Is Not Too Volatile</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/</link><pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-volatile/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -538,18 +433,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-volatile">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part III. Technological Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-3/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-volatile">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part III. Technological Teachings of Bitcoin</title><link>https://21ideas.org/en/what-i-learned-from-bitcoin-3/</link><pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/what-i-learned-from-bitcoin-3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-1">Part I. Philosophical Teachings of Bitcoin&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/what-i-learned-from-bitcoin-2">Part II. Economic Teachings of Bitcoin&lt;/a>&lt;/li>
@@ -557,8 +445,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/dergigi">Gigi&lt;/a> was published on &lt;a href="https://dergigi.com/2019/04/02/technological-teachings-of-bitcoin/">dergigi.com&lt;/a> website.&lt;/p>
@@ -566,14 +453,8 @@
 
 &lt;/blockquote>
 
-&lt;p>What is Bitcoin? The many answers to this question are as interesting as they are varied. Bitcoin is both a social and a monetary phenomenon, but it is also a technological one. The intersection of many disciplines is what makes Bitcoin endlessly fascinating. Like many others, I began to stumble down this strange rabbit hole a while ago. Even though this article is the last of this series, I am still stumbling down with no end in sight, and I invite you to stumble along with me.&lt;/p></description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>What is Bitcoin? The many answers to this question are as interesting as they are varied. Bitcoin is both a social and a monetary phenomenon, but it is also a technological one. The intersection of many disciplines is what makes Bitcoin endlessly fascinating. Like many others, I began to stumble down this strange rabbit hole a while ago. Even though this article is the last of this series, I am still stumbling down with no end in sight, and I invite you to stumble along with me.&lt;/p></description></item><item><title>Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block</title><link>https://21ideas.org/en/gf/genesis-2/</link><pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -584,22 +465,15 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come.&lt;/p></description></item><item><title>5 tips for teaching Bitcoin</title><link>https://21ideas.org/en/5-tips-for-teaching-bitcoin/</link><pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/5-tips-for-teaching-bitcoin/</guid><description>&lt;blockquote class="book-hint btc">
  &lt;p>This article by John Tinkelenberg was published in Casa &lt;a href="https://blog.keys.casa/teaching-bitcoin-to-friends-and-loved-ones">blog&lt;/a>.&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>It’s easy to adopt bitcoin as an individual, but sharing your knowledge with others — or orange-pilling as we say in the industry — can be hard. Bitcoin is often a tricky subject to discuss with friends and relatives in addition to being a completely different asset to own and manage.&lt;/p>
-&lt;p>Now that bitcoin is mainstream, most of us are exploring bitcoin for the first time. Here’s a primer for sharing your enthusiasm for bitcoin with those you care about.&lt;/p></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Now that bitcoin is mainstream, most of us are exploring bitcoin for the first time. Here’s a primer for sharing your enthusiasm for bitcoin with those you care about.&lt;/p></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -622,14 +496,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Глава 2: Атрибуты хорошего средства сбережения</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-2/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Глава 2: Атрибуты хорошего средства сбережения</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-2/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-2/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -641,8 +510,7 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;p>Когда различные средства сбережения  конкурируют друг с другом, специфические атрибуты определяют победителя, спрос на которого будет со временем увеличиваться. Исторически сложилось так, что многие товары использовались в качестве средства сбережения, и время показало, что идеальное средство сбережения обладает следующими качествами:&lt;/p></description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>&lt;blockquote class="book-hint btc">
  &lt;p>This guide by &lt;a href="https://twitter.com/BitcoinQ_A">Bitcoin Q+A&lt;/a> was published on &lt;a href="https://bitcoiner.guide/coldcard">bitcoiner.guide&lt;/a> website.&lt;/p>
@@ -654,14 +522,8 @@
  What is Coldcard?
  &lt;a class="anchor" href="#what-is-coldcard">#&lt;/a>
 &lt;/h2>
-&lt;p>Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p></description></item><item><title>Bitcoin Does Not Waste Energy</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Coldcard is a hardware wallet designed by the Coinkite team. A hardware wallets is a device with one main purpose, to keep your bitcoin private keys safe and secure. Anyone with access to your private keys has access to all of the bitcoin in that wallet. Coldcard does not come with its own app or any additional software. What you connect it with is completely up to you.&lt;/p></description></item><item><title>Bitcoin Does Not Waste Energy</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -683,18 +545,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-does-not-waste-energy">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-does-not-waste-energy">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It</title><link>https://21ideas.org/en/gf/genesis-3/</link><pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -705,21 +560,13 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Бычий кейс для Биткоина</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/</guid><description>&lt;p>Эта книга будет очень полезна новичкам для понимания значимости Биткоина и основных механизмов его работы. Поддержать перевод можно, посетив страничку фандрейза: &lt;a href="https://tallycoin.app/@21ideas/----kpjz4HBk/">https://tallycoin.app/@21ideas/&amp;mdash;-kpjz4HBk/&lt;/a>&lt;/p>
 &lt;hr>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -731,15 +578,8 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div></description></item><item><title>Глава 3: Эволюция денег</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-3/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;/details></description></item><item><title>Глава 3: Эволюция денег</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-3/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-3/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -751,17 +591,10 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Современная денежная экономика одержима ролью денег как средства обмена. В двадцатом веке государства монополизировали выпуск денег и постоянно препятствовали их использованию в качестве средства сбережения, создавая ложное представление о том, что деньги в первую очередь определяются как средство обмена. Многие считают биткоин не подходящим на роль денег из-за его высокой волатильности. Однако они бегут впереди паровоза: деньги всегда развивались поэтапно, при этом роль денег как средства сбережения предшествовала их роли как  средства обмена. Один из основателей теории предельной полезности, Уильям Стэнли Джевонс объяснил, что:&lt;/p></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Современная денежная экономика одержима ролью денег как средства обмена. В двадцатом веке государства монополизировали выпуск денег и постоянно препятствовали их использованию в качестве средства сбережения, создавая ложное представление о том, что деньги в первую очередь определяются как средство обмена. Многие считают биткоин не подходящим на роль денег из-за его высокой волатильности. Однако они бегут впереди паровоза: деньги всегда развивались поэтапно, при этом роль денег как средства сбережения предшествовала их роли как  средства обмена. Один из основателей теории предельной полезности, Уильям Стэнли Джевонс объяснил, что:&lt;/p></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -784,14 +617,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Bitcoin is Not Too Slow</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Bitcoin is Not Too Slow</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</link><pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-too-slow/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -813,18 +641,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-slow">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-too-slow">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin</title><link>https://21ideas.org/en/gf/genesis-4/</link><pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-4/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -835,18 +656,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by Aaron van Wirdum was published in &lt;a href="https://bitcoinmagazine.com/culture/genesis-files-bit-gold-szabo-was-inches-away-inventing-bitcoin">Bitcoin Magazine&lt;/a>.&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -869,14 +683,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Глава 4: Форма монетизации</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-4/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Глава 4: Форма монетизации</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-4/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-4/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -888,21 +697,14 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="циклы-шумихи">
  Циклы шумихи
  &lt;a class="anchor" href="#%d1%86%d0%b8%d0%ba%d0%bb%d1%8b-%d1%88%d1%83%d0%bc%d0%b8%d1%85%d0%b8">#&lt;/a>
 &lt;/h2>
-&lt;p>Хотя не существует &lt;em>априорных&lt;/em> правил касаемо пути монетизации денежного товара, за относительно короткую историю монетизации биткоина обнаружился любопытный паттерн. Цена биткоина, по-видимому, следует фрактальной модели возрастающей величины, где каждая итерация фрактала соответствует классической форме &amp;ldquo;циклa шумихи&amp;rdquo; Гартнера (Gartner hype cycle), как показано на графике ниже.&lt;/p></description></item><item><title>Bitcoin Fixes This</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Хотя не существует &lt;em>априорных&lt;/em> правил касаемо пути монетизации денежного товара, за относительно короткую историю монетизации биткоина обнаружился любопытный паттерн. Цена биткоина, по-видимому, следует фрактальной модели возрастающей величины, где каждая итерация фрактала соответствует классической форме &amp;ldquo;циклa шумихи&amp;rdquo; Гартнера (Gartner hype cycle), как показано на графике ниже.&lt;/p></description></item><item><title>Bitcoin Fixes This</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this/</link><pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-fixes-this/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -924,18 +726,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-fixes-this">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-fixes-this">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)</title><link>https://21ideas.org/en/gf/genesis-5/</link><pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gf/genesis-5/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-intro">Intro: The Day Cryptography Changed Forever&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gf/genesis-1">Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream&lt;/a>&lt;/li>
@@ -946,17 +741,10 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.&lt;/p></description></item><item><title>Глава 5: Новая денежная база</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-5/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin.&lt;/p></description></item><item><title>Глава 5: Новая денежная база</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-5/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/glava-5/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -968,21 +756,22 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="распространенные-заблуждения">
  Распространенные заблуждения
  &lt;a class="anchor" href="#%d1%80%d0%b0%d1%81%d0%bf%d1%80%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5%d0%bd%d0%bd%d1%8b%d0%b5-%d0%b7%d0%b0%d0%b1%d0%bb%d1%83%d0%b6%d0%b4%d0%b5%d0%bd%d0%b8%d1%8f">#&lt;/a>
 &lt;/h2>
-&lt;p>Бóльшая часть этой книги посвящена денежной природе биткоина. Обосновав превосходство биткоина над другими денежными инструментами, мы можем сосредоточиться на наиболее распространенных заблуждениях относительно этого революционного денежного товара.&lt;/p></description></item><item><title>Bitcoin, Not Blockchain</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Бóльшая часть этой книги посвящена денежной природе биткоина. Обосновав превосходство биткоина над другими денежными инструментами, мы можем сосредоточиться на наиболее распространенных заблуждениях относительно этого революционного денежного товара.&lt;/p>
+&lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/bkb-487.jpg">
+&lt;/div>
+&lt;h3 id="биткоин--это-пузырь">
+ Биткоин – это пузырь?
+ &lt;a class="anchor" href="#%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd--%d1%8d%d1%82%d0%be-%d0%bf%d1%83%d0%b7%d1%8b%d1%80%d1%8c">#&lt;/a>
+&lt;/h3>
+&lt;p>Биткоин обладает денежной наценкой, что порождает распространенное мнение о том, что он является пузырем. Однако &lt;em>все&lt;/em> денежные товары имеют денежную наценку. Действительно, именно эта наценкa (превышение над ценой потребительского спроса) является определяющей характеристикой всех денег. Таким образом, можно сказать, что деньги всегда и везде являются пузырем. Парадоксально, но на ранних этапах развития денежный товар может быть и переоценен, и недооценен.&lt;/p></description></item><item><title>Bitcoin, Not Blockchain</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</link><pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-not-blockchain/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1004,20 +793,13 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-not-blockchain">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Starting with Mutiny Wallet</title><link>https://21ideas.org/en/mutiny/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mutiny/</guid><description>&lt;p>Recently, I listened to an episode of &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC">SLP551&lt;/a> featuring a discussion between &lt;a href="https://stacker.news/stephanlivera">@stephanlivera&lt;/a> and &lt;a href="https://stacker.news/benthecarman">@benthecarman&lt;/a> about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href="https://21ideas.org/en/what-is-lightning-network">Lightning Network&lt;/a>. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p>
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://stacker.news/runningbitcoin">@runningbitcoin&lt;/a> was published on &lt;a href="https://stacker.news/items/467711/r/Tony">stacker.news&lt;/a> website.&lt;/p></description></item><item><title>Эпилог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/epilog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/epilog/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://stacker.news/runningbitcoin">@runningbitcoin&lt;/a> was published on &lt;a href="https://stacker.news/items/467711/r/Tony">stacker.news&lt;/a> website.&lt;/p></description></item><item><title>Эпилог</title><link>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/epilog/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bychij-kejs-dlya-bitcoin/epilog/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin">Главная страница&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/predislovie">Предисловие от Майкла Сэйлора&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/prolog">Пролог&lt;/a>&lt;/p>
@@ -1029,21 +811,14 @@
 &lt;p>&lt;a href="https://21ideas.org/bychij-kejs-dlya-bitcoin/epilog">Эпилог&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="великий-спор">
  Великий спор
  &lt;a class="anchor" href="#%d0%b2%d0%b5%d0%bb%d0%b8%d0%ba%d0%b8%d0%b9-%d1%81%d0%bf%d0%be%d1%80">#&lt;/a>
 &lt;/h2>
-&lt;p>Что такое Биткоин? Этот, казалось бы, простой вопрос и дебаты, возникшие в связи с попытками на него ответить, в течение нескольких лет волновали сообщество разработчиков и инвесторов. Кульминацией стал раскол в сообществе и раскол сети Биткоин 1 августа 2017 года. Спустя годы после того как Сатоши Накамото cоздал Биткоин, возникли две основные идеологические группировки, у каждой из которых было свое видение будущего. Первая группировка рассматривала Биткоин прежде всего как платежную систему, похожую на Visa или PayPal, но без централизованной точки контроля. Они подчеркивали транзакционное использование биткоина и считали, что деньги определяются в первую очередь их ролью как средствa обмена. Вторая группировка подчеркнула важность того, чтобы биткоин не подвергался цензуре, и предупредила об опасностях передачи контроля над протоколом Биткоина какой-либо конкретной группе интересов. Они видели биткоин в качестве цифровой версии золота, подчеркивая его использование в качестве несуверенного средства сбережения.&lt;/p></description></item><item><title>Bitcoin is Not Backed by Nothing</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Что такое Биткоин? Этот, казалось бы, простой вопрос и дебаты, возникшие в связи с попытками на него ответить, в течение нескольких лет волновали сообщество разработчиков и инвесторов. Кульминацией стал раскол в сообществе и раскол сети Биткоин 1 августа 2017 года. Спустя годы после того как Сатоши Накамото cоздал Биткоин, возникли две основные идеологические группировки, у каждой из которых было свое видение будущего. Первая группировка рассматривала Биткоин прежде всего как платежную систему, похожую на Visa или PayPal, но без централизованной точки контроля. Они подчеркивали транзакционное использование биткоина и считали, что деньги определяются в первую очередь их ролью как средствa обмена. Вторая группировка подчеркнула важность того, чтобы биткоин не подвергался цензуре, и предупредила об опасностях передачи контроля над протоколом Биткоина какой-либо конкретной группе интересов. Они видели биткоин в качестве цифровой версии золота, подчеркивая его использование в качестве несуверенного средства сбережения.&lt;/p></description></item><item><title>Bitcoin is Not Backed by Nothing</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-backed-by-nothing/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1065,18 +840,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-backed-by-nothing">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-backed-by-nothing">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -1099,14 +867,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Bitcoin is Not a Pyramid Scheme</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Bitcoin is Not a Pyramid Scheme</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/</link><pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1128,18 +891,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-a-pyramid-scheme">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin Cannot be Banned</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-a-pyramid-scheme">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin Cannot be Banned</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned/</link><pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cannot-be-banned/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1161,18 +917,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-cannot-be-banned">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Not for Criminals</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/</link><pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-cannot-be-banned">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Not for Criminals</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/</link><pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-not-for-criminals/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1194,18 +943,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-for-criminals">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin Obsoletes All Other Money</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-not-for-criminals">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin Obsoletes All Other Money</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/</link><pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-obsoletes-all-other-money/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1227,18 +969,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-obsoletes-all-other-money">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is a Rally Cry</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/</link><pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-obsoletes-all-other-money">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is a Rally Cry</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/</link><pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-a-rally-cry/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1260,18 +995,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-a-rally-cry">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Common Sense</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-a-rally-cry">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Common Sense</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense/</link><pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-common-sense/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1293,18 +1021,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-common-sense">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Antifragile</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile/</link><pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-common-sense">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is Antifragile</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile/</link><pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-antifragile/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1326,18 +1047,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-antifragile">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is One for All</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all/</link><pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-antifragile">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is One for All</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all/</link><pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-one-for-all/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1359,18 +1073,11 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-one-for-all">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is the Great Definancialization</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/</link><pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-one-for-all">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin is the Great Definancialization</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/</link><pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied">Bitcoin Can’t Be Copied&lt;/a>&lt;/li>
@@ -1392,8 +1099,7 @@
 &lt;/ol>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-is-the-great-definancialization">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Why Bitcoin, Not Shitcoin</title><link>https://21ideas.org/en/not-shitcoin/</link><pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/not-shitcoin/</guid><description>&lt;p>Why bitcoin is not only the best investment of our time, and the only good “crypto,” but the only moral, economic and philosophically sound place to store your wealth.&lt;/p>

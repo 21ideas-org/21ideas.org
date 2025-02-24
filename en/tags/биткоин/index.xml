@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Биткоин on 21ideas</title><link>https://21ideas.org/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link><description>Recent content in Биткоин on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:35:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Биткоин on 21ideas</title><link>https://21ideas.org/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/</link><description>Recent content in Биткоин on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 24 Feb 2025 15:48:06 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/%D0%B1%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/en/21-sposob/vvedenie/</link><pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/vvedenie/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -28,36 +22,31 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Books</title><link>https://21ideas.org/en/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/books/</guid><description>&lt;p>Библиотека книг о Биткоине, экономике и личностном суверенитете.&lt;/p>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Белая книга Биткоина&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Books</title><link>https://21ideas.org/en/books/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/books/</guid><description>&lt;p>Библиотека книг о Биткоине, экономике и личностном суверенитете.&lt;/p>
+&lt;details >&lt;summary>Белая книга Биткоина&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;img src="https://21ideas.org/img/wp-01.png" alt="cover" />&lt;/p>
 &lt;p>Оригинальная работа Сатоши Накамото по-прежнему рекомендуется к &lt;a href="https://21ideas.org/whitepaper/">прочтению&lt;/a> всем, кто изучает принципы работы Биткоина.&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Изобретаем Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Изобретаем Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="imageWrapper">
  &lt;img src="https://21ideas.org/img/148.png#center">
 &lt;/div>
-&lt;p>Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга &lt;a href="https://21ideas.org/epubs/inventing-bitcoin.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;&lt;a href="https://21ideas.org/izobretaem-bitkoin/">Изобретаем Биткоин&lt;/a>&amp;rdquo;.&lt;/p></description></item><item><title>Белая книга</title><link>https://21ideas.org/en/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/whitepaper/</guid><description>&lt;p>31 октября 2008 года Сатоши Накамото опубликовал &amp;ldquo;white paper&amp;rdquo;, где впервые описал основные (но не все) характеристики будущей системы пиринговой электронной наличности. Наравне с запуском самой сети, это событие стало историческим.&lt;/p>
+&lt;p>Эта книга отлично подойдет новичкам, желающим понять основы работы Биткоина и причины его значимости. Книга &lt;a href="https://21ideas.org/epubs/inventing-bitcoin.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &amp;ldquo;&lt;a href="https://21ideas.org/izobretaem-bitkoin/">Изобретаем Биткоин&lt;/a>&amp;rdquo;.&lt;/p>
+ &lt;/div>
+&lt;/details>
+
+&lt;details >&lt;summary>Cуверенитет посредством математики&lt;/summary>
+ &lt;div class="markdown-inner">
+ &lt;div class="imageWrapper">
+ &lt;img src="https://21ideas.org/img/149.png#center">
+&lt;/div>
+&lt;p>Эта книга Кнута Сванхольма — пожалуй моя любимая работа, призванная познакомить новичка с Биткоином. Автор затрагивает самые острые проблемы современного общества — как экономические, так и социальные. Делитесь этой работой с родными и близкими; это — лучший способ заинтересовать их в путешествии сквозь кроличью нору Биткоина. Книга &lt;a href="https://21ideas.org/epubs/stm.epub">доступна в формате epub&lt;/a>. Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку &lt;a href="https://21ideas.org/suverenitet-posredstvom-matematiki/">Cуверенитет посредством математики&lt;/a>&lt;/p></description></item><item><title>Белая книга</title><link>https://21ideas.org/en/whitepaper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/whitepaper/</guid><description>&lt;p>31 октября 2008 года Сатоши Накамото опубликовал &amp;ldquo;white paper&amp;rdquo;, где впервые описал основные (но не все) характеристики будущей системы пиринговой электронной наличности. Наравне с запуском самой сети, это событие стало историческим.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;h3 id="загрузить-pdf-файл">
  Загрузить PDF-файл
@@ -77,14 +66,8 @@
 &lt;p>&lt;em>Перевод&lt;/em> &lt;a href="https://twitter.com/pete_rizzo_/status/1587048080540684290">&lt;em>ветки&lt;/em>&lt;/a> &lt;em>Пита Риццо&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>White Paper Биткоина, состоит из 2736 слов! Он короче, чем «&lt;a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D1%85%D0%B0%D1%80%D1%82%D0%B8%D1%8F_%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9">Великая хартия вольностей&lt;/a>» (3550 слов), Конституция США (4543 слова) и последний законопроект об инфраструктуре США (2700 страниц). Средняя книга содержит от 70 000 до 120 000 слов.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>White Paper Биткоина, состоит из 2736 слов! Он короче, чем «&lt;a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%8F_%D1%85%D0%B0%D1%80%D1%82%D0%B8%D1%8F_%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9">Великая хартия вольностей&lt;/a>» (3550 слов), Конституция США (4543 слова) и последний законопроект об инфраструктуре США (2700 страниц). Средняя книга содержит от 70 000 до 120 000 слов.&lt;/p></description></item><item><title>Глава 0</title><link>https://21ideas.org/en/21-sposob/glava-0/</link><pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-0/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -107,7 +90,8 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Видео</title><link>https://21ideas.org/en/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Видео</title><link>https://21ideas.org/en/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/videos/</guid><description>&lt;p>Для любителей потреблять видеоконтент в этом подразделе собраны все важнейшие материалы о Биткоине, экономике и личностном суверенитете в видеоформате.&lt;/p>
 &lt;h2 id="биткоин">
  Биткоин
  &lt;a class="anchor" href="#%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd">#&lt;/a>
@@ -116,29 +100,16 @@
  Теория
  &lt;a class="anchor" href="#%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f">#&lt;/a>
 &lt;/h3>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Что такое Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Что такое Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="youtubeWrapper">
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe src="https://www.youtube.com/embed/LrmhcaD6Cfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>
  &lt;/div>
 &lt;/div>
 &lt;p>На сегодняшний день почти все слышали о Биткоине, но это не значит, что большинство знает, что это такое. Это видео в полной мере поясняет что такое Биткоин и почему понимание этого открытия является фундаментом любой человеческой деятельности.
-Это — вступление к серии видео, нацеленной полноценно пояснить философские, экономические, социальные и технические стороны функционирования Биткоина.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/en/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-01/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+Это — вступление к серии видео, нацеленной полноценно пояснить философские, экономические, социальные и технические стороны функционирования Биткоина.&lt;/p></description></item><item><title>Глава 0.1</title><link>https://21ideas.org/en/21-sposob/glava-01/</link><pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-01/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -161,7 +132,8 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Audiobooks</title><link>https://21ideas.org/en/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/audiobooks/</guid><description>&lt;p>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.&lt;/p>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Audiobooks</title><link>https://21ideas.org/en/audiobooks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/audiobooks/</guid><description>&lt;p>Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;em>Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. &lt;a href="https://lnvpn.net?ref=21">Ссылка на VPN с оплатой через Лайтнинг&lt;/a>. &lt;a href="https://anchor.fm/s/69c8de58/podcast/rss">Ссылка на RSS&lt;/a>&lt;/em>
 &lt;/blockquote>
@@ -170,14 +142,8 @@
 &lt;hr>
 &lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0C5vGXMxonE0DDzUaAgyIO?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe>
 &lt;hr>
-&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MzfgCM2U0gxylOgAtr7m7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6MzfgCM2U0gxylOgAtr7m7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Глава 1. Биткоин — это идея</title><link>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</link><pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-1-bitcoin-eto-ideya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -200,7 +166,8 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Podcasts</title><link>https://21ideas.org/en/pods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/pods/</guid><description>&lt;p>В этом подразделе собраны все самые интересные подкасты о Биткоине и на сопутствующие темы на русском. Если вы считаете, что на страничку стоит добавить какой-либо еще подкаст, пишите контактам, указанным &lt;a href="https://21ideas.org/contribute/">здесь&lt;/a>.&lt;/p>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Podcasts</title><link>https://21ideas.org/en/pods/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/pods/</guid><description>&lt;p>В этом подразделе собраны все самые интересные подкасты о Биткоине и на сопутствующие темы на русском. Если вы считаете, что на страничку стоит добавить какой-либо еще подкаст, пишите контактам, указанным &lt;a href="https://21ideas.org/contribute/">здесь&lt;/a>.&lt;/p>
 &lt;blockquote class="book-hint btc">
  &lt;em>Аудиоматериалы размещены на сервисе Spotify, доступ к которому доступен через VPN. &lt;a href="https://lnvpn.net?ref=21">Ссылка на VPN с оплатой через Лайтнинг&lt;/a>. &lt;a href="https://anchor.fm/s/69c8de58/podcast/rss">Ссылка на RSS&lt;/a>&lt;/em>
 &lt;/blockquote>
@@ -213,14 +180,8 @@
 &lt;hr>
 &lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6m07nJ9qyseV2tN3bQ9YmP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe>
 &lt;hr>
-&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4W2FkFvWQPo0t0ZfTvTqcI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4W2FkFvWQPo0t0ZfTvTqcI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">&lt;/iframe></description></item><item><title>Глава 2. Биткоин — это время</title><link>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</link><pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-2-bitcoin-eto-vremya/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -243,25 +204,13 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>21 способ</title><link>https://21ideas.org/en/21-sposob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/</guid><description>&lt;p>Проекты &lt;a href="https://21ideas.org/">21 идея&lt;/a>💡, &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a>🌽 и &lt;a href="https://t.me/gametheoryhub">∞/21М&lt;/a>⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги &lt;a href="https://dergigi.com/">GiGi&lt;/a> &amp;ldquo;&lt;a href="https://21-ways.com/">21 ways&lt;/a>&amp;rdquo;. Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a> и подкасты 21ideas (&lt;a href="https://anchor.fm/tony-lightning">традиционные площадки&lt;/a> / &lt;a href="https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8">лайтнинг-площадка&lt;/a>), чтобы своевременно получать свежие аудио- и форматы.&lt;/p>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>21 способ</title><link>https://21ideas.org/en/21-sposob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/</guid><description>&lt;p>Проекты &lt;a href="https://21ideas.org/">21 идея&lt;/a>💡, &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a>🌽 и &lt;a href="https://t.me/gametheoryhub">∞/21М&lt;/a>⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги &lt;a href="https://dergigi.com/">GiGi&lt;/a> &amp;ldquo;&lt;a href="https://21-ways.com/">21 ways&lt;/a>&amp;rdquo;. Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал &lt;a href="https://www.youtube.com/c/BitKornRUS">BitKorn&lt;/a> и подкасты 21ideas (&lt;a href="https://anchor.fm/tony-lightning">традиционные площадки&lt;/a> / &lt;a href="https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8">лайтнинг-площадка&lt;/a>), чтобы своевременно получать свежие аудио- и форматы.&lt;/p>
 &lt;p>Поддержать инициативу можно, перейдя на нашу &lt;a href="https://tallycoin.app/@21ideas/21-zho0IO4x/">страничку донатов&lt;/a> (ончейн). В качестве альтернативы вы можете использовать лайтнинг-адрес &lt;a href="mailto:21ways-ru@coinos.io">21ways-ru@coinos.io&lt;/a> перейдя по ссылке &lt;a href="https://coinos.io/21ways-ru">https://coinos.io/21ways-ru&lt;/a>.&lt;/p>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
- &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
+ &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p></description></item><item><title>Глава 3. Биткоин — волшебные интернет-деньги</title><link>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</link><pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-3-bitcoin-volshebnye-internet-dengi/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -284,14 +233,9 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Оглавление&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item><item><title>Глава 6. Биткоин – это цифровая редкость</title><link>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</link><pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost/</guid><description>&lt;details >&lt;summary>Оглавление&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/21-sposob">Главная страница&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>
@@ -314,4 +258,5 @@
 &lt;p>Глава 5: Биткоин – лучшие деньги, которые у нас когда–либо были&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/21-sposob/glava-6-bitcoin-eto-cifrovaya-redkost">Глава 6: Биткоин – это цифровая редкость&lt;/a>&lt;/p>
 &lt;p>Глава 7: Биткоин – это абсолютная редкость&lt;/p>
-&lt;p>Глава 8: Биткоин – это машина истины&lt;/p></description></item></channel></rss>
+&lt;p>Глава 8: Биткоин – это машина истины&lt;/p>
+&lt;p>Глава 9: Биткоин – это страхование богатства&lt;/p></description></item></channel></rss>

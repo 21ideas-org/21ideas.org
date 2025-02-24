@@ -7,15 +7,8 @@
  Теория
  &lt;a class="anchor" href="#%d1%82%d0%b5%d0%be%d1%80%d0%b8%d1%8f">#&lt;/a>
 &lt;/h3>
-
-&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Что такое Биткоин&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;details >&lt;summary>Что такое Биткоин&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;div class="youtubeWrapper">
  &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
  &lt;iframe src="https://www.youtube.com/embed/LrmhcaD6Cfg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy">&lt;/iframe>

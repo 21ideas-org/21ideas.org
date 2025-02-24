@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dojo x86 Bitcoin Node Guide on 21ideas</title><link>https://21ideas.org/en/practice-privacy/dojo/</link><description>Recent content in Dojo x86 Bitcoin Node Guide on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://21ideas.org/en/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-0/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dojo x86 Bitcoin Node Guide on 21ideas</title><link>https://21ideas.org/en/practice-privacy/dojo/</link><description>Recent content in Dojo x86 Bitcoin Node Guide on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://21ideas.org/en/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-0/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -19,17 +13,11 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
-&lt;p>This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.&lt;/p></description></item><item><title>Installing Bitcoin Core &amp; Tor</title><link>https://21ideas.org/en/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>This is the first in a multiple-part guide to installing and configuring an x86 Bitcoin node from official binaries, including Bitcoin Core, Dojo, Fulcrum, and Mempool Explorer packages.&lt;/p>
+&lt;p>Manually configuring your node is a great way to learn about the inner workings of a Bitcoin node. Another benefit is the ability to individually manage package updates whenever desired instead of waiting for all-in-one node devs to push updates, giving you a heightened level of node sovereignty.&lt;/p></description></item><item><title>Installing Bitcoin Core &amp; Tor</title><link>https://21ideas.org/en/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -43,21 +31,14 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction
  &lt;a class="anchor" href="#introduction">#&lt;/a>
 &lt;/h2>
-&lt;p>Bitcoin Core originated from the first Bitcoin software client released by Satoshi Nakamoto, the pseudonymous creator(s) of Bitcoin, in 2009. It was initially called &amp;ldquo;Bitcoin&amp;rdquo; but later renamed &amp;ldquo;Bitcoin Core&amp;rdquo; to differentiate it from the broader Bitcoin network and currency.&lt;/p></description></item><item><title>Installing Fulcrum Indexer</title><link>https://21ideas.org/en/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Bitcoin Core originated from the first Bitcoin software client released by Satoshi Nakamoto, the pseudonymous creator(s) of Bitcoin, in 2009. It was initially called &amp;ldquo;Bitcoin&amp;rdquo; but later renamed &amp;ldquo;Bitcoin Core&amp;rdquo; to differentiate it from the broader Bitcoin network and currency.&lt;/p></description></item><item><title>Installing Fulcrum Indexer</title><link>https://21ideas.org/en/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -71,8 +52,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Prerequisites.&lt;/p>
@@ -85,14 +65,8 @@
  Introduction
  &lt;a class="anchor" href="#introduction">#&lt;/a>
 &lt;/h2>
-&lt;p>After fully synchronizing Bitcoin Core, installing an Electrum indexer, which ensures compatibility with all Electrum-based Bitcoin wallets, is the next step.&lt;/p></description></item><item><title>Installing Mempool Explorer</title><link>https://21ideas.org/en/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>After fully synchronizing Bitcoin Core, installing an Electrum indexer, which ensures compatibility with all Electrum-based Bitcoin wallets, is the next step.&lt;/p></description></item><item><title>Installing Mempool Explorer</title><link>https://21ideas.org/en/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -106,8 +80,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Prerequisites.&lt;/p>
@@ -120,14 +93,8 @@
  Introduction
  &lt;a class="anchor" href="#introduction">#&lt;/a>
 &lt;/h2>
-&lt;p>The Mempool Visual Explorer is a valuable tool for looking up detailed information about blocks, addresses, balances &amp;amp; transactions.&lt;/p></description></item><item><title>Installing Samourai Dojo</title><link>https://21ideas.org/en/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-4/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>The Mempool Visual Explorer is a valuable tool for looking up detailed information about blocks, addresses, balances &amp;amp; transactions.&lt;/p></description></item><item><title>Installing Samourai Dojo</title><link>https://21ideas.org/en/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-4/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -141,8 +108,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Prerequisites.&lt;/p>
@@ -152,14 +118,8 @@
  Introduction
  &lt;a class="anchor" href="#introduction">#&lt;/a>
 &lt;/h2>
-&lt;p>Dojo is a privacy-focused, end-to-end server software solution that acts as a Bitcoin wallet backend for Samourai Wallet and other Bitcoin light wallets.&lt;/p></description></item><item><title>Firewall Configuration</title><link>https://21ideas.org/en/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-5/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Dojo is a privacy-focused, end-to-end server software solution that acts as a Bitcoin wallet backend for Samourai Wallet and other Bitcoin light wallets.&lt;/p></description></item><item><title>Firewall Configuration</title><link>https://21ideas.org/en/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-5/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -173,8 +133,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>Prerequisites.&lt;/p>
@@ -184,14 +143,9 @@
  Uncomplicated Firewall (UFW)
  &lt;a class="anchor" href="#uncomplicated-firewall-ufw">#&lt;/a>
 &lt;/h2>
-&lt;p>The Uncomplicated Firewall, or UFW, is a simple-to-use, command-line application for working with a Linux firewall.&lt;/p></description></item><item><title>Installing Package Updates</title><link>https://21ideas.org/en/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-6/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>The Uncomplicated Firewall, or UFW, is a simple-to-use, command-line application for working with a Linux firewall.&lt;/p>
+&lt;p>Install UFW.&lt;/p></description></item><item><title>Installing Package Updates</title><link>https://21ideas.org/en/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/practice-privacy/dojo-6/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;h2 id="dojo-x86-bitcoin-node-guide">
  Dojo x86 Bitcoin Node Guide
  &lt;a class="anchor" href="#dojo-x86-bitcoin-node-guide">#&lt;/a>
@@ -205,8 +159,7 @@
 &lt;p>&lt;a href="https://21ideas.org/en/practice-privacy/dojo-6">Part 6. Installing Package Updates&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;h2 id="introduction">
  Introduction

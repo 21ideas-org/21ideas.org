@@ -1,18 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bitcoin Astronomy on 21ideas</title><link>https://21ideas.org/en/ba/</link><description>Recent content in Bitcoin Astronomy on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/ba/index.xml" rel="self" type="application/rss+xml"/><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bitcoin Astronomy on 21ideas</title><link>https://21ideas.org/en/ba/</link><description>Recent content in Bitcoin Astronomy on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/ba/index.xml" rel="self" type="application/rss+xml"/><item><title>Part I</title><link>https://21ideas.org/en/ba/1/</link><pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/1/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/law-of-hash-horizons">blog&lt;/a>.&lt;/p>
@@ -21,21 +14,14 @@
 &lt;/blockquote>
 
 &lt;p>The desire to travel far away and start a new currency will become a powerful driver of human expansion into space.&lt;/p>
-&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>Earth will run on bitcoin, but colonies on Mars, the outer planets, and distant stars will not.  Though faraway colonies will value and trade bitcoin, they will choose to launch, defend and use their own local blockchains.  This pattern of replication is an inevitable consequence of &lt;a href="https://nakamotoinstitute.org/mempool/hyperbitcoinization/">hyperbitcoinization&lt;/a> and the physical limitations inherent to any blockchain that respects the finite speed of light.&lt;/p></description></item><item><title>Part II</title><link>https://21ideas.org/en/ba/2/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/2/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-ii">blog&lt;/a>.&lt;/p>
@@ -44,21 +30,14 @@
 &lt;/blockquote>
 
 &lt;p>This is Part II in a series of speculations about the hyperbitcoinized future.  In &lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>, we defined the First Law of Bitcoin Astronomy and described how it incentivizes searching for energy to power our growing civilization.&lt;/p>
-&lt;p>In this part, we continue to &lt;em>follow the energy&lt;/em> and speculate about how money and society coevolve as humanity expands through space.  We begin with a brief review of Part I.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;div class="book-expand">
- &lt;label>
- &lt;div class="book-expand-head flex justify-between">
- &lt;span>Contents&lt;/span>
- &lt;span>...&lt;/span>
- &lt;/div>
- &lt;input type="checkbox" class="hidden" />
- &lt;div class="book-expand-content markdown-inner">
+&lt;p>In this part, we continue to &lt;em>follow the energy&lt;/em> and speculate about how money and society coevolve as humanity expands through space.  We begin with a brief review of Part I.&lt;/p></description></item><item><title>Part III</title><link>https://21ideas.org/en/ba/3/</link><pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/ba/3/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+ &lt;div class="markdown-inner">
  &lt;p>&lt;a href="https://21ideas.org/en/ba/1">Part I&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/2">Part II&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://21ideas.org/en/ba/3">Part III&lt;/a>&lt;/p>
 
  &lt;/div>
- &lt;/label>
-&lt;/div>
+&lt;/details>
 
 &lt;blockquote class="book-hint btc">
  &lt;p>This essay by Dhruv Bansal was published in Unchained &lt;a href="https://unchained.com/blog/bitcoin-astronomy-part-iii">blog&lt;/a>.&lt;/p>
