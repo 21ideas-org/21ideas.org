@@ -16,7 +16,7 @@ weight: 4
 
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/bychij-kejs-dlya-bitcoin)
 
@@ -36,4 +36,4 @@ weight: 4
 
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
-{{< /expand >}}
+{{< /details >}}

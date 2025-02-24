@@ -11,7 +11,7 @@ bookToc: true
 weight: 16
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 16
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-one-for-all).
@@ -177,7 +177,7 @@ Centralized governance of the money supply allows the distribution to consolidat
 
 When the incentives of a monetary medium align both individual and aggregate interests, non-zero sum outcomes become the default, as does balance. Bitcoin is accessible to anyone, and everyone that chooses to use it is afforded the same protections. Anyone that produces value and exchanges it for bitcoin is assured that their output will not be devalued in the future merely as a function of someone in a far-off land creating new units of money. Separately, everyone is assured the benefit of undistorted price signals. In bitcoin, rich and poor are provided these same protections equally. It is no guarantee that someone else will value the currency more or less, but it eliminates the possibility of an involuntary forced devaluation of labor and output stored in a monetary medium, which distorts economic activity and creates false price signals. When presented with that opportunity relative to a certainty of the worse outcome, it becomes a clear choice. Compared to the current economic structure in which the wealthiest better understand the effects of active monetary debasement and are best equipped to combat and exploit it, there is a reality that those on the lower end of the economic spectrum have more to gain by leveling the playing field. Even still, it is not about rich and poor. Everyone benefits from the elimination of money production and an economy that provides greater balance through the communication of more perfect information. 
 
-{{< tweet user="VitalikButerin" id="1030477916591685632" >}}
+{{< x user="VitalikButerin" id="1030477916591685632" >}}
 
 In a tweet from 2018, the founder of Ethereum (Vitalik Buterin) beautifully and ironically described the power of holding a currency with a fixed supply that could not be manipulated, while actually arguing for the opposite. He both made the precise argument which central bankers use to defend their actions while also articulating the power it would place in the holder of a currency with a fixed supply. While Buterin believes it to be oligarchic to have the immutable right to own a fixed percentage of all the world’s money indefinitely, what if that right were extended to the poorest people on earth? What if it were applied equally to every single person on earth? That is the power of bitcoin. If you are living in one of the poorest countries in the western hemisphere, such as Nicaragua, and choose to exchange your value for bitcoin, you now have an immutable right to own a fixed percentage of all the world’s money indefinitely. Only you can decide when, how and to whom to transfer that for value received in the future. The poorest in Nicaragua suddenly are elevated to the exact same leveled playing field as a billionaire in New York like Paul Tudor Jones. Within the bitcoin network, there is no distinction. Equal rights are the default. That cannot and does not exist in the legacy financial system. It is infinitely more oligarchic to indiscriminately devalue someone’s monetary savings by increasing the supply of money while at the same time determining to whom that new money should be “rewarded.” There can be no comparison between that world and allowing those that earn money honestly by producing value for others to determine how best to allocate it for value returned in the future.
 
@@ -191,7 +191,7 @@ There is no reason why a superior form of money would perform one function for s
 
 Thanks to Phil Geiger, Will Cole and Robert Breedlove for reviewing and for providing valuable feedback.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -211,4 +211,4 @@ Thanks to Phil Geiger, Will Cole and Robert Breedlove for reviewing and for prov
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

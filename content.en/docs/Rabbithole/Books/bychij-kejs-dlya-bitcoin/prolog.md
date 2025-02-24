@@ -12,7 +12,7 @@ bookFlatSection: false
 weight: 2
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/bychij-kejs-dlya-bitcoin)
 
@@ -32,7 +32,7 @@ weight: 2
 
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Прометей
 
@@ -78,7 +78,7 @@ weight: 2
 
 Это был значительный технический прорыв, и хотя он не был сразу очевиден для большинства членов списка рассылки по криптографии 31 октября 2008 года, изобретение Сатоши Накамото в итоге изменило мир.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/bychij-kejs-dlya-bitcoin)
 
@@ -98,7 +98,7 @@ weight: 2
 
 [Эпилог](/bychij-kejs-dlya-bitcoin/epilog)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: [http://bullishcaseforbitcoin.com/references/bitcoin-announcement](http://bullishcaseforbitcoin.com/references/bitcoin-announcement)  
 [^2]: [http://bullishcaseforbitcoin.com/references/finney-skepticism](http://bullishcaseforbitcoin.com/references/finney-skepticism)  

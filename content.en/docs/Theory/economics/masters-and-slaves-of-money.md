@@ -292,7 +292,7 @@ In truth, money is a social construct created to sacrifice time now and store it
 
 An integral element of the social contract, the time we spend serving society today must earn us money redeemable for equivalent services from it in the future. When this intertemporal trust arrangement breaks down due to tyrants robbing society through inflation, society slides into disintegration. Fiat currency is a supreme instrument of evil in the world: a weapon of intergenerational dispossession wielded by wily slavemasters over unsuspecting subjects.
 
-{{< tweet user="Breedlove22" id="1255166767996891137" >}}
+{{< x user="Breedlove22" id="1255166767996891137" >}}
 
 # Modern Slavemasters
 

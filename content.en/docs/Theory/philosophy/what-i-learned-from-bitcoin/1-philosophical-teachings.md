@@ -11,13 +11,13 @@ bookToc: true
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2018/12/21/philosophical-teachings-of-bitcoin) website.
@@ -35,7 +35,7 @@ I tried to group the teachings of Bitcoin by topics, resulting in three parts:
 
 As hinted above, attempting to answer this question fully is a fool’s errand, thus my answers will always be incomplete. I would like to lessen this shortcoming by inviting you, dear reader, to share your own answers to [this question](https://twitter.com/arjunblj/status/1050073234719293440):
 
-{{< tweet user="arjunblj" id="1050073234719293440" >}}
+{{< x user="arjunblj" id="1050073234719293440" >}}
 
 Bitcoin is indeed a game disguised. It is akin to a trapdoor, a gateway to a different world. A world much stranger than I would have ever imagined it to be. A world which takes your assumptions and shatters them into a thousand tiny pieces, again and again. Stick around for long enough, and Bitcoin will completely change your worldview.
 
@@ -228,10 +228,10 @@ What have you learned from Bitcoin?
 - Thanks to Jannik for providing feedback to early drafts of this article.
 - And finally, thanks to all the bitcoin maximalists, shitcoin minimalists, shills, bots, and shitposters which reside in the beautiful garden that is crypto twitter.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}

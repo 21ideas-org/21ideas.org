@@ -11,7 +11,7 @@ bookToc: true
 weight: 9
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 9
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-not-a-pyramid-scheme).
@@ -168,7 +168,7 @@ That is the promise which bitcoin provides, and it will only proliferate if it c
 
 Thanks to Phil Geiger and Adam Tzagournis for reviewing and for providing valuable feedback.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -188,4 +188,4 @@ Thanks to Phil Geiger and Adam Tzagournis for reviewing and for providing valuab
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

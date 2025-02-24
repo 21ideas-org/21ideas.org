@@ -11,7 +11,7 @@ bookFlatSection: false
 weight: 3
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -19,7 +19,7 @@ weight: 3
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This essay by Dhruv Bansal was published in Unchained [blog](https://unchained.com/blog/bitcoin-astronomy-part-iii).
@@ -465,7 +465,7 @@ But we _do_ have bitcoin!  And we _are_ experiencing hyperbitcoinization.  So
 
 Many thanks to my colleagues at Unchained Capital for the many interesting conversations which lead to speculations such as these.  Particular thanks are due to [Destry Saul](https://twitter.com/DestrySaul), [Joe Kelly](https://twitter.com/josephkelly), [Phil Geiger](https://twitter.com/phil_geiger), Martin Grogono, [Buck Perley](https://twitter.com/BuckPerley), and [Walden Raines](https://twitter.com/waldenraines), all of whom helped with discussion and review.  I must also thank [Velvet Campbell](https://twitter.com/velvet_campbell) by assuring her that this is the last article I intend to write on this topic.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -473,4 +473,4 @@ Many thanks to my colleagues at Unchained Capital for the many interesting conve
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}

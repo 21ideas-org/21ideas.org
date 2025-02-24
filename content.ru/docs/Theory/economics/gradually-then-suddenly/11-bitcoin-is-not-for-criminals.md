@@ -12,7 +12,7 @@ bookToc: true
 weight: 11
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -32,7 +32,7 @@ weight: 11
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 29 Ноября 2019 г.](https://unchained.com/blog/bitcoin-is-not-for-criminals/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
@@ -102,7 +102,7 @@ weight: 11
 
 Заключительная мысль (украденная у [@martybent](https://twitter.com/MartyBent)): История будет оглядываться на Росса Ульбрихта, предполагаемого основателя Шелкового пути, с гораздо большим одобрением, чем на центральные банки во всем мире. Не из-за наркотиков, а из-за Биткоина.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -122,4 +122,4 @@ weight: 11
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}

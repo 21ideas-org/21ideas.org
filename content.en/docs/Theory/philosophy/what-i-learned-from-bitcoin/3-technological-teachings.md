@@ -11,13 +11,13 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com](https://dergigi.com/2019/04/02/technological-teachings-of-bitcoin/) website.
@@ -414,10 +414,10 @@ My journey continues, and as mentioned in part one, I think that any answer to t
 - [_Why Bitcoin Matters_](https://hackernoon.com/why-bitcoin-matters-c8bf733b9fad) by [Aleksandar Svetski](https://twitter.com/AleksSvetski)
 - [_Guess My Bitcoin Private Key_](https://medium.com/@kerbleski/a-dance-with-infinity-980bd8e9a781) by [Michael Kerbleski](https://twitter.com/kerbleski)
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Part I. Philosophical Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-1)
 2. [Part II. Economic Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-2)
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}

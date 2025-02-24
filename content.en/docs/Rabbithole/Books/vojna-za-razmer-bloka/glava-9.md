@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 9
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 9
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube sLOkB5rz1gI >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -105,7 +105,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-9-faketoshi/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -151,4 +151,4 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}

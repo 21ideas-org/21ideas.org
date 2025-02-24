@@ -12,7 +12,7 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -32,7 +32,7 @@ weight: 3
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 Сложные системы, которые имеют искусственно подавленную волатильность, становятся чрезвычайно хрупкими, не демонстрируя при этом видимых рисков.
 
@@ -136,7 +136,7 @@ weight: 3
 
 > “Риск наступления экономического спада, похоже, уменьшился за последний месяц, или около того”. — 9 июня 2008 г.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -156,4 +156,4 @@ weight: 3
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}

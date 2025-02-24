@@ -12,7 +12,7 @@ A section devoted to the economic aspects of Bitcoin.
 
 ## Series 
 
-{{< expand "Gradually, Then Suddenly" "..." >}}
+{{< details "Gradually, Then Suddenly" "..." >}}
 ## Series of articles by Parker Lewis 
 
 The series will cover all the major economic, social and technological components of Bitcoin, as well as dispel the major misconceptions associated with it.
@@ -51,9 +51,9 @@ The series will cover all the major economic, social and technological component
 
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Discovering Bitcoin" "..." >}}
+{{< details "Discovering Bitcoin" "..." >}}
 ## Series of articles by Giacomo Zucco
 Welcome to the introduction to a series of seven articles, entitled “Discovering Bitcoin: A Brief Overview From Cavemen to the Lightning Network.”
 
@@ -73,7 +73,7 @@ Welcome to the introduction to a series of seven articles, entitled “Discoveri
 
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Articles
 

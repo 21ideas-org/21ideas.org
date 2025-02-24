@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 6
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 6
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 In the fifth installment of Giacomo Zucco’s “Discovering Bitcoin” series, he explores concepts of scarcity in the “virtual” world, energy consumption and digital “hardness.”
 
@@ -116,7 +116,7 @@ So far, you’ve learned:
 
 But now that you have effectively decentralized issuance, how can you do the same for ownership? We will answer that in “[Discovering Bitcoin Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts).”
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -125,4 +125,4 @@ But now that you have effectively decentralized issuance, how can you do the sam
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

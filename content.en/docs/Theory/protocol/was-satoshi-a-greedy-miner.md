@@ -61,7 +61,7 @@ If we read through the [dozen+ technical articles](http://satoshiblocks.info/abo
 
 There's an odd aspect to the timing distribution of blocks mined by Satoshi: they don't follow the distribution that we would expect from a miner that spends 100% of their time mining. In fact, they practically NEVER mined back-to-back blocks that were less than 5 minutes apart! A simple explanation is that they paused their miner for 5 minutes after mining a block.
 
-{{< tweet user="lopp" id="1566035352946724865" >}}
+{{< x user="lopp" id="1566035352946724865" >}}
 
 As Sergio explains in his research, it's _possible_ that Patoshi's miner kept mining right after finding a block, but that their custom mining software would artificially increment the following block's timestamp by no less than 300 seconds.
 

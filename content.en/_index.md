@@ -43,25 +43,25 @@ If you are just starting to familiarize yourself with Bitcoin, we have prepared 
 
 {{< /hint >}}
 
-{{< expand "Start" "...">}}
+{{< details "Start" "...">}}
 ![cover](/img/main-section/start-en.png)
 
 The **Start** section includes the most basic and essential materials to help you begin interacting with Bitcoin as quickly as possible. It is important to note that while these materials are selected to enable beginners to start using Bitcoin right away, they are not comprehensive. We strongly suggest visiting the site again later to check out the materials in the other sections.
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Theory" "..." >}}
+{{< details "Theory" "..." >}}
 ![cover](/img/main-section/theory-en.png)
 
 The [Theory]({{< ref "/docs/Theory" >}}) section provides an in-depth exploration of the theoretical aspects of Bitcoin. Here, you will find comprehensive information that will help you understand the significance of Bitcoin and the reasons why it is important to study it. It aims to answer the question, "Why Bitcoin?”
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Practice" "...">}}
+{{< details "Practice" "...">}}
 ![cover](/img/main-section/practice-en.png)
 
 Understanding the theory is important, but practical knowledge is equally crucial. Without it, you may become confused and potentially risk losing your savings. The [Practice]({{< ref "/docs/Practice" >}}) section of this guide is designed to equip you with the necessary skills to interact with Bitcoin effectively. This includes buying, storing, and exchanging coins without encountering any issues. Additionally, it will help you maintain your privacy and ensure the security of all your activities, protecting you from malicious users and potential mistakes.
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Rabbithole" "...">}}
+{{< details "Rabbithole" "...">}}
 ![cover](/img/main-section/rabbithole-en.png)
 # Additional Resources
 
@@ -78,4 +78,4 @@ Videos made by prominent bitcoiners and community members.
 ## Audio
 
 Links to podcasts, audiobooks, and other types of materials provided in audio format.
-{{< /expand >}}
+{{< /details >}}

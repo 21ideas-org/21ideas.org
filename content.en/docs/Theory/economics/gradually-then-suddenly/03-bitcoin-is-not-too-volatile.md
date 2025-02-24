@@ -11,7 +11,7 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 3
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-not-too-volatile).
@@ -133,7 +133,7 @@ Ultimately, bitcoin’s lack of a price stability mandate and fixed supply will 
 
 Thanks to Will Cole, Phil Geiger, Adam Tzagournis and Ethan Packard who have reviewed past and present releases of _Gradually, Then Suddenly_ and provided valuable feedback.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -153,4 +153,4 @@ Thanks to Will Cole, Phil Geiger, Adam Tzagournis and Ethan Packard who have rev
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

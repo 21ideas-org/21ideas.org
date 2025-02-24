@@ -14,7 +14,7 @@ weight: 4
 _This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -26,7 +26,7 @@ _This content is also available in video format in [this playlist](https://www.y
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Introduction
 
@@ -235,7 +235,7 @@ Thanks for reading and stay safe.
 
 _— The OXT Research Team_
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -247,4 +247,4 @@ _— The OXT Research Team_
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}

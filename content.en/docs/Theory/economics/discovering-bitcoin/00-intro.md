@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -19,7 +19,7 @@ weight: 1
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 Welcome to the introduction to a series of seven articles, entitled “Discovering Bitcoin: A Brief Overview From Cavemen to the Lightning Network.”
 
@@ -89,7 +89,7 @@ All the articles will include beautiful illustrations by [@BitcoinMemeHub](https
 
 So, are you ready? Cancel all of your appointments for the next week. Or, at least, remove five minutes from one of them, each day. See you next time, for “[Discovering Bitcoin Part 1: About Time.](/en/discovering-bitcoin/about-time)”
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -98,4 +98,4 @@ So, are you ready? Cancel all of your appointments for the next week. Or, at lea
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

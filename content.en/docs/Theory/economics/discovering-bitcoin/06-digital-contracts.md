@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 7
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 7
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 In the sixth installment of Giacomo Zucco’s “Discovering Bitcoin” series, he explores concepts of proving ownership, smart contracts and CoinJoins.
 
@@ -106,7 +106,7 @@ So far, you’ve learned:
 
 But now that your users can issue sats and transfer them in a completely decentralized way, how can they all be sure that a single chronology is followed, preventing double-spending attacks or attempts to tinker with the inflation schedule? We will answer that in our final installment, “[Discovering Bitcoin Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces).”
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -115,4 +115,4 @@ But now that your users can issue sats and transfer them in a completely decentr
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

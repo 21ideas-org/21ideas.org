@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -30,7 +30,7 @@ weight: 1
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://www.unchained-capital.com/blog/dollar-crisis-to-bitcoin).
@@ -71,7 +71,7 @@ Hayek writes about the price mechanism as the greatest distribution system of kn
 >
 > _– [Vijay Boyapati](https://twitter.com/real_vijay) on [SLP](https://stephanlivera.com/episode/2/)_
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -91,4 +91,4 @@ Hayek writes about the price mechanism as the greatest distribution system of kn
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

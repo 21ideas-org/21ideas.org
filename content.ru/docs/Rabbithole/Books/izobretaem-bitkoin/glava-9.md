@@ -12,7 +12,7 @@ bookToc: true
 weight: 10
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/izobretaem-bitkoin)
 
@@ -36,7 +36,7 @@ weight: 10
 
 [Глава 9: Что дальше?](/izobretaem-bitkoin/glava-9)
 
-{{< /expand >}}
+{{< /details >}}
 
 # Биткоин — MySpace криптовалют?
 
@@ -236,7 +236,7 @@ _• Bitcoin Past and Future —_ Мурад Махмудов [https://blog.usej
 
 Спасибо Джимми Сонгу за семинар по программированию блокчейна. Выступление Джимми послужила для меня конкретным толчком, в котором я нуждался, чтобы собрать этот текст воедино.
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/izobretaem-bitkoin)
 
@@ -260,6 +260,6 @@ _• Bitcoin Past and Future —_ Мурад Махмудов [https://blog.usej
 
 [Глава 9: Что дальше?](/izobretaem-bitkoin/glava-9)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: Узнайте больше о так называемом форке Segwit2X, который был запланирован в рамках соглашений о бэкрумах и впоследствии отозван здесь: [https://bitcoinmagazine.com/articles/now-segwit2x-hard-fork-has-really-failed-activate](https://bitcoinmagazine.com/articles/now-segwit2x-hard-fork-has-really-failed-activate)

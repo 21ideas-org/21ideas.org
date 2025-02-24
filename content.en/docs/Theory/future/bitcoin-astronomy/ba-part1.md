@@ -11,7 +11,7 @@ bookFlatSection: false
 weight: 1
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -19,7 +19,7 @@ weight: 1
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This essay by Dhruv Bansal was published in Unchained [blog](https://unchained.com/blog/law-of-hash-horizons).
@@ -282,7 +282,7 @@ Check out [Part 2](/en/ba/2) of this series in which we examine the more univers
 
 A great many people helped make this article possible. Foremost among these are my brilliant and understanding colleagues at [Unchained Capital](https://www.unchained.com) who have my gratitude for participating in and tolerating many wonderful conversations and Slack threads.  [Ryan Gentry](https://twitter.com/ryanthegentry?lang=en), [Taylor Pearson](https://twitter.com/TaylorPearsonMe), [Tuur Demeester](https://twitter.com/TuurDemeester), [Buck Perley](https://twitter.com/BuckPerley), [Marty Bent](https://twitter.com/MartyBent), and [Brandon Quittem](https://twitter.com/bquittem) gave me excellent feedback on early drafts.  [Dan Held](https://twitter.com/danheld), [Clark Moody](https://twitter.com/clarkmoody), [Grisha Trubetskoy](https://twitter.com/humblehack), [Murch](https://twitter.com/murchandamus), [David Harding](https://twitter.com/hrdng) and many others laid the foundation for all this speculation.  Thanks to all of you!
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 [Part I](/en/ba/1)
 
@@ -290,4 +290,4 @@ A great many people helped make this article possible. Foremost among these are 
 
 [Part III](/en/ba/3)
 
-{{< /expand >}}
+{{< /details >}}

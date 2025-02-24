@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 17
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 17
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube XENl75GrBWU >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -146,7 +146,7 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-17-user-activated-softfork/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -192,4 +192,4 @@ _Помимо YouTube с аудиокнигой можно ознакомить�
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}

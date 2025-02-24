@@ -10,7 +10,7 @@ bookToc: true
 weight: 3
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 ## Установка Биткоин-узла Dojo на x86
 
@@ -28,7 +28,7 @@ weight: 3
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{% hint btc %}}
 Перед выполнением дальнейших шагов убедитесь, что:
@@ -311,7 +311,7 @@ sudo cat /var/lib/tor/hidden_service_fulcrum/hostname
 https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 ```
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 ## Установка Биткоин-узла Dojo на x86
 
@@ -329,4 +329,4 @@ https://78aqvahpe6pjachf6nxroyr76gecku6nqoyngkj49r63n3twm6jpisyd.onion:50002
 
 [Часть 6. Установка обновлений пакетов](/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

@@ -14,7 +14,7 @@ weight: 2
 _This content is also available in video format in [this playlist](https://www.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg)._
 {{< /hint >}}
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -26,7 +26,7 @@ _This content is also available in video format in [this playlist](https://www.y
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Introduction
 
@@ -254,7 +254,7 @@ In the following section we will introduce the concepts used to defeat chain ana
 2. The privacy implications of sending and receiving payments
 3. How existing privacy techniques can mitigate many of the issues discussed throughout the guide.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Understanding Bitcoin Privacy with OXT
 
@@ -266,4 +266,4 @@ In the following section we will introduce the concepts used to defeat chain ana
 
 [Part 4: Applying Chain Analysis Concepts To Improve User Privacy](/en/privacy/oxt-4)
 
-{{< /expand >}}
+{{< /details >}}

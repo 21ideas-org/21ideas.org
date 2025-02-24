@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 14
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 14
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube F9D2x1aqP8I >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -117,7 +117,7 @@ ASICBoost – это способ уменьшить объем работы, к
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-14-asicboost/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -163,4 +163,4 @@ ASICBoost – это способ уменьшить объем работы, к
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}

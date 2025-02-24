@@ -98,7 +98,7 @@ It stems from a faulty basic assumption that adding additional units of a moneta
 
 {{% image "/img/21m-607.png" /%}}
 
-{{< tweet user="Vis_in_numeris" id="1241905410157805568" >}}
+{{< x user="Vis_in_numeris" id="1241905410157805568" >}}
 
 Unfortunately, introducing monetary inflation can’t make anybody “be bigger happy” except for those with the power to print currency and their closest friends, thanks to the [Cantillon effect](https://en.wikipedia.org/wiki/Richard_Cantillon#Monetary_theory). The Cantillon effect describes how the knowledge of a currency’s debasement spreads throughout society unequally, granting an advantage to those with the power to print money, and causing economic hardships for those furthest away from the printers. Currency is non-productive – it isn’t a company. Having more total supply just means that each individual unit is worth less, and value is transferred from those who hold the currency to those who create more units and distribute them before the rest of the population understands that their savings have been debased.
 

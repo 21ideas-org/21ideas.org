@@ -12,7 +12,7 @@ A subsection on philosophical aspects pointing to Bitcoin's dominance over the t
 
 ## Series  
 
-{{< expand "What I've Learned From Bitcoin" "..." >}}
+{{< details "What I've Learned From Bitcoin" "..." >}}
 
 ## Series of articles by Gigi
 
@@ -24,7 +24,7 @@ A subsection on philosophical aspects pointing to Bitcoin's dominance over the t
 
 3. [Part III. Technological Teachings of Bitcoin](/en/what-i-learned-from-bitcoin-3)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Articles
 

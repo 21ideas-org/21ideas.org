@@ -34,7 +34,7 @@ weight: 7
 
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -80,4 +80,4 @@ weight: 7
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}

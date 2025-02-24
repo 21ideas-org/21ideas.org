@@ -12,7 +12,7 @@ bookToc: true
 weight: 13
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -32,7 +32,7 @@ weight: 13
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 Перевод статьи [Паркера Льюиса](https://twitter.com/parkeralewis) [от 26 Марта 2020 г.](https://unchained.com/blog/bitcoin-is-a-rally-cry/) подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
@@ -100,7 +100,7 @@ _График цен на биткоин (Источник: Coinbase Pro Exchang
 > 
 > — подполковник Уильям Б. Тревис (24 февраля 1836 г.). [Ссылка на полное письмо Тревиса](https://en.wikipedia.org/wiki/To_the_People_of_Texas_%26_All_Americans_in_the_World)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 1. [Постепенно, затем внезапно: Введение](/pzv/postepenno-zatem-vnezapno)
 2. [Биткоин нельзя скопировать](/pzv/bitkoin-nelzya-skopirovat)
@@ -120,4 +120,4 @@ _График цен на биткоин (Источник: Coinbase Pro Exchang
 16. Биткоин — один для всех ([оригинал](/en/gradually-then-suddenly/bitcoin-is-one-for-all))
 17. [Биткоин — великая дефинанcиализация](/pzv/bitkoin-velikaya-definancializaciya)
 
-{{< /expand >}}
+{{< /details >}}

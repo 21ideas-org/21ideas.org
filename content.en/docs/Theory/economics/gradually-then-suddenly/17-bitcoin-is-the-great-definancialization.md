@@ -11,7 +11,7 @@ bookToc: true
 weight: 17
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -31,7 +31,7 @@ weight: 17
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< hint btc >}}
 This article by [Parker Lewis](https://twitter.com/parkeralewis) was first published in [Unchained blog](https://unchained.com/blog/bitcoin-is-the-great-definancialization).
@@ -80,7 +80,7 @@ Compensation typically comes in the form of money because money, as an economic 
 Central banks create more and more money which causes savings to be perpetually devalued. The entire incentive structure of money is manipulated, including the integrity of the scorecard that tracks who has created and consumed what value. Value created today is ensured to purchase less in the future as central banks allocate more units of the currency arbitrarily. Money is intended to store value, not lose value and with monetary economics engineered by central banks, everyone is unwittingly forced into the position of taking risk as a means to replace savings as it is debased. The unending devaluation of monetary savings forces unwanted and unwarranted risk taking on to those that make up the economy. Rather than simply benefiting from risks already taken, everyone is forced to take incremental risk.
 
 *Pierre Rochard & Nic Carter Discussing Savings vs. Investing on Bitcoin Twitter:*
-{{< tweet user="BitcoinIsSaving" id="1333458643136679937" >}}
+{{< x user="BitcoinIsSaving" id="1333458643136679937" >}}
 
 Forcing risk taking on practically all individuals within an economic system is not natural nor is it fundamental to the functioning of an economy. It is the opposite and it is detrimental to the stability of the system as a whole. As an economic function, risk taking itself is productive, necessary, and inevitable. The unhealthy part is specifically when individuals are forced into taking risk as a byproduct of central banks manufacturing money to lose value, whether those taking risk are conscious of the cause and effect or not. Risk taking is productive when it is intentional, voluntary and undertaken in the pursuit of accumulating capital. While deciphering between productive investment and that which is induced by monetary inflation is inherently grey, you know it when you see it. Productive investment occurs naturally as market participants work to improve their own lives and the lives of those around them. The incentives to take risk in a free market already exist. There is nothing to be gained, and a lot to lose, through central bank intervention.
 
@@ -190,7 +190,7 @@ It might start with the most obviously over-priced financial assets, such as neg
 
 More substantively, as time passes and as knowledge distributes, individuals will increasingly opt for the simplicity of bitcoin (and its 21 million fixed supply) over the complexity of financial investing and structured financial risk. Financial assets bear operational risk and counterparty risk, whereas bitcoin is a bearer asset, perfectly fixed in supply, highly divisible, and easily transferable. The utility of money is fundamentally distinct from that of a financial asset. A financial asset has a claim on the income stream of a productive asset, denominated in a particular form of money. The holder of a financial asset is taking risk with the goal of earning more money in the future. Owning and holding money is just that; it is valuable in its ability to be exchanged in the future for goods & services. In short, money can buy groceries; your favorite stock, bond or treasury cannot, and there’s a reason.
 
-{{< tweet user="saylor" id="1325799005692047361" >}}
+{{< x user="saylor" id="1325799005692047361" >}}
 
 There is and always has been a fundamental difference between saving and investment; savings are held in the form of monetary assets and investments are savings which are put at risk. The lines may have been blurred as the economic system financialized, but bitcoin will unblur the lines and make the distinction obvious once again. Money with the right incentive structure will overwhelm demand for complex financial assets and debt instruments. The average person will very intuitively and overwhelmingly opt for the security provided by a monetary medium with a fixed supply. As individuals opt out of financial assets and into bitcoin, the economy will definancialize. It will naturally shift the balance of power away from Wall St. and back to Main St.
 
@@ -204,7 +204,7 @@ The difference between saving in bitcoin (not taking risk) and financial investi
 
 This version of Gradually, then Suddenly is the 17th essay in the series and was first published as part of the Bitcoin Times (Ed. 3). I want to thank Aleks Svetski (CEO of [Amber Labs](https://amber.app/)) for organizing and inviting me to participate in the Bitcoin Times. I also want to thank Aleks in addition to Phil Geiger, Robert Breedlove and Will Cole for providing valuable feedback on this edition of the [Gradually, Then Suddenly](/en/gradually-then-suddenly) series. Lastly, I’d like to recognize the other contributors to the Bitcoin Times: Jimmy Song, Erik Cason, Jeff Booth, Giacomo Zucco and Aleks, himself (as well as Makena Rhodes for editing and design). I’m lucky to call these brave men friends, teammates, clients, twitter friends, fellow bitcoiners or a combination in certain cases. It’s an honor just to be included.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 1. [Gradually, Then Suddenly: Intro](/en/gradually-then-suddenly/intro)
 2. [Bitcoin Can’t Be Copied](/en/gradually-then-suddenly/bitcoin-cant-be-copied)
@@ -224,4 +224,4 @@ This version of Gradually, then Suddenly is the 17th essay in the series and was
 16. [Bitcoin is One for All](/en/gradually-then-suddenly/bitcoin-is-one-for-all)
 17. [Bitcoin is the Great Definancialization](/en/gradually-then-suddenly/bitcoin-is-the-great-definancialization)
 
-{{< /expand >}}
+{{< /details >}}

@@ -10,7 +10,7 @@ bookToc: true
 weight: 5
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 5
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{% hint btc %}}
 Prerequisites.
@@ -314,7 +314,7 @@ Select "pairing" from the DMT's menu to display the pairing QR code that can be 
 
 If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pairing QR is the one to the left.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -332,4 +332,4 @@ If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pa
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}

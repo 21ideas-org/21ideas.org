@@ -13,7 +13,7 @@ weight: 50
 
 Анил ([@anilsaidso](https://twitter.com/anilsaidso)) — независимый биткоин-преподаватель, создающий наглядные визуальные слайды, объясняющие принципы работы биткоина. Идеально подходит для новичков!
 
-{{< expand "Почему деньги стремятся к одной форме" "...">}}
+{{< details "Почему деньги стремятся к одной форме" "...">}}
 
 ![moneyone](/img/anil-slides/moneyone.png)
 
@@ -30,9 +30,9 @@ weight: 50
 
 📚 [Читать](/epubs/moneyone.pdf)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Биткоин: способы применения" "...">}}
+{{< details "Биткоин: способы применения" "...">}}
 
 ![terminology](/img/anil-slides/usecases.png)
 
@@ -44,9 +44,9 @@ weight: 50
 
 📚 [Читать](/epubs/usecases.pdf)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Nostr Интро" "...">}}
+{{< details "Nostr Интро" "...">}}
 
 ![nostr-intro](/img/anil-slides/nostr-intro.png)
 
@@ -63,9 +63,9 @@ weight: 50
 
 📚 [Читать](/epubs/nostr-intro.pdf)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Биткоин заблуждения" "...">}}
+{{< details "Биткоин заблуждения" "...">}}
 
 ![fallacies](/img/anil-slides/fallacies.png)
 
@@ -79,9 +79,9 @@ weight: 50
 
 📚 [Читать](/epubs/fallacies.pdf)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Биткоин: терминология" "...">}}
+{{< details "Биткоин: терминология" "...">}}
 
 ![terminology](/img/anil-slides/terminology.png)
 
@@ -97,9 +97,9 @@ weight: 50
 
 📚 [Читать](/epubs/terminology.pdf)
 
-{{< /expand >}}
+{{< /details >}}
 
-{{< expand "Основы Proof of Work" "...">}}
+{{< details "Основы Proof of Work" "...">}}
 
 ![pow](/img/anil-slides/pow.png)
 
@@ -115,4 +115,4 @@ weight: 50
 
 📚 [Читать](/epubs/pow-basics.pdf)
 
-{{< /expand >}}
+{{< /details >}}

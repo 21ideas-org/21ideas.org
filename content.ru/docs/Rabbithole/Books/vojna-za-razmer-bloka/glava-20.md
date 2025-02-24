@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 20
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 20
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube RhauQBxn_6k >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -169,7 +169,7 @@ Bitfinex также прояснила свою позицию в отношен
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-20-segwit2x/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -215,4 +215,4 @@ Bitfinex также прояснила свою позицию в отношен
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}

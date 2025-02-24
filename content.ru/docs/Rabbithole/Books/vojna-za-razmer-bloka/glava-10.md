@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 10
 ---
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -56,7 +56,7 @@ weight: 10
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 {{< youtube 6_1HR0HPosw >}}
 _Помимо YouTube с аудиокнигой можно ознакомиться на популярных подкаст-площадках: [https://www.21ideas.org/audio-audiobooks/](https://www.21ideas.org/audio-audiobooks/)_
@@ -134,7 +134,7 @@ Ethereum – это криптовалюта, впервые задуманна�
 
 [Оригинал](https://blog.bitmex.com/the-blocksize-war-chapter-10-the-dao/)
 
-{{< expand "Оглавление" "..." >}}
+{{< details "Оглавление" "..." >}}
 
 [Главная страница](/vojna-za-razmer-bloka)
 
@@ -180,7 +180,7 @@ Ethereum – это криптовалюта, впервые задуманна�
 
 [Глава 21: Победа](/vojna-za-razmer-bloka/glava-21)
 
-{{< /expand >}}
+{{< /details >}}
 
 [^1]: [https://www.reddit.com/r/btc/comments/4u0cuq/congratulation_small_blockers_this_is_a_direct/](https://www.reddit.com/r/btc/comments/4u0cuq/congratulation_small_blockers_this_is_a_direct/)
 

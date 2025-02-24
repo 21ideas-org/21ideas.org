@@ -172,11 +172,11 @@ So long as Bitcoin continues to exist (and without even considering its other su
 
 Hard money, as selected on the free market, reigned for the first 4,900 out of 5,000 years of human commercial history and we are witnessing its reemergence in the rise of Bitcoin.
 
-{{< tweet user="real_vijay" id="969284549283737600" >}}
+{{< x user="real_vijay" id="969284549283737600" >}}
 
 Bitcoin is the most credible monetary policy in human history disrupting the most untrustworthy monetary policies in human history.
 
-{{< tweet user="saifedean" id="1046752743396974592" >}}
+{{< x user="saifedean" id="1046752743396974592" >}}
 
 A bet on Bitcoin is that the competitive dynamics inherent to the market for money will continue to play out in the same way they have throughout all of history.
 

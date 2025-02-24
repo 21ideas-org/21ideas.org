@@ -126,7 +126,7 @@ Grubles has written an excellent [article](https://medium.com/hackernoon/complet
 
 For a quick visual on what it looks like to send bitcoin through a goTenna, click [here](https://www.youtube.com/watch?v=u-ly-figOtA&t=5s).
 
-{{< tweet user="CoinsureNZ" id="1052022462790033408" >}}
+{{< x user="CoinsureNZ" id="1052022462790033408" >}}
 
 Above is an interesting [tweet](https://twitter.com/CoinsureNZ/status/1052022462790033408) from CoinsureNZ about how he sent a Bitcoin transaction through goTenna.
 
@@ -146,7 +146,7 @@ However, the [Iridium](https://www.iridium.com/) network does allow for an uplin
   
 Probably one of the most mobile and agile options for making an offline Bitcoin transaction is [by using an Iridium RockBLOCK device](https://www.youtube.com/watch?v=Bi2_GfdmNSM).
 
-{{< tweet user="nickfogle" id="1033876976577273857" >}}
+{{< x user="nickfogle" id="1033876976577273857" >}}
 
 Founding team member at Casa, Nick Fogle, demonstrated this as shown on the [tweet](https://twitter.com/nickfogle/status/1033876976577273857?s=20) above.  
   
@@ -180,7 +180,7 @@ Nick Szabo initially [presented](https://www.youtube.com/watch?v=QkYXPJMqBNk&t=4
 
 Unfortunately, ham radio licenses are legally required in order to send data through this means of communication (no license required to receive data through ham radio). That being said, this barrier might not be as relevant in the event of an emergency situation.
 
-{{< tweet user="nvk" id="1101548727460741120" >}}
+{{< x user="nvk" id="1101548727460741120" >}}
 
 Rodolfo Novak, founder of Coinkite, has also [demonstrated](https://www.youtube.com/watch?v=bwp2miar83w) some proof-of-concept examples for Bitcoin transactions sent over radio. As you can tell from his [tweet](https://twitter.com/nvk/status/1101548727460741120) shown above, he was able to send a Lightning invoice from Toronto, Ontario, to San Francisco, California.
 

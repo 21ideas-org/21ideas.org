@@ -9,7 +9,7 @@ bookFlatSection: false
 weight: 4
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -18,7 +18,7 @@ weight: 4
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}
 
 In part three of Giacomo Zucco’s “Discovering Bitcoin” series, he explores the concepts of scarcity, liquidity and social “hardness” of goods.
 
@@ -98,7 +98,7 @@ So far, you’ve learned:
 
 In a word, you’ve basically discovered money. But can you make it better? This is something you will discover in [“Discovering Bitcoin Part 4: A Wrong Turn (New Plan Needed)!”](/en/discovering-bitcoin/a-wrong-turn-new-plan-needed)
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 1. [Introduction](/en/discovering-bitcoin/intro)
 2. [Part 1: About Time](/en/discovering-bitcoin/about-time)
 3. [Part 2: About People](/en/discovering-bitcoin/about-people)
@@ -107,4 +107,4 @@ In a word, you’ve basically discovered money. But can you make it better? This
 6. [Part 5: Digital Scarcity](/en/discovering-bitcoin/digital-scarcity)
 7. [Part 6: Digital Contracts](/en/discovering-bitcoin/digital-contracts)
 8. [Part 7: The Missing Pieces](/en/discovering-bitcoin/the-missing-pieces)
-{{< /expand >}}
+{{< /details >}}

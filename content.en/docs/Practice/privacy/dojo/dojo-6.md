@@ -10,7 +10,7 @@ bookToc: true
 weight: 7
 ---
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -28,7 +28,7 @@ weight: 7
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
 
 ## Introduction
 
@@ -384,7 +384,7 @@ sudo apt update && sudo apt upgrade -y
 
 Complete.
 
-{{< expand "Contents" "..." >}}
+{{< details "Contents" "..." >}}
 
 ## Dojo x86 Bitcoin Node Guide
 
@@ -402,4 +402,4 @@ Complete.
 
 [Part 6. Installing Package Updates](/en/practice-privacy/dojo-6)
 
-{{< /expand >}}
+{{< /details >}}
