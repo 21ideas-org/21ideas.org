@@ -9,8 +9,8 @@
   const indexConfig = Object.assign({{ $searchConfig }}, {
     doc: {
       id: 'id',
-      field: ['title', 'content'],
-      store: ['title', 'href', 'section']
+      field: ['title', 'content', 'tags_index'],
+      store: ['title', 'href', 'section', 'tags']
     }
   });
 
@@ -63,6 +63,11 @@
     fetch(searchDataURL)
       .then(pages => pages.json())
       .then(pages => {
+        // Process pages to create a searchable tags string
+        pages = pages.map(page => ({
+          ...page,
+          tags_index: page.tags ? page.tags.join(' ') : ''
+        }));
         window.bookSearchIndex = FlexSearch.create('balance', indexConfig);
         window.bookSearchIndex.add(pages);
       })
@@ -87,6 +92,15 @@
       a.href = page.href;
       a.textContent = page.title;
       small.textContent = page.section;
+
+      if (page.tags && page.tags.length) {
+        const tags = element('<div class="tags"></div>');
+        page.tags.forEach(tag => {
+          const tagEl = element(`<span class="tag">${tag}</span>`);
+          tags.appendChild(tagEl);
+        });
+        li.appendChild(tags);
+      }
 
       results.appendChild(li);
     });
