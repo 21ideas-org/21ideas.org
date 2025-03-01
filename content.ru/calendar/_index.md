@@ -1,7 +1,7 @@
 ---
 menu:
   after:
-    weight: 2
+    weight: 3
 # cover: /img/main-section/ru/calendar-dark.png
 # coverDark: /img/main-section/ru/calendar-light.png
 description: "Биткоин-календарь – это проект, цель которого – держать вас в курсе важнейших исторических событий в мире Биткоина."

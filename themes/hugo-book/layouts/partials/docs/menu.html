@@ -14,9 +14,17 @@
   {{ partial "docs/menu-filetree" . }}
 {{ end }}
 
-  <div class="menuSep"></div>
+<div class="menuSep"></div>
 
 {{ partial "docs/menu-hugo" . }}
+
+<div class="menuSep"></div>
+
+<div id="metrics-container" class="metrics-container" style="padding: 1rem; text-align: center; font-size: 0.9em; cursor: pointer;">
+  <div id="metrics-label" style="margin-bottom: 0.5rem; color: var(--gray-500);">Комиссия</div>
+  <div id="metrics-value" style="font-weight: bold; color: var(--color-link);">0 sat/vB</div>
+</div>
+
 {{ partial "docs/inject/menu-after" . }}
 </nav>
 
@@ -29,3 +37,7 @@
 {{ with $script.Content }}
   <script>{{ . | safeJS }}</script>
 {{ end }}
+
+<!-- Load metrics script -->
+{{ $metricsScript := resources.Get "fee-rate.js" | resources.Minify | resources.Fingerprint }}
+<script defer src="{{ $metricsScript.RelPermalink }}"></script>
