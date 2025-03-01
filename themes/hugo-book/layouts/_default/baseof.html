@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ default .Site.Language.Lang .Site.LanguageCode  }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">  {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<body dir="{{ .Site.Language.LanguageDirection | default "ltr" }}">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -35,18 +35,26 @@
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+    {{ if default true .Site.Params.BookToC }}
     <aside class="book-toc">
       <div class="book-toc-content">
         {{ template "toc" . }} <!-- Table of Contents -->
       </div>
     </aside>
     {{ end }}
+
+    {{ if default true .Site.Params.BookGraph }}
+    <aside class="book-graph">
+      {{ partial "docs/graph-view" . }}
+    </aside>
+    {{ end }}
   </main>
 
   {{ partial "docs/inject/body" . }}
 
-  <script src="{{ "/static/scripts.js" | relURL }}"></script>
+  {{ $graphJSFile := printf "%s.graph.js" .Language.Lang }}
+  {{ $graphJS := resources.Get "graph.js" | resources.ExecuteAsTemplate $graphJSFile . | resources.Minify | resources.Fingerprint }}
+  <script defer src="{{ $graphJS.RelPermalink }}"></script>
 
 </body>
 </html>
@@ -58,7 +66,7 @@
 {{ define "header" }}
   {{ partial "docs/header" . }}
 
-  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+  {{ if default true .Site.Params.BookToC }}
   <aside class="hidden clearfix">
     {{ template "toc" . }}
   </aside>
