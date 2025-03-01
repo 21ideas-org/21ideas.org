@@ -10,7 +10,7 @@
     doc: {
       id: 'id',
       field: ['title', 'content', 'tags_index'],
-      store: ['title', 'href', 'section']
+      store: ['title', 'href', 'section', 'tags']
     }
   });
 
@@ -92,6 +92,15 @@
       a.href = page.href;
       a.textContent = page.title;
       small.textContent = page.section;
+
+      if (page.tags && page.tags.length) {
+        const tags = element('<div class="tags"></div>');
+        page.tags.forEach(tag => {
+          const tagEl = element(`<span class="tag">${tag}</span>`);
+          tags.appendChild(tagEl);
+        });
+        li.appendChild(tags);
+      }
 
       results.appendChild(li);
     });

@@ -43,18 +43,9 @@
     </aside>
     {{ end }}
 
-    {{ if default true .Site.Params.BookGraph }}
-    <aside class="book-graph">
-      {{ partial "docs/graph-view" . }}
-    </aside>
-    {{ end }}
   </main>
 
   {{ partial "docs/inject/body" . }}
-
-  {{ $graphJSFile := printf "%s.graph.js" .Language.Lang }}
-  {{ $graphJS := resources.Get "graph.js" | resources.ExecuteAsTemplate $graphJSFile . | resources.Minify | resources.Fingerprint }}
-  <script defer src="{{ $graphJS.RelPermalink }}"></script>
 
 </body>
 </html>
