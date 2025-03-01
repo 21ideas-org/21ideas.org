@@ -271,3 +271,20 @@
   background-color: orange !important;
   text-decoration: none !important; /* Ensure no underlines or changes */
 }
+
+// Tags in search results
+.book-search {
+  .tags {
+    margin-top: 0.25rem;
+    
+    .tag {
+      display: inline-block;
+      padding: 0.1rem 0.5rem;
+      margin-right: 0.5rem;
+      font-size: 0.8rem;
+      background: #f0f0f0;
+      border-radius: 3px;
+      color: #666;
+    }
+  }
+}
