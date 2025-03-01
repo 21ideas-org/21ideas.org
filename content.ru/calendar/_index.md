@@ -29,7 +29,7 @@ https://calendar.google.com/calendar/embed?src=901be563cfa8dd0ab23b2d3e0b062a2e7
 <iframe src="https://calendar.google.com/calendar/embed?src=901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 ```
 
-- Импортировать в любимое приложение, вставив эту строчку (адрес в формате iCal):
+- Импортировать в любимое приложение, вставив эту строчку ([Адрес](/docs/Start/glossary#address) в формате iCal):
 
 ```
 https://calendar.google.com/calendar/ical/901be563cfa8dd0ab23b2d3e0b062a2e7d54d870b4f349330821548dc2e8f335%40group.calendar.google.com/public/basic.ics

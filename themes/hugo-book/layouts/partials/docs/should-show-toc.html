@@ -1,0 +1,14 @@
+{{/* Check if ToC should be shown */}}
+{{ $showToc := false }}
+
+{{/* If BookToC is explicitly set in page params, use that */}}
+{{ if isset .Params "bookToc" }}
+  {{ $showToc = .Params.BookToC }}
+{{ else }}
+  {{/* For regular pages (not _index.md), show ToC by default */}}
+  {{ if and (ne .Kind "section") (ne .Kind "home") }}
+    {{ $showToc = true }}
+  {{ end }}
+{{ end }}
+
+{{ return $showToc }} 
