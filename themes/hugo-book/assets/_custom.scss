@@ -288,3 +288,56 @@
     }
   }
 }
+
+.book-graph {
+  position: fixed;
+  top: var(--navbar-height);
+  bottom: 0;
+  right: 0;
+  width: var(--toc-width);
+  background: var(--body-background);
+  border-left: 1px solid var(--gray-200);
+  z-index: 1;
+  overflow: hidden;
+
+  #graph-container {
+    width: 100%;
+    height: 100%;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .node {
+      cursor: pointer;
+
+      circle {
+        transition: r 0.2s, fill 0.2s;
+      }
+
+      text {
+        display: none;
+        font-family: var(--body-font);
+        fill: var(--body-font-color);
+      }
+
+      &:hover {
+        circle {
+          r: 8;
+          fill: var(--color-link);
+        }
+
+        text {
+          display: block;
+        }
+      }
+    }
+
+    .link {
+      stroke: var(--gray-500);
+      stroke-width: 1px;
+      stroke-opacity: 0.6;
+    }
+  }
+}

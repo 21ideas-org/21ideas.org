@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+    {{- $pages = where $pages "Params.bookHidden" "!=" true -}}
+    {{- $len := len $pages -}}
+    {{- range $index, $page := $pages -}}
+    {
+      "id": "{{ $page.RelPermalink }}",
+      "title": {{ (partial "docs/title" $page) | jsonify }},
+      "section": {{ (partial "docs/title" $page.Parent) | jsonify }}
+    }{{- if not (eq (add $index 1) $len) -}},{{- end -}}
+    {{- end -}}
+  ],
+  "links": [
+    {{- $links := slice -}}
+    {{- range $pages -}}
+      {{- $currentPage := . -}}
+      {{- $content := .Plain -}}
+      {{- range $pages -}}
+        {{- if not (eq . $currentPage) -}}
+          {{- $title := partial "docs/title" . | plainify -}}
+          {{- $pattern := printf "(?i)%s" $title -}}
+          {{- if findRE $pattern $content 1 -}}
+            {{- $links = $links | append (dict "source" $currentPage.RelPermalink "target" .RelPermalink) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $linksLen := len $links -}}
+    {{- range $index, $link := $links -}}
+    {
+      "source": "{{ $link.source }}",
+      "target": "{{ $link.target }}"
+    }{{- if not (eq (add $index 1) $linksLen) -}},{{- end -}}
+    {{- end -}}
+  ]
+} 
