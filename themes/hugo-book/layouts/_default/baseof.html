@@ -47,6 +47,11 @@
 
   {{ partial "docs/inject/body" . }}
 
+  <!-- Bitcoin Metrics -->
+  {{ $feeRate := resources.Get "fee-rate.js" | resources.Minify }}
+  {{ with $feeRate.Content }}
+    <script>{{ . | safeJS }}</script>
+  {{ end }}
 </body>
 </html>
 

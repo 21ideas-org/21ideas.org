@@ -18,13 +18,11 @@
       {{- if $url.Fragment }}
         {{- $destination = print $destination "#" $url.Fragment }}
       {{- end }}
-      <a href="{{ $destination | safeURL }}" class="internal-link"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
     {{- else if fileExists (print .Page.File.Dir .Destination) }}
       <!-- Nothing -->
     {{- else -}}
       {{- warnf "Page '%s' not found in '%s'" .Destination .Page.File }}
     {{- end }}
-  {{- else }}
-    <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }} target="_blank" rel="noopener">{{ .Text | safeHTML }}</a>
   {{- end }}
+  <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- end -}}
