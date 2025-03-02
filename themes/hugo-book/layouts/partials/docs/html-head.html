@@ -61,7 +61,3 @@ https://github.com/alex-shpak/hugo-book
 {{- end -}}
 
 <script type="text/javascript" src="https://unpkg.com/zapthreads@0.5.2/dist/zapthreads.iife.js"></script>
-{{- $clipboardJS := resources.Get "clipboard.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $clipboardJS.RelPermalink }}" {{ template "integrity" $clipboardJS }}></script>
-{{- $previewJS := resources.Get "link-preview.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $previewJS.RelPermalink }}" {{ template "integrity" $previewJS }}></script>
