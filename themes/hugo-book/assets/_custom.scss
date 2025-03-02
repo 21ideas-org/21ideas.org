@@ -300,6 +300,20 @@
 
 .metrics-container {
   cursor: pointer;
+  text-align: center;
+  font-size: 1.2em;
+  
+  #metrics-label {
+    color: var(--gray-500);
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+    display: block;
+  }
+  
+  #metrics-value {
+    color: #ff9500;
+    font-weight: bold;
+  }
 }
 
 /* Internal link styles */
@@ -310,4 +324,9 @@
   &:hover {
     text-decoration: underline;
   }
+}
+
+.menuBlock {
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
