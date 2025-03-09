@@ -17,7 +17,7 @@ weight: 6
 
 4. [Подписки с помощью Лайтнинг](/zapplanner)
 
-5. [Телеграм-бот @LightningTipBot](/lntips)
+5. [Телеграм-бот @ZapGram](/zapgram)
 
 6. [Очищаем биткоины через сеть Лайтнинг](/ochishchaem-bitcoin-cherez-lajtning/)
 
