@@ -18,6 +18,32 @@ weight: 3
 
 # Публикация статей через Obsidian
 
+<a href="https://zapmeacoffee.com/npub1tcalvjvswjh5rwhr3gywmfjzghthexjpddzvlxre9wxfqz4euqys0309hn" 
+   target="_blank" class="zap-button">
+  <img src="https://i.nostr.build/inJGazdEkA8vOje2.png" alt="Zap Me a Coffee" class="zap-img">
+</a>
+
+<style>
+  .zap-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+  }
+
+  .zap-button:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(255, 223, 0, 0.8));
+  }
+
+  .zap-img {
+    width: 150px;  /* Adjust width for a horizontal look */
+    height: auto;  /* Maintain aspect ratio */
+  }
+</style>
+
 Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом
 
 {{< hint btc >}}
