@@ -23,19 +23,31 @@
  Публикация статей через Obsidian
  &lt;a class="anchor" href="#%d0%bf%d1%83%d0%b1%d0%bb%d0%b8%d0%ba%d0%b0%d1%86%d0%b8%d1%8f-%d1%81%d1%82%d0%b0%d1%82%d0%b5%d0%b9-%d1%87%d0%b5%d1%80%d0%b5%d0%b7-obsidian">#&lt;/a>
 &lt;/h1>
-&lt;p>Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом&lt;/p>
-&lt;blockquote class="book-hint btc">
- Гид подготовил &lt;a href="https://snort.social/p/npub1zvvv8fm7w2ngwdyszg3y6zgp6vwqlht8zrr8wcmjaxjecrvpjfwsd0zs7w">almoo&lt;/a>. &lt;a href="https://21ideas.org/contribute/">Поддержать проект&lt;/a>.
-&lt;/blockquote>
+&lt;p>&lt;a href="https://zapmeacoffee.com/npub1tcalvjvswjh5rwhr3gywmfjzghthexjpddzvlxre9wxfqz4euqys0309hn" 
+target="_blank" class="zap-button">
+&lt;img src="https://i.nostr.build/inJGazdEkA8vOje2.png" alt="Zap Me a Coffee" class="zap-img">
+&lt;/a>&lt;/p>
+&lt;style>
+ .zap-button {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+ border-radius: 5px;
+ transition: transform 0.2s ease, filter 0.2s ease;
+ }
 
-&lt;p>В этом материале разберем простой способ публикации статей на сайт 21ideas с использованием программы Obsidian. Для данного способа потребуется:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://obsidian.md">Obsidian&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://21ideas.org/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows">Hugo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/denolehov/obsidian-git">Плагин &amp;ldquo;Obsidian Git&amp;rdquo;&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/fzdwx/hugo-preview-obsidian">Плагин &amp;ldquo;Hugo preview obsidian&amp;rdquo;&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Чтобы не перегружать статью информацией, которая уже публиковалась в смежных гидах, я буду просто ссылаться на неё. Например, в этом гиде мы не будем рассматривать процесс установки Hugo, так как об этом уже было написано &lt;a href="https://21ideas.org/github/#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%bd%d0%b0-windows">здесь&lt;/a>.&lt;/p></description></item><item><title>Обратная связь</title><link>https://21ideas.org/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/feedback/</guid><description>&lt;p>Есть предложения по улучшению контента и сотрудничеству? Хотите оставить фидбэк? Не можете найти ответ на интересующий вас вопрос? Пишите:&lt;/p>
+ .zap-button:hover {
+ transform: scale(1.05);
+ filter: drop-shadow(0 0 10px rgba(255, 223, 0, 0.8));
+ }
+
+ .zap-img {
+ width: 150px; /* Adjust width for a horizontal look */
+ height: auto; /* Maintain aspect ratio */
+ }
+&lt;/style>
+&lt;p>Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом&lt;/p></description></item><item><title>Обратная связь</title><link>https://21ideas.org/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://21ideas.org/feedback/</guid><description>&lt;p>Есть предложения по улучшению контента и сотрудничеству? Хотите оставить фидбэк? Не можете найти ответ на интересующий вас вопрос? Пишите:&lt;/p>
 &lt;h2 id="тони">
  Тони
  &lt;a class="anchor" href="#%d1%82%d0%be%d0%bd%d0%b8">#&lt;/a>
