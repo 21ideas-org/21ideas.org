@@ -1,8 +1,8 @@
 ---
-title: "Телеграм-бот @ZapGram"
-h1: "Телеграм-бот @ZapGram с поддержкой сети Лайтнинг"
+title: "Телеграм-бот ZapGram"
+h1: "Телеграм-бот ZapGram с поддержкой сети Лайтнинг"
 cover: /img/zapgram/zapgram-cover.png
-description: "Lightning Tip Bot – удобный робот, который выведет ваше взаимодействие с Telegram, сетью Молния и протоколом Nostr на новый уровень."
+description: "ZapGram – удобный робот, который выведет ваше взаимодействие с Telegram и сетью Лайтнинг на новый уровень."
 url: zapgram
 date: 2023-03-03
 bookFlatSection: false
