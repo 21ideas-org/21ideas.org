@@ -349,7 +349,6 @@ weight: 1
             <a href="/epubs/mashina-pravdy.epub" class="button">Скачать</a>
         </div>
 </div>
-<br>
 
 <h2>Экономика</h2>
 <br>
