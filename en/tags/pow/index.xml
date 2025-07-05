@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pow" on 21ideas</title><link>https://21ideas.org/en/tags/pow/</link><description>Recent content in Pow" on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 17 May 2025 09:57:05 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/pow/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitcoin Does Not Waste Energy</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</link><pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-does-not-waste-energy/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pow on 21ideas</title><link>https://21ideas.org/en/tags/pow/</link><description>Recent content in Pow on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 05 Jul 2025 19:07:14 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/pow/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitcoin Can’t Be Copied</title><link>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</link><pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/gradually-then-suddenly/bitcoin-cant-be-copied/</guid><description>&lt;details >&lt;summary>Contents&lt;/summary>
  &lt;div class="markdown-inner">
  &lt;ol>
 &lt;li>&lt;a href="https://21ideas.org/en/gradually-then-suddenly/intro">Gradually, Then Suddenly: Intro&lt;/a>&lt;/li>
@@ -24,4 +24,21 @@
 &lt;/details>
 
 &lt;blockquote class="book-hint btc">
- &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-does-not-waste-energy">Unchained blog&lt;/a>.&lt;/p></description></item></channel></rss>
+ &lt;p>This article by &lt;a href="https://twitter.com/parkeralewis">Parker Lewis&lt;/a> was first published in &lt;a href="https://unchained.com/blog/bitcoin-cant-be-copied">Unchained blog&lt;/a>.&lt;/p></description></item><item><title>Bitcoin Is Not Harmful For The Environment</title><link>https://21ideas.org/en/bitcoin-is-not-harmful-for-the-environment/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-is-not-harmful-for-the-environment/</guid><description>&lt;blockquote class="book-hint btc">
+ &lt;p>This article by Peter St. Onge was first published on &lt;a href="https://mises.org/wire/critics-claim-bitcoin-threat-environment-theyre-wrong">Mises Institute&lt;/a> website.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;p>One popular critique of bitcoin is energy cost per transaction. This doesn’t begin to capture bitcoin’s massive energy savings compared to fiat currency.&lt;/p>
+&lt;p>Bitcoin’s cost per transaction is well known, and often critiqued; one article in &lt;em>Wired&lt;/em> &lt;em>magazine&lt;/em> called bitcoin “&lt;a href="https://www.wired.com/story/bitcoin-global-warming/">[a] big middle finger to earth’s climate&lt;/a>.” This is because bitcoin’s security, redundancy, and architecture are more energy intensive than traditional payments relying on a single point of failure.&lt;/p></description></item><item><title>Who Controls Bitcoin Core?</title><link>https://21ideas.org/en/who-controls-bitcoin-core/</link><pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/who-controls-bitcoin-core/</guid><description>&lt;p>Understanding how the focal point of Bitcoin development operates.&lt;/p>
+&lt;blockquote class="book-hint btc">
+ &lt;p>This article by &lt;a href="https://twitter.com/lopp">Jameson Lopp&lt;/a> was published in his &lt;a href="https://blog.lopp.net/who-controls-bitcoin-core">blog&lt;/a>.&lt;/p>
+&lt;p>&lt;a href="https://21ideas.org/contribute/">Contribute&lt;/a>.&lt;/p>
+
+&lt;/blockquote>
+
+&lt;blockquote class="book-hint info">
+ if you&amp;rsquo;d prefer to consume this essay in audio format, you can &lt;a href="https://lopp.net/media-archive/presentations/Who_Controls_Bitcoin_Core.mp3">listen to it here&lt;/a> (narrated by &lt;a href="https://guyswann.com/">Guy Swann&lt;/a> of the Bitcoin Audible Podcast.)
+&lt;/blockquote>
+&lt;p>The question of who controls the ability to merge code changes into &lt;a href="https://bitcoincore.org/">Bitcoin Core&lt;/a>’s &lt;a href="https://github.com/bitcoin/bitcoin">GitHub repository&lt;/a> tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin. It’s certainly not obvious to a layman as to why that is the case, thus the goal of this article is to explain how Bitcoin Core operates and, at a higher level, how the Bitcoin protocol itself evolves.&lt;/p></description></item></channel></rss>
