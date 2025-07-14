@@ -112,6 +112,4 @@ params:
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
 
-  # The Plausible  privacy-oriented website visits analytics
-  BookHead: partials/head.html
 
