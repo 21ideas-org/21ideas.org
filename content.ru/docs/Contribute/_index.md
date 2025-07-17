@@ -50,12 +50,6 @@ _[zap@21ideas.org](lightning:21ideas@getalby.com)_
 ---
 
 У проекта также есть [страничка](https://geyser.fund/project/21ideas) на Geyser.
-<---> 
-
-## Другое
-Воспользуйтесь сервисом [Tourniquet](https://tourniquet.app/donate/21ideas) для донатов самыми разными криптовалютами (включая биткоин и лайтнинг) 
-  
-Подпишитесь на проект на [boosty](https://boosty.to/21ideas), чтобы поддержать рублём. 
 
 {{< /columns >}}
 
