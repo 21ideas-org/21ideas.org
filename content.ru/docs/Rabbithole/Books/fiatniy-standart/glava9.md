@@ -2,11 +2,11 @@
 title: "Глава 9"
 h1: "Глава 9 – Фиатная наука"
 description: "В отсутствие фиатна понимание питания большинством людей было бы совсем иным и гораздо более похожим на традиции их предков, которые в значительной степени вращались вокруг животной пищи."
-url: fiatniy-standart/9-zap
+url: fiatniy-standart/9
 date: 2021-05-19
 bookFlatSection: false
 bookToc: true
-bookHidden: true
+bookHidden: false
 weight: 10
 ---
 
