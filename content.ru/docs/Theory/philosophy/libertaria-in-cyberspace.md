@@ -4,7 +4,6 @@ h1: "Либертария в киберпространстве"
 cover: /img/libertaria-in-cyberspace.jpeg
 description: "Основная проблема в том, что физическое пространство слишком мало, слишком открыто для посторонних глаз... Киберпространство выглядит более многообещающим."
 url: libertaria
-aliases: ['/theory-philosophy-bitcoin-is-freedom','/bitcoin-equals-freedom']
 date: 2019-09-25
 bookFlatSection: false
 weight: 68
