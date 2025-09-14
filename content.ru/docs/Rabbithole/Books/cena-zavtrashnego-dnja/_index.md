@@ -18,7 +18,7 @@ weight: 1
 Поблагодарить работавших над переводом можно, перейдя по [этой ссылке](/contribute/). Поддержать автора можно, посетив его [вебсайт](https://www.jeffbooth.ca/), где указаны его реквизиты.
 {{< /hint >}}
 
-## Оглавление
+{{< details "Оглавление" "..." >}}
 
 - [Об авторе](/cena/ob-avtore)
 
@@ -46,3 +46,13 @@ weight: 1
 
 10. [Призыв к действию](/cena/10)
 
+{{< /details >}}
+
+Книга также [доступна](https://www.youtube.com/playlist?list=PL4Iznl-WZTbBR0ruOVkn3F3NoZxaNrf5s) на YouTube – h/t [BitKorn](https://www.youtube.com/@BitKorn), – а также в аудиоформате: 
+- Подкаст 21ideas на Fountain (поддержка Лайтнинг) [здесь](https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8)
+- Плейлист Spotify [здесь](https://open.spotify.com/playlist/6MzfgCM2U0gxylOgAtr7m7)
+- На всех подкаст-площадках по запросу 21ieas.
+
+---
+
+{{< button href="/epubs/price-of-tomorrow.epub" >}}Скачать epub{{< /button >}}

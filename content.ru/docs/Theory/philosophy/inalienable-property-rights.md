@@ -13,7 +13,7 @@ weight: 52
 ---
 
 {{< hint btc >}}
-Перевод [статьи](https://dergigi.com/2022/04/03/inalienable-property-rights/) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
+Перевод [статьи](https://dergigi.com/2022/04/03/inalienable-property-rights/) Dergigi подготовлен пабликом [∞/21M](https://t.me/gametheoryhub). Редактура [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 {{< /hint >}}
 
 Закон. Язык. Деньги. Три парадигмы спонтанного и возникающего порядка в обществе. В основе всего этого лежат моральные вопросы:
