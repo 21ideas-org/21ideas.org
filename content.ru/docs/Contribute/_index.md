@@ -31,9 +31,6 @@ __21ideas__ - открытый проект, и каждый может внес
 
 ![onchain](/img/0.jpeg)
 
----
-
-[Тапрут](/taproot): `bc1p6gmgwj3ed0sxdstseqmvhdzqv4qq0udrznxkheuhtkc8va49ptmqd3mrsy`
 <---> 
 
 ## Лайтнинг
