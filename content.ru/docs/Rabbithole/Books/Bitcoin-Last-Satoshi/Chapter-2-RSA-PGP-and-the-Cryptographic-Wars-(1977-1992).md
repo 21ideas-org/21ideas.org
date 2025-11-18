@@ -1,3 +1,18 @@
+---
+title: "Биткойн: Последгий Сатоши"
+h1: "ГЛАВА 2: RSA, PGP И КРИПТОГРАФИЧЕСКИЕ ВОЙНЫ (1977-1992)"
+cover: /img/.png
+tags: ["биткойн", "будущее", "утопия", "антиутопия"]
+description: "2150 год. Десять лет после добычи последнего биткоина. ..."
+url: Bitcoin-Last-Satoshi/chapter-2
+aliases: ['/Bitcoin-Last-Satoshi-chapter-2']
+date: 2025-11-01
+bookFlatSection: false
+bookToc: true
+weight: 1
+---
+
+
 # ГЛАВА 2: RSA, PGP И КРИПТОГРАФИЧЕСКИЕ ВОЙНЫ (1977-1992)
 
 ## ОТ ТЕОРИИ К ОРУЖИЮ СВОБОДЫ
