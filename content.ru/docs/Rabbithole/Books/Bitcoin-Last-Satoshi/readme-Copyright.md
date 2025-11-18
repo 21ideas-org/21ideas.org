@@ -1,3 +1,17 @@
+---
+title: "Биткойн: Последгий Сатоши"
+h1: "Copyright"
+cover: /img/.png
+tags: ["биткойн", "будущее", "утопия", "антиутопия"]
+description: "2150 год. Десять лет после добычи последнего биткоина. ..."
+url: Bitcoin-Last-Satoshi/Copyright
+aliases: ['/Bitcoin-Last-Satoshi-Copyright']
+date: 2025-11-01
+bookFlatSection: false
+bookToc: true
+weight: 1
+---
+
 © 2025 [Андрей Семёнов / Andrey Kapro]. «Биткойн: Последний Сатоши». Распространение допускается только с указанием автора, без изменений.
 
 Если книга вам понравилась - вы можете поддержать автора.
