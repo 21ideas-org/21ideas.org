@@ -1,3 +1,17 @@
+---
+title: "Биткойн: Последгий Сатоши"
+h1: "ГЛАВА 1: ДИФФИ-ХЕЛЛМАН — ФУНДАМЕНТ БУДУЩЕГО"
+cover: /img/.png
+tags: ["биткойн", "будущее", "утопия", "антиутопия"]
+description: "2150 год. Десять лет после добычи последнего биткоина. ..."
+url: Bitcoin-Last-Satoshi/chapter-1
+aliases: ['/Bitcoin-Last-Satoshi-chapter-1']
+date: 2025-11-01
+bookFlatSection: false
+bookToc: true
+weight: 1
+---
+
 # ГЛАВА 1: ДИФФИ-ХЕЛЛМАН — ФУНДАМЕНТ БУДУЩЕГО
 
 ## ПРЕДЫСТОРИЯ: СОРОК ЛЕТ ДО БИТКОИНА
