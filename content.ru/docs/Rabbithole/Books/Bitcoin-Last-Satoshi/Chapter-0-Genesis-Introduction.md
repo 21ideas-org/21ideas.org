@@ -1,7 +1,6 @@
 ---
 title: "Биткойн: Последгий Сатоши"
 h1: "Глава Генезис: ВСТУПЛЕНИЕ"
-cover: false
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
 url: Bitcoin-Last-Satoshi/Chapter-0-Genesis-Introduction
