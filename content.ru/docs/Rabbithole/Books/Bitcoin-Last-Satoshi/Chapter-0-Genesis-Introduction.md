@@ -4,7 +4,8 @@ h1: "Глава Генезис: ВСТУПЛЕНИЕ"
 cover: /img/.png
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
-url: syntax
+url: Bitcoin-Last-Satoshi/chapter-0
+aliases: ['/Bitcoin-Last-Satoshi-chapter-0']
 date: 2025-11-01
 bookFlatSection: false
 bookToc: true
