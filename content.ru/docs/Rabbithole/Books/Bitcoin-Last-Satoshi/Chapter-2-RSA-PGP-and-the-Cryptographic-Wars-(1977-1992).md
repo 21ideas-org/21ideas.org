@@ -1,7 +1,7 @@
 ---
 title: "Биткойн: Последгий Сатоши"
 h1: "ГЛАВА 2: RSA, PGP И КРИПТОГРАФИЧЕСКИЕ ВОЙНЫ (1977-1992)"
-cover: /img/.png
+cover: false
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
 url: Bitcoin-Last-Satoshi/Chapter-2-RSA-PGP-and-the-Cryptographic-Wars-(1977-1992)
