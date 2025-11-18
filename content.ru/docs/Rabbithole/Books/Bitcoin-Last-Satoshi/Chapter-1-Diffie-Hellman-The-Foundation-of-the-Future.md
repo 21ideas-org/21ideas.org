@@ -1,7 +1,7 @@
 ---
 title: "Биткойн: Последгий Сатоши"
 h1: "ГЛАВА 1: ДИФФИ-ХЕЛЛМАН — ФУНДАМЕНТ БУДУЩЕГО"
-cover: /img/.png
+cover: false
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
 url: Bitcoin-Last-Satoshi/Chapter-1-Diffie-Hellman-The-Foundation-of-the-Future
