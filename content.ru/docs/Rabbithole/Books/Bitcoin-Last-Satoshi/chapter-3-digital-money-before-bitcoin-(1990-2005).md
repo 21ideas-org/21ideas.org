@@ -1,7 +1,7 @@
 ---
 title: "Биткойн: Последгий Сатоши"
 h1: "ГЛАВА 3: ЦИФРОВЫЕ ДЕНЬГИ ДО БИТКОИНА (1990-2005)"
-cover: /img/.png
+cover: false
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
 url: Bitcoin-Last-Satoshi/chapter-3-digital-money-before-bitcoin-(1990-2005)
