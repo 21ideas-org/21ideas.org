@@ -4,8 +4,8 @@ h1: "ГЛАВА 1: ДИФФИ-ХЕЛЛМАН — ФУНДАМЕНТ БУДУЩЕ
 cover: /img/.png
 tags: ["биткойн", "будущее", "утопия", "антиутопия"]
 description: "2150 год. Десять лет после добычи последнего биткоина. ..."
-url: Bitcoin-Last-Satoshi/chapter-1
-aliases: ['/Bitcoin-Last-Satoshi-chapter-1']
+url: Bitcoin-Last-Satoshi/Chapter-1-Diffie-Hellman-The-Foundation-of-the-Future
+aliases: ['/Bitcoin-Last-Satoshi-Chapter-1-Diffie-Hellman-The-Foundation-of-the-Future']
 date: 2025-11-01
 bookFlatSection: false
 bookToc: true
