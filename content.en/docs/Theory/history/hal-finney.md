@@ -137,7 +137,3 @@ As Fran puts it so succinctly, 'He did not believe in God. he believed in the fu
 And in this moment when Coronavirus is wrecking havoc on our economies, bodies, and society, let's look to Hal and tap into his eternal source of optimism for the future.
 
 {{% image "/img/hal-262.png" /%}}
-
----
-
-Please help the fight against ALS by donating to [this website](https://didyouknowcrypto.com/hal/) run by [@bitcoin4als](https://twitter.com/bitcoin4als) (permission given by [@franfinney](https://twitter.com/franfinney))
