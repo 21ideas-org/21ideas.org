@@ -15,6 +15,13 @@ bookToc: true
 weight: 10
 ---
 
+{{< details "Оглавление" "..." >}}
+1. [Письмо №1](/posts/keonne-letter-1)
+2. [Письмо №2](/posts/keonne-letter-2)
+3. [Письмо №3](/posts/keonne-letter-3)
+4. [Письмо №4](/posts/keonne-letter-4)
+{{< /details >}}
+
 {{< hint info >}}
 Оригинал письма на английском языке опубликован в [The Rage](https://www.therage.co/letter-1-keonne-rodriguez/).
 {{< /hint >}}
@@ -100,3 +107,10 @@ weight: 10
 Завтра будет седьмой день моего пребывания в  лагере Моргантаун. У меня будет первый посетитель — моя жена. Я буду безумно рад её увидеть. Я буду продолжать рассказывать эту историю по мере сил и возможностей.
 
 *Кеонн Родригес*
+
+{{< details "Оглавление" "..." >}}
+1. [Письмо №1](/posts/keonne-letter-1)
+2. [Письмо №2](/posts/keonne-letter-2)
+3. [Письмо №3](/posts/keonne-letter-3)
+4. [Письмо №4](/posts/keonne-letter-4)
+{{< /details >}}
