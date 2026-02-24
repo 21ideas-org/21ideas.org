@@ -47,9 +47,8 @@ weight: 10
 
 Ресурсы в поддержку Билла и Кеонна:
 
-[billandkeonne.org](https://billandkeonne.org/)
-
-[freesamourai.com](https://freesamourai.com/)
+- [billandkeonne.org](https://billandkeonne.org/)
+- [freesamourai.com](https://freesamourai.com/)
 {{< /hint >}}
 
 Большая часть макрели в обороте настолько залежалая, что съесть её — верный способ попасть в медчасть или, в лучшем случае, заработать серьёзное расстройство желудка. Поверьте: последнее место, где вам этого захочется, — общий туалет на сотню человек.
