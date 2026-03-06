@@ -51,9 +51,8 @@ weight: 10
 
 Ресурсы в поддержку Билла и Кеонна:
 
-[billandkeonne.org](https://billandkeonne.org/)
-
-[freesamourai.com](https://freesamourai.com/)
+- [billandkeonne.org](https://billandkeonne.org/)
+- [freesamourai.com](https://freesamourai.com/)
 {{< /hint >}}
 
 С первого дня в Моргантауне я веду дневник. Обычно около восьми вечера — сажусь за стол у шахматных досок и записываю, что произошло за день. Мысли, события, наблюдения.
@@ -150,3 +149,10 @@ P.O. BOX 1000
 MORGANTOWN, WV 26507_
 
 _**Правила отправки**: только письма, не более 3 страниц. Посылки не принимаются. Книги, журналы и газеты — только напрямую от издателя или через интернет-магазин (например, Amazon). Обязательно укажите полный обратный адрес и имя отправителя._
+
+{{< details "Оглавление" "..." >}}
+1. [Письмо №1](/posts/keonne-letter-1)
+2. [Письмо №2](/posts/keonne-letter-2)
+3. [Письмо №3](/posts/keonne-letter-3)
+4. [Письмо №4](/posts/keonne-letter-4)
+{{< /details >}}
