@@ -10,7 +10,6 @@ prev: /posts/drivechains
 cover: /img/q3-23-cover.jpeg
 title: "Квартальный отчет 21ideas"
 h1: "Квартальный отчет 21ideas"
-cover: /img/q3-23-cover.jpeg
 description: "Квартальный отчет об открытии искходного кода образовательного биткоин-проекта 21ideas."
 weight: 10
 ---
