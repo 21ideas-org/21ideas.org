@@ -4,7 +4,7 @@ h1: "Протокол тишины"
 tags: ["книга", "свобода", "цифровой гулаг", "биткоин"]
 description: "Антиутопический роман о мире, где деньги превратились в инструмент слежки, а доступ к информации стал привилегией."
 url: silence-protocol
-cover: /img/books/silence-protocol/cover.webp
+cover: /img/books/silence-protocol/cover.jpg
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
@@ -27,6 +27,6 @@ weight: 20
 
 [ГЛАВА 1](/silence-protocol/1)
 
-> Книга публикуется при поддержке проекта 21ideas.
+> Книга публикуется при поддержке проекта 21ideas.  
 > Редактор — Тони Молния.
 
