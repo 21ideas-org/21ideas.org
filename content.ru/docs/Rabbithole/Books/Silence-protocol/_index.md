@@ -4,7 +4,7 @@ h1: "Протокол тишины"
 tags: ["книга", "свобода", "цифровой гулаг", "биткоин"]
 description: "Антиутопический роман о мире, где деньги превратились в инструмент слежки, а доступ к информации стал привилегией."
 url: silence-protocol
-cover: /img/books/silence-protocol/cover.jpg
+cover: /ru/docs/Rabbithole/Books/Silence-protocol/silence-protocol.webp
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false
