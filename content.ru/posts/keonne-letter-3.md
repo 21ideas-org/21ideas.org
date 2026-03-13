@@ -20,10 +20,11 @@ weight: 10
 2. [Письмо №2](/posts/keonne-letter-2)
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
+5. [Письмо №5](/posts/keonne-letter-5)
 {{< /details >}}
 
 {{< hint info >}}
-Оригинал письма на английском языке опубликован в [The Rage](https://www.therage.co/letter-3-notes-from-the-inside/).
+Оригинал письма на английском языке опубликован [The Rage](https://www.therage.co/letter-3-notes-from-the-inside/).
 {{< /hint >}}
 
 Привет, читатель.
@@ -155,4 +156,5 @@ _**Правила отправки**: только письма, не более
 2. [Письмо №2](/posts/keonne-letter-2)
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
+5. [Письмо №5](/posts/keonne-letter-5)
 {{< /details >}}
