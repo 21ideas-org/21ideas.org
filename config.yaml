@@ -80,7 +80,7 @@ params:
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
   BookEditPath: edit/main/exampleSite
-  BookRepo: false
+  # BookRepo: false
 
   # Configure the date format used on the pages
   # - In git information
