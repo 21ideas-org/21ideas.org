@@ -1,3 +1,47 @@
 User-agent: *
 Allow: /
 Sitemap: https://21ideas.org/sitemap.xml
+
+# Search engines (explicit)
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI (Gemini/Vertex AI training crawler control)
+User-agent: Google-Extended
+Allow: /
+
+# AI-readable index
+# llms.txt: https://21ideas.org/llms.txt

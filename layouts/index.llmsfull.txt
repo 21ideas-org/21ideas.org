@@ -1,0 +1,27 @@
+# {{ .Site.Title }}
+
+> {{ with .Description }}{{ . }}{{ else }}Образовательный ресурс о Биткоине / Bitcoin educational resource{{ end }}
+
+{{ range .Site.Sections -}}
+## {{ .Title }}
+{{ range .Pages -}}
+### [{{ default .RelPermalink .LinkTitle }}]({{ .Permalink }})
+{{ with .Description }}> {{ . }}
+
+{{ end -}}
+{{ end -}}
+{{ range .Sections -}}
+### {{ .Title }}
+{{ range .Pages -}}
+#### [{{ default .RelPermalink .LinkTitle }}]({{ .Permalink }})
+{{ with .Description }}> {{ . }}
+
+{{ end -}}
+{{- /* Inline full plaintext for Start and Theory subsections only */ -}}
+{{- if or (in .CurrentSection.RelPermalink "/start/") (in .CurrentSection.RelPermalink "/theory/") (in .CurrentSection.RelPermalink "/practice/") -}}
+{{ .Content | plainify }}
+
+{{ end -}}
+{{ end -}}
+{{ end -}}
+{{ end }}
