@@ -1,0 +1,33 @@
+{{- /* BreadcrumbList — all non-home pages */ -}}
+{{- if not .IsHome -}}
+{{- $items := slice -}}
+{{- range $i, $a := .Ancestors.Reverse -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $a.Title "item" $a.Permalink) -}}
+{{- end -}}
+{{- $items = $items | append (dict "@type" "ListItem" "position" (add (len .Ancestors) 1) "name" .Title "item" .Permalink) -}}
+{{- $ld := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- /* WebSite + Organization — home page only */ -}}
+{{- if .IsHome -}}
+{{- $action := dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%ssearch/?q={search_term_string}" .Site.BaseURL)) "query-input" "required name=search_term_string" -}}
+{{- $website := dict "@context" "https://schema.org" "@type" "WebSite" "url" .Site.BaseURL "name" .Site.Title "potentialAction" $action -}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- $logo := dict "@type" "ImageObject" "url" (printf "%ssvg/logo_black.svg" .Site.BaseURL) -}}
+{{- $org := dict "@context" "https://schema.org" "@type" "Organization" "url" .Site.BaseURL "name" .Site.Title "logo" $logo "sameAs" (slice "https://github.com/21ideas-org/21ideas.org") -}}
+<script type="application/ld+json">{{ $org | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- /* Article — posts and vestnik section pages (not section index pages) */ -}}
+{{- if and (or (eq .Section "posts") (eq .Section "vestnik")) (not .IsSection) -}}
+{{- $publisher := dict "@type" "Organization" "name" .Site.Title "logo" (dict "@type" "ImageObject" "url" (printf "%ssvg/logo_black.svg" .Site.BaseURL)) -}}
+{{- $ld := dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" .Description "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "url" .Permalink "publisher" $publisher -}}
+{{- with .Params.author -}}
+  {{- $ld = merge $ld (dict "author" (dict "@type" "Person" "name" .)) -}}
+{{- end -}}
+{{- with .Params.cover -}}
+  {{- $ld = merge $ld (dict "image" (printf "%s%s" (trim $.Site.BaseURL "/") .)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{- end -}}

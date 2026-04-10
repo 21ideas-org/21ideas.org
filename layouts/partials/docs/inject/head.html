@@ -1,4 +1,9 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ .Permalink }}">
 
+{{ with .Params.tags }}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
+
 <script defer src="https://cloud.umami.is/script.js" data-website-id="0affba7d-3c1d-4235-adb3-635b69b6f567"></script>
+{{ partial "docs/inject/structured-data.html" . }}
