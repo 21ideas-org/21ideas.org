@@ -330,3 +330,91 @@
   padding: 1rem;
   margin-bottom: 1rem;
 }
+
+.book-page.video-library {
+  .markdown {
+    > p:first-of-type {
+      margin: 0 0 1.5rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid rgba(255, 149, 0, 0.28);
+      border-left: 4px solid #ff9500;
+      border-radius: 8px;
+      background: rgba(255, 149, 0, 0.07);
+      font-size: 1.05rem;
+      line-height: 1.65;
+    }
+
+    h2 {
+      margin: 2rem 0 1rem;
+      padding: 0.85rem 1rem;
+      border-radius: 8px;
+      background: linear-gradient(135deg, rgba(255, 149, 0, 0.16), rgba(42, 109, 130, 0.14));
+      border: 1px solid rgba(42, 109, 130, 0.18);
+    }
+
+    h3 {
+      margin: 1.6rem 0 0.8rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 2px solid rgba(42, 109, 130, 0.2);
+      color: var(--body-font-color);
+    }
+
+    > details {
+      margin: 0 0 0.85rem;
+      border: 1px solid rgba(127, 127, 127, 0.24);
+      border-radius: 8px;
+      background: var(--body-background);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    > details:hover,
+    > details[open] {
+      border-color: rgba(255, 149, 0, 0.55);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    details summary {
+      padding: 0.85rem 1rem;
+      cursor: pointer;
+      font-weight: 700;
+      line-height: 1.35;
+      background: rgba(127, 127, 127, 0.06);
+    }
+
+    details[open] > summary {
+      border-bottom: 1px solid rgba(127, 127, 127, 0.18);
+    }
+
+    details details {
+      margin: 0.75rem 0;
+      box-shadow: none;
+      background: rgba(127, 127, 127, 0.04);
+    }
+
+    details .markdown-inner {
+      padding: 0 1rem 1rem;
+    }
+
+    .youtubeWrapper {
+      margin: 1rem 0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #111;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .book-page.video-library .markdown {
+    > p:first-of-type,
+    h2,
+    details summary,
+    details .markdown-inner {
+      padding-left: 0.8rem;
+      padding-right: 0.8rem;
+    }
+  }
+}

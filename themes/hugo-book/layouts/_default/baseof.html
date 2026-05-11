@@ -16,7 +16,7 @@
       </div>
     </aside>
 
-    <div class="book-page book-page-{{ .Kind }}">
+    <div class="book-page book-page-{{ .Kind }}{{ with .Params.pageClass }} {{ . }}{{ end }}">
       <header class="book-header">
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>

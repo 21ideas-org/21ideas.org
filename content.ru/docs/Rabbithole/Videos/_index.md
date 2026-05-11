@@ -8,6 +8,7 @@ url: videos
 # coverDark: /img/main-section/ru/videos.png
 bookFlatSection: false
 bookToc: true
+pageClass: video-library
 weight: 2
 ---
 
