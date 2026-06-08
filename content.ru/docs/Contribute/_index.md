@@ -36,25 +36,19 @@ __21ideas__ - открытый проект, и каждый может внес
 ## Лайтнинг
 Лайтнинг-адрес: 
 
-_[zap@21ideas.org](lightning:21ideas@getalby.com)_
+_[tony_lightning@coinos.io](lightning:tony_lightning@coinos.io)_
   
-![ln-qr](/img/BitTip-LNURL.png)
+![ln-qr](/img/coinos-qr-tony.png)
 
 ---
 
 [Этот гид](/zapplanner) поможет настроить регулярные платежи в фонд проекта.
-
----
-
-У проекта также есть [страничка](https://geyser.fund/project/21ideas) на Geyser.
 
 {{< /columns >}}
 
 ---
 
 Вы также можете указать цель, на которую вы бы хотели определить отправленные средства - будь то перевод или написание определенной статьи, либо какие-либо улучшения ресурса. Подробнее об этом - в [README](https://github.com/21ideas-org/21ideas.org#readme) файле на нашем GitHub.
-
-{{< lightningwidget >}}
 
 {{< /tab >}}
 
