@@ -1,21 +1,20 @@
 ---
-menu:
-  after:
-    weight: 3
-description: "Доброе утро, биткоинер – ежедневный дайджест новостей о Биткоине, деньгах и свободе."
-url: gb_b
+# menu:
+#   after:
+#     weight: 4
+description: "Биткоин-календарь – это проект, цель которого – держать вас в курсе важнейших исторических событий в мире Биткоина."
+url: calendar
 type: docs
-title: Доброе утро, биткоинер
-h1: "Доброе утро, биткоинер"
-bookHref: https://gm.21ideas.org
-draft: true
+title: Биткоин-календарь
+h1: "Календарь"
+bookHref: https://bitcoin-calendar.org/ru
 ---
 
 {{< hint btc >}}
-Перенаправление на [Дайджест](https://gm.21ideas.org)...
+Перенаправление на [Биткоин-календарь](https://bitcoin-calendar.org/ru)...
 {{< /hint >}}
 
 <script>
 // Immediate redirect as backup
-window.location.href = 'https://gm.21ideas.org';
+window.location.href = 'https://bitcoin-calendar.org/ru';
 </script>
