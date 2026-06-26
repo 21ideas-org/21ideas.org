@@ -8,6 +8,7 @@ type: docs
 title: Доброе утро, биткоинер
 h1: "Доброе утро, биткоинер"
 bookHref: https://gm.21ideas.org
+draft: true
 ---
 
 {{< hint btc >}}

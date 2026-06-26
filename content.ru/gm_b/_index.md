@@ -1,7 +1,7 @@
 ---
-menu:
-  after:
-    weight: 3
+# menu:
+#   after:
+#     weight: 3
 description: "Дайджест – еженедельный обзор новостей о Биткоине, деньгах и свободе."
 url: calendar
 type: docs
