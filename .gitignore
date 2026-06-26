@@ -5,3 +5,5 @@ hugo/.DS_Store
 .obsidian
 hugo.*
 public/
+*.search-data.min*.json
+/resources/
