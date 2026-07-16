@@ -104,7 +104,6 @@ weight: 3
 * [Electrum](https://electrum.org/#home) (для вас подготовлен [видеогид](https://youtu.be/-wya0DhbV0g) по установке и [текстовое описание функций кошелька](/electrum))
 * [Sparrow](https://www.sparrowwallet.com)
 * [Blue Wallet](https://bluewallet.io/) (поддержка Lightning, гид доступен по [этой ссылке](/blue))
-* [Nunchuck](https://nunchuk.io).
 
 ---
 
