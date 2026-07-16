@@ -171,8 +171,7 @@ weight: 3
 **Дополнительные материалы:**
 
 1. [Серия видео](https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC) от команды кошелька Samourai
-2. [Серия статей](privacy/oxt/) от команды кошелька Samourai
-3. [Proof-of-Work](https://youtu.be/o7CwrxMFsG0) Антонопулос
+2. [Proof-of-Work](https://youtu.be/o7CwrxMFsG0) Антонопулос
 
 {{< youtube UV_qj-MLBes >}}
 Итоговая лекция по материалам раздела "Технология"
