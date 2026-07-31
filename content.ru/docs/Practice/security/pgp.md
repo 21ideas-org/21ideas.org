@@ -7,7 +7,7 @@ url: pgp-verify
 date: 2024-10-17
 bookFlatSection: false
 bookToc: true
-weight: 1
+weight: 2
 ---
 
 Немного терминологии:
