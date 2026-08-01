@@ -7,7 +7,7 @@ coverDark: /img/main-section/en/lightning-light.webp
 bookCollapseSection: true
 url: practice/lightning
 weight: 6
-aliases: ['/en/lntips']
+aliases: ['/lntips']
 ---
 
 1. [Phoenix Wallet: Take Back Control of Your Sats in the Lightning Network](/en/phoenix)
