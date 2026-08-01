@@ -12,12 +12,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v7.0.1
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3.2.1
       with:
-        hugo-version: '0.144.2'
+        hugo-version: '0.164.0'
         extended: true
 
     - name: Build
@@ -29,8 +29,9 @@ jobs:
           cp -r .well-known/* public/.well-known/
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-gh-pages@v4.1.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
         cname: 21ideas.org
+        force_orphan: true

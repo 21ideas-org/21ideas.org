@@ -16,15 +16,15 @@
     <label for="languages" class="flex justify-between">
       <a role="button" class="flex align-center">
         <img src="{{ "svg/translate.svg" | relURL }}" class="book-icon" alt="Languages" />
-        {{ $.Site.Language.LanguageName }}
+        {{ $.Site.Language.Label }}
       </a>
     </label>
 
     <ul>
-      {{ range .Site.Languages }}{{ with index $translations .Lang }}
+      {{ range hugo.Sites }}{{ with index $translations .Language.Lang }}
       <li>
         <a href="{{ .Permalink }}">
-          {{ .Language.LanguageName }}
+          {{ .Language.Label }}
         </a>
       </li>
       {{ end }}{{ end }}

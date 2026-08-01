@@ -30,12 +30,12 @@ markup:
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 languages:
   en:
-    languageName: English
+    label: English
     contentDir: content.en
     weight: 2
   ru:
-    languageName: Русский
-    languageCode: ru-RU
+    label: Русский
+    locale: ru-RU
     contentDir: content.ru
     weight: 1
 
