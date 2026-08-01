@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Equals Freedom"
 h1: "Bitcoin Equals Freedom"
-cover: /img/free-916.jpg
+cover: /img/free-916.webp
 description: ""
 url: bitcoin-equals-freedom
 date: 2019-09-25

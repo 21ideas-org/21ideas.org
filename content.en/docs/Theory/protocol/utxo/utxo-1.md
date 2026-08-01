@@ -2,7 +2,7 @@
 title: "What is a Bitcoin UTXO"
 h1: "What is a Bitcoin UTXO and why do they matter?"
 description: ""
-cover: /img/utxo/piggy-cover.png
+cover: /img/utxo/piggy-cover.webp
 url: protocol/utxo-1
 date: 2022-06-17
 bookFlatSection: false
@@ -44,7 +44,7 @@ If you open a bank account and deposit cash into it, your cash is immediately mi
 
 There’s an important difference if you use a piggy bank to store your cash. If you put five $20 bills into your piggy bank, the $100 worth of contents remains in that form: five $20 bills. If you take the $100 back out, you won’t magically receive a single $100 bill, you will still have five $20 bills. Also, if you wanted to pay someone $10 out of the $100 in your piggy bank, there’s a problem: Your smallest bill is worth $20, so you would need to break it up into change somehow.
 
-{{< image src="/img/utxo/custody-en.png" />}}
+{{< image src="/img/utxo/custody-en.webp" />}}
 
 The bank account model is a custodial service holding your cash for you, which is analogous to an exchange that holds people’s bitcoin—everyone’s bitcoin is mixed together.
 
@@ -87,11 +87,11 @@ In an earlier example, we discussed either having nine UTXOs of 0.1 BTC or one U
 
 In the first case, with nine UTXOs of 0.1 BTC, you can grab a couple of those UTXOs to act as two inputs for the transaction and send them over to the recipient. That person would obtain a single UTXO of 0.2 BTC. That’s fairly straightforward:
 
-{{< image src="/img/utxo/2-in-1-out-en.png" />}}
+{{< image src="/img/utxo/2-in-1-out-en.webp" />}}
 
 In the second case, you only have the single UTXO of 0.9 BTC, so you will require change back. If you send 0.2 BTC to the recipient, you will also want to send the other 0.7 BTC back to your wallet (as a new UTXO on a new wallet address):
 
-{{< image src="/img/utxo/1-in-2-out-en.png" />}}
+{{< image src="/img/utxo/1-in-2-out-en.webp" />}}
 
 This method comes with the drawback of revealing more information about your wallet. Remember that bitcoin’s blockchain is a public ledger, so all transactions are viewable. **The person who received the 0.2 BTC can search for the transaction and discover that you sent 0.7 BTC somewhere as an additional output.** They can reasonably assume that the 0.7 BTC is probably your change from a larger UTXO of 0.9 BTC, so you have essentially revealed to this person that you have at least another 0.7 BTC sitting in your wallet. Furthermore, they might be able to track this new UTXO of 0.7 BTC and monitor future transactions that it becomes a part of.
 
@@ -112,11 +112,11 @@ The data required for your transaction depends on several factors, particularly 
 
 If you have one UTXO of 0.9 BTC, and you want to send 0.6 BTC of it to a friend, you will have only one input:
 
-{{< image src="/img/utxo/light-en.png" />}}
+{{< image src="/img/utxo/light-en.webp" />}}
 
 One input will mean a significantly lower fee than if you have to use six inputs in the form of 0.1 BTC UTXOs:
 
-{{< image src="/img/utxo/heavy-en.png" />}}
+{{< image src="/img/utxo/heavy-en.webp" />}}
 
 In fact, since fees are determined by the amount of data involved rather than the amount of bitcoin, you would typically pay a higher fee to send those six UTXOs of 0.1 BTC, than you would pay to send one UTXO of 100 whole bitcoin!
 
@@ -144,7 +144,7 @@ The first technique at your disposal is the most straightforward: You can contro
 
 The second technique is [performing a UTXO consolidation](https://help.unchained.com/how-do-i-make-a-consolidation-transaction). If you have nine UTXOs of 0.1 BTC each, you can consolidate them. Simply send all nine UTXOs back to a new address on your wallet. The end result will be a single UTXO of 0.9 BTC sitting in your wallet (minus the transaction fees), without any bitcoin ever leaving your custody. If you perform a consolidation when the fee environment is low, then you might save yourself substantial costs if you ever have to move the bitcoin again at a higher fee rate down the road! To learn more about this technique, take a look at [our other article](/en/protocol/utxo-2) explaining all you need to know about fee environments and consolidations. However, keep in mind that consolidating these UTXOs together will now expose them as being linked to the same user (to anyone monitoring the blockchain).
 
-{{< image src="/img/utxo/consolidate-en.png" />}}
+{{< image src="/img/utxo/consolidate-en.webp" />}}
 
 ### Perform a CoinJoin
 

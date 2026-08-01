@@ -1,7 +1,7 @@
 ---
 title: "Buy noKYC Bitcoin with HodlHodl"
 h1: "10 Steps to your first noKYC Bitcoin with HodlHodl"
-cover: /img/31.png
+cover: /img/31.webp
 tags: ["bitcoin", "buy", "no-kyc", "privacy", "security"]
 description: ""
 url: hodl-hodl
@@ -31,43 +31,43 @@ As well as taking other peoples offers, you can create your own buy offer at a s
 
 **1.** Visit [hodlhodl.com](http://hodlhodl.com) and create your account. The only details you need to provide is a username and email address. You will then be met with the home page.
 
-{{% image "/img/hodl-01-en.png" /%}}
+{{% image "/img/hodl-01-en.webp" /%}}
 
 **2.** Click ‘Buy BTC’ in the website header.
 
-{{% image "/img/hodl-02-en.png" /%}}
+{{% image "/img/hodl-02-en.webp" /%}}
 
 **3.** Select your desired payment type and method. You can also specify a specific amount here if necessary.
 
-{{% image "/img/hodl-03-en.png" /%}}
+{{% image "/img/hodl-03-en.webp" /%}}
 
 **4.** Select your desired offer. You can then review the trade details and also read the peer’s activity reports and ratings.
 
-{{% image "/img/hodl-04-en.png" /%}}
+{{% image "/img/hodl-04-en.webp" /%}}
 
 **5.** Once you are happy, you can specify how much you want to buy, enter in the address you would like the bitcoin sent to and specify confirm the payment method advertised by the seller. Click ‘Accept offer and create contract’.
 
-{{% image "/img/hodl-05-en.png" /%}}
+{{% image "/img/hodl-05-en.webp" /%}}
 
 **6.** You now have your contract created and need to hit ‘Generate Escrow’ where you will be prompted to create a payment password. The payment password is an encryption key for the user’s escrow key pair. It is used in order to deposit or release Bitcoin to or from escrow.
 
-{{% image "/img/hodl-06-en.png" /%}}
+{{% image "/img/hodl-06-en.webp" /%}}
 
 **7.** Now you need to wait for the seller to deposit their bitcoin into the escrow wallet. After starting the contract you can chat with the seller using the chat box on the right side of the page.
 
-{{% image "/img/hodl-07-en.png" /%}}
+{{% image "/img/hodl-07-en.webp" /%}}
 
 **8.** Once the seller has deposited their funds to the escrow you will see this screen advising you not to send your money until there has been sufficient number of blockchain confirmations (this varies depending on the trade conditions). You can check on the progress of the sellers deposit transaction by clicking on the blue link ‘Deposit Transaction ID’.
 
-{{% image "/img/hodl-08-en.png" /%}}
+{{% image "/img/hodl-08-en.webp" /%}}
 
 **9.** Once confirmed you will be notified and you can then send the funds to the seller to the details they will provide you. Once you have done this click ‘Ive Sent The Payment’.
 
-{{% image "/img/hodl-09-en.png" /%}}
+{{% image "/img/hodl-09-en.webp" /%}}
 
 **10.** You will then need to wait for the seller to confirm they have received the funds, at which point the bitcoin will be released into the address you specified at the start of the contract. You will also be given the opportunity to rate your peer.
 
-{{% image "/img/hodl-10-en.png" /%}}
+{{% image "/img/hodl-10-en.webp" /%}}
 
 Congrats, you just bought yourself some non-KYC bitcoin!
 

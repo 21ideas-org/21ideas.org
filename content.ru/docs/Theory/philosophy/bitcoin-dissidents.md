@@ -1,7 +1,7 @@
 ---
 title: "Биткоин-диссиденты"
 h1: "Биткоин-диссиденты: кому Биткоин нужен как воздух"
-cover: /img/diss-915.png
+cover: /img/diss-915.webp
 description: "Неудержимый, цензуроустойчивый Биткоин завоевывает популярность среди протестующих и диссидентов по всему миру."
 url: bitcoin-dissidenty
 aliases: ['/theory-philosophy-bitcoin-dissidents']

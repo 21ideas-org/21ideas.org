@@ -9,7 +9,7 @@ next: /blog/
 prev: /posts/sbf25
 title: "Полное безумие"
 h1: "Полное безумие"
-cover: /img/blog/madness/money-printer.png
+cover: /img/blog/madness/money-printer.webp
 description: "Происходящее – очевидный признак надвигающейся гибели доллара США и всех фиатных валют. Это полное безумие!"
 bookToc: true
 weight: 10
@@ -73,7 +73,7 @@ weight: 10
 Крупнейшим покупателем и владельцем долговых обязательств федерального правительства США является само федеральное правительство США.
 {{< /hint >}}
 
-{{% image "/img/blog/madness/us-treasuries-holders.png" /%}}
+{{% image "/img/blog/madness/us-treasuries-holders.webp" /%}}
 
 ЗАДУМАЙТЕСЬ НА СЕКУНДУ, НАСКОЛЬКО ЭТО БЕЗУМНО.
 
@@ -129,7 +129,7 @@ __Недавние заголовки:__
 
 Проценты, выплачиваемые федеральным правительством, резко возросли в последние годы: 
 
-{{% image "/img/blog/madness/fred.png" /%}}
+{{% image "/img/blog/madness/fred.webp" /%}}
 
 {{< hint danger >}}
 __ДОЛЛАР США В ПОЛНОЙ ЗАДНИЦЕ__
@@ -169,7 +169,7 @@ __ДОЛЛАР США В ПОЛНОЙ ЗАДНИЦЕ__
 
 Если вы не заметили, доллар США уже давно движется в направлении "ничтожности".
 
-{{% image "/img/blog/madness/usd-purchasing-power.png" %}}
+{{% image "/img/blog/madness/usd-purchasing-power.webp" %}}
 _Источник: [https://observationsandnotes.blogspot.com/](https://observationsandnotes.blogspot.com/)_
 {{% /image %}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Launder bitcoins with the Lightning Network"
 h1: "Launder bitcoins with the Lightning Network"
-cover: /img/obl-701.png
+cover: /img/obl-701.webp
 description: ""
 url: launder-bitcoins-with-lightning
 date: 2023-05-12

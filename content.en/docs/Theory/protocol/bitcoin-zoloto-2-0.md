@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin: Digital Gold or Peer-to-Peer Cash?"
 h1: "Bitcoin: Digital Gold or Peer-to-Peer Cash?"
-cover: /img/bz-509.jpeg
+cover: /img/bz-509.webp
 description: ""
 url: bitcoin-digital-gold-or-ecash
 date: 2021-11-19

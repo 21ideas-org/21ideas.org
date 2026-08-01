@@ -2,8 +2,8 @@
 title: "Будущее"
 type: docs
 h1: "Будущее"
-# cover: /img/main-section/ru/future-light.png
-# coverDark: /img/main-section/ru/future.png
+# cover: /img/main-section/ru/future-light.webp
+# coverDark: /img/main-section/ru/future.webp
 bookCollapseSection: true
 url: future
 weight: 7

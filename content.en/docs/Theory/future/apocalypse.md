@@ -1,7 +1,7 @@
 ---
 title: "Can Bitcoin Survive An Apocalypse?"
 h1: "Can Bitcoin Survive An Apocalypse?"
-cover: /img/apo-555.png
+cover: /img/apo-555.webp
 description: "Could Bitcoin stick it out like a roach, or would a worldwide collapse lead to the inevitable demise of Bitcoin?"
 url: apocalypse
 date: 2021-12-25
@@ -80,7 +80,7 @@ _Bitcoin is decentralized._ Sure, your nation-state could temporarily shut off t
 
 In order to kill Bitcoin, you would have to independently go to each node in every country, in every home, and destroy every single one that exists. Given how many there are, this is simply not possible. Here’s a map found on [bitnodes.io](https://bitnodes.io/) which shows worldwide node distribution. This is also one of the most conservative estimates of how many nodes are currently running.
 
-{{% image "/img/apo-556.png" %}}
+{{% image "/img/apo-556.webp" %}}
 *[Image source](https://bitnodes.io)*
 {{% /image %}}
 
@@ -96,7 +96,7 @@ The large, distributed amount of nodes that the Bitcoin network has makes it apo
 
 The [Blockstream Satellite](https://blockstream.com/satellite/) network makes this possible by broadcasting the Bitcoin blockchain over Earth 24/7 for free.
 
-{{% image "/img/apo-557.png" /%}}
+{{% image "/img/apo-557.webp" /%}}
 
 Blockstream engineer, Grubles, wrote a detailed [article](https://hackernoon.com/building-your-own-bitcoin-satellite-node-6061d3c93e7) on how you can build your own satellite node and receive data coming from the Bitcoin blockchain. Note the picture from his article with a TV dish; you could use your own TV dish to run a node, completely without the internet!  
   
@@ -112,7 +112,7 @@ We’ll explore the following methods of offline transactions: mesh networks, Ir
 
 ### _Offline Transactions: Mesh Networks_
 
-{{% image "/img/apo-558.png" %}}
+{{% image "/img/apo-558.webp" %}}
 *[Image source](https://dealna.com/en/Article/Post/7231/Wireless-Mesh-Networks-what-are-they-and-how-do-they-work)*
 {{% /image %}}
 
@@ -136,7 +136,7 @@ It is worth noting that in order to broadcast a transaction to the greater netwo
   
 Blockstream provides an [article](https://blockstream.com/2019/05/11/en-gotenna-satellite-api-integration/) with another good visual representation of goTenna being used to send bitcoin. Note that on the right side of the image, only one user at an endpoint needs internet access. The rest of the entire community of users does not need internet.
 
-{{% image "/img/apo-559.png" /%}}
+{{% image "/img/apo-559.webp" /%}}
 
 ### _Offline Transactions: Iridium RockBLOCK_
 
@@ -154,7 +154,7 @@ This is an astounding concept if you think about it. Apocalypse or not, if peopl
 
 Circling back to the debate of gold versus Bitcoin during an apocalypse, a transaction like this is obviously not possible to do with gold. Bitcoin is by far the most easily transportable form of money since it doesn’t have physical limitations. As such, it is rendering gold obsolete as a form of money.
 
-{{% image "/img/apo-560.png" /%}}
+{{% image "/img/apo-560.webp" /%}}
 
 For a more in-depth look at how this process actually functions, Fogle wrote an interesting [article](https://nickfogle.com/bitcoin-satellite-node/) which provides a written visual (above) of the entire journey the data goes on when being sent from the RockBLOCK.  
   
@@ -168,7 +168,7 @@ If the internet were to be blocked by your government or somehow made unavailabl
 
 There are different methods of doing so, but one example of how this is possible is through a system which Pavol Rusnak created, where you can send a Bitcoin transaction via SMS and have it broadcasted to the greater internet and Bitcoin network.
 
-{{% image "/img/apo-561.png" /%}}
+{{% image "/img/apo-561.webp" /%}}
 
 Above is a screenshot of an SMS Bitcoin transaction from the [article](https://rusnak.io/how-to-send-bitcoin-transactions-via-sms/) Rusnak wrote about this. You can send a transaction to the phone number listed at the top of the picture, and the data will be transferred to the greater network.
 

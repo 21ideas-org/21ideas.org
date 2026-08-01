@@ -2,8 +2,8 @@
 title: "Rabbithole"
 type: docs
 h1: " "
-cover: /img/main-section/en/rabbithole-dark.png
-coverDark: /img/main-section/en/rabbithole-light.png
+cover: /img/main-section/en/rabbithole-dark.webp
+coverDark: /img/main-section/en/rabbithole-light.webp
 url: rabbithole
 bookCollapseSection: true
 weight: 4

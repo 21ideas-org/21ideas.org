@@ -1,7 +1,7 @@
 ---
 title: "Is Bitcoin Like the Dutch Tulip Bubble?"
 h1: "Is Bitcoin Like the Dutch Tulip Bubble?"
-cover: /img/th-499.png
+cover: /img/th-499.webp
 description: ""
 url: dutch-tulip-bubble
 date: 2020-02-27

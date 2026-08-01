@@ -1,7 +1,7 @@
 ---
 title: "Transaction Size"
 h1: "Transaction Size: Bytes, Weight, and Virtual Bytes"
-cover: /img/txsize/01.jpg
+cover: /img/txsize/01.webp
 description: ""
 url: transaction-size
 date: 2023-11-03
@@ -27,7 +27,7 @@ _Weight Units_ and _Virtual Bytes_ are measurements unique to bitcoin. They both
 
 ## 1. Bytes (b)
 
-{{% image "/img/txsize/02.png" /%}}
+{{% image "/img/txsize/02.webp" /%}}
 
 This is the natural way to measure the size of a transaction. It's just a transaction's _actual_ size in terms of how many [bytes](https://learnmeabitcoin.com/technical/general/bytes/) of space it takes up.
 
@@ -64,7 +64,7 @@ There is no limit to how big a transaction can be in terms of bytes, other than 
 
 ## 2. Weight Units (wu)
 
-{{% image "/img/txsize/03.png" /%}}
+{{% image "/img/txsize/03.webp" /%}}
 
 Every transaction has a _weight_ measurement. This measurement was introduced in the [segregated witness](/en/segwit) upgrade. A transaction's weight is calculated by multiplying the size (in bytes) of different parts of the [transaction](https://learnmeabitcoin.com/technical/transaction/) by either 4 or 1:
 
@@ -98,7 +98,7 @@ The weight measurement is important because **[blocks](https://learnmeabitcoin.c
 
 So when [miners](https://learnmeabitcoin.com/technical/mining/) fill up their [candidate blocks](https://learnmeabitcoin.com/technical/mining/candidate-block/) with transactions, they use transaction weight to determine how many transactions they can fit in their block.
 
-{{% image "/img/txsize/04.png" /%}}
+{{% image "/img/txsize/04.webp" /%}}
 
 {{% hint info %}}
 Using bytes for transaction sizes and the block limit was more straightforward. But this new weight measurement introduces _fairness_ to the cost of spending outputs.
@@ -110,11 +110,11 @@ Because it helps to bring more of a balance between the cost of creating an outp
 
 The amount of data required to unlock an output (i.e. [signature](https://learnmeabitcoin.com/technical/keys/signature/) data) is unfairly larger than the amount of data required to put a [lock](https://learnmeabitcoin.com/technical/transaction/output/scriptpubkey/) on an output in the first place. So the new weight measurement brings the "size" of outputs and inputs in a transaction more in line with each other.
 
-{{% image "/img/txsize/05.png" /%}}
+{{% image "/img/txsize/05.webp" /%}}
 
 ## 3. Virtual Bytes (vBytes, vB)
 
-{{% image "/img/txsize/06.png" /%}}
+{{% image "/img/txsize/06.webp" /%}}
 
 The _virtual size_ of a transaction is the same as its _weight_ divided by 4.
 

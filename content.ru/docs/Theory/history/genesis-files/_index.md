@@ -1,7 +1,7 @@
 ---
 title: "Генезис-файлы"
 h1: "Генезис-файлы"
-cover: /img/gf-231.jpeg
+cover: /img/gf-231.webp
 url: gf
 bookCollapseSection: true
 weight: 1

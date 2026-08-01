@@ -1,7 +1,7 @@
 ---
 title: "A Cypherpunk's Manifesto"
 h1: "A Cypherpunk's Manifesto"
-cover: /img/ms-520.jpg
+cover: /img/ms-520.webp
 description: ""
 url: cypherpunks-manifesto
 date: 1993-03-09

@@ -1,7 +1,7 @@
 ---
 title: "Атлант расправил плечи"
 h1: "Атлант расправил плечи"
-cover: /img/books/atlant-raspravil-plechi.png
+cover: /img/books/atlant-raspravil-plechi.webp
 description: "Сюжет основан на том, что США переходит к плановой экономике и жесткому госрегулированию рынка, все предприниматели таинственным образом исчезают, и страна погружается в новые темные века."
 url: atlant-raspravil-plechi
 date: 1957-10-10

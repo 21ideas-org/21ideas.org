@@ -26,7 +26,7 @@ This tweet confused a fair number of folks, probably because it has a variety of
 
 Bitcoin is often touted as a "store of value," but how is that value accrued? It's no different than any other asset. In order for the price/exchange rate to increase, value must flow from other assets into this new asset. Value flows as a result of demand and the exchange rate adjusts as a result of the available supply. By "available supply," I mean the amount that is actually purchasable on the market, not the total amount in existence. This is how the invisible hand of the market acts upon the available information to effect the discovery of an asset's price.
 
-{{% image "/img/bpb-801.png" /%}}
+{{% image "/img/bpb-801.webp" /%}}
 
 The problem is that **there are many forms of fake bitcoin**, and when someone who wants to buy real bitcoin ends up buying fake bitcoin, that value is not accrued and stored by the true bitcoin system. The process of price discovery is thus corrupted!
 
@@ -75,7 +75,7 @@ That's over 1 million BTC just from some of the large losses we know about! Out 
 
 If you're a fan of bitcoin, then you probably aren't a fan of fractional reserve banking! After all, that's where most of the inflation of the money supply comes from - not from the central bank, but from all of the small banks that are taking deposits and then lending the vast majority of the money that was deposited!
 
-{{% image "/img/bpb-802-en.gif" /%}}
+{{% image "/img/bpb-802-en.webp" /%}}
 
 Point being: while there is no central authority that can manipulate the supply of real bitcoin, these independent "bitcoin banks" can absolutely manipulate the amount of "bitcoin IOUs" that are for sale on the market.
 
@@ -103,25 +103,25 @@ By siphoning off demand for real bullion and channeling it into unbacked or frac
 
 Are we seeing this occur today in the bitcoin markets? At any given time there is about $10 billion in futures being traded across crypto exchanges.
 
-{{% image "/img/bpb-803.png" %}}
+{{% image "/img/bpb-803.webp" %}}
 [_https://coinalyze.net/futures-data/global-charts/bitcoin/_](https://coinalyze.net/futures-data/global-charts/bitcoin/)
 {{% /image %}}
 
 CME bitcoin futures, on the other hand, currently have about 18,000 contracts worth of open interest. Each contract is 5 BTC which comes to a sum of 90,000 BTC / $1.5 billion in cash-settled contracts.
 
-{{% image "/img/bpb-804.png" %}}
+{{% image "/img/bpb-804.webp" %}}
 [_https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.volume.html_](https://www.cmegroup.com/markets/cryptocurrencies/bitcoin/bitcoin.volume.html)
 {{% /image %}}
 
 Here we can see about $5 billion in options interest on Deribit alone.
 
-{{% image "/img/bpb-805.png" %}}
+{{% image "/img/bpb-805.webp" %}}
 [_https://metrics.deribit.com/options/BTC_](https://metrics.deribit.com/options/BTC)
 {{% /image %}}
 
 Thus it looks like these paper contract markets are still less than 10% the size of the bitcoin market cap. It seems that the level of manipulation we've seen in precious metals markets has yet to occur in bitcoin, but it's certainly worth keeping an eye on - the potential is there. I would start to get worried if the size of these contracts approaches the size of the spot market. For reference, during the Great Financial Crisis of 2008, the credit default swap (derivatives) market grew to $60 trillion, which was an order of magnitude larger than the underlying bond market.
 
-{{% image "/img/bpb-806.png" %}}
+{{% image "/img/bpb-806.webp" %}}
 [_https://www.bis.org/publ/qtrpdf/r_qt1806b.htm_](https://www.bis.org/publ/qtrpdf/r_qt1806b.htm)
 {{% /image %}}
 

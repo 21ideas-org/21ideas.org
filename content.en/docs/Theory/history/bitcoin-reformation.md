@@ -1,7 +1,7 @@
 ---
 title: "The Bitcoin Reformation"
 h1: "The Bitcoin Reformation"
-cover: /img/br-534.jpg
+cover: /img/br-534.webp
 description: ""
 url: bitcoin-reformation
 date: 2019-11-07
@@ -68,7 +68,7 @@ In present day, the monopolistic service provider whose rent-seeking is being qu
 > 
 > _— The Marketplace of Christianity, p. 117_
 
-{{% image "/img/br-535.png" %}}
+{{% image "/img/br-535.webp" %}}
 _Details of "[The Fight Between Carnival and Lent](https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%86%D1%8B_%D0%B8_%D0%9F%D0%BE%D1%81%D1%82%D0%B0_(%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0))" by Pieter Bruegel, 1559. Breughel’s allegory captures the conflict of the century, with on the left the indulgent
 rebels, and on the right the weakened Catholic church._
 {{% /image %}}
@@ -79,11 +79,11 @@ In the 16th century, several world-changing inventions gained meaningful adoptio
 
 In the late 20th and early 21st century, several inventions have brought about about a digital revolution: **telecommunications** and email allow for working remotely, the commoditization of **computation** and **data storage** massively lowers infrastructure overhead which allows for startup costs to decline, **open source software** provides entrepreneurs with robust and free building tools, **cryptography** opens up a suite of defensive technologies for permissionless security solutions, and **social media** allows for rapid and non-bureaucratic dissemination of information.
 
-{{% image "/img/br-536.png" %}}
+{{% image "/img/br-536.webp" %}}
 _In 15th century Europe “the raw price of books fell by 2.4 per cent a year for over a hundred years,” while the share of university courses on scientific subjects rose from 25% to 40%. (Dittmar & Seabold)_
 {{% /image %}}
 
-{{% image "/img/br-537.png" %}}
+{{% image "/img/br-537.webp" %}}
 _The price of a 1 megabit/s internet connection dropped by 99% in 20 years, from nearly $100K to under $10 [^60]._
 {{% /image %}}
 
@@ -107,7 +107,7 @@ Even with superior economics on his side, and with significant wealth, a citizen
 
 It was no coincidence that the Dutch Revolt lasted 80 years — longer than any other uprising in Modern European History. The “sea beggars” were undisputed masters of water. In 1573, the Dutch successfully defended against the siege of Alkmaar by **flooding** the surrounding fields. They also wiped out a critical Spanish supply line using flooding. A year later the same tactic saved the town of Leiden, the Dutch nucleus of education, from another Spanish attack. The western core of the Dutch republic was protected by a “**waterline**”: a string of **fortified villages**, close enough to allow for optic communication, with surrounding lands that could be flooded in a matter of hours. And because of easy access to the North Sea and large fleet, there were the fallback options of **emigration** to the British Isles or, as the 17th century came around, venturing to the New World.
 
-{{% image "/img/br-538.png" %}}
+{{% image "/img/br-538.webp" %}}
 _"Relief of Leyden", 1574 (detail). Breaching the dikes to flood the countryside caused huge damage, but the flood weakened the Spanish army and allowed the Dutch flotilla to reach the city._
 {{% /image %}}
 
@@ -129,7 +129,7 @@ In the 16th century, the principal doctrine of the Lutheran Reformation was summ
 
 In the bitcoin space today, there are several “battle cries” that tend to be dismissed as memes. In our view, they reflect a rebellious essence that could herald a modern-day reformation. A first is **Vires in Numeris** [^15], which stands for “strength in numbers.” The spirit of this crede was summarized by Tyler Winklevoss in an often quoted line: “We have elected to put our money and faith in a mathematical framework that is free of politics and human error [^16].” Another motto used by bitcoiners is **Don’t Trust, Verify**. This phrase has been around since the 1990s [^17] and may have started as a twist on Ronald Reagan’s “trust, but verify [^18].” It encourages users to independently verify the integrity of new open source software, and in the case of bitcoin, to verify the validity of transactions on the blockchain. A forum post from 2013 originated the word **HODL**, which now refers to the commitment to the self-sovereign act of holding on to one’s “stash” of bitcoin, no matter the volatility [^19]. Finally there’s the mantra **Not Your Keys, Not Your Bitcoin**, which refers to the lack of trust in third party custodians [^20].
 
-{{% image "/img/br-539.png" %}}
+{{% image "/img/br-539.webp" %}}
 _"Christ and the Sheep Shed", 1524, Nurenberg. This popular woodcut propagandizes how believers by faith alone will be welcomed by christ, while the Catholic church is shown as pillaging the shed and cashing in on indulgences._
 {{% /image %}}
 
@@ -141,7 +141,7 @@ _"Christ and the Sheep Shed", 1524, Nurenberg. This popular woodcut propagandize
 
 In the Reformation we saw the emergence of a new cultural and economic class trying to defend itself in a dynamic, volatile and hostile environment. It was a **network of idiosyncratic economic actors, highly invested in their cause, cut off from traditional ways of doing business**, with highly potent defenses at their disposal. Driven by a ferocious **demand for increased financial security**, this resulted in a number of innovations and secular trends. Below, we discuss several characteristics of the 16th century Dutch financial economy, and extrapolate from them some likely parallel trends that could sustainably emerge in the bitcoin space.
 
-{{% image "/img/br-540.png" %}}
+{{% image "/img/br-540.webp" %}}
 _Marinus van Reymerswale, “The Tax Collector," 1542_
 {{% /image %}}
 
@@ -157,7 +157,7 @@ The level of security of the AWB at the time was unparalleled in the world. It w
 
 Despite a somewhat blemished track record as a full reserve bank, the reputation of the AWB was unparallelled in the 17th century, and its stability and reliability played a key role in the prosperity of the Dutch Republic. As late as 1820, Adam Smith in The Wealth of Nations praised the money of the Wisselbank for “its intrinsic superiority to currency.” The AWB was not cheap: it charged a 1% annual storage fee for gold coin, as well as opening fees, transaction fees, and a 1.5% withdrawal fee. Overall, the advantages of the AWB’s bank money were such that its banknotes carried an agio — they traded at a premium versus the actual gold and physical coins they were backed by.
 
-{{% image "/img/br-541.png" %}}
+{{% image "/img/br-541.webp" %}}
 _Cart used to transport gold coins at the Amsterdam Wisselbank_
 {{% /image %}}
 
@@ -174,11 +174,11 @@ The most trust-minimized solutions are those whereby theft or fraud is, by desig
 With the 16th century seeing an explosion in **maritime trade**, it also meant that financial technology was needed to deal with the accompanying risk. The earliest forms of maritime insurance were in the form of “**sea loans**,” which commanded a high interest rate as they were only repaid upon a boat’s safe arrival at destination. This type of contract was especially useful if the investor did not have access to full information about the profitability of the sailor’s venture. An alternative was the “**comenda**” contract, which gave the investor the right to share in the profits of a voyage in the case of a successful completion. Both were imperfect substitutes of maritime insurance [^27]. Early insurance contracts have been found in Italy, where merchants themselves acted as underwriters — which later gave rise to the mutual form of insurance. By the sixteenth century, insurance had spread to Britain, France, Holland, and Spain. One recurring challenge for the merchants was with **claim collection**; some financial centers proved less reliable than others and a merchant went with the wrong underwriter he might never
 see his money. Given how hard essential information was to come by in the immature shipping market, the **agency risk** for underwriters was substantial. Sometimes merchants would deliberately over-insure and sink their ship, or they would buy insurance on a ship they knew was already lost. Because of the high risks involved, merchants paid a premium for quality underwriters, and underwriters would often confine themselves to working with mer- chants they could trust. Other factors that determined insurance rates were the financial stability of the underwriters and the city’s rule-of-law culture. Insurance broker licensing and guilding was repeatedly tried by authorities in Amsterdam and Venice, but remained largely unpopular.
 
-{{% image "/img/br-542.png" %}}
+{{% image "/img/br-542.webp" %}}
 _Depiction of a Dutch merchant ship by Willem van de Velde (detail), 1650_
 {{% /image %}}
 
-{{% image "/img/br-543.png" %}}
+{{% image "/img/br-543.webp" %}}
 _Dutch VOC merchant and his wife, by Aelbert Cuyp, 1640-1660_
 {{% /image %}}
 
@@ -198,17 +198,17 @@ In 1602 merchants from the Netherlands merged together six small companies and p
 
 The VOC shares proved highly liquid and desirable as collateral: within months after the company’s foundation, shares valued at 27,600 guilders were used as surety in a prisoner exchange deal. And in 1607 a nobleman borrowed 2,000 guilders at 8% against 3,000 guilders worth of VOC shares as collateral (LTV ratio of 66%). The collateral market for VOC shares was very active, but because it was a private market not many records survived. By 1623 the government specifically regulated the procedure for VOC share liquidations in the case of loan defaults by their owner, and by the 1640s the Amsterdam stock exchange had a regular repo trade operation for VOC shares. Interest rates on the Amsterdam market for (secured) loans dropped from 8% in 1596 to under 6% in 1620. The deep liquidity of the VOC market also made them the perfect underlying asset for a flourishing derivatives market in 17th century Amsterdam, with forwards (including shorting), options, and repo contracts. In his VOC focused dissertation, historian L.O. Petram concludes that “after the period 1630-50, investors were primarily interested in the financial services the secondary market provided, rather than in the East India trade itself [^31].”
 
-{{% image "/img/br-544.png" %}}
+{{% image "/img/br-544.webp" %}}
 _Investments & returns of the pre-VOC trading companies. Gelderblom & Jonker, 2004_
 {{% /image %}}
 
-{{% image "/img/br-545.png" %}}
+{{% image "/img/br-545.webp" %}}
 _The new supply of loans collateralized by VOC shares caused Amsterdam interest rates to drop sharply. Gelderblom & Jonker, 2004_
 {{% /image %}}
 
 Shifting over to today, we see similarities between **bitcoin savers** and the historical VOC shareholders: they are often long-term committed, they have a relatively high concentration of their wealth tied up in the asset, they don’t like to sell it as that triggers capital gains taxes, and as millennials they have ambitions to make further investments. Going forward, we expect the use of bitcoin as **collateral** for borrowing to become increasingly widespread [^32]. We are also bullish on bitcoin **derivatives** markets, as it allows businesses to precisely tailor their risk management strategy as they pursue sustainable growth in the bitcoin industry. Our hypothesis is that the sectors in which price volatility impacts an economy the most will grow the largest derivatives markets: VOC shares in 16th century Amsterdam, agriculture and precious metals in 1980, interest rates today, and tomorrow perhaps bitcoin.
 
-{{% image "/img/br-546-en.png" %}}
+{{% image "/img/br-546-en.webp" %}}
 _It is our hypothesis that derivatives markets grow around those sectors that are the greatest contributors to pricing risk in the economy (i.e. those economic goods that companies need to hedge against). Src: CFTC, “[Commission in brief](https://www.cftc.gov/sites/default/files/reports/afr/2016/index.htm)”, 2016._
 {{% /image %}}
 
@@ -232,7 +232,7 @@ Having only recently passed its 10th anniversary, **bitcoin denominated lending*
 > 
 > _— Steven Nerayoff, CEO Alchemist, June 2019_
 
-{{% image "/img/br-547-en.png" %}}
+{{% image "/img/br-547-en.webp" %}}
 _Sources: Sixth Annual Meeting of the Association of
 Life Insurance Presidents, https://www.iii.org, ycharts._
 {{% /image %}}
@@ -267,7 +267,7 @@ In **1511**, Erasmus of Rotterdam publishes the wildly popular “Praise of Foll
 
 During this time, no social stratum is free from the politics of suppression; even devout Flemish Catholic Gerardus Mercator (the cartographer famous for his 1569 world map) is prosecuted by the inquisition in **1543** and spends seven months in prison until he is released based on lack of proof. In that same year, Copernicus publishes his book on heliocentric theory, and Flemish anatomist Vesalius fundamentally challenges Galen’s anatomical model for the first time in fifteen hundred years.
 
-{{% image "/img/br-548.png" %}}
+{{% image "/img/br-548.webp" %}}
 _In his painting “Ship of Fools” (1500), Hieronymus Bosch places members of the clergy in the spotlight. The foreword to the satirical poem it was likely inspired by, Stultifera Navis from 1497, says: “Who takes his place on the ship of fools, sails laughing and singing to hell [^61].”_
 {{% /image %}}
 
@@ -285,15 +285,15 @@ In 1559 the Hapsburg king departs Brussels and leaves for Spain, after which his
 
 In **1567**, the Spanish Duke of Alba arrives in the Netherlands with an army of ten thousand Spanish veterans [^46]. He institutes a “Court of Blood,” and in his six year reign as Governor of the Netherlands is considered by some to be responsible for the death of over eighteen thousand people [^47]. Upon arrival in the Netherlands, Alba raises taxes and begins with the construction of a huge fortress on the edge of the city, which is completed in **1572**. This pentagonal citadel becomes “one of the most studied urban installations of the 16th century [^48].” Three years later, the Spanish crown is in financial trouble and stops paying its mercenaries in the Lowlands, who at the command of Antwerp Citadel’s commander Sancho D’Avila pillage the city of Antwerp in **1576** [^49]. This “Spanish Fury” becomes one of the centuries’ worst atrocities, wherein 7-10% of the population is murdered in three days and a thousand houses are destroyed.
 
-{{% image "/img/br-549.png" %}}
+{{% image "/img/br-549.webp" %}}
 _Allegory of the Dutch nation attacked by the Spaniards. Joannes Gijsius, 1616_
 {{% /image %}}
 
-{{% image "/img/br-550.png" %}}
+{{% image "/img/br-550.webp" %}}
 _Birds-eye view of Antwerp in 1572, featuring Alva’s citadel. Src: Civitates Orbis Terrarum I_
 {{% /image %}}
 
-{{% image "/img/br-551.png" %}}
+{{% image "/img/br-551.webp" %}}
 _This etch from 1580 shows how threatened the Dutch felt by the Spanish invaders, here depicted as a pig infestation. The lion was a symbol associated with the Netherlands [^63]._
 {{% /image %}}
 
@@ -303,7 +303,7 @@ Despite fierce resistance in the following years, including a partial destructio
 
 The fall of Antwerp and the rest of the Southern Netherlands helps kickstart the Dutch Republic’s golden age, by virtue of the influx of some 50-100,000 Flemings [^52]. Simultaneously, England, a relative religious safe haven, sees its human capital boosted by waves of inbound migration [^53]. After decades of war and conquest, the Spanish empire has weakened internally (in part due to the health consequences of inbreeding [^54]) and its strong hierarchy-based rule proves no match for the nimble, dynamic, and commercially oriented organization of Dutch and British economies. The combination of religious and commercial tolerance on the one hand, and a defensible territory surrounded by water on the other, proved to be a recipe for success, and for the next 200 years, the Netherlands and England are at the forefront of economic innovation and growth.
 
-{{% image "/img/br-552-en.png" %}}
+{{% image "/img/br-552-en.webp" %}}
 _“Half of the merchants with property worth ƒ100,000 or more in 1631 originated from the Southern Netherlands [^64].”_
 {{% /image %}}
 
@@ -313,7 +313,7 @@ _“Half of the merchants with property worth ƒ100,000 or more in 1631 originat
 
 In **1579** the Northern Dutch provinces gather to sign the Union of Utrecht, in which they assert their independence from Spain. The document declares complete religious freedom in the Dutch territories, a freedom which will also come to be respected in New Amsterdam. In **1588**, after the destruction of its mighty Armada in the British Channel, Spain gives up on its quest to conquer England. In **1602**, the Dutch East India Company is founded, among others by Dirck van Os, an Antwerp immigrant. Van Os also helps fund Henry Hudson’s **1607** expedition to North America, signs his name on one of the world’s oldest stock certificates, and co-founds the Amsterdam Exchange Bank (1609). In that same year **1609**, a peace treaty is signed between Spain and the Dutch Republic. In **1620** the Pilgrim Fathers, who would later sail on the Mayflower and found the Plymouth Colony, settle in the Dutch City of Leiden where they find refuge from religious intolerance in their native England. In **1621** Flemish-Dutch merchant Willem Usselincx obtains permission from the Staten Generaal to found the Dutch West India Company (WIC), with a monopoly on the exploration of North America. In **1624** the first Dutch settlers arrive on Governor’s Island, outside of Manhattan. In **1626** Walloon Peter Minuit purchases Manhattan Island from the Lenape Native Americans, and chooses it as the capital of New Netherland - which at that time still was a purely commercial enterprise. In **1638**, after the manuscript is smuggled out of Italy, Galileo Galilei’s heliocentric “Two New Sciences” is published in Holland. In **1643** Isaac Jogues estimates Manhattan’s population at five hundred and the number of languages spoken there at eighteen [^55]. In **1644** English poet John Milton publishes Areopagitica, a philosophical defence of freedom of speech and expression. In **1654** a small group of Portugese Jews arrives in Manhattan, and after the Jewish community petitions the WIC back in Europe, the New Amsterdam governor Peter Stuyvesant eventually agrees to let them stay, setting a welcoming precedent for future non-Dutch settlers [^56]. In **1664**, New Amsterdam is conquered by the British army and is renamed as New York—the population is nine thousand at the time [^57]. In **1665**, Spinoza’s teacher and Flemish refugee Franciscus Van Den Enden publishes “Free Political Theses,” in which he defends freedom of speech, freedom of religion, egalitarianism, abolitionism, and direct democracy. In **1683** British earl Thomas Dongan is appointed as governor of New York and tasked to promote the Anglican Church there — he never succeeds [^58]. In **1689** John Locke publishes “A Letter Concerning Toleration,” in which the philosopher makes a highly influential case for religious tolerance. In **1777**, New York adopts the first State Constitution without any religious establishment and becomes the only revolutionary state that does not have a religious test for office holding [^59].
 
-{{% image "/img/br-553.png" %}}
+{{% image "/img/br-553.webp" %}}
 _Map of New Netherlands - the Dutch presence was the greatest in the area currently known as New York City._
 {{% /image %}}
 
@@ -325,7 +325,7 @@ _Map of New Netherlands - the Dutch presence was the greatest in the area curren
 > 
 > _— New York State Constitution, 1777_
 
-{{% image "/img/br-554.png" %}}
+{{% image "/img/br-554.webp" %}}
 *At the heart of Bruegel’s “The Battle between Carnival and Lent” a married couple is shown. The man carries a sack, symbolizing egotism and imperfection, and the woman an unlit lantern, signifying absence of wisdom. Accompanied by a fool and kindly supporting each other, they wander off. Interpreting his pictography, we see a supportive message about the future of the Reformation: While the common man and woman aren’t as enlightened as the intellectual classes want them to be, they generally do not participate in tribalist warfare. And this disengagement isn’t informed by general apathy, but rather by a pragmatic interest in peaceful family life and individual economic progress.*
 
 ---

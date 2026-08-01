@@ -1,7 +1,7 @@
 ---
 title: "On Ossification"
 h1: "On Ossification"
-cover: /img/oss-01.png
+cover: /img/oss-01.webp
 tags: ["bitcoin", "protocol"]
 description: "An impassioned argument for why we should continue striving to improve the Bitcoin protocol."
 url: on-ossification
@@ -35,7 +35,7 @@ Bitcoin is only 15 years old and has undergone many consensus changes and upgrad
 
 We should learn lessons from other popular network protocols like SMTP. If Bitcoin ossifies, developers will build increasingly complex layers on top of it to add desired functionality. Complexity introduces bugs and exploits.
 
-{{% image "/img/oss-02.png" %}}
+{{% image "/img/oss-02.webp" %}}
 _[The Death of Decentralized Email](https://blog.lopp.net/death-of-decentralized-email/)_
 {{% /image %}}
 
@@ -45,7 +45,7 @@ This isn't a knock on complex layers like BitcoinOS / BitVM / Botanix's Spiderch
 
 Many desirable features like covenants, vaults, and payment pools require base layer upgrades. Building these in a clean way on the protocol itself is far better than hacky overlays. A base layer with more building blocks unlocks a new design space for Bitcoin.
 
-{{% image "/img/oss-03-en.png" /%}}
+{{% image "/img/oss-03-en.webp" /%}}
 
 Careful, well-tested upgrades that have been thoroughly debated and reached community consensus do not undermine property rights or Bitcoin's core stable money proposition. Upgrades enshrine the will of the users rather than override them.
 
@@ -143,13 +143,13 @@ Trust in Bitcoin's properties and resistance to implementing bad ideas comes dow
 
 Similar to the above, either you believe that the game theory around protocol changes is sound or we've just been lucky thus far. Bitcoin developers can't force anyone to run code with which they disagree.
 
-{{% image "/img/196.png" %}}
+{{% image "/img/196.webp" %}}
 _[Who Controls Bitcoin Core?](/who-controls-bitcoin-core)_
 {{% /image %}}
 
 Also, the internal process for development is extremely challenging. Most proposed rule and code changes never make it through the gauntlet.
 
-{{% image "/img/oss-04.png" %}}
+{{% image "/img/oss-04.webp" %}}
 _[Bitcoin Core Contributor Challenges](https://blog.lopp.net/bitcoin-core-contributor-challenges/)_
 {{% /image %}}
 
@@ -194,7 +194,7 @@ We should absolutely strive to avoid mistakes. We should also have confidence th
 
 Bitcoin does not exist within a vacuum. It is, in a sense, a living organism. No form of life can thrive via stagnation.
 
-{{% image "/img/0000000001.png" %}}
+{{% image "/img/0000000001.webp" %}}
 _[Bitcoin is The Mycelium of Money](/bitcoin-is-the-mycelium)_
 {{% /image %}}
 
@@ -210,7 +210,7 @@ I think this is another point on which both sides generally agree. The changes t
 
 This seems to be another issue of not believing in the game theory behind Bitcoin's governance. I'm of the opinion that if you don't believe in the checks and balances inherent to the system, you don't really believe in Bitcoin.
 
-{{% image "/img/oss-05-en.png" /%}}
+{{% image "/img/oss-05-en.webp" /%}}
 
 As I'll note later, ossification itself also has the potential of enabling Bitcoin to be captured by special interest groups. The answer is not paralysis, the answer is vigilance and the ability to adapt to new stresses and adversaries!
 
@@ -220,7 +220,7 @@ The debate over what use cases of Bitcoin should be considered spam has raged as
 
 At a technical level, Bitcoin is a store of data; a blockchain is basically an append-only log with several other interesting properties. As such, people have used Bitcoin for non-financial uses for over a decade. As I wrote 8 years ago, it's the trustworthiness of this data's permanence and inability to be overwritten that entices people to use it for non-financial purposes.
 
-{{% image "/img/oss-06.png" %}}
+{{% image "/img/oss-06.webp" %}}
 _[Bitcoin: The Trust Anchor in a Sea of Blockchains](https://blog.lopp.net/bitcoin-the-trust-anchor-in-a-sea-of-blockchains/)_
 {{% /image %}}
 
@@ -228,7 +228,7 @@ We don’t know what the long term market for block space will look like - that 
 
 What do all of these arguments boil down to, in my opinion?
 
-{{% image "/img/oss-07.png" /%}}
+{{% image "/img/oss-07.webp" /%}}
 
 ## Frequently Asked Questions
 
@@ -263,11 +263,11 @@ Technology is deflationary by nature. Bitcoin’s consensus rules should priorit
 
 Are we going to allow the future of Bitcoin to be driven by optimism or by pessimism?
 
-{{% image "/img/oss-08-en.png" /%}}
+{{% image "/img/oss-08-en.webp" /%}}
 
 To be clear, caution is of utmost importance. Nowhere will you find me claiming that "Bitcoin must implement feature X or it will fail." Bitcoin's success is, in my opinion, one of the factors that actually is making it more difficult to improve.
 
-{{% image "/img/oss-09-en.png" /%}}
+{{% image "/img/oss-09-en.webp" /%}}
 
 But if we allow ourselves to be paralyzed by fear, we will be sacrificing potential paths forward and vastly limiting the exploration of Bitcoin's design space, which I believe naturally results in limiting its adoption, use cases, and strengthening of valuable attributes.
 
@@ -277,7 +277,7 @@ But if we allow ourselves to be paralyzed by fear, we will be sacrificing potent
 
 A word of warning, as I see conflict on the horizon. Consider the incentives around why one would want to improve the Bitcoin protocol. The only reason you'd care about doing so is if you are a direct user of the protocol. In other words, **protocol improvements are only interesting to those who self custody**. If you use a trusted third party to store your funds, you don't care how they make use of the protocol.
 
-{{% image "/img/oss-10-en.png" /%}}
+{{% image "/img/oss-10-en.webp" /%}}
 
 Perhaps Bitcoin has already ossified and all of the above was written for naught. We won't know for sure until we have the benefit of significant hindsight. The world is never going to stop evolving, and we have to ask ourselves if we want Bitcoin to evolve along with it or for it to get left behind.
 

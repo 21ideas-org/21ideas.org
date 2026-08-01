@@ -2,7 +2,7 @@
 title: "Introduction"
 h1: "Introduction"
 description: ""
-cover: /img/dojo-02.jpg
+cover: /img/dojo-02.webp
 url: practice-privacy/dojo-0
 date: 2023-12-20
 bookFlatSection: false
@@ -40,7 +40,7 @@ It's worthwhile checking your system's BIOS power settings and enabling any auto
 
 Those wanting a device with a footprint similar in size to a traditional node may want to check out the Lenovo ThinkCentre M series or, my favorite, the Dell Optiplex M range of microcomputers. Both are readily available on the used market as ex-office machines.
 
-{{% image "/img/dojo-03.jpg" /%}}
+{{% image "/img/dojo-03.webp" /%}}
 
 ## Prerequisites
 

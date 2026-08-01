@@ -2,7 +2,7 @@
 title: "Установка обновлений пакетов"
 h1: "Часть 6. Установка обновлений пакетов"
 description: ""
-cover: /img/dojo-10.jpg
+cover: /img/dojo-10.webp
 url: practice-privacy/dojo-6
 date: 2023-12-20
 bookFlatSection: false

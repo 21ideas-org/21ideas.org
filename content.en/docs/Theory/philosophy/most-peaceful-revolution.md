@@ -1,7 +1,7 @@
 ---
 title: "A Most Peaceful Revolution"
 h1: "A Most Peaceful Revolution"
-cover: /img/rev-858.jpg
+cover: /img/rev-858.webp
 description: ""
 url: most-peaceful-revolution
 date: 2019-09-07
@@ -36,7 +36,7 @@ This proposition predictably enraged the State-dependent intelligentsia, the pun
 
 Thus, met with the screeching bile of the chattering classes, Bitcoiners went from utopian tinkerers to dissidents in short order — even as the movement was still in its infancy. Check the financial pages of your newspaper of record; you will find nothing but derision and mockery (and the very occasional nod of grudging acceptance). This is for an asset class which went from 0 to $200 billion in a decade, with no venture backing, no IPO, no corporate entity, an absent founder, and a purely open-source body of maintainers. In the U.S., the government saw fit to give [Ross Ulbricht](https://medium.com/@RossUlbricht/who-deserves-this-6cff48f62b6f) two non-parole-eligible life sentences plus 40 years for the crime of creating a free market denominated in Bitcoin. China has banned the formal exchange of bitcoins; India is mulling over legislation to make mere ownership illegal.
 
-{{% image "/img/rev-859.png" %}}
+{{% image "/img/rev-859.webp" %}}
 _Legality of Bitcoin — Green: permissive; Orange: some restrictions; Pink: contentious; Red: Hostile. ([Source](https://commons.wikimedia.org/wiki/File:Legal_status_of_bitcoin_(new).png))_
 {{% /image %}}
 
@@ -48,7 +48,7 @@ And it is a rebellion, make no mistake. Cryptocurrency, despite the earnest prot
 
 Just as sixteenth century Protestants began to question the official doctrine of indulgences and the scope of the Pope’s authority, so too came to wonder a ragged bunch of nerds and cypherpunks: is inflation really necessary? In a free market economy, should central banks really have the right to arbitrarily set the price of money? Should the State really have full discretion over one’s saving and spending? Should savers really be forced to trust banks (and ultimately, the taxpayer) to redeem and honor their savings? What does an entry in a bank’s database really mean?
 
-{{% image "/img/rev-860.png" %}}
+{{% image "/img/rev-860.webp" %}}
 _Rare image of Bitcoin in physical form_
 {{% /image %}}
 
@@ -66,7 +66,7 @@ Being highly liquid and traded globally, Bitcoin also has the practical effect o
 
 One example: publishing information on the street value of the Bolivar is illegal in Venezuela, as the regime has a strong interest in maintaining a tight grip on the narratives around their currency. The most popular exchangerate-tracking website in Venezeula, DolarToday (run out of Miami) uses LocalBitcoins trades to derive an implicit USD-Bolivar Soberano street price.
 
-{{% image "/img/rev-861.png" %}}
+{{% image "/img/rev-861.webp" %}}
 _Source: [https://dolartoday.com](https://dolartoday.com/)_
 {{% /image %}}
 
@@ -114,7 +114,7 @@ After ten years of experimentation, misallocated capital, and hubris, we have le
 
 Bitcoin has clear answers to all these questions. Its imitators do not. Not only do they not have reasonable answers, their creators aren’t even aware that these are the appropriate questions to consider.
 
-{{% image "/img/rev-862.png" %}}
+{{% image "/img/rev-862.webp" %}}
 _Above: a list of all the utility tokens that fulfilled their stated purpose and saw meaningful adoption_
 {{% /image %}}
 

@@ -2,7 +2,7 @@
 
 title: "What is multisig?"
 h1: "What is multisig?"
-cover: /img/multisig/cover.png
+cover: /img/multisig/cover.webp
 description: "Why multisig is the best approach for long-term cold storage for most people, and how to make the most of it for your generational wealth."
 url: what-is-multisig
 date: 2023-03-09
@@ -41,7 +41,7 @@ To understand multisig, it’s important to first understand the predecessor met
 A singlesig wallet is the simplest and most widely used form of self-custody bitcoin wallet. It involves just one master private key, which can generate addresses for receiving bitcoin. If bitcoin is sent to one of those addresses, the amount will be counted towards the wallet balance, and it can only be removed from the wallet after approval from someone who has the private key.
 
 
-{{% image "/img/multisig/examples-en.png" %}}
+{{% image "/img/multisig/examples-en.webp" %}}
 _A few examples of wallets commonly used as “singlesig”._
 {{% /image %}}
 
@@ -94,7 +94,7 @@ However, not all multisig quorums offer these protections. A “1-of-n” quorum
   
 Setups that fit in between these two extremes are the sweet spot for addressing both categories of single points of failure: loss and theft. The least complex arrangement that satisfies both goals is 2-of-3, which is also the most popular multisig quorum for securing bitcoin in cold storage, and the only one we use at Unchained. A 3-of-5 quorum is a fairly popular arrangement as well, but it introduces more complexity than necessary for most situations. While 3-of-5 can provide extra redundancy, this point can be repeated to advocate for 4-of-7, and then 5-of-9, and so forth to infinity.
 
-{{% image "/img/multisig/graph-en.png" %}}
+{{% image "/img/multisig/graph-en.webp" %}}
 _Some arrangements disproportionately expose you to risk of theft, while others expose you to risk of loss. 2-of-3 multisig protects you from both with the least amount of added complexity._
 {{% /image %}}
 
@@ -118,7 +118,7 @@ Many bitcoin holders want to exercise the purchasing power of their bitcoin with
   
 A popular solution to this dilemma is a bitcoin-backed loan, usually built with a 2-of-3 multisig quorum. A bitcoin holder can borrow cash from a lender after depositing their bitcoin into the multisig wallet, where the borrower keeps one key, the lender holds one key, a third party arbitrator holds one key, and two keys are required to withdraw bitcoin from the wallet.
 
-{{% image "/img/multisig/lend-en.png" %}}
+{{% image "/img/multisig/lend-en.webp" %}}
 _Some multisig arrangements allow three parties to share custody to enable things like secure collateralized loans._
 {{% /image %}}
 
@@ -141,7 +141,7 @@ On the bright side, bitcoin’s taproot upgrade in 2021 made it possible for mul
   
 A popular strategy to utilize the protection benefits of multisig while reducing its drawbacks is to hold some bitcoin within both custody arrangements. For example, you could keep the vast majority of your bitcoin in a cold storage multisig wallet for the purpose of long-term savings, and simultaneously keep a much smaller amount of bitcoin in a singlesig hot wallet on your phone. That way, you could rest comfortably knowing the bulk of your bitcoin wealth has maximum protection, while at the same time you can easily send and receive smaller amounts in a more convenient manner.
 
-{{% image "/img/multisig/approaches-en.png" %}}
+{{% image "/img/multisig/approaches-en.webp" %}}
 _At Unchained, we often recommend clients use a singlesig hot wallet for daily use and a multisig cold storage vault for long-term savings._
 {{% /image %}}
 
@@ -157,7 +157,7 @@ Since most bitcoin wallet technology is built to be interoperable, if you use on
   
 Creating a DIY multisig wallet can be a rewarding educational experience, and it can also be a particularly private method of getting set up. However, if you run into any technical difficulties down the road, it may be a headache to find [someone trustworthy](https://unchained.com/concierge) who can help you out. Similarly, if something tragic happens to you, your loved ones could be tasked with figuring out the complexities of your multisig arrangement in order to [inherit your bitcoin](https://unchained.com/inheritance), which they might find quite challenging.
 
-{{% image "/img/multisig/multisig-1-en.png" %}}
+{{% image "/img/multisig/multisig-1-en.webp" %}}
 _You can set up multisig entirely on your own with several hardware wallets._
 {{% /image %}}
 
@@ -169,7 +169,7 @@ For example, with an [Unchained vault](https://unchained.com/vaults), a 2-of-3 m
   
 On the other hand, since you hold two of the keys, you can provide the two signatures needed for a withdrawal without ever relying on Unchained’s key! What’s more, signing and broadcasting a transaction is a permissionless activity, so as long as you are keeping your keys safe and accessible, nobody can ever prevent you from moving your bitcoin elsewhere. Similar to a DIY multisig wallet, you could always load an Unchained vault into another software (using the wallet configuration file) so you aren’t forced to rely on our website or business.
 
-{{% image "/img/multisig/multisig-2-en.png" %}}
+{{% image "/img/multisig/multisig-2-en.webp" %}}
 _You can also set up multisig with fewer hardware wallets and a partner who controls a minority of keys._
 {{% /image %}}
 

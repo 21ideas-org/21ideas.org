@@ -1,7 +1,7 @@
 ---
 title: "The Seven Network Effects of Bitcoin"
 h1: "The Seven Network Effects of Bitcoin"
-cover: /img/159.jpeg
+cover: /img/159.webp
 tags: ["bitcoin", "network effect"]
 description: ""
 url: seven-network-effects-of-bitcoin

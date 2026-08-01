@@ -1,7 +1,7 @@
 ---
 title: "Глава 10: DAO"
 h1: "Глава 10: DAO"
-cover: /img/vrb-442.jpeg
+cover: /img/vrb-442.webp
 description: "Летом 2016 года внимание многих участников криптовалютного сообщества начал привлекать проект под названием &quot;DAO&quot;..."
 url: vojna-za-razmer-bloka/glava-10
 aliases: ['/book-the-blocksize-war-chapter-10']

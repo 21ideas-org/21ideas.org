@@ -1,7 +1,7 @@
 ---
 title: 21 ideas
-cover: /img/main-section/main_light_en.png
-coverDark: /img/main-section/main_dark_en.png
+cover: /img/main-section/main_light_en.webp
+coverDark: /img/main-section/main_dark_en.webp
 h1: "Educational Bitcoin-Only Resource"
 description: "Educational Bitcoin-Only Resource"
 ---
@@ -44,25 +44,25 @@ If you are just starting to familiarize yourself with Bitcoin, we have prepared 
 {{< /hint >}}
 
 {{< details "Start" "...">}}
-![cover](/img/main-section/start-en.png)
+![cover](/img/main-section/start-en.webp)
 
 The **Start** section includes the most basic and essential materials to help you begin interacting with Bitcoin as quickly as possible. It is important to note that while these materials are selected to enable beginners to start using Bitcoin right away, they are not comprehensive. We strongly suggest visiting the site again later to check out the materials in the other sections.
 {{< /details >}}
 
 {{< details "Theory" "..." >}}
-![cover](/img/main-section/theory-en.png)
+![cover](/img/main-section/theory-en.webp)
 
 The [Theory]({{< ref "/docs/Theory" >}}) section provides an in-depth exploration of the theoretical aspects of Bitcoin. Here, you will find comprehensive information that will help you understand the significance of Bitcoin and the reasons why it is important to study it. It aims to answer the question, "Why Bitcoin?”
 {{< /details >}}
 
 {{< details "Practice" "...">}}
-![cover](/img/main-section/practice-en.png)
+![cover](/img/main-section/practice-en.webp)
 
 Understanding the theory is important, but practical knowledge is equally crucial. Without it, you may become confused and potentially risk losing your savings. The [Practice]({{< ref "/docs/Practice" >}}) section of this guide is designed to equip you with the necessary skills to interact with Bitcoin effectively. This includes buying, storing, and exchanging coins without encountering any issues. Additionally, it will help you maintain your privacy and ensure the security of all your activities, protecting you from malicious users and potential mistakes.
 {{< /details >}}
 
 {{< details "Rabbithole" "...">}}
-![cover](/img/main-section/rabbithole-en.png)
+![cover](/img/main-section/rabbithole-en.webp)
 # Additional Resources
 
 There are numerous useful Bitcoin materials in various formats out there. We would like to share the most important ones with you on the pages of 21ideas.org. We will be gradually adding new formats to our library:

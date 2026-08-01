@@ -1,7 +1,7 @@
 ---
 title: "Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It"
 h1: "The Genesis Files. Part III: If Bitcoin Had a First Draft, Wei Dai’s B-Money Was It"
-cover: /img/gf-241.jpeg
+cover: /img/gf-241.webp
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
 description: "“Efficient cooperation requires a medium of exchange (money) and a way to enforce contracts,” Dai explained when he introduced b-money in November of 1998."
 url: gf/genesis-3
@@ -28,7 +28,7 @@ This article by Aaron van Wirdum was published in [Bitcoin Magazine](https://bit
 
 > "Efficient cooperation requires a medium of exchange (money) and a way to enforce contracts,” Dai explained when he introduced b-money in November of 1998.
 
-{{% image "/img/gf-242.png" /%}}
+{{% image "/img/gf-242.webp" /%}}
 
 All Cypherpunks value privacy; it’s basically the founding principle of the collective of cryptographers, academics, developers and activists grouped around the 1990s mailing list by the same name. But few put it in practice like Wei Dai does. Once [described](https://www.nytimes.com/2015/05/17/business/decoding-the-enigma-of-satoshi-nakamoto-and-the-birth-of-bitcoin.html) as an “intensely private computer engineer” by the _New York Times_, not many personal details are known about the man who, two decades ago, dreamed up an electronic cash system intriguingly similar to Bitcoin.
 

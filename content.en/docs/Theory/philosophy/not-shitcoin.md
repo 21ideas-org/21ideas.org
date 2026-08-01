@@ -1,7 +1,7 @@
 ---
 title: "Why Bitcoin, Not Shitcoin"
 h1: "Why Bitcoin, Not Shitcoin"
-cover: /img/178.png
+cover: /img/178.webp
 tags: ["bitcoin", "not shitcoin", "proof-of-work", "altcoin"]
 description: "Why bitcoin is not only the best investment of our time, and the only good “crypto,” but the only moral, economic and philosophically sound place to store your wealth."
 url: not-shitcoin
@@ -100,13 +100,13 @@ And this is only the beginning. Bitcoin hasn’t started sucking the air out of 
 
 Source:
 
-{{% image "/img/181.png" %}}
+{{% image "/img/181.webp" %}}
 *Source: Google*
 {{% /image %}}
 
 The longer the chart, the worse it looks for the USD.
 
-{{% image "/img/181-1.png" %}}
+{{% image "/img/181-1.webp" %}}
 _[Source](https://usdsat.com/)_
 {{% /image %}}
 

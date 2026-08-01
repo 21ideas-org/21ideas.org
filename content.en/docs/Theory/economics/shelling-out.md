@@ -1,7 +1,7 @@
 ---
 title: "Shelling Out: The Origins of Money"
 h1: "Shelling Out: The Origins of Money"
-cover: /img/shel-562.jpg
+cover: /img/shel-562.webp
 description: "The precursors of money, along with language, enabled early modern humans to solve problems of cooperation that other animals cannot – including problems of reciprocal altruism, kin altruism, and the mitigation of aggression."
 url: shelling-out
 date: 2002-12-17
@@ -26,7 +26,7 @@ From the very start, England's 17th century colonies in America had a problem �
 
 The colonists' solution was at hand, but it took a few years for them to recognize it. The natives had money, but it was very different from the money Europeans were used to. American Indians had been using money for millennia, and quite useful money it turned out to be for the newly arrived Europeans – despite the prejudice among some that only metal with the faces of their political leaders stamped on it constituted real money. Worse, the New England natives used neither silver nor gold. Instead, they used the most appropriate money to be found in their environment – durable skeleton parts of their prey. Specifically, they used wampum, shells of the clam _Venus mercenaria_ and its relatives, strung onto pendants.
 
-{{% image "/img/shel-563.png" %}}
+{{% image "/img/shel-563.webp" %}}
 _Necklace of wampum. During trade the beads were counted, removed, and re-assembled on new necklaces. Native American shell beads were also sometimes woven into belts or other mnemonic and ceremonial devices that demonstrated the wealth and commitment of a tribe to a treaty._
 {{% /image %}}
 
@@ -42,13 +42,13 @@ Native American money took many forms besides shells. Furs, teeth, and a variety
 
 Native Americans had not, however, been the first to make artful but useless blades, nor had they invented shell money. Nor, for that matter, had Europeans, even though they, too, in ages past had widely used shells and teeth for money – not to mention cattle, gold, silver, weapons, and much else. Asians had used all that and faux axes issued by governments to boot, but they as well imported this institution. For archaeologists have found pendants of shells dating to the early Paleolithic that could easily have substituted for Native American money.
 
-{{% image "/img/shel-564.gif" %}}
+{{% image "/img/shel-564.webp" %}}
 _Beads made from shells of the pea-sized snail Nassarius kraussianus, that lived in a nearby estuary. Blombos Cave, South Africa, 75,000 B.P. [^B04]_
 {{% /image %}}
 
 In the late 1990s archaeologist Stanley Ambrose discovered, in a rock-shelter in the Rift Valley of Kenya, a cache of beads made of ostrich eggshell, blanks, and shell fragments. They are dated using the argon-argon (40Ar/39Ar) ratio to at least 40,000 years old [^A98]. Pierced animal teeth have been found in Spain also dating to this time [^W95]. Perforated shells have also been recovered from early Paleolithic sites in Lebanon [^G95]. Recently regular shells, prepared as strung beads and dating further back still, to 75,000 BP, have been found in Blombos Cave in South Africa [^B04].
 
-{{% image "/img/shel-565.png" %}}
+{{% image "/img/shel-565.webp" %}}
 _Ostrich-eggshell beads, Kenya Rift Valley, 40,000 B.P. (Courtesy Stanley Ambrose)_
 {{% /image %}}
 
@@ -56,7 +56,7 @@ Our modern subspecies had migrated to Europe and necklaces of shell and tooth ap
 
 Practically all human cultures, even those that do not engage in substantial trade or that use more modern forms of money, make and enjoy jewelry, and value certain objects more for their artistic or heirloom qualities than for their utility. We humans collect necklaces of shells and other kinds of jewelry – for the sheer enjoyment of it. For the evolutionary psychologists an explanation that humans do something for "the sheer enjoyment of it" is not an explanation at all – but the posing of a problem. Why do so many people find the collection and wearing of jewelry enjoyable? For the evolutionary psychologist, this question becomes – what caused this pleasure to evolve?
 
-{{% image "/img/shel-566.png" %}}
+{{% image "/img/shel-566.webp" %}}
 _Detail of necklace from a burial at Sungir, Russia, 28,000 BP. Interlocking and interchangeable beads. Each mammoth ivory bead may have required one to two hours of labor to manufacture [^W97]._
 {{% /image %}}
 
@@ -126,15 +126,15 @@ All these kinds of value transfer occurred in many cultures of human prehistory,
 
 ### The Kula Ring
 
-{{% image "/img/shel-568.gif" %}}
+{{% image "/img/shel-568.webp" %}}
 _The Kula trading network of pre-colonial Melanesia. The kula valuables doubled as "high power" money and mnemonic for stories and gossip. Many of the goods traded, mostly agricultural products, were available in different seasons, and so could not be traded in kind. Kula collectibles solved this double-coincidence problem as an unforgeably costly, wearable (for security), and circulated (literally!) money. Necklaces circulated clockwise, and armshells counter-clockwise, in a very regular pattern. By solving the double-coincidence problem an armshell or necklace would prove more valuable than its cost after only a few trades, but could circulate for decades. Gossip and stories about prior owners of the collectibles further provided information about upstream credit and liquidity. In other Neolithic cultures collectibles, usually shells, circulated in a less regular pattern but had similar purposes and attributes [^L94]._
 {{% /image %}}
 
-{{% image "/img/shel-569.jpg" %}}
+{{% image "/img/shel-569.webp" %}}
 _Kula armshell (mwali)._
 {{% /image %}}
 
-{{% image "/img/shel-570.jpg" %}}
+{{% image "/img/shel-570.webp" %}}
 _Kula necklaces (bagi)._
 {{% /image %}}
 
@@ -184,11 +184,11 @@ The !Kung San of southern Africa, like all other modern remnants of hunter-gathe
 
 Like most hunter-gatherers, the !Kung spend most of the year in small, dispersed bands and a few weeks of the year in an aggregate with several other bands. Aggregation is like a fair with added features – trade is accomplished, alliances are cemented, partnerships strengthened, and marriages transacted. Preparation for aggregation is filled with the manufacture of tradeable items, partly utilitarian but mostly of a collectible nature. The exchange system, called by the !Kung _hxaro_, involves a substantial trade in beaded jewelry, including ostrich-shell pendants quite similar to those found in Africa 40,000 years ago.
 
-{{% image "/img/shel-571.gif" %}}
+{{% image "/img/shel-571.webp" %}}
 _[Pattern of hxaro exchanges and kinship relations](http://www.mpi-fg-koeln.mpg.de/~lk/netvis/kunggenetic.html) among neighboring tribes of !Khung San hunter-gatherers._
 {{% /image %}}
 
-{{% image "/img/shel-572.gif" %}}
+{{% image "/img/shel-572.webp" %}}
 _Necklaces used in the hxaro exchange._
 {{% /image %}}
 
@@ -292,7 +292,7 @@ There are many puzzling instances of useless or at least unused flints with _hom
 
 Flints were quite likely the first collectibles, preceding special-purpose collectibles like jewelry. Indeed, the first flint collectibles would have been made for their cutting utility. Their added value as a medium of wealth transfer was a fortuitous side effect that enabled the institutions described in this article to blossom. These institutions, in turn, would have motivated the manufacture of special-purpose collectibles, at first flints that need have no actual use as cutting tools, then the wide variety of other kinds of collectibles that were developed by _Homo sapiens sapiens_.
 
-{{% image "/img/shel-573.png" %}}
+{{% image "/img/shel-573.webp" %}}
 _Shell money from Sumer, c. 3,000 B.C._
 {{% /image %}}
 
@@ -300,7 +300,7 @@ During the Neolithic era, in many parts of the Middle East and Europe, some kind
 
 It is no coincidence that the attributes of collectibles are shared with precious metals, coins, and the reserve commodities that have backed most non-fiat currencies. Money proper implemented these properties a purer form than the collectibles used during almost all of human prehistory.
 
-{{% image "/img/shel-574.png" %}}
+{{% image "/img/shel-574.webp" %}}
 _Silver ring and coil money from Sumer, c. 2,500 B.C. Note the standard size of cross-sections. Many of the pieces had a standard weight, ranging from one-twelfth of a shekel to sixty shekels. To assay a ring or coil, it could be weighed and cut at random locations. (Courtesy Oriental Institute, University of Chicago)_
 {{% /image %}}
 
@@ -312,7 +312,7 @@ Many kinds of wealth transfers – one-way and mutual, voluntary and coerced –
 
 Collectibles augmented our large brains and language as solutions to the Prisoner's Dilemma that keeps almost all animals from cooperating via delayed reciprocation with nonkin. Reputational beliefs can suffer from two major kinds of errors – errors of about which person did what, and errors in appraising the value or damages caused by that act. Within clans (the small and immediately local kin group, or extended family, which formed a subset of a tribe), our large brains could minimize these errors, so that public reputation and coercive sanctions superseded the limited motivation provided by the counterparty's ability to cooperate or defect in the future as the main enforcer of delayed reciprocation. In both _Homo sapiens neanderthalensis_ and _Homo sapiens sapiens_, with the same large brain size, it is quite likely that every local clan member kept track of everybody other local clan member's favors. The use of collectibles for trade within the small local kin group may have been minimal. Between clans within a tribe both favor tracking and collectibles were used. Between tribes, collectibles entirely replaced reputation as the enforcer of reciprocation, although violence still played a major role in enforcing rights as well as being a high transaction cost that prevented most kinds of trade.
 
-{{% image "/img/shel-575.png" %}}
+{{% image "/img/shel-575.webp" %}}
 _**When costliness becomes forgeable** – Glass trade beads, manufactured in Venice in the 16th or 17th century, excavated from Mali, Africa. Such beads were very popular wherever European colonialists encountered Neolithic or hunter-gatherer cultures._
 {{% /image %}}
 

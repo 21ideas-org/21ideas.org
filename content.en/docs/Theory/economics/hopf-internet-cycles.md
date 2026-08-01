@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin & the HOPF Cycle of the Internet"
 h1: "Bitcoin & the HOPF Cycle of the Internet"
-cover: /img/hopf-597.jpg
+cover: /img/hopf-597.webp
 description: ""
 url: bitcoin-and-the-hopf-cycle-of-the-internet
 date: 2020-12-30
@@ -47,7 +47,7 @@ The “atrophy” of some of the system strength, plus the concentration of syst
 
 While simple and exact predictions about complex systems are by definition difficult, and while too strict an interpretation of these “rules” tend to degenerate into pseudo-scientific models, implausible variants of historicism, cheap moralistic mantras, and unsubstantiated urban legends, it’s difficult to deny the fundamental nature of similar feedback loops, in a general enough interpretation.
 
-{{% image "/img/hopf-600.png" %}}
+{{% image "/img/hopf-600.webp" %}}
 Strauss-Howe Generational Theory. Matrix.
 {{% /image %}}
 

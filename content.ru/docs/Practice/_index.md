@@ -2,8 +2,8 @@
 title: Практика
 type: docs
 h1: "Практика"
-# cover: /img/main-section/ru/practice-light.png
-# coverDark: /img/main-section/ru/practice.png
+# cover: /img/main-section/ru/practice-light.webp
+# coverDark: /img/main-section/ru/practice.webp
 bookFlatSection: false
 bookCollapseSection: true
 url: practice

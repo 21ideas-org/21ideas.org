@@ -54,7 +54,7 @@ Unfortunately, a deterministic and final solution based on mathematics is theore
 
 Instead of just their issuance messages, they should pass through the hash function more complex “blocks” of information, each containing (along with said issuance message, a timestamp and a random number needed to solve the puzzle at the correct difficulty) the solution of the previous block (which had been found by other miners about 10 minutes before) and a list of transactions recently made by other users.
 
-{{% image "/img/sb-356.png" /%}}
+{{% image "/img/sb-356.webp" /%}}
 
 A block that contains transactions already included in previous blocks is considered invalid. A block carrying a timestamp that is significantly incompatible with the previous ones is also discharged.
 
@@ -106,7 +106,7 @@ But there are other minor instances of the same paradigm; for example, several t
 
 With the introduction of these final pieces of technology, your users finally have everything they need to use the system in real life, in order to take back some of the most important features of money. Thank you, “Satoshi”!
 
-{{% image "/img/sb-362.jpeg" %}}
+{{% image "/img/sb-362.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

@@ -77,7 +77,7 @@ Everything beyond this fundamental reality strays into abstract theory, relying 
 
 ## Basic Bitcoin Common Sense
 
-{{% image "/img/gts-14-1.png" /%}}
+{{% image "/img/gts-14-1.webp" /%}}
 
 ### There is No Such Thing as a Free Lunch
 
@@ -89,7 +89,7 @@ When the Fed creates $2.5 trillion in a matter of weeks, it is consolidating the
 
 ### No Free Lunches, Just More Dollars
 
-{{% image "/img/gts-14-2.png" /%}}
+{{% image "/img/gts-14-2.webp" /%}}
 
 Since 2007, the Fed balance sheet has increased seven-fold, but the labor force has only increased 6%. There are roughly the same number of people contributing output (human time) but far more dollars to compensate for that time. Do not be confused by impossible-to-quantify theory concerning the idea of a job saved versus a job lost; this is the U.S. labor force, defined by the Bureau of Labor Statistics as all persons 16 years of age and older, both employed and unemployed. The inevitable result is that the value of each dollar declines, but it does not create more workers, and all prices do not adjust ratably to the increase in the money supply, including the price of labor. 
 
@@ -99,17 +99,17 @@ In a theoretical world, if the Fed were to distribute the money in equal proport
 
 Instead, the effects of increasing the money supply are transmitted, over time, through an expansion of the credit system. The credit system attempting to contract is the market and the individuals within an economy adjusting and re-pricing value; the Fed attempting to reverse that natural course by flooding the market with dollars is, by definition, overriding the market’s price setting function, fundamentally altering the structure of the economy.  The market solution to the problem is to reduce debt (expression of preference) and the Fed’s solution is to increase the supply of dollars such that existing debt levels can be sustained. The goal is to stabilize the credit system such that it can then expand, and it is a redux to the 2008 financial crisis, which provides a historical roadmap. In the immediate aftermath of the prior crisis, the Fed created $1.3 trillion new dollars in a matter of months. Despite this, the dollar initially strengthened as deflationary pressures in the credit system overwhelmed the increase in the money supply, but then, as the credit system began to expand, the dollar’s purchasing power resumed its gradual decline. At present, the cause and effect of the Fed’s monetary stimulus is principally transmitted through the credit system. It was the case in the years following the 2008 crisis, and it will hold true this time so long as the credit system remains intact.
 
-{{% image "/img/gts-14-4.png" /%}}
+{{% image "/img/gts-14-4.webp" /%}}
 
-{{% image "/img/gts-14-5.png" /%}}
+{{% image "/img/gts-14-5.webp" /%}}
 
 {{% image "/img/gts-14-6.png" /%}}
 
 How the effects manifest in the real economy is very complicated, but it does not take any sophistication to recognize the general direction of the end game or its foundational flaws. More dollars result in each dollar becoming worth less, and the value of any good naturally trends toward its cost to produce. The marginal cost for the Fed to produce a dollar is zero. With all the bailouts from both the Fed and Congress, whether to individuals or companies, someone is paying for everything. It is axiomatic that _printing money (or creating digital dollars) does nothing to generate economic activity_; it only shifts the balance of powers as to who allocates the money and prices risk. It strips power from the people and centralizes it to the government. It also fundamentally impairs the economy’s ability to function as it distorts prices everywhere. But most importantly, it puts the stability of the underlying currency at risk, which is the cost that everyone collectively pays. The Fed may be able to create dollars for free and the Treasury may be able to borrow at near-zero interest rates as a direct result, but there is still no such thing as a free lunch. Someone still has to do the work, and all printing money does is shift who has the dollars to coordinate and price that work.
 
-{{% image "/img/gts-14-10-en.png" /%}}
+{{% image "/img/gts-14-10-en.webp" /%}}
 
-{{% image "/img/gts-14-7.png" /%}}
+{{% image "/img/gts-14-7.webp" /%}}
 
 > “Gospodin,” he said presently, “you used an odd word earlier–odd to me, I mean…”
 > 
@@ -128,13 +128,13 @@ Among its perceived flaws as a currency, bitcoin is viewed by many to be too com
 But with all this, bitcoin is very simple. If the supply of bitcoin remains fixed at 21 million, more people will demand it and its purchasing power will increase; there is nothing about the complexity underneath the hood that will prevent adoption. Most participants in the dollar economy, even the most sophisticated, have no practical understanding of the dollar system at a technical level. Not only is the dollar system far more complex than bitcoin, it is far less transparent. Similar degrees of complexity and many of the same primitives that exist in bitcoin underly an iPhone, yet individuals manage to successfully use the application without understanding how it actually works at a technical level. The same is true of bitcoin; the innovation in bitcoin is that it achieved finite digital scarcity, while being easy to divide and transfer. 21 million bitcoin ever, period.  That compared to $2.5 trillion new dollars created in two months, by one central bank, is the only common sense application anyone really needs to know.
 
 *Exhibit A – Dollar Supply*
-{{% image "/img/gts-14-8.png" /%}}
+{{% image "/img/gts-14-8.webp" /%}}
 
 *Plus Exhibit B – Bitcoin Supply*
-{{% image "/img/gts-5-4-en.png" /%}}
+{{% image "/img/gts-5-4-en.webp" /%}}
 
 *Equals Exhibit C – Purchasing Power of Bitcoin Relative to Dollars*
-{{% image "/img/gts-14-9.png" /%}}
+{{% image "/img/gts-14-9.webp" /%}}
 
 There is a lot happening in the background, but these three charts are what drives everything. People all over the world are connecting these dots. The Fed is creating trillions of dollars at the same time the rate of issuance in bitcoin is about to be cut in half (see the [bitcoin halvening](https://www.buybitcoinworldwide.com/bitcoin-clock/)). While most may not be aware of these two divergent paths, a growing number are (knowledge distributes with time) and even a small number of people figuring it out ultimately puts a significant imbalance between the demand for bitcoin and its supply. When this happens, the value of bitcoin goes up. It is that simple and that is what draws everyone else in: price. Price is what communicates information. All those otherwise not paying attention react to price signals. The underlying demand is ultimately dictated by fundamentals (even if speculation exists), but the majority do not need to understand those fundamentals to recognize that the market is sending a signal. 
 

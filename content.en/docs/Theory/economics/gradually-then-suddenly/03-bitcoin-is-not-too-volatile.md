@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Is Not Too Volatile"
 h1: "Bitcoin Is Not Too Volatile"
-cover: /img/221.jpg
+cover: /img/221.webp
 tags: ["bitcoin", "economics", "gradually then suddenly", "volatility"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-not-too-volatile
@@ -53,13 +53,13 @@ It is fair to say that volatility and store of value are often confused as mutua
 > 
 > — [Nassim Taleb (](https://twitter.com/nntaleb)[Skin in the Game)](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/B077BSK9LC/ref=sr_1_1?gclid=EAIaIQobChMIlIK19ID04wIVeCCtBh3npws-EAAYASAAEgKzVfD_BwE&hvadid=241620020633&hvdev=c&hvlocphy=9029230&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=5219319705553643144&hvtargid=kwd-377204685969&hydadcr=20592_10165722&keywords=skin+in+the+game+nassim+taleb&qid=1565292541&s=gateway&sr=8-1)
 
-{{% image "/img/gts-3-1-en.png" /%}}
+{{% image "/img/gts-3-1-en.webp" /%}}
 
 The Fed has been highly effective in very slowly devaluing the dollar, but always remember, _gradually, then suddenly._ And, not volatile ≠ store of value.  This is a critical mental block that many people experience when thinking about bitcoin as a currency, and it is largely a function of time horizon. While central bankers all over the world point to bitcoin as a poor store of value and not functional as a currency because of volatility, they think in days, weeks, months and quarters while the rest of us plan for the long-term: years, decades and generations.
 
 Despite the logical explanations, volatility is one area that particularly confounds the experts. Bank of England Governor, Mark Carney recently commented that bitcoin “has pretty much failed thus far on […] the traditional aspects of money. It is not a store of value because it is all over the map. Nobody uses it as a medium of exchange,” ([see here](https://www.reuters.com/article/us-britain-boe-carney-currencies/boes-carney-says-bitcoin-has-pretty-much-failed-as-currency-idUSKCN1G320Z)).  The European Central Bank (ECB) has also mused on Twitter that bitcoin is “not a currency”, noting that it is “very volatile” while at the same time reassuring everyone that it can “create” money to buy assets, the very function by which its currency actually loses value and why it’s a poor store of value.
 
-{{% image "/img/gts-3-2-en.png" /%}}
+{{% image "/img/gts-3-2-en.webp" /%}}
 
 The lack of self-awareness is not lost on anyone here but Mark Carney and the ECB are not alone. From former Fed Chairs, Bernanke and Yellen, to current Treasury Secretary Mnuchin to the President himself. All have, at times, trumpeted the idea that bitcoin is flawed as a currency (or as a store of value) because of its volatility. None seem to fully appreciate, or at least admit, that bitcoin is a direct response to the systemic problem of governments creating money via central banks or that bitcoin volatility is a necessary and healthy function of price discovery.
 
@@ -69,7 +69,7 @@ But luckily for all of us, bitcoin is not too volatile to be a currency and ofte
 
 Consider why there is fundamental demand for bitcoin and why bitcoin is naturally volatile. Bitcoin is valuable because it has a fixed supply and it is also volatile for the same reason. The fundamental demand driver for bitcoin is in its scarcity. To revisit bitcoin’s value function from a [previous edition](/en/gradually-then-suddenly/bitcoin-cant-be-copied), decentralization and censorship-resistance reinforce the credibility of bitcoin’s scarcity (and fixed supply schedule) which is the basis of bitcoin’s store of value property:
 
-{{% image "/img/151-en.png" /%}}
+{{% image "/img/151-en.webp" /%}}
 
 While demand is increasing by orders of magnitude, there is no supply response because bitcoin’s supply schedule is fixed. The disparity in the rate of increase in demand (variable) vs. supply (fixed) combined with imperfect knowledge amongst market participants causes volatility as a function of price discovery. As Nassim Taleb writes in [The Black Swan of Cairo](https://pdfs.semanticscholar.org/6fc4/ed36e247194c9c0b7adfec8d92abebea289a.pdf): _“Variation is information. When there is no variation, there is no information.”_ As bitcoin’s value increases, it communicates information despite the volatility; the variation is the information. Higher value (dependent on variation) causes bitcoin to become relevant to new pools of capital and new entrants which then stokes an adoption wave.
 
@@ -79,7 +79,7 @@ Knowledge distribution and infrastructure fuel adoption waves and vice versa. It
 
 *Knowledge  →  Infrastructure  →  Adoption  →  Value  →  Knowledge  →  Infrastructure*
 
-{{% image "/img/gts-3-3-en.png" /%}}
+{{% image "/img/gts-3-3-en.webp" /%}}
 
 Today, bitcoin is still nascent and current adoption likely represents <1% of terminal adoption. As a billion people adopt bitcoin, new adoption will represent orders of magnitude for any foreseeable future period which will continue to drive significant volatility; however, with each new adoption wave, the value of bitcoin will also reset higher because of higher base demand. Bitcoin volatility will only decline as the holder base reaches maturity and as the rate of new adoption stabilizes. Said another way, for a billion people to be using bitcoin, adoption will have had to increase by ~20x, but the subsequent 100 million adopters will only represent an additional 10% of the base. All while the supply of bitcoin remains on a fixed schedule. So long as adoption represents orders of magnitude, volatility is unavoidable, but on that path, volatility will naturally and gradually decline.
 
@@ -89,7 +89,7 @@ As [Vijay Boyapati](https://twitter.com/real_vijay) explained on [Stephan Livera
 
 For a more tangible explanation of the relationship between volatility and value, it is helpful to think about the most recent adoption wave from the end of 2016 to present (2019).
 
-{{% image "/img/gts-3-4-en.png" /%}}
+{{% image "/img/gts-3-4-en.webp" /%}}
 
 While adoption can never really be quantified, a rough but fair estimate would be that bitcoin adoption increased from ~5 million people to ~60 million (an increase in demand of ~12 times) from 2016 to present, yet the supply of bitcoin only increased by approximately 10% over the same period. And naturally, the information and capital possessed by market participants varies significantly. As a massive adoption wave occurred, it was met by bitcoin’s fixed supply schedule.  What would one expect to happen when demand increases by an order of magnitude but supply only increases by 10%? And what would happen if the knowledge and capital of the new entrants naturally varies greatly?
 
@@ -103,7 +103,7 @@ If we can accept that bitcoin volatility is both natural and healthy, why doesn�
 
 In a theoretical world, bitcoin volatility would be an issue if it existed in a vacuum. In the real world, it doesn’t. Diversification comes in the form of real productive assets as well as other monetary and financial assets, which mutes the impact of bitcoin’s present volatility. Separately, information asymmetry exists and those that understand bitcoin also understand that, in time, the cavalry is coming. These concepts are obvious to those that have exposure to bitcoin and actively account for its volatility in short and long-term planning, but it’s apparently less obvious to the skeptics, who struggle to grasp that bitcoin adoption is not an all or nothing proposition.
 
-{{% image "/img/gts-3-5-en.png" /%}}
+{{% image "/img/gts-3-5-en.webp" /%}}
 
 While bitcoin will continue to steal share in the global competition for store of value because of its superior monetary properties, the function of an economy is to **accumulate capital** that actually makes our lives better, **not money**. Money is merely the economic good that allows for coordination to accumulate that capital. Because bitcoin is a fundamentally better form of money, it will gain purchasing power relative to inferior monetary assets (and monetary substitutes) and increasingly take market share in the economic coordination function, despite being less functional as a transactional currency today.
 

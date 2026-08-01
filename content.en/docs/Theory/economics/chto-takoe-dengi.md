@@ -1,7 +1,7 @@
 ---
 title: "What Is Money"
 h1: "What Is Money"
-cover: /img/ctd-665.png
+cover: /img/ctd-665.webp
 description: ""
 url: what-is-money
 date: 2019-11-19

@@ -4,7 +4,7 @@ h1: "Белая книга"
 tags: ["whitepaper", "сатоши", "биткоин", "основы", "криптовалюта"]
 description: "Книги."
 url: whitepaper
-cover: /img/wp-01.png
+cover: /img/wp-01.webp
 bookCollapseSection: false
 bookFlatSection: false
 bookToc: false

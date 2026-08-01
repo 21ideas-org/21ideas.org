@@ -1,7 +1,7 @@
 ---
 title: "Multisig Part II: Single Keys are the Foundation of Multisignature"
 h1: "Multisig Series Part II: Single Keys are the Foundation of Multisignature"
-cover: /img/msig-683.png
+cover: /img/msig-683.webp
 description: ""
 url: multisig-2
 aliases: ['/theory-security-multisig-2']
@@ -26,7 +26,7 @@ The word “wallet” has imprecise and inconsistent usage in the world of bitco
 
 The functions of a typical wallet are broken out into pieces and displayed below.
 
-{{% image "/img/msig-685-en.png" /%}}
+{{% image "/img/msig-685-en.webp" /%}}
 
 “Wallet” is used to describe software or hardware which does some or all of the following:
 
@@ -52,7 +52,7 @@ When most people think of a bitcoin wallet, their mind goes to a single signatur
 
 # Do you know where your Sats are?
 
-{{% image "/img/msig-686-en.png" /%}}
+{{% image "/img/msig-686-en.webp" /%}}
 
 At no point in time are bitcoin “stored” on a hardware device. A hardware device merely holds a collection of keys that can authorize spending bitcoin, which are tracked by unspent transaction outputs (UTXOs) located in addresses tracked by the blockchain. The blockchain lives on thousands of computers distributed around the world. Your bitcoin “live” on the blockchain; your hardware device stores keys (not bitcoin) but those keys are required to transfer bitcoin. And, a wallet is a user interface for interacting with the addresses that are under the control of private keys coordinated by the software or hardware.
 

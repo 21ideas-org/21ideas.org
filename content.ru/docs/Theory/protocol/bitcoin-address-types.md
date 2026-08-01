@@ -1,7 +1,7 @@
 ---
 title: "Типы биткоин-адресов"
 h1: "Сравнение типов биткоин-адресов"
-cover: /img/address-types.png
+cover: /img/address-types.webp
 description: "В этой статье рассматриваются методы получения биткоина ончейн, которые были внедрены в протокол по мере его развития."
 url: sravnenie-tipov-bitcoin-adresov
 date: 2023-03-08

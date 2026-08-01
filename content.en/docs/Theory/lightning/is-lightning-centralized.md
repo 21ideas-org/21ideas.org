@@ -1,7 +1,7 @@
 ---
 title: "Is Lightning centralized?"
 h1: "OMG, LN nodes are running on Amazon!"
-cover: /img/csl-716-en.jpg
+cover: /img/csl-716-en.webp
 description: ""
 url: is-lightning-centralized
 date: 2022-12-26

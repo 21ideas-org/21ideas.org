@@ -1,7 +1,7 @@
 ---
 title: "Multisig Part I: Why Multisig?"
 h1: "Multisig Series Part I: Why Multisig?"
-cover: /img/msig-683.png
+cover: /img/msig-683.webp
 description: ""
 url: multisig-1
 aliases: ['/theory-security-multisig-1']
@@ -22,7 +22,7 @@ This article was published in [Unchained blog](https://unchained.com/blog/why-mu
 
 Bitcoin gives individuals and businesses the ability to take on a new and important responsibility: the option to unilaterally control their own money. True bitcoin ownership requires users to control their own private keys, which are the exclusive tools needed to authorize transferring funds. Anything less than holding private keys means that money is ultimately controlled by someone else, in many ways failing to preserve bitcoin’s _raison d’etre_. That said, bitcoin is a journey, and most people begin that journey by buying bitcoin and storing bitcoin on an exchange.
 
-{{% image "/img/msig-684-en.png" %}}
+{{% image "/img/msig-684-en.webp" %}}
 _These numbers are what we conservatively estimate to be the current bitcoin in self-custody. Sources: [Coinmetrics](https://coinmetrics.substack.com/p/coin-metrics-state-of-the-network-41d), [Coinshares](https://medium.com/coinshares/bitcoin-has-a-branding-problem-its-evolution-not-revolution-aa34fe5facfb), [HODL Waves](https://unchained.com/hodlwaves/)._  
 {{% /image %}}
 
@@ -53,7 +53,7 @@ In single signature self-custody, critical failures can occur at any point in ti
 
 The principal benefit of multisig is that it creates added redundancy in key management. While single signature addresses require only a single key to move bitcoin, multisignature addresses require multiple keys, similar to how multiple keys must be used simultaneously to open this door.
 
-{{% image "/img/msig-687.png" %}}
+{{% image "/img/msig-687.webp" %}}
 _[Tweet link](https://twitter.com/unchainedcom/status/1154417352278204418)._
 {{% /image %}}
 

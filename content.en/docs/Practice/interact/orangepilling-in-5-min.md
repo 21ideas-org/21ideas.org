@@ -1,7 +1,7 @@
 ---
 title: "Orangepilling in 5 min"
 h1: "Orangepilling in 5 min"
-cover: /img/op-709.png
+cover: /img/op-709.webp
 tags: ["bitcoin"]
 description: "What do you do when you meet someone casually at a party or social event and they ask you the tiny question with the huge answer: What is Bitcoin?"
 url: orangepilling-in-5-min
@@ -22,7 +22,7 @@ What do you do when you meet someone casually at a party or social event and the
 
 We know the best way to orange pill someone is by asking questions to plant seeds that nurture curiosity. That works great with people we know or see often, but what about strangers you’ve just met and may never see again? Can we still open their minds in just a few minutes?
 
-{{% image "/img/op-716-en.png" /%}}
+{{% image "/img/op-716-en.webp" /%}}
 
 The answer is yes, but we must use different seeds. Consider the three-step approach below for quickly planting those seeds:
 
@@ -34,7 +34,7 @@ The answer is yes, but we must use different seeds. Consider the three-step appr
 
 You will be tempted to try and cram all the information you can into the short time you have. Resist this temptation. Your goal is not to completely satisfy their curiosity, but rather to provide just enough information to make them more curious.
 
-{{% image "/img/op-711-en.png" /%}}
+{{% image "/img/op-711-en.webp" /%}}
 
 One idea for a brief answer that plants the first seed is below:
 
@@ -46,13 +46,13 @@ You: I like to describe it as a new form of money that no one can make, no one c
 
 Bitcoin has a fixed total supply of 21 million, and the creation of new bitcoin is controlled by computer software that prevents anyone from making them any faster than the program's rules allow.
 
-{{% image "/img/op-717-en.png" /%}}
+{{% image "/img/op-717-en.webp" /%}}
 
 **No One Can Fake**
 
 Bitcoin keeps a ledger called the blockchain that tracks who owns every bitcoin and every transaction on the network. The record is kept simultaneously on thousands of computers around the world, so no one can cheat or try to spend bitcoin they don't own.
 
-{{% image "/img/op-718-en.png" /%}}
+{{% image "/img/op-718-en.webp" /%}}
 
 **No One Can Take**
 
@@ -60,7 +60,7 @@ Because the ledger is decentralized across all those computers no person, compan
 
 And because Bitcoin is just information, you can take the access to your bitcoin with you in your head anywhere on earth and no one can know how much you have or stop you from using it.
 
-{{% image "/img/op-719-en.png" /%}}
+{{% image "/img/op-719-en.webp" /%}}
 
 Now comes a critical moment; transitioning to planting the second seed with a brief action. Right after you finish your answer, transition to the second seed by asking:
 
@@ -81,15 +81,15 @@ Why is this important? Why take the time to set up a wallet and do a transaction
 
 Because a picture is worth a thousand words, but an action is worth a thousand pictures.
 
-{{% image "/img/op-720-en.png" /%}}
+{{% image "/img/op-720-en.webp" /%}}
 
 Getting Bitcoin into their hands is a powerful seed that will continue to grow long after your conversation ends. They will see the wallet icon when they use their phone and think of your conversation. Remember, your goal isn't to quench their curiosity...it is to expand it.
 
-{{% image "/img/op-721-en.png" /%}}
+{{% image "/img/op-721-en.webp" /%}}
 
 Now that they understand a little about what Bitcoin is and see how easy it is to use, you are ready to plant the final seed with a brief ask as you wrap up your conversation.
 
-{{% image "/img/op-714-en.png" /%}}
+{{% image "/img/op-714-en.webp" /%}}
 
 ## 3. A brief ask
 
@@ -103,6 +103,6 @@ Each step in the process has its purpose:
 
 If there isn’t enough time for everything, don’t worry. Plant the seeds you can and let them grow naturally. Some will take and some won’t, and that’s ok. Focus on progress, not perfection. Remember that every seed you plant has the chance to change a life. It’s worth it.
 
-{{% image "/img/op-722.png" /%}}
+{{% image "/img/op-722.webp" /%}}
 
 How do you like to introduce people to Bitcoin when you have just a few minutes to pique their interest?

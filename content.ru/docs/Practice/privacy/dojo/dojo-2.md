@@ -2,7 +2,7 @@
 title: "Установка индексатора Fulcrum"
 h1: "Часть 2. Установка индексатора Fulcrum"
 description: ""
-cover: /img/dojo-05.jpg
+cover: /img/dojo-05.webp
 url: practice-privacy/dojo-2
 date: 2023-12-20
 bookFlatSection: false

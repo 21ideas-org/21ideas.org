@@ -1,7 +1,7 @@
 ---
 title: "Installing Blue Wallet"
 h1: "Installing Blue Wallet"
-cover: /img/111.png
+cover: /img/111.webp
 tags: ["bitcoin", "hodl", "private keys", "security", "wallet", "mobile wallet"]
 description: ""
 url: blue
@@ -27,7 +27,7 @@ Blue Wallet installs just like any other app on your iPhone. Navigate to your Ap
 
 If prompted, enter your Apple ID password. Once installed, launch the Blue Wallet application.
 
-{{% image "/img/bluewallet/02.png" /%}}
+{{% image "/img/bluewallet/02.webp" /%}}
 
 ## Step Two: Wallet Setup
 
@@ -35,9 +35,9 @@ Users can decide to use Blue Wallet with the standard settings or with advanced 
 
 To enable advanced options, select the three-dot menu in the upper-righthand corner of the homescreen, then select "General."
 
-{{% image "/img/bluewallet/03.png" /%}}
+{{% image "/img/bluewallet/03.webp" /%}}
 
-{{% image "/img/bluewallet/04.png" /%}}
+{{% image "/img/bluewallet/04.webp" /%}}
 
 Then toggle the "Advanced Mode" slider and select the back arrow to return to the wallet homescreen.
 
@@ -45,7 +45,7 @@ From there, select "Add a wallet."
 
 {{% image "/img/bluewallet/05.png" /%}}
 
-{{% image "/img/bluewallet/06.png" /%}}
+{{% image "/img/bluewallet/06.webp" /%}}
 
 You can name your wallet anything that is convenient for you, I chose "BW Demo" for this example.
 
@@ -57,7 +57,7 @@ Then, if you would like to provide your own entropy in your wallet seed, you can
 
 Alternatively, select the blue "Create" button when you are ready to move on.
 
-{{% image "/img/bluewallet/07.png" /%}}
+{{% image "/img/bluewallet/07.webp" /%}}
 
 {{% image "/img/bluewallet/08.png" /%}}
 
@@ -77,7 +77,7 @@ Note: This is the most important step.
 
 Note: If you utilized the advanced option to provide your own entropy, then you should have 24 words to write down. Once you get more serious about Bitcoin, consider [securing your seed phrases](https://www.econoalchemist.com/post/backup) in metal instead of on paper.
 
-{{% image "/img/bluewallet/09.png" /%}}
+{{% image "/img/bluewallet/09.webp" /%}}
 
 ## Step Four: Receive Bitcoin
 
@@ -87,13 +87,13 @@ From the homescreen, simply select the wallet icon for the wallet you just creat
 
 This will bring you into the wallet where you can then select the "Receive" button at the bottom of the screen to display your first Bitcoin address QR code.
 
-{{% image "/img/bluewallet/10.png" /%}}
+{{% image "/img/bluewallet/10.webp" /%}}
 
-{{% image "/img/bluewallet/11.png" /%}}
+{{% image "/img/bluewallet/11.webp" /%}}
 
 Before displaying your QR code, Blue Wallet will double check with you to be sure that you have written down your seed phrase. Then you will be asked if you would like to receive notifications of incoming payments.
 
-{{% image "/img/bluewallet/12.png" /%}}
+{{% image "/img/bluewallet/12.webp" /%}}
 
 {{% image "/img/bluewallet/13.png" /%}}
 
@@ -103,7 +103,7 @@ Once a payment transaction from your sender is broadcast to the network, you sho
 
 {{% image "/img/bluewallet/14.png" /%}}
 
-{{% image "/img/bluewallet/15.png" /%}}
+{{% image "/img/bluewallet/15.webp" /%}}
 
 ## Step Five: Spend Bitcoin
 
@@ -113,23 +113,23 @@ As you make transactions from your wallet, they will appear in a list when you o
 
 You will be prompted for additional details on the next screen.
 
-{{% image "/img/bluewallet/16.png" /%}}
+{{% image "/img/bluewallet/16.webp" /%}}
 
 On the next screen, you will be asked for the Bitcoin address that you want to send funds to. You can either paste an address if you have copied one onto your clipboard, or you can select the "Scan" icon in the address dialog box to initialize your iPhone's camera and physically scan a Bitcoin address QR code from someone that you are sending funds to.
 
 Once scanned, the address text will be displayed in the address dialog box. It is important to check and double check that the address text matches the address you are trying to send funds to.
 
-{{% image "/img/bluewallet/17.png" /%}}
+{{% image "/img/bluewallet/17.webp" /%}}
 
-{{% image "/img/bluewallet/18.png" /%}}
+{{% image "/img/bluewallet/18.webp" /%}}
 
 If you want, you can spend your wallet's full balance by selecting the three-dot menu in the upper-righthand corner. Then select "Use Full Balance." You will be asked to confirm that you want to spend the entire balance of your wallet.
 
 Blue Wallet also has the option of advanced features like coin control, replace by fee and more from this menu.
 
-{{% image "/img/bluewallet/19.png" /%}}
+{{% image "/img/bluewallet/19.webp" /%}}
 
-{{% image "/img/bluewallet/20.png" /%}}
+{{% image "/img/bluewallet/20.webp" /%}}
 
 Finally, you will be asked to select a miners’ fee rate. This is based on the data size of your transaction and is used as an incentive to get your transaction included in the blockchain more quickly. You can select from three predetermined speeds or you can choose a custom fee rate.
 
@@ -143,7 +143,7 @@ Your transaction will be broadcast to the Bitcoin network. Remember, if you are 
 
 Once your transaction has been sent, it will be displayed in your transaction list in your wallet.
 
-{{% image "/img/bluewallet/23.png" /%}}
+{{% image "/img/bluewallet/23.webp" /%}}
 
 You can also watch [this video](https://youtu.be/i7dXYGjn1u8) for more on installing and setting up Blue Wallet on iPhone:
 

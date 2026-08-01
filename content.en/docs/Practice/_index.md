@@ -2,8 +2,8 @@
 title: Practice
 type: docs
 h1: " "
-cover: /img/main-section/en/practice-dark.png
-coverDark: /img/main-section/en/practice-light.png
+cover: /img/main-section/en/practice-dark.webp
+coverDark: /img/main-section/en/practice-light.webp
 bookFlatSection: false
 bookCollapseSection: true
 url: practice

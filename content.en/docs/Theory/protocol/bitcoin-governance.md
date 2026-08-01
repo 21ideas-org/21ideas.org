@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Governance"
 h1: "Bitcoin Governance"
-cover: /img/ub-503.gif
+cover: /img/ub-503.webp
 description: ""
 url: bitcoin-governance
 date: 2018-07-09

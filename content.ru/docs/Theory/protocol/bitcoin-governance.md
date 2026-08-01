@@ -1,7 +1,7 @@
 ---
 title: "Управление Биткоином"
 h1: "Управление Биткоином"
-cover: /img/ub-503.gif
+cover: /img/ub-503.webp
 description: "Система управления Биткоином важна, потому что Биткоин является первой успешной, наиболее ликвидной и самой известной криптовалютой."
 url: upravlenie-bitcoin
 aliases: ['/theory-protocol-bitcoin-governance']

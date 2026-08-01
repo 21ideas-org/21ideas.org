@@ -1,7 +1,7 @@
 ---
 title: Теория
-# cover: /img/main-section/ru/theory-light.png
-# coverDark: /img/main-section/ru/theory.png
+# cover: /img/main-section/ru/theory-light.webp
+# coverDark: /img/main-section/ru/theory.webp
 type: docs
 h1: "Теория"
 bookFlatSection: false

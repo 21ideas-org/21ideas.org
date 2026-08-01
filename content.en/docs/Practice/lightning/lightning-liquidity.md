@@ -34,7 +34,7 @@ In early 2021 I decided to set forth to try to determine how well I could do run
 
 I followed the process described in my earlier post to set up my tor-only node:
 
-{{% image "/img/lln-265.png" %}}
+{{% image "/img/lln-265.webp" %}}
 _[Tor-Only Bitcoin & Lightning Guide](https://blog.lopp.net/tor-only-bitcoin-lightning-guide)_
 {{% /image %}}
 
@@ -71,7 +71,7 @@ Another issue I've seen is folks using the BOS score to decide what nodes with w
 
 I used the [node match tool](https://moneni.com/nodematch) to figure out which nodes would increase my connectivity the most. However, I'd once again caution against blindly opening channels to the ones ranked the highest. Before opening a channel with one of the recommended nodes, I check it on [Lightning Terminal](https://terminal.lightning.engineering/) to see if it's stable. Then I check it on [1ML](https://1ml.com/) to see if they are setting sane fee policies.
 
-{{% image "/img/lln-266.png" /%}}
+{{% image "/img/lln-266.webp" /%}}
 
 To get another perspective on how to increase my node's centrality, I used Gridflare's ["improve centrality" script](https://github.com/Gridflare/lndpytools/blob/main/improvecentrality.py) from [lndpytools](https://github.com/Gridflare/lndpytools). This is certainly not as user friendly as other web based tools as it requires getting a full network graph dump from your node, transferring it to your desktop / laptop, and then running the analysis on that json file.
 
@@ -289,7 +289,7 @@ However, it's worth noting that there are no guarantees when it comes to inbound
 
 The one exception is [Lightning Pool](https://lightning.engineering/pool/) in which you are entering into a contract to purchase liquidity for a certain length of time and this duration is actually enforced at the blockchain level. Per the [whitepaper](https://github.com/lightninglabs/pool-paper/blob/main/liquidity.pdf):
 
-{{% image "/img/lln-268.png" /%}}
+{{% image "/img/lln-268.webp" /%}}
 
 Hopefully in the near future we'll also have native [liquidity advertisements](https://bitcoinops.org/en/newsletters/2021/07/28/#c-lightning-4639) available at the protocol level.
 
@@ -388,7 +388,7 @@ Across a dozen channels I had earned 17,025 satoshis in routing fees.
 $ bos chart-fees-earned
 ```
 
-{{% image "/img/lln-269.png" /%}}
+{{% image "/img/lln-269.webp" /%}}
 
 However, I had spent 31,897 satoshis in on-chain fees.
 
@@ -396,15 +396,15 @@ However, I had spent 31,897 satoshis in on-chain fees.
 $ bos chart-chain-fees
 ```
 
-{{% image "/img/lln-270.png" /%}}
+{{% image "/img/lln-270.webp" /%}}
 
 After another month or so of playing around with my node on the weekends, changing around dozens of channels, and adding automation:
 
-{{% image "/img/lln-271.png" /%}}
+{{% image "/img/lln-271.webp" /%}}
 
 It's worth nothing that nearly half of the 60,000 satoshis in on-chain fees that were paid were **due to a single force close of a channel**. This force close paid over 100 satoshis per virtual byte in fees when it could have been confirmed quickly with ~5 satoshis per virtual byte. In hindsight I believe this could have been avoided if I had been patient and waited for that peer to come back online before closing the channel. _If not for that unforced error, I'd likely have earned more in off-chain fees than I've paid in on-chain fees as of today_. This appears to be a common issue.
 
-{{% image "/img/twitter-c_otto83-1417545255319134213.png" %}}
+{{% image "/img/twitter-c_otto83-1417545255319134213.webp" %}}
 _[Source](https://web.archive.org/web/20210720180145/https://twitter.com/c_otto83/status/1417545255319134213)_
 {{% /image %}}
 
@@ -444,7 +444,7 @@ There's still plenty of room for improvement with regard to tools that help Ligh
 
 I'd like to see better visualizations around channels that forward payments. [Thunderhub](https://www.thunderhub.io/), for example, can create chord charts to show this activity; I hope that more lightning dashboard software will start doing that automatically.
 
-{{% image "/img/lln-272.png" /%}}
+{{% image "/img/lln-272.webp" /%}}
 
 It would be cool if you could easily send messages to the operators of your peer nodes to ask them what's up / determine their intentions. You can theoretically use keysend to send them a 1 satoshi payment with a message embedded, but there's no guarantee the node operator will ever see it. "bos send" will do just that.
 

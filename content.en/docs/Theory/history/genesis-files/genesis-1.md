@@ -1,7 +1,7 @@
 ---
 title: "Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream"
 h1: "The Genesis Files. Part I: How David Chaum’s eCash Spawned a Cypherpunk Dream"
-cover: /img/gf-231.jpeg
+cover: /img/gf-231.webp
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
 description: "Bitcoin and other cryptocurrencies can trace their roots to this earlier, privacy-focussed payment system for the internet."
 url: gf/genesis-1
@@ -80,7 +80,7 @@ As Carol receives the banknotes, she should forward them to Alice Bank. Alice Ba
 
 As the banknotes check out, Alice Bank adds the equivalent number of dollars to Carol’s bank balance, and lets Carol know. Upon this confirmation, Carol knows she’s been paid valid banknotes by Bob and can safely send him whatever he was buying from her.
 
-{{% image "/img/gf-232.jpg" %}}
+{{% image "/img/gf-232.webp" %}}
 _The basic idea behind eCash. Source: [faculty.bus.olemiss.edu/](http://faculty.bus.olemiss.edu/breithel/b620s02/riley/Digital20Cash-Web20Page.htm)_
 {{% /image %}}
 
@@ -92,7 +92,7 @@ As such, Chaum’s solution offers privacy in payments. This was not new in itse
 
 By 1990, a little under 10 years after finishing his first papers (younger cryptocurrency developers like Matt Corallo, Vitalik Buterin and Olaoluwa Osuntokun still hadn’t been born), David Chaum founded [DigiCash](https://en.wikipedia.org/wiki/DigiCash). The company was based in Amsterdam, where Chaum had been living for a couple of years, and specialized in — indeed — digital money and payment systems. These included a government project to replace toll booths (which was eventually cancelled) and smart cards (akin to what we call hardware wallets today). But DigiCash’s flagship project was its digital cash system, eCash. (The system was called eCash, while the money in the system was dubbed “CyberBucks,” comparable to using capital-letter Bitcoin for the protocol and lower case bitcoin for the currency.)
 
-{{% image "/img/gf-233.png" %}}
+{{% image "/img/gf-233.webp" %}}
 *The technical team in the early days of DigiCash. (Chaum not pictured.) Source: [chaum.com/ecash](https://chaum.com/ecash/)*
 {{% /image %}}
 

@@ -2,7 +2,7 @@
 title: "Установка Samourai Dojo"
 h1: "Часть 4. Установка Samourai Dojo"
 description: ""
-cover: /img/dojo-07.jpg
+cover: /img/dojo-07.webp
 url: practice-privacy/dojo-4
 date: 2023-12-20
 bookFlatSection: false
@@ -304,7 +304,7 @@ Dojo Maintenance Tool, или "DMT", доступен только через To
 
 Как только панель управления DMT заполнится зелеными галочками, Dojo синхронизирован и готов к сопряжению с кошельком Samourai.
 
-{{% image "/img/dojo-08.jpg" %}}
+{{% image "/img/dojo-08.webp" %}}
 *Панель управления DMT, используется Testnet*
 {{% /image %}}
 

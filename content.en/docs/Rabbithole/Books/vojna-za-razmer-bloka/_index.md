@@ -1,7 +1,7 @@
 ---
 title: "Война за размер блока"
 h1: "Война за размер блока"
-cover: /img/vrb-432.jpeg
+cover: /img/vrb-432.webp
 description: "Перевод книги Джонатана Бира The Blocksize War о том как Биткоин-коммьюнити отстояло свое видение протокола."
 url: vojna-za-razmer-bloka
 aliases: ['/book-the-blocksize-war']

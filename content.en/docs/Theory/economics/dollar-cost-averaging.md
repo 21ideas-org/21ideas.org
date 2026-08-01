@@ -1,7 +1,7 @@
 ---
 title: "Dollar-Cost Averaging"
 h1: "Dollar-Cost Averaging"
-cover: /img/dca-892.jpg
+cover: /img/dca-892.webp
 description: ""
 url: dollar-cost-averaging
 date: 2018-09-13
@@ -25,7 +25,7 @@ It sounds soooo simple..
 
 But is it?
 
-{{% image "/img/dca-893.jpg" %}}
+{{% image "/img/dca-893.webp" %}}
 Oh the agony…
 {{% /image %}}
 
@@ -37,7 +37,7 @@ Why?
 
 Because we humans are bound by our psychology and as a result; our emotions.
 
-{{% image "/img/dca-899.png" %}}
+{{% image "/img/dca-899.webp" %}}
 Some of you may be familiar with this (the Meme and the concept).
 {{% /image %}}
 
@@ -97,7 +97,7 @@ The first method demonstrates lump-sum investing whereas the latter method demon
 
 Most people would have invested at the first sight ot the price “running up”. So let’s assume that the investment journey started at the beginning of June.
 
-{{% image "/img/dca-894.png" %}}
+{{% image "/img/dca-894.webp" %}}
 Tesla (TSL) Shares over the last 14mths
 {{% /image %}}
 
@@ -112,7 +112,7 @@ In this scenario, you would have:
 
 That’s not a great result although not the worst thing we’ve seen, especially considering recent volatility in the markets.
 
-{{% image "/img/dca-895.png" %}}
+{{% image "/img/dca-895.webp" %}}
 10% difference, from then until now.
 {{% /image %}}
 
@@ -133,13 +133,13 @@ If you take a look at the graph below:
 - Month 9: $340,
 - Month 10: $322
 
-{{% image "/img/dca-896.png" %}}
+{{% image "/img/dca-896.webp" %}}
 Dollar Cost Averaging
 {{% /image %}}
 
 ## Let’s look at the numbers
 
-{{% image "/img/dca-897.png" %}}
+{{% image "/img/dca-897.webp" %}}
 30 shares exactly.
 {{% /image %}}
 
@@ -174,7 +174,7 @@ Overall, the enemy of trading and investing is emotion.
 
 Dollar Cost Averaging is an effective strategy that helps you remove emotion from the equation, and bring some sleep back into your life...
 
-{{% image "/img/dca-901.jpg" %}}
+{{% image "/img/dca-901.webp" %}}
 Micro Investing & Dollar Cost Averging can save your relationship…?
 {{% /image %}}
 

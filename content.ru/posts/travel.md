@@ -9,7 +9,7 @@ next: /blog/
 prev: /blog/faketoshi-hearing
 title: "7 советов по релокации с биткоин-ключами"
 description: "Стоит ли брать с собой приватные ключи или сид-фразы? Какой схемой хранения пользоваться? Как обеспечить наилучшую безопасность самым простым способом?."
-cover: /img/travel/bplane.png
+cover: /img/travel/bplane.webp
 bookToc: true
 weight: 10
 ---
@@ -34,7 +34,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/wallets.png" /%}}
+{{% image src="/img/travel/wallets.webp" /%}}
 
   
   
@@ -55,7 +55,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/btc.png" /%}}
+{{% image src="/img/travel/btc.webp" /%}}
 
   
 
@@ -71,7 +71,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/guy.png" /%}}
+{{% image src="/img/travel/guy.webp" /%}}
 
   
 
@@ -107,7 +107,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/ninja.png" /%}}
+{{% image src="/img/travel/ninja.webp" /%}}
 
   
 
@@ -143,7 +143,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/decoy.png" /%}}
+{{% image src="/img/travel/decoy.webp" /%}}
 
   
 
@@ -195,7 +195,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/cold.png" /%}}
+{{% image src="/img/travel/cold.webp" /%}}
 
   
 
@@ -231,7 +231,7 @@ weight: 10
 
   
 
-{{% image src="/img/travel/inheritance.png" /%}}
+{{% image src="/img/travel/inheritance.webp" /%}}
 
   
 

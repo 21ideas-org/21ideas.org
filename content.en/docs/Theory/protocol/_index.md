@@ -1,8 +1,8 @@
 ---
 title: "Protocol"
 h1: " "
-cover: /img/main-section/en/protocol-dark.png
-coverDark: /img/main-section/en/protocol-light.png
+cover: /img/main-section/en/protocol-dark.webp
+coverDark: /img/main-section/en/protocol-light.webp
 bookCollapseSection: true
 url: protocol
 weight: 4

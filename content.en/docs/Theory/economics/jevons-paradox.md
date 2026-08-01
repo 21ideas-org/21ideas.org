@@ -1,7 +1,7 @@
 ---
 title: "Jevons Paradox: Contrary Truth"
 h1: "Jevons Paradox: Contrary Truth"
-cover: /img/jevons_paradox/jp_01-en.png
+cover: /img/jevons_paradox/jp_01-en.webp
 description: ""
 url: jevons-paradox
 date: 2022-06-27
@@ -27,7 +27,7 @@ First described by William Stanley Jevons in 1865, he made the observation that 
 > 
 > _— W.S. Jevons (The Coal Question)_
 
-{{% image "/img/jevons_paradox/jp_02.png" %}}
+{{% image "/img/jevons_paradox/jp_02.webp" %}}
 *William Stanley Jevons (1835 – 1882)*
 {{% /image %}}
 
@@ -39,7 +39,7 @@ A few things are at play here, so let’s dissect:
 - Steam power can now be used in the discovery, extraction, and transportation of more coal.
 - Steam power starts being used in the drilling, transportation, and refining of **oil**. Making the resource more widely accessible. Refined oil is a more efficient energy source for certain activities, eventually leading to a reduction in coal demand in industrialized nations.
 
-{{% image "/img/jevons_paradox/jp_03-en.png" /%}}
+{{% image "/img/jevons_paradox/jp_03-en.webp" /%}}
 
 > *“Energy is the only universal currency”* 
 > 

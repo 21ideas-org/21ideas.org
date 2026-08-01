@@ -1,7 +1,7 @@
 ---
 title: "Создаём ключ, не доверяя генератору"
 h1: "Сид на костях: как создать ключ, не доверяя генератору"
-cover: /img/dice-seed/dice-seed-cover.jpg
+cover: /img/dice-seed/dice-seed-cover.webp
 tags:
   [
     "биткоин",
@@ -181,13 +181,13 @@ SHA256: 51531761ec7a738946e0b9f46bb11320a695495430e345c14f01ad8b3b898a6d
 
 В режиме `Dice` инструмент сначала переводит броски в базу 6, заменяя **все шестёрки на нули**, и только потом хеширует. То есть в SHA256 уходит не та строка, которую вы записали на бумаге, а другая. 
 
-{{% image "/img/dice-seed/dice.png" %}}
+{{% image "/img/dice-seed/dice.webp" %}}
 _Режим Dice: шестёрки заменены на нули в Filtered Entropy_
 {{% /image %}}
 
 COLDCARD и SeedSigner хешируют строку как есть:
 
-{{% image "/img/dice-seed/base10.png" %}}
+{{% image "/img/dice-seed/base10.webp" %}}
 _Режим Base 10: Filtered Entropy совпадает со строкой бросков_
 {{% /image %}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin"
 h1: "The Genesis Files. Part IV: With Bit Gold, Szabo Was Inches Away From Inventing Bitcoin"
-cover: /img/gf-243.png
+cover: /img/gf-243.webp
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
 description: "Digital currency, a cash for the internet, was always a central goal for the Cypherpunks. But few dived into the subject matter like Nick Szabo did."
 url: gf/genesis-4
@@ -28,7 +28,7 @@ This article by Aaron van Wirdum was published in [Bitcoin Magazine](https://bit
 
 Digital currency, a cash for the internet, was always a central goal for the Cypherpunks. But few dived into the subject matter like Nick Szabo did.
 
-{{% image "/img/gf-244.png" /%}}
+{{% image "/img/gf-244.webp" /%}}
 
 As his Hungarian parents had fled post-war Soviet regime to settle in the United States, Nick Szabo came to call the Californian Bay area of the 1990s his home. Here, he was among the first to frequent the in-person “Cypherpunk” meetings organized by Timothy May, Eric Hughes and other founding members of the collective of cryptographers, programmers and privacy activists centered around the ’90s mailing list of the same name.
 

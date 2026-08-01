@@ -1,7 +1,7 @@
 ---
 title: "The Coercion Of Ethereum's Difficulty Bomb"
 h1: "The Coercion Of Ethereum's Difficulty Bomb"
-cover: /img/bomb-908.jpg
+cover: /img/bomb-908.webp
 description: "The perpetual Ethereum difficulty bomb is evidence that blockchains can be coercive, and Bitcoin is evidence that they don’t have to be."
 url: coercion-of-ethereums-difficulty-bomb
 date: 2021-12-03
@@ -37,7 +37,7 @@ The difficulty bomb is code that incrementally increases the difficulty level of
 
 The Ethereum Foundation [perpetually hits the snooze button](https://www.cnbc.com/2021/08/05/ethereums-mining-cliff-moved-up-from-summer-2022-to-december-2021.html) and resets its time bomb on the updated chain it helps release. This acts as a looming threat, in order to force compliance. Its next detonation is currently [planned for June 2022](https://eips.ethereum.org/EIPS/eip-4345), at which point it will likely be reset, yet again, for another future detonation date. Continually [modifying the detonation date is a regular occurrence](https://www.cnbc.com/2021/08/05/ethereums-mining-cliff-moved-up-from-summer-2022-to-december-2021.html) in Ethereum. One can even see the effects of accidental detonations in historical block time data.
 
-{{% image "/img/bomb-909.png" %}}
+{{% image "/img/bomb-909.webp" %}}
 _Source: [Etherscan.io](https://etherscan.io/chart/blocktime)_
 {{% /image %}}
 

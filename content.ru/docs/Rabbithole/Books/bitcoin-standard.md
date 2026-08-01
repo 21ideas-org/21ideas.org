@@ -1,7 +1,7 @@
 ---
 title: "Биткоин-стандарт"
 h1: "Биткоин-стандарт"
-cover: /img/bitcoin-standard.png
+cover: /img/bitcoin-standard.webp
 description: "Бестселлер о цифровой альтернативе традиционным валютам – биткоине."
 url: bitcoin-standard
 date: 2018-03-23

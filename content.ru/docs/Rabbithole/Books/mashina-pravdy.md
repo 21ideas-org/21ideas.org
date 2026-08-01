@@ -1,7 +1,7 @@
 ---
 title: "Машина правды"
 h1: "Машина правды"
-cover: /img/books/mashina-pravdy.png
+cover: /img/books/mashina-pravdy.webp
 description: "Эта книга для тех, кто интересуется технологией блокчейн, проблемами децентрализации и цифровым будущим человечества."
 url: mashina-pravdy
 date: 2018-02-27

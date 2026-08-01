@@ -1,7 +1,7 @@
 ---
 title: "Lightning Wallets"
 h1: "Lightning Wallets"
-cover: /img/ln-wallets/cover.png
+cover: /img/ln-wallets/cover.webp
 tags: ["bitcoin", "lightning", "scalability", "lightning network", "wallets", "payments", "guide", "hodl"]
 description: "Today there are many wallets with support of the Lightning Network. This article will help you to choose the solution that will suit your needs."
 url: lightning-wallets
@@ -13,7 +13,7 @@ weight: 2
 
 With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.
 
-{{% image "/img/ln-wallets/high-fees.png" %}}
+{{% image "/img/ln-wallets/high-fees.webp" %}}
 _Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. [Source](https://mempool.space/)._
 {{% /image %}}
 
@@ -80,7 +80,7 @@ Although we must admit that at the moment the reputation of the WoS team has not
 
 The wallet allows you to receive and send funds via Lightning and onchain. In case of receiving onchain bitcoins (as in the vast majority of LN wallets) coins will be swapped to the Lightning Network. Thus, you cannot have an onchain balance and the associated features (RBF, multisig, etc.)
 
-{{% image "/img/ln-wallets/wos1.png" %}}
+{{% image "/img/ln-wallets/wos1.webp" %}}
 _Send and receive sats via lightning invoices, onchain and [Lightning addresses](/en/how-lightning-address-works)_
 {{% /image %}}
 
@@ -110,7 +110,7 @@ Once you've become familiar with basic custodial solutions, be sure to move on t
 
 Stablesats allows you to "convert" your sats by pegging their value to the US dollar. In this way, you can store a portion of your funds in a steadily devaluing USD.
 
-{{% image "/img/ln-wallets/blink1.png" %}}
+{{% image "/img/ln-wallets/blink1.webp" %}}
 _The Stablesats feature is implemented at the app level and is not compatible with other Lightning wallets_
 {{% /image %}}
 
@@ -142,11 +142,11 @@ Blink also upports Lightning addresses. You can check its functionality by sendi
 
 Coinos is a Progressive Web App (PWA) that you can interact with either in your browser or add it to the home screen of your smartphone or computer. This way the wallet will be no different from the usual native apps with Lightning support. This is also a significant plus, as installing bypassing app stores means there is no store to restrict access to Coinos itself or its features.
 
-{{% image "/img/ln-wallets/coinos-mobile.png" /%}}
+{{% image "/img/ln-wallets/coinos-mobile.webp" /%}}
 
 Coinos, like many others, supports sending and receiving funds in Lightning Network and onchain. A unique feature of the wallet is that it creates a personal page on the [coinos.io](https://coinos.io) website for each user.
 
-{{% image "/img/ln-wallets/21books.png" %}}
+{{% image "/img/ln-wallets/21books.webp" %}}
 _21books page on Coinos. Screenshot of desktop app installed via Brave browser._
 {{% /image %}}
 
@@ -198,7 +198,7 @@ We will continue to move from simpler solutions to more complex and feature-rich
 
 The first thing that will catch the eye of new users of non-custodial wallets will be the high fee when making the first payment. In this, mobile solutions behave similarly to full Lightning nodes: to start using the network, you need to open a channel, which requires an onchain transaction.
 
-{{% image "/img/ln-wallets/first-tx.png" %}}
+{{% image "/img/ln-wallets/first-tx.webp" %}}
 _If onchain fees are high, it may be a good idea to delay opening a channel._
 {{% /image %}}
 
@@ -263,7 +263,7 @@ The first obvious highlight of Mutiny is the fact that it is a Progressive Web A
 
 Channel management here is done "under the hood" and no user action is required. Except for the occasional need for "manual channel rebalancing" when inbound liquidity gets too low. The wallet shows your channels and their balances, but does not allow you to interact with them in any way.
 
-{{% image "/img/ln-wallets/mutiny-channels.jpg" %}}
+{{% image "/img/ln-wallets/mutiny-channels.webp" %}}
 _Display of channels in Mutiny Wallet_
 {{% /image %}}
 
@@ -304,7 +304,7 @@ It's simple: when you start the wallet, you select that you want to use LSP, and
 {{< hint warning >}}
 When using LSs, regardless of the wallet - Phoenix, Mutiny, Zeus or Blixt - it is important to track inbound liquidity (see the screenshot below). If it is exhausted, when receiving the next payment, the provider will be forced to open a new channel, which will require an onchain transaction and result in additional fees.
 
-{{% image "/img/ln-wallets/channels.png" %}}
+{{% image "/img/ln-wallets/channels.webp" %}}
 _Displaying channels' liquidity in Mutiny Wallet_
 {{% /image %}}
 
@@ -335,7 +335,7 @@ It is worth mentioning that since nodes on mobile devices cannot be online all t
 
 To open a channel, go to the "Channels" tab in the lower right corner of the app's home screen and tap the "+" in the upper right corner of the window that appears.
 
-{{% image "/img/ln-wallets/new-channel-zeus.png" %}}
+{{% image "/img/ln-wallets/new-channel-zeus.webp" %}}
 _Opening a channel in the Zeus Wallet_
 {{% /image %}}
 
@@ -370,7 +370,7 @@ Details of how to interact with the Lightning Network can be found in the Zeus [
 
 To start working in non-custodial form, it is necessary to fund the onchain wallet and open an outbound channel. To do this, it is enough to scan the QR code of a Lightning node, which can be found in explorers such as [amboss.space](https://amboss.space/) or [mempool.space](https://mempool.space/ru/), or paste the node address into the _Send_ field. Next tap on the "Open a new channel" button and specify the amount of BTC that will be placed in the channel.
 
-{{% image "/img/ln-wallets/connect-node.png" /%}}
+{{% image "/img/ln-wallets/connect-node.webp" /%}}
 
 You can use external LSPs to open channels with inbound liquidity. A proven service that works well with the wallet and has low fees is https://deezy.io/. Other available LSPs can be found [here](https://lightningnetwork.plus/categories/1). 
 
@@ -386,7 +386,7 @@ bc1qmu6c9krfmw7jfursz0304g4qlju9aqvekuxkfw 0.001; bc1qk753jj9xkxwplyxnphhnkvq06q
 
 ...the wallet will create a single transaction that sends the corresponding amounts to the specified addresses. This saves up to 50% in onchain fees compared to creating separate transactions for each address.
 
-{{% image "/img/ln-wallets/send-tx.png" /%}}
+{{% image "/img/ln-wallets/send-tx.webp" /%}}
 
 Of the useful advanced onchain features, coin control can be highlighted. This function allows you to enable and disable specific UTXOs in the wallet, i.e. outputs of unspent transactions. This feature can be useful in some cases:
 
@@ -398,15 +398,15 @@ Of the useful advanced onchain features, coin control can be highlighted. This f
 
 To activate coin control, you need to swipe the onchain balance tile to the right and tap on the button that appears.
 
-{{% image "/img/ln-wallets/coin-control.png" /%}}
+{{% image "/img/ln-wallets/coin-control.webp" /%}}
 
 A special onchain feature of the wallet is the ability to raise onchain fees through Replace-by-Fee (RBF) technology for outgoing transactions and Child-Pays-for-Parent (CPFP) for incoming transactions. The wallet also supports the ability to cancel an unconfirmed transaction in a single click.
 
-{{% image "/img/ln-wallets/cpfp.png" /%}}
+{{% image "/img/ln-wallets/cpfp.webp" /%}}
 
 Valet also allows opening special custodial Lightning channels (the only optional custodial function in the wallet), the balance of which is pegged to USD, the so-called fiat channels. To activate this feature, you need to scan the QR code of a Lightning node that supports Hosted Channels technology and tap on the "Request USD fiat channel" button.
 
-{{% image "/img/ln-wallets/fiat-channel.png" /%}}
+{{% image "/img/ln-wallets/fiat-channel.webp" /%}}
 
 Anyone in the community can start a service that offers fiat channels. At the moment the service is provided only by wallet developers' node: https://amboss.space/es/node/02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 
@@ -446,7 +446,7 @@ We cannot forget to mention one more feature provided by mobile wallets. This is
 
 A number of apps, e.g. the custodial version of Alby and the trial version of the LNBits, provide the ability to export a Lightning wallet. This way you can create a custodial wallet that provides unique functionality (piggy bank, recurring payments, paywalls, etc.) on desktop and export it to your mobile for easy use "on the go".
 
-{{% image "/img/ln-wallets/alby-export.png" %}}
+{{% image "/img/ln-wallets/alby-export.webp" %}}
 _The wallet on smartphone is a "mirror" of the wallet imported into it. Send and receive sats, log in via Lightning using one account._
 {{% /image %}}
 
@@ -460,7 +460,7 @@ Let's take a look at importing a wallet using Alby, Blue Wallet and Zeus as exam
 
 3. At the bottom of the page, click on the LNDhub button and confirm your intention on the next page.
 
-{{% image "/img/ln-wallets/alby-lndhub.png" /%}}
+{{% image "/img/ln-wallets/alby-lndhub.webp" /%}}
 
 A page with a text string starting with `lndhub://` and a QR code will appear.
 
@@ -468,11 +468,11 @@ Import wallet:
 
 - Into Blue:
 
-{{% image "/img/ln-wallets/blue-import.png" /%}}
+{{% image "/img/ln-wallets/blue-import.webp" /%}}
 
 - Into Zeus:
 
-{{% image "/img/ln-wallets/zeus-import.png" /%}}
+{{% image "/img/ln-wallets/zeus-import.webp" /%}}
 
 After scanning the QR code from your computer screen, confirm the import, and you can start using web wallet from your smartphone.
 

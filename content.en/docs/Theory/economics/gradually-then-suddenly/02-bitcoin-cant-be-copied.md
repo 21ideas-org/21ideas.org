@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Can’t Be Copied"
 h1: "Bitcoin Can’t Be Copied"
-cover: /img/150.png
+cover: /img/150.webp
 tags: ["bitcoin", "economics", "pow", "proof-of-work", "tokenomics", "altcoins"]
 description: ""
 url: gradually-then-suddenly/bitcoin-cant-be-copied
@@ -60,7 +60,7 @@ These properties emerged organically and spontaneously as individual economic ac
 3. Bitcoin becomes increasingly decentralized and increasingly censorship-resistant as its value increases and as it scales at all levels of the network.
 4. Repeat.
 
-{{% image "/img/151-en.png" /%}}
+{{% image "/img/151-en.webp" /%}}
 
 ## Monetary Systems Tend to One
 
@@ -76,7 +76,7 @@ Anyone with Venezuelan bolivars or Argentine pesos would opt into the dollar sys
 
 Many individuals creating digital currencies neither accept or admit that what they are creating has to be money to succeed; others that are speculating in these assets fail to understand that monetary systems tend to one medium or naively believe that their currency can out-compete bitcoin. None of them can explain how their digital currency of choice becomes more decentralized, more censorship-resistant or develops more liquidity than bitcoin. To take that further, no other digital currency will likely ever achieve the minimum level of decentralization or censorship-resistance required to have a credibly enforced monetary policy. And to literally steal a page from [The Bitcoin Standard](https://saifedean.com/the-book/):
 
-{{% image "/img/152-en.png" /%}}
+{{% image "/img/152-en.webp" /%}}
 
 Bitcoin is valuable, not because of a particular feature, but instead, because it achieved finite, digital scarcity, through which it derives its store of value property. The credibility of bitcoin’s scarcity (and monetary policy) only exists because it is decentralized and censorship-resistant, which in itself has very little to do with software. In aggregate, this drives incremental adoption and liquidity which reinforces and strengthens the value of the bitcoin network. As part of this process, individuals are, at the same time, opting out of inferior monetary networks. This is fundamentally why the emergent properties in bitcoin are next to impossible to replicate and why bitcoin cannot be copied or out-competed: because bitcoin already exists as an option and its monetary properties become stronger over time (and with greater scale), while also at the direct expense of inferior monetary networks.
 

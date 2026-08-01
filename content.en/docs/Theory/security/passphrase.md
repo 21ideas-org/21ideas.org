@@ -1,7 +1,7 @@
 ---
 title: "Is your passphrase strong enough?"
 h1: "Is your passphrase strong enough?"
-cover: /img/pass-811.jpg
+cover: /img/pass-811.webp
 description: ""
 url: passphrase
 date: 2019-07-12

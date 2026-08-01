@@ -1,7 +1,7 @@
 ---
 title: "What Is SegWit"
 h1: "What was the Segregated Witness upgrade?"
-cover: /img/segwit/01.png
+cover: /img/segwit/01.webp
 description: ""
 url: segwit
 date: 2024-02-10
@@ -27,7 +27,7 @@ In a [legacy transaction](https://learnmeabitcoin.com/technical/transaction/#exa
 
 The [TXID](https://learnmeabitcoin.com/technical/transaction/input/txid/) is then created from the **entire transaction data**:
 
-{{% image "/img/segwit/02.png" /%}}
+{{% image "/img/segwit/02.webp" /%}}
 
 ### SegWit transaction
 
@@ -35,11 +35,11 @@ In a [segwit transaction](https://learnmeabitcoin.com/technical/transaction/#exa
 
 The TXID is then created from all of the transaction data, **except for the unlocking code**:
 
-{{% image "/img/segwit/03.png" /%}}
+{{% image "/img/segwit/03.webp" /%}}
 
 As a result, the TXID in a **segwit transaction** is only influenced by the _effects_ of the transaction (the movement of bitcoins), and not by the code required to _validate_ the transaction (i.e. the signatures required for unlocking the bitcoins for spending).
 
-{{% image "/img/segwit/04.png" /%}}
+{{% image "/img/segwit/04.webp" /%}}
 
 So in essence, you have separated the "validating" part (unlocking code) from the rest of the transaction.
 
@@ -53,19 +53,19 @@ If you were to refer to this validation code as _witness_ data (as a cryptograph
 
 In Bitcoin, **transaction malleability** refers to the fact that the **[TXID](https://learnmeabitcoin.com/technical/transaction/input/txid/) of a transaction can be changed by altering the [signatures](https://learnmeabitcoin.com/technical/keys/signature/)**:
 
-{{% image "/img/segwit/05.png" %}}
+{{% image "/img/segwit/05.webp" %}}
 A signature can be altered by inverting the [s value](https://learnmeabitcoin.com/technical/keys/signature/#legacy-step-6). The signature is still valid and the transaction has the same effect, but the TXID is different.
 {{% /image %}}
 
 This means that when you send a legacy transaction in to the network, any [node](https://learnmeabitcoin.com/beginners/guide/node/) has the ability to change the TXID before passing it on:
 
-{{% image "/img/segwit/06.png" %}}
+{{% image "/img/segwit/06.webp" %}}
 Eventually your transaction will make it in to the blockchain under a different TXID than you expected, which would be somewhat annoying.
 {{% /image %}}
 
 However, if the signatures are no longer part of the TXID, it's no longer possible for someone else to change the TXID of your transaction later on:
 
-{{% image "/img/segwit/07.png" /%}}
+{{% image "/img/segwit/07.webp" /%}}
 
 So in other words, SegWit makes TXIDs _reliable_.
 
@@ -75,11 +75,11 @@ Due to the fact that the unlocking code was moved to a _new_ [witness field](htt
 
 Previously, transactions were measured in [bytes](/en/transaction-size/#1-bytes-b), and the block size limit was 1,000,000 bytes (1 MB):
 
-{{% image "/img/segwit/08.png" /%}}
+{{% image "/img/segwit/08.webp" /%}}
 
 With SegWit, transactions are _no longer measured in bytes_. Instead, transactions and blocks were given a new metric called [weight](/en/transaction-size/#2-weight-units-wu):
 
-{{% image "/img/segwit/09.png" /%}}
+{{% image "/img/segwit/09.webp" /%}}
 
 - A block has a maximum size of `4,000,000` weight units.
     - A _normal_ byte in a transaction is equal to `4` weight units.
@@ -132,13 +132,13 @@ If you wanted to fix transaction malleability and increase block capacity, surel
 
 Good question. And you're right – these changes could have been made much more simply. For example, you could have just done this:
 
-{{% image "/img/segwit/10.png" /%}}
+{{% image "/img/segwit/10.webp" /%}}
 
 However, if you did this, the transactions and blocks would become "invalid" under the current rules.
 
 Basically, this means nodes on the network would reject these new transactions and blocks, because they do not comply with their rules on how transactions and blocks should "look".
 
-{{% image "/img/segwit/11.png" %}}
+{{% image "/img/segwit/11.webp" %}}
 For example, one of the rules was that each block must be 1 MB or less.
 {{% /image %}}
 
@@ -146,7 +146,7 @@ Therefore, if you wanted to make these changes, **you would need to make everyon
 
 Because if you didn't, you would end up with a network that builds two different blockchains – upgraded nodes building a blockchain using the new rules, and old nodes continuing to build a blockchain using the old rules.
 
-{{% image "/img/segwit/12.png" /%}}
+{{% image "/img/segwit/12.webp" /%}}
 
 This in known as a [hard fork](https://learnmeabitcoin.com/technical/blockchain/hard-fork/). It can work, but it's risky, and will cause problems for those who do not upgrade.
 
@@ -156,11 +156,11 @@ Instead of SegWit being a hard fork, it was implemented as a [soft fork](https:/
 
 With the SegWit upgrade, the **transactions and blocks _still follow_ the current rules of the bitcoin network**, so all nodes still see SegWit blocks as valid. Therefore, "old" nodes will accept these "new" blocks and add them to their blockchains too.
 
-{{% image "/img/segwit/13.png" /%}}
+{{% image "/img/segwit/13.webp" /%}}
 
 Therefore, old nodes still keep up with the new nodes, _even if they do not upgrade_.
 
-{{% image "/img/segwit/14.png" %}}
+{{% image "/img/segwit/14.webp" %}}
 Everyone stays in sync with a single version of the blockchain with a soft fork.
 {{% /image %}}
 
@@ -180,13 +180,13 @@ The Segregated Witness upgrade came in to effect when **95%** of miners signalle
 
 Miners can signal readiness by using a designated [version number](https://learnmeabitcoin.com/technical/block/version/) in the blocks they mine.
 
-{{% image "/img/segwit/15.png" %}}
+{{% image "/img/segwit/15.webp" %}}
 The version field is part of the [block header](https://learnmeabitcoin.com/technical/block/#header).
 {{% /image %}}
 
 So when 95% of blocks had this version number, SegWit was scheduled for activation:
 
-{{% image "/img/segwit/16.png" %}}
+{{% image "/img/segwit/16.webp" %}}
 The 95% threshold is calculated within a [target](https://learnmeabitcoin.com/technical/mining/target/) readjustment period. If the 95% threshold is met, the soft fork is activated at the start of the _next_ target adjustment period (which is 2016 blocks, or roughly 2 weeks).
 {{% /image %}}
 
@@ -251,7 +251,7 @@ This is so the blockchain with "new" blocks on it will outpace any blockchain be
 
 As a result, the "new" blockchain will be built faster than any blockchain being built with "old" blocks, so all nodes will naturally adopt the same [longest chain](https://learnmeabitcoin.com/technical/blockchain/longest-chain/):
 
-{{% image "/img/segwit/17.png" %}}
+{{% image "/img/segwit/17.webp" %}}
 Having a majority of mining power keeps everyone on the network on the same chain.
 {{% /image %}}
 
@@ -265,7 +265,7 @@ It's not necessarily that miners are the most knowledgeable group for deciding u
 
 If you're running an old node (e.g. [Bitcoin Core v0.13.0](https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-0.13.0.md) or below), any SegWit nodes that you are connected to will strip out all of the [witness data](https://learnmeabitcoin.com/technical/transaction/witness/) from transactions before sending them to you.
 
-{{% image "/img/segwit/18.png" /%}}
+{{% image "/img/segwit/18.webp" /%}}
 
 What this means is:
 

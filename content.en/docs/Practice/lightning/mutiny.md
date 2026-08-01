@@ -38,19 +38,19 @@ To begin, we can first visit the Website [mutinywallet.com](https://www.mutinywa
 
 For those who prefer not to rely on the App Store or Google Play Store, Mutiny Wallet can also be accessed directly through the browser at [app.mutinywallet.com](https://stacker.news/items/app.mutinywallet.com). As a Progressive Web App (PWA), you can easily add it to your home screen for quick access: on iPhone, tap on `Share` then `Add to Home Screen`; on Android, tap the `3 dots ⋮` in the top right corner followed by `Install app`. This process enables you to use Mutiny Wallet as a PWA, just like any other app, directly from your main screen.
 
-{{% image "/img/mutiny/02.png" /%}}
+{{% image "/img/mutiny/02.webp" /%}}
 
 ## Settings ⚙️
 
 Tapping on the `Wheel` icon in the top right corner takes us to the settings. Let's explore some of these settings to uncover what they offer.
 
-{{% image "/img/mutiny/03.png" /%}}
+{{% image "/img/mutiny/03.webp" /%}}
 
 ### A - Lightning Channels ⚡
 
 In this section we are able to see how much channels we have, what our Inbound- and Outbound Liquidity levels are. Additionally there is a reserve balance. The reserve balance is the minimum amount of Bitcoin to maintain in the channel to ensure security and cover transaction fees for channel closure [^6].
 
-{{% image "/img/mutiny/04.png" /%}}
+{{% image "/img/mutiny/04.webp" /%}}
 
 ### B - Backup 💾
 
@@ -64,13 +64,13 @@ Some additional comments by Mutiny:
 
 When you're finished tick the boxes and tap `I wrote down the words`
 
-{{% image "/img/mutiny/05.png" /%}}
+{{% image "/img/mutiny/05.webp" /%}}
 
 ### Encrypt your seed words 🔒
 
 Additionally, you can add an extra layer of security to your seed phrase by setting up an password. This ensures that even if someone gains access to your phone, your funds remain secure. Click `Encrypt` to apply this extra protection, or `Skip` if you want to proceed to the next step without it.
 
-{{% image "/img/mutiny/06.png" /%}}
+{{% image "/img/mutiny/06.webp" /%}}
 
 ### C - Restore 🔄
 
@@ -80,7 +80,7 @@ Restore option is available via 12 word seed phrase.
 
 > This option ... will restore full access to your lightning and on-chain funds. However, any other metadata will be lost. Metadata includes payment history, wallet connections, etc.[^5]
 
-{{% image "/img/mutiny/07.png" /%}}
+{{% image "/img/mutiny/07.webp" /%}}
 
 There is also the option to transferring data between devices, including exporting a State File. This allows for restore all wallet data completely, as outlined [here](https://blog.mutinywallet.com/migrate-mutiny-wallet-to-the-native-apps/#transferring-data).
 
@@ -88,39 +88,39 @@ There is also the option to transferring data between devices, including exporti
 
 For the tech-savvy, taking Mutiny into your own hands by running it on your infrastructure is a solid option. There are some resources available to guide you through this process. A good place to begin is by visiting [Github/mutiny-deploy](https://github.com/MutinyWallet/mutiny-deploy) and for a more in-depth guide on cloud setup, the [Setting up Mutiny in the cloud](https://github.com/MutinyWallet/mutiny-deploy/blob/master/docs/setup-docs.md).
 
-{{% image "/img/mutiny/08.png" /%}}
+{{% image "/img/mutiny/08.webp" /%}}
 
 ## Receive Bitcoin 🔽
 
 To begin, select `Receive` from the main screen. Enter the desired amount you wish to receive. Note that a setup fee will be deducted to initiate the lightning channel. By tapping on `Why`, you can gain insights into liquidity. Mutiny employs Voltage, a built-in LSP, in the background to streamline the process. This way you dont have to establish a channel, the LSP will do that for you. Additionally, you can label your transaction by filling in the `What is this for?` field. Once completed, click on `Continue` to proceed.
 
-{{% image "/img/mutiny/09.png" /%}}
+{{% image "/img/mutiny/09.webp" /%}}
 
 This process creates a QR code in a `unified format`, ready for payment. It includes information on the setup fee necessary to initiate the lightning channel if the transaction is executed through lightning. In this example, the setup fee was `6,545 SATS`. By adding the Phoenix LN fee of `404 SATS`, the aggregate amount required to open the channel was `6,949 SATS`.
 
-{{% image "/img/mutiny/10.png" /%}}
+{{% image "/img/mutiny/10.webp" /%}}
 
 `Choose format` will display the various payment formats available. The `unified` option allows the sender to choose the preferred payment method. Additionally, users can select either a `Lightning invoice` or `Bitcoin address` to receive Bitcoin.
 
-{{% image "/img/mutiny/11.png" /%}}
+{{% image "/img/mutiny/11.webp" /%}}
 
 When it comes to paying the invoice using Phoenix, the unified QR code enables both lightning and on-chain Bitcoin as viable payment options.
 
-{{% image "/img/mutiny/12.png" /%}}
+{{% image "/img/mutiny/12.webp" /%}}
 
 ## Sending Bitcoin 🔼
 
 Sending Bitcoin is also a straightforward. By configuring your `NOSTR NPUB` in the settings, you can directly send Bitcoin to your NOSTR contacts. Personally I really like this feature. Additionally there are also the options to send Bitcoin using an on-chain address or a lightning invoice.
 
-{{% image "/img/mutiny/13.png" /%}}
+{{% image "/img/mutiny/13.webp" /%}}
 
 Specify the `amount` you'd like to send, include a label for easy tracking of your transactions, and tap `Confirm Send`.
 
-{{% image "/img/mutiny/14.png" /%}}
+{{% image "/img/mutiny/14.webp" /%}}
 
 The SATS will magically fly into your chosen destination, truly magic internet money. ✨
 
-{{% image "/img/mutiny/15.png" /%}}
+{{% image "/img/mutiny/15.webp" /%}}
 
 ## Nostr Wallet Auth 🔗
 
@@ -128,19 +128,19 @@ Nostr Wallet Auth (NWA) is an open source protocol ([NIP-67](https://github.com/
 
 To begin, navigate to `Settings` and, within the `Experiments` section, select `Wallet Connections`. Then, by choosing `Add Connection`, you're prompted to provide a name for the connection. Additionally, you have the ability to establish a budget by enabling `Auto Approve`, allowing you to determine how frequently your budget resets — be it Daily, Weekly, Monthly, or Yearly.
 
-{{% image "/img/mutiny/16.png" /%}}
+{{% image "/img/mutiny/16.webp" /%}}
 
 This generates a code that can be scanned or copied to establish the connection, for instance, with the stacker.news account.
 
-{{% image "/img/mutiny/17.png" /%}}
+{{% image "/img/mutiny/17.webp" /%}}
 
 On stacker.news, navigate to `wallets` and select `attach wallets`, then choose `NWC`. Paste the code here, and the newly connected Mutiny Wallet becomes the designated payment method. (ℹ️ _SN prioritizes spending from your custodial balance. If there are no funds in your wallet, it switches to your attached wallet_). The green dot will indicate that everything is set up. From this point on, zaps will deduct funds from the attached wallet when the balance is empty.
 
-{{% image "/img/mutiny/18.png" /%}}
+{{% image "/img/mutiny/18.webp" /%}}
 
 Back in Mutiny, after a day filled with zapping, we can easily review the total amount spent throughout the day and check what remains from the set budged.
 
-{{% image "/img/mutiny/19.png" /%}}
+{{% image "/img/mutiny/19.webp" /%}}
 
 ## Mutiny Gifts 🎁
 
@@ -152,7 +152,7 @@ Mutiny Gifts is a feature for `Mutiny+` users.
 
 If you want to support the Mutiny team and get early access to new features consider joining `Mutiny+` for 16.000 SATS a month.
 
-{{% image "/img/mutiny/20.png" /%}}
+{{% image "/img/mutiny/20.webp" /%}}
 
 ## Federations 🤝
 
@@ -162,7 +162,7 @@ End of last year, [Mutiny announced](https://archive.ph/K4Prm) their integration
 
 Unfortunately, I haven't been able to test this feature yet, as I have not come across any Federation invite codes.
 
-{{% image "/img/mutiny/21.png" /%}}
+{{% image "/img/mutiny/21.webp" /%}}
 
 ## Coming soon 🔜
 
@@ -174,7 +174,7 @@ As we gradually conclude, let's look ahead. What's in the pipeline?
 
 The upcoming features seem interesting, I'm curious to see what they look like once implemented.
 
-{{% image "/img/mutiny/22.png" /%}}
+{{% image "/img/mutiny/22.webp" /%}}
 
 ## Conclusion 🎯
 

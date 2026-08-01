@@ -1,7 +1,7 @@
 ---
 title: "Part II. Economic Teachings of Bitcoin"
 h1: "Part II. Economic Teachings of Bitcoin"
-cover: /img/what-01.jpg
+cover: /img/what-01.webp
 tags: ["philosophy", "bitcoin"]
 description: ""
 url: what-i-learned-from-bitcoin-2
@@ -37,7 +37,7 @@ In Part I of this series, some of the philosophical questions Bitcoin touches on
 
 Bitcoin is a child of many disciplines. Being a new form of money, learning about economics is paramount in understanding it. Dealing with the nature of human action and the interactions of economic agents, economics is probably one of the largest and fuzziest pieces of the Bitcoin puzzle.
 
-{{% image "/img/what-02.jpg" %}}
+{{% image "/img/what-02.webp" %}}
 *Blind monks examining Bitcoin*
 {{% /image %}}
 
@@ -105,7 +105,7 @@ The destructive force of inflation becomes obvious as soon as a little inflation
 
 Another consequence of hyperinflation is that all the money which people have saved over the course of their life will effectively vanish. The paper money in your wallet will still be there, of course. But it will be exactly that: worthless paper.
 
-{{% image "/img/what-03.png" %}}
+{{% image "/img/what-03.webp" %}}
 *Hyperinflation in the Weimar Republic (1921-1923)*
 {{% /image %}}
 
@@ -199,7 +199,7 @@ If something is imposed by _fiat_, it simply means that it is imposed by formal 
 
 The value of fiat money does not stem from its inherent properties. How good a certain type of fiat money is, is only correlated to the political and fiscal (in)stability of those who dream it into existence. Its value is imposed by decree, arbitrarily.
 
-{{% image "/img/what-04.png" %}}
+{{% image "/img/what-04.webp" %}}
 *fi·at /ˈfēˌät,ˈfēət/ \-\-\- 'Let it be done'*
 {{% /image %}}
 
@@ -207,7 +207,7 @@ Until recently, two types of money were used: **commodity money**, made out of p
 
 We already touched on commodity money above. People used special bones, seashells, and precious metals as money. Later on, mainly coins made out of precious metals like gold and silver were used as money. The [oldest coin](https://www.britishmuseum.org/explore/themes/money/the_origins_of_coinage.aspx) found so far is made of a natural gold-and-silver mix and was made more than 2700 years ago. If something is new in Bitcoin, the concept of a coin is not it.
 
-{{% image "/img/what-05.png" %}}
+{{% image "/img/what-05.webp" %}}
 *Lydian electrum coin*
 {{% /image %}}
 
@@ -217,13 +217,13 @@ One of the downsides of using precious metal coins is that they can be clipped, 
 
 Since governments are only cool with inflation if they are the ones doing it, efforts were made to stop this guerrilla debasement. In classic cops-and-robbers fashion, coin clippers got ever more creative with their techniques, forcing the ‘masters of the mint’ to get even more creative with their countermeasures. Isaac Newton, the world-renowned physicist of _Principia Mathematica_ fame, used to be one of these masters. He is attributed with adding the small stripes at the side of coins which are still present today. Gone were the days of easy coin shaving.
 
-{{% image "/img/what-06.png" /%}}
+{{% image "/img/what-06.webp" /%}}
 
 Even with these methods of [coin debasement](https://en.wikipedia.org/wiki/Methods_of_coin_debasement) kept in check, coins still suffer from other issues. They are bulky and not very convenient to transport, especially when large transfers of value need to happen. Showing up with a huge bag of silver dollars every time you want to buy a Mercedes isn’t very practical.
 
 Speaking of German things: How the United States _dollar_ got its name is another interesting story. The word “dollar” is derived from the German word [_Thaler_](https://en.wikipedia.org/wiki/Thaler), short for a _Joachimsthaler._ A Joachimsthaler was a coin minted in the town of _Sankt Joachimsthal_. Thaler is simply a shorthand for someone (or something) coming from the valley, and because Joachimsthal was _the_ valley for silver coin production, people simply referred to these silver coins as _Thaler._ Thaler (German) morphed into daalders (Dutch), and finally dollars (English).
 
-{{% image "/img/what-07.png" %}}
+{{% image "/img/what-07.webp" %}}
 *The original 'dollar'. Saint Joachim is pictured with his robe and wizard hat. Picture cc-by-sa Berlin-George*
 {{% /image %}}
 
@@ -231,7 +231,7 @@ The introduction of representative money heralded the downfall of hard money. Go
 
 It took about 50 years from the introduction of the first [silver certificates](https://en.wikipedia.org/wiki/Silver_certificate_%28United_States%29) until these pieces of paper morphed into something that we would today recognize as one U.S. dollar.
 
-{{% image "/img/what-08.png" %}}
+{{% image "/img/what-08.webp" %}}
 *A 1928 U.S. silver dollar. 'Payable to the bearer on demand.' Picture credit to the National Numismatic Collection at the Smithsonian Institution*
 {{% /image %}}
 
@@ -243,7 +243,7 @@ To remind the bearers (users) that these certificates were representative for ac
 
 > "> This certifies that there have been deposited in the treasury of the United States of America one hundred dollars in gold coin payable to the bearer on demand.”
 
-{{% image "/img/what-09.png" %}}
+{{% image "/img/what-09.webp" %}}
 *Picture credit to National Numismatic Collection, National Museum of American History.*
 {{% /image %}}
 
@@ -286,7 +286,7 @@ Let’s use a concrete example to better understand this crazy idea: A fraction 
 
 So what do banks do with the rest of the money? What happens to your $90? They do what banks do, they lend it to other people. The result is a [money multiplier](https://en.wikipedia.org/wiki/Money_multiplier) effect, which increases the money supply in the economy enormously. Your initial deposit of $100 will soon turn into $190. By lending a 90% fraction of the newly created $90, there will soon be $271 in the economy. And $343.90 after that. The money supply is recursively increasing, since banks are literally lending money they don’t have. Without a single Abracadabra, banks magically transform $100 into one thousand dollars or more. Turns out 10x is easy. It only takes a couple of lending rounds.
 
-{{% image "/img/what-11.png" /%}}
+{{% image "/img/what-11.webp" /%}}
 
 Don’t get me wrong: There is nothing wrong with lending. There is nothing wrong with interest. There isn’t even anything wrong with good old regular banks to store your wealth somewhere more secure than in your sock drawer.
 
@@ -313,7 +313,7 @@ As a quick stroll through the graveyard of forgotten currencies has shown, money
 
 Bitcoin does away with the temptation to print money in an ingenious way. Satoshi was aware of our greed and fallibility — this is why he chose something more reliable than human restraint: mathematics.
 
-{{% image "/img/what-12.png" %}}
+{{% image "/img/what-12.webp" %}}
 *Bitcoin's supply formula*
 {{% /image %}}
 
@@ -347,13 +347,13 @@ Enter Bitcoin. As you probably know, bitcoin mining was all the rage in the last
 
 How high? Well, it turns out that Bitcoin will get infinitely hard.
 
-{{% image "/img/what-14.png" %}}
+{{% image "/img/what-14.webp" %}}
 *Visualization of stock and flow for USD, gold, and Bitcoin*
 {{% /image %}}
 
 Due to an exponential decrease of the mining reward, the flow of new bitcoin will diminish resulting in a sky-rocketing stock-to-flow ratio. It will catch up to gold in 2020, only to surpass it four years later by doubling its soundness again. Such a doubling will occur 64 times in total. Thanks to the power of exponentials, the number of bitcoin mined per year will drop below 100 bitcoin in 50 years and below 1 bitcoin in 75 years. The global faucet which is the block reward will dry up somewhere around the year 2140, effectively stopping the production of bitcoin. This is a long game. If you are reading this, you are still early.
 
-{{% image "/img/what-15.png" %}}
+{{% image "/img/what-15.webp" %}}
 *Rising stock-to-flow ratio of bitcoin as compared to gold*
 {{% /image %}}
 
