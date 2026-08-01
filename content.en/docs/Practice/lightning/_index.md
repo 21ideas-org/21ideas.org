@@ -7,6 +7,7 @@ coverDark: /img/main-section/en/lightning-light.webp
 bookCollapseSection: true
 url: practice/lightning
 weight: 6
+aliases: ['/lntips']
 ---
 
 1. [Phoenix Wallet: Take Back Control of Your Sats in the Lightning Network](/en/phoenix)
@@ -17,8 +18,6 @@ weight: 6
 
 4. [Recurring Lightning Payments](/en/zapplanner)
 
-5. [Telegram bot @LightningTipBot](/en/lntips)
+5. [Lightning Liquidity Management Guide](/en/lightning-liquidity-management-guide)
 
-6. [Lightning Liquidity Management Guide](/en/lightning-liquidity-management-guide)
-
-7. [Starting with Mutiny Wallet](/en/mutiny)
+6. [Starting with Mutiny Wallet](/en/mutiny)
