@@ -7,6 +7,7 @@ url: lntips
 date: 2023-03-03
 bookFlatSection: false
 weight: 5
+draft: true
 ---
 
 Lightning Tip Bot is a friendly bot that will take your interaction with Telegram, the Lightning Network and the Nostr protocol to the next level.
