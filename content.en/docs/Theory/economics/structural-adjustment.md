@@ -1,7 +1,7 @@
 ---
 title: "Structural Adjustment"
 h1: "Structural Adjustment: How The IMF And World Bank Repress Poor Countries And Funnel Their Resources To Rich Ones"
-cover: /img/sp-386.png
+cover: /img/sp-386.webp
 description: "The IMF and World Bank do not seek to fix poverty, but only to enrich creditor nations. Could Bitcoin create a better global economic system for the developing world?"
 url: structural-adjustment
 date: 2022-11-30
@@ -34,7 +34,7 @@ Instead of reinforcing the local mangrove forests which naturally protected the 
 
 With [financing](http://madadoc.irenala.edu.mg/documents/9353_Shrimp%20report-WorldBank.pdf) from the World Bank and IMF, countless farms and their surrounding wetlands and mangrove forests were engineered into shrimp ponds known as _ghers_. The area’s Ganges river delta is an incredibly fertile place, home to the [Sundarbans](https://whc.unesco.org/en/list/798/), the world’s biggest stretch of mangrove forest. But as a result of commercial shrimp farming becoming the region’s main economic activity, [45%](https://www.wrm.org.uy/bulletin-articles/bangladesh-losing-mangroves-to-shrimp-farming-leads-to-food-loss-and-environmental-insecurity) of the mangroves have been cut away, leaving millions of people exposed to the 10-meter waves that can crash against the coast during major cyclones. Arable land and river life has been slowly destroyed by excess salinity leaking in from the sea. Entire forests have [vanished](https://ejfoundation.org/resources/downloads/desert_in_the_delta.pdf) as shrimp farming [has](https://www.cdpbd.org/images/files/Working%20together%20for%20eco-friendly%20responsible%20shrimp%20farming.pdf) killed much of the area’s vegetation, "rendering this once bountiful land into a watery desert,” according to Coastal Development Partnership.
 
-{{% image "/img/sp-388.png" %}}
+{{% image "/img/sp-388.webp" %}}
 _A_ [_farm_](https://www.flickr.com/photos/reachwater/31625544191) _in Khuna province, flooded to make shrimp fields_
 {{% /image %}}
 
@@ -66,7 +66,7 @@ _–_ [_Richard Nixon_](https://books.google.com/books?id=5bHvTtNmsikC&pg=PA71&l
 
 The IMF is the world’s international lender of last resort, and the World Bank is the [world’s largest development bank](https://www.worldbank.org/en/who-we-are/ibrd#:~:text=The%20world's%20largest%20development%20bank,to%20all%20of%20their%20people.). Their work is carried out on behalf of their major creditors, which [historically](https://www.imf.org/external/pubs/ft/ar/archive/pdf/ar1965.pdf) have been the United States, the United Kingdom, France, Germany and Japan.
 
-{{% image "/img/sp-389.png" %}}
+{{% image "/img/sp-389.webp" %}}
 _The IMF and_ [_World Bank_](https://www.flickr.com/photos/worldbank/8656324500) _offices in Washington, DC_
 {{% /image %}}
 
@@ -343,7 +343,7 @@ In his 2011 book “[Defeating Dictators](https://www.amazon.com/Defeating-Dicta
 
 In 2014, a [report](https://publicintegrity.org/accountability/leaked-report-says-world-bank-violated-own-rules-in-ethiopia/) was released by the International Consortium of Investigative Journalists, alleging that the Ethiopian government had used part of a $2 billion Bank loan to forcibly relocate 37,883 indigenous Anuak families. This was 60% of the country’s entire Gambella province. Soldiers “beat, raped, and killed” Anuak who refused to leave their homes. Atrocities were [so bad](https://projects.huffingtonpost.com/projects/worldbank-evicted-abandoned/new-evidence-ties-worldbank-to-human-rights-abuses-ethiopia) that _South Sudan_ granted refugee status to Anuaks streaming in from neighboring Ethiopia. A Human Rights Watch [report](https://projects.huffingtonpost.com/projects/worldbank-evicted-abandoned/new-evidence-ties-worldbank-to-human-rights-abuses-ethiopia) said that the stolen land was then “leased by the government to investors” and that the Bank’s money was “used to pay the salaries of government officials who helped carry out the evictions.” The Bank approved new funding for this “villagization” program even after allegations of mass human rights violations emerged.
 
-{{% image "/img/sp-397.png" %}}
+{{% image "/img/sp-397.webp" %}}
 _Mobutu Sese Soko and Richard_ [_Nixon_](https://en.wikipedia.org/wiki/Mobutu_Sese_Seko#/media/File:Mobutu_Nixon.jpg) _at the White House in 1973_
 {{% /image %}}
 
@@ -375,7 +375,7 @@ In July 1987, the revolutionary leader Thomas Sankara gave a [speech](https://ww
 
 Sankara famously boycotted the IMF and refused structural adjustment. Three months after his OAU speech, he was [assassinated](https://www.cfr.org/article/what-sankara-assassination-trial-means-west-africa) by Blaise Compaoré, who would install his own 27-year military regime that would receive [four](https://www.imf.org/external/np/fin/tad/extarr2.aspx?memberKey1=95&date1key=2002-06-30) structural adjustment loans from the IMF and borrow [dozens of times](https://projects.worldbank.org/en/projects-operations/projects-list?lang=en&countrycode_exact=BF&os=100&countryshortname_exact=Burkina%20Faso) from the World Bank for various infrastructure and agriculture projects. Since Sankara’s death, few heads of state have been willing to take a stand to repudiate their debts.
 
-{{% image "/img/sp-398.png" %}}
+{{% image "/img/sp-398.webp" %}}
 _Burkinese dictator Blaise_ [_Compaoré_](https://www.gettyimages.in/detail/news-photo/international-monetary-fund-s-managing-director-dominique-news-photo/79991213) _and IMF managing director Dominique Strauss-Kahn. Compaoré seized power after assassinating Thomas Sankara (who tried to refuse Western debt) and he went on to borrow billions from the Bank and Fund._
 {{% /image %}}
 
@@ -571,7 +571,7 @@ A good example would be the billion-dollar [Inga dams](https://en.wikipedia.org/
 
 Hancock details many such white elephants in “Lords Of Poverty.” One example is the Singrauli Power and Coal Mining Complex in India’s Uttar Pradesh state, which received nearly a billion dollars in Bank funding.
 
-{{% image "/img/sp-399.png" %}}
+{{% image "/img/sp-399.webp" %}}
 _The_ [_Singrauli_](https://en.wikipedia.org/wiki/Singrauli_Coalfield#/media/File:Panaromic_View_of_Dudhichua_Coal_Mine_of_NCL.jpg) _coal fields_
 {{% /image %}}
 
@@ -609,7 +609,7 @@ The mines, highways and ports in West Papua were not built with the wellbeing of
 
 A 1959 [article](http://wpik.org/Src/NYT/19590306newExplor.pdf) on the discovery of gold in the area is the beginning of the story of what would later become the Grasberg mine, the world’s lowest-cost and largest producer of copper and gold. In 1972, the Phoenix-based Freeport signed a deal with Indonesian dictator Suharto to extract gold and copper from West Papua, without any consent from the indigenous population. Until 2017, Freeport controlled 90% of the project’s shares, with 10% in the hands of the Indonesian government and 0% for the Amungme and Kamoro tribes who actually inhabit the area.
 
-{{% image "/img/sp-400.png" %}}
+{{% image "/img/sp-400.webp" %}}
 _The_ [_Grasberg_](https://www.sika.com/en/reference-projects/grasberg-mine.html) _mine_
 {{% /image %}}
 
@@ -743,7 +743,7 @@ Where the U.S. and U.K. were able to use coal and the Third World’s oil, the B
 
 This hypocrisy was on display a few weeks ago in Egypt, where world leaders gathered at [COP 27](https://unfccc.int/cop27) (the Sharm el-Sheikh Climate Change Conference) to discuss how to reduce energy use. The location on the African continent was intentional. Western leaders — currently scrambling to import more fossil fuels after their access to Russian hydrocarbons was curtailed — flew in on gas-guzzling private jets to plead with poor countries to reduce their carbon footprint. In typical Bank and Fund tradition, the ceremonies were hosted by the resident military dictator. During the festivities, Alaa Abd Al Fattah, a prominent Egyptian human rights activist, languished nearby on hunger strike in prison.
 
-{{% image "/img/sp-403.png" %}}
+{{% image "/img/sp-403.webp" %}}
 *British Prime Minister Rishi Sunak uses private jets while pushing a pro-climate agenda ([source](https://www.google.com/search?q=sunak+Sharm+el-Sheikh+Climate+Change+Conference+arrive+private+jet&tbm=isch&ved=2ahUKEwi0s_KU-NP7AhVE81MKHbvYCL0Q2-cCegQIABAA&oq=sunak+Sharm+el-Sheikh+Climate+Change+Conference+arrive+private+jet&gs_lcp=CgNpbWcQA1CDA1ibFGDEFWgAcAB4AYAB1wKIAcUQkgEIMTYuMi4xLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=fkSGY7T8A8TmzwK7saPoCw&bih=1110&biw=1728&rlz=1C5CHFA_enUS997US997#imgrc=jLLSyukfW63tyM))*
 {{% /image %}}
 

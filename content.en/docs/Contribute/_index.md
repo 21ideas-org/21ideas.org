@@ -1,8 +1,8 @@
 ---
 title: "Contribute"
 h1: " "
-cover: /img/main-section/en/contribute-dark.png
-coverDark: /img/main-section/en/contribute-light.png
+cover: /img/main-section/en/contribute-dark.webp
+coverDark: /img/main-section/en/contribute-light.webp
 bookCollapseSection: true
 type: docs
 url: contribute
@@ -29,7 +29,7 @@ There are several ways to become a part of the project:
 ## Onchain
 Bitcoin address: `bc1q805dq3u6t76nd5av3jdln0vy6zxt4y5djem4s5`
 
-![onchain](/img/0.jpeg)
+![onchain](/img/0.webp)
 
 ---
 

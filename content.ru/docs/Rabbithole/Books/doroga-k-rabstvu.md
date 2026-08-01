@@ -1,7 +1,7 @@
 ---
 title: "Дорога к рабству"
 h1: "Дорога к рабству"
-cover: /img/dkr-834.png
+cover: /img/dkr-834.webp
 description: "Иллюстрированная версия бессмертной работы Фридриха Хайека."
 url: doroga-k-rabstvu
 aliases: ['/book-road-to-serfdom']
@@ -20,20 +20,20 @@ weight: 90
 Полную версию книги можно скачать [здесь](/epubs/road-to-serfdom-ru.pdf)
 {{< /hint >}}
 
-{{% image "/img/dkr-835.png" /%}}
+{{% image "/img/dkr-835.webp" /%}}
 
-{{% image "/img/dkr-836.png" /%}}
+{{% image "/img/dkr-836.webp" /%}}
 
-{{% image "/img/dkr-837.png" /%}}
+{{% image "/img/dkr-837.webp" /%}}
 
-{{% image "/img/dkr-838.png" /%}}
+{{% image "/img/dkr-838.webp" /%}}
 
-{{% image "/img/dkr-839.png" /%}}
+{{% image "/img/dkr-839.webp" /%}}
 
-{{% image "/img/dkr-840.png" /%}}
+{{% image "/img/dkr-840.webp" /%}}
 
-{{% image "/img/dkr-841.png" /%}}
+{{% image "/img/dkr-841.webp" /%}}
 
-{{% image "/img/dkr-842.png" /%}}
+{{% image "/img/dkr-842.webp" /%}}
 
-{{% image "/img/dkr-843.png" /%}}
+{{% image "/img/dkr-843.webp" /%}}

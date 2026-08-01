@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Dissidents"
 h1: "Bitcoin Dissidents: Those Who Need It Most"
-cover: /img/diss-915.png
+cover: /img/diss-915.webp
 description: "The global pandemic and interwoven political and economic crises became fertile ground for Bitcoin to become a tool for human rights."
 url: bitcoin-dissidents
 date: 2020-12-08

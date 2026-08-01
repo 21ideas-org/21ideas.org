@@ -1,7 +1,7 @@
 ---
 title: "Эпоха криптовалют"
 h1: "Эпоха криптовалют"
-cover: /img/books/epoha-kriptovalyut.png
+cover: /img/books/epoha-kriptovalyut.webp
 description: "В этой книге рассказана невероятная история о том, как идея, изначально интересная лишь маленькой группке энтузиастов, постепенно привлекла к себе внимание всего мира."
 url: epoha-kriptovalyut
 date: 2015-01-29

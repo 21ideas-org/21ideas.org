@@ -2,8 +2,8 @@
 title: "Практики приватности"
 type: docs
 h1: "Приватность"
-# cover: /img/main-section/ru/privacy-light.png
-# coverDark: /img/main-section/ru/privacy.png
+# cover: /img/main-section/ru/privacy-light.webp
+# coverDark: /img/main-section/ru/privacy.webp
 bookHidden: false
 bookCollapseSection: true
 url: practice-privacy

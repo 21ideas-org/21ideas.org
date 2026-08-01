@@ -1,7 +1,7 @@
 ---
 title: "Будущее уже не то, что прежде"
 h1: "Будущее уже не то, что прежде"
-cover: /img/books/budushchee-uzhe-ne-to-chto-prezhde.png
+cover: /img/books/budushchee-uzhe-ne-to-chto-prezhde.webp
 description: "Карлин с неподражаемым черным юмором дает пощечину лицемерному социуму и власть предержащим, смеется над запретным, сомневается в незыблемом."
 url: budushchee-uzhe-ne-to-chto-prezhde
 date: 2004-05-14

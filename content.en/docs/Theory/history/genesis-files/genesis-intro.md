@@ -35,7 +35,7 @@ The new form of cryptography, titled **_RSA_** after its inventors Ron Rivest, A
 
 As it turned out, he was spot on with his prediction.
 
-{{% image "/img/210.png" %}}
+{{% image "/img/210.webp" %}}
 _The August 1977 edition of Scientific American._
 {{% /image %}}
 
@@ -49,7 +49,7 @@ Without knowing the one-time pad, it’s impossible to de-cypher the encrypted m
 
 Maths theory shows that stream cyphers and one-time pads are the safest and most secure form of cryptography. However, using such a form of encryption comes with fairly onerous and unwieldy implementation requirements.
 
-{{% image "/img/211.png" %}}
+{{% image "/img/211.webp" %}}
 _The now-famous article by Martin Gardner about RSA public key encryption, in the August 1977 edition of Scientific American._ 
 {{% /image %}}
 
@@ -94,7 +94,7 @@ These days, quadratic complexity is typically not considered secure enough again
 
 Inspired by Merkle’s work, on November 6 1976 two Harvard professors, [Whitfield Diffie](https://en.wikipedia.org/wiki/Whitfield_Diffie) and [Martin Helman](https://en.wikipedia.org/wiki/Martin_Hellman) published a theoretical paper that tackled many of long-standing problems around trustless encryption and key distribution.
 
-{{% image "/img/212.png" %}}
+{{% image "/img/212.webp" %}}
 _[‘New Directions in Cryptography’](https://ee.stanford.edu/~hellman/publications/24.pdf) a paper by Whitfield Diffie and Martin Hellman in 1976._
 {{% /image %}}
 
@@ -126,7 +126,7 @@ The concept of a one-way function offered an efficient solution for key exchange
 
 # A practical one-way function is devised
 
-{{% image "/img/213.png" %}}
+{{% image "/img/213.webp" %}}
 _[‘On Digital Signatures and Public-Key Cryptosystems’](https://apps.dtic.mil/dtic/tr/fulltext/u2/a039036.pdf) a paper by Ronals Rivest, Adi Shamir and Len Adleman, published in 1977._
 {{% /image %}}
 
@@ -269,7 +269,7 @@ Interestingly, no-one has been able to prove that prime number factorisation is 
 
 We can therefore safely assume that these protocols and standards will last long into the future.
 
-{{% image "/img/214.png" %}}
+{{% image "/img/214.webp" %}}
 _Meet the heroes of modern cryptography. From left to right: Adi Shamir, Ron Rivest, Len Adleman, Ralph Merkle, Martin Hellman, and Whitfield Diffie (Picture courtesy of Eli Biham, taken at the presentation on August 21 at [Crypto 2000](http://www-cse.ucsd.edu/users/mihir/crypto2k/program.html), an [IACR](http://www.iacr.org/) conference)._
 {{% /image %}}
 

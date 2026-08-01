@@ -1,7 +1,7 @@
 ---
 title: "The Number Zero and Bitcoin"
 h1: "The Number Zero and Bitcoin"
-cover: /img/nul-753.png
+cover: /img/nul-753.webp
 description: ""
 url: number-zero-and-bitcoin
 aliases: ['/nol-i-bitkoin']
@@ -31,29 +31,29 @@ For most of history, mankind had no concept of zero: an understanding of it is n
 
 Numerals, which are symbols for numbers, are the greatest abstractions ever invented by mankind: virtually everything we interact with is best grasped in numerical, quantifiable, or digital form. Math, the language of numerals, originally developed from a practical desire to count things—whether it was the amount of fish in the daily catch or the days since the last full moon. Many ancient civilizations developed rudimentary numeral systems: in 2000 BCE, the Babylonians, who failed to conceptualize zero, used two symbols in different arrangements to create unique numerals between 1 and 60:
 
-{{% image "/img/nul-754.png" %}}
+{{% image "/img/nul-754.webp" %}}
 _Babylonian cuneiform was a relatively inefficient numeral system — notice how many more written strokes are necessary for each number symbol — and calculation using it was even more cumbersome._
 {{% /image %}}
 
 Vestiges of the base-60 Babylonian cuneiform system still exist today: there are 60 seconds in a minute, 60 minutes in an hour, and 6 sets of 60 degrees in a circle. But this ancient system lacked a zero, which severely limited its usefulness. Ancient Greeks and Mayans developed their own numeral systems, each of which contained rough conceptions of zero. However, the first explicit and arithmetic use of zero came from ancient Indian and Cambodian cultures. They created a system with nine number symbols and a small dot used to mark the absence of a number—the original zero. This numeral system would eventually evolve into the one we use today:
 
-{{% image "/img/nul-755.png" %}}
+{{% image "/img/nul-755.webp" %}}
 _The first known written zero: from the Bakhshali manuscript which contains pages dating back to the 3rd and 4th centuries AD._
 {{% /image %}}
 
-{{% image "/img/nul-756.png" %}}
+{{% image "/img/nul-756.webp" %}}
 _Inscription K-127 bears the earliest zero ever discovered—dated from the 7th century, it was discovered in the 19th century in Cambodia._
 {{% /image %}}
 
 In the 7th century, the Indian mathematician [Brahmagupta](https://en.wikipedia.org/wiki/Brahmagupta) developed terms for zero in addition, subtraction, multiplication, and division (although he struggled a bit with the latter, as would thinkers for centuries to come). As the discipline of mathematics matured in India, it was passed through trade networks eastward into China and westward into Islamic and Arabic cultures. It was this western advance of zero which ultimately led to the inception of the [Hindu-Arabic numeral system](https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system)—the most common means of symbolic number representation in the world today:
 
-{{% image "/img/nul-757.png" /%}}
+{{% image "/img/nul-757.webp" /%}}
 
 ## The Economization of Math
 
 When zero reached Europe roughly 300 years later in the [High Middle Ages](https://en.wikipedia.org/wiki/High_Middle_Ages), it was met with strong ideological resistance. Facing opposition from users of the well-established Roman numeral system, zero struggled to gain ground in Europe. People at the time were able to get by without zero, but (little did they know) performing computation without zero was horribly inefficient. An apt analogy to keep in mind arises here: both math and money are possible without zero and Bitcoin, respectively—however both are tremendously more wasteful systems without these core elements. Consider the difficulty of doing arithmetic in Roman numerals:
 
-{{% image "/img/nul-758.png" %}}
+{{% image "/img/nul-758.webp" %}}
 _If you thought you were bad at arithmetic using numbers, just try doing it with letters._
 {{% /image %}}
 
@@ -63,7 +63,7 @@ Calculation performed using the Hindu-Arabic system is significantly more straig
 
 Roman numeral inefficiency would not be tolerated for long in a world enriching itself through commerce. With trade networks proliferating and productivity escalating in tandem, growing prospects of wealth creation incentivized merchants to become increasingly competitive, pushing them to always search for an edge over others. Computation and record-keeping with a zero-based numeral system was qualitatively easier, quantitatively faster, and less prone to error. Despite Europe’s resistance, this new numeral system simply could not be ignored: like its distant progeny Bitcoin would later be, zero was an unstoppable idea whose time had come:
 
-{{% image "/img/nul-759.png" /%}}
+{{% image "/img/nul-759.webp" /%}}
 
 ## Functions of Zero
 
@@ -79,13 +79,13 @@ Drawing analogies to the [functions of money](https://medium.com/@breedlove22/mo
 
 Zero’s second function is as a number in its own right: it is the midpoint between any positive number and its negative counterpart (like +2 and -2). Before the concept of zero, negative numbers were not used, as there was no conception of “nothing” as a number, much less “less than nothing.” Brahmagupta inverted the positive number line to create negative numbers and placed zero at the center, thus rounding out the numeral system we use today. Although negative numbers were written about in earlier times, like the Han Dynasty in China (206 BCE to 220 BCE), their use wasn’t formalized before Brahmagupta, since they required the concept of zero to be properly defined and aligned. In a visual sense, negative numbers are a reflection of positive numbers cast across zero:
 
-{{% image "/img/nul-760.png" %}}
+{{% image "/img/nul-760.webp" %}}
 _Zero is the center of gravity for our entire numeral system, just as money is central to any economic system._
 {{% /image %}}
 
 Interestingly, negative numbers were originally used to signify debts—well before the invention of double-entry accounting, which opted for debits and credits (partly to avoid the use of negative numbers). In this way, zero is the “medium of exchange” between the positive and negative domains of numbers—it is only possible to pass into, or out of, either territory by way of zero. By going below zero and conceptualizing negative numbers, many new and unusual (yet extremely useful) mathematical constructs come into being including imaginary numbers, complex numbers, fractals, and advanced astrophysical equations. In the same way the economic medium of exchange, _money_, leads to the acceleration of trade and innovation, so too does the mathematical medium of exchange, _zero_, lead to enhanced informational exchange, and its associated development of civilizational advances:
 
-{{% image "/img/nul-761.png" %}}
+{{% image "/img/nul-761.webp" %}}
 _The [Mandlebrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set): one of the most famous examples of a fractal, a mind-bending mathematical structure formed with complex numbers that models the geometry of nature and its intrinsic complexity. One of the best known examples of mathematical beauty, this fractal exhibits infinite depth, breadth, and non-repeating self-similarity. Zero is a necessary prerequisite to such fractal modeling._
 {{% /image %}}
 
@@ -141,7 +141,7 @@ A direct experience of emptiness is achievable through meditation. In a true med
 
 Despite being discovered in a spiritual state, zero is a profoundly practical concept: perhaps it is best understood as a fusion of philosophy and pragmatism. By traversing across zero into the territory of negative numbers, we encounter the imaginary numbers, which have a base unit of the square root of -1, denoted by the letter _i._ The number _i_ is paradoxical: consider the equation ±x² + 1 = 0; the only possible answers are positive square root of -1 (_i_) and negative square root of -1 (-_i or i³_). Ascending into a higher dimension, the equation ±x³ + 1 = 0 yields the possible answers of +1 or -1. These answers continue to alternate between the real and imaginary domains as their underlying formulae exponentiate higher. Visualizing them in the real and imaginary domains, we find a rotational axis centered on zero with orientations reminiscent of the tetralemma: one true (1), one not true (_i_), one both true and not true (-1 or _i²_), and one neither true nor not true (-_i or i³_):
 
-{{% image "/img/nul-762.png" %}}
+{{% image "/img/nul-762.webp" %}}
 _Zero is the fulcrum between real and imaginary number planes._
 {{% /image %}}
 
@@ -149,7 +149,7 @@ Going through the gateway of zero into the realms of negative and imaginary numb
 
 Importantly, zero gave us the concept of infinity: which was notably absent from the minds of ancient Greek logicians. The rotations around zero through the real and imaginary number axes can be mathematically scaled up into a three-dimensional model called the [_Riemann Sphere_](https://en.wikipedia.org/wiki/Riemann_sphere). In this structure, zero and infinity are geometric reflections of one another and can transpose themselves in a flash of mathematical permutation. Always at the opposite pole of this three-dimensional, mathematical interpretation of the tetralemma, we find zero’s twin—infinity:
 
-{{% image "/img/nul-763.png" %}}
+{{% image "/img/nul-763.webp" %}}
 _Scaling the real and imaginary number planes into the third dimension, we discover zero’s twin: infinity._
 {{% /image %}}
 
@@ -159,7 +159,7 @@ The twin polarities of zero and infinity are akin to yin and yang — as Charles
 
 In Eastern philosophy, the kinship of zero and infinity made sense: only in a state of absolute nothingness can possibility become infinite. Buddhist logic insists that everything is endlessly intertwined: a vast causal network in which all is inexorably interlinked, such that no single thing can truly be considered independent — as having its own isolated, non-interdependent essence. In this view, interrelation is the sole source of substantiation. Fundamental to their teachings, this truth is what Buddhists call _dependent co-origination_, meaning that all things depend on one another. The only exception to this truth is _nirvana_: liberation from the endless cycles of reincarnation. In Buddhism, the only pathway to nirvana is through pure emptiness:
 
-{{% image "/img/nul-764.png" %}}
+{{% image "/img/nul-764.webp" %}}
 _Nirvana, the ultimate spiritual goal in Buddhism, is attained by entering the void in meditation—this is where zero was discovered._
 {{% /image %}}
 
@@ -175,7 +175,7 @@ The universe of the ancient Greeks was founded on the philosophical tenets of Py
 
 The symbol of the Pythagorean cult was the pentagram (a five-pointed star); this sacred shape contained within it the key to their view of the universe—the golden ratio. Considered to be the “most beautiful number,” the golden ratio is achieved by dividing a line such that the ratio of the small part to the large part is the same as the ratio of the large part to the whole. Such proportionality was found to be not only aesthetically pleasing, but also naturally occurring in a variety of forms including nautilus shells, pineapples, and (centuries later) the double-helix of DNA. Beauty this objectively pure was considered to be a window into the transcendent; a soul-sustaining quality. The golden ratio became widely used in art, music, and architecture:
 
-{{% image "/img/nul-765.png" %}}
+{{% image "/img/nul-765.webp" %}}
 _A simple sequence of calculations converges on the golden ratio, the “beautiful number” bountiful in nature. Beauty of this caliber heavily influenced many domains including architecture (as seen in the design of The Parthenon here)._
 {{% /image %}}
 
@@ -185,7 +185,7 @@ Zero posed a major threat to the conception of a finite universe. Dividing by ze
 
 Ancient Greeks clung tightly to a worldview that did not tolerate zero or the infinite: rejection of these crucial concepts proved to be their biggest failure, as it prevented the discovery of calculus—the mathematical machinery on which much of the physical sciences and, thus, the modern world are constructed. Core to their (flawed) belief system was the concept of the “indivisible atom,” the elementary particle which could not be subdivided ad infinitum. In their minds, there was no way beyond the micro barrier of the atomic surface. In the same vein, they considered the universe a “macrocosmic atom” that was strictly bound by an outermost sphere of stars winking down towards the cosmic core—Earth. As above, so below: with nothing conceived to be above this stellar sphere and nothing below the atomic surface, there was no infinity and no void:
 
-{{% image "/img/nul-766.png" %}}
+{{% image "/img/nul-766.webp" %}}
 _A finite universe with Earth at the center was the central tenet of ancient Greek philosophy and, later, of The Catholic Church’s institutional dominion over the world._
 {{% /image %}}
 
@@ -209,13 +209,13 @@ In the 13th century, academics like the renowned Italian mathematician Fibonacci
 
 As our thinking became more sophisticated, so too did our demands on math. Tools like the abacus relied upon a set of sliding stones to help us keep track of amounts and perform calculation. An abacus was like an ancient calculator, and as the use of zero became popularized in Europe, competitions were held between users of the abacus (the abacists) and of the newly arrived Hindu-Arabic numeral system (the algorists) to see who could solve complex calculations faster. With training, algorists could readily outpace abacists in computation. Contests like these led to the demise of the abacus as a useful tool, however it still left a lasting mark on our language: the words _calculate_, _calculus_, and _calcium_ are all derived from the Latin word for pebble—_calculus_.
 
-{{% image "/img/nul-767.png" %}}
+{{% image "/img/nul-767.webp" %}}
 _The algorists competing against the abacists: contests like these empirically proved the supremacy of a zero-based numeral system over others, even when aided by ancient mathematical tools like the abacus._
 {{% /image %}}
 
 Before the Hindu-Arabic numerals, money counters had to use the abacus or a counting board to keep track of value flows. Germans called the counting board a _Rechenbank_, which is why moneylenders came to be known as _banks_. Not only did banks use counting boards, but they also used _tally sticks_ to keep track of lending activities: the monetary value of a loan was written on the side of a stick, and it was split into two pieces, with the lender keeping the larger piece, known as the _stock_—which is where we get the term _stockholder:_
 
-{{% image "/img/nul-768.png" %}}
+{{% image "/img/nul-768.webp" %}}
 *An ancient loan tracking device called a tally stick: the lender kept the larger portion, the stock, and became a stockholder in the bank that made the loan.*
 {{% /image %}}
 
@@ -223,13 +223,13 @@ Despite its superior utility for business, governments despised zero. In 1299, F
 
 At the beginning of the Renaissance, the threat zero would soon pose to the power of The Church was not obvious. By then, zero had been adapted as an artistic tool to create the _vanishing point_: an acute place of infinite nothingness used in many paintings that sparked the great Renaissance in the visual arts. Drawings and paintings prior to the vanishing point appear flat and lifeless: their imagery was mostly two-dimensional and unrealistic. Even the best artists couldn’t capture realism without the use of zero:
 
-{{% image "/img/nul-769.png" %}}
+{{% image "/img/nul-769.webp" %}}
 _Pre-Renaissance art: still better than a banana duct taped to a canvas._
 {{% /image %}}
 
 With the concept of zero, artists could create a zero-dimension point in their work that was “infinitely far” from the viewer, and into which all objects in the painting visually collapsed. As objects appear to recede from the viewer into the distance, they become ever-more compressed into the “dimensionlessness” of the vanishing point, before finally disappearing. Just as it does today, art had a strong influence on people’s perceptions. Eventually, Nicholas of Cusa, a cardinal of The Church declared, “Terra non est centra mundi,” which meant “the Earth is not the center of the universe.” This declaration would later lead to Copernicus proving [heliocentrism](https://en.wikipedia.org/wiki/Heliocentrism) — the spark that ignited [The Reformation](https://docsend.com/view/ijd8qrs) and, later, the [Age of Enlightenment](https://en.wikipedia.org/wiki/Age_of_Enlightenment):
 
-{{% image "/img/nul-770.png" %}}
+{{% image "/img/nul-770.webp" %}}
 _By adding the vanishing point (a visual conception of zero) to drawings and paintings, art gained the realistic qualities of depth, breadth, and spatial proportion._
 {{% /image %}}
 
@@ -243,7 +243,7 @@ The purpose of the artist is to the mythologize the present: this is evident in 
 
 Eventually, zero became the cornerstone of calculus: an innovative system of mathematics that enabled people to contend with ever-smaller units approaching zero, but cunningly avoided the logic-trap of having to divide by zero. This new system gave mankind myriad new ways to comprehend and grasp his surroundings. Diverse disciplines such as chemistry, engineering, and physics all depend on calculus to fulfill their functions in the world today:
 
-{{% image "/img/nul-771.png" %}}
+{{% image "/img/nul-771.webp" %}}
 _Calculus enables us to make symphonic arrangements of matter in precise accordance with our imaginations; this mathematical study of continuous change is fundamental to all physical sciences._
 {{% /image %}}
 
@@ -265,19 +265,19 @@ Like the invention of zero, which led to the discovery of “nothing as somethin
 
 Path-dependence is the sensitivity of an outcome to the order of events that led to it. In the broadest sense, it means history has inertia:
 
-{{% image "/img/nul-772.png" /%}}
+{{% image "/img/nul-772.webp" /%}}
 
 Path-dependence entails that the sequence of events matters as much as the events themselves: as a simple example, you get a dramatically different result if you shower and then dry yourself off versus if you dry yourself off first and then shower. Path-dependence is especially prevalent in complex systems due to their high interconnectivity and numerous (often unforeseeable) interdependencies. Once started down a particular pathway, breaking away from its sociopolitical inertia can become impossible—for instance, imagine if the world tried to standardize to a different size electrical outlet: consumers, manufacturers, and suppliers would all resist this costly change unless there was a gigantic prospective gain. To coordinate this shift in standardization would require either a dramatically more efficient technology (a pull method—by which people stand to benefit) or an imposing organization to force the change (a push method—in which people would be forced to change in the face of some threat). Path-dependence is why occurrences in the sociopolitical domain often influence developments in the technical; US citizens saw path-dependent pushback firsthand when their government made a failed attempt to [switch](https://en.wikipedia.org/wiki/Metrication_in_the_United_States) to the metric system back in the 1970s.
 
 Bitcoin was launched into the world as a one of a kind technology: a non-state digital money that is issued on a perfectly fixed, diminishing, and predictable schedule. It was strategically released into the wild (into an online group of cryptographers) at a time when no comparative technology existed. Bitcoin’s organic adoption path and mining network expansion are a non-repeatable sequence of events. As a thought experiment, consider that if a “New Bitcoin” was launched today, it would exhibit weak chain security early on, as its mining network and hash rate would have to start from scratch. Today, in a world that is aware of Bitcoin, this “New Bitcoin” with comparatively weak chain security would inevitably be attacked — whether these were incumbent projects seeking to defend their head start, international banking cartels, or even nation-states:
 
-{{% image "/img/nul-773.png" %}}
+{{% image "/img/nul-773.webp" %}}
 _Bitcoin’s head start in hash rate is seemingly insurmountable._
 {{% /image %}}
 
 Path-dependence protects Bitcoin from disruption, as the organic sequence of events which led to its release and assimilation into the marketplace cannot be replicated. Further, Bitcoin’s money supply is absolutely scarce; a totally unique and one-time discovery for money. Even if “New Bitcoin” was released with an absolutely scarce money supply, its holders would be incentivized to hold the money with the greatest liquidity, network effects, and chain security. This would cause them to dump “New Bitcoin” for the original Bitcoin. More realistically, instead of launching “New Bitcoin,” those seeking to compete with Bitcoin would take a [social contract](https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9) attack-vector by initiating a hard fork. An attempt like this was already made with the “Bitcoin Cash” fork, which tried to increase block sizes to (ostensibly) improve its utility for payments. This chain fork was an abject [failure](https://coinmarketcap.com/currencies/bitcoin-cash/) and a real world reinforcement of the importance of Bitcoin’s path-dependent emergence:
 
-{{% image "/img/nul-774.png" %}}
+{{% image "/img/nul-774.webp" %}}
 _Bitcoin Cash is considering a rebrand to Bitcoin Crash._
 {{% /image %}}
 
@@ -285,7 +285,7 @@ Continuing our thought experiment: even if “New Bitcoin” featured a diminish
 
 Path-dependence ensures that those who try to game Bitcoin get burned. Reinforced by four-sided [network effects](https://medium.com/@breedlove22/money-bitcoin-and-time-part-2-of-3-eecdc668951d), it makes Bitcoin’s first-mover advantage seemingly insurmountable. The idea of absolute monetary scarcity goes against the wishes of entrenched power structures like The Fed: like zero, once an idea whose time has come is released into the world, it is nearly impossible to put the proverbial genie back in the bottle. After all, unstoppable ideas are independent lifeforms:
 
-{{% image "/img/nul-775.png" /%}}
+{{% image "/img/nul-775.webp" /%}}
 
 ## Finite and Infinite Games
 
@@ -295,7 +295,7 @@ From a moral perspective, sovereignty is always superior to tyranny. And from a 
 
 In this sense, Bitcoin’s terminal money supply growth (inflation) rate of absolute zero is the ultimate monetary [Schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)) — a game-theoretic focal point that people tend to choose in an adversarial game. In game theory, a game is any situation where there can be winners or losers, a strategy is a decision-making process, and a Schelling point is the default strategy for games in which the players cannot fully trust one another (like money):
 
-{{% image "/img/nul-776.png" %}}
+{{% image "/img/nul-776.webp" %}}
 _Among many spheres of competing interpersonal interests, scarcity is the Schelling point of money._
 {{% /image %}}
 
@@ -325,7 +325,7 @@ A true “Bitcoin killer” would necessitate an entirely new consensus mechanis
 
 Numbers are the fundamental abstractions which rule our world. Zero is the vanishing point of the mathematical landscape. In the realm of interpersonal competition and cooperation, money is the dominant abstraction which governs our behavior. Money arises naturally as the most tradable thing within a society—this includes exchanges with others and with our future selves. Scarcity is the trait of money that allows it to hold value across time, enabling us to trade it with our future selves for the foregone opportunity costs (the things we could have otherwise traded money for had we not decided to hold it). Scarce money accrues value as our productivity grows. For these reasons, the most scarce technology which otherwise exhibits sufficient monetary traits (divisibility, durability, recognizability, portability) tends to become money. Said simply: the most relatively scarce money wins. In this sense, what zero is to math, absolute scarcity is to money. It is an astonishing discovery, a window into the void, just like its predecessor zero:
 
-{{% image "/img/nul-777.png" %}}
+{{% image "/img/nul-777.webp" %}}
 _Actual footage of Bitcoin devouring fiat currencies._
 {{% /image %}}
 
@@ -345,7 +345,7 @@ Central planning in the market for money (aka monetary socialism) is dying. This
 
 Bitcoin was specifically designed as a countermeasure to “expansionary monetary policies” (aka wealth confiscation via inflation) by central bankers. Bitcoin is a true zero-to-one invention, an innovation that profoundly changes society instead of just introducing an incremental advancement. Bitcoin is ushering in a new paradigm for money, nation-states, and energy-efficiency. Most importantly, it promises to break the cycle of criminality in which governments continuously privatize gains (via [seigniorage](https://en.wikipedia.org/wiki/Seigniorage)) and socialize losses (via inflation). Time and time again, excessive inflation has torn societies apart, yet the lessons of history remain unlearned—once again, here we are:
 
-{{% image "/img/nul-778.png" %}}
+{{% image "/img/nul-778.webp" %}}
 _Thank you internet for all the hilarious yet meaningful memes._
 {{% /image %}}
 
@@ -369,7 +369,7 @@ Both zero and Bitcoin are emblematic of the void, a realm of pure potentiality f
 
 Thank you Brahmagupta and Satoshi Nakamoto for your generosity.
 
-{{% image "/img/nul-779.png" /%}}
+{{% image "/img/nul-779.webp" /%}}
 
 ### My sincerest gratitude to these amazing minds:
 

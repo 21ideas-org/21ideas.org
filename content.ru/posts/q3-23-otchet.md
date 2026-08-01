@@ -7,7 +7,7 @@ menu:
     parent: blog
 next: /posts/replacement-cycling/
 prev: /posts/drivechains
-cover: /img/q3-23-cover.jpeg
+cover: /img/q3-23-cover.webp
 title: "Квартальный отчет 21ideas"
 h1: "Квартальный отчет 21ideas"
 description: "Квартальный отчет об открытии искходного кода образовательного биткоин-проекта 21ideas."

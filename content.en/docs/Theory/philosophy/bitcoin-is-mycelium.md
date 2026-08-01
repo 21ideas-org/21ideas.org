@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin is The Mycelium of Money"
 h1: "Bitcoin is The Mycelium of Money"
-cover: /img/0000000001.png
+cover: /img/0000000001.webp
 tags: ["bitcoin", "mycelium", "decentralization", "proof-of-work"]
 description: ""
 url: bitcoin-is-the-mycelium
@@ -43,7 +43,7 @@ In particular, some of bitcoin’s best characteristics are simply reflections 
 
 Fungi are predominantly made up of “mycelium” — an underground decentralized intelligence network described by Paul Stamets as “earth’s natural internet.”
 
-{{% image src="/img/0000000002.jpg" %}}
+{{% image src="/img/0000000002.webp" %}}
 _Image credit: John Upton_
 {{% /image %}}
 
@@ -90,7 +90,7 @@ At any one point, a fungal network contains millions of endpoints each searching
 
 This mirrors the decentralized consensus ([social contract](https://medium.com/@hasufly/bitcoins-social-contract-1f8b05ee24a9?sk=27e8cf65d45c46ffae1466ce2ac31b48)) formed in bitcoin. Nodes determine what software they wish to run and enforce the consensus rules they support accordingly. Miners determine which transactions to include in blocks. Exchanges, wallets, and merchants each steward large groups of users. Each participant in bitcoin voluntarily chooses how they wish to participate and the aggregate consensus represents the network.
 
-{{% image src="/img/0000000003.png" /%}}
+{{% image src="/img/0000000003.webp" /%}}
 
 
 ## Decentralized Networks are Older Than Humanity
@@ -127,7 +127,7 @@ Scientists conducted an [experiment](http://science.sciencemag.org/content/327/
 
 After a short while, the slime mold grew to connect all the nodes/stops in a more efficient design than the centrally planned committee of engineers hired by the Japanese government.
 
-{{% image src="/img/0000000004.jpg" %}}
+{{% image src="/img/0000000004.webp" %}}
 _Slime Mold designing Tokyo Subway System_
 {{% /image %}}
 
@@ -247,7 +247,7 @@ Each organism participating in this shared incentive system improves the evoluti
 
 ## Bitcoin performs a similar ecological role
 
-{{% image src="/img/0000000005.png" /%}}
+{{% image src="/img/0000000005.webp" /%}}
 
 The market sends signals for bitcoin to create features that satisfy unmet demands or improve security as new threats emerge.
 
@@ -272,7 +272,7 @@ Like the honey mushroom consuming entire forests in Oregon, bitcoin is getting b
 
 _Exploring Hype Cycles, Ethnomycology, and the Cult of Satoshi_
 
-{{% image src="/img/00000000024.png" %}}
+{{% image src="/img/00000000024.webp" %}}
 _Original Artwork by [Richard Giblett](http://www.richardgiblett.com.au/2dworks.html)_
 {{% /image %}}
 
@@ -338,7 +338,7 @@ Amnesiac pundits proudly pile on proclaiming bitcoin has perished ([for the 335t
 
 Roubini celebrates by hosting his 3rd bear market barbecue. Detractors gather to roast the proverbial (bitcoin) mushroom while patting each other on the back.
 
-{{% image src="/img/0000000006.png" /%}}
+{{% image src="/img/0000000006.webp" /%}}
 
 However to be fair, bitcoin is complicated. Many “crypto people” still think bitcoin is myspace and Ripplecoin is the “standard.” Unsurprisingly [most journalists don’t grasp what’s going on](https://medium.com/s/story/media-coverage-of-bitcoin-is-still-a-total-disaster-7d0d34d98971). Imagine being assigned the “bitcoin beat” as a well-intentioned, run-of-the-mill journalist.
 
@@ -369,7 +369,7 @@ However hodlers, new and old, collectively go underground and quietly make bitco
 
 As time goes on, [narratives evolve](https://tokeneconomy.co/crypto-narrative-watch-crypto-winter-edition-bf1cf584def2) as bitcoin continues to reveal herself (himself? itself?) to curious onlookers.
 
-{{% image src="/img/0000000007.png" %}}
+{{% image src="/img/0000000007.webp" %}}
 _Hodl Waves by Dhruv Bansal at [Unchained Capital](https://unchained-capital.com/hodlwaves/)_
 {{% /image %}}
 
@@ -399,7 +399,7 @@ Anthropological evidence suggests that humans who partnered with fungi had an ev
 
 Ancient man relied on mushrooms to survive in the Alps of northern Italy. Ötzi, the Ice Man, who died nearly 5,300 years ago, was discovered carrying two mushrooms (Amadou and Birch Polypore) tethered on a leather strap. One of the mushrooms was used to start fires and the other was discovered to be medicinally active against the parasite discovered in his gut.
 
-{{% image src="/img/0000000008.jpg" %}}
+{{% image src="/img/0000000008.webp" %}}
 _([source](http://theicemantheory.weebly.com/artifacts.html))_
 {{% /image %}}
 
@@ -417,7 +417,7 @@ Get your tinfoil hat, [the Fly Agaric may have inspired our Christmas tradition
 
 The Mazatec Culture from present day Mexico revered the mushroom as sacred. Discovered relatively recently by Gordon Wasson which he detailed in a famous [article in a 1955 edition of Life Magazine](http://www.imaginaria.org/wasson/life.htm). Many tourists have since visited this region in Mexico seeking to learn from the famous Mushroom Shaman, Maria Sabina, and her kin.
 
-{{% image src="/img/00000000010.png" %}}
+{{% image src="/img/00000000010.webp" %}}
 _Mushroom artifacts from Central America_
 {{% /image %}}
 
@@ -453,7 +453,7 @@ The answer is no. The essence of bitcoin is intimately tied to the ever-evolving
 
 Bitcoin’s social contract coalesces around a few simple rules. These agreed upon rules (a Schelling point) are then ratified in the bitcoin protocol automating social consensus.
 
-{{% image src="/img/00000000021-en.png" %}}
+{{% image src="/img/00000000021-en.webp" %}}
 *(Source: Hasu’s [Bitcoin as a Social Contract](https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9))*
 {{% /image %}}
 
@@ -500,7 +500,7 @@ Price increases → mining becomes more profitable → more miners contribute ha
 
 If the bear market blues make you frown, just look underground. There are countless developments (some listed above) to be optimistic about.
 
-{{% image src="/img/00000000012.png" /%}}
+{{% image src="/img/00000000012.webp" /%}}
 
 The bitcoin fungus is quietly spreading underground.
 
@@ -511,7 +511,7 @@ Even the darkest night will end and the sun will rise.
 
 # Chapter 3: Bitcoin is the Antivirus (Mushroom Medicine)
 
-{{% image src="/img/00000000022.png" /%}}
+{{% image src="/img/00000000022.webp" /%}}
 
 We’ve all heard the incredible potential of a Bitcoin future. I’m certainly on board for sound money and social scalability.
 
@@ -536,7 +536,7 @@ Chemicals used in modern agriculture poisoned the bees so their immune systems a
 
 Bees are a bedrock species responsible for pollinating a large percentage of our food sources (avocados, almonds, etc). If we lose the bees, there are countless downstream effects such as lost jobs, destroyed ecosystems, and reduced food security.
 
-{{% image src="/img/00000000013.png" %}}
+{{% image src="/img/00000000013.webp" %}}
 _(Image [source](https://www.planetbee.org/planet-bee-blog//no-bees-no-dinner-2))_
 {{% /image %}}
 
@@ -571,7 +571,7 @@ China’s real estate market is shaky and long overdue for a correction. Capital
 
 The US is currently over $22 Trillion in debt, however don’t expect the US to default on their obligations. Former Fed chairman Alan [Greenspan said “the United States can pay any debt because we can always print money to do that.”](https://www.youtube.com/watch?v=Ck3FuTzZvhI)
 
-{{% image src="/img/00000000014.jpg" /%}}
+{{% image src="/img/00000000014.webp" /%}}
 
 In an enlightening article titled [This is Water](https://www.epsilontheory.com/this-is-water/), Ben Hunt explains how artificially suppressed interest rates (easy money) lead to decreased productivity and a zombification of our financial markets. This same pattern foreshadowed the 08/09 financial collapse.
 
@@ -615,7 +615,7 @@ The theory predicts: during life’s evolutionary process, there are some obstac
 
 For example, what if every time an advanced civilization created nuclear bombs it ended up destroying itself? In this scenario, it might be statistically improbable to survive long after inventing nuclear weapons.
 
-{{% image src="/img/00000000015-en.png" %}}
+{{% image src="/img/00000000015-en.webp" %}}
 _(Source: [The Fermi Paradox](https://waitbutwhy.com/2014/05/fermi-paradox.html) by Tim Urban which is my favorite blog)_
 {{% /image %}}
 
@@ -633,7 +633,7 @@ The Cantillon effect [describes the uneven expansion of the money supply](https
 
 The Cantillon effect results in a wealth redistribution from the poor to the rich.
 
-{{% image src="/img/00000000023-en.jpg" /%}}
+{{% image src="/img/00000000023-en.webp" /%}}
 
 **The government goes to great lengths to protect its monopoly**
 
@@ -667,7 +667,7 @@ In order for the full potential of Bitcoin to be realized, it needs to be so res
 
 **Parallels with Fungi: the most resilient species on our planet**
 
-{{% image src="/img/00000000017.jpeg" %}}
+{{% image src="/img/00000000017.webp" %}}
 _Ancient mushrooms called Prototaxites_
 {{% /image %}}
 
@@ -706,7 +706,7 @@ So far, we haven’t seen any serious state-level attack on Bitcoin. However, if
 
 Bitcoin only needs to convince a few superpowers that the reward of adopting it outweighs the risk of attacking it.
 
-{{% image src="/img/00000000018.jpg" /%}}
+{{% image src="/img/00000000018.webp" /%}}
 
 This game theory is similar to having a sign in front of your house that says “Security system installed” or “big angry dog lives here.” Doesn’t matter if you actually have a dog or security system, the threat alone acts like a deterrent to would-be attackers.
 
@@ -744,7 +744,7 @@ If we’re lucky, Blockchainers will distract global superpowers just long enoug
 
 _Exploring Bitcoin through the lens of natural selection, evolution, and symbiosis_
 
-{{% image src="/img/myc-02.png" %}}
+{{% image src="/img/myc-02.webp" %}}
 *Original Art by [FritsAhlefeldt.com](http://www.FritsAhlefeldt.com)*
 {{% /image %}}
 
@@ -1008,7 +1008,7 @@ Bitcoin has an insatiable demand for low-cost energy. Miners scour the earth for
 
 Hash rate has been steadily rising, even when price is not. Bitcoin miners are inherently long BTC. What do the miners know that you don’t? Rather than putting our heads in the sand, it’s time to form a partnership with reality.
 
-{{% image src="/img/myc-05.png" %}}
+{{% image src="/img/myc-05.webp" %}}
 *Bitcoin’s hash rate continues to rise ([source](https://bitcoinvisuals.com/chain-hash-rate))*
 {{% /image %}}
 

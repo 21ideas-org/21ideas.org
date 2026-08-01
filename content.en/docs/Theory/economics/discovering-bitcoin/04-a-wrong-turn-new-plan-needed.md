@@ -38,7 +38,7 @@ Thanks to your noble [efforts](/en/discovering-bitcoin/introducing-money), every
 
 The next innovation you introduce is “coinage.” While people used to sustain important verification costs when receiving metal money, now you can pre-sign standard measures (obviously you ask for a fee for such a service, called “seigniorage”), and everybody can just cheaply verify your signature.
 
-{{% image "/img/sb-331.jpeg" %}}
+{{% image "/img/sb-331.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -46,7 +46,7 @@ Coinage (which is particularly interesting for Bitcoin, since it’s similar to 
 
 Next, you invent “custody”: Instead of securing their coins directly, people can entrust them to you, in exchange for convertible certificates. Since you leverage economies of scale and specialization, you’ve become quite efficient at securing other people’s money (for a fee, of course).
 
-{{% image "/img/sb-332.jpg" %}}
+{{% image "/img/sb-332.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -80,7 +80,7 @@ First, he uses threats of physical violence to establish a compulsory monopoly o
 
 Finally, he abolishes any kind of redeemability of his certificates in actual gold collateral. Now the supply of money is politically defined (by Mallory-appointed central bankers, who can finally implement “monetary policies” to shape the economy based on his political goals), while the demand for money is politically driven (since people are forced to own the legal tender to pay taxes to Mallory, and are forced to accept it at nominal value when they trade).
 
-{{% image "/img/sb-336.jpg" %}}
+{{% image "/img/sb-336.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -94,7 +94,7 @@ Somebody could argue that in leveraging digital technologies, scaleness would ha
 
 But hardness and darkness decrease dramatically: The money supply can be manipulated to degrees never seen before, and Mallory can track and censor transactions to Orwellian extents.
 
-{{% image "/img/sb-337.jpeg" %}}
+{{% image "/img/sb-337.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -106,7 +106,7 @@ You set it up using technological best practices and you devise innovative gover
 
 But despite your great execution and the positive market reception, all of your technical and legal skills cannot protect you from Mallory’s violence forever. Eventually, he manages to shut your business down and send you to jail, discouraging other entrepreneurs from following your example. (They [pivot](https://www.ccn.com/paypal-co-founder-peter-thiel-bitcoin-great-potential-left/) to some traditional, Mallory-approved, digital fiat services instead.)
 
-{{% image "/img/sb-338.jpg" %}}
+{{% image "/img/sb-338.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

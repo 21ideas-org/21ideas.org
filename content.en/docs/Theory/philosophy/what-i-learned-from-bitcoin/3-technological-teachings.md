@@ -1,7 +1,7 @@
 ---
 title: "Part III. Technological Teachings of Bitcoin"
 h1: "Part III. Technological Teachings of Bitcoin"
-cover: /img/what-16.jpg
+cover: /img/what-16.webp
 tags: ["philosophy", "bitcoin"]
 description: ""
 url: what-i-learned-from-bitcoin-3
@@ -53,7 +53,7 @@ Let’s take a closer look at this example: the difference between each is an in
 - 10⁹: One billion seconds was almost 32 years ago.
 - 10¹²: One trillion seconds ago Manhattan was covered under a [thick layer of ice](https://en.wikipedia.org/wiki/Last_Glacial_Maximum).
 
-{{% image "/img/what-17.png" %}}
+{{% image "/img/what-17.webp" %}}
 *About 1 trillion seconds ago. Source: xkcd #1125*
 {{% /image %}}
 
@@ -109,7 +109,7 @@ _Vires in numeris_ is not only a catchy motto used by bitcoiners. The realizatio
 
 One direct result of this is the fact that you don’t have to ask anyone for permission to participate in Bitcoin. There is no page to sign up, no company in charge, no government agency to send application forms to. Simply generate a large number and you are pretty much good to go. The central authority of account creation is mathematics. And God only knows who is in charge of that.
 
-{{% image "/img/what-18.png" %}}
+{{% image "/img/what-18.webp" %}}
 *Elliptic curve examples (cc-by-sa Emmanuel Boutet)*
 {{% /image %}}
 
@@ -140,7 +140,7 @@ Note that “without relying on trust” is used in a very specific context here
 
 As Ken Thompson showed in his Turing Award lecture, trust is an extremely tricky thing in the computational world. When running a program, you have to trust all kinds of software (and hardware) which, in theory, could alter the program you are trying to run in a malicious way. As Thompson summarized in his [_Reflections on Trusting Trust_](https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf): “The moral is obvious. You can’t trust code that you did not totally create yourself.”
 
-{{% image "/img/what-19.png" /%}}
+{{% image "/img/what-19.webp" /%}}
 
 Thompson demonstrated that even if you have access to the source code, your compiler — or any other program-handling program or hardware — could be compromised and detecting this backdoor would be very difficult. Thus, in practice, a truly _trustless_ system does not exist. You would have to create all your software _and_ all your hardware (assemblers, compilers, linkers, etc.) from scratch, without the aid of any external software or software-aided machinery.
 
@@ -150,7 +150,7 @@ Thompson demonstrated that even if you have access to the source code, your comp
 
 The Ken Thompson Hack is a particularly ingenious and hard-to-detect backdoor, so let’s take a quick look at a hard-to-detect backdoor which works without modifying any software. Researchers [found a way](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Stealthy+Dopant-Level+Hardware+Trojans&btnG=) to compromise security-critical hardware by altering the polarity of silicon impurities. Just by changing the physical properties of the stuff that computer chips are made of they were able to compromise a cryptographically secure random number generator. Since this change can’t be seen, the backdoor can’t be detected by optical inspection, which is one of the most important tamper-detection mechanism for chips like these.
 
-{{% image "/img/what-20.png" %}}
+{{% image "/img/what-20.webp" %}}
 *Stealthy Dopant-Level Hardware Trojans by Becker, Regazzoni, Paar, Burleson*
 {{% /image %}}
 
@@ -164,7 +164,7 @@ Developers are working on tools and procedures to minimize any remaining trust e
 
 Various efforts are being made to improve upon the chicken-and-egg problem of [bootstrapping](https://www.gnu.org/software/guix/manual/en/html_node/Bootstrapping.html) which Ken Thompson’s hack so brilliantly pointed out. One such effort is [Guix](https://www.gnu.org/software/guix/) (pronounced _geeks_), which uses functionally declared package management leading to bit-for-bit reproducible builds by design. The result is that you don’t have to trust any software-providing servers anymore since you can verify that the served binary was not tampered with by rebuilding it from scratch. As of this writing, a [pull-request](https://github.com/bitcoin/bitcoin/pull/15277) is in progress to integrate Guix into the Bitcoin build process.
 
-{{% image "/img/what-21.png" %}}
+{{% image "/img/what-21.webp" %}}
 *Which came first, the chicken or the egg?*
 {{% /image %}}
 
@@ -183,7 +183,7 @@ It is often said that bitcoins are mined because thousands of computers work on 
 
 As outlined in the whitepaper, the proof-of-work system (aka mining) is a way to implement a distributed timestamp server.
 
-{{% image "/img/what-22.png" %}}
+{{% image "/img/what-22.webp" %}}
 *Excerpts from the whitepaper. Did someone say timechain?*
 {{% /image %}}
 
@@ -259,7 +259,7 @@ If pundits are to believed, privacy has been dead [since the 80ies](https://book
 
 Satoshi went through great lengths to cover up his tracks and conceal his identity. Ten years later, it is still unknown if Satoshi Nakamoto was a single person, a group of people, male, female, or a [time-traveling AI](https://blockchain24-7.com/is-crypto-creator-a-time-travelling-ai/) which bootstrapped itself to take over the world. Conspiracy theories aside, Satoshi chose to identify himself to be a Japanese male, which is why I don’t assume but respect his chosen gender and refer to him as _he_.
 
-{{% image "/img/what-23.png" %}}
+{{% image "/img/what-23.webp" %}}
 *I am not Dorian Nakamoto.*
 {{% /image %}}
 
@@ -300,7 +300,7 @@ Cypherpunks do not find comfort in hopes and wishes. They actively interfere wit
 
 Thus, in true cypherpunk fashion, Satoshi sat down and started to write code. Code which took an abstract idea and proved to the world that it actually worked. Code which planted the seed of a new economic reality. Thanks to this code, everyone can verify that this novel system actually works, and every 10 minutes or so Bitcoin proofs to the world that it is still living.
 
-{{% image "/img/what-24.png" %}}
+{{% image "/img/what-24.webp" %}}
 *Code excerpts from Bitcoin version 0.1.0*
 {{% /image %}}
 
@@ -321,7 +321,7 @@ In the last couple of decades, it became apparent that technological innovation 
 
 Bitcoin is an exponential technology built upon exponential technologies. [Our World in Data](https://ourworldindata.org/) beautifully shows [the rising speed of technological adoption](https://www.visualcapitalist.com/rising-speed-technological-adoption/), starting in 1903 with the introduction of landlines. Landlines, electricity, computers, the internet, smartphones; all follow exponential trends in price-performance and adoption. Bitcoin does too.
 
-{{% image "/img/what-25.png" %}}
+{{% image "/img/what-25.webp" %}}
 *Bitcoin is literally off the charts.*
 {{% /image %}}
 
@@ -329,7 +329,7 @@ Bitcoin has not one but [multiple network effects](https://www.thrivenotes.com/t
 
 Having survived its infancy, Bitcoin is continuing to grow every day in more aspects than one. Granted, the technology has not reached maturity yet. It might be in its adolescence. But if the technology is exponential, the path from obscurity to ubiquity is short.
 
-{{% image "/img/what-26.png" %}}
+{{% image "/img/what-26.webp" %}}
 *Mobile phone, ca 1965 vs 2019.*
 {{% /image %}}
 
@@ -347,7 +347,7 @@ In 1995, about 15% of American adults used the internet. Historical [data from t
 
 In 1997, Jeff Bezos stated in a [letter to shareholders](http://media.corporate-ir.net/media_files/irol/97/97664/reports/Shareholderletter97.pdf) that “this is Day 1 for the Internet,” recognizing the great untapped potential for the internet and, by extension, his company. Whatever day this is for Bitcoin, the vast amounts of untapped potential are clear to all but the most casual observer.
 
-{{% image "/img/what-27.png" %}}
+{{% image "/img/what-27.webp" %}}
 *The internet, 1982 vs 2005. Source: cc-by Merit Network, Inc. and Barrett Lyon, Opte Project*
 {{% /image %}}
 
@@ -357,7 +357,7 @@ The protocol’s base layer isn’t the only thing growing exponentially. The li
 
 In January 2018, the lightning network had [40 nodes](https://bitcoinist.com/bitcoin-lightning-network-mainnet-nodes/) and 60 channels. In April 2019, the network grew to more than 4000 nodes and around 40.000 channels. Keep in mind that this is still experimental technology where loss of funds can and does occur. Yet the [trend is clear](https://twitter.com/lopp/status/1077200836072296449): thousands of people are [reckless](https://twitter.com/hashtag/reckless) and eager to use it.
 
-{{% image "/img/what-28.png" %}}
+{{% image "/img/what-28.webp" %}}
 *Lightning Network, January 2018 vs December 2018. Source: Jameson Lopp*
 {{% /image %}}
 

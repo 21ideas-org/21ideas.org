@@ -42,7 +42,7 @@ If such a method required a centralized third party, you would be back where you
 
 The answer you finally come up with is _puzzles_! You write an open procedure that everybody can run on their computers in order to try to solve some puzzles with the characteristics of being “ad hoc” (specifically built around every issuance attempt, otherwise solutions could be reused many times), asymmetric (difficult to solve but easy to verify, otherwise the system would be vulnerable to denial-of-service attacks) and “useless” (otherwise external use cases for the same solution effort could distort incentives within the system). Every solution will grant the “right” to issue a certain number of units.
 
-{{% image "/img/sb-341.jpg" %}}
+{{% image "/img/sb-341.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -100,7 +100,7 @@ The first era starts with a maximum issuance of 5 billion virtual “units,” w
 
 You chose this model to approximate the way a physical gold mine would become exhausted over time, and you call it “mining” to emphasize the analogy.
 
-{{% image "/img/sb-344.jpg" %}}
+{{% image "/img/sb-344.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

@@ -1,8 +1,8 @@
 ---
 title: "Принять участие"
 h1: "Принять участие"
-# cover: /img/main-section/ru/contribute-light.png
-# coverDark: /img/main-section/ru/contribute.png
+# cover: /img/main-section/ru/contribute-light.webp
+# coverDark: /img/main-section/ru/contribute.webp
 bookCollapseSection: true
 type: docs
 url: contribute
@@ -29,7 +29,7 @@ __21ideas__ - открытый проект, и каждый может внес
 ## Биткоин
 Биткоин-адрес: `bc1q805dq3u6t76nd5av3jdln0vy6zxt4y5djem4s5`
 
-![onchain](/img/0.jpeg)
+![onchain](/img/0.webp)
 
 <---> 
 

@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin address types"
 h1: "Bitcoin address types compared: P2PKH, P2SH, P2WPKH, and more"
-cover: /img/address-types.png
+cover: /img/address-types.webp
 description: ""
 url: bitcoin-address-types
 date: 2023-03-08

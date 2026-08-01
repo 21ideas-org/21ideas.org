@@ -2,7 +2,7 @@
 title: RSS-ленты
 url: rss
 h1: "RSS-ленты 21 идеи"
-cover: /img/bitcoin-wings.png
+cover: /img/bitcoin-wings.webp
 bookHidden: true
 ---
 

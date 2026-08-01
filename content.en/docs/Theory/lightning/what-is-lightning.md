@@ -1,7 +1,7 @@
 ---
 title: "What is Lightning Network?"
 h1: "What is Lightning Network?"
-cover: /img/174.png
+cover: /img/174.webp
 tags: ["bitcoin", "lightning", "scalability", "lightning network", "second layer", "payments"]
 description: "Why do you need a Lightning Network, how does it work and how do you use it?"
 url: what-is-lightning-network
@@ -53,13 +53,13 @@ More articles about the Lightning Network and its features can be found at [this
 
 Lightning Network currently [has](https://1ml.com/statistics) nearly 20,000 nodes and over 70,000 channels; it also has slightly less than 5,000 BTC (over $300 million at the time of this writing) blocked. This protocol is already quite widespread and continues to evolve. As the user experience of interacting with Bitcoin improves, more users will come to Lightning.
 
-{{% image "/img/175.png" /%}}
+{{% image "/img/175.webp" /%}}
 
 Being an early user of any *useful* network is never redundant - you get the opportunity to get more value (in one form or another) with less effort than those who join later. When talking about finance-related networks, the value becomes even more significant. Today, there are a number of ways to generate profit (albeit small at the moment, but with the popularity of Bitcoin, each sat is becoming more and more valuable), and we'll talk about some of them next.
 
 ## Earnings on the Lightning Network
 
-There are many ways to earn the desired sats: from receiving donations for producing useful content through [Alby](https://getalby.com) and the [Lightning Tip Bot](/en/lntips), which we will talk about later, to platforms like [https://microlancer.io/](https://microlancer.io/), where you can do simple tasks in exchange for sats, and writing articles that can be paywalled behind Lightning invoices [Y’alls](https://yalls.org/). Content creators also get rewarded on [Stacker News] and [Nostr](https://nostr.how/en/what-is-nostr). In addition, depending on your country of residence, you can use services such as [Fold](https://foldapp.com), which offer satsbacks for your purchases.
+There are many ways to earn the desired sats: from receiving donations for producing useful content through [Alby](https://getalby.com) and the [ZapGram](https://t.me/zap_gram_bot) bot, which we will talk about later, to platforms like [https://microlancer.io/](https://microlancer.io/), where you can do simple tasks in exchange for sats, and writing articles that can be paywalled behind Lightning invoices [Y’alls](https://yalls.org/). Content creators also get rewarded on [Stacker News] and [Nostr](https://nostr.how/en/what-is-nostr). In addition, depending on your country of residence, you can use services such as [Fold](https://foldapp.com), which offer satsbacks for your purchases.
 
 If you spend a little more time and some resources, you can open up channels and rent them out to other people by starting your own Lightning Node. You can explore [https://github.com/lightninglabs/pool](https://github.com/lightninglabs/pool) for more information on this topic.
 
@@ -89,7 +89,7 @@ Once you have created a wallet you will need to send some bitcoins to it, and th
 
 Transactions in the Lightning Network go through special channels and are carried out by generating and paying invoices. In order to pay an invoice, it is necessary to scan the QR code offered by the counterparty or paste the received link into your wallet.
 
-{{% image "/img/176.png" %}}
+{{% image "/img/176.webp" %}}
 _Interface of [LN.tips](https://t.me/LightningTipBot) Telegram bot_
 {{% /image %}}
 
@@ -97,11 +97,7 @@ As the protocol evolves, more and more convenient solutions are emerging. Of cou
 
 ## Value transfer in the Lightning Network without leaving Telegram
 
-With the protocol's evolution, many third-party services have appeared to facilitate interaction with the network. One of such useful solutions is Telegram bot [@LightningTipBot](https://t.me/LightningTipBot). It allows you to send sats to other Telegram users and even thank/support with sats the comments of your conversation partners in chats where this bot is installed. The description of the bot's features and all possible commands are available with the `/help` command. Moreover, every Telegram user automatically receives LNURL - a specially generated address in the Lightning Network. You can learn more about the bot from [this](/en/lntips) guide.
-
-{{% image "/img/177.png" %}}
-*[Guide to LN.tips Telegram wallet-bot](/en/lntips)*
-{{% /image %}}
+With the protocol's evolution, many third-party services have appeared to facilitate interaction with the network. One of such useful solutions is Telegram bot [@zap_gram_bot](https://t.me/zap_gram_bot). It allows you to send sats to other Telegram users and even thank/support with sats the comments of your conversation partners in chats where this bot is installed. The description of the bot's features and all possible commands are available with the `/help` command. Moreover, every Telegram user automatically receives LNURL - a specially generated address in the Lightning Network.
 
 ## Is that all?
 

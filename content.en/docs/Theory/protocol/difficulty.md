@@ -45,23 +45,23 @@ Point #2 explained further:
 
 Miners hash all the block data with a random nonce until they find a block hash that is smaller than a certain Target. There is a direct relation between Target and Difficulty. The smaller the target, the harder it is to mine.
 
-{{% image "/img/diff-936-en.jpeg" /%}}
+{{% image "/img/diff-936-en.webp" /%}}
 
 The Target number is stored in a block in the field Bits in a compressed format. The fact that the Target itself is hashed with the rest of the block data makes the difficulty forgery-proof. The Difficulty is usually presented in decimal format.
 
-{{% image "/img/diff-937.png" /%}}
+{{% image "/img/diff-937.webp" /%}}
 
 Target = Max Target / Difficulty
 
 Max Target: the target, if difficulty is 1 (lowest possible difficulty). This value was picked by Satoshi. Both Max Target and Difficulty 1 were hardcoded in the genesis block by him.
 
-{{% image "/img/diff-938.png" /%}}
+{{% image "/img/diff-938.webp" /%}}
 
 A difficulty of 420, means that it will take 420 more tries(on average) to find a valid hash than with the easiest difficulty of 1. As mentioned The Genesis Block started with difficulty 1. Ever since every 2016 blocks, the Difficulty is recalculated.
 
 When a block is mined, the miner also needs to add a timestamp to the block. This Timestamp is used to recalculate the difficulty each time. We want a new block to be found ~10 minutes, so after 2016 blocks we check what was the time between blocks.
 
-{{% image "/img/diff-939.png" /%}}
+{{% image "/img/diff-939.webp" /%}}
 
 Expected time: 2016 blocks x 10 minutes = 20,160 minutes.
 
@@ -73,7 +73,7 @@ The hashrate is NOT known! We just know how fast blocks are generated. We use th
 
 But the timestamps themselves are not exact science.
 
-{{% image "/img/diff-940.png" /%}}
+{{% image "/img/diff-940.webp" /%}}
 
 As mentioned we need some reference of time in order to make sure we adjust for a block to come every 10 minutes. When a block is mined the miner adds the time inside. But what if he has the wrong time or he is lying?
 
@@ -117,7 +117,7 @@ Even though the difficulty adjusts every 2016 blocks, it only takes into account
 
 This is because Satoshi introduced a off-by-1 [bug](https://sourceforge.net/p/bitcoin/code/1/tree//trunk/main.cpp#l689). This is still present in the code today, as fixing it could result in a hard-fork.
 
-{{% image "/img/diff-941.png" /%}}
+{{% image "/img/diff-941.webp" /%}}
 
 Instead of checking how much time has passed between the last blocks of each 2016 period, the code compares the time between the 1st and the 2016th block of each period. Between 2016 things there are 2015 gaps. As a consequence Blocks are NOT actually 10 minutes, but 10.005 minutes. The 0.03 seconds are not a big deal but bug allows for 2 very weird things to occur.
 
@@ -125,7 +125,7 @@ You may expect retargeting interval to be (2 weeks)/2015, but it is even weirder
 
 As [@pwuille](https://twitter.com/pwuille) points out:
 
-{{% image "/img/twitter-pwuille-1098651788343955456.png" %}}
+{{% image "/img/twitter-pwuille-1098651788343955456.webp" %}}
 _[Source](https://web.archive.org/web/20210506062127/https://twitter.com/pwuille/status/1098651788343955456)_
 {{% /image %}}
 
@@ -138,7 +138,7 @@ Given the rules mentioned above:
 
 Within these rules, a miner could lie that it took longer to generate blocks.
 
-{{% image "/img/diff-942.png" /%}}
+{{% image "/img/diff-942.webp" /%}}
 
 The off-by-1 one makes the last block of the current period to not overlap with the 1st block of new period. An attacker could do this indefinitely and bring the difficulty to 1. However this attack would be very visible and would require miner coordination from miners.
 
@@ -148,7 +148,7 @@ Besides the temporal restrictions, the difficulty can not change by more than a 
 
 This rule further protects against the attack mentioned. Also it is possible to isolate a node from the network and send it blocks with false time stamps. The node would be tricked in lowering its difficulty and the attacker will be able to create false blocks easier.
 
-{{% image "/img/diff-943.png" /%}}
+{{% image "/img/diff-943.webp" /%}}
 
 Why 2016 blocks?
 
@@ -170,6 +170,6 @@ https://sourceforge.net/p/bitcoin/code/1/tree//trunk/net.h#l491
 
 Finally, I want to leave you with this Bitcointalk post from 2010 made by satoshi, when a 1.34x increase in difficulty from 1 to 1.82 was quite a braggadocious achievement.
 
-{{% image "/img/diff-944.png" %}}
+{{% image "/img/diff-944.webp" %}}
 _[https://bitcointalk.org/index.php?topic=43.0](https://bitcointalk.org/index.php?topic=43.0)_
 {{% /image %}}

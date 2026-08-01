@@ -2,7 +2,7 @@
 title: "Podcasts"
 tags: ["подкасты", "биткоин", "экономика'", "ностр"]
 description: "Сборник лучших подкастов о Биткоине, распределенных протоколах, информационной безопасности, экономике и личностном суверенитете."
-cover: /img/main-section/podcasts.png
+cover: /img/main-section/podcasts.webp
 url: pods
 bookCollapseSection: false
 bookFlatSection: false

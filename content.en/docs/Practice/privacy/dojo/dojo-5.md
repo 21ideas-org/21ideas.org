@@ -2,7 +2,7 @@
 title: "Firewall Configuration"
 h1: "Part 5. Firewall Configuration"
 description: ""
-cover: /img/dojo-09.jpg
+cover: /img/dojo-09.webp
 url: practice-privacy/dojo-5
 date: 2023-12-20
 bookFlatSection: false

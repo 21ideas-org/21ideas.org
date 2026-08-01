@@ -1,7 +1,7 @@
 ---
 title: "Интернет денег"
 h1: "Интернет денег"
-cover: /img/books/internet-deneg.png
+cover: /img/books/internet-deneg.webp
 description: "В Интернет денег вошли избранные лекции о Биткоине, которые Андреас М. Антонопулос прочитал в разных странах мира с 2013-го по начало 2016 года."
 url: internet-deneg
 date: 2016-08-07

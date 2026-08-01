@@ -1,7 +1,7 @@
 ---
 title: "Electrum Bitcoin Wallet"
 h1: "Electrum Bitcoin Wallet"
-cover: /img/53.png
+cover: /img/53.webp
 tags: ["bitcoin", "hodl", "private keys", "security"]
 description: ""
 url: electrum
@@ -522,7 +522,7 @@ Log in, and click the Send/Receive button, which as of today is in the top right
 
 I obviously have no funds with Coinbase, but just imagine there are funds here and follow along: Paste the address from Electrum in the “To” field as I have done. You’ll also need to select an amount (I suggest 50,000 sats or so). Do not put an “optional message” – Coinbase is collecting enough of your data (and selling it), there is no need to help them. Finally, click “Continue”. After that I don’t know what other pop-ups you’ll get, you’re on your own, but the method is similar for all exchanges.
 
-{{% image "/img/electrum/32.png" /%}}
+{{% image "/img/electrum/32.webp" /%}}
 
 Depending on the exchange, you may see the sats in your wallet immediately, or some dealy of hours/days.
 

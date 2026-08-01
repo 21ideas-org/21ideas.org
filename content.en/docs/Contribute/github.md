@@ -3,7 +3,7 @@ title: "Adding an Article"
 tags: ["github", "adding an article", "article", "contribute"]
 description: "How to become a 21ideas contributor? How to add an article? This material will cover the basics of interacting with the project via GitHub and VS Code."
 url: github
-cover: /img/git-cover.png
+cover: /img/git-cover.webp
 date: 2023-08-12
 bookFlatSection: false
 bookToc: true
@@ -62,11 +62,11 @@ Let's explore the simpler approach first:
 2. Visit the [repository](https://github.com/21ideas-org/21ideas.org).
 3. Press the "Fork" button in the top-right corner of the page
 
-![fork](/img/3.png)
+![fork](/img/3.webp)
 
 4. Press "Create Fork" on the subsequent page. Now you have a copy of the main 21ideas repository under your account.
 
-![create](/img/4.png)
+![create](/img/4.webp)
 
 5. Navigate to the subcategory you desire (for instance, take the Economics category).
 
@@ -76,7 +76,7 @@ Structure inside the repository reflects that of the website. All English conten
 
 6. Upon entering the folder, press "+ Create new file".
 
-![add](/img/5.png)
+![add](/img/5.webp)
 
 7. In the new window enter the file name. Do not forget to add the `.md` extension after the file name. The result should look similar to this: `example.md`
 
@@ -84,7 +84,7 @@ Structure inside the repository reflects that of the website. All English conten
 Don't forget to specify the `.md` extension at the end of the header – it indicates the file format. If you don't specify the extension, the platform won't know how to read the file and will generate an error when trying to open the article on the site.
 {{< /hint >}}
 
-![name](/img/6.png)
+![name](/img/6.webp)
 
 {{< hint btc >}}
 File names should be specified in English. The name must be spelled correctly (check for typos). Perhaps the easiest way is to copy it from the URL of the original article. If there is no title in the web address, copy the title from the original article and replace spaces with dashes (`-`). 
@@ -93,7 +93,7 @@ File names should be specified in English. The name must be spelled correctly (c
 8. Duplicate the tab and open a neighboring article – any of the articles located in the same folder where you put yours (except for the `_index.md` file). 
 9. Click the "raw" button to open the raw version of the document.
 
-![raw](/img/7.png)
+![raw](/img/7.webp)
 
 10. Copy the so-called "head" of the file – the initial part of the text, framed in `---`. It contains the title of the article, metadata and all the elements necessary for both the site and search engine bots to understand the details of the material, display and index the page. You can learn more about this element [here](/en/syntax/#голова-head).
 11. Replace the title, description, cover image and all other important elements with information that is relevant to your article.
@@ -110,21 +110,21 @@ You should delete the placeholder file after you're done.
 
 15. To add images to the folder, simply click "Add file" -> "Upload files", and drag-and-drop necessary images into the newly created folder.
 
-![upload](/img/11.png)
+![upload](/img/11.webp)
 
 16. When the article (and images) are ready, you should check if any changes have been made to the main repository while you were working on the the article. To do this, pay attention to the line just above the main repository file folder:
 
-![compare](/img/9.png)
+![compare](/img/9.webp)
 
 17. Next, click "Pull requests" -> "New pull request" (you may need to confirm your intentions several times, it's intuitive here).
 
-![pull](/img/12.png)
+![pull](/img/12.webp)
 
-![pull2](/img/13.png)
+![pull2](/img/13.webp)
 
 18.  In the pop-up window, specify the title of the pull-request and a description of the work done. This is an important step, without which it will be more difficult for moderators to understand what exactly needs to be checked. It is also necessary for further auditing of the project code.
 
-![describe](/img/14.png)
+![describe](/img/14.webp)
 
 19. By pushing a pull-request, you can notify the moderators that there is a new article waiting for them. This step is not mandatory - we regularly check the repository for new requests.
 
@@ -140,11 +140,11 @@ To run the website locally, we will need special software the will help us run t
 2. Create a folder on your computer where you plan to store the repository.
 3. Open VS Code and select "Open New Folder" in the "File" menu section.
 
-![terminal](/img/16.png)
+![terminal](/img/16.webp)
 
 4. In the upper right corner, click the icon as shown in the screenshot below. This brings up the terminal window – a working field where you can later issue commands to the program. The terminal can also be invoked by pressing "Ctrl+J" on Windows or "Cmd+J" on MacOS.
 
-![git](/img/17.png)
+![git](/img/17.webp)
 
 5. Check whether **git** is installed on your computer. To do this, enter `git version` in the terminal, if you get the software version in response, you don't need to install anything. If you see an error, visit [this](https://git-scm.com/download/) link and download git for your operating system. After installation you may need to reboot VS Code or the whole system.
 6. In the terminal, type the following command:
@@ -155,13 +155,13 @@ git clone https://github.com/21ideas-org/21ideas.org
 
 Here `git clone` is the command that initiates copying the repository to your device, and the link we use is the same one we copied from the original repository. You can copy link for cloning a repository by clicking "Code", followed by the "Copy" icon like so:
 
-![open](/img/15.png)
+![open](/img/15.webp)
 
 This way you can locally run any other project available on GitHub (keep in mind that many of them may require additional software to be installed).
 
 7. As a result, you should see a new folder and all its contents (similar to what is presented on GitHub) in your VS Code editor, as well as in a folder on your computer.
 
-![tree](/img/18.jpeg)
+![tree](/img/18.webp)
 
 8. Next we need to install Hugo. Hugo is the static website generator underlying the 21ideas website. 
 

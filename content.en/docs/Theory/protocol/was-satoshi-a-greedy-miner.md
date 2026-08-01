@@ -1,7 +1,7 @@
 ---
 title: "Was Satoshi a Greedy Miner?"
 h1: "Was Satoshi a Greedy Miner?"
-cover: /img/00000001.png
+cover: /img/00000001.webp
 tags: ["bitcoin", "satoshi", "proof-of-work"]
 description: "Technical analysis of mining behavior exhibited by an entity that is plausibly Satoshi Nakamoto."
 url: was-satoshi-a-greedy-miner
@@ -36,11 +36,11 @@ What is the Patoshi Pattern? If you're familiar with the basics of Bitcoin minin
 
 When graphed, these ExtraNonces allowed the visualization of the **Patoshi Pattern** for which we can observe contiguous slopes of ExtraNonces.
 
-{{% image src="/img/00000002.png" /%}}
+{{% image src="/img/00000002.webp" /%}}
 
 Additionally, the Patoshi miner exhibits an odd restriction in the nonce values they found for blocks. There are several theories as to why this might be the case, but I believe the most plausible is that Patoshi had developed multi-threaded mining software and these ranges were allocated to different CPU cores, so that each core would scan a reduced nonce space in parallel.
 
-{{% image src="/img/00000003.png" %}}
+{{% image src="/img/00000003.webp" %}}
 _Source: http://organofcorti.blogspot.com/2014/08/168-little-more-on-satoshis-blocks_15.html_
 {{% /image %}}
 
@@ -67,13 +67,13 @@ As Sergio explains in his research, it's _possible_ that Patoshi's miner kept mi
 
 In any case, this is an interesting phenomenon that is clearly a deliberate decision by the miner. Can we dig deeper? I analyzed the distribution of Patoshi's blocks in several different ways. First, if we observe the timestamp differences between only Patoshi and Patoshi-mined blocks, we can see it's quite clear that they rarely mined blocks less than 5 minutes apart. The expected timestamp delta distribution trend line for a miner with 4.35 megahashes per second (Mhps) at difficulty target of 1 is shown in blue. For the purposes of this chart I'm only using Patoshi block data during the period they appeared to be mining at 4.35 Mhps.
 
-{{% image src="/img/00000004.png" %}}
+{{% image src="/img/00000004.webp" %}}
 _Timestamp differences between 2 blocks where both were mined by Patoshi during first 6 months_
 {{% /image %}}
 
 So we can see there's an obviously massive gap of missing "fast" blocks. What if we look at ALL of the Patoshi block deltas, including blocks that were mined after non-Patoshi blocks?
 
-{{% image src="/img/00000005.png" %}}
+{{% image src="/img/00000005.webp" %}}
 _Timestamp differences between each block mined by Patoshi and its parent block_
 {{% /image %}}
 
@@ -81,11 +81,11 @@ This is looking a little better - it's clear that Patoshi did not turn their min
 
 Next I took the data set from the previous chart and whenever there was a block that was mined more than 5 minutes after the previous block, I subtracted 5 minutes from the time delta. We can see that this gives us a resulting data set that fits the expected distribution much better.
 
-{{% image src="/img/00000006.png" /%}}
+{{% image src="/img/00000006.webp" /%}}
 
 If you haven't read my [prior research into block time variance](https://blog.lopp.net/bitcoin-block-time-variance/) then you might be asking yourself if these graphs are actually meaningful - that is, can we compare them to a control group? For comparison, here is the chart of ALL blocks mined during Bitcoin's "CPU era" before GPU mining took off:
 
-{{% image src="/img/00000007.png" /%}}
+{{% image src="/img/00000007.webp" /%}}
 
 So the question remains: is this unique phenomenon due to Satoshi turning their miner off for 5 minutes or is it due to them manipulating their timestamps by 5 minutes? **I strongly believe that Satoshi's machine slept**. Why?
 
@@ -107,19 +107,19 @@ Also, if Patoshi had only been manipulating the timestamps of the blocks they mi
 
 We can observe that Satoshi's miner had 4 distinct hashing epochs. They initially followed a plan of reducing their hashrate by 1.7 Mhps every five months, but a month after the second such drop they abandoned this method in favor of a continuously decreasing hashrate.
 
-{{% image src="/img/00000008.png" %}}
+{{% image src="/img/00000008.webp" %}}
 _Source: http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html_
 {{% /image %}}
 
 When we compare Satoshi's hashrate to the rest of the network, we can more clearly observe that the bootstrapping of hashpower by other miners started taking off in October 2009 as Satoshi stepped back further.
 
-{{% image src="/img/00000009.png" %}}
+{{% image src="/img/00000009.webp" %}}
 _Source: http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html_
 {{% /image %}}
 
 In fact, Satoshi was in a dangerously dominant position with over half of the network hashrate up until October 2009.
 
-{{% image src="/img/000000010.png" %}}
+{{% image src="/img/000000010.webp" %}}
 _Source: http://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html_
 {{% /image %}}
 
@@ -136,7 +136,7 @@ This suggests several things:
 
 You may have noted that the first timestamp distribution chart in the "Sleeping Satoshi" section excluded blocks 1400-1916 from its data set. Why? Because a unique phenomenon occurred during this time frame that screws up the Patoshi block timestamp delta calculations. There are 2 Patoshi miners running simultaneously!
 
-{{% image src="/img/000000011.png" %}}
+{{% image src="/img/000000011.webp" %}}
 _Double helix Patoshi pattern (blocks 1400-1916)_
 {{% /image %}}
 
@@ -144,11 +144,11 @@ You can explore this pattern on the [SatoshiBlocks](http://satoshiblocks.info/?b
 
 During this period of 4 days and 3 hours, Satoshi mined 458 blocks. From this we can estimate that their total aggregate hashrate during this time was about **5.5 Mhps**. This is noteworthy because Satoshi's hashrate during the first 5 months of 2009 averages out to **4.3 Mhps**. This also explains the highlighted discrepancy from the earlier hashrate chart.
 
-{{% image src="/img/000000012.png" /%}}
+{{% image src="/img/000000012.webp" /%}}
 
 Why is this interesting? If Satoshi had set up a separate machine for mining that was similar to the first, we'd expect their overall hashrate would be closer to 8.6 Mhps during the double helix period. Yet their hashrate was **only 28% higher** rather than 100% higher. We can see that the performance of each mining instance is reduced, resulting in a uniformly decreased slope of ExtraNonces for both instances when compared to _every other Patoshi slope_. Why? The simplest explanation is because the threads in both mining instances are competing for the same CPU cores!
 
-{{% image src="/img/000000013.png" %}}
+{{% image src="/img/000000013.webp" %}}
 _Note that when a single instance is running, it has a higher hashrate and thus steeper ExtraNonce slope_
 {{% /image %}}
 
@@ -156,7 +156,7 @@ Sergio Lerner [believes we can infer](https://bitslog.com/2014/04/03/chain-arche
 
 Several years ago I [compiled all of Satoshi's public activity timestamps](https://docs.google.com/spreadsheets/d/19hZc0XOdasHshAnNsYLscTVftOfY-_e3VwjGTpmGDM8/edit?usp=sharing) from emails, forum posts, and code commits to generate the following chart. My conclusion is that Satoshi maintained a sleep schedule consistent with someone staying in the Pacific time zone.
 
-{{% image src="/img/000000014.png" /%}}
+{{% image src="/img/000000014.webp" /%}}
 
 Why do I bring this up? To support my theory to explain the double helix phenomenon! Here's what I believe happened:
 
@@ -173,7 +173,7 @@ Why do I bring this up? To support my theory to explain the double helix phenome
 
 We know that Satoshi had the majority of hashrate for the first 9 months of 2009; can we learn anything from their longest period of back-to-back blocks? I wrote a [streak finder script](https://github.com/jlopp/bitcoin-utils/blob/master/findPatoshiMiningStreaks.php) and determined that Satoshi had a 47 block streak from height 80 to 127.
 
-{{% image src="/img/000000015.png" /%}}
+{{% image src="/img/000000015.webp" /%}}
 
 This should certainly be taken with a grain of salt given that it's an ~8 hour window and hashrate estimates become less accurate as the time range you are observing shortens, but we can see that the average block time was 720 seconds which leads us to estimate their hashrate at **5.97 Mhps** during this period.
 
@@ -189,17 +189,17 @@ This means there would need to be over 4.7 Mhps of other miners on the network i
 
 I [wrote another script](https://github.com/jlopp/bitcoin-utils/blob/master/generateDifficultyHistoryCSV.php) to extract the difficulty history from the blockchain.
 
-{{% image src="/img/000000016.png" /%}}
+{{% image src="/img/000000016.webp" /%}}
 
 Here's a chart of the total network hashrate during the period in question:
 
-{{% image src="/img/000000017.png" %}}
+{{% image src="/img/000000017.webp" %}}
 _Source: https://www.coinwarz.com/mining/bitcoin/hashrate-chart_
 {{% /image %}}
 
 To understand how the difficulty retargets would have changed we must ask at what point the global network hashrate would have exceeded 10.7 Mhps if Satoshi had been mining at their maximum 6 Mhps.
 
-{{% image src="/img/000000018.png" /%}}
+{{% image src="/img/000000018.webp" /%}}
 
 From looking at the chart and adding the missing potential extra hashrate from Satoshi, it looks like the network would have exceeded 10.7 Mhps in mid-December 2009 and that the difficulty would have adjusted to 2 at block 32256, about 2.5 months earlier.
 
@@ -222,7 +222,7 @@ Unfortunately it's a bit more complicated, as the mining difficulty started incr
 
 As such, we can use the historic difficulty change table posted earlier and move the timeframes forward by that much. If we assume that Satoshi still mined for 479 days but at a sustained 4.35 Mhps then this would result in roughly the following:
 
-{{% image src="/img/000000019.png" /%}}
+{{% image src="/img/000000019.webp" /%}}
 
 Which comes out to 31,783 blocks or a total of **1,589,150 BTC**.
 
@@ -232,7 +232,7 @@ What % of blocks are expected to be mined less than 5 minutes after the previous
 
 As such, let's re-run the previous calculation but with Satoshi running their hardware at their theoretical maximum hashrate of 6 Mhps.
 
-{{% image src="/img/000000020.png" /%}}
+{{% image src="/img/000000020.webp" /%}}
 
 For a total of 43,829 blocks or **2,191,450 BTC**.
 

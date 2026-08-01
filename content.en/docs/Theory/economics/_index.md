@@ -1,8 +1,8 @@
 ---
 title: "Economics"
 h1: " "
-cover: /img/main-section/en/economics-dark.png
-coverDark: /img/main-section/en/economics-light.png
+cover: /img/main-section/en/economics-dark.webp
+coverDark: /img/main-section/en/economics-light.webp
 bookCollapseSection: true
 url: economics
 weight: 1

@@ -41,7 +41,7 @@ What does a hyperbitcoinized future Earth settling nearby planets look like?
 
 It’s probably a mix of works such as these, but with more bitcoin:
 
-{{% image "/img/161-en.png" /%}}
+{{% image "/img/161-en.webp" /%}}
 
 Imagine it: 100 years from now, bitcoin is a global currency used by all people.  Individuals mostly transact on one of several second layer [lightning networks](https://lightning.network/).  Large transactions still occur on the chain, though usually through [aggregation mechanisms](https://twitter.com/nic__carter/status/999068877588967424?lang=en).  Third and fourth layers also exist: the [Internet becomes a bootstrapped mesh network](https://twitter.com/dhruvbansal/status/1030175459764588544) with nodes settling on the lightning network as they store data and push bandwidth.  Many powerful global corporations are replaced by inter-operating protocols, all distributed and market-driven, settling to BTC.  In a hyperbitcoinized world, bitcoin is not just the foundation of the world economy; it’s the unit of account for new distributed infrastructures of [computing](https://www.ethereum.org), [telecommunications](https://whitepaper.helium.com/), [identity](https://www.wired.com/story/microsoft-wants-protect-identity-bitcoin/), etc.
 
@@ -59,7 +59,7 @@ Will these Martian millions be using bitcoin?
 
 Mars will be the first large human colony sufficiently far away for significant light-lag to occur in communications with Earth.  This lag will begin as a challenge for explorers, grow into an inconvenience for colonists, and, finally, become a membrane separating two cultures.
 
-{{% image "/img/162-en.png" %}}
+{{% image "/img/162-en.webp" %}}
 _Mars is between 3 & 22 light-minutes away (12.5 light-minutes on average), meaning a round-trip signal time of between 6 and 44 minutes (25 minutes on average).  The bitcoin block time is only 10 minutes. [(Source)](https://www.planetary.org/blogs/guest-blogs/2014/0408-mars-opposition.html)_
 {{% /image %}}
 
@@ -67,7 +67,7 @@ Communication between Earth and Mars will certainly still be possible, though [n
 
 But there will still be challenges caused by the unavoidable delay inherent to all Earth-Mars communication.  Bitcoin users and miners in particular will be affected because of their great distance from Earth and its _center of hash_:
 
-{{% image "/img/163-en.png" %}}
+{{% image "/img/163-en.webp" %}}
 _Imagine two miners A & B separated a distance apart. Miner A has twice the hashrate of miner B. Their center of hash will be located at a point in space 1/3 of the distance between them, closer to miner A.  A similar calculation can obtain the center of hash for many miners at various hashrates distributed over a large volume of space. Compare to [center of mass](https://en.wikipedia.org/wiki/Center_of_mass)._
 {{% /image %}}
 
@@ -75,7 +75,7 @@ Bitcoin’s center of hash today is somewhere near the center of the Earth, perh
 
 This will have deep consequences for the future expansion of human civilization.
 
-{{% image "/img/164.png" %}}
+{{% image "/img/164.webp" %}}
 _Screenshot of a Bloomberg terminal in 2130.  Bitcoin’s center of hash is near the Earth’s center, slightly shifted towards the location of Moon which hosts 15% of all bitcoin miners. [(Source)](http://stuffin.space/)_
 {{% /image %}}
 
@@ -111,7 +111,7 @@ Let’s consider an example: A pool of bitcoin miners with, say, 10% of hashrate
 
 We wanted to be more quantitative about the relationships between a miner’s distance from the center of hash, their relative hashrate, the delays they experience in communication, and the resulting weight of blocks they can mine, so we wrote a program called hashwars to simulate these sorts of scenarios.  You can [find it on GitHub](https://github.com/unchained-capital/hashwars) and use it to produce plots such as this one:
 
-{{% image "/img/166-en.jpeg" %}}
+{{% image "/img/166-en.webp" %}}
 _A plot of the relative success of a minority pool of miners at different distances from the center of hash and different relative hashrates compared to the majority. The color plotted shows the fraction (by weight) of blocks mined by a pool at the corresponding distance and relative hashrate. Each point represents the average of many simulations of a bitcoin-like blockchain with a block time of 10 minutes._
 {{% /image %}}
 
@@ -139,7 +139,7 @@ In a hyperbitcoinized world, bitcoin has outcompeted all other fiat and cryptocu
 
 The cynical explanations, preferred by future Terrans and Tories on Mars, will be greed and stupidity.  If Muskcoin copied bitcoin, and it succeeded, its early adopters would be rewarded the way early bitcoin miners were rewarded back on Earth in the (now mythical) early years of the 21st century.  But Muskcoin supporters will dodge these criticisms and argue that Muskcoin is **necessary**.  Many revolutionaries of this era are second and third generation Martians who have never been to Earth, whose frail bodies could never withstand the harsh pull of Earth’s gravity well.  They feel they are their own people, yet Terran control over which bitcoin transactions can settle means they are part of the dominion of bitcoin and, therefore, Earth.  Their desire for Muskcoin is the universal desire of all people for self-determination.
 
-{{% image "/img/167.png" /%}}
+{{% image "/img/167.webp" /%}}
 
 Muskcoin will be modeled on bitcoin and will have many of the same properties.  If bitcoin became sound money on Earth, then Muskcoin may become sound money on Mars, and for similar reasons: an [intolerant minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15) of Martians who desire an independent Mars will support its growth.
 
@@ -199,7 +199,7 @@ This suggests that the timing of the Muskcoin launch is extremely important.  L
 
 Long before actually launching Muskcoin, smart Martian revolutionaries will perform simulations to determine whether or not they have sufficient relative hashrate against their Terran adversaries to support a Muskcoin launch.  They will produce analyses like the one below (produced with the hashwars program):
 
-{{% image "/img/168-en.jpeg" %}}
+{{% image "/img/168-en.webp" %}}
 _The plot shows the fraction (by block weight) of a new blockchain mined (y-axis) by a defender at a given distance (each line) from an attacker as a function of the relative hashrate between attacker and defender (x-axis).  Deviation of the plotted lines from the white line (representing zero distance) shows the (dis)advantage conferred by the hash horizon at that distance._
 {{% /image %}}
 
@@ -228,7 +228,7 @@ When the time is right, Martians will have tools and strategies to help them lau
 
 The answer to that question may be also be the answer to another: why is bitcoin’s issuance schedule so long and drawn out?
 
-{{% image "/img/169-en.jpeg" %}}
+{{% image "/img/169-en.webp" %}}
 _Bitcoin’s supply is mostly produced in its first 20 years. Yet new BTC will continue to be mined (at an ever-diminishing rate) for another 120 years, till 2140. Why did Satoshi pick this timeframe and not, say, 2080 or 2200?_
 {{% /image %}}
 
@@ -254,7 +254,7 @@ In this way blockchains will seep across the solar system, attracted by energy a
 
 ### Beyond Sol (An Embarrassment of Riches)
 
-{{% image "/img/170.png" %}}
+{{% image "/img/170.webp" %}}
 _Why would we travel all the way to another star system if we can build anything we need right here at home? [(Source)](https://www.youtube.com/watch?v=HlmKejRSVd8&list=PLIIOUpOge0LtW77TNvgrWWu5OC3EOwqxQ)_
 {{% /image %}}
 
@@ -264,7 +264,7 @@ Consider that there is sufficient matter and energy right here in the solar syst
 
 ### Distance makes the hash grow stronger
 
-{{% image "/img/171.png" %}}
+{{% image "/img/171.webp" %}}
 _Why settle Alpha Centauri? Because it’s far away._
 {{% /image %}}
 

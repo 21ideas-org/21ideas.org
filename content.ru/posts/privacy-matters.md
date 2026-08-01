@@ -9,7 +9,7 @@ next: /blog/
 prev: /posts/empty-blocks
 title: "Почему важна приватность"
 h1: "Почему важна приватность"
-cover: /img/blog/privacy.png
+cover: /img/blog/privacy.webp
 description: "Транскрипт речи Гленна Гринвальда, в которой он приводит доводы, почему необходимо заботиться о неприкосновенности частной жизни, даже если вы не делаете ничего, что нужно скрывать"
 bookToc: true
 weight: 10

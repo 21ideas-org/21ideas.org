@@ -1,7 +1,7 @@
 ---
 title: "Part I. Philosophical Teachings of Bitcoin"
 h1: "Part I. Philosophical Teachings of Bitcoin"
-cover: /img/000000001.jpg
+cover: /img/000000001.webp
 tags: ["philosophy", "bitcoin"]
 description: ""
 url: what-i-learned-from-bitcoin-1
@@ -43,7 +43,7 @@ Bitcoin is indeed a game disguised. It is akin to a trapdoor, a gateway to a dif
 >
 >  — [Morpheus](https://en.wikipedia.org/wiki/Red_pill_and_blue_pill#The_Matrix_(1999))
 
-{{% image src="/img/000000002.jpg" /%}}
+{{% image src="/img/000000002.webp" /%}}
 
 
 ## Lesson 1: Immutability and change

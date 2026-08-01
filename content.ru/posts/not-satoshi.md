@@ -9,7 +9,7 @@ next: /blog/
 prev: /posts/hal-finney-ne-byl-satoshi-nakamoto/
 title: "Крейг Райт – не Сатоши"
 description: "Крейг Райт – не Сатоши, он – не автор белой книги Биткоина, постановил судья."
-cover: /img/faketoshi2.png
+cover: /img/faketoshi2.webp
 weight: 10
 ---
 

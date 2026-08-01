@@ -1,7 +1,7 @@
 ---
 title: "Не играйте в щиткоин-казино"
 h1: "Не играйте в щиткоин-казино"
-cover: /img/shit-921.png
+cover: /img/shit-921.webp
 description: "Всем новичкам, которые считают, что целый биткоин стоит слишком дорого и лучше купить какой-нибудь щиткоин, посвящается."
 url: shitcoin-casino
 aliases: ['/dont-shitcoin-gamle']

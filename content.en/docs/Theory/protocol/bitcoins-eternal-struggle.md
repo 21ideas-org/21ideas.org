@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin's Eternal Struggle"
 h1: "Bitcoin's Eternal Struggle"
-cover: /img/202.jpg
+cover: /img/202.webp
 tags: ["bitcoin", "protocol", "entropy", "proof-of-work"]
 description: "Как Биткоин процветает на грани порядка и хаоса."
 url: bitcoins-eternal-struggle
@@ -72,7 +72,7 @@ While the above speaks in absolutes (_everyone_ and _nobody_), the truth is more
 
 Details aside, we will try to keep it simple here. In general, if you have two coins, the entropy of this system is **two**. As in: you can describe the whole system with two bits: 00, 01, 10, 11.
 
-{{% image "/img/203.png" %}}
+{{% image "/img/203.webp" %}}
 _2 bits of entropy_
 {{% /image %}}
 
@@ -84,7 +84,7 @@ Randomness is essential to cryptography. At the root of all secret communication
 
 A good secret is like a good password: randomly generated, i.e. coming from a data source that has a high degree of entropy.
 
-{{% image "/img/204.jpg" %}}
+{{% image "/img/204.webp" %}}
 _Random noise. How much information is contained in this image?_
 {{% /image %}}
 
@@ -117,7 +117,7 @@ And here is the thing: Bitcoin utilizes the fact that the difference between _ha
 
 Alright. Back to our original question: _What is information_, anyway?
 
-{{% image "/img/205.jpg" %}}
+{{% image "/img/205.webp" %}}
 _Sorted colors. How much information is contained in this image?_
 {{% /image %}}
 
@@ -138,7 +138,7 @@ Bitcoin, in comparison, is simpler: one chain, two bits, no error correction (in
 
 In Bitcoin, high entropy information is usually kept secret. Your _private key_ should, as the name implies, be kept private. It is for your eyes only. Which particular _nonce_ you just tried, i.e. the work you already did when mining a new block, is usually kept private as well. You don’t want your competitors to know which numbers produce invalid blocks and can be skipped.
 
-{{% image "/img/206.png" %}}
+{{% image "/img/206.webp" %}}
 _Chaos on the left, Order on the right._
 {{% /image %}}
 
@@ -158,7 +158,7 @@ From a “finding new blocks” point of view, we are still extremely early. Onl
 
 Satoshi undoubtedly knew that this was a long game. The era where fresh blocks are associated with a reward is only one phase of the Bitcoin game. Note that this phase is 6930000 blocks long. With an average block time of ~10 minutes, the reward era turns out to be 131 years long.
 
-{{% image "/img/207-en.png" %}}
+{{% image "/img/207-en.webp" %}}
 _2019: Early days of the Bitcoin Reward Era._
 {{% /image %}}
 
@@ -174,13 +174,13 @@ Of course, I expect something approximating [hyperbitcoinization](https://nakamo
 
 With the stage set, and concepts like order, information, randomness, and entropy in mind, let’s take a look at some bitcoin concepts. We will distinguish them visually: from chaotic (left) to orderly (right).
 
-{{% image "/img/208-en.png" %}}
+{{% image "/img/208-en.webp" %}}
 _Bitcoin grows between order and chaos._
 {{% /image %}}
 
 While the framing of order and chaos is useful, it is neither precise nor universally applicable. However, I believe that thinking about the parts which make Bitcoin tick in this way is a helpful exercise, and I believe that the core point — that bitcoin lives, grows, and thrives on the edge between order and chaos — is profoundly true.
 
-{{% image "/img/209-en.png" /%}}
+{{% image "/img/209-en.webp" /%}}
 
 Let’s ponder on these concepts for a bit.
 

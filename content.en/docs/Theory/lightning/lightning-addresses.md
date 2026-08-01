@@ -1,7 +1,7 @@
 ---
 title: "How Lightning Address Works"
 h1: "How Lightning Address Works"
-cover: /img/215.png
+cover: /img/215.webp
 tags: ["bitcoin", "lightning", "scalability", "lightning network", "addresses", "payments"]
 description: ""
 url: how-lightning-address-works
@@ -41,7 +41,7 @@ At its core, it is nothing more than a URL link to a web service using the HTTPS
 
 Example:
 
-{{% image "/img/lna-02.png" /%}}
+{{% image "/img/lna-02.webp" /%}}
 
 ### Payment procedure:
 

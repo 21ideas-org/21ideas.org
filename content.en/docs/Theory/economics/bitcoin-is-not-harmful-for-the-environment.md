@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Is Not Harmful For The Environment"
 h1: "Critics Claim Bitcoin Is a Threat to the Environment. They're Wrong"
-cover: /img/155.png
+cover: /img/155.webp
 tags: ["bitcoin", "environment", "pow", "proof-of-work"]
 description: ""
 url: bitcoin-is-not-harmful-for-the-environment
@@ -46,13 +46,13 @@ This means that bitcoin can use otherwise useless energy, and it also means bitc
 
 Still, for now we’ll ignore bitcoin’s green preference and just take the total, because, as we’ll see, it’s not even close. As of March 22, 2021, the widely cited [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption) estimates a total energy use for bitcoin of 86.1 terawatt hours (TWh) per year, comparable to Switzerland’s 8.5 million people, for the perhaps [100 million people](https://www.buybitcoinworldwide.com/how-many-bitcoin-users/) worldwide who use bitcoin. In terms of nationality, given that [19 percent of bitcoin nodes](https://bitnodes.io/) are located in the US, Americans might account for roughly 19 percent, or 16 TWh, of that usage.
 
-{{% image "/img/156.png" /%}}
+{{% image "/img/156.webp" /%}}
 
 So that’s the cost: 86 TWh per year, of which perhaps 16 TWh is Americans.
 
 Now, it’s central banks’ turn: What is the energy cost of a recession? It’s fitting that our most recent recession, in 2008, is the very event that drove “Satoshi Nakamoto” to create bitcoin.
 
-{{% image "/img/157.png" /%}}
+{{% image "/img/157.webp" /%}}
 
 There are a variety of estimates of how much wealth the 2008 crisis destroyed, depending on what’s counted and on the time period. According to the Federal Reserve itself, from peak to trough the 2008 financial crisis destroyed $11 trillion in household wealth in the US, going from [$70.9 trillion in Q3 2007 to just $59.9 trillion](https://fred.stlouisfed.org/series/TNWBSHNO) in Q1 2009.
 
@@ -60,7 +60,7 @@ Outside the US, many countries in Europe suffered even [larger drops in GDP](ht
 
 Next, we can put an energy cost on those trillions. According to the US Energy Information Administration, in 2018 it took about [5,000 British thermal units (Btu) to produce a dollar of GDP](https://www.eia.gov/state/seds/sep_sum/html/pdf/rank_use_gdp.pdf). The World Bank gives similar estimates for the rest of the world, [at 5,200 Btu per 2017 dollar](https://data.worldbank.org/indicator/EG.GDP.PUSE.KO.PP.KD). There are 3.4 Btu in a watt hour, so that converts to 1,500 watt hours, or 1.5 kilowatt hours (kWh), per dollar.
 
-{{% image "/img/158.png" /%}}
+{{% image "/img/158.webp" /%}}
 
 Now, multiply the trillions lost by 1.5 kWh and you get 16,500 TWh in the US alone. Scale by 3 and you get perhaps 50,000 TWh worldwide in lost wealth. Between 500 and 1,000 times bitcoin’s annual use, all from a single recession.
 

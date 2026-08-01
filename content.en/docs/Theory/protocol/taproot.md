@@ -1,7 +1,7 @@
 ---
 title: "What Is Taproot"
 h1: "What Is Taproot and How Does It Benefit Bitcoin?"
-cover: /img/tr-811.jpeg
+cover: /img/tr-811.webp
 description: ""
 url: taproot
 date: 2021-09-26
@@ -57,7 +57,7 @@ Taproot also introduced a new script type, a way of spending bitcoin. Pay-to-Tap
 
 Schnorr’s key aggregation feature enables this flexible functionality. When bitcoin is sent to a P2TR output, it is locked to a single public key, called Q. However, this public key Q is actually an aggregation of a public key P and a public key formed from the Merkle root of many other script types. Any of the alternative scripts in the Merkle tree can be used to spend the output.
 
-{{% image "/img/tr-813.png" /%}}
+{{% image "/img/tr-813.webp" /%}}
 
 This design allows users to choose between complex, arbitrary scripts as well as simple pay-to-public-key functionality at the time of spending, rather than at the time of receiving. It also makes all Taproot outputs look similar. Because multisig outputs, single sig outputs, and other complex smart contracts all look the same on the blockchain, many chain analysis heuristics will become unusable, preserving privacy for all Taproot users.
 

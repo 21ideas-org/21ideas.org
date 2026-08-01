@@ -1,8 +1,8 @@
 ---
 title: "Future"
 h1: " "
-cover: /img/main-section/en/future-dark.png
-coverDark: /img/main-section/en/future-light.png
+cover: /img/main-section/en/future-dark.webp
+coverDark: /img/main-section/en/future-light.webp
 bookCollapseSection: true
 url: future
 weight: 7

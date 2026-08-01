@@ -2,7 +2,7 @@
 title: "What Is UTXO And How To Manage Them"
 description: ""
 url: protocol/utxo
-cover: /img/utxo/piggy-cover.png
+cover: /img/utxo/piggy-cover.webp
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

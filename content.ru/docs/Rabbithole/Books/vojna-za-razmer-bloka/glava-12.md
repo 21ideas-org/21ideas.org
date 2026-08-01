@@ -1,7 +1,7 @@
 ---
 title: "Глава 12: Bitcoin Unlimited"
 h1: "Глава 12: Bitcoin Unlimited"
-cover: /img/vrb-444.jpeg
+cover: /img/vrb-444.webp
 description: "Поскольку Bitcoin Classic не смог набрать должную поддержку, в конце лета 2016 года сторонники крупных блоков сошлись на новом клиенте, увеличивающем лимит размера блока при помощи хардфорка, под названием Bitcoin Unlimited."
 url: vojna-za-razmer-bloka/glava-12
 aliases: ['/book-the-blocksize-war-chapter-12']

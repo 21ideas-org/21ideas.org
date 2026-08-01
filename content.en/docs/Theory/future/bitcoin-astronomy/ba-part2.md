@@ -35,7 +35,7 @@ In this part, we continue to _follow the energy_ and speculate about how money a
 
 In Part I, we speculated about a hyperbitcoinized humanity where bitcoin has become much more than just a currency or even a global financial system.  In the future, bitcoin is deeply integrated into energy, telecommunications, logistics, and other sectors of Earth’s economy.  Secondary and tertiary layers of networks settling into bitcoin are how markets, supply chains, and political systems organize themselves.
 
-{{% image "/img/163-en.png" %}}
+{{% image "/img/163-en.webp" %}}
 *The “Center of Hash” was defined in [Part I](/en/ba/1) of this series.*
 {{% /image %}}
 
@@ -55,7 +55,7 @@ Before we continue our speculations, it will be useful to introduce some termino
 - A **Type II** civilization uses energy on a _stellar_ scale (~1026 Watts)
 - A **Type III** civilization uses energy on a _galactic_ scale (~1037 Watts)
 
-{{% image "/img/ba-627-en.jpg" /%}}
+{{% image "/img/ba-627-en.webp" /%}}
 
 This scale is not precise and is more than a little arbitrary, but it does capture the vast gulf in energy usage between civilizations of different types: a Type II stellar civilization, for example, uses billions of times more energy than a Type I planetary civilization.  The three original categories have since been extended (Type IV, Type V, &c.) and interpolated. A Type 2.1 civilization, for example, would use more energy than a Type II stellar civilization but less than a Type III galactic civilization.
 
@@ -105,7 +105,7 @@ Terrans hope Solcoin will transform potential colonial revolutionaries into prod
 
 Such an arrangement would be of great benefit to Terran miners.  Large distances and short block times cut off their tremendous hashrate, largest in the solar system, from the fee markets of blockchains such as Muskcoin.  Solcoin is an interplanetary fee market that all miners in the solar system can compete in.  Since Terrans have the highest hashrate, they would dominate this market, capturing settlement fees that currently go to miners of other blockchains.
 
-{{% image "/img/ba-628.png" /%}}
+{{% image "/img/ba-628.webp" /%}}
 
 > *“Solcoiners are selling their hashrate to interplanetary society. And, you know, there’s no such thing as interplanetary society. There are individual planets and moons and there are asteroids.”*
 >
@@ -119,7 +119,7 @@ But Terran miners won’t be the only Solcoin supporters.  To find others, we m
 
 Not all humans will choose to live on or near planetary bodies.  Many will prefer to take up residence in engineered space habitats that offer the most Earth-like living conditions away from the hustle and grime of Earth itself.  Spinning cylinders can provide Earth-equivalent gravity, which is much more difficult to produce on the surface of Mars or the Moon.  Fusion lamps, powered by water, can provide Earth-natural sunlight.  Space habitats can thrive anywhere.  Some may even migrate.
 
-{{% image "/img/ba-629.png" %}}
+{{% image "/img/ba-629.webp" %}}
 _Artificial space colonies can house millions of people and orbit anywhere in the solar system.  How will the builders of these bauble worlds participate in the mining industry? [[Source](https://commons.wikimedia.org/wiki/File:Spacecolony3edit.jpeg)]_
 {{% /image %}}
 
@@ -129,7 +129,7 @@ It is possible that belters on opposite sides of the solar system feel no mutual
 
 But a settled belt is very different than a planet.  A single space colony may house a few million people, about the scale of a large city.  The billions of humans eventually settling the asteroid and Kuiper belts will be spread across hundreds and then thousands of such colonies.  At first the colonies may be near each other, but over time they will distribute around the full circumference of the belts.  If belters were to start a blockchain, what block time should they choose?
 
-{{% image "/img/ba-630-en.jpg" %}}
+{{% image "/img/ba-630-en.webp" %}}
 _Belts are extended objects which span significant distances in space.  The asteroid belt (left), between Mars and Jupiter, is about a light-hour in diameter.  The Kuiper belt (right), beyond the orbit of Neptune, is a full light-day in diameter.  Type I blockchains with block times of minutes can be used by belters but will never be mined by them.  The huge amounts of energy available in the belts will only be harnessed by a Type II blockchain with a block time comparable to (or, more likely, many times) their diameter._
 {{% /image %}}
 
@@ -197,7 +197,7 @@ For a person who expects to live for 10,000 years and is accustomed to casual co
 
 Modern transportation networks make our world feel small.  Voyages between distant worlds will take months and be expensive.  This will cause interplanetary travel to become highly stratified by time-preference.
 
-{{% image "/img/ba-631.jpg" %}}
+{{% image "/img/ba-631.webp" %}}
 _Isochrone map of distances from London, circa 1843.  Anywhere in Europe could be reached within a week but it could take months to reach the more far-flung parts of the British Empire.  The vast distances of space will similarly require many months to cross.  In this way the future will be like the past. ([source](https://www.1843magazine.com/places/cartophilia/time-travel))_
 {{% /image %}}
 
@@ -207,7 +207,7 @@ There are even more energy efficient trajectories between worlds (utilizing the 
 
 ### Investment horizons are long
 
-{{% image "/img/ba-632.png" %}}
+{{% image "/img/ba-632.webp" %}}
 _“Meths” in Netflix’s Altered Carbon series are immortal oligarchs commanding vast power and wealth.  They can afford unlimited backups of their own bodies and can spend decades traveling between star systems.  How would such a person store their wealth?_
 {{% /image %}}
 
@@ -229,7 +229,7 @@ This will not be apparent to elites when Solcoin first launches.  “Serious”
 
 Science fiction often depicts interplanetary societies launching interstellar missions or constructing megastructures, such as [ringworlds](https://en.wikipedia.org/wiki/Ringworld), [Dyson spheres/swarms](https://en.wikipedia.org/wiki/Dyson_sphere), [Shkadov thrusters](https://en.wikipedia.org/wiki/Stellar_engine), &c., but seldom describes how such projects are funded.  Megaprojects will be the most expensive and largest collaborations in the history of our species, consuming more energy than entire planetary societies.  They will take thousands of years to complete, which means thousands of years of paying designers, suppliers, & builders from Mercury to the Kuiper belt.  What currency will these people and companies demand?  Solcoin, of course!
 
-{{% image "/img/ba-633.png" %}}
+{{% image "/img/ba-633.webp" %}}
 _A “Dyson Sphere” is a swarm of spacecraft & colonies harvesting the full energy output of a star.  Which markets are hungry enough to consume a star’s worth of energy? [[Source](https://commons.wikimedia.org/wiki/File:A_Dyson_Swarm_Superstructure_(21983905140).png)]_
 {{% /image %}}
 
@@ -277,7 +277,7 @@ Type I & II blockchains can “overlap” in space because the market segregates
 
 Blockchains aren’t waves, but they are self-sustaining. They contain energy, and they’re characterized by constrained parameters.  Instead of a frequency, a blockchain has a block time.  Instead of a wavelength, it has a hash horizon.  Lower the frequency (block time) and the wavelength (hash horizon) increases (due to the First Law).  Interestingly, as we saw above, lowering the frequency _increases_ the energy — Solcoin uses much more energy than a planetary blockchain.We can use this analogy to talk about blockchains in a new way.  Two blockchains with very different frequencies/wavelengths (block times/hash horizons) such as Solcoin and bitcoin can overlap.  They don’t “economically interfere” with each other because they operate at such different timescales.  The market can support both blockchains for their different use cases.
 
-{{% image "/img/ba-634-en.jpg" /%}}
+{{% image "/img/ba-634-en.webp" /%}}
 
 We can use this analogy to talk about blockchains in a new way.  Two blockchains with very different frequencies/wavelengths (block times/hash horizons) such as Solcoin and bitcoin can overlap.  They don’t “economically interfere” with each other because they operate at such different timescales.  The market can support both blockchains for their different use cases.
 

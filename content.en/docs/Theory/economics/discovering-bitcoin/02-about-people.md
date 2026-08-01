@@ -34,7 +34,7 @@ In this installment, we will build on the previously acquired strategies of stor
 
 Welcome back, dear reader. Let’s further explore the period of monetary (pseudo)history prior to fiat money, which we call “Plan A,” this time focusing on the topic of people and on the question “Who?” As we established in [Part 1](/en/discovering-bitcoin/about-time) you are now a very successful caveman: You own and manage a huge fleet of fishing boats, catching more fish than you could eat in a lifetime.
 
-{{% image "/img/sb-317.jpeg" %}}
+{{% image "/img/sb-317.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -44,7 +44,7 @@ Consider this scenario: Apart from fishing, each caveperson can also draw two ja
 
 What if, instead of eating two fish and storing 998, you start storing just 997 and _exchanging_ one with Alice, a nice cavewoman who can give you an extra jar of water in return? In this way your utility increases, and after two days Alice could start working on her own fishing rod! Clearly, the number of possible exchanges can grow with the number of cavepeople in your local cave-economy.
 
-{{% image "/img/sb-318.jpeg" %}}
+{{% image "/img/sb-318.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
@@ -82,7 +82,7 @@ You and your cave-friends want to exchange with a growing number of different pe
 
 Furthermore, the more people exchange, the more they draw the attention of caveman Mallory: a local bully who doesn’t want to increase his wealth by providing value, but by tracking, controlling, censoring and taxing exchanges. When Mallory’s lust for control arrives at the point that he tries to ban exchanges between cavemen not “registered” with him, a lot of cavepeople are excluded from the scope of trade: This is the phenomenon known as “financial exclusion” and it reduces utility for everybody.
 
-{{% image "/img/sb-321.jpg" %}}
+{{% image "/img/sb-321.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

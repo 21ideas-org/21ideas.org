@@ -28,7 +28,7 @@ weight: 69
 
 Начнем со схемы, которую я объясню ниже...
 
-{{% image "/img/mining/02-ru.png" %}}
+{{% image "/img/mining/02-ru.webp" %}}
 *(Источник изображения: [@jirols_btc](https://twitter.com/jirols_btc))*
 {{% /image %}}
 

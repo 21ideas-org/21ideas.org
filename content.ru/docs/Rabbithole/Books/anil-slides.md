@@ -4,7 +4,7 @@ h1: "Презентации Анила"
 tags: ["anilsaido", "новичкам", "презентация", "анил"]
 description: "Анил — независимый биткоин-преподаватель, создающий наглядные визуальные слайды, объясняющие принципы работы биткоина."
 url: anil-slides
-cover: /img/anil-slides/anil_slides.png
+cover: /img/anil-slides/anil_slides.webp
 bookCollapseSection: false
 bookFlatSection: false
 bookToc: false
@@ -15,7 +15,7 @@ weight: 50
 
 {{< details "Почему деньги стремятся к одной форме" "...">}}
 
-![moneyone](/img/anil-slides/moneyone.png)
+![moneyone](/img/anil-slides/moneyone.webp)
 
 ## Почему деньги стремятся к одной форме
 
@@ -34,7 +34,7 @@ weight: 50
 
 {{< details "Биткоин: способы применения" "...">}}
 
-![terminology](/img/anil-slides/usecases.png)
+![terminology](/img/anil-slides/usecases.webp)
 
 ## Биткоин: способы применения
 
@@ -48,7 +48,7 @@ weight: 50
 
 {{< details "Nostr Интро" "...">}}
 
-![nostr-intro](/img/anil-slides/nostr-intro.png)
+![nostr-intro](/img/anil-slides/nostr-intro.webp)
 
 ## Nostr Интро
 
@@ -67,7 +67,7 @@ weight: 50
 
 {{< details "Биткоин заблуждения" "...">}}
 
-![fallacies](/img/anil-slides/fallacies.png)
+![fallacies](/img/anil-slides/fallacies.webp)
 
 ## Биткоин заблуждения
 
@@ -83,7 +83,7 @@ weight: 50
 
 {{< details "Биткоин: терминология" "...">}}
 
-![terminology](/img/anil-slides/terminology.png)
+![terminology](/img/anil-slides/terminology.webp)
 
 ## Биткоин: терминология
 
@@ -101,7 +101,7 @@ weight: 50
 
 {{< details "Основы Proof of Work" "...">}}
 
-![pow](/img/anil-slides/pow.png)
+![pow](/img/anil-slides/pow.webp)
 
 ## Основы Proof of Work
 

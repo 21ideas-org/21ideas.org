@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Universe"
 h1: "Bitcoin Universe"
-cover: /img/uvs-865.png
+cover: /img/uvs-865.webp
 description: ""
 url: bitcoin-universe
 date: 2021-09-26
@@ -22,7 +22,7 @@ When we look at the cryptoasset universe, there are two distinct hemispheres: 1)
 
 Bitcoin is more akin to the internet itself, which is composed of an open-source protocol stack called the internet protocol suite (consisting of http, TCP/IP, etc.)
 
-{{% image "/img/uvs-866-en.png" /%}}
+{{% image "/img/uvs-866-en.webp" /%}}
 
 In the same way the internet is a set of open protocols for exchanging information, Bitcoin is a set of open protocols for exchanging value. Hence its common nickname “the internet of value”.
 
@@ -32,11 +32,11 @@ This perspective also gives us a useful analogy when thinking about how one coul
 
 Bitcoin is free market money competing against monopoly money (pun intended). Bitcoin is disintermediating the market for money, which today is monopolized by central banks.
 
-{{% image "/img/uvs-867.png" /%}}
+{{% image "/img/uvs-867.webp" /%}}
 
 In the other half of the cryptoasset universe, we have Alternative Cryptoassets (also called Alts or Altcoins).
 
-{{% image "/img/uvs-883.png" /%}}
+{{% image "/img/uvs-883.webp" /%}}
 
 Alts have adopted the open-source technology underpinning Bitcoin to attempt to compete against it directly, disintermediate other markets, or enable new markets.
 
@@ -44,7 +44,7 @@ So far, the use cases for Alts are mostly unproven (with the possible exception 
 
 Alts are venture capital investments that can be launched at extremely low cost and are subjected to little, if any, professional due diligence (hence their other nickname - shitcoins).
 
-{{% image "/img/uvs-868.png" /%}}
+{{% image "/img/uvs-868.webp" /%}}
 
 Some alts may one day succeed meaningfully, however these venture-style investments are much more risky than Bitcoin.
 
@@ -60,7 +60,7 @@ No matter what technology is used to accomplish it, the purpose of telecommunica
 
 However, the telecommunications technologies we use to communicate evolve over time (from cave paintings to carrier pigeons to newspapers to telegraphs to telephones to digital media).
 
-{{% image "/img/uvs-869-en.jpeg" /%}}
+{{% image "/img/uvs-869-en.webp" /%}}
 
 As newer telecommunications technologies are invented that provide higher speed, fidelity, reliability, traceability or mobility – they become the dominant means of communicating information across space and time.
 
@@ -68,7 +68,7 @@ Similar to the purpose of telecommunications, the purpose of money also remains 
 
 However, the monetary technologies we use to communicate value also evolve over time (from seashells to salt to cattle to stones to precious metals).
 
-{{% image "/img/uvs-870-en.jpeg" /%}}
+{{% image "/img/uvs-870-en.webp" /%}}
 
 As newer monetary technologies are invented that provide higher hardness, divisibility, portability, durability or recognizability – they become the dominant method of communicating value across space and time.
 
@@ -92,7 +92,7 @@ Gold is virtually indestructible, so nearly every ounce ever mined throughout hi
 
 Gold is rare in the earth’s crust and it takes time and energy to extract it (low flow).
 
-{{% image "/img/uvs-871-en.png" /%}}
+{{% image "/img/uvs-871-en.webp" /%}}
 
 The Hardness of gold resulted in it outcompeting silver several times throughout history and is the reason silver is almost entirely demonetized today. This competitive dynamic is easily explained from a game theory perspective:
 
@@ -112,7 +112,7 @@ As governments created more bank notes than they could support with their gold r
 
 In 1933, executive order #6102 required all US citizens to exchange their gold holdings for US dollars under the threat of up to 10 years imprisonment.
 
-{{% image "/img/uvs-872.png" /%}}
+{{% image "/img/uvs-872.webp" /%}}
 
 During WWII, The US became a safe haven for European gold hoards as a means of protection from Nazi plundering, thus positioning it to rewrite the rules of the global economic order.
 
@@ -126,15 +126,15 @@ So today, the world is dominated by government fiat money which is backed by abs
 
 In the wake of the 2008 Great Recession, when central banks all over the world were busy printing more fiat currencies to reflate their respective economies, Satoshi Nakamoto released an open-source software project into the world called Bitcoin.
 
-{{% image "/img/uvs-874.png" /%}}
+{{% image "/img/uvs-874.webp" /%}}
 
 Bitcoin is the Hardest form of money that has ever existed. This momentous innovation is made possible by an ever-rising production difficulty that requires expenditure of real world energy (in a process called proof-of-work or mining).
 
-{{% image "/img/uvs-875.png" /%}}
+{{% image "/img/uvs-875.webp" /%}}
 
 Bitcoin’s stock-to-flow ratio increases inevitably every 4 years will surpass that of gold in May 2020. Bitcoin’s monetary policy is enforced by unbreakable cryptography, hence the inevitability (as sure as 1+1=2).
 
-{{% image "/img/uvs-876.png" /%}}
+{{% image "/img/uvs-876.webp" /%}}
 
 Bitcoin is also the world’s first incarnation of an asset with perfect price inelasticity of supply, as changes in its price have absolutely no impact on its supply flow. This means increases in demand for Bitcoin can only be expressed in its market price.
 
@@ -144,31 +144,31 @@ With Bitcoin, no matter how much its price increases, it is absolutely impossibl
 
 Bitcoin is also the world’s first instance of ‘absolute scarcity’ as its monetary policy is fixed, only 21M units will ever exist. Before Bitcoin, only time itself was absolutely scarce (the formula for Bitcoin's fixed monetary policy is pictured here).
 
-{{% image "/img/uvs-877.png" /%}}
+{{% image "/img/uvs-877.webp" /%}}
 
 This means that its stock-to-flow ratio will continue to increase and eventually become infinite when the last Bitcoin is produced sometime in the middle of the 22nd century.
 
 Bitcoin’s monetary policy (its new supply flow schedule) is becoming the most trusted in the world as it is fully transparent and unchangeable.
 
-{{% image "/img/uvs-878.png" /%}}
+{{% image "/img/uvs-878.webp" /%}}
 
 Bitcoin runs countervailing to government monetary policy which is uncertain, opaque and subject to change based on the whim of bureaucrats.
 
-{{% image "/img/uvs-879.png" /%}}
+{{% image "/img/uvs-879.webp" /%}}
 
 Essentially, we each must decide if we are to trust the whimsical nature of self-interested bureaucrats or the inviolable nature of mathematics to manage our money supply.
 
 So we have Bitcoin, the Hardest form of money in history, competing directly with government money, the Softest form of money in history…
 
-{{% image "/img/uvs-880.png" /%}}
+{{% image "/img/uvs-880.webp" /%}}
 
 Game theory and history shows us that people will naturally and rationally seek to store their wealth in the Hardest money available to them. This emergent market behavior is based on the anticipated decisions of others and will eventually spiral into an adoption frenzy.
 
-{{% image "/img/uvs-881-en.png" /%}}
+{{% image "/img/uvs-881-en.webp" /%}}
 
 So long as Bitcoin continues to exist (and without even considering its other superior traits as a form of money) we believe it will continue to outcompete gold and government money in the free market and appreciate in value.
 
-{{% image "/img/uvs-882.png" /%}}
+{{% image "/img/uvs-882.webp" /%}}
 
 Hard money, as selected on the free market, reigned for the first 4,900 out of 5,000 years of human commercial history and we are witnessing its reemergence in the rise of Bitcoin.
 
@@ -182,4 +182,4 @@ A bet on Bitcoin is that the competitive dynamics inherent to the market for mon
 
 Thank you for reading. This is the Bitcoin and cryptoasset universe in a nutshell.
 
-{{% image "/img/uvs-884.png" /%}}
+{{% image "/img/uvs-884.webp" /%}}

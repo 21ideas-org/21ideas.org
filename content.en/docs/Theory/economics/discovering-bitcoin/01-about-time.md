@@ -32,13 +32,13 @@ As anticipated in the [introduction to this series](/en/discovering-bitcoin/intr
 
 ## From Immediate Consumption ... to Storage ...
 
-{{% image "/img/sb-308.jpeg" %}}
+{{% image "/img/sb-308.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 
 Your caveman life is based on immediate consumption: You use your bare hands and a pointy stick to catch two fish every day, then you go back to the cave and you eat them immediately. One fish would be enough to survive, two are enough to feel “Thanksgiving full.” Every day you catch and eat two. You don’t save. It’s always the same. Your “utility function” (this is what a fancy economist would call it) is constant with respect to time.
 
-{{% image "/img/sb-309.jpg" %}}
+{{% image "/img/sb-309.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

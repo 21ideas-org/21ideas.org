@@ -1,7 +1,7 @@
 ---
 title: "Lightning Network Privacy"
 h1: "Current State of Lightning Network Privacy"
-cover: /img/pln-216.jpeg
+cover: /img/pln-216.webp
 description: ""
 url: lightning-network-privacy
 date: 2021-05-10
@@ -24,7 +24,7 @@ Everyone has a right to financial privacy and deserves to be aware of these thin
 
 ## Overview of Lightning
 
-{{% image "/img/pln-217-en.png" %}}
+{{% image "/img/pln-217-en.webp" %}}
 _Alice paying Carol via the existing channel she has with Bob._
 {{% /image %}}
 
@@ -58,13 +58,13 @@ Most, if not all, home node implementations like [Raspiblitz](https://github.com
 
 While it is possible to change your network, this information could be archived by others. You can look at [1ml](https://1ml.com/) to see network changes they keep track of.
 
-{{% image "/img/pln-218.png" %}}
+{{% image "/img/pln-218.webp" %}}
 _https://1ml.com/node/030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f/history_
 {{% /image %}}
 
 Putting that info into an IP lookup site, I can see that this node is using an Ireland AWS server for their node.
 
-{{% image "/img/pln-219.png" %}}
+{{% image "/img/pln-219.webp" %}}
 _https://whatismyipaddress.com/ip/52.50.244.44_
 {{% /image %}}
 
@@ -78,7 +78,7 @@ One disadvantage to using Tor only is that IP-based nodes can not start a connec
 
 #### Alias
 
-{{% image "/img/pln-220.png" %}}
+{{% image "/img/pln-220.webp" %}}
 _https://1ml.com/_
 {{% /image %}}
 
@@ -100,7 +100,7 @@ One notable exception though is [LNURL Auth](https://github.com/fiatjaf/lnurl-rf
 
 Like I mentioned before, one must lock up a UTXO with another node in a payment channel. Open channel transactions look just like transferring funds into a multi-sig address. Nothing outright is revealed by this transaction or address. However, the information about the channel (if public) is distributed across the Lightning network. The channel information includes the transaction & output index (channel point).
 
-{{% image "/img/pln-221.png" %}}
+{{% image "/img/pln-221.webp" %}}
 _https://1ml.com/node/03cde60a6323f7122d5178255766e38114b4722ede08f7c9e0c5df9b912cc201d6/channels_
 {{% /image %}}
 
@@ -120,7 +120,7 @@ So we’ve figured out that, currently, one or the other node in a channel owned
 
 In another case, if Alice had 1 UTXO and she opened a channel for a partial amount then used the change to open another, you could assume both were initiated by Alice. Alice used her change from one to open another so we know those UTXOs belonged to her. A node opening a channel for a partial amount sets the change address back to itself.
 
-{{% image "/img/pln-222-en.png" %}}
+{{% image "/img/pln-222-en.webp" %}}
 _Alice using TX 1 to open two consecutive channels reveal her as the opener._
 {{% /image %}}
 
@@ -138,13 +138,13 @@ For starters, there are several reasons to open an unannounced channel. You may 
 
 Another reason people assume they want unannounced channels is to conceal the UTXO. After all, it is standard privacy hygiene to not link your UTXOs to each other. This assumption breaks down for several reasons.
 
-{{% image "/img/pln-223-en.png" %}}
+{{% image "/img/pln-223-en.webp" %}}
 _An invoice with private routing hints will include channel ID which breaks down into UTXO info._
 {{% /image %}}
 
 To receive funds via private channels, you have to encode the private channel info into the invoice that you give to the sender. Unfortunately, channel IDs are determined by the UTXO info. Senders can tell what UTXOs make up your private channels. Remember the 50% best case, 100% worse case spoken above, the same is applied here. If you did not send the invoice via a secured communication channel, consider it public info. Also, consider that the sender may use this info against you and could sell or publicize it.
 
-{{% image "/img/pln-224-en.png" %}}
+{{% image "/img/pln-224-en.webp" %}}
 _https://arxiv.org/pdf/2004.00333.pdf_
 {{% /image %}}
 
@@ -160,7 +160,7 @@ Solution: to conceal one of your UTXOs, open a private channel behind one of you
 
 While it is possible to find active private channels, it is also possible to [find the existence of closed private channels](https://arxiv.org/pdf/2003.12470.pdf). Chain analytics could be used on closing channel transactions to figure out both channel peers.
 
-{{% image "/img/pln-225-en.png" %}}
+{{% image "/img/pln-225-en.webp" %}}
 _It's reasonable to determine Alice's and Bob's private channel based on the following the closing channel tx change._
 {{% /image %}}
 
@@ -188,7 +188,7 @@ At this point, I’ve laid out a brain dump on UTXOs and channels making up your
 
 Typically, whenever you want to receive a payment, you create an invoice and give that to the sender. The invoice will consist of your node's public key, the amount, the description, private routing hints, and is signed by your node's private key. With your public key, the sender can look up your node to get channels, UTXOs, tor/IP address info, and much more. The private routing hints reveal your private channel UTXO info too.
 
-{{% image "/img/pln-226.png" %}}
+{{% image "/img/pln-226.webp" %}}
 _An example lightning invoice_
 {{% /image %}}
 
@@ -216,7 +216,7 @@ So let’s dive into some cases where the sender can be revealed.
 
 ### 1 hop
 
-{{% image "/img/pln-227-en.png" %}}
+{{% image "/img/pln-227-en.webp" %}}
 _A small Lightning Network where Alice pays Bob. Who else could have paid Bob but Alice? Bob knows this._
 {{% /image %}}
 
@@ -228,7 +228,7 @@ Solution: If you only have 1 channel, do not send funds directly to your channel
 
 ### 2 hop
 
-{{% image "/img/pln-228-en.png" %}}
+{{% image "/img/pln-228-en.webp" %}}
 _A small Lightning Network where Bob is an LSP. Bob can know payments are from one user to another when they have no other connections._
 {{% /image %}}
 
@@ -248,7 +248,7 @@ I have laid out a 1 & 2 hop scenario where a router or the destination might be 
 
 [Balance probing](https://s-tikhomirov.github.io/lightning-probing/) is where an attacker attempts to route many fake payments through nodes in an attempt to figure out how much funds sit on either side. In the Lightning Network, only the total public channel amount is known by the network. In a 1 bitcoin channel between Alice and Bob, at any given point, Alice could have .7 of the funds on her side while .3 on his. That could change as payments flow through their channel.
 
-{{% image "/img/pln-229-en.png" %}}
+{{% image "/img/pln-229-en.webp" %}}
 _Carol attacking the channel between Alice and Bob to figure out the balance between them._
 {{% /image %}}
 
@@ -282,7 +282,7 @@ While this is where we stand, there are a few additional lightning tech worth me
 
 ### MPP
 
-{{% image "/img/pln-230-en.png" %}}
+{{% image "/img/pln-230-en.webp" %}}
 _A small Lightning Network where Alice pays an invoice through multiple paths. Bob nor Carol see the total payment amount._
 {{% /image %}}
 

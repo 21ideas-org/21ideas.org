@@ -1,7 +1,7 @@
 ---
 title: "Биткоин-астрономия"
 h1: "Биткоин-астрономия"
-cover: /img/160.png
+cover: /img/160.webp
 bookCollapseSection: true
 url: ba
 weight: 1

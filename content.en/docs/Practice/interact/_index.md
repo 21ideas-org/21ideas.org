@@ -2,8 +2,8 @@
 title: "Interact"
 type: docs
 h1: " "
-cover: /img/main-section/en/interact-dark.png
-coverDark: /img/main-section/en/interact-light.png
+cover: /img/main-section/en/interact-dark.webp
+coverDark: /img/main-section/en/interact-light.webp
 bookCollapseSection: true
 url: practice/interact
 weight: 3

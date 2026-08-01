@@ -1,7 +1,7 @@
 ---
 title: "Осваиваем Биткоин"
 h1: "Осваиваем Биткоин"
-cover: /img/books/mastering-bitcoin-3e.png
+cover: /img/books/mastering-bitcoin-3e.webp
 description: "Книга будет интересна разработчикам, инженерам, архитекторам программных и прочих систем, а также всем, кто хочет глубже узнать о криптовалютах и блокчейн-технологиях."
 url: osvaivaem-bitcoin
 date: 2023-12-12

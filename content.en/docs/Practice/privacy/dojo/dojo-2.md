@@ -2,7 +2,7 @@
 title: "Installing Fulcrum Indexer"
 h1: "Part 2. Installing Fulcrum Indexer"
 description: ""
-cover: /img/dojo-05.jpg
+cover: /img/dojo-05.webp
 url: practice-privacy/dojo-2
 date: 2023-12-20
 bookFlatSection: false

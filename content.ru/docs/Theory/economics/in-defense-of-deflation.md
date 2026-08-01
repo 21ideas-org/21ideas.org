@@ -1,7 +1,7 @@
 ---
 title: "В защиту дефляции"
 h1: "В защиту дефляции"
-cover: /img/vzd-500.jpeg
+cover: /img/vzd-500.webp
 description: "Транскрипт беседы Филиппа Багуса со Стефаном Ливерой об основных заблуждениях о дефляции."
 url: v-zashchitu-deflyacii
 aliases: ['/theory-economics-in-defense-of-deflation']

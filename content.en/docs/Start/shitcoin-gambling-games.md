@@ -1,7 +1,7 @@
 ---
 title: "Don’t Play Shitcoin Gambling Games"
 h1: "Don’t Play Shitcoin Gambling Games"
-cover: /img/shit-921.png
+cover: /img/shit-921.webp
 description: ""
 url: shitcoin-gambling-games
 date: 2021-01-21

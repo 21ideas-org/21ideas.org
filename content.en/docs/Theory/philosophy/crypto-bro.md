@@ -31,7 +31,7 @@ Admitting that you've been fooled is one of the hardest things there is. It take
 
 If that's too painful right now, fine. Step back. Do something else for a while. Spend some time with your family, or in the woods, or go fishing or something. And once you come back, try to wrap your head around the following: _Bitcoin is the signal_, and the rest is noise. All of it.
 
-{{% image "/img/bro-781-en.jpg" %}}
+{{% image "/img/bro-781-en.webp" %}}
 Bitcoin is the signal.
 {{% /image %}}
 
@@ -160,25 +160,25 @@ Speaking of price: it helps to put things in a broader context when talking abou
 
 It is worth noting, for example, that the USD M2 money supply has expanded massively in the last couple of decades. The most recent expansion of over 30% was in large part due to the monetary response to the worldwide lockdowns. In other words: when measuring the value of things in USD, everything is distorted by at least 30%.
 
-{{% image "/img/bro-787.png" %}}
+{{% image "/img/bro-787.webp" %}}
 Shitcoin printer go BRRR (Source: Porkopolis)
 {{% /image %}}
 
 When it comes to economic views, we see with and through the respective currency we are forced to do economic calculations with. Whether our default lens is the USD, the EUR, or the YEN, depends mostly on circumstance and geography. Granted, BTC is not universally useful as a lens yet, but it is useful as a comparison to fiat lenses. It is useful because it provides a counter-balance to the inflationary monetary policies of fiat currencies. It is useful because, from a BTC point of view, it shows that everything is being repriced in sats. Even the [stupid shit](https://bitcoinorshit.com/) you bought a couple of years ago.
 
-{{% image "/img/bro-788.png" %}}
+{{% image "/img/bro-788.webp" %}}
 Some lenses are more useful than others.
 {{% /image %}}
 
 Consequently, bitcoiners like to speak of purchasing power because it is irrespective of the nominal value bound to fiat currency measure. Note, for example, that the BTC chart looks very different depending on what you use as measurement, whether its USD (United States dollar), ARS (Argentine peso), NGN (Nigerian naira), VED (Venezuelan bolívar), or — to pick something else entirely — the S&P 500, gold, or barrels of oil.
 
-{{% image "/img/bro-789.png" /%}}
+{{% image "/img/bro-789.webp" /%}}
 
 In the western world, we are especially oblivious to the fiat lens through which we view the world. We are mostly dealing with "stable" currencies, i.e., currencies that are slowly declining in purchasing power. But make no mistake: all fiat currencies are inflating. If money can be printed, it will be printed. The temptation is simply too strong.
 
 Consequently, all fiat monies are monies of decline. And if this decline happens too quickly—[When Money Dies](https://bitcoin-resources.com/books/when-money-dies) — the distortion in prices becomes obvious. And if the distortion gets big enough, all long-term economic calculation — and with it, regular life — breaks down.
 
-{{% image "/img/bro-790.png" %}}
+{{% image "/img/bro-790.webp" %}}
 Do you think it rose substantially from 2019 to 2022?
 {{% /image %}}
 
@@ -208,7 +208,7 @@ I used to be a crypto bro myself, and it was the difficulty I had when trying to
 
 The most difficult thing is to get rid of the fiat mindset, which is to say to step back and ask yourself very simple questions about money: why do we have it, why do we need it, why does it have to be scarce, why can some people print it while most have to work for it, and so on. These are hard questions. Those who run the money printers don't want you to ask, "[WTF happened in 1971?](https://wtfhappenedin1971.com/)" Those who run the shitcoin casinos don't want you to ask, "but where does the yield come from?"
 
-{{% image "/img/bro-792.png" %}}
+{{% image "/img/bro-792.webp" %}}
 BUT WHERE DOES THE YIELD COME FROM?
 {{% /image %}}
 
@@ -216,7 +216,7 @@ But even with all the shenanigans that are currently going on, I'm hopeful. Afte
 
 This assumption is not based on faith. Bitcoin's on-chain data shows certain patterns, which I would summarise as "understanding increases conviction, conviction increases allocation"—or: the more you know, the more you buy.
 
-{{% image "/img/bro-793.png" %}}
+{{% image "/img/bro-793.webp" %}}
 ~73% of sats have been held for more than a year
 {{% /image %}}
 
@@ -240,7 +240,7 @@ But yes, while bitcoin is monetizing, swings in purchasing power are to be expec
 
 No, you didn't. We are still very early in the unfolding of the bitcoinization process. Everyone thinks they are late.  **Everyone thinks that they have missed the bus.**
 
-{{% image "/img/bro-794.jpg" %}}
+{{% image "/img/bro-794.webp" %}}
 Bitcoin is a hop-on hop-off bus, and round and round it goes.
 {{% /image %}}
 

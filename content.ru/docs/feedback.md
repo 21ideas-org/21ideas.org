@@ -1,8 +1,8 @@
 ---
 title: "Обратная связь"
 h1: Обратная связь
-# cover: /img/main-section/ru/feedback-light.png
-# coverDark: /img/main-section/ru/feedback.png
+# cover: /img/main-section/ru/feedback-light.webp
+# coverDark: /img/main-section/ru/feedback.webp
 bookCollapseSection: false
 type: docs
 url: feedback

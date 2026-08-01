@@ -1,7 +1,7 @@
 ---
 title: "Understanding the RGB protocol"
 h1: "Understanding the RGB protocol"
-cover: /img/rgb-927.png
+cover: /img/rgb-927.webp
 description: ""
 url: rgb
 date: 2022-04-20
@@ -40,7 +40,7 @@ The core of the idea is to use the Bitcoin blockchain only for what it is indisp
 
 How does all of this work? In RGB, basically tokens always need to be assigned to a Bitcoin UTXO (either already existing or created ad hoc), and to move the tokens you need to spend such UTXO. While spending the UTXO, the Bitcoin transaction will have to include a commitment to a message containing the RGB payment information, defining input(s), Bitcoin UTXO(s) where the tokens will be sent to, asset id, amount, spending conditions and other extra data you may want to attach.
 
-{{% image "/img/rgb-929.png" %}}
+{{% image "/img/rgb-929.webp" %}}
 *If you have tokens assigned to the Output 1 of Bitcoin transaction A, to move them you would need to create an RGB transaction and a Bitcoin transaction spending from TX A: output 1 committing to the RGB transaction. As you can see, the RGB transaction is moving tokens from Bitcoin TX A: output 1 to Bitcoin TX C: output 2 (which is not shown in this diagram), not towards any output of Bitcoin TX B. In most cases, we can expect TX B outputs to just change addresses to send the satoshis owned by the UTXO being spent back to the owner minus the fee, while committing to the RGB transaction to avoid the possibility of double spending.*
 {{% /image %}}
 
@@ -68,7 +68,7 @@ Since RGB is built on Bitcoin, it is possible to move RGB tokens on top of the L
 
 Another proposed solution to make not so popular assets viable on the Lightning Network is to introduce nodes that provide an exchange service between a specific asset and bitcoin. In this way, once exchanged in bitcoin, value can be relayed over the network leveraging bitcoin liquidity, and when reaching the other side of the path, another exchange node will convert the bitcoins back into the original asset. This would eliminate the need for a liquid asset specific network. However, to make it practical, the trading volumes for each asset against bitcoin need to be high enough to incentivise market makers to operate exchange nodes in multiple parts of the network, offering a low enough bid-ask spread to avoid too much value being taken away from the payment during the two exchanges.
 
-{{% image "/img/rgb-931.png" %}}
+{{% image "/img/rgb-931.webp" %}}
 _Graphical representation of a possible Lightning Network with RGB coloured channels. The grey circles represent normal LN nodes, while coloured circles represent nodes supporting a specific RGB asset. When transferring an asset along a lightning path, there will be some nodes having both coloured and normal bitcoin channels which will act as exchange to allow the payment to get to destination leveraging bitcoin liquidity._
 {{% /image %}}
 

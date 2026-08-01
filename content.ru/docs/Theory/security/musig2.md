@@ -1,7 +1,7 @@
 ---
 title: "MuSig2 и FROST"
 h1: "MuSig2 и FROST – Объяснение схем мультиподписи в Taproot"
-cover: /img/musig2/musig-cover.png
+cover: /img/musig2/musig-cover.webp
 description: "В этой статье рассматривается, как схемы с несколькими подписями, построенные на базе Taproot, могут улучшить приватность и снизить комиссии за транзакции."
 url: musig2
 date: 2025-02-06

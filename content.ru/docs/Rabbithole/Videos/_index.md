@@ -4,8 +4,8 @@ h1: "Видео"
 tags: ["биткоин", "видео", "теория", "экономика", "видеоматериалы", "биткоин-видео"]
 description: "Видеоматериалы, посвященные Биткоину, экономике и личностному суверенитету"
 url: videos
-# cover: /img/main-section/ru/videos-light.png
-# coverDark: /img/main-section/ru/videos.png
+# cover: /img/main-section/ru/videos-light.webp
+# coverDark: /img/main-section/ru/videos.webp
 bookFlatSection: false
 bookToc: true
 weight: 2

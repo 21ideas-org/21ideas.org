@@ -1,7 +1,7 @@
 ---
 title: "Контакт"
 h1: "Контакт"
-cover: /img/books/contact.png
+cover: /img/books/contact.webp
 description: "Научно-фантастический роман, написанный знаменитым астрофизиком и популяризатором науки Карлом Саганом."
 url: contact_mir
 date: 1985-02-16

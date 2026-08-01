@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin is Not a Pyramid Scheme"
 h1: "Bitcoin is Not a Pyramid Scheme"
-cover: /img/bitcoin-pyramid.png
+cover: /img/bitcoin-pyramid.webp
 tags: ["bitcoin", "economics", "gradually then suddenly", "pyramid"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-not-a-pyramid-scheme
@@ -43,17 +43,17 @@ A few years ago, I received an email from a friend asking for my opinion about a
 
 *[Definition of a Pyramid Scheme](https://www.sec.gov/fast-answers/answerspyramidhtm.html) – Securities & Exchange Commission:*
 
-{{% image "/img/gts-9-1-en.png" /%}}
+{{% image "/img/gts-9-1-en.webp" /%}}
 
 *[Warning Signs of a Pyramid Scheme](https://www.consumer.ftc.gov/articles/0065-multi-level-marketing-businesses-and-pyramid-schemes) – Federal Trade Commission:*
 
-{{% image "/img/gts-9-2-en.png" /%}}
+{{% image "/img/gts-9-2-en.webp" /%}}
 
 Not all multi-level marketing programs are pyramid schemes, but all pyramid schemes are in some fashion a multi-level marketing program. With pyramid schemes, there is always some company and it is selling a product for which the end demand falls far short of the available supply. The company recruits participants to purchase inventory and to recruit new participants. The participants are all sales people, and compensation is tied mostly to recruiting, rather than selling the actual product. Often the sale of product is purposefully woven into the recruitment process. 
 
 In a normal sales-driven business, the company takes on the inventory risk and pays commissions based on sales to end users. In a pyramid scheme, the sales people take on the inventory risk, rather than the company, and compensation is paid for recruiting more sales people and selling product through to new participants. It all falls apart because sufficient end demand for the product does not actually exist. Everyone up the chain can make money at the expense of the new recruits at the end of the line. This is a pyramid scheme. Bitcoin is not. Bitcoin is not a company. It has no employees and its supply is finitely scarce. No matter how many people adopt it, there will only ever be 21 million bitcoin.
 
-{{% image "/img/gts-9-3-en.png" /%}}
+{{% image "/img/gts-9-3-en.webp" /%}}
 
 The distinctions should be glaringly obvious, but because bitcoin is complex and the very idea of money is not well understood, it can easily be confused. Bitcoin will only become a global reserve currency if hundreds of millions (if not billions) more adopt it. And seemingly everyone that goes down the bitcoin rabbit hole ends up on the other side explaining it to their family and friends, pitching it as a better form of money. Sounds kind of like a pyramid scheme, right? Wrong. When Dell started selling PCs on its website in 1996 and everyone told their friends to get a Dell, was it a pyramid scheme? When Apple released the first iPhone in 2007 and everyone told their friends to drop the Blackberry for its superior successor, was it a pyramid scheme? 
 
@@ -74,11 +74,11 @@ Relative to its competition, bitcoin is a vastly superior monetary medium.
 
 *Exhibit A – Dollar Historical Supply:*
 
-{{% image "/img/gts-4-4-en.png" /%}}
+{{% image "/img/gts-4-4-en.webp" /%}}
 
 *Exhibit B – Bitcoin Supply Schedule:*
 
-{{% image "/img/gts-5-4-en.png" /%}}
+{{% image "/img/gts-5-4-en.webp" /%}}
 
 The monetary base in fiat systems changes unpredictably whereas the monetary base in bitcoin is governed by a well-defined supply schedule. Think about the monetary base as setting the foundation of a global economic system. The unpredictable changes in the supply of dollars is not merely akin to shifting the proverbial goal posts. Instead, it is more similar to building the field on a 1980s-style water bed, and then shifting the goal posts. The whole game is distorted, not just the end points. Bitcoin, on the other hand, is a bedrock as a function of its fixed supply, and over time, the foundation becomes stronger and stronger. The credibility of its supply schedule is reinforced with each passing bitcoin block. As it becomes more evident that bitcoin’s supply schedule is credibly enforced, more people adopt bitcoin as a form of money, and those that already have increasingly use it as a store of wealth. Fixed supply + increasing adoption = increased value. As adoption increases and as value rises, bitcoin becomes further decentralized. And as bitcoin decentralizes over time, it becomes harder to change, reinforcing the credibility of its foundation: its fixed supply.
 
@@ -86,7 +86,7 @@ The monetary base in fiat systems changes unpredictably whereas the monetary bas
 
 In a pyramid scheme, the people selling the scheme are the scammers. These scammers are selling the promise of future monetary gains through high-pressure sales tactics and by recruiting new members to the scheme as the primary compensation mechanism. In bitcoin, the people buying bitcoin are the scammers, as described in Michael Goldstein’s timeless piece, [Everyone’s a Scammer](https://nakamotoinstitute.org/mempool/everyones-a-scammer/).  If this is you, you are the scammer. In most cases today, whenever someone buys bitcoin, they are directly trading a fractionally reserved form of currency (with the promise of future debasement) in return for a bearer asset with a finite supply and a vastly superior monetary policy. The person on the other end of the line is getting the raw deal. It is not to say that literally everyone that sells a bitcoin does so without good reason. It is money after all, and its utility is in exchange; by definition, market participants have a wide variety of present needs for liquidity and real value is transferred every time a bitcoin is transacted, whether for dollars or for goods and services. However, on average and over the longer-term, it is information asymmetry in full effect. Bitcoin’s monetary policy is optimally engineered and credibly enforced, though few understand it, which is why it represents the greatest asymmetry in the world today.
 
-{{% image "/img/gts-9-4-en.png" /%}}
+{{% image "/img/gts-9-4-en.webp" /%}}
 
 ## Monetary First Principles
 
@@ -94,13 +94,13 @@ A monetary medium with the lowest rate of change is most effective in communicat
 
 For example, an iPhone costs approximately $1,000, whereas a barrel of oil costs approximately $50. The information communicated through a monetary medium is that an iPhone costs approximately 20 times more than a barrel of oil. Money communicates opportunity cost (economic trade-offs) through its price system, and the more constant the quantity of money (lower rate of change), the more reliable the communication of information and economic trade-offs. If the money supply increased by 10% and prices adjusted equally, an iPhone would cost $1,100 and a barrel oil would cost $55. An iPhone would still cost 20 times more than a barrel of oil, and that is the relevant information which all market participants rely upon. In the real world, the problem is that prices do not adjust equally as the money supply changes. Instead, price signals become distorted. In a world with a constant money supply, changes in price would more accurately reflect changes in supply and demand in underlying markets for goods and services rather than also reflecting the unequal impact of a changing money supply. Changes in the money supply create noise extraneous to the underlying economic activity. Price coordinates economic trade-offs, and the reliability of a pricing system is dependent on the stability of the form of money used to communicate information.
 
-{{% image "/img/gts-9-5-en.png" /%}}
+{{% image "/img/gts-9-5-en.webp" /%}}
 
 In that regard, monetary goods are differentiated (at least those that emerge on the free market); it is why money is an effective communication tool. The market structure for money is different than that of all other goods. A consumption good is consumed and a production good is ultimately consumed in the production of other consumption goods. Whereas, the utility of money is in exchange; it is functional in the coordination of trade by and between consumption and production goods, rather than being consumed itself. Because the utility of money is in exchange, scarcity is more important than the nominal amount of money in an economy. As demand for money increases and as its price rises, there is not a commensurate supply response because of natural supply constraints. The same is not true for any individual good or service. The relative supply constraint of money is what allows it to communicate relative value between other goods and services. Consumption goods and production goods can be substituted for each other, but money facilitates virtually all exchange between all other goods. The value of a money may fluctuate relative to goods and services but relative scarcity of a money supply allows price to be communicated in terms of the money itself.
 
 Prior to bitcoin, no form of money was finitely scarce. Bitcoin has a fixed supply, capped at 21 million. Finite scarcity creates a constant where none existed previously. Imagine the supply of one good being perfectly constant while the supply of all other goods fluctuates. Demand for all goods changes, but only one constant exists: the supply of bitcoin. In this world, everything would be measured against the constant. The purchasing power of money would communicate far more perfect information through this pricing mechanism than if the supply of the money itself were changing. By creating one constant, everything else can be more reliably measured. And the desired information is not the absolute value of any one good. All value is subjective. Instead, the critical information communicated through a pricing mechanism is the relative value (or relative price) of many goods to each other. While price levels are ever changing due to constantly shifting supply and demand, the stability of the pricing mechanism itself allows for economic coordination via the communication of opportunity cost (i.e. how we know, or learn, that an iPhone costs approximately 20 times more than a barrel of oil).
 
-{{% image "/img/gts-9-6-en.png" /%}}
+{{% image "/img/gts-9-6-en.webp" /%}}
 
 ## Distortion of the Price System
 
@@ -110,13 +110,13 @@ The entire supply and demand structure of the economy becomes distorted as hundr
 
 For a more tangible example, the Fed purchased $1.7 trillion of mortgage-backed securities (~17% of all mortgages) following the financial crisis as part of its quantitative easing program, which ultimately increased the base money supply by $3.6 trillion. Most people recall that prior to the financial crisis there was a housing bubble. By directly purchasing mortgages and by inflating the money supply, the Fed manipulated interest rates lower. Housing relies heavily on the supply of credit and ultimately on the cost of interest. With lower interest rates and more money available to lend, housing prices were manipulated higher. As a result, distorted price signals were sent to both buyers and sellers. Developers of housing respond by building more homes (increasing supply) and buyers of homes believe they can take on more debt at lower rates to purchase homes. More resources in the economy are devoted to the function of housing because of higher price levels. However, any increase in demand can only be sustained so long as the cost of credit is continually manipulated downward as a function of an increasing money supply.
 
-{{% image "/img/gts-9-7.png" /%}}
+{{% image "/img/gts-9-7.webp" /%}}
 
 Despite wide recognition of the unsustainable housing bubble in 2007, the national home price index is now 15% higher than it was at the prior peak. This is the manipulation of price levels on full display, and it happens as an intended function of central bank monetary policy. The Fed increases the money supply, lowers interest rates, and inflates asset prices such that the amount of existing debt in the credit system can be sustained. Credit expansion is the Fed’s objective in stimulating growth, and net new credit cannot be created unless existing debt levels can be sustained, which is why the Fed must inflate asset prices to achieve its objectives. Asset prices support existing debt levels. When everyone figures out that the price signals are unsustainable and unreliable, it causes a shock to the system. This is what happened in 2007 and it is likely to happen again as the market signals have become even further distorted. But it is not some evil scheme; the Fed is not a purposively malicious actor. The Fed ultimately intends to promote “full employment” through its policies, but what it actually does is manipulate relative price signals which creates imbalances in the underlying supply and demand structures of the economy, creating sudden and more chronic unemployment.
 
 Hayek spoke on this subject in his 1974 Nobel Prize winning speech, [the Pretense of Knowledge](https://mises.org/library/pretense-knowledge). As a function of manipulated prices, more resources are devoted to a segment of the economy than could otherwise be sustained naturally; when the central bank changes the course of its monetary policy, prices begin to respond and the market corrects. Because price levels have been manipulated on a sustained basis, a demand shock becomes inevitable and everyone figures out imbalances exist. In the case of the housing example, supply (both of goods and labor) significantly exceeds sustainable demand at current price levels. More broadly, imbalances are everywhere. It becomes apparent that supply and demand are significantly out of balance and unemployment increases rapidly. The market cannot find an equilibrium because all markets have been manipulated on a sustained basis for extended periods of time.
 
-{{% image "/img/gts-9-8-en.png" /%}}
+{{% image "/img/gts-9-8-en.webp" /%}}
 
 This is what occurred during, and in the aftermath of, the financial crisis. It was the boiling over point after the Fed had manipulated the supply of money and the supply of credit for decades. As portrayed in the Big Short, the financial crisis often gets blamed on the subprime crisis, but the not-often-discussed 800-pound gorilla in the room is central bank monetary policy. Following the crisis, the Fed responded by pursuing the same policy action it had pursued for decades but on a much greater scale; it massively increased the money supply, further manipulating price signals. When the money supply is manipulated, recognize that not all price levels respond ratably. Money enters the system through different channels and the expansion of credit impacts certain segment of the economy more than others. All prices are manipulated, but not equally. It is fundamentally the distortion of relative prices which disrupt the underlying supply and demand function of a market. Price communicates information. It is how market participants communicate what they value on a relative basis. And, it is how all market participants then respond to those preferences on the supply side: what skills people train themselves with, what businesses people choose to build, what employment opportunities people seek. The Fed may not intend to do harm by manipulating the money supply, but ultimately, it is the unavoidable consequence of distorting the price mechanism within an economy.
 
@@ -128,7 +128,7 @@ Most people think of savings in monetary terms because money is a unit of accoun
 
 Bitcoin’s fixed supply is the foundation of its more reliable pricing system but it is also issued at a predictable rate. In the future state, when bitcoin reaches its maximum supply, the rate of change thereafter will be zero. But on its way to that future state, bitcoin imbeds a stable and predictable supply schedule, which is a distinct and equally important part of the equation. Bitcoin are issued through a mining process that helps to secure the network and the network adjusts to ensure that bitcoin are issued on average every ten minutes. If more mining resources are added to the network, the network adjusts to prevent bitcoin from being issued at a faster rate. More mining results in greater levels of network security, rather than increasing the rate of issuance or increasing the total amount of bitcoin that will ultimately be issued. This allows the entire economic system to plan for the future. It allows miners building security infrastructure to forecast future compensation, but it also allows all market participants to predictably know the rate of change of the currency at any point in time.
 
-{{% image "/img/gts-9-10-en.png" /%}}
+{{% image "/img/gts-9-10-en.webp" /%}}
 
 Rather than allowing bitcoin to be issued rapidly or at an unpredictable rate, the network ensures that bitcoin will be issued steadily over time and as a consequence, on a more distributed basis. Most importantly, it constantly reinforces the credibility of the overall issuance structure. Every ten minutes (on average), a certain number of bitcoin are issued. Approximately every four years that number is cut in half until ultimately no incremental bitcoin will be issued. On the path to 21 million, the enforcement of the fixed supply every ten minutes builds credibility in the future state supply over time. All market participants come to understand that the fixed supply will be enforced not because of a magical point in time when the maximum is actually reached, but instead because the network enforces its monetary policy every 10 minutes. By creating a predictable supply schedule, the rate of change predictably decreases, and all market participants can observe for themselves that the system is functioning as intended.
 
@@ -136,7 +136,7 @@ Rather than allowing bitcoin to be issued rapidly or at an unpredictable rate, t
 
 This process which constantly reinforces the credibility of bitcoin’s monetary system is occurring in parallel to the dysfunction of legacy monetary systems. Central banks everywhere are increasing the money supply of their respective economies at unpredictable rates. As discussed previously, the Fed increased the money supply in the U.S. by $3.6 trillion following the financial crisis, from 2008 to 2014. Despite the Fed forecasting its plans, no one knew what the total would ultimately be. Everyone was guessing. The Fed didn’t even know. And, after increasing the money supply by several multiples, the Fed then began removing $50 billion dollars from the economy each month, a process which began in October 2017. Again, no one knew exactly how much money would actually be removed from the system, in total or for how long. In aggregate, approximately $700 billion in base money was removed over the course of approximately two years. And now, as of October 2019, the Fed has once again shifted course and has begun to add more money back into the system. Just recently, the Fed signaled plans to add $60 billion dollars to the financial system each month (planned for the next six months). But once again, no one really knows for how long this will go on or whether the amounts will change. Realistically, the Fed does not know because it is impossible to know.
 
-{{% image "/img/gts-9-11.png" /%}}
+{{% image "/img/gts-9-11.webp" /%}}
 
 All we practically know is that from this point forward the money supply will increase (and by a lot). But recognize, most market participants have no idea any of this has occurred or is occurring. All market participants really know is what is communicated to them via prices and employment opportunities. Those that have an understanding of the Fed’s actions may be in a better position to forecast or predict the directional consequences, but economic systems are complex. We all react to the pricing mechanisms around us and no one has anywhere close to perfect knowledge; this is the pretense of knowledge. The aggregate knowledge of millions of people is communicated through price which is ultimately a function of ever-changing preferences of the individuals that make up an economy.
 
@@ -144,11 +144,11 @@ Individuals are inherently limited in the knowledge they possess. And this is ce
 
 And even if a reasonable person believed active money supply management to be a net benefit, bitcoin is now operating alongside the legacy economic system: a decentralized system vs. a centralized system. Monetary policy by consensus vs. monetary policy by central bank. While the money supply of the legacy system is unpredictably changing, the bitcoin network is operating flawlessly with a known supply and with a predictable rate of change. Rather than it being a philosophical or economic debate, there are now two competing systems, and the market will have the last say. While bitcoin may be complicated and the very subject of money may not be well understood, the flaws in the existing system are independent of bitcoin. The [$17 trillion of negative yielding debt](https://www.bloomberg.com/graphics/negative-yield-bonds/) should be evidence enough and it only exists as a direct consequence of central bank monetary policy. Ultimately, the currencies that support the legacy system will be the release valve because central banks will be forced to increase the money supply in order to sustain what is an otherwise unsustainable credit system.
 
-{{% image "/img/gts-9-12-en.png" /%}}
+{{% image "/img/gts-9-12-en.webp" /%}}
 
 With the legacy system coordinated by central banks, all one can rely on is that the money supply will change and at unpredictable rates. With bitcoin, everyone can verify the supply and the predictable rate of change. By running a bitcoin full node, anyone can verify the number of valid bitcoin that exist in circulation and the amount of new bitcoin issued in each block. Anyone and everyone can verify this information without trusting anyone else. This is how bitcoin works. Each node not only verifies information; it also validates information independently. Bitcoin’s monetary policy is enforced on a decentralized basis by all nodes within the network. With precision, everyone can calculate when future blocks will be solved and when the rate of issuance will change. The fact that everyone can verify and validate the money supply, regardless of the nominal amount, reinforces the credibility of the monetary system. This reinforcement occurs every 10 minutes, 6 times an hour, 144 times a day, 4,320 times a month, 52,560 times a year, with each passing bitcoin block. The monetary system hardens as market participants validate that the monetary policy is enforced, over and over again, every ten minutes.
 
-{{% image "/img/gts-9-13-en.png" %}}
+{{% image "/img/gts-9-13-en.webp" %}}
 _Supply & rate of issuance verified on four year-old Apple laptop (supply: 17,988,755; block subsidy = 12.5 bitcoin or 1,250,000,000 satoshis)_
 {{% /image %}}
 

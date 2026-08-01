@@ -1,7 +1,7 @@
 ---
 title: "Мир, полный демонов"
 h1: "Мир, полный демонов. Наука — как свеча во тьме"
-cover: /img/books/mir-polnyj-demonov.png
+cover: /img/books/mir-polnyj-demonov.webp
 description: "Эта книга, посвящена человеческому разуму и борьбе с псевдонаучной глупостью."
 url: mir-polnyj-demonov
 date: 1995-03-19

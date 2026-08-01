@@ -1,7 +1,7 @@
 ---
 title: "Манифест шифропанка"
 h1: "Манифест шифропанка"
-cover: /img/ms-520.jpg
+cover: /img/ms-520.webp
 description: "Приватность необходима открытому обществу цифрового века."
 url: manifest-shifropanka
 aliases: ['/theory-philosophy-cypherpunks-manifesto']

@@ -1,7 +1,7 @@
 ---
 title: "Глава 3: Масштабирование I Монреаль"
 h1: "Глава 3: Масштабирование I Монреаль"
-cover: /img/vrb-435.jpeg
+cover: /img/vrb-435.webp
 description: "В 2015 году в Монреале, Канада, прошла конференция под названием “Scaling Bitcoin 2015 Phase 1”. Она была заявлена как попытка помочь разрешить конфликт, мучивший сообщество в то время."
 url: vojna-za-razmer-bloka/glava-3
 aliases: ['/book-the-blocksize-war-chapter-3']

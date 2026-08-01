@@ -55,9 +55,9 @@ Alternatively, one can opt to use the stainless-steel version of the QR code bac
 
 The SeedSigner stainless steel plate features a 3 mm by 66 mm by 91 mm plate that can withstand fire and flooding. This is a great alternative from paper because it can handle extreme environments. The plate featured in this guide has the SeedSigner logo on it, but future plates may not have this logo to help prevent revealing that this is a Bitcoin-related product. There is a 29 by 29 QR code grid on the plate and you can mark the indentations with a marker, check that it works and then stamp the marks with a punch to make them permanent.
 
-{{% image "/img/seedsigner/06.jpg" /%}}
+{{% image "/img/seedsigner/06.webp" /%}}
 
-{{% image "/img/seedsigner/07.jpg" /%}}
+{{% image "/img/seedsigner/07.webp" /%}}
 
 You can set the SeedSigner kit aside for now while you prepare the software image on your microSD card in the next section.
 
@@ -244,9 +244,9 @@ If you do not want to get the complete kit, you can buy a standalone enclosure o
 
 The camera is a 5MP OV5647 sensor, 30 frames per second (FPS), 2,592 pixel by 1,944 pixel resolution video camera module designed for a range of Raspberry Pis. The working voltage is 1.7 volts direct current (VDC) to 3 VDC. This module measures 25 mm by 24 mm by 9 mm. The camera ships with a protective film over the lens — be sure to remove this prior to assembly.
 
-{{% image "/img/seedsigner/34.jpg" /%}}
+{{% image "/img/seedsigner/34.webp" /%}}
 
-{{% image "/img/seedsigner/35.jpg" /%}}
+{{% image "/img/seedsigner/35.webp" /%}}
 
 You want the “HBV-Raspberry-160FPC” golden ribbon cable for the Raspberry Pi Zero. This cable has a 16-flat-pin connector side measuring 16 mm, a 22-flat-pin connector side measuring 11 mm and the overall length is 160 mm.
 
@@ -281,9 +281,9 @@ If you are having a difficult time finding the Raspberry Pi Zero hardware, some 
 
 The Waveshare LCD HAT is a 65 mm by 30 mm module that attaches to the 40-pin connector on the Raspberry Pi Zero. This module features a 240 pixel by 240 pixel resolution RGB display measuring 39 mm diagonally. The embedded controls use a joystick and three push buttons. The operating voltage is 3.3 vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
 
-{{% image "/img/seedsigner/39.jpg" /%}}
+{{% image "/img/seedsigner/39.webp" /%}}
 
-{{% image "/img/seedsigner/40.jpg" /%}}
+{{% image "/img/seedsigner/40.webp" /%}}
 
 If you do not want to get the complete kit, you can buy a standalone Waveshare LCD HAT display from the following vendors:
 
@@ -309,17 +309,17 @@ On the Raspberry Pi Zero board, gently pull the tabs out on the camera connectio
 
 Make sure the ribbon cable is facing the correct direction, the gold connectors should be facing the bottom side of the Raspberry Pi Zero circuit board. Insert the ribbon cable until it stops, then press the tabs down to lock the ribbon cable in place.
 
-{{% image "/img/seedsigner/42.png" /%}}
+{{% image "/img/seedsigner/42.webp" /%}}
 
-{{% image "/img/seedsigner/43.png" /%}}
+{{% image "/img/seedsigner/43.webp" /%}}
 
 #### Step Three: MicroSD Card
 
 Insert the microSD card with the flashed SeedSigner image. Ensure the MicroSD card is facing the correct direction — again the gold contacts should be facing the bottom of the Raspberry Pi Zero circuit board.
 
-{{% image "/img/seedsigner/44.png" /%}}
+{{% image "/img/seedsigner/44.webp" /%}}
 
-{{% image "/img/seedsigner/45.png" /%}}
+{{% image "/img/seedsigner/45.webp" /%}}
 
 #### Step Four: Display
 
@@ -331,9 +331,9 @@ Connect the LCD display, making sure that the pins on the Raspberry Pi Zero circ
 
 Connect your power cable and wait about 45 seconds for the SeedSigner to activate. Then test out the joystick and buttons on the LCD display and ensure that the camera works.
 
-{{% image "/img/seedsigner/47.png" /%}}
+{{% image "/img/seedsigner/47.webp" /%}}
 
-{{% image "/img/seedsigner/48.png" /%}}
+{{% image "/img/seedsigner/48.webp" /%}}
 
 Now that you have checked that everything is working, you can power off the SeedSigner by selecting the power icon in the upper right-hand corner from the main menu. Then you can disassemble everything and re-assemble it in the 3D-printed enclosure.
 
@@ -351,9 +351,9 @@ Gather your tested components. You should have the 3D-printed enclosure, Raspber
 
 Remove the protective layer of film from the camera lens. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.
 
-{{% image "/img/seedsigner/50.png" /%}}
+{{% image "/img/seedsigner/50.webp" /%}}
 
-{{% image "/img/seedsigner/51.png" /%}}
+{{% image "/img/seedsigner/51.webp" /%}}
 
 #### Step Three: Raspberry Pi Zero
 
@@ -361,21 +361,21 @@ Insert the Raspberry Pi Zero circuit board. Make sure you remove the microSD car
 
 Align the USB connectors with the ports on the enclosure, the circuit board will be at a slight angle, then you can press down on the side with the pins until you hear it snap into place.
 
-{{% image "/img/seedsigner/52.png" /%}}
+{{% image "/img/seedsigner/52.webp" /%}}
 
-{{% image "/img/seedsigner/53.png" /%}}
+{{% image "/img/seedsigner/53.webp" /%}}
 
-{{% image "/img/seedsigner/54.png" /%}}
+{{% image "/img/seedsigner/54.webp" /%}}
 
-{{% image "/img/seedsigner/55.png" /%}}
+{{% image "/img/seedsigner/55.webp" /%}}
 
 #### Step Four: MicroSD Card
 
 Then you can insert the MicroSD card again. Then press the LCD display into place on the PINs of the Raspberry Pi Zero circuit board, taking care to ensure the pins are aligned. This should fit tightly and not be loose.
 
-{{% image "/img/seedsigner/56.png" /%}}
+{{% image "/img/seedsigner/56.webp" /%}}
 
-{{% image "/img/seedsigner/57.png" /%}}
+{{% image "/img/seedsigner/57.webp" /%}}
 
 #### Step Five: Power On And Test
 
@@ -407,29 +407,29 @@ No two images will be exactly the same and they will all produce drastically dif
 
 From the SeedSigner main menu, navigate to “Seeds” then “+ Create a seed” then “;camera icon’ New seed.” This will activate the camera. During this time prior to you taking the image, the SeedSigner is capturing frames and using information from these frames to include in the generation of your master seed.
 
-{{% image "/img/seedsigner/59.png" /%}}
+{{% image "/img/seedsigner/59.webp" /%}}
 
-{{% image "/img/seedsigner/60.png" /%}}
+{{% image "/img/seedsigner/60.webp" /%}}
 
-{{% image "/img/seedsigner/61.png" /%}}
+{{% image "/img/seedsigner/61.webp" /%}}
 
-{{% image "/img/seedsigner/62.png" /%}}
+{{% image "/img/seedsigner/62.webp" /%}}
 
 #### Step Two: Capture Image
 
 Take an image of something unique. The SeedSigner will display the captured image and then you will have a choice to “reshoot” or “accept,” move the joystick in the appropriate direction for your decision.
 
-{{% image "/img/seedsigner/63.png" /%}}
+{{% image "/img/seedsigner/63.webp" /%}}
 
-{{% image "/img/seedsigner/64.png" /%}}
+{{% image "/img/seedsigner/64.webp" /%}}
 
 #### Step Three: Mnemonic Length
 
 Next, you will be asked which mnemonic length you want to use, 12-words or 24-words. Accept the warning telling you that this information needs to remain private and secure.
 
-{{% image "/img/seedsigner/65.png" /%}}
+{{% image "/img/seedsigner/65.webp" /%}}
 
-{{% image "/img/seedsigner/66.png" /%}}
+{{% image "/img/seedsigner/66.webp" /%}}
 
 Finally, your mnemonic phrase will be displayed. The screen displays four words at a time.
 
@@ -445,21 +445,21 @@ The randomness of the dice rolls is pretty self explanatory, best practice is to
 
 From the SeedSigner main menu, navigate to “Seeds” then “+ Create a seed” then “‘dice icon’ New seed.” Then select which mnemonic length you want to use, 12 words or 24 words. Accept the warning telling you that this information needs to remain private and secure.
 
-{{% image "/img/seedsigner/68.png" /%}}
+{{% image "/img/seedsigner/68.webp" /%}}
 
-{{% image "/img/seedsigner/69.png" /%}}
+{{% image "/img/seedsigner/69.webp" /%}}
 
-{{% image "/img/seedsigner/70.png" /%}}
+{{% image "/img/seedsigner/70.webp" /%}}
 
-{{% image "/img/seedsigner/71.png" /%}}
+{{% image "/img/seedsigner/71.webp" /%}}
 
 #### Step Two: Roll The Dice
 
 Next, you can roll your dice and then enter the result by selecting that number on the SeedSigner screen and pushing the joystick. Repeat this process for all of your rolls.
 
-{{% image "/img/seedsigner/72.png" /%}}
+{{% image "/img/seedsigner/72.webp" /%}}
 
-{{% image "/img/seedsigner/73.png" /%}}
+{{% image "/img/seedsigner/73.webp" /%}}
 
 #### Step Three: Finalize
 
@@ -479,19 +479,19 @@ SeedSigner can calculate this checksum for you and tell you what the 12th or 24t
 
 From the main menu navigate to “Seeds” then “+ Create a seed” then “Calc 12th/24th word” then select mnemonic length “12 words” or “24 words.”
 
-{{% image "/img/seedsigner/75.png" /%}}
+{{% image "/img/seedsigner/75.webp" /%}}
 
-{{% image "/img/seedsigner/76.png" /%}}
+{{% image "/img/seedsigner/76.webp" /%}}
 
-{{% image "/img/seedsigner/77.png" /%}}
+{{% image "/img/seedsigner/77.webp" /%}}
 
-{{% image "/img/seedsigner/78.png" /%}}
+{{% image "/img/seedsigner/78.webp" /%}}
 
 On the next screen you can start entering the first 11 words for a 12-word mnemonic or the first 23 words for a 24-word mnemonic. Start by entering the first letter of the desired word, the available letters to choose from for the next letter will be reduced to the only options based on the BIP39 word list. You can also scroll up or down through a list on the right-hand side of the screen using the “KEY1” and “KEY3” buttons on the HAT display. When you find the word you want, push “KEY2” on the HAT display to select that word and move on to the next one. Continue this process until all 11 or 23 words have been entered.
 
-{{% image "/img/seedsigner/79.png" /%}}
+{{% image "/img/seedsigner/79.webp" /%}}
 
-{{% image "/img/seedsigner/80.png" /%}}
+{{% image "/img/seedsigner/80.webp" /%}}
 
 After the 11th or 23rd word has been entered, the SeedSigner will display the final word. You will have the option to load that seed into the SeedSigner’s active memory and apply an optional passphrase as well.
 
@@ -501,13 +501,13 @@ After the 11th or 23rd word has been entered, the SeedSigner will display the fi
 
 You can also import a pre-existing 12-word or 24-word mnemonic in its entirety. From the main menu, navigate to “Seeds” then select “Enter 24-word seed” or “Enter 12-word seed.” Then follow the same process above, selecting the first letter of each word until you find the desired word and pressing “KEY2” on the HAT display to select that word. If you enter a word incorrectly, the calculated checksum will be incorrect and the SeedSigner will alert you.
 
-{{% image "/img/seedsigner/82.png" /%}}
+{{% image "/img/seedsigner/82.webp" /%}}
 
-{{% image "/img/seedsigner/83.png" /%}}
+{{% image "/img/seedsigner/83.webp" /%}}
 
-{{% image "/img/seedsigner/84.png" /%}}
+{{% image "/img/seedsigner/84.webp" /%}}
 
-{{% image "/img/seedsigner/85.png" /%}}
+{{% image "/img/seedsigner/85.webp" /%}}
 
 Once all the words have been entered you will be presented with the wallet fingerprint and given the option to apply an optional passphrase.
 
@@ -533,17 +533,17 @@ Select “Done” when finished and the SeedSigner will prompt you to test yours
 
 {{% image "/img/seedsigner/87.png" /%}}
 
-{{% image "/img/seedsigner/88.png" /%}}
+{{% image "/img/seedsigner/88.webp" /%}}
 
-{{% image "/img/seedsigner/89.png" /%}}
+{{% image "/img/seedsigner/89.webp" /%}}
 
-{{% image "/img/seedsigner/90.png" /%}}
+{{% image "/img/seedsigner/90.webp" /%}}
 
 The SeedSigner will then display a magnified view of the QR code, one segment at a time starting on A1. You can toggle the joystick to navigate through the rest of the segments and visually transcribe the darkened squares you see on the screen to the card using a permanent marker. There are four predefined squares on the QR code, that are already printed on the card for you.
 
-{{% image "/img/seedsigner/91.png" /%}}
+{{% image "/img/seedsigner/91.webp" /%}}
 
-{{% image "/img/seedsigner/92.png" /%}}
+{{% image "/img/seedsigner/92.webp" /%}}
 
 There is error correction built into the QR code scanning software, meaning that if you misplace a few squares, the SeedSigner will still be able to produce your seed. Try to be as accurate as possible though.
 
@@ -561,11 +561,11 @@ Visit [Bitcoiner.Guide/seed/](https://bitcoiner.guide/seed/) to learn more.
 
 Decide if you want to write down the fingerprint for the mnemonic phrase wallet, or the fingerprint for the passphrase-applied wallet, or both. In this example, the generated fingerprint once the QR code is scanned is different from the fingerprint generated once the passphrase is applied.
 
-{{% image "/img/seedsigner/95.png" /%}}
+{{% image "/img/seedsigner/95.webp" /%}}
 
-{{% image "/img/seedsigner/96.png" /%}}
+{{% image "/img/seedsigner/96.webp" /%}}
 
-{{% image "/img/seedsigner/97.png" /%}}
+{{% image "/img/seedsigner/97.webp" /%}}
 
 Or in this example, the primary wallet fingerprint is noted at the top and then the fingerprint for the passphrase-applied wallet is noted at the bottom with the indicator "PP" for passphrase. Keep in mind too that if you store your mnemonic phrase with your passphrase then an adversary would have all the information they need to steal your bitcoin. However, if you store your passphrase separate from your mnemonic phrase then there is added security.
 
@@ -587,15 +587,15 @@ If you make a mistake, you can remove the permanent marker with acetone and a Q-
 
 Prior to stamping the dots with a punch, test the QR code with the SeedSigner.
 
-{{% image "/img/seedsigner/101.png" /%}}
+{{% image "/img/seedsigner/101.webp" /%}}
 
-{{% image "/img/seedsigner/102.png" /%}}
+{{% image "/img/seedsigner/102.webp" /%}}
 
 Now you are ready to stamp the dots permanently into the steel plate with a punch. This demonstration uses what is known as a "Prick Punch" and a 4-pound mini sledge hammer on a concrete floor. Having a solid surface to hammer on and a heavy hammer is key to getting crisp, clear punches.
 
-{{% image "/img/seedsigner/103.jpg" /%}}
+{{% image "/img/seedsigner/103.webp" /%}}
 
-{{% image "/img/seedsigner/104.jpg" /%}}
+{{% image "/img/seedsigner/104.webp" /%}}
 
 {{% image "/img/seedsigner/105.webp" /%}}
 
@@ -605,25 +605,25 @@ A letter and number stamp set can be used to mark additional information onto th
 
 Be sure to test your stamped QR code steel plate by scanning it with your SeedSigner. Be aware that you may need to try different lighting conditions.
 
-{{% image "/img/seedsigner/107.png" /%}}
+{{% image "/img/seedsigner/107.webp" /%}}
 
-{{% image "/img/seedsigner/108.png" /%}}
+{{% image "/img/seedsigner/108.webp" /%}}
 
 You should have well-defined and clear marks in your steel plate that match the note card QR code.
 
-{{% image "/img/seedsigner/109.jpg" /%}}
+{{% image "/img/seedsigner/109.webp" /%}}
 
-{{% image "/img/seedsigner/110.jpg" /%}}
+{{% image "/img/seedsigner/110.webp" /%}}
 
-{{% image "/img/seedsigner/111.jpg" /%}}
+{{% image "/img/seedsigner/111.webp" /%}}
 
-{{% image "/img/seedsigner/112.jpg" /%}}
+{{% image "/img/seedsigner/112.webp" /%}}
 
-{{% image "/img/seedsigner/113.jpg" /%}}
+{{% image "/img/seedsigner/113.webp" /%}}
 
-{{% image "/img/seedsigner/114.jpg" /%}}
+{{% image "/img/seedsigner/114.webp" /%}}
 
-{{% image "/img/seedsigner/115.jpg" /%}}
+{{% image "/img/seedsigner/115.webp" /%}}
 
 Your Steel QR code is now ready to be securely stored.
 
@@ -635,23 +635,23 @@ Recovery in this case can still be possible by visually transcribing the informa
 
 You can watch the fire test in the full video at [this link](https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU?start=12m23s).
 
-{{% image "/img/seedsigner/116.png" /%}}
+{{% image "/img/seedsigner/116.webp" /%}}
 
-{{% image "/img/seedsigner/117.jpg" /%}}
+{{% image "/img/seedsigner/117.webp" /%}}
 
-{{% image "/img/seedsigner/118.jpg" /%}}
+{{% image "/img/seedsigner/118.webp" /%}}
 
-{{% image "/img/seedsigner/119.jpg" /%}}
+{{% image "/img/seedsigner/119.webp" /%}}
 
-{{% image "/img/seedsigner/120.jpg" /%}}
+{{% image "/img/seedsigner/120.webp" /%}}
 
 The wallet was 100% recoverable by transcribing the information on the burnt steel plate to a note card and then scanning the note card with the SeedSigner. Attempts were made to modify the finish of the steel plate after the fire test to see if enough distinction could be brought back to allow for scanning. A brass bristle brush was used, as well as some solvent to remove any remaining carbon, then some oil was applied which just caused the surface to turn a brown hue, and finally a polish wheel was used on the surface and a permanent marker was used to color in the stationary squares in the four corners of the QR code. But the QR code would not scan. Transcribing it though did work just fine.
 
-{{% image "/img/seedsigner/121.png" /%}}
+{{% image "/img/seedsigner/121.webp" /%}}
 
-{{% image "/img/seedsigner/122.png" /%}}
+{{% image "/img/seedsigner/122.webp" /%}}
 
-{{% image "/img/seedsigner/123.png" /%}}
+{{% image "/img/seedsigner/123.webp" /%}}
 
 As an example of the error correction in action, you will notice that some dots were mis-stamped in segment B6 when transcribing the QR code to the steel plate. The dots were later re-stamped in the correct place, all three variations of the QR code produced the same seed.
 
@@ -687,23 +687,23 @@ In the pop-up window, scroll down and select “SeedSigner” then “Scan” to
 - Then choose your script type (the kind of addresses you want to use) “Native Segwit” or “Nested Segwit”
 - Then select your Bitcoin wallet application (Sparrow Wallet in this example).
 
-{{% image "/img/seedsigner/127.png" /%}}
+{{% image "/img/seedsigner/127.webp" /%}}
 
-{{% image "/img/seedsigner/128.png" /%}}
+{{% image "/img/seedsigner/128.webp" /%}}
 
-{{% image "/img/seedsigner/129.png" /%}}
+{{% image "/img/seedsigner/129.webp" /%}}
 
-{{% image "/img/seedsigner/130.png" /%}}
+{{% image "/img/seedsigner/130.webp" /%}}
 
 You will receive a warning about privacy implications of exporting your xpub, then you will have a chance to review the details. Once you select “Export Xpub” the series of animated QR codes will begin and you can hold your SeedSigner up to your PC webcam so that Sparrow Wallet can gather the details it needs to import your watch-only wallet.
 
-{{% image "/img/seedsigner/131.png" /%}}
+{{% image "/img/seedsigner/131.webp" /%}}
 
-{{% image "/img/seedsigner/132.png" /%}}
+{{% image "/img/seedsigner/132.webp" /%}}
 
-{{% image "/img/seedsigner/133.png" /%}}
+{{% image "/img/seedsigner/133.webp" /%}}
 
-{{% image "/img/seedsigner/134.png" /%}}
+{{% image "/img/seedsigner/134.webp" /%}}
 
 If you are having trouble with the brightness of the HAT display, you can hold the joystick in the up or down position during the animated QR code loop to change the brightness of the screen. There are right brightness levels from very dim to very bright.
 
@@ -761,7 +761,7 @@ On the next screen, click on “Show QR” and Sparrow Wallet will display a ser
 
 {{% image "/img/seedsigner/144.png" /%}}
 
-{{% image "/img/seedsigner/145.jpg" /%}}
+{{% image "/img/seedsigner/145.webp" /%}}
 
 #### Step Five: Confirmation
 
@@ -772,13 +772,13 @@ On your SeedSigner you will confirm several details about this transaction:
 - You will be warned if this is a full spend.
 - Verify that the transaction math checks out.
 
-{{% image "/img/seedsigner/146.jpg" /%}}
+{{% image "/img/seedsigner/146.webp" /%}}
 
-{{% image "/img/seedsigner/147.jpg" /%}}
+{{% image "/img/seedsigner/147.webp" /%}}
 
-{{% image "/img/seedsigner/148.jpg" /%}}
+{{% image "/img/seedsigner/148.webp" /%}}
 
-{{% image "/img/seedsigner/149.jpg" /%}}
+{{% image "/img/seedsigner/149.webp" /%}}
 
 #### Step Six: Signing
 
@@ -787,13 +787,13 @@ On your SeedSigner you will confirm several details about this transaction:
 - Select the Bitcoin wallet application you are working with (Sparrow Wallet in this case).
 - In Sparrow Wallet, select “Scan QR” then hold up the animated series of QR codes flashing on the SeedSigner screen.
 
-{{% image "/img/seedsigner/150.jpg" /%}}
+{{% image "/img/seedsigner/150.webp" /%}}
 
-{{% image "/img/seedsigner/151.jpg" /%}}
+{{% image "/img/seedsigner/151.webp" /%}}
 
-{{% image "/img/seedsigner/152.jpg" /%}}
+{{% image "/img/seedsigner/152.webp" /%}}
 
-{{% image "/img/seedsigner/153.png" /%}}
+{{% image "/img/seedsigner/153.webp" /%}}
 
 #### Step Seven: Broadcast
 
@@ -883,13 +883,13 @@ First, create as many new seeds as you want for your multisig quorum. Follow the
 
 In this example, four new seeds were generated to construct a four-of-four multisig. A passphrase was applied to each one.
 
-{{% image "/img/seedsigner/167.jpg" /%}}
+{{% image "/img/seedsigner/167.webp" /%}}
 
-{{% image "/img/seedsigner/168.jpg" /%}}
+{{% image "/img/seedsigner/168.webp" /%}}
 
-{{% image "/img/seedsigner/169.jpg" /%}}
+{{% image "/img/seedsigner/169.webp" /%}}
 
-{{% image "/img/seedsigner/170.jpg" /%}}
+{{% image "/img/seedsigner/170.webp" /%}}
 
 ### Step Two: Create Multisig Wallet In Sparrow
 
@@ -924,17 +924,17 @@ Once you click on “Airgapped Hardware Wallet,” a window will pop up with sev
 - Then select the wallet application, “Sparrow” was used in this example.
 - Accept the warning about the potential privacy leak exporting your xpub poses.
 
-{{% image "/img/seedsigner/175.jpg" /%}}
+{{% image "/img/seedsigner/175.webp" /%}}
 
-{{% image "/img/seedsigner/176.jpg" /%}}
+{{% image "/img/seedsigner/176.webp" /%}}
 
-{{% image "/img/seedsigner/177.jpg" /%}}
+{{% image "/img/seedsigner/177.webp" /%}}
 
-{{% image "/img/seedsigner/178.jpg" /%}}
+{{% image "/img/seedsigner/178.webp" /%}}
 
-{{% image "/img/seedsigner/179.jpg" /%}}
+{{% image "/img/seedsigner/179.webp" /%}}
 
-{{% image "/img/seedsigner/180.jpg" /%}}
+{{% image "/img/seedsigner/180.webp" /%}}
 
 ### Step Six: Confirm Details
 
@@ -946,9 +946,9 @@ SeedSigner will display the details of what you are about to export. Look them o
 
 The SeedSigner will start to flash a series of animated QR codes that contain your xpub information. Hold this up to your PC webcam so that Sparrow Wallet can gather the details necessary to import your first cosigner.
 
-{{% image "/img/seedsigner/182.jpg" /%}}
+{{% image "/img/seedsigner/182.webp" /%}}
 
-{{% image "/img/seedsigner/183.png" /%}}
+{{% image "/img/seedsigner/183.webp" /%}}
 
 ### Step Eight: Confirm And Repeat
 

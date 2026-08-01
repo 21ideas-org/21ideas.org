@@ -1,7 +1,7 @@
 ---
 title: "Solutions to inbound liquidity problem"
 h1: "Solutions to inbound liquidity problem in Lightning Network"
-cover: /img/inb-847.jpeg
+cover: /img/inb-847.webp
 description: "If you want to accept payments through lightning network or to properly balance your channels — your node needs to have sufficient inbound capacity. This article describes what that is and practical ways to get it."
 url: inbound-liquidity-problem
 date: 2021-01-30
@@ -21,7 +21,7 @@ If you want to accept payments through lightning network or to properly balance 
 
 # The problem
 
-{{% image "/img/inb-848.png" %}}
+{{% image "/img/inb-848.webp" %}}
 _Toy network graph example. Left graph shows channels and its capacities — the information visible publicly. Right graph shows how the balances are actually distributed within each channel (unknown publicly) and directions funds can flow. From the picture on the left it may seem that node E has the best connectivity. But in practice all its balance is local, it has no inbound capacity, and can not receive or route payments._
 {{% /image %}}
 
@@ -52,7 +52,7 @@ Of course this approach does not solve all the problems for everyone. But if you
 
 # Solution 2: Ask for incoming channels
 
-{{% image "/img/inb-849.png" /%}}
+{{% image "/img/inb-849.webp" /%}}
 
 This is probably the best option for most nodes: if you need inbound capacity — ask for incoming channels. If you are a merchant — ask your clients, if you know someone running a node — ask them.
 

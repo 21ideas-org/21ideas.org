@@ -2,8 +2,8 @@
 title: "Покупка"
 type: docs
 h1: "Покупка"
-# cover: /img/main-section/ru/buy-light.png
-# coverDark: /img/main-section/ru/buy.png
+# cover: /img/main-section/ru/buy-light.webp
+# coverDark: /img/main-section/ru/buy.webp
 bookCollapseSection: true
 weight: 1
 url: practice/buy

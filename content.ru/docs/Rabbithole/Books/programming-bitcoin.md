@@ -1,7 +1,7 @@
 ---
 title: "Программируем Биткоин"
 h1: "Программируем Биткоин"
-cover: /img/books/programming-bitcoin.png
+cover: /img/books/programming-bitcoin.webp
 description: "Эта книга служит наиболее эффективным и исчерпывающим источником информации для изучения биткоина и блокчейна через программирование."
 url: programming-bitcoin
 date: 2023-12-12
