@@ -11,6 +11,10 @@ bookToc: true
 weight: 3
 ---
 
+{{< hint info >}}
+Гид написан в 2023 году. Alby с тех пор перевёл кастодиальный аккаунт на платную основу — раздел о регистрации через сам сервис неактуален. Для подробных инструкций обратитесь к [официальному источнику](https://guides.getalby.com/user-guide)
+{{< /hint >}}
+
 {{< hint btc >}}
 Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
 
