@@ -1,7 +1,7 @@
 ---
 title: "Inalienable Property Rights"
 h1: "Inalienable Property Rights. The Law, Language, Money, and Morality of Bitcoin"
-cover: /img/1111.jpeg
+cover: /img/1111.webp
 tags: ["bitcoin", "money", "freedom", "proof-of-work"]
 description: ""
 url: inalienable-property-rights
@@ -58,7 +58,7 @@ The nature of money is as multifaceted as it is elusive. Without a deep understa
 
 Money can be traded for goods and services. These goods and services are produced and offered by strangers. The "stranger" part is important because money is the one thing that effectively and peacefully allows us to scale across trust barriers. With money, you don't need to trust your counterparty — that's the whole point. If the counterparty is a good friend of yours, you can rely on credit. Final settlement is what removes the trust barrier and allows societies to scale [^4]. Without money, human cooperation has to rely on credit relationships. Everyone has to remember who owes what to whom. Without an external representation of these relationships—if everyone has to keep all these ratios in their head — human cooperation can't scale beyond Dunbar's Number, resulting in a maximum group size of about 150 people.
 
-{{% image src="/img/2222.jpeg" /%}}
+{{% image src="/img/2222.webp" /%}}
 
 Money, however, is not only used for scalability. It is also used for measurement. Thus, in the grand scheme of things, money is a measure of what society owes you. The whole purpose of money is that you can redeem it for something else, anonymously and with final settlement. Again: Final settlement means that the deal is done; you are not indebted to your trading partner anymore. With the exchange of money, the exchange is final.
 
@@ -124,7 +124,7 @@ However, words convey _meaning_, as does information. And this meaning is and a
 
 We went through this in the past. The classification of RSA as munition led to exactly such a conflict of free speech, which is why t-shirts that have the forbidden information on them were printed in the first place: to show how ridiculous it all is.
 
-{{% image src="/img/3333.jpg" %}}
+{{% image src="/img/3333.webp" %}}
 *The Crypto Wars have never ended.*
 {{% /image %}}
 
@@ -159,7 +159,7 @@ Let me repeat the second sentence for emphasis: Bitcoin takes advantage of the 
 
 We must accept that the nature of information is very different from the nature of physical objects. While you can own an apple, you can't own a word or a number in any meaningful sense. If you want to _exclusively_ know something, then you must not share it. You must keep it secret. As George Bernard Shaw so succinctly put it: "If you have an apple and I have an apple and we exchange these apples then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas."
 
-{{% image src="/img/4444-en.png" /%}}
+{{% image src="/img/4444-en.webp" /%}}
 
 These two sentences perfectly encapsulate the problem of digital money. You can't double-spend an apple, but when it comes to information, there simply is no way to _not_ double-spend it. Passing on information is "double-spending" said information, which, coincidentally, makes the idea of "digital scarcity" an oxymoron. Bitcoin does not solve this oxymoron; it circumvents it. The rules of the game make invalid information useless, _not_ uncopyable. Blockspace is scarce like the squares on a chessboard are scarce: by social consensus on how the game is supposed to be played.
 
@@ -181,7 +181,7 @@ The goal of the game is to create an indisputable past in an ongoing fashion, an
 
 Users, nodes, and miners are not exclusive roles. You might be one, two, or all three [^12].
 
-{{% image src="/img/5555.jpg" %}}
+{{% image src="/img/5555.webp" %}}
 *It's peaceful, I swear. Even with fiat dying on the ground.*
 {{% /image %}}
 
@@ -222,7 +222,7 @@ You can't force me to play by your rules because I can choose to play this game 
 
 In the end, this agreement is a question of values—moral values, first and foremost, but economic values too. Consensus arises if enough people play by the same rules. For this to happen, players first need to agree that the game is worthy of being played; that the moral values embedded in the game are something they value. It is this [idea-value feedback loop](https://dergigi.com/2019/05/01/bitcoins-gravity/#loop) that brings economic value into existence.
 
-{{% image src="/img/6666-en.png" /%}}
+{{% image src="/img/6666-en.webp" /%}}
 
 Bitcoin is so weird because it does the seemingly impossible: it pulls itself up from the bootstraps, becoming more valuable and more secure as time goes on. In short, Bitcoin issues bitcoin to secure itself. The network brings sats into existence, and it is the value of these sats that secures the network in turn.
 
@@ -232,7 +232,7 @@ Bitcoin's core rules are "set in stone" because of the dynamics of this ongoing 
 
 This is why Bitcoin had to grow like an [organism](https://dergigi.com/2019/08/07/proof-of-life/) to become truly resilient. Without a trusted third party, both value and security have to grow organically over time. This is why Satoshi did not welcome too much unnecessary attention in the early days [^14]. It was his responsibility to protect Bitcoin when it was still a sapling. Bitcoin is not a sapling anymore, but the same forces are still at play: an endless loop of words and values, protecting themselves by running the numbers.
 
-{{% image src="/img/7777.png" /%}}
+{{% image src="/img/7777.webp" /%}}
 
 ## Looting the Loop
 
@@ -250,7 +250,7 @@ Remember that money is just a ledger, a list of who owes what to whom. If we wan
 
 In Bitcoin, _anyone_ can look at the block hash of the current block, 729170, and know at a glance, just by looking at the leading zeroes, that a lot of work—or, in other words: time, energy, and money—went into creating this string:
 
-{{% image src="/img/8888.png" /%}}
+{{% image src="/img/8888.webp" /%}}
 
 It was _costly_ to find this number. Someone or something had to think very hard to be able to speak it. The reason why we can be so confident in the costliness of this block hash is that—according to the rules—its very existence is _highly_ improbable. The fact that it exists and that it is _valid_ is what makes it part of the ongoing game that all bitcoiners play. Its validity makes it accepted by the network, turning it into one building block of the timechain's past. 
 
@@ -299,7 +299,7 @@ However, "ownership" alone is not enough. You also need the corresponding _publ
 
 Technically speaking, your private key allows you to spend UTXOs, which are basically the sats in your wallet. The secret you know allows you to craft a magic spell—a transaction—that will transfer your sats to someone else (or yourself).
 
-{{% image src="/img/1010-en.png" /%}}
+{{% image src="/img/1010-en.webp" /%}}
 
 It is this interplay of public and private information that defines ownership and property rights in Bitcoin, and it is the interplay of miners, nodes, and holders that is responsible for the enforcement of said rights. And because you yourself will always be able to hold your own key, run your own node, and calculate your own hashes, you will always be able to be self-sovereign.
 
@@ -347,7 +347,7 @@ Bitcoin's proof-of-work serves as a bridge between the world of atoms and the re
 
 Because the information speaks for itself, once a valid block is found, we move from the domain of violence to the domain of ideas. The work is done, the word has been spoken, and as soon as this information propagates to other players, the cat is out of the bag. Flesh became Word, and words — like ideas — are bulletproof.
 
-{{% image src="/img/1212-en.png" /%}}
+{{% image src="/img/1212-en.webp" /%}}
 
 It is this transformation, the "reification of information," as waxwing calls it, that makes bitcoin an inalienable right. You can hold sats _in your head_ if you manage to memorize 12 words. You can play bitcoin with pen and paper if you are so inclined. Every aspect of Bitcoin can be transformed into speech.
 
@@ -412,7 +412,7 @@ Thanks to Bitcoin, anyone can use the asymmetric defenses of cryptography to the
 
 It is the asymmetry in cost that gives rise to the cryptoeconomical game theory of Bitcoin. Peaceful and voluntary cooperation; mutually assured preservation. Sovereignty through cryptography.
 
-{{% image src="/img/1313-en.png" /%}}
+{{% image src="/img/1313-en.webp" /%}}
 
 Law, Language, and Money. A healthy trifecta of these three is absolutely essential for a free society to flourish. If freedom is a value you hold in high regard, this translates to (1) free speech, (2) sound money, and (3) individual property rights. Bitcoin uses (1) to create (2) and enforce (3)—without the necessity of violence. After all, _no amount of violence will ever solve a math problem_, as Jacob Appelbaum said so beautifully.
 

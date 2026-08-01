@@ -1,7 +1,7 @@
 ---
 title: "5 tips for teaching Bitcoin"
 h1: "How to orange-pill: 5 tips for teaching Bitcoin to friends and loved ones"
-cover: /img/5sov-810.jpg
+cover: /img/5sov-810.webp
 tags: ["bitcoin"]
 description: ""
 url: 5-tips-for-teaching-bitcoin
@@ -60,7 +60,7 @@ Bitcoin is a rather abstract concept to grasp at first, and it leans on many con
 
 The truth is you don’t have to be a full-fledged expert in bitcoin’s inner workings to find value in it, and people learn in different ways. There are several types of learning styles from visual to auditory and hands-on. For many people, experiencing bitcoin first-hand is more impactful than simply hearing a lecture.
 
-{{% image "/img/5sov-811.jpg" %}}
+{{% image "/img/5sov-811.webp" %}}
 *Giving someone bitcoin and showing them how to transact with it are fun, hands-on strategies for onboarding someone onto bitcoin.*
 {{% /image %}}
 

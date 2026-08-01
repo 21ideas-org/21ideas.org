@@ -2,8 +2,8 @@
 title: Старт
 type: docs
 h1: "Старт"
-# cover: /img/main-section/ru/start-light.png
-# coverDark: /img/main-section/ru/start.png
+# cover: /img/main-section/ru/start-light.webp
+# coverDark: /img/main-section/ru/start.webp
 bookFlatSection: false
 bookCollapseSection: true
 url: start

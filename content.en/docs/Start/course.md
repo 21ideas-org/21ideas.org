@@ -1,7 +1,7 @@
 ---
 title: "Биткоин от А до Я"
 h1: "Полноценный курс “Биткоин от А до Я”"
-cover: /img/kurs-508.jpg
+cover: /img/kurs-508.webp
 description: "Полноценный курс, который поможет разобраться в основах Биткоина."
 url: course
 aliases: ['/basics-bitcoin-course']

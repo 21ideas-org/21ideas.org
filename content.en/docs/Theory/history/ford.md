@@ -38,7 +38,7 @@ Henry Ford, by building the world’s greatest power plant here on the Tennessee
 
 “Army engineers say it will take $30,000,000 to complete the big dam. But Congress is economical just now and not in a mood to raise money by taxation. The customary alternative is thirty-year bonds at 4 per cent. The United States, the greatest government in the world, wishing a pesky $30,000,000 to complete a great public benefit, is forced to go to money sellers.”
 
-{{% image "/img/ford-pt1.png" %}}
+{{% image "/img/ford-pt1.webp" %}}
 _[PDF of the first part of the original article](/epubs/ford-pt1.pdf)_
 {{% /image %}}
 
@@ -76,6 +76,6 @@ Second, he proposes to back up the Muscle Shoals currency by an entirely new uni
 
 Mr. Ford’s ideas on the way Congress will look at his revolutionary proposal are strong and vigorous.
 
-{{% image "/img/ford-pt2.png" %}}
+{{% image "/img/ford-pt2.webp" %}}
 _[PDF of the second part of the original article](/epubs/ford-pt2.pdf)_
 {{% /image %}}

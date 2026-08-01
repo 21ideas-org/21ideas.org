@@ -1,7 +1,7 @@
 ---
 title: "Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)"
 h1: "The Genesis Files. Part V: How Hal Finney’s Quest For Digital Cash Led To RPOW (And More)"
-cover: /img/gf-245.png
+cover: /img/gf-245.webp
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
 description: "Pioneering cryptographer Hal Finney saw the need for an untraceable form of digital cash, and his work ultimately fostered the creation of Bitcoin."
 url: gf/genesis-5
@@ -88,7 +88,7 @@ In 2004, about a decade after he first started promoting electronic cash within 
 
 Where Szabo and Dai had stopped short of implementing their digital cash proposals into software, Finney actually coded up an RPOW prototype. He invited people to try the system out, advertising the electronic cash on a simple blue-and-green webpage featuring an RPOW logo in comic book style. (Think of the “POW” letters marking the spot where Batman’s uppercut meets some poor henchman’s jaw.)
 
-{{% image "/img/gf-246.png" %}}
+{{% image "/img/gf-246.webp" %}}
 *[Source](https://web.archive.org/web/20090217090451/http://rpow.net/index.html)*
 {{% /image %}}
 

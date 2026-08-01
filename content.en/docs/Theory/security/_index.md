@@ -1,8 +1,8 @@
 ---
 title: "Security"
 h1: " "
-cover: /img/main-section/en/security-dark.png
-coverDark: /img/main-section/en/security-light.png
+cover: /img/main-section/en/security-dark.webp
+coverDark: /img/main-section/en/security-light.webp
 bookCollapseSection: true
 bookFlatSection: false
 url: security

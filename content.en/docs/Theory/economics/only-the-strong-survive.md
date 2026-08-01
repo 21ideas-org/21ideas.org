@@ -1,7 +1,7 @@
 ---
 title: "Only The Strong Survive"
 h1: "Only The Strong Survive"
-cover: /img/vs-795.png
+cover: /img/vs-795.webp
 description: "A Philosophical, Technical, and Economic Critique of Prospects in “Crypto” Beyond Bitcoin."
 url: only-the-strong-survive
 date: 2021-09-19
@@ -317,7 +317,7 @@ Does that not sound rather convoluted? We are talking about a token whose only e
 
 This clearly depends on new capital coming into the system to be sustained. But what happens when, one day, people decide they would like to own an alternative asset that actually provides access to real cash flows, or that has some more persistent basis for its spot valuation? Our contention is a “bank run” cascades the value of CRV down, and with it will crash the value proposition of running liquidity pools. Crypto investors who currently own CRV do seem to largely understand that, today, much of the governance is unproductive but hope that in the future the protocol will continue to mature and these tokens will accrue value as derived from their governance rights. Clearly, we are skeptical.
 
-{{% image "/img/vs-800-en.png" %}}
+{{% image "/img/vs-800-en.webp" %}}
 *Figure 1: Explanation of why CRV has value*
 {{% /image %}}
 
@@ -397,7 +397,7 @@ Evidencing this abstract objection, we have two specific critiques: i) double co
 >
 > *From a naive perspective, TVL could be computed as:*
 
-{{% image "/img/vs-796-en.png" /%}}
+{{% image "/img/vs-796-en.webp" /%}}
 
 > Yet, a more sophisticated approach would only count the $1,500 of Wrapped Ether and $1,000 of USDC as the “real” collateral giving a TVL of $2,500. This approach would not include assets that are claims to other collateral such as DAI (which is minted as a loan against collateral), and Uniswap DAI/USDC LP tokens (which represent a claim to the liquidity held by the Uniswap V2 DAI/USDC pair).”
 
@@ -447,7 +447,7 @@ Keeping in mind that much of crypto “valuations” are “justified” on the 
 
 ***(graphical representation overleaf)***
 
-{{% image "/img/vs-797-en.png" %}}
+{{% image "/img/vs-797-en.webp" %}}
 *Figure 2: Cartman LARPing as a “Crypto VC”*
 {{% /image %}}
 
@@ -517,7 +517,7 @@ No, no, no, no, and no.
 
 In crypto, the speculation seems to us to be entirely self-referential and so the narrative has become alarmingly *short-termist*. The narratives seem to constantly change and yet immediately be very well publicised around buzzwords nobody has ever previously heard of. The desired impression seems to be of innovation that is spiralling out of control, even though nobody seems bothered by the fact that the buzzwords and narratives from two such cycles ago came to precisely nothing:
 
-{{% image "/img/vs-798.png" %}}
+{{% image "/img/vs-798.webp" %}}
 *Figure 3: fads in crypto marketing over time*
 {{% /image %}}
 
@@ -802,7 +802,7 @@ $100 \*n=0∞(1/k)n =$100* (kk-1) for 1k<1
 
 The boundary condition on the right captures that a collateralization ratio of exactly 100% or lower clearly leads to an infinite sum (this is easier to understand practically than via the equation) and hence the equation will pop out either a practically meaningless (possibly negative) answer, as can be seen by charting f(y)=xx-1 below:
 
-{{% image "/img/vs-799.png" /%}}
+{{% image "/img/vs-799.webp" /%}}
 
 It is easy to see that the single point at which f(y)=y is where y=2, or the capitalization ratio is 200%. This was alluded to in the main body of the paper and is also easy enough to understand practically, as the reuse of the products of iterative 200% collateralization would look like putting up $200 to generate $100 + $50 + $25 + $12.50 + … easily recognizable as converging to $200.
 

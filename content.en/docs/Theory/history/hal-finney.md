@@ -1,7 +1,7 @@
 ---
 title: "Hal Finney — The Life And Death Of A Cypherpunk Legend"
 h1: "Hal Finney — The Life And Death Of A Cypherpunk Legend"
-cover: /img/hal-247.png
+cover: /img/hal-247.webp
 description: ""
 url: hal-finney
 date: 2020-03-30
@@ -26,7 +26,7 @@ Though widely known for his pioneering professional achievements across cyberspa
 
 Harold Thomas Finney was born in the spring of 56' in the small town of Coalinga, California. Hal’s father… was a long time employee of Union Oil of California… which supported the family’s relocation to a number of different places throughout his lifetime. As was traditional for many families in the 1950s, Mrs. Finney supported her husband and children as a full-time homemaker. By 1957, they were a family of five, with Hal being the third of four children. The [brothers] were born so close together that they were often mistake for twins… Hal admired his [brother’s] mischief and occasionally partook, but ultimately hewed his own identity through his more earnest personality, dedicated to school, and penchant for mental puzzles.
 
-{{% image "/img/hal-249.png" /%}}
+{{% image "/img/hal-249.webp" /%}}
 
 The roots of his later work as a developer and privacy advocate reached as far back as elementary school. He would create analog codes with letters and numbers for written materials found in something as innocuous as a paper booklet. Computers weren’t prevalent in schools until the 1980s, but Hal’s high school in Arcadia was lucky to have a few of the earliest versions. The administration used punch cards in combination with FORTRAN to digitally store simple data such as student attendance records. Somehow, Hal made his interest known to the school, and they entrusted him to help with some of their calculations. It wasn’t uncommon for his fellow classmates to see him walking the halls with a stack of stiff, rectangular, perforated cards in hand. Hal graduated from Arcadia High School in 1974 as valedictorian of his class with near perfect SAT scores and a spot at the prestigious California Institute of Technology.
 
@@ -48,7 +48,7 @@ As much as the PE saga may have suggested a level of obstinacy about Hal, he was
 
 After she graduated in 1976, their friendship developed into a romance that would last more than 30 years. In 1979, after Hal’s fifth and final year at Caltech, they wed in San Diego park near Fran’s family’s home.
 
-{{% image "/img/hal-252.png" /%}}
+{{% image "/img/hal-252.webp" /%}}
 
 ## From student to cryptographer
 
@@ -58,11 +58,11 @@ He landed his first job in the summer of 1978 with APh, a small engineering firm
 
 “Hal was a very easygoing father,” says Fran. “But he was very appreciative and proud of the fact that the kids allowed him to be that way.” Having instinctively well-meaning children freed Hal to make the most of his strengths to bring whimsy to their lives.
 
-{{% image "/img/hal-253.png" /%}}
+{{% image "/img/hal-253.webp" /%}}
 
 For example, he designed a program that matched letters with pictures - “C” for “Cow” and so on - to help Jason learn the alphabet and sound out words. It was only when they received a disgruntled call from their son’s kindergarten complaining about the disruptive nature of parents teaching their children how to read ahead of time... Jason had applied the knowledge from the simple computer game to read the daily newspaper. He spiced up family gatherings with magic shows of his own design, awning generations with his disappearing ghost and guess-your-domino acts. Hal was also an amateur astronomer who, together with his wife, Fran, named their children and dogs after celestial bodies.
 
-{{% image "/img/hal-254.png" /%}}
+{{% image "/img/hal-254.webp" /%}}
 
 Needless to say, the Finney’s were early adopters of all things online. When the World Wide Web became publicly available in 1991, they were already signed up with Prodigy (the second most popular online service provider, next to CompuServe), which they had engaged in 1990.
 
@@ -74,7 +74,7 @@ Around that time, Hal became quite active with the cypherpunks... His personal w
 
 Little did he know, it was destined to become the most popular email encryption software across the global following its 1991 release (receiving lifetime achievement award). Hal’s skills helped paved the way for Zimmerman to secure financial backing for a commercial version. In 1996, he founded PGP Inc, and Hal became its Senior Software Engineer. Hal stayed with the company, which became Network Associates, Inc., then PGP Corporation, and then Symantec through a series of acquisitions, until he retired in early 2011.
 
-{{% image "/img/hal-255.png" /%}}
+{{% image "/img/hal-255.webp" /%}}
 
 In the interim, Hal continued to follow his curiosity through the realm of cryptography, developing the first reusable proof-of-work system in 2004. He presented it at a conference in San Francisco in 2005 after practicing his delivery with Fran in the days leading up to it. “Here we are faced with the problems of loss of privacy, creeping computerisation, massive databases, more centralisation and Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather than governments and corporations", Finney wrote in 1992. “The computer can be used as a tool to liberate and protect people, rather than to control them.” 
 
@@ -90,25 +90,25 @@ Given his tame description from above, it makes sense that Hal was surprised by 
 
 Before they even had kids, Fran and Hal began running 5k road races together for fun… Around 2008, to ward off the effects of aging, Hal began to push towards half-marathons, and eventually marathons.
 
-{{% image "/img/hal-256.png" /%}}
+{{% image "/img/hal-256.webp" /%}}
 
 He had his eye on the 2010 Boston Marathon but needed to run a qualifying marathon in order to enter, so in late 2008 he signed up for the spring 2009 LA Marathon… around mile 13... he cramped up badly and had to quit..[which] was strange given Hal’s training and preparation. A similar episode occurred in cycling not too long after. Hal was a strong cyclist, who even had some triathlon experience. At one point, he and Fran decided to celebrate their anniversary by bicycling the equivalent of their married years in miles. When their kids were old enough to stay home alone, they even expanded their nuptial tradition by launching their ride from the famous Madonna Inn in San Luis Obispo, where they’d overnight in Hal’s favorite room - the Caveman Room.
 
-{{% image "/img/hal-257.png" /%}}
+{{% image "/img/hal-257.webp" /%}}
 
 In July 2009, 30 years after they tied the knot back in San Diego, he fatigued before they hit the mark on their ride. “We should’ve been able to do the 30 miles,” says Fran. “It should’ve been really easy, but he couldn’t do it… One week later he got his official diagnosis.
 
 ALS is a progressive degenerative disease that causes the neurons controlling voluntary muscles - muscles that are usually attached to the skeleton - to die. As the disease advanced, actions like speaking, eating, moving, and eventually breathing, become increasingly impaired. An ALS diagnosis is far from desirable news that can understandably cause unrest, depression, or indifferences. Hal became paralyzed, dependent on tubes for feeding and breathing assistance, and using a speech synthesizer and commercial eye tracker system to communicate. Yet, when he shared his diagnosis as part of the aforementioned post in a Bitcoin Forum, he still sowed immense resilience, gratitude, and inventiveness. “Even with the ALS, my life is very satisfying,” he wrote…
 
-{{% image "/img/hal-258.png" /%}}
+{{% image "/img/hal-258.webp" /%}}
 
 ... after noting the interface that he created to help control his wheelchair position with his eyes, and the project he was tackling to harden Bitcoin wallets. Despite his admittedly slower pace, he added “... I still love programming and it gives me goals.”
 
-{{% image "/img/hal-259.png" /%}}
+{{% image "/img/hal-259.webp" /%}}
 
 On his last ski trip Hal reflected: “It’s kind of nice in a way that you know it, you mentally say goodbye as you enjoy it. So that makes it a little easier.” ... “You think about not being able to walk, not being able to run ... yeah, I miss that, but really with the wheelchair I can get around pretty well,” he said. “Fran takes me out on the runs, too ..."
 
-{{% image "/img/hal-260.png" /%}}
+{{% image "/img/hal-260.webp" /%}}
 
 “Until the end he continued to work and get around the house — or take the bus to do research at UCSB — in his motorized wheelchair.”
 
@@ -126,7 +126,7 @@ As many of Hal’s friends and family can attest, he was very optimistic futuris
 
 > “I know Hal wanted to be around. He wanted to experience the future. He was very excited about change... It seemed like he was happier with each and every change. Each change was great! He embraced it, and he was always looking forward to more."
 
-{{% image "/img/hal-261.png" /%}}
+{{% image "/img/hal-261.webp" /%}}
 
 Coding slowly ceased to be an option for Finney. Yet he kept his belief, to the end, that there would still be another chance.
 
@@ -136,4 +136,4 @@ As Fran puts it so succinctly, 'He did not believe in God. he believed in the fu
 
 And in this moment when Coronavirus is wrecking havoc on our economies, bodies, and society, let's look to Hal and tap into his eternal source of optimism for the future.
 
-{{% image "/img/hal-262.png" /%}}
+{{% image "/img/hal-262.webp" /%}}

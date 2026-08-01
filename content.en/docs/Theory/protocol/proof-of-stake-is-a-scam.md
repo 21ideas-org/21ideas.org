@@ -1,7 +1,7 @@
 ---
 title: "Proof of stake is a scam"
 h1: "Proof of stake is a scam and the people promoting it are scammers"
-cover: /img/pos-655.jpg
+cover: /img/pos-655.webp
 description: ""
 url: proof-of-stake-is-a-scam
 date: 2021-11-09
@@ -74,7 +74,7 @@ In more detail: using my node’s local clock, I can check that new blocks comin
 
 At this point, I really feel as if I must apologize to my reader for describing this fairly mundane process in such excruciating detail. But it truly is necessary. To understand why a nice mechanical watch is superior to a decent Chinese [^3] copy, it isn’t enough to look at the marketing materials, the glossy brochures, and then finish by taking a cursory look at the case (“looks about the same, three hands and a dial”) and observing that it seems to keep time well enough. We have to actually open it up and see what’s inside.
 
-{{% image "/img/pos-656.png" %}}
+{{% image "/img/pos-656.webp" %}}
 _For $2, it’s probably decent value._
 {{% /image %}}
 

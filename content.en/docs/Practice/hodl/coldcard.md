@@ -1,7 +1,7 @@
 ---
 title: "What is Coldcard?"
 h1: "Coldcard: Feature rich hardware wallet"
-cover: /img/cc-521.jpg
+cover: /img/cc-521.webp
 tags: ["bitcoin", "hodl", "cold storage", "hardware wallet", "security"]
 description: ""
 url: coldcard
@@ -57,19 +57,19 @@ Coldcard has lots of advanced features, but for this guide I will focus on 3 mai
 
 1. When you receive your Coldcard, take a close look at the packaging and check for any damage or evidence of it being messed with in any way. The tamper evident bag the device comes in should make this very easy.
 
-{{% image "/img/cc-522.jpg" /%}}
+{{% image "/img/cc-522.webp" /%}}
 
 2. Plug the Coldcard into your power supply and check that the number displayed on the screen matches the one printed on the tamper evident bag.
 
 3. The pin consists of two parts, each part must contain between two and six numbers. Create the first part of your pin. You will now see your anti phishing words, make a note of these. These are used as a reference when you enter your pin in the future. If someone were to swap your device with another one, when you entered the first part of your pin on the fraudulent device you would see completely different words which would warn you that something is wrong before you enter your full pin.
 
-{{% image "/img/cc-523.png" /%}}
+{{% image "/img/cc-523.webp" /%}}
 
 4. Create the second part of your pin. Worth remembering that if you lose either part of your pin, you lose access to the device.
 
 5. Create new wallet. You will now see a list of 24 seed words, these are the master backup to all bitcoin deposited to this wallet. At this stage if you press the number ‘4’ on the Coldcard you will be taken to the dice roll screen where you can roll a dice and add additional entropy to your seed generation. This reduces the trust in the devices inbuilt random number generator. You can roll as many times as you like. If you do this additional step, after you finish your dice rolls you will see a completely new seed. Write this down, keep it safe and do not share with anyone.
 
-{{% image "/img/cc-524.png" /%}}
+{{% image "/img/cc-524.webp" /%}}
 
 6. You will then be asked a series of questions based on your seed to ensure that you wrote it down correctly. Once you complete these, you have successfully generated yourself a bitcoin wallet, completely offline on a device that has never touched the internet.
 
@@ -79,19 +79,19 @@ Coldcard has lots of advanced features, but for this guide I will focus on 3 mai
 
 8. Open Electrum and press ‘choose’ then select the wallet file that’s on the SD card and press next. The wallet will then load and you should see a warning asking you to connect your Coldcard, ignore this message and press no. You can now press receive and send some sats to your Coldcard.
 
-{{% image "/img/cc-526.png" /%}}
+{{% image "/img/cc-526.webp" /%}}
 
 ## Sending a transaction
 
 9. Hit send in Electrum and compose your transaction as you normally would by selecting the recipient address, fee rate and amount to send. Then press preview, check the info is correct and select save PSBT and save to your SD card. We now have the raw transaction created by Electrum, on the SD card ready to be signed by the offline Coldcard private keys. Now re-insert the SD back into your Coldcard.
 
-{{% image "/img/cc-527.png" /%}}
+{{% image "/img/cc-527.webp" /%}}
 
 10. Enter your pin (_and passphrase if you use one, more on this below_) then press ‘Ready to sign’. Confirm you are happy with the transaction details and then press the tick button. Your Coldcard has now signed the transaction using its private keys and the signed transaction file will be saved to your SD card ready to be broadcast to the network.
 
-{{% image "/img/cc-528.png" /%}}
+{{% image "/img/cc-528.webp" /%}}
 
-{{% image "/img/cc-529.png" /%}}
+{{% image "/img/cc-529.webp" /%}}
 
 11. Put the SD back into your computer and open Electrum. Click Tools > Load Transaction > From File. Select the `.txn` file that you just saved to the SD card and press open.
 
@@ -103,7 +103,7 @@ Coldcard has lots of advanced features, but for this guide I will focus on 3 mai
 
 The backup is an encrypted copy of your seed phrase and can be stored on an SD card and will allow you to restore your wallet in any ColdCard you have access to.
 
-{{% image "/img/cc-530.png" /%}}
+{{% image "/img/cc-530.webp" /%}}
 
 Insert your micro SD card and go to advanced > backup > backup system. You will now be greeted with a list of 12 words, write them down as they will be used as the password to your encrypted backup file. Answer the questions to confirm your backup and the file will be written to the SD card. You can repeat this process multiple times to create many backups on different SD cards. Your passphrase is never part of this back up so ensure you keep that and those 12 words safe.
 
@@ -111,13 +111,13 @@ Insert your micro SD card and go to advanced > backup > backup system. You will 
 
 A passphrase is an additional word or phrase that is added to your original seed which creates a completely separate wallet. It can be used as an extra layer of security in case your seed phrase becomes compromised. Without both your seed **and** your passphrase an attacker cannot access your bitcoin.
 
-{{% image "/img/cc-531.png" /%}}
+{{% image "/img/cc-531.webp" /%}}
 
-{{% image "/img/cc-532.png" /%}}
+{{% image "/img/cc-532.webp" /%}}
 
 Click passphrase, read the message, press ok and then ‘edit passphrase’. Enter your desired passphrase and hit apply. One thing to remember, once you have specified a passphrase you must enter it every time you power up your Coldcard. To ensure you have entered the passphrase correctly ensure you make a note of the wallet fingerprint. This is a unique identifier, so check it matches each time you enter your passphrase.
 
-{{% image "/img/cc-533.png" /%}}
+{{% image "/img/cc-533.webp" /%}}
 
 ## Where can I learn more?
 

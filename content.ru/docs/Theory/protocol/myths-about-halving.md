@@ -40,7 +40,7 @@ weight: 68
 
 Биткоин-аналитик под псевдонимом [PlanB](https://medium.com/@100trillionUSD), разработавший модель “[запас к потоку](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25)”, утверждает, что, хотя [рыночная цена всецело представляет собой информацию](https://medium.com/@100trillionUSD/efficient-market-hypothesis-and-bitcoin-stock-to-flow-model-db17f40e6107), она не всегда корректно оценивает риски. Он отмечает, что доходность активов, как правило, соответствует их рискам, но биткоин оказывается буквально “вне графика” в плане соотношения риска и прибыли. Аналитик заявил: “Похоже, что рынок переоценил риски, и биткоин действительно представлял собой отличную возможность для инвестирования”.  
 
-{{% image "/img/halv-934.png" %}}
+{{% image "/img/halv-934.webp" %}}
 _Источник:_ [_twitter.com/ChartsBtc_](https://twitter.com/ChartsBtc/status/1179040494157848578?s=20)
 {{% /image %}}
 

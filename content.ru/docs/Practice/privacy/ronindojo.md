@@ -2,7 +2,7 @@
 title: "Установка RoninDojo на x86"
 h1: "Установка RoninDojo на x86"
 description: ""
-cover: /img/ronin-11.jpg
+cover: /img/ronin-11.webp
 url: practice-privacy/ronindojo
 date: 2024-02-02
 bookFlatSection: false
@@ -407,7 +407,7 @@ nano nginx/testnet.conf
 
 Дождитесь окончания установки Dojo. Она занимает от 10 до 30 минут, в зависимости от производительности вашего компьютера и сетевого подключения.
 
-{{% image "/img/ronin-06.png" /%}}
+{{% image "/img/ronin-06.webp" /%}}
 
 При возникновении ошибок, обычно связанных с сетевым соединением, вы можете остановить скрипт установки с помощью нескольких нажатий сочетания Ctrl+C и повторить последнюю команду. Если установка все же не удается, то вам придется настроить VPN на вашем маршрутизаторе. К сожалению данная процедура выходит за рамки данного руководства.
 
@@ -522,7 +522,7 @@ source ~/.bashrc
 
 Поздравляю, вы оказались в интерфейсе Ronin CLI.
 
-{{% image "/img/ronin-08.png" /%}}
+{{% image "/img/ronin-08.webp" /%}}
 
 Перейдите в меню:
 
@@ -548,7 +548,7 @@ Ronin UI теперь доступен из вашей локальной сет
 
 Пароль для входа - это ваш пароль пользователя *ronindojo*.
 
-{{% image "/img/ronin-10.jpg" /%}}
+{{% image "/img/ronin-10.webp" /%}}
 
 ## Патчи для Ronin CLI
 
@@ -615,7 +615,7 @@ Dojo > Next Page > Receive Block Data from Backup
 Samourai Toolkit
 ```
 
-{{% image "/img/ronin-12.png" /%}}
+{{% image "/img/ronin-12.webp" /%}}
 
 {{% hint info %}}
 Утилита WST недоступна для Testnet.
@@ -625,11 +625,11 @@ Samourai Toolkit
 
 Дождитесь полной синхронизации Bitcoin Core, Dojo и Indexer.
 
-{{% image "/img/ronin-13.jpg" /%}}
+{{% image "/img/ronin-13.webp" /%}}
 
 Перейдите в меню "Pairing" и выполните сопряжение Samourai Wallet с Samourai Dojo. Подключиться к Dojo можно только при новой установке кошелька.
 
-{{% image "/img/ronin-14.jpg" /%}}
+{{% image "/img/ronin-14.webp" /%}}
 
 Нажмите "Pair now" в разделе "Samourai Dojo", отсканируйте QR-код сопряжения Dojo в вашем Samourai Wallet.
 
@@ -645,17 +645,17 @@ Samourai Toolkit
 
 После успешного сопряжения, вам нужно нажать кнопку "Log in" и ввести [парольную фразу](/passphrase), которую вы использовали при создании кошелька.
 
-{{% image "/img/ronin-15.jpg" /%}}
+{{% image "/img/ronin-15.webp" /%}}
 
 Наконец, вы попадаете в интерфейс Whirlpool и можете ремикшировать UTXO 24/7, пока работает ваш узел.
 
-{{% image "/img/ronin-16.jpg" /%}}
+{{% image "/img/ronin-16.webp" /%}}
 
 ### Обозреватели блокчейна
 
 Для доступа к BTC RPC Explorer перейдите в "Dashboard" и нажмите "Manage" в разделе "Dojo".
 
-{{% image "/img/ronin-17.jpg" /%}}
+{{% image "/img/ronin-17.webp" /%}}
 
 Здесь находятся ссылки для доступа к обозревателю и Dojo Maintenance Tool (DMT) через Tor-браузер.
 
@@ -677,15 +677,15 @@ nano ~/dojo/docker/my-dojo/conf/docker-node.conf
 
 {{% /hint %}}
 
-{{% image "/img/ronin-18.jpg" /%}}
+{{% image "/img/ronin-18.webp" /%}}
 
-{{% image "/img/ronin-19.jpg" /%}}
+{{% image "/img/ronin-19.webp" /%}}
 
 ### Индексаторы блокчейна
 
 Как уже упоминалось выше, вы можете выбирать между Electrs, Fulcrum или Addrindexrs. Вы можете установить другой индексатор из "Dashboard" через меню "Manage" в разделе "Indexer".
 
-{{% image "/img/ronin-20.jpg" /%}}
+{{% image "/img/ronin-20.webp" /%}}
 
 {{% hint info %}}
 Обратите внимание, что при выборе другого индексатора, данные предыдущего не сохраняются. Если вы решите переключиться обратно, синхронизация индексатора начнется с нуля.
@@ -705,7 +705,7 @@ nano ~/dojo/docker/my-dojo/conf/docker-node.conf
 System > Next Page
 ```
 
-{{% image "/img/ronin-21.png" /%}}
+{{% image "/img/ronin-21.webp" /%}}
 
 Здесь вы можете управлять настройками межсетевого экрана, SSH, изменить пароль пользователя ronindojo, а также root.
 

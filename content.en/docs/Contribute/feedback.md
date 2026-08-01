@@ -1,8 +1,8 @@
 ---
 title: "Feedback"
 h1: " "
-cover: /img/main-section/en/feedback-dark.png
-coverDark: /img/main-section/en/feedback-light.png
+cover: /img/main-section/en/feedback-dark.webp
+coverDark: /img/main-section/en/feedback-light.webp
 bookCollapseSection: false
 type: docs
 url: feedback

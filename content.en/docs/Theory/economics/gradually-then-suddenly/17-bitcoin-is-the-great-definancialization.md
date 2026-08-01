@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin is the Great Definancialization"
 h1: "Bitcoin is the Great Definancialization"
-cover: /img/gts-17-1.png
+cover: /img/gts-17-1.webp
 tags: ["bitcoin", "economics", "gradually then suddenly"]
 description: ""
 url: gradually-then-suddenly/bitcoin-is-the-great-definancialization
@@ -45,7 +45,7 @@ The line has been repeated so many times that it is now a de facto part of worki
 
 Financialization has been so errantly normalized that the lines between saving (not taking risk) and investing (taking risk) have become blurred to the extent that most people think of the two activities as being one in the same. Believing that financial engineering is a necessary path to a happy retirement might lack common sense, but it is the conventional wisdom.
 
-{{% image "/img/gts-17-2-en.png" %}}
+{{% image "/img/gts-17-2-en.webp" %}}
 _Or maybe you just need a better form of money™?_
 {{% /image %}}
 
@@ -53,7 +53,7 @@ Over the course of the past several decades, economies everywhere, but particula
 
 _Money Loses Value → Need to Make Money Grow → Need Financial Products to Make Money Grow → Repeat._
 
-{{% image "/img/gts-17-3-en.png" %}}
+{{% image "/img/gts-17-3-en.webp" %}}
 _Purchasing Power of the U.S. Dollar Over Time (1970 to 2020)_
 {{% /image %}}
 
@@ -63,7 +63,7 @@ The demand function is perversely driven by central banks devaluing money to ind
 
 At a fundamental level, there is nothing inherently wrong with joint-stock companies, bond offerings, or any pooled investment vehicle for that matter. While individual investment vehicles may be structurally flawed, there can be (and often is) value created through pooled investment vehicles and capital allocation functions. Pooled risk isn’t the issue, nor is the existence of financial assets. Instead, the fundamental problem is the degree to which the economy has become financialized, and that it is increasingly an unintended consequence of otherwise rational responses to a broken and manipulated monetary structure.
 
-{{% image "/img/gts-17-1.png" %}}
+{{% image "/img/gts-17-1.webp" %}}
 _The Dollar Hamster Wheel_
 {{% /image %}}
 
@@ -94,17 +94,17 @@ Whether one considers the game to be rigged or simply acknowledges that persiste
 
 The Fed might have thought it could print money as a means to induce productive investment, but what it actually produced was malinvestment and a massively over-financialized economy. Economies have become increasingly financialized as a direct result of monetary debasement and the impact that has had in manipulating the cost of credit. One would have to be blind not to see the connection: the necessary cause and effect between a money manufactured to lose its value, a disincentive to hold money and the rapid expansion of financial assets, including within the credit system.
 
-{{% image "/img/gts-17-4-en.jpg" /%}}
+{{% image "/img/gts-17-4-en.webp" /%}}
 
 Banking and wealth management industries have metastasized by this same function. It is like a drug dealer that creates his own market by giving the first hit away for free. Drug dealers create their own demand by getting the addict hooked. That is the Fed and the financialization of the developed world economy via monetary inflation. By manufacturing money to lose value, markets for financial products emerge that otherwise would not. Products have emerged to help people financially engineer their way out of the very hole created by the Fed. The need arises to take risk and to attempt to produce returns to replace what is lost via monetary inflation.
 
-{{% image "/img/gts-17-5-en.png" /%}}
+{{% image "/img/gts-17-5-en.webp" /%}}
 
-{{% image "/img/gts-17-6-en.png" /%}}
+{{% image "/img/gts-17-6-en.webp" /%}}
 
 The financial sector has captured a larger percentage of the economy over time because there is greater demand for financial services in a world in which money is constantly impaired. Stocks, corporate bonds, treasuries, sovereign bonds, mutual funds, equity ETFs, bond ETFs, levered ETFs, triple levered ETFs, fractional shares, mortgage-backed securities, CDOs, CLOs, CDS, CDX, synthetic CDS/CDX, etc. All of these products represent the financialization of the economy, and they become more relevant (and in greater demand) when the monetary function is broken.
 
-{{% image "/img/gts-17-7-en.png" /%}}
+{{% image "/img/gts-17-7-en.webp" /%}}
 
 Each incremental shift to pool, package and repackage risk can be tied back to the broken incentive structure inherent to the money underpinning an economy and the manufactured need to make money grow. Again, it is not to say that certain financial products or structures do not create value; instead, the problem is that the degree to which financial products are utilized and the extent to which risk has been layered on top of risk is largely a function of an intentionally broken monetary incentive structure.
 
@@ -112,7 +112,7 @@ While the vast majority of all market participants have been lulled to sleep as 
 
 The aggregate impact is massive malinvestment; investment in activities that would not have occurred if people were not forced into a position of taking ill-advised risk merely to replace the expected future loss of current savings. On an individual level, it is the doctor, nurse, engineer, teacher, butcher, grocer, builder, etc. being turned into a financial investor, plowing the majority of their savings into Wall St. financial products that bear risk while perceiving there to be none. Over time, stocks only go up, real estate only goes up, and interest rates only go down.
 
-{{% image "/img/gts-17-8-en.png" %}}
+{{% image "/img/gts-17-8-en.webp" %}}
 _For the record, the author is a Dave Portnoy fan._
 {{% /image %}}
 
@@ -144,7 +144,7 @@ Conversely, when the decision point of investment is heavily influenced by not w
 
 Make money lose its value and people will do dumb shit because doing dumb shit becomes more rational, if not encouraged. People that would otherwise be saving are forced to take incremental risk because their savings are losing value. In that world, savings become financialized. And when you create the incentive not to save, do not be surprised to wake up in a world in which very few people have savings. The empirical evidence shows exactly this, and despite how much it might astound a tenured economics professor, the lack of savings induced by a disincentive to save is very predictably a major source of the inherent fragility in the legacy financial system.
 
-{{% image "/img/gts-16-1-en.png" /%}}
+{{% image "/img/gts-16-1-en.webp" /%}}
 
 ## The Paradox of a Fixed Money Supply
 
@@ -152,7 +152,7 @@ The lack of savings and economic instability is all driven by the broken incenti
 
 By creating a world in which there is a fixed money supply such that no more or no less can be saved in aggregate, the incentive and propensity to save increases measurably on the individual level. It is a paradox; if more money cannot be saved in aggregate, more people will save on an individual basis. On one hand, it may appear to be a simple statement that individuals value scarcity. But in reality, it is more so an explanation that an incentive to save creates savers, even if more money can’t be saved in aggregate. And in order for someone to save, someone else must spend existing savings. After all, all consumption and investment comes from savings; the incentive to save creates savers, and the existence of more savers in turn creates more people with the means to consume and invest. At an individual level, if someone expects a monetary unit to increase in purchasing power, he or she might reasonably defer either consumption or investment to the future (the key word being ‘defer’). That is the incentive to save creating savers. It doesn’t eliminate consumption or investment; it merely ensures that the decision is evaluated with greater scrutiny when future purchasing power is expected to increase, not decrease. Imagine every single person simultaneously operating with that incentive mechanism, compared to the opposite which exists today.
 
-{{% image "/img/gts-12-8-en.png" /%}}
+{{% image "/img/gts-12-8-en.webp" /%}}
 
 While Keynesians worry that an appreciating currency will disincentivize consumption and investment in favor of savings and to the detriment of the economy at large, the free market actually works better in practice than it does when applying flawed Keynesian theory. In practice, a currency that is appreciating will be used everyday to facilitate consumption and investment because there is an incentive to save, not despite that fact. High present demand for both consumption and investment is dictated by positive time preference and there being an express incentive to save; everyone is always trying to earn everyone else’s money and everyone needs to consume real goods every day.
 
@@ -170,7 +170,7 @@ The primary incentive to save bitcoin is that it represents an immutable right t
 
 If monetary debasement induced financialization, it should be logical that a return to a sound monetary standard would have the opposite effect. The tide of financialization is already on its way out, but the groundswell is just beginning to form as most people do not yet see the writing on the wall. For decades, the conventional wisdom has been to invest the vast majority of all savings, and that doesn’t change overnight. But as the world learns about bitcoin, at the same time that global central banks create trillions of dollars and anomalies like $17 trillion in negative yielding debt continue to exist, the dots are increasingly going to be connected.
 
-{{% image "/img/gts-9-12-en.png" /%}}
+{{% image "/img/gts-9-12-en.webp" /%}}
 
 > _“The market value of the Bloomberg Barclays Global Negative Yielding Debt Index rose to $17.05 trillion [November 2020], the highest level ever recorded and narrowly eclipsing the $17.04 trillion it reached in August 2019.”_
 > 
@@ -182,11 +182,11 @@ Rather than taking open-ended risk, if each individual had access to a form of m
 
 Fool me once shame on you. Fool me twice, shame on me, the saying goes. It all comes back to the breakdown of the monetary system and the moral hazard introduced by a financial system that spawned as a result of misaligned monetary incentives. There is no mistaking it; the instability in the broader economic system is a function of the monetary system, and as more of these episodes continue to play out, more and more people will continue to seek a better, more sustainable path forward. Now with bitcoin increasingly at center stage, there is a market mechanism that will de-financialize and heal the economic system. The process of definancialization will occur as wealth stored in financial assets is converted into bitcoin and as each market participant increasingly expresses a preference for holding a more reliable form of money over risk assets. Definancialization will principally be observed through growing bitcoin adoption, the appreciation of bitcoin relative to every other asset and the deleveraging of the financial system as a whole. Almost everything will lose purchasing power in bitcoin-denominated terms as bitcoin becomes adopted globally as a monetary standard. Most immediately, bitcoin will gain share from financial assets, which have acted as near stores of value; it is only logical that the assets which have long served as monetary substitutes will increasingly be converted to bitcoin. As part of this process, the financial system will shrink in size relative to the purchasing power of the bitcoin network. The existence of bitcoin as a more sound monetary standard will not only cause a rotation out of financial assets, but bitcoin will also impair future demand for the same type of assets. Why purchase near-zero yielding sovereign debt, illiquid corporate bonds or equity-risk premium when you can own the scarcest asset (and form of money) that has ever existed?
 
-{{% image "/img/gts-17-10-en.png" /%}}
+{{% image "/img/gts-17-10-en.webp" /%}}
 
 It might start with the most obviously over-priced financial assets, such as negative yielding sovereign debt, but everything will be on the chopping block. As the rotation occurs, non-bitcoin asset prices will experience downward pressure, which will similarly create downward pressure on the value of debt instruments supported by those assets. The demand for credit will be impaired broadly, which will cause the credit system as a whole to contract (or attempt to contract). That in turn will accelerate the need for quantitative easing (increase in the base money supply) to help sustain and prop up credit markets, which will further accelerate the shift out of financial assets and into bitcoin. The process of definancialization will feed on itself and accelerate because of the feedback loop between the value of financial assets, the credit system and quantitative easing.
 
-{{% image "/img/gts-17-11-en.png" /%}}
+{{% image "/img/gts-17-11-en.webp" /%}}
 
 More substantively, as time passes and as knowledge distributes, individuals will increasingly opt for the simplicity of bitcoin (and its 21 million fixed supply) over the complexity of financial investing and structured financial risk. Financial assets bear operational risk and counterparty risk, whereas bitcoin is a bearer asset, perfectly fixed in supply, highly divisible, and easily transferable. The utility of money is fundamentally distinct from that of a financial asset. A financial asset has a claim on the income stream of a productive asset, denominated in a particular form of money. The holder of a financial asset is taking risk with the goal of earning more money in the future. Owning and holding money is just that; it is valuable in its ability to be exchanged in the future for goods & services. In short, money can buy groceries; your favorite stock, bond or treasury cannot, and there’s a reason.
 

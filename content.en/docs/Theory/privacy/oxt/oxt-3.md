@@ -130,7 +130,7 @@ _OXT Link Matrix Subset ([TxID](https://oxt.me/transaction/3a7455d3f04709870f714
 
 The LPM for selected UTXOs in evaluated transactions can also be found by selecting inputs and outputs on the OXT Transaction graph (see Fig 3.3). A visual of the full LPM produced by Boltzmann’s algorithm can be found at [kycp.org](http://kycp.org/).
 
-{{% image "/img/oxt/oxt-35.png" %}}
+{{% image "/img/oxt/oxt-35.webp" %}}
 _KYCP UTXO Flows and LPM ([TxID](https://kycp.org/#/aed291496b2e3fed785881a8600a0fa58dfbc706e3f9ac1f9052839b596c175a))_
 {{% /image %}}
 
@@ -156,7 +156,7 @@ If a transaction has multiple intra-UTXO flow interpretations, Boltzmann will sc
 
 Transactions with entropy have coinjoin properties and broken deterministic links. Coinjoin properties are evidence that a transaction has multiple users contributing inputs to the transaction. Conservatively, the inputs to transactions with entropy should not be clustered by the CIOH.
 
-{{% image "/img/oxt/oxt-37.png" %}}
+{{% image "/img/oxt/oxt-37.webp" %}}
 _KYCP Evaluation of a DarkWallet Coinjoin ([TxID](https://kycp.org/#/8e56317360a548e8ef28ec475878ef70d1371bee3526c017ac22ad61ae5740b8))_
 {{% /image %}}
 
@@ -168,7 +168,7 @@ KYCP includes a significant amount of transaction information including address 
 
 Equal output coinjoins have a unique on-chain footprint that can be identified by the presence of multiple equal outputs. But the flows across the transaction for equal outputs are not deterministic. If an analyst knows they are observing a coinjoin, they must consider the user they are attempting to track controls one of the many equal outputs. In most cases this is enough to stop an analyst in his tracks.
 
-{{% image "/img/oxt/oxt-38.png" %}}
+{{% image "/img/oxt/oxt-38.webp" %}}
 _Whirlpool Coinjoin Transaction Graph ([TxID](https://kycp.org/#/323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2))_
 {{% /image %}}
 

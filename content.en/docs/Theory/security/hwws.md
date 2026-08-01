@@ -1,7 +1,7 @@
 ---
 title: "The best Bitcoin hardware wallets"
 h1: "The best Bitcoin hardware wallets"
-cover: /img/hwws/hwws.png
+cover: /img/hwws/hwws.webp
 description: "An overview of the most popular devices, including Trezor, Ledger, Coldcard, and more."
 url: hwws
 date: 2023-03-01
@@ -35,7 +35,7 @@ Fortunately, such an outcome can be avoided for less than $100 and with a few si
 
 ## Trezor Model One
 
-{{% image "/img/hwws/trezor-one.png" /%}}
+{{% image "/img/hwws/trezor-one.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -81,7 +81,7 @@ While _Model One_ supports multiple tokens (and _Model T_ supports even more), S
 
 ## Trezor Model T
 
-{{% image "/img/hwws/trezor-t.png" /%}}
+{{% image "/img/hwws/trezor-t.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -127,7 +127,7 @@ While the microSD card slot on the Model T can’t be used for signing PSBTs, it
 
 ## Ledger Nano S Plus
 
-{{% image "/img/hwws/nano-s-plus.png" /%}}
+{{% image "/img/hwws/nano-s-plus.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -173,7 +173,7 @@ Most hardware wallets will automatically trigger some form of security procedure
 
 ## Ledger Nano X
 
-{{% image "/img/hwws/nano-x.png" /%}}
+{{% image "/img/hwws/nano-x.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -215,7 +215,7 @@ This feature can also be disabled entirely via the device’s settings, and a tr
 
 ## Coldcard Mk4
 
-{{% image "/img/hwws/mk4.png" /%}}
+{{% image "/img/hwws/mk4.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -249,7 +249,7 @@ The higher “security” is on your list of requirements, the higher up the _Co
 
 - **Self-destruct PIN:** You have the option of creating a self-destruct (“brick me”) PIN that, when entered, will automatically “destroy the dual secure element and render your Coldcard worthless.” It should be noted that one should not attempt to test this feature. If you want to further ensure that the contents of the device have been destroyed, you can drill into the secure elements by following the inscription showing their location.
 
-{{% image "/img/hwws/mk4-destroy.png" /%}}
+{{% image "/img/hwws/mk4-destroy.webp" /%}}
 
 ### Air-gapped coldpower
 
@@ -273,7 +273,7 @@ The _Coldcard Mk4_ has a variety of options when it comes to supplying power to 
 
 ## Jade
 
-{{% image "/img/hwws/jade.png" /%}}
+{{% image "/img/hwws/jade.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -317,7 +317,7 @@ The _Jade_ can be used to send and receive assets issued on the [Liquid Network]
 
 ## BitBox 02
 
-{{% image "/img/hwws/bitbox.png" /%}}
+{{% image "/img/hwws/bitbox.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -361,7 +361,7 @@ The device plugs directly into a computer or smartphone via its USB-C port (or U
 
 ## Keystone Pro
 
-{{% image "/img/hwws/keystone.png" /%}}
+{{% image "/img/hwws/keystone.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|
@@ -383,7 +383,7 @@ The _Keystone Pro_’s hardware design is open source, as is the secure element�
 
 Located on the back of the device, this feature can be enabled to unlock and signing transactions. However, the inclusion of a fingerprint sensor may also introduce risks associated with [$5 wrench attacks](https://unchained.com/blog/21-ways-lose-bitcoin/#wrench) and plausible deniability.
 
-{{% image "/img/hwws/wrench-en.png" /%}}
+{{% image "/img/hwws/wrench-en.webp" /%}}
 
 ### Removable battery packs
 
@@ -411,7 +411,7 @@ If access to the circuit board is attempted by removing the screen, the device w
 
 ## Passport (Batch 2)
 
-{{% image "/img/hwws/passport.png" /%}}
+{{% image "/img/hwws/passport.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |--------------------|-------------|------|--------------|---------------------|
@@ -449,7 +449,7 @@ A similar feature to the _Coldcard Mk4_, _Passport_ will display a blue LED to c
 
 ## SeedSigner
 
-{{% image "/img/hwws/seedsigner.png" /%}}
+{{% image "/img/hwws/seedsigner.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
 |---------------|-------------|------|--------------|---------------------|

@@ -2,7 +2,7 @@
 title: "Installing Mempool Explorer"
 h1: "Part 3. Installing Mempool Explorer"
 description: ""
-cover: /img/dojo-06.jpg
+cover: /img/dojo-06.webp
 url: practice-privacy/dojo-3
 date: 2023-12-20
 bookFlatSection: false

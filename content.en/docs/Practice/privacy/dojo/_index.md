@@ -2,7 +2,7 @@
 title: "Dojo x86 Bitcoin Node Guide"
 description: ""
 url: practice-privacy/dojo
-cover: /img/dojo-01.png
+cover: /img/dojo-01.webp
 bookCollapseSection: true
 bookFlatSection: false
 bookToc: false

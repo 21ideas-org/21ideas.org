@@ -1,7 +1,7 @@
 ---
 title: "Lightning Network Explained"
 h1: "Lightning Network Explained"
-cover: /img/mln-850.jpeg
+cover: /img/mln-850.webp
 description: ""
 url: lightning-network-explained
 date: 2018-01-30
@@ -63,7 +63,7 @@ Payment channels between two people _per se_ are not super useful. Ultimately, w
 *💡 When multiple payment channels form a network, any two people in this network can transact between each other. If there is a path between two nodes in the network, they can pay each other, even if they are not directly connected. This is the main idea of Lightning Network.*
 {{< /hint >}}
 
-{{% image "/img/mln-851.png" %}}
+{{% image "/img/mln-851.webp" %}}
 _Mainnet LN: the graph of payment channels as of 22.01.2018 ([https://lnmainnet.gaben.win](https://lnmainnet.gaben.win))._
 {{% /image %}}
 
@@ -137,7 +137,7 @@ In reality, there exists a [whole variety](https://en.bitcoin.it/wiki/Payment_ch
 4. Then Bob signs the transaction _A1_ and gives it to Alice. Alice signs the transaction _B1_ and gives it to Bob.
 5. And now the initial deposit transaction _O_ can be safely recorded in the main blockchain. No one is going to freeze anyones money. If Bob refuses to cooperate, Alice will just sign her transaction _A1_, record it in the blockchain and will return her deposit.
 
-{{% image "/img/mln-852.png" %}}
+{{% image "/img/mln-852.webp" %}}
 _Deposit refund transactions._
 {{% /image %}}
 
@@ -166,7 +166,7 @@ How to make sure that Alice will not submit transaction _A1_ instead of transact
 
 _Last small modification._ To dispute the transaction Alice submits to the blockchain and to provide her key, Bob needs time. Because of that Alice is not going to get her deposit immediately after she closes the channel, but after some number of blocks T (`OP_CheckSequenceVerify`). For example, she may need to wait for 48 blocks, which is approximately 8 hours.
 
-{{% image "/img/mln-853.png" %}}
+{{% image "/img/mln-853.webp" %}}
 _The final form of the transactions used for a payment channel._
 {{% /image %}}
 
@@ -218,7 +218,7 @@ There is a couple of non-trivial technicalities with selecting the right timefra
 
 In practice Alice and Bob can be connected through any arbitrary number of unknown/anonymous intermediaries across the whole world. The problem of finding the most optimal path of intermediaries in a graph of network nodes is called a _routing problem_.
 
-{{% image "/img/mln-854.png" %}}
+{{% image "/img/mln-854.webp" %}}
 _Geographical distribution of bitcoin testnet nodes ([https://explorer.acinq.co/#/](https://explorer.acinq.co/#/))._
 {{% /image %}}
 

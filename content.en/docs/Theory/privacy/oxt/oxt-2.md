@@ -2,7 +2,7 @@
 title: "Part 2: Chain Analysis Core Concepts"
 h1: "Part 2: Chain Analysis Core Concepts"
 description: ""
-cover: /img/oxt/oxt-2-cover.png
+cover: /img/oxt/oxt-2-cover.webp
 url: privacy/oxt-2
 date: 2021-08-06
 bookFlatSection: false
@@ -111,7 +111,7 @@ A simple transaction graph example is presented below.
 
 3. Open the transaction details window by clicking the respective icon on the left toolbar.
 
-{{% image "/img/oxt/oxt-20.png" %}}
+{{% image "/img/oxt/oxt-20.webp" %}}
 *Selected Transaction and Transaction Details*
 {{% /image %}}
 
@@ -212,7 +212,7 @@ An analyst can create an account with a service and send BTC to a deposit addres
 
 Alternatively, an analyst can use opensource intelligence techniques to search for publicly available information posted by service users. Deposit and withdrawal addresses can be commonly found in social media posts. This publicly available data can also be used to attribute a wallet cluster to a centralised service.
 
-{{% image "/img/oxt/oxt-26.png" %}}
+{{% image "/img/oxt/oxt-26.webp" %}}
 _Labelled Cluster [Example](https://oxt.me/entity/coinbase)_
 {{% /image %}}
 

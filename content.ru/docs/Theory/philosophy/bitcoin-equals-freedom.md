@@ -1,7 +1,7 @@
 ---
 title: "Биткоин = свобода"
 h1: "Биткоин = свобода"
-cover: /img/free-916.jpg
+cover: /img/free-916.webp
 description: "Нечто особенное произошло примерно через год после того, как Сатоши подарил нам Биткоин, что-то, чего никто не ожидал и многие считали невозможным."
 url: bitcoin-svoboda
 aliases: ['/theory-philosophy-bitcoin-is-freedom','/bitcoin-equals-freedom']

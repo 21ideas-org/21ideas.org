@@ -31,7 +31,7 @@ The reason why the internet doesn’t feel as clumsy anymore is twofold:
 
 - (2) count­less layers of abstrac­tion make inter­acting with the base protocol easier. Related technolo­gies such as plug-and-play helped to make the user experi­ence even better. Gone are the days of manually setting the IRQ number of your network card!
 
-{{% image "/img/217.png" %}}
+{{% image "/img/217.webp" %}}
 _Pete: “What is an IRQ?”_
 {{% /image %}}
 
@@ -57,7 +57,7 @@ Well, it isn’t. Just like one had to know what an IP address is and how p
 
 The base protocol will probably slowly ossify over time, just like the Windows TCP/IP setup dialog ossified over time. Once the base layer is suffi­ciently optimized, most innova­tion will happen on higher layers.
 
-{{% image "/img/219.png" %}}
+{{% image "/img/219.webp" %}}
 _Cool. Now that we’ve got the UI sorted let’s upgrade to IPv6._
 {{% /image %}}
 
@@ -67,7 +67,7 @@ Some are building products that are easy to use (Strike, Casa, Coinkite, Samour
 
 Over time, people will get used to the concepts we can’t abstract away. I’m convinced that things will get easier, just like connecting to a network is more straightforward than in 1995.
 
-{{% image "/img/220.png" %}}
+{{% image "/img/220.webp" %}}
 _Make good things._
 {{% /image %}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin and the Rhythms of History"
 h1: "Bitcoin and the Rhythms of History"
-cover: /img/brh-583.png
+cover: /img/brh-583.webp
 description: ""
 url: bitcoin-rhythms-of-history
 date: 2020-10-29
@@ -46,7 +46,7 @@ Spring, Summer, Fall, and Winter. Life and death. The carbon cycle, the water cy
 
 The wisdom of cycles is embedded in modern culture. Represented by common phrases like “history doesn’t repeat, but it rhymes,” and “there are decades when nothing happens, and weeks when decades happen.”
 
-{{% image "/img/brh-584-en.png" /%}}
+{{% image "/img/brh-584-en.webp" /%}}
 
 Ancient man observed a human cycle called the “Saeculum.” Which essentially means “a long human life” or roughly 90 years. 
 
@@ -58,7 +58,7 @@ Each 90-year period (Saecula) can be divided into four stages (Turnings) each la
 
 Each Turning has a well-defined mood that produces a well-defined generation of people. Each generation embodies one of four archetypes that appear in a specific, repeating order.
 
-{{% image "/img/brh-585-en.png" /%}}
+{{% image "/img/brh-585-en.webp" /%}}
 
 The full cycle (four human generations) takes roughly 90 years or one full _Saeculum_. Each archetype follows a similar script throughout history:
 
@@ -75,7 +75,7 @@ These generational trends are a natural, emergent, human phenomenon. We have wel
 
 There is a symbiotic relationship between history and generations. The historic moment imprints itself onto the new generation. Then when that generation grows up it changes history. Repeat ad infinitum.
 
-{{% image "/img/brh-586-en.png" /%}}
+{{% image "/img/brh-586-en.webp" /%}}
 
 ### Each Saeculum is made up of Four Turnings
 
@@ -220,7 +220,7 @@ Transition: The US entered the Crisis as an Isolationist, fledgling nation; and 
 
 The “supply and demand for order” in society fluctuates over time. Depending on the position of these two variables, you can determine the direction society is heading.
 
-{{% image "/img/brh-587-en.png" %}}
+{{% image "/img/brh-587-en.webp" %}}
 _Chart designed by [Nick Ward @nckbtc](https://twitter.com/nckbtc)_
 {{% /image %}}
 
@@ -322,7 +322,7 @@ Considering what we know about previous Fourth Turnings, here are the key trends
 
 Trust in the central government is the lowest it’s been in the last century. In 1961, 80% of people said they “trust the Federal government to do the right thing.” In 2020, that number dropped to only 20% trust the Federal government.
 
-{{% image "/img/brh-588-en.png" %}}
+{{% image "/img/brh-588-en.webp" %}}
 _Source: [Pew Research](https://www.pewresearch.org/politics/2019/04/11/public-trust-in-government-1958-2019/)_
 {{% /image %}}
 
@@ -376,7 +376,7 @@ In 2020 we have top-heavy demographics. The Boomers are retiring which means ent
 
 Due to these entitlements, America is forced to “print more or allow a revolution.” We’ve already seen a 22% increase in base money in 2020 alone. This brought the U.S. Debt-to-GDP Ratio to 135%. Not to mention the economy is slowing down. This means sovereign debt must continually increase, likely to unsustainable levels.
 
-{{% image "/img/brh-589.png" %}}
+{{% image "/img/brh-589.webp" %}}
 _Source: [Federal Reserve Bank of St Louis](https://fred.stlouisfed.org/series/GFDEGDQ188S)_
 {{% /image %}}
 
@@ -408,7 +408,7 @@ Our final option is to devalue the debt in real terms (inflation). This would li
 
 The federal reserve will now have an unlimited budget to buy as many assets (treasuries, corporate debt, and soon to be equities) as necessary to keep interest rates down. Practically speaking, that means anyone holding dollars or bonds will see negative real returns for the next decade. Again, just like the 1940s.
 
-{{% image "/img/brh-591-en.png" %}}
+{{% image "/img/brh-591-en.webp" %}}
 _Source:_ [_Lyn Alden by way of Robert Shiller, Aswath Damodaran_](https://www.lynalden.com/fiscal-and-monetary-policy/)
 {{% /image %}}
 
@@ -445,7 +445,7 @@ However, the issue became politicized and created a wider gap between political 
 
 A 2014 poll showed that [23.9% of Americans support secession](http://blogs.reuters.com/jamesrgaines/2014/09/19/one-in-four-americans-want-their-state-to-secede-from-the-u-s-but-why/) from the Federal Government. If they ran the same poll today, it would no doubt be higher. This is alarming because it only requires a strong minority to kickstart a conflict. For example, [most people in the colonies didn’t support the American Revolution](https://www.theatlantic.com/magazine/archive/2016/12/the-accidental-patriots/505835/).
 
-{{% image "/img/brh-592-en.jpg" %}}
+{{% image "/img/brh-592-en.webp" %}}
 _Source: [Reuters poll data](http://blogs.reuters.com/jamesrgaines/2014/09/19/one-in-four-americans-want-their-state-to-secede-from-the-u-s-but-why/)_
 {{% /image %}}
 
@@ -543,7 +543,7 @@ To Neil’s credit, UBI delivered via CBDCs will be popular with millennials. Ho
 
 Finally, a quick look at some data. Unsurprisingly, [90% of Millennials prefer Bitcoin over Gold](https://finance.yahoo.com/news/generation-bitcoin-90-millennials-prefer-153754375.html). Millennials also picked cryptocurrencies as their top long-term investment 9% of the time, [triple the rate of Gen X](https://www.bankrate.com/investing/financial-security-july-2019/). Charles Schwab published their top 10 holdings by generation in the chart below, again Millennials are leading the charge with the Grayscale Bitcoin Trust.
 
-{{% image "/img/brh-594.png" %}}
+{{% image "/img/brh-594.webp" %}}
 _Source: [Charles Schwab](https://www.businesswire.com/news/home/20191204005172/en/Schwab-Report-Self-Directed-401-k-Balances-Hold-Steady-Millennials-Allocate-More-to-ETFs-and-Cash-Than-Gen-X-Boomers)  (emphasis mine)_
 {{% /image %}}
 
@@ -619,7 +619,7 @@ CBDCs will enable the central banks to surgically manage the economy. They can s
   
 This will give incredible power to central banks at the expense of liberty for individuals. This new digital dollar will spy on you and will only work at government-approved vendors. If the government doesn’t like your political views, they’ll turn your money off. This is the weaponization of behavioral economics through an all-powerful, closed-loop, financial system. Apparently, the banking class has no upper limit on hubris.
 
-{{% image "/img/brh-595-en.png" /%}}
+{{% image "/img/brh-595-en.webp" /%}}
 
 Whether we like it or not, all major countries are racing to create their own CBDC. By 2030, an entirely new financial system will be in place.
 
@@ -666,7 +666,7 @@ First and foremost take care of you and yours during this tumultuous time. If yo
 
 ## Will this Fourth Turning End in Tragedy or Triumph?
 
-{{% image "/img/brh-596.png" %}}
+{{% image "/img/brh-596.webp" %}}
 [_Art by_](https://sta.sh/01t17n5kthjm) _[CRYPTOXEER-IV](https://www.deviantart.com/cryptoxeer-iv)_
 {{% /image %}}
 

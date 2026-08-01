@@ -1,7 +1,7 @@
 ---
 title: "In Defense Of Deflation"
 h1: "What Most People Get Wrong About Deflation"
-cover: /img/vzd-500.jpeg
+cover: /img/vzd-500.webp
 description: ""
 url: in-defense-of-deflation
 aliases: ['/theory-economics-in-defense-of-deflation']

@@ -9,7 +9,7 @@ next: /blog/
 prev: /posts/empty-blocks
 title: "Суд над самураями"
 h1: "Суд над самураями"
-cover: /img/blog/sunset.jpeg
+cover: /img/blog/sunset.webp
 description: "Обзор предварительного слушания над разработчиками кошелька Samourai"
 bookToc: true
 weight: 10

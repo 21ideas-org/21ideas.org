@@ -1,7 +1,7 @@
 ---
 title: "Первые успехи и неудачи нарко-Amazon'a"
 h1: "Silk Road: первые успехи и неудачи нарко-Amazon'a"
-cover: /img/silkroad/sr-06.jpg
+cover: /img/silkroad/sr-06.webp
 tags: ["биткоин", "история"]
 description: "В этой части мы рассмотрим, как в первый год изменилась не только платформа Silk Road, но и её создатель."
 url: sr/silkroad-2
@@ -64,7 +64,7 @@ Silk Road начал свою работу медленно, но многооб
 > 
 > *— Адриан Чен, [The Underground Website…](https://web.archive.org/web/20131130194041/http://gawker.com/the-underground-website-where-you-can-buy-any-drug-imag-30818160), 1 июня 2011 г.*
 
-{{% image "/img/silkroad/sr-07.png" %}}
+{{% image "/img/silkroad/sr-07.webp" %}}
 *Статья Адриана Чена о Silk Road на Gawker*
 {{% /image %}}
 

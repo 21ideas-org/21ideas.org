@@ -9,7 +9,7 @@ next: /blog/
 prev: /blog/
 title: Переключатель мертвеца – транзакция в будущее
 description: ""
-cover: /img/deadmans-switch/cover.jpg
+cover: /img/deadmans-switch/cover.webp
 weight: 10
 ---
 
@@ -35,27 +35,27 @@ weight: 10
 
 Для примера воспользуемся приложением Sparrow. Откроем кошелёк с биткоинами, который мы хотим защитить данным методом, и перейдём на вкладку "UTXO". На ней будут отображаться доступные для расходования выходы. Выделите все UTXO, которые вы хотите включить в транзакцию, щёлкните правой кнопкой мыши и выберите "Send Selected".
 
-![sparrow_window](/img/deadmans-switch/01.jpg)
+![sparrow_window](/img/deadmans-switch/01.webp)
 
 Затем вставьте адрес, который вы создали на первом шаге. Не используйте слишком низкую комиссию. Да, вы не знаете, какими будут комиссии в будущем, но при необходимости можно воспользоваться функцией [CPFP](https://bitcoinops.org/en/topics/cpfp/). Нажмите "Create Transaction".
 
-![sparrow_window](/img/deadmans-switch/02.jpg)
+![sparrow_window](/img/deadmans-switch/02.webp)
 
 **Теперь важная часть.** Необходимо заблокировать транзакцию так, чтобы она стала действительной только в будущем. Нажмите кнопку "Detail" на экране транзакции и выберите время блокировки. Вы можете выбрать либо блок, после которого транзакция будет действительна, либо конкретную дату.
 
-![sparrow_window](/img/deadmans-switch/03.jpg)
+![sparrow_window](/img/deadmans-switch/03.webp)
 
 Теперь нажмите “Finalize Transaction for Signing” и затем “Sign”.
 
-![sparrow_window](/img/deadmans-switch/04.jpg)
+![sparrow_window](/img/deadmans-switch/04.webp)
 
 После этого можно сохранить транзакцию в виде файла или QR-кода.
 
-![sparrow_window](/img/deadmans-switch/05.jpg)
+![sparrow_window](/img/deadmans-switch/05.webp)
 
 Если открыть файл `.txn` в текстовом редакторе, то он будет выглядеть примерно так:
 
-![sparrow_window](/img/deadmans-switch/06.jpg)
+![sparrow_window](/img/deadmans-switch/06.webp)
 
 Эту информацию можно хранить на "горячем" устройстве до тех пор, пока не истекло время блокировки.
 

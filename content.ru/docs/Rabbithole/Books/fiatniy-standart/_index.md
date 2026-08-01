@@ -1,7 +1,7 @@
 ---
 title: "Фиатный стандарт"
 h1: "Фиатный стандарт"
-cover: /img/books/fiat-standard/fiat-standard.png
+cover: /img/books/fiat-standard/fiat-standard.webp
 description: "Долговое рабство для человеческой цивилизации."
 url: fiatniy-standart
 date: 2021-05-19

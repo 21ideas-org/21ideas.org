@@ -9,7 +9,7 @@ next: /blog/
 prev: /blog/
 title: "Демонетизация: и... их нет"
 description: ""
-cover: /img/demonetization/cover.png
+cover: /img/demonetization/cover.webp
 aliases: ['/demonetization']
 weight: 10
 ---
@@ -41,11 +41,11 @@ weight: 10
 {{< hint btc >}}
 Законы о платёжном средстве, которые пытаются заставить людей использовать обесцененную форму денег по определенной номинальной стоимости, в конечном итоге игнорируются, после снижения покупательной способности или потери доверия к эмитенту.
 
-![demonetization](/img/demonetization/01.png)
+![demonetization](/img/demonetization/01.webp)
 
 Вместо того, чтобы исчезнуть из обращения, деньги более высокого качества могут обмениваться с наценкой, в то время как деньги более низкого качества могут быть полностью отвергнуты рынком.
 
-![demonetization2](/img/demonetization/02.png)
+![demonetization2](/img/demonetization/02.webp)
 {{< /hint >}}
 
 ## Демонетизация через инновации
@@ -57,7 +57,7 @@ weight: 10
 > В 1545 году в Андах, на территории современной Боливии, был основан новый испанский горнодобывающий город. В течение следующих 250 лет шахты Потоси финансировали испанскую корону и её имперские амбиции. Однако испанцы не знали, что владение слишком большим количеством серебра может иметь катастрофические последствия. 
 > — [Footnoting History](https://www.footnotinghistory.com/home/potosi-the-silver-mine-that-changed-the-world?ref=teachingbtc.com)
 
-![demonetization3](/img/demonetization/03.png)
+![demonetization3](/img/demonetization/03.webp)
 
 Урок заключается в том, что защита от демонетизации лежит на вас, потому что инновации не спрашивают разрешения. Долголетие не защитит вас от демонетизации через инновации.
 

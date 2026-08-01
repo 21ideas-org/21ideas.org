@@ -1,7 +1,7 @@
 ---
 title: "Самый богатый человек в Вавилоне"
 h1: "Самый богатый человек в Вавилоне"
-cover: /img/books/samyj-bogatyj-chelovek-v-vavilone.png
+cover: /img/books/samyj-bogatyj-chelovek-v-vavilone.webp
 description: "Автор этой книги уверен: чтобы исполнить все свои замыслы и желания, вы прежде всего должны добиться успеха в денежных вопросах, используя принципы управления личными финансами, изложенные на её страницах."
 url: samyj-bogatyj-chelovek-v-vavilone
 date: 1926-09-29

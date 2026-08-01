@@ -1,7 +1,7 @@
 ---
 title: "no-KYC only. Avoid the creep"
 h1: "no-KYC only. Avoid the creep"
-cover: /img/188.jpeg
+cover: /img/188.webp
 description: ""
 url: privacy/no-kyc
 date: 2020-02-18
@@ -78,19 +78,19 @@ Coinjoin can obfuscate the final address of your coins if you practice good post
 
 Thankfully there are some options out there to purchase Bitcoin via no KYC sources. These are all P2P (peer to peer) exchanges where you are trading directly with another individual and not a centralised third party. Unfortunately some sell other coins as well as bitcoin so we urge you to take care.
 
-{{% image "/img/189.png" /%}}
+{{% image "/img/189.webp" /%}}
 
 *   [HODL HODL](https://hodlhodl.com/join/TONYB)
 
-{{% image "/img/190.png" /%}}
+{{% image "/img/190.webp" /%}}
 
 *   [Bisq](https://bisq.network/)
 
-{{% image "/img/191.png" /%}}
+{{% image "/img/191.webp" /%}}
 
 *   [LocalCryptos](https://localcryptos.com/)
 
-{{% image "/img/192.png" /%}}
+{{% image "/img/192.webp" /%}}
 
 *   [Local Coin Swap](https://localcoinswap.com/)
 
@@ -161,5 +161,5 @@ This is more on the extreme end of the spectrum, but moving jurisdictions could 
 
 ### no-KYC only.
 
-{{% image "/img/193.png" /%}}
+{{% image "/img/193.webp" /%}}
 

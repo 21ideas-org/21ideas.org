@@ -1,7 +1,7 @@
 ---
 title: "Луна – суровая хозяйка"
 h1: "Луна – суровая хозяйка"
-cover: /img/books/luna-surovaya-hozyajka.png
+cover: /img/books/luna-surovaya-hozyajka.webp
 description: "Луна, в недавнем прошлом выполнявшая благородную функцию планеты-тюрьмы для уголовников и диссидентов с Земли, ныне превращена в сырьевой придаток праматери человечества."
 url: luna-surovaya-hozyajka
 date: 1985-02-16

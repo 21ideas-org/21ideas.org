@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys"
 h1: "Bitcoin Wallets: How, Why and When to Hold Your Own Private Keys"
-cover: /img/197.png
+cover: /img/197.webp
 tags: ["bitcoin", "hold", "keys", "security", "wallets"]
 description: ""
 url: how-to-hold-private-keys
@@ -49,7 +49,7 @@ Our goal is to help you become comfort­able with the prospect of holding your o
 
 Now, we’ll take a look at what options you have for taking control of your own Bitcoin keys.
 
-{{% image "/img/198-en.jpg" /%}}
+{{% image "/img/198-en.webp" /%}}
 
 # Bitcoin Custody Tradeoff: Security vs Convenience
 
@@ -116,7 +116,7 @@ Now that you’ve decided to acquire some Bitcoin (smart move) it’s time to de
 
 **Examples:** [Unchained Capital’s Vault](https://unchained-capital.com/vaults/) (2‑of‑3), [Casa’s Keymaster](https://keys.casa/keymaster/) (2‑of‑3 and 3‑of‑5), [Specter](https://specter.solutions/) (DIY), [Electrum](https://electrum.org/#home) (DIY).
 
-{{% image "/img/200.png" /%}}
+{{% image "/img/200.webp" /%}}
 
 # Hot vs Cold Bitcoin Wallets: What’s the difference?
 
@@ -132,7 +132,7 @@ Most wallets require users to write down a “backup seed phrase.” This is a 
 
 Another way to store your Bitcoin is with a seedless wallet. These are designed for multi-signa­ture accounts where users don’t create backup seeds and instead rely on a service for backups. Casa is leading the charge with seedless wallets with their Keymaster multisig­na­ture product.
 
-{{% image "/img/201.png" /%}}
+{{% image "/img/201.webp" /%}}
 
 ## Bitcoin Multisignature: How it Works
 

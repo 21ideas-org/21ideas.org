@@ -51,7 +51,7 @@ Unfortunately, our sample size of one biosphere with one (young?) civilization m
 
 We [may be completely alone in the universe](https://en.wikipedia.org/wiki/Rare_Earth_hypothesis), a temporary statistical fluke in entropy production needing neither explaining nor purpose. Or perhaps the universe is full of life that is incomprehensible to our physics and biology; beings we cannot grasp experiencing realities we cannot conceive.
 
-{{% image "/img/ba-639.png" %}}
+{{% image "/img/ba-639.webp" %}}
 _“When you look into the mirror it is not ET you see, but reflections of yourself posed universally.” — John Updike on SETI. [[Source](https://www.newscientist.com/article/mg24232330-200-weve-seen-signs-of-a-mirror-image-universe-that-is-touching-our-own/)]_
 {{% /image %}}
 
@@ -67,7 +67,7 @@ Astrobiologists increasingly believe that conditions are _frequently_ right for 
 
 Carbon-based, water-soluble [simple life is probably common](https://www.centauri-dreams.org/2020/05/19/the-odds-on-intelligent-life-in-the-universe/) in our galaxy.  If we allow ourselves to entertain the possibility of other, more exotic kinds of life, then life should only be _more_ common.
 
-{{% image "/img/ba-640.png" %}}
+{{% image "/img/ba-640.webp" %}}
 _Simple life such as found in this hydrothermal system in Dallol, Ethiopia, is probably common across the galaxy. [[Source](https://commons.wikimedia.org/wiki/File:The_hydrothermal_system_of_Dallol,_Ethiopia.png)]_
 {{% /image %}}
 
@@ -83,7 +83,7 @@ But what about complex life, the kind we believe can evolve intelligence and civ
 
 Civilizations, like life itself, are active agents, transforming their environments and declaring their presence to the cosmos through methods both intended (signals & probes) and unintended (waste heat).  The traditional wisdom of astrobiology, confirmed by decades of fruitless SETI searches, is that such civilizations cannot be common, as common as we suspect life to be, simply because we would have noticed them by now.  This tension between how common life seems to be and the lack of any (credible) evidence of alien intelligence is sometimes referred to as [the Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox).
 
-{{% image "/img/ba-641.png" %}}
+{{% image "/img/ba-641.webp" %}}
 _The “Fermi Paradox” supposedly originated in an offhand remark made by physicist Enrico Fermi during a lunchtime conversation about aliens. The galaxy is huge and old and intelligence has had many opportunities to evolve — so “Where is everybody?” [[Source](https://en.wikipedia.org/wiki/Enrico_Fermi)]_
 {{% /image %}}
 
@@ -103,7 +103,7 @@ We can’t.  Building a sociological theory of extraterrestrial civilizations t
 
 In his novel, [_The Dark Forest_](https://en.wikipedia.org/wiki/The_Dark_Forest), the science-fiction author Cixin Liu gives a name to this mode of deduction: “Cosmic Sociology” (no doubt a department in the same building as Bitcoin Astronomy).  As one character explains, when there is “nothing concrete to study” and “surveys and experiments aren’t possible,” then the “ultimate result will be purely theoretical.”  She goes on to describe “axioms” – what we would call universals — which she believes characterize extraterrestrial civilizations.
 
-{{% image "/img/ba-642.png" %}}
+{{% image "/img/ba-642.webp" %}}
 *Cixin Liu’s The Dark Forest may reveal more about its author or US-China politics than it does about the Fermi Paradox. [[Source](https://pxhere.com/en/photo/1616193)]*
 {{% /image %}}
 
@@ -141,7 +141,7 @@ But social species are also more likely to develop money.  In [Shelling Out](ht
 
 Once it evolves, money may even drive the evolution of language.  Some of the earliest known examples of written human language are [Sumerian clay tokens and tablets](https://en.wikipedia.org/wiki/Cuneiform) which record ancient transactions and debts.
 
-{{% image "/img/ba-643.png" %}}
+{{% image "/img/ba-643.webp" %}}
 _Clay tablets are ledgers which enable communication between civilizations across thousands of years of time. A blockchain is a ledger which enables communication between civilizations across thousands of years of space. [[Source](https://www.bbc.com/news/business-39870485)]_
 {{% /image %}}
 
@@ -157,7 +157,7 @@ There are good reasons to believe that telecommunications and computing are univ
 
 What about cryptography?  Cryptography arose on Earth from the need to keep secrets.  Individuals in social species are likely to keep secrets, whether to collaborate with others or just to preserve their own privacy.  As social species develop technologies such as writing or communication networks, they will develop techniques to transmit secrets securely.  If aliens keep secrets, they’ll invent cryptography.
 
-{{% image "/img/ba-644.png" %}}
+{{% image "/img/ba-644.webp" %}}
 *P != NP means there exist questions with answers that are difficult to find but easy to check. This allows the cryptographic locks and keys that blockchains rely upon. [[Source](https://pixabay.com/illustrations/cyber-security-protection-technology-3400657/)]*
 {{% /image %}}
 
@@ -205,7 +205,7 @@ There’s a general belief among SETI researchers that, should humanity actually
 
 The combination of these ideas leads us to speculate that the first SETI signal humanity will detect will be an alien blockchain.
 
-{{% image "/img/ba-645.png" %}}
+{{% image "/img/ba-645.webp" %}}
 _Humanity has already transmitted sound money into space. Aliens will do the same, except they won’t send a golden record. They’ll send a blockchain. [[Source](https://en.wikipedia.org/wiki/Voyager_Golden_Record)]_
 {{% /image %}}
 
@@ -219,7 +219,7 @@ As anticipated by the Third Law, they invented their version of bitcoin long, lo
 
 They’ve even built an interstellar blockchain with block times of centuries to coordinate across their whole civilization and make investments on the longest of timescales.  We’ll refer to this blockchain as **Xenocoin.**  Xenocoin is central to the Nakamotans.  It’s the largest, most valuable, and lowest time-preference blockchain in their civilization.  In many ways, it _is_ their civilization.
 
-{{% image "/img/ba-646.png" %}}
+{{% image "/img/ba-646.webp" %}}
 _The Nakamotans are the most advanced civilization in our galactic neighborhood. They are at least Type II on the Kardashev scale and have settled multiple star systems, all connected through an interstellar blockchain called Xenocoin. [[Source](https://commons.wikimedia.org/wiki/File:A_Dyson_Swarm_Superstructure_(21983905140).png)]_
 {{% /image %}}
 
@@ -239,7 +239,7 @@ The archetypal “Hello” first contact messages in science fiction originate f
 
 But omnidirectional broadcasting on the interstellar scale isn’t cheap, it requires [hundreds of trillions of watts](https://www.nbcnews.com/id/wbna3753843), many times more energy than used by our entire civilization today.  Even advanced societies such as Nakamotans, who perhaps can afford such an energy expense, will probably instead choose more efficient methods of communication.
 
-{{% image "/img/ba-647.png" %}}
+{{% image "/img/ba-647.webp" %}}
 _Interstellar communications networks are unicast, peer-to-peer, and lack delivery guarantees. What applications could you build on such a network? [[Source](https://www.nbcnews.com/mach/science/interstellar-porch-light-just-might-help-us-find-space-aliens-ncna935181)]_
 {{% /image %}}
 
@@ -279,7 +279,7 @@ They might rely upon us to reverse-engineer the compression algorithm, but an ea
 
 The ultimate solution is to [_transmit the computer itself_](https://en.wikipedia.org/wiki/Communication_with_extraterrestrial_intelligence#Algorithmic_messages).  Extraterrestrial senders can include in their messages an (uncompressed) specification of the rules for a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine).  Virtual machines of quite simple designs can perform arbitrarily complex computations, given the right input.
 
-{{% image "/img/ba-648.png" %}}
+{{% image "/img/ba-648.webp" %}}
 *Conway’s Game of Life is a virtual machine with extremely simple rules that can nonetheless perform arbitrary computations. [[Source](https://medium.com/tebs-lab/optimizing-conways-game-of-life-12f1b7f2f54c)]*
 {{% /image %}}
 
@@ -301,7 +301,7 @@ This is ultimately a problem of semiotics.  To communicate in natural language,
 
 One way to reduce the difficulty of the semiotic problem is to restrict the universe of discourse.  Instead of being able to signify any possible thing, if signs were assumed to be about a fixed number of classes of things signified then they would be easier to interpret.
 
-{{% image "/img/ba-649.png" %}}
+{{% image "/img/ba-649.webp" %}}
 _Early computer language programs restricted their universe of discourse. What’s a naturally restricted universe of discourse for interspecies communication? [[Source](https://twitter.com/santiontanon/status/1252848639325507584)]_
 {{% /image %}}
 
@@ -329,7 +329,7 @@ A blockchain’s block time tells the receiver something about the physical scal
 
 A blockchain’s length, in combination with its block time, tells the receiver about the age and economic history of the sender’s civilization.  Are they a young Type I civilization with a stellar blockchain experiencing early monetization?  Or an advanced, Type II civilization such as the Nakamotans with a mature interstellar blockchain such as Xenocoin?  As we measure the velocity of distant stars through their [Doppler shifts](https://en.wikipedia.org/wiki/Doppler_spectroscopy), we will measure the velocity of distant monies through their [HODL waves](https://unchained.com/hodlwaves/).
 
-{{% image "/img/ba-650.png" %}}
+{{% image "/img/ba-650.webp" %}}
 _Imagine the HODL waves chart for an interstellar blockchain with a 500,000 year history. [[Source](https://studio.glassnode.com/)]_
 {{% /image %}}
 
@@ -361,7 +361,7 @@ Obviously, if it were hundreds of years ago, we would neither have detected it n
 
 Satoshi described bitcoin in English and familiar mathematics and implemented it using common programming languages, yet it is still difficult for most humans to understand how bitcoin works — many don’t even try.  An alien blockchain might have been inscrutable.
 
-{{% image "/img/ba-651.png" %}}
+{{% image "/img/ba-651.webp" %}}
 _In a timeline where humanity received a Xenocoin signal before we invented bitcoin, we might get the Xenocoin white paper instead of the bitcoin white paper._
 {{% /image %}}
 
@@ -389,7 +389,7 @@ Once they receive our response, the Nakamotan response might be to test us, send
 
 But if, for many Xenocoin blocks, we consistently transmit back all valid transactions the Nakamotans send us, then they may begin to invest more resources in our relationship.  Perhaps they would begin transmitting more frequently, continuously instead of periodically.  We would respond in kind, committing more of our own energy budget towards maintaining this vital interstellar communications link.
 
-{{% image "/img/ba-652.png" %}}
+{{% image "/img/ba-652.webp" %}}
 _We will build powerful orbital communications lasers to constantly maintain our link to the Nakamotan civilization. [[Source](https://sunnyminj.artstation.com/projects/RxN2W)]_
 {{% /image %}}
 
@@ -407,7 +407,7 @@ But the Nakamotans aren’t a single entity, they’re a heterogenous civilizati
 
 There are significant incentives for humanity to acquire Xenocoin.  Factions of our civilization which do so first will wield significant power.  They might be able to buy scientific breakthroughs or blueprints for advanced technologies.  They might purchase training from Nakamotan educators for their engineers to build these technologies — or from Nakamotan defense contractors for their soldiers to wield them.
 
-{{% image "/img/ba-654.png" %}}
+{{% image "/img/ba-654.webp" %}}
 *What incredible knowledge or technologies might the Nakamotans possess? [[Source](https://www.space.com/32966-alien-technology-or-earthly-experiments.html)]*
 {{% /image %}}
 
@@ -429,7 +429,7 @@ If Xenocoin supports cross-chain atomic swaps then Nakamotan & human traders can
 
 The best way for humanity to earn Xenocoin, long-term, is for us to mine it.  The crucible of human civilization is likely to be many light years away from the Xenocoin center of hash near the Nakamotan home worlds.  But Xenocoin has a block time of centuries specifically so that civilizations like ours, many light years from the center of hash, can still mine.  Nakamotans want us to mine Xenocoin because they want Xenocoin to grow.  They might also be waiting for us to mine Xenocoin.  The ability to do so indicates our civilization is worth investing further resources in.
 
-{{% image "/img/ba-653.png" %}}
+{{% image "/img/ba-653.webp" %}}
 _Distributed Xenocoin mining pools allow us to combine our civilization’s hashrate with the much greater hashrate of Nakamotan star systems. [[Source](https://starwars.fandom.com/wiki/Coruscant/Legends)]_
 {{% /image %}}
 

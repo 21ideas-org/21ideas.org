@@ -43,7 +43,7 @@ With each halving, comes even [higher price expectations](https://www.swanbitcoi
 
 Pseudo­ny­mous Bitcoin analyst [Plan B,](https://medium.com/@100trillionUSD/efficient-market-hypothesis-and-Bitcoin-stock-to-flow-model-db17f40e6107) the author of the stock-to-flow model, argues that while [markets price in all infor­ma­tion, they sometimes misprice risk](https://medium.com/@100trillionUSD/efficient-market-hypothesis-and-bitcoin-stock-to-flow-model-db17f40e6107). He points out that assets gener­ally have returns corre­lated to their risks, but Bitcoin appears to be liter­ally “off the charts” on its risk-to-reward ratio. He says, **_“It seems that these risks have been overes­ti­mated by the market, and that bitcoin really was a great invest­ment oppor­tu­nity, in line with [stock-to-flow] model.”_**
 
-{{% image "/img/halv-934.png" %}}
+{{% image "/img/halv-934.webp" %}}
 _Source: [twitter.com/ChartsBtc](https://twitter.com/ChartsBtc/status/1179040494157848578?s=20)_
 {{% /image %}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Экономика за один урок"
 h1: "Экономика за один урок"
-cover: /img/books/economika-za-1-urok.png
+cover: /img/books/economika-za-1-urok.webp
 description: "Книга показывает негативные последствия государственного вмешательства, особенно в долгосрочной перспективе."
 url: economika-za-1-urok
 date: 1973-06-14

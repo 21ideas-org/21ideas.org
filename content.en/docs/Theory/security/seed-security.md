@@ -1,7 +1,7 @@
 ---
 title: "Ultimate guide to storing your bitcoin seed phrase backups"
 h1: "Ultimate guide to storing your bitcoin seed phrase backups"
-cover: /img/secure-seed/vault.png
+cover: /img/secure-seed/vault.webp
 description: ""
 url: seed-security
 date: 2022-01-19
@@ -67,7 +67,7 @@ Many places are poor candidates for storing your seed phrase backups:
 - In your bag
 - At your workplace
 
-{{% image "/img/secure-seed/not-safe.png" /%}}
+{{% image "/img/secure-seed/not-safe.webp" /%}}
 
 All of these locations are especially poor choices for singlesig. Generally, anywhere with easy access for potential attackers — or even the fatally curious — is a bad idea.
 
@@ -93,7 +93,7 @@ Another option is storing your seed phrases in a safe on a second property you o
 
 In the case of singlesig+passphrase, you could keep your 12- or 24-word seed phrase in one location and the passphrase in a second location. Or, if you use multisig, you could store two different seed phrase backups on your property where you can monitor and ensure they’ve not been tampered with or compromised.
 
-{{% image "/img/secure-seed/safe.png" /%}}
+{{% image "/img/secure-seed/safe.webp" /%}}
 
 ### Safe-deposit box
 
@@ -119,7 +119,7 @@ If you decide to store secrets with a trusted family member or entity, always en
 
 The approach you take to seed phrase storage is highly situational, especially when you start taking into account more advanced self-custody methods such as multisig and SSSS and the wide variety of entity types that hold bitcoin — from personal holders to governments.
 
-{{% image "/img/secure-seed/vault.png" /%}}
+{{% image "/img/secure-seed/vault.webp" /%}}
 
 A good framework for deciding how to store your seed phrases might be to consider the following for yourself or your organization:
 

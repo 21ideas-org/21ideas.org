@@ -1,7 +1,7 @@
 ---
 title: "The Genesis Files"
 h1: "The Genesis Files"
-cover: /img/gf-231.jpeg
+cover: /img/gf-231.webp
 url: gf
 bookCollapseSection: true
 weight: 1

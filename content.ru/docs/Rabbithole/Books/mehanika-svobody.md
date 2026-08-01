@@ -1,7 +1,7 @@
 ---
 title: "Механика свободы"
 h1: "Механика свободы"
-cover: /img/books/mehanika-svobody.png
+cover: /img/books/mehanika-svobody.webp
 description: "Цель книги — показать, что право и его исполнение не требуют наличия государства, а могут поддерживаться непринудительным частным предпринимательством и благотворительностью. "
 url: mehanika-svobody
 date: 1973-06-14

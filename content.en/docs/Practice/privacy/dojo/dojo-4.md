@@ -2,7 +2,7 @@
 title: "Installing Samourai Dojo"
 h1: "Part 4. Installing Samourai Dojo"
 description: ""
-cover: /img/dojo-07.jpg
+cover: /img/dojo-07.webp
 url: practice-privacy/dojo-4
 date: 2023-12-20
 bookFlatSection: false
@@ -306,7 +306,7 @@ The DMT can be accessed via this onion address and logged into using either the 
 
 Once a full house of green ticks shows on the dashboard, Dojo is synched and ready to pair with a Samourai Wallet.
 
-{{% image "/img/dojo-08.jpg" %}}
+{{% image "/img/dojo-08.webp" %}}
 *DMT in Testnet*
 {{% /image %}}
 

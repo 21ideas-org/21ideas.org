@@ -70,7 +70,7 @@ There are many historical examples of this “money trap,” usually involving d
 
 You soon realize that seashells trapped on your fishing nets, which you used to collect, provide a better money than your deliciously useful smoked fish, in this regard. And that those relatively “useless” gold nuggets you used to collect on the shelf next to seashells are even better!
 
-{{% image "/img/sb-327.jpg" %}}
+{{% image "/img/sb-327.webp" %}}
 *Image courtesy of [BitcoinMemeHub](https://twitter.com/BitcoinMemeHub?lang=en)*
 {{% /image %}}
 

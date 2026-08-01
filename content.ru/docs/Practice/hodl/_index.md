@@ -2,8 +2,8 @@
 title: "Хранение"
 type: docs
 h1: "Хранение"
-# cover: /img/main-section/ru/hodl-light.png
-# coverDark: /img/main-section/ru/hodl.png
+# cover: /img/main-section/ru/hodl-light.webp
+# coverDark: /img/main-section/ru/hodl.webp
 bookCollapseSection: true
 url: practice/hodl
 weight: 2

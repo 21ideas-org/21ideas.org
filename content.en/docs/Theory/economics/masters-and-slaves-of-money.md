@@ -18,7 +18,7 @@ This article by Robert Breedlove was first published in his [Medium blog](https:
 
 Money is a tool for trading human time. Central banks, the modern-era masters of money, wield this tool as a weapon to steal time and inflict wealth inequality. History shows us that the corruption of monetary systems leads to moral decay, social collapse, and slavery. As the temptation to manipulate money has always proven to be too strong for mankind to resist, the only antidote for this poison is an incorruptible money — Bitcoin.
 
-{{% image "/img/hrd-407.png" /%}}
+{{% image "/img/hrd-407.webp" /%}}
 
 # Counterfeiters are Slavemasters
 
@@ -160,7 +160,7 @@ For over 5,000 years, precious metals have been favored as money since they best
 
 Governments have always interceded in the market for money to commandeer gold coinage and warehousing operations, both of which sought to improve the divisibility, portability, and recognizability properties of money by issuing standardized coins or warehouse receipts. By monopolizing these “certification function” businesses, the state shifted the burden of trust from transacting parties onto itself. States throughout history have always made it their (exclusive) business to certify the value (weight or fineness) of money (coins or bars) and money-substitutes (paper warehouse receipts). Remember: insulation from competition interrupts the truth discovery process engendered by free markets; for this reason, trust placed in any monopoly always ends up shattered.
 
-{{% image "/img/hrd-416.png" %}}
+{{% image "/img/hrd-416.webp" %}}
 _Government exists to protect property rights: a purpose it defiles by monopolizing and counterfeiting money._
 {{% /image %}}
 
@@ -186,7 +186,7 @@ Ancient Egypt is the archetypal tyranny in the Bible. Egypt is renowned for its 
 _"According to Herodotus… the pyramid itself required the labor of 100,000 men through twenty years.”_
 {{< /hint >}}
 
-{{% image "/img/hrd-417.png" %}}
+{{% image "/img/hrd-417.webp" %}}
 _Many slave hours went into building the Great Pyramids, but history has even worse pyramid schemes…_
 {{% /image %}}
 
@@ -204,7 +204,7 @@ _Novus Ordo Seclorum is Latin for “New order of the ages” — this symbol ap
 
 After a long-game legerdemain by governments, these pyramid schemes came to dominate the world. Fiat currencies are debt-based money-substitutes controlled by central banks, which impose these monetary networks on users and suppress all competition in the market coercively or violently (similar to the Grão Pará and Maranhão Company). Most despicably, it is the poorest people in society—who (by necessity) hold the majority of their wealth in fiat currency—that are most victimized by this fraudulent system.
 
-{{% image "/img/hrd-418-en.jpeg" /%}}
+{{% image "/img/hrd-418-en.webp" /%}}
 
 At the pinnacle fiat currency pyramid schemes is gold: a technology selected as money by the cumulative free choice (the collective logos) of countless entrepreneurs throughout history. Paper currency abstractions of gold were introduced purely to make it more convenient for exchange, not to replace it. Over time, the option to redeem currency for gold was eliminated, giving governments full control over currency scarcity, and therefore an unlimited capacity to confiscate wealth from their citizens by compromising its supply.
 
@@ -304,13 +304,13 @@ _“To be a poor man is hard, but to be a poor race in a land of dollars is the 
 
 Master and slave dynamics have almost always been racial or cultural in nature, a fact that has not changed even in our present “civilized” age. Recent years in the US have witnessed a rash of police brutality largely targeted at African Americans. And it seems the latest act of police brutality was the last straw for a society fed up with the seemingly endless stories of black lives assaulted by police. On May 25, 2020, a 46-year-old father, friend, and brother named George Floyd was _murdered_ by a state police officer. The cop pinned Floyd down with a knee to the neck, executing a nine-minute-long slow-motion homicide in broad daylight with citizens onlooking helplessly.
 
-{{% image "/img/hrd-426.png" /%}}
+{{% image "/img/hrd-426.webp" /%}}
 
 Remember: truth is the end of all inquiry. In the digital age, the windows of perception have become exponentially multiplied, thus projecting the light of inquiry into prismatic and interpenetrating patterns. This multi-perspective quality of digitized existence is an accelerant to the truth-finding function of free markets: consider the role of digital technology in the Arab Spring uprising, Wikileaks, and now the George Floyd protests occurring worldwide. In 1965, when Martin Luther King led a protest of unequal voting practices in Alabama, police violently attacked the activists as they marched. Although many events similar to this had come before, this one was _televised_, and that made all the difference. With the eyes of the world watching police brutalize peaceful protestors in real time, the US government was soon pushed to pass legislation banning racial segregation and discrimination.
 
 Free market capitalism is a social system in which we see the world through as many eyes as possible (via words and prices) to attain a high resolution picture of reality. In the digital age, this multi-perspectivism of markets has been amplified with smart phones, social media, and live-streaming; thereby further awakening our collective consciousness. The truth is that thousands of tragic stories like George Floyd’s have unfolded over time, but the distribution of his via social media sparked a global outcry against police brutality. In the past, murders like this went less noticed, but in modernity the murder of one man can ignite a “fiat-slave rebellion” the world over. George Floyd’s murder spreading like wildfire on social media and erupting into a conflagration of protests worldwide is testament to the refractive influence of digital technology on the light of inquiry and, thus, the discovery of truth.
 
-{{% image "/img/hrd-427.png" %}}
+{{% image "/img/hrd-427.webp" %}}
 _Synthesis of multiple perspectives is the key to gaining a high resolution image of reality: this is the essence of free markets—the forums within which inquiry becomes instrumental truth._
 {{% /image %}}
 
@@ -324,7 +324,7 @@ _George Floyd was murdered for using a counterfeit $20 bill whereas The Fed coun
 
 Every US dollar printed is proof of time stolen—a visualization of US national debt gives us some sense of just how colossal the central banking system of institutionalized time-theft has become:
 
-{{% image "/img/hrd-428.png" %}}
+{{% image "/img/hrd-428.webp" %}}
 _The US national debt in physical fiat dollars. This rendering is from 2017; with US national debt now pushing $26T, the Statue of Liberty would no longer be visible today._
 {{% /image %}}
 
@@ -338,7 +338,7 @@ _“rather than empowering people, it turns them into modern-day indentured serv
 
 By buying Bitcoin, you are participating in a global protest against state-controlled currency pyramid schemes in a way that politicians cannot ignore—since money is the only voting system in which your voice cannot be muted.
 
-{{% image "/img/hrd-429.png" %}}
+{{% image "/img/hrd-429.webp" %}}
 _Buy Bitcoin = bye bye slavemasters._
 {{% /image %}}
 
@@ -358,7 +358,7 @@ Making haste under starry skies, aided by stalwart abolitionists, escaped slaves
 
 Gaining stealth under the cover of darkness, intrepid former slaves relied upon the fixity of the North Star to light their pathway to liberty. Operating under conditions of dire uncertainty and never knowing who to trust, this celestial torch — a true lodestar — served as the guiding light for the Underground Railroad: a network of secret routes and safe-houses providing safe passage for runaway African Americans into Canada. Antislavery activists like Harriet Tubman supported this volunteer-based, flexible, and covert network that was so instrumental in undermining the heavily enforced institution of slavery in pre-Civil War America.
 
-{{% image "/img/hrd-430.png" /%}}
+{{% image "/img/hrd-430.webp" /%}}
 
 In modernity, we once again find hope of overcoming the financial slavery imposed upon us by The Fed in a volunteer-programmed, open-source, and cryptographically clandestine network guided by its own “North Star”: an immutable supply of 21 million bitcoin. For runaway African slaves, the North Star suspended high in the heavens beyond the reach of vengeful masters was a gift from God: an inextinguishable light for liberation. Bitcoin—a free market money with a supply firmly fixed at 21 million—is the ever-burning guide-star for fiat-slaves seeking to escape economies controlled by central banking. Global adoption of Bitcoin is the manumission of humanity from central bank bondage, once and for all.
 

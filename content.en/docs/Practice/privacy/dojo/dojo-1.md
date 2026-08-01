@@ -2,7 +2,7 @@
 title: "Installing Bitcoin Core & Tor"
 h1: "Part 1. Installing Bitcoin Core & Tor"
 description: ""
-cover: /img/dojo-04.jpg
+cover: /img/dojo-04.webp
 url: practice-privacy/dojo-1
 date: 2023-12-20
 bookFlatSection: false

@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Basics"
 h1: "What is Bitcoin and how it works? A theoretical guide for the newcomers"
-cover: /img/start/cover.png
+cover: /img/start/cover.webp
 tags: ["bitcoin", "basics"]
 description: "Basic Bitcoin guide for newcomers."
 url: start/start
@@ -22,7 +22,7 @@ This guide is based on the materials of now-closed "crypto" business. It has bee
 
 Bitcoin is designed to let you store, send, and receive money without any banks or credit card companies.
 
-![](/img/start/en/no-banker.png)
+![](/img/start/en/no-banker.webp)
 
 Until Bitcoin came around, you needed banks, credit cards, or companies like PayPal and Venmo to send and receive money. These companies were necessary to do something only they could do: verify that the person spending money actually has money to spend. Banks can do this because they hold everyone’s money, so they know all account balances.
 
@@ -30,7 +30,7 @@ Until Bitcoin came around, you needed banks, credit cards, or companies like Pay
 
 But what's so great about not using banks and credit card companies? For starters, they are slow, expensive, and part of a broken financial system.
 
-![](/img/start/overspending.png)
+![](/img/start/overspending.webp)
 
 Banks have huge costs for buildings, lawyers, and highly paid executives - all funded by the fees you pay (and massive taxpayer bailouts, like in 2008). Banks also limit how you can access and send your money.
 
@@ -42,7 +42,7 @@ In 2008, a mysterious person calling himself Satoshi Nakamoto invented Bitcoin. 
 
 Satoshi could be a woman, a man, or a group of people. Nobody knows! What we do know is that the [bitcoin.org](https://bitcoin.org/en/) domain was registered in August 2008. Then, in November, Satoshi posted the famous Bitcoin Whitepaper.   
 
-![](/img/start/en/who-is.png)
+![](/img/start/en/who-is.webp)
 
 The first Bitcoins were issued in January 2009. Embedded in the first Bitcoin code was the message “Chancellor on brink of second bailout for banks.” - hinting at Bitcoin’s creation because of the 2008 financial crisis.
 
@@ -90,7 +90,7 @@ What’s amazing is that none of the users in the Bitcoin community need to know
 
 Bitcoin has benefits that make it better than traditional money, banks, and credit card companies. Let's explore what makes Bitcoin so unique.
 
-![](/img/start/shining.png)
+![](/img/start/shining.webp)
 
 Bitcoin was designed to solve problems that existed with the traditional banking system. But by finding a clever solution to the Double Spend Problem, Satoshi also created a better type of money. In fact, he was able to completely reinvent how money works.
 
@@ -100,7 +100,7 @@ Bitcoin was designed to solve problems that existed with the traditional banking
 
 Traditional money is controlled by banks and governments – which makes it a “centralized” currency.  
 
-![](/img/start/no-control.png)
+![](/img/start/no-control.webp)
 
 Traditional money is controlled by banks and governments – which makes it a “centralized” currency.  
   
@@ -120,7 +120,7 @@ Bitcoin will give them the benefits of a bank, without needing a bank. Anyone wi
   
 Paper currencies, credit cards, and checks can be counterfeit. If you’ve ever been a victim of fraud, you know how much this sucks.  
 
-![](/img/start/en/brrrr.png)
+![](/img/start/en/brrrr.webp)
 
 Bitcoin solves the Double Spend Problem which means criminals cannot create fake bitcoins. Counterfeiting is impossible.
 
@@ -132,7 +132,7 @@ Counterfeit traditional money is very common. In the U.S. alone it is estimated 
   
 Traditional money is created by governments in unlimited quantities. They print more constantly, which decreases the value over time.  
 
-![](/img/start/en/limited.png)
+![](/img/start/en/limited.webp)
 
 Bitcoin’s supply is limited to 21 million coins. There can never be more! Why? It’s designed to be scarce so that it increases in value over time.
 
@@ -162,7 +162,7 @@ Microtransactions are something traditional money can’t do, because cents are 
   
 There is a lot of money stored in Bitcoin, so it needs to be very secure. Bitcoin uses cryptography to securely send payments.  
 
-![](/img/start/secure.png)
+![](/img/start/secure.webp)
 
 That’s why Bitcoin is called a cryptocurrency. The code is so strong that tampering is virtually impossible. There is A LOT of money held in Bitcoin, but it has never been hacked!
 
@@ -185,7 +185,7 @@ One stranger gives one bitcoin to another stranger. Now, EACH of the four strang
   
 They then compare all their notebooks to make sure they match.
 
-![](/img/start/en/accepted.png)
+![](/img/start/en/accepted.webp)
 
 Just like in the example, when bitcoin is sent, the transaction is recorded on EVERY one of the thousands of copies of the Bitcoin Blockchain around the world. Each copy is an identical record of all transactions.  
   
@@ -197,7 +197,7 @@ If all four notebooks match up, everything is fine. The transaction is approved 
 
 If one notebook is different from the other three, we have a problem. It means one stranger is lying about the transaction. We also know which stranger is lying (hint: it’s the one with the notebook that doesn’t match the others). As a result, the three others ignore the notebook that doesn’t match and move on. The transaction is not approved.
 
-![](/img/start/en/rejected.png)
+![](/img/start/en/rejected.webp)
 
 The same two outcomes can happen with Bitcoin: If all Blockchain copies match, everything is fine and the transaction will proceed.  
   
@@ -297,7 +297,7 @@ Bob’s bitcoin transaction isn’t actually sent quite yet. Instead, Bob only a
 
 Here is how processing works: Transactions from the last 10 minutes are bundled together. Each of these bundles is called a block. Together, the blocks form the Blockchain, hence the name.
 
-![](/img/start/en/10min.png)
+![](/img/start/en/10min.webp)
 
 All Bitcoin transactions are bundled and added to blocks in order. Each Bitcoin block gets filled up with new transactions until it’s full. Overflowing transactions are simply added to the next block.
 
@@ -305,11 +305,11 @@ So who bundles and processes bitcoin transactions? That’s done by users called
   
 Here is the interesting part: Miners do this work because they get paid in bitcoin for every block they add and for every transaction they process. In fact, they get brand new bitcoins which were just created by the system. That’s how bitcoin are born!
 
-![](/img/start/en/miner.png)
+![](/img/start/en/miner.webp)
 
 There are a lot of miners and they are all competing to add the next block to the Bitcoin Blockchain to get paid. There is a fixed total number of bitcoin. Every 10 minutes, new bitcoin are released and miners compete to earn them.   
 
-![](/img/start/miners.png)
+![](/img/start/miners.webp)
 
 This process will continue until the year 2140 when all 21 million bitcoins have been created. There can never be more! After that, miners will continue to get small transaction fees, but no new bitcoin.
 

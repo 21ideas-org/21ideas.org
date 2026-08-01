@@ -52,13 +52,13 @@ Most users query block explorers by entering an address as a starting point. Whe
 
 2. Enter the desired address into the search bar.
 
-{{% image "/img/oxt/oxt-39.png" %}}
+{{% image "/img/oxt/oxt-39.webp" %}}
 *OXT Workflow Address Query*
 {{% /image %}}
 
 3. Navigate to the TRANSACTION TAB
 
-{{% image "/img/oxt/oxt-40.png" %}}
+{{% image "/img/oxt/oxt-40.webp" %}}
 *OXT Workflow Address — Transaction Tab*
 {{% /image %}}
 
@@ -66,7 +66,7 @@ Most users query block explorers by entering an address as a starting point. Whe
 
 5. From there the Transaction Page will be opened.
 
-{{% image "/img/oxt/oxt-41.png" %}}
+{{% image "/img/oxt/oxt-41.webp" %}}
 *OXT Workflow Transaction Page and Graph Tool*
 {{% /image %}}
 

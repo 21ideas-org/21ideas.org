@@ -2,7 +2,7 @@
 title: "Установка блокчейн-обозревателя Mempool"
 h1: "Часть 3. Установка блокчейн-обозревателя Mempool"
 description: ""
-cover: /img/dojo-06.jpg
+cover: /img/dojo-06.webp
 url: practice-privacy/dojo-3
 date: 2023-12-20
 bookFlatSection: false

@@ -1,7 +1,7 @@
 ---
 title: "Recurring Lightning Payments"
 h1: "Recurring Lightning Payments"
-cover: /img/zapp-687-en.png
+cover: /img/zapp-687-en.webp
 description: "This guide covers the process of setting up recurring Lightning payments - both custodial and non-custodial."
 url: zapplanner
 date: 2023-05-11
@@ -41,7 +41,7 @@ One of the primary advantages of Bitcoin (and Lightning) over traditional financ
 
 Bottom line: traditional services have full control of your funds and whenever your recurring payment is due, they simply take "your money" and send them to a specified receiver. As Bitcoin does not allow anyone to mess with your funds (feature, not a bug), finding the solution took some time. Until relatively recently people had no choice, but send payments manually regardless of wether they wanted to support the person or a service on a regular basis, or wanted to make a one-time payment.
 
-{{% image "/img/zapp-694-en.jpg" /%}}
+{{% image "/img/zapp-694-en.webp" /%}}
 
 **The downsides of executing transactions manually**
 
@@ -86,7 +86,7 @@ That said, let's dive in.
 
 2. Hit the "New Periodic Payment" button (feel free to click the "How does it work" to know more).
 
-{{% image "/img/zapp-688.png" /%}}
+{{% image "/img/zapp-688.webp" /%}}
 
 3. Fill up required fields and hit "Continue"
 
@@ -98,7 +98,7 @@ That said, let's dive in.
 
 5. Log in with your Alby account. If you don’t have one, you can follow [this simple step-by-step guide](https://worldtravelambitions.notion.site/worldtravelambitions/How-to-Set-Up-Nostr-Using-GetAlby-and-Snort-social-c3fabb2ecc8d465dba0e73a3f1c2558a) by [melissa](https://njump.me/npub1cly0v30agkcfq40mdsndzjrn0tt76ykaan0q6ny80wy034qedpjsqwamhz).
 
-{{% image "/img/zapp-695-en.png" /%}}
+{{% image "/img/zapp-695-en.webp" /%}}
 
 6. You'll be redirected to the NWC interface, where you should specify the remaining details.
 
@@ -118,7 +118,7 @@ NWC is a way for applications like Nostr clients to access a remote Lightning wa
 
 2. After logging in you will be welcomed by a simple page, offering you to create a new connection. 
    
-{{% image "/img/zapp-697-en.jpg" /%}}
+{{% image "/img/zapp-697-en.webp" /%}}
 
 3. Tap "+ New connection" button.
 4. Fill up required info:  
@@ -132,11 +132,11 @@ It's highly advisable to set a budget. By doing so, you'll limit the app's acces
 
   5. Hit "Confirm"
 
-{{% image "/img/zapp-698-en.jpg" /%}}
+{{% image "/img/zapp-698-en.webp" /%}}
 
 6. You'll be redirected to the next page, which will offer you to reveal the pairing secret. 
 
-{{% image "/img/zapp-699-en.jpg" /%}}
+{{% image "/img/zapp-699-en.webp" /%}}
 
 {{< hint info >}}
 Please note that the term 'pairing secret' has the word 'secret' for a reason. It's critical that you keep it confidential. Disclosing it to others could grant them access to your wallet.

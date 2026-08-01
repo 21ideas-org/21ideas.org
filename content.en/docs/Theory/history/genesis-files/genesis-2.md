@@ -1,7 +1,7 @@
 ---
 title: "Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block"
 h1: "The Genesis Files. Part II: Hashcash or How Adam Back Designed Bitcoin’s Motor Block"
-cover: /img/gf-234.jpg
+cover: /img/gf-234.webp
 tags: ["bitcoin", "history", "cypherpunks", "genesis"]
 description: "A look at how the technology underlying Hashcash — proof of work — would shape research into digital money for more than a decade to come."
 url: gf/genesis-2
@@ -66,7 +66,7 @@ Over the years, Adam Back — who earned his Ph.D. in 1996 — established himse
 
 But for a while, Back was perhaps best known for printing and selling “munition” shirts: T-shirts with an encryption protocol printed on them, intended to help point out the absurd decision by the U.S. government to regulate Phil Zimmermann’s PGP (Pretty Good Privacy) encryption program as “munitions” within the definition of the U.S. export regulations. Wearing Back’s shirt while crossing the border to exit the United States technically made you a “munitions exporter.”
 
-{{% image "/img/gf-235.png" /%}}
+{{% image "/img/gf-235.webp" /%}}
 
 Like many, Back was [not aware](http://datwww.mit.edu/bloom-picayune/crypto/2058) of Dwork and Naor’s proof-of-work proposal. But by the mid-1990s, he was thinking of similar ideas to counter spam, sometimes “out loud” on the Cypherpunks mailing list.
 
@@ -84,11 +84,11 @@ Hashing is a cryptographic trick that takes any data — whether it’s a single
 
 For example, a SHA-256 hash of the sentence _This is a sentence_ produces this hexadecimal number:
 
-{{% image "/img/gf-236.png" /%}}
+{{% image "/img/gf-236.webp" /%}}
 
 Which can be “translated” to the regular decimal number:
 
-{{% image "/img/gf-237.png" /%}}
+{{% image "/img/gf-237.webp" /%}}
 
 Or to binary:
 
@@ -96,7 +96,7 @@ Or to binary:
 
 Meanwhile, a SHA-256 hash of the sentence _This, is a sentence_ produces this hexadecimal number:
 
-{{% image "/img/gf-239.png" /%}}
+{{% image "/img/gf-239.webp" /%}}
 
 As you can see, merely inserting one comma into the sentence completely changes the hash. And, importantly, what the hash of either sentence would be was completely unpredictable; even after the first sentence was hashed, there was no way to calculate the second hash from it. The only way to find out was to actually hash both sentences.
 

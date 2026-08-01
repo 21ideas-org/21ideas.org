@@ -2,8 +2,8 @@
 title: "История"
 type: docs
 h1: "История"
-# cover: /img/main-section/ru/history-light.png
-# coverDark: /img/main-section/ru/history.png
+# cover: /img/main-section/ru/history-light.webp
+# coverDark: /img/main-section/ru/history.webp
 bookCollapseSection: true
 url: history
 weight: 5
@@ -11,7 +11,7 @@ weight: 5
 
 Подраздел, посвященный историческим событиям и предыстории Биткоина.
 
-![cover](/img/172.jpeg)
+![cover](/img/172.webp)
 
 ## Cерии статей 
 

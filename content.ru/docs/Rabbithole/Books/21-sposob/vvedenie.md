@@ -5,7 +5,7 @@ tags: ["биткоин", "vvedenie", "bitcoin", "proof-of-work"]
 description: "Введение"
 url: 21-sposob/vvedenie
 aliases: ['/books-21-ways-intro']
-cover: /img/08.png
+cover: /img/08.webp
 date: 2022-01-02
 bookToc: true
 bookFlatSection: false

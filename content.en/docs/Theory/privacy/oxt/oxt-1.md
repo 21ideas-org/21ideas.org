@@ -2,7 +2,7 @@
 title: "Part 1: Chain Analysis And Transaction Privacy"
 h1: "Part 1: Chain Analysis And Transaction Privacy"
 description: ""
-cover: /img/oxt/oxt-1-cover.png
+cover: /img/oxt/oxt-1-cover.webp
 url: privacy/oxt-1
 date: 2021-08-04
 bookFlatSection: false

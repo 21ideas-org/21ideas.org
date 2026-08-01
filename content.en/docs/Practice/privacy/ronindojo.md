@@ -2,7 +2,7 @@
 title: "RoninDojo x86 Installation Guide"
 h1: "RoninDojo x86 Installation Guide"
 description: ""
-cover: /img/ronin-11.jpg
+cover: /img/ronin-11.webp
 url: practice-privacy/ronindojo
 date: 2024-02-02
 bookFlatSection: false
@@ -400,7 +400,7 @@ Add the following lines to the section *# Site Configuration*:
 
 Wait for the Dojo installation to complete. It takes 10 to 30 minutes, depending on the performance of your computer and network connection.
 
-{{% image "/img/ronin-06.png" /%}}
+{{% image "/img/ronin-06.webp" /%}}
 
 If errors occur, usually related to network connectivity, you can stop the installation script with a few presses of the Ctrl+C and repeat the last command. If the installation still fails, you will have to configure a VPN on your router. Unfortunately, this procedure is beyond the scope of this guide.
 
@@ -515,7 +515,7 @@ source ~/.bashrc
 
 Congratulations, you're now in the Ronin CLI.
 
-{{% image "/img/ronin-08.png" /%}}
+{{% image "/img/ronin-08.webp" /%}}
 
 Go to the menu:
 
@@ -541,7 +541,7 @@ Ronin UI is now accessible from your local network where the RoninDojo machine i
 
 The login password is your *ronindojo* user password.
 
-{{% image "/img/ronin-10.jpg" /%}}
+{{% image "/img/ronin-10.webp" /%}}
 
 ## Ronin CLI patches
 
@@ -602,7 +602,7 @@ To install and use these utilities, simply select the corresponding item from th
 Samourai Toolkit
 ```
 
-{{% image "/img/ronin-12.png" /%}}
+{{% image "/img/ronin-12.webp" /%}}
 
 {{% hint info %}}
 The WST utility is not available for Testnet.
@@ -612,11 +612,11 @@ The WST utility is not available for Testnet.
 
 Wait for full synchronization of Bitcoin Core, Dojo and Indexer.
 
-{{% image "/img/ronin-13.jpg" /%}}
+{{% image "/img/ronin-13.webp" /%}}
 
 Go to the "Pairing" menu and pair Samourai Wallet with Samourai Dojo. You can only connect to Dojo when the wallet is freshly installed.
 
-{{% image "/img/ronin-14.jpg" /%}}
+{{% image "/img/ronin-14.webp" /%}}
 
 Click "Pair now" under "Samourai Dojo", scan the Dojo pairing QR code in your Samourai Wallet.
 
@@ -632,17 +632,17 @@ Under Whirlpool CLI, click "Initialize" and use your pairing code.
 
 After successful pairing, you need to click the "Log in" button and enter the [passphrase](/en/passphrase) you used when creating the wallet.
 
-{{% image "/img/ronin-15.jpg" /%}}
+{{% image "/img/ronin-15.webp" /%}}
 
 Finally, you can enter the Whirlpool interface and remix UTXO 24/7 while your node is running.
 
-{{% image "/img/ronin-16.jpg" /%}}
+{{% image "/img/ronin-16.webp" /%}}
 
 ### Blockchain explorers
 
 To access the BTC RPC Explorer, go to "Dashboard" and click "Manage" under "Dojo".
 
-{{% image "/img/ronin-17.jpg" /%}}
+{{% image "/img/ronin-17.webp" /%}}
 
 Here eou can find links to access the explorer and the Dojo Maintenance Tool (DMT) through a Tor browser.
 
@@ -663,15 +663,15 @@ After that, restart Dojo from the "Manage" menu in the corresponding section of 
 
 {{% /hint %}}
 
-{{% image "/img/ronin-18.jpg" /%}}
+{{% image "/img/ronin-18.webp" /%}}
 
-{{% image "/img/ronin-19.jpg" /%}}
+{{% image "/img/ronin-19.webp" /%}}
 
 ### Blockchain Indexers
 
 As mentioned above, you can choose between Electrs, Fulcrum or Addrindexrs. You can install another indexer from the "Dashboard" via the "Manage" menu under "Indexer".
 
-{{% image "/img/ronin-20.jpg" /%}}
+{{% image "/img/ronin-20.webp" /%}}
 
 {{% hint info %}}
 Note that if you select a different indexer, the data of the previous one is not saved. If you decide to switch back, the indexer synchronization will start from scratch.
@@ -691,7 +691,7 @@ The link to connect Sparrow or Electrum wallets to your indexer via Tor is in th
 System > Next Page
 ```
 
-{{% image "/img/ronin-21.png" /%}}
+{{% image "/img/ronin-21.webp" /%}}
 
 Here you can manage firewall settings, SSH settings, change the password of the *ronindojo* user as well as *root*.
 

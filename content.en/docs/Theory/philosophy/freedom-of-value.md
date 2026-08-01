@@ -67,7 +67,7 @@ The incentive structure of the platforms we inhabit is the evolutionary environm
 
 Of course, this is true in all areas of business. Pick print magazines, for example. For very human evolutionary reasons, if your magazine doesn't sport a beautiful female face on the front cover, it won't be bought as much as those who do. Thus, it won't be able to replicate itself and, consequently, will die. Similarly, if your online news outlet does not generate enough ad revenue, it will fail to replicate and die. This is why every magazine has a beautiful female face on the cover. And this is why every ad-based online news outlet devolves into clickbait.
 
-{{% image "/img/svob-719.png" %}}
+{{% image "/img/svob-719.webp" %}}
 _One of these faces is not like the others._
 {{% /image %}}
 
@@ -79,7 +79,7 @@ Platforms are companies, and companies are incentivized to maximize shareholder 
 
 To maximize profits via broad advertisements, controversies and extreme opinions have to be minimized. Thus, just by catering to the lowest common denominator, politics and censorship immediately enter the picture. Conversely, if profits are made via narrow, targeted advertisements, controversies and extreme opinions have to be maximized. Thus, just by showing different pieces of information to different sub-groups, polarization and fragmentation are continually increased.
 
-{{% image "/img/svob-720-en.png" %}}
+{{% image "/img/svob-720-en.webp" %}}
 _Mainstream Cohesion vs. Algorithmic Division._
 {{% /image %}}
 

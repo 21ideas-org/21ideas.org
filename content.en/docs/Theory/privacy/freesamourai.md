@@ -41,7 +41,7 @@ Several ancillary websites have gone down as well, such as KYCP and OXT, probabl
 Samourai Wallet founders were transparent about their open source software, complied with the law, and were arrested with their assets seized without warning.
 {{% /hint %}}
 
-{{% image "/img/freesamourai-2.jpg" %}}
+{{% image "/img/freesamourai-2.webp" %}}
 samouraiwallet.com defaced
 {{% /image %}}
 

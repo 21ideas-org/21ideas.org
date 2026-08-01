@@ -1,7 +1,7 @@
 ---
 title: "Alby and Nostr"
 h1: "Alby and Nostr"
-cover: /img/alb-363.png
+cover: /img/alb-363.webp
 description: ""
 url: alby-and-nostr
 date: 2023-02-17

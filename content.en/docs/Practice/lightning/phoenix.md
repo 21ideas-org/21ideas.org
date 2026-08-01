@@ -25,7 +25,7 @@ I would like to share a guide on [Phoenix](https://phoenix.acinq.co/) — the no
 
 Phoenix Wallet can serve as a great _intermediate solution_ between using a custodial wallet and running your own Lightning node.
 
-{{% image "/img/135-en.png" /%}}
+{{% image "/img/135-en.webp" /%}}
 
 A good example was the recent cases of — [the shutdown of the popular Telegram LNtxBot wallet](https://stacker.news/items/122992) and [Blue Wallet issues with custodial Lightning implementation](https://twitter.com/hi__im__dave/status/1619680373314813953).
 
@@ -51,7 +51,7 @@ Phoenix Wallet allows you to use the Lightning Network in a non-custodial way. Y
 
 Phoenix will perhaps be less common to users accustomed to "two-in-one" wallets. [Blue Wallet offers](/blue) (or offered😜) several types of wallets in one app, and wallets like [Muun](https://muun.com/) "combine" Lightning and on-chain funds into one balance, where users don't even notice the difference between their "accounts". Phoenix, on the other hand, is a purely Lightning wallet. 
 
-{{% image "/img/30.jpeg" /%}}
+{{% image "/img/30.webp" /%}}
 
 Yes, Phoenix lets you receive onchain payments, but they will be instantly swapped to LN sats. You can also do **Swap-out** and send LN sats to the onchain address. Swaps take place "under the hood". The technical details of the process lie outside the scope of this guide, just note that Phoenix should not be thought of as an onchain wallet. In a sense, Phoenix can be called a _Lightning Maximalist Wallet_ ⚡️.
 
@@ -66,13 +66,13 @@ Phoenix has a simple, user-friendly and intuitive interface. It is [available](h
 
 The first thing to do after installation is to fund your wallet with sats. This can be done either with onchain bitcoins or via the Lightning Network. After a few welcome screens, we are greeted by a screen offering to pay an open Lightning invoice (an invoice where you can specify the amount to be paid at your choice). Please note that the minimum deposit amount is 10,000 sats, which is due to the need to open a channel through which you will later send and receive sats. Opening a channel is done with onchain transaction, which is associated with miner fees.
 
-{{% image "/img/136-en.png" %}}
+{{% image "/img/136-en.webp" %}}
 _Funding a wallet via Lightning / opening a channel_
 {{% /image %}}
 
 You can also fund your wallet with an on-chain transaction. To do this, click **Show a Bitcoin address** at the bottom of the screen.
 
-{{% image "/img/137-en.png" %}}
+{{% image "/img/137-en.webp" %}}
 _Funding a wallet onchain / opening a channel_
 {{% /image %}}
 
@@ -82,7 +82,7 @@ Please note that in both cases, the first deposit will require an onchain miner 
 
 Main functions of the wallet:
 
-{{% image "/img/138-en.png" %}}
+{{% image "/img/138-en.webp" %}}
 _Home screen_
 {{% /image %}}
 
@@ -96,7 +96,7 @@ _Home screen_
 
 The settings are quite simple. I just want to point out 3 items - the tab displaying mnemonic recovery phrase (1), the tab to force close all channels and withdraw funds on-chain (2), the tab displaying your channels and their liquidity (3).
 
-{{% image "/img/139.png" %}}
+{{% image "/img/139.webp" %}}
 _Settings screen_
 {{% /image %}}
 
@@ -106,13 +106,13 @@ _Settings screen_
 
 Recent update has made life of Phoenix users much simpler. The team has  decided to move channel management under the hood and take care of all the background operations behind the scenes. Unlike before, when you had to manage multiple channels and watch the inbound liquidity on each one, all you have to do is specify fee conditions you are comfortable with and the rest will be done by the app.
 
-{{% image "/img/phoenix/channel.png" %}}
+{{% image "/img/phoenix/channel.webp" %}}
 _Channel management screen_
 {{% /image %}}
 
 From a user's perspective, Phoenix acts almost identically to a custodial Lightning wallet. The only difference is that depending on your usage peculiarities (for example if you regularly receive more than you send), you will once in a while run into additional fees. In this case you could utilize ACINQ's liquidity provision service, where you can purchase additional liquidity to avoid unexpected charges. Alternatively, you can simply keep an eye on your liquidity in the same section of the app and swap some sats out (send sats to own onchain address) to ensure you have enough inbound liquidity.
 
-{{% image "/img/phoenix/liquidity.png" %}}
+{{% image "/img/phoenix/liquidity.webp" %}}
 _Liquidity management screen_
 {{% /image %}}
 
@@ -125,7 +125,7 @@ As you can see on the screenshot above, there are only 22,738 sats held on the w
 - **Receiving LN payments** (free, unless you have to open a new channel)
 - **Sending LN payments** (0.4% of the amount sent + 4 sats)
 
-{{% image "/img/142.png" %}}
+{{% image "/img/142.webp" %}}
 _Payment confirmation screen_
 {{% /image %}}
 
@@ -157,19 +157,19 @@ In case of an "apocalypse", all you need to restore your funds is the saved mnem
 1. Download [Electrum](https://electrum.org/#home).
 2. Create new **Standard wallet**.
 
-{{% image "/img/143-en.png" /%}}
+{{% image "/img/143-en.webp" /%}}
 
 3. Choose **I already have a seed**.
 
-{{% image "/img/144-en.png" /%}}
+{{% image "/img/144-en.webp" /%}}
 
 4. Type your 12 words, click **Options** and check **BIP39 seed**.
 
-{{% image "/img/145-en.png" /%}}
+{{% image "/img/145-en.webp" /%}}
 
 5. Choose **native segwit (p2wpkh)**.
 
-{{% image "/img/146-en.png" /%}}
+{{% image "/img/146-en.webp" /%}}
 
 6. Wait for funds to become available.
 

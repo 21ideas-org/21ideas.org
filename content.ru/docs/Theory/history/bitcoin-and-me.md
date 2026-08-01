@@ -1,7 +1,7 @@
 ---
 title: "Биткоин и я"
 h1: "Биткоин и я"
-cover: /img/bitcoin-and-me.png
+cover: /img/bitcoin-and-me.webp
 description: ""
 url: bitcoin-and-me
 date: 2013-03-19

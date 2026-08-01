@@ -1,7 +1,7 @@
 ---
 title: "Порождение острова Джекилл"
 h1: "Порождение острова Джекилл"
-cover: /img/books/jekyll-cover.png
+cover: /img/books/jekyll-cover.webp
 description: "Откуда появляются деньги? Куда уходят? Кто их делает? Секреты денежных магов раскрыты."
 url: jekyll
 date: 1994-03-14

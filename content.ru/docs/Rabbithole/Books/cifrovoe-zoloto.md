@@ -1,7 +1,7 @@
 ---
 title: "Цифровое золото"
 h1: "Цифровое золото"
-cover: /img/books/cifrovoe-zoloto.png
+cover: /img/books/cifrovoe-zoloto.webp
 description: "В этой книге рассказана невероятная история о том, как идея, изначально интересная лишь маленькой группке энтузиастов, постепенно привлекла к себе внимание всего мира."
 url: cifrovoe-zoloto
 date: 2016-05-24

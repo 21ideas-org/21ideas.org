@@ -1,7 +1,7 @@
 ---
 title: "Buy and Hodl Bitcoin for Beginners"
 h1: "Buy and Hodl Bitcoin for Beginners"
-cover: /img/newbie-buy/cover.png
+cover: /img/newbie-buy/cover.webp
 tags: ["bitcoin", "buy", "no-kyc", "privacy", "for beginners"]
 description: "The easiest way to buy bitcoins for beginners."
 url: newbie-buy

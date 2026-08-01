@@ -2,8 +2,8 @@
 title: "Взаимодействие"
 type: docs
 h1: "Взаимодействие"
-# cover: /img/main-section/ru/interact-light-ru.png
-# coverDark: /img/main-section/ru/interact.png
+# cover: /img/main-section/ru/interact-light-ru.webp
+# coverDark: /img/main-section/ru/interact.webp
 bookCollapseSection: true
 url: practice/interact
 weight: 3

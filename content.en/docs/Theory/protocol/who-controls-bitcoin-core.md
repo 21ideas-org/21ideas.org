@@ -1,7 +1,7 @@
 ---
 title: "Who Controls Bitcoin Core?"
 h1: "Who Controls Bitcoin Core?"
-cover: /img/194.jpeg
+cover: /img/194.webp
 tags: ["bitcoin", "protocol", "pow", "proof-of-work"]
 description: "Understanding how the focal point of Bitcoin development operates."
 url: who-controls-bitcoin-core
@@ -106,7 +106,7 @@ You can check the code coverage of the tests yourself by:
 
 Alternatively, you can view the coverage report Marco Falke [hosts here](https://drahtbot.github.io/reports/coverage/bitcoin/bitcoin/master/total.coverage/index.html).
 
-{{% image "/img/195.png" %}}
+{{% image "/img/195.webp" %}}
 _Code Coverage Report_
 {{% /image %}}
 
@@ -126,7 +126,7 @@ BitMEX [wrote a great article](https://blog.bitmex.com/bitcoin-cores-competition
 
 At time of writing, 96% of reachable Bitcoin nodes are running some version of Bitcoin Core. Why is this the case? How can Bitcoin Core have near-monopoly status over the network of nodes if the effort required to switch to another software implementation is minimal? After all, many other implementations provide RPC APIs that are compatible with, or at least highly similar to Bitcoin Core.
 
-{{% image "/img/196.png" /%}}
+{{% image "/img/196.webp" /%}}
 
 I believe that this is a result of Bitcoin Core being a focal point for development. It has orders of magnitude more developer time and talent backing it, which means that the code produced by the Bitcoin Core project tends to be the most performant, robust, and secure. Node operators don’t want to run the second best software when it comes to managing money. Also, given that this is consensus software and the Bitcoin protocol does not — and arguably can not — have a formal specification because no one has the authority to write one, it’s somewhat safer to use the focal point implementation because you’re more likely to be bug-for-bug compatible with most of the rest of the network. In this sense, the code of the development focal point is the closest thing to a specification that exists.
 

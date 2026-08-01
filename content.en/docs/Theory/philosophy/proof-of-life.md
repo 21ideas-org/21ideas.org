@@ -30,7 +30,7 @@ The question of whether something is alive or not obviously hinges on one’s de
 
 We can try to describe this process by looking at things which are alive, and looking at what they do: they tend to grow, reproduce, and respond. They inherit traits, are made up of smaller units (cells), and use energy to maintain their internal structure in the face of entropy.
 
-{{% image src="/img/00000000002-en.png" %}}
+{{% image src="/img/00000000002-en.webp" %}}
 *Based on Chris Packard's Characteristics of Life, cc-by-sa 4.0*
 {{% /image %}}
 
@@ -51,7 +51,7 @@ Whatever Bitcoin might be, it undoubtedly is a force to be reckoned with. It has
 
 Many people seem to have come to this conclusion independently. Bitcoin is described as an army of leaf-cutter ants in [Andreas M. Antonopoulos](https://twitter.com/aantonop)’ Mastering Bitcoin — a biological system which is working in concert without a central coordinator. The honey badger, an animal which is commonly used to refer to Bitcoin (since it doesn’t care and isn’t afraid of anything) is on the cover of [Jimmy Song](https://twitter.com/jimmysong)’s Programming Bitcoin. [Dan Held](https://twitter.com/danheld) compared the invention of Bitcoin to planting a tree, examining the species (code), season (timing), soil (distribution), and gardening (community) that were essential to its success. [Brandon Quittem](https://twitter.com/bquittem) postulates that Bitcoin is most similar to mycelium, the underground network which powers the fungi kingdom, and can thus be best understood as a decentralized organism.
 
-{{% image src="/img/00000000003.jpg" /%}}
+{{% image src="/img/00000000003.webp" /%}}
 
 The snake of regulation and central banking is biting you while you are eating it alive? _Honey badger don’t care!_ And just like an army of ants doesn’t care if half of the workers are washed away by a flood, the Bitcoin network doesn’t care if half of the nodes are offline tomorrow.
 
@@ -80,7 +80,7 @@ The Bitcoin organism is made up of many interlocking parts which work together t
 
 Bitcoin, however, is a strange beast. It lives across domains, with one foot in the purely informational realm (ideas and code) and one foot in the physical realm (people and nodes).
 
-{{% image src="/img/00000000004-en.png" /%}}
+{{% image src="/img/00000000004-en.webp" /%}}
 
 The Bitcoin organism manifests itself through the interplay of ideas, code, people, and nodes. All four of these conceptual pieces react to and influence each other in a value-generating [feedback loop](https://dergigi.com/2019/05/01/bitcoins-gravity/) which keeps Bitcoin alive.
 
@@ -96,7 +96,7 @@ Part of this essence is made explicit by Bitcoin’s consensus rules, other part
 
 With a basic idea of the constituents and the extent of the Bitcoin organism in mind, let’s return to the descriptive definition of life above and see how Bitcoin maps onto each trait.
 
-{{% image src="/img/00000000005-en.png" /%}}
+{{% image src="/img/00000000005-en.webp" /%}}
 
 - **Growth:** Bitcoin grows in multiple ways. The network grows, the value of each bitcoin grows, the market grows, its user base grows, and the ecosystem as a whole grows as well.
 - **Reproduction:** Paradoxically, Bitcoin uses replication to create [absolute scarcity](https://21lessons.com/2). It reproduces itself in multiple ways, and on multiple levels: the source code is replicated across repositories, the software is copying itself upon installation, the ledger reproduces itself on every node, blocks propagate across the network by replication, and even UTXOs can be understood as reproductive entities, dividing and merging during the transaction process. Mutations exist on every level as well: invalid transactions, invalid blocks, hundreds of forks, and thousands of imperfect copies have been spawned by Bitcoin in the last couple of years.

@@ -1,7 +1,7 @@
 ---
 title: "Money, blockchains, and social scalability"
 h1: "Money, blockchains, and social scalability"
-cover: /img/dbm-657.png
+cover: /img/dbm-657.webp
 description: ""
 url: money-blockchains-and-social-scalability
 date: 2017-02-09
@@ -28,7 +28,7 @@ Even though social scalability is about the cognitive limitations and behavior t
 
 Without institutional and technological innovations of the past, participation in shared human endeavors would usually be limited to at most about 150 people – the famous “Dunbar number”.  In the Internet era, new innovations continue to scale our social capabilities. In this article I will discuss how blockchains, and in particular public blockchains that implement cryptocurrencies, increase social scalability, even at a dreadful reduction in computational efficiency and scalability.
 
-{{% image "/img/dbm-658-en.jpg" %}}
+{{% image "/img/dbm-658-en.webp" %}}
 _Cognitive capacity – here in the form of the relative size of a species’ neocortex – set limits on how large primate groups can be.  Maintaining animal or intimate human groups requires extensive emotional communications and investments in relationships, such as grooming in primates and gossiping, humor, story-telling, and other conversations, songs, and play in traditional human groups. Overcoming human cognitive limits to who or how many people can participate in an institution – the famous “Dunbar number” of around 150 people -- requires institutional and technological innovation. ([Source](http://whatsupnah.com/2009/02/twitter-vs-the-dunbar-number-and-the-rise-of-weak-ties/))_
 {{% /image %}}
 
@@ -88,7 +88,7 @@ Scalable markets and prices require scalable money. Scalable money requires scal
 
 An individual or group communicating under the name “Satoshi Nakamoto” brought Bitcoin to the Internet in 2009. Satoshi’s breakthrough with money was to provide social scalability via trust minimization: reducing vulnerability to counterparties and third parties alike. By substituting computationally expensive but automated security for computationally cheap but institutionally expensive traditional security, Satoshi gained a nice increase in social scalability. A set of partially trusted intermediaries replaces a single and fully trusted intermediary.
 
-{{% image "/img/dbm-659-en.png" %}}
+{{% image "/img/dbm-659-en.webp" %}}
 _Financial controls on computational steroids: a blockchain as an army of robots, each checking up on each other’s work._
 {{% /image %}}
 
@@ -101,7 +101,7 @@ The characteristics most distinctively valuable in blockchain technology in gene
 
 come from the high levels of security and reliability a blockchain can maintain without human intervention. Without that high security it’s just a gratuitously wasteful distributed database technology still tied to the local bureaucracies it would have to depend upon for its integrity.
 
-{{% image "/img/dbm-660-en.png" %}}
+{{% image "/img/dbm-660-en.webp" %}}
 _Since the mid-20th century computing has increased in efficiency by many orders of magnitude, but humans are using the same brains. This has created plenty of possibility for overcoming human limitations, and institutions based solely on human minds, with computational capabilities, including in security, doing what they do best, with human minds doing what they still do best. As a result, humans have no more raw mental ability to scale up our institutions than we ever have. But there is plenty of potential for improving social scalability by replacing some human functions with computational ones. (An important note – this argument depends on the slope, not the absolute position, of the human ability line.  The absolute position shown above is arbitrary and depends on what human “computation” we are measuring)._
 {{% /image %}}
 
@@ -121,7 +121,7 @@ When it comes to small-b bitcoin, the currency, there is nothing impossible abou
 
 When I designed [bit gold](https://web.archive.org/web/20070616052640/http://unenumerated.blogspot.com/2005/12/bit-gold.html) I already knew consensus did not scale to large transaction throughputs securely, so I designed it with a two-tier architecture: (1) bit gold itself, the settlement layer, and (2) [Chaumian digital cash](http://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF), a peripheral payment network which would provide retail payments with high transactions-per-second performance and privacy (through Chaumian blinding), but would like Visa be a trusted third party and thus require a “human blockchain” of accountants, etc. to operate with integrity.  The peripheral payment network can involve only small value transactions, thereby requiring much less of a human army to avoid the fate of Mt. Gox.
 
-{{% image "/img/dbm-661.png" %}}
+{{% image "/img/dbm-661.webp" %}}
 _Ralph Merkle: pioneer of public-key cryptography and inventor of hierarchical hash-tree structures (Merkle trees)._
 {{% /image %}}
 
@@ -129,7 +129,7 @@ Money requires social scalability in its design, via security. For example it sh
 
 There are all sorts of definitions of “blockchain” out there, almost all of them just implicitly broad hand-waving amid the mountains of marketing hype. I suggest a clear definition that can be communicated to lay people.  It is a blockchain if it has blocks and it has chains. The “chains” should be [Merkle trees](https://en.wikipedia.org/wiki/Merkle_tree) or other cryptographic structures with a similar integrity functionality of [post-unforgeable](http://archive.is/T9Y8P#selection-103.0-103.30#Post-unforgeable%20auditing%20logs)   integrity.  Also the transactions and any other data whose integrity is protected by a blockchain should be replicated in a way objectively tolerant to worst-case malicious problems and actors to as high a degree as possible (typically the system can behave as previously specified up to a fraction of 1/3 to 1/2 of the servers maliciously trying to subvert it to behave differently).
 
-{{% image "/img/dbm-662.png" %}}
+{{% image "/img/dbm-662.webp" %}}
 _Bitcoin’s socially scalable security, based on computer science rather than on police and lawyers, allows, for example, customers in Africa to pay suppliers in China seamlessly across borders. A private blockchain cannot accomplish this feat nearly as easily, since it would require an identification scheme, certificate authority, and PKI shared between these various jurisdictions. ([Source](https://twitter.com/pesa_africa/status/812618598443319297))_
 {{% /image %}}
 
@@ -137,7 +137,7 @@ Because of this fraction, and because of the (hopefully very rare) need to updat
 
 To say that data is post-unforgeable or immutable means that it can’t be undetectably alteredafter being committed to the blockchain. Contrary to some hype this doesn’t guarantee anything about a datum’s provenance, or its truth or falsity, before it was committed to the blockchain. That requires additional protocols, often including expensive traditional controls. Blockchains don’t guarantee truth; they just preserve truth and lies from later alteration, allowing one to later securely analyze them, and thus be more confident in uncovering the lies. Typical computers are computational etch-a-sketch, while blockchains are computational amber. Important data should be committed to blockchain amber as early as possible, ideally directly from and cryptographically signed by the device in which it was generated, to maximize the blockchain’s benefit in securing its integrity.
 
-{{% image "/img/dbm-663.png" %}}
+{{% image "/img/dbm-663.webp" %}}
 _A Merkle tree of four transactions (tx0 through tx3). Combined with a proper replication and chains of transaction blocks protected by proof-of-work, Merkle trees can make data such as transactions post-unforgeable by consensus. In Bitcoin, a Merkle root hash securely summarizes and is used to verify the unaltered state of all the transactions in a block._
 {{% /image %}}
 
@@ -164,7 +164,7 @@ PKI-enabled private blockchains are a nice for banks and some other large enterp
 
 PKI can work well for some important things and people but it is not nearly so nice or so easy for lesser entities. Its social scalability is limited by the traditional wet identity bureaucracy on which it depends.
 
-{{% image "/img/dbm-664.png" %}}
+{{% image "/img/dbm-664.webp" %}}
 _Some significant thefts in the broader bitcoin ecosystem. Whereas the Bitcoin blockchain itself is probably the most secure financial network in existence (and indeed must remain far more secure than traditional payment networks in order to maintain its low governance costs and seamless cross-border capability), its peripheral services based on older centralized web servers are very insecure. (Source: author)_
 {{% /image %}}
 

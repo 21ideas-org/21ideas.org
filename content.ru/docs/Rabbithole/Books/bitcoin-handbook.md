@@ -1,7 +1,7 @@
 ---
 title: "Справочник"
 h1: "Справочник по Биткоину"
-cover: /img/bitcoin-handbook-cover.png
+cover: /img/bitcoin-handbook-cover.webp
 description: "Справочник по Биткоину – это сборник самых полезных фреймворков, ментальных моделей и эвристик для понимания денег в цифровую эпоху." 
 url: bitcoin-handbook
 date: 2022-02-16

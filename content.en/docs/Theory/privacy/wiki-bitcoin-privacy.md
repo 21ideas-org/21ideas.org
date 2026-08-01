@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin Privacy"
 h1: "Bitcoin Privacy"
-cover: /img/priv-903.jpeg
+cover: /img/priv-903.webp
 description: "While Bitcoin can support strong privacy, many ways of using it are usually not very private. With a proper understanding of the technology, bitcoin can indeed be used in a very private and anonymous way."
 url: wiki-bitcoin-privacy
 aliases: ['/privacy-wiki-bitcoin-privacy']
@@ -134,13 +134,13 @@ Much of the time plausible deniability is not good enough because lots of spying
 
 ## Method of data fusion
 
-{{% image "/img/priv-906.png" %}}
+{{% image "/img/priv-906.webp" %}}
 _Data fusion diagram showing how two different privacy leaks can damage privacy far more in combination._
 {{% /image %}}
 
 Multiple privacy leaks when combined together can be far more damaging to privacy than any single leak. Imagine if a receiver of a transaction is trying to deanonymize the sender. Each privacy leak would eliminate many candidates for who the sender is, two different privacy leaks would eliminate _different_ candidates leaving far fewer candidates remaining. See the diagram for a diagram of this.
 
-{{% image "/img/priv-907.png" %}}
+{{% image "/img/priv-907.webp" %}}
 _Data fusion diagram example with newspaper buyer._
 {{% /image %}}
 

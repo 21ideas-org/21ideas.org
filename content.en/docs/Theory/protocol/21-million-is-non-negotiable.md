@@ -1,7 +1,7 @@
 ---
 title: "21 Million is Non-Negotiable"
 h1: "21 Million is Non-Negotiable"
-cover: /img/21m-603.jpg
+cover: /img/21m-603.webp
 description: ""
 url: 21-million-is-non-negotiable
 date: 2020-04-09
@@ -21,9 +21,9 @@ Bitcoin has a fixed supply of 21 million coins, which are released on a schedule
 
 Today, bitcoin’s network is secured primarily by the value of the block subsidy (12.5 BTC/10min), which in effect is value paid for by all holders of bitcoin, socializing the cost of network security. But at some point in the future, as the number of bitcoin released per block continues to be cut in half, bitcoin will primarily be secured by the value of transaction fees paid by individuals facilitating bitcoin transactions. Today’s socialized security cost mostly paid for with value extracted by bitcoin savers is slowly transitioning into a privatized cost paid for by future bitcoin spenders. Historically, this transition process has played a part in increasing miner revenue measured in USD (and has therefore increased overall security) while has decreased the overall cost of security as a percentage of the bitcoin economy.
 
-{{% image "/img/21m-604-en.png" /%}}
+{{% image "/img/21m-604-en.webp" /%}}
 
-{{% image "/img/21m-608-en.png" /%}}
+{{% image "/img/21m-608-en.webp" /%}}
 
 Many who are unsure about the future viability of bitcoin’s security suggest that bitcoin’s transaction fee market security model is _untested_, and therefore in the future, bitcoin may need to have a certain amount of terminal inflation in order to adequately secure the network. They are really suggesting that at some point in the future, we may have to again socialize bitcoin’s security costs by changing bitcoin’s total supply and by reintroducing or increasing the block subsidy. 
 
@@ -60,9 +60,9 @@ By function of:
 
 The amount of hashed electricity securing the network increases over the long-run. Meaning, the **value** of bitcoin has increased so much that despite the current nominal block reward being lower than any other time in bitcoin’s existence, it’s more secure than ever. The purchasing power (or real value) of the block reward continues to increase, despite the nominal block reward consistently declining.
 
-{{% image "/img/21m-605-en.png" /%}}
+{{% image "/img/21m-605-en.webp" /%}}
 
-{{% image "/img/21m-609-en.png" /%}}
+{{% image "/img/21m-609-en.webp" /%}}
 
 But let’s look at the specific point that skeptics are trying to make: today, the block reward, which is a socialized cost paid by all holders of bitcoin, covers a majority of the **value** that is paid to miners in return for hashed electricity. What happens when transaction fees are the only incentive for miners to sell electricity? Many skeptics say something like:
 
@@ -88,7 +88,7 @@ Ultimately, the argument boils down to the fact that we can’t predict the futu
 
 ## Inflation as a “solution” to security
 
-{{% image "/img/21m-606.png" %}}
+{{% image "/img/21m-606.webp" %}}
 _[Source.](https://www.theblockcrypto.com/genesis/58224/money-2-0-stuff-with-no-rally-in-sight-bitcoin-must-consider-loose-monetary-policy) Bitcoin is a currency that is unable to make decisions. Bitcoin’s monetary policy governors are anyone who stores any amount of value in bitcoin. There are an estimated 10s of millions of bitcoin monetary policy governors internationally._
 ‌{{% /image %}}
 
@@ -96,7 +96,7 @@ We’ve established above that bitcoin does not have a security problem because 
 
 It stems from a faulty basic assumption that adding additional units of a monetary good increases value. “Number go bigger equal everybody be bigger happy” might be a phrase uttered by an altcoin marketer, nobel prize winning economist, or president of a Federal Reserve branch.
 
-{{% image "/img/21m-607.png" /%}}
+{{% image "/img/21m-607.webp" /%}}
 
 {{< x user="Vis_in_numeris" id="1241905410157805568" >}}
 

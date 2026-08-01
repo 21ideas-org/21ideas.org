@@ -2,7 +2,7 @@
 title: "Введение"
 h1: "Введение"
 description: ""
-cover: /img/dojo-02.jpg
+cover: /img/dojo-02.webp
 url: practice-privacy/dojo-0
 date: 2023-12-20
 bookFlatSection: false
@@ -40,7 +40,7 @@ weight: 1
 
 Тем, кто хочет приобрести устройство, по размерам схожее с готовой аппаратной нодой, стоит обратить внимание на серию Lenovo ThinkCentre M или, как мне больше нравится, на микрокомпьютеры Dell Optiplex M. И те, и другие можно легко найти на рынке подержанных машин, бывших в эксплуатации.
 
-{{% image "/img/dojo-03.jpg" /%}}
+{{% image "/img/dojo-03.webp" /%}}
 
 ## Необходимые требования
 

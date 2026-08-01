@@ -1,8 +1,8 @@
 ---
 title: "Privacy"
 h1: " "
-cover: /img/main-section/en/privacy-dark.png
-coverDark: /img/main-section/en/privacy-light.png
+cover: /img/main-section/en/privacy-dark.webp
+coverDark: /img/main-section/en/privacy-light.webp
 bookCollapseSection: true
 url: privacy
 weight: 3

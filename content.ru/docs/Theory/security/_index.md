@@ -2,8 +2,8 @@
 title: "Безопасность"
 type: docs
 h1: "Безопасность"
-# cover: /img/main-section/ru/security-light.png
-# coverDark: /img/main-section/ru/security.png
+# cover: /img/main-section/ru/security-light.webp
+# coverDark: /img/main-section/ru/security.webp
 bookCollapseSection: true
 bookFlatSection: false
 url: security

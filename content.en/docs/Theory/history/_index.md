@@ -1,8 +1,8 @@
 ---
 title: "History"
 h1: " "
-cover: /img/main-section/en/history-dark.png
-coverDark: /img/main-section/en/history-light.png
+cover: /img/main-section/en/history-dark.webp
+coverDark: /img/main-section/en/history-light.webp
 bookCollapseSection: true
 url: history
 weight: 5

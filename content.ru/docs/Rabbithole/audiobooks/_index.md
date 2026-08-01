@@ -3,8 +3,8 @@ title: "Аудиокниги"
 h1: "Аудиокниги"
 tags: ["аудиокниги", "биткоин", "экономика'", "книги"]
 description: "Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея."
-# cover: /img/main-section/ru/audiobooks-light.png
-# coverDark: /img/main-section/ru/audiobooks.png
+# cover: /img/main-section/ru/audiobooks-light.webp
+# coverDark: /img/main-section/ru/audiobooks.webp
 url: audiobooks
 bookCollapseSection: false
 bookFlatSection: false
