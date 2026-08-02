@@ -84,7 +84,11 @@ Now that you’ve decided to acquire some Bitcoin (smart move) it’s time to de
 
 **Cons:** Users must secure a seed phrase backup, which requires a thoughtful strategy on how to protect it. It’s recom­mended to write down your seed phrase on metal and store backups in multiple locations. If your hardware wallet is stolen, your funds are at risk of being hacked. Note: protecting seed phrase backups is a standard practice for wallets where the user controls the private keys.
 
-**Examples:** [Ledger](https://www.ledger.com/), [Trezor](https://trezor.io/), [Coldcard](https://coldcardwallet.com/), & [BitBox](https://shiftcrypto.ch/)
+**Examples:** [Ledger](https://www.ledger.com/), [Trezor](https://trezor.io/), [Coldcard](/en/coldcard), & [BitBox](https://shiftcrypto.ch/)
+
+{{< hint danger >}}
+**⚠️ COLDCARD vulnerability, July 2026.** A flaw was found in COLDCARD firmware: since 2021 the device silently used a software fallback random number generator instead of the hardware one. Every model except the Mk1 is affected. Before generating a key on one, read the warning in our [Coldcard guide](/en/coldcard) and [Wizardsardine's analysis](https://wizardsardine.com/blog/coldcard-rng-vulnerability/).
+{{< /hint >}}
 
 ## Mobile Bitcoin Wallets
 
@@ -177,7 +181,7 @@ The easiest way to approach Bitcoin custody is to focus on “how much money is 
 **Medium Amounts (~1% net worth) — Use a Hardware Bitcoin Wallet**
 
 - Trezor (Begin­ners)
-- Coldcard (Advanced users)
+- Coldcard (Advanced users) — ⚠️ *see the [random number generator vulnerability](/en/coldcard) warning above*
 
 **Large amounts (more than 10%+ net worth) — Use a Multisig Bitcoin Wallet**
 

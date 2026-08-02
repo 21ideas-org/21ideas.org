@@ -269,6 +269,8 @@ Proof of Work и Proof of Stake — противоречивая тема в к�
 {{< details "Настройка ColdCard + Electrum. Проведение транзакций" "...">}}
 {{< youtube 5ta2cLMj_d4 />}}
 В данном видео вы узнаете как произвести первичную настройку вашего аппаратного кошелька [ColdCard](https://coldcard.com/) и провести транзакции (получение и отправка) в air-gapped mode (без подключения к компьютеру).
+
+⚠️ **COLDCARD vulnerability, July 2026.** A random number generator flaw was found in the device's firmware; every model except the Mk1 is affected. This video predates the incident and the seed generation procedure shown in it must not be repeated — read the warning in our [Coldcard guide](/en/coldcard) first.
 {{< /details >}}
 
 {{< details "Запуск собственной ноды. MyNode + Raspberry Pi" "...">}}

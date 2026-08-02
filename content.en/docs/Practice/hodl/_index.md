@@ -13,6 +13,6 @@ weight: 2
 
 2. [Installing Blue Wallet](/en/blue)
 
-3. [Coldcard: Feature rich hardware wallet](/en/coldcard)
+3. [Coldcard: Feature rich hardware wallet](/en/coldcard) — ⚠️ *a critical random number generator vulnerability was found in this device; the guide stays online with a warning*
 
 4. [How To Set Up And Use The SeedSigner DIY Bitcoin Signing Device](/en/seedsigner)

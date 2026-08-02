@@ -215,6 +215,12 @@ This feature can also be disabled entirely via the device’s settings, and a tr
 
 ## Coldcard Mk4
 
+{{< hint danger >}}
+**⚠️ Random number generator vulnerability, July 2026.** A flaw was found in COLDCARD firmware: since 2021 the device silently used a software fallback generator instead of the hardware one. Every model except the Mk1 is affected, including the Mk4 described below. Fixed firmware: 4.2.0 for the Mk3, 5.6.0 for the Mk4 and Mk5, 1.5.0Q for the Q.
+
+Dice rolls protect **the seed only** — paper wallets, clone-to-another-device, Seed XOR in random mode and the built-in password generator are broken regardless. See the warning in our [Coldcard guide](/en/coldcard) and [Wizardsardine's analysis](https://wizardsardine.com/blog/coldcard-rng-vulnerability/).
+{{< /hint >}}
+
 {{% image "/img/hwws/mk4.webp" /%}}
 
 | **Manufacturer** | **Released** | **MSRP** | **Suitable for** | **Native app** |
