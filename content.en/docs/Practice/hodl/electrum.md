@@ -744,6 +744,10 @@ There are also guides on various brands of HWWs connecting to Sparrow Bitcoin Wa
 
 This will be my first guide showing how to use a hardware wallet with Electrum – I am going to use the ColdCard hardware wallet to demonstrate. This is not meant to be a detailed guide on the ColdCard specifically, [that guide is here](https://armantheparman.com/cc/). I am just showing Electrum-specific points.
 
+{{< hint danger >}}
+**⚠️ COLDCARD vulnerability, July 2026.** A flaw was found in COLDCARD firmware: since 2021 the device silently used a software fallback random number generator instead of the hardware one. Every model except the Mk1 is affected. The Electrum steps below still work, but before you generate a key on this device read the warning in our [Coldcard guide](/en/coldcard).
+{{< /hint >}}
+
 **Connecting via the micro SD card (air-gapped)**
 
 Before connecting your real wallet via the ColdCard, I hope you have gone through the earlier steps of loading an Electrum dummy wallet and setting up the network parameters.

@@ -11,6 +11,31 @@ bookToc: true
 weight: 4
 ---
 
+{{< hint danger >}}
+**⚠️ Critical random number generator vulnerability. Updated 2 August 2026.**
+
+A flaw was found in COLDCARD firmware: since 2021 the device silently used MicroPython's software fallback generator instead of the hardware TRNG. On 30 July 2026, 594.48 BTC were swept from roughly five hundred addresses in a single burst.
+
+**Every model except the Mk1 is affected** — Mk2, Mk3, Mk4, Mk5 and Q. Fixed firmware: **4.2.0** for the Mk3, **5.6.0** for the Mk4 and Mk5, **1.5.0Q** for the Q.
+
+**Dice rolls protected the seed, not the device.** The broken generator was not only called when generating a seed. Even if your seed was made with dice, treat the following as compromised:
+
+- **paper wallets** created on the device since 2021 — their private key is literally the output of the broken generator;
+- **clone-to-another-device** — the ephemeral keys are predictable, so anyone holding the clone file can decrypt it and recover the seed in plaintext;
+- **Seed XOR in random mode** — the mask can be recomputed, so one share is enough to restore the seed instead of two;
+- **both Teleport mechanisms**, **passwords from the built-in generator** in Secure Notes & Passwords, the **C-key** used for co-signing, and **HSM mode** secrets.
+
+Everything derived from the seed falls with the seed: **BIP-85** in all its forms (which means Nostr keys, Lightning node seeds, SSH keys and passwords), **duress wallets** on trick PINs, and **microSD 2FA**.
+
+The list of broken non-seed features is Wizardsardine's own work on the firmware source. Neither Coinkite nor Block's engineers published it, and it has no second independent confirmation yet.
+
+**What to do.** Update the firmware. Treat any seed generated on affected firmware without dice rolls as public, and move the funds to a new key. Multisig protects you only until the number of affected keys in a path reaches its threshold. Privacy is damaged retroactively and permanently: the entire transaction history of such a seed is exposed.
+
+Primary sources: [Coinkite advisory](https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/), [Coinkite technical backgrounder](https://blog.coinkite.com/entropy-technical-backgrounder/), [Block engineering analysis](https://engineering.block.xyz/blog/predictable-rng-fallback-and-32-bit-reseed-in-coldcard-firmware), [Wizardsardine](https://wizardsardine.com/blog/coldcard-rng-vulnerability/).
+
+*This guide stays online for historical honesty. We cannot recommend the Coldcard at this time.*
+{{< /hint >}}
+
 {{< hint btc >}}
 This guide by [Bitcoin Q+A](https://twitter.com/BitcoinQ_A) was published on [bitcoiner.guide](https://bitcoiner.guide/coldcard) website.
 
@@ -32,15 +57,15 @@ Coldcard achieves its air gapped processes by passing information to your chosen
 You can find more detail for these (and more) on their documentation [page](https://coldcardwallet.com/docs/).
 
 - **Tamper evident packaging and hardware** _(for supply chain attacks)_
-- **Duress pin** _(opens a second wallet with a small amount of bitcoin to ward off coercive attackers)_
+- **Duress pin** _(opens a second wallet with a small amount of bitcoin to ward off coercive attackers)_ ⚠️ *Affected by the vulnerability: the duress wallet is derived with standard BIP-85.*
 - **Brick me pin** _(kills the device to prevent coercive attacks)_
 - **BIP174** _(Partially signed bitcoin transactions)_
 - **BIP39** _(Optional passphrase)_
-- **BIP85** _(create additional seeds all backed up by a single ‘master seed’)_
+- **BIP85** _(create additional seeds all backed up by a single ‘master seed’)_ ⚠️ *Affected by the vulnerability — see the warning at the top of this page.*
 - **Anti-Phishing words** _(highlights device tampering)_
 - **Encrypted backups** _(Create multiple encrypted SD card backups)_
-- **User added entropy** _(roll dice for an even more secure seed creation)_
-- **Create paper wallets** _(create completely separate paper wallets)_
+- **User added entropy** _(roll dice for an even more secure seed creation)_ **After the July 2026 incident this is no longer optional — it is a required step.**
+- **Create paper wallets** _(create completely separate paper wallets)_ 🔴 *This feature is broken: the private key of such a wallet is brute-forceable regardless of dice rolls. Do not use it.*
 - **Multi-sig support** _(create and participate in multi signature wallets)_
 
 ## How does it work?
@@ -70,6 +95,14 @@ Coldcard has lots of advanced features, but for this guide I will focus on 3 mai
 5. Create new wallet. You will now see a list of 24 seed words, these are the master backup to all bitcoin deposited to this wallet. At this stage if you press the number ‘4’ on the Coldcard you will be taken to the dice roll screen where you can roll a dice and add additional entropy to your seed generation. This reduces the trust in the devices inbuilt random number generator. You can roll as many times as you like. If you do this additional step, after you finish your dice rolls you will see a completely new seed. Write this down, keep it safe and do not share with anyone.
 
 {{% image "/img/cc-524.webp" /%}}
+
+{{< hint danger >}}
+**Step 5 is no longer optional.** Adding entropy with dice rolls (option ‘4’ on screen) is the only way to avoid trusting the device's generator, and after the July 2026 incident it is a mandatory part of the procedure rather than “extra security”. Keep doing it on fixed firmware too: it removes the need to trust the generator at all.
+
+If your seed was generated on affected firmware **without** this step, treat it as compromised and move the funds to a new key.
+
+⚠️ Dice rolls protect **the seed only**. Paper wallets, clone-to-another-device, Seed XOR in random mode, Teleport and the built-in password generator are broken whether or not you rolled dice — see the warning at the top of this page.
+{{< /hint >}}
 
 6. You will then be asked a series of questions based on your seed to ensure that you wrote it down correctly. Once you complete these, you have successfully generated yourself a bitcoin wallet, completely offline on a device that has never touched the internet.
 
