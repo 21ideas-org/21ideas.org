@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Установка Биткоин-узла Dojo на x86 on 21ideas</title><link>https://21ideas.org/practice-privacy/dojo/</link><description>Recent content in Установка Биткоин-узла Dojo на x86 on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/practice-privacy/dojo/index.xml" rel="self" type="application/rss+xml"/><item><title>Введение</title><link>https://21ideas.org/practice-privacy/dojo-0/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-0/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Это первое руководство из нескольких частей по установке и настройке узла Биткоина на компьютерах x86 из официальных бинарных файлов, включая пакеты Bitcoin Core, Dojo, Fulcrum и Mempool Explorer.&lt;/p&gt;
+&lt;p&gt;Ручная настройка узла - это отличный способ узнать о внутреннем устройстве ноды Биткоина. Еще одним преимуществом является возможность индивидуально управлять обновлениями пакетов, когда это необходимо, вместо того чтобы ждать, пока разработчики узла &amp;ldquo;все в одном&amp;rdquo; вышлют обновления, что дает вам повышенный уровень суверенитета ноды.&lt;/p&gt;</description></item><item><title>Установка Bitcoin Core и Tor</title><link>https://21ideas.org/practice-privacy/dojo-1/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-1/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Bitcoin Core возник из первого программного Биткоин-клиента, выпущенного Сатоши Накамото, псевдонимным создателем (создателями) Биткоин, в 2009 году. Изначально он назывался &amp;ldquo;Bitcoin&amp;rdquo;, но позже был переименован в &amp;ldquo;Bitcoin Core&amp;rdquo;, чтобы отличить его от более широко известной сети и валюты Биткоин.&lt;/p&gt;</description></item><item><title>Установка индексатора Fulcrum</title><link>https://21ideas.org/practice-privacy/dojo-2/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-2/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перед выполнением дальнейших шагов убедитесь, что:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Завершены все действия из &lt;a href="https://21ideas.org/privacy/dojo-1"&gt;части 1&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Завершен процесс IBD в Bitoin Core.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;После полной синхронизации Bitcoin Core следующим шагом будет установка индексатора Electrum, который обеспечивает совместимость со всеми биткоин-кошельками на базе Electrum.&lt;/p&gt;</description></item><item><title>Установка блокчейн-обозревателя Mempool</title><link>https://21ideas.org/practice-privacy/dojo-3/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-3/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перед выполнением дальнейших шагов убедитесь, что:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Завершены все действия из частей &lt;a href="https://21ideas.org/privacy/dojo-1"&gt;1&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-2"&gt;2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Синхронизация Fulcrum завершена.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Mempool Visual Explorer - это ценный инструмент для поиска подробной информации о блоках, адресах, балансах и транзакциях.&lt;/p&gt;</description></item><item><title>Установка Samourai Dojo</title><link>https://21ideas.org/practice-privacy/dojo-4/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-4/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;blockquote class="book-hint btc"&gt;
+ Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей &lt;a href="https://21ideas.org/privacy/dojo-1"&gt;1&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-2"&gt;2&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-3"&gt;3&lt;/a&gt;.
+&lt;/blockquote&gt;
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Dojo - это ориентированное на конфиденциальность комплексное серверное программное решение, которое выступает в качестве бэкенда Samourai Wallet и других легких Биткоин-кошельков.&lt;/p&gt;</description></item><item><title>Конфигурация межсетевого экрана</title><link>https://21ideas.org/practice-privacy/dojo-5/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-5/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;blockquote class="book-hint btc"&gt;
+ Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей &lt;a href="https://21ideas.org/privacy/dojo-1"&gt;1&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-2"&gt;2&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-3"&gt;3&lt;/a&gt;, &lt;a href="https://21ideas.org/privacy/dojo-4"&gt;4&lt;/a&gt;.
+&lt;/blockquote&gt;
+&lt;h2 id="uncomplicated-firewall-ufw"&gt;
+ Uncomplicated Firewall (UFW)
+ &lt;a class="anchor" href="#uncomplicated-firewall-ufw"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Uncomplicated Firewall, или UFW, - это простое в использовании приложение командной строки для работы с межсетевым экраном в Linux.&lt;/p&gt;</description></item><item><title>Установка обновлений пакетов</title><link>https://21ideas.org/practice-privacy/dojo-6/</link><pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/practice-privacy/dojo-6/</guid><description>&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="установка-биткоин-узла-dojo-на-x86"&gt;
+ Установка Биткоин-узла Dojo на x86
+ &lt;a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%83%d0%b7%d0%bb%d0%b0-dojo-%d0%bd%d0%b0-x86"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-0"&gt;Введение&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-1"&gt;Часть 1. Установка Bitcoin Core и Tor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-2"&gt;Часть 2. Установка индексатора Fulcrum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-3"&gt;Часть 3. Установка блокчейн-обозревателя Mempool&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-4"&gt;Часть 4. Установка Samourai Dojo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-5"&gt;Часть 5. Конфигурация межсетевого экрана&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/practice-privacy/dojo-6"&gt;Часть 6. Установка обновлений пакетов&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Возможность самостоятельно обновлять пакеты своего узла обеспечивает операторам ноды гораздо более высокий уровень суверенитета. Вы можете сами выбирать, какие обновления запускать и как их настраивать, а не полагаться на предпочтения и расписание разработчиков узлов &amp;ldquo;plug-and-play&amp;rdquo;.&lt;/p&gt;</description></item></channel></rss>

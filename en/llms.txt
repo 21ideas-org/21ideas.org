@@ -1,0 +1,57 @@
+# 21ideas
+
+> Educational Bitcoin-Only Resource
+
+## Docs
+- [Start](https://21ideas.org/en/start/)
+- [Главная](https://21ideas.org/en/docs/example/)
+- [Theory](https://21ideas.org/en/theory/)
+- [Practice](https://21ideas.org/en/practice/)
+- [Rabbithole](https://21ideas.org/en/rabbithole/)
+- [Contribute](https://21ideas.org/en/contribute/)
+- [RSS-ленты](https://21ideas.org/en/rss/)
+### Start
+- [Bitcoin Basics](https://21ideas.org/en/start/start/): Basic Bitcoin guide for newcomers.
+- [Using Bitcoin](https://21ideas.org/en/start/guide/): Basic Practical Bitcoin Guide.
+- [Биткоин от А до Я](https://21ideas.org/en/course/): Полноценный курс, который поможет разобраться в основах Биткоина.
+- [Разрушаем мифы о Биткоине](https://21ideas.org/en/bitcoin-myths/): Целью данного материала является краткий пошаговый ответ на каждое из данных заблуждений с предоставлением ссылок на более детальные исследования по актуальным на сегодняшний день темам.
+- [Don’t Play Shitcoin Gambling Games](https://21ideas.org/en/shitcoin-gambling-games/)
+### Главная
+- [/en/docs/example/table-of-contents/](https://21ideas.org/en/docs/example/table-of-contents/)
+- [/en/docs/example/collapsed/](https://21ideas.org/en/docs/example/collapsed/)
+- [/en/docs/example/hidden/](https://21ideas.org/en/docs/example/hidden/)
+### Theory
+- [Economics](https://21ideas.org/en/economics/)
+- [Security](https://21ideas.org/en/security/)
+- [Privacy](https://21ideas.org/en/privacy/)
+- [Protocol](https://21ideas.org/en/protocol/)
+- [History](https://21ideas.org/en/history/)
+- [Philosophy](https://21ideas.org/en/philosophy/)
+- [Future](https://21ideas.org/en/future/)
+- [Lightning](https://21ideas.org/en/lightning/)
+### Practice
+- [Buy](https://21ideas.org/en/practice/buy/)
+- [Hodl](https://21ideas.org/en/practice/hodl/)
+- [Interact](https://21ideas.org/en/practice/interact/)
+- [Security](https://21ideas.org/en/docs/Practice/security/)
+- [Privacy](https://21ideas.org/en/practice-privacy/)
+- [Lightning](https://21ideas.org/en/practice/lightning/)
+### Rabbithole
+- [Books](https://21ideas.org/en/books/): Библиотека обязательных к прочтению книг о Биткоине, экономике и суверенитете.
+- [Видео](https://21ideas.org/en/videos/): Видеоматериалы, посвященные Биткоину, экономике и личностному суверенитету
+- [Audiobooks](https://21ideas.org/en/audiobooks/): Сборник аудиокниг о Биткоине, озвученных при участии проекта 21 идея.
+- [Podcasts](https://21ideas.org/en/pods/): Сборник лучших подкастов о Биткоине, распределенных протоколах, информационной безопасности, экономике и личностном суверенитете.
+### Contribute
+- [Оформление статей](https://21ideas.org/en/syntax/): Как стать автором на проекте 21 идея? Как оформить статью? Этот материал расскажет об основах синтаксиса Markdown и о стандартах оформления статей - от метаданных до шорткодов.
+- [Adding an Article](https://21ideas.org/en/github/): How to become a 21ideas contributor? How to add an article? This material will cover the basics of interacting with the project via GitHub and VS Code.
+- [Публикация статей через Obsidian](https://21ideas.org/en/obsidian/): Наиболее простой и наглядный способ публикации статей на ресурсе 21 идея с помощью программы Obsidian с открытым исходным кодом.
+- [Feedback](https://21ideas.org/en/feedback/)
+- [Comments on 21ideas](https://21ideas.org/en/comments/)
+- [Бонусы для подписчиков 21 идеи](https://21ideas.org/en/patrons/)
+## Bitcoin Calendar
+## Blog
+- [Creating a New Theme](https://21ideas.org/en/posts/creating-a-new-theme/)
+- [Migrating from Jekyll](https://21ideas.org/en/posts/migrate-from-jekyll/)
+- [(Hu)go Template Primer](https://21ideas.org/en/posts/goisforlovers/)
+- [Getting Started with Hugo](https://21ideas.org/en/posts/hugoisforlovers/)
+

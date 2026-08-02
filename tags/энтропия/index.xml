@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Энтропия on 21ideas</title><link>https://21ideas.org/tags/%D1%8D%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%B8%D1%8F/</link><description>Recent content in Энтропия on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 02 Aug 2026 15:27:13 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/%D1%8D%D0%BD%D1%82%D1%80%D0%BE%D0%BF%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Создаём ключ, не доверяя генератору</title><link>https://21ideas.org/dice-seed/</link><pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate><guid>https://21ideas.org/dice-seed/</guid><description>&lt;p&gt;Практическое руководство: как самостоятельно получить энтропию игральной костью, превратить её в сид-фразу оффлайн и проверить результат тремя независимыми реализациями.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;h2 id="прецедент"&gt;
+ Прецедент
+ &lt;a class="anchor" href="#%d0%bf%d1%80%d0%b5%d1%86%d0%b5%d0%b4%d0%b5%d0%bd%d1%82"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;blockquote class="book-hint info"&gt;
+ 🥱 Если вы уже знаете причины, по которым полагаться на генераторы случайных чисел нежелательно, можете перейти к разделу &lt;a href="https://21ideas.org/dice-seed#%d0%bc%d0%b0%d1%82%d1%87%d0%b0%d1%81%d1%82%d1%8c"&gt;матчасть&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;p&gt;30 июля с примерно пятисот биткоин-адресов одной серией &lt;a href="https://gm.21ideas.org/digests/2026-07-31/#security-1"&gt;вывели&lt;/a&gt; &lt;strong&gt;594,48 BTC&lt;/strong&gt; — около 38 миллионов долларов. 1324 UTXO ушли пятьюстами транзакциями в окне трёх блоков; 562 BTC затем свели на три адреса. Разбор цепочки принадлежит Робу Гамильтону из AnchorWatch и разошёлся по прессе — &lt;a href="https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep"&gt;CoinDesk&lt;/a&gt;, &lt;a href="https://www.tftc.io/coldcard-mk3-rng-security-warning-594-btc-swept"&gt;TFTC&lt;/a&gt;, &lt;a href="https://atlas21.com/594-bitcoin-drained-15-minutes-theft/"&gt;atlas21&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Вечная борьба Биткоина</title><link>https://21ideas.org/vechnaja-borba/</link><pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/vechnaja-borba/</guid><description>&lt;p&gt;Как Биткоин процветает на грани порядка и хаоса&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Перевод &lt;a href="https://dergigi.com/2019/12/22/bitcoin-s-eternal-struggle/"&gt;статьи&lt;/a&gt; GiGi подготовлен автором паблика &lt;a href="https://t.me/gametheoryhub"&gt;♾️/21M&lt;/a&gt;. Редактура &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Биткоин работает. Независимо от того, какого мнения вы бы не придерживались касательно этого странного явления, оно, несомненно, работает, развивается или, как я (и другие) утверждали ранее, живо. Даже если бы бóльшая часть мира остановилась, Биткоин-сеть продолжала бы создавать валидные блоки примерно каждые 10 минут или около того.&lt;/p&gt;
+&lt;p&gt;Биткоин работает благодаря множеству факторов: теории игр, экономическим стимулам, криптографии, гениальной инженерии, устойчивости на сетевом уровне и т.д. Убить Биткоин сложно. Действительно сложно. Убить Биткоин - это все равно, что убить идею. Идею, которая засела в головах сотен тысяч преданных ей личностей.&lt;/p&gt;</description></item></channel></rss>

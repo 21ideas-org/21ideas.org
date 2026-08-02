@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wallet on 21ideas</title><link>https://21ideas.org/en/tags/wallet/</link><description>Recent content in Wallet on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 15:27:13 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/wallet/index.xml" rel="self" type="application/rss+xml"/><item><title>LNbits: A Swiss knife among Lightning apps</title><link>https://21ideas.org/en/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lnbits/</guid><description>&lt;p&gt;LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="lnbits"&gt;
+ LNbits
+ &lt;a class="anchor" href="#lnbits"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.&lt;/p&gt;
+&lt;p&gt;It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented. The most expected innovation is the possibility to enter the service via login and password. So far, LNbits is a web page that requires only a clearnet address to log in. Some may find this approach unacceptable, but in this guide we&amp;rsquo;ll look at approaches that completely negate any danger. Nevertheless, it&amp;rsquo;s worth remembering that this is not a tool for long-term savings, but rather a layer designed to facilitate interaction with other users and make everyone&amp;rsquo;s experience pleasant and seamless.&lt;/p&gt;</description></item><item><title>Installing Blue Wallet</title><link>https://21ideas.org/en/blue/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/blue/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/econoalchemist"&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href="https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/"&gt;Blue Wallet&lt;/a&gt; to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p&gt;</description></item></channel></rss>

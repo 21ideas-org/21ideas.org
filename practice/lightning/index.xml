@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Лайтнинг на практике on 21ideas</title><link>https://21ideas.org/practice/lightning/</link><description>Recent content in Лайтнинг на практике on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/practice/lightning/index.xml" rel="self" type="application/rss+xml"/><item><title>Кошелек Phoenix</title><link>https://21ideas.org/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/phoenix/</guid><description>&lt;p&gt;Как пользоваться сетью Лайтнинг, никому не доверяя? Возвращаем контроль над своими сатами в сети Лайтнинг.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Гид подготовлен &lt;a href="https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+
+&lt;div class="youtubeWrapper"&gt;
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe src="https://www.youtube.com/embed/iZx86vbC9II" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video" loading="lazy"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+ &lt;div class="youtubeWrapper_hint"&gt;
+ &lt;em&gt;Этот гид и многие другие видео также доступны на &lt;a href="https://www.youtube.com/@21ideas/"&gt;YouTube-канале 21 идея&lt;/a&gt;&lt;/em&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="интро"&gt;
+ Интро
+ &lt;a class="anchor" href="#%d0%b8%d0%bd%d1%82%d1%80%d0%be"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Сегодня я хочу предоставить вашему вниманию гид по &lt;strong&gt;некастодиальному&lt;/strong&gt;лайтнинг-кошельку &lt;a href="https://phoenix.acinq.co/"&gt;Phoenix&lt;/a&gt;. Этот гид будет полезен тем, кто уже немного познакомился с сетью Молния и оценил взаимодействие с ней на практике. Предположим, вы уже пользовались кастодиальным кошельком, например &lt;a href="https://www.walletofsatoshi.com/"&gt;Wallet of Satoshi&lt;/a&gt;, и хотите получить больше контроля над своими средствами, самостоятельно хранить свои сатоши в сети лайтнинг и &lt;strong&gt;минимизировать&lt;/strong&gt; уровень доверия к третьей стороне. Я не случайно говорю именно минимизировать, а не избавиться, но подробнее я это поясню в конце этого гида.&lt;/p&gt;</description></item><item><title>LNbits – швейцарский нож среди лайтнинг-приложений</title><link>https://21ideas.org/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/lnbits/</guid><description>&lt;p&gt;LNbits – швейцарский нож среди лайтнинг-приложений – инвойсы, чаевые, пейволлы, мониторинг ончейн-кошелька, продажа билетов на события и многое другое.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="lnbits"&gt;
+ LNbits
+ &lt;a class="anchor" href="#lnbits"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Сегодня мы рассмотрим кошелек-приложение, доступный прямо из браузера, который может похвастаться таким количеством возможностей, что ему позавидует любое ПО. Это LNbits.&lt;/p&gt;
+&lt;p&gt;Стоит начать с того, что этот сервис еще находится в фазе активной разработки, а некоторый функционал еще предстоит внедрить. Самым ожидаемым нововведением на подходе является возможность входа в сервис через логин и пароль. Пока что LNbits представляет собой веб-страничку, для входа на которую нужно лишь ввести clearnet-адрес. Некоторым этот подход может показаться неприемлемым, но в этом руководстве мы рассмотрим подходы, которые полностью нивелируют какую-либо опасность. Тем не менее, стоит помнить, что это – не инструмент для долгосрочного хранения сбережений, а скорее прослойка, призванная облегчить взаимодействие с другими пользователями и сделать опыт каждого приятным и бесшовным.&lt;/p&gt;</description></item><item><title>Alby и Nostr</title><link>https://21ideas.org/alby-i-nostr/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/alby-i-nostr/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ Гид написан в 2023 году. Alby с тех пор перевёл кастодиальный аккаунт на платную основу — раздел о регистрации через сам сервис неактуален. Для подробных инструкций обратитесь к &lt;a href="https://guides.getalby.com/user-guide"&gt;официальному источнику&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="интро"&gt;
+ Интро
+ &lt;a class="anchor" href="#%d0%b8%d0%bd%d1%82%d1%80%d0%be"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Cегодня я бы хотел поделиться с вами гидом по двум очень интересным и полезным приложениям. Это универсальное браузерное расширение &lt;a href="https://getalby.com/"&gt;Alby&lt;/a&gt; и клиент для взаимодействия с протоколом Nostr под названием &lt;a href="https://nostrgram.co/"&gt;Nostrgram&lt;/a&gt;. Почему именно эти два и почему в одном гиде? Потому что они отлично друг друга дополняют и призваны работать в связке. Начнем с Alby.&lt;/p&gt;</description></item><item><title>Подписки с помощью Лайтнинг</title><link>https://21ideas.org/zapplanner/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/zapplanner/</guid><description>&lt;p&gt;Как настроить подписки, то есть, регулярные повторяющиеся платежи через сеть Лайтнинг.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;ZapPlanner – очередное миниприложение от команды &lt;a href="https://21ideas.org/alby-i-nostr"&gt;Alby&lt;/a&gt;, которое позволяет поддерживать любимых авторов регулярными микроплатежами, то есть следуя модели подписок. Обычно подписки – это платежи, запрашиваемые принимающей стороной. Системы на основе блокчейна, такие как Биткоин, не предназначены для подобного – они позволяют отправлять исключительно “пуш-платежи”. Как следствие, биткоин не применим в моделях монетизации, основанных на подписке.&lt;/p&gt;</description></item><item><title>Телеграм-бот ZapGram</title><link>https://21ideas.org/zapgram/</link><pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/zapgram/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;ZapGram – удобный робот, который выведет ваше взаимодействие с Telegram и сетью &lt;a href="https://21ideas.org/glossary/#%d0%bb%d0%b0%d0%b9%d1%82%d0%bd%d0%b8%d0%bd%d0%b3-lightning-network"&gt;Лайтнинг&lt;/a&gt; на новый уровень.&lt;/p&gt;
+&lt;h2 id="возможности-zapgram"&gt;
+ Возможности ZapGram
+ &lt;a class="anchor" href="#%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8-zapgram"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;ZapGram даёт пользователям Телеграм возможность отправлять и получать саты, не покидая мессенджера. Помимо простых переводов бот поддерживает множество интересных функций. Предлагаю запустить бота и рассмотреть самые полезные из них.&lt;/p&gt;
+&lt;p&gt;Для начала работы просто перейдите по &lt;a href="https://t.me/zap_gram_bot"&gt;этой ссылке&lt;/a&gt; или введите &lt;code&gt;@zap_gram_bot&lt;/code&gt; в поиске Телеграм. Заведите беседу с ботом, нажав &lt;code&gt;/start&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Очищаем биткоины через сеть Лайтнинг</title><link>https://21ideas.org/ochishchaem-bitcoin-cherez-lajtning/</link><pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/ochishchaem-bitcoin-cherez-lajtning/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Сеть лайтнинг – это решение второго уровня поверх Биткоина &lt;em&gt;(то есть средства, перемещаемые в сети являются самыми настоящими биткоинами – это не WBTC, не отдельный токен. Лайтнинг = биткоин)&lt;/em&gt;. Помимо быстрых и дешевых платежей Лайтнинг предоставляет значительные улучшения в плане приватности. Этот гид расскажет как отмыть помеченные биткоины с помощью сети Лайтнинг, а также даст базовую информацию об этом мощном инструменте, значительно превосходящем &lt;strong&gt;все&lt;/strong&gt; существующие альтернативные криптовалюты.&lt;/p&gt;</description></item><item><title>Руководство по управлению ликвидностью в сети Lightning</title><link>https://21ideas.org/likvidnost-v-lajtning/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/likvidnost-v-lajtning/</guid><description>&lt;p&gt;Джейсон Лопп: уроки, полученные при управлении узлом маршрутизации в сети Lightning.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Перевод &lt;a href="https://blog.lopp.net/lightning-network-liquidity-management-guide"&gt;статьи&lt;/a&gt; Джемесона Лоппа подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;p&gt;С тех пор как люди начали запускать узлы Lightning в mainnet в начале 2018 года, некоторые задавались вопросом: какую реальную прибыль можно ожидать от размещения капитала в маршрутизационной ноде? Ник Бхатия подробно описал свою теорию возможных вариантов развития событий:&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/lln-264.jpeg"&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="https://timevalueofbtc.medium.com/the-time-value-of-bitcoin-and-lnrr-e0c435931bd8"&gt;The Time Value of Bitcoin and LNRR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Но, как мы узнали за эти годы, ROI (возврат инвестиций/прибыль от инвестиций) включает в себя гораздо больше, чем просто вложение капитала в каналы Lightning.&lt;/p&gt;</description></item><item><title>Кошелек Mutiny</title><link>https://21ideas.org/mutiny/</link><pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/mutiny/</guid><description>&lt;p&gt;Недавно я послушал эпизод &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC"&gt;SLP551&lt;/a&gt;, в котором &lt;a href="https://stacker.news/stephanlivera"&gt;@stephanlivera&lt;/a&gt; и &lt;a href="https://stacker.news/benthecarman"&gt;@benthecarman&lt;/a&gt; рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к &lt;a href="https://21ideas.org/what-is-lightning-network"&gt;сети Лайтнинг&lt;/a&gt;. Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://stacker.news/items/467711/r/Tony"&gt;руководства&lt;/a&gt; от &lt;a href="https://stacker.news/runningbitcoin"&gt;@runningbitcoin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="возможности-кошелька-mutiny"&gt;
+ Возможности кошелька Mutiny
+ &lt;a class="anchor" href="#%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%ba%d0%be%d1%88%d0%b5%d0%bb%d1%8c%d0%ba%d0%b0-mutiny"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mutiny — это мобильный Lightning-кошелек с открытым исходным кодом&lt;/li&gt;
+&lt;li&gt;Некастодиальный &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Возможность запуска собственного сервера &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Веб-приложение, работающее в браузере&lt;/li&gt;
+&lt;li&gt;Приложения в &lt;a href="https://blog.mutinywallet.com/mutiny-wallet-android-and-ios/"&gt;App Store и Google Play&lt;/a&gt; &lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;, а также доступна установка из файла &lt;a href="https://github.com/MutinyWallet/mutiny-web/releases"&gt;.apk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Встроенный поставщик услуг Lightning (LSP) &lt;a href="https://voltage.cloud"&gt;Voltage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Интеграция Nostr&lt;/li&gt;
+&lt;li&gt;Авторизация кошелька в Nostr-клиентах (Nostr Wallet Auth)&lt;/li&gt;
+&lt;li&gt;Подарки (простой способ привлечения новых пользователей)&lt;/li&gt;
+&lt;li&gt;Федерации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Помимо Mutiny представлено множество кошельков, которые подойдут как новичку, так и опытному пользователю. Советуем ознакомиться с нашим сравнительным гидом по Лайтнинг-кошелькам &lt;a href="https://21ideas.org/lightning-wallets"&gt;здесь&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;h2 id="начало-работы-с-кошельком-mutiny"&gt;
+ Начало работы с кошельком Mutiny
+ &lt;a class="anchor" href="#%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d1%81-%d0%ba%d0%be%d1%88%d0%b5%d0%bb%d1%8c%d0%ba%d0%be%d0%bc-mutiny"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Для начала посетите сайт &lt;a href="https://www.mutinywallet.com/"&gt;mutinywallet.com&lt;/a&gt;. Здесь у нас есть возможность использовать Mutiny непосредственно &lt;a href="https://app.mutinywallet.com/"&gt;в браузере&lt;/a&gt; или загрузить приложение из &lt;a href="https://apps.apple.com/us/app/mutiny-wallet/id6471030760"&gt;App Store&lt;/a&gt; или &lt;a href="https://play.google.com/store/apps/details?id=com.mutinywallet.mutinywallet"&gt;Google Play&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hodl on 21ideas</title><link>https://21ideas.org/en/tags/hodl/</link><description>Recent content in Hodl on 21ideas</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 02 Aug 2026 15:27:13 +0400</lastBuildDate><atom:link href="https://21ideas.org/en/tags/hodl/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>&lt;p&gt;How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="intro"&gt;
+ Intro
+ &lt;a class="anchor" href="#intro"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I would like to share a guide on &lt;a href="https://phoenix.acinq.co/"&gt;Phoenix&lt;/a&gt; — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like &lt;a href="https://www.walletofsatoshi.com/"&gt;Wallet Of Satoshi&lt;/a&gt; and you want to gain more control over your funds, hold your sats in Lightning Network, and &lt;strong&gt;minimize&lt;/strong&gt; the level of trust to a third party. I say &amp;lsquo;minimize&amp;rsquo; rather than &amp;lsquo;avoid&amp;rsquo; for a reason, but I&amp;rsquo;ll clarify this later in the guide.&lt;/p&gt;</description></item><item><title>Electrum Bitcoin Wallet</title><link>https://21ideas.org/en/electrum/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/electrum/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/parman_the"&gt;Arman The Parman&lt;/a&gt; was published in his &lt;a href="https://armantheparman.com/electrum"&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="why-electrum"&gt;
+ Why Electrum?
+ &lt;a class="anchor" href="#why-electrum"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level. Instead, it’s for the person who is, or aspires to be, a “power” user.&lt;/p&gt;</description></item><item><title>Lightning Wallets</title><link>https://21ideas.org/en/lightning-wallets/</link><pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lightning-wallets/</guid><description>&lt;p&gt;With repeated bumps of the popularity of monkey JPEGs on the Bitcoin blockchain and in anticipation of the upcoming bull market, onchain fees are a thing to consider in the upcoming future.&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/ln-wallets/high-fees.webp"&gt;
+&lt;p&gt;&lt;em&gt;Fees in the network can reach hundreds of sats per virtual byte, and this is far from the limit. &lt;a href="https://mempool.space/"&gt;Source&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Lightning Network provides a solution to the painful problem of high fees, but you need to act thoughtfully, without rushing. That&amp;rsquo;s why today I suggest to analyze the best available Lightning wallets and evaluate the pros and cons of each wallet, so that you can choose the best solution and finally forget about high fees (or at least minimize the stress).&lt;/p&gt;</description></item><item><title>LNbits: A Swiss knife among Lightning apps</title><link>https://21ideas.org/en/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lnbits/</guid><description>&lt;p&gt;LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="lnbits"&gt;
+ LNbits
+ &lt;a class="anchor" href="#lnbits"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.&lt;/p&gt;
+&lt;p&gt;It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented. The most expected innovation is the possibility to enter the service via login and password. So far, LNbits is a web page that requires only a clearnet address to log in. Some may find this approach unacceptable, but in this guide we&amp;rsquo;ll look at approaches that completely negate any danger. Nevertheless, it&amp;rsquo;s worth remembering that this is not a tool for long-term savings, but rather a layer designed to facilitate interaction with other users and make everyone&amp;rsquo;s experience pleasant and seamless.&lt;/p&gt;</description></item><item><title>Installing Blue Wallet</title><link>https://21ideas.org/en/blue/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/blue/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/econoalchemist"&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href="https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/"&gt;Blue Wallet&lt;/a&gt; to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p&gt;</description></item><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>&lt;p&gt;This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/econoalchemist"&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href="https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/seedsigner/02.webp"&gt;
+&lt;p&gt;&lt;a href="https://seedsigner.com/"&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="unboxing"&gt;
+ Unboxing
+ &lt;a class="anchor" href="#unboxing"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/"&gt;BTC Hardware Solutions&lt;/a&gt; with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa"&gt;GoBrrr&lt;/a&gt; or &lt;a href="https://diynodes.com/"&gt;DIYNodes&lt;/a&gt;, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1"&gt;TechHaven&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>&lt;blockquote class="book-hint danger"&gt;
+ &lt;p&gt;&lt;strong&gt;⚠️ Critical random number generator vulnerability. Updated 2 August 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A flaw was found in COLDCARD firmware: since 2021 the device silently used MicroPython&amp;rsquo;s software fallback generator instead of the hardware TRNG. On 30 July 2026, 594.48 BTC were swept from roughly five hundred addresses in a single burst.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Every model except the Mk1 is affected&lt;/strong&gt; — Mk2, Mk3, Mk4, Mk5 and Q. Fixed firmware: &lt;strong&gt;4.2.0&lt;/strong&gt; for the Mk3, &lt;strong&gt;5.6.0&lt;/strong&gt; for the Mk4 and Mk5, &lt;strong&gt;1.5.0Q&lt;/strong&gt; for the Q.&lt;/p&gt;</description></item><item><title>Starting with Mutiny Wallet</title><link>https://21ideas.org/en/mutiny/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mutiny/</guid><description>&lt;p&gt;Recently, I listened to an episode of &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC"&gt;SLP551&lt;/a&gt; featuring a discussion between &lt;a href="https://stacker.news/stephanlivera"&gt;@stephanlivera&lt;/a&gt; and &lt;a href="https://stacker.news/benthecarman"&gt;@benthecarman&lt;/a&gt; about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href="https://21ideas.org/en/what-is-lightning-network"&gt;Lightning Network&lt;/a&gt;. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://stacker.news/runningbitcoin"&gt;@runningbitcoin&lt;/a&gt; was published on &lt;a href="https://stacker.news/items/467711/r/Tony"&gt;stacker.news&lt;/a&gt; website.&lt;/p&gt;</description></item></channel></rss>

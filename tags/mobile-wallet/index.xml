@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mobile Wallet on 21ideas</title><link>https://21ideas.org/tags/mobile-wallet/</link><description>Recent content in Mobile Wallet on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><lastBuildDate>Sun, 02 Aug 2026 15:27:13 +0400</lastBuildDate><atom:link href="https://21ideas.org/tags/mobile-wallet/index.xml" rel="self" type="application/rss+xml"/><item><title>Кошелек Mutiny</title><link>https://21ideas.org/mutiny/</link><pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/mutiny/</guid><description>&lt;p&gt;Недавно я послушал эпизод &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC"&gt;SLP551&lt;/a&gt;, в котором &lt;a href="https://stacker.news/stephanlivera"&gt;@stephanlivera&lt;/a&gt; и &lt;a href="https://stacker.news/benthecarman"&gt;@benthecarman&lt;/a&gt; рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к &lt;a href="https://21ideas.org/what-is-lightning-network"&gt;сети Лайтнинг&lt;/a&gt;. Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://stacker.news/items/467711/r/Tony"&gt;руководства&lt;/a&gt; от &lt;a href="https://stacker.news/runningbitcoin"&gt;@runningbitcoin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="возможности-кошелька-mutiny"&gt;
+ Возможности кошелька Mutiny
+ &lt;a class="anchor" href="#%d0%b2%d0%be%d0%b7%d0%bc%d0%be%d0%b6%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%ba%d0%be%d1%88%d0%b5%d0%bb%d1%8c%d0%ba%d0%b0-mutiny"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mutiny — это мобильный Lightning-кошелек с открытым исходным кодом&lt;/li&gt;
+&lt;li&gt;Некастодиальный &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Возможность запуска собственного сервера &lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Веб-приложение, работающее в браузере&lt;/li&gt;
+&lt;li&gt;Приложения в &lt;a href="https://blog.mutinywallet.com/mutiny-wallet-android-and-ios/"&gt;App Store и Google Play&lt;/a&gt; &lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;, а также доступна установка из файла &lt;a href="https://github.com/MutinyWallet/mutiny-web/releases"&gt;.apk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Встроенный поставщик услуг Lightning (LSP) &lt;a href="https://voltage.cloud"&gt;Voltage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Интеграция Nostr&lt;/li&gt;
+&lt;li&gt;Авторизация кошелька в Nostr-клиентах (Nostr Wallet Auth)&lt;/li&gt;
+&lt;li&gt;Подарки (простой способ привлечения новых пользователей)&lt;/li&gt;
+&lt;li&gt;Федерации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Помимо Mutiny представлено множество кошельков, которые подойдут как новичку, так и опытному пользователю. Советуем ознакомиться с нашим сравнительным гидом по Лайтнинг-кошелькам &lt;a href="https://21ideas.org/lightning-wallets"&gt;здесь&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;h2 id="начало-работы-с-кошельком-mutiny"&gt;
+ Начало работы с кошельком Mutiny
+ &lt;a class="anchor" href="#%d0%bd%d0%b0%d1%87%d0%b0%d0%bb%d0%be-%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b-%d1%81-%d0%ba%d0%be%d1%88%d0%b5%d0%bb%d1%8c%d0%ba%d0%be%d0%bc-mutiny"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Для начала посетите сайт &lt;a href="https://www.mutinywallet.com/"&gt;mutinywallet.com&lt;/a&gt;. Здесь у нас есть возможность использовать Mutiny непосредственно &lt;a href="https://app.mutinywallet.com/"&gt;в браузере&lt;/a&gt; или загрузить приложение из &lt;a href="https://apps.apple.com/us/app/mutiny-wallet/id6471030760"&gt;App Store&lt;/a&gt; или &lt;a href="https://play.google.com/store/apps/details?id=com.mutinywallet.mutinywallet"&gt;Google Play&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
