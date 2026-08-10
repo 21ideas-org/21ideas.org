@@ -11,12 +11,12 @@ weight: 5
 ---
 
 {{< hint btc >}}
-Гид подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
+Гид подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). 
 
 [Поддержать проект](/contribute).
 {{< /hint >}}
 
-ZapGram – удобный робот, который выведет ваше взаимодействие с Telegram и сетью [Лайтнинг](/glossary/#лайтнинг-lightning-network) на новый уровень.
+[ZapGram](https://zapgram.mozharov.me/ru/) – удобный робот, который выведет ваше взаимодействие с Telegram и сетью [Лайтнинг](/glossary/#лайтнинг-lightning-network) на новый уровень.
 
 ## Возможности ZapGram 
 
@@ -52,13 +52,6 @@ ZapGram также позволяет отправлять саты пользо
 {{% image "/img/zapgram/zapgram-pay.webp" %}}
 _Просто следуйте инструкциям бота. Все взаимодействия интуитивны._
 {{% /image %}}
-
-{{< hint btc >}}
-⚡️ Протестировать отправку сат и поддержать проект можно, нажав эту 👇 кнопку:
-
-<script type="module" src="https://esm.sh/simple-boost@latest"></script>
-<simple-boost currency="usd" amount="1.0" nwc="nostr+walletconnect://3b0422778350c55694d21c6bdbee8bc9af8fd5298d77992c2a07fea0ff122ad6?relay=wss://relay.getalby.com/v1&secret=c33e1b687ed53f2bcf5c591bd699177bed8a6f7ba726ebacae4b0ccc1c54fa68">Поддержать создание образовательных материалов</simple-boost>
-{{< /hint >}}
 
 ### Использование бота в групповом чате
 
@@ -104,7 +97,7 @@ ZapGram позволяет настраивать платный вход в Tel
 - Менять настройки подписки и стоимости.  
 
 ### Подписки и продление  
-- Месячная подписка автоматически продлевается, если на балансе в ZapGram достаточно средств (скоро добавится поддержка NWC).  
+- Месячная подписка автоматически продлевается, если на балансе в ZapGram достаточно средств. Также есть поддержка NWC.  
 - Если баланса недостаточно или автопродление отключено, бот отправит напоминание за сутки до окончания подписки.  
 
 ### Изменение условий подписки  
