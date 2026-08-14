@@ -13,5 +13,5 @@ weight: 90
 
 Эта книга для тех, кто интересуется криптовалютами и будущим цифровой финансовой системы в XXI веке.
 
-{{< button href="/epubs/epoha-kriptovalyut.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/epoha-kriptovalyut.epub" >}}Скачать{{< /button >}}
 --- 

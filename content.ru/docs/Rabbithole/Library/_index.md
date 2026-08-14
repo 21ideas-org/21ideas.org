@@ -34,7 +34,7 @@ weight: 1
         </div>
             <div class="button-container">
                 <a href="/whitepaper" class="button">Подробнее</a>
-                <a href="/epubs/bitcoin_ru.pdf" class="button">Скачать</a>
+                <a href="https://media.21ideas.org/epubs/bitcoin_ru.pdf" class="button">Скачать</a>
             </div>
 </div>
 
@@ -50,7 +50,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/bitcoin-standard/" class="button">Подробнее</a>
-            <a href="/epubs/bitcoin-standard.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/bitcoin-standard.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -65,7 +65,7 @@ weight: 1
         </div>
         <div class="button-container">
             <a href="/izobretaem-bitkoin/" class="button">Подробнее</a>
-            <a href="/epubs/inventing-bitcoin.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/inventing-bitcoin.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -80,7 +80,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/suverenitet-posredstvom-matematiki/" class="button">Подробнее</a>
-            <a href="/epubs/stm.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/stm.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -95,7 +95,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/bitcoin-money" class="button">Подробнее</a>
-            <a href="/epubs/bitcoin-money.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/bitcoin-money.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -138,7 +138,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/internet-deneg" class="button">Подробнее</a>
-            <a href="/epubs/internet-deneg.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/internet-deneg.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -153,7 +153,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/vojna-za-razmer-bloka" class="button">Подробнее</a>
-            <a href="/epubs/vojna-za-razmer-bloka.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/vojna-za-razmer-bloka.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -168,7 +168,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/ba" class="button">Подробнее</a>
-            <a href="/epubs/bitcoin-astronomy.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/bitcoin-astronomy.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -183,7 +183,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/osvaivaem-bitcoin" class="button">Подробнее</a>
-            <a href="/epubs/mastering-bitcoin-3e.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/mastering-bitcoin-3e.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -198,7 +198,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/osvaivaem-lightning" class="button">Подробнее</a>
-            <a href="/epubs/mastering-lightning-network.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/mastering-lightning-network.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -213,7 +213,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/grokaem-bitcoin" class="button">Подробнее</a>
-            <a href="/epubs/grokaem-tekhnologiyu-bitcoin.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/grokaem-tekhnologiyu-bitcoin.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -228,7 +228,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/programming-bitcoin" class="button">Подробнее</a>
-            <a href="/epubs/programming-bitcoin.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/programming-bitcoin.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -257,7 +257,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/strukturnaya-perestrojka" class="button">Подробнее</a>
-            <a href="/epubs/strukturnaya-perestrojka.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/strukturnaya-perestrojka.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -272,7 +272,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/bitcoin-dlya-vseh" class="button">Подробнее</a>
-            <a href="/epubs/bitcoin-dlya-vseh.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/bitcoin-dlya-vseh.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -287,7 +287,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/cifrovoe-zoloto" class="button">Подробнее</a>
-            <a href="/epubs/cifrovoe-zoloto.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/cifrovoe-zoloto.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -302,7 +302,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/bitcoin-handbook" class="button">Подробнее</a>
-            <a href="/epubs/bitcoin-handbook.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/bitcoin-handbook.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -331,7 +331,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/epoha-kriptovalyut" class="button">Подробнее</a>
-            <a href="/epubs/epoha-kriptovalyut.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/epoha-kriptovalyut.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -346,7 +346,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/mashina-pravdy" class="button">Подробнее</a>
-            <a href="/epubs/mashina-pravdy.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/mashina-pravdy.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -378,7 +378,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/suverennaya-lichnost" class="button">Подробнее</a>
-            <a href="/epubs/suverennaya-lichnost.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/suverennaya-lichnost.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -393,7 +393,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/economika-za-1-urok" class="button">Подробнее</a>
-            <a href="/epubs/economika-za-1-urok.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/economika-za-1-urok.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -408,7 +408,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/mehanika-svobody" class="button">Подробнее</a>
-            <a href="/epubs/mehanika-svobody.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/mehanika-svobody.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -423,7 +423,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/chto-vidno" class="button">Подробнее</a>
-            <a href="/epubs/chto-vidno.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/chto-vidno.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -438,7 +438,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/jekyll" class="button">Подробнее</a>
-            <a href="/epubs/jekyll.zip" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/jekyll.zip" class="button">Скачать</a>
         </div>
 </div>
 
@@ -453,7 +453,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/v-zaschitu-defliazii-book" class="button">Подробнее</a>
-            <a href="/epubs/v-zashchitu-deflyacii.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/v-zashchitu-deflyacii.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -468,7 +468,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/doroga-k-rabstvu" class="button">Подробнее</a>
-            <a href="/epubs/road-to-serfdom-ru.pdf" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/road-to-serfdom-ru.pdf" class="button">Скачать</a>
         </div>
 </div>
 
@@ -485,7 +485,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/1984" class="button">Подробнее</a>
-            <a href="/epubs/1984.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/1984.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -500,7 +500,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/atlant-raspravil-plechi" class="button">Подробнее</a>
-            <a href="/epubs/atlant-raspravil-plechi.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/atlant-raspravil-plechi.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -515,7 +515,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/luna-surovaya-hozyajka" class="button">Подробнее</a>
-            <a href="/epubs/luna-surovaya-hozyajka.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/luna-surovaya-hozyajka.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -530,7 +530,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/lavina" class="button">Подробнее</a>
-            <a href="/epubs/lavina.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/lavina.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -545,7 +545,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/budushchee-uzhe-ne-to-chto-prezhde" class="button">Подробнее</a>
-            <a href="/epubs/budushchee-uzhe-ne-to-chto-prezhde.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/budushchee-uzhe-ne-to-chto-prezhde.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -560,7 +560,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/contact_mir" class="button">Подробнее</a>
-            <a href="/epubs/contact_mir.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/contact_mir.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -575,7 +575,7 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/mir-polnyj-demonov" class="button">Подробнее</a>
-            <a href="/epubs/mir-polnyj-demonov.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/mir-polnyj-demonov.epub" class="button">Скачать</a>
         </div>
 </div>
 
@@ -590,6 +590,6 @@ weight: 1
         </div> 
         <div class="button-container">
             <a href="/samyj-bogatyj-chelovek-v-vavilone" class="button">Подробнее</a>
-            <a href="/epubs/samyj-bogatyj-chelovek-v-vavilone.epub" class="button">Скачать</a>
+            <a href="https://media.21ideas.org/epubs/samyj-bogatyj-chelovek-v-vavilone.epub" class="button">Скачать</a>
         </div>
 </div>

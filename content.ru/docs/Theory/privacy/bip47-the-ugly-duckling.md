@@ -146,13 +146,13 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 Первым шагом к осуществлению платежа BIP47 будет получение многоразового платежного кода нашего получателя. Затем мы сможем соединиться с ним (”Follow”) и выполнить подключение (”Connect”):
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-992.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-992.mp4" controls style="width: 100%"></video></center>
 
 После подтверждения транзакции уведомления я могу отправлять платежи своему получателю. Каждая транзакция будет проводиться автоматически с новым пустым адресом, ключи от которого есть у получателя. Последнему не нужно выполнять никаких действий, все рассчитывается на моей стороне.
 
 Вот как совершить транзакцию BIP47 в Samorai Wallet:
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-993.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-993.mp4" controls style="width: 100%"></video></center>
 
 ### Создание транзакции BIP47 с помощью Sparrow Wallet
 
@@ -170,7 +170,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 После подтверждения транзакции уведомления можно отправлять платежи на многоразовый платежный код. Вот как это сделать:
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-996.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-996.mp4" controls style="width: 100%"></video></center>
 
 Теперь, когда мы смогли изучить практические аспекты реализации BIP47 в PayNym, давайте рассмотрим, как работают все эти механизмы и какие криптографические методы при этом используются.
 

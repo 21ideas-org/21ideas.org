@@ -13,4 +13,4 @@ weight: 51
 
 Книга будет интересна всем, кто интересуется историей денег и их будущим, в том числе биткоином и его механизмами.
 
-{{< button href="/epubs/bitcoin-standard.pdf" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/bitcoin-standard.pdf" >}}Скачать{{< /button >}}

@@ -28,7 +28,7 @@ weight: 50
 
 Внутри, вы найдете ответы на эти вопросы!
 
-📚 [Читать](/epubs/moneyone.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/moneyone.pdf)
 
 {{< /details >}}
 
@@ -42,7 +42,7 @@ weight: 50
 > 
 > **— Анил**
 
-📚 [Читать](/epubs/usecases.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/usecases.pdf)
 
 {{< /details >}}
 
@@ -61,7 +61,7 @@ weight: 50
 3. Релеи
 4. Клиенты
 
-📚 [Читать](/epubs/nostr-intro.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/nostr-intro.pdf)
 
 {{< /details >}}
 
@@ -77,7 +77,7 @@ weight: 50
 
 В 25 слайдах вы получите все необходимые знания, чтобы защититься от дезинформирующих аргументов, которые часто направлены против Биткоина и биткоинеров.
 
-📚 [Читать](/epubs/fallacies.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/fallacies.pdf)
 
 {{< /details >}}
 
@@ -95,7 +95,7 @@ weight: 50
 
 Что такое *«Дерево Меркла»*, *«Платежный канал»*, *«Маршрутизация платежа»* или просто *«транзакция»* или *«блокчейн»* — вы узнаете в данной презентации.
 
-📚 [Читать](/epubs/terminology.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/terminology.pdf)
 
 {{< /details >}}
 
@@ -113,6 +113,6 @@ weight: 50
 - Важные характеристики
 - Много приятной графики
 
-📚 [Читать](/epubs/pow-basics.pdf)
+📚 [Читать](https://media.21ideas.org/epubs/pow-basics.pdf)
 
 {{< /details >}}

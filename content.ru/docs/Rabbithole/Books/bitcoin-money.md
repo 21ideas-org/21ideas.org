@@ -14,7 +14,7 @@ weight: 51
 {{< hint btc >}}
 [Поддержать проект](/contribute/)
 
-Скачать PDF-версию можно [здесь](/epubs/bitcoin-money.pdf)
+Скачать PDF-версию можно [здесь](https://media.21ideas.org/epubs/bitcoin-money.pdf)
 {{< /hint >}}
 
 {{% image "/img/mon-961.webp" /%}}

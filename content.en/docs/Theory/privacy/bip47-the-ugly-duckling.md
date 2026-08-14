@@ -142,13 +142,13 @@ Once the wallet is initialized, if you have not already done so, request your Pa
 
 The first step to making a BIP47 payment is going to be to retrieve our recipient's reusable payment code. Then, we will be able to connect with it, and then connect:
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-992.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-992.mp4" controls style="width: 100%"></video></center>
 
 Once the notification transaction is confirmed, I can send multiple payments to my recipient. Each transaction will be done automatically with a new blank address for which the recipient has the keys. The latter has no action to perform, everything is calculated on my side.
 
 Here's how to make a BIP47 transaction on Samourai Wallet:
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-993.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-993.mp4" controls style="width: 100%"></video></center>
 
 ### Build a BIP47 transaction with Sparrow Wallet
 
@@ -166,7 +166,7 @@ Next, you'll need to link and connect your PayNym with your recipient's. To do t
 
 Once the notification transaction is confirmed, payments can be sent to the reusable payment code. Here's how to do it:
 
-<center><video src="/img/bip47-ili-gadkij-utenok/ugly-996.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bip47-ili-gadkij-utenok/ugly-996.mp4" controls style="width: 100%"></video></center>
 
 Now that we have been able to study the practicality of the PayNym implementation of BIP47, let's see together how all these mechanisms work, and what cryptographic methods are used.
 

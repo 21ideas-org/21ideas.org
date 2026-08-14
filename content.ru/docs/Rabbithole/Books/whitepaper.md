@@ -15,8 +15,8 @@ weight: 1
 
 {{< hint btc >}}
 ### Загрузить PDF-файл
-- [Оригинал](/epubs/whitepaper.pdf)
-- [На русском](/epubs/bitcoin_ru.pdf)
+- [Оригинал](https://media.21ideas.org/epubs/whitepaper.pdf)
+- [На русском](https://media.21ideas.org/epubs/bitcoin_ru.pdf)
 {{< /hint >}}
 
 ## Интересные факты о белой книге

@@ -17,7 +17,7 @@ weight: 90
 
 [Поддержать проект](/contribute/)
 
-Полную версию книги можно скачать [здесь](/epubs/road-to-serfdom-ru.pdf)
+Полную версию книги можно скачать [здесь](https://media.21ideas.org/epubs/road-to-serfdom-ru.pdf)
 {{< /hint >}}
 
 {{% image "/img/dkr-835.webp" /%}}

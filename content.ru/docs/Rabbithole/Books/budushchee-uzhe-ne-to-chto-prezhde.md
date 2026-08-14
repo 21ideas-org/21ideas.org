@@ -13,5 +13,5 @@ weight: 90
 
 Читайте, смейтесь сквозь слезы и возмущайтесь сквозь хохот. И помните слова Джорджа Карлина: главное – не научиться читать, важнее – научиться сомневаться в прочитанном.
 
-{{< button href="/epubs/budushchee-uzhe-ne-to-chto-prezhde.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/budushchee-uzhe-ne-to-chto-prezhde.epub" >}}Скачать{{< /button >}}
 --- 
