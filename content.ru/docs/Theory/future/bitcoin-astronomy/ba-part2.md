@@ -27,7 +27,7 @@ weight: 2
 {{< hint btc >}}
 Это эссе - перевод [второй части](https://unchained.com/blog/bitcoin-astronomy-part-ii/) трилогии Другва Бансала. Перевод подготовлен [Тони⚡️](https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7). [Поддержать проект](/contribute/).
 
-_Эта трилогия также [доступна в формате PDF](/epubs/bitcoin-astronomy.pdf)_
+_Эта трилогия также [доступна в формате PDF](https://media.21ideas.org/epubs/bitcoin-astronomy.pdf)_
 {{< /hint >}}
 
 Это вторая часть из серии моих спекуляций о гипербиткоинизированном будущем. В [первой части](/ba/1) мы определили первый закон Биткоин-астрономии и описали, как он стимулирует поиски энергии для обеспечения нашей растущей цивилизации.

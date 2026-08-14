@@ -49,7 +49,7 @@ However, this is not the whole story. Proof of work is a vital part of the machi
 
 > *“Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.”*
 > 
-> — Satoshi Nakamoto, [bitcoin.pdf](/epubs/whitepaper.pdf)
+> — Satoshi Nakamoto, [bitcoin.pdf](https://media.21ideas.org/epubs/whitepaper.pdf)
 
 If you have a file on a computer, despite what NFT promoters believe, it is not possible to prevent people from copying it. If that file is your digital currency, this causes a problem. If people can effectively CTRL-C CTRL-V your currency, you do not meaningfully have a currency [^2].
 

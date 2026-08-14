@@ -23,4 +23,4 @@ weight: 90
 Выражаем особую благодарность [Анкап-тян](https://t.me/ancapchan) за перевод книги, которая изначально появилась [здесь](https://ancapchan.info/david-friedman/machinery-of-freedom/russian/).
 {{< /hint>}}
 
-{{< button href="/epubs/mehanika-svobody.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/mehanika-svobody.epub" >}}Скачать{{< /button >}}

@@ -13,5 +13,5 @@ weight: 90
 
 Классический роман – лауреат множества премий, библия космических революционеров – публикуется в новой редакции.
 
-{{< button href="/epubs/luna-surovaya-hozyajka.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/luna-surovaya-hozyajka.epub" >}}Скачать{{< /button >}}
 --- 

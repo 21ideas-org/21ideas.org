@@ -44,7 +44,7 @@ weight: 2
 
 [Плейлист на YouTube](https://www.youtube.com/playlist?list=PLfCndTr__6Hf2vtpCDdLM-ifp9nWRzzW8)
 
-[Слайды на русском языке](/epubs/Bitcoin_4_newbies_Andreas_Antonopulos.pdf)
+[Слайды на русском языке](https://media.21ideas.org/epubs/Bitcoin_4_newbies_Andreas_Antonopulos.pdf)
 
 {{< details "Часть I" "...">}}
 {{< youtube j9-4OnxOto8 />}}

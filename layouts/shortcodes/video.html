@@ -1,0 +1,18 @@
+{{- /* Видео в обёртке картинки — для роликов, стоящих в тексте наравне с
+       иллюстрациями. Разметка повторяет shortcodes/image.html, чтобы отступы,
+       центрирование и подпись выглядели одинаково.
+
+       loop="true" — поведение анимации: крутится само, без звука и без
+       элементов управления. Так ведут себя замены анимированных webp и gif.
+       Без loop — обычный ролик с управлением.
+
+       У .markdown img есть max-width: 100%, у video такого правила нет,
+       поэтому ширина задаётся здесь. */ -}}
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $loop := .Get "loop" -}}
+{{- if $src -}}
+<div class="imageWrapper">
+    <video src="{{ $src }}" style="max-width: 100%"{{ if $loop }} autoplay loop muted playsinline{{ else }} controls{{ end }}></video>
+    {{ .Inner }}
+</div>
+{{- end -}}

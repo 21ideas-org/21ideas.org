@@ -49,5 +49,5 @@ weight: 3
 {{< /details >}}
 
 {{< hint btc >}}
-Книга также доступна для [скачивания](/epubs/stm.epub) в формате epub.
+Книга также доступна для [скачивания](https://media.21ideas.org/epubs/stm.epub) в формате epub.
 {{< /hint >}}

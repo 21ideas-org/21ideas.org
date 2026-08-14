@@ -263,10 +263,10 @@ Privacy is a human fight
 
 **Print** the leaflet we made. It briefly explains the situation and has a QR code to this page. Share them wherever you think best helps the cause (for example: at bitcoin conferences):
 
-- English: [https://21ideas.org/epubs/free-samourai-leaflet.pdf](/epubs/free-samourai-leaflet.pdf)
+- English: [https://21ideas.org/epubs/free-samourai-leaflet.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet.pdf)
 - Español: [https://ronindojo.io/downloads/free-samourai-leaflet-es.pdf](https://ronindojo.io/downloads/free-samourai-leaflet-es.pdf)
 - Português: [https://ronindojo.io/downloads/free-samourai-leaflet-pt.pdf](https://ronindojo.io/downloads/free-samourai-leaflet-pt.pdf)
-- Русский: [https://21ideas.org/epubs/free-samourai-leaflet-ru.pdf](/epubs/free-samourai-leaflet-ru.pdf)
+- Русский: [https://21ideas.org/epubs/free-samourai-leaflet-ru.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet-ru.pdf)
 
 **Spread the Word**: Share this blog post, talk to your friends, have the conversation on podcasts, and use your social media platforms to raise awareness about this critical issue:
 

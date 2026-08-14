@@ -41,7 +41,7 @@ I am not writing this to kick you while you're down. I am writing this because I
 
 You have to understand that Bitcoin is not an app, or a company, or a stock, or an investment. Bitcoin doesn't have a board of directors, or a CEO, or quarterly earnings. There is nobody "behind" Bitcoin.
 
-<center><video src="/img/bro-782.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-782.mp4" controls style="width: 100%"></video></center>
 
 Many bitcoiners have strong opinions when it comes to bitcoin vs. “crypto”—and for good reason. One is a breakthrough of enormous proportions. The others are cheap imitations, copy-cats that have been riding the coattails of said breakthrough for way too long, confusing noobs and retail investors alike. “Crypto” is nerds re-discovering money printing and pyramid schemes. Seemingly free lunches propped up by perpetual motion machines that run on technobabble.
 
@@ -73,7 +73,7 @@ Bitcoin is best understood as a force of nature, like the coming and going of th
 > 
 > – [Ross Stevens](https://archive.ph/v0xwH)
 
-<center><video src="/img/bro-783.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-783.mp4" controls style="width: 100%"></video></center>
 
 _Source: [bitfeed.live](https://bitfeed.live/)_
 
@@ -97,7 +97,7 @@ No, it's not dead. It's also not a fad, or suddenly useless, or suddenly worthle
 
 By layering trust on top of Bitcoin, you re-introduce central points of failure and systemic risk—for any systems built on top of these central institutions, that is [^2]. This has happened before, and it will happen again. Time is a flat circle.
 
-<center><video src="/img/bro-784.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-784.mp4" controls style="width: 100%"></video></center>
 
 |Entity|BTC Lost|
 |---|---|
@@ -134,7 +134,7 @@ And when the fools once again lose all their money; and when you, dear crypto br
 
 Yes, it did crash. And it will crash again, and again, and again. Like it has in the past.
 
-<center><video src="/img/bro-786.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-786.mp4" controls style="width: 100%"></video></center>
 
 As of this writing, the bitcoin price is 16,641 USD. Yes, it went all the way to $65,000, and then it crashed all the way down to $16,000. 
 
@@ -200,7 +200,7 @@ Wrong. Every 10 minutes, a new valid block is produced. That's all that matters.
 
 I empathize with you. I was looking at the world through the same fiat lens not too long ago. I was even bullish on "crypto," believing that an unstoppable world computer would be a neat thing. It took me a very long time to understand that printing money does not enrich society, but does just the opposite.
 
-<center><video src="/img/bro-791.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-791.mp4" controls style="width: 100%"></video></center>
 
 In the same way, it took me a very long time to step back and ask myself the following questions, almost like a child: "Why does your hypothetical world computer need its own currency? Why does your company need its own currency? Why does your centralized exchange need its own currency? Why do you need to print your own money for your endeavor to be successful?"
 
@@ -250,7 +250,7 @@ Because of this, it is never too late to use it to your advantage. Just like it'
 
 ## But Bitcoiners Are Mean!
 
-<center><video src="/img/bro-792.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/bro-792.mp4" controls style="width: 100%"></video></center>
 
 Do the right thing. Drop your shitcoin bags, whether they are "crypto" or fiat-denominated. Start small. Take responsibility. Learn how to self-custody. Produce value, spend less than you make, and start saving in bitcoin. Start counting your wealth in sats.
 

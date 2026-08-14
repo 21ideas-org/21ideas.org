@@ -77,7 +77,7 @@ weight: 3
 1. Видео интервью со Стефаном Ливерой "[Биткоин-экономика](https://www.youtube.com/watch?v=g5k72giLpng&t=3s)"
 2. Статья Tony Lightning "[Биткоин – золото 2.0?](/bitcoin-zoloto-2-0)"
 3. Детская книга [Биткоин-деньги](/bitcoin-money/)
-4. Книга Филипа Багуса "[В защиту дефляции](/epubs/v-zashchitu-deflyacii.pdf)"
+4. Книга Филипа Багуса "[В защиту дефляции](https://media.21ideas.org/epubs/v-zashchitu-deflyacii.pdf)"
 5. Видео "[Величайший в мире обман](https://youtu.be/GSzD0HXRFKE)"
 
 {{< youtube XBiSjHSW-8k >}}
@@ -131,7 +131,7 @@ weight: 3
 
 - Серия видео [Становление движения шифропанков](https://youtube.com/playlist?list=PLfCndTr__6HfnWzqQxso2Jh8AtlhCy3wf)
 - Серия статей [Генезис файлы](/gf)
-- [Вайтпейпер](/epubs/bitcoin_ru.pdf)
+- [Вайтпейпер](https://media.21ideas.org/epubs/bitcoin_ru.pdf)
 - Пост [Предыстория Биткоина](https://t.me/bitcoin21ideas/1346)
 - Видео [День независимости Биткоина](https://t.me/bitcoin21ideas/2023)
 

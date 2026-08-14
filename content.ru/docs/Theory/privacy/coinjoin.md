@@ -1253,7 +1253,7 @@ Stonewall — это особая структура транзакции, им�
 
 Инструмент Stonewall используется по умолчанию в кошельке Samourai, если ваш кошелек соответствует необходимым условиям. Давайте рассмотрим, как создать Stonewall. Для этого я отправлю 50 125 сатов с помощью этого инструмента:
 
-<center><video src="/img/coinjoin-pandul/cjp-62.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/coinjoin-pandul/cjp-62.mp4" controls style="width: 100%"></video></center>
 
 Как видно из этого видео, опция Stonewall выбрана по умолчанию.
 
@@ -1300,7 +1300,7 @@ StonewallX2 работает точно так же, как и Stonewall, за �
 *— Прим. переводчика*
 {{% /hint %}}
 
-<center><video src="/img/coinjoin-pandul/cjp-64.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/coinjoin-pandul/cjp-64.mp4" controls style="width: 100%"></video></center>
 
 Вот как выглядит транзакция StonewallX2 из видео:
 
@@ -1346,7 +1346,7 @@ Ricochet — это платная услуга. Вам придется зап�
 
 Вот как сделать Ricochet в кошельке Samourai:
 
-<center><video src="/img/coinjoin-pandul/cjp-66.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/coinjoin-pandul/cjp-66.mp4" controls style="width: 100%"></video></center>
 
 Теперь вы готовы использовать Whirlpool наилучшим образом и правильно тратить UTXO после смешивания. Инструменты траты Samourai Wallet, большинство из которых также включены в Sparrow Wallet, теперь не являются для вас секретом. Я советую вам попрактиковаться и опробовать все эти инструменты. Чтобы не рисковать своими личными средствами, не стесняйтесь сначала использовать их в Testnet! Эта сеть предназначена не только для разработчиков.
 

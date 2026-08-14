@@ -13,5 +13,5 @@ weight: 90
 
 В форме притч Джордж Клейсон рассказывает о том, что богачами становятся только те, кто запомнил простые законы накопления денег. Писатель изложил систему финансовых законов Древнего Вавилона, которые действуют в мире по сей день.
 
-{{< button href="/epubs/samyj-bogatyj-chelovek-v-vavilone.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/samyj-bogatyj-chelovek-v-vavilone.epub" >}}Скачать{{< /button >}}
 --- 

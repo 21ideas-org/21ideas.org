@@ -15,5 +15,5 @@ Cеть Лайтнинг (Lightning Network, LN) - это быстро разв�
 
 Издание адресовано разработчикам, системным архитекторам, инвесторам и предпринимателям, желающим лучше понять LN.
 
-{{< button href="/epubs/mastering-lightning-network.pdf" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/mastering-lightning-network.pdf" >}}Скачать{{< /button >}}
 --- 

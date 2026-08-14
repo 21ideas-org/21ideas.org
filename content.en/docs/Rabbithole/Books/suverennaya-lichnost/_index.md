@@ -28,7 +28,7 @@ Lightning: LNURL1DP68GURN8GHJ7MRWW3UXYMM59E3K7MF0D3H82UNV9ACXZ7FLW4EK2UNWV9KK20T
 {{< /hint >}}
 
 {{< hint btc >}}
-Скачать книгу можно [здесь](/epubs/suverennaya-lichnost.epub)
+Скачать книгу можно [здесь](https://media.21ideas.org/epubs/suverennaya-lichnost.epub)
 {{< /hint >}}
 
 ## Предисловие переводчика

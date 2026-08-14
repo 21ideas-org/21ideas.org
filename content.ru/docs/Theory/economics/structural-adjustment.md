@@ -20,7 +20,7 @@ weight: 54
 
 [Поддержать проект](/contribute/).
 
-Материал также доступен в формате [epub](/epubs/strukturnaya-perestrojka.epub).
+Материал также доступен в формате [epub](https://media.21ideas.org/epubs/strukturnaya-perestrojka.epub).
 {{< /hint >}}
 
 # I. Креветочные поля

@@ -15,5 +15,5 @@ weight: 90
 
 Чтение книги не обязательно начинать с первой страницы: каждая лекция носит самостоятельный характер и доступна для понимания даже тем, кто еще не слышал о криптовалютах.
 
-{{< button href="/epubs/internet-deneg.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/internet-deneg.epub" >}}Скачать{{< /button >}}
 --- 

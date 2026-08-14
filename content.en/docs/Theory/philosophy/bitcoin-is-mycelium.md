@@ -238,7 +238,7 @@ Fungi produce medicinal compounds and protect their ecosystems through complex s
 
 What do trees talk about? In the Douglas fir forests of Canada, see how trees “talk” to each other by forming…
 
-<center><video src="/img/myc-01.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/myc-01.mp4" controls style="width: 100%"></video></center>
 
 In crude terms, the fungi mine minerals underground for trees in exchange for sugars (food) that the tree produces through photosynthesis. Trees get increased protection from invaders and crucial minerals which they cannot find on their own. Ever wonder why the baby oak tree can survive on a forest floor where it receives no sunlight?
 

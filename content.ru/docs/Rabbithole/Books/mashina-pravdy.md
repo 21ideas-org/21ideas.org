@@ -13,5 +13,5 @@ weight: 90
 
 Эта книга для тех, кто интересуется технологией блокчейн, проблемами децентрализации и цифровым будущим человечества.
 
-{{< button href="/epubs/mashina-pravdy.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/mashina-pravdy.epub" >}}Скачать{{< /button >}}
 --- 
