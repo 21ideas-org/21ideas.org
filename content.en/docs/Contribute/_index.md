@@ -38,9 +38,9 @@ You can also support the project by going to our [page](https://tallycoin.app/@2
 ## Lightning
 Lightning address: 
 
-_[zap@21ideas.org](lightning:21ideas@getalby.com)_
+_[tony_lightning@coinos.io](lightning:tony_lightning@coinos.io)_
   
-![ln-qr](/img/1.png)
+![ln-qr](/img/coinos-qr-tony.png)
 
 ---
 

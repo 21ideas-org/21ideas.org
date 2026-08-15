@@ -144,7 +144,7 @@ Trust in Bitcoin's properties and resistance to implementing bad ideas comes dow
 Similar to the above, either you believe that the game theory around protocol changes is sound or we've just been lucky thus far. Bitcoin developers can't force anyone to run code with which they disagree.
 
 {{% image "/img/196.webp" %}}
-_[Who Controls Bitcoin Core?](/who-controls-bitcoin-core)_
+_[Who Controls Bitcoin Core?](/en/who-controls-bitcoin-core)_
 {{% /image %}}
 
 Also, the internal process for development is extremely challenging. Most proposed rule and code changes never make it through the gauntlet.
@@ -195,7 +195,7 @@ We should absolutely strive to avoid mistakes. We should also have confidence th
 Bitcoin does not exist within a vacuum. It is, in a sense, a living organism. No form of life can thrive via stagnation.
 
 {{% image "/img/0000000001.webp" %}}
-_[Bitcoin is The Mycelium of Money](/bitcoin-is-the-mycelium)_
+_[Bitcoin is The Mycelium of Money](/en/bitcoin-is-the-mycelium)_
 {{% /image %}}
 
 **The Road to Hell is Paved with Good Intentions**

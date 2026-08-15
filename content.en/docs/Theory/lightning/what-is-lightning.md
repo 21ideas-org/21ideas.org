@@ -39,7 +39,7 @@ If the Bitcoin network is going to meet the demand of users joining, it must pro
 
 ## How it works
 
-Funds are placed in a two-party [multisig](/en/multisig) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. This way either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
+Funds are placed in a two-party [multisig](/en/what-is-multisig) Bitcoin address, also called a "channel". This channel is stored as an entry in Bitcoin's public ledger. In order to spend funds from the channel, both parties must agree on an up-to-date last balance, i.e. how much of the total channel is owned by each participant. The current balance is stored as the last transaction signed by both parties spending funds from their corresponding channel addresses. The transaction signed by both parties that closes the channel is not broadcast to the Bitcoin blockchain, but is stored by each participant. This way either participant can withdraw their funds from the channel if something goes wrong. To make a payment, both parties sign a new transaction, which can initiate the closure of the channel. At the same time, all old transactions become void.
 
 The network does not require the cooperation of your counterparty to close a Lightning channel. Both parties have the ability to unilaterally close the channel. Since all participants have multiple channels with many network users, users can also send funds to participants with whom they have not personally opened a channel.
 
@@ -93,7 +93,7 @@ Transactions in the Lightning Network go through special channels and are carrie
 _Interface of [LN.tips](https://t.me/LightningTipBot) Telegram bot_
 {{% /image %}}
 
-As the protocol evolves, more and more convenient solutions are emerging. Of course, generating a new invoice every time you want to get paid is not the most convenient approach. Luckily, developers have come up with Lightning addresses, thanks to which you can use the same credentials to receive funds over and over again. You can learn more about Lightning-addresses from [this](/en/lightning-addresses) article.
+As the protocol evolves, more and more convenient solutions are emerging. Of course, generating a new invoice every time you want to get paid is not the most convenient approach. Luckily, developers have come up with Lightning addresses, thanks to which you can use the same credentials to receive funds over and over again. You can learn more about Lightning-addresses from [this](/en/how-lightning-address-works) article.
 
 ## Value transfer in the Lightning Network without leaving Telegram
 

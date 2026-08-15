@@ -11,7 +11,7 @@ weight: 6
 ---
 
 {{< hint btc >}}
-This English translation of an [article](ttps://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable) by [Loïc Morel](https://twitter.com/Loic_Pandul) was published on [sovrnbitcoiner.com](https://web.archive.org/web/20230331145759/https://sovrnbitcoiner.com/bip47-ugly-duckling/) website.
+This English translation of an [article](https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable) by [Loïc Morel](https://twitter.com/Loic_Pandul) was published on [sovrnbitcoiner.com](https://web.archive.org/web/20230331145759/https://sovrnbitcoiner.com/bip47-ugly-duckling/) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}
