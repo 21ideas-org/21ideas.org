@@ -38,7 +38,7 @@ weight: 1
 
 {{% image src="/img/vrb-432.webp#center" /%}}
 
-Перевод книги Джонатана Бира **The Blocksize War** о том как Биткоин-коммьюнити отстояло свое видение протокола. Книга также доступна в аудиоформате: [https://www.21ideas.org/audio-audiobooks-the-blocksize-war/](https://www.21ideas.org/audio-audiobooks-the-blocksize-war/). Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку [Война за размер блока](/vojna-za-razmer-bloka)
+Перевод книги Джонатана Бира **The Blocksize War** о том как Биткоин-коммьюнити отстояло свое видение протокола. Книга также доступна в аудиоформате: [21ideas.org/en/audiobooks](/en/audiobooks). Узнать больше о книге и прочитать ее прямо на сайте можно, посетив страничку [Война за размер блока](/vojna-za-razmer-bloka)
 {{< /details >}}
 
 {{< details "Бычий кейс для Биткоина" "...">}}
