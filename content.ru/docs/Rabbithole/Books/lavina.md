@@ -15,5 +15,5 @@ weight: 90
 
 Роман был номинирован на премию Британской ассоциации научной фантастики в 1993 году и на премию Артура Кларка в 1994 году.
 
-{{< button href="/epubs/lavina.epub" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/lavina.epub" >}}Скачать{{< /button >}}
 --- 

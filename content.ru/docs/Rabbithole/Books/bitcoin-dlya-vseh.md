@@ -15,5 +15,5 @@ weight: 90
 
 В приложении — полезные ресурсы и словарь основных терминов и понятий из мира криптовалют. Для массовой аудитории.
 
-{{< button href="/epubs/bitcoin-dlya-vseh.pdf" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/bitcoin-dlya-vseh.pdf" >}}Скачать{{< /button >}}
 --- 

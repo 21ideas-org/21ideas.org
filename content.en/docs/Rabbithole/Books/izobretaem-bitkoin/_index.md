@@ -49,5 +49,5 @@ weight: 2
 {{< /details >}}
 
 {{< hint btc >}}
-Книга также доступна для [скачивания](/epubs/inventing-bitcoin.epub) в формате epub.
+Книга также доступна для [скачивания](https://media.21ideas.org/epubs/inventing-bitcoin.epub) в формате epub.
 {{< /hint >}}

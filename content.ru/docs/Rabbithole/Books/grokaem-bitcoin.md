@@ -17,5 +17,5 @@ weight: 90
 
 От вас не требуется продвинутых навыков программирования, но базовое представление об основах – базах данных, компьютерных сетях, веб-серверах и (о ужас!) математики – не будет лишним.
 
-{{< button href="/epubs/grokaem-tekhnologiyu-bitcoin.pdf" >}}Скачать{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/grokaem-tekhnologiyu-bitcoin.pdf" >}}Скачать{{< /button >}}
 --- 

@@ -59,4 +59,4 @@ weight: 1
 
 ---
 
-{{< button href="/epubs/price-of-tomorrow.epub" >}}Скачать epub{{< /button >}}
+{{< button href="https://media.21ideas.org/epubs/price-of-tomorrow.epub" >}}Скачать epub{{< /button >}}

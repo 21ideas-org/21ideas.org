@@ -17,7 +17,7 @@ This essay by [Gigi](https://twitter.com/dergigi) was published on [dergigi.com]
 [Contribute](/contribute/).
 {{< /hint >}}
 
-<center><video src="/img/hayek.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/hayek.mp4" controls style="width: 100%"></video></center>
 
 *Video bitcoinized by [RD ₿TC](https://twitter.com/RD_btc), based on an edit by [Ampleforth](https://youtu.be/9-uo-KfnkhI).*  
 *Original source: [An interview with F.A. Hayek (1984)](https://youtu.be/s-k_Fc63tZI)*
@@ -365,7 +365,7 @@ No central authority dictates the rules. You learn the rules, and you either agr
 
 The fact that Bitcoin is a game of language is equally important. Speaking does not infringe on anyone else's rights. In a free society, you should be able to speak freely. In a free society, nobody should be able to force you to speak or dictate what you say. Even when living under tyranny, nobody can force you to think certain thoughts or take them away from you. "Thoughts are free," as the German folk song goes. "No person can know them, no hunter can shoot them."
 
-<center><video src="/img/die-gedanken-sind-frei.mp4" controls style="width: 100%"></video></center>
+<center><video src="https://media.21ideas.org/img/die-gedanken-sind-frei.mp4" controls style="width: 100%"></video></center>
 
 Consequently, the rights and freedoms granted to you by Bitcoin are independent of the rights and freedoms granted by the state. Bitcoin embodies your _natural_ rights; it does not grant you legal rights. The part that is hard to grasp is the Gordian knot of interlocking incentives and cryptography that makes up the judge, jury, and executioner of the Bitcoin network. When push comes to shove, there is no authority: it's all you. You can be your own judge, jury, and executioner if you are so inclined.
 
