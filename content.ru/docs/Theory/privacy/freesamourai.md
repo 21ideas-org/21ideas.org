@@ -263,10 +263,10 @@ Samourai Wallet разместил свои серверы в Исландии. 
 
 **Распечатайте** листовку, которую мы сделали. Она кратко объясняет ситуацию и содержит QR-код к этой странице. Распространяйте их везде, где, по вашему мнению, это лучше всего поможет делу (например, на биткоин-конференциях):
 
-- English: [https://21ideas.org/epubs/free-samourai-leaflet.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet.pdf)
+- English: [https://media.21ideas.org/epubs/free-samourai-leaflet.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet.pdf)
 - Español: [https://ronindojo.io/downloads/free-samourai-leaflet-es.pdf](https://ronindojo.io/downloads/free-samourai-leaflet-es.pdf)
 - Português: [https://ronindojo.io/downloads/free-samourai-leaflet-pt.pdf](https://ronindojo.io/downloads/free-samourai-leaflet-pt.pdf)
-- Русский: [https://21ideas.org/epubs/free-samourai-leaflet-ru.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet-ru.pdf)
+- Русский: [https://media.21ideas.org/epubs/free-samourai-leaflet-ru.pdf](https://media.21ideas.org/epubs/free-samourai-leaflet-ru.pdf)
 
 **Распространяйте информацию**: Поделитесь этой статьей, поговорите со своими друзьями, ведите беседы в подкастах и используйте свои социальные сети, чтобы повысить осведомленность об этой важной проблеме:
 

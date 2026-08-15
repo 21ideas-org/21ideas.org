@@ -4,8 +4,8 @@ h1: "Биткоин — это мицелий"
 cover: /img/0000000001.webp
 tags: ["биткоин", "мицелий", "децентрализация", "proof-of-work"]
 description: "Перед вами исследование грибов и Биткоина – вам предстанут поразительные параллели."
-url: bitсoin-eto-micelij
-aliases: ['/theory-philosophy-bitcoin-is-mycelium']
+url: bitcoin-eto-micelij
+aliases: ['/theory-philosophy-bitcoin-is-mycelium', '/bitсoin-eto-micelij']
 date: 2020-05-01
 bookToc: true
 bookFlatSection: false
