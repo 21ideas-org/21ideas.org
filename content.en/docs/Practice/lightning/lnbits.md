@@ -36,10 +36,10 @@ LNbits offers several approaches to using the shell:
 - The non-custodial approach involves running your own node and connecting LNbits directly to your Bitcoin and Lightning node. We will not go into this approach – it is quite complex and requires additional hardware and difficult steps. In addition to hardware or renting a node, you'll have to rent a domain and set up reverse ssh, which lies well beyond the scope of this guide. This approach will be of interest to enthusiasts who like to dig into complex network settings and is important for private business owners who want to establish a stable flow of sats and promote a serious service that accepts payments in Lightning and Bitcoin networks. If you want to try your hand at this endeavor but don't have the hardware to run your own Lightning node, check out the [Voltage](https://voltage.cloud/) service where you can rent a node from $12 per month.
 - The custodial approach involves setting up the service in a few simple steps and is the best option for beginners. Moreover, a couple of additional simple steps will help you eventually gain full control over your own funds. This is what we will focus on in this guide.
 
-So, with the above in mind, select the "Demo" option, and proceed to the page [https://legend.lnbits.com/](https://legend.lnbits.com/):
+So, with the above in mind, select the "Demo" option, and proceed to the page [https://web.archive.org/web/20211202183933/https://legend.lnbits.com/](https://web.archive.org/web/20211202183933/https://legend.lnbits.com/):
 
 {{% image "/img/lnb-275.webp" %}}
-[_https://legend.lnbits.com/_](https://legend.lnbits.com/)
+[_https://web.archive.org/web/20211202183933/https://legend.lnbits.com/_](https://web.archive.org/web/20211202183933/https://legend.lnbits.com/)
 {{% /image %}}
 
 Enter the desired wallet name and click **ADD A NEW WALLET**. You can also visit the project page on GitHub or support the project devs by clicking on "Donate"🍩.
@@ -48,7 +48,7 @@ Let's create a wallet "21ideas-guide" and confirm the choice. Clicking on the bu
 
 {{% image "/img/lnb-276.webp" /%}}
 
-The address bar will display a long address starting with [https://legend.lnbits.com/wallet?usr=](https://legend.lnbits.com/wallet?usr=), followed by a long string of characters. It's worth adding this page to your browser bookmarks and perhaps saving a copy on another medium. This address is the only way to open your wallet. Don't share this address with anyone you don't trust – anyone who has this address will be able to access all the funds stored on this wallet. Let me remind you that the developers are currently working on the login system and something like a personal profile. But for now we will work with what we have, and I will tell you how to secure your funds with the help of the LNbits extension later in this guide.
+The address bar will display a long address starting with [https://web.archive.org/web/20211202183933/https://legend.lnbits.com/wallet?usr=](https://web.archive.org/web/20211202183933/https://legend.lnbits.com/wallet?usr=), followed by a long string of characters. It's worth adding this page to your browser bookmarks and perhaps saving a copy on another medium. This address is the only way to open your wallet. Don't share this address with anyone you don't trust – anyone who has this address will be able to access all the funds stored on this wallet. Let me remind you that the developers are currently working on the login system and something like a personal profile. But for now we will work with what we have, and I will tell you how to secure your funds with the help of the LNbits extension later in this guide.
 
 You can create as many wallets as you like, and each of them will have its own clearnet address. But today we will work with one wallet.
 

@@ -105,7 +105,7 @@ OXT’s transaction graph will also help to process some additional information 
 
 A simple transaction graph example is presented below.
 
-1. Navigate to the hyperlink of the [transaction](https://oxt.me/transaction/351664e86e48c81ddd14f418893d4aede75546d16075dea47157144a30af687e) page and expand the transaction graph.
+1. Navigate to the hyperlink of the [transaction](https://web.archive.org/web/20211127055424/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/351664e86e48c81ddd14f418893d4aede75546d16075dea47157144a30af687e) page and expand the transaction graph.
 
 2. Select the transaction with a single click.
 
@@ -130,7 +130,7 @@ If we apply the different script heuristic (see [_Part I_](/en/privacy/oxt-1)), 
 7. Repeat the process for change identification using the heuristics presented in Part I. Expand two more transactions using this process.
 
 {{% image "/img/oxt/oxt-21-en.webp" %}}
-_Peel Chain Example (Tx Graph [Bookmark](https://OXT.ME/BOOKMARK/60D3C389E5C165230824AF81))_
+_Peel Chain Example (Tx Graph [Bookmark](https://web.archive.org/web/20211121202551/https://OXT.ME/BOOKMARK/60D3C389E5C165230824AF81))_
 {{% /image %}}
 
 Afterwards, the graph should look similar to the image in Fig 2.8 above. To add additional emphasis on the change UTXOs, the change UTXOs can be marked and highlighted in orange using the left toolbar button. A transaction graph showing a series of simple spends from the same wallet is commonly referred to as a “peel chain”.
@@ -172,7 +172,7 @@ Because of this normal wallet functionality and bitcoin’s private/public key c
 **_The assumption that each input to a transaction is controlled by the same wallet is called the common input ownership heuristic (CIOH) or more simply, the merged input heuristic._**
 
 {{% image "/img/oxt/oxt-22-en.webp" %}}
-_CIOH and Cluster [Example](https://oxt.me/transaction/e7c4ff5687019973350d11f530b6e16a9a2dd32cd1bc2ed4a61eafb38c8915be)_
+_CIOH and Cluster [Example](https://web.archive.org/web/20211121202549/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/e7c4ff5687019973350d11f530b6e16a9a2dd32cd1bc2ed4a61eafb38c8915be)_
 {{% /image %}}
 
 Like all heuristics there are specific scenarios where the CIOH does not hold true. The breakdowns in the CIOH tend to revolve around specially constructed privacy enhancing transactions. We will cover the special scenarios where the CIOH is broken and how OXT handles these exceptions in a later part of this series.
@@ -213,7 +213,7 @@ An analyst can create an account with a service and send BTC to a deposit addres
 Alternatively, an analyst can use opensource intelligence techniques to search for publicly available information posted by service users. Deposit and withdrawal addresses can be commonly found in social media posts. This publicly available data can also be used to attribute a wallet cluster to a centralised service.
 
 {{% image "/img/oxt/oxt-26.webp" %}}
-_Labelled Cluster [Example](https://oxt.me/entity/coinbase)_
+_Labelled Cluster [Example](https://web.archive.org/web/20211124091623/https://web.archive.org/web/20170202120225/https://oxt.me/entity/coinbase)_
 {{% /image %}}
 
 ## Applying External Transaction Data To Change Detection
@@ -225,7 +225,7 @@ The most damaging to transaction privacy is when a simple spend is made to a wal
 When a simple spend is made to a centralised service, all change detection ambiguity is lost. The output to the centralised service is clearly the payment. The only remaining output is the obvious change output. An example from the future spending of the peel chain example above is shown below.
 
 {{% image "/img/oxt/oxt-28-en.webp" %}}
-_Exchange Payments in Simple Spend [Example](https://oxt.me/transaction/50766212c4eff1a8e1c74f16ba2480ec076b83fd8cdd369b9b8f3e02dfefbe41)_
+_Exchange Payments in Simple Spend [Example](https://web.archive.org/web/20211203022320/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/50766212c4eff1a8e1c74f16ba2480ec076b83fd8cdd369b9b8f3e02dfefbe41)_
 {{% /image %}}
 
 The most crucial aspect of the CIOH isn’t necessarily how it is used to target individual user privacy, but how wallet clustering among centralised services negatively and significantly effects the privacy of the the bitcoin network transaction graph.

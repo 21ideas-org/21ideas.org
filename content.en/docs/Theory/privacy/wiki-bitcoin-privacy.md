@@ -1150,7 +1150,7 @@ Lesson 2: Note that [TailsOS](https://tails.boum.org) as of 2018 uses this priva
 4. Analysis information was also cross-checked by searching the web for all forum posts where a customer writes something like: _Help! I made a deposit to MtGox of amount 0.12345 BTC. As I write my transaction has 20 confirmations but the deposit hasn't appeared in the exchange._ The forum posts include a date and time. These posts include enough information to search for the corresponding blockchain transaction.
 5. The analysis revealed that there were multiple thefts from mtgox and the exchange was insolvent for most of its existence.
 
-Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](https://www.youtube.com/watch?v=l70iRcSxqzo) [Slides](https://breaking-bitcoin.com/slides/CrackingMtGox.pdf).
+Full talk: [Breaking Bitcoin 2017 conference. Kim Nilsson - Cracking MtGox](https://www.youtube.com/watch?v=l70iRcSxqzo) [Slides](https://web.archive.org/web/20181225155754/https://web.archive.org/web/20170908113724/https://breaking-bitcoin.com/slides/CrackingMtGox.pdf).
 
 ## Real life example - Flawed use of the common-input-ownership heuristic exaggerates donation income
 
@@ -1195,7 +1195,7 @@ Lesson: The common-input-ownership heuristic isn't always right.
 5. The walletexplorer cluster called MtGoxAndOthers mislead the analyst into believing the QuadrigaCX had something to do with MtGox, when in reality that cluster arises because of CoinJoin.
 6. The analyst was unable to find a single cluster with a significant amount of bitcoins which could be the [cold storage](https://en.bitcoin.it/wiki/Cold_storage "Cold storage") wallet. However cold storage wallets are likely to create few transactions and never reuse addresses; so its possible such a cluster would never appear on walletexplorer.com which uses the common-input-ownership heuristic. However its also possible that the exchange is insolvent and so there is no [cold storage](https://en.bitcoin.it/wiki/Cold_storage "Cold storage") wallet.
 
-Main article: [https://blog.zerononcense.com/2019/02/04/quadrigacx-chain-analysis-report-pt-1-bitcoin-wallets/](https://blog.zerononcense.com/2019/02/04/quadrigacx-chain-analysis-report-pt-1-bitcoin-wallets/)
+Main article: [https://web.archive.org/web/20190206130412/https://blog.zerononcense.com/2019/02/04/quadrigacx-chain-analysis-report-pt-1-bitcoin-wallets/](https://web.archive.org/web/20190206130412/https://blog.zerononcense.com/2019/02/04/quadrigacx-chain-analysis-report-pt-1-bitcoin-wallets/)
 
 Reddit comments: [https://www.reddit.com/r/Bitcoin/comments/amut05/investigation_proves_an_exchange_quadriga_ran_a/](https://www.reddit.com/r/Bitcoin/comments/amut05/investigation_proves_an_exchange_quadriga_ran_a/)
 

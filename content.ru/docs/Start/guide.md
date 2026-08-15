@@ -39,7 +39,7 @@ weight: 3
 
 {{% image "/img/126.webp" /%}}
 
-[Hodl Hodl](https://www.hodlhodl.com/join/TONYB), [Bisq](https://bisq.network), [Robosats](https://learn.robosats.com).
+[Hodl Hodl](https://www.hodlhodl.com/join/TONYB), [Bisq](https://bisq.network), [Robosats](https://web.archive.org/web/20220519124138/https://learn.robosats.com).
 
 Вы можете перейти по реферальной ссылке на HODL HODL и получить скидку на торговые комиссии или воспользоваться любой другой площадкой.
 
@@ -172,7 +172,7 @@ weight: 3
 
 Хотите поддержать некоммерческую деятельность? Это круто! Многие некоммерческие благотворительные организации принимают биткоины напрямую. Вот популярные места, где вы можете пожертвовать биткоин:
 
-[21идея](/contribute), [SVTV](https://svtv.org/support/), [Роскомсвобода](https://donate.roskomsvoboda.org/crypto/), [EFF](https://www.eff.org/), [Human Rights Foundation](https://hrf.org/donate-bitcoin/), [Archive.org](https://archive.org/donate/cryptocurrency/).
+[21идея](/contribute), [SVTV](https://svtv.org/support/), [Роскомсвобода](https://web.archive.org/web/20191207072159/https://donate.roskomsvoboda.org/crypto/), [EFF](https://www.eff.org/), [Human Rights Foundation](https://hrf.org/donate-bitcoin/), [Archive.org](https://archive.org/donate/cryptocurrency/).
 
 ---
 

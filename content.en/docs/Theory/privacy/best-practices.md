@@ -76,7 +76,7 @@ The following are action­able steps you can take to increase your privacy:
 
 **Do not use public block explorers:** Looking up addresses in public block explorers will link those addresses with your IP, which, in turn, can be linked to your real identity. Software packages like [Umbrel](https://getumbrel.com/) and [myNode](https://mynodebtc.com/) make it easy to run your own block explorer. If you have to use a public block explorer, make sure to mask your IP by connecting to them via [Tor](https://www.torproject.org/download/), or at least use a [VPN](https://mullvad.net/).
 
-**CoinJoin early and often:** Because Bitcoin is forever, using trans­ac­tional best practices such as collab­o­ra­tive CoinJoin trans­ac­tions will ensure that your privacy is protected going forward. While CoinJoin trans­ac­tions are nuanced, user-friendly software exists to help you create and automate these kinds of trans­ac­tions. Samourai’s [Whirlpool](https://samouraiwallet.com/whirlpool) is a great solution for Android users, for example. There is also JoinMarket, which, thanks to projects like [JoininBox](https://github.com/openoms/joininbox), can be set up quite easily on your own node. Note that Swan offers the ability to [auto-withdraw your bitcoin](https://help.swanbitcoin.com/hc/en-us/articles/360046166054-Why-should-I-withdraw-my-Bitcoin-when-it-reaches-a-certain-threshold-), allowing you to automate this process almost completely.
+**CoinJoin early and often:** Because Bitcoin is forever, using trans­ac­tional best practices such as collab­o­ra­tive CoinJoin trans­ac­tions will ensure that your privacy is protected going forward. While CoinJoin trans­ac­tions are nuanced, user-friendly software exists to help you create and automate these kinds of trans­ac­tions. Samourai’s [Whirlpool](https://web.archive.org/web/20190718194046/https://samouraiwallet.com/whirlpool) is a great solution for Android users, for example. There is also JoinMarket, which, thanks to projects like [JoininBox](https://github.com/openoms/joininbox), can be set up quite easily on your own node. Note that Swan offers the ability to [auto-withdraw your bitcoin](https://help.swanbitcoin.com/hc/en-us/articles/360046166054-Why-should-I-withdraw-my-Bitcoin-when-it-reaches-a-certain-threshold-), allowing you to automate this process almost completely.
 
 ## Conclusion
 
@@ -92,10 +92,10 @@ And as long as speech is free, signing a message — privately or not�
 
 ## Further Resources
 
-- [15 Methods to Acquire Non-KYC Bitcoin](https://sovrnbitcoiner.com/15-methods-to-aquire-non-kyc-bitcoin/) by Sovrnbitcoiner
+- [15 Methods to Acquire Non-KYC Bitcoin](https://web.archive.org/web/20221011231153/https://sovrnbitcoiner.com/15-methods-to-aquire-non-kyc-bitcoin/) by Sovrnbitcoiner
 - [This Month in Bitcoin Privacy](https://enegnei.github.io/This-Month-In-Bitcoin-Privacy/) by Janine
-- [Hodl Privacy FAQ](https://6102bitcoin.com/faq-hodl-privacy/) by 6102
-- [Digital Privacy](https://6102bitcoin.com/blog/digital-privacy/) by 6102
+- [Hodl Privacy FAQ](https://web.archive.org/web/20201101104510/https://6102bitcoin.com/faq-hodl-privacy/) by 6102
+- [Digital Privacy](https://web.archive.org/web/20201101101506/https://6102bitcoin.com/blog/digital-privacy/) by 6102
 - [UseWhirlpool.com](http://usewhirlpool.com) by Bitcoin Q+A
 - [Bitcoin Privacy Guide](https://bitcoiner.guide/privacy/) by Bitcoin Q+A
 

@@ -93,11 +93,11 @@ It is hard to overstate the profoundness of this. Strong cryptography inverts th
 
 Bitcoin’s treasure chest is very different. It is secured by strong cryptography, which does not give way to brute force. And as long as the underlying mathematical assumptions hold, brute force is all we have. Granted, there is also the option of a global [$5 wrench attack](https://xkcd.com/538/). But torture won’t work for all bitcoin addresses, and the cryptographic walls of bitcoin will defeat brute force attacks. Even if you come at it with the force of a thousand suns. Literally.
 
-This fact and its implications were poignantly summarized in the [call to cryptographic arms](https://cryptome.org/2012/12/assange-crypto-arms.htm): “_No amount of coercive force will ever solve a math problem.”_
+This fact and its implications were poignantly summarized in the [call to cryptographic arms](https://web.archive.org/web/20121202083640/https://cryptome.org/2012/12/assange-crypto-arms.htm): “_No amount of coercive force will ever solve a math problem.”_
 
 > "It isn’t obvious that the world had to work this way. But somehow the universe smiles on encryption.”
 > 
-> — [Julian Assange](https://cryptome.org/2012/12/assange-crypto-arms.htm)
+> — [Julian Assange](https://web.archive.org/web/20121202083640/https://cryptome.org/2012/12/assange-crypto-arms.htm)
 
 Nobody yet knows for sure if the universe’s smile is genuine or not. It is possible that our assumption of mathematical asymmetries is wrong and we find that [P actually equals NP](https://en.wikipedia.org/wiki/P_versus_NP_problem#P_=_NP), or we find surprisingly quick solutions to [specific problems](https://en.wikipedia.org/wiki/Discrete_logarithm#Cryptography) which we currently assume to be hard. If that should be the case, cryptography as we know it will cease to exist, and the implications would most likely change the world beyond recognition.
 
@@ -138,7 +138,7 @@ While the regular world operates under the assumption of _“trust, but verify,�
 
 Note that “without relying on trust” is used in a very specific context here. We are talking about trusted third parties, i.e. other entities which you trust to produce, hold, and process your money. It is assumed, for example, that you can trust your computer.
 
-As Ken Thompson showed in his Turing Award lecture, trust is an extremely tricky thing in the computational world. When running a program, you have to trust all kinds of software (and hardware) which, in theory, could alter the program you are trying to run in a malicious way. As Thompson summarized in his [_Reflections on Trusting Trust_](https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf): “The moral is obvious. You can’t trust code that you did not totally create yourself.”
+As Ken Thompson showed in his Turing Award lecture, trust is an extremely tricky thing in the computational world. When running a program, you have to trust all kinds of software (and hardware) which, in theory, could alter the program you are trying to run in a malicious way. As Thompson summarized in his [_Reflections on Trusting Trust_](https://web.archive.org/web/20180624135751/https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf): “The moral is obvious. You can’t trust code that you did not totally create yourself.”
 
 {{% image "/img/what-19.webp" /%}}
 
@@ -406,7 +406,7 @@ My journey continues, and as mentioned in part one, I think that any answer to t
 - [_The Internet of Money_](https://theinternetofmoney.info/) by Andreas Antonopoulos
 - [_Inventing Bitcoin_](http://inventingbitcoin.com/) by Yan Pritzker
 - [_Applied Cryptography_](https://www.schneier.com/books/applied_cryptography/) by Bruce Schneier
-- [_Reflections on Trusting Trust_](https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf) by Ken Thompson
+- [_Reflections on Trusting Trust_](https://web.archive.org/web/20180624135751/https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf) by Ken Thompson
 - [_Cypherpunks_](https://www.orbooks.com/catalog/cypherpunks/) by Julian Assange with Jacob Appelbaum
 - [_The Anatomy of Proof-of-Work_](https://bitcointechtalk.com/the-anatomy-of-proof-of-work-98c85b6f6667) by [Hugo Nguyen](https://twitter.com/hugohano)
 - [_Blockchain Proof-of-Work Is a Decentralized Clock_](https://grisha.org/blog/2018/01/23/explaining-proof-of-work/) by Gregory Trubetskoy

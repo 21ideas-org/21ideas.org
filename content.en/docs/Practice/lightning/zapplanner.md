@@ -151,17 +151,17 @@ These were the custodial ways of setting up recurring payments. Let's now explor
 ## Oak Node
 
 **Level:** Node runner  
-**Website:** https://oak-node.net/doc/trunk/README.md  
+**Website:** https://web.archive.org/web/20220731215102/https://oak-node.net/doc/trunk/README.md  
 **Prerequisites:** Lightning node, decent LN connectivity, sufficient outbound liquidity  
 **Method:** non-custodial  
 
 Oak Node lets you schedule LN payments, send and receive LN payments as PGP-secured emails and even do it over Nostr, all on your own Lightning Node. It is supported by the most popular Bitcoin and Lightning node software and allows you to compile it yourself:
 
 - Available in the [Umbrel appstore](https://apps.umbrel.com/app/oak-node)
-- Available as Podman or Docker containers (see [How to run](https://oak-node.net/doc/trunk/doc/how-to-run.md))
-- Available on [myNode (experimental)](https://oak-node.net/doc/trunk/doc/how-to-run.md#mynode)
+- Available as Podman or Docker containers (see [How to run](https://web.archive.org/web/20231208094716/https://oak-node.net/doc/trunk/doc/how-to-run.md))
+- Available on [myNode (experimental)](https://web.archive.org/web/20231208094716/https://web.archive.org/web/20231208094716/https://oak-node.net/doc/trunk/doc/how-to-run.md#mynode)
 
-A step-by-step guide on setting up recurring payments with Oak Node is available [here](https://oak-node.net/wiki?name=demo-recurring-payments). There is [extensive documentation](https://oak-node.net/doc/trunk/README.md), dedicated to all the tool's features as well.
+A step-by-step guide on setting up recurring payments with Oak Node is available [here](https://web.archive.org/web/20231208081739/https://oak-node.net/wiki?name=demo-recurring-payments). There is [extensive documentation](https://web.archive.org/web/20220731215102/https://oak-node.net/doc/trunk/README.md), dedicated to all the tool's features as well.
 
 ## Future
 

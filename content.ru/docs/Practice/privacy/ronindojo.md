@@ -11,11 +11,11 @@ weight: 2
 ---
 
 {{% hint btc %}}
-Автор выражает благодарность [Estudio Bitcoin](https://twitter.com/estudiobitcoin), и лично [Albercoin](https://twitter.com/Albercoin) и [Arkad](https://twitter.com/Multicripto), за их [работу](https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) по установке RoninDojo на x86.
+Автор выражает благодарность [Estudio Bitcoin](https://twitter.com/estudiobitcoin), и лично [Albercoin](https://twitter.com/Albercoin) и [Arkad](https://twitter.com/Multicripto), за их [работу](https://web.archive.org/web/20240226054424/https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) по установке RoninDojo на x86.
 {{% /hint %}}
 
 {{% hint info %}}
-С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/privacy/coinjoin). Установка "ванильного" Dojo описана в [официальной документации](https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
+С теорией CoinJoin в Whirlpool, а также практическим иcпользованием Dojo, можно ознакомиться [здесь](/privacy/coinjoin). Установка "ванильного" Dojo описана в [официальной документации](https://web.archive.org/web/20210124060626/https://docs.samourai.io/en/dojo) [Samourai](https://twitter.com/SamouraiWallet) и в [руководстве](/practice-privacy/dojo) от [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
 {{% /hint %}}
 
 {{< hint danger >}}

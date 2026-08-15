@@ -310,7 +310,7 @@ Once a full house of green ticks shows on the dashboard, Dojo is synched and rea
 *DMT in Testnet*
 {{% /image %}}
 
-Select "pairing" from the DMT's menu to display the pairing QR code that can be scanned during the [setup process](https://docs.samourai.io/wallet/new-wallet#dojo) of creating or restoring a Samourai Wallet.
+Select "pairing" from the DMT's menu to display the pairing QR code that can be scanned during the [setup process](https://web.archive.org/web/20230926223039/https://docs.samourai.io/wallet/new-wallet#dojo) of creating or restoring a Samourai Wallet.
 
 If the RPC explorer is not disabled, two QR codes will be displayed. The Dojo pairing QR is the one to the left.
 

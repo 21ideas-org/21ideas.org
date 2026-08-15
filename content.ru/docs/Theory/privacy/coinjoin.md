@@ -103,7 +103,7 @@ CoinJoin-транзакцию вполне можно провести вруч�
     
 - [Wasabi](https://docs.wasabiwallet.io/using-wasabi/CoinJoin.html);
     
-- [Whirlpool](https://samouraiwallet.com/whirlpool).
+- [Whirlpool](https://web.archive.org/web/20190718194046/https://samouraiwallet.com/whirlpool).
 
 Несмотря на то что конечная цель этих трех реализаций одинакова – разорвать историю UTXO путем проведения CoinJoin-транзакций – работают они совершенно по-разному. Поэтому важно понять, как работает каждая из них, чтобы вы могли выбрать ту реализацию, которая лучше всего подходит для ваших нужд.
 
@@ -375,7 +375,7 @@ _Источник: [KYCP.org](https://kycp.org/#/a126e48d4a6eb8d19682ec0e23ad45e
 
 ### Whirlpool Stats Tool (WST)
 
-Чтобы легко рассчитать уровни анонимности одного из ваших смешанных UTXO в Whirlpool, вы можете воспользоваться программой [Whirlpool Stats Tool (WST)](https://code.samourai.io/whirlpool/whirlpool_stats). Это инструмент, специально разработанный для подсчета ваших уровней анонимности в Whirlpool.
+Чтобы легко рассчитать уровни анонимности одного из ваших смешанных UTXO в Whirlpool, вы можете воспользоваться программой [Whirlpool Stats Tool (WST)](https://web.archive.org/web/20201008061949/https://code.samourai.io/whirlpool/whirlpool_stats). Это инструмент, специально разработанный для подсчета ваших уровней анонимности в Whirlpool.
 
 Если вы являетесь пользователем RoninDojo, этот инструмент уже предустановлен на вашей ноде. Чтобы получить доступ к нему из RoninCLI, перейдите по ссылке:
 
@@ -409,7 +409,7 @@ pip install numpy
 
 ```
 #Клонируйте репозиторий:
-git clone https://code.samourai.io/whirlpool/whirlpool_stats.git
+git clone https://web.archive.org/web/20201008061949/https://code.samourai.io/whirlpool/whirlpool_stats.git
 
 #Перейдите в каталог whirlpool_stats:
 cd whirlpool_stats
@@ -530,7 +530,7 @@ Samourai Toolkit > Boltzmann Calculator
 
 ```
 #Клонируйте репозиторий:
-git clone https://code.samourai.io/oxt/boltzmann.git
+git clone https://web.archive.org/web/20201111003822/https://code.samourai.io/oxt/boltzmann.git
 
 #Перейдите в каталог boltzmann:
 cd boltzmann
@@ -626,7 +626,7 @@ E = 10.5469 бит
 Давайте рассмотрим другой пример. Вот "классическая" транзакция с одним входом и двумя выходами:
 
 {{% image "/img/coinjoin-pandul/cjp-68.webp" %}}
-*Источник: https://oxt.me/graph/transaction/tiid/9815286*
+*Источник: https://web.archive.org/web/20170202120225/https://oxt.me/graph/transaction/tiid/9815286*
 {{% /image %}}
 
 Существует только одна возможная интерпретация этой транзакции:
@@ -979,7 +979,7 @@ X2GGWaLt
 
 {{% image "/img/coinjoin-pandul/cjp-34.webp" /%}}
 
-После установки OpenJDK вы можете установить Whirlpool GUI с официального сайта Samourai Wallet: https://samouraiwallet.com/download/whirlpool. 
+После установки OpenJDK вы можете установить Whirlpool GUI с официального сайта Samourai Wallet: https://web.archive.org/web/20200513065713/https://web.archive.org/web/20190919001900/https://samouraiwallet.com/download/whirlpool. 
 
 Запустите Whirlpool GUI. Чтобы Whirlpool GUI мог подключиться, на вашем компьютере должны быть запущены в фоновом режиме Tor Daemon или Tor Browser. Вам нужно будет не забывать запускать их перед каждым использованием Whirlpool GUI на этом компьютере. Если у вас не установлен Tor, перед началом работы установите его с официального сайта: https://www.torproject.org/download/.
 
@@ -1062,7 +1062,7 @@ X2GGWaLt
 
 Чтобы потратить UTXO после смешивания, просто нажмите на "+" в правом нижнем углу экрана, а затем выберите [подходящий инструмент](/privacy/coinjoin/#%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b-%d0%b4%d0%bb%d1%8f-%d1%82%d1%80%d0%b0%d1%82%d1%8b-utxo) для траты. 
 
-Чтобы легко отслеживать автоматические миксы, я также рекомендую настроить кошелек только для просмотра с помощью приложения [Sentinel](https://sentinel.watch/) для Android. Введите ZPUB вашего аккаунта Postmix (после смешивания) и отслеживайте ваши CoinJoin в режиме реального времени.
+Чтобы легко отслеживать автоматические миксы, я также рекомендую настроить кошелек только для просмотра с помощью приложения [Sentinel](https://web.archive.org/web/20231206111701/https://sentinel.watch/) для Android. Введите ZPUB вашего аккаунта Postmix (после смешивания) и отслеживайте ваши CoinJoin в режиме реального времени.
 
 ## Лучшие практики для UTXO после смешивания
 
@@ -1102,7 +1102,7 @@ X2GGWaLt
 Безусловно, существуют и другие методы избавления от Doxxic-сдачи. Некоторые люди говорят об анонимизации с помощью [сети лайтнинг](/chto-takoe-laitning/), другие используют обмен с Monero. Возможно, это хорошие методы, но я не буду рассматривать их в этой статье, потому что не знаю их досконально. Я приглашаю вас провести собственное исследование на эту тему.
 
 {{% hint info %}}
-*В январе 2024 года разработчики Samourai Wallet и [разработчик](https://twitter.com/pokkst) Monero-кошелька Mysu выпустили тестовую бета-версию приложения [Samourai Swaps](https://code.samourai.io/wallet/comit-swaps-java), для атомарных p2p-обменов BTC/XMR, что также позволит вам эффективно потратить Doxxic-сдачу.*
+*В январе 2024 года разработчики Samourai Wallet и [разработчик](https://twitter.com/pokkst) Monero-кошелька Mysu выпустили тестовую бета-версию приложения [Samourai Swaps](https://web.archive.org/web/20240116223346/https://code.samourai.io/wallet/comit-swaps-java), для атомарных p2p-обменов BTC/XMR, что также позволит вам эффективно потратить Doxxic-сдачу.*
 
 *— Прим. переводчика*
 {{% /hint %}}
@@ -1391,24 +1391,24 @@ Ricochet — это платная услуга. Вам придется зап�
 _Видео [Tutoriel Samouraï par JohnOnChain (Vie privée)](https://www.youtube.com/watch?v=kS6iC_ovarQ)_ от Youtube-канала [Découvre Bitcoin](https://www.youtube.com/c/D%C3%A9couvreBitcoin).
 
 Материалы по Ricochet:
-- [https://docs.samourai.io/en/wallet/features/ricochet](https://docs.samourai.io/en/wallet/features/ricochet)
+- [https://web.archive.org/web/20230127150451/https://docs.samourai.io/en/wallet/features/ricochet](https://web.archive.org/web/20230127150451/https://docs.samourai.io/en/wallet/features/ricochet)
 
 Материалы по инструментам для траты UTXO в Sparrow Wallet:
 - https://sparrowwallet.com/docs/spending-privately.html
 
 Материалы по инструментам для траты UTXO в Samourai Wallet:
-- https://docs.samourai.io/en/spend-tools
+- https://web.archive.org/web/20210805073334/https://docs.samourai.io/en/spend-tools
 
-Статья об [установке и использовании WST](https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/) (на испанском языке).
+Статья об [установке и использовании WST](https://web.archive.org/web/20200803104618/https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/) (на испанском языке).
 
 Статья _[Dealing with Coinjoin Change Outputs](https://bitcoiner.guide/doxxic/)_ от BitcoinQ+A.
 
 Серия из 4 статей _[Понимание приватности в сети Биткоин с помощью OXT](/privacy/oxt)_ от Samourai Wallet.
 
 Материалы по Whirlpool от Samourai Wallet:
-- [https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/README.md](https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/README.md)
-- [https://docs.samourai.io/whirlpool/basic-concepts](https://docs.samourai.io/whirlpool/basic-concepts)
-- [https://docs.samourai.io/en/wallet/features/whirlpool](https://docs.samourai.io/en/wallet/features/whirlpool)
+- [https://web.archive.org/web/20230127142409/https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/README.md](https://web.archive.org/web/20230127142409/https://code.samourai.io/whirlpool/Whirlpool/-/blob/whirlpool/README.md)
+- [https://web.archive.org/web/20210614174158/https://docs.samourai.io/whirlpool/basic-concepts](https://web.archive.org/web/20210614174158/https://docs.samourai.io/whirlpool/basic-concepts)
+- [https://web.archive.org/web/20211019184910/https://docs.samourai.io/en/wallet/features/whirlpool](https://web.archive.org/web/20211019184910/https://docs.samourai.io/en/wallet/features/whirlpool)
 
 Материалы по калькулятору Больцмана:
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159

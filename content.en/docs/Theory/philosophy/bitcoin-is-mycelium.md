@@ -273,7 +273,7 @@ Like the honey mushroom consuming entire forests in Oregon, bitcoin is getting b
 _Exploring Hype Cycles, Ethnomycology, and the Cult of Satoshi_
 
 {{% image src="/img/00000000024.webp" %}}
-_Original Artwork by [Richard Giblett](http://www.richardgiblett.com.au/2dworks.html)_
+_Original Artwork by [Richard Giblett](https://web.archive.org/web/20191208161343/http://www.richardgiblett.com.au/2dworks.html)_
 {{% /image %}}
 
 In the first section, we explored bitcoin’s decentralized architecture through the lens of mycelium. We covered the decentralized network archetype, antifragility, PoW, arbitrage, bitcoin’s role in it’s ecology, and the merits of decentralization.
@@ -411,7 +411,7 @@ One of our oldest examples of cave paintings was discovered in northern Algeria,
 _Cave painting: “Bee man” covered in mushrooms. Circa 4,000 BC_
 {{% /image %}}
 
-In Siberia, the [Koryak people revered the “Fly Agaric”](http://blog.crazyaboutmushrooms.com/amanita-muscaria-koryak-magic-mushrooms-siberia/) mushroom (Amanita Muscaria) which is the iconic “red and white” mushroom famously portrayed in Super Mario Brothers and Alice in Wonderland. The Koryak loved this mushroom so much they would drink the urine of humans and reindeer who recently consumed the mushroom. Apparently you can recycle urine in this way up to 5x while achieving desired effects. How they discovered this phenomenon is another question all together…
+In Siberia, the [Koryak people revered the “Fly Agaric”](https://web.archive.org/web/20150819003347/http://blog.crazyaboutmushrooms.com/amanita-muscaria-koryak-magic-mushrooms-siberia/) mushroom (Amanita Muscaria) which is the iconic “red and white” mushroom famously portrayed in Super Mario Brothers and Alice in Wonderland. The Koryak loved this mushroom so much they would drink the urine of humans and reindeer who recently consumed the mushroom. Apparently you can recycle urine in this way up to 5x while achieving desired effects. How they discovered this phenomenon is another question all together…
 
 Get your tinfoil hat, [the Fly Agaric may have inspired our Christmas traditions](https://inhabitat.com/santa-and-the-shrooms-the-real-story-behind-the-design-of-christmas/).
 
@@ -436,7 +436,7 @@ Bitcoin was created through immaculate conception by a mythical character (Satos
 
 The Cult of Satoshi inspires some fanatics to dedicate their lives to promoting the “good word.” Not all bitcoiners fall into the same religious sect. Some scholars cling to the ancient religious text (whitepaper) while others interpret Satoshi’s vision through his [early forum posts](https://twitter.com/yassineARK/status/1047978606297792513).
 
-[Disagreements about priorities](https://cryptomenow.com/bitcoin-culture-wars-what-doesnt-kill-you-only-makes-you-stronger/) evidenced by the scaling debates have lead to hard forks and fractured “congregations.” Not unlike Martin Luther fracturing the catholic church by pinning the “Ninety-five Theses” on the church door in 1517.
+[Disagreements about priorities](https://web.archive.org/web/20191210224526/https://cryptomenow.com/bitcoin-culture-wars-what-doesnt-kill-you-only-makes-you-stronger/) evidenced by the scaling debates have lead to hard forks and fractured “congregations.” Not unlike Martin Luther fracturing the catholic church by pinning the “Ninety-five Theses” on the church door in 1517.
 
 Roger Ver was known as “Bitcoin Jesus” from his early days spreading the good word by gifting satoshis to fiat afflicted restaurateurs.
 
@@ -1069,7 +1069,7 @@ Many people claim we “discovered Bitcoin.” I’m sympathetic to this idea, h
 - Thanks to [Dan Held](https://twitter.com/danheld), [Gigi](https://medium.com/u/29f663fdaf68?source=post_page-----4c6563cb9254----------------------), [Robert Breedlove](https://medium.com/u/446c2bebefd7?source=post_page-----4c6563cb9254----------------------), Rob Fox, [Danielle Diamond](https://twitter.com/DanielleDeanne), [Dan Liebeskind](https://twitter.com/dliebeskind), [Justin Evidon](https://twitter.com/jevidon), and [Nic Carter](https://medium.com/u/a063100e6515?source=post_page-----4c6563cb9254----------------------) for providing thoughtful notes during the editing process
 - Thanks to the mycological community for inspiring my fascination with fungi (the bitcoin community welcomes you)
 - **Inspiration and mentions**: [Paul Stamets](https://twitter.com/PaulStamets), [Merlin Sheldrake](https://twitter.com/MerlinSheldrake), E.O. Wilson, Richard Dawkins, Charles Darwin, Nassim Taleb (ideas, not the man), Peter Thiel, [Tuur Demeester](https://twitter.com/TuurDemeester), [Pierre Rochard](https://twitter.com/pierre_rochard), [Brady Swenson](https://twitter.com/CitizenBitcoin), [Andreas Antonopolous](https://twitter.com/aantonop), [Pomp](https://twitter.com/APompliano), [Hasu](https://twitter.com/hasufl), [Saifedean Ammous](https://twitter.com/saifedean), [Travis Kling](https://twitter.com/Travis_Kling), [Yuval Harari](https://twitter.com/harari_yuval), [Neal Stephenson](https://twitter.com/nealstephenson), and anyone else I forgot 🙂
-- **Creative Direction**: Part 1 cover photo art by [Emmaline Bailey](https://www.instagram.com/baileysalchemyartist/?hl=en), part 2 cover photo art by [Richard Giblett](http://www.richardgiblett.com.au/2dworks.html), part 4 cover photo art by [FritsAhlefeldt.com](http://www.FritsAhlefeldt.com)
+- **Creative Direction**: Part 1 cover photo art by [Emmaline Bailey](https://www.instagram.com/baileysalchemyartist/?hl=en), part 2 cover photo art by [Richard Giblett](https://web.archive.org/web/20191208161343/http://www.richardgiblett.com.au/2dworks.html), part 4 cover photo art by [FritsAhlefeldt.com](http://www.FritsAhlefeldt.com)
 - Finally, thanks to everyone who sharpened my thinking through conversations on this topic over the last few years.
 
 - **Audio Versions read by Guy [Swann](https://anchor.fm/thecryptoconomy/episodes/Read_455---Bitcoin-and-the-Rhythms-of-History-Brandon-Quittem-elp454) at Bitcoin Audible**

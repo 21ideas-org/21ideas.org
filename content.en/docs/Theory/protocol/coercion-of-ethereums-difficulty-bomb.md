@@ -43,14 +43,14 @@ _Source: [Etherscan.io](https://etherscan.io/chart/blocktime)_
 
 > “This mechanism increases the difficulty exponentially over time and eventually leads to what is referred to as the ‘Ice Age’ — that is, the chain becomes so difficult to mine that it grinds to a halt and stops producing blocks (freezes).”
 > 
-> – EthHub, [“What is the Ethereum Difficulty Bomb (Ice Age)?"](https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/)
+> – EthHub, [“What is the Ethereum Difficulty Bomb (Ice Age)?"](https://web.archive.org/web/20201031215524/https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/)
 
 The difficulty bomb forces miners and users into accepting developer hard forks to a proposed Ethereum upgrade known as an Ethereum Improvement Proposal (EIP).
 
-Lest one think this framing is an exaggeration, one need only [refer to EthHub documentation](https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/) to see that “forcing” miners and users to upgrade is indeed the real intention of the difficulty bomb. Any reasonable person can see this is intended to be coercive.
+Lest one think this framing is an exaggeration, one need only [refer to EthHub documentation](https://web.archive.org/web/20201031215524/https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/) to see that “forcing” miners and users to upgrade is indeed the real intention of the difficulty bomb. Any reasonable person can see this is intended to be coercive.
 
 {{% image "/img/bomb-914-en.webp" %}}
-*Source: [EthHub, “What Is The Ethereum Difficulty Bomb (Ice Age)?”](https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/)*
+*Source: [EthHub, “What Is The Ethereum Difficulty Bomb (Ice Age)?”](https://web.archive.org/web/20201031215524/https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/)*
 {{% /image %}}
 
 Both Buterin and Vorhees have pointed to the fact that on July 20, 2016, a segment of the Ethereum community refused to accept the Ethereum Foundation’s hard fork which reversed the exploitation of a flaw in [The DAO](https://en.wikipedia.org/wiki/The_DAO_(organization)) project's smart contract software, and undid a theft of $50 million worth of ether. The forked chain, which reversed the hack, was proposed by the trademark-owning Ethereum Foundation and was supported by its powerful marketing presence and official social media accounts. The dissenters who opposed this fork, and lacked the official marketing arsenal, had no choice but to create a new project under a different name — now known as Ethereum Classic.

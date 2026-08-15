@@ -159,6 +159,6 @@ weight: 7
 [^46]: Карл Поппер, цитата Марка Дамазера, "В голосовании величайшего философа нашего времени", In Our Time (BBC 4).
 [^47]: "Машина Бэббиджа", Музей истории компьютеров. [computerhistory.org/babbage/](https://computerhistory.org/babbage/).
 [^48]: Клод Э. Шеннон, "Математическая теория связи", Технический журнал системы Белла, 1948.
-[^49]: Джон Маккарти, Марвин Мински, Натаниэль Рочестер и Клод Шеннон, "Предложение для Дартмутского летнего исследовательского проекта по искусственному интеллекту", 31 августа 1955 г. Доступно по ссылке [www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html](http://formal.stanford.edu/jmc/history/dartmouth/dartmouth.html).
+[^49]: Джон Маккарти, Марвин Мински, Натаниэль Рочестер и Клод Шеннон, "Предложение для Дартмутского летнего исследовательского проекта по искусственному интеллекту", 31 августа 1955 г. Доступно по ссылке [www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html](https://web.archive.org/web/20111018160227/http://formal.stanford.edu/jmc/history/dartmouth/dartmouth.html).
 [^50]: Джек Коупленд, "Биография Тьюринга", AlanTuring.net, июль 2000 г. [www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html](https://www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html).
 [^51]: Благотворительный фонд "Гэтсби", "Отдел вычислительной нейронауки Гэтсби", [gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit](https://gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit). 

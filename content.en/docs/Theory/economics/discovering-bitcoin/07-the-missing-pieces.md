@@ -34,7 +34,7 @@ As we conclude our “Discovering Bitcoin” series, we will build on the use of
 
 We are finally at the end of our exploration of [Plan ₿](/en/discovering-bitcoin/intro), back again to the question “When?” from whence we started. 
 
-It’s an important question, as it justifies the introduction of the so-called “[blockchain](https://bitcoinmagazine.com/guides/what-is-blockchain) technology,” a decidedly abused expression that, in its original meaning, just labeled the answer to a problem of unique chronology. (It’s interesting, in this regard, that Satoshi himself called this structure ["timechain,"](https://blog.goodaudience.com/timechain-a-decade-of-misunderstanding-blockchain-bcb56d7839a3) which is also the term we are going to use here … sorry, [Peter](https://twitter.com/peterktodd/status/1112772853781463043)!).
+It’s an important question, as it justifies the introduction of the so-called “[blockchain](https://bitcoinmagazine.com/guides/what-is-blockchain) technology,” a decidedly abused expression that, in its original meaning, just labeled the answer to a problem of unique chronology. (It’s interesting, in this regard, that Satoshi himself called this structure ["timechain,"](https://web.archive.org/web/20200618010342/https://blog.goodaudience.com/timechain-a-decade-of-misunderstanding-blockchain-bcb56d7839a3) which is also the term we are going to use here … sorry, [Peter](https://twitter.com/peterktodd/status/1112772853781463043)!).
 
 {{% image "/img/sb-354-en.webp" /%}}
 

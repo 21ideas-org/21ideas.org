@@ -65,7 +65,7 @@ Bitcoin transaction activity is pseudonymous, not anonymous. A user’s true nam
 However, bitcoin transactions are made for transparent amounts to transparent addresses. Addresses are pseudonyms that represent an actual user’s activity, or more specifically, a private key’s activity.
 
 {{% image "/img/oxt/oxt-3.png" %}}
-_Example Bitcoin [Transaction](https://oxt.me/transaction/ceb2daa77a281083cd1b07977adb87753801047753781a9e93ac9252f1c51b8c)_
+_Example Bitcoin [Transaction](https://web.archive.org/web/20211124092014/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/ceb2daa77a281083cd1b07977adb87753801047753781a9e93ac9252f1c51b8c)_
 {{% /image %}}
 
 Bitcoin transactions are broadcast to the bitcoin network, and archived on the bitcoin ledger. The ledger, and any transactions included in the ledger, are viewable to anyone running a bitcoin node or with access to a web based blockchain explorer.
@@ -127,7 +127,7 @@ These transaction types are evidence of typical user behavior, where a user make
 - Common Interpretation: 1 payment output, 1 change output
 
 {{% image "/img/oxt/oxt-5-en.webp" %}}
-_Simple Spend Transaction [Example](https://oxt.me/transaction/36e0f7c61e40a232829087ed3152519765b7fcf7be7d8574387cd1e694aa71b3)_
+_Simple Spend Transaction [Example](https://web.archive.org/web/20211203023155/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/36e0f7c61e40a232829087ed3152519765b7fcf7be7d8574387cd1e694aa71b3)_
 {{% /image %}}
 
 ### Sweep
@@ -140,7 +140,7 @@ _Simple Spend Transaction [Example](https://oxt.me/transaction/36e0f7c61e40a2328
 - Common Interpretation: Possible self-transfer
 
 {{% image "/img/oxt/oxt-6-en.webp" %}}
-_“Sweep” Example [Transaction](https://oxt.me/transaction/ae4e6fe34a8c4e98339ca84c902946e68a8bb8a6cdcf63f19d6f201a7a403f0e)_
+_“Sweep” Example [Transaction](https://web.archive.org/web/20211128125225/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/ae4e6fe34a8c4e98339ca84c902946e68a8bb8a6cdcf63f19d6f201a7a403f0e)_
 {{% /image %}}
 
 ### Consolidation Spend
@@ -153,7 +153,7 @@ Consolidation transactions combine multiple UTXOs into a single UTXO. These are 
 - Common Interpretation: Possible self-transfer
 
 {{% image "/img/oxt/oxt-7-en.webp" %}}
-_Consolidation Spend Example [Transaction](https://oxt.me/transaction/8855ca21337c5b82a1970aea0f4c21c7284016c33caa1d26a6441c74f6a0ba57)_
+_Consolidation Spend Example [Transaction](https://web.archive.org/web/20211128125227/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/8855ca21337c5b82a1970aea0f4c21c7284016c33caa1d26a6441c74f6a0ba57)_
 {{% /image %}}
 
 ### Batch Spend
@@ -166,7 +166,7 @@ Batch spends are most likely performed by exchanges and include 1 or more inputs
 - Common Interpretation: Large economic activity, likely exchange
 
 {{% image "/img/oxt/oxt-8-en.webp" %}}
-_Batch Spend Example [Transaction](https://oxt.me/transaction/3524f3e2bdd7c1a5e4bc116d3a55d650b67e37504258c731b9c7b63dc4425a45)_
+_Batch Spend Example [Transaction](https://web.archive.org/web/20211127055608/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/3524f3e2bdd7c1a5e4bc116d3a55d650b67e37504258c731b9c7b63dc4425a45)_
 {{% /image %}}
 
 ### Multi-party Transactions (Coinjoin)
@@ -179,7 +179,7 @@ Multi-party transactions involve collaboration between many users to perform a s
 - Output Profile: Number of identical outputs is a proxy for number of participants.
 
 {{% image "/img/oxt/oxt-9-en.webp" %}}
-_Coinjoin Example [Transaction](https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)_
+_Coinjoin Example [Transaction](https://web.archive.org/web/20211121195301/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/00601af905bede31086d9b1b79ee8399bd60c97e9c5bba197bdebeee028b9bea)_
 {{% /image %}}
 
 ## Change Detection — Simple Spend Interpretations
@@ -216,7 +216,7 @@ In a simple spend, if one output is to a new address, and the remaining output i
 Today, most bitcoin wallets will automatically generate a new address for receiving change outputs. However, a wallet can be configured to receive change to the same address as the transaction input. This behavior is typically indicative of centralized service wallet activities or old versions of the bitcoin core wallet.
 
 {{% image "/img/oxt/oxt-10-en.webp" %}}
-_Address Reuse Example [Transaction](https://oxt.me/transaction/4c18b982836006cbe54661942f632f10b9cc0072e97a32feeea77abd8c7c8c3c)_
+_Address Reuse Example [Transaction](https://web.archive.org/web/20211026160544/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/4c18b982836006cbe54661942f632f10b9cc0072e97a32feeea77abd8c7c8c3c)_
 {{% /image %}}
 
 ### Round Number Payment Heuristic
@@ -230,7 +230,7 @@ The change amount in a simple spend is calculated as follows:
 It’s difficult for a user to generate a change output for a “round number amount” on purpose. In a simple spend, the round number output is the likely payment which makes the remaining output the change output.
 
 {{% image "/img/oxt/oxt-11-en.webp" %}}
-_Round Number Payment Heuristic Example [Transaction](https://oxt.me/transaction/112c987fcb27c54452b8bbaff35a89c2aff3def5a132844fd58865c224d5169d)_
+_Round Number Payment Heuristic Example [Transaction](https://web.archive.org/web/20211124062950/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/112c987fcb27c54452b8bbaff35a89c2aff3def5a132844fd58865c224d5169d)_
 {{% /image %}}
 
 ### Different Script Type Heuristic
@@ -246,7 +246,7 @@ For a given input script type, if one output is to the same type as the input an
 In other words, an output to a different script type is the likely payment output. This heuristic can also be combined with the round number payment heuristic.
 
 {{% image "/img/oxt/oxt-12-en.webp" %}}
-_Different Script Output Type Heuristic Example [Transaction](https://oxt.me/transaction/046c82240b8b29612c5b385b9bca6557f72f2bbeed0a043b3799f94a6c979f3d)_
+_Different Script Output Type Heuristic Example [Transaction](https://web.archive.org/web/20211128125226/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/046c82240b8b29612c5b385b9bca6557f72f2bbeed0a043b3799f94a6c979f3d)_
 {{% /image %}}
 
 ### Largest Output Amount Heuristic
@@ -254,7 +254,7 @@ _Different Script Output Type Heuristic Example [Transaction](https://oxt.me/tra
 Another simple heuristic, assumes that the largest output amount is the likely change output. This is one of the weakest heuristics, particularly when taken in isolation, but as we will discuss in Part 2, this heuristic can be helpful in a transaction graph analysis.
 
 {{% image "/img/oxt/oxt-13-en.webp" %}}
-_Largest Output Heuristic Example [Transaction](https://oxt.me/transaction/5005628082b902961c25fb6c9503e2ad11e84a75e07e8f24f5b425451f017af6)_
+_Largest Output Heuristic Example [Transaction](https://web.archive.org/web/20211121202835/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/5005628082b902961c25fb6c9503e2ad11e84a75e07e8f24f5b425451f017af6)_
 {{% /image %}}
 
 ## Review And Preview

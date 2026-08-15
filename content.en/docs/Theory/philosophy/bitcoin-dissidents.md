@@ -68,11 +68,11 @@ Same with the crypto adoption. So far, there are few Belarusians using bitcoin, 
 
 “Right now, people view crypto as just a tool. But this can change when we grow the ecosystem significantly, so that people start paying each other in crypto,” he said. To start this parallel economy, the BYSOL team is now joining forces with several other non-profits helping people who were punished for protesting.
 
-Among them are [By_help](https://www.belarus97.pro/eng), helping people arrested during the rallies to pay court fines, and a  peer-to-peer network [Honest People](https://help.honest-people.by/people), where users can send money directly to the people in need, verified by volunteers. Together with BYSOL, these projects launched a mobile app, dubbed [Digital Solidairty](https://play.google.com/store/apps/details?id=io.by.digitalsolidarity), that would aggregate the applications for help in one place, with a crypto wallet built in.
+Among them are [By_help](https://www.belarus97.pro/eng), helping people arrested during the rallies to pay court fines, and a  peer-to-peer network [Honest People](https://web.archive.org/web/20200904123001/https://help.honest-people.by/people), where users can send money directly to the people in need, verified by volunteers. Together with BYSOL, these projects launched a mobile app, dubbed [Digital Solidairty](https://play.google.com/store/apps/details?id=io.by.digitalsolidarity), that would aggregate the applications for help in one place, with a crypto wallet built in.
 
 People will be able to apply for help and get it in one place, right on their phones, and donate to help others, too, Likhachevsky said.
 
-Not that the other partners are excited about crypto, just as the BYSOL team wasn’t at first, Likhachevsky admits, but he’s planning to convince his colleagues to switch to crypto, too. A wake-up call came just weeks ago, when the Belarusian banks [started blocking](https://svabod1.azureedge.net/a/30944185.html) the accounts of people By_help helped. 
+Not that the other partners are excited about crypto, just as the BYSOL team wasn’t at first, Likhachevsky admits, but he’s planning to convince his colleagues to switch to crypto, too. A wake-up call came just weeks ago, when the Belarusian banks [started blocking](https://web.archive.org/web/20201113040944/https://svabod1.azureedge.net/a/30944185.html) the accounts of people By_help helped. 
 
 “After this news, we had no choice but to move towards the digital economy of the future,” Likhachevsky said. Not to shock too many people with bitcoin’s volatility, the non-profit might switch to [tether](https://www.coindesk.com/about/tether/), a dollar-pegged stablecoin, he added.
 

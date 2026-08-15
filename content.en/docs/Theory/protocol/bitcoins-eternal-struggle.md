@@ -20,7 +20,7 @@ This article by Gigi was published on [dergigi.com](https://dergigi.com/2019/12/
 {{< /hint >}}
 
 {{% hint info %}}
-if you'd prefer to consume this essay in audio format, you can [listen to it here](https://dergigi.com/assets/audio/eternal-struggle.ogg) (narrated by [Guy Swann](https://guyswann.com/) of the Bitcoin Audible Podcast.)
+if you'd prefer to consume this essay in audio format, you can [listen to it here](https://dergigi.com/assets/audio/eternal-struggle.ogg) (narrated by [Guy Swann](https://web.archive.org/web/20201020234251/https://guyswann.com/) of the Bitcoin Audible Podcast.)
 {{% /hint %}}
 
 Bitcoin works. No matter what other opinions you hold about this strange phenomenon, it undoubtedly works, marches on, or, as I (and others) have [previously argued](https://dergigi.com/2019/08/07/proof-of-life/), is alive. Even if most of the world would grind to a halt, the Bitcoin network would continue to produce valid blocks every 10 minutes or so.
@@ -162,7 +162,7 @@ Satoshi undoubtedly knew that this was a long game. The era where fresh blocks a
 _2019: Early days of the Bitcoin Reward Era._
 {{% /image %}}
 
-There will be a time where those who are tasked with finding new blocks are rewarded mostly via the networks’ fee market, as Dan Held brilliantly argued in [Bitcoin’s Security is Fine](https://blog.picks.co/bitcoins-security-is-fine-93391d9b61a8). The point in time where the fee market takes over will be somewhere between the year 2020 and 2140. Either that, or Bitcoin will die, or some museum computers will try to find new blocks at an economic loss.
+There will be a time where those who are tasked with finding new blocks are rewarded mostly via the networks’ fee market, as Dan Held brilliantly argued in [Bitcoin’s Security is Fine](https://web.archive.org/web/20190731191800/https://blog.picks.co/bitcoins-security-is-fine-93391d9b61a8). The point in time where the fee market takes over will be somewhere between the year 2020 and 2140. Either that, or Bitcoin will die, or some museum computers will try to find new blocks at an economic loss.
 
 After this point in time, we will probably still talk about “mining” bitcoin, even though all the “miners” won’t be producing any _new_ bitcoins. All 21 million BTC — or 2,099,999,997,690,000 sats, to be precise — will have been mined. No new bitcoin will be added to the pool of existing coins in circulation.
 

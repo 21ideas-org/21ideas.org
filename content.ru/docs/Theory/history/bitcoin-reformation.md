@@ -16,7 +16,7 @@ weight: 53
 {{< hint btc >}}
 [Доклад Adamant Research](https://bitcoinwords.github.io/assets/papers/investment/Tuur%20Demeester%20-%20The%20Bitcoin%20Reformation.pdf)
 
-_Перевели и редактировали Олег Андреев,_ [_Tony⚡️_](https://twitter.com/TonyCrusoe) _([21ideas.org](https://www.21ideas.org/)), Валерия Важнова,_ [_Дима Железов_](https://twitter.com/dizhel)_,_ [_Иван Иваницкий_](https://twitter.com/IvanitskiyIvan)_, Александр Селезнев,_ [_Сергей Тихомиров_](https://s-tikhomirov.github.io/about/) _(подкаст "_[_Базовый Блок_](https://basicblockradio.com/)_")._
+_Перевели и редактировали Олег Андреев,_ [_Tony⚡️_](https://twitter.com/TonyCrusoe) _([21ideas.org](/)), Валерия Важнова,_ [_Дима Железов_](https://twitter.com/dizhel)_,_ [_Иван Иваницкий_](https://twitter.com/IvanitskiyIvan)_, Александр Селезнев,_ [_Сергей Тихомиров_](https://s-tikhomirov.github.io/about/) _(подкаст "_[_Базовый Блок_](https://basicblockradio.com/)_")._
 {{< /hint >}}
 
 ## Вступление

@@ -63,7 +63,7 @@ But by far the easiest way is to use _channel opening services_. To the best of 
 3. [LNBig.com](http://lnbig.com) — a large liquidity provider that will sell a channel to your node for a reasonable fee.
 4. [ln2me.com](https://ln2me.com) ([LightningTo.Me](https://lightningto.me/)) — my personal and non-profit hobby project that will establish a balanced channel of up to 0.1 BTC for free. And yes, it also sets very low routing fees.
 
-There are also nodes such as [Lightning Power Users](https://lightningpowerusers.com/home/) that promise to open a channel to your node if you first open a channel to their node. Beware that this will not always work with nodes running _c-lightning_, which allows only one channel between two nodes.
+There are also nodes such as [Lightning Power Users](https://web.archive.org/web/20190105095247/https://lightningpowerusers.com/home/) that promise to open a channel to your node if you first open a channel to their node. Beware that this will not always work with nodes running _c-lightning_, which allows only one channel between two nodes.
 
 (no longer working as of November 2020) Another interesting idea is a market place for channels. Two examples you can check are [glowsat.com](http://www.glowsat.com/#/) and [jolt.market](https://jolt.market). These services allow owners of LN nodes to buy and sell channels.
 
@@ -71,7 +71,7 @@ There are also nodes such as [Lightning Power Users](https://lightningpowerusers
 
 This may seem ridiculous to some, but that is actually a thing: you can exchange bitcoins for bitcoins. In a way, this is also a form of spending: you spend lightning bitcoins and buy on-chain bitcoins.
 
-I hope that soon enough many large exchanges will enable lightning deposits, but for the moment there are not so many options. I will just mention some links: [bitfinex.com](https://ln.bitfinex.com), [zigzag.io](https://zigzag.io/), [fixedfloat.com](https://fixedfloat.com/), [sideshift.ai](https://sideshift.ai/), [hodlhodl.com](https://hodlhodl.com/), [southxchange.com](https://www.southxchange.com/), [btcduke.com](https://www.btcduke.com/?lang=en), [coinplaza.it](https://www.coinplaza.it/), [ln.zone](https://ln.zone/), [lightningconductor.net](https://lightningconductor.net/invoice).
+I hope that soon enough many large exchanges will enable lightning deposits, but for the moment there are not so many options. I will just mention some links: [bitfinex.com](https://ln.bitfinex.com), [zigzag.io](https://zigzag.io/), [fixedfloat.com](https://fixedfloat.com/), [sideshift.ai](https://sideshift.ai/), [hodlhodl.com](https://hodlhodl.com/), [southxchange.com](https://web.archive.org/web/20130813125842/https://www.southxchange.com/), [btcduke.com](https://web.archive.org/web/20190209042829/https://www.btcduke.com/?lang=en), [coinplaza.it](https://www.coinplaza.it/), [ln.zone](https://web.archive.org/web/20180902163922/https://ln.zone/), [lightningconductor.net](https://lightningconductor.net/invoice).
 
 Please beware that exchange services are not always very reliable. Do your own research and immediately withdraw your coins once exchanged.
 

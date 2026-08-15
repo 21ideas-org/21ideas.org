@@ -64,7 +64,7 @@ Payment channels between two people _per se_ are not super useful. Ultimately, w
 {{< /hint >}}
 
 {{% image "/img/mln-851.webp" %}}
-_Mainnet LN: the graph of payment channels as of 22.01.2018 ([https://lnmainnet.gaben.win](https://lnmainnet.gaben.win))._
+_Mainnet LN: the graph of payment channels as of 22.01.2018 ([https://web.archive.org/web/20180118075741/https://lnmainnet.gaben.win](https://web.archive.org/web/20180118075741/https://lnmainnet.gaben.win))._
 {{% /image %}}
 
 Basically, analogous to TCP protocol, most people will need to have only one open channel to transact with anyone else.
@@ -219,7 +219,7 @@ There is a couple of non-trivial technicalities with selecting the right timefra
 In practice Alice and Bob can be connected through any arbitrary number of unknown/anonymous intermediaries across the whole world. The problem of finding the most optimal path of intermediaries in a graph of network nodes is called a _routing problem_.
 
 {{% image "/img/mln-854.webp" %}}
-_Geographical distribution of bitcoin testnet nodes ([https://explorer.acinq.co/#/](https://explorer.acinq.co/#/))._
+_Geographical distribution of bitcoin testnet nodes ([https://web.archive.org/web/20171211082555/https://explorer.acinq.co/#/](https://web.archive.org/web/20171211082555/https://explorer.acinq.co/#/))._
 {{% /image %}}
 
 The routing problem is in fact an area of active research at the moment. Optimal path depends on many dynamic factors: the availability of nodes, network topology, channels throughput, intermediaries fees.
@@ -262,7 +262,7 @@ It is easy to find lots of criticism of second layer solutions in general and of
 
 > *1. Using LN leads to centralization: users benefit from connecting to large hubs, and few of these hubs can control all the traffic.*
 
-This is a valid concern and deserves attention, but the risks are not huge. First, it is economically profitable and very simple to run a new node bypassing large hubs. Second, routing algorithms should balance the traffic among all the possible paths. And third, at least for the moment we [do not see this centralization happening](https://lnmainnet.gaben.win/). Going forward, I hope the optimal topology is going to be encouraged by wallet software itself.
+This is a valid concern and deserves attention, but the risks are not huge. First, it is economically profitable and very simple to run a new node bypassing large hubs. Second, routing algorithms should balance the traffic among all the possible paths. And third, at least for the moment we [do not see this centralization happening](https://web.archive.org/web/20180118075741/https://web.archive.org/web/20180118075741/https://lnmainnet.gaben.win/). Going forward, I hope the optimal topology is going to be encouraged by wallet software itself.
 
 > *2. Low channel throughput will result in LN congestion, fees rising, and the situation will be as bad as in the main bitcoin blockchain.*
 
@@ -292,7 +292,7 @@ LN payments are indeed more risky than on-chain transactions. But only [in case 
 
 The most important thing you need to know: Lightning is already here and it really works.
 
-[More than a thousand nodes](https://explorer.acinq.co/#/) in bitcoin testnet and [more then three hundred nodes](https://lnmainnet.gaben.win/) (growing every day) in mainnet are already processing transactions and testing different software today.
+[More than a thousand nodes](https://web.archive.org/web/20171211082555/https://explorer.acinq.co/#/) in bitcoin testnet and [more then three hundred nodes](https://web.archive.org/web/20180118075741/https://web.archive.org/web/20180118075741/https://lnmainnet.gaben.win/) (growing every day) in mainnet are already processing transactions and testing different software today.
 
 {{< x user="starkness" id="953434418948927488" >}}
 

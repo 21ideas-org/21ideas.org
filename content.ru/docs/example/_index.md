@@ -3,6 +3,8 @@ weight: 1
 bookFlatSection: true
 title: "Главная"
 h1: Добро пожаловать
+url: intro
+aliases: ['/docs/example/']
 bookHidden: true
 ---
 Сайт 21 идея разделен на логические разделы, чтобы облегчить навигацию и
