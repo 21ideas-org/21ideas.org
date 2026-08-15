@@ -255,16 +255,16 @@ RoboSats предлагает отдельную вкладку для жела�
 
 ### Федерации
 
-С версией 0.6.0-alpha RoboSats [представили](https://learn.robosats.com/robosats/update/pre-release-robosats-decentralized/) федерации – возможность каждому желающему запустить собственную версию площадки и координировать торги. Это огромный шаг в сторону децентрализации и цензуростойкости платформы. С развитием этого направления мы поделимся с вами особенностями запуска федераций. Следите за обновлениями и появлением стабильной публичной версии.
+С версией 0.6.0-alpha RoboSats [представили](https://web.archive.org/web/20240128161437/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/robosats/update/pre-release-robosats-decentralized/) федерации – возможность каждому желающему запустить собственную версию площадки и координировать торги. Это огромный шаг в сторону децентрализации и цензуростойкости платформы. С развитием этого направления мы поделимся с вами особенностями запуска федераций. Следите за обновлениями и появлением стабильной публичной версии.
 
 ## Полезные ссылки
 
 RoboSats – проект с открытым исходным кодом и активным сообществом. Всю необходимую информацию можно найти, перейдя по следующим ссылкам:
 
 - [GitHub](https://github.com/RoboSats/robosats)
-- [Документация](https://learn.robosats.com/docs/quick-start/)
+- [Документация](https://web.archive.org/web/20220527112453/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/quick-start/)
 - [Телеграм чат](https://t.me/robosats_ru) (ру)
-- [SimpleX чат](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D) (eng)
+- [SimpleX чат](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%3D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D) (eng)
 - [Matrix чат](https://matrix.to/#/#robosats:matrix.org) (eng) 
 
 Надеемся, этот гид оказался полезен. Остались вопросы? Есть предложения? Оставляйте комментарии через Ностр ниже или пишите нам [другими способами](/feedback).

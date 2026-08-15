@@ -34,7 +34,7 @@ In a multi-hop scenario, the final destination is receiving part of a different 
 
 ### Privacy improvements in Lightning
 
-Each peer in a multi-hop transaction is requesting to pay the next peer in the hop. All they know is who asked them to route a payment and who is the next peer to hand the funds off to. Due to the [onion routing](https://wiki.ion.radar.tech/tech/lightning/onion-routing) properties of payments, the router does not know who the rest of the peers are down the path nor who came before them. This includes the original sender or final destination.
+Each peer in a multi-hop transaction is requesting to pay the next peer in the hop. All they know is who asked them to route a payment and who is the next peer to hand the funds off to. Due to the [onion routing](https://web.archive.org/web/20190819182808/https://wiki.ion.radar.tech/tech/lightning/onion-routing) properties of payments, the router does not know who the rest of the peers are down the path nor who came before them. This includes the original sender or final destination.
 
 Senders in the Lightning Network end up having great privacy because of this. The sender knows who the destination node is, crafts the onion routed payment and sends it off. Even the first peer can not know for certain if that was the original sender (some caveats in the sender section).
 
@@ -90,7 +90,7 @@ However, if not, I would suggest not picking a name that is tied to your real-li
 
 Node alias is announced when you open a public channel, but there are other ways your node can be associated with your identity.
 
-Chat-based apps like [Sphinx Chat](https://sphinx.chat/) work by communicating from your node to other nodes through the Lightning Network. It’s very cool tech that I love and use. Yet, it relies on linking a node with Sphinx and when people chat with you, they are sending payments to your node. From there, they can see all the public info on your linked node. Raspiblitz has a [feature](https://github.com/rootzoll/raspiblitz/issues/2073) in the works to spin up a secondary node on your same device that may be used with Sphinx. I’d highly recommend using that or spinning up a second node that you keep for cool use cases in the network. Sphinx currently allows you to use one of their hosted nodes instead, but keep in mind that they can track and read every message.
+Chat-based apps like [Sphinx Chat](https://web.archive.org/web/20200110010553/https://sphinx.chat/) work by communicating from your node to other nodes through the Lightning Network. It’s very cool tech that I love and use. Yet, it relies on linking a node with Sphinx and when people chat with you, they are sending payments to your node. From there, they can see all the public info on your linked node. Raspiblitz has a [feature](https://github.com/rootzoll/raspiblitz/issues/2073) in the works to spin up a secondary node on your same device that may be used with Sphinx. I’d highly recommend using that or spinning up a second node that you keep for cool use cases in the network. Sphinx currently allows you to use one of their hosted nodes instead, but keep in mind that they can track and read every message.
 
 Besides apps like Sphinx, be cautious of any service that sends you funds and knows your identity. You would not give your XPUB to a service, don’t give out your node identity to one either. More on why not in the “receiver privacy” section.
 
@@ -296,7 +296,7 @@ Based on the Balance Probing section, instead of a large payment flowing through
 
 ### Rendezvous
 
-[Rendezvous](https://bitcointechweekly.com/front/proposal-for-rendez-vous-routing/) routing is a great improvement on receiver privacy. Receivers conceal their public key and private channels by creating an invoice with encrypted onion information already filled in. They specify a random node that the sender should create a path to, and from there the rest of the payment is routed. The sender never knows who the final destination node is, and neither does any node along the route.
+[Rendezvous](https://web.archive.org/web/20190821050135/https://bitcointechweekly.com/front/proposal-for-rendez-vous-routing/) routing is a great improvement on receiver privacy. Receivers conceal their public key and private channels by creating an invoice with encrypted onion information already filled in. They specify a random node that the sender should create a path to, and from there the rest of the payment is routed. The sender never knows who the final destination node is, and neither does any node along the route.
 
 ### Route blinding
 
@@ -330,7 +330,7 @@ There’s many improvements with [Taproot](https://bitcoinops.org/en/topics/tapr
 
 ### Channel factories
 
-[Channel factories](https://wiki.ion.radar.tech/tech/research/channel-factory#overview-1) are where many peers can pool their funds to create a subnet of channels together. There are scalability benefits, but another potential end result is that they may end up looking like a coinjoined channel from the outside. Channel factories would require a few protocol enhancements to the base and Lightning layer. Alternatively, a multiparty batched channel creation application could achieve a similar result.
+[Channel factories](https://web.archive.org/web/20190819184750/https://wiki.ion.radar.tech/tech/research/channel-factory#overview-1) are where many peers can pool their funds to create a subnet of channels together. There are scalability benefits, but another potential end result is that they may end up looking like a coinjoined channel from the outside. Channel factories would require a few protocol enhancements to the base and Lightning layer. Alternatively, a multiparty batched channel creation application could achieve a similar result.
 
 ### Others
 

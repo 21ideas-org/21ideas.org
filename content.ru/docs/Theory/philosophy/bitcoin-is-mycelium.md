@@ -383,7 +383,7 @@ __Биткоин значительно улучшился в 2018:__
 
  - [Lightning Network](https://bitnovosti.com/2019/02/19/pyat-gorodov-s-naibolshim-kolichestvom-uzlov-lightning-network/) набирает обороты;
  - Доля транзакций в сети BTC с применением протокола SegWit [приблизилась к 60%](http://charts.woobull.com/bitcoin-segwit-adoption/);
- - Джимми Сонг ([Jimmy Song](https://programmingbitcoin.com/)) и Джастин Мун ([Justin Moon](http://ww12.buidlbootcamp.com/)) занимаются подготовкой новых разработчиков Биткоина;
+ - Джимми Сонг ([Jimmy Song](https://programmingbitcoin.com/)) и Джастин Мун ([Justin Moon](https://web.archive.org/web/20231002183057/http://ww12.buidlbootcamp.com/)) занимаются подготовкой новых разработчиков Биткоина;
  - [The Block](https://www.theblock.co/) устанавливает стандарт журналистики в отрасли;
  - [Casa](https://keys.casa/), [Pierre](https://medium.com/lightning-power-users/easy-lightning-with-node-launcher-zap-488133edfbd), [Nodl](https://www.nodl.eu/) и другие облегчают запуск полных узлов;
  - [Nomics](https://nomics.com/) предоставляет более достоверные данные по сравнению с CoinMarketCap (СМС – основной ресурс для отслеживания курсов криптовалют);

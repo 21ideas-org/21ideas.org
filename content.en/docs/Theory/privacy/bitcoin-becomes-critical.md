@@ -49,4 +49,4 @@ Gladstein encouraged those of us who can leverage encrypted technologies like Si
 - [Spotify](https://open.spotify.com/episode/7po9aEazePg6C9zFhnlSQZ?si=7yHDpPhHQteuBWnYC2nq0g)
 - [Google](https://open.spotify.com/episode/7po9aEazePg6C9zFhnlSQZ?si=7yHDpPhHQteuBWnYC2nq0g)
 - [Overcast](https://overcast.fm/+Rp4pmKbt8)
-- [Libsyn](http://bitcoinmagazine.btc.libsynpro.com/governments-seek-encryption-backdoors-bitcoin-is-critical-w-alex-gladstein-bitcoin-magazine)
+- [Libsyn](https://web.archive.org/web/20201127141840/http://bitcoinmagazine.btc.libsynpro.com/governments-seek-encryption-backdoors-bitcoin-is-critical-w-alex-gladstein-bitcoin-magazine)

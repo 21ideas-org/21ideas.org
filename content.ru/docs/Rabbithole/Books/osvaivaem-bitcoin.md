@@ -16,4 +16,5 @@ weight: 90
 Второе издание 2018 года оставлено для истории и доступно по [ссылке](https://media.21ideas.org/epubs/mastering-bitcoin.pdf). Содержит примеры использования библиотек, отсутствующих в третьем издании, подробное описание механизмов Segwit, а так же неактуальных на данный момент технологий таких, как Colored Coins.
 
 {{< button href="https://media.21ideas.org/epubs/mastering-bitcoin-3e.pdf" >}}Скачать{{< /button >}}
+
 --- 

@@ -26,7 +26,7 @@ This compromise is as old as the White Paper. Satoshi already warned us against 
 
 Many solutions exist to receive multiple payments, without producing address reuse. Each of them has its own trade-offs and disadvantages. Among all these solutions, there is the BIP47, a proposal developed by Justus Ranvier and published in 2015 to generate reusable payment codes. Their goal is to be able to carry out several transactions to the same person, without reusing an address.
 
-Initially, this proposal received a contemptuous reception from part of the community, and it was never added to Bitcoin Core. Some software has still chosen to implement it on their own. Thus, [Samourai Wallet](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) has developed its own implementation of BIP47: [PayNym](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/paynym). Today, this implementation is obviously available on Samourai Wallet for smartphones, but also on [Sparrow Wallet](https://web.archive.org/web/20230331145759/https://sparrowwallet.com/) for PCs.
+Initially, this proposal received a contemptuous reception from part of the community, and it was never added to Bitcoin Core. Some software has still chosen to implement it on their own. Thus, [Samourai Wallet](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) has developed its own implementation of BIP47: [PayNym](https://web.archive.org/web/20230331145759/https://web.archive.org/web/20191017224740/https://samouraiwallet.com/paynym). Today, this implementation is obviously available on Samourai Wallet for smartphones, but also on [Sparrow Wallet](https://web.archive.org/web/20230331145759/https://sparrowwallet.com/) for PCs.
 
 Over time, Samourai has programmed new features directly related to PayNym. Now, there is an ecosystem of tools to optimize user privacy based on PayNym and BIP47.
 
@@ -62,7 +62,7 @@ There are many solutions for these organizations. Each of them has its advantage
 This problem of address reuse is far from negligible on Bitcoin. As you can see in the graph below taken from the oxt.me site, the overall address reuse rate by Bitcoin users is currently 52%:
 
 {{% image "/img/bip47-ili-gadkij-utenok/ugly-988.webp" %}}
-_Credit: [https://oxt.me/charts](https://oxt.me/charts)_
+_Credit: [https://web.archive.org/web/20170625033327/https://web.archive.org/web/20170202120225/https://oxt.me/charts](https://web.archive.org/web/20170625033327/https://web.archive.org/web/20170202120225/https://oxt.me/charts)_
 {{% /image %}}
 
 The majority of these reuses come from exchanges that, for reasons of efficiency and ease, reuse the same address many times. To date, BIP47 would be the best solution to stem this phenomenon in exchanges. This would make it possible to reduce this overall rate of address reuse, without causing too much friction for these entities. This overall measurement over the entire network is a particularly consistent data in this case. Indeed, address reuse is not only a problem for the person who performs this type of practice, but also for anyone who carries out transactions with it. The loss of privacy on Bitcoin acts as a virus, and spreads from user to user. Studying a global measure on all network transactions allows us to become aware of the magnitude of this phenomenon.
@@ -136,7 +136,7 @@ I did these tutorials on the Testnet. These are not real bitcoins.
 
 ### Build a BIP47 transaction with Samourai Wallet.
 
-For starters, you're obviously going to need the Samourai Wallet app. You can download it directly from the Google Play Store, or with the [APK file](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/download) available on the [official website](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) of Samourai.
+For starters, you're obviously going to need the Samourai Wallet app. You can download it directly from the Google Play Store, or with the [APK file](https://web.archive.org/web/20230331145759/https://web.archive.org/web/20190919001900/https://samouraiwallet.com/download) available on the [official website](https://web.archive.org/web/20230331145759/https://samouraiwallet.com/) of Samourai.
 
 Once the wallet is initialized, if you have not already done so, request your PayNym by clicking on the plus (+) at the bottom right, then on "PayNym".
 

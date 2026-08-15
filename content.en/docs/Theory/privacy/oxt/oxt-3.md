@@ -59,7 +59,7 @@ The application of external transaction data such as outputs sent to centralised
 Transactions can be made more ambiguous by wallet software that aims to defeat the heuristics for change detection presented in Part 1. When taken in isolation, the transaction below is an example of a “maximally” ambiguous simple spend.
 
 {{% image "/img/oxt/oxt-30-en.webp" %}}
-_Ambiguous Simple Spend ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
+_Ambiguous Simple Spend ([TxID](https://web.archive.org/web/20211130072726/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
 {{% /image %}}
 
 ### Round Number Payment Heuristic Defences
@@ -89,7 +89,7 @@ Identical change output scripts and randomised change positions can be applied b
 A link always exists between a transaction’s inputs and outputs. These intra-transaction UTXO relationships can be thought of as “flows”. Where the BTC consumed by input UTXOs are transferred to the output UTXOs.
 
 {{% image "/img/oxt/oxt-31-en.webp" %}}
-_UTXO Flow Visualization via OXT Tx Graph ([TxID](https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
+_UTXO Flow Visualization via OXT Tx Graph ([TxID](https://web.archive.org/web/20211130072726/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/e610d6ab26878c9f37502b3f31755ae5066d9e982613c6042757d8972d412a84))_
 {{% /image %}}
 
 In the case of a simple spend (1 input and 2 outputs), the single input must have been used to pay both outputs. A simple spend’s intra-transaction flows only have a single interpretation. As a result, the link between the single input and each output is mathematically deterministic (**certain**).
@@ -109,7 +109,7 @@ Breaking deterministic links and creating on-chain ambiguity requires a specific
 By themselves, transactions with multiple inputs and outputs can create a noisy transaction graph. These types of transactions are not easily interpreted without special tooling or considerations.
 
 {{% image "/img/oxt/oxt-33.png" %}}
-_Series of Multi-Input and Output Transactions Example ([TxID](https://oxt.me/transaction/c7d1e40ae001a7fe4c860f9b7ddddcf9b5a3dad461466744e9b5e28c4b47e6b7))_
+_Series of Multi-Input and Output Transactions Example ([TxID](https://web.archive.org/web/20211127054850/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/c7d1e40ae001a7fe4c860f9b7ddddcf9b5a3dad461466744e9b5e28c4b47e6b7))_
 {{% /image %}}
 
 Despite the noisy transaction graph, deterministic links between UTXOs of transactions with multiple inputs and outputs can still be evaluated. Kristov Atlas was the first to introduce this concept in his “[CoinJoin Sudoku](https://github.com/kristovatlas/coinjoin-sudoku)” advisory and algorithm.
@@ -118,14 +118,14 @@ In a coinjoin, users pool their funds and collaborate to construct a transaction
 
 A discussion of these maths is beyond the scope of this guide, but the important takeaway is that a naively constructed coinjoin transaction can be evaluated for deterministic links.
 
-Today, the coinjoin sudoku concept has been extended with the [Boltzmann](https://code.samourai.io/oxt/boltzmann) algorithm created by the OXT lead developer, [LaurentMT](https://twitter.com/laurentmt). Boltzmann uses the CoinJoin Sudoku concept to evaluate transactions for several privacy related metrics.
+Today, the coinjoin sudoku concept has been extended with the [Boltzmann](https://web.archive.org/web/20201111003822/https://code.samourai.io/oxt/boltzmann) algorithm created by the OXT lead developer, [LaurentMT](https://twitter.com/laurentmt). Boltzmann uses the CoinJoin Sudoku concept to evaluate transactions for several privacy related metrics.
 
 For properly constructed coinjoins, **a link between inputs and equal outputs still exists, however these links are probabalistic not deterministic**. The Boltzmann algorithm calculates a Link Probability Matrix (LPM) for the relationship between a transactions inputs and outputs.
 
 A transaction’s LPM output can be found on the TRANSACTION page on OXT. In the INPUTS&OUTPUTS tab, the link subset between an input and each output can be seen by clicking the “CHAIN ICON” to the right of the desired UTXO.
 
 {{% image "/img/oxt/oxt-34-en.webp" %}}
-_OXT Link Matrix Subset ([TxID](https://oxt.me/transaction/3a7455d3f04709870f7148f9f9c8d6c8a3fd83e8c76afadf6a4acd613afdb53e))_
+_OXT Link Matrix Subset ([TxID](https://web.archive.org/web/20211124061702/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/3a7455d3f04709870f7148f9f9c8d6c8a3fd83e8c76afadf6a4acd613afdb53e))_
 {{% /image %}}
 
 The LPM for selected UTXOs in evaluated transactions can also be found by selecting inputs and outputs on the OXT Transaction graph (see Fig 3.3). A visual of the full LPM produced by Boltzmann’s algorithm can be found at [kycp.org](http://kycp.org/).

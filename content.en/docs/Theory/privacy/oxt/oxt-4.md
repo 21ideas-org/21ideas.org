@@ -129,7 +129,7 @@ Samourai Wallet’s stealth address implementation is based on the [BIP 47](http
 _V1 BIP47 Payment Code Architecture ([BIP 47 Github](https://raw.githubusercontent.com/bitcoin/bips/master/bip-0047/reusable_payment_codes-01.png))_
 {{% /image %}}
 
-Reusable payment codes deprive analysts of a “free” starting point on the bitcoin block chain. More information on Samourai Wallet’s reusable payment code can be found [here](https://docs.samourai.io/en/wallet/usage#paynym-1).
+Reusable payment codes deprive analysts of a “free” starting point on the bitcoin block chain. More information on Samourai Wallet’s reusable payment code can be found [here](https://web.archive.org/web/20220215131208/https://docs.samourai.io/en/wallet/usage#paynym-1).
 
 ### Coin Control — UTXO Segregation
 
@@ -154,10 +154,10 @@ Ricochet is a simple tool that automatically adds “hops”, or dummy transacti
 Source of fund evaluation for transactions with a single input are relatively easy to perform, but adding “hops” requires a receiving entity to evaluate history beyond the immediate incoming UTXO. Transaction graph traversal analyses are simple to perform, but expanding incoming UTXO history evaluation implies additional doubt based on the “UTXO Ownership Model” which increases chances for false positives.
 
 {{% image "/img/oxt/oxt-45-en.webp" %}}
-*Example Ricochet Transaction ([TxID](https://oxt.me/transaction/ee0d4dd6703949e594d88734ec40aa669a586c3126ee713bcf5883bd7f55b816))*
+*Example Ricochet Transaction ([TxID](https://web.archive.org/web/20220701222918/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/ee0d4dd6703949e594d88734ec40aa669a586c3126ee713bcf5883bd7f55b816))*
 {{% /image %}}
 
-The current version of ricochet includes four extra hops. A more “dynamic” ricochet with a variable number of hops is planned in future updates. More information on ricochet can be found [here](https://docs.samourai.io/wallet/privacy-enhanced-transactions#ricochet).
+The current version of ricochet includes four extra hops. A more “dynamic” ricochet with a variable number of hops is planned in future updates. More information on ricochet can be found [here](https://web.archive.org/web/20210608000813/https://docs.samourai.io/wallet/privacy-enhanced-transactions#ricochet).
 
 ### Stonewall and Stonewall x2 — Payments Made Safe
 
@@ -180,7 +180,7 @@ Stonewall’s are true payments, that still include deterministic links for thei
 As we described in [Part III](/en/privacy/oxt-3), payjoin transactions undermine the common input ownership heuristic. If a single UTXO does not have a sufficient balance to make the desired payment amount, wallet software will include additional inputs as needed to meet the desired amount. Analysts can potentially incorrectly assume the inputs these transactions are controlled by the same wallet.
 
 {{% image "/img/oxt/oxt-47-en.webp" %}}
-*Example Stonewall Transaction ([TxID](https://oxt.me/transaction/14ff5e5c9206f7722b0ed421d26f1cb003c523070c4882150073817683bd2dda))*
+*Example Stonewall Transaction ([TxID](https://web.archive.org/web/20220701224025/https://web.archive.org/web/20170202120225/https://oxt.me/transaction/14ff5e5c9206f7722b0ed421d26f1cb003c523070c4882150073817683bd2dda))*
 {{% /image %}}
 
 Payjoins typically have no indistinguishable on chain fingerprint. By including inputs from the transaction sender and payment recipient, two wallets are used to construct the transaction. This undermines the CIOH and creates a “false cluster”. As a consequence of the recipient contributing inputs to the transaction payjoin, the true transaction payment amount is also hidden.

@@ -20,7 +20,7 @@ This article by [Jameson Lopp](https://twitter.com/lopp) was published in his [b
 {{< /hint >}}
 
 {{< hint info >}}
-_Note_: if you'd prefer to consume this essay in audio format, you can [listen to it here](https://www.lopp.net/media-archive/presentations/Bitcoin_Audible-On_Ossification.mp3) (narrated by [Guy Swann](https://guyswann.com/) of the Bitcoin Audible Podcast.)
+_Note_: if you'd prefer to consume this essay in audio format, you can [listen to it here](https://www.lopp.net/media-archive/presentations/Bitcoin_Audible-On_Ossification.mp3) (narrated by [Guy Swann](https://web.archive.org/web/20201020234251/https://guyswann.com/) of the Bitcoin Audible Podcast.)
 {{< /hint >}}
 
 Ossification in the context of network protocols refers to the slowdown in their evolution and rate of change. It appears to be a law of network physics. Essentially, as a network protocol achieves greater adoption, the "mass" of the network grows and the effort required to alter the direction of the network by coordinating software updates across the users of the protocol increases substantially. Eventually, the ability to safely activate any protocol changes is crushed under the massive weight of the network as it becomes impossible to coordinate massive numbers of decentralized actors.

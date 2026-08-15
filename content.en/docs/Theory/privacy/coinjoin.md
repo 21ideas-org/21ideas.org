@@ -11,7 +11,7 @@ weight: 7
 ---
 
 {{< hint btc >}}
-This article by [@BitcoinOnly_](https://twitter.com/BitcoinOnly_) and [@6102bitcoin](https://twitter.com/6102bitcoin) was published on [6102bitcoin.com](https://6102bitcoin.com/coinjoin-overview/) website.
+This article by [@BitcoinOnly_](https://twitter.com/BitcoinOnly_) and [@6102bitcoin](https://twitter.com/6102bitcoin) was published on [6102bitcoin.com](https://web.archive.org/web/20200812054057/https://6102bitcoin.com/coinjoin-overview/) website.
 
 [Contribute](/contribute/).
 {{< /hint >}}

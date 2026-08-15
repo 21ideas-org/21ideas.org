@@ -31,7 +31,7 @@ url: table
 | - 5,000 | [btclinux](https://github.com/btclinux) | ["Биткоин-реформация", "Сможет ли Биткоин пережить апокалипсис?"](https://github.com/21ideas-org/21ideas.org/pull/84) | 976,000 |
 | - 5,000 | [Radiokot](https://github.com/Radiokot) | [Локализация дат блогпостов](https://github.com/21ideas-org/21ideas.org/pull/87) | 971,000 |
 | - 6,500 | [btclinux](https://github.com/btclinux) | ["Раскошеливаемся", "Все - мошенники"](https://github.com/21ideas-org/21ideas.org/pull/88) | 964,500 |
-| - 21,000 | [btclinux](https://github.com/btclinux) | [Курс "Биткоин от А до Я"](https://21ideas.org/kurs/) | 943,500 |
+| - 21,000 | [btclinux](https://github.com/btclinux) | [Курс "Биткоин от А до Я"](/course/) | 943,500 |
 | -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для YouTube видео](https://github.com/21ideas-org/21ideas.org/pull/92)" | 937,500 |
 | -6,000 | [vjik](https://github.com/vjik) | "[Починка шорткода для изображений](https://github.com/21ideas-org/21ideas.org/pull/93)" | 931,500 |
 | -2,100 | [vjik](https://github.com/vjik) | "[Починка шорткода для ностр](https://github.com/21ideas-org/21ideas.org/pull/94)" | 929,400 |
@@ -69,4 +69,4 @@ url: table
 | - 30,000 | [btclinux](https://github.com/btclinux) | Перевод и добавление англоязычных версий статей | 434,000 |
 | - 2100 | [Radiokot](https://github.com/Radiokot) | Исправление ошибки меню сайта | 432,000 |
 | - 12,000 | [btclinux](https://github.com/btclinux) |  Помощь в переносе библиотеки биткоинера | 420,000 |
-| - 5,000 | [btclinux](https://github.com/btclinux) |  [Проверка подлинности программного обеспечения с помощью PGP](https://21ideas.org/pgp-verify/) | 420,000 |
+| - 5,000 | [btclinux](https://github.com/btclinux) |  [Проверка подлинности программного обеспечения с помощью PGP](/pgp-verify/) | 420,000 |

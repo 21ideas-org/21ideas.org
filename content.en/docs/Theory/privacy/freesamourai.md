@@ -235,7 +235,7 @@ So now we are in the situation where, several months in a row, one privacy coder
 
 Two senators have already voiced their disdain for the situation. Senator Lummis stated how [“This stance contradicts existing Treasury guidance, common sense and violates the rule of law”](https://cryptonews.com/news/cynthia-lummis-slams-doj-after-tornado-cash-saourai-wallet-charges.htm). She sent a letter together with Senator Wyden urging the Department of Justice to reconsider its enforcement action in the case of Samourai Wallet. Other well connected individuals such as [Caitlin Long](https://x.com/CaitlinLong_/status/1784292300270575730) are also starting to take notice.
 
-We must reiterate that [Non-custodial mixers are not money transmitters](https://blog.samourai.is/statement-on-legality-of-coinjoin-and-other-privacy-tools/). No new law has been passed yet that changes this. But the Samourai Wallet trial may set the precedent such that they needn't go through the trouble of enacting new law.
+We must reiterate that [Non-custodial mixers are not money transmitters](https://web.archive.org/web/20231204090458/https://blog.samourai.is/statement-on-legality-of-coinjoin-and-other-privacy-tools/). No new law has been passed yet that changes this. But the Samourai Wallet trial may set the precedent such that they needn't go through the trouble of enacting new law.
 
 Given that the prosecutor claims Samourai Wallet have "transferred funds on behalf of the public" when there is no evidence of the sort, because Samourai Wallet never did this, this could open up many possible interpretations of Bitcoin use by the government, all to the detriment of Bitcoin users.
 
@@ -247,7 +247,7 @@ Bitcoin's node implementations and the wallets people use may become the next ta
 
 This is not hyperbole in the slightest. The US already has a terrible track record respecting the privacy of its citizens, but more importantly it was a hard fought battle for the [precedence](https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech/) in US law about the [first](https://archive.epic.org/crypto/export_controls/bernstein_decision_9_cir.html) amendment [protection](https://www.theregister.com/2021/06/08/pgp_at_30/) of [code](https://reason.com/video/2020/10/21/cryptowars-gilmore-zimmermann-cryptography/).
 
-This situation is likely to impact Bitcoin for all US citizens, and citizens of foreign nations (re: EU member states) where the US government extends their enforcement upon. Bitcoin has its [own history](https://blog.samourai.is/reflections-on-bitcoin-as-peer-to-peer-cash/) in relation to the US legislature, where it depends on its constituents to fight for their own rights to the freedom to transact and their freedom to do so privately.
+This situation is likely to impact Bitcoin for all US citizens, and citizens of foreign nations (re: EU member states) where the US government extends their enforcement upon. Bitcoin has its [own history](https://web.archive.org/web/20231113111654/https://blog.samourai.is/reflections-on-bitcoin-as-peer-to-peer-cash/) in relation to the US legislature, where it depends on its constituents to fight for their own rights to the freedom to transact and their freedom to do so privately.
 
 One such moment in history to join the fight is right fucking now.
 

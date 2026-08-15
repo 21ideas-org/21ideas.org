@@ -62,13 +62,13 @@ _Для того чтобы получать платежи, ваш узел д�
 3. [LightningTo.Me](https://lightningto.me/) - мой личный некоммерческий хобби-проект, который бесплатно откроет канал BTC 0.02 с вашим узлом. И да, он также не взимает плату за маршрутизацию. [Здесь](https://github.com/LightningTo-Me/manuals/blob/master/Channel_Request.md) вы можете найти ответы на некоторые часто задаваемые вопросы.
 4. [LNBig.com](https://lnbig.com/#/) - крупный провайдер ликвидности, который бесплатно откроет канал до 0.04 BTC. Их политика в отношении тарифов на маршрутизацию меняется довольно часто, так что обратите на это внимание.
 
-Есть также узлы, которые обещают открыть канал с вашим узлом, если вы первым откроете канал с их узлом. Предлагаю обратить внимание на [WILL_CONNECT_BACK](https://1ml.com/node/03ee180e8ee07f1f9c9987d98b5d5decf6bad7d058bdd8be3ad97c8e0dd2cdc7ba) или [Lightning Power Users](https://lightningpowerusers.com/home/). Остерегайтесь, что это не всегда будет работать с нодами, на которых запущена c-lightning, которая разрешает только один канал между двумя узлами.
+Есть также узлы, которые обещают открыть канал с вашим узлом, если вы первым откроете канал с их узлом. Предлагаю обратить внимание на [WILL_CONNECT_BACK](https://1ml.com/node/03ee180e8ee07f1f9c9987d98b5d5decf6bad7d058bdd8be3ad97c8e0dd2cdc7ba) или [Lightning Power Users](https://web.archive.org/web/20190105095247/https://lightningpowerusers.com/home/). Остерегайтесь, что это не всегда будет работать с нодами, на которых запущена c-lightning, которая разрешает только один канал между двумя узлами.
 
 # Решение 3: Кастодиальный обмен лайтнинг-биткоинов на ончейн-биткоины
 
 Для некоторых это может показаться нелепым, но это действительно является одним из решений: вы можете обменять биткоины на биткоины. В каком-то смысле, это тоже форма траты: вы тратите лайтнинг-биткоины и получаете ончейн монеты взамен.
 
-Я надеюсь, что достаточно скоро многие крупные биржи позволят осуществлять лайтнинг-депозиты, но на данный момент вариантов не так уж и много. Я упомяну некоторые из них: [zigzag.io](https://zigzag.io/), [fixedfloat.com](https://fixedfloat.com/), [sideshift.ai](https://sideshift.ai/), [southxchange.com](https://www.southxchange.com/), [btcduke.com](https://www.btcduke.com/?lang=en), [coinplaza.it](https://www.coinplaza.it/), [lightningconductor.net](https://lightningconductor.net/invoice).
+Я надеюсь, что достаточно скоро многие крупные биржи позволят осуществлять лайтнинг-депозиты, но на данный момент вариантов не так уж и много. Я упомяну некоторые из них: [zigzag.io](https://zigzag.io/), [fixedfloat.com](https://fixedfloat.com/), [sideshift.ai](https://sideshift.ai/), [southxchange.com](https://web.archive.org/web/20130813125842/https://www.southxchange.com/), [btcduke.com](https://web.archive.org/web/20190209042829/https://www.btcduke.com/?lang=en), [coinplaza.it](https://www.coinplaza.it/), [lightningconductor.net](https://lightningconductor.net/invoice).
 
 Пожалуйста, имейте в виду, что услуги биржи не всегда надежны. Проведите собственное исследование и сразу же после осуществления сделки выведите свои монеты.
 

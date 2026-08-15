@@ -20,7 +20,7 @@ This article by [Jameson Lopp](https://twitter.com/lopp) was published in his [b
 {{< /hint >}}
 
 {{% hint info %}}
-if you'd prefer to consume this essay in audio format, you can [listen to it here](https://lopp.net/media-archive/presentations/Who_Controls_Bitcoin_Core.mp3) (narrated by [Guy Swann](https://guyswann.com/) of the Bitcoin Audible Podcast.)
+if you'd prefer to consume this essay in audio format, you can [listen to it here](https://web.archive.org/web/20251003085539/https://lopp.net/media-archive/presentations/Who_Controls_Bitcoin_Core.mp3) (narrated by [Guy Swann](https://web.archive.org/web/20201020234251/https://guyswann.com/) of the Bitcoin Audible Podcast.)
 {{% /hint %}}
 
 The question of who controls the ability to merge code changes into [Bitcoin Core](https://bitcoincore.org/)’s [GitHub repository](https://github.com/bitcoin/bitcoin) tends to come up on a recurring basis. This has been cited as a “central point of control” of the Bitcoin protocol by various parties over the years, but I argue that the question itself is a red herring that stems from an authoritarian perspective — this model does not apply to Bitcoin. It’s certainly not obvious to a layman as to why that is the case, thus the goal of this article is to explain how Bitcoin Core operates and, at a higher level, how the Bitcoin protocol itself evolves.

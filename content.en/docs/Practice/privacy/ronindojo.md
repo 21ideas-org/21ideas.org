@@ -11,11 +11,11 @@ weight: 2
 ---
 
 {{% hint btc %}}
-The author would like to thank [Estudio Bitcoin](https://twitter.com/estudiobitcoin), and personally [Albercoin](https://twitter.com/Albercoin) and [Arkad](https://twitter.com/Multicripto), for their [work](https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) on installing RoninDojo on x86.
+The author would like to thank [Estudio Bitcoin](https://twitter.com/estudiobitcoin), and personally [Albercoin](https://twitter.com/Albercoin) and [Arkad](https://twitter.com/Multicripto), for their [work](https://web.archive.org/web/20240226054424/https://estudiobitcoin.com/how-to-install-ronindojo-pc-intel-amd-x86_64) on installing RoninDojo on x86.
 {{% /hint %}}
 
 {{% hint info %}}
-Installation of "vanilla" Dojo is described in [official documentation](https://docs.samourai.io/en/dojo) by [Samourai](https://twitter.com/SamouraiWallet) and in [guide](/en/practice-privacy/dojo) by [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
+Installation of "vanilla" Dojo is described in [official documentation](https://web.archive.org/web/20210124060626/https://docs.samourai.io/en/dojo) by [Samourai](https://twitter.com/SamouraiWallet) and in [guide](/en/practice-privacy/dojo) by [𝕂𝕐ℂ𝟛](https://twitter.com/KYCfree).
 {{% /hint %}}
 
 {{% hint danger %}}

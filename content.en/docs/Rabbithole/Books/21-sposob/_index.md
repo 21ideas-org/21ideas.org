@@ -12,7 +12,7 @@ bookToc: false
 weight: 5
 ---
 
-Проекты [21 идея](https://21ideas.org/)💡, [BitKorn](https://www.youtube.com/c/BitKornRUS)🌽 и [∞/21М](https://t.me/gametheoryhub)⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги [GiGi](https://dergigi.com/) "[21 ways](https://21-ways.com/)". Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал [BitKorn](https://www.youtube.com/c/BitKornRUS) и подкасты 21ideas ([традиционные площадки](https://anchor.fm/tony-lightning) / [лайтнинг-площадка](https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8)), чтобы своевременно получать свежие аудио- и форматы.
+Проекты [21 идея](/)💡, [BitKorn](https://www.youtube.com/c/BitKornRUS)🌽 и [∞/21М](https://t.me/gametheoryhub)⚡️ объединяют усилия, чтобы предоставить вам русскоязычную версию книги [GiGi](https://dergigi.com/) "[21 ways](https://21-ways.com/)". Книга будет доступна как в текстовом, так и в аудиоформате и будет появляться на этой страничке. Мы также настоятельно советуем подписаться на YouTube-канал [BitKorn](https://www.youtube.com/c/BitKornRUS) и подкасты 21ideas ([традиционные площадки](https://anchor.fm/tony-lightning) / [лайтнинг-площадка](https://fountain.fm/show/chmjnVB1ZkSY3MC2FxY8)), чтобы своевременно получать свежие аудио- и форматы.
 
 Поддержать инициативу можно, перейдя на нашу [страничку донатов](https://tallycoin.app/@21ideas/21-zho0IO4x/) (ончейн). В качестве альтернативы вы можете использовать лайтнинг-адрес 21ways-ru@coinos.io перейдя по ссылке [https://coinos.io/21ways-ru](https://coinos.io/21ways-ru).
 

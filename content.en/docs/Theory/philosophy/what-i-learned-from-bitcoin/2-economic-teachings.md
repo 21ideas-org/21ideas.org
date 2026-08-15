@@ -99,7 +99,7 @@ One of my personal lightbulb moments was the realization that issuing new curren
 
 > "Mere inflation — that is, the mere issuance of more money, with the consequence of higher wages and prices — may look like the creation of more demand. But in terms of the actual production and exchange of real things it is not.”
 > 
-> — [Henry Hazlitt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwi058KmgNrfAhWHneAKHbmCDFUQFjACegQIExAC&url=https%3A%2F%2Fmises.org%2Fsystem%2Ftdf%2FHenry%2520Hazlitt%2520Economics%2520in%2520One%2520Lesson.pdf%3Ffile%3D1%26type%3Ddocument&usg=AOvVaw0_kRtaNPMez0UdYGsrKThv)
+> — [Henry Hazlitt](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwi058KmgNrfAhWHneAKHbmCDFUQFjACegQIExAC&url=https%3A%2F%2Fmises.org%2Fsystem%2Ftdf%2FHenry%20Hazlitt%20Economics%20in%20One%20Lesson.pdf%3Ffile%3D1%26type%3Ddocument&usg=AOvVaw0_kRtaNPMez0UdYGsrKThv)
 
 The destructive force of inflation becomes obvious as soon as a little inflation turns into _a lot_. If money [hyperinflates](https://en.wikipedia.org/wiki/Hyperinflation), things get ugly real quick. As the inflating currency falls apart, it will fail to store value over time and people will rush to get their hands on any goods which might do.
 
@@ -367,7 +367,7 @@ The simplicity of the difficulty adjustment algorithm might distract from its pr
 
 Just like E=mc² dictates the [universal speed limit](https://en.wikipedia.org/wiki/Speed_of_light#Upper_limit_on_speeds) in our universe, Bitcoin’s difficulty adjustment dictates the **universal money limit** in Bitcoin.
 
-If it weren’t for this difficulty adjustment, all bitcoins would have been mined already. If it weren’t for this difficulty adjustment, Bitcoin probably wouldn’t have survived in its infancy. It is what secures the network in its reward era. It is what ensures a steady and [fair distribution](https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892) of new bitcoin. It is the thermostat which regulates Bitcoin’s monetary policy.
+If it weren’t for this difficulty adjustment, all bitcoins would have been mined already. If it weren’t for this difficulty adjustment, Bitcoin probably wouldn’t have survived in its infancy. It is what secures the network in its reward era. It is what ensures a steady and [fair distribution](https://web.archive.org/web/20190731191430/https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892) of new bitcoin. It is the thermostat which regulates Bitcoin’s monetary policy.
 
 Einstein showed us something novel: no matter how hard you push an object, at a certain point you won’t be able to get more speed out of it. Satoshi also showed us something novel: no matter how hard you dig for this digital gold, at a certain point you won’t be able to get more bitcoin out of it. For the first time in human history, we have a monetary good which, no matter how hard you try, you won’t be able to produce more of.
 
@@ -414,7 +414,7 @@ There exists an almost endless list of books and essays on the topics discussed 
 - [Shelling Out: The Origins of Money](http://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/shell.html) by Nick Szabo
 - [The Bitcoin Halving and Monetary Competition](https://thesaifhouse.wordpress.com/2016/07/09/the-bitcoin-halving-and-monetary-competition/) by [Saifedean Ammous](https://twitter.com/saifedean)
 - [The Bullish Case For Bitcoin](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1) by [Vijay Boyapati](https://twitter.com/real_vijay)
-- [Bitcoin’s distribution was fair](https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892) by [Dan Held](https://twitter.com/danheld)
+- [Bitcoin’s distribution was fair](https://web.archive.org/web/20190731191430/https://blog.picks.co/bitcoins-distribution-was-fair-e2ef7bbbc892) by [Dan Held](https://twitter.com/danheld)
 
 {{< details "Contents" "..." >}}
 

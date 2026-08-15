@@ -238,7 +238,7 @@ If you do not want to get the complete kit, you can buy a standalone enclosure o
 
 - Worldwide delivery available from [BTC Hardware Solutions](https://btc-hardware-solutions.square.site/product/orange_pill/5?cs=true&cst=custom)
 - Worldwide delivery available from [Robotechy](https://robotechy.com/collections/frontpage/products/seedsigner-3d-printed-pill-case)
-- EU/U.K. delivery available from [GoBrrr](https://www.gobrrr.me/product/seedsigner-lilpill-case/?v=7516fd43adaa), [DIYNodes](https://diynodes.com/product/seedsigner-3d-printed-orange-pill-case/) and [AnchorHodl](https://anchorhodl.com/product/retro-pill-case-for-seedsigner)
+- EU/U.K. delivery available from [GoBrrr](https://www.gobrrr.me/product/seedsigner-lilpill-case/?v=7516fd43adaa), [DIYNodes](https://diynodes.com/product/seedsigner-3d-printed-orange-pill-case/) and [AnchorHodl](https://web.archive.org/web/20220208174521/https://anchorhodl.com/product/retro-pill-case-for-seedsigner)
 
 ### The Camera And Cable
 
@@ -271,7 +271,7 @@ The Raspberry Pi Zero is the smallest single-board computer Raspberry Pi manufac
 If you do not want to get the complete kit, you can buy a standalone Raspberry Pi Zero from the following vendors:
 
 - EU/U.K. delivery available from [GoBrrr](https://www.gobrrr.me/product/pizero-wh/?v=7516fd43adaa)
-- EU delivery available from [BricoGeek](https://tienda.bricogeek.com/placas-raspberry-pi/1358-raspberry-pi-zero-v1-3.html) or [Reichelt](https://www.reichelt.com/ch/en/raspberry-pi-zero-v-1-3-1-ghz-512-mb-ram-rasp-pi-zero-p256439.html)
+- EU delivery available from [BricoGeek](https://web.archive.org/web/20200809083647/https://tienda.bricogeek.com/placas-raspberry-pi/1358-raspberry-pi-zero-v1-3.html) or [Reichelt](https://www.reichelt.com/ch/en/raspberry-pi-zero-v-1-3-1-ghz-512-mb-ram-rasp-pi-zero-p256439.html)
 - North American delivery available from [Adafruit](https://www.adafruit.com/product/2885)
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-zero-version-13-i2659573158-s12653906040.html?spm=a2o4l.seller.list.1.111a346bP5V0no&mp=1&freeshipping=1)
 
@@ -633,7 +633,7 @@ To verify that the wallet information could be recovered in the event of catastr
 
 Recovery in this case can still be possible by visually transcribing the information from the burnt QR code steel plate to a paper note card and then scanning the QR code on the note card. This stress test revealed that the steel plate can withstand temperatures just below 1,500° C, well above typical house fire temperatures, and the information contained within the steel plate was still 100% recoverable by visually transcribing the QR code to a paper note card.
 
-You can watch the fire test in the full video at [this link](https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU?start=12m23s).
+You can watch the fire test in the full video at [this link](https://web.archive.org/web/20220527150434/https://web.archive.org/web/20220527150454/https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU?start=12m23s).
 
 {{% image "/img/seedsigner/116.webp" /%}}
 
@@ -1013,7 +1013,7 @@ One helpful feature of SeedSigner is that the required components are widely ava
 
 ## Video Summary
 
-[This video](https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU) demonstrates a high-level overview of the content within this guide. The video is not meant as a replacement for the information in this guide, only as a supplemental visual assistant that demonstrates testing, assembly, generating a seed, entering a passphrase, backing up a seed via QR code and fire-testing the steel plate.
+[This video](https://web.archive.org/web/20220527150454/https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU) demonstrates a high-level overview of the content within this guide. The video is not meant as a replacement for the information in this guide, only as a supplemental visual assistant that demonstrates testing, assembly, generating a seed, entering a passphrase, backing up a seed via QR code and fire-testing the steel plate.
 
 <center><video src="https://v.nostr.build/L5w2.mp4" controls style="width: 100%"></video></center>
 

@@ -282,13 +282,13 @@ _https://youtu.be/nSRoEeqYtJA_
 
 Сайт также поддерживает множество других элементов оформления. Вы можете ознакомиться с ними по ссылкам ниже: 
 
-* [Кнопки](https://hugo-book-demo.netlify.app/docs/shortcodes/buttons/)
-* [Колонки](https://hugo-book-demo.netlify.app/docs/shortcodes/columns/)
-* [Скрывающиейся списки](https://hugo-book-demo.netlify.app/docs/shortcodes/details/)
-* [Раскрывающиеся разделы](https://hugo-book-demo.netlify.app/docs/shortcodes/expand/)
-* [Katex (формулы)](https://hugo-book-demo.netlify.app/docs/shortcodes/katex/)
-* [Mermaid (графики)](https://hugo-book-demo.netlify.app/docs/shortcodes/mermaid/)
-* [Вкладки](https://hugo-book-demo.netlify.app/docs/shortcodes/tabs/)
+* [Кнопки](https://book.alxs.dev/docs/content/shortcodes/buttons/)
+* [Колонки](https://book.alxs.dev/docs/content/shortcodes/columns/)
+* [Скрывающиейся списки](https://book.alxs.dev/docs/content/shortcodes/details/)
+* Раскрывающиеся разделы
+* [Katex (формулы)](https://book.alxs.dev/docs/content/shortcodes/katex/)
+* [Mermaid (графики)](https://book.alxs.dev/docs/content/shortcodes/mermaid/)
+* [Вкладки](https://book.alxs.dev/docs/content/shortcodes/tabs/)
 
 Я не буду перечислять и подробно описывать каждый из них, потому что сомневаюсь, что они будут очень популярны при оформлении статей. Эти элементы скорее полезны при оформлении титульных страниц и основных подразделов сайта. Тем не менее, вы вольны использовать эти инструменты, если считаете, что они способны улучшить опыт читателя. Если у вас возникнут какие-либо вопросы по использованию тех или иных элементов, не стесняйтесь писать Тони или другим модераторам. Контакты доступны на странице ["Принять участие"](/contribute).
 

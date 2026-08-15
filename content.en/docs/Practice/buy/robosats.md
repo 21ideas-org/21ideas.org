@@ -37,7 +37,7 @@ There are many ways to obtain Bitcoin without having to provide all of your pers
 
 [RoboSats](https://github.com/RoboSats/robosats) is an Open Source peer-to-peer exchange for buying and selling sats using the Lightning Network. It requires zero sign up information, is accessible via the Tor browser or an Android app and allows you to obtain sats directly to your own wallet. Because RoboSats is native to the Lightning Network, trades can be completed in as little as 5 minutes (_if both peers are online at the same time_) and for incredibly low fees.
 
-RoboSats operates globally, supporting all popular fiat currencies and payment methods. All you need is a peer wanting to do trade in your chosen currency/method pairing. If your chosen method is not listed, you can create your own offer and wait for someone to come to you. Certain payment methods come with more risk than others, so be sure to be aware of the [trade-offs](https://learn.robosats.com/docs/payment-methods/) of your chosen method.
+RoboSats operates globally, supporting all popular fiat currencies and payment methods. All you need is a peer wanting to do trade in your chosen currency/method pairing. If your chosen method is not listed, you can create your own offer and wait for someone to come to you. Certain payment methods come with more risk than others, so be sure to be aware of the [trade-offs](https://web.archive.org/web/20221002041728/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/payment-methods/) of your chosen method.
 
 # Before You Start
 
@@ -47,19 +47,19 @@ RoboSats operates globally, supporting all popular fiat currencies and payment m
 
 |   |   |
 |---|---|
-|[Robot](https://learn.robosats.com/docs/robots/)|Your automatically generated private trade identity. Do not re-use the same robot more than once as this can degrade your privacy.|
-|[Token](https://learn.robosats.com/docs/robots/#robot-re-use-not-recommended)|A string of random characters used to generate your unique robot.|
+|[Robot](https://web.archive.org/web/20221002021956/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/robots/)|Your automatically generated private trade identity. Do not re-use the same robot more than once as this can degrade your privacy.|
+|[Token](https://web.archive.org/web/20221002021956/https://web.archive.org/web/20221002021956/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/robots/#robot-re-use-not-recommended)|A string of random characters used to generate your unique robot.|
 |[Maker](https://bitcoiner.guide/robosats/)|A user who creates an offer to buy or sell Bitcoin.|
 |[Taker](https://bitcoiner.guide/robosats/)|A user who takes another user up on their offer to buy or sell Bitcoin.|
-|[Bond](https://learn.robosats.com/docs/bonds/)|An amount of Bitcoin locked up by both peers as a pledge to play fair and complete their part of the trade. Bonds are typically 3% of the total trade amount and are powered by [Hodl Invoices](https://github.com/lightningnetwork/lnd/pull/2022).|
-|[Trade Escrow](https://learn.robosats.com/docs/escrow/)|Used by the seller as a method of holding the trade amount of Bitcoin, again using Hodl Invoices.|
-|[Fees](https://learn.robosats.com/docs/fees/)|RoboSats charges **0.2%** of the trade amount, which is split between both maker and taker. The taker pays **0.175%** and the maker pays **0.025%**.|
+|[Bond](https://web.archive.org/web/20221002033800/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/bonds/)|An amount of Bitcoin locked up by both peers as a pledge to play fair and complete their part of the trade. Bonds are typically 3% of the total trade amount and are powered by [Hodl Invoices](https://github.com/lightningnetwork/lnd/pull/2022).|
+|[Trade Escrow](https://web.archive.org/web/20221002032238/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/escrow/)|Used by the seller as a method of holding the trade amount of Bitcoin, again using Hodl Invoices.|
+|[Fees](https://web.archive.org/web/20221002041908/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/fees/)|RoboSats charges **0.2%** of the trade amount, which is split between both maker and taker. The taker pays **0.175%** and the maker pays **0.025%**.|
 
 ## Things you need to have
 
 ### A Lightning Wallet
 
-RoboSats is Lightning native, so you’re going to need a Lightning Wallet to fund the bond and receive the purchased sats as a buyer. You should take care when choosing your wallet, due to the technology used to make RoboSats function, not all are [compatible](https://learn.robosats.com/docs/wallets/).
+RoboSats is Lightning native, so you’re going to need a Lightning Wallet to fund the bond and receive the purchased sats as a buyer. You should take care when choosing your wallet, due to the technology used to make RoboSats function, not all are [compatible](https://web.archive.org/web/20220606114010/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/wallets/).
 
 If you’re a node runner, [Zeus](https://zeusln.app/) is by far the best option. If you don’t have your own node, I’d highly recommend [Phoenix](https://phoenix.acinq.co/), a cross platform mobile wallet with simple setup and access to Lightning. Phoenix was used in the production of this guide.
 
@@ -100,7 +100,7 @@ At the time of writing RoboSats is still undergoing active development, so the i
 
 {{% image "/img/robosats/robo-04-en.webp" /%}}
 
-4. Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and [premium](https://learn.robosats.com/docs/premium/) over the average exchange rate.
+4. Click Offers to browse the order book. At the top of the page you can then filter to your preferences. Be sure to take note of the bond percentages and [premium](https://web.archive.org/web/20221002041541/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/premium/) over the average exchange rate.
 
 - Choose Buy
 - Choose your currency
@@ -215,7 +215,7 @@ There are no restrictions on payment methods in RoboSats. If you don’t see any
 
 ## What does RoboSats learn about me when I use it?
 
-Providing you use RoboSats via Tor or the Android app, nothing at all! Learn more [here.](https://learn.robosats.com/docs/private/)
+Providing you use RoboSats via Tor or the Android app, nothing at all! Learn more [here.](https://web.archive.org/web/20220529004910/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/private/)
 
 - Tor protects your network privacy.
 - PGP encryption keeps your trade chat private.
@@ -223,7 +223,7 @@ Providing you use RoboSats via Tor or the Android app, nothing at all! Learn mor
 
 However, there are some caveats! Lightning is fairly private as a sender, but not as a receiver. If you receive to your own Lightning node, your node ID is shared in your invoices. This node ID gives anyone with knowledge of it a starting point to try and link your on-chain activity. This is also true if a user opts to receive their trade via an on-chain payout.
 
-To mitigate this, users can opt to use a solution such as a [Proxy Wallet](https://learn.robosats.com/docs/proxy-wallets/) for Lightning or [Coinjoin](https://bitcoiner.guide/privacy/separate/) for on-chain.
+To mitigate this, users can opt to use a solution such as a [Proxy Wallet](https://web.archive.org/web/20221002024316/https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/docs/proxy-wallets/) for Lightning or [Coinjoin](https://bitcoiner.guide/privacy/separate/) for on-chain.
 
 # Coming Soon
 
@@ -239,7 +239,7 @@ The RoboSats team realise this and have started work on a [federated model](http
 
 ## Written Guides
 
-Check out [Athena Alpha](https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/) for their guide on how to buy bitcoins with RoboSats or their full review [here](https://www.athena-alpha.com/robosats-review/).
+Check out [Athena Alpha](https://web.archive.org/web/20230210130105/https://www.athena-alpha.com/how-to-buy-bitcoins-using-robosats/) for their guide on how to buy bitcoins with RoboSats or their full review [here](https://web.archive.org/web/20230503144416/https://www.athena-alpha.com/robosats-review/).
 
 ## Video Guides
 
@@ -251,7 +251,7 @@ See RoboSats in action with these awesome video guides by [BTC Sessions](https:/
 
 ### Useful Links
 
-RoboSats is completely Open-Source. You can find the code source [here](https://github.com/RoboSats/robosats) and their extensive documentation [here](https://learn.robosats.com/)
+RoboSats is completely Open-Source. You can find the code source [here](https://github.com/RoboSats/robosats) and their extensive documentation [here](https://web.archive.org/web/20220519124138/https://web.archive.org/web/20220519124138/https://learn.robosats.com/)
 
 Use RoboSats by any of the following methods:
 
@@ -262,7 +262,7 @@ Use RoboSats by any of the following methods:
 
 If you have any questions or feedback, get involved via these options:
 
-- [SimpleX](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%253D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D)
+- [SimpleX](https://simplex.chat/contact/#/?v=1-2&smp=smp%3A%2F%2F0YuTwO05YJWS8rkjn9eLJDjQhFKvIYd8d4xG8X1blIU%3D%40smp8.simplex.im%2FyEX_vdhWew_FkovCQC3mRYRWZB1j_cBq%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAnrf9Jw3Ajdp4EQw71kqA64VgsIIzw8YNn68WjF09jFY%3D%26srv%3Dbeccx4yfxxbvyhqypaavemqurytl6hozr47wfc7uuecacjqdvwpw2xid.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22hWnMVPnJl-KT3-virDk0JA%3D%3D%22%7D)
 - [Reddit](https://reddit.com/r/robosats)
 - [Matrix](https://matrix.to/#/#robosats:matrix.org)
 
