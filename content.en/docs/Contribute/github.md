@@ -100,7 +100,7 @@ File names should be specified in English. The name must be spelled correctly (c
 12. Insert the text of the prepared material below the **head**.
 13. To add images to the article you need to upload them to the repository. To do this:
 
-	- navigate to the `/21ideas.org/themes/hugo-book/static/img` folder
+	- navigate to the `/21ideas.org/static/img` folder
 	- create a new folder for your article's images and give it the name of your article
 	- save images in the newly created folder
 
