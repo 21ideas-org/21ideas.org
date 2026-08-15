@@ -33,7 +33,7 @@ weight: 3
 {{% hint btc %}}
 Prerequisites.
 
-- Completed "Dojo Node Guide," [Part 1](/privacy/dojo-1).
+- Completed "Dojo Node Guide," [Part 1](/en/practice-privacy/dojo-1).
 - Bitcoin Core IBD Complete.
 {{% /hint %}}
 

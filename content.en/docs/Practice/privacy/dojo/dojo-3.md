@@ -33,7 +33,7 @@ weight: 4
 {{% hint btc %}}
 Prerequisites.
 
-- Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2).
+- Completed "Dojo Node Guide," Parts [1](/en/practice-privacy/dojo-1), [2](/en/practice-privacy/dojo-2).
 - Fulcrum synchronization completed.
 {{% /hint %}}
 

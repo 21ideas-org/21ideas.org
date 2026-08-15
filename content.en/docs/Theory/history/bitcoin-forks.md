@@ -73,7 +73,7 @@ Note: These terms are believed to have originated in [April 2012](https://gist.g
 <tr>
 <td style="width: 10%;">28 July 2010</td>
 <td style="text-align: right; width: 10%;">n/a<sup>1</sup></td>
-<td style="width: 10%;"><a href="[https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141](view-source:https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141)">0.3.5</a></td>
+<td style="width: 10%;"><a href="https://en.bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures#CVE-2010-5141">0.3.5</a></td>
 <td style="width: 29%;">OP_RETURN disabled, fixing a critical bug which enabled anyone to spend any Bitcoin.</td>
 <td style="width: 12%;">Softfork</td>
 <td style="width: 29%;" width="151">No evidence of any issues during this upgrade.</td>

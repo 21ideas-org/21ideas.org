@@ -408,7 +408,7 @@ My journey continues, and as mentioned in part one, I think that any answer to t
 - [_Applied Cryptography_](https://www.schneier.com/books/applied_cryptography/) by Bruce Schneier
 - [_Reflections on Trusting Trust_](https://www.archive.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf) by Ken Thompson
 - [_Cypherpunks_](https://www.orbooks.com/catalog/cypherpunks/) by Julian Assange with Jacob Appelbaum
-- [_The Anatomy of Proof-of-Work_](https://bitcointechtalk.com/the-anatomy-of-proof-of-work-98c85b6f6667) by [Hugo Nguyen](hhttps://twitter.com/hugohano)
+- [_The Anatomy of Proof-of-Work_](https://bitcointechtalk.com/the-anatomy-of-proof-of-work-98c85b6f6667) by [Hugo Nguyen](https://twitter.com/hugohano)
 - [_Blockchain Proof-of-Work Is a Decentralized Clock_](https://grisha.org/blog/2018/01/23/explaining-proof-of-work/) by Gregory Trubetskoy
 - [_Unpacking Bitcoin’s Social Contract_](https://medium.com/s/story/bitcoins-social-contract-1f8b05ee24a9) by [Hasu](https://twitter.com/hasufl)
 - [_Why Bitcoin Matters_](https://hackernoon.com/why-bitcoin-matters-c8bf733b9fad) by [Aleksandar Svetski](https://twitter.com/AleksSvetski)

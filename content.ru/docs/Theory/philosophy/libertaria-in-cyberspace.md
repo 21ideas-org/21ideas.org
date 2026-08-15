@@ -15,7 +15,7 @@ weight: 68
 
 
 {{< hint btc >}}
-Перевод [письма](https://archive.bitcoin-calendar.org/archive/1756637991.437384/www.activism.net/cypherpunk/libertaria.html) Тима Мэя, отправленного в в 1992 году в список рассылки Экстропианцев, подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
+Перевод [письма](https://www.activism.net/cypherpunk/libertaria.html) Тима Мэя, отправленного в в 1992 году в список рассылки Экстропианцев, подготовлен [Тони⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7)
 
 [Поддержать проект](/contribute)
 {{< /hint >}}

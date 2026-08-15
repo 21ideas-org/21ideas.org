@@ -151,14 +151,14 @@ weight: 7
 
 ---
 
-[^41]: Саймон Нойбауэр, Жан-Жак Юблин и Филипп Гунц, "Эволюция формы мозга современного человека", Science Advances, 24 января 2018 г. [doi.org/10.1126/sciadv.aao5961](doi.org/10.1126/sciadv.aao5961). 
+[^41]: Саймон Нойбауэр, Жан-Жак Юблин и Филипп Гунц, "Эволюция формы мозга современного человека", Science Advances, 24 января 2018 г. [doi.org/10.1126/sciadv.aao5961](https://doi.org/10.1126/sciadv.aao5961). 
 [^42]: Люсьен Февр и Анри-Жан Мартен, The Coming of the Book (Verso, 1976).
 [^43]: Карл Поппер, "Гипотезы и опровержения" (Пенн, Бакингемшир, 1965).
-[^44]: Исаак Ньютон, письмо Роберту Гуку, 5 февраля 1675 г. Доступно по ссылке: [digitallibrary.hsp.org/index.php/Detail/objects/9792](digitallibrary.hsp.org/index.php/Detail/objects/9792).
+[^44]: Исаак Ньютон, письмо Роберту Гуку, 5 февраля 1675 г. Доступно по ссылке: [digitallibrary.hsp.org/index.php/Detail/objects/9792](https://digitallibrary.hsp.org/index.php/Detail/objects/9792).
 [^45]: Вольтер, "Век Людовика XIV" (1752).
 [^46]: Карл Поппер, цитата Марка Дамазера, "В голосовании величайшего философа нашего времени", In Our Time (BBC 4).
-[^47]: "Машина Бэббиджа", Музей истории компьютеров. [computerhistory.org/babbage/](computerhistory.org/babbage/).
+[^47]: "Машина Бэббиджа", Музей истории компьютеров. [computerhistory.org/babbage/](https://computerhistory.org/babbage/).
 [^48]: Клод Э. Шеннон, "Математическая теория связи", Технический журнал системы Белла, 1948.
 [^49]: Джон Маккарти, Марвин Мински, Натаниэль Рочестер и Клод Шеннон, "Предложение для Дартмутского летнего исследовательского проекта по искусственному интеллекту", 31 августа 1955 г. Доступно по ссылке [www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html](http://formal.stanford.edu/jmc/history/dartmouth/dartmouth.html).
-[^50]: Джек Коупленд, "Биография Тьюринга", AlanTuring.net, июль 2000 г. [www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html](www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html).
-[^51]: Благотворительный фонд "Гэтсби", "Отдел вычислительной нейронауки Гэтсби", [gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit](gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit). 
+[^50]: Джек Коупленд, "Биография Тьюринга", AlanTuring.net, июль 2000 г. [www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html](https://www.alanturing.net/turing_archive/pages/Reference%20Articles/Bio%20of%20Alan%20Turing.html).
+[^51]: Благотворительный фонд "Гэтсби", "Отдел вычислительной нейронауки Гэтсби", [gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit](https://gatsby.org.uk/neuroscience/programmes/gatsby-computational-neuroscience-unit). 

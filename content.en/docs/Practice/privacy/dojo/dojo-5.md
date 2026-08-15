@@ -33,7 +33,7 @@ weight: 6
 {{% hint btc %}}
 Prerequisites.
 
-Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3), [4](/privacy/dojo-4).
+Completed "Dojo Node Guide," Parts [1](/en/practice-privacy/dojo-1), [2](/en/practice-privacy/dojo-2), [3](/en/practice-privacy/dojo-3), [4](/en/practice-privacy/dojo-4).
 {{% /hint %}}
 
 ## Uncomplicated Firewall (UFW)

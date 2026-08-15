@@ -10,7 +10,7 @@ bookFlatSection: false
 weight: 10
 ---
 
-This is the first of a series of articles that will describe the details of how multisignature functions with bitcoin. We’ve written extensively about [bitcoin economics](/gradually-then-suddenly), [data science](https://unchained.com/blog/category/data-science/), and [astronomy](https://unchained.com/blog/category/bitcoin-astronomy/), and we feel that it is the right time to explore the deeper technical details of multisignature to help users protect their bitcoin as we approach the 3rd halvening era. We expect that bitcoin will become much more valuable in the future, and friends should always help friends better secure bitcoin.
+This is the first of a series of articles that will describe the details of how multisignature functions with bitcoin. We’ve written extensively about [bitcoin economics](/en/gradually-then-suddenly), [data science](https://unchained.com/blog/category/data-science/), and [astronomy](https://unchained.com/blog/category/bitcoin-astronomy/), and we feel that it is the right time to explore the deeper technical details of multisignature to help users protect their bitcoin as we approach the 3rd halvening era. We expect that bitcoin will become much more valuable in the future, and friends should always help friends better secure bitcoin.
 
 {{< hint btc >}}
 This article was published in [Unchained blog](https://unchained.com/blog/why-multisig).

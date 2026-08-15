@@ -31,7 +31,7 @@ weight: 5
 {{< /details >}}
 
 {{% hint btc %}}
-Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3).
+Перед выполнением дальнейших шагов убедитесь, что завершены все действия из частей [1](/practice-privacy/dojo-1), [2](/practice-privacy/dojo-2), [3](/practice-privacy/dojo-3).
 {{% /hint %}}
 
 ## Введение

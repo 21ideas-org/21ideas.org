@@ -33,7 +33,7 @@ There are a few things I'd change, but for historical reasons I'll just leave it
 
 ## The Crypto Anarchist Manifesto
 
-[Timothy C. May](ftp://soda.berkeley.edu/pub/cypherpunks/people/tcmay.html) \<tcmay@netcom.com\>
+[Timothy C. May](https://nakamotoinstitute.org/authors/timothy-c-may/) \<tcmay@netcom.com\>
 
 A specter is haunting the modern world, the specter of crypto anarchy.
 

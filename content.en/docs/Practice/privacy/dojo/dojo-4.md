@@ -33,7 +33,7 @@ weight: 5
 {{% hint btc %}}
 Prerequisites.
 
-Completed "Dojo Node Guide," Parts [1](/privacy/dojo-1), [2](/privacy/dojo-2), [3](/privacy/dojo-3).
+Completed "Dojo Node Guide," Parts [1](/en/practice-privacy/dojo-1), [2](/en/practice-privacy/dojo-2), [3](/en/practice-privacy/dojo-3).
 {{% /hint %}}
 
 ## Introduction
