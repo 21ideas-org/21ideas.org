@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Практики безопасности on 21ideas</title><link>https://21ideas.org/docs/Practice/security/</link><description>Recent content in Практики безопасности on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/docs/Practice/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Создаём ключ, не доверяя генератору</title><link>https://21ideas.org/dice-seed/</link><pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate><guid>https://21ideas.org/dice-seed/</guid><description>&lt;p&gt;Практическое руководство: как самостоятельно получить энтропию игральной костью, превратить её в сид-фразу оффлайн и проверить результат тремя независимыми реализациями.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Гид подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;h2 id="прецедент"&gt;
+ Прецедент
+ &lt;a class="anchor" href="#%d0%bf%d1%80%d0%b5%d1%86%d0%b5%d0%b4%d0%b5%d0%bd%d1%82"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;blockquote class="book-hint info"&gt;
+ 🥱 Если вы уже знаете причины, по которым полагаться на генераторы случайных чисел нежелательно, можете перейти к разделу &lt;a href="https://21ideas.org/dice-seed#%d0%bc%d0%b0%d1%82%d1%87%d0%b0%d1%81%d1%82%d1%8c"&gt;матчасть&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;p&gt;30 июля с примерно пятисот биткоин-адресов одной серией &lt;a href="https://gm.21ideas.org/digests/2026-07-31/#security-1"&gt;вывели&lt;/a&gt; &lt;strong&gt;594,48 BTC&lt;/strong&gt; — около 38 миллионов долларов. 1324 UTXO ушли пятьюстами транзакциями в окне трёх блоков; 562 BTC затем свели на три адреса. Разбор цепочки принадлежит Робу Гамильтону из AnchorWatch и разошёлся по прессе — &lt;a href="https://www.coindesk.com/tech/2026/07/31/major-bitcoin-wallet-flaw-drains-594-btc-in-25-minute-sweep"&gt;CoinDesk&lt;/a&gt;, &lt;a href="https://www.tftc.io/coldcard-mk3-rng-security-warning-594-btc-swept"&gt;TFTC&lt;/a&gt;, &lt;a href="https://atlas21.com/594-bitcoin-drained-15-minutes-theft/"&gt;atlas21&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Проверка подлинности программ с помощью PGP</title><link>https://21ideas.org/pgp-verify/</link><pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/pgp-verify/</guid><description>&lt;p&gt;Немного терминологии:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PGP&lt;/strong&gt; (Pretty Good Privacy) — программа, позволяющая выполнять операции шифрования и цифровой подписи сообщений и файлов, которая была разработана Филиппом Циммерманом в 1991 году. В 1997 году был разработан открытый стандарт OpenPGP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPG&lt;/strong&gt; (GnuPG, GNU Privacy Guard) — программа для шифрования информации и создания электронных цифровых подписей. Разработана как альтернатива PGP и выпущена под свободной лицензией GNU GPL. GnuPG полностью совместима со стандартом OpenPGP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В данной статье будет рассмотрена проверка цифровой подписи файлов с помощью GPG.&lt;/p&gt;</description></item></channel></rss>

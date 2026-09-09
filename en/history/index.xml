@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>History on 21ideas</title><link>https://21ideas.org/en/history/</link><description>Recent content in History on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Hal Finney — The Life And Death Of A Cypherpunk Legend</title><link>https://21ideas.org/en/hal-finney/</link><pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/hal-finney/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This thread was published by &lt;a href="https://twitter.com/danheld"&gt;Dan Held&lt;/a&gt; in &lt;a href="https://twitter.com/danheld/status/1244655439024779265"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’ve signed up with Alcor, a cryopreservation company. As part of that, I get a quarterly magazine. The last one was a profile of Hal Finney. It offers an incredible new view into his personal life, ideals, and perpetual optimism, even against certain death.&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/hal-248.jpg"&gt;
+&lt;/div&gt;
+&lt;p&gt;Though widely known for his pioneering professional achievements across cyberspace and tech circles, Hal’s daily life paints a much more nuanced portrait. He was a devoted husband, father, accomplished Renaissance man.&lt;/p&gt;</description></item><item><title>Bitcoin and Me</title><link>https://21ideas.org/en/bitcoin-and-me/</link><pubDate>Tue, 19 Mar 2013 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-and-me/</guid><description>&lt;p&gt;I thought I&amp;rsquo;d write about the last four years, an eventful time for Bitcoin and me.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ This post by Hal originally appeared on &lt;a href="https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833"&gt;bitcointalk&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;p&gt;For those who don&amp;rsquo;t know me, I&amp;rsquo;m Hal Finney. I got my start in crypto working on an early version of PGP, working closely with Phil Zimmermann. When Phil decided to start PGP Corporation, I was one of the first hires. I would work on PGP until my retirement. At the same time, I got involved with the Cypherpunks. I ran the first cryptographically based anonymous remailer, among other activities.&lt;/p&gt;</description></item><item><title>The Bitcoin Reformation</title><link>https://21ideas.org/en/bitcoin-reformation/</link><pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-reformation/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;A &lt;a href="https://bitcoinwords.github.io/assets/papers/investment/Tuur%20Demeester%20-%20The%20Bitcoin%20Reformation.pdf"&gt;report&lt;/a&gt; by Adamant Research.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="introduction"&gt;
+ Introduction
+ &lt;a class="anchor" href="#introduction"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;At the end of the 16th century, a rag tag group of rebel intellectuals and entrepreneurs founded a country on some of the least desirable land in Europe — so often flooded that it needed hundreds of miles of moats - while fighting an eighty year long war against the largest empire in the world.&lt;/p&gt;
+&lt;p&gt;From this struggle and melting pot of ideas emerged the Dutch and British golden ages, innovative economic institutions that changed the world, as well as one of America’s most successful socio-economic experiments: New York City.&lt;/p&gt;</description></item><item><title>A complete history of Bitcoin’s consensus forks</title><link>https://21ideas.org/en/bitcoin-forks/</link><pubDate>Thu, 28 Dec 2017 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/bitcoin-forks/</guid><description>&lt;h2 id="abstract"&gt;
+ Abstract
+ &lt;a class="anchor" href="#abstract"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;In this piece, we list 19 Bitcoin consensus rule changes (or 18 as an accidental one “failed”), which represents what we believe to be almost every significant such event in Bitcoin’s history. At least three of these incidents resulted in an identifiable chainsplit, lasting approximately 51, 24, and six blocks, in 2010, 2013 and 2015, respectively.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This report was originaly published in BitMEX Research &lt;a href="https://blog.bitmex.com/bitcoins-consensus-forks/"&gt;blog&lt;/a&gt;. Later it has been &lt;a href="https://blog.bitmex.com/a-complete-history-of-bitcoins-consensus-forks-2022-update/"&gt;updated&lt;/a&gt;. The updated list now includes the 2018 &lt;a href="https://bitcoincore.org/en/2018/09/20/notice/"&gt;security incident&lt;/a&gt; and the 2021 &lt;a href="https://en.bitcoin.it/wiki/BIP_0341"&gt;Taproot activation&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Analyzing the 2013 Bitcoin fork</title><link>https://21ideas.org/en/analyzing-2013-fork/</link><pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/analyzing-2013-fork/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by Arvind Narayanan was first published on &lt;a href="https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/"&gt;Freedom to Tinker&lt;/a&gt; computer science blog.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;On March 11, 2013, Bitcoin experienced a technical crisis. Versions 0.7 and 0.8 of the software diverged from each other in behavior due to a bug, causing the block chain to “fork” into two. Considering how catastrophic a hard fork can be, the crisis was resolved quickly with remarkably little damage owing to the exemplary competence of the developers in charge. The event gives us a never-before-never-again look into Bitcoin’s inner workings. In this post, I’ll do a play-by-play analysis of the dramatic minutes, and draw many surprising lessons. For a summary of the event, see &lt;a href="https://bitcoinmagazine.com/3668/bitcoin-network-shaken-by-blockchain-fork/"&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Ford Proposes Money Based on Energy</title><link>https://21ideas.org/en/energy-backed-money/</link><pubDate>Sun, 04 Dec 1921 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/energy-backed-money/</guid><description>&lt;p&gt;&lt;em&gt;Background: In 1921 Henry Ford conceived a project on the Tennessee River near Muscle Shoals, Alabama. He proposed to lease two federally-owned fertilizer plants and a hydroelectric dam for 99 years at a cost of $5 million, modernizing the facilities while they were under his management. Objectors voiced concerns about private control over public resources. Ford withdrew his proposal in 1924.&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ This article first appeared on &lt;a href="https://medium.com/@_steff_____/henry-ford-wanted-to-replace-gold-with-an-energy-currency-and-stop-wars-with-it-8cac128f5803"&gt;steff&amp;rsquo;s Medium blog&lt;/a&gt;
+&lt;a href="https://21ideas.org/contribute"&gt;Contribute&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id="new-york-tribune-ford-would-replace-gold-with-energy-currency-and-stop-wars"&gt;
+ New York Tribune: Ford would replace gold with energy currency and stop wars
+ &lt;a class="anchor" href="#new-york-tribune-ford-would-replace-gold-with-energy-currency-and-stop-wars"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Declares if government will give him muscle shoals plant he can demonstrate success of plan to substitute natural wealth as basis of world’s money&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

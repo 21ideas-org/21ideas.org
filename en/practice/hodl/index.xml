@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hodl on 21ideas</title><link>https://21ideas.org/en/practice/hodl/</link><description>Recent content in Hodl on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice/hodl/index.xml" rel="self" type="application/rss+xml"/><item><title>Electrum Bitcoin Wallet</title><link>https://21ideas.org/en/electrum/</link><pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/electrum/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/parman_the"&gt;Arman The Parman&lt;/a&gt; was published in his &lt;a href="https://armantheparman.com/electrum"&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="why-electrum"&gt;
+ Why Electrum?
+ &lt;a class="anchor" href="#why-electrum"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This is a detailed guide on how to use the Electrum Bitcoin Wallet, with solutions to all its traps and quirks -something I’ve developed after several years of use, and teaching students about Bitcoin security/privacy. Electrum is not the best Bitcoin wallet for the person who wants to keep everything as simple as possible, and preferring to remain at the beginner level. Instead, it’s for the person who is, or aspires to be, a “power” user.&lt;/p&gt;</description></item><item><title>Installing Blue Wallet</title><link>https://21ideas.org/en/blue/</link><pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/blue/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/econoalchemist"&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href="https://bitcoinmagazine.com/guides/bitcoin-wallets-for-beginners-part-three-installing-blue-wallet"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have an iPhone and have bitcoin, then I highly recommend using &lt;a href="https://bluewallet.io/"&gt;Blue Wallet&lt;/a&gt; to secure your BTC. This article will walk you through the basic steps for installing, securing and using Blue Wallet on iPhone. But, before getting started, it is a good idea to have a pen and paper ready. Remember to start with small amounts of bitcoin until these concepts make more sense and you are comfortable putting your funds in a mobile wallet. And always backup your seed phrase!&lt;/p&gt;</description></item><item><title>SeedSigner: DIY Bitcoin Signing Device</title><link>https://21ideas.org/en/seedsigner/</link><pubDate>Fri, 27 May 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/seedsigner/</guid><description>&lt;p&gt;This comprehensive how-to guide walks you through unboxing, setting up and signing bitcoin transactions with the air-gapped SeedSigner device.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This guide by &lt;a href="https://twitter.com/econoalchemist"&gt;@econoalchemist&lt;/a&gt; was published in &lt;a href="https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;This guide demonstrates how to self-custody bitcoin using the SeedSigner. SeedSigner is a project that brings together free and open-source code, inexpensive and general-purpose hardware, and a do-it-yourself (DIY) approach to taking personal responsibility of your bitcoin.&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/seedsigner/02.webp"&gt;
+&lt;p&gt;&lt;a href="https://seedsigner.com/"&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="unboxing"&gt;
+ Unboxing
+ &lt;a class="anchor" href="#unboxing"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This section demonstrates what is included in the full SeedSigner kit. The kit can be purchased from &lt;a href="https://btc-hardware-solutions.square.site/"&gt;BTC Hardware Solutions&lt;/a&gt; with worldwide shipping available. Alternatively, EU/U.K. customers can purchase the kit from &lt;a href="https://www.gobrrr.me/?v=7516fd43adaa"&gt;GoBrrr&lt;/a&gt; or &lt;a href="https://diynodes.com/"&gt;DIYNodes&lt;/a&gt;, and Philippines customers can use &lt;a href="https://www.lazada.com.ph/products/preassembled-seedsigner-in-open-pill-case-i2659439195-s12652647245.html?spm=a2o4l.seller.list.18.111a346bP5V0no&amp;amp;mp=1&amp;amp;freeshipping=1"&gt;TechHaven&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>What is Coldcard?</title><link>https://21ideas.org/en/coldcard/</link><pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/coldcard/</guid><description>&lt;blockquote class="book-hint danger"&gt;
+ &lt;p&gt;&lt;strong&gt;⚠️ Critical random number generator vulnerability. Updated 2 August 2026.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A flaw was found in COLDCARD firmware: since 2021 the device silently used MicroPython&amp;rsquo;s software fallback generator instead of the hardware TRNG. On 30 July 2026, 594.48 BTC were swept from roughly five hundred addresses in a single burst.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Every model except the Mk1 is affected&lt;/strong&gt; — Mk2, Mk3, Mk4, Mk5 and Q. Fixed firmware: &lt;strong&gt;4.2.0&lt;/strong&gt; for the Mk3, &lt;strong&gt;5.6.0&lt;/strong&gt; for the Mk4 and Mk5, &lt;strong&gt;1.5.0Q&lt;/strong&gt; for the Q.&lt;/p&gt;</description></item></channel></rss>

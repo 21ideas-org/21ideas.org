@@ -1,0 +1,10 @@
+{
+    "allowsNostr": true,
+    "minSendable": 1000,
+    "maxSendable": 100000000000,
+    "metadata": "[[\"text/plain\",\"Paying Radiokot@coinos.io\"],[\"text/identifier\",\"Radiokot@coinos.io\"]]",
+    "nostrPubkey": "ba80990666ef0b6f4ba5059347beb13242921e54669e680064ca755256a1e3a6",
+    "commentAllowed": 512,
+    "callback": "https://coinos.io/api/lnurl/5344a00f-f281-4e39-a816-36b9b33973cd",
+    "tag": "payRequest"
+}
