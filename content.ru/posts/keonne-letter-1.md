@@ -7,8 +7,8 @@ menu:
    parent: blog
 next: /blog/
 prev: /posts/ford
-title: "Кеонн Родригес. Письмо №1: Голос из-за решётки"
-h1: "Кеонн Родригес. Письмо №1: Голос из-за решётки"
+title: "Кеонн Родригес. Голос из-за решётки. Письмо №1"
+h1: "Кеонн Родригес. Голос из-за решётки. Письмо №1"
 cover: /img/blog/the-rage-keonne-rodriguez-letter-1.webp
 description: "«Сдаться властям и оказаться в тюрьме противоречит самым глубинным человеческим инстинктам», — пишет разработчик Samourai Wallet Кеонн Родригес, вспоминая свою первую ночь за решёткой."
 bookToc: true
@@ -21,6 +21,8 @@ weight: 10
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
 5. [Письмо №5](/posts/keonne-letter-5)
+6. [Письмо №6](/posts/keonne-letter-6)
+7. [Письмо №7](/posts/keonne-letter-7)
 {{< /details >}}
 
 {{< hint info >}}
@@ -114,4 +116,6 @@ weight: 10
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
 5. [Письмо №5](/posts/keonne-letter-5)
+6. [Письмо №6](/posts/keonne-letter-6)
+7. [Письмо №7](/posts/keonne-letter-7)
 {{< /details >}}

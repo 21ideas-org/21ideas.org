@@ -21,6 +21,8 @@ weight: 10
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
 5. [Письмо №5](/posts/keonne-letter-5)
+6. [Письмо №6](/posts/keonne-letter-6)
+7. [Письмо №7](/posts/keonne-letter-7)
 {{< /details >}}
 
 {{< hint info >}}
@@ -136,4 +138,6 @@ weight: 10
 3. [Письмо №3](/posts/keonne-letter-3)
 4. [Письмо №4](/posts/keonne-letter-4)
 5. [Письмо №5](/posts/keonne-letter-5)
+6. [Письмо №6](/posts/keonne-letter-6)
+7. [Письмо №7](/posts/keonne-letter-7)
 {{< /details >}}
