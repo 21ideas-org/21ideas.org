@@ -10,10 +10,10 @@ const METRICS = {
 
 let currentMetric = METRICS.FEE;
 let lastKnownValues = {
-  fee: { label: 'Комиссия', value: '0 sat/vB' },
-  block: { label: 'Высота блока', value: '0' },
-  price: { label: 'Цена', value: '$0' },
-  sats: { label: 'Московское время', value: '00:00' },
+  fee: { label: 'Комиссия', value: null },
+  block: { label: 'Высота блока', value: null },
+  price: { label: 'Цена', value: null },
+  sats: { label: 'Московское время', value: null },
   btc: { label: '', value: '1 BTC = 1 BTC' }
 };
 
@@ -30,48 +30,69 @@ function formatNumber(num) {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 }
 
+function availableMetrics() {
+  const metrics = Object.values(METRICS).filter(metric =>
+    metric !== METRICS.BTC && lastKnownValues[metric].value !== null
+  );
+  return [...metrics, METRICS.BTC];
+}
+
 function updateDisplay() {
   const label = document.getElementById('metrics-label');
   const value = document.getElementById('metrics-value');
 
   if (!label || !value) return;
 
-  const data = lastKnownValues[currentMetric];
-  label.textContent = data.label;
-  value.textContent = data.value;
+  const metrics = availableMetrics();
+  // Automatically return to live data when a source recovers from total failure.
+  if (!metrics.includes(currentMetric)) currentMetric = metrics.find(metric => metric !== METRICS.BTC);
+  const data = lastKnownValues[currentMetric] || lastKnownValues[METRICS.BTC];
+  label.textContent = data ? data.label : '';
+  value.textContent = data ? data.value : '';
 
   // Add padding-top when there's no label to maintain alignment
-  value.style.paddingTop = data.label ? '0' : '0.7rem';
+  value.style.paddingTop = data && !data.label ? '0.7rem' : '0';
 }
 
-async function updateMetrics() {
+async function updateMetric(keys, url, formatValues) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 10000);
   try {
-    // Fetch all data in parallel
-    const [feeData, blockData, priceData] = await Promise.all([
-      fetch('https://mempool.space/api/v1/fees/recommended').then(r => r.json()),
-      fetch('https://mempool.space/api/blocks/tip/height').then(r => r.json()),
-      fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd').then(r => r.json())
-    ]);
-
-    // Update stored values only after successful fetch
-    lastKnownValues.fee.value = `${feeData.fastestFee} sat/vB`;
-    lastKnownValues.block.value = formatNumber(blockData);
-    lastKnownValues.price.value = `$${formatNumber(priceData.bitcoin.usd)}`;
-
-    // Format sats/$ as time
-    const satsPerDollar = Math.round(100_000_000 / priceData.bitcoin.usd);
-    lastKnownValues.sats.value = formatSatsAsTime(satsPerDollar);
-
-    // Update display with new values
-    updateDisplay();
+    const response = await fetch(url, { signal: controller.signal });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const values = formatValues(await response.json());
+    keys.forEach((key, index) => { lastKnownValues[key].value = values[index]; });
   } catch (error) {
-    console.error('Error fetching metrics:', error);
-    // On error, display remains unchanged with last known values
+    keys.forEach(key => { lastKnownValues[key].value = null; });
+    console.error(`Error fetching metrics from ${url}:`, error);
+  } finally {
+    clearTimeout(timeout);
+    updateDisplay();
   }
 }
 
+async function updateMetrics() {
+  // Each request updates the display independently, without waiting for other sources.
+  await Promise.all([
+    updateMetric([METRICS.FEE], 'https://mempool.space/api/v1/fees/recommended', data => {
+      if (!Number.isFinite(data?.fastestFee) || data.fastestFee < 0) throw new Error('Invalid fee data');
+      return [`${data.fastestFee} sat/vB`];
+    }),
+    updateMetric([METRICS.BLOCK], 'https://mempool.space/api/blocks/tip/height', height => {
+      if (!Number.isInteger(height) || height <= 0) throw new Error('Invalid block height');
+      return [formatNumber(height)];
+    }),
+    updateMetric([METRICS.PRICE, METRICS.SATS], 'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd', data => {
+      const price = data?.bitcoin?.usd;
+      if (!Number.isFinite(price) || price <= 0) throw new Error('Invalid price data');
+      return [`$${formatNumber(price)}`, formatSatsAsTime(100_000_000 / price)];
+    })
+  ]);
+}
+
 function cycleMetric() {
-  const metrics = Object.values(METRICS);
+  const metrics = availableMetrics();
+  if (!metrics.length) return;
   const currentIndex = metrics.indexOf(currentMetric);
   currentMetric = metrics[(currentIndex + 1) % metrics.length];
   updateDisplay();
@@ -82,7 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('metrics-container');
   if (container) {
     container.addEventListener('click', cycleMetric);
+    updateDisplay();
     updateMetrics();
     setInterval(updateMetrics, 60000);
   }
-}); 
+});
