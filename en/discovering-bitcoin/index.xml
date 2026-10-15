@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Discovering Bitcoin on 21ideas</title><link>https://21ideas.org/en/discovering-bitcoin/</link><description>Recent content in Discovering Bitcoin on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/discovering-bitcoin/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://21ideas.org/en/discovering-bitcoin/intro/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/intro/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Welcome to the introduction to a series of seven articles, entitled “Discovering Bitcoin: A Brief Overview From Cavemen to the Lightning Network.”&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-a-brief-overview-from-cavemen-to-the-lightning-network"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="did-you-just-say-seven"&gt;
+ “Did You Just Say &lt;em&gt;Seven&lt;/em&gt;?”
+ &lt;a class="anchor" href="#did-you-just-say-seven"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I know what you are thinking, dear reader: Seven articles outlining the history of Bitcoin is too much for your busy schedule and too little to do justice to such an ambitious subtitle.&lt;/p&gt;</description></item><item><title>About Time</title><link>https://21ideas.org/en/discovering-bitcoin/about-time/</link><pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/about-time/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In part one of Giacomo Zucco’s “Discovering Bitcoin” series, he reimagines the period of monetary history prior to fiat money.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-part-1-time"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;As anticipated in the &lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;introduction to this series&lt;/a&gt;, we will start exploring the period of monetary (pseudo)history prior to fiat money, which we call “Plan A,” focusing on the topic of time and on the question “When?” There won’t be much cryptography or computer science in what follows: It will all sound very simple, even … primitive! Indeed, I would ask you, dear reader, to try to forget your advanced education and your civilized manners, and pretend, just for a few minutes, to be a fish-eating caveman.&lt;/p&gt;</description></item><item><title>About People</title><link>https://21ideas.org/en/discovering-bitcoin/about-people/</link><pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/about-people/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;Giacomo Zucco continues his Discovering Bitcoin series, building on ideas around growing wealth and exploring the concepts of exchange, specialization and “darkness.”&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-part-2-about-people"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this installment, we will build on the previously acquired strategies of storing wealth, investing that stored wealth, and increasing productivity and focusing on goods with physical “hardness” and good “scaleness,” to explore the concepts of exchange, specialization and “darkness.”&lt;/p&gt;</description></item><item><title>Introducing Money</title><link>https://21ideas.org/en/discovering-bitcoin/introducing-money/</link><pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/introducing-money/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In part three of Giacomo Zucco’s “Discovering Bitcoin” series, he explores the concepts of scarcity, liquidity and social “hardness” of goods.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-part-3-introducing-money"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this installment of the “Discovering Bitcoin” series, we will build on the previously acquired strategies of exchanging wealth, specializing production and focusing on goods with good physical “hardness,” “scaleness” and “darkness” to explore concepts of scarcity, liquidity and social “hardness.”&lt;/p&gt;</description></item><item><title>A Wrong Turn (New Plan Needed)!</title><link>https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In part four of Giacomo Zucco’s “Discovering Bitcoin” series, he explores the concepts of virtualization, monopolies and decentralization.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-part-4-a-wrong-turn-new-plan-needed"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this next installment of the “Discovering Bitcoin” series, we will build on the previously acquired strategies of optimizing “hardness,” “scaleness” and “darkness” to explore concepts of virtualization and decentralization.&lt;/p&gt;</description></item><item><title>Digital Scarcity</title><link>https://21ideas.org/en/discovering-bitcoin/digital-scarcity/</link><pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/digital-scarcity/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In the fifth installment of Giacomo Zucco’s “Discovering Bitcoin” series, he explores concepts of scarcity in the “virtual” world, energy consumption and digital “hardness.”&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://btcmagwpstage.wpengine.com/articles/discovering-bitcoin-part-5-digital-scarcity"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Digital Contracts</title><link>https://21ideas.org/en/discovering-bitcoin/digital-contracts/</link><pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/digital-contracts/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In the sixth installment of Giacomo Zucco’s “Discovering Bitcoin” series, he explores concepts of proving ownership, smart contracts and CoinJoins.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/culture/discovering-bitcoin-part-6-digital-contracts"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;In Part 6 of this “Discovering Bitcoin” series, we will build on the idea of using digital puzzles as a way to reproduce scarcity, and on the importance of a supply-control mechanism to grant some hardness to digital money, to explore concepts of proving ownership through signatures and scripts, and the technique known as CoinJoin.&lt;/p&gt;</description></item><item><title>The Missing Pieces</title><link>https://21ideas.org/en/discovering-bitcoin/the-missing-pieces/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/discovering-bitcoin/the-missing-pieces/</guid><description>&lt;details &gt;&lt;summary&gt;Contents&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;ol&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/intro"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-time"&gt;Part 1: About Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/about-people"&gt;Part 2: About People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/introducing-money"&gt;Part 3: Introducing Money&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/a-wrong-turn-new-plan-needed"&gt;Part 4: A Wrong Turn (New Plan Needed)!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-scarcity"&gt;Part 5: Digital Scarcity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/digital-contracts"&gt;Part 6: Digital Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://21ideas.org/en/discovering-bitcoin/the-missing-pieces"&gt;Part 7: The Missing Pieces&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;In the conclusion to the “Discovering Bitcoin” series, Giacomo Zucco explores concepts of unique chronology, mining fees and off-chain transactions.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/giacomozucco"&gt;Giacomo Zucco&lt;/a&gt; was first published in &lt;a href="https://bitcoinmagazine.com/technical/discovering-bitcoin-part-7-missing-pieces"&gt;Bitcoin Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;As we conclude our “Discovering Bitcoin” series, we will build on the use of digital signatures and of the CoinJoin paradigm to explore concepts of unique chronology, mining fees and off-chain transactions.&lt;/p&gt;</description></item></channel></rss>
