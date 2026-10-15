@@ -5,9 +5,6 @@ type: docs
 url: lavka
 weight: 8
 bookhidden: true
-menu:
-  after:
-    weight: 8
 ---
 
 Сервис ___Lightning Lavka___ позволяет использовать сеть Лайтнинг для молниеносно-быстрой покупки:

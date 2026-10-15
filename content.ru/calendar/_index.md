@@ -1,11 +1,11 @@
 ---
-# menu:
-#   after:
-#     weight: 4
+menu:
+  after:
+    weight: 4
 description: "Биткоин-календарь – это проект, цель которого – держать вас в курсе важнейших исторических событий в мире Биткоина."
 url: calendar
 type: docs
-title: Биткоин-календарь
+title: Биткоин календарь
 h1: "Биткоин-календарь"
 bookHref: https://bitcoin-calendar.org/ru/
 ---
