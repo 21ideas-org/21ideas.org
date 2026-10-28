@@ -9,6 +9,11 @@ bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 2
+audio:
+  label: "Вся наша жизнь — торговля"
+  url: "https://audio.21ideas.org/podcasts/books/sovereignty-through-math/chapter-01-v2.mp3"
+  mimeType: "audio/mpeg"
+  durationSeconds: 528
 ---
 
 {{< details "Оглавление" "..." >}}

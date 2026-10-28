@@ -1,0 +1,69 @@
+{{- with .Params.audio -}}
+{{- $audio := . -}}
+{{- $duration := int .durationSeconds -}}
+{{- $clock := printf "%d:%02d" (div $duration 60) (mod $duration 60) -}}
+{{- $label := printf "Аудиоверсия: %s" $.Title -}}
+<section class="audio-player" data-audio-player data-audio-duration="{{ $duration }}" aria-label="{{ $label }}">
+  <p class="audio-heading">{{ $audio.label | default $.Title }}</p>
+  <!-- Native playback remains available when JavaScript is unavailable. -->
+  <audio controls preload="none" aria-label="{{ $label }}">
+    <source src="{{ $audio.url }}" type="{{ $audio.mimeType }}" />
+    <a href="{{ $audio.url }}">Открыть аудиоверсию (MP3)</a>
+  </audio>
+  <div class="audio-controls" data-audio-controls hidden>
+    <div class="audio-primary">
+      <button class="audio-toggle" type="button" data-audio-toggle aria-label="Воспроизвести">
+        <svg class="audio-play-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 3 17 10 6 17Z" /></svg>
+        <svg class="audio-pause-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 3h4v14H5zm6 0h4v14h-4z" /></svg>
+      </button>
+      <span class="audio-time" data-audio-time aria-hidden="true">0:00 / {{ $clock }}</span>
+      <input class="audio-seek" data-audio-seek type="range" min="0" max="{{ $duration }}" step="1" value="0" disabled aria-label="Позиция воспроизведения" />
+    </div>
+    <div class="audio-toolbar">
+      <div class="audio-action-group">
+        <button class="audio-action" type="button" data-audio-backward disabled aria-label="Назад на 10 секунд" title="Назад на 10 секунд">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 9l-3 -3l3 -3" /><path d="M15.997 17.918a6.002 6.002 0 0 0 -.997 -11.918h-11" />
+            <path d="M6 14v6" /><path d="M9 15.5v3a1.5 1.5 0 0 0 3 0v-3a1.5 1.5 0 0 0 -3 0" />
+          </svg>
+        </button>
+        <button class="audio-action" type="button" data-audio-forward disabled aria-label="Вперёд на 10 секунд" title="Вперёд на 10 секунд">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M17 9l3 -3l-3 -3" /><path d="M8 17.918a5.997 5.997 0 0 1 -5 -5.918a6 6 0 0 1 6 -6h11" />
+            <path d="M12 14v6" /><path d="M15 15.5v3a1.5 1.5 0 0 0 3 0v-3a1.5 1.5 0 0 0 -3 0" />
+          </svg>
+        </button>
+      </div>
+      <div class="audio-action-group">
+        <button class="audio-action audio-speed" type="button" data-audio-speed aria-label="Скорость 1×. Изменить скорость воспроизведения" title="Скорость: 1×, 1.25×, 1.5×">
+          <span data-audio-rate="1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 16v-8l-2 2" /><path d="M13 16l4 -4" /><path d="M17 16l-4 -4" />
+            </svg>
+          </span>
+          <span data-audio-rate="1.25" hidden>
+            <svg viewBox="0 0 32 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 16v-8l-2 2" /><path d="M7 16v.01" />
+              <path d="M10 10a2 2 0 1 1 3.6 1.2l-3.6 4.8h4" />
+              <path d="M18 16h2a2 2 0 1 0 0 -4h-2v-4h4" /><path d="M26 16l4 -4" /><path d="M30 16l-4 -4" />
+            </svg>
+          </span>
+          <span data-audio-rate="1.5" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 16v-8l-2 2" /><path d="M10 16h2a2 2 0 1 0 0 -4h-2v-4h4" />
+              <path d="M7 16v.01" /><path d="M17 16l4 -4" /><path d="M21 16l-4 -4" />
+            </svg>
+          </span>
+          <span data-audio-rate-label aria-hidden="true" hidden></span>
+        </button>
+        <a class="audio-action" href="{{ $audio.url }}" aria-label="Открыть MP3" title="Открыть MP3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p class="audio-status" data-audio-status role="status" aria-live="polite" aria-atomic="true"></p>
+</section>
+{{- end -}}
