@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lightning on 21ideas</title><link>https://21ideas.org/en/practice/lightning/</link><description>Recent content in Lightning on 21ideas</description><generator>Hugo</generator><language>en</language><atom:link href="https://21ideas.org/en/practice/lightning/index.xml" rel="self" type="application/rss+xml"/><item><title>Phoenix: The Non-Custodial Lightning Wallet</title><link>https://21ideas.org/en/phoenix/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/phoenix/</guid><description>&lt;p&gt;How to use the Lightning Network without trusting anyone? Take Back Control of Your Sats in the Lightning Network.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="intro"&gt;
+ Intro
+ &lt;a class="anchor" href="#intro"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;I would like to share a guide on &lt;a href="https://phoenix.acinq.co/"&gt;Phoenix&lt;/a&gt; — the non-custodial Lightning wallet. This guide will be useful for those who already are familiar with the Lightning Network and have some experience using it. Let&amp;rsquo;s say you&amp;rsquo;ve already been using a custodial wallet like &lt;a href="https://www.walletofsatoshi.com/"&gt;Wallet Of Satoshi&lt;/a&gt; and you want to gain more control over your funds, hold your sats in Lightning Network, and &lt;strong&gt;minimize&lt;/strong&gt; the level of trust to a third party. I say &amp;lsquo;minimize&amp;rsquo; rather than &amp;lsquo;avoid&amp;rsquo; for a reason, but I&amp;rsquo;ll clarify this later in the guide.&lt;/p&gt;</description></item><item><title>LNbits: A Swiss knife among Lightning apps</title><link>https://21ideas.org/en/lnbits/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lnbits/</guid><description>&lt;p&gt;LNbits is the Swiss knife among lightning apps – invoices, tips, paywalls, onchain wallet monitoring, event ticketing and more.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="lnbits"&gt;
+ LNbits
+ &lt;a class="anchor" href="#lnbits"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Today, we&amp;rsquo;re going to take a look at a wallet app accessible right from the browser that boasts so many features that it&amp;rsquo;s the envy of any software. This is LNbits.&lt;/p&gt;
+&lt;p&gt;It is worth starting with the fact that this service is still in the phase of active development, and some functionality is yet to be implemented. The most expected innovation is the possibility to enter the service via login and password. So far, LNbits is a web page that requires only a clearnet address to log in. Some may find this approach unacceptable, but in this guide we&amp;rsquo;ll look at approaches that completely negate any danger. Nevertheless, it&amp;rsquo;s worth remembering that this is not a tool for long-term savings, but rather a layer designed to facilitate interaction with other users and make everyone&amp;rsquo;s experience pleasant and seamless.&lt;/p&gt;</description></item><item><title>Alby and Nostr</title><link>https://21ideas.org/en/alby-and-nostr/</link><pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/alby-and-nostr/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ The guide is not yet available in English. Want to cover this topic or support the project? Visit the &lt;a href="https://21ideas.org/en/contribute"&gt;Contribute&lt;/a&gt; page.
+&lt;/blockquote&gt;</description></item><item><title>Recurring Lightning Payments</title><link>https://21ideas.org/en/zapplanner/</link><pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/zapplanner/</guid><description>&lt;p&gt;This guide covers the process of setting up recurring Lightning payments - both custodial and non-custodial.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;The guide written by &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Tony⚡️&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="value-4-value"&gt;
+ Value 4 Value
+ &lt;a class="anchor" href="#value-4-value"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;V4V is a concept that has potential to flip the way content is created on its head. Plus, it&amp;rsquo;s not only about content, but rather about any kind of value creation - be it physical or digital. And while V4V still has numerous battles to win, it is already finding its advocates and reaching new heights.&lt;/p&gt;</description></item><item><title>Launder bitcoins with the Lightning Network</title><link>https://21ideas.org/en/launder-bitcoins-with-lightning/</link><pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/launder-bitcoins-with-lightning/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ The guide is not yet available in English. Want to cover this topic or support the project? Visit the &lt;a href="https://21ideas.org/en/contribute"&gt;Contribute&lt;/a&gt; page.
+&lt;/blockquote&gt;</description></item><item><title>Lightning Liquidity Management Guide</title><link>https://21ideas.org/en/lightning-liquidity-management-guide/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/lightning-liquidity-management-guide/</guid><description>&lt;p&gt;Lessons learned from running a routing node on the Lightning Network.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://twitter.com/lopp"&gt;Jameson Lopp&lt;/a&gt; was published in his &lt;a href="https://blog.lopp.net/lightning-network-liquidity-management-guide"&gt;blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Contribute&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ever since people started running Lightning nodes on mainnet in early 2018, some have asked the question: what is a reasonable ROI to expect for placing my capital in a routing node? Nik Bhatia went in depth with his theory of how this may play out:&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/lln-264.jpeg"&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="https://timevalueofbtc.medium.com/the-time-value-of-bitcoin-and-lnrr-e0c435931bd8"&gt;The Time Value of Bitcoin and LNRR&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Starting with Mutiny Wallet</title><link>https://21ideas.org/en/mutiny/</link><pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate><guid>https://21ideas.org/en/mutiny/</guid><description>&lt;p&gt;Recently, I listened to an episode of &lt;a href="https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC"&gt;SLP551&lt;/a&gt; featuring a discussion between &lt;a href="https://stacker.news/stephanlivera"&gt;@stephanlivera&lt;/a&gt; and &lt;a href="https://stacker.news/benthecarman"&gt;@benthecarman&lt;/a&gt; about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the &lt;a href="https://21ideas.org/en/what-is-lightning-network"&gt;Lightning Network&lt;/a&gt;. I&amp;rsquo;ve been curious about Mutiny for a while now, so it&amp;rsquo;s about time I checked it out for myself. Let’s dive in and see what it’s all about.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;This article by &lt;a href="https://stacker.news/runningbitcoin"&gt;@runningbitcoin&lt;/a&gt; was published on &lt;a href="https://stacker.news/items/467711/r/Tony"&gt;stacker.news&lt;/a&gt; website.&lt;/p&gt;</description></item></channel></rss>
