@@ -7,3 +7,10 @@
 
 <script defer src="https://cloud.umami.is/script.js" data-website-id="0affba7d-3c1d-4235-adb3-635b69b6f567"></script>
 {{ partial "docs/inject/structured-data.html" . }}
+
+{{- with .Params.audio -}}
+  {{- $audioCSS := resources.Get "audio-player.css" | resources.Minify | resources.Fingerprint -}}
+  {{- $audioJS := resources.Get "audio-player-init.js" | js.Build | resources.Minify | resources.Fingerprint -}}
+<link rel="stylesheet" href="{{ $audioCSS.RelPermalink }}" integrity="{{ $audioCSS.Data.Integrity }}">
+<script defer src="{{ $audioJS.RelPermalink }}" integrity="{{ $audioJS.Data.Integrity }}"></script>
+{{- end -}}
