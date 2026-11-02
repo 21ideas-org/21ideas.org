@@ -23,6 +23,7 @@ weight: 10
 5. [Письмо №5](/posts/keonne-letter-5)
 6. [Письмо №6](/posts/keonne-letter-6)
 7. [Письмо №7](/posts/keonne-letter-7)
+8. [Письмо №8](/posts/keonne-letter-8)
 {{< /details >}}
 
 {{< hint info >}}
@@ -104,6 +105,7 @@ weight: 10
 5. [Письмо №5](/posts/keonne-letter-5)
 6. [Письмо №6](/posts/keonne-letter-6)
 7. [Письмо №7](/posts/keonne-letter-7)
+8. [Письмо №8](/posts/keonne-letter-8)
 {{< /details >}}
 
 [^1]: DEI (Diversity, Equity and Inclusion — «разнообразие, равенство и инклюзивность») — американская кадровая политика, призванная обеспечивать представительство разных социальных и этнических групп при найме.
