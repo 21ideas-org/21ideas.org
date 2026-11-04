@@ -9,6 +9,11 @@ bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 3
+audio:
+  label: "Финансовый атеизм"
+  url: "https://audio.21ideas.org/podcasts/books/sovereignty-through-math/chapter-02.mp3"
+  mimeType: "audio/mpeg"
+  durationSeconds: 956
 ---
 
 {{< details "Оглавление" "..." >}}
