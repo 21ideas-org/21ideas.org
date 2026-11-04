@@ -5,7 +5,7 @@ const { tmpdir } = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 
-test('Hugo renders audio only on the published Russian chapter, before its text', () => {
+test('Hugo renders audio only on the published Russian chapters, before its text', () => {
   const destination = mkdtempSync(path.join(tmpdir(), '21ideas-audio-'));
   try {
     execFileSync('hugo', ['--minify', '--destination', destination], {
@@ -27,7 +27,18 @@ test('Hugo renders audio only on the published Russian chapter, before its text'
     assert.ok(chapter.indexOf('data-audio-player') < chapter.indexOf('<article'));
     assert.match(chapter, /audio-player[^"\s<>]*\.css/);
     assert.match(chapter, /audio-player-init[^"\s<>]*\.js/);
-    for (const url of ['suverenitet-posredstvom-matematiki/glava-2',
+    const chapter2 = page('suverenitet-posredstvom-matematiki/glava-2');
+    assert.match(chapter2, /data-audio-player/);
+    assert.match(chapter2, /src=https:\/\/audio\.21ideas\.org\/podcasts\/books\/sovereignty-through-math\/chapter-02\.mp3/);
+    assert.match(chapter2, /data-audio-duration=956/);
+    assert.match(chapter2, /class=audio-heading>Финансовый атеизм<\/p>/);
+    assert.match(chapter2, /0:00 \/ 15:56/);
+    assert.match(chapter2, /<audio controls preload=none/);
+    assert.ok(chapter2.indexOf('<h1>') < chapter2.indexOf('data-audio-player'));
+    assert.ok(chapter2.indexOf('data-audio-player') < chapter2.indexOf('<article'));
+    assert.match(chapter2, /audio-player-init[^"\s<>]*\.js/);
+    for (const url of ['suverenitet-posredstvom-matematiki/glava-3',
+      'en/suverenitet-posredstvom-matematiki/glava-2',
       'en/suverenitet-posredstvom-matematiki/glava-1', 'suverenitet-posredstvom-matematiki']) {
       const html = page(url);
       assert.doesNotMatch(html, /data-audio-player|audio-player[^"\s<>]*\.(?:css|js)/);
