@@ -37,6 +37,10 @@ The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndc
 	
 	- Alby
 
+- Web wallets:
+
+	- Rizful
+
 - Pocket Lightning node:
 
 	- Phoenix
@@ -45,7 +49,7 @@ The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndc
 	
 	- Zeus
 	
-	- Mutiny
+	- Mutiny (shut down at the end of 2024)
 	
 	- Blixt
 
@@ -188,6 +192,29 @@ Alby not only offers all the features as its competitors - LN addresses, sending
 At the time of writing Alby is an invite-only app. Fill out [this form](https://form.jotform.com/233515737022350?ref=blog.getalby.com) to start using it.
 {{< /hint >}}
 
+# Web wallets
+
+## Rizful
+
+[Rizful](https://rizful.com) is a Lightning wallet that runs in the browser, on a phone or a computer. It can be added to the home screen as a Progressive Web App, so there is no app store in the way.
+
+| Onchain | ✅ |
+|-----------------|:---:|
+| LN address | ✅ |
+| Open source | ❌ |
+| Suitable for | Beginners |
+
+Signing up takes an email address and a password. Every account comes with a Lightning address (_yourname@rizful.com_) that can receive zaps, and once you add your Nostr public key, the same address works as your Nostr (NIP-05) address. To use the balance in other apps, Rizful gives you [Nostr Wallet Connect](https://nwc.dev) codes: spending codes with a budget and an expiry, and receive-only codes that can create invoices but cannot spend, which suit websites and shops that only take payments.
+
+Receiving over Lightning is free. Sending costs 0.1% plus routing fees in normal network conditions. Deposits from a bitcoin address are free and credited after confirmation.
+
+| **Pros** | **Cons** |
+| --------- | ---------- |
+| ✅ PWA, no app store needed | 🚫 Closed source |
+| ✅ Lightning address and Nostr address | 🚫 0.1% fee on sending |
+| ✅ Receive-only NWC codes | |
+| ✅ Onchain payments | |
+
 # Mobile Lightning nodes
 
 Mobile wallets offering non-custodial storage of LN sats are a good intermediate solution between custodial services and running your own node.
@@ -240,6 +267,10 @@ A detailed guide is available [here](/en/phoenix).
 {{< /hint >}}
 
 ## Mutiny
+
+{{< hint danger >}}
+Mutiny Wallet shut down on December 31, 2024. Its team announced the closure in August 2024 ([Mutiny's blog](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down)). This section is kept for the record.
+{{< /hint >}}
 
 [Mutiny](https://www.mutinywallet.com) — quite an interesting wallet in light of [grants the team received](https://bitcoinmagazine.com/business/mutiny-wallet-raises-over-300k-in-preseed-funding) and ambitious plans.
 
@@ -489,7 +520,7 @@ There are already many Lightning wallets, and every day new solutions emerge and
 |Coin OS|❌|✅|✅|✅|Beginners|
 |Alby|✅|✅|✅|✅|Beginners / Intermediate|
 |Phoenix|✅|✅|❌|✅|Intermediate|
-|Mutiny|✅|✅|❌|✅|Intermediate / Pro|
+|Mutiny (shut down)|✅|✅|❌|✅|Intermediate / Pro|
 |Zeus|✅|✅|✅|✅|Intermediate / Pro|
 |Valet|✅|✅|❌|✅|Pro|
 |Blixt|✅|✅|✅|✅|Pro|
