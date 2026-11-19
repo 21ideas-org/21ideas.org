@@ -9,6 +9,11 @@ bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 4
+audio:
+  label: "Доверчивость"
+  url: "https://audio.21ideas.org/podcasts/books/sovereignty-through-math/chapter-03.mp3"
+  mimeType: "audio/mpeg"
+  durationSeconds: 739
 ---
 
 {{< details "Оглавление" "..." >}}
