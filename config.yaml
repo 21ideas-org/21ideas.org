@@ -33,11 +33,24 @@ languages:
     label: English
     contentDir: content.en
     weight: 2
+    menus:
+      after:
+        - name: GM, bitcoiner
+          url: https://gm.21ideas.org/en/
+          weight: 3
+        - name: Security Watcher
+          url: https://sec.21ideas.org/en/
+          weight: 5
   ru:
     label: Русский
     locale: ru-RU
     contentDir: content.ru
     weight: 1
+    menus:
+      after:
+        - name: Сторожевая вышка
+          url: https://sec.21ideas.org
+          weight: 5
 
 menu:
   # before: []
