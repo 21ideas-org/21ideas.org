@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Понимание приватности в сети Биткоин с помощью OXT on 21ideas</title><link>https://21ideas.org/privacy/oxt/</link><description>Recent content in Понимание приватности в сети Биткоин с помощью OXT on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/privacy/oxt/index.xml" rel="self" type="application/rss+xml"/><item><title>Часть 1: Анализ цепочки и приватность транзакций</title><link>https://21ideas.org/privacy/oxt-1/</link><pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/oxt-1/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ &lt;em&gt;Данный материал также доступен в видеоформате в &lt;a href="https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC"&gt;этом плейлисте&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="понимание-приватности-в-сети-биткоин-с-помощью-oxt"&gt;
+ Понимание приватности в сети Биткоин с помощью OXT
+ &lt;a class="anchor" href="#%d0%bf%d0%be%d0%bd%d0%b8%d0%bc%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%b2-%d1%81%d0%b5%d1%82%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%81-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c%d1%8e-oxt"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-1"&gt;Часть 1: Анализ цепочки и приватность транзакций&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-2"&gt;Часть 2: Ключевые концепции анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-3"&gt;Часть 3: Защита от анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-4"&gt;Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;В первой части мы познакомимся с основами анализа цепочки, включая эвристики обнаружения выхода сдачи.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923"&gt;статьи&lt;/a&gt; от разработчиков Samourai Wallet&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Часть 2: Ключевые концепции анализа цепочки</title><link>https://21ideas.org/privacy/oxt-2/</link><pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/oxt-2/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ &lt;em&gt;Данный материал также доступен в видеоформате в &lt;a href="https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC"&gt;этом плейлисте&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="понимание-приватности-в-сети-биткоин-с-помощью-oxt"&gt;
+ Понимание приватности в сети Биткоин с помощью OXT
+ &lt;a class="anchor" href="#%d0%bf%d0%be%d0%bd%d0%b8%d0%bc%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%b2-%d1%81%d0%b5%d1%82%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%81-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c%d1%8e-oxt"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-1"&gt;Часть 1: Анализ цепочки и приватность транзакций&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-2"&gt;Часть 2: Ключевые концепции анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-3"&gt;Часть 3: Защита от анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-4"&gt;Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;В части 2 мы рассмотрим два наиболее важных инструмента, лежащих в основе анализа цепочки: граф транзакций и эвристику владения совместными входами.&lt;/p&gt;</description></item><item><title>Часть 3: Защита от анализа цепочки</title><link>https://21ideas.org/privacy/oxt-3/</link><pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/oxt-3/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ &lt;em&gt;Данный материал также доступен в видеоформате в &lt;a href="https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC"&gt;этом плейлисте&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="понимание-приватности-в-сети-биткоин-с-помощью-oxt"&gt;
+ Понимание приватности в сети Биткоин с помощью OXT
+ &lt;a class="anchor" href="#%d0%bf%d0%be%d0%bd%d0%b8%d0%bc%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%b2-%d1%81%d0%b5%d1%82%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%81-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c%d1%8e-oxt"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-1"&gt;Часть 1: Анализ цепочки и приватность транзакций&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-2"&gt;Часть 2: Ключевые концепции анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-3"&gt;Часть 3: Защита от анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-4"&gt;Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;В части 3 рассматриваются основные концепции повышения приватности в сети Биткоин.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-3-4-9a1b2b572a8"&gt;статьи&lt;/a&gt; от разработчиков Samourai Wallet&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id="введение"&gt;
+ Введение
+ &lt;a class="anchor" href="#%d0%b2%d0%b2%d0%b5%d0%b4%d0%b5%d0%bd%d0%b8%d0%b5"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;После того как в &lt;a href="https://21ideas.org/privacy/oxt-1"&gt;части 1&lt;/a&gt; и &lt;a href="https://21ideas.org/privacy/oxt-2"&gt;части 2&lt;/a&gt; были представлены основополагающие понятия анализа цепочки, в третьей части будут рассмотрены методы запутывания компаний, анализирующих цепочку:&lt;/p&gt;</description></item><item><title>Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей</title><link>https://21ideas.org/privacy/oxt-4/</link><pubDate>Wed, 11 Aug 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/oxt-4/</guid><description>&lt;blockquote class="book-hint info"&gt;
+ &lt;em&gt;Данный материал также доступен в видеоформате в &lt;a href="https://youtube.com/playlist?list=PLfCndTr__6Hdd1gNCYsON1NKln_eIRJqC"&gt;этом плейлисте&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;details &gt;&lt;summary&gt;Оглавление&lt;/summary&gt;
+ &lt;div class="markdown-inner"&gt;
+ &lt;h2 id="понимание-приватности-в-сети-биткоин-с-помощью-oxt"&gt;
+ Понимание приватности в сети Биткоин с помощью OXT
+ &lt;a class="anchor" href="#%d0%bf%d0%be%d0%bd%d0%b8%d0%bc%d0%b0%d0%bd%d0%b8%d0%b5-%d0%bf%d1%80%d0%b8%d0%b2%d0%b0%d1%82%d0%bd%d0%be%d1%81%d1%82%d0%b8-%d0%b2-%d1%81%d0%b5%d1%82%d0%b8-%d0%b1%d0%b8%d1%82%d0%ba%d0%be%d0%b8%d0%bd-%d1%81-%d0%bf%d0%be%d0%bc%d0%be%d1%89%d1%8c%d1%8e-oxt"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-1"&gt;Часть 1: Анализ цепочки и приватность транзакций&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-2"&gt;Часть 2: Ключевые концепции анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-3"&gt;Часть 3: Защита от анализа цепочки&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/privacy/oxt-4"&gt;Часть 4: Применение концепций анализа цепочки для улучшения приватности пользователей&lt;/a&gt;&lt;/p&gt;
+
+ &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;p&gt;В этом разделе мы расскажем о реальных последствиях отправки и получения транзакций для приватности пользователей. Далее мы представим конкретные технологии, которые могут быть использованы для сохранения приватности при взаимодействии с Биткоином.&lt;/p&gt;</description></item></channel></rss>

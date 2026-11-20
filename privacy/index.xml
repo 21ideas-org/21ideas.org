@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Приватность on 21ideas</title><link>https://21ideas.org/privacy/</link><description>Recent content in Приватность on 21ideas</description><generator>Hugo</generator><language>ru-RU</language><atom:link href="https://21ideas.org/privacy/index.xml" rel="self" type="application/rss+xml"/><item><title>Базовые правила приватности</title><link>https://21ideas.org/privacy/privacy-basics/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/privacy-basics/</guid><description>&lt;p&gt;Общая тенденция к отслеживанию всей активности в блокчейне, а также растущее из года в год количество &lt;a href="https://github.com/jlopp/physical-bitcoin-attacks"&gt;физических атак на держателей биткоинов&lt;/a&gt;, заставляют признать, что приватность в Биткоине — это уже не вопрос о том, есть ли вам &amp;ldquo;что-то скрывать&amp;rdquo;, — это залог вашей безопасности и безопасности ваших средств.&lt;/p&gt;
+&lt;blockquote class="book-hint info"&gt;
+ Тема приватности в Биткоине достаточно сложна и требует базового понимания того, как работают транзакции и кошельки. Эта статья содержит минимальный набор правил защиты своей приватности, а также ссылки на материалы, которые помогут вам глубже погрузиться в эту тему.
+&lt;/blockquote&gt;
+&lt;h2 id="utxo"&gt;
+ UTXO
+ &lt;a class="anchor" href="#utxo"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;В Биткоине нет привычного &amp;ldquo;баланса&amp;rdquo;, как на вашем банковском счете. Баланс кошелька состоит из &lt;strong&gt;UTXO (Unspent Transaction Outputs)&lt;/strong&gt; — &amp;ldquo;неизрасходованных выходов транзакций&amp;rdquo;. Их можно представить как &lt;strong&gt;монеты произвольного номинала&lt;/strong&gt;: каждая входящая транзакция создает новую &amp;ldquo;монету&amp;rdquo;, и чтобы потратить ее, нужно &lt;strong&gt;целиком передать в новую транзакцию&lt;/strong&gt;. Если номинал &amp;ldquo;монеты&amp;rdquo; больше, чем сумма платежа, — создается &lt;strong&gt;сдача&lt;/strong&gt; в виде нового UTXO. Если одного UTXO недостаточно, чтобы покрыть перевод, то на входе транзакции используются несколько UTXO одновременно.&lt;/p&gt;</description></item><item><title>Как сохранить приватность?</title><link>https://21ideas.org/privacy/luchshie-praktiki/</link><pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/luchshie-praktiki/</guid><description>&lt;p&gt;Статья расскажет о лучших практиках обретения приватности в сети Биткоин. Это - важная составляющая сохранения как вашей безопасности, так и безопасности ваших монет.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Перевод &lt;a href="https://www.swanbitcoin.com/bitcoin-privacy-best-practices"&gt;статьи&lt;/a&gt; ДжиДжи подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“У каждого из нас есть собственное пространство, где мы принимаем важные решения и определяем собственное будущее — пространство с собственными основными правами и свободами, та часть нашей жизни, в которую закон, в общем-то, не должен вмешиваться.”&lt;/p&gt;
+&lt;p&gt;— Джеффри Фишер, архиепископ Кентерберийский (1959)&lt;/p&gt;</description></item><item><title>Никаких KYC, берегите персональные данные</title><link>https://21ideas.org/privacy/no-kyc/</link><pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/no-kyc/</guid><description>&lt;p&gt;Почему KYC - это зло и представляет собой опасность для пользователей? Существуют ли методы обхода этой процедуры и какие способы обхода KYC самые эффективные?&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ Перевод &lt;a href="https://bitcoinqna.github.io/noKYConly/"&gt;статьи&lt;/a&gt; BitcoinQnA подготовлен &lt;a href="https://snort.social/p/npub10awzknjg5r5lajnr53438ndcyjylgqsrnrtq5grs495v42qc6awsj45ys7"&gt;Тони⚡️&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.
+&lt;/blockquote&gt;
+
+&lt;h3 id="что-такое-kyc"&gt;
+ Что такое KYC?
+ &lt;a class="anchor" href="#%d1%87%d1%82%d0%be-%d1%82%d0%b0%d0%ba%d0%be%d0%b5-kyc"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;KYC или &amp;ldquo;Знай своего клиента&amp;rdquo; - это регламент, который должен соблюдать любой бизнес, имеющий отношение к банковской деятельности. Покупка/продажа биткоинов не является исключением. Эти правила действуют по всему миру и направлены на то, чтобы компания, занимающаяся обменом/переводом денежных средств, имела &amp;ldquo;соответствующую&amp;rdquo; информацию о каждом обслуживаемом клиенте.&lt;/p&gt;</description></item><item><title>Приватность в сети Биткоин</title><link>https://21ideas.org/privatnost-v-seti-bitcoin/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://21ideas.org/privatnost-v-seti-bitcoin/</guid><description>&lt;p&gt;Несмотря на то, что Биткоин может поддерживать высокий уровень конфиденциальности, многие способы его использования, как правило, приватными не назвать. При правильном понимании технологии, представляется возможность использования Биткоина действительно приватным и анонимным способом.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;em&gt;Перевод&lt;/em&gt; &lt;a href="https://en.bitcoin.it/wiki/Privacy"&gt;&lt;em&gt;статьи&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, опубликованной на сайте&lt;/em&gt; &lt;a href="https://en.bitcoin.it/wiki/Main_Page"&gt;&lt;em&gt;Bitcoin Wiki&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe"&gt;Tony ₿&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;По состоянию на 2019 год большинство биткоин-энтузиастов считали, что он с легкостью отслеживается; это заявление некорректно. Где-то в 2011 году большинство энтузиастов считали, что Биткоин абсолютно приватен, что также не соответствует реальности. Есть определенные нюансы — в определенных ситуациях Биткоин все же может быть приватным. Но это непросто понять, и от вас потребуется как время, так и целеустремленность.&lt;/p&gt;</description></item><item><title>Биткоин становится критически важным</title><link>https://21ideas.org/bitcoin-stanovitsya-kriticheski-vazhnym/</link><pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate><guid>https://21ideas.org/bitcoin-stanovitsya-kriticheski-vazhnym/</guid><description>&lt;p&gt;По мере того, как правительства ищут бэкдоры в шифровании, Биткоин становится критически важным.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;em&gt;Перевод &lt;a href="https://bitcoinmagazine.com/articles/as-governments-seek-encryption-backdoors-bitcoin-becomes-critical"&gt;статьи&lt;/a&gt;, опубликованной на сайте Bitcoin Magazine, подготовлен биткоинером &lt;a href="https://twitter.com/TonyCrusoe"&gt;Tony ₿&lt;/a&gt;. &lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;.&lt;/em&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6 ноября 2020 года Совет Европейского Союза опубликовал &amp;ldquo;Проект резолюции Совета по вопросам шифрования&amp;rdquo;. Предполагается, что он предшествует финальному тексту документа, который будет представлен Совету 19 ноября для возможного юридического принятия. В нем подчеркивается поддержка шифрования данных в целом, но также отмечаются проблемы, которые технологии шифрования создают для следователей, желающих получить доступ к переговорам преступников.&lt;/p&gt;</description></item><item><title>BIP47, или гадкий утенок</title><link>https://21ideas.org/bip47-ili-gadkij-utenok/</link><pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/bip47-ili-gadkij-utenok/</guid><description>&lt;p&gt;Из этой статьи вы узнаете о принципе работы протоколов BIP47 и PayNym, механизмах работы этих протоколов и практических приложениях, которые из них вытекают.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://www.pandul.fr/post/bip47-paynym-et-code-de-paiement-r%C3%A9utilisable"&gt;статьи&lt;/a&gt; &lt;a href="https://twitter.com/Loic_Pandul"&gt;Лоика Мореля&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;— Он больно велик! — говорили все, а индейский петух, который родился со шпорами на ногах и потому воображал себя императором, надулся и, словно корабль на всех парусах, подлетел к утенку, поглядел на него и пресердито залопотал; гребешок у него так весь и налился кровью. Бедный утенок просто не знал, что ему делать, как быть. И надо же ему было уродиться таким безобразным, каким-то посмешищем для всего птичьего двора!&lt;/p&gt;</description></item><item><title>Понимание и использование CoinJoin</title><link>https://21ideas.org/privacy/coinjoin/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://21ideas.org/privacy/coinjoin/</guid><description>&lt;p&gt;В этой статье мы рассмотрим, что такое CoinJoin, как он работает и как правильно его использовать. Мы поговорим в основном о Whirlpool, самой эффективной, на мой взгляд, реализации CoinJoin на сегодняшний день, но также рассмотрим и другие существующие реализации.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;Перевод &lt;a href="https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin"&gt;статьи&lt;/a&gt; &lt;a href="https://twitter.com/Loic_Pandul"&gt;Лоика Мореля&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://21ideas.org/contribute/"&gt;Поддержать проект&lt;/a&gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Одна из первоначальных проблем любой одноранговой платежной системы — двойные траты. Как предотвратить злоупотребление платежной сетью со стороны злоумышленников, которые могут потратить одни и те же средства несколько раз, не обращаясь при этом к центральному органу?&lt;/p&gt;</description></item><item><title>Взаимозаменяемость Биткоина</title><link>https://21ideas.org/bitcoin-fungibility/</link><pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate><guid>https://21ideas.org/bitcoin-fungibility/</guid><description>&lt;blockquote class="book-hint btc"&gt;
+ Эта презентация была представлена &lt;a href="https://twitter.com/SamouraiDev"&gt;TDevD&lt;/a&gt;, одним из разработчиков Samourai Wallet, в подкасте &lt;a href="https://twitter.com/i/broadcasts/1kvKpoogOMPxE"&gt;Dirtcoin Diaries&lt;/a&gt;.
+&lt;/blockquote&gt;
+&lt;p&gt;Итак, в целом это просто мои взгляды на текущее положение дел в вопросе взаимозаменяемости Биткоина. Я постараюсь избежать лишнего потока сознания и сразу перейти к делу.&lt;/p&gt;
+&lt;div class="imageWrapper"&gt;
+ &lt;img src="https://21ideas.org/img/bitcoin-fungibility/02-ru.webp"&gt;
+&lt;/div&gt;
+&lt;p&gt;Для начала я поиграю в адвоката дьявола. Возможно, все наши проблемы с взаимозаменяемостью – это наша вина, возможно, мы упустили момент и позволили государству определить Биткоин как &amp;ldquo;деньги&amp;rdquo;. Следуя примеру Сатоши, который определил Биткоин в &lt;a href="https://21ideas.org/whitepaper"&gt;Белой книге&lt;/a&gt;, как цифровую наличность, мы взяли его нарратив и помчались его продвигать. Мы могли бы с самого начала бороться за то, чтобы Биткоин был классифицирован как простой текст. Например, кошельки – это не что иное, как связки публичных/приватных ключей. И хотя все это для некоторых является сугубо техническим и не способствует массовому принятию, определение Биткоина как текста было бы одним из способов сдержать нападки регуляторов, пока эта штука не воспринималась бы как деньги.&lt;/p&gt;</description></item><item><title>#FreeSamourai</title><link>https://21ideas.org/freesamourai/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://21ideas.org/freesamourai/</guid><description>&lt;p&gt;Основатели кошелька Samourai Wallet были арестованы, и им были предъявлены обвинения, несмотря на то что они следовали закону. Похоже, правительство США начинает очередную кампанию против приватности, и мы не можем допустить, чтобы она осталась без ответа.&lt;/p&gt;
+&lt;blockquote class="book-hint btc"&gt;
+ &lt;p&gt;На обложке: Wallet Guy и TDevD лицом к лицу со злом.&lt;/p&gt;
+&lt;p&gt;Перевод статьи &lt;a href="https://ronindojo.io/author/dammkewl/"&gt;dammkewl&lt;/a&gt;, &lt;a href="https://ronindojo.io/freesamourai/"&gt;опубликованной&lt;/a&gt; в блоге RoninDojo.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://blog.ronindojo.io/freesamourai"&gt;English 🇬🇧🇺🇸🇦🇺🇳🇿&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://blog.ronindojo.io/freesamourai-es/"&gt;Español 🇪🇸🇲🇽🇨🇴🇦🇷🇵🇪&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://blog.ronindojo.io/freesamourai-pt/"&gt;Português 🇵🇹🇧🇷&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://episodes.fm/1491067458/episode/ZTUxYmU4ZmItNjlmMy00YWZiLTk4M2UtMDhkMWQyNjY4ZTg5"&gt;Audio (English)&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="samourai-wallet"&gt;
+ Samourai Wallet
+ &lt;a class="anchor" href="#samourai-wallet"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;С самого начала Samourai Wallet был прозрачен в отношении своих продуктов. Они выложили в открытый доступ свой код и объяснили особенности каждого сервиса, который они запускали. Все это было сделано публично поскольку им, как ни странно, нечего было скрывать.&lt;/p&gt;</description></item></channel></rss>
