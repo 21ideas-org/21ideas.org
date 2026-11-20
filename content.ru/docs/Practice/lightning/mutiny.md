@@ -11,6 +11,10 @@ bookToc: true
 weight: 8
 ---
 
+{{< hint danger >}}
+Кошелек Mutiny закрылся 31 декабря 2024 года. Команда объявила о закрытии в августе 2024 года ([блог Mutiny](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down)). Руководство оставлено для истории.
+{{< /hint >}}
+
 Недавно я послушал эпизод [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC), в котором  [@stephanlivera](https://stacker.news/stephanlivera) и [@benthecarman](https://stacker.news/benthecarman) рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к [сети Лайтнинг](/what-is-lightning-network). Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.
 
 {{< hint btc>}}
