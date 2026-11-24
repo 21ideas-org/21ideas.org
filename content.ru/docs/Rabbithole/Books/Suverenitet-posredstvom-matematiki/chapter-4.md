@@ -9,6 +9,11 @@ bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 5
+audio:
+  label: "Непорочное зачатие"
+  url: "https://audio.21ideas.org/podcasts/books/sovereignty-through-math/chapter-04.mp3"
+  mimeType: "audio/mpeg"
+  durationSeconds: 727
 ---
 
 {{< details "Оглавление" "..." >}}

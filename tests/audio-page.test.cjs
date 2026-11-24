@@ -46,7 +46,17 @@ test('Hugo renders audio only on the published Russian chapters, before its text
     assert.match(chapter3, /<audio controls preload=none/);
     assert.ok(chapter3.indexOf('<h1>') < chapter3.indexOf('data-audio-player'));
     assert.ok(chapter3.indexOf('data-audio-player') < chapter3.indexOf('<article'));
-    for (const url of ['suverenitet-posredstvom-matematiki/glava-4',
+    const chapter4 = page('suverenitet-posredstvom-matematiki/glava-4');
+    assert.match(chapter4, /data-audio-player/);
+    assert.match(chapter4, /src=https:\/\/audio\.21ideas\.org\/podcasts\/books\/sovereignty-through-math\/chapter-04\.mp3/);
+    assert.match(chapter4, /data-audio-duration=727/);
+    assert.match(chapter4, /class=audio-heading>Непорочное зачатие<\/p>/);
+    assert.match(chapter4, /0:00 \/ 12:07/);
+    assert.match(chapter4, /<audio controls preload=none/);
+    assert.ok(chapter4.indexOf('<h1>') < chapter4.indexOf('data-audio-player'));
+    assert.ok(chapter4.indexOf('data-audio-player') < chapter4.indexOf('<article'));
+    for (const url of ['suverenitet-posredstvom-matematiki/glava-5',
+      'en/suverenitet-posredstvom-matematiki/glava-4',
       'en/suverenitet-posredstvom-matematiki/glava-3',
       'en/suverenitet-posredstvom-matematiki/glava-2',
       'en/suverenitet-posredstvom-matematiki/glava-1', 'suverenitet-posredstvom-matematiki']) {
