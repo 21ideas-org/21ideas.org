@@ -1,5 +1,5 @@
 ---
-title: "Starting with Mutiny Wallet"
+title: "Starting with Mutiny Wallet (archive)"
 h1: "Starting with Mutiny Wallet"
 cover: /img/mutiny/01.png
 tags: ["bitcoin", "hodl", "private keys", "security", "mobile wallet", "lightning"]
@@ -10,6 +10,10 @@ bookFlatSection: false
 bookToc: true
 weight: 8
 ---
+
+{{< hint danger >}}
+The hosted Mutiny Wallet shut down on December 31, 2024, and the app was removed from the Apple App Store and Google Play. The team published a [shutdown timeline and FAQ](https://blog.mutinywallet.com/mutiny-timeline/). This guide is archived.
+{{< /hint >}}
 
 Recently, I listened to an episode of [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC) featuring a discussion between [@stephanlivera](https://stacker.news/stephanlivera) and [@benthecarman](https://stacker.news/benthecarman) about Mutiny Wallet. Ben illustrated the straightforward process of getting started with Mutiny — merely sending a link connects you directly to the [Lightning Network](/en/what-is-lightning-network). I've been curious about Mutiny for a while now, so it's about time I checked it out for myself. Let’s dive in and see what it’s all about.
 

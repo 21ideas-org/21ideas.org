@@ -23,4 +23,4 @@ weight: 6
 
 7. [Руководство по управлению ликвидностью в сети Lightning](/likvidnost-v-lajtning)
 
-8. [Кошелек Mutiny](/mutiny)
+8. [Кошелек Mutiny (архив)](/mutiny)

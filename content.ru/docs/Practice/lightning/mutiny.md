@@ -1,5 +1,5 @@
 ---
-title: "Кошелек Mutiny"
+title: "Кошелек Mutiny (архив)"
 h1: "Кошелек Mutiny"
 cover: /img/mutiny/01.png
 tags: ["bitcoin", "hodl", "private keys", "security", "mobile wallet", "lightning"]
@@ -10,6 +10,10 @@ bookFlatSection: false
 bookToc: true
 weight: 8
 ---
+
+{{< hint danger >}}
+31 декабря 2024 года команда Mutiny Wallet отключила веб-версию кошелька и убрала приложение из App Store и Google Play. Подробности опубликованы в [графике закрытия и ответах на частые вопросы](https://blog.mutinywallet.com/mutiny-timeline/). Это архивное руководство.
+{{< /hint >}}
 
 Недавно я послушал эпизод [SLP551](https://fountain.fm/episode/JLUwVlKLRjkUpbffvQEC), в котором  [@stephanlivera](https://stacker.news/stephanlivera) и [@benthecarman](https://stacker.news/benthecarman) рассказывали о кошельке Mutiny. Бен наглядно описал несложный процесс начала работы с Mutiny — простая отправка ссылки подключает вас непосредственно к [сети Лайтнинг](/what-is-lightning-network). Мне уже давно было интересно узнать о Mutiny, так что самое время проверить его в деле. Давайте окунемся глубже и посмотрим, что же это такое.
 
