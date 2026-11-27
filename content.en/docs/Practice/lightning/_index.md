@@ -20,4 +20,4 @@ aliases: ['/lntips']
 
 5. [Lightning Liquidity Management Guide](/en/lightning-liquidity-management-guide)
 
-6. [Starting with Mutiny Wallet](/en/mutiny)
+6. [Starting with Mutiny Wallet (archive)](/en/mutiny)

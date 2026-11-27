@@ -45,7 +45,7 @@ The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndc
 	
 	- Zeus
 	
-	- Mutiny
+	- Mutiny (shut down)
 	
 	- Blixt
 
@@ -241,6 +241,10 @@ A detailed guide is available [here](/en/phoenix).
 
 ## Mutiny
 
+{{< hint danger >}}
+The hosted Mutiny Wallet shut down on December 31, 2024. This section is archived. See the team's [shutdown timeline and FAQ](https://blog.mutinywallet.com/mutiny-timeline/).
+{{< /hint >}}
+
 [Mutiny](https://www.mutinywallet.com) — quite an interesting wallet in light of [grants the team received](https://bitcoinmagazine.com/business/mutiny-wallet-raises-over-300k-in-preseed-funding) and ambitious plans.
 
 | Non-custodial | ✅ |
@@ -299,13 +303,13 @@ Despite the fact that Zeus offers a wide range of features, which better suits m
 
 Using an LSP (Lightning Service Provider) is probably the best option for those who want to switch from a custodial wallet to a non-custodial wallet, but are not ready to fully dive into channel management.
 
-It's simple: when you start the wallet, you select that you want to use LSP, and Zeus will manage the liquidity for you — it will open a channel and will refill it if needed. No action is required from you — you can just use the wallet similarly to how you used the custodial wallet. Here the behavior of Zeus and Mutiny is almost identical.
+It's simple: when you start the wallet, you select that you want to use LSP, and Zeus will manage the liquidity for you — it will open a channel and will refill it if needed. No action is required from you — you can just use the wallet similarly to how you used the custodial wallet.
 
 {{< hint warning >}}
-When using LSs, regardless of the wallet - Phoenix, Mutiny, Zeus or Blixt - it is important to track inbound liquidity (see the screenshot below). If it is exhausted, when receiving the next payment, the provider will be forced to open a new channel, which will require an onchain transaction and result in additional fees.
+When using an LSP, regardless of the wallet, it is important to track inbound liquidity (see the screenshot below). If it is exhausted, when receiving the next payment, the provider will be forced to open a new channel, which will require an onchain transaction and result in additional fees.
 
-{{% image "/img/ln-wallets/channels.webp" %}}
-_Displaying channels' liquidity in Mutiny Wallet_
+{{% image "/img/ln-wallets/phoenix-channels.webp" %}}
+_Channel liquidity in Phoenix Wallet_
 {{% /image %}}
 
 To avoid paying additional fees you can buy some goods or services with Lightning, send funds to another wallet or use one of the services to swap Lightning sats for onchain bitcoins.
@@ -489,7 +493,7 @@ There are already many Lightning wallets, and every day new solutions emerge and
 |Coin OS|❌|✅|✅|✅|Beginners|
 |Alby|✅|✅|✅|✅|Beginners / Intermediate|
 |Phoenix|✅|✅|❌|✅|Intermediate|
-|Mutiny|✅|✅|❌|✅|Intermediate / Pro|
+|Mutiny (shut down)|✅|✅|❌|✅|Intermediate / Pro|
 |Zeus|✅|✅|✅|✅|Intermediate / Pro|
 |Valet|✅|✅|❌|✅|Pro|
 |Blixt|✅|✅|✅|✅|Pro|
