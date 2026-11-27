@@ -9,6 +9,11 @@ bookFlatSection: false
 bookToc: true
 date: 2019-05-18
 weight: 6
+audio:
+  label: "Proof of Work"
+  url: "https://audio.21ideas.org/podcasts/books/sovereignty-through-math/chapter-05.mp3"
+  mimeType: "audio/mpeg"
+  durationSeconds: 483
 ---
 
 {{< details "Оглавление" "..." >}}
