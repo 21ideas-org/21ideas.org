@@ -45,8 +45,6 @@ The guide written by [Tony⚡️](https://njump.me/npub10awzknjg5r5lajnr53438ndc
 	
 	- Zeus
 	
-	- Mutiny (shut down)
-	
 	- Blixt
 
 - Apps for remote node management:
@@ -239,50 +237,6 @@ This wallet can be recommended as a second LN app for those who regularly use on
 A detailed guide is available [here](/en/phoenix).
 {{< /hint >}}
 
-## Mutiny
-
-{{< hint danger >}}
-The hosted Mutiny Wallet shut down on December 31, 2024. This section is archived. See the team's [shutdown timeline and FAQ](https://blog.mutinywallet.com/mutiny-timeline/).
-{{< /hint >}}
-
-[Mutiny](https://www.mutinywallet.com) — quite an interesting wallet in light of [grants the team received](https://bitcoinmagazine.com/business/mutiny-wallet-raises-over-300k-in-preseed-funding) and ambitious plans.
-
-| Non-custodial | ✅ |
-|-----------------|:---:|
-| Onchain | ✅ |
-| LN address | ❌ |
-| Open source | ✅ [GitHub](https://github.com/MutinyWallet/mutiny-web) |
-| Suitable for | Intermediate |
-
-The wallet looks good against rivals: despite rather high initial fees for opening channels, the wallet's features are worth it.
-
-| **Event** | **Fee** |
-|-------------|--------------|
-| Opening a channel | Depends on onchain fees + 10,000 sat |
-| Sending via LN | Small - 1-2 sat |
-| Basic routing fee | 0 sat |
-| Routing fee rate | 0 ppm |
-
-The first obvious highlight of Mutiny is the fact that it is a Progressive Web App, meaning that to install Mutiny, you simply need to open their website in your native browser (whether on your smartphone or computer) and add it to your desktop (or app folder). You can find out a bit more about Progressive web apps in my post [here](https://habla.news/tony/PWA)
-
-Channel management here is done "under the hood" and no user action is required. Except for the occasional need for "manual channel rebalancing" when inbound liquidity gets too low. The wallet shows your channels and their balances, but does not allow you to interact with them in any way.
-
-{{% image "/img/ln-wallets/mutiny-channels.webp" %}}
-_Display of channels in Mutiny Wallet_
-{{% /image %}}
-
-But Mutiny offers a lot of advanced features, such as connecting the wallet to Nostr apps to send one-tap zaps and LNURL authentication. The wallet also provides the ability to receive and send onchain funds, but does not offer advanced features such as UTXO management, RBF and CPFP. Some interesting features, such as CoinJoin are in development. You can learn more about the future developments and unique features of Mutiny in [this beginner guide](/en/mutiny).
-
-Recurring LN payments are also available for project patrons (16k sats per month) and the ability to comfortably gift sats to newbies.
-
-| **Pros** | **Cons** |
-| --------------------- | -------------------------------------- |
-| ✅ Backup phrase | 🚫 High fees for opening a channel |
-| ✅ Onchain wallet | 🚫 Lack of advanced onchain features |
-| ✅ Open source | 🚫 Unable to manage channels |
-| ✅ Nostr integration | 🚫 No Lightning addresses |
-| ✅ LNURL Auth | |
-  
 ## Zeus
 
 [Zeus](https://zeusln.com) — the first wallet in our review to offer full-featured channel management and fine-tuning of your pocket Lightning node.
@@ -493,7 +447,6 @@ There are already many Lightning wallets, and every day new solutions emerge and
 |Coin OS|❌|✅|✅|✅|Beginners|
 |Alby|✅|✅|✅|✅|Beginners / Intermediate|
 |Phoenix|✅|✅|❌|✅|Intermediate|
-|Mutiny (shut down)|✅|✅|❌|✅|Intermediate / Pro|
 |Zeus|✅|✅|✅|✅|Intermediate / Pro|
 |Valet|✅|✅|❌|✅|Pro|
 |Blixt|✅|✅|✅|✅|Pro|
